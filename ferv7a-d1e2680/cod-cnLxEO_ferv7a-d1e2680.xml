@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 119</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 119</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="370"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2680"><!-- ferv7a-l3c119 -->
+            <head>Capitulum 119</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="85" type="fixed=370"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="86"/>POSTQUAM determinavit Sanctus Thomas de praeceptis
+<lb ed="#L" n="87"/>quae ad praecepta decalogi praesupponuntur, incipit
+<lb ed="#L" n="88"/>de ipsis decalogi praeceptis determinare .
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Circa hoc autem duo facit: primo, determinat de 
+prae<lb ed="#L" break="no" n="90"/>ceptis quibus homo ordinatur ad Deum ; secundo, de 
+prae<lb ed="#L" break="no" n="91"/>ceptis qUIDUF ad proximum ordinatur, cap. cxxi. - Circa
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="92"/>primum duo facit: primo, ostendit quod per divinam 
+le<lb ed="#L" break="no" n="93"/>gem ordinatur homo ad cultum divinum ; secundo, ostendit
+<lb ed="#L" n="94"/>quod ille cultus nulli alii est exhibendus, capite sequenti.
+<lb ed="#L" n="95"/>Circa primum tria facit: primo, ostendit convenienter
+<lb ed="#L" n="96"/>per divinam legem huiusmodi cultum, qui in quibusdam
+<lb ed="#L" n="97"/>corporalibus rebus consistit, esse ordinatum ; secundo, quo-
+<pb ed="#L" n="371"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rundam opinionem reprehendit; tertio, ponit congruentiam
+<lb ed="#L" n="2"/>nominum quibus huiusmodi cultus nominatur .
+</p>
+            <p>
+               <lb ed="#L" n="3"/>I. Quantum ad primum, ponit hanc conclusionem:
+<lb ed="#L" n="4"/>Convenienter homini divinitus provisum est ut etiam in
+<lb ed="#L" n="5"/>sensibilibus rebus divinorum sibi commemoratio fieret.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Probatur. Connaturale est homini ut per sensus accipiat
+<lb ed="#L" n="7"/>cognitionem; et difficillimum est transcendere sensibilia,
+<lb ed="#L" n="8"/>Ergo hominis, cuius mens non est valida ad divina in
+<lb ed="#L" n="9"/>seipsis contemplanda, revocanda erat intentio ad divina,
+<lb ed="#L" n="10"/>quod est legis intentio, per sensibiles res.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Quomodo autem per sensibilia in divina lege contenta
+<lb ed="#L" n="12"/>elevaretur mens hominis in Deum, ostendit Sanctus 
+Tho<lb ed="#L" break="no" n="13"/>mas per singula genera discurrendo. Sacrificia enim 
+sen<lb ed="#L" break="no" n="14"/>sibilia, quae Deo homo offert, sunt instituta non quia eis
+<lb ed="#L" n="15"/>Deus indigeat, sed ut homini repraesentetur quod seipsum
+<lb ed="#L" n="16"/>et omnia sua debet referre in Deum sicut in finem, 
+tan<lb ed="#L" break="no" n="17"/>quam in Creatorem et Gubernatorem et Dominum 
+uni<lb ed="#L" break="no" n="18"/>versorum. — Sanctificationes per res sensibiles, quibus homo
+<lb ed="#L" n="19"/>lavatur aut ungitur, et huiusmodi, cum sensibilium 
+verbo<lb ed="#L" break="no" n="20"/>rum prolatione, sunt institutae ut homini per sensibilia
+<lb ed="#L" n="21"/>repraesentetur donorum intelligibilium in ipso processum
+<lb ed="#L" n="22"/>ab extrinseco fieri et a Deo, cuius nomen sensibilibus
+<lb ed="#L" n="23"/>vocibus exprimitur. — Prostrationes vero, genuflexiones
+<lb ed="#L" n="24"/>et huiusmodi, sunt instituta non ut per huiusmodi excitetur
+<lb ed="#L" n="25"/>Deus, quasi Deus eis indigeat: sed ut seipsos homines 
+pro<lb ed="#L" break="no" n="26"/>vocent ad divina; et simul cum hoc, profiteamur Deum
+<lb ed="#L" n="27"/>animae et corporis auctorem esse, cui et corporalia et
+<lb ed="#L" n="28"/>spiritualia obsequia exhibemus.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>IL. Quantum ad secundum, inquit Sanctus Thomas
+<lb ed="#L" n="30"/>non esse mirum si haeretici qui corporis nostri Deum
+<lb ed="#L" n="31"/>esse auctorem negant, huiusmodi corporalia obsequia Deo
+<lb ed="#L" n="32"/>fieri reprehendunt. Sed et ipsi reprehenduntur. Quia non
+<lb ed="#L" n="33"/>meminerunt se homines esse, dum sensibilium sibi 
+reprae<lb ed="#L" break="no" n="34"/>sentationem necessariam esse non iudicant ad interiorem
+<lb ed="#L" n="35"/>cognitionem et affectionem. Cuius oppositum experimento
+<lb ed="#L" n="36"/>apparet.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>HI. Quantum ad tertium , quinque nominum rationem
+<lb ed="#L" n="38"/>assignat Sanctus Thomas quibus exhibitionem horum 
+cor<lb ed="#L" break="no" n="39"/>poralium Deo nuncupamus. Dicitur enim primo, cultus
+<lb ed="#L" n="40"/>Dei: quia colere dicimur quibus per nostra opera studium
+<lb ed="#L" n="41"/>exhibemus; circa Deum autem exhibemus studium nostro
+<lb ed="#L" n="42"/>actu, non ad eius profectum, sed ad nostrum. Addit quoque
+<lb ed="#L" n="43"/>quod interioribus actibus proprie Deum colimus, quia per
+<lb ed="#L" n="44"/>directe in Deum tendimus: exteriores tamen actus
+<lb ed="#L" n="45"/>et ipsi ad cultum Dei pertinent, inquantum per ipsos mens
+<lb ed="#L" n="46"/>nostra elevatur in Deum.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Dicitur secundo huiusmodi cultus religio: quia homo
+<lb ed="#L" n="48"/>huiusmodi actibus se quodammodo. /igat, ne a Deo 
+eva<lb ed="#L" break="no" n="49"/>getur. Et etiam quia quodam naturali instinctu se 
+obli<lb ed="#L" break="no" n="50"/>gatum sentit ut Deo suo modo reverentiam impendat.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>Dicitur tertio ipsa religio pietas: quia Deo, Parenti
+<lb ed="#L" n="52"/>omnium, per ipsam honor exhibetur. Et propterea 
+dicun<lb ed="#L" break="no" n="53"/>tur impii qui iis quae ad divinum cultum pertinent, 
+ad<lb ed="#L" break="no" n="54"/>versantur.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Dicitur quarto id quod in honorem exhibemus 
+servi<lb ed="#L" break="no" n="56"/>tium: quia totum nostrum esse in potestate Dei est, et
+<lb ed="#L" n="57"/>totum quod in nobis est ipsi debemus, propter quod vere
+<lb ed="#L" n="58"/>Dominus noster est.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Dicitur quinto, Jatria. Quia enim Deus est Dominus
+<lb ed="#L" n="60"/>non per accidens, sicut omnis  homo (qui scilicet 
+domi<lb ed="#L" break="no" n="61"/>nium habet), sed per naturam: ideo aliter debetur 
+servi<lb ed="#L" break="no" n="62"/>tium Deo, et aliter homini, cui per accidens subdimur,
+<lb ed="#L" n="63"/>inquantum aliquod particulare in rebus dominium habet,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="64"/>et suum dominium derivatur  a Deo (supra scilicet 
+na<lb ed="#L" break="no" n="65"/>turae debitum). Ideo servitium quod Deo debetur, apud
+<lb ed="#L" n="66"/>Graecos specialiter Jatria vocatur.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>2. Circa nomen hoc divinus cultus, sive Dei cultus,
+<lb ed="#L" n="68"/>advertendum est, ex doctrina Sancti Thomae II I^, q.
+<lb ed="#L" n="69"/>Lxxxi, a. 1 , quod colere dicimur aliqua quando ea vel
+<lb ed="#L" n="70"/>recordatione, vel honorificatione, vel praesentia 
+frequen<lb ed="#L" break="no" n="71"/>tamus: sicut agricolae dicuntur quia agros colunt, et eos
+<lb ed="#L" n="72"/>sua praesentia et opera frequentant; ef incolae dicuntur
+<lb ed="#L" n="73"/>quia colunt loca quae inhabitant. In hunc sensum 
+intel<lb ed="#L" break="no" n="74"/>ligenda sunt verba ipsius hoc loco, cum ait quod colere
+<lb ed="#L" n="75"/>dicimur ea quibus per nostra opera studium adhibemus :
+<lb ed="#L" n="76"/>sensus enim est quod ea dicimur colere quae nostris 
+ope<lb ed="#L" break="no" n="77"/>ribus, studio et diligentia frequentamus. Sed aliqua nostris
+<lb ed="#L" n="78"/>operibus frequentamus ad illorum profectum: sicut colimus
+<lb ed="#L" n="79"/>agros ut fructificent, Deum autem non dicimur nostris
+<lb ed="#L" n="80"/>operibus frequentare ad ipsius profectum et utilitatem :
+<lb ed="#L" n="81"/>sed eum recordatione et honorificatione frequentamus, quia
+<lb ed="#L" n="82"/>per huiusmodi actus proficimus in Deum, ut dictum est
+<lb ed="#L" n="83"/>supra. Propter hoc exhibitio honoris quem Deo per 
+sen<lb ed="#L" break="no" n="84"/>Sibilia exhibemus, sed in primis per interiorem ipsius 
+re<lb ed="#L" break="no" n="85"/>cordationem et venerationem, convenienter Dei cultus 
+no<lb ed="#L" break="no" n="86"/>minatur, quia est frequens recordatio Dei et honorificatio.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>3. Circa id quod dicitur, hominem. esse dominum per
+<lb ed="#L" n="88"/>accidens, Deum vero per naturam, attendendum est quod
+<lb ed="#L" n="89"/>aliter loquendum est de dominio quo unus alium regulat
+<lb ed="#L" n="90"/>et dirigit in operibus suis: et aliter de dominio quo 
+quic<lb ed="#L" break="no" n="91"/>quid est in subdito, est domini et illi debetur. Item aliter
+<lb ed="#L" n="92"/>loquendum est de aptitudine ad dominandum: et aliter
+<lb ed="#L" n="93"/>de actuali dominatione. Si loquamur de dominio primo
+<lb ed="#L" n="94"/>modo, sic, quantum ad aptitudinem et convenientiam
+<lb ed="#L" n="95"/>dominationis, aliqui homines non per accidens, sed per
+<lb ed="#L" n="96"/>naturam sunt domini. Vigentes enim ingenio naturaliter
+<lb ed="#L" n="97"/>sunt domini: ut dicitur Prov. x1, Qui stultus est, sapienti
+<lb ed="#L" n="98"/>serviet; et est Philosophi in sua Politica. — Quantum
+<lb ed="#L" n="99"/>vero. ad actualem. dominationem, non est aliquis per 
+na<lb ed="#L" break="no" n="100"/>turam dominus, sed per accidens: inquantum aliqui 
+eli<lb ed="#L" break="no" n="101"/>gunt unius directioni et gubernationi subiecti esse. Et
+<lb ed="#L" n="102"/>saepenumero videmus eos qui ingenio vigent, subdi et
+<lb ed="#L" n="103"/>regulari; crassos vero et rudes regere ac gubernare.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Si vero loquamur. de dominio secundo modo, sic 
+ma<lb ed="#L" break="no" n="105"/>nifestum est quod homini per accidens convenit. Videmus
+<lb ed="#L" n="106"/>enim eum qui alicuius alterius vere dominus erat, et cuius
+<lb ed="#L" n="107"/>alter erat servus, fieri alterius servum. Quod est signum
+<lb ed="#L" n="108"/>huiusmodi dominium non esse secundum naturam, cum
+<lb ed="#L" n="109"/>naturalia non varientur: sed magis per accidens et praeter
+<lb ed="#L" n="110"/>naturam homini convenire.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>De hoc ergo secundo dominio loquitur Sanctus Thomas
+<lb ed="#L" n="112"/>hoc loco. Quod patet ex eo quod, de Dei dominio 
+lo<lb ed="#L" break="no" n="113"/>quens, inquit, quoniam totum quod in nobis est ipsi 
+de<lb ed="#L" break="no" n="114"/>bemus, ac per hoc vere Dominus noster est. — Potest etiam
+<lb ed="#L" n="115"/>intelligi de actuali dominatione: quam etiam diximus 
+ho<lb ed="#L" break="no" n="116"/>mini per accidens convenire. Primum tamen melius est.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>4. Circa nomen /a£riae, considerandum est quod non
+<lb ed="#L" n="118"/>sic Dei cultum significat apud theologos quasi haec sit
+<lb ed="#L" n="119"/>propria nominis significatio. Ut enim Suidas et alii Graeci
+<lb ed="#L" n="120"/>dicunt, latria est servitus sive servitium pro mercede: 
+de<lb ed="#L" break="no" n="121"/>ducitur enim originaliter ab hoc nomine /atror, quod 
+prae<lb ed="#L" break="no" n="122"/>mium et mercedem significat. Sed puto a Catholicis Graecis
+<lb ed="#L" n="123"/>nomen hoc assumptum esse ad significandum particulariter
+<lb ed="#L" n="124"/>Dei cultum, servitiumque quod Deo impenditur, quia Deo
+<lb ed="#L" n="125"/>servitium animo sincero exhibentes magnum praemium,
+<lb ed="#L" n="126"/>magnamque mercedem expectant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

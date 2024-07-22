@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 67</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 67</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="190"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2255"><!-- ferv7a-l3c67 -->
+            <head>Capitulum 67</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="91" type="fixed=190"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="92"/>POSTQUAM ostendit Sanctus Thomas divinam 
+providen<lb ed="#L" break="no" n="93"/>tiam ad esse rerum omnium se extendere, vult nunc
+<lb ed="#L" n="94"/>ostendere quod ad omnium rerum operationes se extendit .
+<lb ed="#L" n="95"/>Circa hoc autem duo facit. Primo, ostendit propositum;
+<lb ed="#L" n="96"/>secundo, removet quaedam dubia, cap. rxxi.
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="97"/>Circa primum tria facit: primo, ostendit propositum;
+<lb ed="#L" n="98"/>secundo, infert quoddam corollarium, cap. seq.; tertio,
+<lb ed="#L" n="99"/>quandam falsam opinionem excludit, cap. rxix.
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="100"/>I. Quantum ad primum, ponit hanc conclusionem:
+<lb ed="#L" n="101"/>Deus est causa omnibus operantibus ut operentur.
+</p>
+            <p>
+               <pb ed="#L" n="191"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Probatur primo. Omne operans est aliquo modo causa
+<lb ed="#L" n="2"/>essendi: vel secundum esse substantiale, vel secundum esse
+<lb ed="#L" n="3"/>accidentale. Sed nihil est causa essendi nisi inquantum
+<lb ed="#L" n="4"/>agit in virtute divina. Ergo esse operans operatur per
+<lb ed="#L" n="5"/>virtutem Dei
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Adverte quod, licet, altera praemissarum existente 
+ne<lb ed="#L" break="no" n="7"/>gativa, conclusio affirmativa non possit inferri regulariter
+<lb ed="#L" n="8"/>et secundum debitam formam arguendi, non curans tamen
+<lb ed="#L" n="9"/>de forma arguendi, hoc loco Sanctus Thomas affirmativam
+<lb ed="#L" n="10"/>conclusionem, altera praemissarum existente negativa, 
+in<lb ed="#L" break="no" n="11"/>fert: quia in illa negativa manifeste includitur affirmativa
+<lb ed="#L" n="12"/>ad debitam formam requisita, scilicet haec, Omne quod
+<lb ed="#L" n="13"/>est causa essendi, agit in virtute Dei. Unde ex illis 
+pro<lb ed="#L" break="no" n="14"/>positionibus sic argui formaliter potest: - Omne quod est
+<lb ed="#L" n="15"/>causa essendi, agit in virtute Dei. Sed omne operans est
+<lb ed="#L" n="16"/>causa essendi, sua scilicet operatione. Ergo omne operans
+<lb ed="#L" n="17"/>agit in virtute Dei.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>II. Secundo. Omnis virtus uniuscuiusque  agentis est
+<lb ed="#L" n="19"/>a Deo, sicut a principio omnis perfectionis. Ergo 
+cuius<lb ed="#L" break="no" n="20"/>libet operationis Deus est causa. — Probatur consequentia.
+<lb ed="#L" n="21"/>Quia omnis operatio quae consequitur aliquam virtutem,
+<lb ed="#L" n="22"/>attribuitur sicut causae illi rei quae dedit illam virtutem:
+<lb ed="#L" n="23"/>ut patet de motu gravium et levium, qui attribuitur 
+ge<lb ed="#L" break="no" n="24"/>neranti. Omnis autem operatio consequitur aliquam 
+vir<lb ed="#L" break="no" n="25"/>tutem.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>III. Tertio. Cessante influentia divina, omnis operatio
+<lb ed="#L" n="27"/>cessaret. Ergo omnis operatio in Deum, sicut in causam
+<lb ed="#L" n="28"/>reducitur. - Probatur consequentia. Quia omnis actio quae
+<lb ed="#L" n="29"/>non potest permanere cessante impressione alicuius agentis,
+<lb ed="#L" n="30"/>est ab illo agente. Declaratur in manifestatione coloris a
+<lb ed="#L" n="31"/>sole, et in motibus violentis. — Antecedens vero probatur.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Quia sicut Deus non solum dedit esse rebus cum primo
+<lb ed="#L" n="33"/>esse incoeperunt, sed quandiu sunt, eas in esse conservans,
+<lb ed="#L" n="34"/>causat in eis esse; ita non solum cum res primo conditae
+<lb ed="#L" n="35"/>sunt, eis virtutes operativas Tidit , sed semper eas in
+<lb ed="#L" n="36"/>rebus causat. .
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Adverte quod fundamentum boim rationis est, quoniam
+<lb ed="#L" n="38"/>quicquid est causa causae, est etiam causa effectus. Ex hoc
+<lb ed="#L" n="39"/>enim sequitur, cum virtus sit causa operationis, et Deus
+<lb ed="#L" n="40"/>sit semper causa virtutis quandiu manet virtus, quod Deus
+<lb ed="#L" n="41"/>sit etiam causa operationis.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>IV. Quarto. Omnis applicatio virtutis ad operationem
+<lb ed="#L" n="43"/>est principaliter et primo a Deo. Ergo etc. -- Probatur
+<lb ed="#L" n="44"/>antecedens. Quia applicantur virtutes operativae ad 
+pro<lb ed="#L" break="no" n="45"/>prias operationes per aliquem motum: vel corporis; vel
+<lb ed="#L" n="46"/>animae, puta apprehensionis et appetitus. Primum autem
+<lb ed="#L" n="47"/>principium utriusque motus est Deus: cum sit primum
+<lb ed="#L" n="48"/>movens omnino immobile; et omnis motus voluntatis 
+re<lb ed="#L" break="no" n="49"/>ducatur in Deum sicut in primum appetibile et in 
+pri<lb ed="#L" break="no" n="50"/>mum volentem. — Consequentia vero probatur. Quia 
+quic<lb ed="#L" break="no" n="51"/>quid applicat aliquam virtutem ad agendum, dicitur causa
+<lb ed="#L" n="52"/>illius actionis.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Advertendum quod, cum voluntas sit et causa secunda
+<lb ed="#L" n="54"/>aliquo modo agens respectu suae operationis; et talis causa
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="55"/>quae est appetitus; duplicem habet comparationem ad
+<lb ed="#L" n="56"/>Deum. Una est sicut ad primum agentem, alia sicut ad
+<lb ed="#L" n="57"/>primum appetibile: nam Deus movet voluntatem ad 
+opera<lb ed="#L" break="no" n="58"/>tionem et per modum agentis, et per modum finis, 
+San<lb ed="#L" break="no" n="59"/>ctus "Thomas ergo, ad significandum hanc duplicem 
+com<lb ed="#L" break="no" n="60"/>parationem, dixit quod motus voluntatis quo applicantur
+<lb ed="#L" n="61"/>aliquae virtutes ad operandum, reducitur in Deum sicut
+<lb ed="#L" n="62"/>in primum appetibile, in quo signatur ordo ad ipsum 
+tan<lb ed="#L" break="no" n="63"/>quam ad finem; et sicut im primum volentem, in quo
+<lb ed="#L" n="64"/>signatur ordo in ipsum sicut in primum movens et in
+<lb ed="#L" n="65"/>primum agens.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>V. Quinto. In ordine causarum agentium Deos est
+<lb ed="#L" n="67"/>prima causa. Ergo omnes causae inferiores agunt in 
+vir<lb ed="#L" break="no" n="68"/>tute eius. Ergo est principalius causa cuiuslibet actionis
+<lb ed="#L" n="69"/>quam causae secundae agentes. — Probatur prima 
+conse<lb ed="#L" break="no" n="70"/>quentia. Quia in omnibus causis agentibus ordinatis semper
+<lb ed="#L" n="71"/>oportet quod causae sequentes agant in virtute causae
+<lb ed="#L" n="72"/>primae. Declaratur in rebus naturalibus et voluntariis. —
+<lb ed="#L" n="73"/>Secunda quoque probatur. Quia causa actionis magis est
+<lb ed="#L" n="74"/>id cuius virtute agitur, quam id quod agit: sicut 
+prin<lb ed="#L" break="no" n="75"/>cipale agens magis agit quam instrumentum.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>Sexto. Ordinare res in finem est ipsius Dei, ut supra est
+<lb ed="#L" n="77"/>ostensum. Ergo omne agens in virtute Dei agit. Ergo etc.
+<lb ed="#L" n="78"/>— Probatur prima consequentia. Quia omne operans per
+<lb ed="#L" n="79"/>suam operationem ordinatur in finem ultimum: cum 
+opor<lb ed="#L" break="no" n="80"/>teat vel operationem ipsam esse finem, vel eius effectum.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>CONFIRMATUR auctoritate Jsaiae xxvi; Joan. xv ; et Philip. n.
+<lb ed="#L" n="82"/>Confirmatur etiam, quia frequenter in Scriptura naturae
+<lb ed="#L" n="83"/>effectus operationi divinae attribuuntur: iuxta illud 7ob x,
+<lb ed="#L" n="84"/>Nonne sicut lac etc.; et in Psalmo, Zntonuit de caelo etc.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>VI. Advertendum quod ex istis rationibus apparet Deum
+<lb ed="#L" n="86"/>multipliciter.esse causam operationis creaturae. Ex prima
+<lb ed="#L" n="87"/>enim et secunda habetur quod est illius causa tanquam
+<lb ed="#L" n="88"/>dans creaturae virtutem qua operatur. — Ex tertia habetur
+<lb ed="#L" n="89"/>quod est causa tanquam ipsam virtutem creaturae 
+conser<lb ed="#L" break="no" n="90"/>vans in esse. — Ex quarta habetur quod est causa tanquam
+<lb ed="#L" n="91"/>applicans virtutem creaturae ad operationem. — Ex quinta
+<lb ed="#L" n="92"/>habetur quod est causa tanquam agens principale quod
+<lb ed="#L" n="93"/>movet secundarium agens. — Ex sexta vero habetur quod
+<lb ed="#L" n="94"/>est causa tanquam dirigens uniuscuiusque operationem
+<lb ed="#L" n="95"/>in finem.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>2. Sed contra praedicta arguitur a quibusdam. Dubitat
+<lb ed="#L" n="97"/>enim Aureolus, apud Capreolum, loco allegato , quomodo
+<lb ed="#L" n="98"/>non superfluit alterum ipsorum agentium, si ab utroque ?
+<lb ed="#L" n="99"/>eadem actio procedit; et quare non produceret unum
+<lb ed="#L" n="100"/>agens illam actionem sine alio, si sufficienter procedit ab
+<lb ed="#L" n="101"/>utroque. Durandus vero quaerit  quomodo eadem actio
+<lb ed="#L" n="102"/>possit sufficienter esse a Deo et creatura: cum illis non
+<lb ed="#L" n="103"/>sit una virtus, Sed quia eorum quaesitis satisfit a 
+San<lb ed="#L" break="no" n="104"/>cto Thoma inferius, cap. Lxix, non oportet hic aliter
+<lb ed="#L" n="105"/>respondere.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Cetera quae ad hanc conclusionem pertinere possent,
+<lb ed="#L" n="107"/>et ad rationes adductas, in Secundo Libro, ubi de 
+crea<lb ed="#L" break="no" n="108"/>tione agebatur , sunt pertractata.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

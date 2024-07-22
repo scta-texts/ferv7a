@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 142</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 142</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="428"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2867"><!-- ferv7a-l3c142 -->
+            <head>Capitulum 142</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="21" type="fixed=427"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="22"/>VISA differentia poenarum, visoque earum ordine, ostendit
+<lb ed="#L" n="23"/>Sanctus Thomas quod non omnia praemia et omnes
+<lb ed="#L" n="24"/>poenae sunt aequales .
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Et arguit primo sic. Est gradus in virtuosis actibus
+<lb ed="#L" n="26"/>et in peccatis. Ergo et praemiorum et poenarum. — 
+Pro<lb ed="#L" break="no" n="27"/>batur consequentia. Quia divina iustitia exigit quod, ad
+<lb ed="#L" n="28"/>aequalitatem in rebus servandam, pro culpis poenae 
+red<lb ed="#L" break="no" n="29"/>dantur, et pro bonis actibus praemia. Eiusdem autem
+<lb ed="#L" n="30"/>rationis esse videtur quod differenter retribuatur secundum
+<lb ed="#L" n="31"/>differentiam boni et mali, et secundum differentiam boni
+<lb ed="#L" n="32"/>et melioris, vel mali et peioris.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Secundo. Et est confirmatio praecedentis. Si illud esset,
+<lb ed="#L" n="34"/>non esset iusta recompensatio per poenas et praemia: quia
+<lb ed="#L" n="35"/>aequalitas distributivae iustitiae exigit ut inaequalia 
+inaequa<lb ed="#L" break="no" n="36"/>libus reddantur. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Tertio. Oportet homines non solum trahi ad bona et
+<lb ed="#L" n="38"/>retrahi a malis, propter quod praemia et poenae a legisla-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="39"/>tore proponuntur: sed ctiam bonos ad meliora allici, et
+<lb ed="#L" n="40"/>malos retrahi a peioribus. Sed hoc non fierct si praemia
+<lb ed="#L" n="41"/>et poenae essent aequalia. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Quarto. Per opera bona et mala aliquis disponitur ad
+<lb ed="#L" n="43"/>poenas et praemia. Sed secundum ordinem. divinae 
+provi<lb ed="#L" break="no" n="44"/>dentiae, magis disposita perfectiorem formam consequuntur.
+<lb ed="#L" n="45"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Quinto. Excessui qui est secundum numerum operum,
+<lb ed="#L" n="47"/>oportet respondere excessum praemiorum vel poenarum:
+<lb ed="#L" n="48"/>alias non fieret recompensatio in divino iudicio pro 
+omni<lb ed="#L" break="no" n="49"/>bus quae quis agit. Ergo et excessui qui est. secundum
+<lb ed="#L" n="50"/>qualitatem operum, prout videlicet unus alio: vel melius
+<lb ed="#L" n="51"/>vel peius opus habet, inaequalitas praemiorum vel 
+poena<lb ed="#L" break="no" n="52"/>rum respondet.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>CONFIRMATUR auctoritate Deut. xxv, et Isaiae xxvi.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Per hoc excluditur error dicentium in futuro omnia
+<lb ed="#L" n="55"/>praemia et poenas esse aequalia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

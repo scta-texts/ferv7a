@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 71</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 71</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="211"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2288"><!-- ferv7a-l3c71 -->
+            <head>Capitulum 71</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="23" type="fixed=211"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="24"/>POSTQUAM ostendit Sanctus Thomas divinam 
+providen<lb ed="#L" break="no" n="25"/>tiam ad esse. et ad actiones omnium rerum se 
+exten<lb ed="#L" break="no" n="26"/>dere, vult nunc quaedam dubia circa hanc communem de
+<lb ed="#L" n="27"/>omnibus providentiam excludere . Sunt autem quatuor
+<lb ed="#L" n="28"/>dubia, quae in quatuor istis capitulis sese consequentibus
+<lb ed="#L" n="29"/>excludit.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>I. Primum dubium est: quia videtur, ex quo Deus
+<lb ed="#L" n="31"/>omnium esse conservat et omnia ad proprias operationes
+<lb ed="#L" n="32"/>applicat, quod omne malum debeat a rebus creatis exclu-
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Ad hoc autem excludendum, ponitur haec conclusio:
+<lb ed="#L" n="34"/>Divina providentia, quae  res gubernat, non impedit quin
+<lb ed="#L" n="35"/>corruptio et defectus et malum in rebus inveniatur.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Probatur primo. Contingit inveniri defectum in effectu
+<lb ed="#L" n="37"/>propter defectum causae secundae, absque eo quod sit
+<lb ed="#L" n="38"/>defectus in primo agente: ut contingit in effectu artificis
+<lb ed="#L" n="39"/>habentis perfecte artem, et in claudicatione. hominis 
+ha<lb ed="#L" break="no" n="40"/>bentis virtutem motivam fortem. Ergo in iis quae aguntur
+<lb ed="#L" n="41"/>et gubernantur a Deo, contingit defectum et malum 
+inve<lb ed="#L" break="no" n="42"/>niri, propter defectum secundorum agentium, licet in ipso
+<lb ed="#L" n="43"/>Deo nullus sit defectus. — Probatur consequentia. Quia
+<lb ed="#L" n="44"/>gubernatio, qua Deus in rebus operatur, non excludit 
+ope<lb ed="#L" break="no" n="45"/>rationem secundarum causarum.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Adverte quod, cum bonum, secundum mentem 
+Dio<lb ed="#L" break="no" n="47"/>nysii , consistat ex integra causa, malum vero ex 
+sin<lb ed="#L" break="no" n="48"/>gulis defectibus, quando ad unum effectum plures causae
+<lb ed="#L" n="49"/>concurrunt, ad hoc ut ipse effectus sit omnino completus,
+<lb ed="#L" n="50"/>requiritur ut omnes causae sine defectu sint: ad hoc autem
+<lb ed="#L" n="51"/>ut sit aliquis defectus in ipso, sufficit in altera illarum
+<lb ed="#L" n="52"/>causarum defectum esse. Unde videmus etiam in 
+argu<lb ed="#L" break="no" n="53"/>mentationibus et syllogismis, quod ad inferendum 
+propo<lb ed="#L" break="no" n="54"/>sitionem universalem affirmativam, requiritur utramque
+<lb ed="#L" n="55"/>praemissarum et universalem et affirmativam esse; ad 
+con<lb ed="#L" break="no" n="56"/>cludendum autem particularem aut negativam, sufficit 
+al<lb ed="#L" break="no" n="57"/>teram illarum aut particularem esse aut negativam. Idcirco
+<lb ed="#L" n="58"/>optime inquit Sanctus Thomas quod contingit defectum
+<lb ed="#L" n="59"/>et malum in effectu esse propter defectum secundae causae,
+<lb ed="#L" n="60"/>dato quod nullus in prima causa sit defectus.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>II. Secundo. Ad divinam providentiam non pertinet
+<lb ed="#L" n="62"/>ut omnino a rebus excludat potentiam deficiendi a bono.
+<lb ed="#L" n="63"/>Ergo neque ut omnino excludat malum.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Probatur consequentia. Quia potentiam deficiendi 
+se<lb ed="#L" break="no" n="65"/>quitur malum: cum id quod potest deficere, quandoque
+<lb ed="#L" n="66"/>deficiat; et ipse defectus boni malum sit, ut supra est
+<lb ed="#L" n="67"/>ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Antecedens vero probatur. Si excluderet talem 
+poten<lb ed="#L" break="no" n="69"/>tiam deficiendi, tollerentur gradus bonitatis et inaequalitas
+<lb ed="#L" n="70"/>in rebus. Ergo tolleretur perfecta bonitas in rebus creatis.
+<lb ed="#L" n="71"/>Sed hoc non convenit providentiae: cum ad providentiam
+<lb ed="#L" n="72"/>gubernantis pertineat perfectionem in rebus gubernatis 
+con<lb ed="#L" break="no" n="73"/>servare, non autem eam minuere. Ergo etc. -— Probatur
+<lb ed="#L" n="74"/>prima sequela. Quia gradus bonitatis superior est ut 
+ali<lb ed="#L" break="no" n="75"/>quid sit bonum non potens deficere a bonitate, inferior
+<lb ed="#L" n="76"/>ut sit bonum potens deficere, - Secunda vero probatur.
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="77"/>Quia, sublata inaequalitate a rebus et graduum diversitate,
+<lb ed="#L" n="78"/>tolleretur multitudo a rebus, et non esset nisi unum bonum
+<lb ed="#L" n="79"/>creatum: cum per differentias quibus res ab invicem 
+dif<lb ed="#L" break="no" n="80"/>ferunt, unum altero melius existat. Item, tolleretur summus
+<lb ed="#L" n="81"/>decor a rebus. Item, non implerentur omnes gradus 
+pos<lb ed="#L" break="no" n="82"/>sibiles bonitatis. Item, nulla creatura assimilaretur Deo
+<lb ed="#L" n="83"/>quantum ad hoc quod alteri emineret. Quae omnia 
+per<lb ed="#L" break="no" n="84"/>fectio universi requirit. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Adverte, cum dicitur quod son implerentur omnes
+<lb ed="#L" n="86"/>gradus bonitatis possibiles, quasi velit Sanctus "Thomas
+<lb ed="#L" n="87"/>dicere quod in universo debent esse omnes gradus 
+pos<lb ed="#L" break="no" n="88"/>sibiles bonitatis, quod hoc tripliciter potest habere 
+veri<lb ed="#L" break="no" n="89"/>tatem, ut ex superioribus  constare potest. Uno modo,
+<lb ed="#L" n="90"/>ut intelligatur de gradibus universalibus quibus primo 
+di<lb ed="#L" break="no" n="91"/>viditur ens, sicut sunt necessarium et contingens: non
+<lb ed="#L" n="92"/>autem de gradibus specificis bonitatis. — Alio modo, ut
+<lb ed="#L" n="93"/>intelligatur de gradibus per se ad huius universi 
+perfe<lb ed="#L" break="no" n="94"/>ctionem spectantibus: non autem de omnibus gradibus 
+en<lb ed="#L" break="no" n="95"/>tium possibilibus absolute a Deo produci. — Tertio modo,
+<lb ed="#L" n="96"/>ut intelligatur de gradibus possibilibus produci a Deo, 
+sup<lb ed="#L" break="no" n="97"/>posita divinae sapientiae determinatione: omnes enim qui
+<lb ed="#L" n="98"/>per divinam sapientiam sunt determinati ut. sint, debent
+<lb ed="#L" n="99"/>esse in universo.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>III. Tertio. Optimum in qualibet gubernatione est ut
+<lb ed="#L" n="101"/>gubernatis secundum modum suum provideatur: quia in
+<lb ed="#L" n="102"/>hoc regiminis iustitia consistit. Ergo esset contra rationem
+<lb ed="#L" n="103"/>divini regiminis si non sineret res creatas agere secundum
+<lb ed="#L" n="104"/>modum propriae naturae. Ergo etc. — Declaratur prima
+<lb ed="#L" n="105"/>consequentia ex proportione ad regimen humanum, in
+<lb ed="#L" n="106"/>quo fieret contra iustitiam si impedirentur a gubernatore
+<lb ed="#L" n="107"/>civitatis homines agere secundum sua officia: nisi forte
+<lb ed="#L" n="108"/>quandoque ad horam, propter aliquam necessitatem. — 
+Se<lb ed="#L" break="no" n="109"/>cunda vero probatur. Quia ex hoc quod creaturae sic agunt
+<lb ed="#L" n="110"/>secundum modum propriae naturae, sequitur corruptio et
+<lb ed="#L" n="111"/>malum in rebus, propter contrarietatem et repugnantiam
+<lb ed="#L" n="112"/>in rebus existentem.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Adverte quod Sanctus Thomas addidit, de humano 
+re<lb ed="#L" break="no" n="114"/>gimine loquens, nisi forte ad horam etc., ut daret 
+intel<lb ed="#L" break="no" n="115"/>ligere quod non est contra rationem divini regiminis quod
+<lb ed="#L" n="116"/>aliquando impediat rem aliquam a suo naturali cursu: sicut
+<lb ed="#L" n="117"/>cum impedivit ignis actionem erga pueros illos missos in
+<lb ed="#L" n="118"/>fornacem ignis, de quibus habetur Dan. m ; et cum, 
+tem<lb ed="#L" break="no" n="119"/>pore Iosue, fecit solem contra Gabaonitas stare, ut habetur
+<lb ed="#L" n="120"/>Josue x; et de multis aliis miraculose factis ad 
+manife<lb ed="#L" break="no" n="121"/>stationem potentiae et divinitatis suae; aut etiam ad aliorum
+<lb ed="#L" n="122"/>sanctitatem demonstrandam; aut secundum aliquam aliam
+<lb ed="#L" n="123"/>divinae sapientiae rationem.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>IV. Quarto. Impossibile est quod agens operetur 
+ali<lb ed="#L" break="no" n="125"/>quod malum nisi propter hoc quod intendit aliquod bonum,
+<lb ed="#L" n="126"/>ut ex superioribus apparet. — Sed prohibere cuiuscumque
+<lb ed="#L" n="127"/>boni intentionem universaliter a rebus creatis, non pertinet
+<lb ed="#L" n="128"/>ad providentiam eius qui est omnis boni causa, Ergo etc. —
+<lb ed="#L" n="129"/>Probatur minor. Quia tunc multa bona subtraherentur ab
+<lb ed="#L" n="130"/>universalitate rerum : sicut, si subtraheretur igni intentio
+<pb ed="#L" n="212"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>generandi sibi simile, ad quam sequitur corruptio rerum
+<lb ed="#L" n="2"/>combustibilium, tolleretur generatio ignis, et eius 
+conser<lb ed="#L" break="no" n="3"/>vatio secundum speciem.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Ad hanc rationem fortassis aliquis diceret quod, licet
+<lb ed="#L" n="5"/>non pertineat ad providentiam divinam prohibere 
+inten<lb ed="#L" break="no" n="6"/>tionem boni, ad ipsam tamen pertinet prohibere malum
+<lb ed="#L" n="7"/>quod bono intento coniungitur. — Sed haec responsio nulla
+<lb ed="#L" n="8"/>est. Quia est aliquod malum inseparabiliter coniunctum
+<lb ed="#L" n="9"/>bono determinato : sicut corruptio alicuius necessario 
+con<lb ed="#L" break="no" n="10"/>iungitur generationi ignis, cum non possit forma ignis in
+<lb ed="#L" n="11"/>materia induci nisi per abiectionem formae praexistentis.
+<lb ed="#L" n="12"/>Ideo non potest permitti quod intentio ignis de generando
+<lb ed="#L" n="13"/>sibi simile adimpleatur, nisi etiam permittatur corruptio
+<lb ed="#L" n="14"/>illus substantiae ex qua generatur ignis.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>V. Quinto. Si malum per divinam providentiam omnino
+<lb ed="#L" n="16"/>excluderetur a rebus, oporteret etiam bonorum 
+multitu<lb ed="#L" break="no" n="17"/>dinem diminui: puta iustorum patientiam, iustitiam 
+vin<lb ed="#L" break="no" n="18"/>dicativam, generationem. Sed hoc esse non debet: quia
+<lb ed="#L" n="19"/>virtuosius est bonum in bonitate quam malum in malitia,
+<lb ed="#L" n="20"/>ut ex superioribus patet. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Circa hoc ultimum 'dictum advertendum, ut superius
+<lb ed="#L" n="22"/>habuimus, cap. rx, quod nullum est adeo excellens malum
+<lb ed="#L" n="23"/>quod omne bonum excludat: quia oportet ut malum omne
+<lb ed="#L" n="24"/>fundetur in bono, et secundum se est impotens et 
+infir<lb ed="#L" break="no" n="25"/>mum, ut Dionysius inquit, rv cap. de Div. Nom. , ac
+<lb ed="#L" n="26"/>contra bonum non repugnat nisi virtute boni . Ideo dixit
+<lb ed="#L" n="27"/>Sanctus Thomas quod bonum est virtuosius in bonitate
+<lb ed="#L" n="28"/>quam malum in malitia: quia videlicet non potest bonum
+<lb ed="#L" n="29"/>a malo totaliter excludi, neque potest malum nisi ratione
+<lb ed="#L" n="30"/>boni agere; bonum vero propria virtute agit. Sic exponit
+<lb ed="#L" n="31"/>Sanctus Thomas III Sent, d. xxvn , a. 3, ad 3.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>VI. Sed occurrunt duo dubia. Primum est. Licet malum
+<lb ed="#L" n="33"/>fundetur in bono, est tamen aliquod malum quod videtur
+<lb ed="#L" n="34"/>excellentius esse in malitia quam bonum quod sequitur
+<lb ed="#L" n="35"/>ad ipsum in bonitate: sicut peccatum mortale excedere
+<lb ed="#L" n="36"/>videtur quodcumque bonum creatum et illi praeponderare,
+<lb ed="#L" n="37"/>cum sit contra bonum infinitum; puta, persecutio iustorum
+<lb ed="#L" n="38"/>praeponderat iustorum patientiae. Ergo videtur magis ad
+<lb ed="#L" n="39"/>divinam providentiam pertinere quod excludat aliqua 
+par<lb ed="#L" break="no" n="40"/>ticularia bona, non permittendo mala ad quae illa bona
+<lb ed="#L" n="41"/>sequuntur, quam quod permittat illa mala ut inde aliqua
+<lb ed="#L" n="42"/>bona proveniant.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Secundum est circa illud quod dicitur, Non esset locus
+<lb ed="#L" n="44"/>iustitiae vindicandi si delicta non essent: ex quo vult
+<lb ed="#L" n="45"/>habere Sanctus Thomas quod permittit Deus delicta ut
+<lb ed="#L" n="46"/>sit hoc bonum quod est iustitia vindicativa. Ex hoc enim
+<lb ed="#L" n="47"/>videtur sequi quod Deus delectetur in poenis, quod est
+<lb ed="#L" n="48"/>crudelitatis: nam permittere aliquem peccare ut habeatur
+<lb ed="#L" n="49"/>occasio puniendi, non est nisi eius qui delectatur in poenis.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>2. Ad primum horum dicitur quod dupliciter loqui 
+pos<lb ed="#L" break="no" n="51"/>sumus de bono ex malo consequente: uno modo, 
+secun<lb ed="#L" break="no" n="52"/>dum se; alio modo, ut ad universi perfectionem pertinet,
+<lb ed="#L" n="53"/>tanquam eius pars constitutiva. Si consideretur bonum
+<lb ed="#L" n="54"/>quod ex malo consequitur secundum se absolute, sic non
+<lb ed="#L" n="55"/>inconvenit illud minus bonum esse quam remotionem mali,
+<lb ed="#L" n="56"/>et per consequens minus esse appetendum: sicut minus
+<lb ed="#L" n="57"/>bonum absolute est generatio aquae ex igne, quam 
+re<lb ed="#L" break="no" n="58"/>motio corruptionis ignis quae generationem aquae 
+conco<lb ed="#L" break="no" n="59"/>mitatur, quia ignis est maius bonum quam aqua. Si autem
+<lb ed="#L" n="60"/>consideretur ut est constitutivum integritatis et perfectionis
+<lb ed="#L" n="61"/>universi, sic quodlibet secundum se bonum quod ex malo
+<lb ed="#L" n="62"/>aliquo occasionatur, est melius remotione illius mali: quia
+<lb ed="#L" n="63"/>ex tali bono universum est, extensive saltem, perfectius,
+<lb ed="#L" n="64"/>inquantum aliquis gradus bonitatis est in universo qui non
+<lb ed="#L" n="65"/>esset si malum illud omnino prohiberetur, et sic universum
+<lb ed="#L" n="66"/>suam integritatem et complementum suum habet. Unde
+<lb ed="#L" n="67"/>dicendum est, admisso etiam quod malum culpae plus
+<lb ed="#L" n="68"/>habeat malitiae quam bonum inde proveniens, secundum
+<lb ed="#L" n="69"/>se consideratum, habeat bonitatis; si tamen consideretur
+<lb ed="#L" n="70"/>ut ad perfectionem et integritatem universi ordinatur, cuius
+<lb ed="#L" n="71"/>bonum est summum inter bona creata, et principaliter 
+in<lb ed="#L" break="no" n="72"/>tentum a providentia divina, sic plus habet bonitatis quam
+<lb ed="#L" n="73"/>culpa habeat malitiae, si culpa formaliter accipiatur, ut 
+sci<lb ed="#L" break="no" n="74"/>licet importat actum debito ordine privatum. Ideo pertinet
+<lb ed="#L" n="75"/>ad providentiam divinam magis permittere malum culpae,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ex quo aliquis gradus bonitatis in universo resultat, quam
+<lb ed="#L" n="77"/>prohibere malum, ex cuius prohibitione sequeretur privatio
+<lb ed="#L" n="78"/>alicuius gradus perfectionis in universo, et eius integritatis
+<lb ed="#L" n="79"/>diminutio.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Sed quia videtur velle Sanctus Thomas quod bonum
+<lb ed="#L" n="81"/>sit non solum in ordine ad universi perfectionem 
+excellen<lb ed="#L" break="no" n="82"/>tius in bonitate quam malum in malitia, sed etiam aliquo
+<lb ed="#L" n="83"/>modo secundum se consideratum, cum inquit absolute
+<lb ed="#L" n="84"/>quod virtuosius est bonum in bonitate quam malum in
+<lb ed="#L" n="85"/>malitia; ideo dicitur secundo quod, hoc etiam admisso
+<lb ed="#L" n="86"/>(quod fortassis non est verum), dictum Sancti "Thomae
+<lb ed="#L" n="87"/>intelligitur de bono propter se eligibili. Tale enim dicitur
+<lb ed="#L" n="88"/>esse virtuosius in bonitate quam malum in malitia, quia
+<lb ed="#L" n="89"/>huiusmodi bonum magis est natum ad se trahere omnino
+<lb ed="#L" n="90"/>sua bonitate appetitum, quam malum sit sua malitia natum
+<lb ed="#L" n="91"/>omnino repellere appetitum, sive sui fugam efficere. Cuius
+<lb ed="#L" n="92"/>ratio est, quia bonum secundum se eligibile nihil habet
+<lb ed="#L" n="93"/>unde sit fugiendum: cum nullam habeat rationem mali
+<lb ed="#L" n="94"/>adiunctam, proprie accipiendo malum. Sed ipsum malum
+<lb ed="#L" n="95"/>habet in se aliquid per quod potest aliquo modo eligi:
+<lb ed="#L" n="96"/>cum, ut superius  est ostensum, omne malum in aliquo
+<lb ed="#L" n="97"/>bono fundetur. Unde, cum dicitur quod peccatum magis
+<lb ed="#L" n="98"/>habet de malitia quam bonum inde sequens habeat de
+<lb ed="#L" n="99"/>bonitate, negatur. Licet enim extrinsece et obiective 
+ha<lb ed="#L" break="no" n="100"/>beat quandam infinitatem, intrinsece tamen, ut dictum est,
+<lb ed="#L" n="101"/>inquantum dicit actum debito ordine privatum, non tantum
+<lb ed="#L" n="102"/>habet de malitia quantum bonum habet de bonitate.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>3. Ad secundum dicitur quod non est crudelis Deus
+<lb ed="#L" n="104"/>dum permittit delicta ut sit hoc bonum quod est iustitia
+<lb ed="#L" n="105"/>punitiva, neque delectatur in poenis: quia hoc non agit
+<lb ed="#L" n="106"/>quia velit punitionem delicti inquantum est malum 
+pec<lb ed="#L" break="no" n="107"/>cantis; sed hoc permittit quia magis vult et diligit bonum
+<lb ed="#L" n="108"/>universi quam bonum particulare istius. Ad bonum enim
+<lb ed="#L" n="109"/>universi requiritur ut sint naturae defectibiles et liberi 
+ar<lb ed="#L" break="no" n="110"/>bitrii; ex quo sequitur ipsas deficere; et Deus, ipsas suos
+<lb ed="#L" n="111"/>cursus agere sinens, aliquem etiam bonitatis gradum elicit
+<lb ed="#L" n="112"/>ex quo universum extensive perfectius est.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Dico extensive, quia Sanctus Thomas I Sent., d. xrvr,
+<lb ed="#L" n="114"/>a. 3, ad 6, ait quod sunt quaedam mala, quae si non
+<lb ed="#L" n="115"/>essent, universum perfectius esset, sicut sunt mala culpae.
+<lb ed="#L" n="116"/>Sed hoc intelligitur de perfectione intensiva universi 
+quan<lb ed="#L" break="no" n="117"/>tum ad speciem humanam. Esset enim perfectior natura
+<lb ed="#L" n="118"/>humana intensive, quantum scilicet ad perfectionem 
+acci<lb ed="#L" break="no" n="119"/>dentalem, non autem quantum ad perfectionem essentialem,
+<lb ed="#L" n="120"/>si nullum esset peccatum, quam si aliqua committantur
+<lb ed="#L" n="121"/>peccata. Nam et de perfectione extensiva in eodem libro,
+<lb ed="#L" n="122"/>d. xrrv, a. 2, ad 5, loquens, ait quod universum in quo
+<lb ed="#L" n="123"/>nihil esset mali, non esset tantae bonitatis quantae hoc
+<lb ed="#L" n="124"/>universum, quia non essent tot bonae naturae in illo sicut
+<lb ed="#L" n="125"/>in isto.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>VIL. Sexto. Si malum a quibusdam partibus universi
+<lb ed="#L" n="127"/>subtraheretur, multum deperiret perfectionis universi. Ergo
+<lb ed="#L" n="128"/>non est per providentiam excludendum. — Probatur 
+ante<lb ed="#L" break="no" n="129"/>cedens. Quia pulcritudo. universi ex ordinata bonorum et
+<lb ed="#L" n="130"/>malorum adunatione consurgit, dum mala ex bonis 
+defi<lb ed="#L" break="no" n="131"/>cientibus proveniunt, et ex eis quaedam bona 
+conse<lb ed="#L" break="no" n="132"/>quuntur: sicut et interpositio silentii facit cantilenam esse
+<lb ed="#L" n="133"/>suavem. — Consequentia vero probatur. Quia, cum bonum
+<lb ed="#L" n="134"/>totius praeemineat bono partis, ad providentem 
+guberna<lb ed="#L" break="no" n="135"/>torem pertinet negligere aliquem defectum in parte ut fiat
+<lb ed="#L" n="136"/>augmentum bonitatis in toto. Declaratur exemplo 
+domi<lb ed="#L" break="no" n="137"/>ficatoris, qui abscondit fundamentum sub terra ut tota
+<lb ed="#L" n="138"/>domus habeat firmitatem.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Adverte quod ista ratio a praecedenti differt: quia prima
+<lb ed="#L" n="140"/>procedebat de perfectione substantiali, quae in partibus
+<lb ed="#L" n="141"/>consistit; haec autem de perfectione concomitante 
+substan<lb ed="#L" break="no" n="142"/>tiam, scilicet de pulcritudine et decore universi, procedit.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>VIII. Septimo. Multum de bono hominis diminueretur,
+<lb ed="#L" n="144"/>et quantum ad cognitionem, et quantum ad. desiderium
+<lb ed="#L" n="145"/>et amorem boni. Ergo etc. — Probatur antecedens. Quia
+<lb ed="#L" n="146"/>bonum ex comparatione mali magis cognoscitur; et dum
+<lb ed="#L" n="147"/>aliqua mala perpetrantur, ardentius bona optamus. 
+De<lb ed="#L" break="no" n="148"/>claratur exemplo sanitatis. — Consequentia vero probatur.
+<lb ed="#L" n="149"/>Quia aliae res, praecipue inferiores, ad bonum hominis
+<lb ed="#L" n="150"/>ordinantur sicut ad finem.
+</p>
+            <p>
+               <pb ed="#L" n="213"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Circa probationem consequentiae, advertendum quod
+<lb ed="#L" n="2"/>addidit Sanctus Thomas, praecipue inferiores, quia, ut 
+in<lb ed="#L" break="no" n="3"/>quit II .Sent., d. 1, q. 2, a. 3, omnes quidem creaturae
+<lb ed="#L" n="4"/>aliquo modo sunt propter hominem a Deo factae, 
+inquan<lb ed="#L" break="no" n="5"/>tum ex omnibus creaturis provenit aliqua utilitas homini:
+<lb ed="#L" n="6"/>sed particulari modo creaturae inferiores ordinantur ad
+<lb ed="#L" n="7"/>hominem sicut ad finem, inquantum 1endunt in 
+assimi<lb ed="#L" break="no" n="8"/>lationem ipsius tanquam superioris, secundum quod per
+<lb ed="#L" n="9"/>hoc summae bonitati assimilantur. Unde et II de Anima 
+<lb ed="#L" n="10"/>dicitur animam rationalem esse ultimum finem intentum a 
+<lb ed="#L" n="11"/>natura inferiori. - Hoc autem modo substantiae separatae
+<lb ed="#L" n="12"/>non sunt propter hominem: cum ipsae sint nobilioris et
+<lb ed="#L" n="13"/>superioris naturae.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>CONFIRMATUR conclusio auctoritate Isaiae xrv, et Amos rr.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>IX. Sed contra conclusionem in hoc capite probatam
+<lb ed="#L" n="16"/>occurrit dubium ex iis quae dicit Sanctus Thomas Prima,
+<lb ed="#L" n="17"/>4. xxm, a. 2. Inquit enim quod, cum omne agens agat
+<lb ed="#L" n="18"/>propter finem, tantum se extendit ordinatio effectuum in
+<lb ed="#L" n="19"/>finem, quantum se extendit causalitas primi agentis. Et
+<lb ed="#L" n="20"/>videtur velle quod etiam e converso tantum se extendat
+<lb ed="#L" n="21"/>causalitas primi agentis, quantum se extendit ordinatio ad
+<lb ed="#L" n="22"/>finem, dum subiungit quod ex hoc contingit in operibus
+<lb ed="#L" n="23"/>alicuius agentis aliquid provenire non ad finem ordinatum,
+<lb ed="#L" n="24"/>-quia effectus ille consequitur ex aliqua alia causa praeter
+<lb ed="#L" n="25"/>intentionem agentis. Ex hoc igitur arguitur sic. Nihil a
+<lb ed="#L" n="26"/>Deo ordinatur ad finem ad quod non se extendat eius
+<lb ed="#L" n="27"/>causalitas. Sed Dei causalitas ad malum culpae non se 
+ex<lb ed="#L" break="no" n="28"/>tendit. Ergo malum culpae non ordinatur a Deo ad 
+ali<lb ed="#L" break="no" n="29"/>quem finem. Ergo non cadit sub providentia, quae est
+<lb ed="#L" n="30"/>ratio ordinis rerum in finem. Ergo providentia excludit
+<lb ed="#L" n="31"/>saltem malum culpae.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>2. Ad huius evidentiam considerandum, ex doctrina
+<lb ed="#L" n="33"/>Sancti Thomae Verit., q. v, a. 4, quod dupliciter aliquid
+<lb ed="#L" n="34"/>sub divina providentia cadit. Uno modo, tanquam 
+ordi<lb ed="#L" break="no" n="35"/>natum ad aliud, et tanquam id ad quod aliud ordinatur:
+<lb ed="#L" n="36"/>sicut actus generationis qua homo generat hominem 
+per<lb ed="#L" break="no" n="37"/>fectum, ordinatur ad hominis naturam, et ad ipsum vis
+<lb ed="#L" n="38"/>generantis ordinatur. Alio modo, tanquam id quod 
+ordi<lb ed="#L" break="no" n="39"/>natur ad aliud, non autem aliquid ordinatur ad ipsum:
+<lb ed="#L" n="40"/>sicut actus deficiens quo monstra generantur (inquantum
+<lb ed="#L" n="41"/>huiusmodi). Respectu primi, dicitur providentia 
+approbatio<lb ed="#L" break="no" n="42"/>nis ; respectu vero secundi, dicitur providentia concessionis
+<lb ed="#L" n="43"/>et permissionis; secundum Damascenum, in Secundo .
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Dicitur ergo quod ista propositio, Tantum se extendit
+<lb ed="#L" n="45"/>causalitas primi agentis, quantum se extendit ordinatio
+<lb ed="#L" n="46"/>effectuum in finem, habet veritatem de ordinatione eorum
+<lb ed="#L" n="47"/>quae cadunt sub providentia approbationis: non autem de
+<lb ed="#L" n="48"/>ordinatione eorum quae cadunt sub providentia concessionis
+<lb ed="#L" n="49"/>et permissionis. Modo, dicitur quod malum cadit sub 
+provi<lb ed="#L" break="no" n="50"/>dentia concessionis, non autem approbationis, ut ibi declarat
+<lb ed="#L" n="51"/>Sanctus Thomas: ordinatur enim a Deo ad aliquam 
+utili<lb ed="#L" break="no" n="52"/>tatem, sed nihil ad ipsum ordinatur. Ideo ratio non sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Posset secundo dici quod loquitur Sanctus Thomas de
+<lb ed="#L" n="54"/>ordinatione non quorumcumque, sed effectuum, ut patet
+<lb ed="#L" n="55"/>ex eius verbis. Modo, constat quod peccatum, inquantum
+<lb ed="#L" n="56"/>huiusmodi, non est aliquis effectus: cum sit negatio sive
+<lb ed="#L" n="57"/>privatio. Ideo non oportet quod causalitas divina ad ipsum
+<lb ed="#L" n="58"/>se extendat, quamvis ordinetur.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>X. Per hanc conclusionem excluditur error negantium
+<lb ed="#L" n="60"/>Deum esse quia videbant mala in mundo evenire, ut est
+<lb ed="#L" n="61"/>apud Boetium, I de Consol.: cum tamen magis concludi
+<lb ed="#L" n="62"/>debeat Deum esse, quia malum est. Non enim esset malum,
+<lb ed="#L" n="63"/>subtracto ordine boni, qui non esset Deo non existente.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Adverte quod, cum bonum universi consistat in ordine
+<lb ed="#L" n="65"/>partium eius ad totum, et in ordine totius ad Deum, non
+<lb ed="#L" n="66"/>potest esse malum in universo nisi per remotionem alicuius
+<lb ed="#L" n="67"/>ordinis debiti inesse alicui parti: malum enim est privatio
+<lb ed="#L" n="68"/>boni debiti inesse. Non esset autem debitum partibus inesse
+<lb ed="#L" n="69"/>talem ordinem nisi ex aliquo ordinante et statuente, quem
+<lb ed="#L" n="70"/>dicimus Deum, talem ordinem habuissent. Ideo malum 
+prae<lb ed="#L" break="no" n="71"/>supponit ordinem a Deo rebus inditum. Propter hoc optime
+<lb ed="#L" n="72"/>inquit Sanctus Thomas quod magis arguendum est Deum
+<lb ed="#L" n="73"/>esse quia malum est, quam Deum non esse.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="74"/>Tollitur etiam erroris occasio et iis qui negabant ad
+<lb ed="#L" n="75"/>haec corruptibilia divinam providentiam extendi, propter
+<lb ed="#L" n="76"/>hoc quod in eis multa mala evenire conspiciebant. Et
+<lb ed="#L" n="77"/>Manichaeis, qui duo principia agentia, bonum scilicet et
+<lb ed="#L" n="78"/>malum, posuerunt, quasi [malum] sub providentia Dei boni
+<lb ed="#L" n="79"/>locum habere non posset.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>2. Solvitur postremo quorundam dubitatio: utrum scilicet
+<lb ed="#L" n="81"/>actiones malae sint a Deo? Patet enim ex dictis quod 
+se<lb ed="#L" break="no" n="82"/>cundum quod deficientes sunt, non sunt a Deo, sed a
+<lb ed="#L" n="83"/>causis proximis deficientibus. Quantum vero ad id quod
+<lb ed="#L" n="84"/>habent de actione et entitate, sunt a Deo. — Declaratur in
+<lb ed="#L" n="85"/>claudicatione, quae quantum ad id quod habet de motu,
+<lb ed="#L" n="86"/>est a virtute motiva; quantum vero ad id quod habet de
+<lb ed="#L" n="87"/>defectu, est ex curvitate cruris.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Adverte quod ex ista responsione habetur effectum
+<lb ed="#L" n="89"/>causae secundae reduci in causam primam, quantum ad
+<lb ed="#L" n="90"/>illud quod agit, inquantum substat ordini ipsius primae
+<lb ed="#L" n="91"/>causae, et inquantum ab ipsa movetur. Quantum vero ad
+<lb ed="#L" n="92"/>id quod provenit ex ipsa non inquantum substat ordini
+<lb ed="#L" n="93"/>primae causae et ab ea movetur, sed inquantum deficit
+<lb ed="#L" n="94"/>a debita perfectione et ordine, non oportet ut in primam
+<lb ed="#L" n="95"/>causam reducatur.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>XI. Sed occurrit unum dubium. Nam movens causam
+<lb ed="#L" n="97"/>secundam ad actionem quam semper et inseparabiliter 
+con<lb ed="#L" break="no" n="98"/>comitatur defectus et malum, videtur non solum esse causa
+<lb ed="#L" n="99"/>bonitatis actionis, sed etiam malitiae concomitantis: unde,
+<lb ed="#L" n="100"/>ut habetur ex II Phys., quod pro maiori parte evenit,
+<lb ed="#L" n="101"/>non dicitur esse praeter intentionem. Sed sunt aliquae
+<lb ed="#L" n="102"/>operationes humanae habentes semper annexam malitiam,
+<lb ed="#L" n="103"/>puta odium Dei. Ergo, si Deus est causa entitatis actionis,
+<lb ed="#L" n="104"/>oportet dicere quod etiam sit causa malitiae et 
+deformi<lb ed="#L" break="no" n="105"/>tatis coniunctae. Et sic non refertur illa operatio, 
+inquan<lb ed="#L" break="no" n="106"/>tum deficiens est, solum in causam proximam deficientem.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>Respondetur, ex doctrina Sancti Thomae Malo, q. ui,
+<lb ed="#L" n="108"/>a. 2, quod malitiam consequi inseparabiliter actum  
+ali<lb ed="#L" break="no" n="109"/>quem, dupliciter potest intelligi: uno modo, ut consequatur
+<lb ed="#L" n="110"/>ipsum absolute consideratum secundum entitatem suam;
+<lb ed="#L" n="111"/>alio modo, ut consequatur ipsum secundum quod a tali
+<lb ed="#L" n="112"/>agente, puta a libero arbitrio, procedit. Primo modo, nulla
+<lb ed="#L" n="113"/>deformitas peccati concomitatur aliquem actum: quia, si
+<lb ed="#L" n="114"/>essentia illius actus odiendi Deum producti a libero 
+arbi<lb ed="#L" break="no" n="115"/>trio creaturae, a solo Deo produceretur, non esset malus
+<lb ed="#L" n="116"/>actus et deformis, quia non male fieret. Unde ad hunc
+<lb ed="#L" n="117"/>sensum minor est falsa. — Sed bene deformitas talis 
+con<lb ed="#L" break="no" n="118"/>comitatur actum aliquem ut procedit a libero arbitrio 
+crea<lb ed="#L" break="no" n="119"/>turae subdito regulis divinis et regulis rationis. Sed tunc
+<lb ed="#L" n="120"/>negatur maior. Licet enim ille actus non possit ab homine
+<lb ed="#L" n="121"/>sine deformitate procedere, quia nunquam ab ipso 
+pro<lb ed="#L" break="no" n="122"/>cedit nisi inquantum discrepat'a sua regula; potest tamen
+<lb ed="#L" n="123"/>agens primum movere causam ad agendum entitatem 
+actio<lb ed="#L" break="no" n="124"/>nis, et non agere ad deformitatem ; similiter potest 
+inten<lb ed="#L" break="no" n="125"/>dere unum, alio non intento; sicut in eo qui claudus est,
+<lb ed="#L" n="126"/>virtus motiva agit quidem motum quantum ad id quod
+<lb ed="#L" n="127"/>bonitatis est, non agit tamen defectum motus qui est in
+<lb ed="#L" n="128"/>ipsa claudicatione, quamvis semper iste defectus motum
+<lb ed="#L" n="129"/>istius concomitetur, sed provenit tantum ex defectu 
+instru<lb ed="#L" break="no" n="130"/>menti. — Quod autem adducitur ex II PAys., non valet: quia
+<lb ed="#L" n="131"/>loquitur Aristoteles de eo quod concomitatur rem absolute
+<lb ed="#L" n="132"/>secundum suam entitatem. — De hac materia habes a 
+Ca<lb ed="#L" break="no" n="133"/>praeolo, in II Sent., d. xxxv.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Unum dumtaxat bene advertendum: quod, quamvis Deus
+<lb ed="#L" n="135"/>producat actionem odii, et totam illam entitatem possit
+<lb ed="#L" n="136"/>per se producere ; si produceret immediate essentiam illius
+<lb ed="#L" n="137"/>actus, non propter hoc diceretur Deus habere se odio, aut
+<lb ed="#L" n="138"/>velle se non esse, sicut homo per illum actum dicitur
+<lb ed="#L" n="139"/>Deum habere odio. Quia ad hoc ut aliquis per actum odii
+<lb ed="#L" n="140"/>dicatur alium habere odio, non sufficit quod essentia illius
+<lb ed="#L" n="141"/>actus sit ab illo immediate causata, sed requiritur quod
+<lb ed="#L" n="142"/>sit operatio ab ipsius voluntate deficiente immediate elicita.
+<lb ed="#L" n="143"/>Actus autem ille odii immediate a Deo productus non
+<lb ed="#L" n="144"/>esset operatio a voluntate divina deficiente elicitus, sed
+<lb ed="#L" n="145"/>esset effectus quidam divinae actionis supplentis vicem
+<lb ed="#L" n="146"/>etiam secundarii agentis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

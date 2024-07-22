@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 96</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 96</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="297"/>
+            <cb ed="#L" n="b"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2492"><!-- ferv7a-l3c96 -->
+            <head>Capitulum 96</head>
+            <p>
+               <lb ed="#L" n="116"/>I bis. Quia ex rationibus praecedentis capitis  posset
+<lb ed="#L" n="117"/>aliquis existimare quod orationes nostrae semper debeant
+<lb ed="#L" n="118"/>a Deo exaudiri, vult Sanctus Thomas falsam hanc 
+existi<lb ed="#L" break="no" n="119"/>mationem excludere.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Circa hoc autem tria facit: primo, ostendit quod non est
+<lb ed="#L" n="121"/>inconveniens si orantium petitiones non semper admittuntur
+<lb ed="#L" n="122"/>a Deo; secundo, ex praemissis colligit principale intentum
+<lb ed="#L" n="123"/>capituli praecedentis ; tertio, quosdam errores excludit .
+</p>
+            <p>
+               <lb ed="#L" n="124"/>II bis. Primum ostendit per supradictas rationes 
+discur<lb ed="#L" break="no" n="125"/>rendo. Primo. Ex prima ratione habetur quod Deus 
+adim<lb ed="#L" break="no" n="126"/>plet desideria creaturae rationalis inquantum bonum 
+desi<lb ed="#L" break="no" n="127"/>derat. Sed non semper quod petitur est verum bonum,
+<lb ed="#L" n="128"/>sed apparens, malum vero simpliciter. Ergo talis oratio
+<lb ed="#L" n="129"/>non est exaudibilis: intellige, ex misericordia Dei. 
+Quan<lb ed="#L" break="no" n="130"/>doque enim exauditur ad vindictam, ut inquit Sanctus
+<lb ed="#L" n="131"/>Thomas II I^, q. rxxxrtt, a. 16, dum Deus permittit 
+pec<lb ed="#L" break="no" n="132"/>catorem amplius ruere in peccata. Unde Augustinus 
+in<lb ed="#L" break="no" n="133"/>quit quod Deus quandoque negat propitius quod concedit
+<lb ed="#L" n="134"/>iratus. lsta ratio tangitur Zac. tv.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>Secundo. Ex secunda ratione idem habetur. Quia Deus
+<lb ed="#L" n="136"/>ad desiderandum movet. Sed mobile ad finem motus non
+<lb ed="#L" n="137"/>perducitur a movente nisi motus continuetur. Ergo, si 
+de<lb ed="#L" break="no" n="138"/>siderii motus per orationis instantiam non continuetur, non
+<lb ed="#L" n="139"/>est inconveniens si oratio debitum non consequatur 
+ef<lb ed="#L" break="no" n="140"/>fectum. Habetur haec ratio ex Luc. xvur et I 7hess. v
+</p>
+            <p>
+               <lb ed="#L" n="141"/>Tertio. Ex tertia ratione habetur idem. Ostensum est
+<lb ed="#L" n="142"/>enim quod Deus rationalis creaturae decenter desiderium
+<pb ed="#L" n="298"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>implet inquantum ei appropinquat. Sed Deo quis 
+appro<lb ed="#L" break="no" n="2"/>pinquat per contemplationem, et devotam affectionem, et
+<lb ed="#L" n="3"/>humilem ac firmam intentionem. Ergo, ubi ista desunt,
+<lb ed="#L" n="4"/>oratio non est exaudibilis: quantum scilicet est ex merito
+<lb ed="#L" n="5"/>orationis. Ista ratio habetur ex Psalm., et Zac. 1.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Quarto. Idem ex ratione amicitiae in quarta ratione est
+<lb ed="#L" n="7"/>ostensum. Ergo quia. Dei amicitia declinat, non est. dignus
+<lb ed="#L" n="8"/>ut eius oratio exaudiatur. Habetur haec ratio Prov. xxvitt,
+<lb ed="#L" n="9"/>et Isaiae r. - Ex eadem radice procedit quod aliquis Dei
+<lb ed="#L" n="10"/>amicus non exauditur: quando scilicet pro iis rogat qui
+<lb ed="#L" n="11"/>non sunt Dei amici, ut habetur Jerem. vir.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Circa istam propositionem, Qui .a Dei amicitia 
+de<lb ed="#L" break="no" n="13"/>clinat, non est dignus ut eius oratio exaudiatur, 
+atten<lb ed="#L" break="no" n="14"/>dendum quod non ideo hoc dicitur quasi nullus peccator
+<lb ed="#L" n="15"/>exaudiatur a Deo: quia etiam peccatores quandoque 
+exau<lb ed="#L" break="no" n="16"/>diuntur, ut est de mente Augustini, super Joan. ; et 
+Chry<lb ed="#L" break="no" n="17"/>sostomi, super, Matth. . Sed quia, licet quandoque 
+exau<lb ed="#L" break="no" n="18"/>diatur, hoc: tamen est non quasi ex iustitia, sed ex pura
+<lb ed="#L" n="19"/>misericordia. Unde non dixit Sanctus Thomas quod illius
+<lb ed="#L" n="20"/>oratio non.est exaudibilis, sed quod zon est dignus 
+exau<lb ed="#L" break="no" n="21"/>diri: quasi diceret quod non meretur exaudiri, licet eum
+<lb ed="#L" n="22"/>quandoque ex misericordia Deus exaudiat.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Quinto. Ex eodem fundamento arguitur. Quandoque
+<lb ed="#L" n="24"/>aliquis ex amicitia denegat quod petitur ab amico, quia
+<lb ed="#L" n="25"/>cognoscit hoc ei esse nocivum, et contrarium ei magis 
+expe<lb ed="#L" break="no" n="26"/>dire, ut patet in medico. Ergo et Deus quandoque eorum
+<lb ed="#L" n="27"/>quos praecipue diligit, petitionem non implet, ut impleat
+<lb ed="#L" n="28"/>quod. petenti magis expedit ad salutem. Unde stimulum
+<lb ed="#L" n="29"/>carnis a Paulo non amovit, propter humilitatis 
+conserva<lb ed="#L" break="no" n="30"/>tionem, ut habetur II Cor. xir. — Confirmatur auctoritate
+<lb ed="#L" n="31"/>Matth. xx; Rom. vir; et Augustini, ad Paulinum et 
+The<lb ed="#L" break="no" n="32"/>rasiam.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>III bis. Ex praemissis rationibus advertendum est quod
+<lb ed="#L" n="34"/>quatuor tanguntur conditiones orationis, quibus omnibus
+<lb ed="#L" n="35"/>existentibus, semper exauditur; et quarum aliqua deficiente,
+<lb ed="#L" n="36"/>non semper oratio habet efficaciam impetrandi. Quae 
+qui<lb ed="#L" break="no" n="37"/>dem conditiones tanguntur in glossa Lucae super illam
+<lb ed="#L" n="38"/>parabolam, Quis vestrum habebit amicum etc.: scilicet
+<lb ed="#L" n="39"/>quod pie, perseveranter, pro se, et quod ad salutem 
+per<lb ed="#L" break="no" n="40"/>tinet, petatur. Nam prima, tertia et quarta ratio ostendit
+<lb ed="#L" n="41"/>aliquam orationem non, exaudiri propter defectum primae
+<lb ed="#L" n="42"/>conditionis: aut videlicet quia non petitur bonum utile
+<lb ed="#L" n="43"/>ad salutem, sed contrarium salutis; aut quia deficiunt
+<lb ed="#L" n="44"/>aliae conditiones ex parte orantis requisitae inquantum
+<lb ed="#L" n="45"/>est orans , quae in tertia ratione explicantur; aut quia
+<lb ed="#L" n="46"/>deficit caritas, quod est non pie orare; nam, ut inquit
+<lb ed="#L" n="47"/>Sanctus Thomas IV Sent, d: xv, q. 1v, a..7, qu 3, ad
+<lb ed="#L" n="48"/>ult, hoc quod dicitur pie, includit omnes circumstantias
+<lb ed="#L" n="49"/>virtutis quibus ordinatur actus ex parte agentis. — Propter
+<lb ed="#L" n="50"/>defectum secundae, ostendit secunda ratio quandoque 
+ora<lb ed="#L" break="no" n="51"/>tionem non exaudiri: quia videlicet non petitur 
+perseve<lb ed="#L" break="no" n="52"/>ranter. - Propter defectum tertiae, ostendit quarta ratio,
+<lb ed="#L" n="53"/>in secunda sui parte, aliquem non exaudiri: quando 
+sci<lb ed="#L" break="no" n="54"/>licet orat non pro se, sed pro alio. — Quinta vero ratio
+<lb ed="#L" n="55"/>ostendit aliquem non exaudiri propter defectum quartae
+<lb ed="#L" n="56"/>conditionis: quia videlicet non petitur utile ad salutem,
+<lb ed="#L" n="57"/>nec tamen petitur quod manifeste saluti est contrarium. —
+<lb ed="#L" n="58"/>Ubi vero omnes praedictae conditiones affuerint, semper
+<lb ed="#L" n="59"/>Deus hominem audit, ut inquit Sanctus Thomas in 
+ar<lb ed="#L" break="no" n="60"/>ticulo praeallegato, et etiam II II^, q. 1xxxiu, a. 15, ad 2:
+<lb ed="#L" n="61"/>et non solum iustum, sed etiam peccatorem.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Si autem quaeratur quomodo oratio peccatoris 
+huius<lb ed="#L" break="no" n="63"/>modi conditiones habere possit, cum non sit in caritate,
+<lb ed="#L" n="64"/>et consequenter non pie oret: — dicitur ex doctrina Sancti
+<lb ed="#L" n="65"/>"Thomae Quarto ubi supra, ad 1; et II II^, eadem quaest.j
+<lb ed="#L" n="66"/>a. 16, ad 2, quod peccator non potest pie orare quasi
+<lb ed="#L" n="67"/>eius oratio habitu pietatis informetur (quae alio nomine
+<lb ed="#L" n="68"/>dicitur religio) : potest tamen pie orare in hoc quod petit
+<lb ed="#L" n="69"/>aliquid ad pietatem pertinens, quando scilicet petit aliquid
+<lb ed="#L" n="70"/>quod non contrariatur Deo et saluti, sed aliquid quod in
+<lb ed="#L" n="71"/>honorem Dei et utilitatem propriae salutis pertinet ; sicut
+<lb ed="#L" n="72"/>etiam dicitur aliquis quandoque iustum velle et. operari,
+<lb ed="#L" n="73"/>licet non ex habitu iustitiae operetur.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>IV bis. Quantum ad secundum , confirmatur conclusio
+<lb ed="#L" n="75"/>praecedentis articuli  ex supra dictis, tali ratione, Eorum
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>quae fiunt a Deo (scilicet aliquorum) causae sunt orationes
+<lb ed="#L" n="77"/>et desideria. Ergo orationes apud Deum efficaces sunt. Nec
+<lb ed="#L" n="78"/>tamen ordinem immutabilem divinae providentiae solvunt.
+<lb ed="#L" n="79"/>Immo, quod tali petenti hoc concedatur, sub tali ordine
+<lb ed="#L" n="80"/>cadit. — Probatur consequentia. Quia divina providentia
+<lb ed="#L" n="81"/>causas alias non excludit: immo ordinat eas ad 
+execu<lb ed="#L" break="no" n="82"/>tionem statuti ordinis apud se.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Confirmatur. Quia dicere propter illam immutabilitatem
+<lb ed="#L" n="84"/>non esse orandum ut aliquid consequamur a Deo, est 
+si<lb ed="#L" break="no" n="85"/>mile ac si diceretur non esse ambulandum ut ad locum
+<lb ed="#L" n="86"/>perveniamus, nec esse comedendum ut nutriamur. Quae
+<lb ed="#L" n="87"/>patet esse absurda.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>V bis. Quantum ad tertium, excluduntur duo errores .
+<lb ed="#L" n="89"/>Primus est eorum qui dicebant nullum esse orationis fructum.
+<lb ed="#L" n="90"/>Qui quidem error erat et negantium omnino divinam 
+provi<lb ed="#L" break="no" n="91"/>dentiam, ut faciebant Epicurei; et subtrahentium res humanas
+<lb ed="#L" n="92"/>divinae providentiae, ut quidam Peripatetici faciunt, scilicet
+<lb ed="#L" n="93"/>Averroes, secundum opinionem Sancti Thomae ; et 
+po<lb ed="#L" break="no" n="94"/>nentium omnia quae divinae providentiae subsunt, ex 
+neces<lb ed="#L" break="no" n="95"/>sitate contingere, ut Stoici arbitrabantur. Ex iis enim 
+om<lb ed="#L" break="no" n="96"/>nibus sequebatur etiam quod omnis deitatis cultus in vanum
+<lb ed="#L" n="97"/>fieret. Tangitur hic error Malachiae mr.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>VI bis. Secundus error est dicentium divinam 
+disposi<lb ed="#L" break="no" n="99"/>tionem vertibilem orationibus. esse. Qui error fuit 
+Aegyptio<lb ed="#L" break="no" n="100"/>rum, dicentium fatum orationibus, et imaginibus, et 
+fumi<lb ed="#L" break="no" n="101"/>gationibus verti. :
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Huic errori favere videntur quaedam auctoritates 
+Scriptu<lb ed="#L" break="no" n="103"/>rae Sacrae: Zsaiae xxxvii, de revocatione mortis Ezechiae;
+<lb ed="#L" n="104"/>et Jerem. xvur; et Joel. rr.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Sed ad ipsas respondet Sanctus Thomas: et dicit primo
+<lb ed="#L" n="106"/>quod, si secundum superficiem intelligantur, deducunt ad
+<lb ed="#L" n="107"/>hoc quod voluntas Dei sit mutabilis; quod aliquid (scilicet
+<lb ed="#L" n="108"/>reale) ex tempore Deo adveniat; et quod aliqua quae in
+<lb ed="#L" n="109"/>creaturis temporaliter fiunt, sint causa alicuius existentis
+<lb ed="#L" n="110"/>in Deo. Quae sunt manifeste impossibilia; et auctoritati -
+<lb ed="#L" n="111"/>Sacrae Scripturae adversantur, quae infallibilem continet 
+<lb ed="#L" n="112"/>veritatem et expressam; scilicet Num. xxm; I Reg. xv;
+<lb ed="#L" n="113"/>et Malachiae nr.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Dicit secundo, quod error qui in iis accidit, ex hoc
+<lb ed="#L" n="115"/>provenit quod non consideratur differentia inter 
+univer<lb ed="#L" break="no" n="116"/>salem ordinem et particularem: cum tamen tanto 
+com<lb ed="#L" break="no" n="117"/>munior sit ordo, quanto causa fuerit universalior. 
+Diffe<lb ed="#L" break="no" n="118"/>rentia autem est inter istos ordines, quia nihil prohibet
+<lb ed="#L" n="119"/>aliquem particularem ordinem immutari per orationem,
+<lb ed="#L" n="120"/>vel per aliquem alium modum, cum extra illum-ordinem
+<lb ed="#L" n="121"/>aliquid sit quod potest illum immutare: ordo autem ab
+<lb ed="#L" n="122"/>universali causa, quae est Deus, dependens, mutari non
+<lb ed="#L" n="123"/>potest, quia extra hunc ordinem non potest aliquid poni
+<lb ed="#L" n="124"/>per quod possit everti. Quia ergo Aegyptii reducebant rerum
+<lb ed="#L" n="125"/>humanarum ordinem in corpora caelestia, dicebant fatum,
+<lb ed="#L" n="126"/>ex stellis proveniens, posse aliquibus orationibus et ritibus
+<lb ed="#L" n="127"/>immutari: extra enim corpora caelestia, et supra ea, Deus
+<lb ed="#L" n="128"/>est, qui potest caelestium corporum impedire effectum 
+se<lb ed="#L" break="no" n="129"/>cuturum. Stoici vero, in Deum sicut in causam omnium
+<lb ed="#L" n="130"/>rerum ordinem referentes, ponebant ordinem institutum a
+<lb ed="#L" n="131"/>Deo nulla ratione posse immutari: sed in hoc recedebant
+<lb ed="#L" n="132"/>a consideratione universalis ordinis, quod ponebant 
+ora<lb ed="#L" break="no" n="133"/>tiones ad nihil utiles esse, tanquam voluntates hominum
+<lb ed="#L" n="134"/>et desideria sub illo universali ordine non 
+comprehen<lb ed="#L" break="no" n="135"/>dantur. Si enim. comprehendantur sub illo ordine, sicut
+<lb ed="#L" n="136"/>per alias causas, ita et per haec, ex divina ordinatione,
+<lb ed="#L" n="137"/>aliqui effectus sequuntur. Unde idem est excludere 
+ora<lb ed="#L" break="no" n="138"/>tionum effectus, et communium aliarum causarum.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Dicit tertio, quod non valent orationes quasi ordinem
+<lb ed="#L" n="140"/>divinae dispositionis immutantes: sed quasi sub tali 
+or<lb ed="#L" break="no" n="141"/>dine existentes.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Dicit quarto, quod per orationis efficaciam particularis
+<lb ed="#L" n="143"/>ordo inferioris causae immutari potest, Deo faciente, sub
+<lb ed="#L" n="144"/>quo necessitas ordinis inferioris causae continetur, tanquam
+<lb ed="#L" n="145"/>ab eo institutus.
+</p>
+            <p>
+               <lb ed="#L" n="146"/>Dicit quinto, ad praedictas auctoritates, quod per 
+ora<lb ed="#L" break="no" n="147"/>tionem piorum dicitur Deus converti vel poenitere, non
+<lb ed="#L" n="148"/>quasi aeterna eius dispositio immutetur: sed quia per
+<lb ed="#L" n="149"/>ipsam immutatur aliquid de ordine inferiorum causarum
+<lb ed="#L" n="150"/>istituto ab ipso. Unde Gregorius ait quod 2on mutat Deus
+<pb ed="#L" n="299"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consilium, quamvis quandoque mutet sententiam: non eam
+<lb ed="#L" n="2"/>scilicet quae exprimit dispositionem aeternam ; sed quae
+<lb ed="#L" n="3"/>ordinem inferiorum causarum exprimit, secundum quam
+<lb ed="#L" n="4"/>Ezechias erat moriturus, et gens aliqua pro peccatis 
+pu<lb ed="#L" break="no" n="5"/>nienda ,
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Dicit sexto, quod haec sententiae mutatio dicitur 
+tran<lb ed="#L" break="no" n="7"/>sumptive poenitentia, inquantum ad similitudinem 
+poeni<lb ed="#L" break="no" n="8"/>tentis se habet: sicut et metaphorice dicitur irasci,
+</p>
+            <p>
+               <lb ed="#L" n="9"/>2. Circa positionem Stoicorum, adverte quod Sanctus
+<lb ed="#L" n="10"/>Thomas non reprehendit ipsam in hoc quod ponebat 
+or<lb ed="#L" break="no" n="11"/>dinem divinae providentiae immutari non posse: — ut enim
+<lb ed="#L" n="12"/>patet ex dictis , hoc est verissimum, et auctoritatibus 
+Sa<lb ed="#L" break="no" n="13"/>crae Scripturae comprobatum — sed quantum ad hoc eam
+<lb ed="#L" n="14"/>reprehendit, quod ponebat orationes ad nihil utiles esse.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="15"/>In hoc enim manifeste errabat: quia sicut sub ordine 
+di<lb ed="#L" break="no" n="16"/>vinae providentiae continentur aliae particulares causae,
+<lb ed="#L" n="17"/>inquantum Deus ordinavit se aliquos effectus eis 
+median<lb ed="#L" break="no" n="18"/>tibus producturum; ita et orationes sub ordine divinae
+<lb ed="#L" n="19"/>providentiae continentur, sicut causae quibus mediantibus
+<lb ed="#L" n="20"/>Deus aliqua se facturum ordinavit, Unde Gregorius, in
+<lb ed="#L" n="21"/>libro Dialogorum , ait quod ea quae sancti viri orando
+<lb ed="#L" n="22"/>efficiunt, ita praedestinata sunt ut precibus obtineantur.
+<lb ed="#L" n="23"/>Ex quibus patet quod valent orationes ad hoc ut ordo
+<lb ed="#L" n="24"/>divinae providentiae circa aliquos particulares effectus 
+exe<lb ed="#L" break="no" n="25"/>cutioni mandetur.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Ea vero quae ad immobilitatem divinae voluntatis 
+per<lb ed="#L" break="no" n="27"/>tinent, superius in primo libro sunt explanata . Ideo non
+<lb ed="#L" n="28"/>oportet circa illa immorari.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

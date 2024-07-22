@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 106</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 106</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="334"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2573"><!-- ferv7a-l3c106 -->
+            <head>Capitulum 106</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="81" type="fixed=334"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="82"/>Viso quod opera magorum a substantia intellectuali 
+effi<lb ed="#L" break="no" n="83"/>caciam habent, vult consequenter ostendere Sanctus
+<lb ed="#L" n="84"/>Thomas quod talis substantia non est bona nec laudabilis .
+</p>
+            <p>
+               <lb ed="#L" n="85"/>I. Circa hoc autem duo facit. Primo, ostendit quod
+<lb ed="#L" n="86"/>huiusmodi substantia non est bona et laudabilis; secundo,
+<lb ed="#L" n="87"/>de eius malitia inquirit, capite sequenti.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="88"/>Quantum ad primum, arguit primo sic. Ex magicis
+<lb ed="#L" n="89"/>artibus praestatur patrocinium aliquibus quae sunt contraria
+<lb ed="#L" n="90"/>virtuti, furtis scilicet, adulteriis, et huiusmodi maleficiis :
+<lb ed="#L" n="91"/>unde et iis utentes artibus malefici vocantur. Ergo 
+intel<lb ed="#L" break="no" n="92"/>lectualis natura non est bene disposita secundum virtutem,
+<lb ed="#L" n="93"/>cuius auxilio magicae artes utuntur. — Probatur conse-
+<pb ed="#L" n="335"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quentia. Quia praestare patrocinium aliquibus quae sunt
+<lb ed="#L" n="2"/>contraria virtuti, non est alicuius intellectus bene dispositi.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>II. Secundo. Huiusmodi artibus utuntur plerumque 
+ho<lb ed="#L" break="no" n="4"/>mines scelerati, Ergo etc. — Probatur consequentia. Quia
+<lb ed="#L" n="5"/>non est intellectus bene dispositi secundum virtutem 
+fa<lb ed="#L" break="no" n="6"/>miliarem esse et patrocinium exhibere sceleratis, et. non
+<lb ed="#L" n="7"/>quibuslibet optimis viris.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Si diceretur, de mente Theophrasti , ad praedictas 
+ra<lb ed="#L" break="no" n="9"/>tiones, quod substantia intellectualis praestans efficaciam
+<lb ed="#L" n="10"/>magicis operibus non est per se mala, sed tantum per
+<lb ed="#L" n="11"/>accidens, inquantum a magis trahitur ad usum malorum:
+<lb ed="#L" n="12"/>sicut et virtus alicuius herbae bona est, tamen efficitur
+<lb ed="#L" n="13"/>mala alicui inquantum perversi medici eis male utuntur: —
+<lb ed="#L" n="14"/>patet hoc nihil esse. Quia substantia intellectualis huiusmodi
+<lb ed="#L" n="15"/>voluntarie ad opera magorum concurrit, et non trahitur
+<lb ed="#L" n="16"/>ab ipsis ad malum usum, quemadmodum inanimata. Et
+<lb ed="#L" n="17"/>ideo, si ad opera mala concurrat, hoc non est nisi ex eius
+<lb ed="#L" n="18"/>mala dispositione.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>III. Tertio. Per huiusmodi artes non adipiscuntur 
+ho<lb ed="#L" break="no" n="20"/>mines aliquem profectum in bonis rationis, quae sunt
+<lb ed="#L" n="21"/>scientiae et virtutes, sed in quibusdam. minimis, ut est 
+in<lb ed="#L" break="no" n="22"/>ventio furtorum, et latronum deprehensio, et huiusmodi.
+<lb ed="#L" n="23"/>Ergo etc. — Probatur consequentia. Quia, cum intellectus
+<lb ed="#L" n="24"/>bene dispositi sit reducere homines in bona rationis, quae
+<lb ed="#L" n="25"/>sunt hominum propria bona, abducere ab istis, pertrahendo
+<lb ed="#L" n="26"/>ad aliqua minima bona, est intellectus indecenter dispositi.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Advertendum quod, licet per magicas artes aliquando
+<lb ed="#L" n="28"/>accipiantur aliqua documenta scientiarum, pro maiori 
+ta<lb ed="#L" break="no" n="29"/>men parte exercentur ad aliqua. minima. Ideo, cum inquit
+<lb ed="#L" n="30"/>Sanctus Thomas quod per huiusmodi artes non 
+adipi<lb ed="#L" break="no" n="31"/>scuntur homines profectum in bonis rationis, intelligitur
+<lb ed="#L" n="32"/>pro maiori parte.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Vel intelligendum est de profectu in bonis rationis
+<lb ed="#L" n="34"/>quoad iudicium de agendis, et quoad operationes 
+virtu<lb ed="#L" break="no" n="35"/>tum: non autem quoad cognitionem speculativam tantum.
+<lb ed="#L" n="36"/>Videmus enim homines qui huiusmodi artibus utuntur,
+<lb ed="#L" n="37"/>per eas non proficere in actibus virtutum, quae sunt 
+ra<lb ed="#L" break="no" n="38"/>tionis bona, sed magis ad vitia trahi, et a vero rationis
+<lb ed="#L" n="39"/>iudicio abhorrere.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>IV. Quarto. In operationibus praedictarum artium 
+il<lb ed="#L" break="no" n="41"/>lusio quaedam videtur, et irrationabilitas. Requirunt enim
+<lb ed="#L" n="42"/>hominem re venerea non attrectatum : cum tamen 
+quan<lb ed="#L" break="no" n="43"/>doque adhibeantur ad illicitos concubitus conciliandos.
+<lb ed="#L" n="44"/>Ergo etc. — Probatur consequentia. Quia in operatione
+<lb ed="#L" n="45"/>intellectus bene dispositi nihil irrationabile et sibi 
+diver<lb ed="#L" break="no" n="46"/>sum apparet.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="47"/>Quinto. Aliqui in executione harum artium leguntur
+<lb ed="#L" n="48"/>innocentes pueros occidisse. Ergo etc. — Probatur 
+conse<lb ed="#L" break="no" n="49"/>quentia. Quia non est bene dispositus secundum 
+intelle<lb ed="#L" break="no" n="50"/>ctum qui per aliqua scelera commissa provocatur ad 
+auxi<lb ed="#L" break="no" n="51"/>lium alicui ferendum.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Advertendum quod intellectus nomine in praemissis
+<lb ed="#L" n="53"/>rationibus non accipit Sanctus Thomas potentiam 
+intel<lb ed="#L" break="no" n="54"/>lectivam praecise sumptam, sed Raturam intellectualem.
+<lb ed="#L" n="55"/>Quae dicitur bene disposita secundum virtutem et 
+secun<lb ed="#L" break="no" n="56"/>dum morem, quando secundum regulas rationis et 
+intel<lb ed="#L" break="no" n="57"/>lectus in suas operationes dirigitur: male autem, quando
+<lb ed="#L" n="58"/>non secundum huiusmodi regulas operatur. Quia ergo
+<lb ed="#L" n="59"/>verum iudicium intellectus habet ut non feratur auxilium
+<lb ed="#L" n="60"/>iis qui ad aliquod suum commodum assequendum gravia
+<lb ed="#L" n="61"/>committunt scelera; immo, ut repellantur et impediantur:
+<lb ed="#L" n="62"/>ideo non est illa substantia intellectualis bene disposita
+<lb ed="#L" n="63"/>quae huiusmodi hominibus auxilium praebet.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>V. Sexto. In operibus magorum fiunt aliqua quibus
+<lb ed="#L" n="65"/>ludificentur homines et decipiantur. Ergo etc. — Probatur
+<lb ed="#L" n="66"/>consequentia. Quia, cum bonum proprium intellectus sit
+<lb ed="#L" n="67"/>veritas; et boni sit bonum adducere: intellectus bene 
+dis<lb ed="#L" break="no" n="68"/>positi videtur esse alios perducere ad veritatem.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Septimo. Magi in suis invocationibus utuntur quibusdam
+<lb ed="#L" n="70"/>mendaciis, quibus alliciant eos quorum auxilio utuntur:
+<lb ed="#L" n="71"/>ut quod, nisi invocatus opem ferat, invocans caelum 
+com<lb ed="#L" break="no" n="72"/>minuet, aut sidera deponet, ut Porphyrius, in Epistola ad
+<lb ed="#L" n="73"/>Anebriotem , narrat. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="74"/>Quia intellectus bene dispositus veritate allicitur, in qua
+<lb ed="#L" n="75"/>delectatur, non autem mendaciis.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>Octavo. Magi invocant eas substantias suppliciter, quasi
+<lb ed="#L" n="77"/>superiores: cum autem advenerint, imperant eis quasi
+<lb ed="#L" n="78"/>inferioribus. Ergo etc. — Probatur consequentia. Quia non
+<lb ed="#L" n="79"/>videtur esse habentis intellectum bene dispositum ut, si sit
+<lb ed="#L" n="80"/>superior, imperanti sibi subdatur sicut inferior: aut, si sit
+<lb ed="#L" n="81"/>inferior, ut sibi ab co quasi superiori supplicari patiatur.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Advertendum quod licet, Matth. r1, ponat Glossa unum
+<lb ed="#L" n="83"/>gradum humilitatis, Zn quo est omnis iustitia, subesse, 
+sci<lb ed="#L" break="no" n="84"/>licet minori; non est tamen humilitatis gradus subesse 
+in<lb ed="#L" break="no" n="85"/>feriori arroganti sibi imperium supra superiorem, et illi
+<lb ed="#L" n="86"/>obedire. Immo, esset contra rationem; et contra ordinem
+<lb ed="#L" n="87"/>institutum a Deo, qui inferiora per superiora gubernat. Ideo
+<lb ed="#L" n="88"/>bene hic dicitur quod non est intellectus bene dispositi,
+<lb ed="#L" n="89"/>si sit superior, ut subdatur imperanti sibi sicut inferior,
+</p>
+            <p>
+               <lb ed="#L" n="90"/>ULTIMO inquit Sanctus Thomas quod per hoc error
+<lb ed="#L" n="91"/>gentilium excluditur, huiusmodi operationes diis 
+attribuen<lb ed="#L" break="no" n="92"/>tium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

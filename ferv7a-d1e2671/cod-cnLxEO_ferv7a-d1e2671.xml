@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 118</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 118</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="368"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2671"><!-- ferv7a-l3c118 -->
+            <head>Capitulum 118</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="93" type="fixed=368"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="94"/>POSTQUAM ostendit Sanctus, Thomas quod lex divina ad 
+<lb ed="#L" n="95"/>Dei amorem hominem ordinat, consequenter ostendit  
+<lb ed="#L" n="96"/>quod etiam ipsum ordinat ad fidem . 
+</p>
+            <p>
+               <lb ed="#L" n="97"/>I. Et ponit hanc conclusionem: Per divinam legem 
+<lb ed="#L" n="98"/>homines ad rectam fidem obligantur. 
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Probatur primo sic. Dilectionis spiritualis initium esse 
+<lb ed="#L" n="100"/>oportet visionem intellectualem. Declaratur ex similitudine 
+<cb ed="#L" n="h"/>
+               <lb ed="#L" n="101"/>amationis corporalis. — Sed visio illius spiritualis 
+intelli<lb ed="#L" break="no" n="102"/>gibilis  qui est Deus, haberi non potest a nobis nisi per
+<lb ed="#L" n="103"/>fidem. Et praecipue secundum quod in eius fruitione 
+no<lb ed="#L" break="no" n="104"/>stra beatitudo consistit: eo quod naturalem rationem 
+ex<lb ed="#L" break="no" n="105"/>cedat. — Igitur etc.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="107"/>cum superius  ostensum est legem divinam inducere ho-
+<pb ed="#L" n="369"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mines ad amorem secundum suum statum perfectum, idest
+<lb ed="#L" n="2"/>secundum quod data est tempore gratiae, illud 
+intelli<lb ed="#L" break="no" n="3"/>gendum est de amore Dei quo diligitur tanquam ultimus
+<lb ed="#L" n="4"/>nostrae beatitudinis finis. Ad huius autem cognitionem
+<lb ed="#L" n="5"/>non possumus ascendere nisi per fidem, qua credimus
+<lb ed="#L" n="6"/>Deum esse nostrae ultimae beatitudinis obiectum. Ideo
+<lb ed="#L" n="7"/>lex divina, quae primo nos ad Dei amorem inducit, 
+se<lb ed="#L" break="no" n="8"/>cundario etiam ad rectam inducit fidem, sine qua Deum
+<lb ed="#L" n="9"/>amare non possemus. Et hoc est huius rationis 
+funda<lb ed="#L" break="no" n="10"/>mentum.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Advertendum. ulterius quod amor proprie dicitur in
+<lb ed="#L" n="12"/>appetitu sensitivo, licet etiam ad appetitum intellectivum
+<lb ed="#L" n="13"/>transferatur, ut habetur III Sent., d. xxvir, q. m, a. 1: 
+di<lb ed="#L" break="no" n="14"/>lectio autem dicitur in appetitu intellectivo. Quia ergo
+<lb ed="#L" n="15"/>amor rei corporalis ad appetitum sensitivum pertinet 
+in<lb ed="#L" break="no" n="16"/>quantum huiusmodi, amor vero rei spiritualis ad. 
+volun<lb ed="#L" break="no" n="17"/>tatem, amorem rei corporalis vocavit Sanctus "Thomas
+<lb ed="#L" n="18"/>amationem, quo significatur exitus in actum amoris 
+sen<lb ed="#L" break="no" n="19"/>sitivi: amorem vero rei spiritualis dilectionem appellavit.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>Attendendum etiam, cum dicitur amationis corporalis
+<lb ed="#L" n="21"/>principium esse visionem quae est per oculum: aut quod
+<lb ed="#L" n="22"/>non loquitur Sanctus Thomas de amatione corporali 
+uni<lb ed="#L" break="no" n="23"/>versaliter, sed de aliqua, de ea scilicet qua aliquis in rem
+<lb ed="#L" n="24"/>.. Yisam-inclinatur ; aut nomine visionis per oculum omnem
+<lb ed="#L" n="25"/>sensitivam apprehensionem intelligit. Ponit autem visionem
+<lb ed="#L" n="26"/>per oculum, quia per hanc praecipue homines ad amorem
+<lb ed="#L" n="27"/>inducuntur. '
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Il. Secundo. Lex divina ad hoc ordinat hominem ut
+<lb ed="#L" n="29"/>sit totaliter subditus Deo. Ergo etc. — Probatur 
+conse<lb ed="#L" break="no" n="30"/>quentia. Quia sicut subditur homo Deo amando quantum
+<lb ed="#L" n="31"/>ad voluntatem, ita credendo quantum ad intellectum. Non
+<lb ed="#L" n="32"/>autem aliquod falsum credendo: quia a Deo, qui est 
+ve<lb ed="#L" break="no" n="33"/>ritas, nullum falsum homini proponi potest (tanquam 
+sci<lb ed="#L" break="no" n="34"/>licet credendum).
+</p>
+            <p>
+               <lb ed="#L" n="35"/>2. Sed occurrit dubium. Videtur enim quod lex divina
+<lb ed="#L" n="36"/>inducat ad credendum aliquod falsum. Nam cum Deus
+<lb ed="#L" n="37"/>praecepit Abrahae ut suum filium interficeret , per hoc
+<lb ed="#L" n="38"/>inducebatur Abraham ad credendum filium suum esse a
+<lb ed="#L" n="39"/>se occidendum. Quod tamen erat falsum. Ergo etc.
+<lb ed="#L" n="40"/>|. Dicitur quod per illud praeceptum non inducebatur
+<lb ed="#L" n="41"/>Abraham ad credendum filium suum esse a se 
+interficien<lb ed="#L" break="no" n="42"/>dum, nisi sub hac conditione, nisi praeceptum revocaretur.
+<lb ed="#L" n="43"/>Et hoc verum erat, non autem falsum: nam vere erat ab
+<lb ed="#L" n="44"/>ipso interficiendus nisi Deus praeceptum revocasset.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Quomodo autem fidei non possit subesse falsum,
+<lb ed="#L" n="46"/>ostendit Sanctus Thomas II II^, q. 1, a. 3; et III Sent,
+<lb ed="#L" n="47"/>HENCE. 5onLt
+</p>
+            <p>
+               <lb ed="#L" n="48"/>III. Tertio. Qui errat circa Deum, non cognoscit Deum,
+<lb ed="#L" n="49"/>sed apprehendit aliquid loco Dei. Ergo qui errat circa
+<lb ed="#L" n="50"/>Deum, nec amare ipsum potest nec desiderare. Sed lex
+<lb ed="#L" n="51"/>divina ad hoc tendit ut homines Deum ament et 
+desi<lb ed="#L" break="no" n="52"/>derent. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Probatur consequentia prima. Quia secundum quod
+<lb ed="#L" n="54"/>aliquid cognoscitur, secundum hoc amatur et desideratur.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Antecedens vero probatur ex differentia inter 
+compo<lb ed="#L" break="no" n="56"/>sita et simplicia. Quia in compositis, qui errat circa aliquod
+<lb ed="#L" n="57"/>principiorum essentialium, etsi rem non cognoscat 
+sim<lb ed="#L" break="no" n="58"/>pliciter, cognoscit tamen eam secundum quid, puta 
+secun<lb ed="#L" break="no" n="59"/>dum genus: in simplicibus autem, cuiusmodi est Deus,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="60"/>quilibet error (scilicet circa essentialia) totaliter excludit
+<lb ed="#L" n="61"/>rei cognitionem.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>2. Ad huius rationis evidentiam, considerandum primo,
+<lb ed="#L" n="63"/>quod omnibus simplicibus commune est ut ex pluribus
+<lb ed="#L" n="64"/>partibus eorum essentia non componatur. Ideo, quamvis
+<lb ed="#L" n="65"/>in rebus simplicibus creatis accipiatur genus et differentia,
+<lb ed="#L" n="66"/>inquantum in ipsis esse differt ab essentia, secundum 
+pro<lb ed="#L" break="no" n="67"/>pinquitatem ad quod et remotionem illa accipiuntur, ut
+<lb ed="#L" n="68"/>in superioribus  est ostensum: in ipsis tamen generi et
+<lb ed="#L" n="69"/>differentiae diversae partes non correspondent, sicut in
+<lb ed="#L" n="70"/>rebus materialibus accidit, in quibus genus sumitur a 
+ma<lb ed="#L" break="no" n="71"/>teria et differentia a forma. Ideo non potest errare quis
+<lb ed="#L" n="72"/>circa differentiam ipsarum remanente cognitione ipsarum
+<lb ed="#L" n="73"/>secundum genus, quantum est ex parte rei: quia, remota
+<lb ed="#L" n="74"/>differentia ab ipsis quantum ad id quod est in re, non
+<lb ed="#L" n="75"/>remanet aliquid ipsius a quo sumatur genus, cum ab
+<lb ed="#L" n="76"/>eodem utrumque sumatur. Unde si quis existimaret 
+intel<lb ed="#L" break="no" n="77"/>ligentiam moventem orbem Saturni esse substantiam 
+cor<lb ed="#L" break="no" n="78"/>poream, nullo modo apprehenderet ipsam intelligentiae
+<lb ed="#L" n="79"/>substantiam: quia ipsum genus substantiae non sumitur
+<lb ed="#L" n="80"/>ab alio ad essentiam eius pertinente quam eius differentia,
+<lb ed="#L" n="81"/>quae est incorporeum; et ideo, errore circa differentiam
+<lb ed="#L" n="82"/>eius existente, non remanet aliquid apprehensum de ipsa,
+<lb ed="#L" n="83"/>ex parte rei, quod generi eius correspondeat. Etsi enim
+<lb ed="#L" n="84"/>tunc videatur aliquid eius apprehendi, quia de ipsa 
+ap<lb ed="#L" break="no" n="85"/>prehenditur substantia, quae est sibi communis et aliis,
+<lb ed="#L" n="86"/>hoc tamen non est verum: quia substantia non est eius
+<lb ed="#L" n="87"/>genus nisi logice et secundum rationis apprehensionem,
+<lb ed="#L" n="88"/>non autem metaphysice et ex parte rei.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>3. Considerandum secundo, quod substantiae creatae
+<lb ed="#L" n="90"/>simplices a prima substantia, quae simplicissima est, 
+dif<lb ed="#L" break="no" n="91"/>ferunt [eo] quod in ipsis aliquid accidentale est: in prima
+<lb ed="#L" n="92"/>autem substantia nullum est accidens, sed quicquid in
+<lb ed="#L" n="93"/>ipsa est, eius est essentia. Ideo quia, ut hic dicitur, cum
+<lb ed="#L" n="94"/>errore circa accidentia rei stat rei cognitio, potest circa
+<lb ed="#L" n="95"/>accidentia substantiae simplicis creatae errare quispiam
+<lb ed="#L" n="96"/>manente eius cognitione circa substantialia. Quia vero in
+<lb ed="#L" n="97"/>simplicibus error circa unum essentialium tollit omnino
+<lb ed="#L" n="98"/>rei cognitionem, ideo omnis error circa Deum, cui omnia
+<lb ed="#L" n="99"/>sunt essentialia, totaliter ipsius cognitionem aufert. 
+Pro<lb ed="#L" break="no" n="100"/>pterea absolute inquit Sanctus Thomas quod quicumque
+<lb ed="#L" n="101"/>errat circa Deum, ipsum non cognoscit.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>IV. Quarto. Ad legem divinam pertinet vitia prohibere.
+<lb ed="#L" n="103"/>Ergo et falsas opiniones excludere de Deo, et de iis quae
+<lb ed="#L" n="104"/>Dei sunt. Ergo etc. — Probatur consequentia. Quia, cum
+<lb ed="#L" n="105"/>bonum intellectus sit verum, ita se habet falsa opinio in
+<lb ed="#L" n="106"/>intelligibilibus sicut vitium virtuti oppositum in moralibus.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>CowrmMATUR conclusio auctoritate Apostoli Z7eb. xr,
+<lb ed="#L" n="108"/>et Deut.  vr.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Per hoc autem excluditur error dicentium nihil referre
+<lb ed="#L" n="110"/>ad hominis salutem quacumque fide serviat Deo.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Advertendum quod error hic adductus optime ex dictis
+<lb ed="#L" n="112"/>excluditur. Si enim recta fides per legem divinam 
+inten<lb ed="#L" break="no" n="113"/>ditur; et haec ipsa recta fides nobis praecipitur: ubi recta
+<lb ed="#L" n="114"/>fides non fuerit, lex divina non servatur, et per consequens
+<lb ed="#L" n="115"/>ad salutem perveniri non poterit. Constat autem quod non
+<lb ed="#L" n="116"/>omnis fides est recta: cum una dicat alteri contraria. Ideo
+<lb ed="#L" n="117"/>impossibile est ut in quacumque fide homo salvetur, sed
+<lb ed="#L" n="118"/>tantum in recta salvari quis potest.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

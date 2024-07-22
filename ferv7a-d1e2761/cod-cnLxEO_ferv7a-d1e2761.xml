@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 129</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 129</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="396"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2761"><!-- ferv7a-l3c129 -->
+            <head>Capitulum 129</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="15" type="fixed=395"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="16"/>QUIA posset aliquis existimare, immo aliqui tenuerunt,
+<lb ed="#L" n="17"/>ea quae lege divina praecipiuntur, esse solum hac
+<lb ed="#L" n="18"/>ratione recta quia sunt lege posita, vult Sanctus Thomas
+<lb ed="#L" n="19"/>ostendere quod Auiusmodi non solum rectitudinem habent
+<lb ed="#L" n="20"/>quia sunt lege posita, quia per legem statuta et urdeata
+<lb ed="#L" n="21"/>sunt, sed etiam secundum naturam.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Et arguit primo sic. Ex praeceptis legis divinae mens
+<lb ed="#L" n="23"/>hominis ordinatur sub Deo; et omnia alia quae sunt in
+<lb ed="#L" n="24"/>homine, sub ratione, Ergo ea quae lege divina 
+praeci<lb ed="#L" break="no" n="25"/>piuntur, sunt secundum se naturaliter recta. — Probatur
+<lb ed="#L" n="26"/>consequentia. Quia naturalis ordo requirit ut inferiora
+<lb ed="#L" n="27"/>superioribus subdantur.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Secundo. Homines ex divina providentia naturale 
+iudi<lb ed="#L" break="no" n="29"/>catorium rationis sortiuntur ut principium propriarum
+<lb ed="#L" n="30"/>operationum. Ergo sunt aliquae operationes naturaliter
+<lb ed="#L" n="31"/>homini convenientes, quae sunt secundum se rectae. — 
+Pro<lb ed="#L" break="no" n="32"/>batur consequentia. Quia naturalia Pru ad ea 
+ordi<lb ed="#L" break="no" n="33"/>nantur quae sunt naturaliter.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Tertio. Hominum est natura determinata. Ergo oportet
+<lb ed="#L" n="35"/>esse aliquas operationes secundum se homini convenientes.
+<lb ed="#L" n="36"/>— Probatur consequentia. Quia quorumcumque est natura
+<lb ed="#L" n="37"/>determinata, oportet esse operationes determinatas quae illi
+<lb ed="#L" n="38"/>naturae conveniant: cum operatio uniuscuiusque ipsius
+<lb ed="#L" n="39"/>naturam sequatur.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Advertendum quod ratio haec supponit tanquam  
+ma<lb ed="#L" break="no" n="41"/>nifestum ea quae alicui naturae ex se conveniunt, esse
+<lb ed="#L" n="42"/>ex seipsis bona et recta: quia natura non inclinat ad
+<lb ed="#L" n="43"/>malum, sed potius ad bonum. Quod significatur cum
+<lb ed="#L" n="44"/>dicitur illud esse maturae conveniens. Et ideo, cum per
+<lb ed="#L" n="45"/>rationem hanc conclusum sit hominem habere aliquas
+<lb ed="#L" n="46"/>operationes secundum se illi convenientes, satis 
+mani<lb ed="#L" break="no" n="47"/>festum relinquitur aliquas hominis operationes secundum
+<lb ed="#L" n="48"/>suam naturam bonas esse.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>II. Quarto. Est homini naturale quod sit animal sociale.
+<lb ed="#L" n="50"/>Ergo et naturale est quod unicuique conservet quod suum
+<lb ed="#L" n="51"/>est, et quod ab iniuriis abstineat. Ergo etc. — Probatur
+<lb ed="#L" n="52"/>antecedens. Quia unus homo non sufficit ad omnia quae
+<lb ed="#L" n="53"/>sunt humanae vitae necessaria. — Consequentia vero 
+pro<lb ed="#L" break="no" n="54"/>batur. Quia cuicumque aliquid est naturale, etiam id sine
+<lb ed="#L" n="55"/>quo conservari non potest, est naturale: cum natura non
+<lb ed="#L" n="56"/>deficiat in necessariis. Humana autem societas conservari
+<lb ed="#L" n="57"/>non potest nisi unicuique conservetur quod suum est, et
+<lb ed="#L" n="58"/>ab iniuriis abstineatur.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Quinto. Omnis homo. naturaliter habet quod utatur
+<lb ed="#L" n="60"/>rebus inferioribus ad suae vitae necessitatem. Sed in usu
+<lb ed="#L" n="61"/>rerum est aliqua determinata mensura humanae vitae 
+con<lb ed="#L" break="no" n="62"/>veniens, quae si praetermittatur, fit homini nocumentum:
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="63"/>sicut in inordinata ciborum sumptione apparet. Ergo sunt
+<lb ed="#L" n="64"/>aliqui actus homini naturaliter convenientes.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Advertendum quod ista ratio fundatur super hoc 
+ma<lb ed="#L" break="no" n="66"/>nifesto principio: Jd :m homine naturaliter est rectum,
+<lb ed="#L" n="67"/>quod determinatam mensuram a natura institutam non
+<lb ed="#L" n="68"/>excedit. Quia tale est secundum rationem: omne autem
+<lb ed="#L" n="69"/>quod est secundum rationem, est rectum.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>III. Sexto. Secundum naturalem ordinem corpus hominis
+<lb ed="#L" n="71"/>est propter animam, et inferiores animae vires propter
+<lb ed="#L" n="72"/>rationem. Declaratur similitudine materiae, et instrumenti.
+<lb ed="#L" n="73"/>Ergo est naturaliter rectum ut sic procurentur ab homine
+<lb ed="#L" n="74"/>corpus et inferiores animae vires, quod ex hoc actus 
+ra<lb ed="#L" break="no" n="75"/>tionis et bonum ipsius minime impediantur. Si autem
+<lb ed="#L" n="76"/>secus accideret, erit naturaliter peccatum, — Consequentia
+<lb ed="#L" n="77"/>probatur. Quia ex eo quod ad aliud ordinatur, dicitur 
+<lb ed="#L" n="78"/>rei auxilium provenire, non autem impedimentum.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Ex hac ratione infert Sanctus Thomas vinolentias, 
+comes<lb ed="#L" break="no" n="80"/>sationes, ac inordinatos venereorum usus, per quae actus
+<lb ed="#L" n="81"/>rationis impeditur; et subdi passionibus, quae liberum 
+iudi<lb ed="#L" break="no" n="82"/>cium rationis esse non sinunt: esse naturaliter mala.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Ista ratio habet pro fundamento quod illud est naturaliter
+<lb ed="#L" n="84"/>rectum quod secundum naturae ordinem et institutionem
+<lb ed="#L" n="85"/>fit: e contrario autem naturaliter malum est id quo naturae
+<lb ed="#L" n="86"/>ordo pervertitur aut impeditur.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Septimo. Homo ordinatur naturaliter in Deum sicut in
+<lb ed="#L" n="88"/>finem. Ergo ea quibus homo inducitur in cognitionem et
+<lb ed="#L" n="89"/>amorem Dei, sunt naturaliter recta: naturaliter autem mala
+<lb ed="#L" n="90"/>quae e contrario se habent. — Probatur consequentia. Quia
+<lb ed="#L" n="91"/>unicuique naturaliter conveniunt ea quibus tendit in suum
+<lb ed="#L" n="92"/>finem naturalem: quae autem e contrario se habent, sunt
+<lb ed="#L" n="93"/>ei naturaliter inconvenientia.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>IV, Ex praedictis infert Sanctus Thomas quod bonum et
+<lb ed="#L" n="95"/>malum in humanis actibus non solifm sunt secundum legis
+<lb ed="#L" n="96"/>positionem, sed etiam secundum naturalem ordinem. Quod
+<lb ed="#L" n="97"/>auctoritate Psalmi confirmatur.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Per hoc autem excluditur error dicentium iusta et recta
+<lb ed="#L" n="99"/>esse solum secundum legem  posita.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Advertendum quod Sanctus 'Thomas in nonnullis 
+prae<lb ed="#L" break="no" n="101"/>dictarum rationum hoc solum conclusit, quod sint in 
+hu<lb ed="#L" break="no" n="102"/>manis actibus aliqua secundum naturam recta: quia hoc
+<lb ed="#L" n="103"/>suffuciebat sibi ad excludendum positionem illorum qui
+<lb ed="#L" n="104"/>ponebant ea quae lege divina praecipiuntur, non esse recta
+<lb ed="#L" n="105"/>nisi quia sunt lege posita, eo quod dicebant non esse
+<lb ed="#L" n="106"/>aliquid. rectum et iustum nisi secundum quod est lege
+<lb ed="#L" n="107"/>positum et institutum. Per hoc enim quod ostenditur aliqua
+<lb ed="#L" n="108"/>esse recta secundum naturam, constat fundamentum 
+po<lb ed="#L" break="no" n="109"/>sitionis eorum destructum esse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,1113 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 102</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 102</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="316"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2541"><!-- ferv7a-l3c102 -->
+            <head>Capitulum 102</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="41" type="fixed=316"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="42"/>POSTQUAM ostendit Sanctus Thomas quae sint illa opera
+<lb ed="#L" n="43"/>P» quae miracula sunt, vult ulterius quibus conveniat
+<lb ed="#L" n="44"/>miracula facere manifestare . -
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Circa hoc autem duo facit: primo, ostendit quod solus
+<lb ed="#L" n="46"/>Deus miracula facere potest; secundo, quod aliae 
+sub<lb ed="#L" break="no" n="47"/>stantiae spirituales aliqua mira operantur, quae vera 
+mi<lb ed="#L" break="no" n="48"/>racula non sunt, capite. sequenti,
+</p>
+            <p>
+               <lb ed="#L" n="49"/>I. Quia autem haec propositio, Solus Deus. potest 
+mi<lb ed="#L" break="no" n="50"/>racula facere, duas habet exponentes, scilicet, Deus potest
+<lb ed="#L" n="51"/>miracula facere, et, Nullus alius a Deo hoc potest, 
+utram<lb ed="#L" break="no" n="52"/>que in hoc capite probat Sanctus Thomas. Et primo, 
+se<lb ed="#L" break="no" n="53"/>cundam; secundo, primam .
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Arguit igitur primo sic. Omnis creatura est constituta
+<lb ed="#L" n="55"/>sub ordine quem Deus in rebus statuit. Ergo nulla 
+crea<lb ed="#L" break="no" n="56"/>tura potest supra hunc ordinem operari: quod est miracula
+<lb ed="#L" n="57"/>facere. — Probatur consequentia. Quia quod est sub ordine
+<lb ed="#L" n="58"/>totaliter constitutum, non potest praeter illum ordinem
+<lb ed="#L" n="59"/>operari.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Ad evidentiam huius rationis, considerandum est, ex
+<lb ed="#L" n="61"/>doctrina Sancti Thomae Prima, q. cx, a. 4, quod ad 
+ra<lb ed="#L" break="no" n="62"/>tionem miraculi non sufficit quod aliquid sit praeter 
+or<lb ed="#L" break="no" n="63"/>dinem et inclinationem alicuius particularis virtutis creatae,
+<lb ed="#L" n="64"/>sed requiritur quod sit praeter ordinem totius virtutis
+<lb ed="#L" n="65"/>creatae: idest, quod nulla virtus creata illum effectum,
+<lb ed="#L" n="66"/>cum omnibus eius conditionibus, possit efficere. Constat
+<lb ed="#L" n="67"/>autem quod particularis virtus creata non potest operari
+<lb ed="#L" n="68"/>praeter ordinem totius naturae creatae: cum operetur 
+se<lb ed="#L" break="no" n="69"/>cundum ordinem et inclinationem suam, qui ordo 
+con<lb ed="#L" break="no" n="70"/>tinetur sub universali ordine universitati creaturarum a
+<lb ed="#L" n="71"/>Deo imposito, sicut pars continetur in suo toto. Et ideo
+<lb ed="#L" n="72"/>nulla virtus creata potest miracula facere. Et secundum
+<lb ed="#L" n="73"/>hoc procedit haec ratio.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Unde et illa propositio quam assumit Sanctus Thomas,
+<lb ed="#L" n="75"/>scilicet, Quod est sub ordine totaliter constitutum, non
+<lb ed="#L" n="76"/>potest praeter illum ordinem operari, intelligitur ad hunc
+<lb ed="#L" n="77"/>sensum, quod, si aliquid secundum omnem suam virtutem
+<lb ed="#L" n="78"/>sub aliquo totali ordine tanquam pars illius ordinis 
+con<lb ed="#L" break="no" n="79"/>tineatur, illud non potest praeter illum totalem ordinem
+<lb ed="#L" n="80"/>operari. Oppositum enim implicat contradictionem, Si 
+<lb ed="#L" n="81"/>enim aliquid sua virtute operetur praeter aliquem totalem
+<lb ed="#L" n="82"/>ordinem, sequitur ut secundum suam virtutem extra totum 
+<lb ed="#L" n="83"/>illum ordinem sit: cum operetur id ad quod nulla virtus 
+<lb ed="#L" n="84"/>in illo ordine contenta se potest extendere. Et sic, si
+<lb ed="#L" n="85"/>ponatur aliquid in aliquo toto ordine contentum praeter
+<lb ed="#L" n="86"/>totum illum ordinem operari, ponitur idem secundum suam
+<lb ed="#L" n="87"/>virtutem in aliquo ordine esse, et non esse in illo ordine.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>II. Secundo. Omnis creaturae potentia est limitata ad
+<lb ed="#L" n="89"/>aliquem determinatum effectum, vel ad aliquos. Ergo 
+quic<lb ed="#L" break="no" n="90"/>quid virtute cuiuscumque creaturae fiat, non potest proprie
+<lb ed="#L" n="91"/>miraculum dici: sed bene quod fit divina virtute, quae
+<lb ed="#L" n="92"/>infinita est, et idcirco incomprehensibilis. - Probatur 
+con<lb ed="#L" break="no" n="93"/>sequentia. Quia quando aliqua virtus finita proprium
+<lb ed="#L" n="94"/>elffectum operatur ad quem est OBRAS non est
+<lb ed="#L" n="95"/>miraculum.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Ad huius evidentiam considerandum est, ex idpciiid
+<lb ed="#L" n="97"/>Sancti Thomae loco praeallegato, ad 2; et q. cxiv, a. 4
+<lb ed="#L" n="98"/>item II. Sent., d. xvi, q. 1, a 3; et IV Sent., d. xvi, q.
+<lb ed="#L" n="99"/>1, a 5, quod aliquid miraculum potest dupliciter dici:
+<lb ed="#L" n="100"/>uno modo, quoad nos tantum; alio modo, simpliciter.
+<lb ed="#L" n="101"/>Quoad nos dicitur miraculum, cum aliquid fit praeter 
+or<lb ed="#L" break="no" n="102"/>dinem naturae creatae nobis notae, per virtutem creatam
+<lb ed="#L" n="103"/>nobis ignotam, licet in se cognoscibilis et comprehensibilis
+<lb ed="#L" n="104"/>sit ab intellectu creato. Simpliciter autem miraculum 
+di<lb ed="#L" break="no" n="105"/>citur quod fit praeter ordinem totius naturae creatae, per
+<lb ed="#L" n="106"/>virtutem secundum se a quocumque intellectu creato 
+in<lb ed="#L" break="no" n="107"/>comprehensibilem. Quia ergo quaecumque virtus finita,
+<lb ed="#L" n="108"/>qualis est omnis virtus creata, est ab aliquo intellectu creato
+<lb ed="#L" n="109"/>comprehensibilis, et per consequens non est causa 
+sim<lb ed="#L" break="no" n="110"/>pliciter occulta; virtus autem infinita est 
+incomprehensi<lb ed="#L" break="no" n="111"/>bilis, et per consequens omnino occulta: ideo optime
+<lb ed="#L" n="112"/>inquit Sanctus Thomas illa quae fiunt a virtute finita, non
+<lb ed="#L" n="113"/>esse simpliciter miracula, sed posse esse mira illi qui 
+huius<lb ed="#L" break="no" n="114"/>modi virtutem ignorat, et per consequens miracula quoad
+<lb ed="#L" n="115"/>illum, sicut mirum est apud ignorantem virtutem magnetis
+<lb ed="#L" n="116"/>quod per ipsam attrahatur ferrum, et ignoranti virtutem
+<lb ed="#L" n="117"/>piscis cuiusdam mirum videtur quod navem detineat; illa
+<lb ed="#L" n="118"/>vero quae a virtute fiunt infinita, qualis est divina virtus,
+<lb ed="#L" n="119"/>vere et simpliciter miracula esse, — intellige, si adsint et
+<lb ed="#L" n="120"/>aliae conditiones in praecedenti capite expositae.
+</p>
+            <p>
+               <lb ed="#L" n="121"/>III. Tertio. Nulla creatura potest agere in aliqua re
+<lb ed="#L" n="122"/>nisi quod est in potentia illius rei. Ergo sunt multa 
+mi<lb ed="#L" break="no" n="123"/>racula quae nulla virtute creata fieri possunt. — Probatur
+<lb ed="#L" n="124"/>antecedens. Quia, cum solius Dei sit creare, omnis 
+crea<lb ed="#L" break="no" n="125"/>tura in sua actione requirit subiectum. Nihil autem tale
+<lb ed="#L" n="126"/>potest agere nisi illa ad quae subiectum est in potentia:
+<lb ed="#L" n="127"/>icum non operetur nisi ut subiectum educat de potentia
+<pb ed="#L" n="317"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in. actum. — Consequentia vero probatur, Quia fiunt multa 
+<lb ed="#L" n="2"/>miracula divinitus dum in re aliqua fit divina virtute quod
+<lb ed="#L" n="3"/>non est in potentia illius rei: sicut quod mortuus 
+revi<lb ed="#L" break="no" n="4"/>viscat, quod sol retrocedat, quod: duo corpora sint simul. 
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Adverte quod in ista ratione per potentiam subiecti
+<lb ed="#L" n="6"/>intelligitur potentia naturalis simpliciter, quo modo dicitur 
+<lb ed="#L" n="7"/>subiectum esse in potentia ad formam de eius potentia
+<lb ed="#L" n="8"/>per agens naturale. educibilem. Non autem intelligitur 
+po<lb ed="#L" break="no" n="9"/>tentia obedientalis, secundum quam dicitur aliquid in 
+po<lb ed="#L" break="no" n="10"/>tentia ad quodcumque Deus in ipsum effcere voluerit:
+<lb ed="#L" n="11"/>quia sic omnia miracula, in quacumque re facta, sunt in
+<lb ed="#L" n="12"/>potentia illius rei.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Adverte etiam quod ista ratio non probat universaliter
+<lb ed="#L" n="14"/>nulla miracula virtute creata fieri posse, sed quaedam. Nam
+<lb ed="#L" n="15"/>etiam Deus quandoque miraculose operatur in.re id ad
+<lb ed="#L" n="16"/>quod est in potentia naturali, licet alio modo illud efficiat: 
+<lb ed="#L" n="17"/>sicut cum aliquem a febre statim ad sanitatem reducit. Et
+<lb ed="#L" n="18"/>ideo:ex hoc quod virtus creata non agit in re nisi id .ad
+<lb ed="#L" n="19"/>quod est in potentia naturali, non poterat concludi 
+univer<lb ed="#L" break="no" n="20"/>saliter nulla miracula per virtutem creatam fieri posse.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>IV. Quarto: et est confirmatio praecedentis rationis.
+<lb ed="#L" n="22"/>Effectus secundum quos subiectum reducitur de potentia
+<lb ed="#L" n="23"/>in actum, aut nati sunt fieri per solas causas superiores,
+<lb ed="#L" n="24"/>aut non. Sed nullo illorum modorum est miraculum. Ergo
+<lb ed="#L" n="25"/>nullo modo virtute superiorum causarum aliqua miracula
+<lb ed="#L" n="26"/>fieri. possunt.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Maior probatur. Quia, cum subiectum in quod agens
+<lb ed="#L" n="28"/>agit, habeat ordinem et ad agens per quod reducitur ad
+<lb ed="#L" n="29"/>actum, et ad actum in quem reducitur, sicut est in 
+po<lb ed="#L" break="no" n="30"/>tentia ad determinatum actum, ita ad determinatum agens.
+<lb ed="#L" n="31"/>Ostenditur hoc ex eo quod agens diversimode requiritur
+<lb ed="#L" n="32"/>ad reducendum in diversum actum:' idque exemplis 
+de<lb ed="#L" break="no" n="33"/>claratur.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Minor vero probatur, quantum ad primam partem, 
+exem<lb ed="#L" break="no" n="35"/>plariter. Non enim est miraculum cum animalia ex 
+pu<lb ed="#L" break="no" n="36"/>trefactione sine semine generantur. - Quoad secundam
+<lb ed="#L" n="37"/>vero partem: quia ad. complementum effectuum qui non
+<lb ed="#L" n="38"/>sunt nati fieri per solas causas superiores, requiruntur
+<lb ed="#L" n="39"/>causae inferiores particulares. Cum autem effectus 
+produ<lb ed="#L" break="no" n="40"/>citur a causa superiori mediantibus propriis principiis, non
+<lb ed="#L" n="41"/>est miraculum. !
+</p>
+            <p>
+               <lb ed="#L" n="42"/>2. Circa probationem maioris, advertendum quod 
+San<lb ed="#L" break="no" n="43"/>ctus Thomas ordinem subiecti ad formam et ad agens
+<lb ed="#L" n="44"/>sumit ex definitione potentiae passivae posita V Metaph. .
+<lb ed="#L" n="45"/>Definitur enim quod est principium transmutandi ab alio
+<lb ed="#L" n="46"/>inquantum aliud. Ex hoc autem habetur quod subiectum
+<lb ed="#L" n="47"/>de cuius potentia aliquis actus educitur, dicit ordinem non
+<lb ed="#L" n="48"/>solum ad actum in quem per transmutationem. educi potest,
+<lb ed="#L" n="49"/>sed etiam ad agens a quo habet transmutari et in actum
+<lb ed="#L" n="50"/>reduci. Ex hoc autem ulterius sequitur quod, cum 
+natu<lb ed="#L" break="no" n="51"/>ralitas potentiae sit modus ipsius; et potentia passiva in
+<lb ed="#L" n="52"/>sua ratione dicat ordinem ad actum et ad agens: quod
+<lb ed="#L" n="53"/>dicetur potentia naturalis illa sola quae respicit actum qui
+<lb ed="#L" n="54"/>non est supra ordinem naturalium actuum, et habet pro
+<lb ed="#L" n="55"/>proprio activo aliquod agens quod in ordine agentium
+<lb ed="#L" n="56"/>naturalium contineatur. Sicut enim potentia passiva in
+<lb ed="#L" n="57"/>communi sumpta habet definiri per actum et per agens,
+<lb ed="#L" n="58"/>ita potentia passiva naturalis habet definiri per actum 
+na<lb ed="#L" break="no" n="59"/>turalem et per agens naturale: quemadmodum et violenta
+<lb ed="#L" n="60"/>potentia dicitur quae est susceptiva actus violenti, idest
+<lb ed="#L" n="61"/>sibi repugnantis, ab agente in ipsam per violentiam.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Ex quo patet error Scoti in I Sent. q. : Prologi ,
+<lb ed="#L" n="63"/>tenentis quod finis noster, qui est visio divinae essentiae,
+<lb ed="#L" n="64"/>sit naturalis animae nostrae, sed supernaturaliter 
+acquisi<lb ed="#L" break="no" n="65"/>bilis. Patet enim hoc esse falsum. Quia nulla virtute creata
+<lb ed="#L" n="66"/>potest anima in actum illius finis educi. Et per 
+conse<lb ed="#L" break="no" n="67"/>quens anima ad illum. non habet naturalem potentiam
+<lb ed="#L" n="68"/>simpliciter, sed tantum obedientalem: licet in illa aliquid
+<lb ed="#L" n="69"/>naturalitatis sit, ut dictum est in praecedentibus , 
+inquan<lb ed="#L" break="no" n="70"/>tum natura eius constituta est capax illius beatitudinis,
+<lb ed="#L" n="71"/>et est ad illam a prima sua institutione a Deo ordinata.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Potest autem opinio Scoti sustineri si per talem 
+po<lb ed="#L" break="no" n="73"/>tentiam naturalem intelligatur nuda capacitas potentiae,
+<lb ed="#L" n="74"/>et non-repugnantia ad talem actum: ut videtur velle in
+<lb ed="#L" n="75"/>Quolibetalibus, quaestione xiv .
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>3. Advertendum quoque quod ista ratio procedit ex
+<lb ed="#L" n="77"/>eodem fundamento ex quo praecedens processit, scilicet
+<lb ed="#L" n="78"/>ex hoc quod nulla creatura potest in aliquo efficere nisi
+<lb ed="#L" n="79"/>quod: est. in potentia subiecti. Huic enim fundamento si
+<lb ed="#L" n="80"/>adiungatur quod superius  dictum est, scilicet quod 
+mi<lb ed="#L" break="no" n="81"/>raculum est praeter ordinem totius creaturae, optime 
+pro<lb ed="#L" break="no" n="82"/>cedit ratio. Si enim a creatura id solum fieri potest quod
+<lb ed="#L" n="83"/>de subiecti potentia educitur; quod autem 'de potentia
+<lb ed="#L" n="84"/>subiecti educitur, aut natum est educi in actum ab 
+uni<lb ed="#L" break="no" n="85"/>versalibus. causis tantum, aut ab illis mediantibus causis
+<lb ed="#L" n="86"/>propriis: necesse est ut omne quod fit a creatura, altero
+<lb ed="#L" n="87"/>illorum modorum fiat. Sed quod fit eo modo et eo ordine
+<lb ed="#L" n="88"/>quo natum est fieri, non est miraculum: cum sit 
+secun<lb ed="#L" break="no" n="89"/>dum. naturae ordinem, non praeter ordinem naturae. Nihil
+<lb ed="#L" n="90"/>igitur quod. fit a superioribus creaturis, est miraculum. :
+</p>
+            <p>
+               <lb ed="#L" n="91"/>V. Quinto, ex eodem fundamento arguitur. Omnis 
+crea<lb ed="#L" break="no" n="92"/>tura necesse habet uti subiecto  ad hoc quod. aliquid
+<lb ed="#L" n="93"/>faciat. Nec potest facere nisi ad quod subiectum est in
+<lb ed="#L" n="94"/>potentia. Ergo non potest aliquid. facere nisi subiectum
+<lb ed="#L" n="95"/>reducat in actum per determinata media. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Probatur prima consequentia. Quia eiusdem rationis
+<lb ed="#L" n="97"/>videtur esse quod aliquid operetur ex subiecto; et quod
+<lb ed="#L" n="98"/>operetur id ad quod subiectum est in potentia; et ordinate
+<lb ed="#L" n="99"/>per determinata media, quia subiectum non fit in potentia
+<lb ed="#L" n="100"/>propinqua ad ultimum nisi cum fuerit actu in medio .
+<lb ed="#L" n="101"/>Declaratur in cibo in carnem transmutando. — Secunda vero
+<lb ed="#L" n="102"/>probatur. Quia miracula sunt ex eo quod aliquis effectus
+<lb ed="#L" n="103"/>producitur non illo ordine quo naturaliter fieri potest.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>2. Circa primae consequentiae probationem, 
+conside<lb ed="#L" break="no" n="105"/>randum est quod subiectum quod est in potentia ad plures
+<lb ed="#L" n="106"/>actus, illos non confuse, sed ordine: quodam: respicit, ut
+<lb ed="#L" n="107"/>in. secundo libro  est ostensum. Oportet enim ipsum prius
+<lb ed="#L" n="108"/>actuari per actum priorem via generationis, et postmodum
+<lb ed="#L" n="109"/>per actum posteriorem: quia actus prior est potentialis
+<lb ed="#L" n="110"/>respectu actus posterioris, et per ipsum disponitur 
+subie<lb ed="#L" break="no" n="111"/>ctum ad susceptionem actus posterioris, ut patet in. 
+ge<lb ed="#L" break="no" n="112"/>neratione carnis ex cibo, quem oportet prius in sanguinem
+<lb ed="#L" n="113"/>converti quam in carnem; et in generatione hominis ex
+<lb ed="#L" n="114"/>sanguine menstruo, in qua oportet prius transmutari 
+ma<lb ed="#L" break="no" n="115"/>teriam ad vegetativum et sensitivum quam ad intellectivum.
+<lb ed="#L" n="116"/>Quia ergo virtus quae necessario in sua actione requirit
+<lb ed="#L" n="117"/>subiectum, non facit nisi id ad. quod subiectum est in
+<lb ed="#L" n="118"/>potentia, et eo modo quo est in potentia, necesse est ut
+<lb ed="#L" n="119"/>ipsum subiectum reducat in actum secundum ordinem
+<lb ed="#L" n="120"/>actuum ad quos est in potentia. Et ideo non potest ipsum
+<lb ed="#L" n="121"/>in ultimum actum reducere nisi prius ad priores actus
+<lb ed="#L" n="122"/>reducat. Quod est ordinate per determinata media operari.
+<lb ed="#L" n="123"/>Et hoc est fundamentum illius consequentiae.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>VI. Sexto. Motus localis est causa omnium aliorum
+<lb ed="#L" n="125"/>motuum. Ergo effectus qui in istis inferioribus fit ab agente
+<lb ed="#L" n="126"/>incorporali, qui proprie localiter moveri non potest, oportet
+<lb ed="#L" n="127"/>ut. per. aliquid localiter motum proveniat. Ergo substantiae
+<lb ed="#L" n="128"/>incorporeae creatae virtute propria miracula facere non 
+pos<lb ed="#L" break="no" n="129"/>sunt. Ergo multo minus substantiae corporeae. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>Probatur antecedens. Quia motus localis est primus
+<lb ed="#L" n="131"/>motuum. Primum autem in quolibet genere est causa 
+se<lb ed="#L" break="no" n="132"/>quentium. — Prima vero consequentia probatur. Quia 
+ef<lb ed="#L" break="no" n="133"/>fectus qui in inferioribus producuntur, scilicet ab agente
+<lb ed="#L" n="134"/>creato, necesse est ut per aliquam generationem vel 
+alte<lb ed="#L" break="no" n="135"/>rationem producantur. — Secunda probatur. Quia effectus
+<lb ed="#L" n="136"/>qui fiunt a substantiis incorporeis per corporea instrumenta,
+<lb ed="#L" n="137"/>non sunt miraculosi: cum corpora non operentur nisi
+<lb ed="#L" n="138"/>naturaliter . - Tertia vero: quia omnis actio substantiae
+<lb ed="#L" n="139"/>corporeae est naturalis, — scilicet, aperte et manifeste, 
+lo<lb ed="#L" break="no" n="140"/>quendo de propria actione.
+</p>
+            <p>
+               <lb ed="#L" n="141"/>Adverte, cum inquit Sanctus Thomas agens incorporeum
+<lb ed="#L" n="142"/>non posse proprie localiter moveri, quod idcirco addidit
+<lb ed="#L" n="143"/>proprie, quia, sicut substantiae incorporeae improprie sunt
+<lb ed="#L" n="144"/>in loco, - sunt enim in loco quia in loco operantur, non
+<lb ed="#L" n="145"/>autem quia circumscribantur loco - ita et improprie 
+pos<lb ed="#L" break="no" n="146"/>sunt dici localiter moveri: quia videlicet successive sua
+<lb ed="#L" n="147"/>virtute diversa loca contingunt; non autem quia diversa
+<lb ed="#L" n="148"/>loca occupent successive per continentiam a loco.
+</p>
+            <p>
+               <lb ed="#L" n="149"/>VII. Licet de motu angeli incidenter occurrerit mentio,
+<lb ed="#L" n="150"/>quia tamen materia haec in doctrina Sancti Thomae dif-
+<pb ed="#L" n="318"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ficillima est, non erit ab re si paucula quaedam explicavero.
+<lb ed="#L" n="2"/>Tria enim in Prima Parte, quaestione rrr, dicuntur, quae
+<lb ed="#L" n="3"/>difficultatem afferre videntur.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Primum est quod, praeter motum localem angeli 
+discon<lb ed="#L" break="no" n="5"/>tinuum, potest etiam esse aliquis motus ipsius continuus:
+<lb ed="#L" n="6"/>quia videlicet potest successive dimittere locum divisibilem
+<lb ed="#L" n="7"/>in quo prius operabatur, successive ac per partes alium
+<lb ed="#L" n="8"/>locum. occupando .
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Secundum est, quod talis motus fit in tempore continuo
+<lb ed="#L" n="10"/>quod a tempore mensurante motus caeli distinguitur .
+<lb ed="#L" n="11"/>Tertium est, quod nullus. motus: angeli, neque inquam
+<lb ed="#L" n="12"/>continuus neque discretus, potest in instanti. esse ..
+</p>
+            <p>
+               <lb ed="#L" n="13"/>2. Circa enim primum. dictum dubium occurrit. Ipse
+<lb ed="#L" n="14"/>enim Divus Thomas, in primo articulo illius quaestionis,
+<lb ed="#L" n="15"/>motum. localem. angeli describens, inquit quod »ecesse
+<lb ed="#L" n="16"/>est ut motus localis angeli. nihil aliud sit quam diversi
+<lb ed="#L" n="17"/>contactus diversorum locorum successive, et non simul.
+<lb ed="#L" n="18"/>Ex hoc enim arguitur sic. Motus localis angeli nihil aliud
+<lb ed="#L" n="19"/>est quam diversi contactus diversorum locorum successive.
+<lb ed="#L" n="20"/>Sed diversi contactus angelici sibi succedentes secundum
+<lb ed="#L" n="21"/>diversas operationes fiunt. Ergo motus localis angeli 
+di<lb ed="#L" break="no" n="22"/>versas eius operationes circa locum requirit. Sed diversae
+<lb ed="#L" n="23"/>operationes angeli non sunt continuae: cum unaquaeque
+<lb ed="#L" n="24"/>suo- instanti mensuretur. Ergo motus angeli continuus esse
+<lb ed="#L" n="25"/>non potest.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Confirmatur. Quia ipsemet Divus Thomas, hac motus
+<lb ed="#L" n="27"/>ratione, I. Sent., d. xxxvi, q. 1v, a. 1, angeli motum tenet
+<lb ed="#L" n="28"/>non esse continuum.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>3. Circa secundum; dubium occurrit primo , quia 
+Quo<lb ed="#L" break="no" n="30"/>libeto, uu, a..5 , ostenditur quod, quia omnes motus 
+con<lb ed="#L" break="no" n="31"/>tinui conveniunt in uno genere inquantum sunt 
+mensura<lb ed="#L" break="no" n="32"/>biles, ideo possunt habere unam mensuram communem.
+<lb ed="#L" n="33"/>Et idcirco omnium motuum continuorum potest esse unum
+<lb ed="#L" n="34"/>tempus commune. Si ergo ponatur motus. aliquis. angeli
+<lb ed="#L" n="35"/>esse continuus, non inconvenit quod eodem tempore 
+con<lb ed="#L" break="no" n="36"/>tinuo.cum aliis motibus mensuretur.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Secundo. Cum dicitur motus angeli esse continuus, aut
+<lb ed="#L" n="38"/>nomine motus intelliguntur ipsae operationes immanentes
+<lb ed="#L" n="39"/>in angelo, quibus etfectus exterior imperatur et 
+produ<lb ed="#L" break="no" n="40"/>citur; aut effectus per tales operationes in. loco producti;
+<lb ed="#L" n="41"/>aut aliae operationes transeuntes. Non primum. Quia
+<lb ed="#L" n="42"/>operatio quaelibet immanens in angelo tota simul 
+pro<lb ed="#L" break="no" n="43"/>ducitur;-et instanti temporis discreti tanquam in mensura
+<lb ed="#L" n="44"/>adaequata mensuratur; sicque plures eiusmodi operationes
+<lb ed="#L" n="45"/>non possunt continuo tempore mensurari. — Si secundum:
+<lb ed="#L" n="46"/>sic non. inconvenit operationes angelicas tempore 
+mensu<lb ed="#L" break="no" n="47"/>rante motum caelestem: mensurari. Effectum enim angelicae
+<lb ed="#L" n="48"/>operationis tali tempore mensurari non inconvenit, sicut
+<lb ed="#L" n="49"/>neque effectum:divinum. — Si tertium: cum actio transiens
+<lb ed="#L" n="50"/>sit idem. quod suus terminus, actio qua angelus movet
+<lb ed="#L" n="51"/>caelum, erit idem. quod ipse. motus caeli; et sic, cum
+<lb ed="#L" n="52"/>motus caeli tempore mensuretur, et ipsa actio angeli 
+men<lb ed="#L" break="no" n="53"/>surabitur tempore communi; et sic motus angeli erit in
+<lb ed="#L" n="54"/>tempore communi. ,
+</p>
+            <p>
+               <lb ed="#L" n="55"/>4. Circa tertium etiam dubitatur . Nam illa mutatio
+<lb ed="#L" n="56"/>per quam terminus a quo totus simul abiicitur, et 
+ter<lb ed="#L" break="no" n="57"/>minus ad quem. totus simul acquiritur, est instantanea
+<lb ed="#L" n="58"/>mutatio. Patet enim: hoc. in generatione substantiali, et
+<lb ed="#L" n="59"/>in illuminatione, quae instantaneae mutationes dicuntur.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Patet etiam ratione . Nam. quod movetur in tempore,
+<lb ed="#L" n="61"/>oportet ut partim sit in termino a quo et partim in 
+ter<lb ed="#L" break="no" n="62"/>mino ad quem, ut habetur VI Physicorum . Hoc autem
+<lb ed="#L" n="63"/>non. invenitur ubi totus unus terminus simul abiicitur,
+<lb ed="#L" n="64"/>et alius totus simul acquiritur. Ergo etc. — Sed in motu
+<lb ed="#L" n="65"/>discreto angeli unus totus locus simul deseritur, et alius
+<lb ed="#L" n="66"/>totus simul occupatur. Ergo: motus: discretus angeli est
+<lb ed="#L" n="67"/>in instanti: licet motus eius continuus sit in tempore,
+<lb ed="#L" n="68"/>sicut et motus corporum.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>VIII. Ad evidentiam primi dubii, considerandum primo
+<lb ed="#L" n="70"/>quod, cum angelus non definiatur ad locum per 
+opera<lb ed="#L" break="no" n="71"/>tionem secundum quod ab eius egreditur essentia, sed
+<lb ed="#L" n="72"/>secundum quod terminatur ad operatum in loco, ut inquit
+<lb ed="#L" n="73"/>Sanctus Thomas I Sent, d. xxxvit, q. IV, a. 2; ad 
+viden<lb ed="#L" break="no" n="74"/>dum quomodo angelus de loco ad locum continue aut
+<lb ed="#L" n="75"/>discrete moveatur, ad ipsas operationes respiciendum est
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>secundum quod ad operatum circa diversa loca operatur.
+<lb ed="#L" n="77"/>Et quia in Prima Parte, q. rur, proportionaliter ad motum
+<lb ed="#L" n="78"/>localem corporis de motu continuo angeli loquitur, ex motu
+<lb ed="#L" n="79"/>corporis oportet in cognitionem motus angelici devenire.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>2. Considerandum secundo quod, cum motus -localis
+<lb ed="#L" n="81"/>corporis, secundum quod successivus est, ad divisionem
+<lb ed="#L" n="82"/>magnitudinis dividatur, et secundum magnitudinis 
+conti<lb ed="#L" break="no" n="83"/>nuationem continuitatem habeat; sicut magnitudo. est una
+<lb ed="#L" n="84"/>quidem continuitate, sed tamen. plures habet partes, 
+qua<lb ed="#L" break="no" n="85"/>rum una non est alia; ita motus corporis super 
+magni<lb ed="#L" break="no" n="86"/>tudine est quidem. unus continuitate, sed. tamen. plures
+<lb ed="#L" n="87"/>habet partes, quarum quaelibet est motus, diversis partibus
+<lb ed="#L" n="88"/>magnitudinis correspondentes. Unde potest dici quod in
+<lb ed="#L" n="89"/>transitu corporis super unam magnitudinem est unus totalis
+<lb ed="#L" n="90"/>motus, sed plures.motus partiales, ex quibus ipse totalis
+<lb ed="#L" n="91"/>motus integratur: sicut et magnitudo totalis ex pluribus
+<lb ed="#L" n="92"/>partibus, quarum quaelibet est magnitudo, constituitur.
+<lb ed="#L" n="93"/>Sic ergo, proportionaliter de motu locali angeli loquendo,
+<lb ed="#L" n="94"/>cum angelus. motu continuo movetur priorem locum 
+suc<lb ed="#L" break="no" n="95"/>cessive deserendo, et. posteriorem successive secundum
+<lb ed="#L" n="96"/>ordinem partium. occupando, oportet ut ibi sit unus 
+con<lb ed="#L" break="no" n="97"/>tactus, unaque operatio. totalis secundum continuitatem,
+<lb ed="#L" n="98"/>sicut et ipsa loca in quibus continue movetur, 
+continui<lb ed="#L" break="no" n="99"/>tatem habent: sed tamen iste contactus, istaque operatio,
+<lb ed="#L" n="100"/>plures habet partes, secundum quod pluribus partibus
+<lb ed="#L" n="101"/>magnitudinis applicatur per aliquod operatum in ipsis. Et
+<lb ed="#L" n="102"/>ideo. potest dici quod in tali motu continuo est unicus
+<lb ed="#L" n="103"/>quidem contactus totalis, sed multi partiales.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Utrum: autem, secundum quod operatio egreditur ab
+<lb ed="#L" n="105"/>essentia, in. tali motu continuo sint multi contactus 
+par<lb ed="#L" break="no" n="106"/>tiales? — Dicendum videtur quod, si solo imperio et actu
+<lb ed="#L" n="107"/>voluntatis angelus in corpora operetur, ita quod executio
+<lb ed="#L" n="108"/>ab imperio non distinguatur realiter, non est possibile ut
+<lb ed="#L" n="109"/>sit pluralitas aliqua in ipso contactu. Non enim potest ibi
+<lb ed="#L" n="110"/>esse unum velle continuitatem habens ex pluribus partibus
+<lb ed="#L" n="111"/>sibi succedentibus integratum: cum omnis. operatio. 
+im<lb ed="#L" break="no" n="112"/>manens. angeli sit tota simul et indivisibilis. Non etiam
+<lb ed="#L" n="113"/>possunt esse plura imperia; pluribus locis quae in motu
+<lb ed="#L" n="114"/>continuo pertranseuntur ab angelo correspondentia : quia,
+<lb ed="#L" n="115"/>cum loca pertransita ab angelo in tali motu sint infinita,
+<lb ed="#L" n="116"/>sicut et in motu corporis, oporteret dicere quod in fine
+<lb ed="#L" n="117"/>motus angelus infinitos actus volendi elicuisset. Quod 
+ma<lb ed="#L" break="no" n="118"/>nifeste est impossibile : infinitum enim pertransiri non 
+po<lb ed="#L" break="no" n="119"/>test . — Si autem in corpora angelus per aliquam 
+opera<lb ed="#L" break="no" n="120"/>tionem vere et formaliter transeuntem operetur, dicendum
+<lb ed="#L" n="121"/>est quod eodem modo in tali. contactu ut egreditur ab
+<lb ed="#L" n="122"/>essentia, est unitas totalis et pluralitas. partialis, sicut et
+<lb ed="#L" n="123"/>in ipso ut terminatur ad operatum in loco. Nam, cum
+<lb ed="#L" n="124"/>talis contactus et operatio sit idem quod operatum, sicut
+<lb ed="#L" n="125"/>et in actionibus corporalibus motus et actio est idem quod
+<lb ed="#L" n="126"/>terminus motus; sicut ipsum operatum successionem et
+<lb ed="#L" n="127"/>divisibilitatem habet, ita et ipsa actio successive et 
+par<lb ed="#L" break="no" n="128"/>tibiliter ab ipso angelo operante progreditur.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>3. Ex istis facile patet ad dubium responsio. Dicitur
+<lb ed="#L" n="130"/>enim quod in motu etiam continuo angeli sunt plures
+<lb ed="#L" n="131"/>contactus aliquo modo, secundum quod ad operatum 
+ter<lb ed="#L" break="no" n="132"/>minantur: nam est ibi unus contactus totalis, sunt. vero
+<lb ed="#L" n="133"/>plures partiales contactus. Et hoc sufficit ad intentionem
+<lb ed="#L" n="134"/>Sancti Thomae. ,
+</p>
+            <p>
+               <lb ed="#L" n="135"/>Cum autem instatur, quia diversae operationes angeli
+<lb ed="#L" n="136"/>non continuantur: — dicitur quod: hoc verum est de 
+opera<lb ed="#L" break="no" n="137"/>tionibus immanentibus ut egrediuntur ab essentia angeli.
+<lb ed="#L" n="138"/>Verum est etiam de operationibus transeuntibus totalibus.
+<lb ed="#L" n="139"/>Sed falsum est de operationibus partialibus. Potest enim,
+<lb ed="#L" n="140"/>ut dictum est, una operatio angeli, ut ad operatum 
+ter<lb ed="#L" break="no" n="141"/>minatur, successionem habere et partibilitatem; et sic ex
+<lb ed="#L" n="142"/>pluribus partibus integrari, quarum quaelibet potest dici
+<lb ed="#L" n="143"/>partialis operatio, secundum quod per ipsam pars 
+magni<lb ed="#L" break="no" n="144"/>tudinis pertransitae attingitur.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>4. Ad confirmationem respondetur quod, si dicta Sancti
+<lb ed="#L" n="146"/>Thomae in I Sent, voluerimus tanquam non. retractata
+<lb ed="#L" n="147"/>per dicta in. Prima Parte sustentare, dupliciter. possumus
+<lb ed="#L" n="148"/>utrumque dictum. concordare. Primo, quod in I Sent. 
+lo<lb ed="#L" break="no" n="149"/>quitur de motu angeli quo plura loca pluribus 
+operatio<lb ed="#L" break="no" n="150"/>nibus totalibus et omnino distinctis attingit: in Prima vero
+<pb ed="#L" n="319"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Parte loquitur universaliter de motu quo plura loca 
+plu<lb ed="#L" break="no" n="2"/>ribus quomodocumque attingit operationibus, sive inquam
+<lb ed="#L" n="3"/>sint totales et omnino distinctae, sive sint partiales.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Secundo, quod in I Sent. loquitur de natura motus 
+ange<lb ed="#L" break="no" n="5"/>lici quantum est ex parte angeli: nam, cum ipse sit extra
+<lb ed="#L" n="6"/>magnitudinem, non convenit sibi continuitas in suo motu
+<lb ed="#L" n="7"/>ex parte substantiae suae. In Prima vero Parte loquitur de
+<lb ed="#L" n="8"/>natura motus angelici tam ex parte angeli, quam ex parte
+<lb ed="#L" n="9"/>magnitudinis in qua operatur, et super quam dicitur 
+loca<lb ed="#L" break="no" n="10"/>liter moveri. Et ideo posuit aliquem motum eius posse esse
+<lb ed="#L" n="11"/>discretum, aliquem vero posse esse continuum: ex eo quod
+<lb ed="#L" n="12"/>potest et unum locum totum simul dimittere; et potest
+<lb ed="#L" n="13"/>locum in quo prius erat, secundum partes successive 
+de<lb ed="#L" break="no" n="14"/>serere, et alium eodem modo successive occupare.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>IX. Quantum ad secundum dubium , attendendum est
+<lb ed="#L" n="16"/>primo, ex doctrina Aristotelis X Metaphys., textu 4 et
+<lb ed="#L" n="17"/>deinceps , quod mensura propria alicuius debet esse 
+co<lb ed="#L" break="no" n="18"/>gnata, sive eiusdem naturae cum mensurato, non solum
+<lb ed="#L" n="19"/>secundum convenientiam in natura communi et generica,
+<lb ed="#L" n="20"/>sed etiam secundum convenientiam in natura speciali,
+<lb ed="#L" n="21"/>quantum ad id secundum quod aliquid mensurabile est:
+<lb ed="#L" n="22"/>oportet enim lineam linea mensurari, superficiem 
+super<lb ed="#L" break="no" n="23"/>ficie,, pondus pondere, et sic de aliis. Et ideo sicut aliqua
+<lb ed="#L" n="24"/>in natura conveniunt aut distinguuntur inquantum 
+men<lb ed="#L" break="no" n="25"/>surabilia sunt, sic possunt aut non possunt una mensura
+<lb ed="#L" n="26"/>mensurari. Quae enim in una ratione particulari sive 
+spe<lb ed="#L" break="no" n="27"/>cifica conveniunt inquantum mensurabilia sunt, una 
+spe<lb ed="#L" break="no" n="28"/>cifica mensura mensurari possunt; quae autem una ratione
+<lb ed="#L" n="29"/>generica participant sed non una specifica, una mensura
+<lb ed="#L" n="30"/>generica possunt mensurarij non autem una secundum
+<lb ed="#L" n="31"/>speciem; quae vero in una ratione tantum analoga 
+con<lb ed="#L" break="no" n="32"/>veniunt, possunt una mensura analoga mensurari, non
+<lb ed="#L" n="33"/>autem una generica et univoca. — Loquimur autem de
+<lb ed="#L" n="34"/>mensura per se et propria: non autem de mensura per
+<lb ed="#L" n="35"/>accidens, aut excedente.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>2. Considerandum secundo quod, cum motus sit 
+al<lb ed="#L" break="no" n="37"/>terius rationis quam tempus etiam in ratione quanti, non
+<lb ed="#L" n="38"/>convenit motui mensurabili secundum se totum ut primo
+<lb ed="#L" n="39"/>mensuretur tempore, sed oportet ut motu alio mensuretur,
+<lb ed="#L" n="40"/>primo scilicet et simplicissimo in genere motuum. 
+Me<lb ed="#L" break="no" n="41"/>diante autem ipso primo motu, potest mensurari tempore:
+<lb ed="#L" n="42"/>ex eo quod tempus est numerus primi motus. Et ideo,
+<lb ed="#L" n="43"/>si sint aliqui motus qui ad primum motum ordinem et
+<lb ed="#L" n="44"/>dependentiam habeant: tanquam ad exemplar suum, et
+<lb ed="#L" n="45"/>tanquam ad perfectissimum et simplicissimum sui generis,
+<lb ed="#L" n="46"/>tempore numerante primum motum mensurari possunt.
+<lb ed="#L" n="47"/>Si autem sint aliqui motus qui talem ordinem ad primum
+<lb ed="#L" n="48"/>motum non habeant, tempore illum motum mensurante
+<lb ed="#L" n="49"/>non habent mensurari.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>3. Quia ergo motus localis angeli non est eiusdem rationis
+<lb ed="#L" n="51"/>cum motu corporis cuiuscumque, sed aequivoce dicuntur
+<lb ed="#L" n="52"/>moveri localiter angelus et corpus: ideo motus localis
+<lb ed="#L" n="53"/>angeli a motu caeli non dependet neque mensuratur, et 
+con<lb ed="#L" break="no" n="54"/>sequenter neque mensurari habet tempore qui est numerus
+<lb ed="#L" n="55"/>motus caeli. Et haec est ratio propter quam tenet Sanctus
+<lb ed="#L" n="56"/>Thomas tempus mensurans motum angelicum 7on esse
+<lb ed="#L" n="57"/>idem cum tempore motum caeli et alios motus 
+corpo<lb ed="#L" break="no" n="58"/>rales mensurante.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Attendendum tamen quod dupliciter potest angelus
+<lb ed="#L" n="60"/>dici localiter moveri: uno modo, per se; alio modo, per
+<lb ed="#L" n="61"/>accidens. Per se dicitur continuo motu moveri quando
+<lb ed="#L" n="62"/>sua operatione successive diversa loca immediate contingit,
+<lb ed="#L" n="63"/>unum per partem: post partem relinquendo, et alium 
+eo<lb ed="#L" break="no" n="64"/>dem modo occupando. Per accidens vero, quando unum
+<lb ed="#L" n="65"/>corpus motu continuo movet, per cuius motum 
+succes<lb ed="#L" break="no" n="66"/>sive ad diversa loca praesentiam habet, ex eo quod. 
+cor<lb ed="#L" break="no" n="67"/>pus ab ipso motum successive diversa occupat loca: sicut
+<lb ed="#L" n="68"/>cum movet corpus ab eo assumptum, aut lapidem unum,
+<lb ed="#L" n="69"/>de loco ad locum. Quod ergo dictum est angeli motum
+<lb ed="#L" n="70"/>non mensurari communi tempore, intelligendum est de
+<lb ed="#L" n="71"/>motu. eius per se, non autem de motu per accidens. In
+<lb ed="#L" n="72"/>motu enim per accidens semper est in eodem loco per
+<lb ed="#L" n="73"/>se, licet per accidens moveatur: sicut ille qui sedet in
+<lb ed="#L" n="74"/>navi et ad motum navis movetur, est in eodem loco per
+<lb ed="#L" n="75"/>se, sed per accidens movetur ad motum navis.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>X. Sed circa dicta dubium occurrit. Nam, licet alia sit
+<lb ed="#L" n="77"/>ratio motus localis angeli, et alia ratio motus localis 
+cor<lb ed="#L" break="no" n="78"/>porum, conveniunt tamen uterque motus in eadem ratione
+<lb ed="#L" n="79"/>continuitatis: nam uterque a continuitate magnitudinis
+<lb ed="#L" n="80"/>continuitatem habet. Cum ergo habeat motus mensurari
+<lb ed="#L" n="81"/>tempore caeli motum mensurante ratione continuitatis suae,
+<lb ed="#L" n="82"/>videtur quod uterque eodem tempore mensuretur, non
+<lb ed="#L" n="83"/>obstante quod dicantur aequivoce motus locales; Et sic
+<lb ed="#L" n="84"/>ratio Sancti Thomae non videtur concludere.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>2. Respondetur: et dicitur primo quod, licet ab aliquo
+<lb ed="#L" n="86"/>eodem isti motus continuitatem habeant, scilicet a 
+ma<lb ed="#L" break="no" n="87"/>gnitudine, non est tamen eadem ratio continuitatis in eis.
+<lb ed="#L" n="88"/>Nam continuitas motus localis corporum est continuitas
+<lb ed="#L" n="89"/>aut locorum successive circumscribentium ipsum corpus
+<lb ed="#L" n="90"/>motum; aut diversorum ubi, quae in corpore moto 
+suc<lb ed="#L" break="no" n="91"/>cessive recipiuntur ; et ulterius eius continuitas non solum
+<lb ed="#L" n="92"/>provenit ex continuitate magnitudinis super quam fit motus,
+<lb ed="#L" n="93"/>sed etiam ex continuitate corporis quod movetur. 
+Con<lb ed="#L" break="no" n="94"/>tinuitas autem motus angeli est continuitas diversorum
+<lb ed="#L" n="95"/>contactuum partialium, quibus angelus diversa loca 
+con<lb ed="#L" break="no" n="96"/>tingit; et eius continuitas ex continuitate sola 
+magnitu<lb ed="#L" break="no" n="97"/>dinis super quam fit motus provenit, non autem ex aliqua
+<lb ed="#L" n="98"/>continuitate eius quod movetur.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Dicitur secundo, quod ex communi ratione 
+continui<lb ed="#L" break="no" n="100"/>tatis non habent aliqua ut una mensura specifica 
+mensu<lb ed="#L" break="no" n="101"/>rentur, alioquin et longitudo, et'superficies, et motus, et
+<lb ed="#L" n="102"/>pondera una mensura mensurari deberent: sed ex 
+parti<lb ed="#L" break="no" n="103"/>culari continuitatis ratione. Et ideo, licet una quaedam
+<lb ed="#L" n="104"/>sit communis ratio continuitatis in omnibus motibus tam
+<lb ed="#L" n="105"/>angelicis quam corporalibus, quia tamen alia et alia ratio
+<lb ed="#L" n="106"/>particularis continuitatis est in ipsis, ideo alia et alia propria
+<lb ed="#L" n="107"/>mensura mensurantur: licet illae propriae mensurae in
+<lb ed="#L" n="108"/>communi ratione temporis continui conveniant.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>3. Utrum autem motus continuus angeli sit in genere
+<lb ed="#L" n="110"/>quantitatis? — Videtur dicendum quod, si ipsa operatio
+<lb ed="#L" n="111"/>angeli nihil aliud sit quam eius imperium, ut videtur velle
+<lb ed="#L" n="112"/>Sanctus Thomas Quolib. VI, a. 2 ; et. Malo, q. xvi, a. 1, ad
+<lb ed="#L" n="113"/>145 et Spiritualibus, a. 6, ad 8, ipse motus angeli, quantum
+<lb ed="#L" n="114"/>est ex parte operationis, non est de genere quantitatis,
+<lb ed="#L" n="115"/>cum sit actio immanens: sed ex parte effectus producti,
+<lb ed="#L" n="116"/>non inconvenit ut sit in praedicamento quantitatis per
+<lb ed="#L" n="117"/>accidens, sicut et alii motus. — Si autem operatio ipsa
+<lb ed="#L" n="118"/>sit operatio vere transiens, quae est idem realiter cum
+<lb ed="#L" n="119"/>termino operationis, sic non videtur inconveniens quod
+<lb ed="#L" n="120"/>et ipsa in genere quantitatis sit per: accidens: tanquam
+<lb ed="#L" n="121"/>scilicet a magnitudine continuitatem habens, et similiter
+<lb ed="#L" n="122"/>tempus, quod talem operationem continuam mensurat.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Quamvis posset etiam fortassis dici quod, licet ipsa 
+ope<lb ed="#L" break="no" n="124"/>ratio, ut accidens quoddam rei quantae, sit quanta per
+<lb ed="#L" n="125"/>accidens quantitate de genere quantitatis ; ut tamen 
+ope<lb ed="#L" break="no" n="126"/>ratio et motus continuus angeli, non est in genere 
+quan<lb ed="#L" break="no" n="127"/>titatis, sed est continua continuitate transcendente. Sicut
+<lb ed="#L" n="128"/>enim successio operationum immanentium in angelo, quae
+<lb ed="#L" n="129"/>motum eius discretum constituunt, non ponitur in genere
+<lb ed="#L" n="130"/>quantitatis; nec tempus motus mensurans huiusmodi 
+mo<lb ed="#L" break="no" n="131"/>tum est in genere quantitatis, sed est numerus 
+transcen<lb ed="#L" break="no" n="132"/>dens: ita motus continuus angeli non est in genere 
+quan<lb ed="#L" break="no" n="133"/>titatis, sed transcendens, et tempus ipsum mensurans est
+<lb ed="#L" n="134"/>tempus transcendens. Quantitas enim quae est 
+praedica<lb ed="#L" break="no" n="135"/>mentum, non nisi in rebus materialibus invenitur. — Sed
+<lb ed="#L" n="136"/>haec sint probabiliter dicta.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>XI Ad argumenta autem superius  adduct 
+respon<lb ed="#L" break="no" n="138"/>detur. Ad primum quidem dicitur primo, quod fortassis
+<lb ed="#L" n="139"/>Sanctus Thomas ibi tenuit nullum motum angeli esse 
+con<lb ed="#L" break="no" n="140"/>tinuum; et propter hoc dixit omnes motus continuos uno
+<lb ed="#L" n="141"/>tempore mensurari. Sed in Prima Parte tenuit aliquem
+<lb ed="#L" n="142"/>motum angeli esse continuum. Ideo, sequendo 
+determi<lb ed="#L" break="no" n="143"/>nationem eius in Prima Parte, non est tenendum quod
+<lb ed="#L" n="144"/>alibi dixit. Quae enim dicit in Summa, sunt tenenda:
+</p>
+            <p>
+               <lb ed="#L" n="145"/>Dicitur secundo, sustinendo dicta in praefato 
+Quoli<lb ed="#L" break="no" n="146"/>beto, quod ibi loquitur de motibus continuis qui univoce
+<lb ed="#L" n="147"/>dicuntur motus: non autem de iis qui dicuntur motus
+<lb ed="#L" n="148"/>aequivoce, cuiusmodi sunt motus angeli et motus corporum.
+</p>
+            <p>
+               <lb ed="#L" n="149"/>Dicitur tertio quod, sicut isti motus aliquo modo 
+pro<lb ed="#L" break="no" n="150"/>portionaliter analogice dicuntur motus, ita tempore uno
+<pb ed="#L" n="320"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>unitate analogiae et proportionis mensurantur. Omnes enim
+<lb ed="#L" n="2"/>mensurantur tempore continuo: licet alia ratio sit huius
+<lb ed="#L" n="3"/>temporis, et alia ratio illius.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>2. Ad secundum dicitur primo, quod nomine motus
+<lb ed="#L" n="5"/>angelici intelligimus non ipsam operationem immanentem
+<lb ed="#L" n="6"/>inquantum immanens est: sed aut effectum ad quem ipsa
+<lb ed="#L" n="7"/>operatio immanens terminatur, inquantum dictam terminat
+<lb ed="#L" n="8"/>actionem; aut aliquam actionem. angeli vere transeuntem
+<lb ed="#L" n="9"/>et continuitatem: habentem.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>Cum instatur contra primum, quia non inconvenit 
+etfe<lb ed="#L" break="no" n="11"/>ctum talem communi tempore mensurari: — dicitur quod,
+<lb ed="#L" n="12"/>licet non sit inconveniens aliquem effectum operationis
+<lb ed="#L" n="13"/>angelicae tempore communi mensurari, inconvenit tamen
+<lb ed="#L" n="14"/>effectum de quo. loquimur, ut terminat successive 
+opera<lb ed="#L" break="no" n="15"/>tionem angeli, et ut est motus: quo per se dicitur angelus
+<lb ed="#L" n="16"/>moveri, tali mensurari tempore: cum, ut sic, sit alterius
+<lb ed="#L" n="17"/>rationis a motu caeli.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Cum vero instatur contra secundum; quia, cum ipsa
+<lb ed="#L" n="19"/>actio transiens sit idem cum termino actionis, actio .qua
+<lb ed="#L" n="20"/>angelus motu continuo movet caelum, mensurabitur 
+tem<lb ed="#L" break="no" n="21"/>pore communi, sicut et ipse motus caeli: - dicitur quod
+<lb ed="#L" n="22"/>ratio supponit falsum, scilicet quod, dum angelus movet
+<lb ed="#L" n="23"/>caelum, dicatur ipse per illum motum continue per se
+<lb ed="#L" n="24"/>moveri. Hoc enim falsum est. Nam, si ponatur angelus
+<lb ed="#L" n="25"/>immediate suam virtutem applicare toti caelo, constat quod
+<lb ed="#L" n="26"/>angelus per illum motum non mutat locum,. neque 
+se<lb ed="#L" break="no" n="27"/>cundum se totum neque secundum partem, cum ipsum
+<lb ed="#L" n="28"/>caelum secundum se totum non mutat locum: et 
+conse<lb ed="#L" break="no" n="29"/>quenter per talem motum angelus localiter non movetur.
+<lb ed="#L" n="30"/>— Si autem — quod verius videtur, et conformius doctrinae
+<lb ed="#L" n="31"/>Aristotelis VIII PAysicorum  - angelus movet caelum 
+ap<lb ed="#L" break="no" n="32"/>plicando .virtutem suam partibus sibi ,succedentibus. in
+<lb ed="#L" n="33"/>oriente, tunc motus ille angeli non est continuus, sed 
+discre<lb ed="#L" break="no" n="34"/>tus. Non enim sic tangit successive quod priorem partem
+<lb ed="#L" n="35"/>successive deserat, et successive aliam partem attingat: sed
+<lb ed="#L" n="36"/>uni parti alicuius quantitatis applicat suam virtutem, et,
+<lb ed="#L" n="37"/>illam simul totam deserendo, alteri parti toti eiusdem 
+quan<lb ed="#L" break="no" n="38"/>titatis, aut etiam maiori vel minori, simul applicatur, 
+se<lb ed="#L" break="no" n="39"/>cundum quod multae partes ad orientem perveniunt. Et
+<lb ed="#L" n="40"/>sic, licet caelum .continue moveatur, ipse tamen angelus,
+<lb ed="#L" n="41"/>movendo caelum, non continuo motu, sed discreto 
+mo<lb ed="#L" break="no" n="42"/>vetur. — Si vero poneretur angelus affuxus determinatae
+<lb ed="#L" n="43"/>parti orbis, et rotari cum illa parte ad. motum orbis, tunc
+<lb ed="#L" n="44"/>illo. quidem motu per accidens moveretur. Et: sic non esset
+<lb ed="#L" n="45"/>inconveniens dicere, iuxta praedicta, quod in tempore
+<lb ed="#L" n="46"/>communi moveretur. Sed. nos de motu eius per se, non
+<lb ed="#L" n="47"/>autem de motu per accidens loquimur.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>XII. Ad evidentiam tertii dubii , considerandum primo
+<lb ed="#L" n="49"/>quod, cum motus sit transitus quidam de termino a quo
+<lb ed="#L" n="50"/>ad terminum ad quem; transitus autem iste nihil aliud
+<lb ed="#L" n="51"/>dicat.quam recessum ab uno termino et accessum ad
+<lb ed="#L" n="52"/>alium: nihil aliud est mutationem aliquam in instanti aut
+<lb ed="#L" n="53"/>in tempore esse, quam ipsum recessum ab uno termino
+<lb ed="#L" n="54"/>et accessum ad alium mensurari tempore, aut instanti.
+<lb ed="#L" n="55"/>Unde, cum quaeritur, Numquid motus localis angeli sit
+<lb ed="#L" n="56"/>in instanti? nihil aliud quaeritur quam, an transitus 
+an<lb ed="#L" break="no" n="57"/>geli de loco ad locum, sive, an recessus eius ab uno loco
+<lb ed="#L" n="58"/>et accessus ad alium locum, in instanti fiat.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>2. Considerandum secundo, conformiter ad doctrinam
+<lb ed="#L" n="60"/>Sancti Thomae IV Sent., d. xi, q. 1, 3, qu 2, ad 3, quod
+<lb ed="#L" n="61"/>quando in aliqua transmutatione datur ultimum esse 
+ter<lb ed="#L" break="no" n="62"/>mini a quo, quia scilicet datur aliquod instans in quo
+<lb ed="#L" n="63"/>mobile est in. ipso ita quod immediate post illud instans
+<lb ed="#L" n="64"/>in ipso non erit; et etiam datur primum esse termini ad
+<lb ed="#L" n="65"/>quem, quia scilicet datur aliquod instans in quo verum
+<lb ed="#L" n="66"/>est dicere mobile nunc est in isto termino et immediate
+<lb ed="#L" n="67"/>ante hoc non erat: tunc illa duo instantia ad ipsam 
+mu<lb ed="#L" break="no" n="68"/>tationem, sive ad illum transitum de termino ad 
+termi<lb ed="#L" break="no" n="69"/>num, pertinent, unum scilicet sicut principium durationis
+<lb ed="#L" n="70"/>eius, alterum vero sicut finis. Cum enim aliquid de albo
+<lb ed="#L" n="71"/>per medios colores transit in nigrum, instans in quo ultimo
+<lb ed="#L" n="72"/>fuit sub albedine, est talis alterationis principium, instans
+<lb ed="#L" n="73"/>vero in quo primo est sub nigro, est eius finis: neque
+<lb ed="#L" n="74"/>enim aliud habet principium, neque alium. finem 
+intrin<lb ed="#L" break="no" n="75"/>secum suae durationis. Unde duo habet utrumque instans :
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>primum enim est finis quietis praecedentis, et initium motus
+<lb ed="#L" n="77"/>sequentis; secundum vero est finis motus praecedentis, et
+<lb ed="#L" n="78"/>principium: sequentis quietis, — Quando autem non datur
+<lb ed="#L" n="79"/>ultimum esse termini a quo, quia videlicet non datur 
+ul<lb ed="#L" break="no" n="80"/>timum instans in quo mobile est sub ipso, transitus de
+<lb ed="#L" n="81"/>uno termino in alium terminum non includit duo instantia;
+<lb ed="#L" n="82"/>sed unum tantum, in quo videlicet mobile primo est sub
+<lb ed="#L" n="83"/>termino ad quem et primo non est sub termino a quo:
+<lb ed="#L" n="84"/>in toto enim tempore praecedenti fuit in termino a quo,
+<lb ed="#L" n="85"/>et in illo instanti primo non est in eo. Unde illius 
+trans<lb ed="#L" break="no" n="86"/>mutationis, si per se solam sumatur, ut scilicet ab omni
+<lb ed="#L" n="87"/>alio motu distinguitur, idem instans est principium et finis;
+<lb ed="#L" n="88"/>Et propter hoc tales mutationes dicuntur imstantaneae:
+<lb ed="#L" n="89"/>quia videlicet in eodem instanti incipiunt et terminantur.
+<lb ed="#L" n="90"/>Patet hoc in generatione ignis ex aere, quae ponitur 
+ter<lb ed="#L" break="no" n="91"/>minus alterationis ad formae substantialis introductionem
+<lb ed="#L" n="92"/>ordinatae. Nam quia in toto aliquo tempore materia est
+<lb ed="#L" n="93"/>sub forma aeris, et non datur ultimum instans in quo sub
+<lb ed="#L" n="94"/>ipsa fuerit; in ultimo autem instanti illius temporis est
+<lb ed="#L" n="95"/>sub. forma ignis: ideo, seclusa praecedenti alteratione 
+sum<lb ed="#L" break="no" n="96"/>ptus, transitus materiae de forma aeris ad formam: ignis
+<lb ed="#L" n="97"/>unum duntaxat instans includit, in: quo est principium et
+<lb ed="#L" n="98"/>finis ipsius transitus. Et propter hoc. generatio 
+substan<lb ed="#L" break="no" n="99"/>tialis. ignis dicitur mutatio instantanea.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Ex. hoc apparet necesse esse id quod saepenumero dicit
+<lb ed="#L" n="101"/>Sanctus Thomas, ut videlicet huiusmodi mutationes 
+instan<lb ed="#L" break="no" n="102"/>taneae alicuius motus sint termini. Nam si in tempore 
+prae<lb ed="#L" break="no" n="103"/>cedente instantaneam introductionem formae substantialis
+<lb ed="#L" n="104"/>in materia, quievisset materia sub forma praecedenti, non
+<lb ed="#L" n="105"/>posset in ultimo instanti illius temporis primo.abiici 
+prae<lb ed="#L" break="no" n="106"/>cedens forma et sequens primo introduci, ut in eodem
+<lb ed="#L" n="107"/>instanti esset principium et finis mutationis. Quia quod
+<lb ed="#L" n="108"/>quiescit in aliquo toto tempore, in eadem dispositione est
+<lb ed="#L" n="109"/>in ultimo. instanti illius temporis in qua fuit in toto tem- -
+<lb ed="#L" n="110"/>pore praecedenti. Unde oportet quod aut in eodem instanti
+<lb ed="#L" n="111"/>materia sit sub utraque forma, quod est omnino 
+impos<lb ed="#L" break="no" n="112"/>sibile: aut quod mobile non quieverit sub termino a quo in
+<lb ed="#L" n="113"/>tempore praecedente ipsum instans, sed motum sit ab ipso
+<lb ed="#L" n="114"/>per maiorem appropinquationem ad terminum ad quem. Et
+<lb ed="#L" n="115"/>sic oportet quod illa subita introductio termini ad quem, et
+<lb ed="#L" n="116"/>desitio termini a quo, aliquem motum consequatur.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>3. Considerandum tertio, quod angelus, dum localiter
+<lb ed="#L" n="118"/>movetur motu discontinuo, pluribus scilicet contactibus
+<lb ed="#L" n="119"/>plura loca successive secundum se tota contingendo; quia
+<lb ed="#L" n="120"/>unusquisque istorum contactuum. est instantaneus, utpote
+<lb ed="#L" n="121"/>uno instanti temporis discreti mensuratus: oportet dicere
+<lb ed="#L" n="122"/>quod in tali motu detur ultimum instans in quo fuit in
+<lb ed="#L" n="123"/>loco a quo recedit, et detur etiam primum. instans in quo
+<lb ed="#L" n="124"/>est in termino ad quem accedit; quae enim durant 
+dum<lb ed="#L" break="no" n="125"/>taxat per instans, habent et primum esse suum et suum
+<lb ed="#L" n="126"/>ultimum esse. Hoc autem habet proprium motus angeli
+<lb ed="#L" n="127"/>discontinuus, quia mensuratur tempore discreto, in. quo
+<lb ed="#L" n="128"/>unum instans alteri instanti immediate succedit, ut 
+ter<lb ed="#L" break="no" n="129"/>minus a quo non solum habeat ultimum instans sui esse,
+<lb ed="#L" n="130"/>sed etiam habeat primum instans sui non esse: in instanti
+<lb ed="#L" n="131"/>enim in quo primo est terminus ad quem, terminus a
+<lb ed="#L" n="132"/>quo primo non est. Quod in iis quae per instans tantum
+<lb ed="#L" n="133"/>temporis discreti durant, non invenitur: licet enim habeant
+<lb ed="#L" n="134"/>ultimum instans sui esse, non tamen habent primum 
+in<lb ed="#L" break="no" n="135"/>stans sui non esse. Ideo, ut ex praecedentibus. constat,
+<lb ed="#L" n="136"/>motus discretus angeli non unum tantum instans includit,
+<lb ed="#L" n="137"/>sed duo, in quorum uno est ultimo in loco a quo recedit,
+<lb ed="#L" n="138"/>in alio vero est in loco ad quem accedit. Non enim 
+an<lb ed="#L" break="no" n="139"/>gelum localiter moveri est ipsum unum locum occupare,
+<lb ed="#L" n="140"/>hoc enim sibi convenit etiam in primo instanti quo 
+pri<lb ed="#L" break="no" n="141"/>mum contingit locum: sed est.recedere ab uno loco et ad
+<lb ed="#L" n="142"/>alium locum accedere, sive unum locum deserere et alium
+<lb ed="#L" n="143"/>occupare; hoc autem duo includit instantia in motu angeli.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>4. Ex iis sequitur quod male Capreolus concedit 
+Gre<lb ed="#L" break="no" n="145"/>gorio, in II Sent., d. vi, q. 1 , angelum in eodem 
+prae<lb ed="#L" break="no" n="146"/>cise instanti recedere a termino a quo, in quo est in
+<lb ed="#L" n="147"/>termino ad quem. Si enim recessus a termino a quo 
+acci<lb ed="#L" break="no" n="148"/>piatur ut accessum ad terminum ad quem concomitatur,
+<lb ed="#L" n="149"/>constat quod iste recessus non est in uno dumtaxat 
+in<lb ed="#L" break="no" n="150"/>stanti, sed in duobus instantibus, in quorum uno dicitur
+<pb ed="#L" n="321"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>recedere per positionem de praesenti et negationem de
+<lb ed="#L" n="2"/>futuro, in alio vero dicitur recessisse per negationem de
+<lb ed="#L" n="3"/>praesenti et positionem de praeterito. Et sic talis recessus
+<lb ed="#L" n="4"/>est in tempore: sicut et in motu continuo recessus a 
+ter<lb ed="#L" break="no" n="5"/>mino a quo, coniunctus accessui ad terminum ad quem
+<lb ed="#L" n="6"/>per totum motum, non mensuratur aliquo instanti, sed
+<lb ed="#L" n="7"/>tempore mensurante motum. — Sed si nomine recessus
+<lb ed="#L" n="8"/>velimus accipere tantum primum non-esse termini a quo,
+<lb ed="#L" n="9"/>utique verum esset quod in instanti in quo est in termino
+<lb ed="#L" n="10"/>ad quem, recedit: sed hoc est improprie dictum ; non enim
+<lb ed="#L" n="11"/>dicitur recedere angelus a termino a quo in instanti in
+<lb ed="#L" n="12"/>quo primo est in termino ad quem, sed dicitur tunc 
+re<lb ed="#L" break="no" n="13"/>cessisse. — Quod si per recessum a termino a quo 
+intel<lb ed="#L" break="no" n="14"/>ligatur instantanea derelictio termini a quo, magis 
+dicen<lb ed="#L" break="no" n="15"/>dum est quod recedit in instanti in quo est in ipso termino
+<lb ed="#L" n="16"/>a quo, quam in instanti in quo est in termino ad quem.
+<lb ed="#L" n="17"/>Nam ubi datur ultimum esse termini a quo, recessus a
+<lb ed="#L" n="18"/>termino est per positionem de praesenti, non per 
+nega<lb ed="#L" break="no" n="19"/>tionem: ut in omnibus motibus continuis apparet. Cum
+<lb ed="#L" n="20"/>enim corpus aliquod movetur a loco. ad locum, verum
+<lb ed="#L" n="21"/>est dicere quod in primo instanti sui motus recedit a loco
+<lb ed="#L" n="22"/>in quo erat secundum se totum; quia verum est dicere;
+<lb ed="#L" n="23"/>« Hoc corpus in hoc instanti secundum se totum est in
+<lb ed="#L" n="24"/>hoc loco. Et immediate post hoc, non erit in ipso 
+secun<lb ed="#L" break="no" n="25"/>dum se totum. Ergo nunc recedit ab hoc loco ». Non
+<lb ed="#L" n="26"/>autem dicitur recedere in aliquo instanti in quo primo
+<lb ed="#L" n="27"/>non sit: cum illud non inveniatur. Similiter idem invenitur
+<lb ed="#L" n="28"/>in motu alterationis et aliis motibus.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Cum autem suum propositum probat Gregorius  quia,
+<lb ed="#L" n="30"/>quando aliquid simul deserit aliquod totum, simul deserit
+<lb ed="#L" n="31"/>ipsum et deseruit: — dicitur quod illud verum est quando
+<lb ed="#L" n="32"/>illud quod deseritur, habet primum sui non-esse, sed non
+<lb ed="#L" n="33"/>ultimum esse, sicut cum materia simul deserit unam 
+for<lb ed="#L" break="no" n="34"/>mam substantialem et simul aliam totam accipit: tunc
+<lb ed="#L" n="35"/>enim dicitur deserere quando primo non est in illo. Non
+<lb ed="#L" n="36"/>est autem verum ubi res quae deseritur, habet ultimum
+<lb ed="#L" n="37"/>sui esse et primum sui non esse: quia tunc dicitur primo
+<lb ed="#L" n="38"/>deseri quando ultimo est, non autem quando primo non est.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>5. Considerandum postremo quod, cum instans dicat
+<lb ed="#L" n="40"/>aliquod indivisibile temporis, ubi plura instantia sibi 
+suc<lb ed="#L" break="no" n="41"/>cedentia inveniuntur, ibi necesse est tempus inveniri: quia
+<lb ed="#L" n="42"/>ibi est numerus prioris et posterioris in motu, in quo
+<lb ed="#L" n="43"/>ratio temporis consistit . Sed hoc aliter invenitur in 
+tem<lb ed="#L" break="no" n="44"/>pore continuo, et aliter in tempore discreto. Nam ubi sunt
+<lb ed="#L" n="45"/>plura instantia temporis continui, ibi necesse est esse 
+tem<lb ed="#L" break="no" n="46"/>pus, non quidem ex ipsis instantibus tanquam ex partibus
+<lb ed="#L" n="47"/>constitutum, sed intra ipsa instantia tanquam intra 
+ter<lb ed="#L" break="no" n="48"/>minos suos contentum: omne enim tempus finitum intra
+<lb ed="#L" n="49"/>duo instantia continetur, sicut et omnis motus continuus
+<lb ed="#L" n="50"/>intra duo mutata esse, sive intra duo indivisibilia motus.
+<lb ed="#L" n="51"/>Ubi autem sunt plura instantia temporis discreti, ibi 
+ne<lb ed="#L" break="no" n="52"/>cesse est esse tempus, non quidem intra ipsa instantia
+<lb ed="#L" n="53"/>contentum, sed ex ipsis instantibus tanquam ex suis 
+par<lb ed="#L" break="no" n="54"/>tibus constitutum: sicut enim. motus discontinuus angeli
+<lb ed="#L" n="55"/>ex indivisibilibus constat, ita et tempus quo mensuratur.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>XIII. Ex istis sequitur quod Divus Thomas, ex 
+consi<lb ed="#L" break="no" n="57"/>deratione eorum quae in mutationibus corporalibus 
+in<lb ed="#L" break="no" n="58"/>veniuntur, ingeniose, tam in Prima Parte, q. rur, quam
+<lb ed="#L" n="59"/>in I Sent., d. xxxvi , et Quolib. XI et IX , conclusit 
+mo<lb ed="#L" break="no" n="60"/>tum angeli non esse in instanti, sed in tempore. Ubi enim,
+<lb ed="#L" n="61"/>inquit , plura sunt instantia sibi succedentia, ibi necessario
+<lb ed="#L" n="62"/>est tempus, cum ibi sit numeratio prioris et posterioris
+<lb ed="#L" n="63"/>in motu. Sed in motu angeli sunt multa instantia sibi
+<lb ed="#L" n="64"/>succedentia. Igitur motus angeli est in tempore. — 
+Pro<lb ed="#L" break="no" n="65"/>batur minor ex superius dictis. Quia videlicet, ubi datur
+<lb ed="#L" n="66"/>ultimum esse termini a quo et primum esse termini .ad
+<lb ed="#L" n="67"/>quem, ibi oportet esse plura instantia ad tempus 
+mensu<lb ed="#L" break="no" n="68"/>rans illum. motum pertinentia, ut est ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Ad rationem autem in oppositum adductam  
+respon<lb ed="#L" break="no" n="70"/>detur quod, si motus localis angeli dicatur unius loci
+<lb ed="#L" n="71"/>occupatio quomodocumque, utique conceditur quod
+<lb ed="#L" n="72"/>instanti potest.esse, Nam etiam si angelus nullibi fuisset,
+<lb ed="#L" n="73"/>et inciperet operari in aliquo loco, diceretur locum 
+oc<lb ed="#L" break="no" n="74"/>cupare in instanti quo sua operatio mensuraretur. Et sic
+<lb ed="#L" n="75"/>conceditur maior, et totum argumentum. Sed ista est im-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>propria acceptio motus localis, nec sic datipintiue" motum
+<lb ed="#L" n="77"/>localem angeli.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Si autem motus localis angeli dicatur transitus eius de
+<lb ed="#L" n="79"/>loco ad locum, sive .recessus ab uno loco et accessus ad
+<lb ed="#L" n="80"/>alium locum, quae est propria acceptio motus localis,
+<lb ed="#L" n="81"/>negatur maior assumpta. Quod enim terminus a quo totus
+<lb ed="#L" n="82"/>simul. deseratur et terminus ad quem totus simul 
+acqui<lb ed="#L" break="no" n="83"/>ratur, non sufficit ad hoc ut motus sit instantaneus: sed
+<lb ed="#L" n="84"/>praeter hoc requiritur quod non detur ultimum esse 
+ter<lb ed="#L" break="no" n="85"/>mini a quo, sicut in generatione substantiali et in 
+illu<lb ed="#L" break="no" n="86"/>minatione non datur. Si enim mobile in uno instanti
+<lb ed="#L" n="87"/>deserat totum locum per positionem de praesenti et 
+ne<lb ed="#L" break="no" n="88"/>gationem de futuro, in alio vetro: instanti totum alium
+<lb ed="#L" n="89"/>locum simul.acquirat, hoc arguit motum esse 
+disconti<lb ed="#L" break="no" n="90"/>nuum, non autem arguit ipsum esse in instanti: ut patet
+<lb ed="#L" n="91"/>ex praedictis.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Ad probationem dicitur quod esse partim in termino
+<lb ed="#L" n="93"/>a quo et partim in termino ad quem, requiritur ad motum
+<lb ed="#L" n="94"/>continuum, non autem ad motum discretum, sicut nunc
+<lb ed="#L" n="95"/>loquimur de motu angeli. Nam de motu eius continuo
+<lb ed="#L" n="96"/>non est dubium quin sit in tempore.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>XIV. Circa rationem qua probatur effectus icton a
+<lb ed="#L" n="98"/>substantiis incorporeis per corporea instrumenta non esse
+<lb ed="#L" n="99"/>miraculosos, quia videlicet corpora non operantur nisi 
+na<lb ed="#L" break="no" n="100"/>turaliter , dubium occurrit. Aut enim ly naturaliter 
+ac<lb ed="#L" break="no" n="101"/>cipitur ut distinguitur contra supernaturaliter, ut idem
+<lb ed="#L" n="102"/>sit naturaliter operari quod operari secundum ordinem
+<lb ed="#L" n="103"/>naturae creatae: aut ut distinguitur contra voluntarium,
+<lb ed="#L" n="104"/>ut sit idem naturaliter operari quod operari ex necessitate
+<lb ed="#L" n="105"/>naturae, non autem libere et ex electione. Quocumque
+<lb ed="#L" n="106"/>modo intelligatur, posset aliquis dicere-illam rationem 
+suf<lb ed="#L" break="no" n="107"/>ficientem non esse. Nam si primo modo accipiatur, 
+di<lb ed="#L" break="no" n="108"/>cetur quod, licet corpora non operentur nisi naturaliter
+<lb ed="#L" n="109"/>inquantum virtute propria operantur, possunt tamen, 
+in<lb ed="#L" break="no" n="110"/>quantum sunt instrumenta agentis incorporei, 
+supernatu<lb ed="#L" break="no" n="111"/>raliter, et per consequens miraculose operari.— Si autem
+<lb ed="#L" n="112"/>secundo modo intelligatur, dicetur quod, licet: corpora
+<lb ed="#L" n="113"/>non operentur nisi naturaliter, nihil tamen prohibet quin
+<lb ed="#L" n="114"/>possint esse instrumentum agentis incorporei ad miracula
+<lb ed="#L" n="115"/>facienda. Nam 'et Deus per corpora aliquando miraculose
+<lb ed="#L" n="116"/>operatur tanquam. per instrumenta: sicut cum ad tactum
+<lb ed="#L" n="117"/>ossium Elisei cadaver revixit, ut habetur IV Regum, xni
+<lb ed="#L" n="118"/>capite 
+</p>
+            <p>
+               <lb ed="#L" n="119"/>2. Respondetur quod hic accipitur maturaliter ut 
+di<lb ed="#L" break="no" n="120"/>stinguitur contra supernaturaliter, et praeter naturae 
+or<lb ed="#L" break="no" n="121"/>dinem. Dicuntur enim agentia corporea naturaliter tantum
+<lb ed="#L" n="122"/>operari, quia operantur secundum ordinem et 
+inclinatio<lb ed="#L" break="no" n="123"/>nem naturae, et nihil praeter naturae ordinem operantur.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Sed considerandum, ex doctrina Sancti Thomae Potentia,
+<lb ed="#L" n="125"/>q. vit, a. 3, quod ea quae fiunt mediantibus actionibus
+<lb ed="#L" n="126"/>naturalibus, miracula proprie non sunt: quia ea dumtaxat
+<lb ed="#L" n="127"/>vere miracula sunt quae absque naturalibus actionibus a
+<lb ed="#L" n="128"/>causa supernaturali fiunt, Unde licet aliqui mirabiles 
+ef<lb ed="#L" break="no" n="129"/>fectus fiant a-substantiis separatis mediantibus virtutibus
+<lb ed="#L" n="130"/>corporeis naturalibus, in quos virtus corporea secundum
+<lb ed="#L" n="131"/>se non potest, sicut in operibus artis aliquos effectus. mi«
+<lb ed="#L" n="132"/>rabiles fieri videmus per aliqua instrumenta quos ipsa
+<lb ed="#L" n="133"/>instrumenta per se facere non possunt: illi tamen effectus
+<lb ed="#L" n="134"/>miracula non sunt, eo quod mediante actione virtutis
+<lb ed="#L" n="135"/>naturalis fiant.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>Considerandum ulterius quod dupliciter potest intelligi
+<lb ed="#L" n="137"/>corpus esse instrumentum agentis incorporei: uno modo,
+<lb ed="#L" n="138"/>per actionem propriae virtutis cooperando ad eius 
+effe<lb ed="#L" break="no" n="139"/>ctum; alio modo, deferendo tantum virtutem agentis 
+in<lb ed="#L" break="no" n="140"/>corporei, et eam praesentando materiae in qua fit effectus.
+<lb ed="#L" n="141"/>Primo modo, corpus habet proprie rationem instrumenti,
+<lb ed="#L" n="142"/>non autem secundo modo (licet et sic possit aliquo modo
+<lb ed="#L" n="143"/>instrumentum dici): quoniam, ut dicitur I P., q. xrv, a. 5,
+<lb ed="#L" n="144"/>causa instrumentalis non participat actionem causae 
+prin<lb ed="#L" break="no" n="145"/>cipalis nisi inquantum per aliquid sibi proprium 
+disposi<lb ed="#L" break="no" n="146"/>tive operatur ad effectum principalis agentis.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>3. Cum ergo dicitur quod corpora possunt praeter 
+or<lb ed="#L" break="no" n="148"/>dinem naturae operari inquantum sunt instrumenta agentis
+<lb ed="#L" n="149"/>incorporei: negatur, loquendo de agente incorporeo creato.
+<lb ed="#L" n="150"/>Huius enim agentis incorporei corpus non potest esse instru-
+<pb ed="#L" n="322"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mentum. ad agendum aliquem effectum in. istis 
+inferio<lb ed="#L" break="no" n="2"/>ribus nisi primo modo tantum. Quia, ut tenet Sanctus
+<lb ed="#L" n="3"/>Thomas in: capite sequenti, et in plerisque aliis locis, 
+sub<lb ed="#L" break="no" n="4"/>stantiae separatae non. possunt transmutare materiam 
+cor<lb ed="#L" break="no" n="5"/>poralem ad formam nisi mediantibus actionibus 
+natura<lb ed="#L" break="no" n="6"/>libus: quando autem aliquid fit ab agente. incorporeo
+<lb ed="#L" n="7"/>mediante naturali actione agentis corporei,. illud non est
+<lb ed="#L" n="8"/>praeter ordinem naturae, etiam si per sola agentia corporea
+<lb ed="#L" n="9"/>fieri non possit. Habet enim naturae ordo ut aliquid fiat
+<lb ed="#L" n="10"/>per actionem. corpoream ,inquantum ipsa utitur agens
+<lb ed="#L" n="11"/>incorporeum, quod.sine agente incorporeo fieri non 
+pos<lb ed="#L" break="no" n="12"/>set: sicut. per instrumentum, inquantum agit in virtute
+<lb ed="#L" n="13"/>principalis agentis, potest aliquid fieri ultra virtutem | 
+in<lb ed="#L" break="no" n="14"/>strumenti absolute consideratam; fit enim lectus virtute
+<lb ed="#L" n="15"/>artis per serram, qui sola virtute serrae non fieret.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>4. Cum dicitur secundo, quod Deus aliquando 
+miracu<lb ed="#L" break="no" n="17"/>lose operatur per corpora: — hoc utique conceditur: quia
+<lb ed="#L" n="18"/>Deus quandoque utitur corpore tanquam deferente suum
+<lb ed="#L" n="19"/>imperium.ad res, ut de Potentia, quaest. allegata, a. 4; et
+<lb ed="#L" n="20"/>II I5, q. ccxxvur, a. i , haberi potest, quo solo imperio
+<lb ed="#L" n="21"/>miraculose operatur. NÓon autem utitur corpore tanquam
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="22"/>co-agente per propriae: virtutis actionem' ad opus 
+miracu<lb ed="#L" break="no" n="23"/>losum. Et si Deus aliquid in:rebus efficeret mediante 
+natu<lb ed="#L" break="no" n="24"/>rae actione, illud non esset miraculum: sicut si per 
+appo<lb ed="#L" break="no" n="25"/>sitionem medicamenti. naturalis aliquem sanaret. Non sic
+<lb ed="#L" n="26"/>autem est de agente incorporeo creato, ut dictum est.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Ex his patet optime probari ea quae fiunt a substantiis
+<lb ed="#L" n="28"/>incorporeis per corporea instrumenta, non esse miracula,
+<lb ed="#L" n="29"/>hac ratione, quia corpora non operantur nisi naturaliter.
+<lb ed="#L" n="30"/>Ut enim ostensum est, ea quae fiunt mediantibus 
+actio<lb ed="#L" break="no" n="31"/>nibus naturalibus, non sunt praeter. ordinem naturae: quia
+<lb ed="#L" n="32"/>ordo naturae sic habet ut ista tali modo fiant.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>XV. Secundo loco: probat Sanctus Thomas alteram
+<lb ed="#L" n="34"/>exponentem, scilicet: Deus miracula facere potest .
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Probat autem per oppositas conditiones factas in. 
+su<lb ed="#L" break="no" n="36"/>perioribus rationibus. Quia videlicet ipse est superior 
+or<lb ed="#L" break="no" n="37"/>dine universi, utpote a. cuius providentia totus hic ordo
+<lb ed="#L" n="38"/>fluit: cuius oppositum dicebatur de creatura in prima 
+ra<lb ed="#L" break="no" n="39"/>tione, Et: quia virtus eius, utpote infinita, non est:
+de<lb ed="#L" break="no" n="40"/>terminata ad: aliquem specialem effectum, aut ad aliquem
+<lb ed="#L" n="41"/>determinatum. modum vel ordinem producendi: cuius 
+op<lb ed="#L" break="no" n="42"/>positum in aliis rationibus de virtute creata dicebatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

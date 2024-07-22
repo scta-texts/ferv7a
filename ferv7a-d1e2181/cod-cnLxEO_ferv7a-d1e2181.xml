@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 58</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 58</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="162"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2181"><!-- ferv7a-l3c58 -->
+            <head>Capitulum 58</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="71" type="fixed=162"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="72"/>SECUNDA conclusio est: Unus videntium Deum 
+perfe<lb ed="#L" break="no" n="73"/>ctius eum alio videt. Circa autem hanc conclusionem
+<lb ed="#L" n="74"/>duo facit Sanctus Thomas: primo, ipsam probat; secundo,
+<lb ed="#L" n="75"/>respondet cuidam tacitae inquisitioni, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>I. Quantum ad. primum, arguit primo sic. Lumen 
+glo<lb ed="#L" break="no" n="77"/>riae est quoddam principium visionis divinae. Ergo 
+se<lb ed="#L" break="no" n="78"/>cundum modum luminis est modus divinae visionis. Ergo
+<lb ed="#L" n="79"/>unus alio perfectius videt. — Probatur prima consequentia.
+<lb ed="#L" n="80"/>Quia modus operationis consequitur formam quae est 
+ope<lb ed="#L" break="no" n="81"/>rationis principium. — Secunda vero probatur. Quia 
+pos<lb ed="#L" break="no" n="82"/>sunt esse huius luminis diversi participationis gradus, ita
+<lb ed="#L" n="83"/>quod unus eo perfectius illustretur quam alius.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>2. Sed circa probationem primae consequentiae, statim
+<lb ed="#L" n="85"/>occurrit dubium. Licet enim modus operationis 
+consequa<lb ed="#L" break="no" n="86"/>tur formam quae est principium operationis, non tamen
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="87"/>sequitur quod visio divina sequatur modum luminis. Lumen
+<lb ed="#L" n="88"/>enim illud non est principium operationis per modum 
+for<lb ed="#L" break="no" n="89"/>mae qua intellectus intelligit, sed per modum dispositionis
+<lb ed="#L" n="90"/>cuiusdam. Unde videtur esse aequivocatio de principio 
+ope<lb ed="#L" break="no" n="91"/>rationis,
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Respondetur quod hic nulla committitur aequivocatio.
+<lb ed="#L" n="93"/>Per formam enim quae est principium operationis, non
+<lb ed="#L" n="94"/>intelligit Sanctus Thomas formam completive actuantem
+<lb ed="#L" n="95"/>subiectum ad operandum, sed formam actuantem 
+subie<lb ed="#L" break="no" n="96"/>ctum initiative ad operationem, per quam scilicet redditur
+<lb ed="#L" n="97"/>capax ultimae et. principalis formae. Quia, cum secundum
+<lb ed="#L" n="98"/>eius modum subiectum substet ultimae formae, per quam
+<lb ed="#L" n="99"/>operatur completive, ab ipsa regulatur modus operationis
+<lb ed="#L" n="100"/>originaliter. Et hoc modo lumen gloriae est principium
+<lb ed="#L" n="101"/>visionis divinae. Quia enim ipsum lumen dat intellectui
+<pb ed="#L" n="163"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>facultatem substandi divinae essentiae per modum formae
+<lb ed="#L" n="2"/>intelligibilis, et. etiam facultatem intelligendi Deum, ipsum
+<lb ed="#L" n="3"/>est origo divinae visionis. Et ideo secundum eius 
+quanti<lb ed="#L" break="no" n="4"/>tatem sumitur originaliter divinae visionis modus, quantum
+<lb ed="#L" n="5"/>est ex parte intellectus. Proxime autem sumitur secundum
+<lb ed="#L" n="6"/>modum substandi divinae essentiae tanquam formae 
+in<lb ed="#L" break="no" n="7"/>telligibili, qui modus secundum modum variationis luminis
+<lb ed="#L" n="8"/>gloriae in diversis variatur.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Dixi autem lumen gloriae esse originem diversorum
+<lb ed="#L" n="10"/>modorum visionis divinae quantum est ex parte 
+intelle<lb ed="#L" break="no" n="11"/>ctus: quia etiam secundum modum caritatis ponit Sanctus
+<lb ed="#L" n="12"/>'Thomas, Prima Parte, esse modum dictae visionis. Et
+<lb ed="#L" n="13"/>sic caritas est origo per modum disponentis et aptantis
+<lb ed="#L" n="14"/>animam ad susceptionem talis luminis. Sed ipsa non est
+<lb ed="#L" n="15"/>in intellectu, sed in affectu.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>II. Secundo. Deus suam substantiam perfectissime videt,
+<lb ed="#L" n="17"/>utpote qui solus eam comprehendit: et sic scilicet visio
+<lb ed="#L" n="18"/>sua est summum in genere visionis divinae. Ergo etc. —
+<lb ed="#L" n="19"/>Probatur consequentia. Quia ubi est summum, ibi est
+<lb ed="#L" n="20"/>magis et minus, secundum maiorem propinquitatem et
+<lb ed="#L" n="21"/>distantiam a summo. — Declaratur exemplo calidi.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Tertio. Contingit aliquid magis aut minus assimilari Deo.
+<lb ed="#L" n="23"/>Ergo etc. — Probatur consequentia. Quia lumen gloriae
+<lb ed="#L" n="24"/>eX hoc ad visionem praedictam elevat, quod est similitudo
+<lb ed="#L" n="25"/>quaedam intellectus divini: (supple) ad eundem ordinem
+<lb ed="#L" n="26"/>cum ipso pertinens in esse intelligibili.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Quarto. Sicut aliqua diversimode praeparantur ad 
+fi<lb ed="#L" break="no" n="28"/>nem, ita diversimode participant finem: cum finis 
+respon<lb ed="#L" break="no" n="29"/>deat proportionaliter iis quae sunt ad finem. Sed visio 
+di<lb ed="#L" break="no" n="30"/>vinae substantiae est ultimus finis intellectualis substantiae.
+<lb ed="#L" n="31"/>Et ad ipsum non aequaliter omnes praeparantur: cum
+<lb ed="#L" n="32"/>quaedam sint maioris virtutis, quaedam minoris, et virtus
+<lb ed="#L" n="33"/>sit via ad felicitatem. Ergo visionem divinam diversimode
+<lb ed="#L" n="34"/>participant.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Adverte quod virtus, quae assumitur hic ad 
+probatio<lb ed="#L" break="no" n="36"/>nem secundae partis minoris propositionis, non accipitur
+<lb ed="#L" n="37"/>pro facultate intellectus ad videndum Deum, secundum
+<lb ed="#L" n="38"/>quam etiam diversificatur divina visio: sed accipitur pro
+<lb ed="#L" n="39"/>virtute quae est habitus electivus, quo aliquis per viam
+<lb ed="#L" n="40"/>merendi ad felicitatem ordinatur. Sic enim constat 
+quas<lb ed="#L" break="no" n="41"/>dam naturas intellectuales, immo quosdam etiam homines,
+<lb ed="#L" n="42"/>esse maioris virtutis, et quosdam minoris.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>ConfirMATUR conclusio auctoritate Joannis xiv.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>III. Per hoc excluditur error dicentium omnia praemia
+<lb ed="#L" n="45"/>esse aequalia, quia idem videtur ab omnibus, scilicet Dei
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="46"/>substantia: unde Matth. xx, Dominus inaequaliter 
+laboran<lb ed="#L" break="no" n="47"/>tibus idem praemium reddendum docet, scilicet denarium.
+<lb ed="#L" n="48"/>Licet enim idem sit quod omnes Beatos facit, et quod
+<lb ed="#L" n="49"/>omnibus datur in praemium, scilicet Deus, de quo 
+intel<lb ed="#L" break="no" n="50"/>ligitur auctoritas allegata, non tamen ab eo omnes 
+beati<lb ed="#L" break="no" n="51"/>tudinem aequaliter capiunt.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Hanc responsionem replicat Sanctus Thomas I II, q. v,
+<lb ed="#L" n="53"/>a. 2; et Quarto, d. xrix, q. 1, a. 4 ; et tangit Prima, q. xir,
+<lb ed="#L" n="54"/>a. 6, inquiens quod dupliciter loqui possumus de 
+beati<lb ed="#L" break="no" n="55"/>tudine: scilicet obiective; et formaliter. Obiective omnes
+<lb ed="#L" n="56"/>Beati sunt aequaliter beati: quia obiectum cuiuslibet Beati
+<lb ed="#L" n="57"/>est Deus, qui solus est summum bonum. Formaliter autem
+<lb ed="#L" n="58"/>non sunt omnes aequaliter Beati: quia non omnes 
+aequa<lb ed="#L" break="no" n="59"/>liter Deum adipiscuntur, sed aliqui perfectiori modo, aliqui
+<lb ed="#L" n="60"/>imperfectiori modo, dum aliqui ipsum perfectius vident,
+<lb ed="#L" n="61"/>aliqui vero imperfectius, ut est ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>IV, Ex dictis infert Sanctus Thomas quod quodammodo
+<lb ed="#L" n="63"/>est contrarius ordo corporalium motuum, et spiritualium.
+<lb ed="#L" n="64"/>Quia illorum omnium est idem numero primum 
+subie<lb ed="#L" break="no" n="65"/>ctum, fines vero diversi: spiritualium vero, scilicet 
+intel<lb ed="#L" break="no" n="66"/>lectualium apprehensionum et voluntatum, sunt diversa
+<lb ed="#L" n="67"/>prima subiecta, finis vero est numero idem.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Advertendum, quod non dixit Sanctus Thomas istos
+<lb ed="#L" n="69"/>ordines simpliciter esse contrarios, sed quodammodo : quia
+<lb ed="#L" n="70"/>sunt contrarii non omnibus modis, sed aliquo modo.
+<lb ed="#L" n="71"/>Quantum quidem ad subiecta, differunt. Quia omnium
+<lb ed="#L" n="72"/>motuum corporalium est idem primum subiectum: cum
+<lb ed="#L" n="73"/>omnium formarum corporalium primum subiectum sit
+<lb ed="#L" n="74"/>materia prima; et consequenter sit primum subiectum
+<lb ed="#L" n="75"/>omnium corporalium accidentium. Motuum autem 
+spiri<lb ed="#L" break="no" n="76"/>tualium non est idem primum subiectum: quia non est
+<lb ed="#L" n="77"/>unum subiectum numero omnium intellectuum 
+suscepti<lb ed="#L" break="no" n="78"/>vum. — Quantum vero ad finem, non omnino differunt:
+<lb ed="#L" n="79"/>quia Deus est omnium creaturarum, et omnium 
+opera<lb ed="#L" break="no" n="80"/>tionum, aliquo modo finis remotus, ut superius  est 
+osten<lb ed="#L" break="no" n="81"/>sum; et sic omnes operationes in uno fine communi aliquo
+<lb ed="#L" n="82"/>modo conveniunt. Sed differunt quia diversificantur 
+quan<lb ed="#L" break="no" n="83"/>tum ad particularem finem. Diversi enim motus corporales
+<lb ed="#L" n="84"/>ad diversos particulares fines ordinantur: spirituales autem
+<lb ed="#L" n="85"/>motus ad unum particularem finem diriguntur, scilicet ad
+<lb ed="#L" n="86"/>Deum. Qui dicitur particularis finis inquantum particulari
+<lb ed="#L" n="87"/>quodam modo ipsum attingunt creaturae intellectuales, quo
+<lb ed="#L" n="88"/>non attingunt aliae creaturae: ipsum enim sua operatione,
+<lb ed="#L" n="89"/>scilicet intellectione et affectione, immediate attingunt et
+<lb ed="#L" n="90"/>adipiscuntur, quod aliis creaturis non convenit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

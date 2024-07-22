@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 31</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 31</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="87"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1961"><!-- ferv7a-l3c31 -->
+            <head xml:id="ferv7a-d1e1961-Hd1e101">Capitulum 31</head>
+            <p xml:id="ferv7a-d1e1961-d1e103">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="104" type="fixed=87"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e110">
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="105"/>QUARTO ostenditur quod nec in mundana potentia 
+<lb ed="#L" n="106"/>cap. pracc., init, Q summum hominis bonum esse potest. 
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e119">
+               <lb ed="#L" n="107"/>Et arguitur primo sic. In ea obtinenda fortuna 
+plu<lb ed="#L" break="no" n="108"/>rimum potest; et est instabilis; et non subiacet hominis 
+<cb ed="#L" n="h"/>
+               <lb ed="#L" n="109"/>voluntati; et plerumque malis advenit; quae omnia summo
+<lb ed="#L" n="110"/>bono repugnant. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e132">
+               <lb ed="#L" n="111"/>Advertendum, ex I IP, q. n, a 4, quod ad 
+beatitu<lb ed="#L" break="no" n="112"/>dinem per principia intrinseca homo ordinatur: cum ad
+<pb ed="#L" n="88"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ipsam naturaliter ordinetur. Ideo bene ex eo quod aliqua
+<lb ed="#L" n="2"/>bona ab extrinseco tantum proveniunt, et praesertim a
+<lb ed="#L" n="3"/>fortuna, concluditur illud summum non esse hominis
+<lb ed="#L" n="4"/>bonum, et in ipso beatitudinem non consistere.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e153">
+               <lb ed="#L" n="5"/>Secundo. Si sic esset, homo diceretur bonus secundum
+<lb ed="#L" n="6"/>quod habet potentiam : quia homo maxime dicitur bonus
+<lb ed="#L" n="7"/>secundum quod ad summum bonum attingit. Sed hoc
+<lb ed="#L" n="8"/>est falsum: quia non est bonus omnis qui potest. bOUK
+<lb ed="#L" n="9"/>facere. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e166">
+               <lb ed="#L" n="10"/>Tertio.:Omnis potentia est ad alterum. Non autem
+<lb ed="#L" n="11"/>summum bonum. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e173">
+               <lb ed="#L" n="12"/>Adverte: quod ;potestas, ut patet V Metaph., habet
+<lb ed="#L" n="13"/>rationem. principii. Principium autem ad alterum dicitur :
+<lb ed="#L" n="14"/>scilicet ad id quod est a principio. Ideo bene hic dicitur
+<lb ed="#L" n="15"/>quod: potentia ad. alterum est. .
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e184">
+               <lb ed="#L" n="16"/>Quarto. Potentia quis potest bene et male uti: cum
+<lb ed="#L" n="17"/>potentiae rationales ad opposita sint. Hoc autem .
+repu<lb ed="#L" break="no" n="18"/>gnat summo hominis bono. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e193">
+               <lb ed="#L" n="19"/>Quinto. Potestas humana est imperfectissima : quia
+<lb ed="#L" n="20"/>radicatur in hominum: voluntatibus et opinionibus, in
+<lb ed="#L" n="21"/>quibus est maxima inconstantia. Et quanto magis 
+repu<lb ed="#L" break="no" n="22"/>tatur, tanto a pluribus dependet, et consequenter multi-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="23"/>pliciter destrui potest. Ergo etc. — Patet consequentia;
+<lb ed="#L" n="24"/>Quia si aliqua potestas est summum bonum, RC
+<lb ed="#L" n="25"/>illam esse perfectissimam.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e213">
+               <lb ed="#L" n="26"/>Concludit ex supra dictis Sanctus Thomas dobretsilitet
+<lb ed="#L" n="27"/>quod in nullo bono exteriori consistit felicitas hominis :
+<lb ed="#L" n="28"/>cum omnia talia bona sub praedictis contineantur.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e223">
+               <lb ed="#L" n="29"/>IL. Contra hanc conclusionem argui potest: tum quia
+<lb ed="#L" n="30"/>per potestatem homines sunt Deo proximi ; tum quia per
+<lb ed="#L" n="31"/>potentiam sufficit quis sibi et aliis.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e232">
+               <lb ed="#L" n="32"/>Sed nullum istorum. convincit. Non quidem primum:
+<lb ed="#L" n="33"/>quia, ut inquit Sanctus Thomas loco praeallegato, ad 1,
+<lb ed="#L" n="34"/>non sufficit ad beatitudinem quod homo appropinquet ad
+<lb ed="#L" n="35"/>Deum quantum ad potestatem, sed requiritur etiam quod
+<lb ed="#L" n="36"/>appropinquet quantum ad bonitatem. Quod non convenit
+<lb ed="#L" n="37"/>e ex humana potentia, cum illa possit bene et male
+<lb ed="#L" n="38"/>Deus autem non possit sua potestate nisi bene uti,
+<lb ed="#L" n="39"/>cum sua potestas sit sua: bonitas.
+</p>
+            <p xml:id="ferv7a-d1e1961-d1e252">
+               <lb ed="#L" n="40"/>Non etiam secundum urget. Quia non sufucit ad 
+beati<lb ed="#L" break="no" n="41"/>tudinem quod aliquis sit in aliquibus sufficiens sibi et
+<lb ed="#L" n="42"/>aliis: sed exigitur quod id quo sufficit sibi et aliis, se
+<lb ed="#L" n="43"/>habeat tantum :ad bonum, non autem ad bonum iss
+<lb ed="#L" n="44"/>malum, sicut est in potentia mundana.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

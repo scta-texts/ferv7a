@@ -1,0 +1,706 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 65</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 65</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="184"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2239"><!-- ferv7a-l3c65 -->
+            <head>Capitulum 65</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="93" type="fixed=184"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="94"/>POSTQUAM ostendit Sanctus Thomas Deum omnia sua
+<lb ed="#L" n="95"/>providentia gubernare in communi, nunc vult 
+parti<lb ed="#L" break="no" n="96"/>culariter de aliquibus ostendere quod ad ea divina 
+exten<lb ed="#L" break="no" n="97"/>ditur gubernatio . Circa hoc autem tria facit: primo, 
+osten<lb ed="#L" break="no" n="98"/>dit quod esse rerum subditur divinae gubernationi; secundo,
+<lb ed="#L" n="99"/>quod omnium operationes illi subduntur, cap. Lxvit; tertio,
+<lb ed="#L" n="100"/>quod singularia, cap. rxxv.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="101"/>Circa primum duo facit: primo, ostendit quod omnia
+<lb ed="#L" n="102"/>a Deo conservantur in esse; secundo, quod nihil dat esse
+<lb ed="#L" n="103"/>nisi in virtute Dei, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>I. Quantum ad primum, arguit primo sic. In. 
+boni<lb ed="#L" break="no" n="105"/>tatem divinam ordinantur res sicut in finem Dei, non
+<lb ed="#L" n="106"/>solum per hoc quod operantur, sed etiam per hoc quod
+<lb ed="#L" n="107"/>sunt. Ergo earum conservatio in esse pertinet ad divinam
+<pb ed="#L" n="185"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>providentiam. — Probatur antecedens. Quia res, inquantum
+<lb ed="#L" n="2"/>sunt, similitudinem divinae bonitatis gerunt, quod est finis
+<lb ed="#L" n="3"/>earum, scilicet intrinsecus, ut supra est ostensum. — 
+Con<lb ed="#L" break="no" n="4"/>sequentia quoque probatur. Quia, cum regi et gubernari
+<lb ed="#L" n="5"/>aliqua dicantur secundum quod ordinantur ad finem, omne
+<lb ed="#L" n="6"/>id per quod aliqua suum finem consequuntur, ad guber- |
+<lb ed="#L" n="7"/>nationem pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>II. Secundo. Deus per suum intellectum et voluntatem
+<lb ed="#L" n="9"/>est causa essendi omnibus rebus. Ergo etc. — Probatur 
+con<lb ed="#L" break="no" n="10"/>sequentia. Quia, cum conservatio rei non sit nisi 
+conti<lb ed="#L" break="no" n="11"/>nuatio esse ipsius, oportet quod idem sit causa rei et 
+con<lb ed="#L" break="no" n="12"/>servationis: ipsius. faf,
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Circa probationem consequentiae, advertendum est, ex
+<lb ed="#L" n="14"/>doctrina Sancti "Thomae Potentia, q. v, a. 1, ad 2; et
+<lb ed="#L" n="15"/>Prima, q. civ, a. 1 , quod eadem est actio secundum rem
+<lb ed="#L" n="16"/>qua Deus res producit in esse, quae dicitur creatio, et
+<lb ed="#L" n="17"/>qua eas conservat, quae dicitur conservatio: sed ratione
+<lb ed="#L" n="18"/>distinguuntur. Quia creatio importat in sua ratione 
+respe<lb ed="#L" break="no" n="19"/>ctum ad rem secundum quod incipit esse; et dicit ordinem
+<lb ed="#L" n="20"/>durationis, saltem imaginariae, ad non esse praecedens, 
+se<lb ed="#L" break="no" n="21"/>cundum quod ipsa nos utimur, tenentes, secundum fidem,
+<lb ed="#L" n="22"/>mundum habuisse initium suae durationis; creare enim,
+<lb ed="#L" n="23"/>sic sumptum, est aliquid ex nihilo facere de novo. Si autem
+<lb ed="#L" n="24"/>acceperimus creationem ut nominat tantum productionem
+<lb ed="#L" n="25"/>alicuius ex nihilo, sic diceret respectum productionis ad
+<lb ed="#L" n="26"/>esse rei, non includendo novitatem ipsius, sed ordinem
+<lb ed="#L" n="27"/>naturae ad non-esse rei. — Coaservatio autem, ultra 
+ha<lb ed="#L" break="no" n="28"/>bitudinem productionis ipsius esse rei, dicit continuationem
+<lb ed="#L" n="29"/>influxus et productionis ipsius esse; et ordinem esse rei
+<lb ed="#L" n="30"/>ad mensuram praecedentem in qua habuit esse, scilicet
+<lb ed="#L" n="31"/>quod talis actio non sit tempore interrupta. Ideo hic 
+di<lb ed="#L" break="no" n="32"/>citur quod conservatio est continuatio esse rei, idest, est
+<lb ed="#L" n="33"/>productio esse rei sine interruptione.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>III. Sed insurgit contra dicta dubium ex Aureolo, apud
+<lb ed="#L" n="35"/>Capreolum, in II Sent, d. r q. mn . Nam creatio, et
+<lb ed="#L" n="36"/>universaliter omnis productio creaturae, non habet quod
+<lb ed="#L" n="37"/>duret nisi per instans: alioquin non posset Deus 
+annihi<lb ed="#L" break="no" n="38"/>lare productum post primum instans, et sic productum
+<lb ed="#L" n="39"/>esset ex se necesse esse. Conservatio autem importat 
+con<lb ed="#L" break="no" n="40"/>tinuationem: et sic habet quod duret plus quam per instans.
+<lb ed="#L" n="41"/>Ergo productio et conservatio non sunt una et eadem actio.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Confirmatur. Quia Deus communicat actionem et 
+pro<lb ed="#L" break="no" n="43"/>ductionem creaturae: non autem conservationem. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>2. Ad huius evidentiam, considerandum est quod, cum
+<lb ed="#L" n="45"/>dupliciter de creatione et conservatione possimus loqui,
+<lb ed="#L" n="46"/>scilicet quantum ad. eorum entitates absolute, et quantum
+<lb ed="#L" n="47"/>ad eorum proprias rationes, quae nominibus creationis et
+<lb ed="#L" n="48"/>conservationis importantur: si loquamur de ipsis quantum
+<lb ed="#L" n="49"/>ad: eorum entitates, sic, cum nihil aliud sint quam divina
+<lb ed="#L" n="50"/>actio, quae est substantia divina, constat quod eodem modo
+<lb ed="#L" n="51"/>sunt aeterna, et eodem modo habent quod durent, non
+<lb ed="#L" n="52"/>tantum per instans temporis, sed semper, sicut et divina
+<lb ed="#L" n="53"/>substantia est aeterna et nunquam deficiet.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Si autem loquamur de ipsis quantum ad eorum 
+pro<lb ed="#L" break="no" n="55"/>prias rationes, sic aliter loquendum est accipiendo 
+crea<lb ed="#L" break="no" n="56"/>tionem prout includit novitatem essendi in creatura, quo
+<lb ed="#L" n="57"/>modo hoc nomine utuntur Catholici: et aliter ipsam 
+acci<lb ed="#L" break="no" n="58"/>piendo prout talem novitatem non includit. Si enim primo
+<lb ed="#L" n="59"/>modo accipiatur, sic habet creatio quod duret tantum per
+<lb ed="#L" n="60"/>instans: quia, cum creatura accipiat esse a Deo de novo
+<lb ed="#L" n="61"/>in primo tantum instanti sui esse, relatio importata 
+for<lb ed="#L" break="no" n="62"/>maliter nomine creationis, quae terminatur ad creaturam
+<lb ed="#L" n="63"/>secundum quod de novo esse accipit ut sic, durat tantum
+<lb ed="#L" n="64"/>per instans. Conservatio autem habet ut duret quandiu
+<lb ed="#L" n="65"/>esse rei creatae durat. Unde illa actio quae in primo 
+in<lb ed="#L" break="no" n="66"/>stanti esse creaturae habet rationem creationis, in toto 
+tem<lb ed="#L" break="no" n="67"/>pore sequenti illud instans habet rationem conservationis:
+<lb ed="#L" n="68"/>quia est actio continuans esse rei, non quidem esse 
+con<lb ed="#L" break="no" n="69"/>tinue influens per modum incoeptionis, sed esse prius 
+pro<lb ed="#L" break="no" n="70"/>ductum manutenens.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Si autem acciperemus creationem ut solum influxum
+<lb ed="#L" n="72"/>essendi importat absque novitate, quo. modo entia ab 
+ae<lb ed="#L" break="no" n="73"/>terno producta possent dici esse creata: sic non est de
+<lb ed="#L" n="74"/>ratione creationis quod duret per instans fluens aut per
+<lb ed="#L" n="75"/>tempus, sed tantum ut sit actio influens esse rei. Si enim
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>poneretur res ab aeterno creata et nunquam desinere, et
+<lb ed="#L" n="77"/>ipsa creatio semper maneret sicut. et conservatio, eadem
+<lb ed="#L" n="78"/>actio divina semper haberet rationem creationis et 
+ratio<lb ed="#L" break="no" n="79"/>nem conservationis. Alia tamen esset ratio creationis, et
+<lb ed="#L" n="80"/>alia ratio conservationis: quia ipsa actio ut connotans 
+ha<lb ed="#L" break="no" n="81"/>bitudinem tantum influxus essendi nulla materia 
+praesup<lb ed="#L" break="no" n="82"/>posita, diceretur creatio ; eadem ut connotans habitudinem
+<lb ed="#L" n="83"/>manutenentiae esse prius habiti, diceretur corservatio.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>3. Ad argumentum ergo, negatur antecedens, si 
+acci<lb ed="#L" break="no" n="85"/>piantur creatio et conservatio quantum ad ipsam 
+substan<lb ed="#L" break="no" n="86"/>tiam actionis. Et patet quod probatio nihil facit contra
+<lb ed="#L" n="87"/>hunc sensum: quia, cum possit esse ipsa entitas creationis
+<lb ed="#L" n="88"/>absque hoc quod per ipsam aliquid creetur, sicut antequam
+<lb ed="#L" n="89"/>mundus crearetur ipsa erat, licet tunc non haberet rationem
+<lb ed="#L" n="90"/>creationis ;; constat quod nulla res creata ex se est ens 
+ne<lb ed="#L" break="no" n="91"/>cesse esse, et quod quaelibet potuit non produci et 
+nun<lb ed="#L" break="no" n="92"/>quam esse.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Si autem accipiantur istae actiones quantum ad eorum
+<lb ed="#L" n="94"/>formales rationes, concesso antecedente de creatione quae
+<lb ed="#L" n="95"/>importat novitatem essendi in effectu, conceditur etiam
+<lb ed="#L" n="96"/>consequens: nam verum est quod creatio et conservatio
+<lb ed="#L" n="97"/>non sunt una et eadem actio formaliter, sive quantum ad
+<lb ed="#L" n="98"/>earum formales rationes. Nec oppositum huius dicimus:
+<lb ed="#L" n="99"/>immo distingui ipsa ratione superius  est ostensum. — Si
+<lb ed="#L" n="100"/>autem acciperetur creatio ut novitatem essendi non includit,
+<lb ed="#L" n="101"/>sed ut dicit tantum influxum essendi, negaretur etiam 
+an<lb ed="#L" break="no" n="102"/>tecedens. Et ad probationem, negaretur sequela: quia sicut
+<lb ed="#L" n="103"/>non habet quod duret per instans, ita etiam non habet quod
+<lb ed="#L" n="104"/>duret per aliquod determinatum tempus; cum duratio
+<lb ed="#L" n="105"/>temporis aut instantis transeuntis sit praeter eius rationem,
+<lb ed="#L" n="106"/>neque determinata duratio ad eius rationem consequatur.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>Utrum autem res quam Deus producit per creationem,
+<lb ed="#L" n="108"/>necessario per aliquod tempus maneat: — dicitur quod
+<lb ed="#L" n="109"/>utique hoc necessarium est necessitate suppositionis. Nam,
+<lb ed="#L" n="110"/>supposito quod a Deo accipiat esse, necesse est quod per
+<lb ed="#L" n="111"/>aliquod tempus esse habeat: quia rerum permanentium
+<lb ed="#L" n="112"/>dari non potest ultimum esse, alioquin instans esset 
+imme<lb ed="#L" break="no" n="113"/>diatum instanti. Immo oportet quod per infinitum tempus
+<lb ed="#L" n="114"/>duret, si sit ab aeterno producta. Nec tamen sequitur quod
+<lb ed="#L" n="115"/>sit ens ex se necesse esse. Tum quia potuit non produci.
+<lb ed="#L" n="116"/>Tum quia non est tempus adeo parvum quin ante illud
+<lb ed="#L" n="117"/>eam "Deus poterit annihilare. Sicut etiam, supposito quod
+<lb ed="#L" n="118"/>producatur motus, necesse est ut per aliquod tempus esse
+<lb ed="#L" n="119"/>habeat: et tamen motus non est ens necesse esse:
+</p>
+            <p>
+               <lb ed="#L" n="120"/>4. Ad confirmationem, negatur consequentia. Non enim
+<lb ed="#L" n="121"/>valet ista consequentia: Deus communicat esse lapidi. Et
+<lb ed="#L" n="122"/>sibi non communicat sapientiam. Ergo esse divinum et
+<lb ed="#L" n="123"/>eius sapientia non sunt una et eadem res. Sed bene 
+se<lb ed="#L" break="no" n="124"/>quitur quod non sint idem secundum rationem. Ita in 
+pro<lb ed="#L" break="no" n="125"/>posito ex eo quod Deus non communicat conservationem
+<lb ed="#L" n="126"/>rei creatae, communicat autem actionem, non sequitur
+<lb ed="#L" n="127"/>quod non sint una actio materialiter, sed solum quod 
+for<lb ed="#L" break="no" n="128"/>maliter distinguantur. - Antecedens etiam fortasse falsum
+<lb ed="#L" n="129"/>est. Nam locus est conservativus locati. Et una res creata
+<lb ed="#L" n="130"/>per aliam conservatur tanquam per instrumentum divinae
+<lb ed="#L" n="131"/>virtutis.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>IV. Tertio . Deus est per se causa specierum. Ergo se
+<lb ed="#L" n="133"/>habet hoc modo ad conservationem ipsarum, sicut hoc
+<lb ed="#L" n="134"/>generans in natura ad generationem, cuius generationis est
+<lb ed="#L" n="135"/>causa per se. Sed, cessante operatione generantis, cessat
+<lb ed="#L" n="136"/>generatio. Ergo et omnes rerum species cessarent, cessante
+<lb ed="#L" n="137"/>operatione divina. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>Antecedens probatur in specie humana. Speciei humanae
+<lb ed="#L" n="139"/>oportet esse aliquam per se causam agentem: ut patet ex
+<lb ed="#L" n="140"/>compositione et ordine partium in omnibus non impeditis
+<lb ed="#L" n="141"/>servata. Ergo Deus mediate vel immediate eam causat: cum
+<lb ed="#L" n="142"/>sit omnium rerum prima causa.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>Prima vero consequentia probatur, simul et declaratur:
+<lb ed="#L" n="144"/>ex eo quod nullum particulare agens univocum potest
+<lb ed="#L" n="145"/>simpliciter esse causa speciei, sed tantum huius individui.
+<lb ed="#L" n="146"/>Non enim bic homo est causa speciei humanae: quia sic
+<lb ed="#L" n="147"/>esset causa hominis, et per consequens esset causa sui
+<lb ed="#L" n="148"/>ipsius. Sed est causa generationis huius hominis, per se
+<lb ed="#L" n="149"/>loquendo, inquantum est causa quod forma humana fiat
+<lb ed="#L" n="150"/>in hac materia.
+</p>
+            <p>
+               <pb ed="#L" n="186"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>V. Circa istam propositionem, Nullum particulare agens
+<lb ed="#L" n="2"/>univocum potest simpliciter esse causa speciei, 
+adverten<lb ed="#L" break="no" n="3"/>dum primo, quod per causam simpliciter speciei intelligit
+<lb ed="#L" n="4"/>Sanctus Thomas causam ipsius secundum quod est talis
+<lb ed="#L" n="5"/>species, et non cum aliqua adiectione consideratae; et 
+in<lb ed="#L" break="no" n="6"/>telligit de causa per se; ut patet de Pot, q. v, a. t, et
+<lb ed="#L" n="7"/>Prima, q. civ , ubi hanc rationem etiam ponit.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Dupliciter autem aliquid potest dici causa per se 
+ali<lb ed="#L" break="no" n="9"/>cuius: uno modo, ex parte causae; alio modo, ex parte
+<lb ed="#L" n="10"/>effectus. Dicitur causa per se alicuius effectus ex parte
+<lb ed="#L" n="11"/>causae, quando causat illud virtute propriae naturae; non
+<lb ed="#L" n="12"/>autem quia alterius naturam formaliter participet, aut quia
+<lb ed="#L" n="13"/>causae per se coniungatur. Sicut dicimus ignem per se
+<lb ed="#L" n="14"/>calefacere, aquam vero quae est calida, non calefacere per
+<lb ed="#L" n="15"/>se, sed per aliud, quia calefacit inquantum aliquid naturae
+<lb ed="#L" n="16"/>ignis participat; et dicimus domificatorem per se 
+aedifi<lb ed="#L" break="no" n="17"/>care, non autem album, sed per accidens. — Ex parte vero
+<lb ed="#L" n="18"/>effectus, dicitur causa per se alicuius effectus, quando 
+ef<lb ed="#L" break="no" n="19"/>fectus secundum suam naturam et rationem habet ab illa
+<lb ed="#L" n="20"/>causa dependentiam; non autem quia coniungatur alicui
+<lb ed="#L" n="21"/>ad quod prius causalitas terminetur secundum quod est
+<lb ed="#L" n="22"/>tale. Sicut dicimus aedificatorem per se aedificare: album
+<lb ed="#L" n="23"/>autem, aut rixam ex domo exortam, causare per aliud aut
+<lb ed="#L" n="24"/>per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>In proposito ergo sumenda est causa per se ex parte
+<lb ed="#L" n="26"/>utriusque. Nam cum hic dicatur quod individuum n07 est
+<lb ed="#L" n="27"/>causa simpliciter speciei, et alibi  quod non est causa
+<lb ed="#L" n="28"/>speciei inquantum huiusmodi, datur intelligi quod per se
+<lb ed="#L" n="29"/>sumitur ex parte effectus. Dicitur enim causa alicuius 
+spe<lb ed="#L" break="no" n="30"/>ciei simpliciter quae est causa ipsius nulla sibi facta 
+adie<lb ed="#L" break="no" n="31"/>ctione: sicut causa humanae speciei dicitur quae hominem
+<lb ed="#L" n="32"/>causat; illa autem quae non causat hominem, sed Aunc
+<lb ed="#L" n="33"/>hominem, non dicitur simpliciter causa speciei humanae.
+<lb ed="#L" n="34"/>Similiter cum dicitur aliquid causa speciei inquantum 
+hu<lb ed="#L" break="no" n="35"/>iusmodi, constat quod inquantum huiusmodi determinat
+<lb ed="#L" n="36"/>rationem effectus. — Ex eo vero quod dicitur Prima Parte,
+<lb ed="#L" n="37"/>ubi supra, individuum unius speciei z0n esse per se causam
+<lb ed="#L" n="38"/>formae alterius inquantum est talis forma, datur intelligi
+<lb ed="#L" n="39"/>etiam accipi perseitatem ex parte causae.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>2. Considerandum secundo quod, quia causa per se
+<lb ed="#L" n="41"/>speciei directe habet causalitatem supra essentiam speciei
+<lb ed="#L" n="42"/>inquantum est talis essentia, et ipsam specificam rationem
+<lb ed="#L" n="43"/>adaequat, oportet quod in quocumque essentia speciei 
+re<lb ed="#L" break="no" n="44"/>peritur, illud sit a tali causa causatum. Unde oportet ut
+<lb ed="#L" n="45"/>causalitas talis causae ad totam speciem se extendat, et ad
+<lb ed="#L" n="46"/>omnia sub specie contenta. Propter hoc optime deducit
+<lb ed="#L" n="47"/>Sanctus Thomas quod, si hic homo esset causa speciei
+<lb ed="#L" n="48"/>humanae, esset causa /tominis, et sic esset causa sui ipsius,
+<lb ed="#L" n="49"/>cum ipse sit homo.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>3. Considerandum tertio, ex doctrina sancti Thomae de
+<lb ed="#L" n="51"/>Pot, q. v, a. 1; et II. Sent., d. xvi, q. m, a. 1, quod,
+<lb ed="#L" n="52"/>cum per se causa totius speciei non possit esse aliquod
+<lb ed="#L" n="53"/>ipsius individuum, necesse est ut causa ipsius sit aliquid
+<lb ed="#L" n="54"/>superioris ordinis et superioris gradus. Non enim quod est
+<lb ed="#L" n="55"/>inferioris ordinis, ipsius potest esse causa: cum causa per
+<lb ed="#L" n="56"/>se et principalis non possit suo effectu ignobilior esse. Quod
+<lb ed="#L" n="57"/>autem est superioris ordinis et superioris gradus ad speciem,
+<lb ed="#L" n="58"/>non est eiusdem rationis cum ipsa. Ideo non est ipsius
+<lb ed="#L" n="59"/>agens univocum, sed aequivocum. Et sic quod est causa
+<lb ed="#L" n="60"/>speciei inquantum huiusmodi, oportet agens aequivocum
+<lb ed="#L" n="61"/>esse, non autem univocum. Propter hoc non dixit absolute
+<lb ed="#L" n="62"/>Sanctus Thomas quod nullum particulare agens sit causa
+<lb ed="#L" n="63"/>simpliciter speciei, sed addidit umivocum: quod, inquam,
+<lb ed="#L" n="64"/>sit sub specie contentum, et speciei rationem participet.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>4. Considerandum postremo quod, licet hic homo non
+<lb ed="#L" n="66"/>sit primo causa hominis inquantum homo est, sed tantum
+<lb ed="#L" n="67"/>huius hominis, est tamen secundario causa hominis. Quia
+<lb ed="#L" n="68"/>hic homo, cuius est causa, est etiam omo: nec possunt
+<lb ed="#L" n="69"/>separari ita quod hic homo non sit homo. Et ita quod est
+<lb ed="#L" n="70"/>causa primi, oportet secundi etiam causam esse. Propter
+<lb ed="#L" n="71"/>hoc dixit Sanctus Thomas quod hic homo est causa huius
+<lb ed="#L" n="72"/>hominis per se loquendo: quasi diceret, secundario tamen,
+<lb ed="#L" n="73"/>et per aliud, est causa etiam hominis. Unde et subiunxit
+<lb ed="#L" n="74"/>quod hic homo non est causa hominis nisi inquantum
+<lb ed="#L" n="75"/>est causa quod forma humana fiat in hac materia.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>VI. Circa istam propositionem, Nec hic homo, nec ali-.
+<lb ed="#L" n="77"/>quod agens univocum in natura, est causa nisi generationis
+<lb ed="#L" n="78"/>huius vel illius rei, advertendum quod tangit Sanctus
+<lb ed="#L" n="79"/>"Thomas distinctionem quam expresse ponit Prima Parte,
+<lb ed="#L" n="80"/>ubi supra: scilicet quod duplex est agens, quoddam quod
+<lb ed="#L" n="81"/>est causa effectus quantum ad eius fieri tantum ; quoddam
+<lb ed="#L" n="82"/>vero quod est causa effectus etiam quantum ad esse. Agens
+<lb ed="#L" n="83"/>univocum est causa effectus quantum ad fieri tantum, ita
+<lb ed="#L" n="84"/>quod ipsum fieri tantum dependet a causa: non autem
+<lb ed="#L" n="85"/>est causa ipsius quantum ad esse, ita quod esse effectus
+<lb ed="#L" n="86"/>dependeat ab ipso (scilicet per se). Nam cum esse sit 
+ef<lb ed="#L" break="no" n="87"/>fectus formaliter ipsam formam consequens, illud tantum
+<lb ed="#L" n="88"/>est causa rei per se quantum ad eius esse quod est causa
+<lb ed="#L" n="89"/>per se formae inquantum forma est: quod vero est causa,
+<lb ed="#L" n="90"/>non formae inquantum forma, sed formae. quantum ad
+<lb ed="#L" n="91"/>receptionem sui in materia, non est causa per se rei 
+quan<lb ed="#L" break="no" n="92"/>tum ad eius esse, sed tantum quantum ad eius 
+generatio<lb ed="#L" break="no" n="93"/>nem; quod est dictu, quantum ad receptionem formae in
+<lb ed="#L" n="94"/>materia. Propter. hoc dixit Sanctus Thomas quod agens
+<lb ed="#L" n="95"/>univocum est ' causa generationis tantum huius vel illius
+<lb ed="#L" n="96"/>rei. Sicut enim aequivocum agens habet pro effectu per
+<lb ed="#L" n="97"/>se ipsam speciem absolute, ita agens univocum habet pro
+<lb ed="#L" n="98"/>effectu per se huius particularis rei generationem. Ideo
+<lb ed="#L" n="99"/>sicut, cessante actione huius particularis agentis univoci,
+<lb ed="#L" n="100"/>cessat generatio rei quae generabatur; ita, cessante actione
+<lb ed="#L" n="101"/>agentis aequivoci supra speciem, cessat ipsa species.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>VII. Sed circa praedicta quaedam occurrunt dubia. 
+Pri<lb ed="#L" break="no" n="103"/>mum est circa illam conditionalem: Si hic homo esset causa.
+<lb ed="#L" n="104"/>speciei humanae, esset causa sui ipsius. Nam non videtur
+<lb ed="#L" n="105"/>ista conditionalis habere veritatem nisi ex ista propositione:
+<lb ed="#L" n="106"/>Quod est causa alicuius formae secundum rationem ipsius
+<lb ed="#L" n="107"/>formae, est causa omnium illa ratione participantium.
+<lb ed="#L" n="108"/>Sed ista propositio falsa esse videtur. Nam Deus est causa
+<lb ed="#L" n="109"/>entis inquantum est ens: et tamen non est causa omnis
+<lb ed="#L" n="110"/>entis, quia non est causa sui ipsius. Et caelum est causa
+<lb ed="#L" n="111"/>corporum inferiorum inquantum corpora sunt: et tamen
+<lb ed="#L" n="112"/>non est causa omnium corporum, quia non est causa sui
+<lb ed="#L" n="113"/>ipsius. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Secundum est circa illud quod dictum est, Aunc 
+ho<lb ed="#L" break="no" n="115"/>minem non esse causam hominis per se, sed huius hominis.
+<lb ed="#L" n="116"/>Nam hoc videtur falsum. Quia omne agens univocum per
+<lb ed="#L" n="117"/>se agit sibi simile secundum formam. Sed similitudo unius
+<lb ed="#L" n="118"/>hominis ad alium est secundum quod eonveniunt in natura
+<lb ed="#L" n="119"/>speciei, Ergo hic homo est causa per | guai specificae.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Tertium est circa id quod dictum est, Aunc hominem
+<lb ed="#L" n="121"/>non esse causam nisi generationis huius vel illius rei. Nam
+<lb ed="#L" n="122"/>de ratione generationis, ut patet V Phys. , est quod 
+ter<lb ed="#L" break="no" n="123"/>minetur ad esse rei. Ergo quod est causa generationis
+<lb ed="#L" n="124"/>alicui rei, est etiam causa esse ipsius. Ergo hic homo non
+<lb ed="#L" n="125"/>est causa solum generationis huius rei, sed etiam esse.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>VIII. Ad primum horum dicitur quod illa propositio ex
+<lb ed="#L" n="127"/>qua dependet veritas illius conditionalis, est vera: et puto
+<lb ed="#L" n="128"/>ipsam esse veram de quacumque ratione, sive inquam 
+spe<lb ed="#L" break="no" n="129"/>cifica sit, sive generica, sive analoga. Quia etiam videmus
+<lb ed="#L" n="130"/>in potentiis cognoscitivis quod, si potentia respiciat 
+obie<lb ed="#L" break="no" n="131"/>ctum secundum aliquam formalem rationem, se extendit
+<lb ed="#L" n="132"/>ad omnia quibus illa ratio convenit: visus enim se 
+ex<lb ed="#L" break="no" n="133"/>tendit ad omnes colores, et intellectus ad omne ens.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Ad improbationem dicitur quod Deus non est causa
+<lb ed="#L" n="135"/>entis inquantum ens, si proprie loquamur, sed entis creati.
+<lb ed="#L" n="136"/>Et sic non oportet quod sit causa sui ipsius, sed omnium
+<lb ed="#L" n="137"/>quibus convenit ratio entis creati, Et similiter caelum non
+<lb ed="#L" n="138"/>est causa corporis inquantum corpus est, sed corporis
+<lb ed="#L" n="139"/>generabilis et corruptibilis inquantum huiusmodi. Ideo non
+<lb ed="#L" n="140"/>oportet quod sit causa sui ipsius, quia sibi illa ratio non
+<lb ed="#L" n="141"/>convenit. Et, universaliter loquendo, nihil est causa per se
+<lb ed="#L" n="142"/>alicuius secundum illam rationem sub qua et ipsum 
+con<lb ed="#L" break="no" n="143"/>tinetur, ut ex supradictis patet.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>2. Ad secundum dicitur quod dupliciter potest dici agens
+<lb ed="#L" n="145"/>agere per se sibi simile secundum formam. Uno modo,
+<lb ed="#L" n="146"/>ut perseitas sit modus causae secundum quod ad rem sibi
+<lb ed="#L" n="147"/>similem terminatur, quae scilicet eandem formam recipit
+<lb ed="#L" n="148"/>quam agens habet. Et sic verum est agens univocum agere
+<lb ed="#L" n="149"/>per se sibi simile secundum formam: hic enim homo per
+<lb ed="#L" n="150"/>se generat hunc hominem, qui est sibi similis secundum
+<pb ed="#L" n="187"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>humanitatem. — Alio modo, ut sit modus causae 
+secun<lb ed="#L" break="no" n="2"/>dum quod terminatur ad formam secundum quam 
+atten<lb ed="#L" break="no" n="3"/>ditur similitudo. Et tunc non est verum quod agens agat
+<lb ed="#L" n="4"/>per se sibi simile secundum formam: idest, quod agat
+<lb ed="#L" n="5"/>formam secundum quam attenditur similitudo, inquantum
+<lb ed="#L" n="6"/>talis forma est. Hic enim homo non primo generat 
+hu<lb ed="#L" break="no" n="7"/>manitatem, sed secundario, ut dictum est, inquantum facit
+<lb ed="#L" n="8"/>quod in hac materia introducatur speciei forma.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>3. Ad tertium dicitur quod non intelligit Sanctus Thomas
+<lb ed="#L" n="10"/>agens particulare univocum nullo modo causare esse, quia,
+<lb ed="#L" n="11"/>ut arguebatur, generatio terminatur ad esse rei, et per 
+con<lb ed="#L" break="no" n="12"/>sequens generans dat esse genito: sed quod esse rei non
+<lb ed="#L" n="13"/>est eius per se effectus, sed tantum generatio et fieri rei.
+<lb ed="#L" n="14"/>Ut enim superius  dictum est de mente ipsius in Prima
+<lb ed="#L" n="15"/>Parte, si agens non est causa formae inquantum 
+huius<lb ed="#L" break="no" n="16"/>modi, non erit per se causa esse quod ipsam consequitur.
+<lb ed="#L" n="17"/>Cum enim causa formae per se dicatur quae dat esse
+<lb ed="#L" n="18"/>formae inquantum huiusmodi, id quod non est causa 
+for<lb ed="#L" break="no" n="19"/>mae inquantum huiusmodi, non potest esse causa per se
+<lb ed="#L" n="20"/>esse ipsius formae. Secundario tamen, et quasi indirecte,
+<lb ed="#L" n="21"/>est causa eius: quia est causa receptionis formae speciei
+<lb ed="#L" n="22"/>in materia, ex qua receptione resultat esse huius individui,
+<lb ed="#L" n="23"/>et consequenter esse speciei. Unde potest dici quod 
+sin<lb ed="#L" break="no" n="24"/>gulare univocum est causa per se productionis esse formae
+<lb ed="#L" n="25"/>in hac materia, sicut hoc modo est etiam causa formae:
+<lb ed="#L" n="26"/>non autem est per se causa ipsius esse formae inquantum
+<lb ed="#L" n="27"/>huiusmodi, idest, secundum quod est in facto esse.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>IX. Quarto. Supponitur quod, licet alicui existenti
+<lb ed="#L" n="29"/>accidat motus, tamen motus est praeter esse rei. Tunc sic.
+<lb ed="#L" n="30"/>Corpus est causa eius quod est moveri ad esse, quod est
+<lb ed="#L" n="31"/>fieri rei: Deus autem est primo et per se causa omnis
+<lb ed="#L" n="32"/>esse. Ergo sic se habet operatio divina ad esse rerum, sicut
+<lb ed="#L" n="33"/>motio corporis moventis ad fieri et moveri rerum factarum
+<lb ed="#L" n="34"/>et motarum. Sed impossibile est quod fieri vel moveri 
+ali<lb ed="#L" break="no" n="35"/>cuius maneat cessante motione moventis. Ergo et quod
+<lb ed="#L" n="36"/>esse alicuius.rei maneat nisi per operationem divinam, est
+<lb ed="#L" n="37"/>impossibile. — Probatur antecedens. Quantum quidem ad
+<lb ed="#L" n="38"/>primam partem, quia, cum nullum corpus agat nisi per
+<lb ed="#L" n="39"/>motum, non est causa alicuius rei nisi inquantum movetur.
+<lb ed="#L" n="40"/>Quantum vero ad secundam partem, quia Deus est suum
+<lb ed="#L" n="41"/>esse, alia vero habent esse participatum.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>2. Circa probationem primae partis antecedentis, 
+consi<lb ed="#L" break="no" n="43"/>derandum est quod illam dupliciter possumus interpretari.
+<lb ed="#L" n="44"/>Primo, ut arguatur ex motu quo ipsum corpus agendo
+<lb ed="#L" n="45"/>movet materiam aut mobile, arguendo sic. Nullum 
+cor<lb ed="#L" break="no" n="46"/>poreum est causa alicui rei nisi inquantum ipsa res 
+mo<lb ed="#L" break="no" n="47"/>vetur: quia nullum corpus agit nisi per motum, 
+secun<lb ed="#L" break="no" n="48"/>dum quem aliquod mobile movetur. Ergo nullum corpus
+<lb ed="#L" n="49"/>est causa esse alicuius rei inquantum est esse, sed est causa
+<lb ed="#L" n="50"/>eius quod est moveri ad esse. Et tunc tenet consequentia,
+<lb ed="#L" n="51"/>per ea quae dicuntur in Qu. de Potentia Dei, loco allegato :
+<lb ed="#L" n="52"/>scilicet quod, cum corpus non agat nisi movendo, mom
+<lb ed="#L" n="53"/>potest esse causa formae nisi quantum se extendere potest
+<lb ed="#L" n="54"/>causalitas transmutationis. Hoc autem est inquantum 
+dis<lb ed="#L" break="no" n="55"/>ponit materiam et educit formam de potentia materiae.
+<lb ed="#L" n="56"/>Ideo corpus est causa formae solum quantum ad hoc quod
+<lb ed="#L" n="57"/>educitur de potentia materiae, quod est fieri rei generatae:
+<lb ed="#L" n="58"/>non autem quantum ad esse formae absolute.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Secundo eam possumus interpretari ut arguatur ex motu
+<lb ed="#L" n="60"/>quo ipsum corpus ab alio movetur, sic arguendo. Nullum
+<lb ed="#L" n="61"/>corporeum est causa alicuius rei nisi inquantum ipsum
+<lb ed="#L" n="62"/>corpus movetur: quia nullum corpus agit nisi per motum
+<lb ed="#L" n="63"/>quo ipsum movetur. Ergo corpus non est causa nisi eius
+<lb ed="#L" n="64"/>quod est moveri ad esse. Et tunc tenet ipsa consequentia
+<lb ed="#L" n="65"/>ex vi istius propositionis, quod esse effectus proportionatur
+<lb ed="#L" n="66"/>esse formae per quam agens agit, ut sic. Ex hac enim
+<lb ed="#L" n="67"/>sequitur quod, cum esse formae corporis agentis, 
+inquan<lb ed="#L" break="no" n="68"/>tum est esse, non sit principium quo agens agit, sed 
+in<lb ed="#L" break="no" n="69"/>quantum sibi adiungitur moveri, quia non agit nisi 
+in<lb ed="#L" break="no" n="70"/>quantum movetur; quod esse rei, inquantum est esse, non
+<lb ed="#L" n="71"/>sit effectus corporei agentis, sed tantum inquantum substat -
+<lb ed="#L" n="72"/>ipsi moveri. Et sic corpus non est causa esse rei absolute,
+<lb ed="#L" n="73"/>sed eius quod est moveri ad esse. Huic expositioni favere
+<lb ed="#L" n="74"/>videtur propositio supposita , scilicet quod, licet alicui
+<lb ed="#L" n="75"/>existenti accidat motus, tamen motus est praeter esse rei,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Ex hac enim habetur quod, licet corpus agat per motum
+<lb ed="#L" n="77"/>quo movetur, non oportet tamen quod agat per ipsum
+<lb ed="#L" n="78"/>esse inquantum est esse, quia motus est praeter esse rei. —
+<lb ed="#L" n="79"/>Utraque expositio adaptari potest litterae.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>X. Quinto. Artificialia conservantur in esse virtute 
+na<lb ed="#L" break="no" n="81"/>turalium: sicut domus per soliditatem lapidum. Ergo 
+na<lb ed="#L" break="no" n="82"/>turalia non conservantur nisi virtute Dei. — Probatur 
+con<lb ed="#L" break="no" n="83"/>sequentia. Quia sicut opus artis praesupponit opus naturae,
+<lb ed="#L" n="84"/>ita opus naturae praesupponit opus Dei creantis: materia
+<lb ed="#L" n="85"/>enim artificialium est a natura, et materia naturalium est
+<lb ed="#L" n="86"/>a Deo per creationem.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Advertendum circa istam rationem, quod sicut in 
+na<lb ed="#L" break="no" n="88"/>turalibus agens univocum est causa rei quantum ad fieri
+<lb ed="#L" n="89"/>tantum, ita et in artificialibus. Nam, cum forma. domus,
+<lb ed="#L" n="90"/>quae est compositio et ordo, consequatur virtutem 
+natu<lb ed="#L" break="no" n="91"/>ralem quarundam rerum, aedificator non facit domum
+<lb ed="#L" n="92"/>nisi adhibendo illa, et applicando ipsa sibi invicem, scilicet
+<lb ed="#L" n="93"/>caementum, .lapides et ligna, quae sunt susceptiva et 
+con<lb ed="#L" break="no" n="94"/>servativa talis compositionis et ordinis: sicut coquus coquit
+<lb ed="#L" n="95"/>cibum adhibendo virtutem naturalem activam ignis. Unde
+<lb ed="#L" n="96"/>artifex non est directe et per se causa formae rei 
+artifi<lb ed="#L" break="no" n="97"/>ciatae inquantum huiusmodi, sed est causa introductionis
+<lb ed="#L" n="98"/>ipsius in hac materia, adhibendo virtutes naturales. Ideo
+<lb ed="#L" n="99"/>non conservantur in esse artificialia per artificem, cum
+<lb ed="#L" n="100"/>ab ipso non dependeat per se et directe forma: sed per
+<lb ed="#L" n="101"/>virtutem rerum naturalium, ad quam ipsa forma 
+conse<lb ed="#L" break="no" n="102"/>quitur. Propter hoc dictum est in hac ratione quod 
+arti<lb ed="#L" break="no" n="103"/>ficialia conservantur in esse virtute naturalium.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>XI. Sexto. Esse non est natura vel essentia alicuius rei
+<lb ed="#L" n="105"/>creatae, sed solius Dei. Ergo nulla res potest remanere in
+<lb ed="#L" n="106"/>esse cessante operatione divina.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>Probatur consequentia. Quia impressio agentis non 
+re<lb ed="#L" break="no" n="108"/>manet in effectu, cessante actione agentis, nisi vertatur in
+<lb ed="#L" n="109"/>naturam. — Declaratur ex formis et proprietatibus rerum
+<lb ed="#L" n="110"/>naturalium generatarum, Et'ex habitibus. Et ex hoc quod
+<lb ed="#L" n="111"/>id quod pertinet ad naturam superioris generis (scilicet
+<lb ed="#L" n="112"/>formaliter, et non tantum virtualiter in ipso existens), non
+<lb ed="#L" n="113"/>manet post actionem agentis: sicut patet de lumine.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>2. Circa istam. deductionem Sancti Thomae statim 
+oc<lb ed="#L" break="no" n="115"/>currit dubium. Nam licet esse non sit natura vel essentia
+<lb ed="#L" n="116"/>alicuius rei creatae, consequitur tamen formam, quae est de
+<lb ed="#L" n="117"/>essentia rei creatae. Et hoc videtur suffucere ad hoc quod
+<lb ed="#L" n="118"/>possit manere cessante operatione divina. Illa enim 
+propo<lb ed="#L" break="no" n="119"/>sitio, Zmpressio agentis non remanet in effectu, cessante
+<lb ed="#L" n="120"/>actione agentis, nisi vertatur in naturam, intelligitur de eo
+<lb ed="#L" n="121"/>quod vertitur in naturam non solum tanquam existens de
+<lb ed="#L" n="122"/>essentia rei, sed etiam tanquam consequens essentiam. Quod
+<lb ed="#L" n="123"/>patet quia datum est exemplum de proprietatibus rerum 
+ge<lb ed="#L" break="no" n="124"/>neratarum, et de habitibus. Unde consequentia nulla esse 
+vi<lb ed="#L" break="no" n="125"/>detur; et male per illam propositionem assumptam probata.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Respondetur quod rationis deductio. bona est si bene
+<lb ed="#L" n="127"/>intelligatur. Supponit enim Sanctus Thomas tanquam 
+ma<lb ed="#L" break="no" n="128"/>nifestum quod esse a natura rei creatae non potest effluere
+<lb ed="#L" n="129"/>tanquam a causa efficiente: cum nulla res seipsam in esse
+<lb ed="#L" n="130"/>producat. Unde, si assumitur quod nec etiam est essentia
+<lb ed="#L" n="131"/>aut natura rei, habetur quod nullo modo in naturam 
+ver<lb ed="#L" break="no" n="132"/>titur, eo modo quo accipitur hoc loco verti in naturam.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>Illa enim propositio, Impressio agentis non remanet, 
+ces<lb ed="#L" break="no" n="134"/>sante actione agentis, nisi vertatur in naturam, intelligitur
+</p>
+            <p>
+               <lb ed="#L" n="135"/>sic: nisi scilicet aut fiat de essentia rei, aut ab essentia
+<lb ed="#L" n="136"/>rei tanquam ab efficiente. originetur. Ideo dat exemplum
+<lb ed="#L" n="137"/>Sanctus Thomas et de forma rei generatae, quae est de
+<lb ed="#L" n="138"/>ipsius essentia; et de proprietatibus, quae efficienter ab
+<lb ed="#L" n="139"/>essentia originantur. Exemplificatur etiam de habitibus, qui
+<lb ed="#L" n="140"/>sunt difficile mobiles: quia etiam ex actibus frequentatis
+<lb ed="#L" n="141"/>illa qualitas quae est habitus, est facta naturae conveniens,
+<lb ed="#L" n="142"/>et quasi eius proprietas.ab ipsa resultans, ex quo habet
+<lb ed="#L" n="143"/>ut cum difficultate amittatur.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>XII. Septimo. Si res fuerunt a Deo de novo productae
+<lb ed="#L" n="145"/>in esse, ut fides ponit: ergo esse rerum divinam 
+volunta<lb ed="#L" break="no" n="146"/>tem consequitur, et similiter non esse; quia permisit res
+<lb ed="#L" n="147"/>non esse quando voluit, et fecit eas esse quando voluit.
+<lb ed="#L" n="148"/>Ergo tandiu sunt quandiu Deus eas esse vult. Ergo sua
+<lb ed="#L" n="149"/>voluntas est conservatrix rerum. — Si autem ab aeterno
+<lb ed="#L" n="150"/>fluxerunt a Deo, ut aliqui philosophi voluerunt: non est
+<pb ed="#L" n="188"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dare tempus aut instans in quo primo a Deo effluxerunt. 
+<lb ed="#L" n="2"/>Ergo aut nunquam sunt productae, quod est falsum: aut 
+<lb ed="#L" n="3"/>semper a Deo esse eorum procedit quandiu sunt. Ergo etc. 
+</p>
+            <p>
+               <lb ed="#L" n="4"/>2. Circa primam partem huius rationis, advertendum 
+<lb ed="#L" n="5"/>quod supponit voluntatem Dei esse causam voliti. Ex hoc  
+<lb ed="#L" n="6"/>autem sequitur quod, quia vult rem tandiu esse, ipsa est  
+<lb ed="#L" n="7"/>causa durationis rei continuando eius esse. 
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Circa secundam vero partem dubitatur. Posset enim ad 
+<lb ed="#L" n="9"/>ipsam responderi quod consequentia non tenet. Stat enim  
+<lb ed="#L" n="10"/>quod sint res a Deo productae; et quod non sit dare 
+tem<lb ed="#L" break="no" n="11"/>pus aliquod aut instans in quo primo effluxerunt a Deo;  
+<lb ed="#L" n="12"/>et tamen non semper esse rerum a Deo procedat. Dicetur 
+<lb ed="#L" n="13"/>enim quod productae sunt quidem in instanti: in nullo 
+<lb ed="#L" n="14"/>tamen instanti determinato sunt productae, ut possit 
+as<lb ed="#L" break="no" n="15"/>signari unum instans in quo sit verum dicere, /n hoc 
+in<lb ed="#L" break="no" n="16"/>stanti sunt productae. 
+</p>
+            <p>
+               <lb ed="#L" n="17"/>Sed ista responsio nulla est. Quia si in uno instanti . 
+<lb ed="#L" n="18"/>dumtaxat res sunt productae, et non in pluribus aut in 
+<lb ed="#L" n="19"/>omnibus producitur, illud oportet instans determinatum 
+<lb ed="#L" n="20"/>esse, et posse demonstrari secundum intellectum: quia  
+<lb ed="#L" n="21"/>unumquodque instans est determinatum et distinctum a  
+<lb ed="#L" n="22"/>quolibet alio instanti. Et tunc erit verum dicere quod in  
+<lb ed="#L" n="23"/>illo instanti res primo productae sunt. Quod repugnat ei  
+<lb ed="#L" n="24"/>quod est esse ab aeterno productum. Sequitur ergo bene, 
+<lb ed="#L" n="25"/>ut deducebat Sanctus Thomas: — Res sunt a Deo productae. 
+<lb ed="#L" n="26"/>Et non est aliquod instans in quo primo productae sunt, 
+<lb ed="#L" n="27"/>neque aliquod tempus. Ergo semper et in quolibet instanti  
+<lb ed="#L" n="28"/>producuntur: non quidem per incoeptionem essendi, sed 
+<lb ed="#L" n="29"/>per manutenentiam esse accepti. 
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="30"/>XIII. Confirmatur conclusio auctoritate Apostoli, Heb.
+<lb ed="#L" n="31"/>I; et Augustini, IV super Gen. ad litt.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Per hoc excluditur error quorundam Loquentium in
+<lb ed="#L" n="33"/>lege Maurorum, ponentium omnes formas esse accidentia ;
+<lb ed="#L" n="34"/>et rerum formationem esse semper in fieri; et sic non 
+indi<lb ed="#L" break="no" n="35"/>gere res conservante post earum factionem. — Quorum 
+qui<lb ed="#L" break="no" n="36"/>dam dicuntur ponere corpora indivisibilia, ex quibus 
+sub<lb ed="#L" break="no" n="37"/>stantiae secundum ipsos componuntur, posse ad horam,
+<lb ed="#L" n="38"/>cessante Dei gubernatione, remanere. - Quidam vero dicunt
+<lb ed="#L" n="39"/>quod res non desineret esse nisi Deus in ipsa accidens 
+de<lb ed="#L" break="no" n="40"/>cisionis, idest deficientiae et defectionis, causaret.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>XIV. Circa conclusionem principalem dubium occurrit.
+<lb ed="#L" n="42"/>Nam sunt aliqua quae nullam habent intrinsecam potentiam
+<lb ed="#L" n="43"/>ad deficiendum, sicut intelligentiae et corpora caelestia.
+<lb ed="#L" n="44"/>Ergo, remota omni actione post eorum productionem,
+<lb ed="#L" n="45"/>non deficient. Ergo non indigent conservatione.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Item, sequeretur quod agens naturale corrumpens 
+vin<lb ed="#L" break="no" n="47"/>ceret actionem Dei conservantis.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>2. Ad primum horum dicitur quod, licet illa non habeant
+<lb ed="#L" n="49"/>potentiam intrinsecam ad non esse, scilicet materiam 
+pri<lb ed="#L" break="no" n="50"/>vationi subiectam, suum tamen esse praesupponit influxum
+<lb ed="#L" n="51"/>divinae virtutis. Et ideo extrinsece possunt non esse, 
+sci<lb ed="#L" break="no" n="52"/>licet per subtractionem divini influxus. Propterea indigent
+<lb ed="#L" n="53"/>Deo conservante ipsa in esse, sicut indiguerunt ipso 
+pro<lb ed="#L" break="no" n="54"/>ducente. Unde prima consequentia est falsa.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Ad secundum, negatur sequela. Quia sicut Deus 
+con<lb ed="#L" break="no" n="56"/>servat rem quandiu vult, ita coagit corrumpenti quando
+<lb ed="#L" n="57"/>non vult eam amplius conservare, et suum subtrahit 
+in<lb ed="#L" break="no" n="58"/>fluxum ab eo quod corrumpitur et desinit esse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

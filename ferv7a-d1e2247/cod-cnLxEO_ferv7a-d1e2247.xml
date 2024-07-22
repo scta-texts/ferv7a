@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 66</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 66</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="190"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2247"><!-- ferv7a-l3c66 -->
+            <head>Capitulum 66</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="23" type="fixed=189"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="24"/>OSTENSO quod Deus res omnes in esse conservat, vult
+<lb ed="#L" n="25"/>Sanctus Thomas ostendere quod inferiora agentia
+<lb ed="#L" n="26"/>non dant esse nisi inquantum agunt in virtute divina .
+<lb ed="#L" n="27"/>I. Et arguit primo sic. Nihil dat esse nisi inquantum
+<lb ed="#L" n="28"/>est ens actu. Sed res conservatur in esse actu per 
+pro<lb ed="#L" break="no" n="29"/>videntiam divinam. Ergo quod aliquid det esse, habet ex
+<lb ed="#L" n="30"/>virtute divina.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Secundo. Esse est communis effectus omnium agentium.
+<lb ed="#L" n="32"/>Ergo omnia hunc effectum producunt inquantum 
+ordi<lb ed="#L" break="no" n="33"/>nantur sub primo agente, qui est Deus, et agunt in virtute
+<lb ed="#L" n="34"/>ipsius. — Probatur antecedens. Quia omne agens facit esse
+<lb ed="#L" n="35"/>actu: intellige, directe aut indirecte, primo aut 
+secun<lb ed="#L" break="no" n="36"/>dario . — Consequentia vero probatur. Quia, cum plura
+<lb ed="#L" n="37"/>non faciant unum misi inquantum sunt unum, quando
+<lb ed="#L" n="38"/>diversa agentia sub uno agente ordinantur, necesse est
+<lb ed="#L" n="39"/>quod effectus qui ab eis communiter fit, sit eorum 
+se<lb ed="#L" break="no" n="40"/>cundum quod uniuntur in participando motum vel 
+virtu<lb ed="#L" break="no" n="41"/>tem illius agentis. Declaratur ex eo quod in exercitu videtur.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Tertio. In omni actione esse in actu est principaliter
+<lb ed="#L" n="43"/>intentum, et ultimum in generatione: cum, eo habito,
+<lb ed="#L" n="44"/>cesset actio agentis et motus patientis. Ergo esse est 
+pro<lb ed="#L" break="no" n="45"/>prius effectus primi agentis, scilicet Dei, et omnia alia illud
+<lb ed="#L" n="46"/>agunt in virtute ipsius. — Probatur consequentia. Quia in
+<lb ed="#L" n="47"/>omnibus agentibus ordinatis quod est ultimum in 
+gene<lb ed="#L" break="no" n="48"/>ratione et primum in intentione, est proprius effectus
+<lb ed="#L" n="49"/>primi agentis. Declaratur in domificatione.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>II. Quarto. Quod est in omnibus agentibus  
+perfectis<lb ed="#L" break="no" n="51"/>simum, est esse. Ergo etc. — Probatur antecedens. Quia
+<lb ed="#L" n="52"/>quaelibet natura vel forma perficitur per hoc quod est
+<lb ed="#L" n="53"/>esse actu, et ad ipsum comparatur sicut potentia ad actum.
+<lb ed="#L" n="54"/>— Consequentia vero probatur. Quia ultimum in bonitate
+<lb ed="#L" n="55"/>et perfectione inter ea in quae potest agens secundum,
+<lb ed="#L" n="56"/>est ilud in quod potest ex virtute primi agentis: cum
+<lb ed="#L" n="57"/>complementum suae virtutis sit ex virtute agentis primi.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Circa assumptum ad probationem antecedentis, 
+consi<lb ed="#L" break="no" n="59"/>derandum est quod, ut in Primo Libro  est ostensum,
+<lb ed="#L" n="60"/>esse est actualitas ultima, quae nullo alio actu potest
+<lb ed="#L" n="61"/>actuari, sed, si limitatur, hoc est non per aliquem actum,
+<lb ed="#L" n="62"/>sed per susceptivum tantum et potentiale. Ideo, 
+quantum<lb ed="#L" break="no" n="63"/>cumque forma sit actus quidam, comparata tamen ad
+<lb ed="#L" n="64"/>ipsum esse, habet rationem potentialis: nam, licet sit causa
+<lb ed="#L" n="65"/>formalis essendi, quia tamen non constituitur in rerum
+<lb ed="#L" n="66"/>natura nisi per ipsum esse tanquam per ultimam 
+actua<lb ed="#L" break="no" n="67"/>litatem, necesse est quod ad ipsum habeat comparationem
+<lb ed="#L" n="68"/>potentiae ad actum.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>IIL Quinto. Primum in omnibus. effectibus est esse:
+<lb ed="#L" n="70"/>cum omnia alia sint determinationes ipsius, — intellige,
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="71"/>per modum potentialis et susceptivi, non autem per modum
+<lb ed="#L" n="72"/>actus. Ergo est proprius effectus primi agentis: et secunda
+<lb ed="#L" n="73"/>agentia, quae sunt quasi particulantia et determinantia
+<lb ed="#L" n="74"/>actionem primi agentis, agunt sicut proprios effectus alias
+<lb ed="#L" n="75"/>perfectiones, quae determinant esse. Ergo etc. - Probatur
+<lb ed="#L" n="76"/>prima consequentia. Quia secundum ordinem causarum
+<lb ed="#L" n="77"/>est ordo effectuum.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>2. Circa istam propositionem, Secunda agentia 
+deter<lb ed="#L" break="no" n="79"/>minant actionem primi agentis, advertendum quod hoc
+<lb ed="#L" n="80"/>non est sic intelligendum quasi secundaria agentia aliquid
+<lb ed="#L" n="81"/>erga divinam actionem ut in se est operentur, cum sua
+<lb ed="#L" n="82"/>actio sit sua substantia: sed intelligitur, ut ex 
+superio<lb ed="#L" break="no" n="83"/>ribus  constat, secundum quod ipsa mediantibus causis
+<lb ed="#L" n="84"/>secundis ad effectum aliquem terminatur. Sic enim virtus
+<lb ed="#L" n="85"/>divina et actio, secundum quod in secunda causa 
+reci<lb ed="#L" break="no" n="86"/>pitur, accipit limitationem. et determinationem ex 
+condi<lb ed="#L" break="no" n="87"/>tione causae secundae, tanquam ex susceptivi conditione:
+<lb ed="#L" n="88"/>quia unumquodque recipitur in alio per modum 
+reci<lb ed="#L" break="no" n="89"/>pientis.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>3. Sed occurrit dubium. Videtur enim contradictio in
+<lb ed="#L" n="91"/>verbis Sancti Thomae. Nam in tertia ratione assumit quod
+<lb ed="#L" n="92"/>esse in actu est principaliter intentum et ultimum in 
+ge<lb ed="#L" break="no" n="93"/>neratione : in hac autem ratione assumit quod primum
+<lb ed="#L" n="94"/>in omnibus effectibus est esse. Et videtur intelligere de
+<lb ed="#L" n="95"/>primo in generatione: quia addit quod omnia alia sunt
+<lb ed="#L" n="96"/>determinationes ipsius; et etiam quia, si intelligeret de
+<lb ed="#L" n="97"/>primitate perfectionis, haec ratio non differret a 
+praece<lb ed="#L" break="no" n="98"/>denti, in qua assumit quod esse est perfectissimum. -
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Respondetur, ut dictum est superius in Secundo Libro,
+<lb ed="#L" n="100"/>cap. xxr, quod esse absolute sumptum, ut comparatur
+<lb ed="#L" n="101"/>ad hoc vel ad illud esse, est primum in generatione, sicut
+<lb ed="#L" n="102"/>indeterminatum determinato: ut autem comparatur ad 
+ter<lb ed="#L" break="no" n="103"/>minum cuiuscumque productionis ut actus ad potentiam,
+<lb ed="#L" n="104"/>sic est ultimum, tanquam complementum omnis 
+per<lb ed="#L" break="no" n="105"/>fectionis.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>IV. Sexto. Deus solus est ens per essentiam: cum ipse
+<lb ed="#L" n="107"/>solus sit suum esse. Ergo esse cuiuslibet existentis est
+<lb ed="#L" n="108"/>proprius Dei effectus, Ergo etc. — Probatur prima 
+con<lb ed="#L" break="no" n="109"/>sequentia. Quia quod est per essentiam tale, est propria
+<lb ed="#L" n="110"/>causa eius quod est per participationem tale.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Adverte quod multae supradictarum rationum ex eodem
+<lb ed="#L" n="112"/>fundamento procedunt, ex eo scilicet quod esse est 
+pro<lb ed="#L" break="no" n="113"/>prius effectus Dei: sed tamen, quia illud fundamentum
+<lb ed="#L" n="114"/>pluribus et diversis ostenditur mediis, plures Sanctus 
+Tho<lb ed="#L" break="no" n="115"/>mas constituit rationes.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>CONFIRMATUR conclusio auctoritate Sapientiae 1; et 
+aucto<lb ed="#L" break="no" n="117"/>ritate Libri de Causis, prop. 22.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

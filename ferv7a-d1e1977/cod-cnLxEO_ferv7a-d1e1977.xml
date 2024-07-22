@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 33</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 33</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="90"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1977"><!-- ferv7a-l3c33 -->
+            <head xml:id="ferv7a-d1e1977-Hd1e101">Capitulum 33</head>
+            <p xml:id="ferv7a-d1e1977-d1e103">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="41" type="fixed=89"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1977-d1e110">
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="42"/>POSTQUAM ostendit Sanctus Thomas quod felicitas non
+<lb ed="#L" n="43"/>consistit in bonis fortunae neque in bonis corporis, vult
+<lb ed="#L" n="44"/>nunc ostendere quod in nulla animae operatione consistit  .
+</p>
+            <p xml:id="ferv7a-d1e1977-d1e121">
+               <lb ed="#L" n="45"/>I. Et primo, ostendit quod summum hominis bonum non
+<lb ed="#L" n="46"/>est in bonis sensitivae partis.
+</p>
+            <p xml:id="ferv7a-d1e1977-d1e128">
+               <lb ed="#L" n="47"/>Probat autem hoc, tum quia haec sunt homini et brutis
+<lb ed="#L" n="48"/>communia.
+</p>
+            <p xml:id="ferv7a-d1e1977-d1e136">
+               <lb ed="#L" n="49"/>Tum quia bonum intellectus est melius bono sensus:
+<lb ed="#L" n="50"/>sicut intellectus est melior sensu.
+</p>
+            <p xml:id="ferv7a-d1e1977-d1e143">
+               <lb ed="#L" n="51"/>Tum quia oporteret esse summum bonum in cibis et
+<lb ed="#L" n="52"/>venereis: cum maximae delectationes secundum sensum
+<lb ed="#L" n="53"/>in illis sint.
+</p>
+            <p xml:id="ferv7a-d1e1977-d1e152">
+               <cb ed="#L" n="h"/>
+               <lb ed="#L" n="54"/>Tum quia sensus diliguntur propter utilitatem, et propter :
+<lb ed="#L" n="55"/>cognitionem. Utilitas autem ista ad corporis bona refertur;
+<lb ed="#L" n="56"/>et cognitio sensitiva ad intellectivam ordinatur.
+</p>
+            <p xml:id="ferv7a-d1e1977-d1e163">
+               <lb ed="#L" n="57"/>II. Advertendum, secundum doctrinam Sancti Thomae
+<lb ed="#L" n="58"/>IaIIae, q. III, a. 3, quod licet in operatione sensuum non
+<lb ed="#L" n="59"/>consistat essentialiter beatitudo, ipsa tamen aliquo modo ad
+<lb ed="#L" n="60"/>hominis beatitudinem pertinet. Ad imperfectam enim 
+bea<lb ed="#L" break="no" n="61"/>titudinem, qualis in hac vita haberi potest, antecedenter .
+<lb ed="#L" n="62"/>concurrit, inquantum operatio intellectus operationem
+<lb ed="#L" n="63"/>sensus praeexigit. Ad perfectam autem beatitudinem, qualis
+<lb ed="#L" n="64"/>habetur in patria, concomitanter se habet: quia secundum
+<lb ed="#L" n="65"/>Augustinum, in Epistola ad Dioscorum, post 
+resurrectio<lb ed="#L" break="no" n="66"/>nem, ex animae beatitudine fiet quaedam redundantia ad
+<lb ed="#L" n="67"/>corpus et ad sensus corporeos, ut, in suis operationibus
+<lb ed="#L" n="68"/>perficiantur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

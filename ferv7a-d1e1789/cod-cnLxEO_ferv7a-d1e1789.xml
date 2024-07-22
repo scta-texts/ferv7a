@@ -1,0 +1,767 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 10</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 10</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="27"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1789"><!-- ferv7a-l3c10 -->
+            <head xml:id="ferv7a-d1e1789-Hd1e101">Capitulum 10</head>
+            <p xml:id="ferv7a-d1e1789-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="51" type="fixed=27"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e110">
+               <lb ed="#L" n="52"/>POSTQUAM determinavit Sanctus Thomas de malo 
+quan<lb ed="#L" break="no" n="53"/>E tum ad eius naturam, nunc determinat de ipso 
+quan<lb ed="#L" break="no" n="54"/>tum ad causalitatem . Circa hoc autem duo facit: primo,
+<lb ed="#L" n="55"/>determinat de causa ipsius mali; secundo, ostendit 
+quo<lb ed="#L" break="no" n="56"/>modo ipsum sit aliorum causa, cap. xtv. — Circa primum
+<lb ed="#L" n="57"/>duo facit: primo, ostendit quod malum non causatur nisi
+<lb ed="#L" n="58"/>a bono; secundo, quod omne malum aliquo modo habet
+<lb ed="#L" n="59"/>causam, cap. xir. — Circa primum duo facit: primo, ostendit
+<lb ed="#L" n="60"/>absolute quod non causatur nisi a bono; secundo, 
+par<lb ed="#L" break="no" n="61"/>ticulariter quod bonum sit eius causa subiectiva, capite
+<lb ed="#L" n="62"/>ges
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e136">
+               <lb ed="#L" n="63"/>I. Circa primum duo facit: primo, ostendit bonum esse
+<lb ed="#L" n="64"/>causam mali; secundo, quomodo: sit causa .
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e143">
+               <lb ed="#L" n="65"/>Quantum ad primum, ostendit quod Bonum est causa
+<lb ed="#L" n="66"/>mali.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e151">
+               <lb ed="#L" n="67"/>Et arguit primo sic. Si malum sit causa alicuius mali,
+<lb ed="#L" n="68"/>non agit nisi virtute boni, ut probatum est. Ergo bonum
+<lb ed="#L" n="69"/>est primaria causa mali.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e160">
+               <lb ed="#L" n="70"/>Attendendum quod ex hac ratione patet non excludere
+<lb ed="#L" n="71"/>Sanctus Thomas omnimodam  causalitaitem a malo, sed
+<lb ed="#L" n="72"/>principalitatem causalitatis. Quod etiam ex tertia ratione
+<lb ed="#L" n="73"/>manifestatur.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e171">
+               <lb ed="#L" n="74"/>Secundo. Malum non est ens aliquod. Ergo non potest
+<lb ed="#L" n="75"/>esse causa alicuius: quia ommis causa est aliquid. Ergo,
+<lb ed="#L" n="76"/>si malum ab aliquo causatur, oportet quod illud sit bonum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e180">
+               <lb ed="#L" n="77"/>Adverte, cum dicitur malum nullius esse causam, quod
+<lb ed="#L" n="78"/>intelligitur de malo formaliter et abstracte sumpto: non
+<lb ed="#L" n="79"/>autem de malo per accidens et concretive dicto
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e189">
+               <lb ed="#L" n="80"/>Tertio. Malum non potest esse causa per se alicuius.
+<lb ed="#L" n="81"/>Quia, cum omnis proprie et per se causa tendat in 
+pro<lb ed="#L" break="no" n="82"/>prium effectum, malum tenderet in malum. Ostensum est
+<lb ed="#L" n="83"/>autem supra omne agens intendere bonum. Ergo erit causa
+<cb ed="#L" n="d"/>
+               <lb ed="#L" n="84"/>solum per accidens. Ergo oportet malum causari a bono:
+<lb ed="#L" n="85"/>quia causa per accidens reducitur ad causam per se; 
+so<lb ed="#L" break="no" n="86"/>lum autem bonum potest esse causa per se.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e209">
+               <lb ed="#L" n="87"/>2. Circa istam propositionem, Causa per accidens 
+re<lb ed="#L" break="no" n="88"/>ducitur ad causam per se, advertendum quod eodem modo
+<lb ed="#L" n="89"/>proportionaliter est intelligenda quo intelligitur effectum
+<lb ed="#L" n="90"/>per accidens reduci ad effectum per se. In effectu autem
+<lb ed="#L" n="91"/>non sic intelligitur quasi omnem effectum per accidens
+<lb ed="#L" n="92"/>alicuius oporteat esse effectum per se alterius causae, hoc
+<lb ed="#L" n="93"/>enim non est universaliter verum: sed quia aut ipse alterius
+<lb ed="#L" n="94"/>causae est effectus per se, aut oportet esse aliquem 
+effe<lb ed="#L" break="no" n="95"/>ctum per se illius causae cuius ipse dicitur effectus per 
+ac<lb ed="#L" break="no" n="96"/>cidens, cui coniungatur. Sic ergo non sic intelligitur omnem
+<lb ed="#L" n="97"/>causam per accidens reduci ad causam per se, quasi praeter
+<lb ed="#L" n="98"/>causam per accidens alicuius effectus oporteat dari aliam
+<lb ed="#L" n="99"/>causam quae illius effectus sit causa per se; aut quod
+<lb ed="#L" n="100"/>omnem causam per accidens alicuius effectus oporteat esse
+<lb ed="#L" n="101"/>causam per se alterius effectus: sed quia oportet aut ipsam
+<lb ed="#L" n="102"/>causam per accidens unius esse causam per se alterius,
+<lb ed="#L" n="103"/>sicut accidit in causa quae dicitur causa alicuius per 
+ac<lb ed="#L" break="no" n="104"/>cidens quia illud coniungitur suo per se effectui, et est
+<lb ed="#L" n="105"/>praeter intentionem causae; aut quia oportet causam per
+<lb ed="#L" n="106"/>accidens coniungi alicui quod sit alicuius causa per se,
+<lb ed="#L" n="107"/>sicut accidit ubi dicitur aliquid causare aliud per accidens
+<lb ed="#L" n="108"/>ex parte ipsius causae, quia videlicet coniungitur causae
+<lb ed="#L" n="109"/>per se, sicut dicimus musicum aedificare per accidens,
+<lb ed="#L" n="110"/>quando contingit eundem esse musicum et domificatorem.
+<lb ed="#L" n="111"/>Malum autem dicitur causa per accidens mali, non ex parte
+<lb ed="#L" n="112"/>effectus, quia videlicet illud suo effectui per se coniungatur,
+<lb ed="#L" n="113"/>cum malum, ut sic, nullum per se effectum habeat: -
+<lb ed="#L" n="114"/>ideo non oportet ut causalitas sua per accidens reducatur
+<lb ed="#L" n="115"/>ad causalitatem per se ita quod ipsum sit alicuius alterius
+<pb ed="#L" n="28"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>causa per se — sed tantum quia oportet ut alicui 
+coniun<lb ed="#L" break="no" n="2"/>gatur quod alicuius effectus sit causa per se, quod est
+<lb ed="#L" n="3"/>solum bonum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e286">
+               <lb ed="#L" n="4"/>3. Quarto. Malum non potest esse neque materia, neque
+<lb ed="#L" n="5"/>forma, neque agens, neque finis: cum ostensum sit supra
+<lb ed="#L" n="6"/>tam ens actu, quam ens in potentia, esse bonum; et 
+unum<lb ed="#L" break="no" n="7"/>quodque agat secundum quod est actu et habet formam;
+<lb ed="#L" n="8"/>et malum sit praeter intentionem. Ergo non potest esse
+<lb ed="#L" n="9"/>causa alicuius. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e302">
+               <lb ed="#L" n="10"/>II. Quantum ad secundum , ostendit Sanctus Thomas
+<lb ed="#L" n="11"/>Bonum non esse causam mali nisi per accidens. Et primo,
+<lb ed="#L" n="12"/>ostendit quomodo hoc sit in naturalibus; secundo, 
+quo<lb ed="#L" break="no" n="13"/>modo in voluntariis sit .
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e313">
+               <lb ed="#L" n="14"/>Quod non sit causa mali nisi per accidens, probat,
+<lb ed="#L" n="15"/>quia unum oppositorum non est causa alterius nisi per
+<lb ed="#L" n="16"/>accidens, ut dicitur VIII PAys., text. 8; bonum autem et
+<lb ed="#L" n="17"/>malum sunt opposita.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e324">
+               <lb ed="#L" n="18"/>Advertendum quod malum et bonum possunt 
+dupli<lb ed="#L" break="no" n="19"/>citer accipi: uno modo, secundum generales rationes boni
+<lb ed="#L" n="20"/>et mali; alio modo, secundum particulares rationes, sicut
+<lb ed="#L" n="21"/>est ignis et privatio ignis. Si primo modo accipiantur, sic
+<lb ed="#L" n="22"/>bonum est causa mali sibi oppositi per accidens. Et ad
+<lb ed="#L" n="23"/>hunc sensum loquitur hic Sanctus Thomas. — Si vero 
+se<lb ed="#L" break="no" n="24"/>cundo modo accipiantur, sic bonum non est causa per
+<lb ed="#L" n="25"/>accidens mali sibi oppositi, sed alterius mali: sicut 
+bo<lb ed="#L" break="no" n="26"/>nitas ignis non est causa mali ignis, sed causa mali aquae,
+<lb ed="#L" n="27"/>et hoc etiam per accidens, ut dicitur Prima, q. xrix,
+<lb ed="#L" n="28"/>a. 1, ad 2.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e350">
+               <lb ed="#L" n="29"/>2. Quomodo autem bonum sit causa mali per accidens
+<lb ed="#L" n="30"/>in naturalibus, declarat praemittendo unam distinctionem.
+<lb ed="#L" n="31"/>Hoc enim potest in naturalibus accipi et ex parte agentis;
+<lb ed="#L" n="32"/>et ex parte effectus.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e361">
+               <lb ed="#L" n="33"/>Ex parte quidem agentis, sicut quando agens patitur
+<lb ed="#L" n="34"/>defectum virtutis, ex quo sequitur quod actio sit 
+defe<lb ed="#L" break="no" n="35"/>ctiva et effectus deficiens: ut patet in virtute debili membri
+<lb ed="#L" n="36"/>digerentis, Et quia agens et virtute agit et instrumento,
+<lb ed="#L" n="37"/>idem iudicium est si etiam defectus actionis et effectus
+<lb ed="#L" n="38"/>ex defectu instrumenti proveniat, sicut accidit in 
+claudi<lb ed="#L" break="no" n="39"/>catione. Hoc ergo modo causatur per accidens malum ex
+<lb ed="#L" n="40"/>parte agentis, inquantum agens est deficientis virtutis: quia
+<lb ed="#L" n="41"/>agenti, inquantum agens est, accidit quod defectum 
+vir<lb ed="#L" break="no" n="42"/>tutis patiatur. Et ex hoc verificatur quod dicitur, malum
+<lb ed="#L" n="43"/>non habere causam efficientem, sed deficientem : quia 
+ma<lb ed="#L" break="no" n="44"/>lum non sequitur ex agente nisi inquantum est deficientis
+<lb ed="#L" n="45"/>virtutis, et secundum hoc non est efficiens.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e393">
+               <lb ed="#L" n="46"/>Ex parte vero effectus, causatur per accidens malum
+<lb ed="#L" n="47"/>et ex parte materiae effectus; et ex parte formae, Ex parte
+<lb ed="#L" n="48"/>materiae, quando materia non est disposita ad 
+recipien<lb ed="#L" break="no" n="49"/>dam impressionem agentis: ut aliquando in partubus 
+mon<lb ed="#L" break="no" n="50"/>struosis accidit. Hoc non imputatur in defectum agentis,
+<lb ed="#L" n="51"/>si materiam indispositam non transmutat ad actum 
+per<lb ed="#L" break="no" n="52"/>fectum: quia unicuique agenti naturali est virtus 
+deter<lb ed="#L" break="no" n="53"/>minata secundum modum suae naturae, ad agendum 
+sci<lb ed="#L" break="no" n="54"/>licet in materiam debite dispositam. — Ex parte vero 
+for<lb ed="#L" break="no" n="55"/>mae effectus, accidit malum inquantum formae alicui de
+<lb ed="#L" n="56"/>necessitate coniungitur privatio alterius formae, et sic 
+ge<lb ed="#L" break="no" n="57"/>nerationi unius coniungitur alterius corruptio. Hoc 
+au<lb ed="#L" break="no" n="58"/>tem malum non est malum effectus intenti ab agente, sed
+<lb ed="#L" n="59"/>alterius.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e426">
+               <lb ed="#L" n="60"/>III. Circa primum modum per accidens, qui scilicet
+<lb ed="#L" n="61"/>se tenet ex parte agentis, cum dicitur verificari per illum
+<lb ed="#L" n="62"/>modum quod malum habet causam deficientem, non 
+au<lb ed="#L" break="no" n="63"/>tem efficientem, considerandum quod malum non habere
+<lb ed="#L" n="64"/>causam efficientem, sed deficientem, dupliciter potest 
+in<lb ed="#L" break="no" n="65"/>teliigi. Uno modo, quod procedit a causa nullo modo
+<lb ed="#L" n="66"/>agente, sed secundum quod ab actione cessat: eo modo
+<lb ed="#L" n="67"/>quo dicitur submersio navis a nauta absente et non agente
+<lb ed="#L" n="68"/>ad navis conservationem provenire. Et hic sensus non est
+<lb ed="#L" n="69"/>hic intentus: quia hic quaeritur de malo coniuncto actioni,
+<lb ed="#L" n="70"/>aut effectui producto, secundum quod refertur in causam
+<lb ed="#L" n="71"/>ilius effectus cui coniungitur; constat enim quod causa
+<lb ed="#L" n="72"/>mali isto modo non est causa non agendo, sed causando
+<lb ed="#L" n="73"/>effectum cui malum coniungitur.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e459">
+               <lb ed="#L" n="74"/>Alio modo, quod procedit a causa agente quidem, sed
+<lb ed="#L" n="75"/>non procedit ab ipsa secundum illud quo est efficiens,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>hoc est per virtutem qua agit inquantum virtus est et actus,
+<lb ed="#L" n="77"/>sed inquantum patitur virtutis defectum et sic est 
+defi<lb ed="#L" break="no" n="78"/>cientis virtutis. Et hic sensus est intentus. Hoc enim nihil
+<lb ed="#L" n="79"/>aliud est dicere quam quod virtus qua causa operatur,
+<lb ed="#L" n="80"/>quantum ad illud quod habet de entitate, non est agenti
+<lb ed="#L" n="81"/>ratio quare sequatur malum in actione eius aut in effectu:
+<lb ed="#L" n="82"/>sed defectus virtutis est sibi ratio quare illud malum ex
+<lb ed="#L" n="83"/>ipso sequatur. Ita quod virtus est quidem forma qua agens
+<lb ed="#L" n="84"/>producit effectum cui coniungitur malum: sed non habet
+<lb ed="#L" n="85"/>effectus et operatio malum coniunctum nisi quia virtus
+<lb ed="#L" n="86"/>agendi substat malo alicui et privationi. Et hoc est quod
+<lb ed="#L" n="87"/>intellexit Sanctus 'Thomas dum dixit quod malum non 
+se<lb ed="#L" break="no" n="88"/>quitur ex causa nisi inquantum est deficientis virtutis, et
+<lb ed="#L" n="89"/>secundum hoc non est efficiens. Defectus enim non est
+<lb ed="#L" n="90"/>forma per quam agens agit, sed virtus: quoniam, ut 
+su<lb ed="#L" break="no" n="91"/>perius dixit, si agens penitus virtute careret, omnino non
+<lb ed="#L" n="92"/>ageret.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e505">
+               <lb ed="#L" n="93"/>Potest etiam et alio modo intelligi quod malum non
+<lb ed="#L" n="94"/>habet causam efficientem etiam per accidens. Non habet
+<lb ed="#L" n="95"/>enim talem quae attingat sua actione ipsum malum. .Quia
+<lb ed="#L" n="96"/>malum non potest actionem alicuius causae terminare, ita
+<lb ed="#L" n="97"/>scilicet quod per ipsam accipiat esse: sed habet causam
+<lb ed="#L" n="98"/>deficientem, quae, inquam, quia habet virtutis defectum,
+<lb ed="#L" n="99"/>producit effectum cui coniungitur malum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e523">
+               <lb ed="#L" n="100"/>2. Advertendum autem, ex Prima Parte, loco 
+praeal<lb ed="#L" break="no" n="101"/>legato , et de Malo, q. 1, a. 3, quod malum alterius 
+con<lb ed="#L" break="no" n="102"/>iunctum proprio et per.se effectui agentis, non reducitur
+<lb ed="#L" n="103"/>in aliquem defectum agentis, sed in perfectionem suae 
+vir<lb ed="#L" break="no" n="104"/>tutis. Ignis enim sua virtute intendit formam ignis in 
+ma<lb ed="#L" break="no" n="105"/>teriam introducere; et quia ad introductionem suae formae
+<lb ed="#L" n="106"/>sequitur corruptio et privatio formae quae praecedebat in
+<lb ed="#L" n="107"/>materia, ideo per accidens causat privationem et malum
+<lb ed="#L" n="108"/>alterius formae; et quanto ignis perfectior fuerit in virtute,
+<lb ed="#L" n="109"/>tanto perfectius, generando ignem, corrumpit suum 
+con<lb ed="#L" break="no" n="110"/>trarium. Malum autem proprii et per se effectus reducitur
+<lb ed="#L" n="111"/>in defectum virtutis agentis vel materiae, ut dictum est .
+<lb ed="#L" n="112"/>Sed tamen, licet huius mali causa sit aliquod defectivum .
+<lb ed="#L" n="113"/>bonum, oportet tamen fieri reductionem ad aliquam 
+prio<lb ed="#L" break="no" n="114"/>rem causam quae non sit deficiens, sed perfecta, sicut
+<lb ed="#L" n="115"/>patet in generatione partus monstruosi: malum enim 
+hu<lb ed="#L" break="no" n="116"/>iusmodi, quando ex parte agentis provenit, est defectus
+<lb ed="#L" n="117"/>virtutis existentis in semine, et sic semen, inquantum est
+<lb ed="#L" n="118"/>deficiens, est per accidens causa monstruositatis; causa
+<lb ed="#L" n="119"/>autem defectus virtutis in semine est aliquod alterans 
+in<lb ed="#L" break="no" n="120"/>ducens qualitatem aliquam contrariam-qualitati ad bonam
+<lb ed="#L" n="121"/>seminis dispositionem requisitae. Huius autem agentis
+<lb ed="#L" n="122"/>quanto fuerit virtus perfectior, tanto qualitatem hanc 
+con<lb ed="#L" break="no" n="123"/>trariam magis inducit, et maiorem defectum in semine
+<lb ed="#L" n="124"/>causat. Ex quo patet quod proximum agens effectus 
+de<lb ed="#L" break="no" n="125"/>ficientis est agens deficiens; remota autem est agens 
+per<lb ed="#L" break="no" n="126"/>fectum et bonum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e584">
+               <lb ed="#L" n="127"/>3. Sed occurrit circa declarationem factam dubium.
+<lb ed="#L" n="128"/>Nam Sanctus Thomas, de Malo, q. 1, a. 1, ad 8, ait quod
+<lb ed="#L" n="129"/>malum simpliciter, subiective et denominative sumptum,
+<lb ed="#L" n="130"/>producit effectum corruptum non agendo, sed deagendo.
+<lb ed="#L" n="131"/>Ergo bonum deficiens, quod vocat subiectum mali 
+simpli<lb ed="#L" break="no" n="132"/>citer, est causa mali effectus per cessationem ab actione.
+<lb ed="#L" n="133"/>Cuius oppositum dictum est .
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e603">
+               <lb ed="#L" n="134"/>Respondetur, quod tale bonum esse causa mali 
+dea<lb ed="#L" break="no" n="135"/>gendo, potest intelligi dupliciter. Uno modo, quod sit causa
+<lb ed="#L" n="136"/>nullo modo agendo: et sic non intelligit Sanctus Thomas.
+<lb ed="#L" n="137"/>Alio modo, defective agendo, hoc est, agendo actione 
+ca<lb ed="#L" break="no" n="138"/>rente sua debita perfectione: et hoc modo intelligit. 
+Ex<lb ed="#L" break="no" n="139"/>ponit enim seipsum ibidem subiungens: idest per defectum
+<lb ed="#L" n="140"/>activae virtutis. Debetur enim actioni seminis ut a virtute
+<lb ed="#L" n="141"/>completa procedat, sitque completi effectus productiva.
+<lb ed="#L" n="142"/>Hoc autem deficit in actione ex qua provenit partus 
+mon<lb ed="#L" break="no" n="143"/>struosus: quia talis actio. non habet. perfectionem ut sit
+<lb ed="#L" n="144"/>completi et perfecti effectus productiva. Et hoc sibi 
+con<lb ed="#L" break="no" n="145"/>venit quia a virtute deficiente procedit. Et sic dicitur esse
+<lb ed="#L" n="146"/>causa mali tale agens, non agendo, sed deagendo, idest,
+<lb ed="#L" n="147"/>non agendo perfecte, sed imperfecte et deficienter. Patet
+<lb ed="#L" n="148"/>autem quod hoc determinationi factae non contradicit.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e638">
+               <lb ed="#L" n="149"/>Eodem modo, addit Sanctus Thomas, et in artificialibus
+<lb ed="#L" n="150"/>peccatum accidit: sicut scilicet in naturalibus.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e645">
+               <pb ed="#L" n="29"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>IV. Secundo loco ostendit quomodo etiam in moralibus
+<lb ed="#L" n="2"/>bonum sit causa mali per accidens Et primo, ostendit
+<lb ed="#L" n="3"/>unde difficultas circa hoc oriatur; secundo, ostendit 
+ve<lb ed="#L" break="no" n="4"/>ritatem .
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e661">
+               <lb ed="#L" n="5"/>Difficultas est quia non videtur morale vitium ex 
+de<lb ed="#L" break="no" n="6"/>fectu virtutis sequi: infirmitas enim virtutis aut totaliter
+<lb ed="#L" n="7"/>tollit, aut saltem minuit morale vitium, eo quod oporteat
+<lb ed="#L" n="8"/>vitium moris voluntarium esse, non necessarium. Et ideo
+<lb ed="#L" n="9"/>vitium non videtur in moralibus eodem modo esse sicut
+<lb ed="#L" n="10"/>in naturalibus.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e677">
+               <lb ed="#L" n="11"/>Advertendum quod vitium morale et peccatum. non
+<lb ed="#L" n="12"/>dicitur aliquid nisi voluntarium sit. Ideo defectus omnino
+<lb ed="#L" n="13"/>praeveniens rationem voluntarii, non potest esse ratio quod
+<lb ed="#L" n="14"/>aliquid sit malum morale: quia quod habet defectum et
+<lb ed="#L" n="15"/>est malum ut a tali causa deficiente procedit, necessario
+<lb ed="#L" n="16"/>malum est; sicut quod procedit a virtute naturali 
+defe<lb ed="#L" break="no" n="17"/>ctiva, inquantum ab ipsa ut deficiens est procedit, 
+ne<lb ed="#L" break="no" n="18"/>cessario est malum. Et ideo oportet, ad hoc ut sit 
+ma<lb ed="#L" break="no" n="19"/>lum morale, ut ipsum aliquis defectus voluntarius 
+prae<lb ed="#L" break="no" n="20"/>cedat, ratione cuius totum dicatur voluntarium. Propterea
+<lb ed="#L" n="21"/>dixit Sanctus Thomas quod infirmitas virtutis aut tollit
+<lb ed="#L" n="22"/>aut diminuit morale vitium, quia tale vitium non est 
+vo<lb ed="#L" break="no" n="23"/>luntarium, sed necessarium: et ideo meretur veniam, non
+<lb ed="#L" n="24"/>autem poenam. - Quomodo autem infirmitas tollat aut
+<lb ed="#L" n="25"/>diminuat rationem peccati; similiter et ignorantia, quae
+<lb ed="#L" n="26"/>est defectus virtutis apprehensivae; vide in QQ. de Malo,
+<lb ed="#L" n="27"/>q. nr a. 11; et I II^, q. xxxiv, a 5; et in aliis locis.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e716">
+               <lb ed="#L" n="28"/>V. Ad praedictam autem difficultatem tollendam, duo
+<lb ed="#L" n="29"/>facit Sanctus Thomas: primo, ostendit in actu voluntatis
+<lb ed="#L" n="30"/>quaerendam esse radicem et originem peccati moralis ;
+<lb ed="#L" n="31"/>secundo, ostendit quomodo illud sit ex parte voluntatis .
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e728">
+               <lb ed="#L" n="32"/>Quantum ad primum, dicit tria. Primum est, quod
+<lb ed="#L" n="33"/>quantum ad aliquid similiter est malum in moralibus et
+<lb ed="#L" n="34"/>in naturalibus; et quantum ad aliquid dissimiliter. 
+Quan<lb ed="#L" break="no" n="35"/>tum enim ad hoc dissimiliter se habent, quod in 
+natura<lb ed="#L" break="no" n="36"/>libus malum consideratur in actione et in effectu producto
+<lb ed="#L" n="37"/>in moralibus autem est vitium et malum in sola actione,
+<lb ed="#L" n="38"/>quia virtutes morales non sunt factivae, sed activae. — Ex
+<lb ed="#L" n="39"/>hoc sequitur quod malum morale non consequitur ex 
+ma<lb ed="#L" break="no" n="40"/>teria vel forma effectus, sed ex agente solum. Et in hoc
+<lb ed="#L" n="41"/>videlicet assimilatur malo in naturalibus: quia in illis 
+ali<lb ed="#L" break="no" n="42"/>quod malum ex defectu agentis provenit.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e754">
+               <lb ed="#L" n="43"/>Secundum est, quod quatuor sunt activa principia in
+<lb ed="#L" n="44"/>moralibus: scilicet virtus executiva in membris; voluntas,
+<lb ed="#L" n="45"/>quae movet virtutem executivam; virtus apprehensiva 
+iu<lb ed="#L" break="no" n="46"/>dicans hoc esse bonum vel malum, quae sunt voluntatis
+<lb ed="#L" n="47"/>obiecta, cuius iudicio movetur voluntas; et res apprehensa,
+<lb ed="#L" n="48"/>a qua virtus apprehensiva movetur. Et sic primum 
+mo<lb ed="#L" break="no" n="49"/>vens est res apprehensa; secundum virtus apprehensiva;
+<lb ed="#L" n="50"/>tertium voluntas; quartum vis executiva.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e774">
+               <lb ed="#L" n="51"/>Tertium est, quod actus virtutis exequentis 
+praesup<lb ed="#L" break="no" n="52"/>ponit bonum morale vel malum: quia huiusmodi actus
+<lb ed="#L" n="53"/>exteriores non pertinent ad mores nisi secundum quod
+<lb ed="#L" n="54"/>ab actu voluntatis procedunt. Et ideo defectus huiusmodi
+<lb ed="#L" n="55"/>virtutis vitium moris vel totaliter excusat vel diminuit. -
+<lb ed="#L" n="56"/>Actus etiam quo res apprehensa movet virtutem 
+apprehen<lb ed="#L" break="no" n="57"/>sivam, est immunis a vitio moris: quia quodlibet obiectum
+<lb ed="#L" n="58"/>movet potentiam secundum naturalem ordinem. — Actus
+<lb ed="#L" n="59"/>quoque virtutis apprehensivae, in se consideratus, vitio
+<lb ed="#L" n="60"/>morali caret: cum eius defectus, scilicet ignorantia, 
+vi<lb ed="#L" break="no" n="61"/>tium aut excuset aut minuat, sicut et infirmitas. — 
+Relin<lb ed="#L" break="no" n="62"/>quitur ergo ut vitium morale in solo actu voluntatis primo
+<lb ed="#L" n="63"/>et principaliter inveniatur: et rationabiliter, cum actus 
+di<lb ed="#L" break="no" n="64"/>catur moralis quia voluntarius. Et consequenter in ipso
+<lb ed="#L" n="65"/>quaerenda est origo actus moralis.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e809">
+               <lb ed="#L" n="66"/>2. Circa primum dictum, advertendum quod virtutes
+<lb ed="#L" n="67"/>morales dicuntur activae, non etiam factivae, quia non
+<lb ed="#L" n="68"/>sunt alicuius effectus extrinseci productivae, 
+quemadmo<lb ed="#L" break="no" n="69"/>dum artes, sed sunt directivae operationum quae 
+rema<lb ed="#L" break="no" n="70"/>nent in operante: faciunt enim rectam intentionem et 
+in<lb ed="#L" break="no" n="71"/>clinationem ad finem, ut dicitur III Sent., d. xxxur, q. 1, a. 1,
+<lb ed="#L" n="72"/>qu 2, ad 2.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e827">
+               <lb ed="#L" n="73"/>Circa tertium dictum, considerandum, ex doctrina Sancti
+<lb ed="#L" n="74"/>Thomae III, q. rvur, a. 1; et III Sent., d. xxi, q. 1, a. 4,
+<lb ed="#L" n="75"/>qu. 2, quod mos, a quo virtutes morales denominantur, si-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>gnificat inclinationem naturalem vel quasi naturalem ad
+<lb ed="#L" n="77"/>aliquid agendum. Et quia inclinatio in nobis secundum
+<lb ed="#L" n="78"/>quam in nobis est agere et non agere, est inclinatio 
+vo<lb ed="#L" break="no" n="79"/>luntatis, ideo ille solus actus proprie dicitur moralis qui
+<lb ed="#L" n="80"/>aliquo modo voluntarius est: et sicut se habet actus ad
+<lb ed="#L" n="81"/>hoc quod sit voluntarius, ita se habet ad hoc ut sit 
+mo<lb ed="#L" break="no" n="82"/>ralis. Dupliciter autem aliquis actus est voluntarius: uno
+<lb ed="#L" n="83"/>modo, quia est libere elicitus a voluntate, sicut velle et
+<lb ed="#L" n="84"/>eligere; alio modo, quia est imperatus a voluntate, non
+<lb ed="#L" n="85"/>autem elicitus, sicut ambulare et considerare et huiusmodi.
+<lb ed="#L" n="86"/>Actus ergo qui sunt eliciti a voluntate, essentialiter 
+di<lb ed="#L" break="no" n="87"/>cuntur morales. Qui autem sunt imperati, sunt morales
+<lb ed="#L" n="88"/>quantum ad usum: non enim sunt morales secundum 
+spe<lb ed="#L" break="no" n="89"/>ciem suam ut in proprias causas referuntur, cum non sint
+<lb ed="#L" n="90"/>actus eliciti a voluntate; sed morales sunt inquantum a
+<lb ed="#L" n="91"/>voluntate imperantur, sicque aliquid de voluntario 
+parti<lb ed="#L" break="no" n="92"/>cipant. Sequitur ergo quod, si huiusmodi actus a voluntarii
+<lb ed="#L" n="93"/>ratione separentur, comparenturque solum ad potentias a
+<lb ed="#L" n="94"/>quibus eliciuntur, quod morales non sunt, et consequenter
+<lb ed="#L" n="95"/>in ipsis nec bonum nec malum morale esse potest. 
+Pro<lb ed="#L" break="no" n="96"/>pter hoc ergo dixit Sanctus Thomas de actu virtutis 
+exe<lb ed="#L" break="no" n="97"/>quentis, et de actu virtutis apprehensivae in se 
+conside<lb ed="#L" break="no" n="98"/>rato, idest, non habito respectu ad voluntatem, quod in
+<lb ed="#L" n="99"/>ipso non est vitium morale. Constat enim quod non sunt
+<lb ed="#L" n="100"/>voluntarii nisi secundum quod a voluntate imperantur.
+<lb ed="#L" n="101"/>Ideo, si secundum se considerentur, nullo habito ad 
+vo<lb ed="#L" break="no" n="102"/>luntatem respectu, in ipsis malum morale esse non potest.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e897">
+               <lb ed="#L" n="103"/>VI. Sed occurrit dubium. Nam Sanctus Thomas in QQ.
+<lb ed="#L" n="104"/>de Malo, q. 1, a 3, tenet quod actus aliquis exterior est
+<lb ed="#L" n="105"/>secundum $e malus, ut furtum, homicidium, et similia. Et
+<lb ed="#L" n="106"/>P II, q. xx, 1; et II Sent, d. xr, q. r, a. 3, vult quod
+<lb ed="#L" n="107"/>actus exterior habet propriam bonitatem convenientem sibi
+<lb ed="#L" n="108"/>ex materia et circumstantiis. Ergo falsum est actum virtutis
+<lb ed="#L" n="109"/>exequentis praesupponere bonum morale vel malum, et
+<lb ed="#L" n="110"/>ipsum tunc tantum esse bonum quando actus voluntatis est
+<lb ed="#L" n="111"/>bonus, malum autem quando actus voluntatis est malus.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e920">
+               <lb ed="#L" n="112"/>Respondetur, ut haberi potest ex locis praeallegatis, et
+<lb ed="#L" n="113"/>praecipue de Malo, eadem quaestione, art. 2, ad 6, quod
+<lb ed="#L" n="114"/>dupliciter loqui possumus de bonitate vel malitia actus
+<lb ed="#L" n="115"/>exterioris: scilicet de naturali; et de morali. Si loquamur
+<lb ed="#L" n="116"/>de naturali bonitate aut malitia, tunc ista convenit actui
+<lb ed="#L" n="117"/>exteriori humano secundum se, et non praesupponit actum
+<lb ed="#L" n="118"/>voluntatis. Cum enim intantum dicatur aliquis actus 
+hu<lb ed="#L" break="no" n="119"/>manus inquantum est secundum rationem, accipit talis
+<lb ed="#L" n="120"/>actus speciem ex obiecto secundum quod ad rationem
+<lb ed="#L" n="121"/>comparatur: et dicitur bonus si sit circa materiam debitam
+<lb ed="#L" n="122"/>secundum regulas rationis, ut pascere esurientem; malus
+<lb ed="#L" n="123"/>autem si cadat supra materiam indebitam, sicut subtrahere
+<lb ed="#L" n="124"/>aliena. — Si autem loquamur de bonitate aut malitia 
+mo<lb ed="#L" break="no" n="125"/>rali, sic, semota voluntate, non habet actus exterior 
+bo<lb ed="#L" break="no" n="126"/>nitatem aut malitiam, ut scilicet talis actus dicatur culpa
+<lb ed="#L" n="127"/>vel peccatum, aut meritum: cum, ut dictum est superius ,
+<lb ed="#L" n="128"/>actus non pertineat ad morem nisi inquantum voluntarius
+<lb ed="#L" n="129"/>est. — Loquitur ergo Sanctus Thomas in locis praeallegatis
+<lb ed="#L" n="130"/>de bonitate aut malitia conveniente actui in esse naturae
+<lb ed="#L" n="131"/>actus humani: non autem de bonitate aut malitia morali,
+<lb ed="#L" n="132"/>de qua est hic sermo.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e968">
+               <lb ed="#L" n="133"/>2. Sed contra hanc responsionem videntur esse verba
+<lb ed="#L" n="134"/>Sancti Thomae dicentis, de Malo, eadem quaestione, art. 3,
+<lb ed="#L" n="135"/>quod ratio mali et peccati primordialiter invenitur in actu
+<lb ed="#L" n="136"/>exteriori secundum quod est in apprehensione. Peccatum
+<lb ed="#L" n="137"/>autem nominat malum moris. Et sic videtur quod etiam
+<lb ed="#L" n="138"/>malum moris, semota voluntate, sit in actu exteriori.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e984">
+               <lb ed="#L" n="139"/>Responderi potest dupliciter. Primo, quod non accipit
+<lb ed="#L" n="140"/>Sanctus Thomas nomen peccati ut significat culpam et
+<lb ed="#L" n="141"/>demeritum, sed prout omnis actus carens debita 
+perfe<lb ed="#L" break="no" n="142"/>ctione potest dici peccatum, etiam in naturalibus. Et hoc
+<lb ed="#L" n="143"/>videtur intelligere dum, exponens quomodo talis actus
+<lb ed="#L" n="144"/>malus sit primordialiter malus, inquit quod hoc est quia
+<lb ed="#L" n="145"/>non est vestitus debitis circumstantiis, et ex hoc ipso quod
+<lb ed="#L" n="146"/>est actus malus, idest, privatus debito modo, specie et 
+or<lb ed="#L" break="no" n="147"/>dine, habet rationem peccati.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1006">
+               <lb ed="#L" n="148"/>3. Secundo potest responderi quod rationem peccati 
+in<lb ed="#L" break="no" n="149"/>veniri in actu exteriori primordialiter secundum quod est in
+<lb ed="#L" n="150"/>apprehensione, dupliciter potest intelligi. Uno modo, quod
+<pb ed="#L" n="30"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>prius formaliter quam actus voluntatis, habeat rationem
+<lb ed="#L" n="2"/>peccati moralis. Et iste sensus non est verus, nec ibi 
+in<lb ed="#L" break="no" n="3"/>tentus a Sancto Thoma, ut obiectio supponit. Quod 
+con<lb ed="#L" break="no" n="4"/>stat quia ibidem subiungit quod ratio culpae et moralis
+<lb ed="#L" n="5"/>mali completur secundum quod accedit actus voluntatis.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1030">
+               <lb ed="#L" n="6"/>Alio modo, quod fundamentaliter:et originaliter peccatum
+<lb ed="#L" n="7"/>et culpa prius est in actu exteriori apprehenso quam sit
+<lb ed="#L" n="8"/>formaliter et completive in actu voluntatis. Et iste sensus
+<lb ed="#L" n="9"/>est verus, et intentus a Sancto Thoma. Quia malum 
+na<lb ed="#L" break="no" n="10"/>turae actus exterioris secundum quod est in apprehensione,
+<lb ed="#L" n="11"/>ad. voluntatem comparatur ut obiectum, ex quo habet 
+vo<lb ed="#L" break="no" n="12"/>luntas, libere illud acceptans, ut.sit. formaliter et 
+comple<lb ed="#L" break="no" n="13"/>tive mala in suo actu. Et sic ipse actus malus est 
+funda<lb ed="#L" break="no" n="14"/>mentum unde habet actus voluntatis in illum tendens ut
+<lb ed="#L" n="15"/>sit moraliter. malus:' est enim malus moraliter actus 
+vo<lb ed="#L" break="no" n="16"/>luntatis qui in malum obiectum et non regulatum ratione
+<lb ed="#L" n="17"/>fertur. Et est simile sicut dicimus veritatem esse 
+funda<lb ed="#L" break="no" n="18"/>mentaliter et originaliter in re, in intellectu autem nostro
+<lb ed="#L" n="19"/>esse veritatem formaliter. Sicut enim esse rei dicitur 
+ve<lb ed="#L" break="no" n="20"/>ritas originaliter, non quia veritas formaliter sit in re, sed
+<lb ed="#L" n="21"/>quia intellectus est formaliter verus ex eo quod 
+confor<lb ed="#L" break="no" n="22"/>matur in intelligendo ipsi esse rei; ita actus exterior malus
+<lb ed="#L" n="23"/>secundum esse naturae dicitur malus moraliter. 
+funda<lb ed="#L" break="no" n="24"/>mentaliter et' originaliter, quia actus voluntatis, libere 
+ten<lb ed="#L" break="no" n="25"/>dens in ipsum, habet quod sit moraliter malus ex eo quod
+<lb ed="#L" n="26"/>in ipsum actum exteriorem malum secundum naturam
+<lb ed="#L" n="27"/>fertur. Et sicut non dicitur res vera formialiter nisi 
+deno<lb ed="#L" break="no" n="28"/>minatione extrinseca, quia scilicet est adaequata intellectui,
+<lb ed="#L" n="29"/>qui est formaliter verus; ita actus exterior, in actu et in
+<lb ed="#L" n="30"/>executione per imperium voluntatis positus, non dicitur
+<lb ed="#L" n="31"/>formaliter malus malitia morali nisi extrinsece, scilicet quia
+<lb ed="#L" n="32"/>a malo actu morali voluntatis procedit. Et ideo ibidem
+<lb ed="#L" n="33"/>subiungit Sanctus Thomas quod, si accipiatur actus 
+pec<lb ed="#L" break="no" n="34"/>cati secundum quod est in executione operis, secundum
+<lb ed="#L" n="35"/>videlicet quod est formaliter moralis, primordialiter et per
+<lb ed="#L" n="36"/>prius culpa est in voluntate.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1100">
+               <lb ed="#L" n="37"/>Patet ergo quod obiectio non est contra responsionem
+<lb ed="#L" n="38"/>datam. Procedit enim ac si intenderet Sanctus Thomas, in
+<lb ed="#L" n="39"/>loco allegaato, quod actus exterior prius formaliter sit malus
+<lb ed="#L" n="40"/>in genere moris quam actus voluntatis. Hoc autem 
+osten<lb ed="#L" break="no" n="41"/>dimus non esse ipsius intentum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1114">
+               <lb ed="#L" n="42"/>4. Obiectiones autem ex Scoto, xr dist. Secundi, et ex
+<lb ed="#L" n="43"/>aliis, vide apud Capreolum, in Secundo, d. xui. Probant
+<lb ed="#L" n="44"/>enim multae illarum quod alia est bonitas actus exterioris
+<lb ed="#L" n="45"/>in esse naturae, et similiter alia malitia: quod conceditur.
+<lb ed="#L" n="46"/>Non autem probant quod alia sit ipsius bonitas aut 
+ma<lb ed="#L" break="no" n="47"/>litia moralis quam bonitas et malitia actus voluntatis.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1130">
+               <lb ed="#L" n="48"/>VII. Ostenso quod sumenda sit radix. peccati moralis
+<lb ed="#L" n="49"/>in actu voluntatis, vult ulterius ostendere Sanctus Thomas
+<lb ed="#L" n="50"/>quomodo hoc sit. Et primo, tangit difficultatem quae circa
+<lb ed="#L" n="51"/>hoc accidit; secundo, propositum manifestat.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1141">
+               <lb ed="#L" n="52"/>Difficultas est quia, cum actus deficiens proveniat 
+pro<lb ed="#L" break="no" n="53"/>pter defectum activi principii, oportet ante peccatum 
+mo<lb ed="#L" break="no" n="54"/>rale praeintelligere defectum in voluntate. Aut ergo ille
+<lb ed="#L" n="55"/>defectus erit naturalis: et sic semper inhaerebit voluntati,
+<lb ed="#L" n="56"/>et semper voluntas in agendo moraliter peccabit. Aut 
+vo<lb ed="#L" break="no" n="57"/>luntarius erit: et tunc erit peccatum morale; cuius causa
+<lb ed="#L" n="58"/>iterum quaerenda erit, et sic in infinitum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1159">
+               <lb ed="#L" n="59"/>Respondet Sanctus Thomas quod huiusmodi defectus in
+<lb ed="#L" n="60"/>voluntate praeexistens non est naturalis, propter rationem
+<lb ed="#L" n="61"/>dictam; neque casualis aut fortuitus, quia tunc peccatum
+<lb ed="#L" n="62"/>morale non esset in nobis, idest in potestate nostra; sed est
+<lb ed="#L" n="63"/>voluntarius. Sed negatur quod tunc erit peccatum morale.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1172">
+               <lb ed="#L" n="64"/>2. Ad huius autem declarationem, dicit. primo, quod
+<lb ed="#L" n="65"/>cuiuslibet activi principii secundi perfectio virtutis ex 
+su<lb ed="#L" break="no" n="66"/>periori agente dependet. Et ideo, cum agens manet sub
+<lb ed="#L" n="67"/>ordine primi agentis, indeficienter agit: cum autem ab
+<lb ed="#L" n="68"/>ordine primi agentis deflectitur, deficit in agendo.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1185">
+               <lb ed="#L" n="69"/>Dicit secundo quod, cum in ordine operationum 
+mo<lb ed="#L" break="no" n="70"/>ralium voluntatem-praecedant duo principia, scilicet virtus
+<lb ed="#L" n="71"/>apprehensiva et obiectum apprehensum, quod est finis;
+<lb ed="#L" n="72"/>proprium motivum voluntatis est ratio et bonum aliquod
+<lb ed="#L" n="73"/>determinatum, scilicet bonum rationis; non autem 
+quae<lb ed="#L" break="no" n="74"/>cumque vis apprehensiva, aut quodcumque bonum. Ideo,
+<lb ed="#L" n="75"/>cum voluntas tendit in actum mota ab apprehensione
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>rationis repraesentantis sibi proprium bonum, sequitur 
+de<lb ed="#L" break="no" n="77"/>bita actio. Cum autem ad apprehensionem sensualis 
+ap<lb ed="#L" break="no" n="78"/>prehensivae, aut ipsius rationis repraesentantis bonum 
+di<lb ed="#L" break="no" n="79"/>versum a proprio bono, in actionem prorumpit, sequitur
+<lb ed="#L" n="80"/>in actione yoluntatis peccatum morale.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1217">
+               <lb ed="#L" n="81"/>Sequitur ex iis quod in voluntate defectus ordinis ad
+<lb ed="#L" n="82"/>rationem et ad proprium finem praecedit malum morale:
+<lb ed="#L" n="83"/>sicut cum ad subitam apprehensionem sensus voluntas
+<lb ed="#L" n="84"/>movetur in delectabile secundum sensum; aut cum ratio
+<lb ed="#L" n="85"/>in aliquod bonum quod non est nunc vel hoc modo 
+bo<lb ed="#L" break="no" n="86"/>num, ratiocinando devenit, et tamen voluntas in illud 
+tan<lb ed="#L" break="no" n="87"/>quam in proprium bonum tendit.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1235">
+               <lb ed="#L" n="88"/>Dicit tertio, quod hic voluntatis defectus voluntarius
+<lb ed="#L" n="89"/>est: quia in potestate voluntatis est velle et non velle;
+<lb ed="#L" n="90"/>et similiter ipsum actu considerare rationis.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1244">
+               <lb ed="#L" n="91"/>Dicit quarto quod iste defectus non est malum 
+mo<lb ed="#L" break="no" n="92"/>rale: quia, si ratio non consideret, aut bonum 
+quodcum<lb ed="#L" break="no" n="93"/>que consideret, nondum est peccatum, quousque voluntas
+<lb ed="#L" n="94"/>in indebitum finem tendat; quod iam est voluntatis actus.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1255">
+               <lb ed="#L" n="95"/>CONCLUDIT ultimo quod, tam in moralibus quam in 
+na<lb ed="#L" break="no" n="96"/>turalibus, malum a bono non nisi per accidens causatur.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1262">
+               <lb ed="#L" n="97"/>3. Ad evidentiam eorum quae hic dicuntur, 
+conside<lb ed="#L" break="no" n="98"/>randum est quod causa secunda non agit nisi secundum
+<lb ed="#L" n="99"/>quod a prima movetur, et ideo perfectio "virtutis ipsius
+<lb ed="#L" n="100"/>est secundum quod perfecte substat virtuti primae causae.
+<lb ed="#L" n="101"/>Quod si secundam causam contingat deficere in agendo
+<lb ed="#L" n="102"/>propter defectum tantum primae causae, tunc defectus in
+<lb ed="#L" n="103"/>actione secundae causae non reducitur in defectum ipsius
+<lb ed="#L" n="104"/>secundae causae, sed primae: sicut, cum accidit motus
+<lb ed="#L" n="105"/>imperfectus et deficiens propter defectum virtutis motivae,
+<lb ed="#L" n="106"/>crure in sua.debita dispositione manente, defectus 
+ambu<lb ed="#L" break="no" n="107"/>lationis non reducitur in defectum cruris, sed virtutis
+<lb ed="#L" n="108"/>motivae tantum. Si autem deficiat secunda causa in agendo
+<lb ed="#L" n="109"/>quia non perfecte subditur primae causae sed ab ea 
+de<lb ed="#L" break="no" n="110"/>flectitur, tunc defectus actionis in defectum secundae causae
+<lb ed="#L" n="111"/>reducitur, non in defectum: primae: sicut claudicatio 
+ha<lb ed="#L" break="no" n="112"/>bentis. virtutem motivam perfectam reducitur in defectum
+<lb ed="#L" n="113"/>cruris non perfecte virtuti motivae substantis. Cum ergo
+<lb ed="#L" n="114"/>dicit Sanctus Thomas quoniam, cum agens manet sub 
+or<lb ed="#L" break="no" n="115"/>dine primi moventis, indeficienter agit, intelligitur de 
+de<lb ed="#L" break="no" n="116"/>fectu qui in ipsius secundae causae defectum reduci habeat,
+<lb ed="#L" n="117"/>et sibi debeat imputari. Posset tamen in actione secundae
+<lb ed="#L" n="118"/>causae accidere defectus propter defectum primae causae:
+<lb ed="#L" n="119"/>sed tunc secundae causae non imputaretur, ipsa secunda
+<lb ed="#L" n="120"/>causa manente sub ordine suae causae prioris, a qua 
+tan<lb ed="#L" break="no" n="121"/>quam a proprio motivo habet moveri. a
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1319">
+               <lb ed="#L" n="122"/>VIII. Circa defectum quem ponit Sanctus Thomas in 
+vo<lb ed="#L" break="no" n="123"/>luntate praecedere actum moraliter malum, primo videndum
+<lb ed="#L" n="124"/>est quomodo praecedat in voluntate; secundo, quomodo
+<lb ed="#L" n="125"/>sit voluntarius ; tertio, quomodo non sit malum morale.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1331">
+               <lb ed="#L" n="126"/>Quantum ad primum, considerandum quod duplex 
+de<lb ed="#L" break="no" n="127"/>fectus voluntatis praecedit actum moraliter malum. Unus
+<lb ed="#L" n="128"/>remotus, ex quo habet voluntas ut alii defectus in ipsa
+<lb ed="#L" n="129"/>esse possint et possit in agendo deficere, scilicet esse ex
+<lb ed="#L" n="130"/>nihilo. Sed hic defectus non sufficit ad hoc ut malum
+<lb ed="#L" n="131"/>morale sit in voluntate: quia, cum iste defectus sit 
+natu<lb ed="#L" break="no" n="132"/>ralis, semperque voluntatem concomitetur, semper voluntas
+<lb ed="#L" n="133"/>agendo peccaret. - Alius est defectus proximus, scilicet non
+<lb ed="#L" n="134"/>actu substare suae propriae causae. Et iste defectus est
+<lb ed="#L" n="135"/>causa proxima mali actus moralis, eo modo quo negatio
+<lb ed="#L" n="136"/>potest esse causa, iuxta superius  determinata: voluntas
+<lb ed="#L" n="137"/>enim ad operationem cum tali defectu procedens, peccat.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1360">
+               <lb ed="#L" n="138"/>Primus defectus nunquam est simpliciter malum 
+volun<lb ed="#L" break="no" n="139"/>tatis, cum sit sibi naturalis; et secundum se duratione 
+prae<lb ed="#L" break="no" n="140"/>cedit actum moraliter malum. — Secundus autem, quando
+<lb ed="#L" n="141"/>voluntas non exit ad operationem, non habet rationem
+<lb ed="#L" n="142"/>mali simpliciter: quia substare et moveri ab 
+apprehen<lb ed="#L" break="no" n="143"/>sione et proprio bono, non est debitum semper voluntati,
+<lb ed="#L" n="144"/>sed tantum quando ad operationem procedit; unde quod
+<lb ed="#L" n="145"/>voluntas non substet apprehensioni aut proprio bono
+<lb ed="#L" n="146"/>quando non operatur, hoc non est malum eius simpliciter.
+<lb ed="#L" n="147"/>Quando autem voluntas exit ad operationem non substans
+<lb ed="#L" n="148"/>apprehensioni rationis aut bono rationis, sed sequens 
+ap<lb ed="#L" break="no" n="149"/>prehensionem sensualem aut allecta a bono quod non est
+<lb ed="#L" n="150"/>bonum rationis, tunc talis defectus est simpliciter malum:
+<pb ed="#L" n="31"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quia est carentia ordinis debiti pro tunc inesse voluntati.
+<lb ed="#L" n="2"/>Si ergo consideretur huiusmodi defectus secundum quod
+<lb ed="#L" n="3"/>non est simpliciter malum, sic duratione praecedit 
+pec<lb ed="#L" break="no" n="4"/>catum morale: quia praecedit voluntatem operantem. Si
+<lb ed="#L" n="5"/>autem consideretur secundum quod est malum simpliciter,
+<lb ed="#L" n="6"/>sic non praecedit duratione actum malum voluntatis, sed
+<lb ed="#L" n="7"/>ipsum concomitatur. Secundum tamen rationem, prius 
+in<lb ed="#L" break="no" n="8"/>telligimus voluntatem moveri ab apprehensione sensus aut
+<lb ed="#L" n="9"/>ab indebito bono, et consequenter carere ordine debito ad
+<lb ed="#L" n="10"/>sua propria motiva, quam actum eliciat: et sic talis 
+de<lb ed="#L" break="no" n="11"/>fectus secundum rationem praecedit actum malum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1419">
+               <lb ed="#L" n="12"/>2. Quantum ad secundum, sciendum quod aliquid 
+pot<lb ed="#L" break="no" n="13"/>est dici voluntarium dupliciter. Uno modo, quia voluntas
+<lb ed="#L" n="14"/>in illud tanquam in volitum per actum suum fertur: sicut
+<lb ed="#L" n="15"/>sanare est voluntarium in medico qui vult sanare. Hoc
+<lb ed="#L" n="16"/>modo non dicitur defectus huiusmodi voluntarius: cum
+<lb ed="#L" n="17"/>omni actui voluntatis praeintelligatur. — Alio modo dicitur
+<lb ed="#L" n="18"/>voluntarium quod est in potestate voluntatis ut sit aut non
+<lb ed="#L" n="19"/>sit: sicut actus voluntatis libere elicitus dicitur voluntarius,
+<lb ed="#L" n="20"/>non quia voluntas alio actu velit illum, sed quia in 
+po<lb ed="#L" break="no" n="21"/>testate voluntatis est ipsum producere vel non producere.
+<lb ed="#L" n="22"/>modo defectus huiusmodi dicitur voluntarius. Est
+<lb ed="#L" n="23"/>enim in potestate voluntatis procedere ad operationem sine
+<lb ed="#L" n="24"/>tali ordine, aut non procedere: quia non necessario a bono
+<lb ed="#L" n="25"/>contrario bono rationis trahitur, aut ab apprehensione 
+sen<lb ed="#L" break="no" n="26"/>suali movetur, sed libera est et ad utrumlibet se habens. Et
+<lb ed="#L" n="27"/>ideo huiusmodi defectus non oportet aliam causam quaerere
+<lb ed="#L" n="28"/>nisi voluntatis libertatem, ut dicitur Secundo, d. xxxiv .
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1458">
+               <lb ed="#L" n="29"/>3. Quantum ad tertium, dicitur quod huiusmodi 
+de<lb ed="#L" break="no" n="30"/>fectus, secundum quod duratione actum malum praecedit,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="31"/>non est malum voluntatis morale: immo nec naturale, ut
+<lb ed="#L" n="32"/>est ostensum. — Secundum vero quod concomitatur malum
+<lb ed="#L" n="33"/>morale et ipsi coniungitur, sic est malum morale. Unde
+<lb ed="#L" n="34"/>de Malo, loco praeallegato , ad 13, inquit Sanctus 
+Tho<lb ed="#L" break="no" n="35"/>mas quod accipit rationem culpae ex hoc ipso quod cum
+<lb ed="#L" n="36"/>tali defectu voluntas se applicat ad opus: quia tunc 
+bo<lb ed="#L" break="no" n="37"/>num quod per huiusmodi defectum privatur, est debitum
+<lb ed="#L" n="38"/>voluntati et actui eius. — Secundum autem quod 
+praeintel<lb ed="#L" break="no" n="39"/>ligitur actui malo et per se consideratur, sic etiam non habet
+<lb ed="#L" n="40"/>rationem mali culpae nec poenae, sicut nec cum praecedit
+<lb ed="#L" n="41"/>duratione actum malum.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1491">
+               <lb ed="#L" n="42"/>Cum ergo inquit Sanctus Thomas quod huiusmodi 
+de<lb ed="#L" break="no" n="43"/>fectus non est malum morale, intelligendum est, secundum
+<lb ed="#L" n="44"/>se et absolute consideratus: non autem ut coniungitur
+<lb ed="#L" n="45"/>cum actu voluntatis malo.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1502">
+               <lb ed="#L" n="46"/>IX. Ex iis quae dicit hic Sanctus Thomas, patet quod
+<lb ed="#L" n="47"/>Scotus, in II Sent., d. xxxiv, dum arguit defectibilitatem
+<lb ed="#L" n="48"/>voluntatis non esse voluntati rationem peccandi, non 
+ac<lb ed="#L" break="no" n="49"/>cedit ad mentem Sancti Thomae. Non enim ponit 
+San<lb ed="#L" break="no" n="50"/>ctus Thomas quod aptitudo ad deficiendum sit voluntati
+<lb ed="#L" n="51"/>proxima ratio peccandi: sed actualis defectus, cum scilicet,
+<lb ed="#L" n="52"/>non substans debito ordini, ad operationem procedit.
+</p>
+            <p xml:id="ferv7a-d1e1789-d1e1521">
+               <lb ed="#L" n="53"/>Similiter cum arguit quod defectus actualis non est
+<lb ed="#L" n="54"/>causa huiusmodi mali, quia tunc ante primum defectum
+<lb ed="#L" n="55"/>voluntatis esset defectus, constat quod mentem Sancti
+<lb ed="#L" n="56"/>Thomae non assequitur. Non enim ponit illum defectum
+<lb ed="#L" n="57"/>esse malum moraliter secundum quod actui malo 
+praein<lb ed="#L" break="no" n="58"/>telligitur, ut est ostensum. Non est autem inconveniens,
+<lb ed="#L" n="59"/>immo necessarium est ut ante primum defectum moraliter
+<lb ed="#L" n="60"/>malum, sit alius defectus rationem mali moralis non habens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

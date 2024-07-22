@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 82</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 82</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="244"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2377"><!-- ferv7a-l3c82 -->
+            <head>Capitulum 82</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="15" type="fixed=244"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="16"/>POSTQUAM ostendit Sanctus Thomas qualis sit ordo in
+<lb ed="#L" n="17"/>substantiis intellectualibus, vult de ordine corporum
+<lb ed="#L" n="18"/>determinare.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>I. Et ponit hanc conclusionem: Inferiora corpora per
+<lb ed="#L" n="20"/>superiora disponuntur.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Probatur primo. Substantiae intellectuales inferiores 
+re<lb ed="#L" break="no" n="22"/>guntur a superioribus, ut dispositio divinae providentiae
+<lb ed="#L" n="23"/>proportionaliter usque ad infima descendat. Ergo et 
+infe<lb ed="#L" break="no" n="24"/>riora corpora per superiora. - Probatur consequentia. Quia
+<lb ed="#L" n="25"/>etiam. in corporibus est superius et inferius, sicut in 
+sub<lb ed="#L" break="no" n="26"/>stantiis spiritualibus. :
+</p>
+            <p>
+               <lb ed="#L" n="27"/>2. Secundo. Corpora caelestia sunt superiora loco. Ergo
+<lb ed="#L" n="28"/>magis formalia. Ergo magis activa. Ergo in inferiora agunt.
+<lb ed="#L" n="29"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Probatur prima consequentia. Quia quanto aliquod corpus
+<lb ed="#L" n="31"/>est superius loco, tanto invenitur esse formalius. - Probatur
+<lb ed="#L" n="32"/>a signo. Quia locus superior est locus inferioris. Quod est
+<lb ed="#L" n="33"/>signum ipsum esse formaliorem : cum formae sit continere,
+<lb ed="#L" n="34"/>sicut et loci. — Probatur etiam ex ordine elementorum.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Adverte circa probationem antecedentis a signo, quod
+<lb ed="#L" n="36"/>non intendit arguere Sanctus Thomas in secunda figura,
+<lb ed="#L" n="37"/>sic, Formae est continere, Locus superior continet 
+infe<lb ed="#L" break="no" n="38"/>riorem, Ergo est forma: tunc enim argueretur in secunda
+<lb ed="#L" n="39"/>figura ex puris affirmativis, contra regulas syllogismorum.
+<lb ed="#L" n="40"/>Sed intendit arguere ex similitudine et proportione loci
+<lb ed="#L" n="41"/>ad formam in hoc quod est continere, sic arguendo. Forma
+<lb ed="#L" n="42"/>et locus conveniunt in hoc quod est continere. Ergo ille
+<lb ed="#L" n="43"/>locus qui est alterius contentivus, magis accedit ad 
+ratio<lb ed="#L" break="no" n="44"/>nem formae. Sed locus superior est contentivus inferioris.
+<lb ed="#L" n="45"/>Ergo est ipso formalior.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Attendendum tamen quod, licet tam formae quam loci
+<lb ed="#L" n="47"/>sit continere, hoc tamen est aliter et aliter. Dicitur enim
+<lb ed="#L" n="48"/>locus continere quantitative, inquantum quantitatem cor- |
+<lb ed="#L" n="49"/>poris locati in seipso comprehendit. Forma autem dicitur
+<lb ed="#L" n="50"/>continere formaliter et virtualiter, inquantum dat esse et
+<lb ed="#L" n="51"/>speciem corpori: quandiu enim sub forma manet, suum
+<lb ed="#L" n="52"/>esse et suam speciem tenet; cum vero recesserit forma,
+<lb ed="#L" n="53"/>et esse et speciem amittit.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Circa probationem primae consequentiae, et alias 
+ad<lb ed="#L" break="no" n="55"/>ductas consequentias, considerandum, ex doctrina Sancti
+<lb ed="#L" n="56"/>Thomae II Caeli, lect. 20, quod, cum continens habeat
+<lb ed="#L" n="57"/>rationem determinantis et finientis, contentum autem habeat
+<lb ed="#L" n="58"/>rationem terminati et finiti, rationabiliter corpus continens
+<lb ed="#L" n="59"/>naturaliter aliud corpus, ponitur magis habere de ratione
+<lb ed="#L" n="60"/>formae quam contentum: formae enim est determinare et
+<lb ed="#L" n="61"/>finire, materiae vero determinari et finiri per formam.
+<lb ed="#L" n="62"/>Et quia, quanto corpus naturali ordine est superius loco,
+<lb ed="#L" n="63"/>tanto magis ad inferiora comparatur sicut continens ad
+<lb ed="#L" n="64"/>contenta, ideo convenienter dicitur quod est etiam 
+for<lb ed="#L" break="no" n="65"/>malius. — Quia vero forma est actus, ideo etiam tale corpus
+<lb ed="#L" n="66"/>est aliis actualius. — Et. quia unumquodque agens agit per
+<lb ed="#L" n="67"/>suam formam, sequitur etiam quod sit magis activum.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>II. Tertio . Corpora caelestia sunt in suis naturis 
+abs<lb ed="#L" break="no" n="69"/>que omni contrarietate perfecta: corpora vero inferiora
+<lb ed="#L" n="70"/>non perficiuntur in. suis naturis nisi cum aliqua 
+contra<lb ed="#L" break="no" n="71"/>rietate. Ergo corpora caelestia sunt universalioris virtutis
+<lb ed="#L" n="72"/>quam inferiora. Ergo ea movent et disponunt.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Probatur antecedens exemplariter in aliquibus 
+contra<lb ed="#L" break="no" n="74"/>rietatibus. — Et ex motibus. Quia motui circulari caelestium
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="75"/>corporum non est aliquid contrarium, et idcirco in eis
+<lb ed="#L" n="76"/>violentia esse non potest: motus  autem inferiorum sunt
+<lb ed="#L" n="77"/>contrarii.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Prima vero consequentia probatur . Quia quod est in
+<lb ed="#L" n="79"/>natura sua perfectum absque contrarietate, est. 
+universa<lb ed="#L" break="no" n="80"/>lioris virtutis quam id quod non perficitur nisi in 
+con<lb ed="#L" break="no" n="81"/>trarietate. — Declaratur. Quia contrarietas est ex differentiis
+<lb ed="#L" n="82"/>contrahentibus genus. - Cuius signum est quod in 
+acce<lb ed="#L" break="no" n="83"/>ptione intellectus, quia est universalis, species contrariorum
+<lb ed="#L" n="84"/>non sunt contrariae,
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Secunda vero consequentia probatur. Quia universales
+<lb ed="#L" n="86"/>virtutes sunt motivae particularium.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>2. Circa antecedens, considerandum quod corpora 
+in<lb ed="#L" break="no" n="88"/>feriora perfici in sua natura cum contrarietate, dupliciter
+<lb ed="#L" n="89"/>potest intelligi. Uno modo, quia eorum natura ex 
+con<lb ed="#L" break="no" n="90"/>trariis componitur. Et sic non intelligitur hic. Nam 
+ele<lb ed="#L" break="no" n="91"/>menta, quae sunt de numero corporum inferiorum, cum
+<lb ed="#L" n="92"/>sint corpora Simplicia, non sunt composita ex contrariis.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Alio modo potest intelligi, quia eorum naturam et eorum
+<lb ed="#L" n="94"/>formam naturalem consequitur aliqua qualitas, cui qualitas
+<lb ed="#L" n="95"/>alterius corporis contrariatur. Et sic intelligitur. Nam ignis
+<lb ed="#L" n="96"/>naturam concomitatur siccitas et caliditas, quibus 
+humi<lb ed="#L" break="no" n="97"/>ditas et frigiditas aliorum corporum contrariatur. Nulla
+<lb ed="#L" n="98"/>autem huiusmodi qualitas naturam corporum caelestium
+<lb ed="#L" n="99"/>concomitatur.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>III. Circa probationem antecedentis  dubitatur. Nam
+<lb ed="#L" n="101"/>motus corporis caelestis ab occidente ad orientem videtur
+<lb ed="#L" n="102"/>contrariari motui eiusdem ab oriente ad occidentem: cum
+<lb ed="#L" n="103"/>sint ad loca maxime distantia. Ergo falsum est quod motui
+<lb ed="#L" n="104"/>corporum caelestium niLkil sit contrarium.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Confirmatur. Quia motui circulari contrariatur motus
+<lb ed="#L" n="106"/>rectus.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>2. Ad evidentiam huius considerandum, ex doctrina
+<lb ed="#L" n="108"/>Sancti Thomae I Caeli, lect. 8 , quod, cum motus circularis
+<lb ed="#L" n="109"/>sit ab eodem in idem, non possunt in ipso assignari duo
+<lb ed="#L" n="110"/>termini maxime distantes qui ipsum motum terminent 
+tan<lb ed="#L" break="no" n="111"/>quam terminus a quo et terminus ad quem: etsi enim
+<lb ed="#L" n="112"/>aliquod punctum maxime distet a termino a quo incipit
+<lb ed="#L" n="113"/>motus, quod scilicet ab ipso per diametrum distat, illud
+<lb ed="#L" n="114"/>tamen non est terminus talis motus, sed. medii rationem
+<lb ed="#L" n="115"/>habet. Quo fit ut talis motus non possit dici esse inter
+<lb ed="#L" n="116"/>contrarios terminos. Unde motus primi mobilis ab oriente
+<lb ed="#L" n="117"/>in occidentem non est ab istis punctis tanquam a termino
+<lb ed="#L" n="118"/>ad terminum, sed tanquam a termino ad medium, per quod
+<lb ed="#L" n="119"/>ipsum mobile ad orientem redit. Ex hoc sequitur quod
+<lb ed="#L" n="120"/>motus corporis caelestis non possunt sic inter se habere
+<lb ed="#L" n="121"/>diversitatem quod sint motus facti inter contrarios terminos,
+<lb ed="#L" n="122"/>sicut motus sursum et motus deorsum, quorum unus est
+<lb ed="#L" n="123"/>a medio ad circumferentiam, alius a circumferentia ad
+<lb ed="#L" n="124"/>medium: sed quia quod est terminus unius, est medium
+<lb ed="#L" n="125"/>alterius, ad quod contrariis viis perveniunt; sicut primum
+<lb ed="#L" n="126"/>mobile, quod movetur ab oriente, redit ad orientem per
+<lb ed="#L" n="127"/>occidentem transiens, qui est terminus motus a quo motus
+<lb ed="#L" n="128"/>planetarum incipit, et ad quem terminatur; et e converso
+<lb ed="#L" n="129"/>motus planetarum, incipiens ab occidente, transit per
+<lb ed="#L" n="130"/>orientem, quod est principium motus primi mobilis. Ad
+<lb ed="#L" n="131"/>illud autem quod est medium motus unius mobilis et
+<lb ed="#L" n="132"/>principium alterius, diversis viis ista mobilia perveniunt:
+<lb ed="#L" n="133"/>nam primum mobile, ab oriente versus occidentem per
+<pb ed="#L" n="245"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>hemisphaerium superius transiens, redit. ad orientem: per
+<lb ed="#L" n="2"/>hemisphaerium inferius; planeta autem, ad orientem per
+<lb ed="#L" n="3"/>hemisphaerium inferius transiens, per hemisphaerium 
+su<lb ed="#L" break="no" n="4"/>perius ad occidentem redit. Et sic ad orientem utroque |
+<lb ed="#L" n="5"/>motu pervenitur diversis viis. Quod non facit 
+contrarie<lb ed="#L" break="no" n="6"/>tatem motuum, sed diversitatem. Ideo illi motus corporum
+<lb ed="#L" n="7"/>caelestium non sunt contrarii, licet sint diversi.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Tangit etiam duas alias rationes Sanctus Thomas ibidem,
+<lb ed="#L" n="9"/>quare isti motus non sunt contrarii. Quarum una est, quia
+<lb ed="#L" n="10"/>illi motus non sunt super eisdem polis: cum videlicet unus
+<lb ed="#L" n="11"/>sit super polis mundi, alius vero super polis zodiaci.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Alia vero est, quia non sunt in eodem circulo, sed
+<lb ed="#L" n="13"/>motus planetarum est in inferioribus circulis: et per 
+con<lb ed="#L" break="no" n="14"/>sequens non sunt inter eosdem terminos, neque in eadem
+<lb ed="#L" n="15"/>distantia fiunt. Oportet autem contrarietatem attendi circa
+<lb ed="#L" n="16"/>eandem distantiam: ut patet in motibus rectis, quorum
+<lb ed="#L" n="17"/>contrarietas consistit in distantia centri et circumferentiae.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>3. Ad argumentum ergo, negatur quod motus corporum
+<lb ed="#L" n="19"/>caelestium ab occidente in orientem, rediens in occidentem,
+<lb ed="#L" n="20"/>sit contrarius motui circulari ab oriente in occidentem,
+<lb ed="#L" n="21"/>redeuntique in orientem.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Cum probatur quia sunt inter terminos maxime distantes:
+<lb ed="#L" n="23"/>— dicitur primo, quod hoc est falsum. Quia oriens est 
+ter<lb ed="#L" break="no" n="24"/>minus-a quo et terminus ad quem unius illorum motuum,
+<lb ed="#L" n="25"/>et occidens alterius.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Dicitur secundo quod, licet oriens et occidens 
+acci<lb ed="#L" break="no" n="27"/>piantur in eodem circulo tanquam duo termini maxime
+<lb ed="#L" n="28"/>distantes ut eorum distantia mensuratur diametro, quae
+<lb ed="#L" n="29"/>est maxima linea rectarum ab uno. puncto circumferentiae
+<lb ed="#L" n="30"/>ad aliud punctum ductarum; non sunt tamen maxime
+<lb ed="#L" n="31"/>distantes ut sunt termini motus facti super lineam curvam.
+<lb ed="#L" n="32"/>Immo, in motu primi mobilis, punctum quod, dum recedit
+<lb ed="#L" n="33"/>mobile ab occidente, magis appropinquat orientis puncto,
+<lb ed="#L" n="34"/>a quo primo recedit primum mobile, secundum distantiam
+<lb ed="#L" n="35"/>mensuratam linea curva, procedendo secundum ordinem
+<lb ed="#L" n="36"/>motus, magis distat a puncto orientis quam punctum 
+occi<lb ed="#L" break="no" n="37"/>dentis. Verbi gratia: sit circulus A B C D, ita quod A et C
+<lb ed="#L" n="38"/>diametraliter opponantur. Procedendo ab A ad B, et ad C,
+<lb ed="#L" n="39"/>et ad D, et postremo redeundo ad A, magis distat D ab A
+<lb ed="#L" n="40"/>quam C, quia maior est arcus inter A et D quam arcus
+<lb ed="#L" n="41"/>inter A et C. Sicut in zodiaco maior est distantia inter
+<lb ed="#L" n="42"/>principium Arietis et principium Capricorni, procedendo
+<lb ed="#L" n="43"/>ab Ariete ad Taurum, et successive, secundum ordinem
+<lb ed="#L" n="44"/>signorum, redeundo ad principium Arietis, quam inter
+<lb ed="#L" n="45"/>ipsum principium Arietis et principium Librae, quae 
+dia<lb ed="#L" break="no" n="46"/>metraliter opponuntur: maior est enim arcus inter 
+prin<lb ed="#L" break="no" n="47"/>cipium Arietis et principium Capricorni, secundum dictum
+<lb ed="#L" n="48"/>ordinem, quam sit arcus inter principium Arietis et 
+prin<lb ed="#L" break="no" n="49"/>cipium Librae, cum iste sit semicirculus, ille vero sit
+<lb ed="#L" n="50"/>maior semicirculo. Et, ut breviter dicatur, in circulo non
+<lb ed="#L" n="51"/>sunt duo termini maxime distantes, si eorum distantia
+<lb ed="#L" n="52"/>linea curva sive arcu mensuretur: nisi forte darentur duo
+<lb ed="#L" n="53"/>puncta immediata in circulo, quorum unus esset 
+princi<lb ed="#L" break="no" n="54"/>pium et alter esset finis; quod constat impossibile essc.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Dicitur tertio quod, posito quod, essent duo termini
+<lb ed="#L" n="56"/>maxime distantes, adhuc non sequitur tales motus esse
+<lb ed="#L" n="57"/>contrarios. Quia ultra hoc, requireretur quod illi motus
+<lb ed="#L" n="58"/>essent super eadem axe, et super eisdem polis, Quod in
+<lb ed="#L" n="59"/>proposito non contingit.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>4. Ad confirmationem  dicitur, secundum Sanctum
+<lb ed="#L" n="61"/>Thomam ibidem , quod, si motus rectus contrariatur
+<lb ed="#L" n="62"/>motui circulari, hoc est tantum ratione differentiarum
+<lb ed="#L" n="63"/>eiusdem generis: differentiae enim eiusdem generis sunt
+<lb ed="#L" n="64"/>contrariae, ut dicitur X Metaph. (secundum tamen quod
+<lb ed="#L" n="65"/>contrarietas accipitur pro excessu et defectu differentiarum
+<lb ed="#L" n="66"/>sub eodem genere, ut exponit Sanctus Thomas V 
+Physi<lb ed="#L" break="no" n="67"/>corum ). Non sunt autem contrarii isti motus ratione
+<lb ed="#L" n="68"/>specierum, secundum quod una species est alterius 
+cor<lb ed="#L" break="no" n="69"/>ruptiva, quo modo dicimus motui corporum caelestium
+<lb ed="#L" n="70"/>nihil esse contrarium. Non inconvenit enim isto modo
+<lb ed="#L" n="71"/>esse contrarietatem in corporibus caelestibus: sicut est
+<lb ed="#L" n="72"/>contrarietas secundum par et impar, et similia, licet ibi
+<lb ed="#L" n="73"/>non sit contrarietas corruptiva.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>IV. Circa probationem primae consequentiae , cum
+<lb ed="#L" n="75"/>declaratur ex conditione intellectus, attendendum est sen-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>sum illius declarationis esse quod, quia intellectus noster
+<lb ed="#L" n="77"/>est universalis in sua acceptione, hoc est, quod non 
+limi<lb ed="#L" break="no" n="78"/>tatur ad accipiendum magis hanc naturam limitatam quam
+<lb ed="#L" n="79"/>illam; immo etiam ipsam naturam generis absque omni
+<lb ed="#L" n="80"/>determinatione ad aliquam speciem apprehendere potest,
+<lb ed="#L" n="81"/>et potest perfici absque determinatione per aliquam 
+dif<lb ed="#L" break="no" n="82"/>ferentiam genus contrahentem: ideo species contrariorum
+<lb ed="#L" n="83"/>in ipso nullam habent contrarietatem, licet contraria 
+re<lb ed="#L" break="no" n="84"/>praesentent, Illimitatio enim et universalitas intellectus facit
+<lb ed="#L" n="85"/>ut sit ab omni contrarietate alienus, et ut in ipso omnia
+<lb ed="#L" n="86"/>intelligibilia, quantumcumque in propriis naturis sint 
+con<lb ed="#L" break="no" n="87"/>traria, congregari possint absque contrarietate. Et hoc 
+si<lb ed="#L" break="no" n="88"/>gnum est quod contrarietas alicuius naturae ad aliam 
+pro<lb ed="#L" break="no" n="89"/>venit ex limitatione ipsius per aliquam differentiam genus
+<lb ed="#L" n="90"/>contrahentem.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Attendendum tamen quod non ita intelligendum est
+<lb ed="#L" n="92"/>contrarietatem provenire ex differentiis limitantibus, quasi
+<lb ed="#L" n="93"/>omnes species quae differentiis eiusdem generis 
+constituun<lb ed="#L" break="no" n="94"/>tur, sint contrariae, aut habeant contrarias qualitates: sed
+<lb ed="#L" n="95"/>quia in illis speciebus in quibus huiusmodi contrarietas
+<lb ed="#L" n="96"/>invenitur, hoc ex ipsarum differentiis provenit. Ex hoc vero
+<lb ed="#L" n="97"/>sequitur quod natura quae est absque omni contrarietate
+<lb ed="#L" n="98"/>perfecta, est universalioris perfectionis et virtutis: quam
+<lb ed="#L" n="99"/>natura quae in aliqua contrarietate perficitur. Nam si 
+con<lb ed="#L" break="no" n="100"/>trarietas sequitur limitationem naturae per aliquam 
+dif<lb ed="#L" break="no" n="101"/>ferentiam, sequitur quod natura quae est ab omni 
+con<lb ed="#L" break="no" n="102"/>trarietate remota, nulla illarum differentiarum sit limitata
+<lb ed="#L" n="103"/>ex quibus contrarietas provenit, sed sit supra omnes 
+hu<lb ed="#L" break="no" n="104"/>iusmodi naturas et differentias; et per consequens quod
+<lb ed="#L" n="105"/>non sit limitata ad operationem unius talium naturarum
+<lb ed="#L" n="106"/>tantum, puta ignis aut aeris, sed sua virtute uniuscuiusque
+<lb ed="#L" n="107"/>talium naturarum excedat, et sic sit universalioris virtutis.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>V. Quarto . Corpora caelestia sunt similiora substantiis
+<lb ed="#L" n="109"/>separatis quam alia. corpora, inquantum sunt 
+incorrupti<lb ed="#L" break="no" n="110"/>bilia; et sunt eis propinquiora, inquantum ab eis 
+imme<lb ed="#L" break="no" n="111"/>diate moventur. Ergo etc. — Probatur consequentia. Quia
+<lb ed="#L" n="112"/>per substantias intellectuales omnia alia reguntur.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Quinto. Quae magis accedunt ad immobilitatem, debent
+<lb ed="#L" n="114"/>esse aliorum motiva: quia primum principium motus oportet
+<lb ed="#L" n="115"/>esse aliquod immobile. Corpora caelestia sunt magis 
+immo<lb ed="#L" break="no" n="116"/>bilia quam inferiora: inquantum una tantum specie motus
+<lb ed="#L" n="117"/>moventur, scilicet motu locali, inferiora vero omnibus 
+spe<lb ed="#L" break="no" n="118"/>ciebus motus moventur. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>2. Sexto . Motus caeli est primus inter omnes alios
+<lb ed="#L" n="120"/>motus. Ergo est causa omnium aliorum motuum. - 
+Pro<lb ed="#L" break="no" n="121"/>batur consequentia. Quia primum in quolibet genere est
+<lb ed="#L" n="122"/>causa eorum quae sunt post.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Antecedens probatur. Quia motus localis primus est
+<lb ed="#L" n="124"/>inter omnes motus, tempore, natura et perfectione. Et
+<lb ed="#L" n="125"/>similiter circularis est primus inter motus locales. Et solus
+<lb ed="#L" n="126"/>motus caeli invenitur regularis et uniformis. — Prima pars
+<lb ed="#L" n="127"/>probatur. Quia motus localis solus potest esse perpetuus,
+<lb ed="#L" n="128"/>ut dicitur VIII Phys., text. 54. Et sine ipso non potest
+<lb ed="#L" n="129"/>esse aliquis aliorum motuum: ut patet discurrendo per
+<lb ed="#L" n="130"/>species motus. Et non variat rem secundum aliquid ei
+<lb ed="#L" n="131"/>inhaerens, scilicet absolutum, sed tantum secundum 
+extrin<lb ed="#L" break="no" n="132"/>secum, scilicet secundum locum: et ideo est rei iam 
+per<lb ed="#L" break="no" n="133"/>fectae. — Secunda vero pars probatur. Quia solus 
+circu<lb ed="#L" break="no" n="134"/>laris motus potest esse perpetuus, ut probatur VIII PA's.,
+<lb ed="#L" n="135"/>text. 64. Et est magis simplex et unus: cum non 
+distin<lb ed="#L" break="no" n="136"/>guatur in principium, medium et finem, sed totus sit quasi
+<lb ed="#L" n="137"/>medium; et reflectatur ad principium, — Tertia vero pars
+<lb ed="#L" n="138"/>probatur ex comparatione ad motus gravium et levium, qui
+<lb ed="#L" n="139"/>intenduntur in fine.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>Circa probationem antecedentis, considerandum primo,
+<lb ed="#L" n="141"/>quod prius natura aliquando accipitur ut distinguitur 
+con<lb ed="#L" break="no" n="142"/>tra prius duratione: et sic tam prius ordine generationis,
+<lb ed="#L" n="143"/>quam prius perfectione, dicitur prius natura. Aliquando
+<lb ed="#L" n="144"/>vero ut distinguitur contra prius ordine generationis: ut,
+<lb ed="#L" n="145"/>inquam, idem est quod prius perfectione. Cum. dicitur
+<lb ed="#L" n="146"/>hic quod motus localis est naturaliter prior, datur 
+intel<lb ed="#L" break="no" n="147"/>ligi quod accipitur prius natura primo modo, non autem
+<lb ed="#L" n="148"/>secundo modo, cum distinguatur contra prius perfectione:
+<lb ed="#L" n="149"/>sic enim ordine praesuppositionis motus localis est prior,
+<lb ed="#L" n="150"/>inquantum ab omnibus aliis motibus praesupponitur.
+</p>
+            <p>
+               <pb ed="#L" n="246"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Considerandum secundo, quod motus circularis dicitur
+<lb ed="#L" n="2"/>esse totus quasi medium, non autem dividi in principium,
+<lb ed="#L" n="3"/>medium et finem, quia in motu locali circulari non est
+<lb ed="#L" n="4"/>accipere aliquod signum a quo incipiat totum mobile 
+re<lb ed="#L" break="no" n="5"/>cedere, et aliquod ad quod ultimo perveniat: cum totum
+<lb ed="#L" n="6"/>simul mutet locum secundum rationem, non autem 
+se<lb ed="#L" break="no" n="7"/>cundum rem; et in circulo nullum punctum sit principium
+<lb ed="#L" n="8"/>et nullum sit finis, nisi secundum signationem intellectus.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>VI. Sed circa praedicta multiplex dubium occurrit. 
+Pri<lb ed="#L" break="no" n="10"/>mum est. Motus accipit dignitatem et perfectionem a 
+ter<lb ed="#L" break="no" n="11"/>mino ad quem: ut vult Sanctus Thomas Prima, q. xLv,
+<lb ed="#L" n="12"/>a. 1, ad 2. Sed terminus ad quem motus localis non est
+<lb ed="#L" n="13"/>perfectior termino ad quem aliorum motuum, et praesertim
+<lb ed="#L" n="14"/>generationis. Ergo non est perfectior aliis motibus, ut 
+di<lb ed="#L" break="no" n="15"/>cebatur.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Secundum est. Ubi non sunt extrema, ibi non est
+<lb ed="#L" n="17"/>medium: cum medium non dicatur nisi in ordine ad
+<lb ed="#L" n="18"/>extrema. Ergo, si motus circularis non dividitur in 
+prin<lb ed="#L" break="no" n="19"/>cipium, medium et finem, non poterit dici totus habere
+<lb ed="#L" n="20"/>rationem medii.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Tertium est. Motus qui non habet principium et finem,
+<lb ed="#L" n="22"/>est perpetuus. Ergo, si motus circularis non habet 
+prin<lb ed="#L" break="no" n="23"/>cipium et finem, omnis motus circularis erit perpetuus.
+<lb ed="#L" n="24"/>Hoc est falsum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Quartum est . Motus circularis semper est in fine, ut
+<lb ed="#L" n="26"/>dicitur I Meteororum. Ergo falsum est quod non dividitur
+<lb ed="#L" n="27"/>in principium et finem.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>VII. Ad primum horum respondent quidam quod motus
+<lb ed="#L" n="29"/>dupliciter accipi potest: uno modo, quantum ad entitatem
+<lb ed="#L" n="30"/>suam, secundum quam est, et secundum quam est idem
+<lb ed="#L" n="31"/>termino; alio modo, secundum suam formalem rationem.
+<lb ed="#L" n="32"/>Si primo modo accipiatur, sic conceditur quod motus 
+lo<lb ed="#L" break="no" n="33"/>calis non est perfectior aliis. - Si autem accipiatur secundo
+<lb ed="#L" n="34"/>modo, sic est aliis perfectior. Quia, cum motus ad suum
+<lb ed="#L" n="35"/>terminum comparetur sicut potentia ad actum, et sicut
+<lb ed="#L" n="36"/>imperfectum ad perfectum; quanto terminus est 
+imperfe<lb ed="#L" break="no" n="37"/>ctior, tanto motus est perfectior, quia est privatio 
+mi<lb ed="#L" break="no" n="38"/>noris perfectionis; sicut, quanto terminus est perfectior,
+<lb ed="#L" n="39"/>tanto motus est imperfectior, utpote maioris perfectionis
+<lb ed="#L" n="40"/>privatio.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>2. Sed licet ista responsio sit doctissimorum virorum,
+<lb ed="#L" n="42"/>Capreoli scilicet, in II Sent., d. xiv, et Pauli Soncinatis,
+<lb ed="#L" n="43"/>VII Metaph., q. xxv, non videtur tamen mihi vera, neque
+<lb ed="#L" n="44"/>ad mentem Philosophi et Sancti Thomae esse. Nam a
+<lb ed="#L" n="45"/>quocumque aliquid habet speciem, ab eo accipit 
+dignita<lb ed="#L" break="no" n="46"/>tem et perfectionem sibi ex sua ratione convenientem:
+<lb ed="#L" n="47"/>cum perfectio essentialis rei in speciei perfectione 
+con<lb ed="#L" break="no" n="48"/>sistat. Constat autem ex V Phys. , quod motus a termino
+<lb ed="#L" n="49"/>ad quem speciem accipit. Ergo et ab ipso perfectionem
+<lb ed="#L" n="50"/>capit. Si ergo terminus ad quem motus localis est 
+imper<lb ed="#L" break="no" n="51"/>fectior terminis aliarum muutationum, non potest motus
+<lb ed="#L" n="52"/>localis secundum suam formalem rationem esse aliis 
+mu<lb ed="#L" break="no" n="53"/>tationibus perfectior. Et sic repugnant quod, inquantum
+<lb ed="#L" n="54"/>est idem termino, sit imperfectior aliis; et quod 
+secun<lb ed="#L" break="no" n="55"/>dum suam propriam rationem, sit perfectior.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>3. Propterea dicendum mihi videtur quod, cum motus
+<lb ed="#L" n="57"/>dicat respectum ad mobile, et ad terminum motus, eo quod
+<lb ed="#L" n="58"/>sit actus mobilis inquantum mobile est , sive inquantum
+<lb ed="#L" n="59"/>ad terminum motus tendit, dupliciter possumus de eius
+<lb ed="#L" n="60"/>perfectione loqui: uno modo, de ea quae sibi convenit
+<lb ed="#L" n="61"/>ex ordine ad terminum motus; alio. modo de ea quae sibi
+<lb ed="#L" n="62"/>convenit ex ordine ad subiectum. Prima sibi convenit 
+forma<lb ed="#L" break="no" n="63"/>liter et ex propria ratione: utpote sibi conveniens ex eo a
+<lb ed="#L" n="64"/>quo, inquantum est motus, speciem accipit. Secunda vero
+<lb ed="#L" n="65"/>sibi convenit materialiter et extrinsece: utpote sibi 
+conve<lb ed="#L" break="no" n="66"/>niens ex mobili, quod est materia eius. Si ergo quantum
+<lb ed="#L" n="67"/>ad formalem eius perfectionem consideretur loci mutatio,
+<lb ed="#L" n="68"/>sic non est aliis mutationibus perfectior, sed imperfectior.
+<lb ed="#L" n="69"/>— Si vero quantum ad sui materialem et extrinsecam 
+per<lb ed="#L" break="no" n="70"/>fectionem ; consideretur, sic aliis mutationibus perfectior
+<lb ed="#L" n="71"/>est: quod est dictu quod eius subiectum substantiis alio:
+<lb ed="#L" n="72"/>rum perfectius et actualius est. Nam motus localis requirit
+<lb ed="#L" n="73"/>subiectum. suum, inquantum huiusmodi, in potentia aut
+<lb ed="#L" n="74"/>ad aliquid. extrinsecum tantum, scilicet ad locum; aut in
+<lb ed="#L" n="75"/>potentia ad ubi, quod relationem dicit; non autem in po-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>tentia ad aliquam formam absolutam intrinsecam. Omnes
+<lb ed="#L" n="77"/>autem aliae mutationes requirunt subiectum in potentia ad
+<lb ed="#L" n="78"/>formam intrinsecam, aut substantialem aut accidentalem:
+<lb ed="#L" n="79"/>cum varient subiectum de forma in formam.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Primum dictum ostenditur primo, auctoritate Sancti '
+Tho<lb ed="#L" break="no" n="81"/>mae, Prima Parte, loco allegato , ubi, de mutationibus 
+for<lb ed="#L" break="no" n="82"/>maliter sumptis loquens, vult quod motus dignitatem et
+<lb ed="#L" n="83"/>perfectionem a termino ad quem accipit. - Secundo etiam
+<lb ed="#L" n="84"/>ostenditur ex QQ. Mali, q. xvi, a. 10. Ibi enim, ex ordine
+<lb ed="#L" n="85"/>motuum qui eis secundum propriam rationem convenit,
+<lb ed="#L" n="86"/>arguit substantiam spiritualem posse movere corpora 
+loca<lb ed="#L" break="no" n="87"/>liter, licet ea formaliter movere non possit, quia effectus
+<lb ed="#L" n="88"/>debiles possunt fieri immediate a remotiori agente. Constat
+<lb ed="#L" n="89"/>enim in hac ratione includi quod loci mutatio, secundum
+<lb ed="#L" n="90"/>suam rationem, et debilior et imperfectior est aliis 
+muta<lb ed="#L" break="no" n="91"/>tionibus.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Secundum vero dictum probatur quia Aristoteles, VIII
+<lb ed="#L" n="93"/>Phys., text. 58, hunc motum aliis perfectiorem esse ex
+<lb ed="#L" n="94"/>subiecti perfectione declarat. Unde Commentator hoc modo
+<lb ed="#L" n="95"/>eius rationem format: Translatio est rei perfectioris. Sed
+<lb ed="#L" n="96"/>quod est rei perfectioris, est perfectius. Ergo etc. Constat
+<lb ed="#L" n="97"/>enim quod ista propositio, Quod est rei perfectioris, est
+<lb ed="#L" n="98"/>perfectius, habet veritatem de perfectione materiali formae.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Utrumque postremo dictum simul ostenditur ex 
+respon<lb ed="#L" break="no" n="100"/>sione quam dat Sanctus Thomas ad primum argumentum,
+<lb ed="#L" n="101"/>loco allegato in QQ. de Malo. Nam cum arguisset 
+sub<lb ed="#L" break="no" n="102"/>stantiam spiritualem non posse movere localiter corpora,
+<lb ed="#L" n="103"/>quia motus localis est aliis perfectior, non potest autem
+<lb ed="#L" n="104"/>aliis mutationibus movere: respondet quod motus localis
+<lb ed="#L" n="105"/>est perfectior propter perfectionem mobilis, in quo 
+secun<lb ed="#L" break="no" n="106"/>dum ipsum minima fit variatio. Manifestum est enim hanc
+<lb ed="#L" n="107"/>responsionem ad hoc tendere, quod motus localis non est
+<lb ed="#L" n="108"/>formaliter et simpliciter perfectior, sed tantum secundum
+<lb ed="#L" n="109"/>quid et materialiter. Propterea VIII Phys., in expositione
+<lb ed="#L" n="110"/>textus 59 , formans rationem Aristotelis, ait: Quanto 
+ali<lb ed="#L" break="no" n="111"/>quis motus minus removet a mobili, tanto subiectum eius est
+<lb ed="#L" n="112"/>perfectius, et sic ipse motus etiam est perfectior 
+quodam<lb ed="#L" break="no" n="113"/>modo. Motus localis est huiusmodi. Ergo etc. Ex his enim
+<lb ed="#L" n="114"/>patet quod vult loci mutationem esse, non formaliter et
+<lb ed="#L" n="115"/>simpliciter aliis perfectiorem, sed secundum quid et 
+ma<lb ed="#L" break="no" n="116"/>terialiter: cum proponat motum qui minus removet a
+<lb ed="#L" n="117"/>subiecto, habere subiectum perfectius, et ex hoc ipsum esse
+<lb ed="#L" n="118"/>perfectiorem quodammodo.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>3. Ad rationem vero alterius opinionis , dicitur quod
+<lb ed="#L" n="120"/>super falso fundatur, scilicet quod motus non sit aliud
+<lb ed="#L" n="121"/>quam privatio termini. Hoc enim falsissimum est. Nam
+<lb ed="#L" n="122"/>motus non est formaliter privatio, sed actus subiecti 
+pri<lb ed="#L" break="no" n="123"/>vati termino motus, et per motum tendentis ad illum.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>VIII. Sed circa hanc determinationem duplex occurrit
+<lb ed="#L" n="125"/>dubium. Primum est. Motus primi mobilis est mensura 
+om<lb ed="#L" break="no" n="126"/>nium aliorum motuum: ut patet X Metaph., text. 4. Sed
+<lb ed="#L" n="127"/>unumquodque mensuratur primo et perfectissimo sui 
+ge<lb ed="#L" break="no" n="128"/>neris. Ergo talis motus est secundum suam rationem prior
+<lb ed="#L" n="129"/>et perfectior aliis motibus, et non tantum materialiter, 
+ra<lb ed="#L" break="no" n="130"/>tione subiecti. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Secundum -est. Probat Sanctus Thomas, et hic et in
+<lb ed="#L" n="132"/>plerisque aliis locis, quod omnes motus corporales 
+redu<lb ed="#L" break="no" n="133"/>cuntur in motum corporum caelestium sicut in causam,
+<lb ed="#L" n="134"/>quia motus localis est aliis prior tempore, natura, et 
+per<lb ed="#L" break="no" n="135"/>fectione . Sed esse causam aliorum videtur sibi ex propria
+<lb ed="#L" n="136"/>ratione convenire: cum ab ipso habeat corpus caeleste quod
+<lb ed="#L" n="137"/>aliorum motuum sit causa; nam, apud Sanctum Thomam,
+<lb ed="#L" n="138"/>cessante motu caeli, omnes alii motus naturales cessabunt .
+<lb ed="#L" n="139"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>2. Ad primum respondetur quod duplex quantitas in
+<lb ed="#L" n="141"/>motu considerari potest, secundum quam sibi potest attribui
+<lb ed="#L" n="142"/>mensurari. Una est quantitas essentialis et quidditativa,
+<lb ed="#L" n="143"/>secundum quam in genere entium et in genere motus
+<lb ed="#L" n="144"/>determinatum gradum tenet. Alia est quantitas velocitatis
+<lb ed="#L" n="145"/>et tarditatis, inquantum videlicet in maiori aut minori
+<lb ed="#L" n="146"/>tempore tantum de spatio pertransitur: secundum quam
+<lb ed="#L" n="147"/>dicitur determinatum gradum in velocitate tenere. Si 
+lo<lb ed="#L" break="no" n="148"/>quamur de motu quantum ad eius primam. quantitatem,
+<lb ed="#L" n="149"/>sic non est verum quod omnes alii motus loci mutatione
+<lb ed="#L" n="150"/>mensurentur, sed omnium ipsorum generatio est men-
+<pb ed="#L" n="247"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sura: cognoscitur enim quae mutatio sit formaliter et
+<lb ed="#L" n="2"/>quidditative perfectior aut imperfectior, ex eo quod magis
+<lb ed="#L" n="3"/>aut minus ad perfectionem generationis appropinquat. 
+<lb ed="#L" n="4"/>Si vero de motu loquamur quantum ad aliam eius 
+quan<lb ed="#L" break="no" n="5"/>titatem, sic omnes alii motus motu locali primi mobilis
+<lb ed="#L" n="6"/>mensurantur, tanquam videlicet motu velocissimo et 
+sim<lb ed="#L" break="no" n="7"/>plicissimo. Sed ista perfectio non convenit sibi ex absoluta
+<lb ed="#L" n="8"/>motus localis ratione, sed ex eo quod est primi mobilis
+<lb ed="#L" n="9"/>motus, cui convenit quod velocissime et simplicissime
+<lb ed="#L" n="10"/>moveatur. Ideo non sequitur quod ex sua formali ratione
+<lb ed="#L" n="11"/>sit aliis perfectior, sed tantum materialiter et ex subiecto.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>3. Ad secundum similiter dicitur quod convenit motui
+<lb ed="#L" n="13"/>corporis caelestis esse causam aliorum, non ex formali
+<lb ed="#L" n="14"/>motus ratione, sed ex perfectione subiecti. Quia enim 
+re<lb ed="#L" break="no" n="15"/>quirit subiectum in potentia tantum ad ubi, non autem
+<lb ed="#L" n="16"/>ad aliam formam intrinsecam absolutam, ideo solus potest
+<lb ed="#L" n="17"/>convenire primo corpori caelesti, quod suo motu est 
+om<lb ed="#L" break="no" n="18"/>nium aliorum motuum causa. Unde minor assumpta est
+<lb ed="#L" n="19"/>falsa. — Ad cuius probationem, dicitur quod non habet
+<lb ed="#L" n="20"/>corpus caeleste a motu quod sit aliorum motuum causa
+<lb ed="#L" n="21"/>tanquam a forma per quam agat, sed tanquam a 
+dispo<lb ed="#L" break="no" n="22"/>sitione sibi ad hoc ut moveat necessaria: quia proprium
+<lb ed="#L" n="23"/>est corporis ut non agat actione sibi conveniente 
+inquan<lb ed="#L" break="no" n="24"/>tum corpus-est, nisi moveatur. Et propter hoc, cessante
+<lb ed="#L" n="25"/>motu, cessat illa caelestis corporis actio.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>IX. Ad secundum dubium  dicitur quod non inquit
+<lb ed="#L" n="27"/>Sanctus Thomas totum motum esse medium absolute, sed
+<lb ed="#L" n="28"/>quasi medium: quia videlicet non est proprie medium,
+<lb ed="#L" n="29"/>eo quod non habeat principium neque finem in 
+magnitu<lb ed="#L" break="no" n="30"/>dine quae pertransitur, ut arguebatur; sed habet quandam
+<lb ed="#L" n="31"/>similitudinem medii, inquantum est aliquod extensum.
+<lb ed="#L" n="32"/>Sicut enim extensum in linea, quod est inter indivisibilia
+<lb ed="#L" n="33"/>ad quae linea terminatur, est medium inter illa, ita totus
+<lb ed="#L" n="34"/>motus circularis consideratur ut extensio quaedam motus,
+<lb ed="#L" n="35"/>et ideo quandam medii similitudinem habet. Deficit tamen
+<lb ed="#L" n="36"/>a propria ratione medii: inquantum non est in ipso 
+ac<lb ed="#L" break="no" n="37"/>cipere duo extrema in actu quibus terminetur, sicut et in
+<lb ed="#L" n="38"/>circulo nulla sunt talia duo extrema.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>2. Ad tertium dubium  dicitur quod, licet motus 
+cir<lb ed="#L" break="no" n="40"/>cularis non habeat principium et finem per 
+comparatio<lb ed="#L" break="no" n="41"/>nem ad magnitudinem super quam fit motus, habet tamen
+<lb ed="#L" n="42"/>principium et finem durationis, secundum quod ad 
+divi<lb ed="#L" break="no" n="43"/>sionem temporis dividitur: est enim aliquod instans a quo
+<lb ed="#L" n="44"/>incipit corpus circulare moveri, et aliquod instans ad quod
+<lb ed="#L" n="45"/>eius motus terminetur. Ideo non sequitur quod omnis 
+mo<lb ed="#L" break="no" n="46"/>tus circularis sit perpetuus.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>3. Ad quartum dubium dicitur, de mente Aristotelis
+<lb ed="#L" n="48"/>VIII Phys., quod motus circularis potest dici semper esse
+<lb ed="#L" n="49"/>in principio, in medio, et in fine: quia in magnitudine
+<lb ed="#L" n="50"/>circulari quodlibet punctum potest accipi ut principium
+<lb ed="#L" n="51"/>et ut medium et ut finis, eo quod nullum sit punctum
+<lb ed="#L" n="52"/>in tali linea quod sit actu principium aut finis. Sed 
+se<lb ed="#L" break="no" n="53"/>cundum nostram signationem, potest signari aliqua pars
+<lb ed="#L" n="54"/>mobilis, et in loco continente signari aliquod punctum
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="55"/>principio illius partis correspondens; et sic dicere quod
+<lb ed="#L" n="56"/>mobile incipit a tali signo magnitudinis moveri; eritque
+<lb ed="#L" n="57"/>signum illud principium a quo incipit motus secundum
+<lb ed="#L" n="58"/>signationem nostram, non secundum rem. Cum ergo hic
+<lb ed="#L" n="59"/>dicitur quod motus circularis non habet principium neque
+<lb ed="#L" n="60"/>finem, intelligitur secundum rem: inquantum quod 
+circu<lb ed="#L" break="no" n="61"/>lariter movetur semper in eodem loco reali manet 
+se<lb ed="#L" break="no" n="62"/>cundum rem, non estque ex parte magnitudinis aliquod
+<lb ed="#L" n="63"/>principium aut aliquis finis in actu. Quod vero dicitur
+<lb ed="#L" n="64"/>ipsum semper esse in fine, in 1 Meteororum, intelligitur
+<lb ed="#L" n="65"/>quantum ad potentialem signationem nostram, secundum
+<lb ed="#L" n="66"/>quam possumus quodlibet punctum magnitudinis accipere
+<lb ed="#L" n="67"/>tanquam principium et tanquam finem motus alicuius
+<lb ed="#L" n="68"/>partis mobilis.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>X. Septimo . Corpora caelestia sola inter corporalia sunt
+<lb ed="#L" n="70"/>inalterabilia: scilicet alteratione corruptiva. Ergo sunt causa
+<lb ed="#L" n="71"/>omnis alterationis. Ergo sunt causa omnis motus in istis
+<lb ed="#L" n="72"/>inferioribus.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Probatur prima consequentia. Quia sicut se habet 
+im<lb ed="#L" break="no" n="74"/>mobile simpliciter ad motum simpliciter, ita immobile 
+se<lb ed="#L" break="no" n="75"/>cundum hunc motum, ad motum talem: quando scilicet
+<lb ed="#L" n="76"/>tali immobili convenit movere. Immobile autem  
+simpli<lb ed="#L" break="no" n="77"/>citer est causa omnis motus.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Secunda vero consequentia probatur. Quia alteratio in
+<lb ed="#L" n="79"/>istis inferioribus est causa omnis motus: cum per ipsam
+<lb ed="#L" n="80"/>perveniatur ad augmentum et generationem; generans
+<lb ed="#L" n="81"/>vero sit motor per se in motu gravium et levium.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>2. Adverte quod motus inferiorum dupliciter possunt
+<lb ed="#L" n="83"/>comparari: uno modo, in ordine ad unum et idem; alio
+<lb ed="#L" n="84"/>modo, in ordine ad diversa. - In ordine ad unum et idem,
+<lb ed="#L" n="85"/>etiam duobus modis considerari possunt: uno modo, 
+se<lb ed="#L" break="no" n="86"/>cundum quod illi attribuuntur sicut causae; alio modo,
+<lb ed="#L" n="87"/>secundum quod sibi attribuuntur sicut mobili.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Si considerentur secundum quod uni attribuuntur in
+<lb ed="#L" n="89"/>ratione causae alterius, sic generans gravia hunc ordinem
+<lb ed="#L" n="90"/>habet, quod primo alterat materiam ex qua debet grave
+<lb ed="#L" n="91"/>generari; secundo, generat grave; tertio, dat motum 
+1lo<lb ed="#L" break="no" n="92"/>calem. Et sic alteratio alios motus praecedit — Si autem
+<lb ed="#L" n="93"/>uni attribuantur in ratione mobilis, ita quod sit unum et
+<lb ed="#L" n="94"/>idem mobile omnibus illis motibus, generatio omnes alios
+<lb ed="#L" n="95"/>motus praecedit. Omnes enim motus, scilicet alterationis
+<lb ed="#L" n="96"/>et augmenti et localis, praesupponunt subiectum suum in
+<lb ed="#L" n="97"/>actu; hoc autem fit per generationem.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Si autem isti motus in diversis mobilibus considerentur,
+<lb ed="#L" n="99"/>sic motus localis praecedit alterationem: quia non potest
+<lb ed="#L" n="100"/>aliquid de novo alterari, nisi alterans et alteratum fiant
+<lb ed="#L" n="101"/>propinqua, quod non fit sine motu locali aut alterantis aut
+<lb ed="#L" n="102"/>alterati. Alteratio vero praecedit generationem: quia non
+<lb ed="#L" n="103"/>potest aliquid generari nisi prius per alterationem 
+dispo<lb ed="#L" break="no" n="104"/>natur propria materia, ex qua debet generari. Generationem
+<lb ed="#L" n="105"/>vero alii motus sequuntur.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Ordo ergo motuum hic assignatus in istis inferioribus,
+<lb ed="#L" n="107"/>qui est de mente Aristotelis VIII Phys., intelligitur 
+se<lb ed="#L" break="no" n="108"/>cundum quod in mobilibus considerantur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

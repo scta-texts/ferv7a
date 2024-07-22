@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 41</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 41</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="104"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2043"><!-- ferv7a-l3c41 -->
+            <head>Capitulum 41</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="63" type="fixed=104"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="64"/>QUARTO ostendit Sanctus Thomas quod felicitas 
+ho<lb ed="#L" break="no" n="65"/>minis non consistit in cognitione Dei habita ex 
+quid<lb ed="#L" break="no" n="66"/>ditativa cognitione substantiarum separatarum.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Circa hoc autem duo facit: primo ostendit, discurrendo
+<lb ed="#L" n="68"/>per philosophorum positiones, quod homo in statu viae
+<lb ed="#L" n="69"/>non potest substantias separatas quidditative cognoscere ;
+<lb ed="#L" n="70"/>secundo, declarat quod in cognitione substantiarum 
+sepa<lb ed="#L" break="no" n="71"/>ratarum qualem illi philosophi posuerunt, non consistit
+<lb ed="#L" n="72"/>humana felicitas, cap. xrrv.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Circa primum duo facit: primo, proponit intentum;
+<lb ed="#L" n="74"/>secundo, exequitur propositum, in hocmet capitulo.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>I. Quantum ad primum, notat primo, ex superius ostensis
+<lb ed="#L" n="76"/>in secundo libro, quod substantiae separatae, ex eo quod
+<lb ed="#L" n="77"/>Deus est ipsarum causa, cognoscendo suam essentiam,
+<lb ed="#L" n="78"/>quae est quaedam Dei similitudo, cognoscunt ipsum Deum
+<lb ed="#L" n="79"/>per modum cuiusdam visionis: eo quod res illa per 
+in<lb ed="#L" break="no" n="80"/>tellectum .modo visionis cognoscatur cuius similitudo in
+<lb ed="#L" n="81"/>intellectu existit, ut patet ex visu corporali.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Notat secundo, tanquam ex praecedentibus sequens,
+<lb ed="#L" n="83"/>quod quicumque intellectus apprehendit quidditative 
+sub<lb ed="#L" break="no" n="84"/>stantiam separatam, videt Deum altiori modo quam aliqua
+<lb ed="#L" n="85"/>praedictarum cognitionum cognoscatur: idest, quam 
+com<lb ed="#L" break="no" n="86"/>muni ipsius cognitione quae omnibus adest; et cognitione
+<lb ed="#L" n="87"/>demonstrativa;'et cognitione per fidem.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Notat tertio quod, quia quidam posuerunt ultimam 
+fe<lb ed="#L" break="no" n="89"/>licitatem. hominis. esse in hac vita per hoc quod cognoscit
+<lb ed="#L" n="90"/>substantias separatas, considerandum est utrum homo in
+<lb ed="#L" n="91"/>hac vita possit pervenire ad cognoscendum substantias
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="92"/>separatas ex phantasmatibus, qui est modus sibi proprius
+<lb ed="#L" n="93"/>in hac vita, Si enim hoc possit, possibile erit quod aliquis
+<lb ed="#L" n="94"/>in hac vita intelligat substantias separatas; et per 
+conse<lb ed="#L" break="no" n="95"/>quens, videndo ipsas, participabit modum illius cognitionis
+<lb ed="#L" n="96"/>quo substantia separata, intelligens se, intelligit Deum.
+<lb ed="#L" n="97"/>Si autem illud non possit, non erit possibile ut homo in
+<lb ed="#L" n="98"/>statu viae praedictum. modum divinae cognitionis 
+asse<lb ed="#L" break="no" n="99"/>quatur.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>2. Circa primum dictum, considerandum quod rem videri
+<lb ed="#L" n="101"/>per intellectum dupliciter dicitur. Quandoque enim idem
+<lb ed="#L" n="102"/>est quod ipsius essentiam perfecte ut in se est cognosci.
+<lb ed="#L" n="103"/>Aliquando vero, prout distinguitur contra cognosci per
+<lb ed="#L" n="104"/>relationem alterius et per auditum: et sic, cognosci per.
+<lb ed="#L" n="105"/>similitudinem. sui existentem in intellectu est videri. Cum
+<lb ed="#L" n="106"/>ergo hic dicitur quod substantia separata, cognoscendo
+<lb ed="#L" n="107"/>se, cognoscit Deum per modum visionis, non accipit -
+vi<lb ed="#L" break="no" n="108"/>sionem primo modo, quia, ut alibi  ostendit, substantia
+<lb ed="#L" n="109"/>creata. naturali cognitione non potest videre divinam 
+es<lb ed="#L" break="no" n="110"/>sentiam ut in se est: sed accipit visionem secundo modo,
+<lb ed="#L" n="111"/>ut scilicet cognoscere Deum modo visionis, distinguitur
+<lb ed="#L" n="112"/>contra cognoscere ipsum per fidem, quod est per auditum
+<lb ed="#L" n="113"/>cognoscere, de quo. modo tractatum est in praecedenti
+<lb ed="#L" n="114"/>capitulo.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>3. Circa secundum et tertium dictum, advertendum quod,
+<lb ed="#L" n="116"/>sicut videns aliquid in quo aliud repraesentatur, videt et
+<lb ed="#L" n="117"/>ipsum repraesentatum, licet videat ipsum in alio, non in
+<lb ed="#L" n="118"/>se; sicut videns speculum. videt ea quae in speculo 
+re<lb ed="#L" break="no" n="119"/>praesentantur: ita cognoscens per intellectum aliquam. es-
+<pb ed="#L" n="105"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sentiam perfecte quae est alterius intelligibilis naturalis
+<lb ed="#L" n="2"/>similitudo, cognoscit etiam ea quae: per talem essentiam
+<lb ed="#L" n="3"/>repraesentantur, dum ipsa essentia et ut re cognita, et ut
+<lb ed="#L" n="4"/>ratione cognoscendi utitur; sicut, quia divina essentia est
+<lb ed="#L" n="5"/>similitudo omnium creaturarum repraesentativa, ideo Deus,
+<lb ed="#L" n="6"/>suam essentiam intuendo, omnia alia intuetur. Quia ergo
+<lb ed="#L" n="7"/>substantiae separatae essentia est quaedam similitudo Dei,
+<lb ed="#L" n="8"/>per cuius inspectionem ipsa. substantia separata Deum
+<lb ed="#L" n="9"/>naturali cognitione cognoscit; ideo, si intellectus humanus
+<lb ed="#L" n="10"/>in via ad hoc perveniat quod ipsam essentiam substantiae
+<lb ed="#L" n="11"/>separatae perfecte cognoscat, ipsum etiam Deum, 
+natura<lb ed="#L" break="no" n="12"/>liter per essentiam substantiae separatae repraesentatum,
+<lb ed="#L" n="13"/>cognoscet.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Propterea in secundo dicto inquit Sanctus Thomas quod
+<lb ed="#L" n="15"/>quicumque intellectus apprehendit substantiam separatam
+<lb ed="#L" n="16"/>cognoscendo de ipsa quid est, videt Deum altiori modo
+<lb ed="#L" n="17"/>quam fide et demonstratione cognoscatur: quia videlicet
+<lb ed="#L" n="18"/>cognoscere ipsum secundum quod per essentiam 
+sub<lb ed="#L" break="no" n="19"/>stantiae separatae repraesentatur intellectui cognoscentis,
+<lb ed="#L" n="20"/>est cognoscere ipsum altius quam per creaturas sensibiles,
+<lb ed="#L" n="21"/>et per auditum ab aliis.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>In tertio quoque dicto ait quod intellectus noster, 
+vi<lb ed="#L" break="no" n="23"/>dendo substantias separatas, participabit modum illius 
+co<lb ed="#L" break="no" n="24"/>gnitionis quo substantia separata, intelligens se, intelligit
+<lb ed="#L" n="25"/>Deum: quia scilicet, sicut ex eo quod substantia separata,
+<lb ed="#L" n="26"/>intelligens suam essentiam, utitur ipsa etiam ut ratione
+<lb ed="#L" n="27"/>intelligendi Deum, cuius est participata similitudo; ita et
+<lb ed="#L" n="28"/>intellectus noster, intelligens essentiam substantiae 
+sepa<lb ed="#L" break="no" n="29"/>ratae, intelliget per ipsam. cognitam Deum; et sic erit
+<lb ed="#L" n="30"/>similis modus cognitionis, ex parte medii cognoscendi in
+<lb ed="#L" n="31"/>quo Deus cognoscetur.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>II. Quantum ad secundum , ostendit Sanctus Thomas
+<lb ed="#L" n="33"/>intellectum nostrum non posse ex phantasmatibus 
+cogno<lb ed="#L" break="no" n="34"/>scere. quidditates substantiarum separatarum.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Circa hoc autem tria facit: primo, ostendit quod non
+<lb ed="#L" n="36"/>potest eas cognoscere eo modo quo posuit Avempace;
+<lb ed="#L" n="37"/>secundo, quod non eo modo quo posuit Alexander,
+<lb ed="#L" n="38"/>cap. seq.; tertio, quod non eo modo quo posuit Averroes,
+<lb ed="#L" n="39"/>cap. XLIII. 
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Circa primum duo facit: primo, ponit positionem
+<lb ed="#L" n="41"/>Avempaces; secundo, illam. improbat .
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Posuit ergo Avempace quod per studium scientiarum
+<lb ed="#L" n="43"/>speculativarum, ex iis intellectis. quae per phantasmata
+<lb ed="#L" n="44"/>cognoscimus, possumus pervenire ad intelligendas 
+sub<lb ed="#L" break="no" n="45"/>stantias separatas. Hoc autem dupliciter declarat. Primo.
+<lb ed="#L" n="46"/>Per intellectum possibilem, qui natus est cognoscere 
+quam<lb ed="#L" break="no" n="47"/>libet quidditatem inquantum est quidditas, cum eius 
+pro<lb ed="#L" break="no" n="48"/>prium obiectum sit quod quid est, possumus abstrahere
+<lb ed="#L" n="49"/>quidditatem cuiuslibet habentis quidditatem quod non est
+<lb ed="#L" n="50"/>sua quidditas. Et sic, cum non sit procedere in infinitum,
+<lb ed="#L" n="51"/>erit successive devenire, via resolutionis, ad cognoscendam
+<lb ed="#L" n="52"/>quidditatem substantiae non habentem aliam quidditatem;
+<lb ed="#L" n="53"/>qualis est quidditas substantiae separatae. Hanc viam, ut
+<lb ed="#L" n="54"/>inquit <ref target="http://scta.info/resource/iu7r3b-d1e60-bw36Xp"><!-- target imprecise -->Commentator, III. de Anima, commento 36</ref>, tetigit
+<name>Avempace</name> in Epistola quam appellavit Continuationem
+<lb ed="#L" n="55"/>Intellectus.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Secundo idem declarat ia libro de Anima: quia 
+in<lb ed="#L" break="no" n="57"/>tellectus noster natus est intelligere quidditatem cuius
+<lb ed="#L" n="58"/>intellectum est idem apud omnes. Talis autem est 
+quid<lb ed="#L" break="no" n="59"/>ditas substantiae separatae. — Assumptum declaratur. Quia,
+<lb ed="#L" n="60"/>cum intellectum unius rei apud me et apud te 
+multipli<lb ed="#L" break="no" n="61"/>cetur solum per multiplicationem specierum spiritualium,
+<lb ed="#L" n="62"/>oportet ut intellectum quod in huiusmodi specie non
+<lb ed="#L" n="63"/>sustentatur, sit idem apud me et apud te. Quidditas autem
+<lb ed="#L" n="64"/>intellecti quam intellectus noster natus est abstrahere,
+<lb ed="#L" n="65"/>cum non sit quidditas individui, — eo quod intellectum, 
+in<lb ed="#L" break="no" n="66"/>quantum huiusmodi, sit universale - non habet aliquam
+<lb ed="#L" n="67"/>speciem spiritualem et individualem.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>2. Adverte circa secundam viam huius positionis, quod
+<lb ed="#L" n="69"/>per formas spirituales, secundum quas dicit Avempace
+<lb ed="#L" n="70"/>diversificari intellecta, intelligit, non species intelligibiles,
+<lb ed="#L" n="71"/>sed species et formas imaginabiles: ut Sanctus Thomas
+<lb ed="#L" n="72"/>exponit IV Sent., d. xu, q. 1t a. 1. Sicut enim natura
+<lb ed="#L" n="73"/>speciei non diversificatur nisi ut principiis individuantibus
+<lb ed="#L" n="74"/>est coniuncta, ita, inquit Avempace, forma intellecta non
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>diversificatur nisi secundum quod diversis. formis 
+imagi<lb ed="#L" break="no" n="76"/>nabilibus coniungitur, quae scilicet individuales sunt, et
+<lb ed="#L" n="77"/>conditiones individui repraesentant.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Utraque istarum viarum convenit in hoc fundamento,
+<lb ed="#L" n="79"/>quod, quia intellectus noster potest abstrahere quidditates
+<lb ed="#L" n="80"/>rerum materialium, ideo etiam potest cognoscere 
+quid<lb ed="#L" break="no" n="81"/>ditates separatas. Propter hoc dixit Sanctus Thomas 
+se<lb ed="#L" break="no" n="82"/>cundam viam esse similem primae.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>III. Arguit Sanctus Thomas hoc fundamentum, quod
+<lb ed="#L" n="84"/>etiam Themistii fuit, frivolum esse, cum ipsa Avempace
+<lb ed="#L" n="85"/>positione.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Primo sic. Quidditas universalis, scilicet generis vel
+<lb ed="#L" n="87"/>speciei horum sensibilium, quae est quidditas intellecti
+<lb ed="#L" n="88"/>cuius cognitionem intellectivam per phantasmata accipimus,
+<lb ed="#L" n="89"/>comprehendit in se materiam et formam. Ergo est omnino
+<lb ed="#L" n="90"/>dissimilis quidditati substantiae separatae, quae est simplex
+<lb ed="#L" n="91"/>et immaterialis. Ergo non potest, per hoc quod intelligitur
+<lb ed="#L" n="92"/>quidditas rei sensibilis per phantasmata, intelligi- quidditas
+<lb ed="#L" n="93"/>substantiae separatae.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Advertendum quod, licet per id quod est omnino 
+dis<lb ed="#L" break="no" n="95"/>simile alteri secundum propriam differentiam, possit. 
+de<lb ed="#L" break="no" n="96"/>veniri in aliqualem ipsius cognitionem, inquantum in
+<lb ed="#L" n="97"/>aliquo communi conveniunt, aut inquantum unum est
+<lb ed="#L" n="98"/>alterius effectus, sicut per cognitionem creaturarum 
+deve<lb ed="#L" break="no" n="99"/>nimus in cognitionem Dei: non possumus tamen per
+<lb ed="#L" n="100"/>ipsum devenire in talem illius cognitionem qualis est 
+co<lb ed="#L" break="no" n="101"/>gnitio qua videtur ipsa quidditas ut est in seipsa; cum
+<lb ed="#L" n="102"/>unumquodque quod per alterum cognoscitur, aut per
+<lb ed="#L" n="103"/>simile cognoscatur, aut aliquo modo per contrarium.
+<lb ed="#L" n="104"/>Ideo optime arguit Sanctus Thomas, ex eo quod est 
+omni<lb ed="#L" break="no" n="105"/>moda dissimilitudo inter quidditatem materialem et 
+quid<lb ed="#L" break="no" n="106"/>ditatem immaterialem, non posse per quidditatis materialis
+<lb ed="#L" n="107"/>cognitionem quidditatem immaterialem .cognosci.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>IV. Secundo: et est confirmatio praecedentis. Quidditas
+<lb ed="#L" n="109"/>generis vel speciei rerum sensibilium non potest separari
+<lb ed="#L" n="110"/>secundum esse ab hac individuali natura: nisi. forte,
+<lb ed="#L" n="111"/>praetermisso Aristotele, velimus Platonem sequi. Ergo est
+<lb ed="#L" n="112"/>omnino dissimilis substantiis separatis. Ergo etc. — Probatur
+<lb ed="#L" n="113"/>prima consequentia. Quia non est eiusdem rationis forma
+<lb ed="#L" n="114"/>quae secundum se  non potest separari ab aliquo subiecto,
+<lb ed="#L" n="115"/>cum illa quae separatur secundum esse, licet utraque 
+se<lb ed="#L" break="no" n="116"/>cundum considerationem accipiatur absque tali subiecto:
+<lb ed="#L" n="117"/>sicut non est eadem ratio magnitudinis, et substantiae
+<lb ed="#L" n="118"/>separatae.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>V. Tertio. Si huiusmodi quidditates ponantur. esse
+<lb ed="#L" n="120"/>eiusdem rationis, hoc non erit nisi quantum ad rationem
+<lb ed="#L" n="121"/>quidditatis inquantum est quidditas: cum non possint esse
+<lb ed="#L" n="122"/>eiusdem rationis secundum speciem, nisi forte Platonicos
+<lb ed="#L" n="123"/>sequamur ponentes species horum sensibilium esse ipsas
+<lb ed="#L" n="124"/>substantias separatas. Ergo per sensibiles quidditates de
+<lb ed="#L" n="125"/>substantiis separatis non poterit aliquid intelligi nisi 
+re<lb ed="#L" break="no" n="126"/>motum genus ipsarum. Ergo etc. - Probatur prima 
+con<lb ed="#L" break="no" n="127"/>sequentia. Quia ratio, quidditatis est ratio communis, 
+ge<lb ed="#L" break="no" n="128"/>neris scilicet et speciei substantiae . — Secunda etiam
+<lb ed="#L" n="129"/>probatur. Quia, cognito genere, non propter hoc 
+cogno<lb ed="#L" break="no" n="130"/>scitur. species nisi in potentia.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Ad evidentiam huius rationis, considerandum quod
+<lb ed="#L" n="132"/>quidditas dicitur essentia rei secundum quod per 
+defini<lb ed="#L" break="no" n="133"/>tionem significatur. Essentia autem proprie convenit 
+sub<lb ed="#L" break="no" n="134"/>stantiis et complete: sicut et substantia sola complete et
+<lb ed="#L" n="135"/>proprie definitur et habet esse. Ideo dicit Sanctus Thomas
+<lb ed="#L" n="136"/>de quidditate quod eius ratio est communis generi et
+<lb ed="#L" n="137"/>speciei substantiae : quia videlicet tam genus quam species
+<lb ed="#L" n="138"/>substantiae sunt quidditates quaedam secundum quod in
+<lb ed="#L" n="139"/>abstracto significantur, et solae substantiae proprie et 
+per<lb ed="#L" break="no" n="140"/>fecte quidditatem habent, sicut et definitionem. — Alia
+<lb ed="#L" n="141"/>littera habet genus et speciei et substantiae. Et tunc esset
+<lb ed="#L" n="142"/>sensus quod est communis omni generi, omni speciei,
+<lb ed="#L" n="143"/>et omni substantiae, scilicet completae. - Ex hoc ergo
+<lb ed="#L" n="144"/>quod ratio quidditatis est communis generi et speciei
+<lb ed="#L" n="145"/>substantiae, habetur quod est veluti remotum genus 
+cuius<lb ed="#L" break="no" n="146"/>libet substantiae separatae: sive nomine gemeris 
+intelli<lb ed="#L" break="no" n="147"/>gamus id quod proprie genus est, scilicet substantiam,
+<lb ed="#L" n="148"/>quae est genus generalissimum, quae est communis et
+<lb ed="#L" n="149"/>omnibus generibus et omnibus speciebus sub ea contentis 
+<pb ed="#L" n="106"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sive nomine generis intelligamus rationem omnem 
+coin<lb ed="#L" break="no" n="2"/>munem pluribus generibus et pluribus speciebus, sicut
+<lb ed="#L" n="3"/>substantia divisa per primam et secundam de genere 
+ge<lb ed="#L" break="no" n="4"/>neralissimo substantiae praedicatur, .et de omnibus 
+spe<lb ed="#L" break="no" n="5"/>ciebus substantiae et individuis. Et ideo, utro modo: 
+ac<lb ed="#L" break="no" n="6"/>cipiatur genus, sequitur quod per cognitionem quidditatum
+<lb ed="#L" n="7"/>materialium non poterit cognosci de substantiis 
+immate<lb ed="#L" break="no" n="8"/>rialibus nisi genus remotum ipsarum, scilicet substantia
+<lb ed="#L" n="9"/>et quidditas, in qua sola materiales et immateriales 
+quid<lb ed="#L" break="no" n="10"/>ditates conveniunt, ut substantiae et quidditates sunt: quia
+<lb ed="#L" n="11"/>non potest unum ducere in cognitionem alterius ratione
+<lb ed="#L" n="12"/>similitudinis inter ipsa, nisi quantum ad illam rationem
+<lb ed="#L" n="13"/>in qua conveniunt et similia sunt.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>VI. Quarto. Intelligere quidditatem unius sensibilis non
+<lb ed="#L" n="15"/>sufficit ad intelligendam  quidditatem alterius sensibilis :
+<lb ed="#L" n="16"/>non enim caecus natus, per hoc quod intelligit quidditatem
+<lb ed="#L" n="17"/>soni, intelligit coloris quidditatem. Ergo etc. — Probatur
+<lb ed="#L" n="18"/>consequentia. Quia maior est distantia substantiae 
+sepa<lb ed="#L" break="no" n="19"/>ratae a. sensibilibus quam unius sensibilis ab alio.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>Quinto. Si ponamus substantias separatas ex motibus
+<lb ed="#L" n="21"/>orbium: causare formas sensibilium, hic modus non est in
+<lb ed="#L" n="22"/>proposito sufficiens. Et arguitur sic. Neque ratione 
+simi<lb ed="#L" break="no" n="23"/>litudinis sensibilium ad substantias separatas, neque 
+ra<lb ed="#L" break="no" n="24"/>tione virtutis:demonstratae, potest ex quidditate sensibili
+<lb ed="#L" n="25"/>cognosci quidditas substantiae separatae. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Antecedens probatur. Pro prima quidem parte, quia 
+sen<lb ed="#L" break="no" n="27"/>sibilia non sunt eiusdem speciei cum substantiis separatis.
+<lb ed="#L" n="28"/>- Pro secunda vero parte, quia nullus effectus sensibilis
+<lb ed="#L" n="29"/>adaequat virtutem substantiae separatae : cum virtutes 
+sub<lb ed="#L" break="no" n="30"/>stantiarum separatarum excedant effectus omnes sensibiles
+<lb ed="#L" n="31"/>quos intellectu comprehendimus, sicut virtus universalis
+<lb ed="#L" n="32"/>effectum particularem. — Consequentia quoque ostenditur.
+<lb ed="#L" n="33"/>Quia per effectum non scitur causa nisi aut ratione 
+simi<lb ed="#L" break="no" n="34"/>litudinis inter causam et effectum: aut inquantum effectus
+<lb ed="#L" n="35"/>demonstrat virtutem causae. — De materia huius rationis
+<lb ed="#L" n="36"/>determinatum est in praecedentibus .
+</p>
+            <p>
+               <lb ed="#L" n="37"/>VII. Sexto. Per nullam scientiarum speculativarum 
+con<lb ed="#L" break="no" n="38"/>tingit.scire de aliqua substantiarum separatarum quid est :
+<lb ed="#L" n="39"/>cum nulla hoc doceat, sed tantum quia sunt, Ergo etc. —
+<lb ed="#L" n="40"/>Probatur consequentia. Quia omnia intelligibilia in quorum
+<lb ed="#L" n="41"/>cognitionem per inquisitionem et studium devenimus, ad
+<lb ed="#L" n="42"/>aliquam scientiarum speculativarum pertinent.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Si dicatur quod possibile est esse aliquam talem 
+scien<lb ed="#L" break="no" n="44"/>tiam speculativam, quamvis adhuc non sit inventa: hoc
+<lb ed="#L" n="45"/>nihil est. Quia sensibilia non sufficienter ducunt nos in
+<lb ed="#L" n="46"/>cognitionem rerum immaterialium, ut est ostensum. Omnia
+<lb ed="#L" n="47"/>autem principia cuiuscumque scientiae dependent ex 
+prin<lb ed="#L" break="no" n="48"/>cipiis primis indemonstrabilibus per se notis, quorum 
+co<lb ed="#L" break="no" n="49"/>gnitionem a sensibilibus accipimus.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="50"/>2. Ad evidentiam huius rationis, considerandum, ex
+<lb ed="#L" n="51"/>doctrina Sancti Thomae super Boetium, Trin., art. ult.
+<lb ed="#L" n="52"/>quod cum, tam in demonstrationibus quam in 
+inventio<lb ed="#L" break="no" n="53"/>nibus definitionum, in scientiis speculativis semper 
+pro<lb ed="#L" break="no" n="54"/>cedatur. ex aliquo prius noto; et non sit processus in
+<lb ed="#L" n="55"/>infinitum in huiusmodi resolutione: necesse est devenire
+<lb ed="#L" n="56"/>ad aliqua prima per se nota, tam in propositionibus quam
+<lb ed="#L" n="57"/>in conceptibus; sicut sunt primae propositiones 
+inde<lb ed="#L" break="no" n="58"/>monstrabiles; et conceptio entis omnibus notissima, et 
+si<lb ed="#L" break="no" n="59"/>militer conceptio unius, et aliorum huiusmodi, Quo fit ut
+<lb ed="#L" n="60"/>.ea tantum via demonstrationis aut definitionis in scientiis
+<lb ed="#L" n="61"/>cognosci possint ad quae haec ipsa naturaliter nota se
+<lb ed="#L" n="62"/>possunt extendere, quae sunt prima nostrae cognitionis
+<lb ed="#L" n="63"/>principia, sicut et.causa particularis non: potest nisi 
+con<lb ed="#L" break="no" n="64"/>tenta sub universali causa producere. Ista autem nobis
+<lb ed="#L" n="65"/>naturali lumine intellectus agentis nota sunt. Quo quidem
+<lb ed="#L" n="66"/>lumine nihil homini manifestatur nisi. inquantum per ipsum
+<lb ed="#L" n="67"/>phantasmata fiunt actu intelligibilia. Phantasmata autem
+<lb ed="#L" n="68"/>a sensu accipiuntur. Ideo ista principia naturaliter nota
+<lb ed="#L" n="69"/>non se extendunt nisi ad ea quorum cognitionem ex iis
+<lb ed="#L" n="70"/>quae sensu percipimus, accipere possumus.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Propterea optime deducit Sanctus Thomas, ex eo quod
+<lb ed="#L" n="72"/>per quidditates sensibiles non possumus quidditates 
+im<lb ed="#L" break="no" n="73"/>materiales cognoscere, quod nulla scientia speculativa
+<lb ed="#L" n="74"/>humana potest esse quae nos ducat in notitiam huiusmodi
+<lb ed="#L" n="75"/>quidditatum, cum omnes. scientiae ex ewrad principiis
+<lb ed="#L" n="76"/>naturaliter notis procedant.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>VIII. Ex his rationibus: relinquit Sui cil Thomas 
+tan<lb ed="#L" break="no" n="78"/>quam manifestam rationum Avempace solutionem. Constat
+<lb ed="#L" n="79"/>enim utramque consequentiam falsam esse: scilicet hanc,
+<lb ed="#L" n="80"/>Intellectus noster potest abstrahere quidditatem, Ergo
+<lb ed="#L" n="81"/>potest cognoscere quidditatem per se abstractam ; similiter
+<lb ed="#L" n="82"/>et hanc, /ntellectus noster natus est intelligere quidditatem
+<lb ed="#L" n="83"/>cuius intellectus est unus apud omnes, Ergo et STRIS
+<lb ed="#L" n="84"/>tatem immaterialem ac separatam.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Si quis autem diceret quod Avempace non adducit
+<lb ed="#L" n="86"/>illas rationes tanquam demonstrativas simpliciter, sed 
+tan<lb ed="#L" break="no" n="87"/>quam ostendentes a signo: ex eo enim quod videmus
+<lb ed="#L" n="88"/>intellectum intelligere quidditatem abstractam, et ipsam
+<lb ed="#L" n="89"/>abstrahere etiam si in infinitum esset abstrahibilis, signum
+<lb ed="#L" n="90"/>nobis est quod etiam quidditates per seipsas abstractas
+<lb ed="#L" n="91"/>potest intelligere: — respondetur. quod illud non est 
+suf<lb ed="#L" break="no" n="92"/>ficiens signum. Quia quantumcumque intellectus noster
+<lb ed="#L" n="93"/>multas abstrahere possit quidditates, omnes illae 
+quiddi<lb ed="#L" break="no" n="94"/>tates per ipsum abstractae sunt aliquo modo eiusdem
+<lb ed="#L" n="95"/>rationis, inquantum omnes sunt quidditates rerum 
+mate<lb ed="#L" break="no" n="96"/>rialium. Quidditas autem ex se separata non est eiusdem
+<lb ed="#L" n="97"/>rationis cum quidditatibus per intellectum abstractis: cum
+<lb ed="#L" n="98"/>sit. omnino extra genus materialium. Ideo non est simile.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

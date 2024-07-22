@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 73</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 73</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="216"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2304"><!-- ferv7a-l3c73 -->
+            <head>Capitulum 73</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="55" type="fixed=216"/>Commentaria Feerrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="56"/>TERTIUM dubium est: quia videtur divina: providentia
+<lb ed="#L" n="57"/>libertatem arbitrii tollere.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>I. Ad hoc excludendum ponit Sanctus Thomas hanc
+<lb ed="#L" n="59"/>conclusionem: Providentia divina voluntatis libertati non
+<lb ed="#L" n="60"/>repugnat.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Probatur primo. Quod perfectionis est, magis 
+conser<lb ed="#L" break="no" n="62"/>vandum est per providentiam quam quod est 
+imperfe<lb ed="#L" break="no" n="63"/>ctionis et defectus. Sed in rebus inanimatis causarum 
+con<lb ed="#L" break="no" n="64"/>tingentia ex imperfectione et defectu est: quod autem
+<lb ed="#L" n="65"/>voluntas sit contingens, ex ipsius perfectione provenit. Ergo
+<lb ed="#L" n="66"/>magis pertinet ad divinam providentiam libertatem 
+volun<lb ed="#L" break="no" n="67"/>tatis conservare quam contingentiam in naturalibus causis.
+<lb ed="#L" n="68"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Maior probatur. Quia providentis gubernatio ad 
+perfe<lb ed="#L" break="no" n="70"/>ctionem rerum gubernatarum vel adipiscendam, vel 
+augen<lb ed="#L" break="no" n="71"/>dam, vel conservandam ordinatur. - Minor vero probatur.
+<lb ed="#L" n="72"/>Quoad primam quidem partem: quia illae sunt secundum
+<lb ed="#L" n="73"/>suam naturam ad unum effectum determinatae, quem 
+sem<lb ed="#L" break="no" n="74"/>per consequuntur nisi sit impedimentum vel ex debilitate
+<lb ed="#L" n="75"/>virtutis, vel ex aliquo exteriori agente, vel ex 
+indisposi<lb ed="#L" break="no" n="76"/>tione materiae. Quoad secundam vero partem: quia 
+vo<lb ed="#L" break="no" n="77"/>luntas non habet virtutem determinatam ad unum, sed
+<lb ed="#L" n="78"/>habet in potestate producere hunc vel illum effectum;
+<lb ed="#L" n="79"/>propter quod est ad utrumlibet contingens.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>2. Circa istam propositionem, Quod voluntas sit 
+con<lb ed="#L" break="no" n="81"/>tingens, ex ipsius perfectione provenit, dubium occurrit.
+<lb ed="#L" n="82"/>Licet enim libertas voluntatis, quantum ad hoc quod est
+<lb ed="#L" n="83"/>posse in diversa ad finem ordinata, proveniat ex eius 
+per<lb ed="#L" break="no" n="84"/>fectione, inquantum, ut hic dicitur, non habet limitationem
+<lb ed="#L" n="85"/>ad unum, sed supra diversa potestatem habet; quantum
+<lb ed="#L" n="86"/>tamen ad hoc quod est posse in bonum et malum, et
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="87"/>posse mutari, ut videlicet possit non velle quod prius 
+vo<lb ed="#L" break="no" n="88"/>lebat, provenit ex imperfectione voluntatis; quia, ut inquit
+<lb ed="#L" n="89"/>Sanctus Thomas in Qu. de Malo, q. xvr, a. 5, primum
+<lb ed="#L" n="90"/>horum provenit inquantum liberum arbitrium invenitur in
+<lb ed="#L" n="91"/>natura deficere potenti; alterum vero provenit ex eo quod
+<lb ed="#L" n="92"/>invenitur in natura mutabili. Ergo non est universaliter
+<lb ed="#L" n="93"/>verum quod libertas et contingentia voluntatis ex ipsius
+<lb ed="#L" n="94"/>perfectione proveniat.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Respondetur quod ista ratio concludit providentiam non
+<lb ed="#L" n="96"/>tollere liberum arbitrium absolute, non determinando 
+mo<lb ed="#L" break="no" n="97"/>dum liberi arbitrii. Ideo sufficit ad veritatem illius 
+propo<lb ed="#L" break="no" n="98"/>sitionis assumptae ut id quod est commune omni libero
+<lb ed="#L" n="99"/>arbitrio, tanquam ipsi per se conveniens inquantum 
+hu<lb ed="#L" break="no" n="100"/>iusmodi, illi ex perfectione conveniat, scilicet hoc. quod
+<lb ed="#L" n="101"/>est posse in diversa ordinata ad finem, et non esse 
+deter<lb ed="#L" break="no" n="102"/>minatum ad unum: licet aliquid aliud conveniat libero 
+ar<lb ed="#L" break="no" n="103"/>bitrio ex imperfectione naturae in qua est, et per accidens.
+<lb ed="#L" n="104"/>Unde Sanctus Thomas non ostendit voluntatis 
+contingen<lb ed="#L" break="no" n="105"/>tiam ex perfectione provenire nisi ex eo quod libero 
+ar<lb ed="#L" break="no" n="106"/>bitrio per se convenit: scilicet ex eo quod non 
+determi<lb ed="#L" break="no" n="107"/>natur ad unum, sed habet in potestate sua in diversa ferri.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>II. Secundo. Ad providentiam divinam pertinet ut rebus
+<lb ed="#L" n="109"/>utatur secundum modum earum. Sed modus voluntatis est
+<lb ed="#L" n="110"/>ut multiformes effectus producere possit. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="111"/>batur minor. Quia forma per quam agit voluntarie agens,
+<lb ed="#L" n="112"/>scilicet forma per intellectum apprehensa, non est 
+deter<lb ed="#L" break="no" n="113"/>minata: cum non habeat intellectus unam formam effectus
+<lb ed="#L" n="114"/>determinatam, sed multitudinem formarum comprehendat;
+<lb ed="#L" n="115"/>modus autem agendi cuiuslibet rei consequatur formam
+<lb ed="#L" n="116"/>eius, quae est actionis principium,
+</p>
+            <p>
+               <lb ed="#L" n="117"/>2. Ad evidentiam huius rationis, considerandum est, ex
+<pb ed="#L" n="217"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>doctrina Sancti Thomae Verit., q. xxiv, a. 2, quod, cum
+<lb ed="#L" n="2"/>appetitus cognitionem sequatur (bonum enim apprehensum,
+<lb ed="#L" n="3"/>sive bonum cognitum, est eius obiectum), zota ratio 
+li<lb ed="#L" break="no" n="4"/>bertatis ex modo cognitionis dependet. Unde, si iudicium
+<lb ed="#L" n="5"/>virtutis cognoscitivae non sit in potestate alicuius, sed sit
+<lb ed="#L" n="6"/>aliunde determinatum, nec appetitus liber erit et 
+indiife<lb ed="#L" break="no" n="7"/>rens, sed erit ad unum determinatus: sicut in brutis 
+ac<lb ed="#L" break="no" n="8"/>cidit. Quia enim ovis, videns lupum, non potest iudicare 
+<lb ed="#L" n="9"/>ipsum non inimicum, sed est sibi naturaliter inditum 
+iu<lb ed="#L" break="no" n="10"/>dicium quo ipsum inimicum et esse fugiendum iudicat,
+<lb ed="#L" n="11"/>ideo non potest ipsum non fugere. Si autem iudicium non
+<lb ed="#L" n="12"/>sit naturaliter ad unum determinatum, sed sit in potestate
+<lb ed="#L" n="13"/>iudicantis ut hoc iudicet vel oppositum, etiam appetitus
+<lb ed="#L" n="14"/>talem virtutem cognoscitivam consequens indeterminatus
+<lb ed="#L" n="15"/>erit et liber: sicut videmus in hominibus esse. Quia enim
+<lb ed="#L" n="16"/>homo, videns lupum, potest iudicare ipsum esse 
+fugien<lb ed="#L" break="no" n="17"/>dum, et potest iudicare ipsum non fugiendum, ideo in
+<lb ed="#L" n="18"/>potestate voluntatis est eligere fugam, et eligere 
+perma<lb ed="#L" break="no" n="19"/>nentiam. Propter hoc inquit Sanctus Thomas in hac 
+ra<lb ed="#L" break="no" n="20"/>tione quod voluntas potest multiformes effectus producere,
+<lb ed="#L" n="21"/>quia forma per quam voluntarium agens agit, non est
+<lb ed="#L" n="22"/>determinata. - Quod quidem intelligendum est de 
+effecti<lb ed="#L" break="no" n="23"/>bus ad finem ordinatis, et sibi invicem non subordinatis.
+<lb ed="#L" n="24"/>Si enim loquamur de effectibus inter se ordinem 
+haben<lb ed="#L" break="no" n="25"/>tibus per comparationem ad finem, etiam appetitus 
+bru<lb ed="#L" break="no" n="26"/>torum iu multiplices effectus potest: videmus enim aves
+<lb ed="#L" n="27"/>primum colligere paleas et lutum, deinde nidum construere,
+<lb ed="#L" n="28"/>ad generationem filiorum; et apes videmus primum flores
+<lb ed="#L" n="29"/>colligere, deinde mellificare, ut cibum habeant in hieme.
+<lb ed="#L" n="30"/>Homo autem, sicut per intellectum potest multas formas
+<lb ed="#L" n="31"/>et naturas apprehendere, et diversa iudicare convenientia
+<lb ed="#L" n="32"/>ad finem quorum unum alteri non subordinatur, ita 
+vo<lb ed="#L" break="no" n="33"/>luntate ferri potest in diversa ordinata ad finem inter se
+<lb ed="#L" n="34"/>nullum habentia ordinem.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>III. Sed occurrit dubium ex Scoto, in I Sent., d. xxxvni.
+<lb ed="#L" n="36"/>Nullus enim actus praeveniens actum voluntatis potest esse
+<lb ed="#L" n="37"/>liber, sed est naturalis: cum liberum arbitrium nihil aliud
+<lb ed="#L" n="38"/>sit quam voluntas. Ergo actus intellectus praeveniens 
+vo<lb ed="#L" break="no" n="39"/>luntatem non est liber, sed naturalis. Ergo falsum est quod
+<lb ed="#L" n="40"/>voluntas possit in multiplices etfectus quia forma 
+intel<lb ed="#L" break="no" n="41"/>lecta sit indeterminata.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Et potest confirmari ista ratio Scoti. Quia a potentia
+<lb ed="#L" n="43"/>indeterminata non potest provenire actio nisi ipsa potentia
+<lb ed="#L" n="44"/>ab aliquo determinetur: ut dicit Commentator, II Phys.,
+<lb ed="#L" n="45"/>commento 48. Ergo oporteret invenire aliquid aliud a quo
+<lb ed="#L" n="46"/>intellectus ad hoc iudicium determinetur vel ad aliud. Istud
+<lb ed="#L" n="47"/>autem non apparet quid sit, ante omnem voluntatis actum.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>IV. Ad huius evidentiam, considerandum est quod 
+du<lb ed="#L" break="no" n="49"/>pliciter potest dici aliqua operatio libera: uno modo, quia
+<lb ed="#L" n="50"/>est operatio per electionem voluntatis producta et elicita;
+<lb ed="#L" n="51"/>alio modo, quia est operatio procedens a potentia non
+<lb ed="#L" n="52"/>magis determinata ad hoc particulare obiectum quam ad
+<lb ed="#L" n="53"/>illud, neque magis ad hoc iudicium quam ad illud. 
+Ope<lb ed="#L" break="no" n="54"/>ratio primo modo libera dicitur proprie et formaliter 
+li<lb ed="#L" break="no" n="55"/>bera: quia, ut dicitur Prima, q. rxxxur a. 3, proprium
+<lb ed="#L" n="56"/>liberi arbitrii est electio : cum ex hoc dicamur liberi 
+arbi<lb ed="#L" break="no" n="57"/>trii quod possumus unum recipere, alio recusato. Secundo
+<lb ed="#L" n="58"/>autem modo operatio libera non dicitur proprie et 
+forma<lb ed="#L" break="no" n="59"/>liter libera, sed tantum originaliter et radicaliter: inquan-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="60"/>tum ex tali operatione habet appetitus ipsam sequens quod
+<lb ed="#L" n="61"/>unum alteri possit praeeligere, et non sit determinatus ad
+<lb ed="#L" n="62"/>unum.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Primo igitur modo, operatio intellectus praeveniens
+<lb ed="#L" n="64"/>omnem actum voluntatis non est libera: repugnat enim
+<lb ed="#L" n="65"/>quod omnem actum voluntatis praeveniat, et quod sit per
+<lb ed="#L" n="66"/>electionem elicita; cum electio sit actus voluntatis. Sed
+<lb ed="#L" n="67"/>bene potest esse libera secundo modo: quia est aliqua 
+ope<lb ed="#L" break="no" n="68"/>ratio intellectus cuius oppositum potuisset intellectus 
+eli<lb ed="#L" break="no" n="69"/>cere; intellectus enim iudicat aliquid esse prosequendum
+<lb ed="#L" n="70"/>quod potuisset iudicare fugiendum esse. — Ex quo etiam
+<lb ed="#L" n="71"/>apparet quod, si actus dicatur naturalis ut naturale 
+oppo<lb ed="#L" break="no" n="72"/>nitur libero primo modo sumpto, actus praeveniens omnem
+<lb ed="#L" n="73"/>actum voluntatis est naturalis. Si autem accipiatur ut 
+op<lb ed="#L" break="no" n="74"/>ponitur libero secundo modo sumpto, ut naturalis operatio
+<lb ed="#L" n="75"/>dicatur quae provenit a potentia ad unum determinata, sic
+<lb ed="#L" n="76"/>non omnis talis actus est naturalis.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>Unde in primo sensu, admissis omnibus praemissis, 
+ne<lb ed="#L" break="no" n="78"/>gatur ultima consequentia obiectionis facta. In. secundo
+<lb ed="#L" n="79"/>vero sensu, negatur antecedens.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>2. Ad confirmationem, dicitur quod intellectus ad unum
+<lb ed="#L" n="81"/>iudicium determinatur magis quam ad aliud, per 
+consi<lb ed="#L" break="no" n="82"/>lium et discursum rationis a sensu originatum, ex quo,
+<lb ed="#L" n="83"/>per resolutionem ad aliqua principia nota, ad tale 
+iudi<lb ed="#L" break="no" n="84"/>cium pervenit: cum tamen posset, per alium discursum
+<lb ed="#L" n="85"/>et aliam rationem, aliud iudicium facere. Verbi gratia, si
+<lb ed="#L" n="86"/>ante oculos alicui proponatur panis et ferrum, iste 
+fame<lb ed="#L" break="no" n="87"/>scens, cognoscens illum esse panem et illud esse ferrum,
+<lb ed="#L" n="88"/>considerat panem esse convenientem cibum humanae 
+na<lb ed="#L" break="no" n="89"/>turae, et argumentatur ipsum magis esse pro nunc 
+eligen<lb ed="#L" break="no" n="90"/>dum quam ferrum, ex eo quod novit hominem non posse
+<lb ed="#L" n="91"/>vivere nisi convenienti cibo nutriatur: potuisset tamen, ex
+<lb ed="#L" n="92"/>alio principio, iudicare esse pro tunc praeeligendum ferrum;
+<lb ed="#L" n="93"/>puta si cuperet domum aedificare, et cognosceret ad 
+aedifi<lb ed="#L" break="no" n="94"/>cationem domus necesse esse ut ferro compaginentur ligna,
+<lb ed="#L" n="95"/>aut quod per ipsum parietes stabiles reddantur et firmi.
+<lb ed="#L" n="96"/>Et sic patet quod non deest intellectui, secundum se 
+in<lb ed="#L" break="no" n="97"/>determinato, aliquid ad certum iudicium determinans, ante
+<lb ed="#L" n="98"/>omnem actum voluntatis circa id de quo iudicatur.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>V. Tertio. Repugnat divinae providentiae quod rei 
+sub<lb ed="#L" break="no" n="100"/>trahatur illud per quod assequitur divinam similitudinem.
+<lb ed="#L" n="101"/>Ergo per ipsam non subtrahitur libertas voluntatis. — 
+Pro<lb ed="#L" break="no" n="102"/>batur antecedens. Quia per gubernationem cuiuscumque
+<lb ed="#L" n="103"/>providentis, res gubernatae deducuntur ad finem 
+conve<lb ed="#L" break="no" n="104"/>nientem: ut ex Gregorio Nysseno probatur. Finis autem
+<lb ed="#L" n="105"/>cuiuslibet creaturae est ut divinam similitudinem 
+conse<lb ed="#L" break="no" n="106"/>quatur. — Consequentia vero ostenditur ex eo quod agens
+<lb ed="#L" n="107"/>voluntarium divinam similitudinem assequitur ex eo quod
+<lb ed="#L" n="108"/>libere agit: cum in Deo etiam sit liberum arbitrium.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Quarto. Si libertas voluntatis tolleretur, multa bona 
+sub<lb ed="#L" break="no" n="110"/>traherentur: scilicet laus virtutis, iustitia praemiantis et 
+pu<lb ed="#L" break="no" n="111"/>nientis, circumspectio in consiliis, etc. Ergo esset contra
+<lb ed="#L" n="112"/>providentiae rationem ipsam tollere. — Probatur 
+conse<lb ed="#L" break="no" n="113"/>quentia. Quia providentia est multiplicativa bonorum in
+<lb ed="#L" n="114"/>rebus gubernatis.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>CONFIRMATUR conclusio auctoritate Eccli. xv.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Per hoc excluditur opinio Stoicorum ponentium omnia
+<lb ed="#L" n="117"/>ex necessitate provenire, secundum quendam ordinem 
+cau<lb ed="#L" break="no" n="118"/>sarum intransgressibilem, quem Graeci imarmenen vocabant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

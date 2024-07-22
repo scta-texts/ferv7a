@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 162</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 162</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="474"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e3031"><!-- ferv7a-l3c162 -->
+            <head>Capitulum 162</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="27" type="fixed=473"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="28"/>Ex praedictis posset aliquis in hunc errorem cadere,
+<lb ed="#L" n="29"/>quod Deus homines ad peccatum inducat: quoniam
+<lb ed="#L" n="30"/>dictum est  Deum aliquos non convertere, sed eos in
+<lb ed="#L" n="31"/>peccatis, secundum eorum merita, relinquere, Ideo, hoc
+<lb ed="#L" n="32"/>removens, Sanctus Thomas ponit hanc conclusionem,
+<lb ed="#L" n="33"/>quod Deus illos quos in peccatis dimittit, ad peccandum
+<lb ed="#L" n="34"/>non inducit.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>I. Et arguit primo sic. Impossibile est quod, Deo agente,
+<lb ed="#L" n="36"/>aliqui avertantur ab ultimo fine, qui Deus est. Ergo etc. —
+<lb ed="#L" n="37"/>Probatur antecedens. Quia omne agens agit ad proprium
+<lb ed="#L" n="38"/>finem et sibi convenientem. — Consequentia vero: quia
+<lb ed="#L" n="39"/>homines peccant per hoc quod deviant a Deo, qui est
+<lb ed="#L" n="40"/>ultimus finis.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Adverte quod haec ratio procedit ex eo quod invenitur
+<lb ed="#L" n="42"/>communiter in omnibus agentibus. Cum enim 
+unum<lb ed="#L" break="no" n="43"/>quodque quaerat alia quodammodo ad se trahere, sibi 
+assi<lb ed="#L" break="no" n="44"/>milando, vel convertendo ad suum finem, conveniens est
+<lb ed="#L" n="45"/>ut Deus sua actione alia ad seipsum convertat, et 
+corise<lb ed="#L" break="no" n="46"/>quenter nihil avertat a se.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Secundo. Peccatum est hominis malum, utpote 
+contra<lb ed="#L" break="no" n="48"/>rium bono eius proprio, quod est vivere secundum 
+ratio<lb ed="#L" break="no" n="49"/>nem. Ergo etc. - Probatur consequentia. Quia bonum non
+<lb ed="#L" n="50"/>est causa mali.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>Adverte quod, cum Deus sit prima causa, sitque agens
+<lb ed="#L" n="52"/>per intellectum, non potest esse causa per accidens 
+ali<lb ed="#L" break="no" n="53"/>cuius: quia causam per accidens oportet ad causam per
+<lb ed="#L" n="54"/>se reduci. Propter hoc, isto supposito tanquam manifesto,
+<lb ed="#L" n="55"/>loquendo Sanctus (Thomas de causalitate Dei respectu 
+pec<lb ed="#L" break="no" n="56"/>cati, de causalitate per se loquitur. Unde, licet bonum sit
+<lb ed="#L" n="57"/>causa mali per accidens, ut superius  est ostensum, ponit
+<lb ed="#L" n="58"/>tamen hanc propositionem absolute, Bonum non est causa
+<lb ed="#L" n="59"/>mali, quia habet veritatem de causalitate per se.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Tertio. Repugnat sapientiae et bonitati humanae quod
+<lb ed="#L" n="61"/>aliquem peccare faciat. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="62"/>Quia bonitas et sapientia hominis derivatur a bonitate et
+<lb ed="#L" n="63"/>sapientia divina.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Quarto. Proximum agens peccati humani est voluntas.
+<lb ed="#L" n="65"/>Ergo etc. — Probatur consequentia. Quia peccatum omne
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="66"/>ex aliquo defectu proximi agentis provenit, non autem ex
+<lb ed="#L" n="67"/>influentia primi agentis: ut patet in claudicatione.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Confirmatur auctoritate Eccli. xv, et Jacobi 1.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Non obstat autem huic quod Deus dicitur aliquos 
+obdu<lb ed="#L" break="no" n="70"/>rare, vel excaecare, ut Exod. x, Isaiae vi et rLxmr, et ad
+<lb ed="#L" n="71"/>Rom. 1: quia per haec nihil aliud intelligitur quam quod
+<lb ed="#L" n="72"/>Deus aliquibus non confert auxilium ad vitandum 
+pecca<lb ed="#L" break="no" n="73"/>tum, sic eius exigente iustitia, quod aliis quibusdam 
+con<lb ed="#L" break="no" n="74"/>fert. Quod quidem auxilium non solum est infusio gratiae,
+<lb ed="#L" n="75"/>sed etiam exterior custodia ab occasionibus peccati, et 
+na<lb ed="#L" break="no" n="76"/>turale lumen rationis, et alia naturalia bona quae Deus
+<lb ed="#L" n="77"/>homini confert,
+</p>
+            <p>
+               <lb ed="#L" n="78"/>II. Circa hoc ultimum dictum occurrit dubium. Licet
+<lb ed="#L" n="79"/>enim ex praecedentibus rationibus ostensum sit quod Deus
+<lb ed="#L" n="80"/>non est directe causa peccati, ex solutione tamen data ad istas
+<lb ed="#L" n="81"/>auctoritates videtur sequi quod sit causa peccati indirecte.
+<lb ed="#L" n="82"/>Is enim qui potest praebere auxilium ad vitandum 
+pec<lb ed="#L" break="no" n="83"/>catum et non praebet, videtur esse indirecte causa peccati.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Respondetur quod dupliciter potest aliquid dici causa
+<lb ed="#L" n="85"/>peccandi indirecte. Uno modo, ut dicatur illud causare per
+<lb ed="#L" n="86"/>modum tantum ;0n agentis ad oppositum : ut nihil aliud
+<lb ed="#L" n="87"/>sit causare peccatum quam non prohibere ipsum, aut non
+<lb ed="#L" n="88"/>praebere auxilium contra peccatum. Et sic non est 
+incon<lb ed="#L" break="no" n="89"/>veniens dicere Deum esse causam peccati indirecte. - Alio
+<lb ed="#L" n="90"/>modo, per modum eius cui imputandum sit peccatum exeo
+<lb ed="#L" n="91"/>quod non agit ad eius vitationem. Et hoc modo Deus non est
+<lb ed="#L" n="92"/>causa peccati indirecte: quia, si non, praebet auxilium, hoc
+<lb ed="#L" n="93"/>facit sic exigente sua iustitia et sapientia; non gubernanti
+<lb ed="#L" n="94"/>enim navem non imputatur navis submersio nisi possit et
+<lb ed="#L" n="95"/>debeat gubernare. Propter hoc dixit Sanctus Thomas quod
+<lb ed="#L" n="96"/>Deus dicitur aliquos obdurare cum aliquibus auxilia 
+sub<lb ed="#L" break="no" n="97"/>trahit pro merito suae actionis, secundum quod eius iustitia
+<lb ed="#L" n="98"/>exigit: aut scilicet secundum quod meretur actio hominis
+<lb ed="#L" n="99"/>qua peccavit; aut secundum quod debet actio divina, quae
+<lb ed="#L" n="100"/>iusta est. De hoc vide Sanctum Thomam [I IF, q. rxxxx.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Quomodo autem Deus non sit causa peccati, habetur a
+<ref>Capreolo, II Sent., d. xxxvu</ref> ; et etiam superius, cap. Lxxt,
+<lb ed="#L" n="102"/>est ostensum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

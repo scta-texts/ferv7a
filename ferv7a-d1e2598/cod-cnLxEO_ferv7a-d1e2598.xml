@@ -1,0 +1,1371 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 109</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 109</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="342"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2598"><!-- ferv7a-l3c109 -->
+            <head>Capitulum 109</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="43" type="fixed=342"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="44"/>POSITIS obiectionibus quibus arguebatur in daemonibus 
+<lb ed="#L" n="45"/>peccatum esse non posse, vult Sanctus Thomas 
+veri<lb ed="#L" break="no" n="46"/>tatem determinare . Et ponit quatuor conclusiones  
+</p>
+            <p>
+               <lb ed="#L" n="47"/>I. Prima est. in daemonibus est peccatum voluntatis: 
+<lb ed="#L" n="48"/>idest, secundum actum voluntatis. 
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Primo, probatur auctoritate Ioannis um; Joannis vni; 
+<lb ed="#L" n="50"/>et Sapientiae II. 
+</p>
+            <p>
+               <lb ed="#L" n="51"/>Secundo, probatur ratione. Et primo, concluditur falsa  
+<lb ed="#L" n="52"/>Platonicorum positio ; secundo, ponitur vera ratio . Positio  
+<lb ed="#L" n="53"/>Platonicorum est quod daemones sunt animalia aerea, 
+ha<lb ed="#L" break="no" n="54"/>bentia partem sensitivam et passiones, quae sunt nobis  
+<lb ed="#L" n="55"/>causa peccati, scilicet iram, odium et similia. Unde 
+Apu<lb ed="#L" break="no" n="56"/>leius inquit quod sunt animo passiva. 
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Posset etiam fortasse, secundum positionem Platonis, 
+<lb ed="#L" n="58"/>poni in substantia intellectuali aliqua, quamvis non unita  
+<lb ed="#L" n="59"/>corpori, cognitio sensitiva, et per consequens passiones.  
+<lb ed="#L" n="60"/>Cum enim anima sensitiva, secundum ipsum, sit 
+incor<lb ed="#L" break="no" n="61"/>ruptibilis, oportet quod habeat operationem cui non 
+com<lb ed="#L" break="no" n="62"/>municet corpus: et sic maneat in eis eadem ratio peccandi  
+<lb ed="#L" n="63"/>quae est in nobis, scilicet passio. 
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Sed utrumque istorum est impossibile, inquit Sanctus 
+<lb ed="#L" n="65"/>Thomas. Primum quidem, quia ostensum est supra non 
+<lb ed="#L" n="66"/>esse alias substantias intellectuales unitas corporibus praeter  
+<lb ed="#L" n="67"/>animas, III. Ad evidentiam eorum quae hic dicuntur, adverten-
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Secundum. vero, scilicet quod operationes animae 
+sen<lb ed="#L" break="no" n="69"/>sitivae possint esse sine corpore, hinc falsum esse constat  
+<lb ed="#L" n="70"/>quod, corrupto aliquo organo sentiendi, corrumpitur 
+ope<lb ed="#L" break="no" n="71"/>ratio sensus: ut patet in visu et tactu. 
+</p>
+            <p>
+               <lb ed="#L" n="72"/>II. Pro vera ratione, notat primo Sanctus Thomas quod, 
+<lb ed="#L" n="73"/>sicut in causis agentibus secundarium agens a principali  
+<lb ed="#L" n="74"/>dependet, ita et in causis finalibus secundarius finis a 
+prin<lb ed="#L" break="no" n="75"/>cipali dependentiam habet: et quod, sicut peccatum in 
+<lb ed="#L" n="76"/>causis agentibus accidit quando secundarium agens exit  
+<lb ed="#L" n="77"/>ab ordine principalis agentis, ut patet in claudicatione, ita  
+<lb ed="#L" n="78"/>peccatum voluntatis, cuius obiectum est bomum et finis, 
+<lb ed="#L" n="79"/>est cum finis secundarius non continetur sub ordine 
+prin<lb ed="#L" break="no" n="80"/>cipalis finis.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="81"/>Notat secundo, quod quaelibet voluntas naturaliter vult
+<lb ed="#L" n="82"/>illud quod est proprium volentis bonum, scilicet ipsum
+<lb ed="#L" n="83"/>esse perfectum: et non potest contrarium huius velle. Ideo
+<lb ed="#L" n="84"/>in illo volente cuius proprium bonum est ultimus finis 
+<lb ed="#L" n="85"/>non contentus sub alio fine, sed sub cuius ordine omnes
+<lb ed="#L" n="86"/>alii fines continentur, nullum peccatum voluntatis accidere
+<lb ed="#L" n="87"/>potest. Huiusmodi autem volens est solus Deus, cuius esse
+<lb ed="#L" n="88"/>est summa bonitas, quae est ultimus finis. In quocunque
+<lb ed="#L" n="89"/>autem alio volente, cuius proprium bonum necesse est
+<lb ed="#L" n="90"/>sub ordine alterius boni contineri, potest peccatum 
+volun<lb ed="#L" break="no" n="91"/>tatis accidere, si in sua natura consideretur: quia, licet
+<lb ed="#L" n="92"/>naturalis inclinatio voluntatis insit unicuique .volenti ad
+<lb ed="#L" n="93"/>volendum et amandum sui ipsius perfectionem, non est
+<lb ed="#L" n="94"/>tamen ei naturaliter inditum ut ita ordinet suam 
+perfectio<lb ed="#L" break="no" n="95"/>nem in alium finem quod ab eo deficere non possit,
+<lb ed="#L" n="96"/>cum finis superior non sit suae naturae proprius, sed 
+su<lb ed="#L" break="no" n="97"/>perioris naturae; sed hoc suo arbitrio relinquitur. Quod
+<lb ed="#L" n="98"/>sane patet ex differentia inter voluntatem habentia, et ea
+<lb ed="#L" n="99"/>quae voluntate carent, quae non sunt liberi arbitrii.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Ex his infert Sanctus Thomas quod in voluntate 
+sub<lb ed="#L" break="no" n="101"/>stantiae separatae peccatum esse potuit ex hoc quod 
+pro<lb ed="#L" break="no" n="102"/>prium bonum, propriamque perfectionem, in ultimum finem
+<lb ed="#L" n="103"/>non ordinavit, sed. inhaesit proprio bono ut fini.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>III. Ad evidentiam eorum quae hic dicuntur, 
+adverten<lb ed="#L" break="no" n="105"/>dum primo quod, sicut alia est causalitas agentis, et alia
+<lb ed="#L" n="106"/>causalitas finis, ita alia est dependentia unius causae agentis
+<lb ed="#L" n="107"/>ab alia, et alia dependentia causae finalis ab alio fine.
+<lb ed="#L" n="108"/>Causalitas enim causae agentis consistit in hoc quod est
+<lb ed="#L" n="109"/>efficere: causalitas vero causae finalis consistit in hoc quod
+<lb ed="#L" n="110"/>est appeti, tanquam id cuius gratia alia appetuntur et
+<lb ed="#L" n="111"/>fiunt ab agente. Ideo causam agentem secundariam 
+depen<lb ed="#L" break="no" n="112"/>dere a causa principali, nihil aliud est quam ipsam efficere
+<lb ed="#L" n="113"/>co-efficiente et movente ipsam principali agente: ipsam
+<lb ed="#L" n="114"/>vero deficere ab ordine principalis agentis, nihil aliud est
+<lb ed="#L" n="115"/>quam ipsam efficere aliquid non secundum quod 
+princi<lb ed="#L" break="no" n="116"/>palis agentis motus et influentia in ipsam exigit, sed 
+se<lb ed="#L" break="no" n="117"/>cundum proprii defectus conditionem. Similiter ergo in
+<pb ed="#L" n="343"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>causis finalibus nihil aliud est secundarium finem a 
+prin<lb ed="#L" break="no" n="2"/>cipali fine dependere, quam ipsum appeti propter appetitum
+<lb ed="#L" n="3"/>principalis finis, sicut medicina appetitur propter appetitum
+<lb ed="#L" n="4"/>sanitatis: et finem secundarium non contineri. sub-ordine
+<lb ed="#L" n="5"/>principalis finis, est ipsum appeti non propter appetitum
+<lb ed="#L" n="6"/>et amorem principalis finis, sed propter se tantum. Ideo,
+<lb ed="#L" n="7"/>sicut peccatum in agentibus naturalibus contingit quando
+<lb ed="#L" n="8"/>secundarium agens producit effectum et non secundum
+<lb ed="#L" n="9"/>influentiam et causalitatem principalis agentis, ut cum 
+pro<lb ed="#L" break="no" n="10"/>ducuntur monstra : ita. in voluntariis peccatum accidit cum
+<lb ed="#L" n="11"/>secundarius finis appetitur non propter appetitum 
+princi<lb ed="#L" break="no" n="12"/>palis finis, sed propter seipsum; quia tunc actus voluntatis
+<lb ed="#L" n="13"/>fertur in aliquem secundarium finem, non secundum quod
+<lb ed="#L" n="14"/>exigit causalitas principalis finis, quae est.ut propter ipsius
+<lb ed="#L" n="15"/>amorem et appetitum omnis alius finis secundarius 
+appe<lb ed="#L" break="no" n="16"/>tatur, sed tantum.secundum ipsius secundarii finis 
+con<lb ed="#L" break="no" n="17"/>ditionem.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>2. Advertendum secundo, ex doctrina Sancti Thomae
+<lb ed="#L" n="19"/>in QQ. Verit., q. xxii, a 7, quod sicut non accidit 
+pecca<lb ed="#L" break="no" n="20"/>tum in natura quando aliquid producitur secundum 
+ordi<lb ed="#L" break="no" n="21"/>nem et inclinationem naturae, ita etiam in voluntariis non
+<lb ed="#L" n="22"/>accidit peccatum quando voluntas vult id ad quod 
+incli<lb ed="#L" break="no" n="23"/>natur naturaliter, et cuius oppositum velle non potest
+<lb ed="#L" n="24"/>inquantum huiusmodi. Sed quia contingit ei quod voluntas
+<lb ed="#L" n="25"/>naturaliter appetit, coniunctum esse aliquid aliud quod non
+<lb ed="#L" n="26"/>est naturaliter volitum, sed libere; ideo in appetitu illius
+<lb ed="#L" n="27"/>naturaliter voliti potest esse peccatum, non quidem ratione
+<lb ed="#L" n="28"/>sui absolute, sed ratione adiuncti, respectu cuius voluntas
+<lb ed="#L" n="29"/>libera est. Quia ergo unicuique volenti est naturalis 
+in<lb ed="#L" break="no" n="30"/>clinatio voluntatis ad proprium bonum et sui ipsius 
+na<lb ed="#L" break="no" n="31"/>turalem perfectionem ; ad ordinem autem proprii boni in
+<lb ed="#L" n="32"/>ultimum finem non est naturalis inclinatio voluntatis, ita
+<lb ed="#L" n="33"/>quod ab appetitu sui boni secundum talem ordinem 
+de<lb ed="#L" break="no" n="34"/>ficere non possit: ideo non est peccatum in appetitu 
+pro<lb ed="#L" break="no" n="35"/>priae perfectionis inquantum huiusmodi, in his: quorum
+<lb ed="#L" n="36"/>proprium bonum sub bono proprio alterius continetur
+<lb ed="#L" n="37"/>tanquam secundarius finis sub principali; sed est 
+pecca<lb ed="#L" break="no" n="38"/>tum si propria perfectio appetatur non propter amorem
+<lb ed="#L" n="39"/>alterius boni, sub quo continetur sua perfectio, et sub quo
+<lb ed="#L" n="40"/>ordine appeti debet, pro illa scilicet mensura in qua ad
+<lb ed="#L" n="41"/>hoc tenetur. Ideo optime infert Sanctus Thomas quod in
+<lb ed="#L" n="42"/>substantia intellectuali isto modo peccatum esse potuit,
+<lb ed="#L" n="43"/>quod proprium bonum non ordinaverit in ultimum finem,
+<lb ed="#L" n="44"/>sed illi inhaeserit ut fini: idest, quod suam naturalem 
+per<lb ed="#L" break="no" n="45"/>fectionem amaverit non propter amorem ultimi finis, qui
+<lb ed="#L" n="46"/>est Deus, sed propter seipsam tantum, in ea videlicet 
+ulti<lb ed="#L" break="no" n="47"/>mate complacendo; cum tamen deberet aliquod ulterius
+<lb ed="#L" n="48"/>bonum ultimate amare, et ad ipsum naturale suum bonum
+<lb ed="#L" n="49"/>ordinare tanquam ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>3. Attendendum tamen quod, cum Deus dupliciter 
+con<lb ed="#L" break="no" n="51"/>siderari possit, scilicet ut est principium naturae, et ut est
+<lb ed="#L" n="52"/>obiectum supernaturalis beatitudinis; peccatum angeli non
+<lb ed="#L" n="53"/>fuit eo quod non ordinaverit bonum suum in Deum ut
+<lb ed="#L" n="54"/>est naturalis boni principium, quia naturale est angelo
+<lb ed="#L" n="55"/>suum bonum illo modo propter Deum amare: sed fuit
+<lb ed="#L" n="56"/>eo quod suum bonum non ordinavit in Deum ut est 
+obie<lb ed="#L" break="no" n="57"/>ctum supernaturalis beatitudinis, suam scilicet perfectionem
+<lb ed="#L" n="58"/>amando ultimate, nullo modo supernaturali beatitudine, ad
+<lb ed="#L" n="59"/>quam Deus ipsum ordinaverat, considerata. Unde in Prima
+<lb ed="#L" n="60"/>Parte  inquit Sanctus Thomas quod peccavit quia 
+appe<lb ed="#L" break="no" n="61"/>tiit ut finem ultimum beatitudinis id ad quod virtute suae
+<lb ed="#L" n="62"/>naturae poterat pervenire, avertens suum appetitum a 
+bea<lb ed="#L" break="no" n="63"/>titudine supernaturali, quae est ex gratia Dei.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>4. Advertendum etiam, cum inquit Sanctus Thomas in
+<lb ed="#L" n="65"/>secundariis volentibus peccatum esse posse si im sua 
+na<lb ed="#L" break="no" n="66"/>tura considerentur, quod ideo addidit, si im sua natura
+<lb ed="#L" n="67"/>considerentur, quia non inconvenit substantiam 
+intelle<lb ed="#L" break="no" n="68"/>ctualem fieri impeccabilem per gratiam: sicut Beati omnes
+<lb ed="#L" n="69"/>in tali statu sunt in quo peccare non possunt, non 
+qui<lb ed="#L" break="no" n="70"/>dem ex conditione naturae, sed ex gratiae dono.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>5. Considerandum ulterius, ex doctrina Sancti Thomae
+<lb ed="#L" n="72"/>Quarto, d. xxv1, a. 1, quod naturale aliquid esse homini
+<lb ed="#L" n="73"/>dupliciter intelligi potest: umo modo, quia ex principiis
+<lb ed="#L" n="74"/>naturae de necessitate causatur ; alio modo, quia ad illud
+<lb ed="#L" n="75"/>natura inclinat, sed mediante libero arbitrio completur.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Quia ergo non voluit omnino negare Sanctus Thomas
+<lb ed="#L" n="77"/>naturale esse volenti creato ordinare suam perfectionem
+<lb ed="#L" n="78"/>in alium finem, — est enim sibi naturale aliquo modo, 
+in<lb ed="#L" break="no" n="79"/>quantum ex ratione ad hoc inclinatur supposita 
+revela<lb ed="#L" break="no" n="80"/>tione divina de supernaturali fine; — sed tantum quod hoc
+<lb ed="#L" n="81"/>non est sibi naturale primo modo: ideo non absolute
+<lb ed="#L" n="82"/>dixit non esse sibi inditum naturaliter 'ut ordinet suam
+<lb ed="#L" n="83"/>perfectionem in alium finem, sed addidit, ita quod ab eo
+<lb ed="#L" n="84"/>deficere non possit, quasi diceret: Illud quidem est sibi
+<lb ed="#L" n="85"/>aliquo modo naturale, inquantum ex ratione ad ipsum
+<lb ed="#L" n="86"/>inclinationem aliquam habet: non tamen est sibi naturale
+<lb ed="#L" n="87"/>tanquam ex principiis naturae dicitur necessitate causatum.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>IV. Circa id quod dicitur, in voluntate substantiae 
+se<lb ed="#L" break="no" n="89"/>paratae peccatum esse potuisse ex hoc quod proprium 
+bo<lb ed="#L" break="no" n="90"/>num in ultimum finem non ordinavit, sed inhaesit proprio
+<lb ed="#L" n="91"/>bono ut fini, advertendum est quod duplex Theologorum
+<lb ed="#L" n="92"/>positio fuit de peccato daemonis. Quidam enim dixerunt
+<lb ed="#L" n="93"/>quod peccatum eius in hoc fuit quod appetiit ut finem
+<lb ed="#L" n="94"/>ultimum id ad quod virtute suae naturae poterat 
+perve<lb ed="#L" break="no" n="95"/>nire: idest, proprium bonum, et propriam perfectionem
+<lb ed="#L" n="96"/>sibi naturaliter convenientem, tanquam ultimum finem et
+<lb ed="#L" n="97"/>tanquam suam finalem beatitudinem amavit, et in ipsa 
+dele<lb ed="#L" break="no" n="98"/>ctatus est, non curans de supernaturali beatitudine per 
+gra<lb ed="#L" break="no" n="99"/>tiam habenda, quae in visione Dei per essentiam consistit.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Alii vero dixerunt eum in hoc peccasse quod illam
+<lb ed="#L" n="101"/>beatitudinem quae datur ex gratia, appetiit quidem ut 
+ulti<lb ed="#L" break="no" n="102"/>mum finem, sed voluit ipsam habere non ex divino auxilio;
+<lb ed="#L" n="103"/>sed per virtutem suae naturae. Intellige, non quidem 
+po<lb ed="#L" break="no" n="104"/>sitive, quasi hoc totum fuerit volitum ab eo, scilicet 
+bea<lb ed="#L" break="no" n="105"/>titudo quae datur ex gratia et ipse modus habendi, scilicet
+<lb ed="#L" n="106"/>per propriam virtutem: sed negative, inquantum scilicet
+<lb ed="#L" n="107"/>voluit talem beatitudinem et nihil consideravit de gratia
+<lb ed="#L" n="108"/>et auxilio divino, cum tamen, eam appetendo, deberet 
+tan<lb ed="#L" break="no" n="109"/>quam ex divina habendam gratia appetere. Huius opinionis
+<lb ed="#L" n="110"/>videtur esse Anselmus, cum inquit quod illud appetiit
+<lb ed="#L" n="111"/>ad quod pervenisset si stetisset.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>Licet autem Sanctus Thomas hanc secundam 
+opinio<lb ed="#L" break="no" n="113"/>nem videatur sequi in 1| Sent. d. v, q. 1, a. 2; et in
+<lb ed="#L" n="114"/>QQ. de Malo, q. xvi, a. 3; tamen hic, et in Prima Parte,
+<lb ed="#L" n="115"/>Q. Lxir, a. 3, videtur magis primae opinioni adhaerere. In
+<lb ed="#L" n="116"/>hoc enim videtur angelus similitudinem Dei appetiisse, ut
+<lb ed="#L" n="117"/>sicut Deus seipso et suo naturali bono est beatus, ipseque
+<lb ed="#L" n="118"/>sibi finis ultimus est, ita et ipse angelus, ex modo 
+appe<lb ed="#L" break="no" n="119"/>tendi; voluit sibi ipsi esse ultimus finis, et suo naturali
+<lb ed="#L" n="120"/>bono esse beatus, tanquam sua naturalis perfectio 
+sum<lb ed="#L" break="no" n="121"/>mum bonum esset, ad nullum aliud perfectius bonum 
+ordi<lb ed="#L" break="no" n="122"/>natum. .
+</p>
+            <p>
+               <lb ed="#L" n="123"/>2. In idem tamen istae duae positiones aliquo modo,
+<lb ed="#L" n="124"/>ut inquit Sanctus Thomas Prima Parte, loco praeallegato,
+<lb ed="#L" n="125"/>redeunt: secundum utramque enim positionem, appetiit
+<lb ed="#L" n="126"/>Jinalem beatitudinem per suam virtutem habere. Si enim
+<lb ed="#L" n="127"/>propriam et naturalem perfectionem, quae est eius 
+natu<lb ed="#L" break="no" n="128"/>ralis cognitio, aut quaecumque eius naturalis perfectio ex
+<lb ed="#L" n="129"/>naturae principiis proveniens, tanquam summum bonum
+<lb ed="#L" n="130"/>et finalem beatitudinem amavit: constat quod finalem 
+bea<lb ed="#L" break="no" n="131"/>titudinem voluit per propriam virtutem habere; quia 
+na<lb ed="#L" break="no" n="132"/>turalis perfectio, ex principiis naturae proveniens, ex propria
+<lb ed="#L" n="133"/>virtute procedit. Si etiam beatitudinem quae aliis datur
+<lb ed="#L" n="134"/>ex gratia, voluit et appetiit habere non ab alio: constat
+<lb ed="#L" n="135"/>quod implicite et interpretative voluit a seipso, et per
+<lb ed="#L" n="136"/>propriam virtutem, finalem beatitudinem assequi.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>V. Sed circa praedicta dubium occurrit. Si enim, ut
+<lb ed="#L" n="138"/>hic dicitur, angelo non est naturaliter inditum ut suam
+<lb ed="#L" n="139"/>perfectionem ordinet ad alium finem, sed hoc suo arbitrio
+<lb ed="#L" n="140"/>relinquitur, potestque ab hoc ordine deficere: sequitur
+<lb ed="#L" n="141"/>quod angelus in primo instanti peccare potuerit. Hoc
+<lb ed="#L" n="142"/>autem pro falso et inconvenienti Sanctus Thomas ubique
+<lb ed="#L" n="143"/>habet. Ergo et dictum illud verum esse non potest.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>Quod autem istud sequatur, ostenditur sic. Angelo in
+<lb ed="#L" n="145"/>primo instanti non erat naturaliter inditum ut suam 
+per<lb ed="#L" break="no" n="146"/>fectionem in alium finem ordinaret, sed poterat a tali
+<lb ed="#L" n="147"/>ordinatione deficere. Ergo poterat se diligere, et non 
+pro<lb ed="#L" break="no" n="148"/>pter Deum. Sed omnis actus electivus in habente gratiam,
+<lb ed="#L" n="149"/>secundum doctrinam Sancti Thomae, est meritorius aut  
+<pb ed="#L" n="344"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>catum. Sed non. fuisset meritum: cum nullus actus. sit
+<lb ed="#L" n="2"/>meritorius nisi in Deum actu. aut virtute tendat. Ergo
+<lb ed="#L" n="3"/>fuisset peccatum. Et ita in primo instanti peccasset.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>2. Ad huius evidentiam, considerandum est quod; cum
+<lb ed="#L" n="5"/>gratia naturam secundum modum ipsius naturae inclinet,
+<lb ed="#L" n="6"/>- omnis enim forma inclinat suum subiectum secundum
+<lb ed="#L" n="7"/>modum ipsius subiecti, ut est de mente Sancti Thomae
+<lb ed="#L" n="8"/>Prima, q. rxi a. 3, ad 2 - oportet secundum modum 
+na<lb ed="#L" break="no" n="9"/>turalitatis aut libertatis naturae. angelicae ad ea quae ad
+<lb ed="#L" n="10"/>ordinem naturae pertinent, esse. ipsius inclinationem ad
+<lb ed="#L" n="11"/>Deum, ad quem. gratia caritasque inclinant. Secundum
+<lb ed="#L" n="12"/>autem mentem Sancti Thomae Prima, q. rxur, a. 5 et 6;
+<lb ed="#L" n="13"/>angelus absolute quidem potest in bonum et malum: in
+<lb ed="#L" n="14"/>primo. tamen instanti sui esse, naturaliter et determinate
+<lb ed="#L" n="15"/>movetur in bonum, ita quod in malum moveri.non 
+po<lb ed="#L" break="no" n="16"/>test. Similiter ergo gratia, in qua angeli sunt creati, absolute
+<lb ed="#L" n="17"/>quidem cum libertate. quadam naturam angelicam 
+incli<lb ed="#L" break="no" n="18"/>nabat in Deum sicut in ultimum finem, ita quod poterat
+<lb ed="#L" n="19"/>angelus et diligere se. propter Deum, et se non propter
+<lb ed="#L" n="20"/>Deum.diligere: in primo tamen instanti determinate et
+<lb ed="#L" n="21"/>necessario in dilectionem Dei inclinabat, ita.quod non 
+po<lb ed="#L" break="no" n="22"/>terat actum dilectionis. circa se elicere quin se propter
+<lb ed="#L" n="23"/>Deum diligeret.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>3. Ad dubium ergo, negatur consequentia. — Ad 
+pro<lb ed="#L" break="no" n="25"/>bationem autem dicitur quod ex falso fundamento procedit,
+<lb ed="#L" n="26"/>quod scilicet angelus,in primo instanti-esset liber ad 
+di<lb ed="#L" break="no" n="27"/>ligendum se. propter Deum, et ad diligendum se non 
+pro<lb ed="#L" break="no" n="28"/>pter Deum. Ad auctoritatem enim Sancti Thomae dicitur
+<lb ed="#L" n="29"/>quod in arbitrio angeli esse ut se diligat in ordine ad
+<lb ed="#L" n="30"/>Deum, et sine tali ordine, dupliciter potest intelligi: 
+sci<lb ed="#L" break="no" n="31"/>licet absolute; sive, aliquando, et pro omni durationis 
+men<lb ed="#L" break="no" n="32"/>sura. Primo modo. verum est: et, ad illum. sensum 
+loqui<lb ed="#L" break="no" n="33"/>tur Sanctus Thomas. Nam opposito modo inclinabatur .
+<lb ed="#L" n="34"/>voluntas angeli ad. suum - bonum naturale: et.ad hunc
+<lb ed="#L" n="35"/>ordinem in Deum. In naturale enim. bonum naturaliter
+<lb ed="#L" n="36"/>inclinabatur ita quod eius oppositum velle nullo tempore
+<lb ed="#L" n="37"/>poterat: in hunc autem ordinem, absolute loquendo, libere
+<lb ed="#L" n="38"/>per gratiam inclinabatur, ita quod quandoque poterat 
+di<lb ed="#L" break="no" n="39"/>ligere bonum suum sine ordine ad Deum. Et ita de facto
+<lb ed="#L" n="40"/>in secundo instanti evenit quod aliqui se sine tali ordine
+<lb ed="#L" n="41"/>dilexerunt. — Secundo vero modo falsum est: neque ad
+<lb ed="#L" n="42"/>illum sensum loquitur Sanctus Thomas. Non enim in primo
+<lb ed="#L" n="43"/>instanti suae creationis angelus liber epat ut in ipso posset
+<lb ed="#L" n="44"/>diligere, se propter Deum, et non propter Deum: sed. ad
+<lb ed="#L" n="45"/>hoc ex gratia determinatus. erat ut, diligendo se, diligeret
+<lb ed="#L" n="46"/>propter.Deum, non poteratque se et non propter Deum
+<lb ed="#L" n="47"/>diligere.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>VI. Circa. primum modum peccati angelorum, quem
+<lb ed="#L" n="49"/>sequitur hoc loco Sanctus Thomas , dubium non 
+dissi<lb ed="#L" break="no" n="50"/>mulandum. occurrit. Si enim peccaverunt angeli quia 
+con<lb ed="#L" break="no" n="51"/>versi sunt in proprium bonum tanquam in ultimum finem,
+<lb ed="#L" n="52"/>aut hoc fuit per actum amoris naturalis: aut per actum
+<lb ed="#L" n="53"/>amoris electivi. Non quidem primum: quia, ut habetur
+<lb ed="#L" n="54"/>Prima, q. Lx, a. 1t, ad 3, dilectio naturalis semper est recta.
+<lb ed="#L" n="55"/>— Non etiam secundum. Quia inquit Sanctus Thomas 
+su<lb ed="#L" break="no" n="56"/>perius. in hoc capite, quod inest unicuique. naturalis 
+in<lb ed="#L" break="no" n="57"/>clinatio voluntatis ad volendum et amandum sui ipsius
+<lb ed="#L" n="58"/>perfectionem, ita quod contrarium huius velle non potest.
+<lb ed="#L" n="59"/>Ergo non apparet quomodo circa naturale bonum 
+potue<lb ed="#L" break="no" n="60"/>runt angeli peccare.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>2. Respondebitur forte, de mente Sancti Thomae in
+<lb ed="#L" n="62"/>hoc capite, quod, licet voluntas naturaliter feratur in 
+pro<lb ed="#L" break="no" n="63"/>prium bonum volentis absolute sumptum, in ipsum tamen
+<lb ed="#L" n="64"/>sub ratione ultimi finis fertur libere et elective: quia 
+vi<lb ed="#L" break="no" n="65"/>delicet in potestate volentis est ordinare bonum naturale
+<lb ed="#L" n="66"/>volentis in ulteriorem finem ; aut non ordinare, sed sistere
+<lb ed="#L" n="67"/>in ipso tanquam in ultimo fine.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>3. Sed licet ita oporteat secundum mentem Divi Thomae
+<lb ed="#L" n="69"/>respondere, non videtur tamen haec responsio, sequendo
+<lb ed="#L" n="70"/>eius principia, dubio satisfacere. Si enim ratio ultimi finis
+<lb ed="#L" n="71"/>fuisset volita in bono naturali ita quod voluntas amasset
+<lb ed="#L" n="72"/>proprium et naturale bonum volentis, et in ipso amasset
+<lb ed="#L" n="73"/>hanc conditionem quae est ultimum finem esse : responsio
+<lb ed="#L" n="74"/>utique sufficienter dubium evacuaret. Sed quia tenet 
+San<lb ed="#L" break="no" n="75"/>ctus Thomas angelos non peccasse per electionem mali,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>sed tantum per amorem boni indebito modo ex parte 
+ele<lb ed="#L" break="no" n="77"/>ctionis, volendo scilicet proprium bonum et non ordinando
+<lb ed="#L" n="78"/>illud in ulteriorem finem in quem debeat ordinare; 
+cau<lb ed="#L" break="no" n="79"/>samque huius deordinationis inconsiderationem talis ordinis
+<lb ed="#L" n="80"/>fuisse tenet, ut patet capite sequenti: ideo non videtur
+<lb ed="#L" n="81"/>per illam responsionem dubium tolli.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Arguitur enim sic. In instanti in quo peccaverunt angeli
+<lb ed="#L" n="83"/>per conversionem ad proprium bonum, aut peccaverunt
+<lb ed="#L" n="84"/>per actum conversionis mere naturalis in proprium bonum
+<lb ed="#L" n="85"/>absque ordine ad ulteriorem finem; aut per actum aliquo
+<lb ed="#L" n="86"/>modo electivum ; aut per carentiam actus electivi quem
+<lb ed="#L" n="87"/>debebant habere. Non primum: quia in actu mere 
+natu<lb ed="#L" break="no" n="88"/>rali non potest esse peccatum. — Non secundum. Quia
+<lb ed="#L" n="89"/>circa bonum naturale non potest esse: actus . voluntatis
+<lb ed="#L" n="90"/>electivus nisi illud voluntati proponatur cum aliqua 
+con<lb ed="#L" break="no" n="91"/>ditione non naturali: cum bonum naturale velit 
+natura<lb ed="#L" break="no" n="92"/>liter, et contrarium eius velle non possit, ut dictum est,
+<lb ed="#L" n="93"/>In instanti autem in quo angelus peccavit, non fuit 
+pro<lb ed="#L" break="no" n="94"/>positum voluntati bonum. naturale. cum hac conditione
+<lb ed="#L" n="95"/>non naturali, scilicet cum ordine ad ulteriorem finem : cum
+<lb ed="#L" n="96"/>peccaverit. ex inconsideratione talis ordinis. Ergo non fuit
+<lb ed="#L" n="97"/>actus electivus circa proprium bonum non inquantum
+<lb ed="#L" n="98"/>ordinabatur ad ulteriorem finem. — Non etiam tertium.
+<lb ed="#L" n="99"/>Quia tunc primum peccatum angeli fuisset peccatum 
+omis<lb ed="#L" break="no" n="100"/>sionis, non autem peccatum superbiae, ut tenet Sanctus
+<lb ed="#L" n="101"/>Thomas.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>VI. Ad evidentiam huius difficultatis, considerandum
+<lb ed="#L" n="103"/>est quod dupliciter volitio potest dici electiva. Uno modo,
+<lb ed="#L" n="104"/>quantum ad exercitium actus: quia videlicet est in 
+po<lb ed="#L" break="no" n="105"/>testate voluntatis elicere illam vel non elicere. Alio modo,
+<lb ed="#L" n="106"/>quantum ad specificationem actus: quia scilicet, si voluntas
+<lb ed="#L" n="107"/>egrediatur ad operationem circa aliquod. obiectum, potest
+<lb ed="#L" n="108"/>illud acceptare vel respuere. 
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Dicitur ergo primo, quod. mota. difficultas fundatur 
+su<lb ed="#L" break="no" n="110"/>per falso fundamento: scilicet quod voluntas sic. 
+natura<lb ed="#L" break="no" n="111"/>liter feratur in bonum naturale volentis quod.non sit libera
+<lb ed="#L" n="112"/>quantum. ad exercitium actus, sed ille actus semper 'ex
+<lb ed="#L" n="113"/>necessitate concomitetur naturam, Hoc enim falsum est.
+<lb ed="#L" n="114"/>Nam, licet voluntas sic naturaliter feratur in bonum 
+na<lb ed="#L" break="no" n="115"/>turale quod eius oppositum velle non possit, ut hoc loco
+<lb ed="#L" n="116"/>inquit Sanctus Thomas, est tamen in eius potestate elicere
+<lb ed="#L" n="117"/>actum volendi circa ipsum vel non elicere, et continuare
+<lb ed="#L" n="118"/>talem actum vel ab ipso cessare. 
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Dicitur secundo, quod responsio data  bona est, et ad
+<lb ed="#L" n="120"/>mentem Sancti Thomae. Licet enim voluntas angeli, si
+<lb ed="#L" n="121"/>habeat operationem circa eius bonum naturale, non. possit
+<lb ed="#L" n="122"/>illud non amate; potest tamen amare-illud. cum ordine
+<lb ed="#L" n="123"/>ad aliud bonum, et sine tali ordine, Unde talis actus quo
+<lb ed="#L" n="124"/>peccavit angelus, et fuit naturalis, inquantum ferebatur in
+<lb ed="#L" n="125"/>bonum naturale: et fuit electivus, inquantum ferri poterat
+<lb ed="#L" n="126"/>in illud cum ordine ad ulteriorem finem, et sine tali ordine.
+<lb ed="#L" n="127"/>Cum autem dicitur quod dilectio naturalis. semper . est
+<lb ed="#L" n="128"/>recta , intelligendum est hoc.de ea quae mere naturalis
+<lb ed="#L" n="129"/>est, non autem de illa quae est partim naturalis et partim
+<lb ed="#L" n="130"/>libera: talis. enim ea parte qua est naturalis, semper est
+<lb ed="#L" n="131"/>recta; sed. ea parte qua est libera, potest esse recta, et
+<lb ed="#L" n="132"/>non recta.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>2. Ad rationem autem contra hanc responsionem , 
+di<lb ed="#L" break="no" n="134"/>citur quod peccavit per actum conversionis in proprium
+<lb ed="#L" n="135"/>bonum non quidem mere naturalis, nec mere electivae:
+<lb ed="#L" n="136"/>sed partim naturalis et partim electivae quantum ad 
+spe<lb ed="#L" break="no" n="137"/>cificationem actus; mere autem electivae quantum ad eius
+<lb ed="#L" n="138"/>exercitium.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Cum autem contra hoc arguitur, quia non potest esse
+<lb ed="#L" n="140"/>actus electivus circa bonum naturale nisi ilud 
+propo<lb ed="#L" break="no" n="141"/>natur voluntati cum aliqua conditione non. naturali: —
+<lb ed="#L" n="142"/>dicitur primo. quod hoc est falsum. Sufficit enim. quod
+<lb ed="#L" n="143"/>actus sit in potestate voluntatis quoad exercitium, et quod,
+<lb ed="#L" n="144"/>quando elicitur, teneatur intellectus considerare de aliqua
+<lb ed="#L" n="145"/>conditione non naturali, et voluntas eligens teneatur cum
+<lb ed="#L" n="146"/>illa conditione eligere. Unde,' cum angelus in secundo
+<lb ed="#L" n="147"/>instanti sui esse, teneretur de ordine sui boni naturalis ad
+<lb ed="#L" n="148"/>bonum supernaturale considerare, si actum conversionis
+<lb ed="#L" n="149"/>in seipsum volebat elicere; sicque teneretur se in ordine
+<lb ed="#L" n="150"/>ad Deum ut est obiectum beatitudinis supernaturalis, di-
+<pb ed="#L" n="345"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ligere: quia actum suae dilectionis libere absque tali ordine
+<lb ed="#L" n="2"/>elicuit, peccavit. — Nec tamen sequitur quod primum eius
+<lb ed="#L" n="3"/>peccatum fuerit omissio, nisi concomitanter: eo scilicet
+<lb ed="#L" n="4"/>modo quo in omni peccato est alicuius circumstantiae
+<lb ed="#L" n="5"/>omissio.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>3. Sed circa hanc responsionem occurrit dubium. ''enet
+<lb ed="#L" n="7"/>enim Sanctus Thomas quod angelus semper seipsum actu
+<lb ed="#L" n="8"/>intelligit: ut patet Verit, q. vit, a. 6, ad 7. Sed volitio 
+se<lb ed="#L" break="no" n="9"/>quitur cognitionem. Ergo et semper seipsum diligit. Ergo
+<lb ed="#L" n="10"/>actus quo diligit se, nunquam est liber, sed semper 
+con<lb ed="#L" break="no" n="11"/>comitatur naturam, et est secundum naturae inclinationem:
+<lb ed="#L" n="12"/>sicut neque cognitio qua seipsum cognoscit.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Respondetur quod intelligitur dictum Sancti Thomae de
+<lb ed="#L" n="14"/>cognitione speculativa, non autem de cognitione practica,
+<lb ed="#L" n="15"/>qua iudicat se esse amandum et diligendum pro tunc.
+<lb ed="#L" n="16"/>Hanc autem cognitionem: sequitur voluntas, non autem
+<lb ed="#L" n="17"/>speculativam. Ideo non est contra responsionem. Unde
+<lb ed="#L" n="18"/>quod dicitur in QQ. de Malo, q. xvr, a. 2, ad 6, quod
+<lb ed="#L" n="19"/>voluntas angeli semper: vult, sieut eius intellectus semper
+<lb ed="#L" n="20"/>intelligit, non est intelligendum circa unum determinatum
+<lb ed="#L" n="21"/>obiectum, sed absolute: quia scilicet, sicut angelus semper
+<lb ed="#L" n="22"/>aliquid considerat, scilicet modo, unum, modo aliud 
+con<lb ed="#L" break="no" n="23"/>siderando, ita.semper aliquid vult, modo scilicet volendo
+<lb ed="#L" n="24"/>unum, modo aliud.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>VII. Si quis autem vellet tenere quod actus dilectionis.
+<lb ed="#L" n="26"/>quo angelus diligit se, sit actus naturalis tam quoad 
+exer<lb ed="#L" break="no" n="27"/>citium actus:quam quoad eius specificationem: haberet
+<lb ed="#L" n="28"/>primo dicere quod in nullo instanti angelus qui peccavit,
+<lb ed="#L" n="29"/>habuit actum peccati explicite et pure. electivum, sed 
+sem<lb ed="#L" break="no" n="30"/>per in suo actu naturali perseveravit; cum semper eodem
+<lb ed="#L" n="31"/>modo sibi suum "bonum naturale fuerit praesentatum.: :
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Haberet secundo dicere quod in secundo instanti, in quo
+<lb ed="#L" n="33"/>boni conversi sunt ad Deum, suus actus fuit interpretative
+<lb ed="#L" n="34"/>celectivus; inquantum poterat se diligere cum ordine ad
+<lb ed="#L" n="35"/>Deum sicut et boni, et hoc tenebatur facere; quod cum
+<lb ed="#L" n="36"/>non fecerit, per. electionem interpretativam peccavit.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Haberet tertio dicere quod secundum instans, in quo
+<lb ed="#L" n="38"/>peccavit, non fuit aliquod instans suo actui- intrinsecum,
+<lb ed="#L" n="39"/>mensurans ipsum actum peccati: sed. fuit instans 
+extrin<lb ed="#L" break="no" n="40"/>secum, mensurans scilicet bonorum angelorum electionem,
+<lb ed="#L" n="41"/>in quo et ipse debebat in Deum. converti. — Nisi forte
+<lb ed="#L" n="42"/>diceretur quod, licet non habuerit novum actum dilectionis
+<lb ed="#L" n="43"/>suorum naturalium in aliquo novo instanti illi actui 
+in<lb ed="#L" break="no" n="44"/>trinseco, habuit; tamen novum actum imperii (eo modo
+<lb ed="#L" n="45"/>quo voluntati convenit imperare), quo actu voluntas 
+im<lb ed="#L" break="no" n="46"/>peravit intellectui ut intense et exacte bona naturalia 
+con<lb ed="#L" break="no" n="47"/>sideraret; ex qua intensa consideratione secuta est intensa
+<lb ed="#L" n="48"/>dilectio naturalium; ex qua deinde secuta est 
+inconside<lb ed="#L" break="no" n="49"/>ratio ordinis ad Deum, quae fuit causa peccati, ut videtur
+<lb ed="#L" n="50"/>velle Sanctus Thomas in capite sequenti. Et sic dicitur
+<lb ed="#L" n="51"/>peccasse in secundo instanti, mensurante scilicet illud 
+im<lb ed="#L" break="no" n="52"/>perium voluntatis: quia in illo tenebatur, cum suorum
+<lb ed="#L" n="53"/>naturalium dilectione, etiam diligere Deum ut obiectum
+<lb ed="#L" n="54"/>beatitudinis! supernaturalis.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>IX. Secunda conclusio est: Substantia intellectualis
+<lb ed="#L" n="56"/>peccavit appetendo aequalitatem Dei. Probatur hac ratione.
+<lb ed="#L" n="57"/>Substantia intellectualis voluit ut ex seipsa alia regulariter 
+<lb ed="#L" n="58"/>disponeret, et ut eius voluntas ab alio superiori non 
+re<lb ed="#L" break="no" n="59"/>gularetur, Ergo etc. — Probatur consequentia. Quia illud
+<lb ed="#L" n="60"/>soli Deo. debetur. — Antecedens vero probatur. Quia ex
+<lb ed="#L" n="61"/>fine necesse est ut regulae actionis sumantur. In seipsa
+<lb ed="#L" n="62"/>autem finem constituit.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Declarat autem. Sanctus Thomas quod hoc non sic
+<lb ed="#L" n="64"/>intelligitur quasi appetierit ut bonum suum esset divino
+<lb ed="#L" n="65"/>bono aequale. Tum quia hoc in intellectu eius cadere non
+<lb ed="#L" n="66"/>poterat, Tum quia appeteret se non esse: cum distinctio
+<lb ed="#L" n="67"/>specierum secundum . diversos gradus rerum proveniat.
+<lb ed="#L" n="68"/>Sed intelligitur modo tacto in ratione.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>2. Ad evidentiam rationis, considerandum est quod non
+<lb ed="#L" n="70"/>sic est intelligendum. antecedens quasi explicite, et 
+tan<lb ed="#L" break="no" n="71"/>quam rem appetitam, voluerit angelus omnia alia 
+regula<lb ed="#L" break="no" n="72"/>riter disponere, et voluntatem, suam a superiori non 
+regu<lb ed="#L" break="no" n="73"/>lari: sed implicite. et interpretative, ex modo appetendi,
+<lb ed="#L" n="74"/>illud voluit.. Sicut, si quis appeteret se posse episcopos
+<lb ed="#L" n="75"/>instituere nihil. de auctoritate Summi Pontificis. cogitans,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>diceremus quod iste appeteret Summum Pontificatum, non
+<lb ed="#L" n="77"/>quidem explicite, sed implicite, et consecutive ex modo
+<lb ed="#L" n="78"/>appetendi, quia instituere episcopos non per alterius 
+aucto<lb ed="#L" break="no" n="79"/>ritatem ad Summum Pontificem spectat.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>X. Sed contra praedicta arguit Scotus, II Sent, d. vr,
+<lb ed="#L" n="81"/>q. 1, Primo enim arguit quod angelus potuit appetere
+<lb ed="#L" n="82"/>aequalitatem Dei absolutam, et non tantum secundum
+<lb ed="#L" n="83"/>quandam similitudinem. Primo, quia potuit se amare amore
+<lb ed="#L" n="84"/>amicitiae, et potuit sibi concupiscere omne bonum 
+concu<lb ed="#L" break="no" n="85"/>piscibile: cum voluntas secundum utrumque actum habeat
+<lb ed="#L" n="86"/>totum ens pro obiecto ; aequalitas autem Dei sit quoddam
+<lb ed="#L" n="87"/>bonum concupiscibile secundum se
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Tum, quia impossibilitas non obstat: cum voluntas possit
+<lb ed="#L" n="89"/>esse impossibilium, ut dicitur TII Ethic. ; et damnati 
+ha<lb ed="#L" break="no" n="90"/>beant odio Deum; et peccans possit velle Deum non esse,
+<lb ed="#L" n="91"/>et velle illam: eminentiam Dei esse in aliquo.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Tertio, quia voluntas, secundum Augustinum, in 
+Li<lb ed="#L" break="no" n="93"/>bro Octoginta trium Qut xxx, potest uti fruendis, et
+<lb ed="#L" n="94"/>frui utendis.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>2. Secundo, ad rationes Sancti Thomae respondet. Ad
+<lb ed="#L" n="96"/>primam quidem dicit primo, quod sufficit sola simplex 
+ap<lb ed="#L" break="no" n="97"/>prehensio ad hoc quod appetitus appetat illud apprehensum
+<lb ed="#L" n="98"/>alteri : sicut intellectus apprehendens albedinem et 
+appre<lb ed="#L" break="no" n="99"/>hendens corvum, potest: velle albedinem corvo. — Dicit 
+se<lb ed="#L" break="no" n="100"/>cundo, quod intellectus simplex potest apprehendere 
+aequa<lb ed="#L" break="no" n="101"/>litatem Dei sine errore. — Ex his duobus sequitur falsum
+<lb ed="#L" n="102"/>esse. quod assumit Sanctus "'homas, scilicet quod in 
+intel<lb ed="#L" break="no" n="103"/>lectu substantiae separatae non potest cadere quod bonum
+<lb ed="#L" n="104"/>suum sit. aequale bono -divino.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Ad secundum dicit primo, quod voluntas potest velle
+<lb ed="#L" n="106"/>consequenter se nom esse. Sicut peccans mortaliter vult 
+<lb ed="#L" n="107"/>aliquid in quo non vuk se subesse Deo; et in hoc ex
+<lb ed="#L" n="108"/>consequenti vult se non esse;-quia non potest esse nisi
+<lb ed="#L" n="109"/>subsit Deo. - Dicit secundo, quod non oportet ut velit
+<lb ed="#L" n="110"/>consequens si vult antecedens, quando consequers non est
+<lb ed="#L" n="111"/>per se de intellectu antecedentis. Nunc autem consequens,
+<lb ed="#L" n="112"/>scilicet angelum non esse, non est de intellectu 
+antece<lb ed="#L" break="no" n="113"/>dentis, scilicet. eius quod est. — fieri — Deo.
+<lb ed="#L" n="114"/>Ideo ratio non sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>XL Pro horum solutione, emdlietadthidh est primo,
+<lb ed="#L" n="116"/>quod appetitus non fertur in aliquid nisi inquantum illud
+<lb ed="#L" n="117"/>existimatur :prosequendum aut. fugiendum, et conveniens
+<lb ed="#L" n="118"/>aut disconveniens appetenti, aut alteri quo appetens 
+tan<lb ed="#L" break="no" n="119"/>quam seipso utitur: cum obiectum appetitus sit bonum;
+<lb ed="#L" n="120"/>bonum autem habeat rationem perfectivi. Ideo, 
+quantum<lb ed="#L" break="no" n="121"/>cumque aliquid secundum suam naturam bonum sit, nisi
+<lb ed="#L" n="122"/>existimetur conveniens appetenti, nunquam appetetur. Non
+<lb ed="#L" n="123"/>existimatur autem aliquid conveniens alicui nisi existimetur
+<lb ed="#L" n="124"/>esse eius perfectivum. Perfectio autem aliquod subiectum
+<lb ed="#L" n="125"/>perficit inquantum illi dat esse, Propterea ad hoc ut aliqua
+<lb ed="#L" n="126"/>perfectio appetatur, necesse est ut existimetur ut potens sibi
+<lb ed="#L" n="127"/>uniri aliquo modo secundum esse. Ex quo sequitur ut quod
+<lb ed="#L" n="128"/>quis existimat impossibile inesse sibi, non possit ab eo 
+ap<lb ed="#L" break="no" n="129"/>peti et desiderari. Et sic, si aequalitas ad Deum existimatur
+<lb ed="#L" n="130"/>ab angelo tanquam. impossibilis sibi inesse, non potest ab
+<lb ed="#L" n="131"/>ipso appeti et desiderari. — Nunc autem ita est quod,
+<lb ed="#L" n="132"/>cum angelus, antequam peccaret, naturalem cognitionem
+<lb ed="#L" n="133"/>haberet integram et non corruptam, neque videlicet per
+<lb ed="#L" n="134"/>passionem, cum in ipso non sit passio, neque per .
+pec<lb ed="#L" break="no" n="135"/>catum ; non poterat in ipso esse falsa existimatio circa 
+natu<lb ed="#L" break="no" n="136"/>raliter cognita, ut impossibile tanquam possibile existimaret.
+<lb ed="#L" n="137"/>Et per consequens, cum naturaliter cognosceret quod esse
+<lb ed="#L" n="138"/>suum esset ab aliquo superiori participatum, utpote suam
+<lb ed="#L" n="139"/>naturam perfecte cognoscens; non poterat tanquam 
+pos<lb ed="#L" break="no" n="140"/>sibile. existimare quod suum esse ipsi esse subsistenti et
+<lb ed="#L" n="141"/>a nullo superiori participato, quale est esse divinum, 
+aequa<lb ed="#L" break="no" n="142"/>retur. Idcirco huiusmodi aequalitatem absolutam appetere
+<lb ed="#L" n="143"/>non potuit. Et hoc est fundamentum primae rationis.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>Nec valet distinctio Scoti, loco praeallegato, scilicet
+<lb ed="#L" n="145"/>quod quaedam est volitio efficax, et quaedam est volitio
+<lb ed="#L" n="146"/>complacentiae: et quod, licet volitio efficax non 'sit rei
+<lb ed="#L" n="147"/>impossibilis, volitio tamen complacentiae potest esse 
+im<lb ed="#L" break="no" n="148"/>possibilis, et in ea consistit meritum et demeritum. — Constat
+<lb ed="#L" n="149"/>enim falsissimum esse quod aliqua volitio quae est cum
+<lb ed="#L" n="150"/>pleno consensu , possit esse rei absolute et per se impos-
+<pb ed="#L" n="346"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sibilis, quam scilicet esse omnino repugnat, cuiusmodi est
+<lb ed="#L" n="2"/>creaturam aequari Creatori: licet aliqua volitio possit esse
+<lb ed="#L" n="3"/>eius quod est impossibile per accidens et. ut nunc. Nullus
+<lb ed="#L" n="4"/>enim, ut eius utar exemplo, pleno consensu desiderat 
+sa<lb ed="#L" break="no" n="5"/>nitatem. quam putat se assequi non posse pro nunc, nisi
+<lb ed="#L" n="6"/>quia se esse sanum tanquam aliquod absolute possibile
+<lb ed="#L" n="7"/>existimat; et putat sibi sanitatem convenientem esse, et
+<lb ed="#L" n="8"/>naturae humanae. proportionatam; et vellet eam. sibi pro
+<lb ed="#L" n="9"/>nunc esse possibilem.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>2. Considerandum secundo, quod cum, ut. hic. dicitur,
+<lb ed="#L" n="11"/>diversitas specierum secundum diversos gradus rerum 
+pro<lb ed="#L" break="no" n="12"/>veniat, non potest aliquid ad. gradum superioris. naturae
+<lb ed="#L" n="13"/>pervenire nisi speciem mutet, in aliamque speciem 
+transmu<lb ed="#L" break="no" n="14"/>tetur, et.desinat esse talis speciei: sicut aer non potest ad
+<lb ed="#L" n="15"/>gradum naturae ignis pervenire nisi in speciem ignis 
+trans<lb ed="#L" break="no" n="16"/>mutetur, et desinat esse aer. Ideo non. potest angelus
+<lb ed="#L" n="17"/>ascendere ad divinae naturae gradum nisi proprium amittat
+<lb ed="#L" n="18"/>esse. Et quia naturale desiderium inest unicuique ad 
+con<lb ed="#L" break="no" n="19"/>servationem proprii esse, ac unumquodque naturaliter. 
+re<lb ed="#L" break="no" n="20"/>fugit non esse; et angelus naturaliter cognoscit quod,
+<lb ed="#L" n="21"/>ascendendo ad aequalitatem Dei, posito quod esset 
+pos<lb ed="#L" break="no" n="22"/>sibile, ipse esse desineret: ideo non potest esse quod 
+di<lb ed="#L" break="no" n="23"/>vinam aequalitatem absolutam appetat.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>3. Quod si instetur quia, licet unumquodque naturaliter
+<lb ed="#L" n="25"/>appetat esse, tamen per accidens et concomitanter aliquis,
+<lb ed="#L" n="26"/>ut miseriam fugiat, appetit non esse, sicut accidit in his
+<lb ed="#L" n="27"/>qui se ex desperatione occidunt; et quod similiter angelus
+<lb ed="#L" n="28"/>appetit se non esse per accidens et secundario, appetendo
+<lb ed="#L" n="29"/>scilicet divinam aequalitatem, quam sine sui desitione 
+as<lb ed="#L" break="no" n="30"/>sequi non potest: — respondetur primo, ex doctrina Sancti
+<lb ed="#L" n="31"/>Thomae in quaestione allegata de Malo , in resp. ad 5 in
+<lb ed="#L" n="32"/>oppositum, quod aliter loquendum est de appetitu 
+remo<lb ed="#L" break="no" n="33"/>tionis alicuius mali: et aliter de appetitu consecutionis
+<lb ed="#L" n="34"/>alicuius boni, Cum enim aliquis vult a se aliquid 
+remo<lb ed="#L" break="no" n="35"/>veri, utitur se tanquam termino a quo. Et quia terminum
+<lb ed="#L" n="36"/>a quo non est necesse in motu salvari, ideo potest aliquis
+<lb ed="#L" n="37"/>secundario se appetere non esse, dum appelit carere 
+mi<lb ed="#L" break="no" n="38"/>seriis. Cum autem aliquis vult aliquod bonum sibi, utitur
+<lb ed="#L" n="39"/>se tanquam termino ad quem. Et quia huiusmodi 
+termi<lb ed="#L" break="no" n="40"/>num necesse est salvari in motu, ideo non potest sibi
+<lb ed="#L" n="41"/>appetere aliquod bonum quod videat sine sui destructione
+<lb ed="#L" n="42"/>haberi non posse. Constat autem quod angelus, appetendo
+<lb ed="#L" n="43"/>divinam bonitatem, appeteret sibi aliquod bonum. Ideo non
+<lb ed="#L" n="44"/>est simile de ipso, et de eo qui a miseria appetit liberari,
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Respondetur secundo, quod non esse per accidens etiam
+<lb ed="#L" n="46"/>non appetitur nisi quia appetitur remotio alicuius mali.
+<lb ed="#L" n="47"/>In appetitu autem aequalitatis divinae, patet quod nulla
+<lb ed="#L" n="48"/>appetitur remotio mali, sed appetitur sibi bonum. Ideo
+<lb ed="#L" n="49"/>consequentia nulla est.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>XII. Ad rationes Scoti in oppositum  respondetur. Ad
+<lb ed="#L" n="51"/>primam quidem, negatur quod angelus possit sibi 
+concu<lb ed="#L" break="no" n="52"/>piscere omne bonum. Non enim potest sibi concupiscere
+<lb ed="#L" n="53"/>bonum quod absque sui destructione consequi non posset.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Cum dicitur. quod actus concupiscentiae et amicitiae
+<lb ed="#L" n="55"/>habent omne ens pro obiecto, negatur. Non enim ad 
+ina<lb ed="#L" break="no" n="56"/>nimata est amicitia. Nec potest, ut dictum est, quispiam,
+<lb ed="#L" n="57"/>recta ratione manente, ex parte obiecti appetiti sibi 
+appe<lb ed="#L" break="no" n="58"/>tere bonum sui corruptivum.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>2. Ad secundum dicitur quod. etiam impossibilitas rei
+<lb ed="#L" n="60"/>appetitae huic appetitui angeli obstat.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Nec valet quod dicitur IlI Ethic., voluntatem esse 
+im<lb ed="#L" break="no" n="62"/>possibilium. Quia, ut dicitur QQ. de Malo, loco 
+praealle<lb ed="#L" break="no" n="63"/>gato , ad 9, illa est quaedam voluntas incompleta, qua
+<lb ed="#L" n="64"/>aliquis illud quod existimatur impossibile, vellet. si 
+pos<lb ed="#L" break="no" n="65"/>sibile esset : non autem est voluntas deliberationem 
+se<lb ed="#L" break="no" n="66"/>quens et completum iudicium, quo iudicatur aliquid esse
+<lb ed="#L" n="67"/>volendum, in qua meritum et demeritum consistit. Unde
+<lb ed="#L" n="68"/>ibidem Philosophus inquit quod electio non est 
+impossi<lb ed="#L" break="no" n="69"/>bilium, sed voluntas. Est enim electio appetitus 
+praecon<lb ed="#L" break="no" n="70"/>siliati ; et, ut ibidem inquit Commentator, est eorum quae
+<lb ed="#L" n="71"/>in nobis sunt, idest, quae nostro opere assequi. possumus.
+<lb ed="#L" n="72"/>Si quis autem aliter electionis nomen accipit, ad Aristotelis
+<lb ed="#L" n="73"/>mentem non loquitur.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Non etiam obstat quod. damnati habent. odio Deum, et
+<lb ed="#L" n="75"/>vellent ipsum non esse; et similiter peccator. Hoc enim
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>per accidens est, inquantum apprehendunt ipsum sub 
+ra<lb ed="#L" break="no" n="77"/>tione inferentis poenam, a qua vellent liberari. Hoc autem
+<lb ed="#L" n="78"/>provenit ex perturbatione cognitionis in ipsis, quae 
+per<lb ed="#L" break="no" n="79"/>turbatio in angelis ante peccatum esse non potuit. — 
+Prae<lb ed="#L" break="no" n="80"/>terea, hic loquimur de appetitu per se, non autem de
+<lb ed="#L" n="81"/>appetitu per accidens: quia dicentes angelum peccantem
+<lb ed="#L" n="82"/>appetiisse aequalitatem divinam absolutam, dicebant ipsum
+<lb ed="#L" n="83"/>talem. aequalitatem appetiisse per se.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Non est etiam verum quod peccator possit appetere
+<lb ed="#L" n="85"/>alteri creaturae aequalitatem divinam, nisi hoc sibi 
+pos<lb ed="#L" break="no" n="86"/>sibile appareat. Quae falsa existimatio in angelo ante 
+pec<lb ed="#L" break="no" n="87"/>catum non potuit inveniri.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>3. Ad tertium dicitur primo, quod illud dictum 
+intel<lb ed="#L" break="no" n="89"/>ligitur de voluntate sequente perversum iudicium rationis.
+<lb ed="#L" n="90"/>Quod, ut diximus, in angelo ante peccatum esse non potuit.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Dicitur secundo quod, si intelligatur esse de voluntate
+<lb ed="#L" n="92"/>universaliter, hoc habet veritatem quantum ad modum 
+appe<lb ed="#L" break="no" n="93"/>tendi tantum, non autem quantum ad rem appetitam, in eo
+<lb ed="#L" n="94"/>in quo non est perturbatio cognitionis. Et sic conceditur
+<lb ed="#L" n="95"/>quod. voluntas angeli fruebatur peccando utendis: 
+inquan<lb ed="#L" break="no" n="96"/>tum, non ordinando proprium bonum ad bonum divinum,
+<lb ed="#L" n="97"/>implicite suum bonum tanquam summum bonum amabat
+<lb ed="#L" n="98"/>et tanquam ultimum finem, quod est frui utendis. Ex hoc
+<lb ed="#L" n="99"/>autem non sequitur quod appetierit tanquam rem per se
+<lb ed="#L" n="100"/>appetitam, absolutam aequalitatem divinam.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>4. Non valent praeterea responsiones Scoti ad rationes
+<lb ed="#L" n="102"/>Sancti Thomae . Nam prima quidem responsio duo falsa
+<lb ed="#L" n="103"/>dicit. Unum est quod sufficit simplex apprehensio ad hoc
+<lb ed="#L" n="104"/>ut appetat illud apprehensum alteri. Constat enim ex 
+su<lb ed="#L" break="no" n="105"/>perioribus  hoc falsum esse: quia appetitus sequitur illam
+<lb ed="#L" n="106"/>cognitionem qua iudicatur aliquid conveniens aut non
+<lb ed="#L" n="107"/>conveniens appetenti, aut alteri cui aliquid appetitur. Unde
+<lb ed="#L" n="108"/>Philosophus, Tertio de Anima, text. 46, probat quod
+<lb ed="#L" n="109"/>intellectus. speculativus. non. movet, quia nihil speculatur
+<lb ed="#L" n="110"/>agibile, neque quicquam dicit de fugibili et prosequibili.
+<lb ed="#L" n="111"/>Secundo etiam de Anima, text. 154 , ostendit quod 
+phan<lb ed="#L" break="no" n="112"/>tasia non movet, secundum quod Sanctus Thomas exponit,
+<lb ed="#L" n="113"/>quia secundum ipsam nos habemus tanquam in pictura
+<lb ed="#L" n="114"/>considerantes difficilia et confidentia. Non enim voluntas
+<lb ed="#L" n="115"/>potest velle albedinem corvo nisi iudicet intellectus quod
+<lb ed="#L" n="116"/>bonum et conveniens est corvum esse album, et per 
+con<lb ed="#L" break="no" n="117"/>sequens quod illud possibile est esse: loquendo de perfecta
+<lb ed="#L" n="118"/>et completa voluntate.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Alterum est quod intellectus simplex potest 
+apprehen<lb ed="#L" break="no" n="120"/>dere aequalitatem Dei absque errore. Constat enim hoc
+<lb ed="#L" n="121"/>falsum esse, loquendo de apprehensione quam sequitur
+<lb ed="#L" n="122"/>appetitus, de qua est sermo in proposito: non autem de
+<lb ed="#L" n="123"/>cognitione qua apprehenditur absolute quid est aequalitas
+<lb ed="#L" n="124"/>Dei. Nam, cum aequalitas sit relatio quaedam duorum
+<lb ed="#L" n="125"/>ad invicem, non potest apprehendi aequalitas divina 
+tan<lb ed="#L" break="no" n="126"/>quam appetenda, nisi apprehendatur tanquam aliquid 
+me<lb ed="#L" break="no" n="127"/>dium inter divinam perfectionem et perfectionem alterius,
+<lb ed="#L" n="128"/>ut scilicet apprehendatur aliquid esse aequale Deo 
+tan<lb ed="#L" break="no" n="129"/>quam bonum et conveniens. Hoc autem non, fit simplici
+<lb ed="#L" n="130"/>appreaensione, sed compositione intellectus. Quod fieri
+<lb ed="#L" n="131"/>non potest absque errore, si: apprehendatur talis aequalitas
+<lb ed="#L" n="132"/>inter Deum et creaturam.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>5. Secunda etiam responsio nulla est. Nam, ut ex 
+su<lb ed="#L" break="no" n="134"/>perioribus  patet, non potest voluntas velle ex consequenti
+<lb ed="#L" n="135"/>se non esse, quantum ad rem appetitam, nisi sit error aut
+<lb ed="#L" n="136"/>ignorantia ex parte intellectus. Quod diximus non posse
+<lb ed="#L" n="137"/>esse in angelo ante peccatum: cum naturaliter cognoscat
+<lb ed="#L" n="138"/>se assequi divinam aequalitatem non posse absque sui 
+de<lb ed="#L" break="no" n="139"/>structione.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>XIII. Tertia conclusio est : Convenienter dicitur quod
+<lb ed="#L" n="141"/>primum peccatum daemonis fuit superbia.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Probatur. Quia velle alios regulare, et voluntatem suam
+<lb ed="#L" n="143"/>a superiori non regulari, est velle praeesse et quodammodo
+<lb ed="#L" n="144"/>non subiici. Quod est peccatum superbiae.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>XIV. Circa hanc conclusionem, et eius probationem,
+<lb ed="#L" n="146"/>dubium occurrit. Nam praeesse et non subiici aut accipitur
+<lb ed="#L" n="147"/>tanquam res volita: aut tanquam concomitans volitionem.
+<lb ed="#L" n="148"/>Si accipiatur primo modo, tunc velle praeesse et non subiici
+<lb ed="#L" n="149"/>ad superbiam quidem pertinet inquantum est speciale 
+pec<lb ed="#L" break="no" n="150"/>catum: sed hoc non fuit in primo peccato angeli, cum
+<pb ed="#L" n="347"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dicat Sanctus Thomas, Prima, q. rxur, a. 1, ad 4, et 
+de<lb ed="#L" break="no" n="2"/>claratum est superius , quod peccatum angeli non fuit in
+<lb ed="#L" n="3"/>hoc quod elegerit aliquod malum, sed tantum ex parte
+<lb ed="#L" n="4"/>electionis inordinatae.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Si vero secundo modo accipiatur, tap velle praeesse et
+<lb ed="#L" n="6"/>non subiici non constituunt specialem rationem peccati 
+su<lb ed="#L" break="no" n="7"/>perbiae, sed est conditio sequens omne peccatum. Et sic
+<lb ed="#L" n="8"/>non sequitur quod primum peccatum angeli fuerit 
+su<lb ed="#L" break="no" n="9"/>perbia secundum speciem suam, ut conclusio ponit.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>XV. Ad huius evidentiam, considerandum est, ex 
+do<lb ed="#L" break="no" n="11"/>ctrina Sancti Thomae II I5, q. crxir ; et in QQ de Malo,
+<lb ed="#L" n="12"/>q. virt, quod proprium obiectum superbiae est bonum
+<lb ed="#L" n="13"/>magnum et excellens, aliquo modo improportionatum
+<lb ed="#L" n="14"/>appetenti, et propriam eius mensuram excedens: unde 
+de<lb ed="#L" break="no" n="15"/>finitur superbia quod est inordinatus appetitus excellentiae,
+<lb ed="#L" n="16"/>chau n5 de sive, perversae celsitudinis appetitus . Contingit autem in
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="17"/>huiusmodi appctitu excellentiae multipliciter mensuram
+<lb ed="#L" n="18"/>excedere. Ideo multae sunt superbiae species: quae tamen
+<lb ed="#L" n="19"/>omnes in hoc conveniunt, quod regula rationis et divina
+<lb ed="#L" n="20"/>ordinatio contemnitur. Unde non subdi regulae et 
+ordina<lb ed="#L" break="no" n="21"/>tioni divinae est effectus superbiae, si consideretur in aliquo
+<lb ed="#L" n="22"/>actu extra voluntatem, et omne peccatum concomitatur:
+<lb ed="#L" n="23"/>omnis enim peccans, inquantum huiusmodi, divinum 
+prae<lb ed="#L" break="no" n="24"/>ceptum et divinam regulam transgreditur, et sic non subditur
+<lb ed="#L" n="25"/>divinae regulae. Si autem consideretur ut est in affectu
+<lb ed="#L" n="26"/>et actu. volendi, inquantum scilicet quis vult non subdi
+<lb ed="#L" n="27"/>divinae regulae, sic est superbia.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Sed advertendum quod hoc dupliciter potest contingere.
+<lb ed="#L" n="29"/>Uno modo, ut illud se teneat explicite ex parte rei 
+vo<lb ed="#L" break="no" n="30"/>litae: quia scilicet vel est res principaliter volita, vel est
+<lb ed="#L" n="31"/>eius modus expresse volitus; inquantum aliquis aut vult
+<lb ed="#L" n="32"/>primo hanc existentiam quae est. nulli subiici; aut vult
+<lb ed="#L" n="33"/>aliquod bonum, et vult illud habere non secundum 
+men<lb ed="#L" break="no" n="34"/>suram a superiore traditam, sed. secundum quod sibi bonum
+<lb ed="#L" n="35"/>iudicat; ita quod et ipsum bonum est primo volitum, non
+<lb ed="#L" n="36"/>subiectio autem in illo habendo est secundario volita, 
+tan<lb ed="#L" break="no" n="37"/>quam eius conditio et modus. - Alio modo, ut illud se
+<lb ed="#L" n="38"/>teneat ex parte modi appetendi tantum, et non ex parte
+<lb ed="#L" n="39"/>rei volitae explicite: inquantum scilicet aliquis vult et
+<lb ed="#L" n="40"/>amat aliquod bonum creatum in quo nulla est repugnantia
+<lb ed="#L" n="41"/>secundum se ad rationem, sed. in eo sibi complacet et
+<lb ed="#L" n="42"/>delectatur non secundum ordinem divinae regulae. Talis
+<lb ed="#L" n="43"/>enim, ex modo appetendi, vult non subiici Deo: licet non
+<lb ed="#L" n="44"/>ex parte rei expresse volitae. In quo, cum nullum aliud
+<lb ed="#L" n="45"/>peccatum interveniat, oportet illud peccatum superbiae
+<lb ed="#L" n="46"/>esse ad quam superioris contemptus pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>2. Peccatum ergo superbiae daemonis fuit velle praeesse
+<lb ed="#L" n="48"/>et non subiici secundo modo, non autem primo modo,
+<lb ed="#L" n="49"/>ut ex superioribus patet. Secundum enim modum quem
+<lb ed="#L" n="50"/>hic: sequitur Sanctus Thomas, eius superbia in. hoc fuit
+<lb ed="#L" n="51"/>quod proprio bono inhaesit non ordinando illud ad aliud
+<lb ed="#L" n="52"/>bonum, sicut debebat ordinare secundum divinam regulam,
+<lb ed="#L" n="53"/>qua tenetur quis ipsum Deum, ut obiectum supernaturalis
+<lb ed="#L" n="54"/>beatitudinis, super omnia amare, et ad ipsum ordinare omne
+<lb ed="#L" n="55"/>aliud bonum. In. qua quidem transgressione patet ipsum
+<lb ed="#L" n="56"/>non voluisse subiici, quia superiorem, ex modo appetendi,
+<lb ed="#L" n="57"/>non cognovit; fuisseque inordinatum amorem propriae
+<lb ed="#L" n="58"/>excellentiae, quod. ad superbiam pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Secundum vero alium. modum, quem alibi  sequitur
+<lb ed="#L" n="60"/>Sanctus Thomas, eius superbia in hoc fuit quod 
+beatitu<lb ed="#L" break="no" n="61"/>dinem supernaturalem, quae in clara Dei visione consistit,
+<lb ed="#L" n="62"/>desideravit non desiderando ipsam ex divina gratia assequi,
+<lb ed="#L" n="63"/>cum tamen deberet ipsam tanquam ex gratia Dei 
+haben<lb ed="#L" break="no" n="64"/>dam. desiderare. In. quo etiam constat ipsum, ex modo
+<lb ed="#L" n="65"/>appetendi, voluisse non subiici Deo quantum ad 
+beatitu<lb ed="#L" break="no" n="66"/>dinis assecutionem ex gratia: ubi est inordinatus 4 grinietd
+<lb ed="#L" n="67"/>boni spiritualis et excellentiae.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>3. Advertendum autem non dixisse Sanctum Thomam
+<lb ed="#L" n="69"/>simpliciter quod velle alios regulare, et ab alio 
+volunta<lb ed="#L" break="no" n="70"/>tem eius non regulari, sit velle praeesse et non subiici,
+<lb ed="#L" n="71"/>sed addidisse quodammodo. Quia videlicet non appetiit
+<lb ed="#L" n="72"/>angelus nullo modo subiici Deo: hoc enim appetere non
+<lb ed="#L" n="73"/>potuit, ut dicitur in Prima Parte et aliis locis praeallegatis,
+<lb ed="#L" n="74"/>nam appetiisset se non esse, cum nulla creatura esse possit
+<lb ed="#L" n="75"/>nisi per hoc quod sub Deo esse participat. Appetiit ta-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="76"/>men secundum aliquem modum aliis praeesse creaturis,
+<lb ed="#L" n="77"/>et non subiici Deo: quantum scilicet ad hoc quod alia
+<lb ed="#L" n="78"/>regularet, et eius voluntas in volendo a nullo alio 
+regu<lb ed="#L" break="no" n="79"/>laretur. Suae enim naturae dignitatem considerans, et in
+<lb ed="#L" n="80"/>ea sese oblectans, ex modo appetendi, voluit a se 
+boni<lb ed="#L" break="no" n="81"/>tatem et beatitudinem in alios derivari, esseque regulam
+<lb ed="#L" n="82"/>et legem agendorum ab aliis.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>XVI. Istis suppositis, ad dubium  dicitur quod neutro
+<lb ed="#L" n="84"/>illorum modorum, proprie loquendo, aceipitur velle non
+<lb ed="#L" n="85"/>subiici, ut ex dictis patet: sed accipitur tanquam inclusum
+<lb ed="#L" n="86"/>in modo appetendi, et tanquam interpretative volitum, ex
+<lb ed="#L" n="87"/>eo quod in libertate angeli erat velle spirituale bonum: cum
+<lb ed="#L" n="88"/>attentione ad divinam regulam, et sine attentione ad illam.
+<lb ed="#L" n="89"/>Velle autem non subiici divinae regulae etiam hoc modo
+<lb ed="#L" n="90"/>ad superbiam pertinet. Nam differt superbia ab aliis 
+pec<lb ed="#L" break="no" n="91"/>catis, ut dicitur II IP^, q. crxm, a. 6 et 7, quia im aliis
+<lb ed="#L" n="92"/>peccatis aversio a Deo est consequens: ad superbiam autem,
+<lb ed="#L" n="93"/>cuius actus est Dei contemptus, per se pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Hoc autem non sic intelligendum est quasi in omni
+<lb ed="#L" n="95"/>superbiae actu non subiici divinae regulae sit res explicite
+<lb ed="#L" n="96"/>volita: sed quia de ratione superbiae est, ut ab aliis 
+pec<lb ed="#L" break="no" n="97"/>catis distinguitur, divinae regulae nolle subiici, aut inquam
+<lb ed="#L" n="98"/>ex parte rei explicite appetitae, aut ex modo appetendi.
+<lb ed="#L" n="99"/>Cum enim actus superbiae sit actus appetitus in magnum
+<lb ed="#L" n="100"/>et excellens bonum tendentis, non potest esse in ipso actu
+<lb ed="#L" n="101"/>superbiae alia ratio peccati nisi quia tale bonum appetitur
+<lb ed="#L" n="102"/>non secundum mensuram et regulam divinam. Et ita ex
+<lb ed="#L" n="103"/>eo quod est non subiici divinae regulae, secundum quod
+<lb ed="#L" n="104"/>est in affectu, tanquam scilicet aut expresse aut 
+interpre<lb ed="#L" break="no" n="105"/>tative volitum, propria superbiae ratio constituitur. In aliis
+<lb ed="#L" n="106"/>autem peccatis non est aversio quantum ad affectum 
+se<lb ed="#L" break="no" n="107"/>cundum se: non enim qui vult furari, habet in affectu: suo
+<lb ed="#L" n="108"/>hoc quod est non subiici Deo tanquam formale 
+consti<lb ed="#L" break="no" n="109"/>tutivum suae rationis, sed hoc quod est accipere aliena
+<lb ed="#L" n="110"/>invito domino. Sed talis aversio ex parte effectus omne
+<lb ed="#L" n="111"/>peccatum concomitatur: nam quodcumque peccatum quis
+<lb ed="#L" n="112"/>committat, avertitur a Deo, dum divinum praeceptum 
+di<lb ed="#L" break="no" n="113"/>vinamque regulam transgreditur.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>2. Advertendum autem quod aliter loquendum est de
+<lb ed="#L" n="115"/>hoc quod est velle non subiici divinae regulae, secundum
+<lb ed="#L" n="116"/>quod se tenet ex parte rei volitae: et aliter secundum quod
+<lb ed="#L" n="117"/>se tenet ex parte modi volendi tantum. Secundum enim
+<lb ed="#L" n="118"/>quod se tenet ex parte rei volitae, necesse est quod sub
+<lb ed="#L" n="119"/>actuali consideratione cadat. Cum enim voluntas non 
+fe<lb ed="#L" break="no" n="120"/>ratur in incognitum, si quis vult rem aliquam et aliquam
+<lb ed="#L" n="121"/>eius conditionem per se, necesse est ut et rem et modum
+<lb ed="#L" n="122"/>volitum cognoscat. - Secundum autem quod ex parte modi
+<lb ed="#L" n="123"/>volendi se tenet, non est necesse ut sub actuali 
+conside<lb ed="#L" break="no" n="124"/>ratione cadat. Sufficit enim ut quis teneatur de regula
+<lb ed="#L" n="125"/>superioris et eius subiectione pro' tunc considerare, et
+<lb ed="#L" n="126"/>non consideret. Et hoc modo evenit daemoni. 
+Conside<lb ed="#L" break="no" n="127"/>rans enim proprium bonum, perfectionem scilicet suae
+<lb ed="#L" n="128"/>naturae et cognitionis naturalis, et illud libero actu, modo
+<lb ed="#L" n="129"/>supra  exposito, amans, tenebatur de ordine ipsius ad Deum
+<lb ed="#L" n="130"/>tanquam ad summum bonum et ultimum finem 
+conside<lb ed="#L" break="no" n="131"/>rare, suumque bonum ordinare in illum. Quod quia non
+<lb ed="#L" n="132"/>fecit, per superbiam peccavit: est enim ibi contemptus
+<lb ed="#L" n="133"/>divinae regulae interpretativus, — Similiter, si beatitudinem
+<lb ed="#L" n="134"/>supernaturalem appetiit, tenebatur de divina gratia 
+consi<lb ed="#L" break="no" n="135"/>derare, et eam tanquam ex divina gratia habendam 
+appe<lb ed="#L" break="no" n="136"/>tere. Quod quia non fecit, superbiendo peccavit.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>XVII. Ex his patet vanam esse opinionem Scoti, II Sent.,
+<lb ed="#L" n="138"/>d. vi, q. ult. , tenentis quod peccatum daemonis mon fuit
+<lb ed="#L" n="139"/>superbia proprie dicta, sed magis ad luxuriam reducitur:
+<lb ed="#L" n="140"/>quia fuit immoderata complacentia sui, quae, propter 
+de<lb ed="#L" break="no" n="141"/>lectationem quam importat, ad luxuriam pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Constat enim ex dictis  quod proprie superbia fuerit:
+<lb ed="#L" n="143"/>cum fuerit immoderatus appetitus excellentiae. Nec obstat
+<lb ed="#L" n="144"/>quod fuerit immoderata complacentia sui, et habeat 
+de<lb ed="#L" break="no" n="145"/>lectationem adiunctam. Quia delectatio immoderata 
+appe<lb ed="#L" break="no" n="146"/>titui propriae excellentiae coniuncta, et sui complacentia,
+<lb ed="#L" n="147"/>non habet rationem superbiae tollere. Sicut enim magnum
+<lb ed="#L" n="148"/>et excellens bonum accipitur tanquam conveniens, et ex hoc
+<lb ed="#L" n="149"/>habet rationem delectabilis; ita in appetitu ipsius prima
+<lb ed="#L" n="150"/>deordinatio et deformitas est quod tale bonum excellens
+<pb ed="#L" n="348"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>inordinate appetitur; et secundario est immoderata 
+compla<lb ed="#L" break="no" n="2"/>centia sui tanquam delectabilis. — Et praeterea, ad luxuriam
+<lb ed="#L" n="3"/>proprie dictam. non pertinet omnis delectatio, sed 
+inordi<lb ed="#L" break="no" n="4"/>nata delectatio circa sensibilia tactus, qualia sunt venerea.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>XVIII. Quarta conclusio  est: .Ex prima inordinatione
+<lb ed="#L" n="6"/>voluntatis quae fuit in: daemone, consecutum est multiplex
+<lb ed="#L" n="7"/>peccatum in voluntate ipsius: scilicet odii ad. Deum, ut 
+re<lb ed="#L" break="no" n="8"/>sistentem suae superbiae, et punientem iustissime. siiam
+<lb ed="#L" n="9"/>culpam; et invidiae ad hominem; et alia huiusmodi, 
+sci<lb ed="#L" break="no" n="10"/>licet quae ex superbia et invidia oriuntur.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Declaratur. Quia. ex uno errore circa principium, 
+va<lb ed="#L" break="no" n="12"/>rius et multiplex error consequitur. .
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Advertendum, ex doctrina. Sancti Thomae in plerisque
+<lb ed="#L" n="14"/>locis, praesertim. IV. .Sent., d. xuvir  et r ; et II I5
+<lb ed="#L" n="15"/>q. xxxiv, a. 1, quod Deus. secundum se, cum sit ipsa 
+bo<lb ed="#L" break="no" n="16"/>nitas, haberi odio non potest: sed secundum effectus qui
+<lb ed="#L" n="17"/>inordinatae voluntati contrariantur, potest haberi odio. Ideo,
+<lb ed="#L" n="18"/>explicans odium daemonum ad Deum, addidit, ut 
+resisten<lb ed="#L" break="no" n="19"/>tem suae superbiae, et punientem iustissime suam culpam.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>XIX. QuawTUM AD SECUNDUM, ponitur. modus et ordo
+<lb ed="#L" n="21"/>peccandi et non peccandi yepelogn Et porci
+<lb ed="#L" n="22"/>duae conclusiones.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Prima est: Possibile fuit itd iiiue de superior ibus
+<lb ed="#L" n="24"/>substantiis, aut etiam suprema, peccaret. Probatur. Quia
+<lb ed="#L" n="25"/>in quolibet volente sub Deo, voluntatis peccatum esse pos
+<lb ed="#L" n="26"/>test, si.in sua natura consideretur.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Secunda est: Valde probabile. est quod suprema inter
+<lb ed="#L" n="28"/>omnes, peccaverit. Probatur. Quia non quievisset in suo
+<lb ed="#L" n="29"/>bono sicut in fine nisi suum bonum valde perfectum esset.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Ex his infert Sanctus "Thomas potuisse. fieri quod
+<lb ed="#L" n="31"/>de inferioribus aliquae: propria voluntate bonum suum
+<lb ed="#L" n="32"/>ordinarent. in supremam, recedentes a divino ordine, quae
+<lb ed="#L" n="33"/>similiter peccaverunt: aliae vero, servantes in motu suae
+<lb ed="#L" n="34"/>voluntatis divinum ordinem, ab ordine superioris Peccutis
+<lb ed="#L" n="35"/>recte .recederent,
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Declaratur. Quia substantiae intellectuales.non solum
+<lb ed="#L" n="37"/>ordinantur sub Deo, sed etiam una earum, a prima usque
+<lb ed="#L" n="38"/>ad ultimam, ordinatur sub altera. Cum. autem proprium
+<lb ed="#L" n="39"/>bonum alicuius habet ordinem ad plura superiora, liberum
+<lb ed="#L" n="40"/>est. volenti ab cuiusvis illorum ordine recedere, et non
+<lb ed="#L" n="41"/>recedere: ut patet in milite; qui sub rege et sub duce
+<lb ed="#L" n="42"/>exercitus ordinatur, et bona est voluntas militis. dirigentis
+<lb ed="#L" n="43"/>voluntatem, suam. in regem. et a voluntate ducis recedens,
+<lb ed="#L" n="44"/>si.dux ab ordine regis recedat; e contrario autem est mala,
+<lb ed="#L" n="45"/>si voluntatem ducis contra voluntatem regis sequatur.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Addit. autem. Sanctus Thomas quod. quomodo: in 
+bo<lb ed="#L" break="no" n="47"/>nitate et malitia utriusque voluntas perseveret, ostendetur
+<lb ed="#L" n="48"/>in RMrto Libro.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>2. Circa secundam condisdnaem attendendum, ex .
+do<lb ed="#L" break="no" n="50"/>ctrifia Sancti Thomae Prima, q. rxm, a 7; et Il. Sent.,
+<lb ed="#L" n="51"/>d. vi, a. t, quod duplex opinio theologorum de. angelo
+<lb ed="#L" n="52"/>peccante fuit. Damascenus enim, Platonicorum opinionem
+<lb ed="#L" n="53"/>secutus, tenet quod maior angelorum peccantium fuit 
+ter<lb ed="#L" break="no" n="54"/>restri. ordini praelatus. Gregorius vero, in. Homilia. de
+<lb ed="#L" n="55"/>Centum Ovibus, tenet quod superior fuit inter omnes. Ideo
+<lb ed="#L" n="56"/>Sanctus Thomas non loquitur assertive in hac re, sed 
+opi<lb ed="#L" break="no" n="57"/>nionem Gregorii probabilem putat, ratione assignata.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>XX. Sed contra istam rationem instari posset . Quia aut
+<lb ed="#L" n="59"/>inferiores substantiae quieverunt etiam ipsae in bono suo
+<lb ed="#L" n="60"/>sicut in fine: aut bonum suum ordinaverunt ad supremam
+<lb ed="#L" n="61"/>sicut ad finem. Si detur primum, constat quod bonum
+<lb ed="#L" n="62"/>suum non.est ita perfectum sicut bonum supremae. Et
+<lb ed="#L" n="63"/>tamen quieverunt in ipso sicut in fine. Ergo excessus 
+bo<lb ed="#L" break="no" n="64"/>nitatis supremae substantiae supra bonitatem aliarum non
+<lb ed="#L" n="65"/>est sufficiens ratio quare in seipsa sicut in fine quiesceret.
+<lb ed="#L" n="66"/>Et per consequens ratio conclusionis. est nulla.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Si detur secundum, sequitur quod non similiter peccato
+<lb ed="#L" n="68"/>superbiae peccaverunt inferiores substantiae. ex inordinato
+<lb ed="#L" n="69"/>appetitu propriae excellentiae sicut supremus: in hoc enim
+<lb ed="#L" n="70"/>nullam. excellentiam appetivissent, utpote supponentes se
+<lb ed="#L" n="71"/>inferiori, et a superiori, scilicet a Deo, recedentes.. Hoc
+<lb ed="#L" n="72"/>autem est contra Sanctum Thomam, tenentem quod omnes
+<lb ed="#L" n="73"/>peccato superbiae peccaverunt, Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>XXI. Ad evidentiam huius dubii, considerandum .est,
+<lb ed="#L" n="75"/>ex doctrina Sancti Thomae locis praeallegatis, quod. in-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>feriores angeli peccantes in aliquo cum suprema peccante
+<lb ed="#L" n="77"/>convenerunt; et in aliquo ab ipsa fuerunt differentes. 
+Con<lb ed="#L" break="no" n="78"/>venerunt enim primo, in. hoc quod suam ultimam. 
+beati<lb ed="#L" break="no" n="79"/>tudinem virtute propriae naturae consequi voluerunt, non
+<lb ed="#L" n="80"/>autem ex divina gratia: sicut. voluit et suprema.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Convenerunt secundo quod, sicut suprema voluit ut
+<lb ed="#L" n="82"/>omnes inferiores beatitudinem quam ipsa propria virtute
+<lb ed="#L" n="83"/>volebat assequi, per eius gratiam obtinerent; ita etiam 
+in<lb ed="#L" break="no" n="84"/>feriores. volebant in alios inleriGnts ipsam : beatitudinem
+<lb ed="#L" n="85"/>transfundere.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Convenerunt tertio quod, sicut suprema non sic volebat
+<lb ed="#L" n="87"/>virtute. naturae beatitudinem assequi, et in alios tra
+nsfun<lb ed="#L" break="no" n="88"/>dere, quasi prima simpliciter causa et a Deo nullam
+<lb ed="#L" n="89"/>dependentiam habens, sed tanquam sub Deo in naturam
+<lb ed="#L" n="90"/>operante existens, et ab ipso naturalem virtutem habens,
+<lb ed="#L" n="91"/>non indigens tamen ad: beatitudinis assecutionem divina
+<lb ed="#L" n="92"/>gratia supra naturae virtutem ; ita et in inferioribus fuit.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Differunt autem. primo, quia peccatum primi angeli,
+<lb ed="#L" n="94"/>ordine naturae et causalitatis, peccatum aliorum praecessit:
+<lb ed="#L" n="95"/>inquantum, suam affectionem inferioribus manifestans, fuit
+<lb ed="#L" n="96"/>ilis exemplum et occasio peccati.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Differunt secundo, quia suprema, cum: ordine naturae
+<lb ed="#L" n="98"/>et perfectionis immediate sub Deo esset, et omnibus aliis
+<lb ed="#L" n="99"/>emineret, voluit: quidem sine gratia: divina. beatitudinem
+<lb ed="#L" n="100"/>consequi, sed tamen: voluit sub Deo esse tanquam sub
+<lb ed="#L" n="101"/>superiore virtutem sibi naturalem dante, qua beatus esset;
+<lb ed="#L" n="102"/>inferiores autem non solum sub Deo, sed etiam sub. ipsa
+<lb ed="#L" n="103"/>superiori substantia peccante esse voluerunt, tanquam sub
+<lb ed="#L" n="104"/>prima quae sua' naturali virtute. beata: esset, et cuius 
+bea<lb ed="#L" break="no" n="105"/>titudo esset beatitudinis aliorum exemplar, sicut et natura
+<lb ed="#L" n="106"/>eorum erat illius natura inferior. Et ideo elegerunt subesse
+<lb ed="#L" n="107"/>ipsi supremae 'substantiae, in hoc quod ipsum haberent
+<lb ed="#L" n="108"/>principem ad assequendam situm atsquia.! divina.
+<lb ed="#L" n="109"/>gratia, virtute. dumtaxat naturae. pe
+</p>
+            <p>
+               <lb ed="#L" n="110"/>2. Advertendum autem quod, sicut suprema substantia
+<lb ed="#L" n="111"/>non appetiit beatitudinem assequi virtute: naturae tanquam:
+<lb ed="#L" n="112"/>modus talis assecutionis esset expresse volitus; neque 
+ap<lb ed="#L" break="no" n="113"/>petiit explicite aliis praeesse et .beatitudinem in alios 
+trans<lb ed="#L" break="no" n="114"/>fundere; sed tantum ex modo appetendi et implicite : ita
+<lb ed="#L" n="115"/>inferiores non elegerunt expresse subesse supremae et.
+<lb ed="#L" n="116"/>eam habere principem ad assequendam beatitudinem 
+vir<lb ed="#L" break="no" n="117"/>tute naturae et non ex gratia divina, sed tantum ex modo.
+<lb ed="#L" n="118"/>appetendi. Ex eo enim quod exemplo supremae substan-.
+<lb ed="#L" n="119"/>tiae, tanquam ipsis superioris. secundum naturam, motae:
+<lb ed="#L" n="120"/>sunt ad hanc volitionem sic deformatam, et eam sunt 
+imi<lb ed="#L" break="no" n="121"/>tatae; sequitur quod ipsam supremam substantiam tanquam.
+<lb ed="#L" n="122"/>principem in peccando habere. voluerunt, et consequenter
+<lb ed="#L" n="123"/>illi voluerunt subesse: sicut, si. miles, videns ducem suum
+<lb ed="#L" n="124"/>furari, exemplo eius ad. furandum moveretur, ipsum 
+tan<lb ed="#L" break="no" n="125"/>quam. superiorem suum. imitari. volens, diceretur quod
+<lb ed="#L" n="126"/>vellet ducem. suum principem esse' non wedunis in goes
+<lb ed="#L" n="127"/>sed etiam. in. furto,
+</p>
+            <p>
+               <lb ed="#L" n="128"/>3. Sed occurrit unum. dolenti Si I ive angeli ape
+<lb ed="#L" n="129"/>petierunt beatitudinem. non ex gratia divina, sed virtute
+<lb ed="#L" n="130"/>dumtaxat naturae assequi, sicut et supremus, sequitur quod
+<lb ed="#L" n="131"/>divinam aequalitatem appetiverunt: namr angelum in hoc
+<lb ed="#L" n="132"/>divinam aequalitatem appetisse Sanctus Thomas ostendit ,
+<lb ed="#L" n="133"/>quod voluit per virtutem propriae naturae: beatitudinem
+<lb ed="#L" n="134"/>ultimam habere. Huius autem oppositum videtur dicere
+<lb ed="#L" n="135"/>Sanctus Thomas II. Sent.; d. vr, a. 1, ubi ait quod non est
+<lb ed="#L" n="136"/>probabile Creatoris aequalitatem aliquo modo illum 
+spi<lb ed="#L" break="no" n="137"/>ritum appetisse qui etiam alteri creaturae subiectus erat.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>Respondetur quod utique omnes divinam aequalitatem
+<lb ed="#L" n="139"/>secundum similitudinem aliquo modo appetiverunt, et in
+<lb ed="#L" n="140"/>hoc eorum fuit. superbia. Quod autem dicitur Il Sent;
+<lb ed="#L" n="141"/>dupliciter possumus interpretari, sequendo illam opinionem
+<lb ed="#L" n="142"/>quod beatitudinem supernaturalem. inordinate appetierint;
+<lb ed="#L" n="143"/>quam opinionem tenet Sanctus Thomas ibidem in II Sent. .
+<lb ed="#L" n="144"/>Primo, quod intelligitur inferiorem spiritum. non appetiisse
+<lb ed="#L" n="145"/>ex.se et primo divinam aequalitatem ex consideratione
+<lb ed="#L" n="146"/>propriae pulcritudinis. et dignitatis, sed tantum a 
+nobilis<lb ed="#L" break="no" n="147"/>sima creatura occasionein illam appetendi accepisse. Prima
+<lb ed="#L" n="148"/>autem substantia intellectualis ex se primo:talem 
+aequa<lb ed="#L" break="no" n="149"/>litatem. appetiit: dum, suae naturae. dignitatem 
+conside<lb ed="#L" break="no" n="150"/>rans, beatitudinem illam quae in visione Dei per essentiam
+<pb ed="#L" n="349"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consistit, suae naturae convenientem, ut erat, existimavit,  
+<lb ed="#L" n="2"/>eamque obtinere voluit nihil de divina considerans gratia.  
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Secundo potest intelligi quod illam divinam 
+aequali<lb ed="#L" break="no" n="4"/>tatem non appetiit quam dicitur primum angelum 
+appe<lb ed="#L" break="no" n="5"/>tiisse, ut scilicet toti multitudini angelorum praeesset, et in  
+<lb ed="#L" n="6"/>omnes beatitudinem transfunderet. Ex consideratione enim 
+<lb ed="#L" n="7"/>propriae naturae, cum non esset omnibus naturae ordine 
+<lb ed="#L" n="8"/>superior, non videbatur ex modo appetendi- hoc appetere,  
+<lb ed="#L" n="9"/>sed tantum quod eam in inferiores aliquo modo 
+trans<lb ed="#L" break="no" n="10"/>funderet. 
+</p>
+            <p>
+               <lb ed="#L" n="11"/>XXII. Istis praemissis, ad dubium principale primo dici 
+<lb ed="#L" n="12"/>potest quod inferiores peccantes quieverunt in proprio bono  
+<lb ed="#L" n="13"/>sicut in fine ultimo, quemadmodum et. suprema quae 
+pec<lb ed="#L" break="no" n="14"/>cavit. Nec propter hoc tollitur ratio hic posita. Quia non 
+<lb ed="#L" n="15"/>intendit ex hoc quod absolute prima substantia peccans 
+<lb ed="#L" n="16"/>in suo bono quievit, arguere Sanctus Thomas ipsam aliis  
+<lb ed="#L" n="17"/>digniorem fuisse, ut obiectio supponit: sed ex hoc quod  
+<lb ed="#L" n="18"/>primo, et nullius alterius exemplo et occasione mota, in  
+<lb ed="#L" n="19"/>suo bono quievit tanquam in ultimo fine, Unde et quod 
+<lb ed="#L" n="20"/>hic videtur dicere Sanctus Thomas, quod inferiores 
+ordi<lb ed="#L" break="no" n="21"/>naverunt bonum suum in primam substantiam peccantem,  
+<lb ed="#L" n="22"/>non est intelligendum tanquam ad ultimum finem: sed  
+<lb ed="#L" n="23"/>tanquam in exemplum et occasionem peccandi, 
+inquan<lb ed="#L" break="no" n="24"/>tum peccando non sunt secutae divinam regulam, sed 
+<lb ed="#L" n="25"/>appetierunt sibi beatitudinem conformiter ad appetitum  
+<lb ed="#L" n="26"/>primae substantiae peccantis. amantes scilicet proprium  
+<lb ed="#L" n="27"/>bonum tanquam ultimum finem, quemadmodum et 
+su<lb ed="#L" break="no" n="28"/>prema quae peccavit, non autem ordinantes bonum suum 
+<lb ed="#L" n="29"/>in beatitudinem ex gratia obtinendam, ut lege divina 
+ordi<lb ed="#L" break="no" n="30"/>natum erat. 
+</p>
+            <p>
+               <lb ed="#L" n="31"/>2. Potest secundo dici quod supremus angelus peccavit 
+<lb ed="#L" n="32"/>eo va non ordinavit proprium bonum et propriam 
+per<lb ed="#L" break="no" n="33"/>fectionem in Deum tanquam in obiectum supernaturalis 
+<lb ed="#L" n="34"/>beatitudinis, sed in proprio bono tanquam in fine ultimo  
+<lb ed="#L" n="35"/>quievit: inferiores vero peccaverunt eodem modo, scilicet  
+<lb ed="#L" n="36"/>quia non ordinaverunt proprium bonum: in supernaturalem 
+<lb ed="#L" n="37"/>beatitudinem, et in Deum ut. est supernaturalis. 
+beatitu<lb ed="#L" break="no" n="38"/>dinis obiectum; non tamen quieverunt in proprio bono  
+<lb ed="#L" n="39"/>tanquam in fine ultimo, sed ordinaverunt bonum' suum 
+<lb ed="#L" n="40"/>in superiorem angelum peccantem tanquam in finem. Sicut  
+<lb ed="#L" n="41"/>enim est mala voluntas militis non. ordinata in bonum 
+<lb ed="#L" n="42"/>regis sicut in. finem, sed in: bonum ducis exercitus contra  
+<lb ed="#L" n="43"/>voluntatem regis, puta si quaerat ducem exercitus divitem  
+<lb ed="#L" n="44"/>suis operibus facere in praeiudicium victoriae, quam rex  
+<lb ed="#L" n="45"/>intendat: ita peccatum in inferioribus angelis fuit quod  
+<lb ed="#L" n="46"/>bonum suum amaverunt propter bonum primi angeli 
+pec<lb ed="#L" break="no" n="47"/>cantis, scilicet inquantum est aliquo modo exemplatum ab  
+<lb ed="#L" n="48"/>ipso angelo seipsum tanquam ultimum finem amante; et  
+<lb ed="#L" n="49"/>ipsum primum angelum amaverunt propter se, non autem  
+<lb ed="#L" n="50"/>propter Deum, eius pulcritudinem et excellentiam 
+con<lb ed="#L" break="no" n="51"/>templantes, sicut et ipse seipsum tanquam ultimum finem  
+<lb ed="#L" n="52"/>amavit; cum tamen ipsum deberent propter Deum tanquam 
+<lb ed="#L" n="53"/>propter ultimum finem amare. Et hoc videntur velle verba  
+<lb ed="#L" n="54"/>Sancti Thomae cum inquit quod potuit fieri quod de in- 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="55"/>ferioribus aliquae per propriam: voluntatem bonum suum
+<lb ed="#L" n="56"/>ordinarent in ipsum, recedentes a divino ordine.
+<lb ed="#L" n="57"/>Cum autem contra hoc instatur, quia tunc non 
+pec<lb ed="#L" break="no" n="58"/>cassent peccato superbiae: — negatur. Dicitur enim quod
+<lb ed="#L" n="59"/>hanc excellentiam inordinate appetierunt, ut beatitudinem
+<lb ed="#L" n="60"/>ultimam virtute suae naturae consequerentur, non 
+indige<lb ed="#L" break="no" n="61"/>rentque divina gratia ad eam adipiscendam, quam 
+excellen<lb ed="#L" break="no" n="62"/>tiam sub divino ordine existentes non consequerentur. Dum
+<lb ed="#L" n="63"/>enim proprium bonum in primam substantiam ultimate,
+<lb ed="#L" n="64"/>tanquam in ultimum finem, referunt, quiescendo scilicet
+<lb ed="#L" n="65"/>in illius amore, et nullum ulterius bonum supernaturale
+<lb ed="#L" n="66"/>desiderantes; sequitur quod beatitudinem ultimam virtute
+<lb ed="#L" n="67"/>naturae assequi volunt, cum in' amorem. et cognitionem
+<lb ed="#L" n="68"/>illius primae substantiae peccantis naturali virtute ferantur.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>XXIII. QuanTUM AD TERTIUM , facit Sanctus Thomas 
+com<lb ed="#L" break="no" n="70"/>parationem substantiae separatae ad hominem in peccando.
+<lb ed="#L" n="71"/>Conveniunt enim, inquit, in hoc quod tam in homine quam
+<lb ed="#L" n="72"/>in substantia separata contingit peccatum ex hoc quod 
+vo<lb ed="#L" break="no" n="73"/>luntas proprium bonum non ordinat in Deum. Differunt
+<lb ed="#L" n="74"/>autem quia, cum in uno homine sint plures. appetitivae
+<lb ed="#L" n="75"/>virtutes, quarum una sub altera ordinatur, non autem in
+<lb ed="#L" n="76"/>substantia una separata; et peccatum in voluntate contingat
+<lb ed="#L" n="77"/>qualitercumque appetitus inferior deflectatur: contingit esse
+<lb ed="#L" n="78"/>peccatum in homine etiam per hoc quod bonum 
+infe<lb ed="#L" break="no" n="79"/>rioris appetitus non regulatur secundum superiorem 
+ap<lb ed="#L" break="no" n="80"/>petitum. Hoc autem modo peccatum in substantiis separatis
+<lb ed="#L" n="81"/>esse non potest.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Advertendum, ex doctrina Sancti Thomae in QQ. de
+<lb ed="#L" n="83"/>Malo, q. xvr, a. 2, quod, cum appetitus nihil aliud sit
+<lb ed="#L" n="84"/>quam inclinatio quaedam in appetibile; et inclinatio 
+con<lb ed="#L" break="no" n="85"/>sequatur aliquam formam: sicut appetitus naturalis 
+con<lb ed="#L" break="no" n="86"/>sequitur formam naturalem, ita appetitus sensitivus aut
+<lb ed="#L" n="87"/>intellectualis sequitur formam apprehensam. Ideo, ubi est
+<lb ed="#L" n="88"/>apprehensio tam sensitiva quam intellectiva, sicut est in
+<lb ed="#L" n="89"/>homine, est etiam appetitus tam sensitivus quam 
+intelle<lb ed="#L" break="no" n="90"/>ctivus: ubi autem est tantum apprehensio intellectiva, sicut
+<lb ed="#L" n="91"/>est in substantiis separatis, ibi est tantum appetitus 
+intel<lb ed="#L" break="no" n="92"/>lectivus. Et quia non potest malum accidere in appetitu
+<lb ed="#L" n="93"/>ex hoc quod discordet ab apprehensione, quam sequitur,
+<lb ed="#L" n="94"/>sed ex hoc quod discordat ab aliqua superiori regula;
+<lb ed="#L" n="95"/>cum apprehensio sensitiva habeat pro regula rationem, et
+<lb ed="#L" n="96"/>cognitio rationis habeat pro regula divinam sapientiam,
+<lb ed="#L" n="97"/>contingit in hominis appetitu esse peccatum, et quia 
+sen<lb ed="#L" break="no" n="98"/>sitiva apprehensio, quam sequitur appetitus, nom regulatur
+<lb ed="#L" n="99"/>ratione, et quia ratio humana non regulatur divina lege
+<lb ed="#L" n="100"/>et sapientia. In substantiis autem separatis peccatum esse
+<lb ed="#L" n="101"/>potest per hoc dumtaxat quia intellectualis eorum cognitio
+<lb ed="#L" n="102"/>divina sapientia et lege non regulatur. Ordo ergo qui hic
+<lb ed="#L" n="103"/>ponitur inter potentias appetitivas, ipsis convenit ratione
+<lb ed="#L" n="104"/>apprehensionum quas consequuntur: quia, cum regulare
+<lb ed="#L" n="105"/>pertineat ad cognitionem, non habeat superior appetitus
+<lb ed="#L" n="106"/>movere inferiorem per modum regulantis et. dirigentis,
+<lb ed="#L" n="107"/>nisi quia cognitio superioris ordinis eam quae est ordinis
+<lb ed="#L" n="108"/>inferioris habet dirigere. i
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

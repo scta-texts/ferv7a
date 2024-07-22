@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 43</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 43</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="112"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2059"><!-- ferv7a-l3c43 -->
+            <head>Capitulum 43</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="9" type="fixed=112"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="10"/>POST opinionem Avempace et Alexandri, venit. 
+confu<lb ed="#L" break="no" n="11"/>tanda Averrois opinio, Ideo. Sanctus Thomas primo
+<lb ed="#L" n="12"/>ipsam opinionem explicat; secundo, eam refellit .
+</p>
+            <p>
+               <lb ed="#L" n="13"/>I. Quantum ad primum, inquit quod, quia maxima in
+<lb ed="#L" n="14"/>opinione Alexandri est difficultas ex hoc quod ponit 
+in<lb ed="#L" break="no" n="15"/>tellectum possibilem in habitu esse totaliter corruptibilem,
+<lb ed="#L" n="16"/>Averroes faciliorem viam se invenisse existimavit ad 
+osten<lb ed="#L" break="no" n="17"/>dendum nos quandoque substantias separatas intelligere,
+<lb ed="#L" n="18"/>ex hoc quod intellectum possibilem incorruptibilem ponit,
+<lb ed="#L" n="19"/>et a nobis secundum esse separatum, sicut et intellectum
+<lb ed="#L" n="20"/>agentem.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Unde dixit primo, in <ref target="http://scta.info/resource/iu7r3b-d1e60-bw36Xp"><!-- target imprecise -->III de Anima, comm. 36</ref>, quod
+<lb ed="#L" n="22"/>intellectus agens ad principia a nobis naturaliter cognita
+<lb ed="#L" n="23"/>se habet aut sicut agens ad instrumentum, aut sicut forma
+<lb ed="#L" n="24"/>ad materiam: quia facere intellecta in actu est actio et
+<lb ed="#L" n="25"/>intellectus in habitu, et intellectus agentis; una autem
+<lb ed="#L" n="26"/>actio non est duorum nisi unum eorum comparetur ad
+<lb ed="#L" n="27"/>alterum sicut agens ad instrumentum, vel sicut forma ad
+<lb ed="#L" n="28"/>materiam.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Ad manifestationem autem primae propositionis, notat
+<lb ed="#L" n="30"/>quod intellectus in habitu, quo intelligimus, non solum
+<lb ed="#L" n="31"/>habet hanc actionem quae est intelligere, sed etiam hanc
+<lb ed="#L" n="32"/>quae est facere intellecta in actu. Quod quidem declarat,
+<lb ed="#L" n="33"/>quia per ipsum intellectum in habitu, quantum ad prima
+<lb ed="#L" n="34"/>principia, quae fiunt intellecta in actu, per solum 
+intel<lb ed="#L" break="no" n="35"/>lectum agentem fiunt intellecta in actu, aliaque ex studio
+<lb ed="#L" n="36"/>acquirimus, Sed licet utraque istarum actionum conveniat
+<lb ed="#L" n="37"/>intellectui in habitu, facere tamen intellecta in actu magis
+<lb ed="#L" n="38"/>notificat intellectum in habitu quam intelligere: quia prius
+<lb ed="#L" n="39"/>est facere intellecta in actu quam intelligere.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Dixit secundo, quod hoc modo intellectus agens com-.
+<lb ed="#L" n="41"/>paratur ad prima intellecta quo modo forma ad materiam.
+<lb ed="#L" n="42"/>Nam, cum intellectus possibilis, secundum ipsum, sit
+<lb ed="#L" n="43"/>substantia separata, intelligit intellectum agentem et alias
+<lb ed="#L" n="44"/>substantias separatas, et etiam prima intellecta speculativa.
+<lb ed="#L" n="45"/>Ideo oportet ut sit subiectum utrorumque. Quaecumque
+<lb ed="#L" n="46"/>autem conveniunt. in uno subiecto et habent ordinem.
+<lb ed="#L" n="47"/>ad invicem, sicut habent intellecta speculativa et intellectus
+<lb ed="#L" n="48"/>agens, qui ea facit intellecta in actu, alterum eorum est
+<lb ed="#L" n="49"/>sicut forma alterius: ut patet in luce respectu coloris,
+<lb ed="#L" n="50"/>quorum utrumque recipitur in diaphano. Ex quo sequitur
+<lb ed="#L" n="51"/>quod, cum intellecta speculativa sint nobis copulata per
+<lb ed="#L" n="52"/>pnantasmata, quod etiam intellectus agens copuletur nobis,
+<lb ed="#L" n="53"/>inquantum est ipsorum forma.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Dixit tertio, quod secundum quod intellecta speculativa
+<lb ed="#L" n="55"/>copulantur nobis aut in potentia, aut in actu completo,
+<lb ed="#L" n="56"/>aut partim in actu et partim in potentia, ita 
+proportio<lb ed="#L" break="no" n="57"/>naliter et intellectus agens nobis copulatur. Unde quanto
+<lb ed="#L" n="58"/>plura intellecta in actu in nobis fuerint facta, tanto 
+per<lb ed="#L" break="no" n="59"/>fectius intellectus agens continuatur nobis, Perfectus autem
+<lb ed="#L" n="60"/>motus  ad continuationem istam fit per studium in scientiis
+<lb ed="#L" n="61"/>speculativis: et. ad hunc profectum se iuvant homines,
+<lb ed="#L" n="62"/>sicut et in scientiis speculativis.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Dixit quarto quod, cum omnia intellecta in potentia
+<lb ed="#L" n="64"/>fuerint in nobis facta in actu, tunc intellectus agens 
+per<lb ed="#L" break="no" n="65"/>fecte copulabitur nobis ut forma: et tunc per ipsum 
+in<lb ed="#L" break="no" n="66"/>telligemus substantias separatas, sicut nunc perfecte 
+intel<lb ed="#L" break="no" n="67"/>ligimus per intellectum in habitu, Et hoc erit ultima
+<lb ed="#L" n="68"/>hominis felicitas, in qua homo erit sicut quidam Deus.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>II. Circa primum dictum Averrois, considerandum 
+pri<lb ed="#L" break="no" n="70"/>mo, quod quando duo ad unam operationem ordine
+<lb ed="#L" n="71"/>quodarh concurrunt, ita scilicet quod uni operatio per
+<lb ed="#L" n="72"/>alterum .convenit, oportet quod unum comparetur ad
+<lb ed="#L" n="73"/>alterum aut sicut agens principale ad instrumentum, sicut
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="74"/>artifex in sectione se habet ad serram; aut sicut forma
+<lb ed="#L" n="75"/>ad materiam, sicut in calefactione se habet calor ad ignem.
+<lb ed="#L" n="76"/>Conveniunt autem isti duo modi, ut inquit Sanctus Thomas
+<lb ed="#L" n="77"/>Prima Parte, q. 1xxxvr, a. 1, quia utrobique unum 
+com<lb ed="#L" break="no" n="78"/>paratur ad alterum sicut perfectio ad perfectibile, et sicut
+<lb ed="#L" n="79"/>actus ad potentiam. Cum ergo intellectus agens et 
+intel<lb ed="#L" break="no" n="80"/>lectus in habitu conveniant in una operatione, quae 
+in<lb ed="#L" break="no" n="81"/>tellectui in habitu per intellectum agentem communicatur,
+<lb ed="#L" n="82"/>oportet quod altero illorum. modorum comparetur, 
+intel<lb ed="#L" break="no" n="83"/>lectus agens ad intellectum in habitu. Et licet utroque
+<lb ed="#L" n="84"/>modo comparetur, praetermisso tamen primo modo, 
+Aver<lb ed="#L" break="no" n="85"/>roes prosequitur secundum, utpote magis deservientem
+<lb ed="#L" n="86"/>sibi, et magis congruentem suae positioni, dum arbitratur
+<lb ed="#L" n="87"/>tam intellectum agentem quam intellectum in habitu recipi
+<lb ed="#L" n="88"/>in intellectu. possibili: quae enim in uno subiecto 
+con<lb ed="#L" break="no" n="89"/>veniunt tanquam ad unam operationem illi etiam subiecto
+<lb ed="#L" n="90"/>convenientem ordinata, convenientius dicuntur se habere ut
+<lb ed="#L" n="91"/>forma et materia, quam ut agens principale et 
+instrumen<lb ed="#L" break="no" n="92"/>tum; quamvis et illud de ipsis vere aliquando dici possit.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Non approbo autem interpretationem quorundam 
+Aver<lb ed="#L" break="no" n="94"/>roistarum dicentium quod in principio intellectus agens
+<lb ed="#L" n="95"/>est agens respectu intellectus speculativi, et intellectus in
+<lb ed="#L" n="96"/>habitu respectu eiusdem est instrumentum; in fine vero
+<lb ed="#L" n="97"/>unum est ut forma, alterum ut materia. Nam assignat
+<lb ed="#L" n="98"/>Averroes rationem quare unum est ut forma et alterum
+<lb ed="#L" n="99"/>ut materia, quod ista actio quae est facere intellecta 
+spe<lb ed="#L" break="no" n="100"/>culativa in actu, est utriusque actio. Constat autem quod
+<lb ed="#L" n="101"/>ista actio convenit istis in principio generationis habitus
+<lb ed="#L" n="102"/>speculativi respectu nostri. Ergo iste respectus formae ad
+<lb ed="#L" n="103"/>materiam non convenit eis. "auia in fine, sed etiam in
+<lb ed="#L" n="104"/>principio.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>2. Attendendum ocalbe cum dicitur quod intellectui
+<lb ed="#L" n="106"/>in habitu convenit facere intelligibilia. in actu et 
+intel<lb ed="#L" break="no" n="107"/>ligere, quod per intellectum. in habitu duo possumus 
+in<lb ed="#L" break="no" n="108"/>telligere: scilicet aut habitum primorum principiorum
+<lb ed="#L" n="109"/>tantum, ut videlicet distinguitur ab habitu conclusionum
+<lb ed="#L" n="110"/>ex primis principiis deductarum, qui apud Averroem 
+im<lb ed="#L" break="no" n="111"/>tellectus speculativus vocatur; aut habitum omnia 
+intel<lb ed="#L" break="no" n="112"/>lecta facta, tam videlicet prima quam. secundaria, 
+com<lb ed="#L" break="no" n="113"/>prehendentem, Primo modo non videtur accipi ab Averroe.
+<lb ed="#L" n="114"/>Nam cum intelligere fiat cum. quadam receptione 
+intel<lb ed="#L" break="no" n="115"/>lecti in actu, ratione cuius inquit Averroes, III de Anima,
+<lb ed="#L" n="116"/>comm, 36, quod est actio de genere passionis; hoc
+<lb ed="#L" n="117"/>quod est intelligere non conveniet ipsi habitui primorum
+<lb ed="#L" n="118"/>principiorum neque ratione ipsorum principiorum, neque
+<lb ed="#L" n="119"/>ratione intellectus agentis, cuius sunt instrumentum; et
+<lb ed="#L" n="120"/>sic non poterit dici de intellectu in habitu quod sibi
+<lb ed="#L" n="121"/>utraque illarum actionum conveniat.
+</p>
+            <p>
+               <lb ed="#L" n="122"/>Accipitur ergo secundo modo. Aperte enim hinc constat
+<lb ed="#L" n="123"/>utramque illarum. actionum intellectui. in habitu 
+conve<lb ed="#L" break="no" n="124"/>nire: ratione tamen diversorum quae in ipso includuntur.
+<lb ed="#L" n="125"/>Sibi enim inquantum est circa prima principia, convenit
+<lb ed="#L" n="126"/>hoc quod est facere intellecta in actu virtute intellectus
+<lb ed="#L" n="127"/>agentis, cuius sunt veluti instrumenta et veluti materia:
+<lb ed="#L" n="128"/>nam primo convenit intellectui agenti talis actio; ipsis
+<lb ed="#L" n="129"/>autem primis principiis ratione intellectus agentis, 
+inquan<lb ed="#L" break="no" n="130"/>tum ex ipsis, a nobis per intellectum agentem naturaliter
+<lb ed="#L" n="131"/>cognitis, studio et exercitio alia a nobis innotescunt. Unde
+<lb ed="#L" n="132"/>Sanctus Thomas, de mente Averrois, inquit quod facere
+<lb ed="#L" n="133"/>intellecta secundaria in actu est actio intellectus in habitu,
+<lb ed="#L" n="134"/>quantum ad prima principia, et intellectus agentis: quasi
+<lb ed="#L" n="135"/>diceret: Est actio intellectus in habitu, non quidem quantum
+<lb ed="#L" n="136"/>ad omnia sub ipso contenta, sed tantum ratione primorum
+<lb ed="#L" n="137"/>principiorum.
+</p>
+            <p>
+               <pb ed="#L" n="113"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Alia autem actio, quae est intelligere ea quae ex studio
+<lb ed="#L" n="2"/>et voluntate nostra facta sunt intellecta in actu, cuiusmodi
+<lb ed="#L" n="3"/>sunt intentiones rerum materialium, convenit huic 
+intel<lb ed="#L" break="no" n="4"/>lectui inquantum est circa ipsa secundaria intellecta, sed
+<lb ed="#L" n="5"/>ratione intellectus possibilis. Nam sicut intellectus agens
+<lb ed="#L" n="6"/>est primum cui convenit facere intellecta in actu, ita 
+in<lb ed="#L" break="no" n="7"/>tellectus possibilis est primum cui convenit ca recipere
+<lb ed="#L" n="8"/>et intelligere.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>3. Attendendum tertio, cum dicitur ab Averroe, de
+<lb ed="#L" n="10"/>mente Alexandri , quod facere intellecta in actu est prius
+<lb ed="#L" n="11"/>quam intelligere, et propterea magis notificat intellectum
+<lb ed="#L" n="12"/>in habitu, quod triplicem prioritatem hic possumus 
+intel<lb ed="#L" break="no" n="13"/>ligere: scilicet prioritatem nobilitatis ; prioritatem 
+praesup<lb ed="#L" break="no" n="14"/>positionis; et prioritatem appropriationis. Omnibus enim
+<lb ed="#L" n="15"/>istis modis verificari potest quod facere intellecta in actu
+<lb ed="#L" n="16"/>est prius quam intelligere, ut scilicet receptionem  
+intel<lb ed="#L" break="no" n="17"/>lecti in actu dicit. Est enim nobilitate prius: quia, ut inquit
+<lb ed="#L" n="18"/>Averroes , illud est de genere actionis, istud vero de genere
+<lb ed="#L" n="19"/>passionis ; constat autem quod agere nobilius est quam
+<lb ed="#L" n="20"/>recipere, saltem respectu unius et eiusdem. Est etiam
+<lb ed="#L" n="21"/>prius naturaliter, tanquam praesuppositum alteri: nam
+<lb ed="#L" n="22"/>|o prius- intelligimus fieri intellecta in actu quam illa recipi.
+<lb ed="#L" n="23"/>Est etiam prius secundum appropriationem : quia hoc
+<lb ed="#L" n="24"/>est proprium intellectui, non. autem illud; quia facere
+<lb ed="#L" n="25"/>intellecta in actu nulli animali virtuti convenit, nec etiam
+<lb ed="#L" n="26"/>proportionaliter; sed recipere intellecta in actu convenit
+<lb ed="#L" n="27"/>etiam sensui per nam et sensus recipit 
+sen<lb ed="#L" break="no" n="28"/>sata in actu.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Propter has prioritates, convenienter dicitur quod magis
+<lb ed="#L" n="30"/>proprie notificatur natura intellectus in habitu per hoc
+<lb ed="#L" n="31"/>quod est facere intellecta in actu, quam per hoc quod
+<lb ed="#L" n="32"/>est intelligere. Nam magis proprie notificatur natura alicuius
+<lb ed="#L" n="33"/>per propriam 'et digniorem et naturaliter priorem 
+opera<lb ed="#L" break="no" n="34"/>tionem, quam per eam quae communis est sibi et aliis,
+<lb ed="#L" n="35"/>et est indignior et posterior.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>4. Attendendum quarto, cum inquit Sanctus Thomas
+<lb ed="#L" n="37"/>prima intellecta esse initium intellectus in habitu, quod
+<lb ed="#L" n="38"/>hoc dupliciter potest intelligi. Uno modo, ut prima pars
+<lb ed="#L" n="39"/>rei dicitur eius initium. Sic enim constat quod prima
+<lb ed="#L" n="40"/>intellecta sunt initium intellectus in habitu: nam primum
+<lb ed="#L" n="41"/>per intellectum agentem solum fiunt ipsa prima intellecta
+<lb ed="#L" n="42"/>in actu; deinde per intellectum agentem simul cum primis
+<lb ed="#L" n="43"/>intellectis, fiunt intellecta alia, quae studio et exercitatione
+<lb ed="#L" n="44"/>acquirimus. — Alio modo, ut causa effectiva rei dicitur
+<lb ed="#L" n="45"/>eius initium. Et sic etiam prima principia sunt initium
+<lb ed="#L" n="46"/>intelleetus. in habitu quantum ad secundaria intellecta:
+<lb ed="#L" n="47"/>sunt enim ipsorum causa. — Propter utrumque horum
+<lb ed="#L" n="48"/>Aristoteles habitum primorum principiorum, ut ab habitu
+<lb ed="#L" n="49"/>aliorum distinguitur, sive ut prima pars a secunda sive
+<lb ed="#L" n="50"/>ut causa ab effectu, vocavit intellectum: quia videlicet
+<lb ed="#L" n="51"/>ab ipso tota nostra cognitio intellectiva originatur, sicut
+<lb ed="#L" n="52"/>et a virtute intellectiva.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>III. Circa secundum dictum Averrois , attendendum
+<lb ed="#L" n="54"/>quod ad hoc ut intellectus possibilis aliquid essentialiter
+<lb ed="#L" n="55"/>intelligat, necesse est ut ex ipso et intelligibili fiat unum,
+<lb ed="#L" n="56"/>ut multoties, de mente Aristotelis, superius  est dictum.
+<lb ed="#L" n="57"/>Hoc autem non potest esse nisi aut ipsum intelligibile sit
+<lb ed="#L" n="58"/>omnino idem quod intelligens; aut in ipso intellectu 
+re<lb ed="#L" break="no" n="59"/>cipiatur. Ideo Averroes, arbitratus intellectum agentem
+<lb ed="#L" n="60"/>esse substantiam a materia separatam et per se actu 
+in<lb ed="#L" break="no" n="61"/>tellectam, ac distinctam ab intellectu possibili; ex hoc
+<lb ed="#L" n="62"/>quod intellectus possibilis ipsum intellectum agentem 
+in<lb ed="#L" break="no" n="63"/>telligit, concludit quod intellectus possibilis est subiectum
+<lb ed="#L" n="64"/>intellectus agentis, quemadmodum et aliorum intellectorum.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>2. Sed dubium occurrit circa id quod dicitur, 
+intel<lb ed="#L" break="no" n="66"/>lectum possibilem esse subiectum intellectus in habitu.
+<lb ed="#L" n="67"/>Nam oppositum videtur dici ab Averroe in III de Anima,
+<lb ed="#L" n="68"/>commento 20, ubi vult quod habitus scientiarum sunt in
+<lb ed="#L" n="69"/>virtute cogitativa sicut in subiecto: id quod etiam 
+San<lb ed="#L" break="no" n="70"/>ctus Thomas, in secundo Libro , de mente Averrois 
+ad<lb ed="#L" break="no" n="71"/>duxit.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Respondetur quod non pro eodem accipiuntur habitus
+<lb ed="#L" n="73"/>scientiae qui est in cogitativa, secundum Commentatorem;
+<lb ed="#L" n="74"/>et intellectus in habitu, qui ab ipso ponitur in intellectu
+<lb ed="#L" n="75"/>possibili. Nam per habitum scientiae qui est in cogitativa,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>accipit quandam dispositionem et habilitatem, ex studio
+<lb ed="#L" n="77"/>et exercitio in cogitativa causatam, qua faciliter et prompte
+<lb ed="#L" n="78"/>homo est dispositus ad copulationem cum intellectu 
+pos<lb ed="#L" break="no" n="79"/>sibili; ut in commehto allegato patet. Per intellectum
+<lb ed="#L" n="80"/>autem in habitu, intelligit ipsa intellecta, sive ipsas 
+in<lb ed="#L" break="no" n="81"/>tentiones et similitudines intelligibilium, quae in intellectu
+<lb ed="#L" n="82"/>possibili ponuntur, et nobiscum per phantasmata 
+copu<lb ed="#L" break="no" n="83"/>lantur.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>IV. Circa ultimum dictum , curn inquit Averroes quod
+<lb ed="#L" n="85"/>in perfecta copulatione intellectus agentis cum homine,
+<lb ed="#L" n="86"/>homo erit sicut Deus, adverte quod dupliciter possumus
+<lb ed="#L" n="87"/>istam similitudinem interpretari. Primo, quod sit similitudo
+<lb ed="#L" n="88"/>quantum ad cognitionem ' substantiarum immaterialium
+<lb ed="#L" n="89"/>dumtaxat, et maxime ipsius Dei. Et tunc sensus est quod
+<lb ed="#L" n="90"/>homo ultimate felix est sicut Deus, quia sicut Deus 
+sub<lb ed="#L" break="no" n="91"/>stantias separatas, et praesertim seipsum, perfecte 
+cogno<lb ed="#L" break="no" n="92"/>scit, in quo eius beatitudo consistit, ita et homo, cum
+<lb ed="#L" n="93"/>fuerit perfecte intellectui agenti copulatus, substantias 
+se<lb ed="#L" break="no" n="94"/>paratas et Deum intelliget.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Secundo modo, potest importari . similitudo quantum
+<lb ed="#L" n="96"/>ad universalitatem entium et cognitorum. Sicut enim Deus
+<lb ed="#L" n="97"/>in se rerum omnium perfectiones continet et omnia 
+co<lb ed="#L" break="no" n="98"/>gnoscit, ita et homo, cum et omnia intellecta et intellectus
+<lb ed="#L" n="99"/>agens sibi fuerint perfecte copulata, erit omnia 
+intelligi<lb ed="#L" break="no" n="100"/>biliter, et omnia cognoscet.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Cetera quae circa hanc opinionem tanguntur, in 
+se<lb ed="#L" break="no" n="102"/>cundo Libro sunt explicata .
+</p>
+            <p>
+               <lb ed="#L" n="103"/>V. Sed contra ipsam arguit multipliciter Sanctus 
+Tho<lb ed="#L" break="no" n="104"/>mas : quoniam procedit ex suppositione multorum quae
+<lb ed="#L" n="105"/>in superioribus sunt improbata.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Primo. Hoc fundamentum, scilicet quod intellectus 
+pos<lb ed="#L" break="no" n="107"/>sibilis sit substantia separata, est superius improbatum, Ergo
+<lb ed="#L" n="108"/>propter illud fundamentum non oportet ut sit subiectum
+<lb ed="#L" n="109"/>substantiarum separatarum, ut arguit haec opinio.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Confirmatur. Quia videtur apud Aristotelem quod sit
+<lb ed="#L" n="111"/>subiectum solum eorum quae fiunt intellecta in actu: cum
+<lb ed="#L" n="112"/>dicat quod est quo est omnia fieri.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Adverte quod substantiae separatae sunt quidem 
+intel<lb ed="#L" break="no" n="114"/>lectae in actu, quia sunt omnino abstractae a materia.
+<lb ed="#L" n="115"/>Sed hoc convenit eis per naturam, non per actionem 
+in<lb ed="#L" break="no" n="116"/>tellectus agentis. Ideo non habent recipi in intellectu 
+pos<lb ed="#L" break="no" n="117"/>sibili: cuius est recipere ea dumtaxat quae per intellectum
+<lb ed="#L" n="118"/>agentem fiunt intellecta in actu.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>VI. Secundo. Intellectus agens non est substantia 
+sepa<lb ed="#L" break="no" n="120"/>rata, sed pars animae, cui Aristoteles attribuit hanc 
+ope<lb ed="#L" break="no" n="121"/>rationem, scilicet facere intellecta in actu, quae est in
+<lb ed="#L" n="122"/>nostra potestate. Ergo non oportet quod intelligere per
+<lb ed="#L" n="123"/>ipsum sit nobis causa quod possimus intelligere 
+substan<lb ed="#L" break="no" n="124"/>tias separatas. — Probatur consequentia. Quia alias semper
+<lb ed="#L" n="125"/>eas intelligeremus.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>2. Advertendum primo quod, secundum. positionem
+<lb ed="#L" n="127"/>praedictam, tota ratio quare possumus intelligere 
+substan<lb ed="#L" break="no" n="128"/>tias separatas est quia nobis continuari potest intellectus
+<lb ed="#L" n="129"/>agens, cuius est intelligere substantias separatas, et quod
+<lb ed="#L" n="130"/>per continuationem eius perfectam nobiscum illas 
+intel<lb ed="#L" break="no" n="131"/>ligemus. Si autem ponamus quod intellectus agens sit
+<lb ed="#L" n="132"/>pars animae, sequitur quod sit semper nobis secundum
+<lb ed="#L" n="133"/>suam essentiam unitus. Ideo optime deducit Sanctus '
+Tho<lb ed="#L" break="no" n="134"/>mas quod per ipsum semper substantias separatas 
+intel<lb ed="#L" break="no" n="135"/>ligamus.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>Si quis autem diceret quod, licet intellectus agens sit
+<lb ed="#L" n="137"/>pars animae, et per consequens sit semper unitus nobis
+<lb ed="#L" n="138"/>secundum substantiam, non tamen est nobis semper unitus
+<lb ed="#L" n="139"/>secundum omnem suam actionem et virtutem, sed tunc
+<lb ed="#L" n="140"/>tantum quando intellectus possibilis fuerit perfectus 
+omni<lb ed="#L" break="no" n="141"/>bus intellectis in actu; ideo non sequitur quod homo
+<lb ed="#L" n="142"/>semper intelligat substantias separatas: — hoc nihil est.
+<lb ed="#L" n="143"/>Quia non ponitur, secundum praedictam positionem, 
+re<lb ed="#L" break="no" n="144"/>quiri intellecta in actu nobis continuari ad hoc quod
+<lb ed="#L" n="145"/>substantias separatas intelligamus, nisi quoniam sunt 
+me<lb ed="#L" break="no" n="146"/>dium et dispositio ad hoc ut intellectus agens nobis 
+co<lb ed="#L" break="no" n="147"/>puletur secundum suam substantiam : quia tunc per ipsum
+<lb ed="#L" n="148"/>possumus substantias separatas intelligere. Ergo, secundum
+<lb ed="#L" n="149"/>Averroem, sola unio substantiae intellectus agentis 
+no<lb ed="#L" break="no" n="150"/>biscum est causa quod intelligamus substantias separatas:
+<pb ed="#L" n="114"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>unio enim secundum actionem et virtutem intelligendi
+<lb ed="#L" n="2"/>substantias separatas, sequitur copulationem substantiae
+<lb ed="#L" n="3"/>eius nobiscum. Ergo, si posuerimus nullam requiri 
+dispo<lb ed="#L" break="no" n="4"/>sitionem acquisitam ad hoc quod nobis. substantia 
+intel<lb ed="#L" break="no" n="5"/>lectus agentis uniatur, sed sit semper nobis naturaliter
+<lb ed="#L" n="6"/>unitus, utpote.pars animae existens; sequitur quod semper
+<lb ed="#L" n="7"/>per ipsum substantias separatas ' intelligamus.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>3. Circa hoc quod ait Sanctus Thomas, Aristotelem
+<lb ed="#L" n="9"/>attribuere intellectui agenti Aanmc operationem quae est
+<lb ed="#L" n="10"/>facere intelligibilia in actu, quae operatio est in nostra
+<lb ed="#L" n="11"/>potestate, advertendum quod per intellectum in actu duo
+<lb ed="#L" n="12"/>significari possunt: scilicet aut ipsa sola species 
+intelligi<lb ed="#L" break="no" n="13"/>bilis in intellectu possibili causata; aut quodcumque 
+in<lb ed="#L" break="no" n="14"/>tellectum quod actum intelligendi terminat, Per intellectum
+<lb ed="#L" n="15"/>ergo in actu non est accipiendum hoc loco quodcumque
+<lb ed="#L" n="16"/>obiectum terminans actum intelligendi: quia hoc facere
+<lb ed="#L" n="17"/>pertinet ad intellectum possibilem et ad habitum primorum
+<lb ed="#L" n="18"/>principiorum, secundum quod intellectus format conceptum
+<lb ed="#L" n="19"/>quidditatis rei, vel per discursum pervenit ad cognitionem
+<lb ed="#L" n="20"/>actualem eius quod in potentia tantum cognoscebat. Sed
+<lb ed="#L" n="21"/>accipiendae sunt species intelligibiles: has:enim ipse 
+in<lb ed="#L" break="no" n="22"/>tellectus. agens in intellectu possibili, simul cum  
+phan<lb ed="#L" break="no" n="23"/>tasmate, immediate causat, Et dicitur hoc esse in potestate
+<lb ed="#L" n="24"/>nostra, quia est in nostra potestate phantasiari, et sic 
+or<lb ed="#L" break="no" n="25"/>dinare phantasmata in imaginatione ut sint conveniens
+<lb ed="#L" n="26"/>instrumentum intellectus agentis ad causandam huiusmodi
+<lb ed="#L" n="27"/>speciem: non enim quaecumque phantasmata confusa et
+<lb ed="#L" n="28"/>inordinata sunt eius conveniens instrumentum.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>VIL. Tertio. Secundum hanc positionem, nec intellectus
+<lb ed="#L" n="30"/>agens nec intellectus possibilis copulatur nobiscum. nisi
+<lb ed="#L" n="31"/>per species factas intellectas in actu, Intellecta, in actu
+<lb ed="#L" n="32"/>nobis non copulantur nisi per phantasmata. Phantasmata,
+<lb ed="#L" n="33"/>secundum Aristotelem, se habent ad intellectum possibilem
+<lb ed="#L" n="34"/>sicut colores ad visum; ad agentem sicut colores ad lucem.
+<lb ed="#L" n="35"/>Ergo neque actio intellectus possibilis homini potest 
+at<lb ed="#L" break="no" n="36"/>tribui, ut intelligat substantias separatas : neque actio 
+in<lb ed="#L" break="no" n="37"/>tellectus agentis, ut faciat intellecta in actu. — Probatur
+<lb ed="#L" n="38"/>consequentia. Quia constat quod lapidi, in quo est color
+<lb ed="#L" n="39"/>(sicut scilicet phantasmata in homine), neque actio visus
+<lb ed="#L" n="40"/>attribui potest, ut videat; neque actio lucis, ut illuminet.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>VIII. Quarto. Secundum hanc. positionem, intellectus
+<lb ed="#L" n="42"/>agens non potest esse forma in nobis nisi secundum quod
+<lb ed="#L" n="43"/>in actione eius intellecta speculativa communicant. Sed
+<lb ed="#L" n="44"/>in hac operatione quae est intelligere substantias separatas,
+<lb ed="#L" n="45"/>communicare non possunt: cum sint species rerum 
+sen<lb ed="#L" break="no" n="46"/>sibilium. Ergo etc. — Maior constat. Quia intellectus .agens
+<lb ed="#L" n="47"/>non ponitur continuari nobiscum ut forma nisi per hoc
+<lb ed="#L" n="48"/>quod est forma intellectorum speculativorum. Istorum
+<lb ed="#L" n="49"/>etiam ponitur forma per hoc quod eorum et intellectus
+<lb ed="#L" n="50"/>agentis est eadem actio, scilicet facere intellecta in actu.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>Adverte quod haec ratio habet pro fundamento quod,
+<lb ed="#L" n="52"/>cum duae actiones intellectui in habitu conveniant, ut
+<lb ed="#L" n="53"/>superius  est ostensum; sicut intellectus agens non 
+po<lb ed="#L" break="no" n="54"/>nitur forma intellectorum .speculativorum . quantum. ad
+<lb ed="#L" n="55"/>prima intellecta, nisi inquantum actio intellectus agentis
+<lb ed="#L" n="56"/>quae est facere intellecta in actu, est etiam actio ipsorum
+<lb ed="#L" n="57"/>intellectorum; ita etiam non debet poni forma ipsorum
+<lb ed="#L" n="58"/>quantum ad secunda intellecta, quibus convenit alia actio,
+<lb ed="#L" n="59"/>quae est intelligere (eo scilicet modo quo ipsa dicuntur
+<lb ed="#L" n="60"/>intelligere: quia videlicet intellectus possibilis et homo
+<lb ed="#L" n="61"/>per illa intelligit), nisi quia actio intellectus agentis quae
+<lb ed="#L" n="62"/>est intelligere substantias separatas, est etiam actio 
+ipso<lb ed="#L" break="no" n="63"/>rum. Quod cum non sit, quia talia intellecta. secundaria
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="64"/>sunt species rerum sensibilium, ex quidditatibus autem
+<lb ed="#L" n="65"/>sensibilibus non possunt cognosci substantiae separatae,
+<lb ed="#L" n="66"/>ut contra Avempace est ostensum : sequitur quod 
+intel<lb ed="#L" break="no" n="67"/>lectus agens non potest ipsorum forma esse; et per 
+con<lb ed="#L" break="no" n="68"/>sequens neque forma in nobis. Et sic constat quod ista
+<lb ed="#L" n="69"/>positio, quae ponit quod substantias separatas possimus
+<lb ed="#L" n="70"/>intelligere per hoc quod intellectus agens continuatur
+<lb ed="#L" n="71"/>nobiscum ut forma, vana est et frivola.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>IX. Quinto. Aliter intellectus agens comparatur ad 
+in<lb ed="#L" break="no" n="73"/>tellecta speculativa, quorum est factivus; et aliter ad
+<lb ed="#L" n="74"/>substantias separatas, quarum est intellectivus tantum;
+<lb ed="#L" n="75"/>secundum Averrois positionem. Ergo.non oportet, si 
+co<lb ed="#L" break="no" n="76"/>pulatur nobis per hoc quod est illorum factivus, quod
+<lb ed="#L" n="77"/>copuletur etiam secundum quod est separatorum 
+cogno<lb ed="#L" break="no" n="78"/>scitivus: sed est deceptio secundum. accidens.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Adverte quod in hac argumentatione, /ntellectus agens
+<lb ed="#L" n="80"/>unitur nobis ut forma. per hoc quod est factivus 
+intel<lb ed="#L" break="no" n="81"/>lectorum. sensibilium. Sed ipse intelligit substantias .
+sepa<lb ed="#L" break="no" n="82"/>ratas. Ergo et hoc modo nobis copulatur, committitur
+<lb ed="#L" n="83"/>manifeste, ut ait Sanctus Thomas, deceptio et fallacia
+<lb ed="#L" n="84"/>accidentis: ex eo enim quod intellectus agens et homo
+<lb ed="#L" n="85"/>sunt aliquo modo unita, arguitur tanquam si omnibus
+<lb ed="#L" n="86"/>modis essent unita, in quo fallacia accidentis committitur.
+<lb ed="#L" n="87"/>Unde, supposita opinione Commentatoris quod intellectus
+<lb ed="#L" n="88"/>agens sit substantia separata, dicitur ad illam minorem,
+<lb ed="#L" n="89"/>Intellectus agens intelligit substantias separatas, quod
+<lb ed="#L" n="90"/>accidit intellectui agenti quod. intelligat substantias
+<lb ed="#L" n="91"/>ratas secundum quod unitur nobis, quia illud. convenit
+<lb ed="#L" n="92"/>sibi, non secundum quod nobis copulatur, sed secundum
+<lb ed="#L" n="93"/>quod a nobis est separatus:. sicut: accidit amimali quod
+<lb ed="#L" n="94"/>sit genus inquantum est idem homini, licet vere animal
+<lb ed="#L" n="95"/>sit genus.. . ]
+</p>
+            <p>
+               <lb ed="#L" n="96"/>X. Sexto. Per intellectum agentem possumus intelligere
+<lb ed="#L" n="97"/>substantias separatas inquantum ipse fit forma in nobis.
+<lb ed="#L" n="98"/>Ergo homo a principio hoc potest. Sed hoc ista positio
+<lb ed="#L" n="99"/>non dicit, Ergo etc. — Probatur consequentia. Quia fit
+<lb ed="#L" n="100"/>forma in nobis etiam per prima. intellecta speculativa:
+<lb ed="#L" n="101"/>(supple) quae nobis a principio insunt.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Si dicatur quod intellectus agens non fit perfecte forma
+<lb ed="#L" n="103"/>per quaedam intellecta speculativa, ut per ipsum possimus
+<lb ed="#L" n="104"/>intelligere substantias separatas, sed per omnia: contra.
+<lb ed="#L" n="105"/>Hoc non est nisi quia ipsa intellecta speculativa non 
+ad<lb ed="#L" break="no" n="106"/>aequant virtutem intellectus agentis in intelligendo 
+substan<lb ed="#L" break="no" n="107"/>tias separatas. Sed nec omnia simul adaequant illam 
+per<lb ed="#L" break="no" n="108"/>fectionem: cum non sint intelligibilia nisi quia facta sunt
+<lb ed="#L" n="109"/>intellecta, illa. vero sint intelligibilia secundum suam .
+na<lb ed="#L" break="no" n="110"/>turam. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Adverte quod haec ratio supponit quod intellectus
+<lb ed="#L" n="112"/>agens, secundum positionem praedictam, non fiat forma
+<lb ed="#L" n="113"/>in nobis nisi quia fit forma intellectorum speculativorum ;
+<lb ed="#L" n="114"/>illorum vero non fiat forma nisi quia communicant in
+<lb ed="#L" n="115"/>actione quae est intelligere substantias separatas, ut in
+<lb ed="#L" n="116"/>quarta ratione est ostensum . Sic enim constat quod aut
+<lb ed="#L" n="117"/>a principio possumus intelligere substantias separatas,
+<lb ed="#L" n="118"/>quia a principio sunt in nobis prima intellecta naturaliter
+<lb ed="#L" n="119"/>nota, quibus mediantibus intellectus agens fit forma in
+<lb ed="#L" n="120"/>nobis. Aut, si hoc non potest esse, quia prima intellecta, 
+<lb ed="#L" n="121"/>cum non adaequent virtutem intellectus agentis, non 
+pos<lb ed="#L" break="no" n="122"/>sunt in illa operatione communicare, sequitur quod 
+nun<lb ed="#L" break="no" n="123"/>quam illud possimus: quia nec omnia quae facta sunt
+<lb ed="#L" n="124"/>intellecta, possunt in illa operatione communicare, cum
+<lb ed="#L" n="125"/>nec etiam omnia illa simul sumpta intellectus agentis 
+vir<lb ed="#L" break="no" n="126"/>tutem adaequent.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

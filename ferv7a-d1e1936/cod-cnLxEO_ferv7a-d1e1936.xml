@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 28</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 28</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="84"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1936"><!-- ferv7a-l3c28 -->
+            <head xml:id="ferv7a-d1e1936-Hd1e101">Capitulum 28</head>
+            <p xml:id="ferv7a-d1e1936-d1e103">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="69" type="fixed=84"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e110">
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="70"/>OSTENSO quod felicitas in delectationibus sensibilibus
+<lb ed="#L" n="71"/>non consistit, ostendendum restat quod neque in
+<lb ed="#L" n="72"/>bonis exterioribus consistat, quae fortunae bona dicuntur .
+<lb ed="#L" n="73"/>Et primo, quod non in honoribus .
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e123">
+               <lb ed="#L" n="74"/>1. Et arguitur primo sic, Honor hominis non 
+con<lb ed="#L" break="no" n="75"/>sistit in eius. operatione, sed alterius ipsi reverentiam
+<lb ed="#L" n="76"/>exhibentis. Ergo in honoribus non est felicitas. — Patet
+<lb ed="#L" n="77"/>consequentia, Quia felicitas hominis est eius perfectissima
+<lb ed="#L" n="78"/>operatio, ut patuit.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e136">
+               <lb ed="#L" n="79"/>Secundo : et est ratio Aristotelis, I Ethicorum. Honor est
+<lb ed="#L" n="80"/>propter aliud: quia non honoratur aliquis recte nisi propter
+<lb ed="#L" n="81"/>aliquod bonum in ipso existens. Et propter hoc homines
+<lb ed="#L" n="82"/>honorari quaerunt, quasi volentes testimonium babere
+<lb ed="#L" n="83"/>inexistentis ipsis boni. Ergo etc,
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e150">
+               <lb ed="#L" n="84"/>Attende quod. non dixit absolute Sanctus "TA quod
+<lb ed="#L" n="85"/>aliquis non honoratur nisi propter aliquod bonum in
+<lb ed="#L" n="86"/>ipso existens, sed addidit, recte. Quia sola virtus est debita
+<lb ed="#L" n="87"/>causa honoris: aut, inquam, propria virtus; aut aliena,
+<lb ed="#L" n="88"/>quae in aliquo honoratur inquantum illius personam gerit ;
+<lb ed="#L" n="89"/>ut dicitur II II, q. 1xrr, a. 3. Ideo, si honor recte debeat
+<lb ed="#L" n="90"/>exhiberi alicui, oportet ut ei propter virtutem exhibeatur.
+<lb ed="#L" n="91"/>Si autem propter divitias solas aliquis honoraretur, non
+<lb ed="#L" n="92"/>recte sibi exhiberetur honor, sed male et perverse.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e172">
+               <cb ed="#L" n="h"/>
+               <lb ed="#L" n="93"/>Tertio: et est etiam Aristotelis ratio. Quod aliquis
+<lb ed="#L" n="94"/>honorem consequatur, non est in potestate eius, sed
+<lb ed="#L" n="95"/>honorantis. Ergo etc. — Probatur consequentia, Quia ad
+<lb ed="#L" n="96"/>felicitatem per virtutes pecvenitur, Operationes autem
+<lb ed="#L" n="97"/>virtutum sunt voluntariae,
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e188">
+               <lb ed="#L" n="98"/>2. Sed videtur ista ratio non concludere. Sicut enim
+<lb ed="#L" n="99"/>honor non est in potestate honorati, sed honorantis, ita
+<lb ed="#L" n="100"/>neque visio Dei est in potestate videntis Deum, sed
+<lb ed="#L" n="101"/>tantum in potestate Dei unientis se intellectui creaturae.
+<lb ed="#L" n="102"/>Constat autem ex superioribus quod visio aut cognitio
+<lb ed="#L" n="103"/>Dei est felicitas intellectualis naturae, Ergo quod honor
+<lb ed="#L" n="104"/>non sit in potestate honorati, sed honorantis, non tollit
+<lb ed="#L" n="105"/>quin possit esse felicitas.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e208">
+               <lb ed="#L" n="106"/>Respondetur quod utique, absolute loquendo, non est
+<lb ed="#L" n="107"/>in potestate hominis consequi beatitudinem, quasi scilicet
+<lb ed="#L" n="108"/>propria virtute possit illam adipisci: sed, supposita motione
+<lb ed="#L" n="109"/>divina qua animam movet, et determinatione divinae
+<lb ed="#L" n="110"/>voluntatis statuentis ut bene operantes beatitudinem 
+asse<lb ed="#L" break="no" n="111"/>quantur, est in potestate hominis ut ad beatitudinem
+<lb ed="#L" n="112"/>perveniat. Non sic autem est de honore. Quia nec 
+ab<lb ed="#L" break="no" n="113"/>solute, nec ex aliqua suppositione quae sit in actu, potest
+<lb ed="#L" n="114"/>homo necessario assequi honorem: cum omnino sit in
+<lb ed="#L" n="115"/>facultate honorantis honorare aliquem aut non honorare.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e232">
+               <pb ed="#L" n="85"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Et praeterea visio Dei, quamvis a Deo dependeat
+<lb ed="#L" n="2"/>tanquam a prima causa beatitudinis, est tamen  
+ope<lb ed="#L" break="no" n="3"/>ratio hominis beati. Non autem honor est. operatio
+<lb ed="#L" n="4"/>honorati. Ideo non est eadem ratio de visione bei, et
+<lb ed="#L" n="5"/>de honore.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e250">
+               <lb ed="#L" n="6"/>3. Quarto. Melius est fieri honore dignum quam 
+hono<lb ed="#L" break="no" n="7"/>rari: cum esse dignum honore solis bonis inesse possit,
+<lb ed="#L" n="8"/>honorari autem etiam possint mali. Ergo honor non est
+<lb ed="#L" n="9"/>summum bonum.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e262">
+               <lb ed="#L" n="10"/>Quinto. Potest aliquis malus honorem consequi. Ergo
+<lb ed="#L" n="11"/>etc, - Probatur consequentia. Quia impossibile est esse
+<lb ed="#L" n="12"/>malum cui adest summum bonum: cum summum bonum
+<lb ed="#L" n="13"/>sit perfectum bonum, scilicet cmnino; et consequenter
+<lb ed="#L" n="14"/>non compatiatur secum aliquod malum."
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e275">
+               <lb ed="#L" n="15"/>II. Adverte quod Sanctus Thomas nullos in particu-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="16"/>lari nominat huius positionis auctores: quia fortassis
+<lb ed="#L" n="17"/>nullum haec. positio philosophum eius fundatorem habuit,
+<lb ed="#L" n="18"/>sed videtur esse, ut ponitur I Ethicorum, opinio 
+praestan<lb ed="#L" break="no" n="19"/>tium virorum, et qui rebus agendis sunt apti.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e291">
+               <lb ed="#L" n="20"/>Fundamentum autem eius est, quia <quote xml:id="ferv7a-d1e1936-Qd1e295">honor est praemium
+<lb ed="#L" n="21"/>virtutis</quote>, ut dicitur <ref xml:id="ferv7a-d1e1936-Rd1e300">IV Ethicorum</ref>. <quote xml:id="ferv7a-d1e1936-Qd1e302">Praemium autem virtutis</quote>
+               <lb ed="#L" n="22"/>est felicitas, ut in I Ethicorum dcitur.
+</p>
+            <p xml:id="ferv7a-d1e1936-d1e307">
+               <lb ed="#L" n="23"/>Sed haec ratio falso innititur fundamento. Honor enim
+<lb ed="#L" n="24"/>non est verum praemium virtutis, ut inquit <ref xml:id="ferv7a-d1e1936-Rd1e313">Sanctus
+<lb ed="#L" n="25"/>Thomas, I I, q. i, a. 2, ad 1; et II II, q. cur, a. 1,
+<lb ed="#L" n="26"/>ad 2.</ref> Sed est maius bonum quod possit ab hominibus
+<lb ed="#L" n="27"/>dari: honor enim in rebus humanis et corporalibus 
+pri<lb ed="#L" break="no" n="28"/>mum locum tenet. Et ideo dicitur praemium virtutis ab
+<lb ed="#L" n="29"/>Aristotele: non quidem sufficiens, ut ibidem  dicitur, sed
+<lb ed="#L" n="30"/>quale potest dari ab hominibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

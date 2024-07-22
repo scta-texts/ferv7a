@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 29</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 29</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="85"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1945"><!-- ferv7a-l3c29 -->
+            <head xml:id="ferv7a-d1e1945-Hd1e101">Capitulum 29</head>
+            <p xml:id="ferv7a-d1e1945-d1e103">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="77" type="fixed=85"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e110">
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="78"/>SECUNDO  ostenditur quod mec in mundana gloria 
+con<lb ed="#L" break="no" n="79"/>sistit summum hominis bonum.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e119">
+               <lb ed="#L" n="80"/>Primo: sic. Honor non est summum bonum. Ergo
+<lb ed="#L" n="81"/>multo minus gloria. — Probatur consequentia. Quia gloria
+<lb ed="#L" n="82"/>quaeritur propter honorem: cum, secundum Tullium et
+<lb ed="#L" n="83"/>Ambrosium, consistat in celebritate famae: ad hoc autem
+<lb ed="#L" n="84"/>volunt homines cum laude innotescere, ut. honorentur.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e132">
+               <lb ed="#L" n="85"/>Sed occurrit unum dubium. Nam, ut dicitur Il II5,
+<lb ed="#L" n="86"/>loco praeallegato in praecedenti capite, ad 3, gloria est
+<lb ed="#L" n="87"/>effectus honoris et laudis. Ergo non videtur quod sit
+<lb ed="#L" n="88"/>propter honorem: immo magis sit honor propter gloriam,
+<lb ed="#L" n="89"/>sicut causa est propter suum effectum.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e146">
+               <lb ed="#L" n="90"/>Respondetur quod gloria et est effectus honoris, et est
+<lb ed="#L" n="91"/>causa. Ex hoc enim quod testificamur de bonitate 
+ali<lb ed="#L" break="no" n="92"/>cuius, fit quod per honorem clarescit bonitas eius in 
+no<lb ed="#L" break="no" n="93"/>titia plurimorum, in quo consistit gloria. Ex hoc autem
+<lb ed="#L" n="94"/>quod bonitas alicuius clarescit, moventur homines ad
+<lb ed="#L" n="95"/>illius honorem. Ille igitur qui gloriam quaerit, eam fina-
+<cb ed="#L" n="h"/>
+               <lb ed="#L" n="96"/>liter ad honorem ordinat: quia ipsam quaerit tanquam
+<lb ed="#L" n="97"/>honoris:causam, non autem tanquam eius effectum.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e168">
+               <lb ed="#L" n="98"/>2. Secundo. Gloria principaliter in laude consistit. Ergo
+<lb ed="#L" n="99"/>non potest esse summum bonum. Probatur . 
+conse<lb ed="#L" break="no" n="100"/>quentia. Quia laus non attribuitur ei qui iam est 
+ulti<lb ed="#L" break="no" n="101"/>mum finem assecutus, sed magis honor: cum laudabilia
+<lb ed="#L" n="102"/>sint secundum quae aliquis ordinatur ad finem.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e181">
+               <lb ed="#L" n="103"/>Adverte quod antecedens habet Sanctus Thomas 
+tan<lb ed="#L" break="no" n="104"/>quam manifestum ex definitionibus gloriae positis ab
+<lb ed="#L" n="105"/>ipso in prima ratione. Nam Tullius eam sic definit, quod
+<lb ed="#L" n="106"/>est frequens de aliquo fama cum laude; et Ambrosius,
+<lb ed="#L" n="107"/>super Epistolam ad Romanos , quod est clara cum laude
+<lb ed="#L" n="108"/>nolitia. Ex iis namque definitionibus apparet gloriam ad
+<lb ed="#L" n="109"/>laudem pertinere.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e199">
+               <lb ed="#L" n="110"/>3. Tertio. Gloria consistit in hoc quod aliquis 
+cogno<lb ed="#L" break="no" n="111"/>scatur, Ergo etc. — Probatur consequentia. Quia nobilius
+<lb ed="#L" n="112"/>est cognoscere quam cognosci: cum cognoscere 
+nobilio<lb ed="#L" break="no" n="113"/>ribus rebus conveniat, cognosci vero etiam infimis.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e210">
+               <pb ed="#L" n="86"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Quarto, ex eodem fundamento arguitur. Gloria: 
+con<lb ed="#L" break="no" n="2"/>sistit in hoc quod aliquis cognoscatur. Ergo etc. — Pro- 
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e221">
+               <lb ed="#L" n="3"/>batur consequentia. Quia, cum cognosci non desideret 
+<lb ed="#L" n="4"/>quis nisi in. bonis, constat ipsa bona meliora esse, propter  
+<lb ed="#L" n="5"/>quae cognosci est desiderabile. 
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e231">
+               <lb ed="#L" n="6"/>Quinto. Cognitio famae, in qua gloria humana consistit, 
+<lb ed="#L" n="7"/>est imperfecta: eo quod plurimum incertitudinis habeat et  
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="8"/>erroris. Ergo etc. — Patet. consequentia. Quia summum
+<lb ed="#L" n="9"/>bonum oportet esse perfectum : cum quietet appetitum.
+</p>
+            <p xml:id="ferv7a-d1e1945-d1e244">
+               <lb ed="#L" n="10"/>Sexto, Gloria, quae: in fama consistit, est 
+instabilis<lb ed="#L" break="no" n="11"/>sima. Ergo etc. — Patet consequentia. Quia id quod est
+<lb ed="#L" n="12"/>summum hominis bonum, oportet esse stabilissimum in
+<lb ed="#L" n="13"/>rebus humanis: cum naturaliter desideretur. diuturna boni
+<lb ed="#L" n="14"/>constantia. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

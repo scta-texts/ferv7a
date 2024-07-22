@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 77</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 77</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="228"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2337"><!-- ferv7a-l3c77 -->
+            <head>Capitulum 77</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="63" type="fixed=228"/>Commentaria FEerrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="64"/>POSTQUAM determinavit Sanctus Thomas de divina 
+pro<lb ed="#L" break="no" n="65"/>videntia et gubernatione quantum ad ipsam rerum
+<lb ed="#L" n="66"/>ordinationem, determinat de ipsa quantum ad ordinis
+<lb ed="#L" n="67"/>executionem . Circa hoc autem tria facit: primo, agit de
+<lb ed="#L" n="68"/>executione divinae providentiae in communi ; secundo, in
+<lb ed="#L" n="69"/>speciali, capite sequenti; tertio, facit dictorum epilogum,
+<lb ed="#L" n="70"/>capite Lxxxi.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>I. Quantum ad primum, ponit hanc conclusionem: .
+Se<lb ed="#L" break="no" n="72"/>cundae causae sunt divinae providentiae executrices.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Ad cuius evidentiam, considerandum quod, cum executio
+<lb ed="#L" n="74"/>divinae providentiae nihil aliud importet quam operationem
+<lb ed="#L" n="75"/>ordinis praeconcepti, idem est dictu quod secundae causae
+<lb ed="#L" n="76"/>sunt divinae providentiae executrices; et quod Deus 
+or<lb ed="#L" break="no" n="77"/>dinem in rebus excogitatum non per seipsum immediate
+<lb ed="#L" n="78"/>causat, immediatione suppositi, sed mediantibus causis 
+se<lb ed="#L" break="no" n="79"/>cundis, ita quod causae secundae sint instrumenta et 
+mi<lb ed="#L" break="no" n="80"/>nistri Dei causantis ordinem creaturarum.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Probatur itaque conclusio primo sic. 1n Deo invenitur
+<lb ed="#L" n="82"/>summa perfectio quantum ad ordinationem et quantum ad
+<lb ed="#L" n="83"/>executionem, quorum utrumque ad providentiam pertinet.
+<lb ed="#L" n="84"/>Ergo per se, et per suam sapientiam, omnium, etiam 
+mi<lb ed="#L" break="no" n="85"/>nimorum, ordinem disponit: exequitur vero minima per
+<lb ed="#L" n="86"/>alias inferiores virtutes, per quas operatur. Ergo etc. —
+<lb ed="#L" n="87"/>Probatur antecedens. Quia ordinatio fit per vim cognosci-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="88"/>tivam, sapientis enim est ordinare: executio vero fit per
+<lb ed="#L" n="89"/>virtutem operativam. In Deo autem est perfectissima 
+sa<lb ed="#L" break="no" n="90"/>pientia ad ordinandum, et perfectissima virtus ad 
+ope<lb ed="#L" break="no" n="91"/>randum. — Consequentia vero probatur. Quia tanto 
+perfe<lb ed="#L" break="no" n="92"/>ctior est ordinatio, quanto magis ad minima descendit:
+<lb ed="#L" n="93"/>minimorum vero executio inferiorem virtutem, effectui
+<lb ed="#L" n="94"/>proportionatam, condecet.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>2. Adverte, cum dicitur quod per se et per suam 
+sapien<lb ed="#L" break="no" n="96"/>tiam Deus ordinem etiam minimorum disponit, quod ly per
+<lb ed="#L" n="97"/>se et suam sapientiam excludit medium per quod rerum
+<lb ed="#L" n="98"/>ordinem disponat. Dicitur enim aliquis ordinem aliquarum
+<lb ed="#L" n="99"/>rerum per alterum disponere quantum ad ipsam 
+ordina<lb ed="#L" break="no" n="100"/>tionem existentem in mente, quando ipse illarum ordinem
+<lb ed="#L" n="101"/>non excogitat in particulari, sed alter suo imperio ipsum
+<lb ed="#L" n="102"/>in sua mente disponit. Quando vero ipse talem ordinem
+<lb ed="#L" n="103"/>apud se per suam sapientiam excogitat, dicitur per se talem
+<lb ed="#L" n="104"/>ordinem statuere et disponere, non autem per illud 
+me<lb ed="#L" break="no" n="105"/>dium: forma enim quam intellectus in seipso concipit, fit
+<lb ed="#L" n="106"/>in intellectu non mediante alio supposito, sed immediate.
+<lb ed="#L" n="107"/>Unde, cum Deus in sua mente quorumcumque, etiam
+<lb ed="#L" n="108"/>minimorum, ordinem excogitet, dicitur per se et per suam
+<lb ed="#L" n="109"/>sapientiam, idest immediate, ordinem rerum omnium 
+dis<lb ed="#L" break="no" n="110"/>ponere, non immediatione tantum virtutis, ut quidam 
+ar<lb ed="#L" break="no" n="111"/>bitrantur, sed etiam immediatione supposit.
+</p>
+            <p>
+               <pb ed="#L" n="229"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Nec obstat quod videtur ratio humana mediare inter
+<lb ed="#L" n="2"/>Deum et actus humanos ab ipso ordinatos. Dicitur enim
+<lb ed="#L" n="3"/>quod, licet etiam ratio humana actus humanos in seipsa
+<lb ed="#L" n="4"/>ordinet, non tamen ratio humana est medium quo Deus
+<lb ed="#L" n="5"/>in mente sua illos actus disponat: sicut neque est medium
+<lb ed="#L" n="6"/>per quod divina intellectio ad illos terminetur. Sed bene
+<lb ed="#L" n="7"/>est medium quo Deus ordinationem illorum actuum in
+<lb ed="#L" n="8"/>ipsa mente humana causat, cuius causationi praesupponitur
+<lb ed="#L" n="9"/>ordo in mente divina dispositus, sicut regula et exemplar
+<lb ed="#L" n="10"/>illus humanae ordinationis: sicut omnis causa inferior est
+<lb ed="#L" n="11"/>medium quo Deus causat effectum illius causae inferioris,
+<lb ed="#L" n="12"/>non est tamen medium quo Deus illum effectum practice
+<lb ed="#L" n="13"/>intelligat; immo illa practica cognitio praesupponitur 
+pro<lb ed="#L" break="no" n="14"/>ductioni effectus.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>IL. Secundo. Ea quae ex actionibus secundarum 
+cau<lb ed="#L" break="no" n="16"/>sarum proveniunt, divinae providentiae subiacent. Ergo
+<lb ed="#L" n="17"/>etc. — Probatur antecedens. Quia Deus omnia singularia
+<lb ed="#L" n="18"/>ordinat per seipsum, scilicet in mente sua.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Teriio. Quanto virtus alicuius agentis est fortior, tanto
+<lb ed="#L" n="20"/>magis in remota suam operationem extendit: ut patet in
+<lb ed="#L" n="21"/>igne. Sed virtus divinae providentiae est maxima. Ergo ad
+<lb ed="#L" n="22"/>remotissima suam operationem extendit. Ergo per media
+<lb ed="#L" n="23"/>debet ad ultima suam producere operationem. — Probatur
+<lb ed="#L" n="24"/>ultima consequentia. Quia non contingit in agente quod non
+<lb ed="#L" n="25"/>agit per medium, ut suam operationem ad remotissima
+<lb ed="#L" n="26"/>extendat: cum quodlibet in quod agit, sit sibi proximum.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>III. Circa istam rationem dubitatur. Videtur enim falsum
+<lb ed="#L" n="28"/>quod virtus divina ad remotissima se extendat: in quo
+<lb ed="#L" n="29"/>tota vis rationis consistit. Nam probat Sanctus Thomas
+<lb ed="#L" n="30"/>superius  quod Deus est ubique, quia in qualibet re est
+<lb ed="#L" n="31"/>aliquis effectus proximus et immediatus ipsius Dei. Ergo
+<lb ed="#L" n="32"/>nihil est ab ipso remotum.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Augetur secundo dubitatio. Quia in Prima Parte, q. vir,
+<lb ed="#L" n="34"/>a. 1, ubi quaerit utrum Deus sit in omnibus rebus, hanc
+<lb ed="#L" n="35"/>rationem solvit. Nam cum sic arguisset, Quanto aliquod
+<lb ed="#L" n="36"/>agens est virtuosius, tanto ad magis distans eius actio
+<lb ed="#L" n="37"/>procedit. Deus est virtuosissimum agens. Ergo eius actio
+<lb ed="#L" n="38"/>pertingere potest ad ea etiam quae ab ipso distant: nec
+<lb ed="#L" n="39"/>oportet quod sit in omnibus : — respondet quod /toc ad 
+ma<lb ed="#L" break="no" n="40"/>ximam virtutem eius pertinet, quod immediate in omnibus
+<lb ed="#L" n="41"/>agit, et ideo nihil est distans ab eo.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>IV. Ad huius evidentiam, duo sunt consideranda. 
+Pri<lb ed="#L" break="no" n="43"/>mum est, quod multis modis una res potest esse distans
+<lb ed="#L" n="44"/>ab alio. Uno modo, secundum distantiam situalem : sicut
+<lb ed="#L" n="45"/>duo corpora inter quae mediat aliud corpus. - Alio modo,
+<lb ed="#L" n="46"/>secundum distantiam naturae et perfectionis: sicut homo
+<lb ed="#L" n="47"/>et planta, inter quae mediant multae naturae animalium
+<lb ed="#L" n="48"/>imperfectiores homine et perfectiores planta. — Tertio, 
+se<lb ed="#L" break="no" n="49"/>cundum distantiam agentis et passi inquantum huiusmodi:
+<lb ed="#L" n="50"/>sicut inter caelum et terram, in quam caelum agit, 
+me<lb ed="#L" break="no" n="51"/>diant alia elementa, in quae caelum prius agit quam in
+<lb ed="#L" n="52"/>terram, et quae prius patiuntur a caelo quam terra.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Illa ergo propositio, Quanto virtus alicuius agentis est
+<lb ed="#L" n="54"/>fortior, tanto magis in remota suam operationem extendit,
+<lb ed="#L" n="55"/>formaliter intelligitur de distantia passi ad agens inquantum
+<lb ed="#L" n="56"/>huiusmodi: quia quanto agens est virtuosius, tanto in plura
+<lb ed="#L" n="57"/>potest agere quorum unum agat in aliud et unum ab alio
+<lb ed="#L" n="58"/>patiatur, et tanto inter ipsum et ultimum passum plura
+<lb ed="#L" n="59"/>patientia et agentia mediant. Secundum vero diversam 
+con<lb ed="#L" break="no" n="60"/>ditionem agentium et patientium, huic distantiae 
+adiun<lb ed="#L" break="no" n="61"/>gitur alia distantia: sed illa accidit agenti et passo inquantum
+<lb ed="#L" n="62"/>huiusmodi. Si enim agens et patiens sint corpora, 
+distan<lb ed="#L" break="no" n="63"/>tiae agentis et passi inquantum sunt agens et patiens,
+<lb ed="#L" n="64"/>adiungitur distantia situalis: quia diversa corpora diversos 
+<lb ed="#L" n="65"/>habent situs. Si. autem sint res incorporeae, adiungitur
+<lb ed="#L" n="66"/>distantia naturarum.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>In proposito, cum dicitur Deus agere in remotissima,
+<lb ed="#L" n="68"/>non potest intelligi secundum distantiam situalem: cum
+<lb ed="#L" n="69"/>Deus nullo contineatur situ, sed ubique adsit. - Non
+<lb ed="#L" n="70"/>etiam potest intelligi secundum distantiam naturae solum:
+<lb ed="#L" n="71"/>quia non esset ad propositum. Starent enim simul quod
+<lb ed="#L" n="72"/>Deus ageret in ea quae ab ipso maxime distant secundum
+<lb ed="#L" n="73"/>naturae perfectionem, et tamen non ageret in ea, median-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="74"/>tibus aliis causis, sed per seipsum solum: et sic non 
+se<lb ed="#L" break="no" n="75"/>queretur quod secundae causae essent executrices divinae
+<lb ed="#L" n="76"/>providentiae, — Relinquitur ergo quod intelligatur 
+se<lb ed="#L" break="no" n="77"/>cundum distantiam in ratione agentis et passi. Agit enim
+<lb ed="#L" n="78"/>Deus in remotissimum passum, inquantum per multa
+<lb ed="#L" n="79"/>media agentia et passa suam operationem ad aliquod
+<lb ed="#L" n="80"/>passum extendit.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>2. Secundum est, quod dupliciter loqui possumus de 
+ef<lb ed="#L" break="no" n="82"/>fectu Dei: uno modo, quantum ad omnia quae sunt in
+<lb ed="#L" n="83"/>ipso; alio modo, quantum ad aliqua. Si loquamur quantum
+<lb ed="#L" n="84"/>ad omnia quae sunt in effectu, sic non est verum quod
+<lb ed="#L" n="85"/>Deus agat in distans in ratione passi: quia in quolibet
+<lb ed="#L" n="86"/>effectu est aliquid quod a solo Deo producitur; ea enim
+<lb ed="#L" n="87"/>quae per creationem producuntur, a solo Deo immediate
+<lb ed="#L" n="88"/>producuntur, ut substantiae rerum immaterialium, et 
+ma<lb ed="#L" break="no" n="89"/>teria prima in rebus corporalibus, ut patuit in secundo
+<lb ed="#L" n="90"/>libro. Et sic inter Deum et eius effectum, quantum ad
+<lb ed="#L" n="91"/>ista; non mediant alia agentia et passa, ut possit dici agere
+<lb ed="#L" n="92"/>in distans in ratione passi. — Si autem intelligatur quantum
+<lb ed="#L" n="93"/>ad aliquid, sic verum est quod agit in aliquid sicut in
+<lb ed="#L" n="94"/>distans: quia videlicet in aliquo est aliquid quod 
+median<lb ed="#L" break="no" n="95"/>tibus causis secundis Deus operatur, puta operatio, aut
+<lb ed="#L" n="96"/>aliquod superveniens bonum. — Similiter illa propositio,
+<lb ed="#L" n="97"/>Quanto virtus agentis est fortior, tanto in magis remota
+<lb ed="#L" n="98"/>suam operationem extendit, si debeat esse universaliter
+<lb ed="#L" n="99"/>vera, intelligitur quantum ad aliquid repertum in effectu,
+<lb ed="#L" n="100"/>non autem quantum ad omnia.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>3. Attendendum autem quod non concludit absolute 
+San<lb ed="#L" break="no" n="102"/>ctus Thomas in hac ratione quod Deus per aliqua media
+<lb ed="#L" n="103"/>suam operationem extendat, sed quod debet extendere.
+<lb ed="#L" n="104"/>Quia non est necessarium quod Deus per medias causas
+<lb ed="#L" n="105"/>agentes operetur: immo potest per seipsum omnem efiectum
+<lb ed="#L" n="106"/>producere. Sed voluit, ex eo quod in rebus creatis videmus
+<lb ed="#L" n="107"/>virtuosiorem causam per plura media ad ultimum suam 
+ope<lb ed="#L" break="no" n="108"/>rationem extendere, concludere decens esse et conveniens
+<lb ed="#L" n="109"/>ut Deus, cuius virtus est perfectissima, per aliqua media
+<lb ed="#L" n="110"/>operetur. Hoc enim significat ly producere debet.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>4. Ad primum ergo in oppositum , dicitur quod utique
+<lb ed="#L" n="112"/>nihil est a Deo remotum in ratione passi quantum ad omnia
+<lb ed="#L" n="113"/>quae sunt in ipso: quia in omnibus rebus creatis est aliquid
+<lb ed="#L" n="114"/>a solo Deo per creationem productum, Sunt tamen aliqua
+<lb ed="#L" n="115"/>ab ipso remota et distantia quantum ad aliqua quae in
+<lb ed="#L" n="116"/>ipsis producuntur.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Similiter dicitur ad secundum. Nam nihil aliud intendit
+<lb ed="#L" n="118"/>Sanctus Thomas nisi quod in omnibus entibus est aliquid
+<lb ed="#L" n="119"/>immediate causatum a Deo, et sic nihil est distans a Deo
+<lb ed="#L" n="120"/>quantum ad omnia, quasi Deum in se non babeat 
+tan<lb ed="#L" break="no" n="121"/>quam immediatum agens alicuius existentis in ipso. Huic
+<lb ed="#L" n="122"/>autem non repugnat quod aliquid a Deo distet in ratione
+<lb ed="#L" n="123"/>passi quantum ad aliquid in ipso a Deo causatum.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>V. Quarto. Ad dignitatem regentis pertinet ut habeat
+<lb ed="#L" n="125"/>multos ministros et executores sui regiminis: quia per hoc
+<lb ed="#L" n="126"/>magis eius dominium manifestatur. Ergo etc. — Probatur
+<lb ed="#L" n="127"/>consequentia. Quia nulla dignitas alicuius regentis 
+com<lb ed="#L" break="no" n="128"/>parabilis est dignitati divini regiminis.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>Quinto. Perfectio divinae providentiae requirit ut 
+ex<lb ed="#L" break="no" n="130"/>cessum aliquarum rerum supra alias ad ordinem 
+conve<lb ed="#L" break="no" n="131"/>nientem reducat. Sed hoc fit cum ex superabundantia 
+<lb ed="#L" n="132"/>aliquorum habentium magis, provenit aliquod bonum minus
+<lb ed="#L" n="133"/>habentibus. Ergo exigit divinae providentiae perfectio ut
+<lb ed="#L" n="134"/>per ea quae plenius divinam bonitatem participant, quae
+<lb ed="#L" n="135"/>ad perfectionem universi exiguntur, executio divini 
+regi<lb ed="#L" break="no" n="136"/>minis compleatur. — Antecedens probatur. Quia 
+conve<lb ed="#L" break="no" n="137"/>nientia ordinis perfectionem providentiae demonstrat. Ad
+<lb ed="#L" n="138"/>convenientiam autem ordinis pertinet ut nihil inordinatum
+<lb ed="#L" n="139"/>relinquatur. :
+</p>
+            <p>
+               <lb ed="#L" n="140"/>Sexto. Si non essent causae aliquae mediae divinam
+<lb ed="#L" n="141"/>providentiam exequentes, non esset in rebus ordo 
+cau<lb ed="#L" break="no" n="142"/>sarum, sed effectuum tantum. Hoc est inconveniens. Ergo
+<lb ed="#L" n="143"/>etc. — Probatur secunda pars antecedentis. Quia, cum ordo
+<lb ed="#L" n="144"/>causarum sit nobilior quam effectuum, sicut causa potior
+<lb ed="#L" n="145"/>est effectu, in eo magis perfectio providentiae demonstratur.
+</p>
+            <p>
+               <lb ed="#L" n="146"/>CONFIRMATUR auctoritate Psalmi cm et cxrvrm.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

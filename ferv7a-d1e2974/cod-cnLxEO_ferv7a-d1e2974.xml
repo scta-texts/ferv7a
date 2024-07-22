@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 155</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 155</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="458"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2974"><!-- ferv7a-l3c155 -->
+            <head>Capitulum 155</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="93" type="fixed=458"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="94"/>POSTQUAM ostendit Sanctus Thomas hominem divino 
+indi<lb ed="#L" break="no" n="95"/>gere auxilio ad ultimum finem consequendum, ostendit
+<lb ed="#L" n="96"/>quod ipso etiam ad perseverandum in bono indiget . Circa
+<lb ed="#L" n="97"/>hoc autem duo facit: primo, ostendit propositum ; secundo,
+<lb ed="#L" n="98"/>removet quoddam dubium .
+</p>
+            <p>
+               <lb ed="#L" n="99"/>I. Quantum ad primum, arguit primo sic. Homo est .
+<lb ed="#L" n="100"/>variabilis de bono in malum, et e converso. Ergo ad hoc
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="101"/>quod immobiliter perseveret in bono, indiget auxilio 
+mo<lb ed="#L" break="no" n="102"/>ventis immobilis.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Secundo. Virtus liberi arbitrii non se extendit ad 
+huius<lb ed="#L" break="no" n="104"/>modi perseverantiam. Ergo etc, — Patet consequentia. Quia
+<lb ed="#L" n="105"/>ad illud quod excedit vires liberi arbitrii, indiget homo
+<lb ed="#L" n="106"/>auxilio divinae gratiae. — Antecedens vero probatur. 
+Po<lb ed="#L" break="no" n="107"/>testas liberi arbitrii est respectu eorum quae sub electione
+<pb ed="#L" n="459"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cadunt. Quod eligitur, est aliquod particulare operabile.
+<lb ed="#L" n="2"/>Hoc autem est quod est hic et nunc. Ergo quod sub 
+po<lb ed="#L" break="no" n="3"/>testate liberi arbitrii cadit, est aliquid ut nunc operandum.
+<lb ed="#L" n="4"/>Perseverantia autem hoc non dicit, sed dicit continuationem
+<lb ed="#L" n="5"/>operationis per totum tempus. Érgo : edo re. i
+</p>
+            <p>
+               <lb ed="#L" n="6"/>IL. Circa hanc rationem dubitatur: quia videtur velle
+<lb ed="#L" n="7"/>Sanctus Thomas quod perseverantia non possit cadere sub
+<lb ed="#L" n="8"/>electione, cum non sit aliquid particulare ut nunc 
+operan<lb ed="#L" break="no" n="9"/>dum. Huius autem Vppostum tenet I II'5, q. cix ; et 1I IP,
+<lb ed="#L" n="10"/>q. cxxxvir .
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Respondetur quod pesteveuid secundum — se tenet
+<lb ed="#L" n="12"/>ex parte effectus, dupliciter potest accipi: uno modo, ut
+<lb ed="#L" n="13"/>consideratur per modum cuiusdam unius, inquantum dicit
+<lb ed="#L" n="14"/>quandam continuationem ; alio modo, per modum plurium,
+<lb ed="#L" n="15"/>inquantum plura bona continuata includit. Primo modo,
+<lb ed="#L" n="16"/>potest habere rationem eligibilis: quia consideratur tanquam
+<lb ed="#L" n="17"/>quoddam particulare operabile ut nunc operandum aliquo
+<lb ed="#L" n="18"/>modo, quantum scilicet ad eius incoeptionem. Et sic potest
+<lb ed="#L" n="19"/>sub liberi arbitrii facultate, et sub voluntatis proposito 
+ca<lb ed="#L" break="no" n="20"/>dere. — Secundo modo, non potest sub uno proposito
+<lb ed="#L" n="21"/>cadere. Quia ipsa opera continuata, ut plura sunt, non
+<lb ed="#L" n="22"/>simul possunt voluntati offerri, nec habent rationem unius
+<lb ed="#L" n="23"/>eligibilis et unius particularis operabilis. Et ad hunc sensum
+<lb ed="#L" n="24"/>procedit haec ratio.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Potest secundo dici quod facultas liberi arbitrii duplex
+<lb ed="#L" n="26"/>est: una.ad eligendum; alia ad exequendum; quarum prima
+<lb ed="#L" n="27"/>quandoque invenitur sine secunda, quia, ut dicitur II^ II,
+<lb ed="#L" n="28"/>loco praeallegato, plerumque cadit in nostra potestate electio,
+<lb ed="#L" n="29"/>sed non executio. Cum ergo hic sit sermo de facultate prima,
+<lb ed="#L" n="30"/>Oportet propositiones assumptas ad hunc sensum referre.
+<lb ed="#L" n="31"/>Ideo ista propositio, Quod eligitur est aliquod particulare
+<lb ed="#L" n="32"/>operabile ut nunc, intelligitur de eo quod eligitur tanquam
+<lb ed="#L" n="33"/>possibile per liberum arbitrium executioni mandari. Et ad
+<lb ed="#L" n="34"/>hunc sensum, verum est quod perseverare non cadit sub
+<lb ed="#L" n="35"/>electione. - Cum hoc tamen stat quod cadere potest sub
+<lb ed="#L" n="36"/>electione simpliciter, tanquam scilicet operabile divino
+<lb ed="#L" n="37"/>auxilio. Aliquando enim eligimus quod ex nobis ipsis
+<lb ed="#L" n="38"/>tantum exequi non possumus, sed cum amicorum auxilio .
+</p>
+            <p>
+               <lb ed="#L" n="39"/>HI. Tertio. Homo volendo non potest facere quod 
+vo<lb ed="#L" break="no" n="40"/>luntas immobiliter se habeat ad id quod vult. Ergo 
+per<lb ed="#L" break="no" n="41"/>Severantia. non est in facultate liberi arbitrii. Ergo etc.
+<lb ed="#L" n="42"/>- Probatur antecedens. Quia homo per liberum arbitrium,
+<lb ed="#L" n="43"/>licet sit dominus sui actus, non tamen est dominus 
+sua<lb ed="#L" break="no" n="44"/>rum naturalium potentiarum. — Prima vero consequentia
+<lb ed="#L" n="45"/>probatur. Quia ad perseverantiam requiritur quod homo
+<lb ed="#L" n="46"/>immobiliter in bono permaneat.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Quarto. In perseverante in bono sunt multi motus liberi
+<lb ed="#L" n="48"/>arbitrii in bonum sibi invicem succedentes usque ad finem
+<lb ed="#L" n="49"/>continuationis. Quorum non potest esse causa aliquis 
+ipso<lb ed="#L" break="no" n="50"/>rum: quia nullus ipsorum semper durat. Nec omnes simul:
+<lb ed="#L" n="51"/>quia non simul sunt. Ergo ista continuatio causatur ab
+<lb ed="#L" n="52"/>aliquo Superiori. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Patet ista ratio ex processu Aristotelis VIII Physicorum,
+<lb ed="#L" n="54"/>quo probat continuationem generationis in ,atumahibus ab
+<lb ed="#L" n="55"/>aliquo. superiori causari.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Quinto. In eo qui perseverat in bono, sunt multi motus
+<lb ed="#L" n="57"/>et multae actiones pertingentes ad unum finem. Ergo oportet
+<lb ed="#L" n="58"/>ut totus ordo ipsorum causetur a primo dirigente in finem.
+<lb ed="#L" n="59"/>Ergo. per auxilium divinae gratiae est perseverantia in bono.
+<lb ed="#L" n="60"/>— Probatur prima consequentia. Quia si sint multa ordinata
+<lb ed="#L" n="61"/>ad unum finem, totus ordo eorum, quousque pervenerint
+<lb ed="#L" n="62"/>ad finem, est a primo dirigente in finem. — Secunda vero
+<lb ed="#L" n="63"/>ostenditur: quia per auxilium divinae gratiae diriguntur
+<lb ed="#L" n="64"/>bona opera in finem ultimum.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>CowriRnMATUR primo, auctoritate Apostoli ad Philipp. UH
+<lb ed="#L" n="66"/>et I Petri ult.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Confirmatur secundo, quia et in Sacra Scriptura 
+inve<lb ed="#L" break="no" n="68"/>niuntur multae orationes petentium perseverantiam, ut in
+<lb ed="#L" n="69"/>Psalmo, Per/ice gressus etc.; et II Thess. 1. Et in Oratione
+<lb ed="#L" n="70"/>Dominica petitur, cum dicitur, Adveniat regnum tuum,
+<lb ed="#L" n="71"/>quod non adveniet nisi fuerimus perseverantes.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Per hoc excluditur Pelagianorum error, dicentium ad
+<lb ed="#L" n="73"/>perseverandum in bono sufficere homini liberum arbitrium.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="74"/>IV. Quantum ad secundum , quia posset aliquis dicere
+<lb ed="#L" n="75"/>quod, licet liberum arbitrium non sufficiat per se ad 
+perse<lb ed="#L" break="no" n="76"/>verandum in bono, sufficit tamen habitualis gratia: — hoc
+<lb ed="#L" n="77"/>excludit Sanctus Thomas duabus rationibus.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Prima est, quia etiam ille-qui gratiam. habet, petit a Deo
+<lb ed="#L" n="79"/>ut perseveret in bono.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Secunda est, quia habitus infusi, secundum statum 
+prae<lb ed="#L" break="no" n="81"/>sentis vitae, non auferunt a libero arbitrio totaliter 
+mobilita<lb ed="#L" break="no" n="82"/>tem ad malum: licet aliqualiter per eos stabiliatur in bono.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Ex quo infert Sanctus Thomas quod praedictum auxilium
+<lb ed="#L" n="84"/>gratiae ad perseverandum non est babitualis gratia 
+super<lb ed="#L" break="no" n="85"/>addita gratiae habituali prius infusae ad bene operandum:
+<lb ed="#L" n="86"/>sed est auxilium divinae providentiae exterius. operantis,
+<lb ed="#L" n="87"/>habitis etiam ab homine omnibus habitibus gratuitis;.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>V. Ad evidentiam eorum quae in hoc capite: dicuntur,
+<lb ed="#L" n="89"/>advertendum, ex doctrina Sancti Thomae III, q. cix, a. 10;
+<lb ed="#L" n="90"/>et IP I5, q. cxxxvir, quod perseverantia tribus modis
+<lb ed="#L" n="91"/>accipi potest: scilicet, pro habitu mentis quo homo firmiter
+<lb ed="#L" n="92"/>stat ne removeatur ab eo quod est secundum virtutem
+<lb ed="#L" n="93"/>propter tristitias irruentes; pro habitu secundum quem
+<lb ed="#L" n="94"/>homo habet propositum perseverandi in bono usque ad
+<lb ed="#L" n="95"/>finem; et pro continuatione quadam boni usque ad finem
+<lb ed="#L" n="96"/>vitae, quae scilicet consistit in actuali executione bonorum
+<lb ed="#L" n="97"/>operum absque interruptione. Hoc igitur tertio modo 
+acci<lb ed="#L" break="no" n="98"/>pitur perseverantia hoc loco: non autem duobus primis
+<lb ed="#L" n="99"/>modis. Quia illis modis accepta perseverantia simul cum
+<lb ed="#L" n="100"/>gratia infunditur, sicut et ceterae virtutes: non autem isto .
+<lb ed="#L" n="101"/>tertio modo, quia multis datur gratia quibus continuatio
+<lb ed="#L" n="102"/>bonorum operum usque ad finem vitae non datur. Et ideo
+<lb ed="#L" n="103"/>ad hanc homo indiget, non quidem habituali gratia alia
+<lb ed="#L" n="104"/>a prima, sed auxilio divino, sive divina motione, ipsum
+<lb ed="#L" n="105"/>dirigente et protegente contra tentationum incursus.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>VI. Sed occurrit dubium. Quia Sanctus Thomas, loco
+<lb ed="#L" n="107"/>praeallegato , ad 3, inquit quod nunc per gratiam Christi
+<lb ed="#L" n="108"/>multi accipiunt et donum gratiae, quo perseverare possunt,
+<lb ed="#L" n="109"/>et ulterius datur eis quod perseverent. Ex hoc enim arguitur
+<lb ed="#L" n="110"/>sic. Per donum habitualis gratiae homo perseverare potest.
+<lb ed="#L" n="111"/>Ergo ad perseverandum non indiget alio auxilio praeter
+<lb ed="#L" n="112"/>gratiam habitualem. — Patet consequentia. Quia ex 
+oppo<lb ed="#L" break="no" n="113"/>sito consequentis infertur oppositum antecedentis. Sequitur
+<lb ed="#L" n="114"/>enim: Homo indiget alio auxilio praeter gratiam ad 
+per<lb ed="#L" break="no" n="115"/>severandum. Ergo non potest per gratiam perseverare.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Respondetur quod aliud est habere potentiam ad 
+perse<lb ed="#L" break="no" n="117"/>verandum, aliud habere actum perseverandi, qui est 
+bono<lb ed="#L" break="no" n="118"/>rum operum continuatio: sicut aliud est habere potentiam
+<lb ed="#L" n="119"/>intelligendi, et aliud actu intelligere. Quia aliquando aliquis
+<lb ed="#L" n="120"/>habet potentiam ad aliquid, et tamen non potest exire in
+<lb ed="#L" n="121"/>actum nisi alio movente ad operationem. Quantumcumque
+<lb ed="#L" n="122"/>enim aliquis habet poteitiam intellectivam perfectam habitu,
+<lb ed="#L" n="123"/>quo modo dicitur posse intelligere? non potest tamen ad
+<lb ed="#L" n="124"/>actum. considerationis. exire nisi adsit voluntatis intentio.
+<lb ed="#L" n="125"/>Cum ergo dicitur quod homo per gratiam habitualem 
+per<lb ed="#L" break="no" n="126"/>severare potest in bono, intelligitur quod per ipsam. habet
+<lb ed="#L" n="127"/>potentiam perseverandi in bono sicut ipsa est omnis boni
+<lb ed="#L" n="128"/>operis principium: non autem quod per ipsam, absque
+<lb ed="#L" n="129"/>alio auxilio, possit homo in actum exire continuationis
+<lb ed="#L" n="130"/>bonorum operum.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Patet hanc esse Sancti Thomae mentem ex.suo modo
+<lb ed="#L" n="132"/>loquendi, quo ait multos accipere donum gratiae quo 
+perse<lb ed="#L" break="no" n="133"/>verare possunt; et ulterius eis dari quod perseverent. Nam
+<lb ed="#L" n="134"/>primum dictum ostendit potentiam perseverandi convenire
+<lb ed="#L" n="135"/>homini ex gratia: secundum vero ostendit executionem 
+ope<lb ed="#L" break="no" n="136"/>rationis convenire homini non tantum ex gratia, sed etiam
+<lb ed="#L" n="137"/>quodam alio auxilio concurrente.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>Ex quo patet consequentiam adductam falsam esse. Ad
+<lb ed="#L" n="139"/>cuius probationem, negatur assumptum. Non enim sequitur:
+<lb ed="#L" n="140"/>Homo indiget alio auxilio praeter gratiam ad 
+perseve<lb ed="#L" break="no" n="141"/>randum quantum ad executionem operis. Ergo non potest
+<lb ed="#L" n="142"/>per gratiam perseverare: — idest, per gratiam non habet
+<lb ed="#L" n="143"/>potentiam perseverandi, Immo stant simul quod homo 
+indi<lb ed="#L" break="no" n="144"/>geat auxilio divino extrinseco ad executionem 
+perseve<lb ed="#L" break="no" n="145"/>rantiae, sive continuationis bonorum operum: et quod per
+<lb ed="#L" n="146"/>gratiam habeat potentiam: perseverandi.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

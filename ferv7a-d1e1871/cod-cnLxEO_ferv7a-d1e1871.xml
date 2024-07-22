@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 20</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 20</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="47"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1871"><!-- ferv7a-l3c20 -->
+            <head xml:id="ferv7a-d1e1871-Hd1e101">Capitulum 20</head>
+            <p xml:id="ferv7a-d1e1871-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="63" type="fixed=47"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="64"/>NE Occasione praecedentis conclusionis aliquis 
+existi<lb ed="#L" break="no" n="65"/>maret sic creaturas divinam bonitatem imitari quod
+<lb ed="#L" n="66"/>illis eodem modo bonitas conveniat sicut Deo, vult Sanctus
+<lb ed="#L" n="67"/>Thomas ostendere quod sic divinam bonitatem imitantur
+<lb ed="#L" n="68"/>quod tamen ab ipsa deficiunt . Et ait quod, licet omnia
+<lb ed="#L" n="69"/>tendant ad hoc quod assimilentur Deo inquantum est
+<lb ed="#L" n="70"/>bonus, cum tendant in ipsum sicut in ultimum finem,
+<lb ed="#L" n="71"/>bonum autem sit quod proprie habet rationem finis: Non
+<lb ed="#L" n="72"/>tamen creaturae assequuntur bonitatem eo modo quo est
+<lb ed="#L" n="73"/>in Deo, sed eam imitantur. suo modo.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e136">
+               <lb ed="#L" n="74"/>I. Et tangit duplicem differentiam bonitatis divinae ad
+<lb ed="#L" n="75"/>bonitatem creaturae. Prima est, quod divina bonitas est
+<lb ed="#L" n="76"/>simplex, quasi tota in uno consistens, inquantum ipsum
+<lb ed="#L" n="77"/>divinum esse omnem perfectionem continet, et est eius
+<lb ed="#L" n="78"/>perfecta bonitas. Unde Deo simpliciter idem est esse et
+<lb ed="#L" n="79"/>bonum esse simpliciter . Res autem creata non possidet
+<lb ed="#L" n="80"/>suam perfectionem et bonitatem in uno, sed in multis:
+<lb ed="#L" n="81"/>quia quod est in supremo unitum, multipex in infimis 
+in<lb ed="#L" break="no" n="82"/>venitur. Non enim per solum suum esse pertingunt 
+crea<lb ed="#L" break="no" n="83"/>turae ad perfectionem suae bonitatis, sed per plura; et
+<lb ed="#L" n="84"/>quanto creatura secundum suam bonitatem magis a prima
+<lb ed="#L" n="85"/>bonitate distat, tanto eius perfecta bonitas maiorem 
+multi<lb ed="#L" break="no" n="86"/>plicitatem requirit; licet aliter sit si perfectam bonitatem
+<lb ed="#L" n="87"/>non possit attingere. Unde, licet quaelibet creatura sit bona
+<lb ed="#L" n="88"/>inquantum est, non tamen potest dici bona simpliciter si
+<lb ed="#L" n="89"/>aliis careat quae ad ipsius bonitatem requiruntur: sicut
+<lb ed="#L" n="90"/>homo vitiosus est bonus secundum quid, scilicet inquantum
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="91"/>ens aut inquantum homo, non tamen bonus sipliciiets
+<lb ed="#L" n="92"/>sed magis malus,
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e182">
+               <lb ed="#L" n="93"/>Ex iis sequitur quod, cum res quaelibet tendat in divinae
+<lb ed="#L" n="94"/>bonitatis similitudinem sicut in finem, quod ipsa ordinatur
+<lb ed="#L" n="95"/>in Deum sicut in finem non solum secundum esse 
+substan<lb ed="#L" break="no" n="96"/>tiale, sed etiam secundum ea quae ei accidunt pertinentia ad
+<lb ed="#L" n="97"/>eius perfectionem, etiam secundum propriam operationem,
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e196">
+               <lb ed="#L" n="98"/>II. Secunda differentia est. quia Deus est sua bonitas,
+<lb ed="#L" n="99"/>cum sit suum esse: nulla autem creatura est suum esse
+<lb ed="#L" n="100"/>et sua bonitas, sed est bona participatione bonitatis, sicut
+<lb ed="#L" n="101"/>et participatione ipsius esse est ens.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e207">
+               <lb ed="#L" n="102"/>Et in hac etiam participatione multi sunt. gradus. 
+Sub<lb ed="#L" break="no" n="103"/>stantia enim simplex, quae est forma et actus, bonitatem
+<lb ed="#L" n="104"/>et esse actu participat secundum id quod est . Substantia
+<lb ed="#L" n="105"/>autem composita ex materia et forma bonitatem et esse
+<lb ed="#L" n="106"/>actu participat secundum aliquid sui, scilicet secundum
+<lb ed="#L" n="107"/>formam ,
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e223">
+               <lb ed="#L" n="108"/>Item. in hoc gradu, scilicet substantiae compositae, 
+in<lb ed="#L" break="no" n="109"/>venitur diversitas quantum ad ipsum esse et bonitatem ,
+<lb ed="#L" n="110"/>Nam corpora caelestia, quae ex tota sua materia constant,
+<lb ed="#L" n="111"/>habent materiam quae non est in potentia ad aliam formam,
+<lb ed="#L" n="112"/>et consequenter non habent formae privationem adiunctam;
+<lb ed="#L" n="113"/>sicut nec illi quae est forma per suam essentiam, nec illi
+<lb ed="#L" n="114"/>cuius essentia est ipsum suum esse, adiungitur privatio
+<lb ed="#L" n="115"/>formae. Non est etiam in ipsis bonum mutabile et 
+ad<lb ed="#L" break="no" n="116"/>mixtionem mali oppositi habens: cum motus non possit
+<lb ed="#L" n="117"/>esse ubi non est potentia ad aliud. — Corpora vero infe-
+<pb ed="#L" n="48"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>riora; quorum forma non replet totam . capacitatem 
+ma<lb ed="#L" break="no" n="2"/>teriae, habent materiam in potentia ad aliam formam: et
+<lb ed="#L" n="3"/>ideo cum forma ipsa adiungitur privatio formae. Propter
+<lb ed="#L" n="4"/>quod in huiusmodi corporibus est bonum mutabile, 
+per<lb ed="#L" break="no" n="5"/>mixtionem mali oppositi habens. Et haec ultimum gradum
+<lb ed="#L" n="6"/>tenent in bonitate, sicut et in esse.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e265">
+               <lb ed="#L" n="7"/>Adhuc, inter partes huiusmodi substantiae compositae
+<lb ed="#L" n="8"/>bonitatis ordo invenitur. Nam forma, quae est actus, est
+<lb ed="#L" n="9"/>secundum se bona; substantia composita, quae est actu
+<lb ed="#L" n="10"/>per formam, est bona secundum quod actu habet formam;
+<lb ed="#L" n="11"/>materia vero, quae est ens in potentia, est bona secundum
+<lb ed="#L" n="12"/>quod est in potentia ad formam.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e281">
+               <lb ed="#L" n="13"/>Si quis autem diceret materiam non esse bonam nisi
+<lb ed="#L" n="14"/>in potentia, quia etiam non est ens nisi in potentia: —
+<lb ed="#L" n="15"/>respondetur quod non est eadem ratio de ente et bono:
+<lb ed="#L" n="16"/>quia ens absolute dicitur; bonum autem etiam in ordine
+<lb ed="#L" n="17"/>consistit. Idcirco, licet materia non possit simpliciter dici
+<lb ed="#L" n="18"/>ens ex eo quod est potentia ens, in quo importatur ordo
+<lb ed="#L" n="19"/>ad esse; potest tamen simpliciter dici bona, propter 
+or<lb ed="#L" break="no" n="20"/>dinem ipsum ad finem et bonum . Ex quo apparet bonum
+<lb ed="#L" n="21"/>esse quodammodo, amplioris ambitus quam ens, iuxta
+<lb ed="#L" n="22"/>illud Dionysii, rv cap. de Div. Nom., Bonum se extendit
+<lb ed="#L" n="23"/>ad existentia et non existentia.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e307">
+               <lb ed="#L" n="24"/>III. Circa primam differentiam inter bonitatem divinam et
+<lb ed="#L" n="25"/>bonitatem creaturae , quae est Augustini in VIII de Trin.,
+<lb ed="#L" n="26"/>cum dicitur quod, quanto magis a bonitate prima distat
+<lb ed="#L" n="27"/>creatura, tanto eius perfecta bonitas maiorem habet 
+mul<lb ed="#L" break="no" n="28"/>tiplicitatem, licet aliter sit si non possit attingere 
+perfec<lb ed="#L" break="no" n="29"/>tam bonitatem, advertendum quod per bonitatem 
+perfec<lb ed="#L" break="no" n="30"/>tam videtur intelligere Sanctus Thomas bonitatem 
+quam<lb ed="#L" break="no" n="31"/>cumque creatam secundum perfectum modum ipsius; per
+<lb ed="#L" n="32"/>imperfectam vero bonitatem secundum ipsius imperfectum
+<lb ed="#L" n="33"/>modum. Et est sensus quod, quanto natura magis a prima
+<lb ed="#L" n="34"/>bonitate distat, tanto bonitas quae in superiori natura
+<lb ed="#L" n="35"/>invenitur et in inferiori, maiorem multiplicitatem accipit
+<lb ed="#L" n="36"/>in ipsa natura inferiori: sicut, quia cognoscere sensibilia
+<lb ed="#L" n="37"/>et intelligibilia est perfectio inventa in homine et in 
+sub<lb ed="#L" break="no" n="38"/>stantia separata, invenitur in substantia separata, quae minus
+<lb ed="#L" n="39"/>distat a prima bonitate, unite, scilicet per unicam 
+poten<lb ed="#L" break="no" n="40"/>tiam, quae est intellectus; in homine autem, qui magis a
+<lb ed="#L" n="41"/>divina bonitate elongatur, multipliciter et divisim 
+inveni<lb ed="#L" break="no" n="42"/>fur, per sensum, inquam, et intellectum. Unde in 
+huius<lb ed="#L" break="no" n="43"/>modi sese concomitantur propinquitas ad Deum secundum
+<lb ed="#L" n="44"/>bonitatem, et vicinitas secundum simplicitatem: quae enim
+<lb ed="#L" n="45"/>simpliciora sunt, maiorem propinquitatem habent ad 
+bo<lb ed="#L" break="no" n="46"/>nitatem divinam. Propter hoc ait Sanctus Thomas quod
+<lb ed="#L" n="47"/>substantiae summo bono, quod est omnino simplex, in
+<lb ed="#L" n="48"/>bonitate propinquae, sunt pariter, idest simul, etiam ei
+<lb ed="#L" n="49"/>quantum ad simplicitatem vicinae. Ubi autem inferiora ad
+<lb ed="#L" n="50"/>bonitatem et perfectionem superioris naturae pertingere
+<lb ed="#L" n="51"/>non possunt, sed imperfectam quandam et sibi propriam
+<lb ed="#L" n="52"/>habent perfectionem, non oportet quod, quanto natura
+<lb ed="#L" n="53"/>magis distat a prima bonitate, tanto magis habeat suam
+<lb ed="#L" n="54"/>imperfectam bonitatem multiplicatam: immo potest 
+bo<lb ed="#L" break="no" n="55"/>nitas esse multiplicior in natura magis propinqua bonitati
+<lb ed="#L" n="56"/>divinae et perfectiori. Unde in huiusmodi non sese 
+conco<lb ed="#L" break="no" n="57"/>mitantur propinquitas in bonitate ad summum bonum, et
+<lb ed="#L" n="58"/>vicinitas ad ipsum in simplicitate: cum aliquid inveniatur
+<lb ed="#L" n="59"/>vicinius Deo in simplicitate, et tamen remotius sit in 
+bo<lb ed="#L" break="no" n="60"/>nitate, sicut dat exemplum Sanctus Thomas de elementis
+<lb ed="#L" n="61"/>et animalibus ac hominibus; elementa enim, quia non
+<lb ed="#L" n="62"/>possunt pertingere ad perfectionem cognitionis et 
+intel<lb ed="#L" break="no" n="63"/>lectus, sed habent imperfectam bonitatem, sunt quidem
+<lb ed="#L" n="64"/>propinquiora Deo quantum ad simplicitatem, et habent
+<lb ed="#L" n="65"/>suam bonitatem magis unitam, et tamen non sunt Deo
+<lb ed="#L" n="66"/>magis propinqua quantum ad bonitatem quam animalia
+<lb ed="#L" n="67"/>et homines; immo animalia et homines, cum sint 
+per<lb ed="#L" break="no" n="68"/>fectiora, sunt Deo quantum ad bonitatem propinquiora,
+<lb ed="#L" n="69"/>licet suam bonitatem magis divisam et multiplicatam 
+ha<lb ed="#L" break="no" n="70"/>beant. Idcirco addidit Sanctus Thomas: licet aliter sit si
+<lb ed="#L" n="71"/>non possit perfectam bonitatem attingere.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e415">
+               <lb ed="#L" n="72"/>IV. Circa id quod dicitur in eadem differentia, 
+Ahomi<lb ed="#L" break="no" n="73"/>nem virtute spoliatum et subiectum vitiis non esse 
+bo<lb ed="#L" break="no" n="74"/>num simpliciter, immo malum, secundum quid tamen esse
+<lb ed="#L" n="75"/>bonum, scilicet inquantum est ens et inquantum est homo,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>advertendum quod ly inquantum est homo duplicem 
+spe<lb ed="#L" break="no" n="77"/>cificationem. potest facere: scilicet substantialem tantum ;
+<lb ed="#L" n="78"/>et substantialem simul cum accidentibus complentibus 
+bo<lb ed="#L" break="no" n="79"/>nitatem et perfectionem hominis. Hic ergo accipitur 
+in<lb ed="#L" break="no" n="80"/>quantum specificat substantiam hominis ;praecise: non
+<lb ed="#L" n="81"/>autem ut specificat bonitatem hominis completam et 
+per<lb ed="#L" break="no" n="82"/>fectam accidentibus ad hominis bonitatem requisitis. 
+Ve<lb ed="#L" break="no" n="83"/>rum enim est dicere de homine perdito et scelesto quod
+<lb ed="#L" n="84"/>est bonus quantum ad bonitatem substantialem hominis :
+<lb ed="#L" n="85"/>quia sibi nihil deficit de iis quae ad constituendam 
+ho<lb ed="#L" break="no" n="86"/>minis speciem requiruntur, et sic est bonus inquantum
+<lb ed="#L" n="87"/>substantialiter homo. Non autem est bonus quantum ad
+<lb ed="#L" n="88"/>omnia quae ad hominis perfectionem tam substantialem
+<lb ed="#L" n="89"/>quam accidentalem requiruntur: cum careat virtute, quae
+<lb ed="#L" n="90"/>hominis bonitatem absolutam complet. Unde non est verum
+<lb ed="#L" n="91"/>quod sit bonus inquantum homo, idest, quantum ad omnia
+<lb ed="#L" n="92"/>quae ad completam hominis bonitatem requiruntur: 
+alio<lb ed="#L" break="no" n="93"/>quin esset verum simpliciter et absolute dicere quod est
+<lb ed="#L" n="94"/>bonus, quod negat Sanctus Thomas.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e470">
+               <lb ed="#L" n="95"/>V. In secunda differentia, quae est auctoris Libri de
+<lb ed="#L" n="96"/>Causis, circa illam propositionem, Creatura 
+participa<lb ed="#L" break="no" n="97"/>tione ipsius esse dicitur ens, considerandum quod illud
+<lb ed="#L" n="98"/>duplicem sensum habere potest. Unus est, quod ex ipso
+<lb ed="#L" n="99"/>esse dicatur ens tanquam ex eo a quo imponitur nomen
+<lb ed="#L" n="100"/>entis, non tamen tanquam ex re principaliter nomine entis
+<lb ed="#L" n="101"/>significata: sicut si diceremus hanc substantiam dici 
+la<lb ed="#L" break="no" n="102"/>pidem ex laesione pedis . Et sic verum est unamquamque
+<lb ed="#L" n="103"/>creaturam dici ens participatione ipsius esse, non autem
+<lb ed="#L" n="104"/>per essentiam: quia nomen entis impositum est ab esse
+<lb ed="#L" n="105"/>quod in creatura distinguitur a rei essentia. : r^g
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e496">
+               <lb ed="#L" n="106"/>Alius sensus est, quod dicatur ens ex participatione
+<lb ed="#L" n="107"/>esse tanquam ex eo quod primo et principaliter nomine
+<lb ed="#L" n="108"/>entis significatur. Et hoc etiam verum est de ente 
+parti<lb ed="#L" break="no" n="109"/>cipialiter sumpto: non autem de ipso sumpto nominaliter
+<lb ed="#L" n="110"/>est verum. Ut enim in primo libro  patuit, entis 
+participia<lb ed="#L" break="no" n="111"/>liter sumpti esse est abstractum: nominaliter auteni 
+sum<lb ed="#L" break="no" n="112"/>pti abstractum est essentia. Et quia nomen concretum
+<lb ed="#L" n="113"/>primo et principaliter significat suum abstractum, ens 
+par<lb ed="#L" break="no" n="114"/>ticipialiter sumptum primo et principaliter significat esse;
+<lb ed="#L" n="115"/>ens vero nominaliter sumptum primo et principaliter 
+signi<lb ed="#L" break="no" n="116"/>ficat essentiam. Et ideo aliquid dicitur ens secundum quod
+<lb ed="#L" n="117"/>ens participialiter sumitur, per participationem ipsius esse ;
+<lb ed="#L" n="118"/>dicitur autem e»s nominaliter accipiendo ems, non per
+<lb ed="#L" n="119"/>participationem esse, sed per suam essentiam.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e529">
+               <lb ed="#L" n="120"/>Intelligitur ergo propositio Sancti Thomae et de ente
+<lb ed="#L" n="121"/>nominaliter sumpto, quantum ad id a quo nomen est 
+im<lb ed="#L" break="no" n="122"/>positum: et de ente participialiter sumpto, quantum ad id
+<lb ed="#L" n="123"/>quod primo et principaliter significat.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e540">
+               <lb ed="#L" n="124"/>VI. Circa illam propositionem, Substantia simplex, quae
+<lb ed="#L" n="125"/>est forma et actus, bonitatem et esse participat secundum
+<lb ed="#L" n="126"/>id quod est, advertendum quod non sic intelligitur quasi
+<lb ed="#L" n="127"/>ipsa formae substantia sit sua bonitas et suum esse: 'sed
+<lb ed="#L" n="128"/>quia, cum composita habeant esse et bonitatem ab aliquo 
+<lb ed="#L" n="129"/>alio formaliter, scilicet a forma, quae est pars compositi,
+<lb ed="#L" n="130"/>ipsa forma non habet esse et bonitatem ab alia forma, sed
+<lb ed="#L" n="131"/>esse ab ipsa immediate, nulla alia interveniente forma,
+<lb ed="#L" n="132"/>resultat.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e562">
+               <lb ed="#L" n="133"/>VII. Circa illud dictum, Substantia composita 
+parti<lb ed="#L" break="no" n="134"/>cipat bonitatem et esse actu secundum aliquid sui, scilicet
+<lb ed="#L" n="135"/>secundum formam , advertendum quod non est sensus in
+<lb ed="#L" n="136"/>composito solam partem quae est forma habere esse: et
+<lb ed="#L" n="137"/>bonitatem, non autem compositum ipsum, denominarique
+<lb ed="#L" n="138"/>compositum ens et bonum a sua parte, sicut denominatur
+<lb ed="#L" n="139"/>homo crispus.a crispitudine capillorum: sed sensus est
+<lb ed="#L" n="140"/>quod ipsum quidem totum est bonum et ens, sicut id
+<lb ed="#L" n="141"/>quod habet esse et bonitatem, sed tamen ipsum esse et
+<lb ed="#L" n="142"/>ipsam bonitatem: accipit a sua parte, scilicet a forma,
+<lb ed="#L" n="143"/>qua primo sibi provenit esse. vut
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e589">
+               <lb ed="#L" n="144"/>VIII. Circa ea quae tanguntur in differentia bonitatis
+<lb ed="#L" n="145"/>corporum caelestium et corporum inferiorum , 
+multipli<lb ed="#L" break="no" n="146"/>citer dubitatur. Primo , quia tria a <ref xml:id="ferv7a-d1e1871-Rd1e597">Philosopho, I Physic.</ref>,
+<lb ed="#L" n="147"/>ponuntur principia rerum naturalium: scilicet materia,
+<lb ed="#L" n="148"/>forma, et privatio. Sed caelum est ens naturale. Ergo
+<lb ed="#L" n="149"/>oportet ista tria sibi inesse. Ergo falsum est materiae caeli
+<lb ed="#L" n="150"/>non adiungi privationem.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e609">
+
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e611">
+               <pb ed="#L" n="49"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Secundo , quia videntur repugnare quod caelum habeat
+<lb ed="#L" n="2"/>materiam, et tamen non habeat. bonum mutabile. Ut enim
+<lb ed="#L" n="3"/>arguit <ref xml:id="ferv7a-d1e1871-Rd1e624">Commentator I Caeli, comm. 13</ref>, si corpus caeleste
+<lb ed="#L" n="4"/>est compositum ex materia et forma, sequitur quod sit
+<lb ed="#L" n="5"/>generabile et Soreepetate: — Item quia, ut habetur ex I
+<lb ed="#L" n="6"/>et VII Metaph., materia est per quam aliquid potest esse |
+<lb ed="#L" n="7"/>et non esse. 
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e635">
+               <lb ed="#L" n="8"/>Tertio, quia non videtur posse salvari in substantiis
+<lb ed="#L" n="9"/>inferioribus esse bonum mutabile cum permixtione mali |
+<lb ed="#L" n="10"/>oppositi, ut hic dicitur. Opposita enim non sunt in eodem
+<lb ed="#L" n="11"/>simul.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e646">
+               <lb ed="#L" n="12"/>IX. Ad evidentiam primi dubii, considerandum est quod 
+<ref xml:id="ferv7a-d1e1871-Rd1e650">Aristoteles in I Physicorum</ref> investigat principia rerum 
+na<lb ed="#L" break="no" n="13"/>turalium inquantum naturalia per generationem et 
+transmu<lb ed="#L" break="no" n="14"/>tationem fiunt: ut patet ibidem textu 68. Ideo illa 
+prin<lb ed="#L" break="no" n="15"/>cipia sunt quaerenda in rebus naturalibus quantum ad illud
+<lb ed="#L" n="16"/>esse secundum quod transmutabilia sunt. Si autem aliquod
+<lb ed="#L" n="17"/>esse habeant transmutationi non subiectum, non sunt illa
+<lb ed="#L" n="18"/>principia circa illud esse quaerenda. Caelum autem 
+secun<lb ed="#L" break="no" n="19"/>dum suum esse substantiale est ingenerabile et 
+incorrupti<lb ed="#L" break="no" n="20"/>bile. Ideo non oportet ex dictis ab Aristotele in I 
+Physi<lb ed="#L" break="no" n="21"/>corum ponere haec tria principia in caelo, ut ad esse
+<lb ed="#L" n="22"/>substantiale ordinantur. Et sic non oportet materiae caeli
+<lb ed="#L" n="23"/>esse adiunctam privationem. — Oportet tamen alia ex causa
+<lb ed="#L" n="24"/>in caelo esse materiam et formam, quia videlicet est 
+sub<lb ed="#L" break="no" n="25"/>stantia corporea: formam enim corpoream oportet in
+<lb ed="#L" n="26"/>aliquo susceptivo esse, et illud est materia.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e683">
+               <lb ed="#L" n="27"/>X. Ad secundum  dicitur quod nulla est repugnantia,
+<lb ed="#L" n="28"/>si considerentur verba Sancti Thomae. Quia, licet caelum
+<lb ed="#L" n="29"/>materiam habeat, illa tamen non est potentia ad aliam
+<lb ed="#L" n="30"/>formam, nec est subiecta privationi alterius formae, ex quo
+<lb ed="#L" n="31"/>habet aliquid ut sit transmutabile.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e697">
+               <lb ed="#L" n="32"/>Ad rationem ex Commentatore sumptam, quaecumque
+<lb ed="#L" n="33"/>fuerit Commentatoris opinio de materia caeli, dicitur quod,
+<lb ed="#L" n="34"/>si corpus caeleste esset compositum ex forma et materia
+<lb ed="#L" n="35"/>existente in potentia ad aliam formam, sive existente sub
+<lb ed="#L" n="36"/>privatione alterius formae, utique esset generabile et 
+cor<lb ed="#L" break="no" n="37"/>ruptibile. Modo, non dicit Sanctus Thomas materiam caeli
+<lb ed="#L" n="38"/>esse huiusmodi, sed ipsam neque esse in potentia ad aliam
+<lb ed="#L" n="39"/>formam, neque esse privationi subiectam. Ideo illud non
+<lb ed="#L" n="40"/>sequitur ex eo quod ponitur materia in caelo.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e719">
+               <lb ed="#L" n="41"/>Similiter ad confirmationem ex Aristotele dicitur quod
+<lb ed="#L" n="42"/>loquitur de materia subiecta privationi, quae est 
+princi<lb ed="#L" break="no" n="43"/>pium rerum transmutabilium inquantum substantialiter
+<lb ed="#L" n="44"/>transmutabilia sunt.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e730">
+               <lb ed="#L" n="45"/>2. Sed contra hanc responsionem dubium affert 
+pro<lb ed="#L" break="no" n="46"/>cessus Aristotelis XII Metaphys., text. 30 . Arguit enim
+<lb ed="#L" n="47"/>jon quod oportet substantiam quae movet motu 
+sem<lb ed="#L" break="no" n="48"/>piterno, esse semper actu moventem. Deinde, quod oportet
+<lb ed="#L" n="49"/>eam esse substantiam quae sit actus, non autem quae sit
+<lb ed="#L" n="50"/>in potentia: quia contingit quod potentia est, non esse.
+<lb ed="#L" n="51"/>Ex quo ulterius infert quod oportet ipsam esse sine 
+ma<lb ed="#L" break="no" n="52"/>teria. — Ex hoc enim arguitur sic. Si esset aliqua materia
+<lb ed="#L" n="53"/>quae non esset principium corruptionis, non posset argui
+<lb ed="#L" n="54"/>aliquid omnino carere materia ex eo quod non potest non |
+<lb ed="#L" n="55"/>esse. Sed Aristoteles concludit primam substantiam esse
+<lb ed="#L" n="56"/>immaterialem ex eo quod non potest non esse, praesertim
+<lb ed="#L" n="57"/>secundum expositionem Sancti Thomae. Ergo omnis 
+mate<lb ed="#L" break="no" n="58"/>ria est principium corruptionis. Si ergo in caelo ponatur
+<lb ed="#L" n="59"/>materia, sequitur quod caelum secundum se sit corruptibile.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e765">
+               <lb ed="#L" n="60"/>3. Respondetur, et dicitur primo, quod Aristoteles ex illo
+<lb ed="#L" n="61"/>processu non vult concludere primam substantiam esse
+<lb ed="#L" n="62"/>omnino immaterialem, sed solum i ipsam esse immaterialem
+<lb ed="#L" n="63"/>per carentiam materiae quae est in potentia ad non esse.
+<lb ed="#L" n="64"/>Hoc enim suo proposito sufficit, quo vult ostendere 
+opor<lb ed="#L" break="no" n="65"/>tere eam sempiternam esse. Unde, dum concludit quod
+<lb ed="#L" n="66"/>eius substantia est actus, non intendit quod sit omnino
+<lb ed="#L" n="67"/>simplex forma, sed quod nihil est in eius substantia quod
+<lb ed="#L" n="68"/>sit in potentia ad aliud esse.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e787">
+               <lb ed="#L" n="69"/>Dicitur secundo, quod ipsam primam substantiam esse
+<lb ed="#L" n="70"/>omnino immaterialem, habet Aristoteles ex alio 
+funda<lb ed="#L" break="no" n="71"/>mento, ex hoc scilicet quod est primum movens omnino
+<lb ed="#L" n="72"/>immobile: nam omne quod habet materiam, mobile est .
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e798">
+               <lb ed="#L" n="73"/>Et sic constat quod processus ille Aristotelis non tollit
+<lb ed="#L" n="74"/>quin in aliquo sit materia et tamen sit incorruptibile,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>quando materia sua non est subiecta privationi neque in
+<lb ed="#L" n="76"/>potentia ad aliud esse, sicut invenitur in caelo.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e812">
+               <lb ed="#L" n="77"/>XI. Ad tertium  dicitur quod forma et privatio, similiter
+<lb ed="#L" n="78"/>bonum et malum, dupliciter considerari possunt. Uno modo,
+<lb ed="#L" n="79"/>secundum rationes communes et generales formae et 
+pri<lb ed="#L" break="no" n="80"/>vationis, sive boni et mali. Alio modo, secundum 
+parti<lb ed="#L" break="no" n="81"/>culares rationes: inquantum videlicet haec est talis forma
+<lb ed="#L" n="82"/>et haec talis privatio, et hoc tale bonum, hoc vero tale
+<lb ed="#L" n="83"/>malum. Si considerentur primo modo, sic sunt opposita:
+<lb ed="#L" n="84"/>inquantum ratio formae et ratio privationis formae, 
+simi<lb ed="#L" break="no" n="85"/>liter ratio boni et ratio mali, sunt oppositae rationes. Sed
+<lb ed="#L" n="86"/>hoc modo non inconvenit opposita simul esse in eodem:
+<lb ed="#L" n="87"/>inquantum in eodem potest esse aliquid cui convenit ratio
+<lb ed="#L" n="88"/>formae, et aliquid cui convenit ratio privationis. — Si vero
+<lb ed="#L" n="89"/>considerentur secundo modo, sic non quaelibet privatio
+<lb ed="#L" n="90"/>cuilibet formae, neque cuilibet bono quodlibet malum, sed
+<lb ed="#L" n="91"/>determinatae formae determinata opponitur privatio : 
+for<lb ed="#L" break="no" n="92"/>mae enim aeris opponitur privatio formae aeris, non autem
+<lb ed="#L" n="93"/>privatio formae aquae. Et secundum hanc considerationem,
+<lb ed="#L" n="94"/>forma et privatio quae sunt opposita, non possunt simul
+<lb ed="#L" n="95"/>esse in eodem subiecto: sed bene forma et privatio quae
+<lb ed="#L" n="96"/>sibi non opponitur, simul esse possunt. — Propositio ergo
+<lb ed="#L" n="97"/>Sancti Thomae intelligenda est de malo et bono, non
+<lb ed="#L" n="98"/>secundum particulares rationes oppositas, sed secundum
+<lb ed="#L" n="99"/>generales rationes. Talia autem opposita non inconvenit
+<lb ed="#L" n="100"/>simul in eodem esse.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e867">
+               <lb ed="#L" n="101"/>XII. Circa id quod dicitur, materiam, licet sit ens in 
+po<lb ed="#L" break="no" n="102"/>tentia, esse tamen bonam non in potentia, sed simpliciter ,
+<lb ed="#L" n="103"/>occurrit dubium. Primo, quia videtur hoc contradicere iis
+<lb ed="#L" n="104"/>quae in hoc capitulo dicuntur. Dictum est enim quod,
+<lb ed="#L" n="105"/>licet unaquaeque creatura sit bona inquantum est, non
+<lb ed="#L" n="106"/>tamen potest simpliciter bona dici si aliis careat quae ad
+<lb ed="#L" n="107"/>eius bonitatem requiruntur. Ex hoc autem arguitur sic. Ens
+<lb ed="#L" n="108"/>in actu ex ipso esse, remotis aliis perfectionibus, non 
+di<lb ed="#L" break="no" n="109"/>citur bonum simpliciter. Ergo multo minus ens in 
+poten<lb ed="#L" break="no" n="110"/>tia, et omni actu carens, dicitur bonum simpliciter.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e891">
+               <lb ed="#L" n="111"/>Secundo , quia <ref xml:id="ferv7a-d1e1871-Rd1e895">Verit., q. xxt, a. 2, ad 3</ref>, dicitur quod
+<lb ed="#L" n="112"/>materia est bona in potentia, non autem in actu, sicut
+<lb ed="#L" n="113"/>est ens in potentia et non in actu. —- Idem dicitur Prima,
+<lb ed="#L" n="114"/>q. v. a. 3, ad 3
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e904">
+               <lb ed="#L" n="115"/>XIII. Ad evidentiam huius dubii, duo sunt consideranda.
+<lb ed="#L" n="116"/>Primum est differentia quam hic ponit Sanctus Thomas
+<lb ed="#L" n="117"/>inter ens et bonum: haec scilicet, quod ens dicitur 
+abso<lb ed="#L" break="no" n="118"/>lute, bonum autem etiam in ordine consistit; et ideo 
+ma<lb ed="#L" break="no" n="119"/>teria ex hoc quod est potentia ens, non potest dici 
+sim<lb ed="#L" break="no" n="120"/>pliciter ens; sed bene, propter ordinem ad esse et ad bonum,
+<lb ed="#L" n="121"/>potest dici simpliciter bona. Ubi advertendum est quod
+<lb ed="#L" n="122"/>bonum et ens differunt, quia nomen entis dicitur tantum
+<lb ed="#L" n="123"/>de iis in quibus suum formale significatum invenitur: illud
+<lb ed="#L" n="124"/>enim tantum est ens, tanquam id quod est, cui convenit
+<lb ed="#L" n="125"/>habere esse. Nomen vero boni dicitur non tantum de eo
+<lb ed="#L" n="126"/>in quo formaliter invenitur ratio boni, sed etiam de eo
+<lb ed="#L" n="127"/>quod ad bonum habitudinem habet: sicut sanum non 
+di<lb ed="#L" break="no" n="128"/>citur solum de animali, in quo formaliter sanitas invenitur,
+<lb ed="#L" n="129"/>sed etiam de medicina et cibo et urina, quae ad sanitatem
+<lb ed="#L" n="130"/>animalis habitudinem habent. Propterea inquit Sanctus
+<lb ed="#L" n="131"/>'Thomas, de Verit. q. xxr, a. 1, quod primo et 
+principa<lb ed="#L" break="no" n="132"/>liter dicitur bonum ens perfectivum alterius per modum
+<lb ed="#L" n="133"/>finis. Secundario autem dicitur bonum quod est ductivum
+<lb ed="#L" n="134"/>in finem, prout utile dicitur bonum, vel quod est natum
+<lb ed="#L" n="135"/>consequi finem : sicut et sanum dicitur non solum habens
+<lb ed="#L" n="136"/>sanitatem, sed etiam perficiens, conservans et significans.
+<lb ed="#L" n="137"/>Bonum ergo dicitur primo de eo quod est finis, atque de
+<lb ed="#L" n="138"/>eo quod iam finem obtinet, non propter ordinem quem
+<lb ed="#L" n="139"/>habeat ad bonum, sed quia in se perfectum est et 
+forma<lb ed="#L" break="no" n="140"/>liter bonum. Dicitur etiam de.aliquo non ex eo quod in
+<lb ed="#L" n="141"/>se perfectum sit, sed ex eo quod ordinem habet ad bonum,
+<lb ed="#L" n="142"/>tanquam tendens ad ipsum. Propter hoc dixit Sanctus
+<lb ed="#L" n="143"/>Thomas quod ens absolute dicitur, bonum vero etiam
+<lb ed="#L" n="144"/>consistit in ordine: quia videlicet bonum dicitur non solum
+<lb ed="#L" n="145"/>de eo quod actu habet esse et perfectionem, sed etiam
+<lb ed="#L" n="146"/>de eo quod ad perfectionem tendit; ens vero dicitur de eo
+<lb ed="#L" n="147"/>quod formaliter in seipso continet entitatem et esse.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e978">
+               <lb ed="#L" n="148"/>Secundum est, quod bonum simpliciter potest duobus
+<lb ed="#L" n="149"/>modis intelligi. Uno modo, pro eo quod est formaliter
+<pb ed="#L" n="50"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bonum, tanquam videlicet in seipso habens bonitatis 
+com<lb ed="#L" break="no" n="2"/>plementum: sicut dicimus quod animal est simpliciter 
+sa<lb ed="#L" break="no" n="3"/>num, medicina autem non est simpliciter sana. Alio modo,
+<lb ed="#L" n="4"/>pro eo quod absolute et absque additione dicitur bonum:
+<lb ed="#L" n="5"/>sicut absolute dicimus non solum quod animal est sanum,
+<lb ed="#L" n="6"/>sed etiam quod medicina sana est. Hoc ergo secundo modo
+<lb ed="#L" n="7"/>accipit Sanctus Thomas bonum simpliciter, cum inquit
+<lb ed="#L" n="8"/>materiam primam esse simpliciter bonam. Non enim, 
+in<lb ed="#L" break="no" n="9"/>quantum dicit ordinem ad bonum, dicitur bona cum hac
+<lb ed="#L" n="10"/>additione, in potentia, sicut dicitur ens non absolutc, sed
+<lb ed="#L" n="11"/>in potentia: sed absolute et absque additione dicitur bona.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e1013">
+               <lb ed="#L" n="12"/>2. Ad primum ergo in oppositum, negatur consequentia.
+<lb ed="#L" n="13"/>Nam absolute potest dici materia bona inquantum dicit
+<lb ed="#L" n="14"/>ordinem ad bonum: quia, inquantum buiusmodi, habet
+<lb ed="#L" n="15"/>quidquid ad eius perfectionem pertinet, licet careat actu et
+<lb ed="#L" n="16"/>bonitate sibi formaliter inhaerente. Non enim dicitur bona,
+<lb ed="#L" n="17"/>ut declaravimus, tanquam bonitatem habens, sed tanquam
+<lb ed="#L" n="18"/>in bonitatem ordinata.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e1032">
+               <lb ed="#L" n="19"/>Potest secundo dici quod dictum Sancti Thomae 
+in<lb ed="#L" break="no" n="20"/>telligitur de eo quod dicitur bonum tanquam in se 
+bo<lb ed="#L" break="no" n="21"/>nitatem habens: non autem de eo quod dicitur bonum
+<lb ed="#L" n="22"/>tanquam in bonitatem ordinatum.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e1043">
+               <lb ed="#L" n="23"/>XIV. Ad secundum  dicitur quod materia dupliciter
+<lb ed="#L" n="24"/>potest considerari: uno modo, praecise secundum se, 
+in<lb ed="#L" break="no" n="25"/>quantum est pura potentia, id est substantia omni carens
+<lb ed="#L" n="26"/>actu sibi intrinseco et essentiali; alio modo, inquantum
+<lb ed="#L" n="27"/>substat ordini et aptitudini ac inclinationi ad bonum. Primo
+<lb ed="#L" n="28"/>modo, est bonum tantum in potentia: et sic intelligitur quod
+<lb ed="#L" n="29"/>dicitur in locis allegatis. Secundo modo, est bona in actu:
+<lb ed="#L" n="30"/>et sic intelligitur quod hic dicitur. Unde et in Prima Parte,
+<lb ed="#L" n="31"/>post verba adducta, subiungit Sanctus Thomas aliam 
+re<lb ed="#L" break="no" n="32"/>sponsionem, dicens quod, secundum Platonicos posset dici
+<lb ed="#L" n="33"/>quod materia prima. est non ens, propter privationem
+<lb ed="#L" n="34"/>adiunctam, sed tamen participat aliquid de bono, scilicet
+<lb ed="#L" n="35"/>ipsum ordinem vel aptitudinem ad bonum.. — De hoc etiam
+<lb ed="#L" n="36"/>dictum est supra, capite xr.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e1076">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="37"/>XV. Circa illud quod dicitur, bonum esse quodammodo
+<lb ed="#L" n="38"/>amplioris ambitus quam ens , notandum quod dupliciter
+<lb ed="#L" n="39"/>possumus ambitum boni et entis considerare: uno modo,
+<lb ed="#L" n="40"/>respectu eorum de quibus formaliter et intrinsece 
+prae<lb ed="#L" break="no" n="41"/>dicantur; alio modo, respectu eorum de quibus 
+quomodo<lb ed="#L" break="no" n="42"/>cumque praedicantur. Primo modo, ens et bonum sunt
+<lb ed="#L" n="43"/>aequalis ambitus, et sunt convertibilia secundum 
+suppo<lb ed="#L" break="no" n="44"/>sita. Secundo vero modo, bonum est amplioris ambitus:
+<lb ed="#L" n="45"/>quia nomen enis dicitur solum de iis in quibus invenitur
+<lb ed="#L" n="46"/>formaliter ratio entis et boni; nomen vero boni dicitur
+<lb ed="#L" n="47"/>etiam de eo in quo non invenitur formaliter ratio entis
+<lb ed="#L" n="48"/>et boni, scilicet de eo quod habet ordinem ad esse et
+<lb ed="#L" n="49"/>bonum. Et quia ambitus alicuius communis proprie 
+acci<lb ed="#L" break="no" n="50"/>pitur respectu eorum de quibus intrinsece et formaliter
+<lb ed="#L" n="51"/>praedicatur, non autem respectu eorum de quibus 
+prae<lb ed="#L" break="no" n="52"/>dicatur extrinsece, ideo non dixit Sanctus Thomas 
+abso<lb ed="#L" break="no" n="53"/>lute quod bonum sit amplioris habitus quam ens, sed
+<lb ed="#L" n="54"/>addidit gnodammodo.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e1120">
+               <lb ed="#L" n="55"/>2. Sed contra dicta videtur esse Sanctus Thomas de
+<lb ed="#L" n="56"/>Verit, q. xxt, a. 2, ad 2; et Prima, q. v, a. 2, ad 2. Inquit
+<lb ed="#L" n="57"/>enim quod bonum non se extendit ad non entia quae
+<lb ed="#L" n="58"/>sunt entia in potentia, secundum praedicationem. Ergo
+<lb ed="#L" n="59"/>bonum non est maioris ambitus quam ens: quia non
+<lb ed="#L" n="60"/>ponitur maioris ambitus nisi quia dicitur de ente in
+<lb ed="#L" n="61"/>potentia.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e1138">
+               <lb ed="#L" n="62"/>Respondetur quod dictum Sancti Thomae intelligitur
+<lb ed="#L" n="63"/>de praedicatione formali et intrinseca. Sic enim dictum
+<lb ed="#L" n="64"/>est quod non praedicatur de materia et ente in potentia,
+<lb ed="#L" n="65"/>sed tantum extrinsece, sicut samum de medicina.
+</p>
+            <p xml:id="ferv7a-d1e1871-d1e1149">
+               <lb ed="#L" n="66"/>Advertendum autem quod in Prima Parte, et in 
+Quae<lb ed="#L" break="no" n="67"/>stionibus de Veritate, interpretatur Sanctus Thomas 
+dic<lb ed="#L" break="no" n="68"/>tum Dionysii quantum ad causalitatem. Quia enim bonum
+<lb ed="#L" n="69"/>habet rationem finis; ad finem autem moventur etiam ea
+<lb ed="#L" n="70"/>quae non sunt in actu: ideo causalitas finis, quae est 
+ap<lb ed="#L" break="no" n="71"/>peti ut id cuius amore alia appetuntur et fiunt, etiam ad
+<lb ed="#L" n="72"/>non existentia se extendit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

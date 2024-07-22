@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 93</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 93</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="286"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2467"><!-- ferv7a-l3c93 -->
+            <head>Capitulum 93</head>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="79" type="fixed=286"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <lb ed="#L" n="80"/>TERTIUM quod infert Sanctus Thomas ex praedictis est,
+<lb ed="#L" n="81"/>quid de fato sit sentiendum . Circa hoc autem duo
+<lb ed="#L" n="82"/>facit: primo, removet falsas opiniones de fato; secundo,
+<lb ed="#L" n="83"/>veram opinionem ponit .
+</p>
+            <p>
+               <lb ed="#L" n="84"/>I. Quantum ad primum, tangit duas opiniones. Prima
+<lb ed="#L" n="85"/>est eorum qui fatum nihil omnino esse dixerunt: eo quod
+<lb ed="#L" n="86"/>ea quae per accidens eveniunt a causis particularibus, a
+<lb ed="#L" n="87"/>nulla superiori causa ordinari putabant.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Adverte quod hanc opinionem Augustinus, in V de
+<lb ed="#L" n="89"/>Civ. Dei, attribuit Tullio, qui, ut in superioribus est
+<lb ed="#L" n="90"/>ostensum, visus est, in libris de Divinatione, providentiam
+<lb ed="#L" n="91"/>negare et fatum, praesertim circa res humanas.
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="92"/>2. Secunda est illorum qui posuerunt fatum aliquid
+<lb ed="#L" n="93"/>esse, dicentes ea quae videntur a casu contingere, esse ab
+<lb ed="#L" n="94"/>aliqua altiori causa praeordinata ut essent; et ista omnia,
+<lb ed="#L" n="95"/>etiam electiones humanas, conati sunt in corpora caelestia
+<lb ed="#L" n="96"/>tanquam in causas reducere; fatumque appellabant ipsam
+<lb ed="#L" n="97"/>dispositionem siderum, cui omnia cum quadam necessitate
+<lb ed="#L" n="98"/>subdi ponebant.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Sed hanc positionem impossibilem esse ex superioribus
+<lb ed="#L" n="100"/>constat: ubi scilicet ostensum est ea quae ad intellectum et
+<lb ed="#L" n="101"/>voluntatem pertinent, non subdi directe corporibus 
+caelesti<lb ed="#L" break="no" n="102"/>bus; et quod non omnia, etiam corporalia, a corporibus
+<lb ed="#L" n="103"/>caelestibus de necessitate proveniunt; item, quod ea quae
+<pb ed="#L" n="287"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>per accidens sunt et fortuita, non possunt in unam 
+natu<lb ed="#L" break="no" n="2"/>ralem causam reduci, qualis est virtus corporis caelestis.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>II. Quantum ad secundum, ponit opinionem veram .
+<lb ed="#L" n="4"/>Et ait quod hi qui ea quae hic casu eveniunt, in 
+dispo<lb ed="#L" break="no" n="5"/>sitionem :divinae providentiae reduxerunt, dixerunt : 
+ordi<lb ed="#L" break="no" n="6"/>nationem quae est in rebus ex divina providentia esse
+<lb ed="#L" n="7"/>fatum. Ostendit autem hoc per definitionem Boetii de fato
+<lb ed="#L" n="8"/>positam IV de Consol., inquientis quod fatum est 
+inhae<lb ed="#L" break="no" n="9"/>rens rebus mobilibus dispositio, per quam providentia suis
+<lb ed="#L" n="10"/>quaeque nectit ordinibus. Exponens autem Sanctus Thomas
+<lb ed="#L" n="11"/>hanc definitionem, ait quod dispositio pro ordinatione
+<lb ed="#L" n="12"/>ponitur; dicitur rebus inhaerens, ut distinguatur a. 
+provi<lb ed="#L" break="no" n="13"/>dentia, quae est ordinatio. in mente divina existens, 
+non<lb ed="#L" break="no" n="14"/>dum rebus impressa; dicitur etiam mobilibus, ut ostendatur
+<lb ed="#L" n="15"/>quod ordo providentiae a rebus contingentiam et 
+mobili<lb ed="#L" break="no" n="16"/>tatem non aufert, ut quidam posuerunt. Hoc itaque modo,
+<lb ed="#L" n="17"/>inquit Sanctus Thomas, negare fatum est negare divinam
+<lb ed="#L" n="18"/>providentiam. Veruntamen, quia cum infidelibus nec 
+no<lb ed="#L" break="no" n="19"/>mina debemus. habere communia, nomen fati non est.a
+<lb ed="#L" n="20"/>fidelibus. in usum sumendum, ne videamur illis assentire
+<lb ed="#L" n="21"/>qui omnia necessitati siderum subiecerunt.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Confirmatur auctoritate Augustini, V Civitate ; et 
+Gre<lb ed="#L" break="no" n="23"/>gorii, in homilia Epiphaniae.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>III. Circa expositionem - definitionis datae a Boetio de
+<lb ed="#L" n="25"/>fato, considerandum . primo quod, cum dispositio duo
+<lb ed="#L" n="26"/>significet, scilicet qualitatem quandam, secundum quod
+<lb ed="#L" n="27"/>habitus et dispositio ponitur prima species qualitatis; et
+<lb ed="#L" n="28"/>ordinem, qui est relatio: fatum dicitur dispositio non 
+se<lb ed="#L" break="no" n="29"/>cundum quod nomen dispositionis significat qualitatem,
+<lb ed="#L" n="30"/>sed secundum quod significat ordinem ;:nam Augustinus 
+<lb ed="#L" n="31"/>fatum seriem causarum nominat, idest, ordinem. Propter
+<lb ed="#L" n="32"/>hoc dicit Sanctus Thomas, quod in hac definitione 
+dispo<lb ed="#L" break="no" n="33"/>sitio pro ordinatione ponitur.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Considerandum secundo, quod per ordinationem 
+divi<lb ed="#L" break="no" n="35"/>nam in rebus explicatam duo possumus intelligere: scilicet
+<lb ed="#L" n="36"/>aut ordinem effectuum divinae providentiae ad ipsam 
+pro<lb ed="#L" break="no" n="37"/>videntiam, secundum quod. in rebus effectum est id quod
+<lb ed="#L" n="38"/>divina providentia ordinavit; aut ordinem causarum 
+secun<lb ed="#L" break="no" n="39"/>darum ordinatarum ad aliquos effectus divinae 
+providen<lb ed="#L" break="no" n="40"/>tiae producendos. Cum ergo inquit Sanctus Thomas 
+or<lb ed="#L" break="no" n="41"/>dinationem divinam. secundum quod est rebus impressa,
+<lb ed="#L" n="42"/>esse fatum, intendit ordinationem impressam, non quidem
+<lb ed="#L" n="43"/>ipsis inferioribus effectibus; sed causis mediis, quibus 
+or<lb ed="#L" break="no" n="44"/>dine quodam divinae providentiae dispositio ad inferiora
+<lb ed="#L" n="45"/>descendit, ut patet Prima, q. cxvr, a. 2. Nam fatum habet
+<lb ed="#L" n="46"/>aliquo modo rationem causae respectu inferiorum 
+effe<lb ed="#L" break="no" n="47"/>ctuum, ratione scilicet ipsarum causarum superiorum 
+ordi<lb ed="#L" break="no" n="48"/>' natarum; licet ad divinam providentiam comparetur ut
+<lb ed="#L" n="49"/>eius effectus. Propter quod. ut inquit Sanctus Thomas
+<lb ed="#L" n="50"/>I Sent, d. xxxix, q. m, a. 1; ad 5, dicitur fatum quasi
+<lb ed="#L" n="51"/>quoddam effatum divinae ordinationis, sicut verbum vocale
+<lb ed="#L" n="52"/>est quoddam effatum interioris conceptus.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Considerandum tertio, quod fatum ipsum, sive series
+<lb ed="#L" n="54"/>et ordo causarum mediarum ad productionem inferiorum
+<lb ed="#L" n="55"/>effectuum provisorum, secundum seipsum quidem mobile
+<lb ed="#L" n="56"/>est et variabile ac impedibile: cum corporales effectus in
+<lb ed="#L" n="57"/>inferioribus fiant a corporibus caelestibus variabiliter et con-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="58"/>tingenter, et multo magis electiones humanae. Propter hoc
+<lb ed="#L" n="59"/>inquit Sanctus Thomas dixisse Boetium ipsum mobilibus
+<lb ed="#L" n="60"/>inhaerere: ut ostenderet. divinae providentiae ordinem,
+<lb ed="#L" n="61"/>qui ab ipsa per causas medias ad inferiora pervenit, non
+<lb ed="#L" n="62"/>auferre contingentiam et mobilitatem a rebus. Secundum
+<lb ed="#L" n="63"/>autem quod subest divinae providentiae, immobilitatem
+<lb ed="#L" n="64"/>et necessitatem sortitur, ut inquit Sanctus Thomas Prima
+<lb ed="#L" n="65"/>Parte, qu. allegata, art. 3, non quidem absolutam, sed. ex
+<lb ed="#L" n="66"/>suppositione, et secundum modum quo divinae providentiae
+<lb ed="#L" n="67"/>subest, scilicet ut contingenter et defectibiliter. causet ;
+<lb ed="#L" n="68"/>secundum quod in' superioribus  dictum est hanc 
+condi<lb ed="#L" break="no" n="69"/>tionalem esse veram: Si Deus hoc futurum esse praescivit,
+<lb ed="#L" n="70"/>hoc erit. Sed de iis.satis dictum est in praecedentibus, et
+<lb ed="#L" n="71"/>in capite sequenti dicetur.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>IV. Attendendum postremo, quod tres modos 
+acce<lb ed="#L" break="no" n="73"/>ptionis fati tangit hoc loco Sanctus Thomas. Unus est
+<lb ed="#L" n="74"/>secundum quod: ordinatio effectuum .in mente divina 
+exi<lb ed="#L" break="no" n="75"/>stens, quae dicitur providentia, fatum, nuncupatur. Sed
+<lb ed="#L" n="76"/>hoc, ut dicitur Prima Parte, ubi supra , causaliter dicitur,
+<lb ed="#L" n="77"/>non essentialiter. — Alter est secundum quod :psa 
+ordi<lb ed="#L" break="no" n="78"/>natio secundarum causarum ad producendos effectus 
+pro<lb ed="#L" break="no" n="79"/>visos dicitur fatum. — Tertius vero est prout fatum 
+dispo<lb ed="#L" break="no" n="80"/>sitio siderum dicitur, cuncta quadam necessitate producens.
+<lb ed="#L" n="81"/>Modus autem ;hic duos illos modos complectitur quos
+<lb ed="#L" n="82"/>Ioannes Picus, in quarto adversus Astrologos libro  ponit.
+<lb ed="#L" n="83"/>Quorum unus est, ut fatum dicatur causarum series 
+or<lb ed="#L" break="no" n="84"/>doque nexu necessario cuncta producens. Alter vero est,
+<lb ed="#L" n="85"/>ut ipsa siderum constitutio cum quid aut nascitur aut
+<lb ed="#L" n="86"/>concipitur aut inchoatur, fatum nominatur. Horum enim
+<lb ed="#L" n="87"/>modorum secundum sub primo contineri constat, veluti
+<lb ed="#L" n="88"/>particulare sub universali et pars in toto continetur: esse
+<lb ed="#L" n="89"/>enim siderum constitutionem. cum aliquid aut nascitur
+<lb ed="#L" n="90"/>aut concipitur, in hoc quod est esse seriem causarum 
+ne<lb ed="#L" break="no" n="91"/>cessario cuncta producentem, manifesto comprehenditur.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Praeter modos dictos alium adducit ipse Picus modum
+<lb ed="#L" n="93"/>fati , ex sententia Alexandri ex Aphrodiade in libro de
+<lb ed="#L" n="94"/>Fato ad Principes Severum et Antonium: ut ipsa 
+sci<lb ed="#L" break="no" n="95"/>licet natura, quae aliud ab electione principium est, fatum
+<lb ed="#L" n="96"/>dicatur. In qua significatione dici potest quod ignis fato
+<lb ed="#L" n="97"/>calefacit; et sol illuminat; et cum quis, dissoluto corporis
+<lb ed="#L" n="98"/>temperamento, moritur, quod fato moritur. Cum vero ex
+<lb ed="#L" n="99"/>equo praecipitatur,.vel gladiis occiditur, non moritur fato :
+<lb ed="#L" n="100"/>in quem modum. de Didone PHgOHUE dicit,  sed quia nec
+<lb ed="#L" n="101"/>fato, debita nec morte peribat ' 
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Sed licet quintuplex huius nominis fatum significatio
+<lb ed="#L" n="103"/>sit, usitata tamen apud eos qui fati nomine utuntur, ut
+<lb ed="#L" n="104"/>praecipue sunt Stoici, significatio est: Siderum dispositio
+<lb ed="#L" n="105"/>in qua quisque natus est vel conceptus, cuncta quae 
+ho<lb ed="#L" break="no" n="106"/>mini eveniunt, sive per se, sive per accidens et fortuito,
+<lb ed="#L" n="107"/>necessario et inevitabiliter producens' Et ideo, licet 
+Ca<lb ed="#L" break="no" n="108"/>tholicus fati nomine ipsam divinam providentiam intelligat,
+<lb ed="#L" n="109"/>aut dispositionem secundarum causarum ex divina 
+provi<lb ed="#L" break="no" n="110"/>dentia constitutam; ne tamen ad usitatam significationem
+<lb ed="#L" n="111"/>ipsum nomen fati videatur assumere, etiam ab ipso. 
+no<lb ed="#L" break="no" n="112"/>mine, iuxta Augustini consilium , debet abstinere; atque,
+<lb ed="#L" n="113"/>cum de humanis eventibus sermo inciderit, debet potius
+<lb ed="#L" n="114"/>dicere cuncta divina providentia regi quam fato.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

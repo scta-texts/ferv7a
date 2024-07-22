@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 57</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 57</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="162"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2173"><!-- ferv7a-l3c57 -->
+            <head>Capitulum 57</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="29" type="fixed=161"/>Commentaria Feerrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="30"/>POSTQUAM ostendit Sanctus Thomas conditiones 
+beati<lb ed="#L" break="no" n="31"/>tudinis ex parte intellectus et ex parte obiecti, vult
+<lb ed="#L" n="32"/>nunc eius conditiones ex parte actus videndi ostendere .
+<lb ed="#L" n="33"/>Et ponit tres conclusiones .
+</p>
+            <p>
+               <lb ed="#L" n="34"/>1. Prima est ista: Nullus intellectus creatus est ita 
+se<lb ed="#L" break="no" n="35"/>cundum naturam infimus, qui non ad hanc visionem possit
+<lb ed="#L" n="36"/>elevari.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Probatur primo. Quod fit virtute supernaturali, non 
+im<lb ed="#L" break="no" n="38"/>peditur propter naturae diversitatem. Sed elevatio ad hanc
+<lb ed="#L" n="39"/>visionem fit virtute supernaturali: cum fiat a Deo per lumen
+<lb ed="#L" n="40"/>quod nulli creaturae est connaturale, sed omnem creaturae
+<lb ed="#L" n="41"/>virtutem excedit, ut superius est ostensum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Probatur maior. Ratione quidem: quia divina virtus est
+<lb ed="#L" n="43"/>infinita. - A signo vero: quia in miraculosa sanatione 
+in<lb ed="#L" break="no" n="44"/>firmi non differt utrum aliquis parum vel multum 
+infir<lb ed="#L" break="no" n="45"/>metur.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Circa maiorem propositionem, advertendum quod habet .
+<lb ed="#L" n="47"/>veritatem. supposito quod illud non magis implicet 
+con<lb ed="#L" break="no" n="48"/>tradictionem in una natura quam in altera. Non enim 
+vir<lb ed="#L" break="no" n="49"/>tute supernaturali fieri posset ut lapis videret Deum: quia
+<lb ed="#L" n="50"/>repugnat lapidi talis visio, et contradictionem implicat 
+la<lb ed="#L" break="no" n="51"/>pidem Deum videre; esset enim natura intellectualis et
+<lb ed="#L" n="52"/>immaterialis secundum virtutem, et simul etiam. omnino
+<lb ed="#L" n="53"/>materialis. Nulli autem intellectui creato repugnat videre
+<lb ed="#L" n="54"/>Deum; neque aliqua contradictio implicatur cum dicitur
+<lb ed="#L" n="55"/>hanc aut illam naturam intellectualem videre Deum. Ideo
+<lb ed="#L" n="56"/>illa maior propositio in proposito veritatem habet.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>2. Circa istam propositionem, 7n sanatione infirmi non
+<lb ed="#L" n="58"/>differt utrum aliquis parum aut. multum infirmetur, 
+at<lb ed="#L" break="no" n="59"/>tendendum, ex doctrina Sancti Thomae Prima, q. cv, a. 8,
+<lb ed="#L" n="60"/>quod hoc intelligitur per comparationem ad divinam 
+poten<lb ed="#L" break="no" n="61"/>tiam. Quodcumque enim factum, in comparatione divinae
+<lb ed="#L" n="62"/>potentiae, est minimum. Ideo tam facile est Deo ex magna
+<lb ed="#L" n="63"/>aegritudine sanare quam ex parva. — Sed bene per 
+compa<lb ed="#L" break="no" n="64"/>rationem ad virtutem naturae, differt utrum aliquis 
+infir<lb ed="#L" break="no" n="65"/>mus sanetur ex magna aut ex parva aegritudine: quia
+<lb ed="#L" n="66"/>maius miraculum est statim sanare ex magna aegritudine
+<lb ed="#L" n="67"/>quam sanare ex parva, quia illud magis naturae facultatem
+<lb ed="#L" n="68"/>excedit.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>II. Secundo. Distantia quae est inter fafiriniih 
+intel<lb ed="#L" break="no" n="70"/>lectum creatum et supremum, est quasi nihil in 
+compa<lb ed="#L" break="no" n="71"/>ratione ad illam quae est inter supremum intellectum
+<lb ed="#L" n="72"/>creatum et Deum: cum illa sit finita, ista autem sit 
+infi<lb ed="#L" break="no" n="73"/>nita. Ergo nihil differt quicumque intellectus sit qui ad
+<lb ed="#L" n="74"/>Dei visionem per tale lumen elevatur: sive, inquam, sit
+<lb ed="#L" n="75"/>supremus, sive infimus, sive medius. — Probatur 
+conse<lb ed="#L" break="no" n="76"/>quentia. Quia quod est quasi nihil, non potest facere 
+va<lb ed="#L" break="no" n="77"/>riationem sensibilem. — Declaratur exemplo. Nam visu 
+no<lb ed="#L" break="no" n="78"/>stro utuntur astrologi in demonstrationibus suis tanquam
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="79"/>centro terrae, eo quod distantia eius a centro sit quasi
+<lb ed="#L" n="80"/>nihil in comparatione distantiae visus nostri ad sphaeram
+<lb ed="#L" n="81"/>octavam.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Pro declaratione huius rationis, advertendum est quod
+<lb ed="#L" n="83"/>distantia supremi intellectus creati a Deo, et distantia 
+in<lb ed="#L" break="no" n="84"/>fimi intellectus ab eodem, in hoc conveniunt quod utraque
+<lb ed="#L" n="85"/>est infinita, cum sit finiti ad infinitum: differtnt autem,
+<lb ed="#L" n="86"/>quia maior est distantia infimi quam distantia supremi
+<lb ed="#L" n="87"/>inquantum minus perfectionis habet infimus quam 
+su<lb ed="#L" break="no" n="88"/>premus. Non enim inconvenit unum infinitum esse maius
+<lb ed="#L" n="89"/>alio infinito, ut ostensum est in praecedentibus . Sed
+<lb ed="#L" n="90"/>tamen, quia illa quantitas distantiae quam addit distantia
+<lb ed="#L" n="91"/>infimi supra distantiam supremi, quae nihil aliud est quam
+<lb ed="#L" n="92"/>distantia inter infimum et supremum creatum, nihil 
+nota<lb ed="#L" break="no" n="93"/>bile est in comparatione ad distantiam supremi a Deo,
+<lb ed="#L" n="94"/>sed est quasi nihil; sicut dimensio finita addita 
+dimen<lb ed="#L" break="no" n="95"/>sioni infinitae quasi nihil est in comparatione ad 
+dimen<lb ed="#L" break="no" n="96"/>sionem infinitam, et nullam sensibilem variationem facit:
+<lb ed="#L" n="97"/>ideo pro aequali distantia utraque reputatur. Et propterea,
+<lb ed="#L" n="98"/>sicut distantia supremi intellectus a Deo non impedit quin
+<lb ed="#L" n="99"/>ipse supremus intellectus ad visionem ipsius per lumen
+<lb ed="#L" n="100"/>gloriae possit elevari: ita non impedit distantia quae est
+<lb ed="#L" n="101"/>inter infimum intellectum et Deum. Et in. hoc fundatur
+<lb ed="#L" n="102"/>haec ratio.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>III. Tertio. Omnis intellectus naturaliter desiderat
+<lb ed="#L" n="104"/>substantiae divinae visionem, ut superius est ostensum.
+<lb ed="#L" n="105"/>Ergo etc. — Probatur consequentia. Quia naturale 
+desi<lb ed="#L" break="no" n="106"/>derium non potest esse inane.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>CowriRMATUR auctoritate Matth. xxu, et Apoc. x . —
+<lb ed="#L" n="108"/>Confirmatur etiam hoc signo, quod in Sacra Scriptura
+<lb ed="#L" n="109"/>angeli in figura hominum describuntur, vel in toto vel in
+<lb ed="#L" n="110"/>parte: ut patet Gem. xvn et Erech. i.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>IV. Per hoc autem excluditur error dicentium humanam
+<lb ed="#L" n="112"/>animam non posse ad aequalitatem superiorum 
+intelle<lb ed="#L" break="no" n="113"/>ctuum pervenire.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Adverte quod opinio quae hic excluditur, videtur esse
+<lb ed="#L" n="115"/>Eustratii in Commentario Vl Ethicorum. Unde expresse
+<lb ed="#L" n="116"/>Sanctus Thomas eam illi adscribit II Sent., d. 1x, a. 8. Habet
+<lb ed="#L" n="117"/>autem veritatem si intelligatur quantum ad naturalem 
+ope<lb ed="#L" break="no" n="118"/>rationem. Quantumcumque enim virtute naturae et studio
+<lb ed="#L" n="119"/>humanus intellectus elevetur, nunquam ad aequalitatem
+<lb ed="#L" n="120"/>superiorum intellectuum pervenire potest. Si autem 
+intel<lb ed="#L" break="no" n="121"/>ligatur de elevatione per lumen supernaturale, sic est
+<lb ed="#L" n="122"/>falsa: quia, ut dicitur loco praeallegato, et Prima, q. cv,
+<lb ed="#L" n="123"/>a. 8, non solum ad eandem societatem cum angelis, et
+<lb ed="#L" n="124"/>ad eundem modum videndi Deum, per gratiam homines
+<lb ed="#L" n="125"/>pervenient, sed etiam aliqui homines aliquibus angelis in
+<lb ed="#L" n="126"/>beatitudine superiores erunt. Et quantum ad hunc sensum
+<lb ed="#L" n="127"/>reprobatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

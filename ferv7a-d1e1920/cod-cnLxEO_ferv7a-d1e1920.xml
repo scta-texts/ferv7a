@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 26</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 26</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="73"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1920"><!-- ferv7a-l3c26 -->
+            <head xml:id="ferv7a-d1e1920-Hd1e101">Capitulum 26</head>
+            <p xml:id="ferv7a-d1e1920-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="33" type="fixed=73"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="34"/>CUM in praecedenti capite determinatum sit felicitatem
+<lb ed="#L" n="35"/>et beatitudinem in intellectione- Dei consistere, in hoc
+<lb ed="#L" n="36"/>capite vult Sanctus Thomas quaedam dubia removere, 
+qui<lb ed="#L" break="no" n="37"/>bus posset alicui videri. quod magis in actu voluntatis 
+consi<lb ed="#L" break="no" n="38"/>steret. Circa hoc autem tria. facit: primo, movet. dubia;
+<lb ed="#L" n="39"/>secundo, probat beatitudinem in actu voluntatis non posse
+<lb ed="#L" n="40"/>consistere; tertio, ad obiecta respondet..
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e130">
+               <lb ed="#L" n="41"/>I. Quantum ad. primum, adducuntur quinque rationes
+<lb ed="#L" n="42"/>quibus videtur: quod .felicitas magis in actu. voluntatis 
+con<lb ed="#L" break="no" n="43"/>sistat quam in actu intellectus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e139">
+               <lb ed="#L" n="44"/>Prima est. Obiectum voluntatis est tni; irc habet
+<lb ed="#L" n="45"/>rationem finis; et verum, quod est obiectum intellectus, non
+<lb ed="#L" n="46"/>habet rationem finis nisi inquantum est bonum. Ergo homo
+<lb ed="#L" n="47"/>non consequitur ultimum finem per. actum. intellectus, sed
+<lb ed="#L" n="48"/>magis per actumr;voluntatis. 
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e153">
+               <lb ed="#L" n="49"/>Secunda est. Ultima: perfectio fipenouis est delectatio,
+<lb ed="#L" n="50"/>ut .patet X Ethicorum. Ergo etc. — Probatur toris nd Ga.
+<lb ed="#L" n="51"/>Quia perfecta operatio est ultimus finis. :
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e162">
+               <lb ed="#L" n="52"/>Tertia est. Delectatio ita. propter se. videtur desiderari
+<lb ed="#L" n="53"/>quod nunquam propter aliud. Ergo est ultimus finis. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e169">
+               <lb ed="#L" n="54"/>Quarta est. Plures quaerunt delectationem quam 
+cogni<lb ed="#L" break="no" n="55"/>tionem. Ergo etc. — Probatur consequentia. Quia in appetitu
+<lb ed="#L" n="56"/>ultimi finis maxime. omnes concordant; cum:sit naturalis:
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e178">
+               <lb ed="#L" n="57"/>Quinta. est. Voluntas est altior potentia quam intellectus:
+<lb ed="#L" n="58"/>quia movet intellectum ad finem. Ergo actio. voluntatis est
+<lb ed="#L" n="59"/>nobilior actione intellectus. Ergo etc...
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e187">
+               <lb ed="#L" n="60"/>II. Quantum ad secundum, probat Sanctus. Thomas, i istis
+<lb ed="#L" n="61"/>non obstantibus, quod est impossibile ultimam hominis: ufo
+<lb ed="#L" n="62"/>citatem in actu voluntatis consistere. |...
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e196">
+               <lb ed="#L" n="63"/>Et arguit primo sic. Beatitudo secundum illud. 
+jntelle<lb ed="#L" break="no" n="64"/>ctuali naturae convenit quod est sibi: proprium, Ergo. in actu
+<lb ed="#L" n="65"/>intellectus substantialiter consistit et principaliter, magis
+<lb ed="#L" n="66"/>quam. in actu voluntatis. — Probatur antecedens. Quia 
+beati<lb ed="#L" break="no" n="67"/>tudo est proprium bonum intellectualis naturae. — 
+Conse<lb ed="#L" break="no" n="68"/>quentia vero probatur, Quia intellectus secundum se est
+<lb ed="#L" n="69"/>proprius intellectuali naturae: voluntas. autem, secundum
+<lb ed="#L" n="70"/>quod est appetitus, non est ei propria, sed solum secundum
+<lb ed="#L" n="71"/>quod ab intellectu.dependet; cum appetitus omnibus rebus
+<lb ed="#L" n="72"/>insit; diversimode tamen secundum quod diversimode se
+<lb ed="#L" n="73"/>habent ad cognitionem, ut patet per. appetitus et naturas
+<lb ed="#L" n="74"/>discurrendo.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e226">
+               <lb ed="#L" n="75"/>Advertendum quod voluntas habet quod sit appetitus in
+<lb ed="#L" n="76"/>quo cum appetitu aliarum rerum convenit; et habet ut
+<lb ed="#L" n="77"/>consequatur intellectum, in quo ab aliarum:rerum appetitu
+<lb ed="#L" n="78"/>differt; nam. appetitus naturalis formam naturalem conse:
+<lb ed="#L" n="79"/>quitur, sensitivus autem sensitivam. Licet ergo voluntas sit
+<lb ed="#L" n="80"/>propria intellectuali. naturae, non tamen | habet .ut. sit illi
+<lb ed="#L" n="81"/>propria: inquantum absolute est appetitus, sed inquantum
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="82"/>est intellectualis appetitus. Ideo tota proprietas ipsius ad
+<lb ed="#L" n="83"/>intellectualem naturam est ex intellectu: sicut proprietas
+<lb ed="#L" n="84"/>appetitus naturalis ad rem naturalem est ex naturali forma,
+<lb ed="#L" n="85"/>et:.proprietas sensitivi appetitus. ad animal est ex sensu;
+<lb ed="#L" n="86"/>Propterea bene inquit Sanctus Thomas: quod intellectus
+<lb ed="#L" n="87"/>secundum se, hoc est, non propter dependentiam ex aliqua
+<lb ed="#L" n="88"/>alia virtute, est proprius intellectuali naturae: voluntas autem
+<lb ed="#L" n="89"/>est proprium :eius secundum quod ab intellectu dependet,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e263">
+               <lb ed="#L" n="90"/>III. Secundo. Primum obiectum voluntatis praecedit
+<lb ed="#L" n="91"/>omnei actum eius. Ergo eius actus non potest esse primum
+<lb ed="#L" n="92"/>volitum. Ergo non potest esse beatitudo: — Probatur 
+ante<lb ed="#L" break="no" n="93"/>cedens. Quia in omnibus potentiis quae moventur a suis
+<lb ed="#L" n="94"/>obiectis, obiecta sunt naturaliter: priora actibus illarum 
+po<lb ed="#L" break="no" n="95"/>tentiarum, sicut motor praecedit naturaliter moveri. Voluntas
+<lb ed="#L" n="96"/>autem est talis potentia: cum moveatur ab appetibili;- Prima
+<lb ed="#L" n="97"/>consequentia patet. — Secunda vero probatur. Quia POR
+<lb ed="#L" n="98"/>volitum est ultimus finis, quae est beatitudo.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e285">
+               <lb ed="#L" n="99"/>Advertendum quod, cum beatitudo dupliciter accipi possit,
+<lb ed="#L" n="100"/>utin superioribus. patuit, scilicet quantum ad communem
+<lb ed="#L" n="101"/>rationem beatitudinis, quae estratio summi boni, et quantum
+<lb ed="#L" n="102"/>ad rationem particularem eius in quo ratio summi boni 
+sal<lb ed="#L" break="no" n="103"/>vatur: cum dicitur quod primum volitum est ultimus finis;
+<lb ed="#L" n="104"/>quae est beatitudo, accipitur.beatitudo non solum quantum
+<lb ed="#L" n="105"/>ad communem rationem summi boni per se et absolute
+<lb ed="#L" n="106"/>acceptam; sed etiam quantum ad particularem . rationem
+<lb ed="#L" n="107"/>eius in quo: summi boni ratio. salvatur. Nam. hic loquitur
+<lb ed="#L" n="108"/>Sanctus "Thomas non de:prioritate durationis, sed de.
+prio<lb ed="#L" break="no" n="109"/>ritate perfectionis.: Perfectissimum. autem  appetibile et 
+vo<lb ed="#L" break="no" n="110"/>libile est'id in quo summi boni ratio invenitur: accipiendo
+<lb ed="#L" n="111"/>summum -bonum ut se extendit. et. ad. ultimum | finem
+<lb ed="#L" n="112"/>extrinsecum creaturae. intellectualis, qui :est .Deus; et. ad
+<lb ed="#L" n="113"/>ultimum finem intrinsecum, qui est adeptio illius extrinseci
+<lb ed="#L" n="114"/>finis. Ethoc dicitur primum,.obiectum voluritatis et primum
+<lb ed="#L" n="115"/>volitum; propter quod.omnia alia sunt volenda, Et'hoe 
+natu<lb ed="#L" break="no" n="116"/>raliter omnem actum voluntatis praecedit, sicut omne 
+obiec<lb ed="#L" break="no" n="117"/>tum praecedit naturaliter actum potentiae quam movet, ea
+<lb ed="#L" n="118"/>scilicet prioritate qua dicitur. natura prius a quo. non .
+con<lb ed="#L" break="no" n="119"/>vertitur subsistendi consequemtia. Idcirco, cum nihil.seipso
+<lb ed="#L" n="120"/>secundum eandem rationem naturaliter prius sit; optime 
+se<lb ed="#L" break="no" n="121"/>quitur, ut deducit Sanctus Thomas, quod actus voluntatis
+<lb ed="#L" n="122"/>non potest esse ipsa beatitudo, quod est primum volitum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e340">
+               <lb ed="#L" n="123"/>IV. Tertio . In omnibus potentiis quae possunt converti
+<lb ed="#L" n="124"/>in suos actus, oportet quod prius actus illius. potentiae
+<lb ed="#L" n="125"/>feratur in obiectum aliquod, et postnodum feratur in suum
+<lb ed="#L" n="126"/>actum: ut patet in intellectu prius intelligente aliquod
+<lb ed="#L" n="127"/>obiectum :quam intelligat se intelligere. Ergo primum 
+vo<lb ed="#L" break="no" n="128"/>litum non potest esse ipsum velle, sed aliquid aliud bonum:
+<lb ed="#L" n="129"/>Ergo nec potest esse essentialis beatitudo, - Probatur secunda
+<pb ed="#L" n="74"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consequentia. Quia primum volitum intellectualis naturae
+<lb ed="#L" n="2"/>est ipsa beatitudo: propter hoc enim volumus quaecumque
+<lb ed="#L" n="3"/>volumus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e369">
+               <lb ed="#L" n="4"/>V. Ad hanc rationem posset ex verbis <ref xml:id="ferv7a-d1e1920-Rd1e373">
+                  <name xml:id="ferv7a-d1e1920-Nd1e375">Scoti</name> i in IV Sent.,
+<lb ed="#L" n="5"/>d. XLIX, q. IV</ref>; dici quod utique voluntatis actus non est
+<lb ed="#L" n="6"/>primum volitum, sed hoc est obiectum ad extra: et 
+con<lb ed="#L" break="no" n="7"/>sequenter non est finis omnino ultimus, propter quem omnia
+<lb ed="#L" n="8"/>volumus. Et hoc concludit ratio. Huic tamen non repugnat.
+<lb ed="#L" n="9"/>quin magis appropinquet ad simpliciter ultimum extra
+<lb ed="#L" n="10"/>ipse actus voluntatis quam actus intellectus, et ex hoc
+<lb ed="#L" n="11"/>habeat quod sit ultimus finis. intrinsecus, et beatitudo 
+es<lb ed="#L" break="no" n="12"/>sentialis intrinseca.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e396">
+               <lb ed="#L" n="13"/>Secundo, posset haec ratio nritdi u tanquam. per
+<lb ed="#L" n="14"/>fallaciam aequivocationis peccans , Nam cum dicitur quod
+<lb ed="#L" n="15"/>primum volitum non est ipsum velle,. quia potentia prius
+<lb ed="#L" n="16"/>fertur in obiectum aliquod quam in suum actum, ibi 
+ac<lb ed="#L" break="no" n="17"/>cipitur primum volitum prioritate durationis. Cum autem
+<lb ed="#L" n="18"/>subsumitur quod primum volitum est beatitudo, accipitur
+<lb ed="#L" n="19"/>primum volitum prioritate perfectionis: quod patet quia
+<lb ed="#L" n="20"/>adducitur pro ratione quod propter hoc volumus 
+quaecum<lb ed="#L" break="no" n="21"/>que volumus; haec enim est conditio et ratio perfectissimi
+<lb ed="#L" n="22"/>voliti.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e421">
+               <lb ed="#L" n="23"/>2. Ad tollendam autem hanc Scoti responsionem, 
+consi<lb ed="#L" break="no" n="24"/>derandum, ex doctrina Sancti Thomae I IF, q. xr, a. 3; et
+<lb ed="#L" n="25"/>Quarto, d. xrix, q. ri, a. 4, qu? 3, quod cum duplex sit finis
+<lb ed="#L" n="26"/>ultimus, unus scilicet extrinsecus, qui ad nullum omnino
+<lb ed="#L" n="27"/>finem ordinatur, alius vero intrinsecus, qui scilicet et ipse
+<lb ed="#L" n="28"/>ad nullum ulteriorem finem ordinatur intrinsecum; et finis
+<lb ed="#L" n="29"/>intrinsecus sit. assecutio quaedam finis extrinseci, sive
+<lb ed="#L" n="30"/>operatio quae fini exteriori primo coniungit: isti duo fines
+<lb ed="#L" n="31"/>simul. sumpti habent rationem unius | voliti, inquantum
+<lb ed="#L" n="32"/>unum est ratio volendi alterum. Et ideo utrumque habet
+<lb ed="#L" n="33"/>rationem primi voliti in suo ordine. Dum enim aliquis vult
+<lb ed="#L" n="34"/>pecuniam tanquam.ultimum finem, simul vult pecuniam
+<lb ed="#L" n="35"/>et consecutionem pecuniae, aut possessionem ipsius 
+inquan<lb ed="#L" break="no" n="36"/>tum est eius assecutio, ita quod et pecunia et assecutio
+<lb ed="#L" n="37"/>pecuniae habent rationem unius voliti: et sicut apud ipsum
+<lb ed="#L" n="38"/>pecunia est primum volitum, ita et eius assecutio, unum
+<lb ed="#L" n="39"/>sicut extrinsecus finis, alterum sicut intrinsecus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e460">
+               <lb ed="#L" n="40"/>Sic etiam in vera beatitudine, et vero ultimo fine, voluntas
+<lb ed="#L" n="41"/>vult: simul Deum et assecutionem' eius, nec vult Deum
+<lb ed="#L" n="42"/>sicut ultimum suum finem sibi acquirendum, nisi simul
+<lb ed="#L" n="43"/>volendo eius assecutionem inquantum est eius assecutio.
+<lb ed="#L" n="44"/>Unde et utrumque simul est primum volitum: Deus quidem
+<lb ed="#L" n="45"/>primum volitum -extrinsecum ; assecutio autem, inquantum
+<lb ed="#L" n="46"/>huiusmodi, primum volitum intrinsecum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e478">
+               <lb ed="#L" n="47"/>Ex hoc sequitur optime, ut concludit ratio, quod actus
+<lb ed="#L" n="48"/>voluntatis non potest esse ultimus finis etiam intrinsecus,
+<lb ed="#L" n="49"/>nedum extrinsecus, sic arguendo. Ultimus finis tam 
+in<lb ed="#L" break="no" n="50"/>trinsecus quam extrinsecus est primum  volitum: quia
+<lb ed="#L" n="51"/>uterque simul est id propter quod omnia, aut scilicet 
+ex<lb ed="#L" break="no" n="52"/>plicite aut implicite, volumus. Sed actus voluntatis non
+<lb ed="#L" n="53"/>est primum. volitum, ergo nullo. modo est ultimus finis. —
+<lb ed="#L" n="54"/>Probatur minor. Quia primum in quod fertur potentia quae
+<lb ed="#L" n="55"/>super actum suum reflectitur, non est actus ipsius potentiae,
+<lb ed="#L" n="56"/>sed aliquid aliud in quod actus fertur sicut in obiectum:
+<lb ed="#L" n="57"/>oportet enim quemlibet huiusmodi actum habere aliquod
+<lb ed="#L" n="58"/>obiectum a se distinctum ad quod potentia ordinem habeat,
+<lb ed="#L" n="59"/>et in. quod per ipsum actum feratur, ut patet in omnibus
+<lb ed="#L" n="60"/>huiusmondi potentiis discurrendo. Sed voluntatis obiectum
+<lb ed="#L" n="61"/>est volitum et appetibile. Ergo oportet ut prius voluntas
+<lb ed="#L" n="62"/>velit aliquid aliud quam suum actum. Et sic eius actus
+<lb ed="#L" n="63"/>non potest esse primum volitum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e517">
+               <lb ed="#L" n="64"/>Constat itaque responsionem Scoti non infringere 
+ra<lb ed="#L" break="no" n="65"/>tionem Sancti Thomae: et quod ipsa ratio optime 
+con<lb ed="#L" break="no" n="66"/>cludit actum voluntatis non posse esse ultimum finem
+<lb ed="#L" n="67"/>etiam intrinsecum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e528">
+               <lb ed="#L" n="68"/>3. — Ad. secundum respondetur. quod per primum 
+vo<lb ed="#L" break="no" n="69"/>litum intelligit Sanctus "Thomas non primum dauratione
+<lb ed="#L" n="70"/>tantum; nec;primum perfectione ut sic; sed primum 
+se<lb ed="#L" break="no" n="71"/>cundum naturam: absolute. Tale autem dicitur quod 
+prae<lb ed="#L" break="no" n="72"/>suppohitur aliis volitis ita quod, aliis positis, ipsum 
+po<lb ed="#L" break="no" n="73"/>nitur, et ipso remoto, alia removentur. Et in hoc sensu
+<lb ed="#L" n="74"/>vera est utraque propositio. Nam verum est quod velle
+<lb ed="#L" n="75"/>non potest esse primum  volitum, quia praesupponit aliud
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>volitum, scilicet: obiectum ad quod terminatur ipsum velle.
+<lb ed="#L" n="77"/>Si enim ponitur velle, oportet esse aliquid ad quod 
+ter<lb ed="#L" break="no" n="78"/>minetur; et si non ponitur aliquod obiectum ad quod 
+ter<lb ed="#L" break="no" n="79"/>minetur, non potest poni ipsum velle; oportet enim omnem
+<lb ed="#L" n="80"/>actum et operationem ad aliquod obiectum terminari, cum
+<lb ed="#L" n="81"/>ab ipso speciem sumat. — Similiter verum.est quod primum
+<lb ed="#L" n="82"/>volitum est beatitudo, primum dico secundum naturam:
+<lb ed="#L" n="83"/>quia nihil praesupponitur volitum prius propter quod 
+bea<lb ed="#L" break="no" n="84"/>titudinem quis velit, sed omne quod quis vult, propter
+<lb ed="#L" n="85"/>ipsam vult beatitudinem, aut explicite aut implicite; cum
+<lb ed="#L" n="86"/>virtus ultimi finis in omni volito salvetur, sicut et virtus
+<lb ed="#L" n="87"/>primi efficientis in omnibus secundis efficientibus salvatur.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e576">
+               <lb ed="#L" n="88"/>Cum autem dicitur quod ratio adducta pro secunda 
+pro<lb ed="#L" break="no" n="89"/>positione. probat de primitate secundum perfectionem: 
+di<lb ed="#L" break="no" n="90"/>citur quod utique ex illa ratione concludi potest 
+beatitu<lb ed="#L" break="no" n="91"/>dinem esse primum volitum. primitate perfectionis, quia
+<lb ed="#L" n="92"/>primitas perfectionis in causis efficientibus et finalibus 
+con<lb ed="#L" break="no" n="93"/>comitatur primitatem naturae; prima enim causa efficiens
+<lb ed="#L" n="94"/>secundum naturam, quae scilicet omnibus aliis 
+praesuppo<lb ed="#L" break="no" n="95"/>nitur, est perfectissima omnium causarum efficientium; et
+<lb ed="#L" n="96"/>primum simplieiter- volitum, ad quod scilicet omnia volita
+<lb ed="#L" n="97"/>ordinantur tanquam in ultimum finem, est perfectissimum
+<lb ed="#L" n="98"/>volitum. Veruntamen ex illa ratione concludi etiam potest
+<lb ed="#L" n="99"/>beatitudinem esse primum volitum prioritate naturae: prius
+<lb ed="#L" n="100"/>enim natura volumus id propter quod omnia volumus,
+<lb ed="#L" n="101"/>quam quaecumque alia. Et ad hoc concludendum inducitur
+<lb ed="#L" n="102"/>a Sancto Thoma. Ex hoc enim quod propter beatitudinem
+<lb ed="#L" n="103"/>volumus quaecumque volumus, patet quod beatitudo ad
+<lb ed="#L" n="104"/>alium ulteriorem finem non ordinatur; et quod omnia a
+<lb ed="#L" n="105"/>nobis volita ad ipsum tanquam ad ultimum finem tendunt;
+<lb ed="#L" n="106"/>in. quo consistit ratio primi voliti secundum : naturam.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e621">
+               <lb ed="#L" n="107"/>4. Attendendum autem quod ista ratio differt a. priori, .
+<lb ed="#L" n="108"/>quia in praecedenti probatur actum voluntatis non esse
+<lb ed="#L" n="109"/>primum volitum, ex ordine naturali inter obiectum et
+<lb ed="#L" n="110"/>actum voluntatis absolute. consideratum inquantum est  —
+<lb ed="#L" n="111"/>actus: in hac autem ratione idem probatur ex ordine inter
+<lb ed="#L" n="112"/>obiectum et actum voluntatis ieqcan m et ipse potest
+<lb ed="#L" n="113"/>babere rationem voliti.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e639">
+               <lb ed="#L" n="114"/>VI. Quarto. Vera beatitudo a falsa differt ex parte
+<lb ed="#L" n="115"/>intellectus, non autem ex parte voluntatis: cum voluntas
+<lb ed="#L" n="116"/>eodem modo se habeat in amando vel desiderando vel
+<lb ed="#L" n="117"/>delectando, quicquid illud sit. quod sibi proponitur ut
+<lb ed="#L" n="118"/>summum bonum, sive vere sive false; utrum autem vere
+<lb ed="#L" n="119"/>vel falso sit summum bonum, differt ex parte intellectus.
+<lb ed="#L" n="120"/>Ergo etc. — Probatur consequentia. Quia unumquodque
+<lb ed="#L" n="121"/>secundum ea quae constituunt substantiam eius, habet
+<lb ed="#L" n="122"/>suae naturae veritatem: sicut verus homo differt a picto
+<lb ed="#L" n="123"/>per ea quae substantiam hominis constituunt.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e663">
+               <lb ed="#L" n="124"/>2. Sed videtur ista ratio deficere. Cum enim dicitur quod
+<lb ed="#L" n="125"/>vera beatitudo differt a falsa ex parte intellectus, aut 
+intel<lb ed="#L" break="no" n="126"/>ligitur quod ex aliquo ad intellectum pertinente differat
+<lb ed="#L" n="127"/>tanquam ex forma: aut quod talis differentia per actum
+<lb ed="#L" n="128"/>intellectus cognoscatur. Si primo modo accipiatur, tunc
+<lb ed="#L" n="129"/>illa propositio a tenentibus beatitudinem intrinsecam esse
+<lb ed="#L" n="130"/>actum voluntatis, negabitur. Non enim, apud ipsos, ex
+<lb ed="#L" n="131"/>aliquo ad intellectum pertinente vera beatitudo a falsa
+<lb ed="#L" n="132"/>distinguitur, sed ex eo quod ad voluntatem pertinet.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e685">
+               <lb ed="#L" n="133"/>Si autem secundo modo intelligatur, falsa est 
+conse<lb ed="#L" break="no" n="134"/>quentia, et probatio nulla est, si sic arguatur: Unumquodque
+<lb ed="#L" n="135"/>secundum ea quae constituunt substantiam eius, habet suae
+<lb ed="#L" n="136"/>naturae veritatem: sed vera beatitudo cognoscitur distingui
+<lb ed="#L" n="137"/>a falsa per intellectum, non autem per voluntatem: ergo
+<lb ed="#L" n="138"/>quod pertinet ad intellectum est de essentia et substantia
+<lb ed="#L" n="139"/>beatitudinis, non autem quod pertinet ad voluntatem. —
+<lb ed="#L" n="140"/>Iterum negatur consequentia: quia arguitur ex propositio0
+<lb ed="#L" n="141"/>nibus mon syllogizatis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e707">
+               <lb ed="#L" n="142"/>3. Respondetur quod ratio optime concludit si bene
+<lb ed="#L" n="143"/>intelligatur. Dicitur enim quod propositio illa,. Vera. 
+bea<lb ed="#L" break="no" n="144"/>titudo differt a falsa ex parte intellectus, intelligitur in
+<lb ed="#L" n="145"/>primo sensu. scilicet quod ex aliquo ad' intellectum 
+per<lb ed="#L" break="no" n="146"/>tinente formaliter differt a falsa. Et licet Scotus eam forte
+<lb ed="#L" n="147"/>negaret, est tamen vera, et probari potest, si natura 
+intel<lb ed="#L" break="no" n="148"/>lectus et voluntatis consideretur. Ad cuius evidentiam,
+<lb ed="#L" n="149"/>considerandum .est.quod,:cum voluntatis obiectum sit 
+bo<lb ed="#L" break="no" n="150"/>num cognitum; et voluntas non feratur in obiectum nisi
+<pb ed="#L" n="75"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>secundum quod sibi per intellectum proponitur, et secundum
+<lb ed="#L" n="2"/>eam rationem secundum quam sibi proponitur: non refert,
+<lb ed="#L" n="3"/>quantum ad voluntatem, utrum illud quod sibi: proponitur
+<lb ed="#L" n="4"/>tanquam sumimum bonum et beatitudo, sit secundum 
+ve<lb ed="#L" break="no" n="5"/>ritatem summum bonum necne; quia, dummodo sibi offeratur
+<lb ed="#L" n="6"/>sub ratione summi boni, ad quam rationem naturalem habet
+<lb ed="#L" n="7"/>inclinationem, in ipsum fertur acceptando. Et ideo iudicium
+<lb ed="#L" n="8"/>de vera beatitudine non potest sumi ex ipsa voluntate,
+<lb ed="#L" n="9"/>quasi in hoc quod est vere beatitudo, feratur voluntas
+<lb ed="#L" n="10"/>amando illud et in ipso se oblectando, in eo autem quod
+<lb ed="#L" n="11"/>non est vera beatitudo, non se oblectet. Sed bene iudicium
+<lb ed="#L" n="12"/>de vera beatitudine sumitur ex ipso intellectu. Cum enim
+<lb ed="#L" n="13"/>beatitudo etsummum bonum sit perfectum bonum etsumma
+<lb ed="#L" n="14"/>perfectio creaturae intellectualis inquantum intellectualis est,
+<lb ed="#L" n="15"/>illud vere est beatitudo et summum. bonum hominis quod
+<lb ed="#L" n="16"/>est. vere perfectum bonum et summa. perfectio ipsius
+<lb ed="#L" n="17"/>inquantum est intellectualis natura: quod autem non est
+<lb ed="#L" n="18"/>vere talis perfectio, non est vere summum bonum. ipsius.
+<lb ed="#L" n="19"/>Natura vero intellectualis habet ut intellectualis dicatur ex
+<lb ed="#L" n="20"/>eo quod habet intellectum. Ideo vera beatitudo a falsa ex
+<lb ed="#L" n="21"/>ordine ad intellectum formaliter differt. Et sic constat quod,
+<lb ed="#L" n="22"/>si debeat poni beatitudo essentialiter consistere in actu
+<lb ed="#L" n="23"/>intellectus aut in actu voluntatis, magis ponenda est in
+<lb ed="#L" n="24"/>actu intellectus. Et hoc est intentum rationis Sancti Thomae.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e785">
+               <lb ed="#L" n="25"/>VII. Quinto. Neque desiderare, neque amare, neque
+<lb ed="#L" n="26"/>delectari est ipsa felicitas. Ergo etc. — Probatur antecedens
+<lb ed="#L" n="27"/>quantum ad omnes partes. Non enim est desiderium: quia
+<lb ed="#L" n="28"/>desiderium est non habiti; quod contrariatur rationi ultimi
+<lb ed="#L" n="29"/>finis. - Non amor: quia aliud est habere bonum quod est
+<lb ed="#L" n="30"/>fnis, quam amare; cum ante habere sit imperfectum,
+<lb ed="#L" n="31"/>post habere vero sit perfectum; nam amatur bonum etiam
+<lb ed="#L" n="32"/>antequam habeatur, et amor habiti perfectior est ex hoc
+<lb ed="#L" n="33"/>quod bonum habetur amatum. — Non etiam est delectatio:
+<lb ed="#L" n="34"/>quia causatur ex eo quod est habere bonum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e810">
+               <lb ed="#L" n="35"/>2. Advertendum primo, quod in hac ratione 
+praesuppo<lb ed="#L" break="no" n="36"/>nitur felicitatem formalem et intrinsecam consistere in 
+con<lb ed="#L" break="no" n="37"/>secutione ultimi finis extrinseci, sive obiecti talis felicitatis.
+<lb ed="#L" n="38"/>Quod expresse ponitur I II^, q. v, a. 1 et 4; item IV Sent.,
+<lb ed="#L" n="39"/>d. xux,  a. 1, qu 2. Hoc enim supposito, constat quod
+<lb ed="#L" n="40"/>repugnat rationi ultimi finis, scilicet formalis et intrinseci,
+<lb ed="#L" n="41"/>ut hic dicitur, quod sit actus ad id quod nondum habetur
+<lb ed="#L" n="42"/>terminatus. Non enim actus qui est non habiti, inquantum
+<lb ed="#L" n="43"/>huiusmodi, est consecutio finis extrinseci: cum consecutio.
+<lb ed="#L" n="44"/>rei importet quandam habitionem ipsius. Et propterea 
+de<lb ed="#L" break="no" n="45"/>siderium, quod ad non habitum terminatur, et amor rei
+<lb ed="#L" n="46"/>absentis, non possunt esse ultimus finis intrinsecus, quem
+<lb ed="#L" n="47"/>dicimus felicitatem. Amor autem qui est iam habiti, et
+<lb ed="#L" n="48"/>delectatio quae ex re iam habita et possessa causatur, non
+<lb ed="#L" n="49"/>possunt esse ipsa finis consecutio, qui est ultimus finis,
+<lb ed="#L" n="50"/>sed ipsam praesupponunt: cum praesupponant praesentiam
+<lb ed="#L" n="51"/>et habitionem obiecti beatifici. Et sic patet quod ratio
+<lb ed="#L" n="52"/>Sancti Thomae optima est.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e852">
+               <lb ed="#L" n="53"/>3. Ad ipsam tamen respondet Scotus, in loco 
+praeal<lb ed="#L" break="no" n="54"/>legato, quod utique per actum voluntatis qui est desiderium,
+<lb ed="#L" n="55"/>non est assecutio finis: negatur tamen quod per amorem
+<lb ed="#L" n="56"/>qui est rei praesentis, non sit talis finis assecutio. Immo
+<lb ed="#L" n="57"/>dicitur quod per amorem est finis assecutio primo 
+pri<lb ed="#L" break="no" n="58"/>mitate perfectionis, licet sit per intellectum aliqua ipsius
+<lb ed="#L" n="59"/>assecutio prior prioritate generationis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e870">
+               <lb ed="#L" n="60"/>Sed ista responsio rationem Sancti Thomae non tollit.
+<lb ed="#L" n="61"/>Tum quia amare non est consequi rem amatam, neque,
+<lb ed="#L" n="62"/>inquam, primo neque secundario: cum amor sit etiam rei
+<lb ed="#L" n="63"/>absentis; et quando est rei praesentis, nihil aliud sit quam
+<lb ed="#L" n="64"/>complacentia quaedam appetitus in re praesenti et habita.
+<lb ed="#L" n="65"/>Complacentia autem talis non est rei consecutio, sed ex ipsa
+<lb ed="#L" n="66"/>causatur: et tanto est maior, quanto est perfectior 
+con<lb ed="#L" break="no" n="67"/>secutio rei amatae, et quanto maior est unio secundum
+<lb ed="#L" n="68"/>rem amantis et rei amatae.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e892">
+               <lb ed="#L" n="69"/>4. Si autem adducatur . dictum Sancti Thomae I II,
+<lb ed="#L" n="70"/>q. xxvitt, a. 1, ad 3, dicentis quod amor est magis unitivus
+<lb ed="#L" n="71"/>quam cognitio : dicitur primo, quod ibi fit comparatio 
+co<lb ed="#L" break="no" n="72"/>gnitionis nostrae in via ad amorem.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e903">
+               <lb ed="#L" n="73"/>Dicitur secundo, quod amor est magis unitivus causaliter;
+<lb ed="#L" n="74"/>ut patet in illo articulo: quia amor facit quod amans
+<lb ed="#L" n="75"/>quaerat sibi rem amatam unire.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e912">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Dicitur tertio, quod amor est magis unitivus formaliter.
+<lb ed="#L" n="77"/>secundum affectus unionem: est enim formaliter ipsa unio
+<lb ed="#L" n="78"/>secundum coaptationem affectus ad amatum, ut ibidem
+<lb ed="#L" n="79"/>ostendit Sanctus Thomas. Nos autem hic loquimur de
+<lb ed="#L" n="80"/>unione secundum rem, quae fit per consecutionem ultimi.
+<lb ed="#L" n="81"/>finis extrinseci: unumquodque enim nititur unire sibi
+<lb ed="#L" n="82"/>realiter suum ultimum finem. Talis autem unio fit 
+se<lb ed="#L" break="no" n="83"/>cundum intellectum; inquantum divina essentia unitur 
+in<lb ed="#L" break="no" n="84"/>tellectui beatorum, non per similitudinem, sed per seipsam.
+<lb ed="#L" n="85"/>Non autem fit per amorem: nisi forte inquantum amor
+<lb ed="#L" n="86"/>includit unionem illam per intellectum. Unde cognitio
+<lb ed="#L" n="87"/>qua beati vident Deum, est magis unitiva quam amor
+<lb ed="#L" n="88"/>ipsius, inquantum huiusmodi praecise.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e946">
+               <lb ed="#L" n="89"/>VIII. Sexto. Delectatio non est ultimus finis. Ergo
+<lb ed="#L" n="90"/>multo magis neque aliquis alius actus voluntatis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e953">
+               <lb ed="#L" n="91"/>Antecedens tripliciter probatur. Primo, quia non est
+<lb ed="#L" n="92"/>secundum se appetenda, sed hoc habet ex operationibus
+<lb ed="#L" n="93"/>quas consequitur. Est enim bona et appetenda quae bonas
+<lb ed="#L" n="94"/>et appetendas operationes consequitur: fugienda autem quae
+<lb ed="#L" n="95"/>consequitur malas. Et consequenter non potest habere 
+ra<lb ed="#L" break="no" n="96"/>tionem ultimi finis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e969">
+               <lb ed="#L" n="97"/>Secundo, quia in naturalibus est delectatio propter 
+ope<lb ed="#L" break="no" n="98"/>rationem, et non e converso: ut patet in usu ciborum et
+<lb ed="#L" n="99"/>venereorum, quorum unum ordinatur ad conservationem
+<lb ed="#L" n="100"/>individui, alterum ad conservationem speciei. Rectus autem
+<lb ed="#L" n="101"/>ordo rerum convenit cum ordine naturae: quia et ordo
+<lb ed="#L" n="102"/>naturae est absque errore, sicut scilicet et ordo rerum
+<lb ed="#L" n="103"/>absolute.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e987">
+               <lb ed="#L" n="104"/>Tertio, delectatio nihil aliud esse videtur quam 
+quie<lb ed="#L" break="no" n="105"/>tatio voluntatis in aliquo bono convenienti: sicut desiderium
+<lb ed="#L" n="106"/>est inclinatio in aliquod bonum consequendum. Ergo non
+<lb ed="#L" n="107"/>est ultimus finis, sed ipsum concomitans. — Probatur 
+con<lb ed="#L" break="no" n="108"/>sequentia ex rebus naturalibus, quae etiam ipsae et in
+<lb ed="#L" n="109"/>suos fines inclinantur, et quietantur fine iam adepto: nam
+<lb ed="#L" n="110"/>finis motus gravis est quietatio inclinationis qua in locum
+<lb ed="#L" n="111"/>proprium tendebat. Non enim natura daret inclinationem
+<lb ed="#L" n="112"/>si principaliter intenderet ut inclinatio quietaretur: sed dat
+<lb ed="#L" n="113"/>eam ut in proprium locum tendat, quo consecuto, quasi
+<lb ed="#L" n="114"/>fine, sequitur inclinationis quietatio.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1013">
+               <lb ed="#L" n="115"/>2. Circa consequentiam huius rationis, quam Sanctus
+<lb ed="#L" n="116"/>Thomas non probat, advertendum quod, quia delectatio
+<lb ed="#L" n="117"/>maxime ad.se appetitum trahit, quod ad rationem ultimi
+<lb ed="#L" n="118"/>finis pertinere videtur; et est concomitans omnem 
+adeptio<lb ed="#L" break="no" n="119"/>nem boni convenientis: maxime videtur habere rationem
+<lb ed="#L" n="120"/>ultimi finis inter omnes actus appetitus. Unde etiam 
+Aristo<lb ed="#L" break="no" n="121"/>teles, in X Ethicorum, relinquit sub dubio quid 
+princi<lb ed="#L" break="no" n="122"/>palius ad beatitudinem pertineat, cognitio scilicet an 
+dele<lb ed="#L" break="no" n="123"/>ctatio. Propterea pro manifesto relinquit Sanctus "Thomas,
+<lb ed="#L" n="124"/>si delectatio non.est ultimus finis, quod multo minus alii
+<lb ed="#L" n="125"/>actus appetitus, de quibus minus videtur, sunt finis 
+ul<lb ed="#L" break="no" n="126"/>timus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1042">
+               <lb ed="#L" n="127"/>IX. Circa primam probationem antecedentis dubitatur.
+<lb ed="#L" n="128"/>Quia licet delectatio sit appetenda ex bonis operationibus,
+<lb ed="#L" n="129"/>hoc tamen non tollit quin ipsa sit propter se appetenda
+<lb ed="#L" n="130"/>tanquam finis. Nam non est appetenda ex huiusmodi 
+ope<lb ed="#L" break="no" n="131"/>ribus tanquam ex fine, id quod tolleret rationem ultimi
+<lb ed="#L" n="132"/>finis: sed tanquam ex causa aliquo modo ipsius productiva.
+<lb ed="#L" n="133"/>Unde inquit Sanctus Thomas l1 1I5, q. ir, a. 6, ad 1, quod:
+<lb ed="#L" n="134"/>delectatio propter se, et non propter aliud appetitur, si
+<lb ed="#L" n="135"/>ly propter dicat causam finalem  est autem  appetibilis
+<lb ed="#L" n="136"/>propter aliud si ly propter dicat causam motivam aut
+<lb ed="#L" n="137"/>formalem.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1069">
+               <lb ed="#L" n="138"/>Circa secundam probationem etiam dubium occurrit ,
+<lb ed="#L" n="139"/>ex Sancto Thoma I II, q. 1v, a. 2, ad 2. Ibi enim tenet
+<lb ed="#L" n="140"/>quod. secundum sensitivum appetitum qui est in animalibus,
+<lb ed="#L" n="141"/>operationes quaeruntur propter delectationem. Sed constat
+<lb ed="#L" n="142"/>quod brutum secundum naturae instinctum ad suas 
+ope<lb ed="#L" break="no" n="143"/>rationes movetur. Ergo in naturalibus operatio est propter
+<lb ed="#L" n="144"/>delectationem, non e converso. Cuius oppositum in hac
+<lb ed="#L" n="145"/>ratione sumitur.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1089">
+               <lb ed="#L" n="146"/>Ad tertiam probationem respondet Scotus quod, si
+<lb ed="#L" n="147"/>delectatio accipiatur pro passsione appetitus quae est 
+per<lb ed="#L" break="no" n="148"/>fectio. superveniens operationi, conceditur quod ipsa 
+con<lb ed="#L" break="no" n="149"/>sequitur assecutionem finis, non solum primam 
+genera<lb ed="#L" break="no" n="150"/>lione, sed etiam primam: perfectione, quia consequitur
+<pb ed="#L" n="76"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>actum amandi vel fruendi fine: viso. Et sic conceditur,
+<lb ed="#L" n="2"/>quod ista non est ultimus finis. Si autem accipiatur pro
+<lb ed="#L" n="3"/>actu. elicito a voluntate quietativo ipsius, negatur quod
+<lb ed="#L" n="4"/>consequatur primam | assecutionem finis. primitate | 
+per<lb ed="#L" break="no" n="5"/>fectionis, immo . est. sic prima. assecutio. finis: licet. 
+se<lb ed="#L" break="no" n="6"/>quatur-aliquam assecutionem finis; — eius praesentiam
+<lb ed="#L" n="7"/>per intellectum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1122">
+               <lb ed="#L" n="8"/>X. Ad primum horerti dicitur primo, Bud aliquid potest
+<lb ed="#L" n="9"/>dici. bonum et appetibile, dupliciter: uno modo, in .esse
+<lb ed="#L" n="10"/>naturae; alio modo, in genere. moris. Primo modo 
+con<lb ed="#L" break="no" n="11"/>sideratur bonitas rei absolute, secundum- quod in se. est.
+<lb ed="#L" n="12"/>Secundo modo consideratur in. ordine ad rectam rationem:
+<lb ed="#L" n="13"/>dicitur enim bonum moraliter. quod est conforme .et 
+pro<lb ed="#L" break="no" n="14"/>portionatum .rectae rationi, et est secundum rectam  
+ratio<lb ed="#L" break="no" n="15"/>nem appetibile. Propositio ergo. haec, JDelectatio nom est
+<lb ed="#L" n="16"/>secundum se appetenda. sed. ex: operationibus quas 
+conse<lb ed="#L" break="no" n="17"/>quitur, est intelligenda in genere moris,non autem secundum
+<lb ed="#L" n="18"/>esse naturae. Sic enim verum .est quod.ex se non est 
+ap<lb ed="#L" break="no" n="19"/>petenda: quia ex se non dicit. aliquod «bonum concors
+<lb ed="#L" n="20"/>rationi aut :discordans ab.ea, sed ex operationibus habet
+<lb ed="#L" n="21"/>quod illi sit conformis aut difformis. In esse: tamen 
+na<lb ed="#L" break="no" n="22"/>turae, est bona et appetibilis secundum se. Propter dfuod
+<lb ed="#L" n="23"/>inquit Sanctus "Thomas, IV Sent, d. xrix, quaest. rir, a. 4,
+<lb ed="#L" n="24"/>quod delectatio, inquantum delectatio, aliquid bonum 
+ho<lb ed="#L" break="no" n="25"/>minat.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1164">
+               <lb ed="#L" n="26"/>Dicitur secundo quod dupliciter aliquid potest dici
+<lb ed="#L" n="27"/>propter se appetendum.. Uno modo, quia ad alium
+<lb ed="#L" n="28"/>ulteriorem finem omnino diversum non ordinatur, propter
+<lb ed="#L" n="29"/>quem acquirendum habeat appeti. Alio modo; quia ex sua
+<lb ed="#L" n="30"/>propria ratione habet bonitatem propter quam appetatur, et
+<lb ed="#L" n="31"/>non ratione alicuius appetibilis cui coniungatur. Utrumque
+<lb ed="#L" n="32"/>autem ad rationem ultimi finis requiritur: scilicet et ut ad
+<lb ed="#L" n="33"/>ulteriorem finem . non ordinetur; et ut ex seipso habeat
+<lb ed="#L" n="34"/>sufficientem bonitatem et appetibilitatem tam in esse 
+na<lb ed="#L" break="no" n="35"/>turae quam in genere moris. Patet enim quod Deus, qui
+<lb ed="#L" n="36"/>est ultimus finis extrinsecus, utramque habet conditionem:
+<lb ed="#L" n="37"/>et similiter Dei cognitio quae habetur in patria, quae neque
+<lb ed="#L" n="38"/>ad alium ulteriorem finem intrinsecum ordinatur, neque
+<lb ed="#L" n="39"/>est bona et appetibilis ex aliquo intrinseco cui ut eius 
+dis<lb ed="#L" break="no" n="40"/>positio coniungatur, sed ex seipsa appetibilis est. Delectatio
+<lb ed="#L" n="41"/>autem beatorum, etsi ad alium finem . omnino: extraneum
+<lb ed="#L" n="42"/>Bon. ordinetur, quia concomitatur ultimum finem, caret
+<lb ed="#L" n="43"/>tamen secunda perfectione: non enim ex propria ratione
+<lb ed="#L" n="44"/>babet quod sit bona et appetibilis moraliter, sed ratione
+<lb ed="#L" n="45"/>operationis quam comitatur. Unde. I II5, q. xxxiv, a. 3,
+<lb ed="#L" n="46"/>ad 3, inquit. Sanctus Thomas. quod delectatio non habet
+<lb ed="#L" n="47"/>quod. sit optimum ex hoc quod est delectatio, sed ex hoc
+<lb ed="#L" n="48"/>quod est perfecta quies in optimo. Bene ergo procedit
+<lb ed="#L" n="49"/>ratio Sancti. Thomae. Nam probat delectationem non esse
+<lb ed="#L" n="50"/>ultimum finem ex defectu secundae conditionis quam 
+ul<lb ed="#L" break="no" n="51"/>timo fini inesse oportet: quia videlicet ex propria ratione
+<lb ed="#L" n="52"/>non est appetenda 'moraliter, sed ex ratione alicuius
+<lb ed="#L" n="53"/>adiuncti, ad quod ipsa delectatio consequitur.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1227">
+               <lb ed="#L" n="54"/>XI. Ad secundum dicitur quod ordo inter operationem
+<lb ed="#L" n="55"/>et delectationem brutorum dupliciter considerari potest:
+<lb ed="#L" n="56"/>uno: modo, in comparatione ad institutorem talis ordinis;
+<lb ed="#L" n="57"/>alio modo, in comparatione ad appetitum. sensitivum 
+ipso<lb ed="#L" break="no" n="58"/>rum brutorum, Si comparetur ad institutorem :naturae et
+<lb ed="#L" n="59"/>talis ordinis, sic delectatio est apposita operationibus propter
+<lb ed="#L" n="60"/>ipsas operationes, non: autem operationes sunt institutae
+<lb ed="#L" n="61"/>propter delectationes. Intendens enim institutor naturae
+<lb ed="#L" n="62"/>conservationem individui et multiplicationem individuorum
+<lb ed="#L" n="63"/>in eadem specie, ut animalia operationibus vacent per quas
+<lb ed="#L" n="64"/>individua et conservantur et multiplicantur, illis delectationes
+<lb ed="#L" n="65"/>apposuit, quibus ad praedictas operationes alliciantur. — Si
+<lb ed="#L" n="66"/>autem ad appetitum brutorum comparentur, cuius obiectum
+<lb ed="#L" n="67"/>est bonum delectabile secundum sensum, sic e contrario
+<lb ed="#L" n="68"/>per ipsum. appetitum operationes ad delectationes. 
+ordi<lb ed="#L" break="no" n="69"/>nantur, inquantum bruta operationes propter delectationes
+<lb ed="#L" n="70"/>quaerunt. — Loquitur ergo in hoc loco Sanctus Thomas
+<lb ed="#L" n="71"/>de illo ordine comparando ad;intentionem: instituentis 
+natu<lb ed="#L" break="no" n="72"/>ram et ordinem: in loco autem .allegato loquitur de ipso
+<lb ed="#L" n="73"/>ordine comparando ipsum ad appetitum sensitivum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1273">
+               <lb ed="#L" n="74"/>2. Sed videtur ista responsio non satisfacere. Bruta enim
+<lb ed="#L" n="75"/>non moventur ex seipsis ad suas operationes, sed naturali
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>necessitate moventur, secundum inclinationem sibi datam
+<lb ed="#L" n="77"/>a datore naturae. Ergo ordo appetitionis brutalis non 
+con<lb ed="#L" break="no" n="78"/>trariatur ordini intentionis instituentis- naturam, sed 'eius
+<lb ed="#L" n="79"/>adimplet intentionem: Ergo illa distinctio nulla est. :
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1292">
+               <lb ed="#L" n="80"/>Respondetur quod duplex est intentio fhstituentis 
+na<lb ed="#L" break="no" n="81"/>turam in ordine huiusmodi: una est prima et principalis;
+<lb ed="#L" n="82"/>alia est secundaria. Prima et principalis est ut individua
+<lb ed="#L" n="83"/>et species per operationes conserventur: et ad hoc 
+opera<lb ed="#L" break="no" n="84"/>tionibus adiuncta est delectatio. Secundaria est ut quaerant
+<lb ed="#L" n="85"/>Operationes ex appetitu delectationis: et ad hoc data est
+<lb ed="#L" n="86"/>brutis naturalis inclinatio ad quaerendum operationes propter
+<lb ed="#L" n="87"/>delectationes. Sicut si diceremus quod lex proponens praemia
+<lb ed="#L" n="88"/>studiosarum operationum, primo et principaliter intendit
+<lb ed="#L" n="89"/>ut homo studiosis operibus vacet, et ad. hoc ordinat 
+prae<lb ed="#L" break="no" n="90"/>mium: secundario autem et accessorie intendit quod homo,
+<lb ed="#L" n="91"/>allectus praemio, quaerat propter praemium consequendum
+<lb ed="#L" n="92"/>studiosas operationes. Distinctio ergo data intelligenda est
+<lb ed="#L" n="93"/>per comparationem :ad primam. intentionem 'instituentis
+<lb ed="#L" n="94"/>ordinem;et per comparationem ad appetitum sensitivum,
+<lb ed="#L" n="95"/>qui movetur secundum intentionem secundam instituentis.
+<lb ed="#L" n="96"/>Et sic constat quod, licet bruta moveantur secundum 
+incli<lb ed="#L" break="no" n="97"/>nationem. datam sibi:ab institutore naturae, ordo tamen
+<lb ed="#L" n="98"/>ab ipsorum appetitu servatus distinguitur ab ordine primo
+<lb ed="#L" n="99"/>et principaliter intento ab institutore naturae, sicut ordo
+<lb ed="#L" n="100"/>secundario: intentus ab ordine pes en hanene. et ad
+<lb ed="#L" n="101"/>ipsum ordinatus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1342">
+               <lb ed="#L" n="102"/>XII. Ad responsionem Scoti ad tertiam rationem; dicitur
+<lb ed="#L" n="103"/>quod non evacuat rationem Sancti Thomae. Supponit enim
+<lb ed="#L" n="104"/>unum falsum: scilicet quod beatitudo formalis et intrinseca
+<lb ed="#L" n="105"/>essentialiter consistat in perfectissima coniunctione ad finem
+<lb ed="#L" n="106"/>extrinsecum. quae: est perfectissima extensive. Hoc autem
+<lb ed="#L" n="107"/>est falsum. Nam aliud est loqui de beatitudine quantuin
+<lb ed="#L" n="108"/>ad omnimodam eius perfectionem, tam. essentialem: quam
+<lb ed="#L" n="109"/>accidentalem: ' aliud est loqui de: ipsa: quartum ad eius
+<lb ed="#L" n="110"/>dumtaxat perfectionem essentialem et specificam, et 
+quan<lb ed="#L" break="no" n="111"/>tum ad. perfectissimam operationem secundum. se quae est
+<lb ed="#L" n="112"/>in beatitudine. Ad omnimodam enim ipsius: perfectionem
+<lb ed="#L" n="113"/>requiritur et visio et delectatio ipsam visionem concomitans:
+<lb ed="#L" n="114"/>sed ad essentialem eius perfectionem et specificam sola
+<lb ed="#L" n="115"/>visio Dei per essentiam pertinet; et per consequens sola
+<lb ed="#L" n="116"/>unio. perfecta, qua scilicet anima attingit Deum in se,
+<lb ed="#L" n="117"/>utpote per suam essentiam in anima existentem. Unio
+<lb ed="#L" n="118"/>autem quae est:per actum voluntatis, ad. beatitudinem
+<lb ed="#L" n="119"/>consequitur, et ipsam perficit unionem. Propter quod, si,
+<lb ed="#L" n="120"/>aut per possibile aut per impossibile, delectatio separaretur
+<lb ed="#L" n="121"/>a visione, videns Deum esset quidem beatus essentialiter,
+<lb ed="#L" n="122"/>nonautem completive, quia careret Mic beatitudinem
+<lb ed="#L" n="123"/>concomitante.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1392">
+               <lb ed="#L" n="124"/>Unde contra. Scoti responsionem sic argui potest. Id
+<lb ed="#L" n="125"/>quod: ultimum: finem formaliter consequitur et 
+praesup<lb ed="#L" break="no" n="126"/>ponit, non est essentia beatitudinis intrinsecae et formalis.
+<lb ed="#L" n="127"/>Sed actus voluntatis quem Scotus appellat quietativum,
+<lb ed="#L" n="128"/>praesupponit ultimum finem, sive beatitudinem formalem.
+<lb ed="#L" n="129"/>Ergo non est essentia huiusmodi beatitudinis. — Probatur
+<lb ed="#L" n="130"/>minor. Voluntas non potest elicere actum sui quietativum
+<lb ed="#L" n="131"/>nisi habito a voluntate utroque fine, scilicet et extrinseco
+<lb ed="#L" n="132"/>et intrinseco: quia ad utrumque finem simul movebatur
+<lb ed="#L" n="133"/>dum, volens Deum, appetebat illum sibi uniri et coniungi;
+<lb ed="#L" n="134"/>motus autem non cessat nisi habito fine. Ergo actus elicitus
+<lb ed="#L" n="135"/>a. voluntate eius quietativus praesupponit habitionem
+<lb ed="#L" n="136"/>utriusque finis. Ergo Li AMA UN beatitudinem formalem
+<lb ed="#L" n="137"/>in beato.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1425">
+               <lb ed="#L" n="138"/>2. Si. dicatur quod eadem operatio est hic assecutiva
+<lb ed="#L" n="139"/>perfecte finis extrinseci et quietativa, ut dicit Scotus:
+<lb ed="#L" n="140"/>contra. Supponitur primo, quod quilibet actus voluntatis
+<lb ed="#L" n="141"/>terminatur ad aliquod obiectum, et quod obiectum 
+quieta<lb ed="#L" break="no" n="142"/>tionis voluntatis est bonum praesens. Hoc est de mente
+<lb ed="#L" n="143"/>omnium philosophorum. — Supponitur securido, quod
+<lb ed="#L" n="144"/>idem sit obiectum desiderii dum est absens, et. quietationis
+<lb ed="#L" n="145"/>voluntatis dum est praesens: patet enim: hoc in omni
+<lb ed="#L" n="146"/>appetitu. — Tunc sic. Actus desiderii erat circa ultimum
+<lb ed="#L" n="147"/>finem non solum extrinsecum, sed. etiam intrinsecum et
+<lb ed="#L" n="148"/>formalem: quia beatus, antequam esset beatus, non solum
+<lb ed="#L" n="149"/>desiderabat Deum, sed etiam assecutionem Dei et unionem
+<lb ed="#L" n="150"/>ad ipsum secundum seipsum. Ergo et obiectum quietationis
+<pb ed="#L" n="77"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est non solum ultimus finis extrinsecus, sed etiam finis
+<lb ed="#L" n="2"/>intrinsecus, qui est formalis beatitudo. Ergo ipse actus
+<lb ed="#L" n="3"/>quietativus non est formalis beatitudo, sed ipsam 
+prae<lb ed="#L" break="no" n="4"/>supponit praesentem in beato. Patet prima. consequentia
+<lb ed="#L" n="5"/>per secundum praesuppositum. Patet quoque secunda
+<lb ed="#L" n="6"/>consequentia per primum,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1473">
+               <lb ed="#L" n="7"/>XHL: Septimo principaliter arguitur Finis . ultimus
+<lb ed="#L" n="8"/>substantiae intellectualis est Deus. Ergo illa operatio 
+ho<lb ed="#L" break="no" n="9"/>fninis est substantialiter eius beatitudo per quam primo
+<lb ed="#L" n="10"/>attingit ad. Deum, Ergo est intelligere, non autem' actus
+<lb ed="#L" n="11"/>voluntatis, — Probatur prima consequentia. Quia si alicuius
+<lb ed="#L" n="12"/>rei sit aliqua res exterior: finis, illa eius operatio dicetur
+<lb ed="#L" n="13"/>esse finis ultimus per quam 'consequitur rem illam: ut
+<lb ed="#L" n="14"/>patet in habentibus pecuniam pro fine. — Secunda etiam
+<lb ed="#L" n="15"/>probatur, Quia velle non possumus quod non intelligimus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1495">
+               <lb ed="#L" n="16"/>2. Ad hanc rationem, secundum Scotum, ubi supra,
+<lb ed="#L" n="17"/>responderi potest quod ly primo potest importare aut
+<lb ed="#L" n="18"/>primitatem secundum generationem ; aut primitatem 
+se<lb ed="#L" break="no" n="19"/>cundum perfectionem. Si importet primitatem secundum
+<lb ed="#L" n="20"/>generationem, negatur prima consequentia, et assumptum
+<lb ed="#L" n="21"/>ad eius probationem, Si importet primitatem secundum
+<lb ed="#L" n="22"/>perfectionem, negatur ultima consequentia: quia, licet 
+in<lb ed="#L" break="no" n="23"/>telligere secundum ordinem generationis. praecedat velle,
+<lb ed="#L" n="24"/>non tamen per ipsum homo primo attingit Deum Xr zum
+<lb ed="#L" n="25"/>perfectionis, sed per. actum voluntatis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1520">
+               <lb ed="#L" n="26"/>3. Contra hanc responsionem argui potest ex 
+supra<lb ed="#L" break="no" n="27"/>dictis. Quia videlicet non illa assecutio quae est perfectior,
+<lb ed="#L" n="28"/>ex parte voluntatis se tenens, tanquam" complementum
+<lb ed="#L" n="29"/>perfectionis, habet rationem beatitudinis formalis essentialis:
+<lb ed="#L" n="30"/>sed illa quae est prima ordine generationis, per quam tamen
+<lb ed="#L" n="31"/>perfecte attingitur finis, et quae est causa omnium aliarum
+<lb ed="#L" n="32"/>€oniunctionum et earum mensura.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1538">
+               <lb ed="#L" n="33"/>Probatur enim, primo, ex exemplo adducto. Quia si
+<lb ed="#L" n="34"/>finis avari est pecunia; ipsa prima assecutio pecuniae, qua
+<lb ed="#L" n="35"/>ipsam pecuniam habet in. seipsa, est finis intrinsecus, non
+<lb ed="#L" n="36"/>autem aliquid ad voluntatem pertinens: dicimus enim,
+<lb ed="#L" n="37"/>cum primum assecutus fuerit pecuniam in | seipsa, ipsum
+<lb ed="#L" n="38"/>ad suum finem pervenisse.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1554">
+               <lb ed="#L" n="39"/>Probatur etiam ratione. Illa assecutio est beatitudo in quam
+<lb ed="#L" n="40"/>fertur voluntas et per desiderium, et per quietationem, 
+tan<lb ed="#L" break="no" n="41"/>quam in ultimum finem intrinsecum simul volitum cum fine
+<lb ed="#L" n="42"/>extrinseco. Sed ista ordine generationis praecedit omnem
+<lb ed="#L" n="43"/>assecutionem quaecumque ponatur per actum voluntatis.
+<lb ed="#L" n="44"/>Ergo etc. - Probatur minor. Obiectum quietationis 
+volun<lb ed="#L" break="no" n="45"/>tatis praesupponitur praesens esse volenti antequam 
+quie<lb ed="#L" break="no" n="46"/>tetur : quia voluntas non quietatur nisi habito fine ad quem
+<lb ed="#L" n="47"/>movebatur. Illa autem assecutio in quam fertur quietatio
+<lb ed="#L" n="48"/>voluntatis tanquam in ultimum finem, est eius obiectum.
+<lb ed="#L" n="49"/>Ergo praesupponitur esse praesens. Et sic via generationis
+<lb ed="#L" n="50"/>praecedit unionem quae per actum quietationis fieri dicitur.
+<lb ed="#L" n="51"/>— Eadem autem ratio est de omni actu voluntatis qui
+<lb ed="#L" n="52"/>Obiectum praesens requirat.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1587">
+               <lb ed="#L" n="53"/>Ne existimes autem ideo iipieebtibrein actum esse
+<lb ed="#L" n="54"/>visionem Dei quam delectationem, quia est prior 
+genera<lb ed="#L" break="no" n="55"/>tione. Nam tunc prius generatione est imperfectius quando
+<lb ed="#L" n="56"/>est tantum prius generatione. Sed quando non est tantum
+<lb ed="#L" n="57"/>generatione, sed etiam causalitate effectiva aut formali
+<lb ed="#L" n="58"/>prius, tunc est perfectius. Et sic est de visione, quae est
+<lb ed="#L" n="59"/>prior generatione et causalitate quam delectatio: sicut
+<lb ed="#L" n="60"/>anima dicitur suis potentiis prior, et subiectum suis propriis
+<lb ed="#L" n="61"/>passionibus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1609">
+               <lb ed="#L" n="62"/>XIV. Quantum adtertiam huius capituli partem, 
+respon<lb ed="#L" break="no" n="63"/>det Sanctus Thomas obiectionibus in principio adductis
+<lb ed="#L" n="64"/>huius capituli.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1618">
+               <lb ed="#L" n="65"/>Ad primam quidem respondet ex praecedentibus bod
+<lb ed="#L" n="66"/>ista ratio potius concludit oppositum eius quod intenditur,
+<lb ed="#L" n="67"/>Ex hoc enim quod felicitas, quia habet rationem summi
+<lb ed="#L" n="68"/>boni, est primum obiectum voluftatis, non sequitur quod
+<lb ed="#L" n="69"/>sit substantialiter actus voluntatis: immo sequitur quod
+<lb ed="#L" n="70"/>actus voluntatis non sit, ut superius  est deductum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1635">
+               <lb ed="#L" n="71"/>Advertendum, ex doctrina Sancti Thomae IV Sent;,
+<lb ed="#L" n="72"/>d. xrix, q. 1, a. 1, q.^ 2; et Quolibeto VIIL a. 19, quod
+<lb ed="#L" n="73"/>beatitudinem esse in voluntate dupliciter potest intelligi.
+<lb ed="#L" n="74"/>Uno modo, quod sit eius obiectum : et sic conceditur quod
+<lb ed="#L" n="75"/>est in voluntate, cum sit summum bonum et ultimus finis,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>bonum autem et Jinis' sit obiectum voluntatis. Alio modo,
+<lb ed="#L" n="77"/>quod sit aliquis actus voluntatis. Et sic dictum est quod
+<lb ed="#L" n="78"/>beatitudo essentialiter non potest esse in voluntate, sed
+<lb ed="#L" n="79"/>magis est in intellectu. Unde esse obiectum voluntatis non
+<lb ed="#L" n="80"/>infert esse voluntatis actum, Et ideo, concedens hoc loco
+<lb ed="#L" n="81"/>Sanctus Thomas quod felicitas sit obiectum voluntatis, et
+<lb ed="#L" n="82"/>per consequens quod sit in voluntate obiective, negat illam
+<lb ed="#L" n="83"/>consequentiam, Ergo est actus voluntatis, sive, Ergo est
+<lb ed="#L" n="84"/>in voluntate formaliter el subiective: immo, ut inquit,
+<lb ed="#L" n="85"/>oppositum sequitur,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1672">
+               <lb ed="#L" n="86"/>2. Advertendum: quoque quod ex isto habetur solutio
+<lb ed="#L" n="87"/>unius rationis Scoti, loco praeallegato, qua arguit quod
+<lb ed="#L" n="88"/>voluntas immediatius fertur in Deum sicut in finem 
+ul<lb ed="#L" break="no" n="89"/>timum, ex hoc quia finis ultimus, inquantum huiusmodi,
+<lb ed="#L" n="90"/>est obiectum voluntatis, Patet enim quod utique sequitur
+<lb ed="#L" n="91"/>quod formalius feratur in Deum voluntas sub ratione ultimi
+<lb ed="#L" n="92"/>finis quam intellectus: quia ratio ultimi finis est formale
+<lb ed="#L" n="93"/>in obiecto voluntatis, non autem' in. obiecto intellectus.
+<lb ed="#L" n="94"/>Non tamen sequitur quod in ipsum immediatius feratur:
+<lb ed="#L" n="95"/>quia voluntas non fertur iri suum proprium obiectum nisi
+<lb ed="#L" n="96"/>prius sit apprehensum et cognitum per intellectum, et
+<lb ed="#L" n="97"/>voluntati per intellectum propositum sub ratione boni. Et
+<lb ed="#L" n="98"/>ideo per prius, et consequenter immediatius, terminatur
+<lb ed="#L" n="99"/>actus intellectus ad Deum sub ratione ultimi finis, tanquam
+<lb ed="#L" n="100"/>videlicet in rem cognitam, quam voluntatis actus ad ipsum
+<lb ed="#L" n="101"/>terminetur. Cum enim obiectum formale unius potentiae
+<lb ed="#L" n="102"/>possit esse alterius potentiae obiectum materiale, sicut
+<lb ed="#L" n="103"/>color, quod est obiectum formale visus, est obiectum
+<lb ed="#L" n="104"/>materiale contentum sub obiecto intellectus; potest una
+<lb ed="#L" n="105"/>potentia prius et immediatius ferri in- obiectum formale
+<lb ed="#L" n="106"/>alterius, inquantum ad ipsum materialiter terminatur, quam
+<lb ed="#L" n="107"/>feratur potentia cuius est. obiectum formale. Sed bene
+<lb ed="#L" n="108"/>verum est quod potentia cuius illud est formale obiectum,
+<lb ed="#L" n="109"/>in ipsum formalius: quam quaecumque alia potentia fertur.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1727">
+               <lb ed="#L" n="110"/>XV. Ad secundam  respondetur quod aliquid est 
+per<lb ed="#L" break="no" n="111"/>fectio alicuius dupliciter. Uno modo, ut iam habentis 
+spe<lb ed="#L" break="no" n="112"/>ciem: sicut habitatio est perfectio ad quam species domus
+<lb ed="#L" n="113"/>ordinatur; et in definitione domus oportet hoc poni si
+<lb ed="#L" n="114"/>debeat definitio esse perfecta. Alio modo, ut ad speciem
+<lb ed="#L" n="115"/>habendam: sicut principia substantialia. domus, quae ad
+<lb ed="#L" n="116"/>eam constituendam ordinantur; et apodiacula, quae ad
+<lb ed="#L" n="117"/>eius conservationem faciunt; et pulcritudo, per quam usus
+<lb ed="#L" n="118"/>domus est convenientior. Prima perfectio rei est finis ipsius,
+<lb ed="#L" n="119"/>sicut habitatio est finis domus, et propria operatio 
+cuius<lb ed="#L" break="no" n="120"/>libet rei, quae est quasi usus eius: non autem secunda,
+<lb ed="#L" n="121"/>immo res est finis ipsius. Declaratur in materia et forma,
+<lb ed="#L" n="122"/>quae constituunt speciem; in sanitate et virtute nutritiva,
+<lb ed="#L" n="123"/>quae animalis naturam conservant; in pulcritudine quoque
+<lb ed="#L" n="124"/>corporis et robore, quae speciem ornant, et de quibus
+<lb ed="#L" n="125"/>dicitur, I. Ethicorum, quod organice deserviunt felicitati.
+<lb ed="#L" n="126"/>— Delectatio ergo est perfectio operationis non primo modo,
+<lb ed="#L" n="127"/>tanquam "videlicet operatio ad ipsam secundam suam
+<lb ed="#L" n="128"/>speciem ordinetur: sed secundo modo, quia videlicet 
+ordi<lb ed="#L" break="no" n="129"/>natur ad. operationem; ut, inquam, propter delectationem
+<lb ed="#L" n="130"/>attentius et decentius operationi insistamus. Unde perficit
+<lb ed="#L" n="131"/>operationem sicut decor iuventutem, ut dicitur X Ethi;
+<lb ed="#L" n="132"/>corum, quem constat esse propter eum cui inest iuventus,
+<lb ed="#L" n="133"/>non autem e converso. ldeo non sequitur quod ipsa
+<lb ed="#L" n="134"/>delectatio sit finis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1784">
+               <lb ed="#L" n="135"/>2. Ad evidentiam huius responsionis, quae pulcherrima
+<lb ed="#L" n="136"/>est, considerare oportet primo, quod. ista distinctio de
+<lb ed="#L" n="137"/>duplici perfectione sic intelligenda est quod quaedam est
+<lb ed="#L" n="138"/>perfectio rei iam constitutae in sua specie, propter quam
+<lb ed="#L" n="139"/>scilicet ipsa res in sua specie constituitur, et ad quam
+<lb ed="#L" n="140"/>Species constituta ordinatur, sicut habitatio est perfectio
+<lb ed="#L" n="141"/>domus, et operatio rei est eius perfectio: ista enim perfectio
+<lb ed="#L" n="142"/>praesupponit speciem constitutam, et habet rationem finis,
+<lb ed="#L" n="143"/>quia propter ipsam perfectionem res fit. Quaedam vero
+<lb ed="#L" n="144"/>est perfectio quae ad ipsam habendam speciem ordinatur :
+<lb ed="#L" n="145"/>aut, inquam, ad eam simpliciter constituendam; aut ad
+<lb ed="#L" n="146"/>eam decenter aptandam et ornandam. Et talis perfectio
+<lb ed="#L" n="147"/>manifestum. est quod non est finis: quia res in specie 
+con<lb ed="#L" break="no" n="148"/>stituta non ordinatur ad ipsam, sed e contrario ipsa 
+per<lb ed="#L" break="no" n="149"/>fectio est propter speciem et perfectionem rei, Et sic aperte
+<lb ed="#L" n="150"/>constat quod delectatio, cum sit perfectio operationis se-
+<pb ed="#L" n="78"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cundo modo, quae. scilicet. est. propter operationem, non
+<lb ed="#L" n="2"/>est finis iaces sed e contrario operatio est eius finis;
+<lb ed="#L" n="3"/>est; enim.:ut. operatio continuetur, et ut attentius. fiat.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1832">
+               <lb ed="#L" n="4"/>Considerandum; secundo, iuxta , doctrinam Sancti '
+Tho<lb ed="#L" break="no" n="5"/>mae LII, q. xxxur, a. 4, quod ultimus finis dupliciter 
+ac<lb ed="#L" break="no" n="6"/>cipi potest: uno modo, pro eo. propter quod omnia fiunt ;
+<lb ed="#L" n="7"/>alio modo. pro bono completive superveniente, ut idem
+<lb ed="#L" n="8"/>sit finis quod ultimum complementum perfectionis. Ex eo
+<lb ed="#L" n="9"/>ergo quod delectatio quae est in beatitudine, est perfectio
+<lb ed="#L" n="10"/>operationis ipsam sequens et concomitans, sequitur quod
+<lb ed="#L" n="11"/>sit ultimus. finis secundo. modo: non. autem primo modo,
+<lb ed="#L" n="12"/>de quo fine est sermo in proposito.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1854">
+               <lb ed="#L" n="13"/>3. Advertendum. autem, cum. inquit Sanctus jv Men
+<lb ed="#L" n="14"/>quod. oporteret habitationem poni in definitione domus si
+<lb ed="#L" n="15"/>debeat.definitio esse perfecta, quod, ut. dicitur in I Sent.,
+<lb ed="#L" n="16"/>d.i, in expos. litt.; et II .Sent., d. xxvir, a. 2, ad 9, duplex
+<lb ed="#L" n="17"/>est definitio: quaedam. quae complectitur totum esse rei,
+<lb ed="#L" n="18"/>secundum. quod ex omnibus causis constituitur, et ad
+<lb ed="#L" n="19"/>omnes ordinem habet; quaedam vero quae non. omnes
+<lb ed="#L" n="20"/>causas complectitur, sed unam. tantum aut plures, Prima
+<lb ed="#L" n="21"/>est perfectissima: secunda vero est minus perfecta. Quia
+<lb ed="#L" n="22"/>ergo habitationem. esse finem domus posuit, ideo dixit
+<lb ed="#L" n="23"/>quod, si debeat perfectissime definiri, oportet et 
+habita<lb ed="#L" break="no" n="24"/>tionem. in eius definitione poni: finis enim rei est. una
+<lb ed="#L" n="25"/>causarum quae ad. esse rei concurrunt. Non autem, si
+<lb ed="#L" n="26"/>imperfecte definiatur, oportet in eius. definitione poni 
+Aa<lb ed="#L" break="no" n="27"/>bitationem,sed potest per unamquamque aliarum causarum,
+<lb ed="#L" n="28"/>per se aut cum alia causa, definiri.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1892">
+               <lb ed="#L" n="29"/>XVI. Ad tertiam. obiectionem respondetur negando
+<lb ed="#L" n="30"/>consequentiam. Quia delectatio ultimum finem 
+concomi<lb ed="#L" break="no" n="31"/>tatur: et ex hoc scilicet habet ut non quaeratur ab 
+ho<lb ed="#L" break="no" n="32"/>minibus propter aliud, licet non sit ultimus finis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1903">
+               <lb ed="#L" n="33"/>2. Sed statim ex ista responsione insurgit dubium, Videtur
+<lb ed="#L" n="34"/>enim. dici oppositum. eius. quod dictum est in praecedenti
+<lb ed="#L" n="35"/>responsione. Ibi enim dictum est quod delectatio in 
+com<lb ed="#L" break="no" n="36"/>paratione ad operationem est similis perfectioni quae 
+or<lb ed="#L" break="no" n="37"/>dinatur ad speciem rei, et quod res est finis talis 
+perfectio<lb ed="#L" break="no" n="38"/>nis, Ex quo apparet quod delectatio quaeritur. propter
+<lb ed="#L" n="39"/>aliud. Hic autem dicitur quod delectationem volunt. 
+ho<lb ed="#L" break="no" n="40"/>mines non propter aliud,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1923">
+               <lb ed="#L" n="41"/>3. Ad evidentiam et responsionis Sancti Thomae, et
+<lb ed="#L" n="42"/>huius dubii, duo sunt attendenda. Primum est, quod duo
+<lb ed="#L" n="43"/>requiruntur ad rationem ultimi finis. Unum est quod non
+<lb ed="#L" n="44"/>quaeratur propter aliud: alterum, quod omnia alia ad
+<lb ed="#L" n="45"/>ipsum tanquam ad finem ordinentur; finis enim est id
+<lb ed="#L" n="46"/>propter quod aliquid fit et desideratur. Ideo, quamvis alicui
+<lb ed="#L" n="47"/>conveniat hoc quod est non quaeri propter aliud, si non
+<lb ed="#L" n="48"/>propter ipsum omnia alia quaerantur, non habet rationem
+<lb ed="#L" n="49"/>ultimi finis, Propter hoc optime dixit. Sanctus "Thomas
+<lb ed="#L" n="50"/>quod delectationem ab hominibus quaeri non propter aliud
+<lb ed="#L" n="51"/>sed propter seipsam, non est sufficiens signum quod 
+de<lb ed="#L" break="no" n="52"/>lectatio sit ultimus finis, quasi dicat: — llla quidem est
+<lb ed="#L" n="53"/>conditio ad rationem ultimi finis requisita, non tamen est
+<lb ed="#L" n="54"/>eius. totalis ratio, sed praeter illam aliquid aliud. requiritur,
+<lb ed="#L" n="55"/>scilicet quod. propter ipsum omnia. alia. desiderentur et
+<lb ed="#L" n="56"/>fiant.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1960">
+               <lb ed="#L" n="57"/>Secundum est, quod, ut dicitur Quarto, d. xrrix, q. ui,
+<lb ed="#L" n="58"/>a. 4, delectatio, et operatio ad quam consequitur, se 
+ha<lb ed="#L" break="no" n="59"/>bent non sicut duo bona, sed sicut unum bonum, 
+inquan<lb ed="#L" break="no" n="60"/>tum. delectatio est perfectio operationis. Sicut enim ex
+<lb ed="#L" n="61"/>perfectione. et ' perfectibili fit una res perfecta, ita ex
+<lb ed="#L" n="62"/>operatione et delectatione fit una perfecta operatio, quae
+<lb ed="#L" n="63"/>est felicitas. Inde est quod, sicut operatio ultima et 
+per<lb ed="#L" break="no" n="64"/>fectissima hominis ad nullam aliam intrinsecam 
+perfectio<lb ed="#L" break="no" n="65"/>nem hominis ordinatur, ita neque delectatio, quae ipsam
+<lb ed="#L" n="66"/>concomitatur et perficit. /deo non consuevit quaeri quare
+<lb ed="#L" n="67"/>aliquis. velit delectari. Nam. in. iis quae fini sunt 
+con<lb ed="#L" break="no" n="68"/>iuncta, ut in eodem articulo, ad 3, dicitur, talis quaestio
+<lb ed="#L" n="69"/>non fit: cum statim appareat illa esse appetibilia, sicut
+<lb ed="#L" n="70"/>et finis cuius: sunt perfectiones.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e1993">
+               <lb ed="#L" n="71"/>Sed, licet delectatio non quaeratur propter aliquid aliud
+<lb ed="#L" n="72"/>ab. ipsa separatum tanquam. per ipsam acquirendum, ipsa
+<lb ed="#L" n="73"/>tamen ordinatur ad operationem quam concomitatur 
+tan<lb ed="#L" break="no" n="74"/>quam ad finem: sicut et omnis perfectio superaddita speciei,
+<lb ed="#L" n="75"/>quae scilicet ad eius conservationem aut decorem pertinet,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ad, ipsam. speciem sicut ad. finem ordinatur, ut superius 
+<lb ed="#L" n="77"/>dixit Sanctus Thomas.. Et ideo quaeritur delectatio propter
+<lb ed="#L" n="78"/>operationem cui coniungitur, inquantum appetens suam
+<lb ed="#L" n="79"/>operationem perfectam, appetit et delecaianem, sine qua
+<lb ed="#L" n="80"/>non est operatio omnino. perfecta, .
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2019">
+               <lb ed="#L" n="81"/>4. Ad obiectionem igitur dicitur quod. non est 
+con<lb ed="#L" break="no" n="82"/>tradictio. Quia cum dicitur quod delectatio ordinatur ad
+<lb ed="#L" n="83"/>operationem sicut ad finem, et per consequens quod 
+quae<lb ed="#L" break="no" n="84"/>ritur. propter aliud, intelligitur quod ordinatur ad aliquid
+<lb ed="#L" n="85"/>cui coniungitur tanquam ad finem, et consequenter 
+se<lb ed="#L" break="no" n="86"/>cundum se habet ut propter illud quaeratur. Cum. autem
+<lb ed="#L" n="87"/>dicitur quod delectationem non propter aliud volunt 
+ho<lb ed="#L" break="no" n="88"/>mines, intelligitur quod non volunt illam, loquendo .de
+<lb ed="#L" n="89"/>delectatione. quae Dei visionem concomitatur, sive quae
+<lb ed="#L" n="90"/>ad felicitatem. pertinet, propter aliquem alium finem 
+in<lb ed="#L" break="no" n="91"/>trinsecum ab ipsa. separatum. Unde dixit Sanctus Thomas
+<lb ed="#L" n="92"/>in responsione quod, Jicet delectatio non sit ultimus finis,
+<lb ed="#L" n="93"/>est tamen ultimum finem. concomitans, et ex hoc habet
+<lb ed="#L" n="94"/>ut non propter aliud quaeratur, ac si diceret: Quia 
+con<lb ed="#L" break="no" n="95"/>iungitur ultimo fini, et ipsum concomitatur, ideo non
+<lb ed="#L" n="96"/>quaeritur propter alium finem. acquirendum ab ipsa 
+sepa<lb ed="#L" break="no" n="97"/>ratum: non est tamen ultimus finis, quia ordinatur ad
+<lb ed="#L" n="98"/>alium finem, quem concomitatur. Haec autem constat
+<lb ed="#L" n="99"/>nullam contradictionem includere.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2064">
+               <lb ed="#L" n="100"/>XVII. Ad quartam respondetur. negando antecedens, de
+<lb ed="#L" n="101"/>delectatione quae est in cognoscendo, de qua scilicet est
+<lb ed="#L" n="102"/>sermo in proposito: licet sit verum de delectationibus
+<lb ed="#L" n="103"/>sensibilibus, quas plures quaerunt quam cognitionem 
+in<lb ed="#L" break="no" n="104"/>tellectus, et quam delectationem. ipsam consequentem ;
+<lb ed="#L" n="105"/>quia. quae exterius sunt, idest sensibilia, magis nota 
+plu<lb ed="#L" break="no" n="106"/>ribus existunt.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2082">
+               <lb ed="#L" n="107"/>Quomodo delectationes sensibiles sint potiores quoad
+<lb ed="#L" n="108"/>nos quam. spirituales, licet simpliciter spirituales sint 
+po<lb ed="#L" break="no" n="109"/>tiores corporalibus et sensibilibus, multis rationibus ostendit
+<lb ed="#L" n="110"/>Sanctus Thomas IV Sent. d. xu, q. m a; 5 .
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2093">
+               <lb ed="#L" n="111"/>XVIII. Ad quintam respondetur negando antecedens.
+<lb ed="#L" n="112"/>Ad cuius probationem dicitur primo, quod intellectus
+<lb ed="#L" n="113"/>primo et per se movet voluntatem: quia voluntas, 
+inquan<lb ed="#L" break="no" n="114"/>tum. huiusmodi, movetur a suo obiecto, quod est bonum
+<lb ed="#L" n="115"/>apprehensum. Voluntas autem movet. intellectum | quasi
+<lb ed="#L" n="116"/>per accidens: inquantum videlicet ipsum. intelligere 
+ap<lb ed="#L" break="no" n="117"/>prehenditur ut bonum, et sic desideratur a voluntate, ex
+<lb ed="#L" n="118"/>quo sequitur quod actu intellectus: intelligit.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2113">
+               <lb ed="#L" n="119"/>Dicitur secundo, quod etiam in hoc ipso intellectus
+<lb ed="#L" n="120"/>voluntatem praecedit. Quia voluntas non desideraret 
+intel<lb ed="#L" break="no" n="121"/>ligere nisi intellectus prius apprehenderet intelligere ut
+<lb ed="#L" n="122"/>bonum,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2124">
+               <lb ed="#L" n="123"/>Dicitur tertio, quod. voluntas movet intellectum per
+<lb ed="#L" n="124"/>modum agentis: intellectus autem movet voluntatem per
+<lb ed="#L" n="125"/>modum finis. Agens autem est posterior in movendo quam
+<lb ed="#L" n="126"/>finis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2135">
+               <lb ed="#L" n="127"/>2. Ad evidentiam huius responsionis, considerandum
+<lb ed="#L" n="128"/>primo quod, licet dupliciter comparari. possint intellectus
+<lb ed="#L" n="129"/>et voluntas, scilicet absolute secundum suas rationes, et
+<lb ed="#L" n="130"/>in ratione motivi et mobilis; quia tamen obiectio adducta
+<lb ed="#L" n="131"/>non arguit nobilitatem voluntatis supra intellectum nisi
+<lb ed="#L" n="132"/>inquantum habet rationem motivi, ideo Sanctus Thomas
+<lb ed="#L" n="133"/>in responsione non. facit mentionem de nobilitate unius
+<lb ed="#L" n="134"/>supra aliam nisi inquantum in ratione motivi et mobilis
+<lb ed="#L" n="135"/>considerantur. Et vult quod etiam in hoc intellectus. est
+<lb ed="#L" n="136"/>simpliciter prior voluntate, voluntas autem est intellectu
+<lb ed="#L" n="137"/>prior tantum. secundum quid. In Prima Parte autem,
+<lb ed="#L" n="138"/>q. Lxxxm, a. 3; et Verit., q. xxi a. 11, comparat istas
+<lb ed="#L" n="139"/>potentias secundum proprias rationes, ostenditque 
+intel<lb ed="#L" break="no" n="140"/>lectum, etiam. secundum | propriam. rationem, esse 
+nobi<lb ed="#L" break="no" n="141"/>liorem voluntate simpliciter, voluntatem autem esse 
+nobi<lb ed="#L" break="no" n="142"/>liorem secundum quid intellectu.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2173">
+               <lb ed="#L" n="143"/>Considerandum secundo, quod d existens in
+<lb ed="#L" n="144"/>actu respectu boni, movet voluntatem non per aliquid
+<lb ed="#L" n="145"/>aliud a. quo moveatur ut sic, sed per seipsum, inquantum
+<lb ed="#L" n="146"/>habet rationem obiecti voluntatis. Nam voluntas, et 
+qui<lb ed="#L" break="no" n="147"/>libet appetitus sequens cognitionem, habet per se moveri
+<lb ed="#L" n="148"/>a suo obiecto, quod est bonum apprehensum, eo modo
+<lb ed="#L" n="149"/>quo dicitur ab obiecto moveri: hoc enim quod est 
+mo<lb ed="#L" break="no" n="150"/>vere appetitum, convenit bono apprehenso ex sua ratione
+<pb ed="#L" n="79"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et ex sua forma. Ideo inquit Sanctus Thomas quod 
+iztel<lb ed="#L" break="no" n="2"/>lectus primo et per se movet voluntatem, idest, per 
+pro<lb ed="#L" break="no" n="3"/>priam formam, et non per aliquid aliud cui per prius ex
+<lb ed="#L" n="4"/>se conveniat esse sufficiens motivum voluntatis, Voluntas
+<lb ed="#L" n="5"/>autem ex seipsa non habet ut possit movere intellectum
+<lb ed="#L" n="6"/>ad intelligendum, sed inquantum movetur ab alio, scilicet
+<lb ed="#L" n="7"/>ab intellectu. Oportet enim quod voluntas prius moveatur
+<lb ed="#L" n="8"/>ad desiderandum ipsum intelligere ab intellectu 
+appre<lb ed="#L" break="no" n="9"/>hendente intelligere sub ratione boni et illud proponente
+<lb ed="#L" n="10"/>voluntati, antequam intellectum ad actualem 
+considera<lb ed="#L" break="no" n="11"/>tionem moveat. Et ideo ait Sanctus Thomas quod voluntas
+<lb ed="#L" n="12"/>movet intellectum quasi per accidens : non scilicet omnino
+<lb ed="#L" n="13"/>per accidens, sed quasi, quia movet aliquo modo per aliud,
+<lb ed="#L" n="14"/>inquantum videlicet prius movetur ab ipso intellectu ad
+<lb ed="#L" n="15"/>desiderium ipsius intelligere; et nisi esset mota ad 
+huius<lb ed="#L" break="no" n="16"/>modi desiderium, non moveret intellectum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2232">
+               <lb ed="#L" n="17"/>Considerandum tertio quod, licet causae sint sibi 
+in<lb ed="#L" break="no" n="18"/>vicem causae, ut patet II Phys. et V Metaph., illud
+<lb ed="#L" n="19"/>tamen quod movet secundum nobiliorem rationem 
+cau<lb ed="#L" break="no" n="20"/>sandi alterum, dicitur simpliciter nobilius illo inquantum
+<lb ed="#L" n="21"/>causativum et motivum, licet secundum quid possit dici
+<lb ed="#L" n="22"/>ignobilius, idest secundum illam rationem movendi qua
+<lb ed="#L" n="23"/>ab illo movetur: sicut, quia nobilior est causalitas formae
+<lb ed="#L" n="24"/>quam causalitas materiae, forma est nobilior simpliciter
+<lb ed="#L" n="25"/>materia in ratione causae, est autem ignobilior materia
+<lb ed="#L" n="26"/>secundum quid, inquantum causatur materialiter ab ipsa.
+<lb ed="#L" n="27"/>Ita etiam, quia finis causalitas est prima inter omnes 
+cau<lb ed="#L" break="no" n="28"/>salitates, ideo, si aliquid moveat alterum per modum finis
+<lb ed="#L" n="29"/>et ab ipso per modum efficientis moveatur, erit ipso 
+sim<lb ed="#L" break="no" n="30"/>pliciter nobilius et altius inquantum motivum, licet sit
+<lb ed="#L" n="31"/>ignobilius secundum quid, idest inquantum ab ipso 
+effi<lb ed="#L" break="no" n="32"/>cienter movetur. Propter hoc, quia intellectus movet 
+vo<lb ed="#L" break="no" n="33"/>luntatem per modum finis, voluntas autem movet 
+intel<lb ed="#L" break="no" n="34"/>lectum per modum efficientis, concludit Sanctus 'Thomas
+<lb ed="#L" n="35"/>quod in ratione motivi absolute intellectus est simpliciter
+<lb ed="#L" n="36"/>altior voluntate, voluntas autem est altior intellectu 
+se<lb ed="#L" break="no" n="37"/>cundum quid. - Quomodo autem appetibile et intellectus
+<lb ed="#L" n="38"/>moveant voluntatem per mmodurit —— Setetiiu im est in
+<lb ed="#L" n="39"/>Primo, capite xriv .
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2284">
+               <lb ed="#L" n="40"/>3. Considerandum ultimo, pro dedatadone 
+praemis<lb ed="#L" break="no" n="41"/>sorum, quod visio Dei dupliciter considerari potest: uno
+<lb ed="#L" n="42"/>modo, absolute, quantum ad suam entitatem ; alio modo,
+<lb ed="#L" n="43"/>inquantum est consecutio et habitio ultimi finis extrinseci,
+<lb ed="#L" n="44"/>qui est Deus. Cum ergo inquit Sanctus "Thomas visionem
+<lb ed="#L" n="45"/>Dei esse essentialiter felicitatem, loquitur de visione non
+<lb ed="#L" n="46"/>quantum ad eius substantiam absolute, quia ut sic non
+<lb ed="#L" n="47"/>habet rationem summi boni, cum sit accidens intellectus et
+<lb ed="#L" n="48"/>bonum finitum: sed inquantum est consecutio et habitio
+<lb ed="#L" n="49"/>summi boni, quia ut sic habet quandam infinitatem, et
+<lb ed="#L" n="50"/>habet rationem: summi boni intrinseci, et consequenter
+<lb ed="#L" n="51"/>habet rationem ultimi finis formalis creaturae.:
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2313">
+               <lb ed="#L" n="52"/>4. Ex praedictis patet quod, licet praemium 
+corre<lb ed="#L" break="no" n="53"/>spondeat merito, inquantum maiori merito datur maius
+<lb ed="#L" n="54"/>praemium, non tamen eiusdem potentiae est meritum et
+<lb ed="#L" n="55"/>praemium: sed meritum attribuitur voluntati, quae est
+<lb ed="#L" n="56"/>inner agendi et merendi, praemium vero attribuitur
+<lb ed="#L" n="57"/>intellectui, cuius est recipere; nam meritum consistit in
+<lb ed="#L" n="58"/>agendo, praemium vero in recipiendo. Est tamen idem
+<lb ed="#L" n="59"/>suppositum quod meretur et quod praemium capit.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2333">
+               <lb ed="#L" n="60"/>XIX. CONTRA ISTAM CONCLUSIONEM , in hoc capite 
+multi<lb ed="#L" break="no" n="61"/>pliciter probatam, multae adducuntur rationes a Scoto et
+<lb ed="#L" n="62"/>aliis, quas Capreolus, in Quarto, d. xrix, q. m; et Primo,
+<lb ed="#L" n="63"/>d. 1, egregie solvit. Ideo nobis praetermittendae sunt.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2344">
+               <lb ed="#L" n="64"/>Satis pro nunc sit scire quod aliquae earum probant
+<lb ed="#L" n="65"/>voluntatem, et aliquem actum ipsius, esse nobiliorem 
+in<lb ed="#L" break="no" n="66"/>tellectu et actibus eius in via, quod non negamus: ut
+<lb ed="#L" n="67"/>cum arguitur ex eo quod caritas est nobilior habitibus
+<lb ed="#L" n="68"/>intellectualibus; et ex eo quod secundum Anselmum, in
+<lb ed="#L" n="69"/>libro Cur Deus homo, perversus ordo est velle amare
+<lb ed="#L" n="70"/>ut intelligas . Haec enim vera sunt pro statu viae, qui est
+<lb ed="#L" n="71"/>status meriti, in quo caritas tenet primum locum, tanquam
+<lb ed="#L" n="72"/>primum motivum ad merendum: sunt autem falsa pro statu
+<lb ed="#L" n="73"/>patriae, qui est status praemii.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2369">
+               <lb ed="#L" n="74"/>2. Nec valet ratio Scoti Quarto, d. xuix, q. 1v, qua
+<lb ed="#L" n="75"/>arguit, ex hoc quod in via caritas est perfectior babitibus
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>intellectualibus, voluntatis capacitatem esse maiorem 
+ca<lb ed="#L" break="no" n="77"/>pacitate intellectus etiam in. patria: eo quod eadem sit
+<lb ed="#L" n="78"/>capacitas in via et in patria, autem saltem sibi 
+proportio<lb ed="#L" break="no" n="79"/>nentur.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2387">
+               <lb ed="#L" n="80"/>Dicitur enim quod nobilitas caritatis supra habitus 
+intel<lb ed="#L" break="no" n="81"/>lectuales in via, non arguit maiorem capacitatem voluntatis
+<lb ed="#L" n="82"/>etiam in via: quia quod perficiatur hic nobiliori habitu
+<lb ed="#L" n="83"/>quam intellectus, non est ex maiori capacitate. . Maior
+<lb ed="#L" n="84"/>enim est simpliciter capacitas intellectus quam voluntatis, 
+<lb ed="#L" n="85"/>cum intellectus natus sit in seipso divinam essentiam 
+re<lb ed="#L" break="no" n="86"/>cipere per modum formae- intelligibilis, et umen gloriae
+<lb ed="#L" n="87"/>per modum habitus: sed sua capacitas non potest impleri
+<lb ed="#L" n="88"/>in via, capacitas autem voluntatis impleri potest.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2409">
+               <lb ed="#L" n="89"/>Cum autem dicitur quod est eadem capacitas in via
+<lb ed="#L" n="90"/>et in patria, aut proportionata: respondetur quod utique
+<lb ed="#L" n="91"/>capacitas uniuscuiusque istarum potentiarum est eadem in
+<lb ed="#L" n="92"/>via et in patria, si simpliciter consideretur: quia per 
+va<lb ed="#L" break="no" n="93"/>riationem status non variatur natura intellectus aut 
+volun<lb ed="#L" break="no" n="94"/>tatis, super quam fundatur earum capacitas. Si tamen
+<lb ed="#L" n="95"/>consideretur quantum ad reductionem ad actum, non est
+<lb ed="#L" n="96"/>eadem capacitas intellectus in via et in patria: quia in via,
+<lb ed="#L" n="97"/>secundum conditionem status viae praecise, potest reduci in
+<lb ed="#L" n="98"/>actum respectu aliarum perfectionum, non autem respectu
+<lb ed="#L" n="99"/>essentiae divinae per modum formae intelligibilis, et 
+respe<lb ed="#L" break="no" n="100"/>ctu luminis gloriae: per modum habitus permanentis; in
+<lb ed="#L" n="101"/>patria autem potest reduci in actum respectu istorum,
+<lb ed="#L" n="102"/>immo de facto actuatur in: patria. Unde capacitas 
+intel<lb ed="#L" break="no" n="103"/>lectus, absolute loquendo, maior est quam capacitas 
+vo<lb ed="#L" break="no" n="104"/>luntatis: sed ista capacitas intellectus non potest impleri
+<lb ed="#L" n="105"/>in via, sicut impletur capacitas voluntatis, quae etiam in
+<lb ed="#L" n="106"/>via recipit caritatem, quae est. ipsius suprema perfectio,
+<lb ed="#L" n="107"/>nomine caritatis comprehendendo simul et actum et 
+ha<lb ed="#L" break="no" n="108"/>bitum,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2455">
+               <lb ed="#L" n="109"/>XX. Sed contra praedicta unam tantum adduxerim 
+du<lb ed="#L" break="no" n="110"/>bitationem ex his quae Capreolus tangit. Arguunt enim
+<lb ed="#L" n="111"/>quidam sic. Secundum Philosophum, Il Priorum , et
+<lb ed="#L" n="112"/>VIII Ethicorum, cuius oppositum est peius, ipsum est
+<lb ed="#L" n="113"/>melius. Sed odium Dei, quod opponitur amori ipsius, peius
+<lb ed="#L" n="114"/>est quam ignorantia, quae opponitur cognitioni Dei. Ergo
+<lb ed="#L" n="115"/>et amor Dei est melior visione Dei. Ergo magis in amore
+<lb ed="#L" n="116"/>Dei consistit essentia beatitudinis quam in. eius visione:
+<lb ed="#L" n="117"/>cum beatitudo consistat in perfectissimo actu.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2477">
+               <lb ed="#L" n="118"/>2. Ad huius evidentiam, considerandum quod amare
+<lb ed="#L" n="119"/>Deum, et cognoscere Deum, dupliciter considerari possunt.
+<lb ed="#L" n="120"/>Uno modo, per inclusionem unius ab altero, sed non e
+<lb ed="#L" n="121"/>converso: secundum scilicet quod amare includit 
+cogno<lb ed="#L" break="no" n="122"/>scere, non autem cognoscere includit amare. Alio modo,
+<lb ed="#L" n="123"/>praescindendo unum formaliter ab altero: utrumque scilicet
+<lb ed="#L" n="124"/>considerando secundum suam propriam rationem, qua ab
+<lb ed="#L" n="125"/>alio distinguitur. — Item, tripliciter possumus ista comparare
+<lb ed="#L" n="126"/>ad invicem: aut scilicet absolute; aut pro statu viae; aut
+<lb ed="#L" n="127"/>pro statu patriae.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2501">
+               <lb ed="#L" n="128"/>Si loquamur de istis actibus secundum quod unus 
+al<lb ed="#L" break="no" n="129"/>terum includit et non e converso: sic, quamvis ratio non
+<lb ed="#L" n="130"/>concludat, quia illa regula non tenet in iis quorum. unum
+<lb ed="#L" n="131"/>alterum includit et non e converso; conceditur tamen
+<lb ed="#L" n="132"/>quod amare Deum, quod includit cognoscere Deum, sive
+<lb ed="#L" n="133"/>absolute accipiatur, sive ut est in via, sive ut est in patria,
+<lb ed="#L" n="134"/>est perfectius quam cognoscere, utpote includens ipsum
+<lb ed="#L" n="135"/>cognoscere et aliquid amplius. Sed nos superius non sumus
+<lb ed="#L" n="136"/>locati hoc modo de actu voluntatis, ut, inquam, includit
+<lb ed="#L" n="137"/>visionem Dei: quia non sumus locuti de felicitate 
+quari<lb ed="#L" break="no" n="138"/>tum ad omnem eius perfectionem per modum extensionis,
+<lb ed="#L" n="139"/>sed de ipsis ut formaliter distinguuntur; et probavimus
+<lb ed="#L" n="140"/>quod visio est magis essentia beatitudinis — '
+quicum<lb ed="#L" break="no" n="141"/>que actus voluntatis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2535">
+               <lb ed="#L" n="142"/>3. Si autem loquamur de ipsis secundum praecisionem
+<lb ed="#L" n="143"/>unius ab altero: dicitur primo quod, absolute loquendo,
+<lb ed="#L" n="144"/>cognoscere melius est quam amare, ceteris paribus; quia;
+<lb ed="#L" n="145"/>ut superius dixit Sanctus Thomas, simpliciter intellectus
+<lb ed="#L" n="146"/>est nobilior quam voluntas, cum moveat primo et per se
+<lb ed="#L" n="147"/>voluntatem, et moveat per modum finis, quae est prima
+<lb ed="#L" n="148"/>causarum. Unde cognoscere Deum comparatur ad amare
+<lb ed="#L" n="149"/>sicut causa ad effectum: constat autem causam suo effectu
+<lb ed="#L" n="150"/>nobiliorem esse. — Cum autem arguitur, quia odium Dei
+<pb ed="#L" n="80"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>peius est quam non cognoscere Deum: dicitur quod non
+<lb ed="#L" n="2"/>arguitur ad mentem illius regulae. Quia intelligitur quod
+<lb ed="#L" n="3"/>illud est. melius cuius oppositum est peius quam 
+oppo<lb ed="#L" break="no" n="4"/>situm. alterius. secundum eandem rationem oppositionis
+<lb ed="#L" n="5"/>acceptum. Modo, dicitur quod non accipitur hic oppositum
+<lb ed="#L" n="6"/>cognitionis secundum eandem rationem oppositionis qua
+<lb ed="#L" n="7"/>odium opponitur amori. Huic enim opponitur odium 
+coz<lb ed="#L" break="no" n="8"/>trarie : cognitioni autem opponitur ignorantia privative,
+<lb ed="#L" n="9"/>aut per modum negationis. Unde si accipiantur opposita 
+<lb ed="#L" n="10"/>eodem modo, ut scilicet oppositum amoris sit nom amare, 
+<lb ed="#L" n="11"/>sicut oppositum cognitionis accipitur »on cognoscere, 
+fal<lb ed="#L" break="no" n="12"/>sum est, absolute loquendo, quod oppositum amoris sit
+<lb ed="#L" n="13"/>peius quam oppositum cognitionis: immo peius est 
+igno<lb ed="#L" break="no" n="14"/>rare Deum quam non amare ipsum, quia est privatio
+<lb ed="#L" n="15"/>maioris perfectionis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2594">
+               <lb ed="#L" n="16"/>Dicitur secundo, quod dilectio in. via quantum ad aliquid
+<lb ed="#L" n="17"/>praeeminet cognitioni, scilicet in movendo ad actionem
+<lb ed="#L" n="18"/>meriti: ut dicitur I IE, q. ir, a. 4. Sed.non loquimur
+<lb ed="#L" n="19"/>nos hoc loco de istis secundum quod insunt homini in via.
+<lb ed="#L" n="20"/>Ideo non est contra mentem. Sancti Thomae.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2607">
+               <lb ed="#L" n="21"/>Dicitur tertio, quod in patria;quo modo in hoc loco
+<lb ed="#L" n="22"/>Sanctus Thomas istos actus consideravit, scilicet ut est
+<lb ed="#L" n="23"/>visio Dei per essentiam, et ut est amor et dilectio Dei
+<lb ed="#L" n="24"/>visi per essentiam, ratio non sequitur, sed peccat sicut
+<lb ed="#L" n="25"/>contra primum dictum peccabat, quia non accipiuntur
+<lb ed="#L" n="26"/>opposita eodem modo. Si enim accipiatur oppositum 
+pri<lb ed="#L" break="no" n="27"/>vative ad amorem Dei, sicut ignorantia accipitur privative,
+<lb ed="#L" n="28"/>privatio visionis divinae essentiae «est peior. privatione
+<lb ed="#L" n="29"/>amoris, quia privat maius bonum. quam sit amor. Unde
+<lb ed="#L" n="30"/>et essentialis miseria damnatorum non in privatione amoris
+<lb ed="#L" n="31"/>divini aut delectationis, sed in privatione visionis divinae
+<lb ed="#L" n="32"/>consistit.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2636">
+               <lb ed="#L" n="33"/>XXL. Sed ulterius contra praedictam conclusionem 
+diffi<lb ed="#L" break="no" n="34"/>cultatem afferunt verba Sancti Thomae Prima, q. xxx, a. 3;
+<lb ed="#L" n="35"/>et cvir, a. 6, ad 3, ubi tenet quod dilectio Dei praeeminet
+<lb ed="#L" n="36"/>cognitioni eius:: eo quod respectu superiorum dilectio
+<lb ed="#L" n="37"/>praeemineat cognitioni et sit ea melior, cum .voluntas
+<lb ed="#L" n="38"/>feratur in rem prout in. se est; intellectus autem actio
+<lb ed="#L" n="39"/>consistat in hoc quod ratio rei intellectae sit in intellectu ;
+<lb ed="#L" n="40"/>superiora autem nobiliori modo sint in seipsis quam, in
+<lb ed="#L" n="41"/>anima. Cum ergo beatitudo essentialiter consistat in 
+no<lb ed="#L" break="no" n="42"/>bilissima hominis operatione, ut est de mente Aristotelis,
+<lb ed="#L" n="43"/>X Ethic.; videtur ex auctoritate allegata quod in actu
+<lb ed="#L" n="44"/>voluntatis beatitudo essentialiter consistat, non septem in
+<lb ed="#L" n="45"/>actu intellectus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2667">
+               <lb ed="#L" n="46"/>2. Arguit etiam Scotus, loco: bcesatinoeds  ex istis
+<lb ed="#L" n="47"/>verbis,, quod actus voluntatis est simpliciter nobilior actu
+<lb ed="#L" n="48"/>intellectus; Ex Quo similiter sequitur quod in ipso 
+beati<lb ed="#L" break="no" n="49"/>tudo essentialiter consistat. a
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2678">
+               <lb ed="#L" n="50"/>Arguit autem primo, sic. Actus voluntatis respectu 
+Su<lb ed="#L" break="no" n="51"/>periorum est nobilior actu. intellectus. Ergo ille in genere
+<lb ed="#L" n="52"/>est nobilior illo in genere. - Probatur consequentia. Quia,
+<lb ed="#L" n="53"/>si optimum est/nobilius optimo, et genus genere, vel svecies
+<lb ed="#L" n="54"/>specie: ut habetur HI Topicorum, cap. wv .. .;
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2692">
+               <lb ed="#L" n="55"/>Secundo. Actus ille est perfectior qui: coniungit obiecta
+<lb ed="#L" n="56"/>nobiliori, Sed actus voluntatis nobiliori coniungit quam
+<lb ed="#L" n="57"/>actus. intellectus. Ergo etc. — Probatur minor, Quia 
+con<lb ed="#L" break="no" n="58"/>iungit rei ut est in se, actus autem intellectus rei ut
+<lb ed="#L" n="59"/>est in cognoscente coniungit: obiectum autem beatificum
+<lb ed="#L" n="60"/>simpliciter est. nobilius in. se quam ut est in cognoscente,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2708">
+               <lb ed="#L" n="61"/>XXII. Ad: hanc: Sancti: Thomae auctoritatem respondet
+<ref xml:id="ferv7a-d1e1920-Rd1e2712">Capreolus, I .Sent., d. 1, q. 1</ref>; similiter et alii Thomistae;
+<lb ed="#L" n="62"/>quod intelligenda est. de dilectione Dei et eius cognitione
+<lb ed="#L" n="63"/>in via, ubi: Deus ab intellectu per similitudines deficientes
+<lb ed="#L" n="64"/>cognoscitur; non autem in patria, ubi Deus per suam
+<lb ed="#L" n="65"/>essentiam unitur intellectui beatorum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2724">
+               <lb ed="#L" n="66"/>Sed ista responsio; licet faciliter difficultatem hanc 
+eva<lb ed="#L" break="no" n="67"/>dat, non videtur tamen mihi esse ad mentem Sancti 
+Tho<lb ed="#L" break="no" n="68"/>mae. Nam in Prima, q. cvm loco allegato, dicit illa
+<lb ed="#L" n="69"/>verba: respondendo ad argumentum quo arguebatur 
+incon<lb ed="#L" break="no" n="70"/>venienter ordinem Seraphin collocatum esse a. Dionysio
+<lb ed="#L" n="71"/>super ordinem Cherubin. Nam, cum Seraphin nomen sit
+<lb ed="#L" n="72"/>impositum ab amore, Cherubin vero nomen a scientia ;
+<lb ed="#L" n="73"/>et scientia sit prior:amore: videtur quod superiore loco
+<lb ed="#L" n="74"/>collocandus erat ordo Cherubin, inferiore. vero. Seraphin.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2746">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>Hanc igitur obiectionem. removet Sanctus, Thomas, 
+ne<lb ed="#L" break="no" n="76"/>gando quod cognitio. Dei sit prior Dei dilectione. Immo,
+<lb ed="#L" n="77"/>inquit, dilectio haec praeeminet cognitioni, sicut et dilectio
+<lb ed="#L" n="78"/>omnium quae sunt ipso cognoscente superiora: licet. 
+co<lb ed="#L" break="no" n="79"/>gnitio eorum quae sunt cognoscente inferiora, praeemineat
+<lb ed="#L" n="80"/>dilectioni, Constat autem quod ordines angelorum a 
+Dio<lb ed="#L" break="no" n="81"/>nysio sunt ordinati, non prout sunt in via, sed prout sunt
+<lb ed="#L" n="82"/>in patria. Nam, de mente ipsius Dionysii; primam 
+hierar<lb ed="#L" break="no" n="83"/>chiam ab. aliis distinguit Sanctus Thomas per hoc quod
+<lb ed="#L" n="84"/>rerum rationes in Deo immediate cognoscunt, et. in- hac
+<lb ed="#L" n="85"/>dicit quod  Cherubin sagergnimenjar, divina secreta. 
+co<lb ed="#L" break="no" n="86"/>gnoscunt.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2777">
+               <lb ed="#L" n="87"/>Secundo. etiam Sb riial adu d. 1x, a.7 a inquit. quod
+<lb ed="#L" n="88"/>a principio creationis quodammodo fuit distinctio ordinum,
+<lb ed="#L" n="89"/>non iamen secundum ultimum complementum, sed est
+<lb ed="#L" n="90"/>per diversum donum gratuitum. tanquam. per. principium
+<lb ed="#L" n="91"/>formale et completivum: Et dist. v, qm, a. 2, ad 3,
+<lb ed="#L" n="92"/>inquit quod ordines distinguuntur secundum gradum in -
+<lb ed="#L" n="93"/>praemio essentiali. Et, breviter, ex processu Sancti Tho- :
+<lb ed="#L" n="94"/>mae, ubi loquitur de ordinatione angelorum, apparet quod
+<lb ed="#L" n="95"/>ordines in ipsis distinguit secundum , quod sunt in. statu
+<lb ed="#L" n="96"/>beatitudinis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2801">
+               <lb ed="#L" n="97"/>Cum ergo ponat dilectionem Dei praceminere cogni
+<lb ed="#L" n="98"/>tioni eius secundum quod a dilectione denominantur 
+Se<lb ed="#L" break="no" n="99"/>raphin, a cognitione vero denominantur Cherubin, 
+maai<lb ed="#L" break="no" n="100"/>feste relinquitur. verba Sancti Thomae intelligenda esse de
+<lb ed="#L" n="101"/>dilectione huiusmodi et cognitione, non tantum secundum
+<lb ed="#L" n="102"/>quod sunt in via, sed etiam secundum quod sunt in patria,
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2818">
+               <lb ed="#L" n="103"/>XXIII, Propter quod videtur mihi respondendum 
+secun<lb ed="#L" break="no" n="104"/>dum determinationem | Sancti Thomae | Prima, q.- Lxx
+<lb ed="#L" n="105"/>a 3; et Verit., q. xxii, a. 11, ubi absolute loquitur, non
+<lb ed="#L" n="106"/>determinando se ad statum viae aut ad statum patriae. :.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2829">
+               <lb ed="#L" n="107"/>Considerandum .est igitur primo, quod dupliciter potest
+<lb ed="#L" n="108"/>attendi eminentia unius operationis super aliam: uno modo;
+<lb ed="#L" n="109"/>simpliciter; alio modo, secundum quid. Simpliciter .
+con<lb ed="#L" break="no" n="110"/>sideratur eminentia -huiusmodi quando consideratur ex
+<lb ed="#L" n="111"/>parte obiectorum formalium.secundum se: et sic illa 
+ope<lb ed="#L" break="no" n="112"/>ratio est altera dignior. et excellentior. cuius . formale
+<lb ed="#L" n="113"/>obiectum est secundum se nobilius et altius obiecto ale ..
+<lb ed="#L" n="114"/>terius, Consideratur autem eminentia. huiusmodi: 
+secun<lb ed="#L" break="no" n="115"/>dum quid. quando consideratur ex parte rerum.in quibus
+<lb ed="#L" n="116"/>obiecta eorum formalia inveniuntur: et sic illa operatio
+<lb ed="#L" n="117"/>dicitur, altera. dignior cuius obiectum fotthele, ines in
+<lb ed="#L" n="118"/>re altiori et digniori.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2858">
+               <lb ed="#L" n="119"/>Considerandum secundo, ut est dirindidn Sancti. "Tho:
+<lb ed="#L" n="120"/>mae in locis praeallegatis, quod, cum actio intellectus
+<lb ed="#L" n="121"/>proveniat ex eo. quod intelligibile: recipitur.in intellectu,
+<lb ed="#L" n="122"/>actio.vero voluntatis ex eo quod voluntas inclinatur in
+<lb ed="#L" n="123"/>ipsam. rem prout.est, in se; si res, quae intelligitur habeat
+<lb ed="#L" n="124"/>nobilius esse in: intellectu quam in seipsa, cognitio illius
+<lb ed="#L" n="125"/>rei praeeminet secundum quid. eius dilectioni; .si autem e
+<lb ed="#L" n="126"/>converso res.quae amatur habeat nobilius esse in: seipsa
+<lb ed="#L" n="127"/>quam. in intellectu, dilectio praeeminet cognitioni.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2880">
+               <lb ed="#L" n="128"/>2. Dicitur. ergo. primo, quod. cognitio Dei simpliciter
+<lb ed="#L" n="129"/>et secundum se est altior dilectione eius, ut. dilectio est:
+<lb ed="#L" n="130"/>quia obiectum, eius formale, quod est verum, est nobilius
+<lb ed="#L" n="131"/>bono, quod est obiectum formale dilectionis. Fertur enim
+<lb ed="#L" n="132"/>intellectus in Deum formaliter sub ratione veri ; voluntas
+<lb ed="#L" n="133"/>autem-in ipsum sub ratione boni cogniti formaliter fertur;
+<lb ed="#L" n="134"/>veri, autem. ratio est nobilior ratione. boni cogniti, ut.
+de<lb ed="#L" break="no" n="135"/>claratur Prima Parte, loco allegato. Unde dictum Sancti
+<lb ed="#L" n="136"/>"Thomae .assumptum. in obiectione. non. est. intelligendum
+<lb ed="#L" n="137"/>de praeeminentia hac, quae scilicet est praeeminentia 
+sim<lb ed="#L" break="no" n="138"/>pliciter et secundum se.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2906">
+               <lb ed="#L" n="139"/>Dicitur secundo, quod eminentia. secundum quid 
+di<lb ed="#L" break="no" n="140"/>lectio Dei praeeminet eius cognitioni in quocumque statu;
+<lb ed="#L" n="141"/>quia Deus, cum sit superior quocumque intelligente creato,
+<lb ed="#L" n="142"/>perfectius habet esse in seipso quam in quocumque 
+in<lb ed="#L" break="no" n="143"/>teliigente 'creato. Et ad bunc sensum intelligenda sunt
+<lb ed="#L" n="144"/>verba Sancti Thomae. Dilectio. enim Dei, etiam in patria,
+<lb ed="#L" n="145"/>praeeminet. secundum quid eius cognitioni, inquantum :
+<lb ed="#L" n="146"/>ipse, ut actum. dilectionis terminat, habet esse nobiliori
+<lb ed="#L" n="147"/>modo quam ut terminat actum cognitionis: unum enim
+<lb ed="#L" n="148"/>terminat ut est in seipso, aliud vero ut est in intellectu
+<lb ed="#L" n="149"/>aliquo modo.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2932">
+               <pb ed="#L" n="81"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Et sic sequitur, secundum sensum illius responsionis
+<lb ed="#L" n="2"/>Sancti Thomae, quod, quia dilectio Dei praeeminet 
+secun<lb ed="#L" break="no" n="3"/>dum quid eius cognitioni, :ordo- Seraphin, qui.nominatur
+<lb ed="#L" n="4"/>a dilectione Dei, sit superior ordine Cherubin,- qui a 
+co<lb ed="#L" break="no" n="5"/>gnitione denominatur.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2951">
+               <lb ed="#L" n="6"/>XXIV. Sed contra hanc responsionem. triplex insurgit ,
+<lb ed="#L" n="7"/>dubium. Primum est, quia videtur falsum quod in patria
+<lb ed="#L" n="8"/>Deus habeat nobilius esse im seipso quam in intellectu:
+<lb ed="#L" n="9"/>cum sit in intellectu beatorum, non per aliquam 
+simili<lb ed="#L" break="no" n="10"/>tudinem, sed per essentiam suam.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e2964">
+               <lb ed="#L" n="11"/>Secundum est, quia ordines angelorum Seraphin et 
+<lb ed="#L" n="12"/>Cherubin videntur. collocandi secundum id quod-convenit
+<lb ed="#L" n="13"/>dilectioni et cognitioni simpliciter et. secundum se: non
+<lb ed="#L" n="14"/>autem secundum id quod convenit eis secundum quid.
+<lb ed="#L" n="15"/>Si ergo cognitio praeeminet dilectioni simpliciter, non erit
+<lb ed="#L" n="16"/>satisfactum argumento cui intendit respondere Sanctus
+<lb ed="#L" n="17"/>Thomas, per hoc quod dicitur. dilectionem Dei praeeminere
+<lb ed="#L" n="18"/>cognitioni eius, si intendat de eminentia secundum quid.
+<lb ed="#L" n="19"/>Tertium est, quia illa operatio circa Deum videtur
+<lb ed="#L" n="20"/>simpliciter melior quae magis Deo coniungit: beatitudo
+<lb ed="#L" n="21"/>enim, quae est. mobilissima creaturae intellectualis perfectio,
+<lb ed="#L" n="22"/>consistit in perfectissima coniunctione ad Deum. Sed 
+di<lb ed="#L" break="no" n="23"/>lectio Dei magis coniungit Deo quam ipsius cognitio:
+<lb ed="#L" n="24"/>nam Sanctus Thomas in Prima Parte, q. cvur, articulo
+<lb ed="#L" n="25"/>allegato , videtur hoc intendere dum inquit quod 
+Sera<lb ed="#L" break="no" n="26"/>phin excedunt in hoc quod est omnium supremum, 
+scili<lb ed="#L" break="no" n="27"/>cet Deo uniri ; in praecedenti vero articulo, ad 5, dixerat
+<lb ed="#L" n="28"/>quod nomen Seraphin imponitur ab excessu caritatis. Ergo
+<lb ed="#L" n="29"/>dilectio Dei est simpliciter, et non tantum. secundum iva
+<lb ed="#L" n="30"/>melior Dei cognitione. i
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3010">
+               <lb ed="#L" n="31"/>XXV. Ad primum horum. dici. potis quod, licet Deus
+<lb ed="#L" n="32"/>sit per suam essentiam in intellectu beatorum, non tamen
+<lb ed="#L" n="33"/>tollitur quin in seipso babeat 'esse perfectiori modo quam
+<lb ed="#L" n="34"/>in intellectu. Esse enim Dei existentis in intellectu. beati
+<lb ed="#L" n="35"/>dupliciter considerari. ,potest: uno modo, in ordine ad
+<lb ed="#L" n="36"/>ipsam Dei essentiam existentem in intellectu; alio modo, in
+<lb ed="#L" n="37"/>ordine ad intellectum, cui divina essentia per modum 
+for<lb ed="#L" break="no" n="38"/>mae intelligibilis unitur. Primo modo, esse Dei in 
+intel<lb ed="#L" break="no" n="39"/>lectu beatorum, et in ipso Deo secundum se, est aeque
+<lb ed="#L" n="40"/>perfecte. Sed: secundo modo, est perfectius in Deo 
+se<lb ed="#L" break="no" n="41"/>cundum quod est inse, quam. ut est in intellectu: quia,
+<lb ed="#L" n="42"/>ut dicitur Verit., q..vi, a 2, ad 3, divina essentia non
+<lb ed="#L" n="43"/>coniungitur intellectui beatorum secundum totum modum
+<lb ed="#L" n="44"/>suum, sed secundum modum. intellectus; et, ut dicitur
+<lb ed="#L" n="45"/>art: 4, ad 2, intellectus creatus non coniungitur divinae
+<lb ed="#L" n="46"/>essentiae. secundum totum: posse ipsius. divinae essentiae.
+<lb ed="#L" n="47"/>Item IV Sent., d. xti, q. 1 a. 4, ad 2, dicitur quod
+<lb ed="#L" n="48"/>intellectus unius beati perfectius substat divinae essentiae
+<lb ed="#L" n="49"/>quam alterius intellectus. Et art. 5, ad 4, dicitur. quod
+<lb ed="#L" n="50"/>essentia divina, quae est omnium ratio, non coniungitur
+<lb ed="#L" n="51"/>intellectui Deum. videntis ut est omnium — M ut est
+<lb ed="#L" n="52"/>Jani aliquorum. iut
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3060">
+               <lb ed="#L" n="53"/>Quia igitur Deus pesidctins ; esse habet in.seipso quam
+<lb ed="#L" n="54"/>in. intellectu in ordine ad. intellectum,..ut scilicet ipsum
+<lb ed="#L" n="55"/>actuat in. esse intelligibili; et cognitio provenit ex eo
+<lb ed="#L" n="56"/>quod. intelligibile est in intellectu per modum actuantis
+<lb ed="#L" n="57"/>ipsum in esse intelligibili ; dilectio autem terminatur ad rem
+<lb ed="#L" n="58"/>ut est in seipsa: ideo optime salvatur quod etiam in patria
+<lb ed="#L" n="59"/>dilectio. praeeminet cognitioni eminentia secundum quid.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3078">
+               <lb ed="#L" n="60"/>2. Ad secundum dicitur primo, quod ordinatio 
+ordi<lb ed="#L" break="no" n="61"/>num Cherubin et .Seraphin convenienter sumitur. 
+secun<lb ed="#L" break="no" n="62"/>dum eminentiam secundum .quid inter dilectionem Dei et
+<lb ed="#L" n="63"/>eius cognitionem, non autem secundum eorum 
+eminen<lb ed="#L" break="no" n="64"/>tiam simpliciter. Quia considerantur Operationes istae in
+<lb ed="#L" n="65"/>angelis, non. secundum ordinem ad ipsa obiecta formalia
+<lb ed="#L" n="66"/>secundum. se, quae sunt verum absolute et bonum. 
+abso<lb ed="#L" break="no" n="67"/>lute, sed secundum ordinem ad ista ut sunt in Deo : cum
+<lb ed="#L" n="68"/>distinguantur ordines primae hierarchiae ex ordine ad
+<lb ed="#L" n="69"/>Deum, in quo omnes rationes rerum immediate vident.
+<lb ed="#L" n="70"/>Dictum est autem quod eminentia inter dilectionem et
+<lb ed="#L" n="71"/>cognitionem quae est ex parte rerum in quibus invenitur
+<lb ed="#L" n="72"/>verum et bonum, est eminentia secundum quid.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3109">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="73"/>Dicitur secundo, quod in ista eminentia secundum quid
+<lb ed="#L" n="74"/>includitur etiam eminentia simpliciter Seraphin ad 
+Che<lb ed="#L" break="no" n="75"/>rubin : inquantum excellentia: dilectionis huius ordinis ad
+<lb ed="#L" n="76"/>cognitionem 'Cherubin includit- etiam! excellentiorem Dei
+<lb ed="#L" n="77"/>cognitionem. Sicut enim ardentius Deum diligunt, ita
+<lb ed="#L" n="78"/>ipsum: perfectius cognoscunt: ut inquit Sanctus Thomas
+<lb ed="#L" n="79"/>locis praeallegatis.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3130">
+               <lb ed="#L" n="80"/>3. Ad tertium. dicitur quod dilectio Dei non magis
+<lb ed="#L" n="81"/>Deo coniungit reali coniunctione simpliciter quam eius
+<lb ed="#L" n="82"/>cognitio in patria, sed tantum secundum quid, inquantum
+<lb ed="#L" n="83"/>scilicet. complet accidentaliter perfectam coniunctioriem
+<lb ed="#L" n="84"/>quae est per cognitionem, tanquam. illi ultimate 
+Super<lb ed="#L" break="no" n="85"/>veniens. lpsa. tamen secundum se. non est coniunctio
+<lb ed="#L" n="86"/>faciens Deum esse secundum se in beato, sed tantum
+<lb ed="#L" n="87"/>est coniunctio secundum affectum, quae importat 
+com<lb ed="#L" break="no" n="88"/>placentiam quandam in re habita et coniuncta,:et 
+adapta<lb ed="#L" break="no" n="89"/>tionem quandam affectus ad rem — Unde <ref xml:id="ferv7a-d1e1920-Rd1e3153">Sanctus
+<lb ed="#L" n="90"/>Thomas, Quarto, d. xrix, q. 1, a. 1, qu 2, ad 5</ref>, inquit
+<lb ed="#L" n="91"/>quod <quote xml:id="ferv7a-d1e1920-Qd1e3161">per affectum perfectius homo s coniungitur quam
+<lb ed="#L" n="92"/>per intellectum, inquantum coniunctio quae est per affectum,
+<lb ed="#L" n="93"/>supervenit perfectae coniunctioni quae est ! d intellectum,
+<lb ed="#L" n="94"/>perficiens et decorans eam.</quote>
+            </p>
+            <p xml:id="ferv7a-d1e1920-d1e3171">
+               <lb ed="#L" n="95"/>XXVI. Ad primum Scoti dicitur juod regula 
+Philo<lb ed="#L" break="no" n="96"/>sophi intelligitur de iis quorum unum est nobilius altero
+<lb ed="#L" n="97"/>simpliciter, et non tantum secundum quid. Modo, dictum
+<lb ed="#L" n="98"/>est quod dilectio Dei non est nobilior eius cognitione
+<lb ed="#L" n="99"/>simpliciter, sed tantum secundum quid. Ideo non sequitur
+<lb ed="#L" n="100"/>quod dilectio secundum ams suum 'sit intellectione 
+no<lb ed="#L" break="no" n="101"/>bilior.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3189">
+               <lb ed="#L" n="102"/>2. Ad secundum dicitur, primo, quod duplex est 
+obiec<lb ed="#L" break="no" n="103"/>tum, scilicet materiale, et formale: sicut formale obiectum
+<lb ed="#L" n="104"/>visus est color, quia omnia ad visum referuntur sub ratione
+<lb ed="#L" n="105"/>colorati; materiale vero est hoc vel illud coloratum. 
+Simi<lb ed="#L" break="no" n="106"/>lite voluntatis formale obiectum est bonum, quia omnia
+<lb ed="#L" n="107"/>referuntur ad ipsam sub ratione boni: materiale vero est
+<lb ed="#L" n="108"/>hoc vel illud bonum, Intellectus quoque formale obiectum
+<lb ed="#L" n="109"/>est ens aut verum: sed materiale est hoc aut illud ens,
+<lb ed="#L" n="110"/>sive hoc aut illud verum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3211">
+               <lb ed="#L" n="111"/>Dicitur secundo, quod aliter loquendum est de actibus
+<lb ed="#L" n="112"/>unius potentiae: et aliter de' actibus diversarum ' 
+poten<lb ed="#L" break="no" n="113"/>tiarum. Quia actus diversarum potentiarum. cum 
+distin<lb ed="#L" break="no" n="114"/>guantur secundum obiecta formalia; nobilitas ipsorum
+<lb ed="#L" n="115"/>secundum. formalium obiectorum nobilitatem est conside- :
+<lb ed="#L" n="116"/>randa: sicut nobilius est intelligere quam sentire, quia
+<lb ed="#L" n="117"/>intelligibile est nobilius, quam sensibile. Actus dutem
+<lb ed="#L" n="118"/>unius potentiae, cum "distinguantur tantum per obiecta
+<lb ed="#L" n="119"/>materialia, habent. distinctionem in nobilitate ex ipsorum
+<lb ed="#L" n="120"/>materialium | obiectorum. nobilitate:. sicut. videre. album
+<lb ed="#L" n="121"/>est nobilius quam videre nigrum, ceteris paribus.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3237">
+               <lb ed="#L" n="122"/>Maior ergo Scoti, si fiat comparatio inter actus 
+diver<lb ed="#L" break="no" n="123"/>sarum potentiarum, habet veritatem de actu coniungente
+<lb ed="#L" n="124"/>nobiliori obiecto formali: non autem de coniungente
+<lb ed="#L" n="125"/>nobiliori -obiecto materiali. Modo,'actus voluntatis non
+<lb ed="#L" n="126"/>coniungit nobiliori obiecto formali quam intellectus, sed
+<lb ed="#L" n="127"/>tantum materiali. Nam, ut declarat Sanctus Thomas
+<lb ed="#L" n="128"/>Prima, q. LXXXiI, ubi supra , obiectum formale intellectus
+<lb ed="#L" n="129"/>nobilius est obiecto voluntatis, utpote simplicius et 
+abs<lb ed="#L" break="no" n="130"/>tractius: actus enim intellectus terminatur ad verum
+<lb ed="#L" n="131"/>formaliter, actus vero voluntatis ad bonum cognitum:
+<lb ed="#L" n="132"/>Ideo minor, ad.sensum in quo maior est vera, negatur.
+<lb ed="#L" n="133"/>— Cum autem probatur quia actus voluntatis terminatur ad
+<lb ed="#L" n="134"/>rem ut est in se,.actus autem intellectus terminatur ad
+<lb ed="#L" n="135"/>eam ut est in intellectu: dicitur quod illi modi essendi
+<lb ed="#L" n="136"/>accipiuntur: tanqduam conditiones obiecti materialis" actus
+<lb ed="#L" n="137"/>intellectus et voluntatis terminantis; non autem tanquam
+<lb ed="#L" n="138"/>diversae: rationes formales obiectorum.
+</p>
+            <p xml:id="ferv7a-d1e1920-d1e3276">
+               <lb ed="#L" n="139"/>Si autem in maiori fiat comparatio inter actus ad
+<lb ed="#L" n="140"/>eandem potentiam pertinentes, sic maior est vera etiam
+<lb ed="#L" n="141"/>de actu coniungente nobiliori obiecto materiali. Sed tunc
+<lb ed="#L" n="142"/>non est ad propositum: quia constat quod actus 
+intel<lb ed="#L" break="no" n="143"/>lectus et voluntatis non sunt unius potentiae actus, sed
+<lb ed="#L" n="144"/>diversarum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

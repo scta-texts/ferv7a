@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 124</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 124</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="385"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2720"><!-- ferv7a-l3c124 -->
+            <head>Capitulum 124</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="81" type="fixed=385"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="82"/>SECUNDA matrimonii conditio  est. ut sit unius ad unam.
+<lb ed="#L" n="83"/>Licet autem haec conclusio in praecedenti capite sit
+<lb ed="#L" n="84"/>aliquatenus tacta , quia tamen non est ibi probata, sed
+<lb ed="#L" n="85"/>magis supposita, ideo hoc loco probat eam Sanctus Thomas.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>I. Arguit autem primo sic. Quodlibet animal desiderat
+<lb ed="#L" n="87"/>frui libere voluptate coitus, sicut et voluptate cibi. Sed
+<lb ed="#L" n="88"/>haec libertas impeditur per hoc quod ad unam plures 
+ac<lb ed="#L" break="no" n="89"/>cedunt, aut e converso. Ergo ex naturali instinctu procedit
+<lb ed="#L" n="90"/>quod sit una unius.
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="91"/>Minor declaratur et ex libertate fruendi cibo, quae 
+impe<lb ed="#L" break="no" n="92"/>ditur si cibum quem unum animal sumere cupit, aliud
+<lb ed="#L" n="93"/>animal usurpet. — Et signo hoc: quod similiter propter
+<lb ed="#L" n="94"/>cibum et propter coitum animalia pugnant.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>II. Secundo : et est ratio specialis in hominibus. Homo
+<lb ed="#L" n="96"/>naturaliter desiderat certus esse de prole. Sed haec 
+certi<lb ed="#L" break="no" n="97"/>tudo omnino tolleretur si plures essent unius. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Addit autem Sanctus Thomas quod differentia est in
+<lb ed="#L" n="99"/>hoc quod est plures non esse unius. Quia ad hoc quod
+<pb ed="#L" n="386"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>una femina a pluribus non cognoscatur, utraque dictarum
+<lb ed="#L" n="2"/>rationum concurrit : quantum vero ad hoc quod unus mas
+<lb ed="#L" n="3"/>plures feminas non cognoscat, concurrit tantum prima ratio,
+<lb ed="#L" n="4"/>non autem secunda. Certitudo: enim "prolis propter hoc
+<lb ed="#L" n="5"/>non tollitur: sed bene tollitur a femina libertas utendi viro,
+<lb ed="#L" n="6"/>quod prima ratio tangebat.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Ex quo infertur quod, quia certitudo prolis est 
+prin<lb ed="#L" break="no" n="8"/>cipale bonum quod ex matrimonio quaeritur, nulla lex aut
+<lb ed="#L" n="9"/>consuetudo humana permisit quod una esset plurium uxor.
+<lb ed="#L" n="10"/>Unde et hoc apud antiquos Romanos fuit inconveniens
+<lb ed="#L" n="11"/>reputatum, teste Valerio.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>2. Circa id quod dicitur, certitudinem prolis esse 
+prin<lb ed="#L" break="no" n="13"/>cipale bonum quod quaeritur ex matrimonio, attendendum
+<lb ed="#L" n="14"/>est quod illud non dicitur quasi principalis finis 
+matri<lb ed="#L" break="no" n="15"/>monii, absolute sumptus, sit prolis certitudo, non enim
+<lb ed="#L" n="16"/>certitudo prolis est finis principalis, sed prolis generatio
+<lb ed="#L" n="17"/>et educatio: sed quia sine ipsa non potest esse educatio
+<lb ed="#L" n="18"/>prolis, quod est principalis finis matrimoni? simul cum
+<lb ed="#L" n="19"/>procreatione. Unde, cum dicitur esse principale bonum
+<lb ed="#L" n="20"/>matrimonii, intelligendum est, non tanquam eius principalis
+<lb ed="#L" n="21"/>finis, sed tanquam principalem finem necessario 
+conco<lb ed="#L" break="no" n="22"/>mitans.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>3. Attendendum etiam, ex doctrina Sancti Thomae IV
+<lb ed="#L" n="24"/>Sent., d. xxxii, q. 1, a. 1, ad 7 , quod unum virum babere
+<lb ed="#L" n="25"/>plures uxores non est contra prima praecepta naturae,
+<lb ed="#L" n="26"/>sed contra secunda, quae ex primis derivantur: quia nec
+<lb ed="#L" n="27"/>tollit totaliter, nec impedit aliqualiter primum f.nem quem
+<lb ed="#L" n="28"/>natura ex matrimonio intendit, scilicet procreationem prolis
+<lb ed="#L" n="29"/>et eius educationem ; cum unus homo sufficiat pluribus
+<lb ed="#L" n="30"/>uxoribus fecundandis, et educandis filiis ex eis natis. Sed
+<lb ed="#L" n="31"/>bene secundum finem, qui est communicatio operum quae
+<lb ed="#L" n="32"/>sunt in vita necessaria, multum. impedit: eo quod. non
+<lb ed="#L" n="33"/>facile possit esse pax in familia ubi uni viro plures uxores
+<lb ed="#L" n="34"/>coniunguntur. Unam autem uxorem habere plures viros
+<lb ed="#L" n="35"/>est contra prima praecepta legis naturae. Quia quantum
+<lb ed="#L" n="36"/>ad aliquid tollitur bonum prolis omnino: scilicet quantum
+<lb ed="#L" n="37"/>ad eius educationem, quae per prolis incertitudinem respectu
+<lb ed="#L" n="38"/>patris removetur. Quantum vero ad aliquid impeditur, 
+sci<lb ed="#L" break="no" n="39"/>licet quantum ad procreationem: quia vix potest accidere,
+<lb ed="#L" n="40"/>si mulier, post. primam. impraegnationem, iterum ab alio
+<lb ed="#L" n="41"/>impraegnetur, quin corruptio accidat quantum ad utrumque
+<lb ed="#L" n="42"/>fetum, vel quantum ad alterum.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Quia ergo non ita circa prima legis naturae praecepta,
+<lb ed="#L" n="44"/>quae sunt quasi communes conceptiones in speculativis ,
+<lb ed="#L" n="45"/>ratio obscuratur, sicut circa secunda ipsius praecepta; ideo,
+<lb ed="#L" n="46"/>licet aliqua lex humana aut consuetudo apud aliquos 
+obti<lb ed="#L" break="no" n="47"/>nuerit ut unus vir plures uxores habere possit, nulla tamen
+<lb ed="#L" n="48"/>lege aut consuetudine, ut hic dicitur, permissum est ut
+<lb ed="#L" n="49"/>una mulier plures habeat maritos.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>III. Zertio. Masculo, inter omnia animalia, maxime est
+<lb ed="#L" n="51"/>cura de prole in specie humana. Ergo naturale est homini
+<lb ed="#L" n="52"/>ut unus mas unam feminam habeat, et e converso. — 
+Pro<lb ed="#L" break="no" n="53"/>batur consequentia. Quia in omni animalis specie in qua
+<lb ed="#L" n="54"/>patri est cura de prole, unus mas non habet nisi unam
+<lb ed="#L" n="55"/>feminam. Non enim sufficeret unus mas auxilium praestare
+<lb ed="#L" n="56"/>in educatione prolis pluribus feminis.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>2. Circa hoc ultimum dictum, attendendum est quod hoc
+<lb ed="#L" n="58"/>non habet veritatem nisi in maribus qui sunt alterius speciei
+<lb ed="#L" n="59"/>ab homine: de homine enim dictum est , de mente Sancti
+<lb ed="#L" n="60"/>"Thomae, quod unus sufficit plurium uxorum filiis 
+educan<lb ed="#L" break="no" n="61"/>dis. Sed tunc videtur quod ratio nihil concludat de homine.
+<lb ed="#L" n="62"/>Negaretur enim consequentia: et diceretur ad 
+probatio<lb ed="#L" break="no" n="63"/>nem quod non oportet, si in aliis animalibus in quibus
+<lb ed="#L" n="64"/>patri inest sollicitudo de prole, unus mas non habet nisi
+<lb ed="#L" n="65"/>unam feminam, quod hoc etiam sit in homine. Et ratio
+<lb ed="#L" n="66"/>huius est, quia in aliis unus mas non sufficit plurium filiis
+<lb ed="#L" n="67"/>educandis, in homine autem sufficit.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Respondetur quod haec ratio ex quadam similitudine
+<lb ed="#L" n="69"/>procedit. Sicut enim sollicitudo quae inest patri de prole,
+<lb ed="#L" n="70"/>est aliis animalibus ratio quod una sit unius, ita et in 
+ho<lb ed="#L" break="no" n="71"/>minibus. Sed unam esse unius est illis secundum primam
+<lb ed="#L" n="72"/>naturae inclinationem: quia aliter non posset proles educari,
+<lb ed="#L" n="73"/>quod est primum .bonum intentum a natura. In homine
+<lb ed="#L" n="74"/>autem est ex secunda inclinatione naturae: quia ex 
+solli<lb ed="#L" break="no" n="75"/>citudine de prole naturali instinctu provenit ut vir et uxor
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>commaneant, et consequenter ut invicem in operibus vitae -
+</p>
+            <p>
+               <lb ed="#L" n="77"/>necessariis communicent; quod non convenienter fieret si
+<lb ed="#L" n="78"/>unus yir plures uxores haberet, quia pax in familia 
+im<lb ed="#L" break="no" n="79"/>pediretur.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Unde sic vult Sanctus Thomas arguere. Sicut, cum in
+<lb ed="#L" n="81"/>coniunctione maris et feminae naturaliter inclinantur 
+ani<lb ed="#L" break="no" n="82"/>malia, prima intentio est naturae ad prolis educationem;
+<lb ed="#L" n="83"/>ita secunda intentione naturae, ab illa prima proveniente,
+<lb ed="#L" n="84"/>inclinatur homo ad communicationem mutuam operum
+<lb ed="#L" n="85"/>vitae inter marem et feminam. Sed alia animalia, quia ex
+<lb ed="#L" n="86"/>pluralitate feminarum unius impediretur prolis educatio, a
+<lb ed="#L" n="87"/>natura habent primo ut unus mas unam tantum feminam
+<lb ed="#L" n="88"/>habeat. Ergo, cum etiam ex pluralitate uxorum unius viri
+<lb ed="#L" n="89"/>dicta operum vitae communicatio impediatur, est ex secundo
+<lb ed="#L" n="90"/>instinctu naturae ut unus vir unam tantum uxorem habeat:
+<lb ed="#L" n="91"/>et etiam e converso una unum habeat virum, quia etiam,
+<lb ed="#L" n="92"/>et multo magis, tolleretur pax in familia si una esset plurium,
+</p>
+            <p>
+               <lb ed="#L" n="93"/>IV. Quarto. Si mulieri non licet habere plures viros,
+<lb ed="#L" n="94"/>liceret autem viro habere plures uxores, non esset liberalis
+<lb ed="#L" n="95"/>amicitia uxoris ad virum, sed quasi servilis. Sed hoc est
+<lb ed="#L" n="96"/>inconveniens. Ergo etc. — Probatur consequentia. Et 
+ra<lb ed="#L" break="no" n="97"/>tione: quia amicitia in quadam aequalitate consistit. Et
+<lb ed="#L" n="98"/>experimento: quia apud viros plures uxores habentes, uxores
+<lb ed="#L" n="99"/>quasi ancillae habentur.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Advertendum quod probatio consequentiae ad hoc tendit
+<lb ed="#L" n="101"/>quod, sicut se habet vir ad uxorem in amicitia, ita et uxor
+<lb ed="#L" n="102"/>se babet ad virum, eadem proportione servata: quia amicitia
+<lb ed="#L" n="103"/>in quadam aequalitate, scilicet proportionis, consistit. Sed,
+<lb ed="#L" n="104"/>uxore non potente habere plures viros, si vir plures habeat
+<lb ed="#L" n="105"/>uxores, videtur se habere vir ad illas tanquam ad ancillas
+<lb ed="#L" n="106"/>et omnino subiectas. Ergo et amor ipsarum ad virum erit
+<lb ed="#L" n="107"/>servilis, non liberalis.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Quinto: et est praecedentis rationis confirmatio. Amicitia
+<lb ed="#L" n="109"/>intensa non habetur ad multos: ut patet VIII Ethicorum.
+<lb ed="#L" n="110"/>Ergo, si uxor habet unum tantum virum, vir vero habeat
+<lb ed="#L" n="111"/>plures uxores, non erit aequalis amicitia ex utraque parte.
+<lb ed="#L" n="112"/>Ergo non liberalis, sed quasi servilis: quia videlicet uxor
+<lb ed="#L" n="113"/>intense diliget virum, non autem vir uxorem. "
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Sexto. Est contra bonos mores quod unus habeat plures
+<lb ed="#L" n="115"/>uxores. Ergo etc. — Probatur consequentia. Quia 
+matrimo<lb ed="#L" break="no" n="116"/>nium in hominibus debet ordinari secundum quod ad bonos
+<lb ed="#L" n="117"/>mores pertinet. — Antecedens vero probatur. Quia ex hoc
+<lb ed="#L" n="118"/>sequitur discordia in familia: ut experimento patet, ^.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Ad hanc dicit Durandus, apud Capreolum, Quarto,
+<lb ed="#L" n="120"/>d. xxxrir , quod nihil valet: quia per accidens est ut non
+<lb ed="#L" n="121"/>sit pax ubi sunt plures uxores, ex eo scilicet quod 
+quan<lb ed="#L" break="no" n="122"/>doque sunt litigiosae. — Sed ipse non videt quod, licet
+<lb ed="#L" n="123"/>quandoque in aliquo casu pluralitas uxorum pacem 
+com<lb ed="#L" break="no" n="124"/>patiatur, tamen, pro statu naturae corruptae, eam ut in
+<lb ed="#L" n="125"/>pluribus impedit: cum zelotypiam, et plura alia 
+inconve<lb ed="#L" break="no" n="126"/>nientia pariat. Ars autem et lex non considerat solum ea
+<lb ed="#L" n="127"/>quae sunt per se et necessaria, sed etiam ea quae ut in
+<lb ed="#L" n="128"/>pluribus accidunt.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>CONFIRMATUR conclusio auctoritate Genesis 1r.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>V. Per hoc vero excluditur consuetudo habentium plures
+<lb ed="#L" n="131"/>uxores; et opinio Platonis ponentis uxores debere esse
+<lb ed="#L" n="132"/>communes; et etiam Nicolai, qui unus ex septem 
+diaco<lb ed="#L" break="no" n="133"/>nibus fuit.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Sed circa hoc dubium occurrit. Videtur enim superius 
+<lb ed="#L" n="135"/>dictis contradicere, ubi dictum est quod nulla lex aut
+<lb ed="#L" n="136"/>consuetudo humana permisit ut una esset plurium uxor.
+<lb ed="#L" n="137"/>Si enim Plato voluit uxores esse communes, constat quod
+<lb ed="#L" n="138"/>voluit unam esse plurium.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Respondetur quod opinio Platonis quae hic refertur,
+<lb ed="#L" n="140"/>accipitur, non secundum veritatem, sed secundum quod
+<lb ed="#L" n="141"/>Aristoteles Platoni, in II Politicorum , imponit. Ut enim
+<lb ed="#L" n="142"/>inquit Sanctus Thomas in IV de Regimine Principum, cum
+<lb ed="#L" n="143"/>Socrates et Plato fuerint super omnes Philosophos 
+virtu<lb ed="#L" break="no" n="144"/>tibus dediti, non videtur credibile eos talem communitatem
+<lb ed="#L" n="145"/>instituisse qualem illis Aristoteles imponit, ut scilicet 
+mu<lb ed="#L" break="no" n="146"/>lieres quantum ad concubitum omnibus communes essent:
+<lb ed="#L" n="147"/>quia hoc est magis bestiale quam humanum. Sed ipsi
+<lb ed="#L" n="148"/>voluerunt uxores esse omnibus communes quantum ad
+<lb ed="#L" n="149"/>affectum. amoris et mutuam dilectionem, non autem 
+quan<lb ed="#L" break="no" n="150"/>tum ad concubitum.
+</p>
+            <p>
+               <pb ed="#L" n="387"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Nicolaus autem. Diaconus illud posuit, non quia ita |
+<lb ed="#L" n="2"/>bonum esse iudicaret, sed auctoritati Platonis innixus, quem
+<lb ed="#L" n="3"/>existimavit, ex Aristotelis relatione, voluisse uxores quantum |
+<lb ed="#L" n="4"/>ad concubitum esse communes.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>VI. Contra praedictam conclusionem argui potest 
+mul<lb ed="#L" break="no" n="6"/>tipliciter. Primo. Quando finis secundarius praeiudicat fini 
+<lb ed="#L" n="7"/>principali, negligendus est finis secundarius propter 
+prin<lb ed="#L" break="no" n="8"/>cipalem. Sed aliquando pacifica habitatio cum una uxore |
+<lb ed="#L" n="9"/>praeiudicat generationi, qui est finis principalis, quia illa
+<lb ed="#L" n="10"/>uxor est sterilis. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Secundo. Licet ex causa renuntiare iuri suo non minus
+<lb ed="#L" n="12"/>in parte quam in toto. Sed per hoc quod vir emittit votum
+<lb ed="#L" n="13"/>castitatis, in totum praeiudicatur alteri: per boc vero quod
+<lb ed="#L" n="14"/>contrahitur cum secunda, solum in parte. Ergo, si de licentia |
+<lb ed="#L" n="15"/>uxoris et eius consensu licet viro emittere castitatis votum,
+<lb ed="#L" n="16"/>pari ratione, propter sterilitatem uxoris, de licentia primae |
+<lb ed="#L" n="17"/>uxoris, licet accipere secundam.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Tertio. Papa potest dispensare in solemni voto 
+conti<lb ed="#L" break="no" n="19"/>nentiae propter defectum heredis. Ergo poterit dispensare
+<lb ed="#L" n="20"/>ut princeps habens sterilem, mulierem, ea vivente, aliam
+<lb ed="#L" n="21"/>accipiat.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>VII. Ad huius evidentiam, considerandum est quod, 
+<lb ed="#L" n="23"/>cum habere plures uxores sit contra naturae praecepta
+<lb ed="#L" n="24"/>secundaria; eius solius est hoc praeceptum tollere et in
+<lb ed="#L" n="25"/>hoc dispensare qui naturae est institutor, et naturae talem
+<lb ed="#L" n="26"/>dedit inclinationem taliaque praecepta : eius enim est solvere
+<lb ed="#L" n="27"/>legem cuius est condere. Et ideo, cum solus Deus sit
+<lb ed="#L" n="28"/>naturae institutor, ipse in hoc dispensare potest, et ad 
+<lb ed="#L" n="29"/>ipsum solum pertinet haec dispensatio: non autem ad
+<lb ed="#L" n="30"/>aliquem alium, nisi ex divina commissione.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Nec obstat huic quod in votis dispensari potest, quorum
+<lb ed="#L" n="32"/>tamen adimpletio est de iure divino et naturali. Non enin,
+<lb ed="#L" n="33"/>cum praelatus dispensat in voto, dispensat in praecepto
+<lb ed="#L" n="34"/>iuris naturalis vel divini, ut inquit Sanctus Thomas ll II,
+<lb ed="#L" n="35"/>q. rxxxvrrt, a. 10 , sed determinat in casu aliquo hoc non
+<lb ed="#L" n="36"/>esse materiam congruam voti, quod prius erat materia
+<lb ed="#L" n="37"/>congrua. Et ideo neque propria auctoritate, neque auctori-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="38"/>tate alicuius hominis, potest quis plures simul habere
+<lb ed="#L" n="39"/>uxores.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>2. Ad primum ergo dicitur quod maior est falsa, si 
+in<lb ed="#L" break="no" n="41"/>telligatur quod a quocumque sit negligendus, propria 
+aucto<lb ed="#L" break="no" n="42"/>ritate, finis secundarius. Si autem intelligatur quod ex
+<lb ed="#L" n="43"/>dispensatione divina sit negligendus, conceditur. Et eadem
+<lb ed="#L" n="44"/>ratione, conceditur quod auctoritate divina quis possit
+<lb ed="#L" n="45"/>plures uxores habere.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Ad secundum dicitur primo, quod non tantum ex hoc
+<lb ed="#L" n="47"/>non potest unus vir habere plures uxores quia una habeat
+<lb ed="#L" n="48"/>in virum plenum ius: sed quia hoc est contra naturalis
+<lb ed="#L" n="49"/>iuris praecepta et divini, contra quae nullus, absque divina
+<lb ed="#L" n="50"/>dispensatione, licite agere potest. Et ideo, quantumcumque
+<lb ed="#L" n="51"/>una uxor iurisdictioni quam habet in viri corpus 
+renun<lb ed="#L" break="no" n="52"/>tiare voluerit, remanet tamen naturae praeceptum, contra
+<lb ed="#L" n="53"/>quod agere nemini licet.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Dicitur secundo, quod non est simile de voto continentiae
+<lb ed="#L" n="55"/>facto de uxoris licentia, et de alterius uxoris acceptione.
+<lb ed="#L" n="56"/>Sicut enim non repugnat legi naturae ut aliquis particularis
+<lb ed="#L" n="57"/>homo matrimonium non contrahat, ita non repugnat ut
+<lb ed="#L" n="58"/>ab actu matrimoniali, de uxoris licentia, abstineat. Habere
+<lb ed="#L" n="59"/>autem aliam uxorem praeter primam, legi naturae, menti
+<lb ed="#L" n="60"/>humanae impressae, repugnat. Ideo potest vir, consentiente
+<lb ed="#L" n="61"/>uxore, castitatem vovere: non autem plures habere uxores.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Ad tertium dicitur primo, quod assumptum, apud 
+San<lb ed="#L" break="no" n="63"/>ctum Thomam, est falsum: ut patet II I^, q. 1xxxvri, a. 11;
+<lb ed="#L" n="64"/>licet IV Sent., d. xxxvi, q. t, a. 4 , alterius fuerit opinionis.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Dicitur secundo quod, illo admisso, adhuc non sequitur
+<lb ed="#L" n="66"/>intentum. Quia, ut dictum est superius, in dispensatione
+<lb ed="#L" n="67"/>voti non dispensatur in praecepto iuris naturalis aut divini,
+<lb ed="#L" n="68"/>sed tantum declaratur in tali casu illud non esse 
+conve<lb ed="#L" break="no" n="69"/>nientem materiam voti. In dispensatione vero plurium
+<lb ed="#L" n="70"/>uxorum fieret contra ius naturale et ius divinum.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>3. Alia argumenta facit Aureolus, quibus probat quod
+<lb ed="#L" n="72"/>habere plures uxores sit contra prima naturae praecepta,
+<lb ed="#L" n="73"/>et quod nullo modo ibi cadere possit dispensatio, etiam
+<lb ed="#L" n="74"/>a Deo. Vide apud Capreolum, loco allegato .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

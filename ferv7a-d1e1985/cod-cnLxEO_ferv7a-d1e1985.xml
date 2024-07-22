@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 34</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 34</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="90"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1985"><!-- ferv7a-l3c34 -->
+            <head xml:id="ferv7a-d1e1985-Hd1e101">Capitulum 34</head>
+            <p xml:id="ferv7a-d1e1985-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="41" type="fixed=90"/>Commentaria Feerrariensis
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="42"/>SECUNDO  ostendit quod ultima felicitas hominis non
+<lb ed="#L" n="43"/>consistit in operationibus moralibus, idest in actibus
+<lb ed="#L" n="44"/>virtutum moralium : ut Diogenes Cynicus posuit, et 
+Stoico<lb ed="#L" break="no" n="45"/>rum schola.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e123">
+               <lb ed="#L" n="46"/>I. Et arguit primo sic. Omnes morales operationes sunt
+<lb ed="#L" n="47"/>ordinabiles ad. aliud: sicut actus fortitudinis ad victoriam
+<lb ed="#L" n="48"/>et pacem, et actus iustitiae ad servandam pacem inter
+<lb ed="#L" n="49"/>homines, Ergo in ipsis non est ultima hominis felicitas.
+<lb ed="#L" n="50"/>— Probatur consequentia. Quia felicitas humana non est
+<lb ed="#L" n="51"/>ad ulteriorem finem ordinabilis, si sit ultima,
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e139">
+               <lb ed="#L" n="52"/>Circa probationem consequentiae, advertendum est quod,
+<lb ed="#L" n="53"/>secundum mentem <ref xml:id="ferv7a-d1e1985-Rd1e145">Aristotelis X Ethic.</ref>; et Sancti Thomae,
+<lb ed="#L" n="54"/>ibid. lect. 12; et in QQ. de Virtut., q. 1 a. 5, ad 8; et
+<lb ed="#L" n="55"/>III Sent., d. xxxiv, q. 1, a. 4; et clarius Verit,, q. xiv, a 2,
+<lb ed="#L" n="56"/>duplex est humana felicitas: una scilicet activa sive civilis,
+<lb ed="#L" n="57"/>quae consistit primo in actu prudentiae, quo homo et
+<lb ed="#L" n="58"/>se el alios gubernat, et secundario in actibus aliarum
+<lb ed="#L" n="59"/>virtutum moralium ; alia speculativa, quae est actus
+<lb ed="#L" n="60"/>sapientiae, scilicet contemplatio summae veritatis. Quia
+<lb ed="#L" n="61"/>autem activa felicitas ad speculativam ordinatur veluti
+<lb ed="#L" n="62"/>quaedam eius dispositio, ideo non est simpliciter ultima
+<lb ed="#L" n="63"/>felicitas: licet sit summum bonum in genere vitae activae
+<lb ed="#L" n="64"/>et civilis. Propter hoc ergo dixit Sanctus "Thomas hoc
+<lb ed="#L" n="65"/>loco quod felicitas humana non est ordinabilis ad aliud
+<lb ed="#L" n="66"/>si sit ultima, ut praeservaret se a felicitate activa et
+<lb ed="#L" n="67"/>civili, quae quidem est aliqua hominis felicitas, sed est
+<lb ed="#L" n="68"/>ad aliam ordinata, et non est ultima. — Simili ratione
+<lb ed="#L" n="69"/>in principio capituli proposuit quod ultima felicitas
+<lb ed="#L" n="70"/>hominis non consistit in operationibus virtutum 
+mora<lb ed="#L" break="no" n="71"/>lium; wut, inquam, daret intelligere quod non negat
+<lb ed="#L" n="72"/>aliquam felicitatem humanam in actibus huiusmodi 
+vir<lb ed="#L" break="no" n="73"/>tutum consistere; sed quod negat in illis ultimam 
+felici<lb ed="#L" break="no" n="74"/>tatem esse, quae est simpliciter summum hominis bonum,
+<lb ed="#L" n="75"/>et.non solum in aliquo genere.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e197">
+               <lb ed="#L" n="76"/>II Secundo. Modificatio passionum vel rerum 
+exterio<lb ed="#L" break="no" n="77"/>rum non potest esse ultimus finis humanae vitae: cum
+<lb ed="#L" n="78"/>ipsae passiones et res exteriores sint ad aliud ordinabiles.
+<lb ed="#L" n="79"/>Ergo etc. — Probatur consequentia. Quia virtutes morales
+<lb ed="#L" n="80"/>ad hoc sunt. ut per eas in huiusmodi medium conservetur,
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e210">
+               <lb ed="#L" n="81"/>Adverte, ex doctrina Sancti Thomae in plerisque locis,
+<lb ed="#L" n="82"/>praesertim T I5, q. 1x, a. 2, quod virtutes morales distin-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="83"/>guuntur quia quaedam sunt, sicut circa materiam, circa
+<lb ed="#L" n="84"/>passiones, sicut temperantia circa concupiscentias: 
+quae<lb ed="#L" break="no" n="85"/>dam vero sunt circa operationes, sicut iustitia circa 
+emptio<lb ed="#L" break="no" n="86"/>nes, venditiones, commutationes, et huiusmodi. Ideo hic
+<lb ed="#L" n="87"/>dicitur quod virtutes morales ad hoc sunt ut per eas 
+con<lb ed="#L" break="no" n="88"/>servetur medium in passionibus intrinsecis, quae scilicet
+<lb ed="#L" n="89"/>sunt motus appetitus sensitivi, non autem extrinsecus
+<lb ed="#L" n="90"/>dumtaxat illatae; et exterioribus operationibus, et rebus
+<lb ed="#L" n="91"/>circa quas huiusmodi exteriores operationes sunt.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e239">
+               <lb ed="#L" n="92"/>III. Tertio. Bonum moralis virtutis est quoddam a ratione
+<lb ed="#L" n="93"/>in rebus aliis a se institutum. Ergo non est optimum
+<lb ed="#L" n="94"/>hominis, quod est felicitas, — Probatur consequentia. Quia
+<lb ed="#L" n="95"/>proprium hominis bonum est secundum id quod est
+<lb ed="#L" n="96"/>proprium rationi; cum homo sit homo ex eo quod est
+<lb ed="#L" n="97"/>rationem habens. Magis autem proprium rationis est quod
+<lb ed="#L" n="98"/>ipsa in se habet, quam quod in alio facit.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e257">
+               <lb ed="#L" n="99"/>Advertendum, ex <ref xml:id="ferv7a-d1e1985-Rd1e261">Sancto Thoma, III Sent., d. xxxur,
+<lb ed="#L" n="100"/>a. 1, qu? 1 et 2</ref>, quod bonum virtutis moralis est bonum
+<lb ed="#L" n="101"/>rationis, idest, bonum quod est ratione regulatum: nam
+<lb ed="#L" n="102"/>ratio dirigit et regulat omnes actus humanos; et in tantum
+<lb ed="#L" n="103"/>aliquis actus humanus est bonus, in quantum rationi 
+con<lb ed="#L" break="no" n="104"/>formatur. Ideo hic dicitur quod bonum moralis virtutis
+<lb ed="#L" n="105"/>est bonum a ratione in aliis a se institutum: quia 
+vide<lb ed="#L" break="no" n="106"/>licet in motibus appetitus et operationibus quae a virtute
+<lb ed="#L" n="107"/>morali moderationem accipiunt, quae sunt alia a ratione,
+<lb ed="#L" n="108"/>attenditur bonum ex ordine ad rationem; et ipsi actus
+<lb ed="#L" n="109"/>qui a virtute morali producuntur, qui sunt a ratione
+<lb ed="#L" n="110"/>extrinseci, sunt boni inquantum rationi conformantur,
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e289">
+               <lb ed="#L" n="111"/>IV. Quarto. lllud secundum quod homo maxime 
+assimi<lb ed="#L" break="no" n="112"/>latur Deo, est eius felicitas: cum finis omnium rerum sit
+<lb ed="#L" n="113"/>Deo assimilari, ut ostensum est supra. Hoc autem non
+<lb ed="#L" n="114"/>est secundum actus morales: cum tales actus Deo non
+<lb ed="#L" n="115"/>conveniant nisi metaphorice, eo quod ipsi non conveniant
+<lb ed="#L" n="116"/>passiones vel aliqua huiusmodi circa quae sunt actus 
+mo<lb ed="#L" break="no" n="117"/>rales. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e307">
+               <lb ed="#L" n="118"/>Advertendum hoc loco quod, licet summum bonum
+<lb ed="#L" n="119"/>aliarum. rerum consistat in aliquo bono ad quod per
+<lb ed="#L" n="120"/>propriam operationem perveniunt, puta in gravi esse 
+deor<lb ed="#L" break="no" n="121"/>sum; hoc tamen in homine esse non potest. Quia quod
+<lb ed="#L" n="122"/>in illis est summum bonum, in Deo formaliter non 
+in<lb ed="#L" break="no" n="123"/>ventum, est id in quo maxime Deo assimilari possunt.
+<pb ed="#L" n="91"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>In homine autem non est sic. Nam praeter assimilationem
+<lb ed="#L" n="2"/>ad Deum tanquam ad exemplar, quantum ad ea quae
+<lb ed="#L" n="3"/>Deo formaliter non conveniunt; habet in se unde illi 
+as<lb ed="#L" break="no" n="4"/>similetur secundum eandem rationem operationis 
+supre<lb ed="#L" break="no" n="5"/>mae quae Deo convenit, scilicet secundum intelligere et
+<lb ed="#L" n="6"/>velle, secundum quae creatura maxime Deo appropinquat.
+<lb ed="#L" n="7"/>Ideo optime arguit Sanctus Thomas ultimam hominis 
+fe<lb ed="#L" break="no" n="8"/>licitatem non consistere in operationibus moralibus, ex
+<lb ed="#L" n="9"/>eo quod per ipsas homo non maxime Deo assimilatur,
+<lb ed="#L" n="10"/>cum illae Deo non conveniant, sed alia habeat in se per
+<lb ed="#L" n="11"/>quae magis appropinquat ad Deum et illi magis 
+assimi<lb ed="#L" break="no" n="12"/>latur, scilicet intelligere et velle, quae etiam sunt 
+nobi<lb ed="#L" break="no" n="13"/>lissimae operationes divinae. Unde et Aristoteles, X Eh. ,
+<lb ed="#L" n="14"/>ostendit in contemplatione maxime consistere hominis
+<lb ed="#L" n="15"/>felicitatem quia dii, qui beati sunt, hanc solam 
+operatio<lb ed="#L" break="no" n="16"/>nem habent, non autem morales operationes: ideo 
+secun<lb ed="#L" break="no" n="17"/>dum ilam maxime homines diis similes sunt.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e365">
+               <lb ed="#L" n="18"/>V. Sed occurrit unum dubium. Videtur enim hic velle
+<lb ed="#L" n="19"/>Sanctus Thomas quod nullae virtutes morales Deo proprie
+<lb ed="#L" n="20"/>conveniant, sed tantum metaphorice. Hoc autem in primo
+<lb ed="#L" n="21"/>libro dixit verum esse de virtutibus moralibus quae sunt
+<lb ed="#L" n="22"/>circa passiones: sed de iis quae circa operationes sunt, ut
+<lb ed="#L" n="23"/>sunt iustitia et Jiberalitas, vult quod proprie Deo conveniant.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e381">
+               <lb ed="#L" n="24"/>Respondetur, ex iis quae ibidem dicit Sanctus Thomas;
+<lb ed="#L" n="25"/>et Prima, q. xxr, a. 1; 1? I^, q. rxr, a. 5; item IV Sent.,
+<lb ed="#L" n="26"/>d. x,vi, a. 1, quod huiusmodi virtutes morales quae sunt
+<lb ed="#L" n="27"/>circa actiones, dupliciter accipi possunt: scilicet secundum
+<lb ed="#L" n="28"/>quod circa civiles actiones humanas sunt; et secundum
+<lb ed="#L" n="29"/>quod absolute et communiter circa actiones versantur.
+<lb ed="#L" n="30"/>Primo modo non conveniunt Deo, ut dicitur X Ethicorum:
+<lb ed="#L" n="31"/>iustitia enim humana est circa emptiones et venditiones
+<lb ed="#L" n="32"/>ac depositiones et huiusmodi; similiter liberalitas circa
+<lb ed="#L" n="33"/>dationes pecuniarum et huiusmodi ; quae non attribuuntur
+<lb ed="#L" n="34"/>Deo proprie. Et sic intelligit Sanctus Thomas hoc loco. —
+<lb ed="#L" n="35"/>Secundo autem modo Deo conveniunt. Et sic intellige 
+supe<lb ed="#L" break="no" n="36"/>rius primo libro. Est enim Deus rerum omnium naturalium
+<lb ed="#L" n="37"/>distributor, et bonorum omnium largitor, absque 
+retribu<lb ed="#L" break="no" n="38"/>tione, proprie loquendo. Vide ibi primo libro, cap. xcrr.
+</p>
+            <p xml:id="ferv7a-d1e1985-d1e416">
+               <lb ed="#L" n="39"/>VI. Quinto. Actus morales non sunt maxime proprii
+<lb ed="#L" n="40"/>homini inter bona humana respectu aliorum animalium,
+<lb ed="#L" n="41"/>sed tantum actio intellectualis: cum alia animalia aliquid
+<lb ed="#L" n="42"/>vel liberalitatis vel fortitudinis participent, non autem 
+in<lb ed="#L" break="no" n="43"/>tellectualis operationis. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="44"/>Quia felicitas est proprium hominis bonum, et ideo 
+quae<lb ed="#L" break="no" n="45"/>renda est in eo quod est maxime proprium homini.
+<lb ed="#L" n="46"/>Adverte quod bruta non dicuntur liberalitate et 
+for<lb ed="#L" break="no" n="47"/>titudine participare quasi istae virtutes illis conveniant:
+<lb ed="#L" n="48"/>sed quia habent aliquos actus similes actibus illarum 
+vir<lb ed="#L" break="no" n="49"/>tutum; ad quos quidem non per electionem moventur,
+<lb ed="#L" n="50"/>quod est de ratione virtutis, sed per naturalem instinctum.
+<lb ed="#L" n="51"/>VH. Attendendum etiam quod Stoici ad ponendum 
+felici<lb ed="#L" break="no" n="52"/>tatem in actibus moralibus movebantur, ut videtur Cicero in
+<lb ed="#L" n="53"/>libro de Finibus Bonorum et Malorum tangere, quia solum
+<lb ed="#L" n="54"/>honestum bonum esse dicebant: honestum autem dicebant
+<lb ed="#L" n="55"/>in virtute consistere, secundum quam homo bonus dicitur.
+<lb ed="#L" n="56"/>Sed eorum ratio non concludit. Respondetur enim,
+<lb ed="#L" n="57"/>ex doctrina Sancti Thomae Prima, q. v, a. 6; et II II5
+<lb ed="#L" n="58"/>q. cxLv, quod Aonestum dupliciter accipi potest. Uno
+<lb ed="#L" n="59"/>modo, ut dividit bonum humanum nobis per 
+experien<lb ed="#L" break="no" n="60"/>tiam notum: ut proprie videntur accipere doctores 
+divi<lb ed="#L" break="no" n="61"/>dentes bonum in utile, delectabile et honestum. Et sic
+<lb ed="#L" n="62"/>honestum dicitur quod in rebus humanis est per se 
+eli<lb ed="#L" break="no" n="63"/>gibile, tanquam existens secundum rationem ordinatum:
+<lb ed="#L" n="64"/>et honestum idem est quod virtus. Sed tunc falsum est
+<lb ed="#L" n="65"/>quod honestum sit ipsa ultima hominis felicitas. Immo
+<lb ed="#L" n="66"/>ad ipsam felicitatem sicut ad finem ordinatur: quamvis
+<lb ed="#L" n="67"/>in se etiam aliquam rationem bonitatis habeat, etiam si
+<lb ed="#L" n="68"/>nihil aliud boni nobis per ipsum proveniret. — Alio modo
+<lb ed="#L" n="69"/>potest accipi ut dividit bonum in communi: ut scilicet
+<lb ed="#L" n="70"/>omne quod propter se appetitur, honestum dicitur. Et sic
+<lb ed="#L" n="71"/>falsum est quod virtus tantum habeat rationem honesti.
+<lb ed="#L" n="72"/>Immo ipsa Dei contemplatio magis habet rationem honesti:
+<lb ed="#L" n="73"/>quia ita propter se appetitur quod nullo modo appetitur
+<lb ed="#L" n="74"/>propter aliud; virtus autem ita propter se est appetibilis
+<lb ed="#L" n="75"/>quod etiam propter aliud,'scilicet propter consequendam
+<lb ed="#L" n="76"/>beatitudinem, est appetibilis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

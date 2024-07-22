@@ -1,0 +1,790 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 85</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 85</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="257"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2402"><!-- ferv7a-l3c85 -->
+            <head>Capitulum 85</head>
+            <p>
+               <pb ed="#L" n="257"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=257"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>SICUT ostensum est corpora caelestia non agere per se
+<lb ed="#L" n="3"/>directe in intellectum humanum, ita nunc quod non
+<lb ed="#L" n="4"/>agant in voluntatem Sanctus "Thomas vult ostendere .
+<lb ed="#L" n="5"/>Circa hoc autem duo facit: primo, ostendit quod caelum
+<lb ed="#L" n="6"/>virtute propria humanae electionis non est causa; secundo,
+<lb ed="#L" n="7"/>quod nec virtute animae moventis, cap. Lxxxvir.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Circa primum duo facit: primo, ostendit propositum;
+<lb ed="#L" n="9"/>secundo, ut magis propositum confirmetur, ostendit nec
+<lb ed="#L" n="10"/>etiam naturales effectus in istis inferioribus a caelo de
+<lb ed="#L" n="11"/>necessitate sequi, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>I. Quantum ad primum, ponit quatuor conclusiones 
+<lb ed="#L" n="13"/>Prima est: Corpora caelestia neque voluntatum nostrarum,
+<lb ed="#L" n="14"/>neque electionum sunt causa, scilicet per se et directe.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Probatur primo. Non possunt imprimere directe in
+<lb ed="#L" n="16"/>intellectum. Ergo neque in voluntatem. - Probatur 
+con<lb ed="#L" break="no" n="17"/>sequentia. Quia voluntas est in parte intellectiva animae:
+<lb ed="#L" n="18"/>ut patet Ill de Anima, text. 42.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>II. Secundo. Non sunt causa intelligentiae nostrae. Ergo
+<lb ed="#L" n="20"/>etc. — Probatur consequentia. Quia omnis electio et 
+actua<lb ed="#L" break="no" n="21"/>lis volitio in nobis immediate causatur ex apprehensione
+<lb ed="#L" n="22"/>intellectuali. Quod constat fum quia bonum intellectum
+<lb ed="#L" n="23"/>est obiectum voluntatis, III de Anima, text. 51. Tum quia
+<lb ed="#L" n="24"/>perversitas in eligendo non provenit nisi intellectus 
+iudi<lb ed="#L" break="no" n="25"/>cium deficiat in particulari eligibili, ut dicitur VII .Efhic.,
+<lb ed="#L" n="26"/>cap. v .
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Circa processum huius rationis dubium occurrit.
+<lb ed="#L" n="28"/>Videtur enim procedere ratio ex hoc fundamento, quod
+<lb ed="#L" n="29"/>intelligentia est causa immediata electionis. Ex hoc namque
+<lb ed="#L" n="30"/>videtur sequi quod nihil possit mediare inter 
+intelligen<lb ed="#L" break="no" n="31"/>tiam et electionem ex quo causetur electio: et ideo, si
+<lb ed="#L" n="32"/>aliquid debet esse causa electionis, oportet ut sit causa
+<lb ed="#L" n="33"/>intelligentiae, a qua electio immediate causatur. Sed 
+vi<lb ed="#L" break="no" n="34"/>detur hoc fundamentum ad propositum non valere. Nam
+<lb ed="#L" n="35"/>intelligentia, apud divum Thomam, non movet voluntatem
+<lb ed="#L" n="36"/>nisi per modum finis et. formae, illi videlicet obiectum
+<lb ed="#L" n="37"/>praesentando. Non est autem inconveniens ut voluntas ab
+<lb ed="#L" n="38"/>uno immediate moveatur tanquam a fine et tanquam a
+<lb ed="#L" n="39"/>specificante eius operationem, ab alio vero moveatur 
+tan<lb ed="#L" break="no" n="40"/>quam ab efficiente et quantum ad exercitium: ut est de
+<lb ed="#L" n="41"/>mente Sancti Thomae I Il, q. 9, a. 3, ad. 3. Poterunt
+<lb ed="#L" n="42"/>ergo esse simul vera ista: et quod intelligentia est 
+imme<lb ed="#L" break="no" n="43"/>diata causa electionis; et quod etiam ipsa corpora 
+cae<lb ed="#L" break="no" n="44"/>lestia sint illius causae, in alio videlicet genere causae.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Confirmatur obiectio, Quia, non obstante ista 
+immedia<lb ed="#L" break="no" n="46"/>tione, ponit Sanctus Thomas inferius  Deum esse causam
+<lb ed="#L" n="47"/>actus voluntatis. Ergo illa immediatio non removet 
+cau<lb ed="#L" break="no" n="48"/>salitatem alterius causae supra electionem.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>3. Respondetur quod ex illa immediatione causalitatis
+<lb ed="#L" n="50"/>intelligentiae supra electionem, inquantum excludit aliam
+<lb ed="#L" n="51"/>causam mediam, non procedit ratio: quia, cum illa non sit
+<lb ed="#L" n="52"/>immediatio nisi in genere causae finalis et formalis, non
+<lb ed="#L" n="53"/>habet excludere nisi aliam causam. mediam in eodem 
+ge<lb ed="#L" break="no" n="54"/>nere, non autem in genere causae efficientis, ut obiectio
+<lb ed="#L" n="55"/>tangit. Sed dupliciter possumus hanc rationem 
+interpre<lb ed="#L" break="no" n="56"/>tari. Primo, dicendo quod procedit ex illa immediatione
+<lb ed="#L" n="57"/>inquantum includit quandam continuationem illarum 
+ope<lb ed="#L" break="no" n="58"/>rationum, et naturalem ordinem unius ad alteram. Quae
+<lb ed="#L" n="59"/>enim sic colligata sunt, talem ordinem habent inter se
+<lb ed="#L" n="60"/>quod nihil potest esse causa posterioris per modum causae
+<lb ed="#L" n="61"/>effectivae extrinsecae, quod non sit causa prioris. Quia
+<lb ed="#L" n="62"/>enim risibilitas immediate ab essentia hominis causatur,
+<lb ed="#L" n="63"/>non potest esse causa risibilitatis quod non est causa 
+na<lb ed="#L" break="no" n="64"/>turae humanae. Similiter ergo, quia electio immediate
+<lb ed="#L" n="65"/>causatur ab intelligentia, et non potest esse nisi 
+praesup<lb ed="#L" break="no" n="66"/>posita intelligentia, ideo non potest aliquid esse causa
+<lb ed="#L" n="67"/>electionis quod non est causa intelligentiae. Unde et Deus,
+<lb ed="#L" n="68"/>qui est causa electionis, est etiam intelligentiae causa, ut
+<lb ed="#L" n="69"/>inferius  ostendetur.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>4. Sed quia forte ista propositio, Quod non est causa
+<lb ed="#L" n="71"/>prioris, non est causa posterioris, habet veritatem tantum
+<lb ed="#L" n="72"/>si accipiatur causalitas in eodem genere: puta quod nihil
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="73"/>potest esse causa finalis alicuius causati immediate ab aliquo
+<lb ed="#L" n="74"/>fine, nisi sit causa finalis illius finis; et nihil potest esse
+<lb ed="#L" n="75"/>causa efficiens alicuius dependentis immediate ab alio 
+eff<lb ed="#L" break="no" n="76"/>cienter, nisi sit causa efficiens illius prioris a quo dependet;
+<lb ed="#L" n="77"/>non apparet autem quare in genere causae efficientis non
+<lb ed="#L" n="78"/>possit aliquid esse causa alicuius dependentis ab alio 
+im<lb ed="#L" break="no" n="79"/>mediate in genere causae finalis, absque hoc quod illius
+<lb ed="#L" n="80"/>causae finalis sit causa effectiva: — ideo secundo 
+respon<lb ed="#L" break="no" n="81"/>detur quod ex illa immediatione causalitatis vult habere
+<lb ed="#L" n="82"/>Sanctus Thomas quod intelligentia et electio ad eundem
+<lb ed="#L" n="83"/>rerum ordinem pertinent. Actio enim appetitus in nobis
+<lb ed="#L" n="84"/>est illius ordinis cuius est cognitio ad quam immediate
+<lb ed="#L" n="85"/>sequitur. Nam actus appetitus sensitivi est eiusdem ordinis
+<lb ed="#L" n="86"/>cum apprehensione sensitiva, a qua immediate causatur:
+<lb ed="#L" n="87"/>utraque enim ad genus sensibilium pertinet. Similiter actus
+<lb ed="#L" n="88"/>appetitus intellectivi, scilicet voluntatis, est eiusdem ordinis
+<lb ed="#L" n="89"/>cum apprehensione intellectus, a qua causatur immediate:
+<lb ed="#L" n="90"/>utrumque enim ad genus intelligibilium pertinet, et ad
+<lb ed="#L" n="91"/>tale genus intelligibilium qualis est operatio naturae 
+intel<lb ed="#L" break="no" n="92"/>lectivae humanae. Et quia actus ad eundem ordinem rerum
+<lb ed="#L" n="93"/>pertinentes eodem modo debent ab aliquo extrinseco 
+effi<lb ed="#L" break="no" n="94"/>ciente posse aut non posse causari, ideo quod est causa
+<lb ed="#L" n="95"/>unius, etiam alterius causa esse potest, et quod non potest
+<lb ed="#L" n="96"/>esse causa unius, nec etiam alterius potest esse causa. Si
+<lb ed="#L" n="97"/>ergo corpora caelestia intellectivae apprehensionis causa
+<lb ed="#L" n="98"/>esse non possunt, nec etiam electionis causa esse poterunt.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Advertendum autem quod ista ratio a praecedenti differt :
+<lb ed="#L" n="100"/>quia illa procedit ex eo quod intellectus et voluntas ad
+<lb ed="#L" n="101"/>eandem animae partem pertinent; haec autem quia actus
+<lb ed="#L" n="102"/>intellectus et actus voluntatis eiusdem ordinis sunt, veluti
+<lb ed="#L" n="103"/>propria causa et proprius effectus.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Quomodo autem perversitas electionis sequatur 
+de<lb ed="#L" break="no" n="105"/>fectum iudicii in particulari eligibili, diffuse ostendit 
+San<lb ed="#L" break="no" n="106"/>ctus Thomas I IF, q. xix, a. 3 .
+</p>
+            <p>
+               <lb ed="#L" n="107"/>III. Tertio, Si electiones nostrae provenirent ex 
+impres<lb ed="#L" break="no" n="108"/>sione corporum caelestium, naturaliter evenirent. Sed hoc
+<lb ed="#L" n="109"/>est inconveniens. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Prima pars antecedentis probatur. Quia quaecumque
+<lb ed="#L" n="111"/>ex impressione corporum caelestium in istis inferioribus
+<lb ed="#L" n="112"/>eveniunt, naturaliter contingunt: cum sint haec inferiora
+<lb ed="#L" n="113"/>sub illis naturaliter ordinata. — Secunda vero pars probatur.
+<lb ed="#L" n="114"/>Quia tunc non essent propositum et natura duo principia
+<lb ed="#L" n="115"/>agentia, sed unum tantum, scilicet natura: contra 
+Aristo<lb ed="#L" break="no" n="116"/>telem, II. Physicorum.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Circa probationem primae partis antecedentis, 
+adver<lb ed="#L" break="no" n="118"/>tendum quod supponit Sanctus Thomas corpora caelestia
+<lb ed="#L" n="119"/>esse naturaliter agentia, sicut et alia corpora. Hoc enim
+<lb ed="#L" n="120"/>supposito, optime sequitur, si electiones nostrae ex 
+im<lb ed="#L" break="no" n="121"/>pressione caelestium provenirent, quod naturaliter 
+eveni<lb ed="#L" break="no" n="122"/>rent. Quae enim naturali ordine subduntur actioni 
+natu<lb ed="#L" break="no" n="123"/>raliter agentis, oportet ut naturaliter moveantur, et ut mota
+<lb ed="#L" n="124"/>naturaliter agant, non autem ex electione et proposito:
+<lb ed="#L" n="125"/>quia talia agunt secundum quod ab alio moventur et 
+di<lb ed="#L" break="no" n="126"/>riguntur, non autem seipsa ad suas operationes movent;
+<lb ed="#L" n="127"/>ut patet in brutis, et in gravibus et levibus.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>IV. Quarto. Electiones humanae diversis modis tendunt
+<lb ed="#L" n="129"/>ad finem, tam in moralibus quam in artificialibus. Ergo non.
+<lb ed="#L" n="130"/>fiunt naturaliter. Ergo etc. — Probatur consequentia. Quia,
+<lb ed="#L" n="131"/>cum natura sit ad unum determinata, quae naturaliter
+<lb ed="#L" n="132"/>fiunt, determinatis mediis perducuntur ad finem. Cuius
+<lb ed="#L" n="133"/>signum est, quod semper eodem modo contingunt.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Quinto. Si homo naturaliter eligeret, ut in pluribus 
+ele<lb ed="#L" break="no" n="135"/>ctiones eius essent rectae. Hoc autem patet esse falsum.
+<lb ed="#L" n="136"/>Ergo etc. — Probatur assumptum. Quia quae naturaliter
+<lb ed="#L" n="137"/>fiunt, ut plurimum recte fiunt: cum natura in paucioribus
+<lb ed="#L" n="138"/>deficiat.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Ad hanc rationem posset aliquis dicere quod non eodem
+<lb ed="#L" n="140"/>modo corpora caelestia sunt causa electionum in omnibus:
+<lb ed="#L" n="141"/>sed in aliquibus sunt causa malarum electionum, et isti
+<lb ed="#L" n="142"/>ut in pluribus male eligunt, et ut in paucioribus bene;
+<lb ed="#L" n="143"/>in aliquibus vero sunt causa bonarum electionum, et isti
+<pb ed="#L" n="258"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in paucioribus eligunt male; et sic salvatur in unoquoque
+<lb ed="#L" n="2"/>quod naturale deficit in paucioribus. NC
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Sed haec responsio non tollit rationem. Quia si 
+cor<lb ed="#L" break="no" n="4"/>pora caelestia imprimunt directe in voluntatem, tanquam
+<lb ed="#L" n="5"/>existentia directe causa humanae electionis, et non tantum
+<lb ed="#L" n="6"/>indirecte per actionem in corpus, movebunt voluntatem
+<lb ed="#L" n="7"/>secundum ipsius conditionem et inclinationem inquantum
+<lb ed="#L" n="8"/>voluntas est: 'sicut et alia subiecta eorum impressionibus
+<lb ed="#L" n="9"/>moventur ab ipsis secundum conditionem suae maturae,
+<lb ed="#L" n="10"/>ut gravia deorsum et levia sursum. Voluntas autem, 
+quan<lb ed="#L" break="no" n="11"/>tum est de se, habet ordinem ad rectam electionem, cum
+<lb ed="#L" n="12"/>eius obiectum sit bonum: electio autem non recta ex aliquo
+<lb ed="#L" n="13"/>defectu provenit. Ideo optime sequitur, si voluntas eligit
+<lb ed="#L" n="14"/>secundum impressionem corporum caelestium, quod pro
+<lb ed="#L" n="15"/>maiori parte recte eliget: et:non dabitur impressio quae ad
+<lb ed="#L" n="16"/>malas electiones pro maiori parte inclinet et moveat 
+vo<lb ed="#L" break="no" n="17"/>luntatem; licet aliquando posset voluntas non recte eligere,
+<lb ed="#L" n="18"/>sicut et in aliis naturalibus causis videmus quod aliquando
+<lb ed="#L" n="19"/>a suo cursu. et ordine deficiunt. - Quomodo autem homo
+<lb ed="#L" n="20"/>in maiori aut in minori parte deficiat, ostensum est 
+su<lb ed="#L" break="no" n="21"/>perius.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Sexto. Si homo. naturaliter eligeret, omnes homines
+<lb ed="#L" n="23"/>eodem modo eligerent. Hoc patet tam in moralibus quam
+<lb ed="#L" n="24"/>in artificialibus esse falsum. Ergo etc. — Probatur 
+condi<lb ed="#L" break="no" n="25"/>tionalis. Quia electio est operatio consequens speciem 
+hu<lb ed="#L" break="no" n="26"/>manam. Quae autem sunt eiusdem speciei, non 
+diversifi<lb ed="#L" break="no" n="27"/>cantur in operationibus naturalibus quae speciem 
+conse<lb ed="#L" break="no" n="28"/>quuntur: ut patet de hirundinibus similiter nidificantibus,
+<lb ed="#L" n="29"/>et de hominibus similiter prima principia intelligentibus.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Septimo. Virtutes politicae et vitia. non sunt nobis a
+<lb ed="#L" n="31"/>natura, sed ex assuetudine, ut II Ezhic. probatur. Ergo
+<lb ed="#L" n="32"/>neque electiones. Ergo etc. — Probatur consequentia, Quia
+<lb ed="#L" n="33"/>virtutes et vitia sunt electionum principia propria: 
+dif<lb ed="#L" break="no" n="34"/>ferunt. enim vitiosus et virtuosus ex hoc quod contraria
+<lb ed="#L" n="35"/>eligunt.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Adverte quod quatuor rationes immediate superius 
+ad<lb ed="#L" break="no" n="37"/>ductae, sunt confirmationes tertiae rationis.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>V. Circa istam propositionem, Virtutes et vitia sunt
+<lb ed="#L" n="39"/>electionum principia propria, considerandum, ex doctrina
+<lb ed="#L" n="40"/>Sancti Thomae III Sent., d. xxxi, q. 11, a. 3. quod, cum
+<lb ed="#L" n="41"/>electio sit eorum quae sunt ad finem, inclinatio 
+volun<lb ed="#L" break="no" n="42"/>tatis in finem proximum, inquantum ad finem ultimum
+<lb ed="#L" n="43"/>ordinatur, dicitur electio. Et ad hunc sensum dicitur
+<lb ed="#L" n="44"/>VI Ethic.  quod' electio est principalis actus virtutis 
+mo<lb ed="#L" break="no" n="45"/>ralis. Dicitur ergo virtus politica, sive moralis, esse propria
+<lb ed="#L" n="46"/>causa electionis, quia inclinatio voluntatis in proximum
+<lb ed="#L" n="47"/>finem, sive recta electio proximi finis, est a virtute tanquam
+<lb ed="#L" n="48"/>a propria causa, quae scilicet ex sua natura determinatur
+<lb ed="#L" n="49"/>ad faciendum rectam electionem de fine, tanquam ad 
+pro<lb ed="#L" break="no" n="50"/>prium et principalem actum. Et similiter vitium est causa
+<lb ed="#L" n="51"/>determinata ex sua ratione ad faciendum perversam 
+ele<lb ed="#L" break="no" n="52"/>ctionem de fine proximo, tanquam ad proprium actum et
+<lb ed="#L" n="53"/>principalem.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Circa illam propositionem, -Virtutes: politicae et vitia
+<lb ed="#L" n="55"/>non.sunt nobis a natura, advertendum, ex doctrina Sancti
+<lb ed="#L" n="56"/>Thomae in Qu. de Virt., a. 8; I I5, q. zxtu ; III Sent.,
+<lb ed="#L" n="57"/>d. xxxmr, q. t, a. 2, quod ista propositio intelligitur de
+<lb ed="#L" n="58"/>virtute quantum ad. ipsum complementum et eius 
+perfe<lb ed="#L" break="no" n="59"/>ctam rationem. Nam originaliter, et secundum aptitudinem
+<lb ed="#L" n="60"/>tam activam quam passivam, virtutes sunt a natura: partim
+<lb ed="#L" n="61"/>quidem secundum naturam speciei, prout aptitudo ad 
+vir<lb ed="#L" break="no" n="62"/>tutem est communis omnibus hominibus; partim autem
+<lb ed="#L" n="63"/>secundum naturam individui, secundum quod quidam prae
+<lb ed="#L" n="64"/>aliis sunt apti ad virtutem. Quantum vero ad vitium, non
+<lb ed="#L" n="65"/>potest dici quod etiam sit originaliter et secundum: 
+apti<lb ed="#L" break="no" n="66"/>tudinem activam a natura speciei humanae, inquantum
+<lb ed="#L" n="67"/>huiusmodi: quia vitium. uniuscuiusque rei videtur esse
+<lb ed="#L" n="68"/>quod non sit disposita secundum quod convenit suae 
+na<lb ed="#L" break="no" n="69"/>turae, ut dicitur I II5, q. rxx:, a. 1 et 2. Unde vitium
+<lb ed="#L" n="70"/>ab Augustino, III de Lib. Arb., dicitur contra naturam esse.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>VI. Octavo. Corpora caelestia non agunt directe nisi
+<lb ed="#L" n="72"/>in corpora, ut est ostensum superius. Aut ergo sunt causa
+<lb ed="#L" n="73"/>nostrarum electionum inquantum imprimunt in corpora
+<lb ed="#L" n="74"/>nostra: aut inquantum imprimunt in corpora exteriora,
+<lb ed="#L" n="75"/>Secundum non est sufficiens causa nostrae electionis: quia
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>patet quod ad occursum delectabilis, puta cibi aut 
+mu<lb ed="#L" break="no" n="77"/>lieris, temperatus non movetur ad eligendum, intemperatus
+<lb ed="#L" n="78"/>vero movetur, Non etiam primum: quia ex impressione
+<lb ed="#L" n="79"/>corporum caelestium in nostra corpora non sequuntur in
+<lb ed="#L" n="80"/>nobis nisi quaedam passiones, magis aut minus vehementes;
+<lb ed="#L" n="81"/>constat autem quod per easdem passiones incontinens 
+in<lb ed="#L" break="no" n="82"/>ducitur ad eas sequendum per electionem, continens autem
+<lb ed="#L" n="83"/>non. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Adverte. quod Sanctus Thomas arguit caelum non esse
+<lb ed="#L" n="85"/>causam sufficientem nostrae electionis per impressionem
+<lb ed="#L" n="86"/>in corpora, non autem nullo modo esse causam: ut ostendat
+<lb ed="#L" n="87"/>quod aliquo quidem modo sunt causa nostrae electionis
+<lb ed="#L" n="88"/>per impressionem in corpora, per modum scilicet 
+dispo<lb ed="#L" break="no" n="89"/>nentis et aliquo modo inclinantis, ut inferius  ostendetur;
+<lb ed="#L" n="90"/>non tamen est causa per modum perficientis, sive 
+suffi<lb ed="#L" break="no" n="91"/>cientis ad electionem causandam. Dicitur enim sufficiens
+<lb ed="#L" n="92"/>causa ad cuius actionem statim sequitur effectus: quo modo
+<lb ed="#L" n="93"/>ostensum est caelum non esse electionis causam.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Nono. Si electio non esset in nostra potestate, sed a
+<lb ed="#L" n="95"/>corporibus caclestibus causaretur, frustra homo haberet
+<lb ed="#L" n="96"/>virtutem iudicandi et consulendi de omnibus ab ipso 
+ope<lb ed="#L" break="no" n="97"/>rabilibus, sive in usu exteriorum rerum, sive in admittendo
+<lb ed="#L" n="98"/>et repellendo intrinsecas passiones. Sed nulla virtus datur
+<lb ed="#L" n="99"/>alicui frustra, Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Decimo. Tolleretur vita socialis hominis, Sed hoc est
+<lb ed="#L" n="101"/>inconveniens. Ergo etc. - Prima pars antecedentis probatur.
+<lb ed="#L" n="102"/>Quia frustra darentur leges et praecepta vitae, et frustra
+<lb ed="#L" n="103"/>adhiberentur praemia et poenae bonis et malis, ex quo
+<lb ed="#L" n="104"/>non esset in nobis haec vel illa agere. Istis autem 
+defi<lb ed="#L" break="no" n="105"/>cientibus, statim vita socialis corrumperetur. — Secunda
+<lb ed="#L" n="106"/>vero pars antecedentis probatur. Quia homo est naturaliter
+<lb ed="#L" n="107"/>animal politicum et sociale. Cuius signum est, quod unus
+<lb ed="#L" n="108"/>homo non sufficit sibi si solus vivat: cum natura in paucis
+<lb ed="#L" n="109"/>homini sufficienter providerit, sed dederit ei rationem, qua
+<lb ed="#L" n="110"/>sibi possit providere. Ordo autem providentiae non aufert
+<lb ed="#L" n="111"/>alicui quod est sibi naturale.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>2. Circa istam propositionem, Natura in paucis homini
+<lb ed="#L" n="113"/>sufficienter providit, dubium occurrit. Quia matura mon
+<lb ed="#L" n="114"/>deficit in necessariis, ut dicitur II. Caeli , text. 5o..
+</p>
+            <p>
+               <lb ed="#L" n="115"/>Respondetur, ex doctrina Sancti Thomae Prima, q. Lxxvt,
+<lb ed="#L" n="116"/>a. 5, ad 4; et q. xcr, a. 3, ad 2; item Verit., q. xxi, a. 7;
+<lb ed="#L" n="117"/>et de Anima, a. 8, ad 20, quod, licet natura non sufficienter
+<lb ed="#L" n="118"/>providerit homini in particulari, dando scilicet sibi omnia
+<lb ed="#L" n="119"/>quibus indiget, quia hoc non poterat fieri: — tum ex 
+cor<lb ed="#L" break="no" n="120"/>poris complexione, quae non patitur aliqua naturalia 
+in<lb ed="#L" break="no" n="121"/>strumenta quae in aliis animalibus inveniuntur, puta durum
+<lb ed="#L" n="122"/>corium, plumas, cornua, et huiusmodi; tum etiam ex 
+ra<lb ed="#L" break="no" n="123"/>tione, quae est infinitarum conceptionum — sufficienter
+<lb ed="#L" n="124"/>tamen illi providit in communi, dando ei principia, 
+sci<lb ed="#L" break="no" n="125"/>licet rationem et manus, quibus de omnibus necessariis
+<lb ed="#L" n="126"/>possit sibi providere,
+</p>
+            <p>
+               <lb ed="#L" n="127"/>VII. Undecimo. Tunc stellae essent per se causa 
+ma<lb ed="#L" break="no" n="128"/>larum electionum: cum electiones hominum ad bona et
+<lb ed="#L" n="129"/>mala se habeant. Sed hoc est impossibile: quia malum
+<lb ed="#L" n="130"/>non habet causam in natura, cum incidat ex defectu 
+ali<lb ed="#L" break="no" n="131"/>cuius causae. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>Ad hanc rationem posset aliquis dicere quod omnis mala
+<lb ed="#L" n="133"/>electio ex appetitu alicuius boni provenit, ut supra dictum
+<lb ed="#L" n="134"/>est: sicut electio adulterii  ex appetitu boni delectabilis,
+<lb ed="#L" n="135"/>ad quod quidem bonum universale aliqua stella movet,
+<lb ed="#L" n="136"/>tanquam necessarium ad generationem. Et sic non sequitur
+<lb ed="#L" n="137"/>quod malum habeat causam per se, sed per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>Sed haec responsio, inquit Sanctus Thomas, sufficiens
+<lb ed="#L" n="139"/>non est, si ponantur corpora caelestia per se causa 
+no<lb ed="#L" break="no" n="140"/>strarum lectionum, tanquam directe imprimentia in 
+in<lb ed="#L" break="no" n="141"/>tellectum et voluntatem: quia tunc nunquam erit in nobis
+<lb ed="#L" n="142"/>electio mala. Cum enim impressio causae universalis 
+re<lb ed="#L" break="no" n="143"/>cipiatur in unoquoque secundum modum suum, effectus
+<lb ed="#L" n="144"/>stellae moventis ad delectationem ordinatam ad 
+genera<lb ed="#L" break="no" n="145"/>tionem, recipietur in intellectu et voluntate secundum -
+<lb ed="#L" n="146"/>modum suum: sicut et in brutis diversimode recipitur 
+se<lb ed="#L" break="no" n="147"/>cundum congruentiam suae naturae. Cum autem aliquid
+<lb ed="#L" n="148"/>appetitur secundum modum intellectus et. rationis, non
+<lb ed="#L" n="149"/>accidit peccatum in electione, quae semper ex hoc mala
+<lb ed="#L" n="150"/>est quod non est secundum rectam rationem. Ergo etc.
+</p>
+            <p>
+               <pb ed="#L" n="259"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Advertendum quod impugnatio responsionis datae ad hoc
+<lb ed="#L" n="2"/>tendit quod ipsa non salvat caelum esse causam omnium
+<lb ed="#L" n="3"/>nostrarum electionum: immo magis ipsam rationem 
+con<lb ed="#L" break="no" n="4"/>firmat. Quia si caelum est causa in nobis per se boni
+<lb ed="#L" n="5"/>appetitus tantum, sequitur quod sit causa tantum bonae
+<lb ed="#L" n="6"/>electionis: illa enim inclinatio in bonum, puta delectabile,
+<lb ed="#L" n="7"/>a caelo data, recipietur in nobis secundum modum 
+in<lb ed="#L" break="no" n="8"/>tellectus et rationis, et per consequens erit bona electio.
+<lb ed="#L" n="9"/>Cum ergo sint in nobis etiam aliquae electiones malae,
+<lb ed="#L" n="10"/>sequitur quod caelum non sit causa omnium nostrarum
+<lb ed="#L" n="11"/>electionum. Aut ergo oportet dicere quod caelum non
+<lb ed="#L" n="12"/>est causa nostrarum omnium electionum, quod est 
+inten<lb ed="#L" break="no" n="13"/>tum in hac ratione: aut, si est causa omnium, quod etiam
+<lb ed="#L" n="14"/>ipsas malas electiones per se causet. Et sic malum 
+ha<lb ed="#L" break="no" n="15"/>bebit causam per se, ut ratio deducebat.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Duodecimo. Ipsum velle transcendit omnem speciem
+<lb ed="#L" n="17"/>corporalem, sicut et intelligere: cum ipsa etiam voluntas
+<lb ed="#L" n="18"/>in aliquod universale feratur, sicut et intellectus, odio
+<lb ed="#L" n="19"/>enim habemus omne latronum genus. Ergo etc. — Probatur
+<lb ed="#L" n="20"/>consequentia, Quia nulla virtus activa se extendit ad ea
+<lb ed="#L" n="21"/>quae sunt supra speciem et naturam agentis: cum omne
+<lb ed="#L" n="22"/>agens per formam suam agat. Ergo etc. — Ista ratio 
+ex<lb ed="#L" break="no" n="23"/>plicata est in capite praecedenti .
+</p>
+            <p>
+               <lb ed="#L" n="24"/>Tertiodecimo. Electiones humanae ordinantur ad
+<lb ed="#L" n="25"/>felicitatem, quae non consistit in corporalibus bonis, sed
+<lb ed="#L" n="26"/>in hoc quod anima per intellectum rebus divinis 
+coniun<lb ed="#L" break="no" n="27"/>gitur. Ergo etc. — Probatur consequentia. Quia quae sunt
+<lb ed="#L" n="28"/>ad finem, proportionantur fini.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>2. Circa hanc rationem occurrit. dubium. Quia non
+<lb ed="#L" n="30"/>solum electio ordinatur ad felicitatem intellectivam,. sed
+<lb ed="#L" n="31"/>etiam exteriora opera, quibus meremur ipsam felicitatem.
+<lb ed="#L" n="32"/>Si ergo, quia electio ordinatur ad felicitatem, sequitur
+<lb ed="#L" n="33"/>quod non subditur corporibus caelestibus, sequetur, per
+<lb ed="#L" n="34"/>eandem. rationem, quod neque ipsa exteriora opera cadent
+<lb ed="#L" n="35"/>sub corporum caelestium influxu.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Praeterea, licet oporteat quod ordinatur ad finem esse
+<lb ed="#L" n="37"/>sic proportionatum fini quod sit tale ut per ipsum finis
+<lb ed="#L" n="38"/>possit haberi, non tamen oportet sic esse proportionatum
+<lb ed="#L" n="39"/>quod sit eiusdem naturae cum fine: alioquin, omnis res
+<lb ed="#L" n="40"/>creata esset naturae divinae, cum omnia: ad Deum 
+ordi<lb ed="#L" break="no" n="41"/>nentur.tanquam ad finem. Ergo, quamvis electio ordinetur
+<lb ed="#L" n="42"/>ad spiritualem felicitatem, non tamen oportet ut sit tantae
+<lb ed="#L" n="43"/>spiritualitatis sicut est ipsa felicitas, ac per hoc a caelorum
+<lb ed="#L" n="44"/>influxu subtrahatur.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>3. Respondetur quod illa propositio, Quod ordinatur ad
+<lb ed="#L" n="46"/>finem oportet fini esse proportionatum, intelligitur ad hunc
+<lb ed="#L" n="47"/>sensum, ut habetur Quarto, d. xrix, q. 1, a. 1, qu 3, ad 3,
+<lb ed="#L" n="48"/>quod oportet esse talia ut per ipsa possit res sufficienter
+<lb ed="#L" n="49"/>ad finem pervenire. Unde, cum coniunctio ad Deum per
+<lb ed="#L" n="50"/>intellectum, sive cognitio intellectiva Dei, sit finis proprius
+<lb ed="#L" n="51"/>creaturae intellectualis, praesertim existentis in gratia;
+<lb ed="#L" n="52"/>oportet ut operationes quibus ad illum finem tendit, sint
+<lb ed="#L" n="53"/>tales ut ad illam visionem et intellectionem perducere 
+pos<lb ed="#L" break="no" n="54"/>sint. Sed hoc non possunt si sint aliquid corporeum, sive a
+<lb ed="#L" n="55"/>corporis influentia dependens: quia res corporea, ut sic,
+<lb ed="#L" n="56"/>non est medium proportionatum ad rem incorpoream et
+<lb ed="#L" n="57"/>omnino spiritualem inducendam. Ideo oportet ut et tales
+<lb ed="#L" n="58"/>operationes sint a corporis influentia absolutae. Si ergo
+<lb ed="#L" n="59"/>electiones ponantur a corporibus caelestibus directe et
+<lb ed="#L" n="60"/>per se dependere, non poterunt esse medium per modum
+<lb ed="#L" n="61"/>meriti quo homo perveniat ad felicitatem: et si sunt
+<lb ed="#L" n="62"/>medium, oportet illas ab influxibus corporum caelestium
+<lb ed="#L" n="63"/>non causari. Et in hoc consistit ratio Sancti. Thomae.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Ad primam autem obiectionem dicitur quod opera 
+ex<lb ed="#L" break="no" n="65"/>trinseca in se non ordinantur ad felicitatem, secundum
+<lb ed="#L" n="66"/>scilicet quod in ipsis consideratur sola natura operis 
+ex<lb ed="#L" break="no" n="67"/>trinseci, puta largitio pecuniarum aut aliquid huiusmodi,
+<lb ed="#L" n="68"/>sed inquantum sub electione cadunt: non enim habent
+<lb ed="#L" n="69"/>rationem meriti nisi inquantum voluntaria sunt. Et sic
+<lb ed="#L" n="70"/>ratio merendi convenit ipsis ex electione caritate 
+infor<lb ed="#L" break="no" n="71"/>mata. Propterea electio ipsa est fundamentum omnium
+<lb ed="#L" n="72"/>operum quae ad felicitatem ordinantur. Et ideo illam
+<lb ed="#L" n="73"/>oportet fini huiusmodi proportionari.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Ad secundam dicitur quod non est mens Sancti Thomae
+<lb ed="#L" n="75"/>inter finem et ea quae ordinantur ad finem, oportere esse
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>convenientiam in natura specifica, cum ipse dicat, loco
+<lb ed="#L" n="77"/>praeallegato, convenientiam inter ista non esse 
+convenien<lb ed="#L" break="no" n="78"/>tiam secundum genus: sed uites esse inter illa 
+pro<lb ed="#L" break="no" n="79"/>portionem dictam."
+</p>
+            <p>
+               <lb ed="#L" n="80"/>IX. Confirmatur conclusio auctoritate Ieremiae X.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Per hoc autem excluditur positio Stoicorum; quae etiam
+<lb ed="#L" n="82"/>dicitur fuisse Pharisaeorum apud ludaeos; et quam.secuti
+<lb ed="#L" n="83"/>sunt Priscillanistae, ut dicitur in libro de Zeresibus; et
+<lb ed="#L" n="84"/>quae etiam antiquorum philosophorum fuit, ponentium 
+in<lb ed="#L" break="no" n="85"/>tellectum a sensu. non diffene, "ut ostenditur auctoritate
+<lb ed="#L" n="86"/>Empedoclis.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>X. Secunda abictide est: Indirecte ex corporibus
+<lb ed="#L" n="88"/>caelestibus aliqua occasio nostris electionibus praestatur,
+<lb ed="#L" n="89"/>secundum quod habent impressionem super corpora. 
+De<lb ed="#L" break="no" n="90"/>claratur et ex impressionibus in exteriora corpora: sicut
+<lb ed="#L" n="91"/>cum, aere disposito ad frigus intensum, eligimus ad ignem
+<lb ed="#L" n="92"/>calefieri. — Et ex impressionibus in corpora nostra: sicut
+<lb ed="#L" n="93"/>cum ad ipsorum immutationem insurgunt aliqui motus
+<lb ed="#L" n="94"/>passionum; vel per eorum impressionem efficimur habiles
+<lb ed="#L" n="95"/>ad aliquas passiones, sicut cholerici sunt proni ad iram;
+<lb ed="#L" n="96"/>vel causatur in nobis aliqua dispositio corporalis quae est
+<lb ed="#L" n="97"/>occasio alicuius electionis, sicut, cum acgrotemus; asm
+<lb ed="#L" n="98"/>accipere medicinam.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Ad evidentiam huius conclusionis condenda ex
+<lb ed="#L" n="100"/>doctrina Sancti "Thomae 1 Sent, d: xrvi, a. 2, ad. 35; IV
+<lb ed="#L" n="101"/>Sent., d. xxxvi, q. 1r, a. 1, ad 4; et II I^, q. xui, a. 1,
+<lb ed="#L" n="102"/>ad 3, quod occasio dupliciter potest accipi. Aliquando
+<lb ed="#L" n="103"/>quidem pro causa insufficienti et imperfecta, sed per se.
+<lb ed="#L" n="104"/>Aliquando. vero pro causa per accidens, quae aliquid 
+qui<lb ed="#L" break="no" n="105"/>dem operatur, sed ad illum effectum cuius dicitur occasio
+<lb ed="#L" n="106"/>vel causa per accidens, eius operatio non attingit, sed
+<lb ed="#L" n="107"/>tantum ad aliquid cui aliquo modo coniungitur effectus
+<lb ed="#L" n="108"/>cuius dicitur causa per accidens: sicut producens domum
+<lb ed="#L" n="109"/>dicitur causa discordiae nascentis ex ipsa. Caelum ergo
+<lb ed="#L" n="110"/>dicitur esse occasio nostrarum electionum secundo modo:
+<lb ed="#L" n="111"/>quia sua actio non attingit quidem ipsam electionem, sed
+<lb ed="#L" n="112"/>tamen attingit aliquam corporalem dispositionem cui 
+con<lb ed="#L" break="no" n="113"/>iungitur, ex propria nostra voluntate, aliqua. electio, unde
+<lb ed="#L" n="114"/>dicitur ex corporum caelestium impressione nostra 
+occa<lb ed="#L" break="no" n="115"/>sionari electio.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>XI. Tertia conclusio est: /nterdum ex corporibus 
+cae<lb ed="#L" break="no" n="117"/>lestibus actus humani causantur. Probatur. Quia aliquando
+<lb ed="#L" n="118"/>ex corporis indispositione aliqui amentes fiunt, usu rationis
+<lb ed="#L" n="119"/>privati. In quibus proprie non est electio, sed aliquo 
+na<lb ed="#L" break="no" n="120"/>turali instinctu moventur, sicut bruta. :
+</p>
+            <p>
+               <lb ed="#L" n="121"/>Advertendum quod operationes amentium, sive eorum
+<lb ed="#L" n="122"/>qui usu rationis sunt privati, non sunt proprie operationes
+<lb ed="#L" n="123"/>humanae: cum non sint liberae et ex iudicio rationis 
+pro<lb ed="#L" break="no" n="124"/>venientes, ex quo operatio aliqua habet quod sit hominis
+<lb ed="#L" n="125"/>operatio inquantum est homo, Sed:quia extrinsecus. 
+ha<lb ed="#L" break="no" n="126"/>bent similitudinem actuum humanorum, vocat eas Sanctus
+<lb ed="#L" n="127"/>"Thomas actus humanos: dans tamen intelligere eas non
+<lb ed="#L" n="128"/>esse proprie humanos actus, cum subiungit quod in eis
+<lb ed="#L" n="129"/>non est proprie electio. Est quidem in eis similitudo 
+quae<lb ed="#L" break="no" n="130"/>dam electionis, dum unum prosequuntur et aliud repellunt,
+<lb ed="#L" n="131"/>quemadmodum et bruta: non est tamen proprie electio,
+<lb ed="#L" n="132"/>cum non sit in eis consilium et rationis inquisitio, cuius
+<lb ed="#L" n="133"/>terminus est humana electio. Unde magis dicendum est
+<lb ed="#L" n="134"/>de istis quod brutaliter quam quod humaniter vivant: quia
+<lb ed="#L" n="135"/>videlicet non reguntur iudicio rationis, sed naturali 
+aesti<lb ed="#L" break="no" n="136"/>matione, sicut bruta; ita quod primum regulativum operum
+<lb ed="#L" n="137"/>ipsorum non est ratio, sed virtus aestimativa sive 
+cogi<lb ed="#L" break="no" n="138"/>tativa.. Et quia corpora caelestia directe imprimunt in 
+or<lb ed="#L" break="no" n="139"/>gana sensuum, et per hanc impressionem immutant ipsos
+<lb ed="#L" n="140"/>sensus, ideo dicitur hic quod ipsa in amentibus sunt causa
+<lb ed="#L" n="141"/>humanorum actuum: inquantum videlicet ipsam cogitativam
+<lb ed="#L" n="142"/>per accidens immutant ad organi immutationem, secundum
+<lb ed="#L" n="143"/>quam immutationem amentes ad operationem. moventur.
+<lb ed="#L" n="144"/>Quo fit ut saepenumero tales futura aliqua praedicant
+<lb ed="#L" n="145"/>de iis quae ex influxu corporum caelestium proveniunt:
+<lb ed="#L" n="146"/>inquantum moventur ad iudicandum ex aliqua corporum
+<lb ed="#L" n="147"/>caelestium in interiores vires sensitivas impressione.
+</p>
+            <p>
+               <lb ed="#L" n="148"/>XII. Quarta conclusio est: Occasiones eligendi ex 
+cor<lb ed="#L" break="no" n="149"/>poribus caelestibus provenientes, sive interiores sive 
+exte<lb ed="#L" break="no" n="150"/>riores, non sunt causa necessaria electionis. Probatur.
+<pb ed="#L" n="260"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Quia experimento hoc cognitum est, eo quod homo per
+<lb ed="#L" n="2"/>rationem potest eis resistere vel obedire: quamvis plures
+<lb ed="#L" n="3"/>sint qui tales naturales impetus prosequuntur, pauci autem,
+<lb ed="#L" n="4"/>scilicet soli sapientes, non sequantur.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Confirmatur auctoritate Ptolomaei in Centiloquio, 
+di<lb ed="#L" break="no" n="6"/>centis et quod anima sapiens adiuvat opus stellarum ; et
+<lb ed="#L" n="7"/>quod astrologus, misi vim animae et complexionem bene
+<lb ed="#L" n="8"/>cognoverit, non potest per stellas dare iudicia; et quod
+<lb ed="#L" n="9"/>non debet rem specialiter dicere, sed universaliter tantum.
+<lb ed="#L" n="10"/>Huius dicti assignat rationem Sanctus Thomas, quia 
+im<lb ed="#L" break="no" n="11"/>pressio stellarum in pluribus sortitur effectum, qui non
+<lb ed="#L" n="12"/>resistunt inclinationi datae: non autem semper in hoc vel in
+<lb ed="#L" n="13"/>illo, qui forte per rationem naturali inclinationi resistit.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>XIII. Circa ea quae hic dicuntur de occasione nostrarum
+<lb ed="#L" n="15"/>electionum ex impressione corporum caelestium inquantum
+<lb ed="#L" n="16"/>ex ipsorum impressione efficimur ad aliquas passiones 
+ha<lb ed="#L" break="no" n="17"/>biles et inclinati, attendendum quod non propter hoc ponit
+<lb ed="#L" n="18"/>Sanctus Thomas mores hominum esse sufficienter ab 
+im<lb ed="#L" break="no" n="19"/>pressione corporum caelestium, ut scilicet ex eorum 
+im<lb ed="#L" break="no" n="20"/>pressione aliqui efficiantur temperati, aliqui vero 
+intem<lb ed="#L" break="no" n="21"/>perati, aliqui iusti, aliqui vero iniusti, ut aliqui fortassis
+<lb ed="#L" n="22"/>astrologorum fabulantur: cum mores humani ex 
+volun<lb ed="#L" break="no" n="23"/>tate dependeant, in quam ostensum est corpora caelestia
+<lb ed="#L" n="24"/>directe non agere. Sed hoc tantum vult, quod ex 
+impres<lb ed="#L" break="no" n="25"/>sione corporum caelestium aliqui ad aliquas passiones
+<lb ed="#L" n="26"/>inclinationem habent, a quibus aliqui mores hominum
+<lb ed="#L" n="27"/>occasionantur, ratione impetum passionis non regulante.
+<lb ed="#L" n="28"/>Ex hoc enim quod aliqui inclinantur ad delectationem
+<lb ed="#L" n="29"/>appetituum, efficiuntur sua voluntate intemperati; et ex
+<lb ed="#L" n="30"/>hoc quod aliqui inclinantur ad iram, efficiuntur iracundi et
+<lb ed="#L" n="31"/>crudeles. Veruntamen, licet ex impressionibus caelestibus
+<lb ed="#L" n="32"/>fiunt inclinationes ad huiusmodi passiones, potest tamen
+<lb ed="#L" n="33"/>homo et ipsarum passionum impetum moderari, et contra
+<lb ed="#L" n="34"/>ipsas operari et assuescere.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>XIV. Non valent autem contra hunc sensum rationes
+<lb ed="#L" n="36"/>Pici, quibus contra astrologos argumentatur mores 
+ho<lb ed="#L" break="no" n="37"/>minum a caelo non fieri.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Arguit enim contra hoc, tum quia, si ex caelo esset
+<lb ed="#L" n="39"/>inclinatio ad aliquod flagitium, huiusmodi inclinatio non
+<lb ed="#L" n="40"/>tam in naturam caeli quam in ipsum Deum, naturae
+<lb ed="#L" n="41"/>Auctorem, esset referenda. Quod sane est pietati 
+ma<lb ed="#L" break="no" n="42"/>gnopere adversum. —
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Tum quia hoc esset facere optimos Dei servos, scilicet
+<lb ed="#L" n="44"/>caelos, malorum auctores et ministros.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Tum quia non est conveniens ordini et institutioni
+<lb ed="#L" n="46"/>naturae ut optimae et principales partes procurent fieri
+<lb ed="#L" n="47"/>quae ratio naturae fieri nollet.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Tum quia non convenit causis superioribus, 
+efficien<lb ed="#L" break="no" n="49"/>tibus semper, deficientibus nunquam, ad deficiendum 
+in<lb ed="#L" break="no" n="50"/>vitare. Qui autem ad peccandum invitat, ad deficiendum
+<lb ed="#L" n="51"/>invitat: cum qui peccat, non faciat aliquid, immo deficiat.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Tum quia £ota natura, praesertim superior, naturalis
+<lb ed="#L" n="53"/>et divinae legis observationi favere forte posset, non
+<lb ed="#L" n="54"/>autem obesse et adversari.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>XV. Ad istas enim rationes simul quidem dicitur quod
+<lb ed="#L" n="56"/>non dicimus caelum ad aliquod flagitium invitare directe
+<lb ed="#L" n="57"/>voluntatem in ipsum inclinando. Immo, de mente Sancti
+<lb ed="#L" n="58"/>Thomae I IF, q. xxiv , passiones, ad quas directe 
+ap<lb ed="#L" break="no" n="59"/>petitum sensualem incitant, non sunt flagitia aut moraliter
+<lb ed="#L" n="60"/>mala si secundum se cornisiderentur, quo modo ab 
+impres<lb ed="#L" break="no" n="61"/>sionibus corporum caelestium causantur, cum, ut sic, 
+com<lb ed="#L" break="no" n="62"/>munes sint hominibus et brutis: sed invenitur in eis bonum
+<lb ed="#L" n="63"/>aut malum morale secundum quod subiacent imperio 
+vo<lb ed="#L" break="no" n="64"/>luntatis et rationis. Unde inquit Philosophus, II Ethic. ,
+<lb ed="#L" n="65"/>quod passionibus non laudamur neque vituperamur: non
+<lb ed="#L" n="66"/>enim laudatur aut vituperatur qui timet aut irascitur,
+<lb ed="#L" n="67"/>sed qui aliqualiter, scilicet secundum rationem aut contra
+<lb ed="#L" n="68"/>rationem. Huic autem non repugnat quod tales passiones,
+<lb ed="#L" n="69"/>inquantum ratione non regulantur, sint occasiones quaedam
+<lb ed="#L" n="70"/>flagitiorum, quo modo frigus etiam exterioris aeris est 
+oc<lb ed="#L" break="no" n="71"/>casio eligendi ignem: nam stant simul quod aliqua 
+natu<lb ed="#L" break="no" n="72"/>ralis passio sensualis appetitus nec bona nec mala 
+mora<lb ed="#L" break="no" n="73"/>liter sit secundum se; et tamen sit occasio alicuius peccati
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="74"/>in eo qui eam sequitur, puta adulterii aut homicidii; et
+<lb ed="#L" n="75"/>sic caelum non inclinet voluntatem ad peccatum in ipsam
+<lb ed="#L" n="76"/>voluntatem agendo, sed tantum occasionaliter et indirecte,
+<lb ed="#L" n="77"/>passiones in sensuali appetitu excitando. :
+</p>
+            <p>
+               <lb ed="#L" n="78"/>2. Singillatim autem respondendo ad singulas rationes,
+<lb ed="#L" n="79"/>ad primam dicitur quod illud. unde dicitur caelum 
+occasio<lb ed="#L" break="no" n="80"/>naliter et indirecte inclinare ad aliquod flagitium, scilicet
+<lb ed="#L" n="81"/>passio, quam voluntas sua sponte sequitur, non est 
+in<lb ed="#L" break="no" n="82"/>conveniens in Deum sicut in primam causam referri, si
+<lb ed="#L" n="83"/>secundum se consideretur, sicut et omnis alius naturalis
+<lb ed="#L" n="84"/>effectus in ipsum refertur: quia, ut sic, malum non est,
+<lb ed="#L" n="85"/>nec ad peccatum inclinat; sed est malum quoddam, et
+<lb ed="#L" n="86"/>ad peccatum inclinat, inquantum est praeter ordinem
+<lb ed="#L" n="87"/>rationis. Unde sic non dicitur Deus ad peccatum inclinare:
+<lb ed="#L" n="88"/>sed esse causam alicuius quod, si ratione non regulatur,
+<lb ed="#L" n="89"/>inclinat ad peccatum. Quod autem ratione non reguletur,
+<lb ed="#L" n="90"/>non est ex Deo, sed ex nobis. Idcirco ipse non est nobis
+<lb ed="#L" n="91"/>causa aut occasio peccati: sed est causa boni quod, quia
+<lb ed="#L" n="92"/>ratione non regulatur, est peccati occasio.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Ad secundam similiter dicitur. Non enim facimus 
+cor<lb ed="#L" break="no" n="94"/>pora caelestia esse malorum auctores: sed esse causam
+<lb ed="#L" n="95"/>alicuius secundum se boni in genere naturae, quod, propter
+<lb ed="#L" n="96"/>defectum rationis regulantis, est malae electionis occasio.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Ad tertiam patet per idem. Non enim dicimus quod 
+cor<lb ed="#L" break="no" n="98"/>pora caelestia procurent fieri peccata, ut iam ostendimus.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Similiter patet quod non dicimus corpora caelestia 
+in<lb ed="#L" break="no" n="100"/>vitare hominem ad deficiendum, ut quarta ratio ponit: sed
+<lb ed="#L" n="101"/>aliquam corporalem impressionem, aut sensualem aliquem
+<lb ed="#L" n="102"/>motum efficere, unde sumitur peccati et defectus occasio
+<lb ed="#L" n="103"/>quando ratione non regulatur.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Per idem patet ad ultimam rationem. Non enim dicimus
+<lb ed="#L" n="105"/>quod corpora caelestia obstent aut adversentur observationi
+<lb ed="#L" n="106"/>divinae legis, nisi valde remote, causando aliquas passiones.
+<lb ed="#L" n="107"/>Sed id quod obstat legis observationi est ipsa ratio, quae 
+pas<lb ed="#L" break="no" n="108"/>sionibus non imponit debitum modum, unde fit ut voluntas
+<lb ed="#L" n="109"/>motum sensualis appetitus in sua electione sequatur.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>XVI. Advertendum postremo, ex doctrina Sancti 
+Tho<lb ed="#L" break="no" n="111"/>mae Prima, q. cxv, a. 4; et Verit., q. v, a. 10, quod, licet
+<lb ed="#L" n="112"/>tam intellectus quam voluntas a corporibus caelestibus
+<lb ed="#L" n="113"/>indirecte moveri dicta sint in hoc et in praecedenti 
+ca<lb ed="#L" break="no" n="114"/>pitulo, inquantum impressio ipsorum in corpus aut vires
+<lb ed="#L" n="115"/>corporeas sensitivas facta, in ipsa redundat, hoc tamen 
+di<lb ed="#L" break="no" n="116"/>versimode invenitur in ipsis. /ntellectus enim ex 
+necessi<lb ed="#L" break="no" n="117"/>tate accipit a viribus sensitivis: cuius signum est quod,
+<lb ed="#L" n="118"/>turbata imaginativa vel cogitativa aut memorativa, ex
+<lb ed="#L" n="119"/>necessitate turbatur actio intellectus. Voluntas autem non.
+<lb ed="#L" n="120"/>ex necessitate sequitur inclinationem appetitus inferioris,
+<lb ed="#L" n="121"/>sed est in potestate ipsius sequi passiones vel eas 
+refu<lb ed="#L" break="no" n="122"/>tare. Ideo sequitur quod impressio corporum caelestium,
+<lb ed="#L" n="123"/>secundum quam vires inferiores immutari possunt, minus
+<lb ed="#L" n="124"/>pertingit ad voluntatem quam ad intellectum. Hoc. ego
+<lb ed="#L" n="125"/>sic intelligo quod, cum cognitio fiat secundum quod 
+co<lb ed="#L" break="no" n="126"/>gnitum recipitur in cognoscente per actionem ipsius cogniti
+<lb ed="#L" n="127"/>suam similitudinem in ipso causantis; et obiectum 
+intel<lb ed="#L" break="no" n="128"/>lectus sit phantasma in viribus interioribus sensitivis 
+re<lb ed="#L" break="no" n="129"/>ceptum: necesse est, ad hoc quod intellectus intelligat,
+<lb ed="#L" n="130"/>ut moveatur ab imaginativa et aliis viribus sensitivis, a
+<lb ed="#L" n="131"/>quibus sicut ab obiecto naturaliter movetur, Huiusmodi
+<lb ed="#L" n="132"/>etiam virium sensitivarum operatio necessario exigitur ad
+<lb ed="#L" n="133"/>operationem actualem intellectus, ut superius in secundo
+<lb ed="#L" n="134"/>libro  est ostensum, Ideo, facta aliqua immutatione in
+<lb ed="#L" n="135"/>viribus sensitivis per impressionem corporum caelestium,
+<lb ed="#L" n="136"/>necessario intellectus aliquam in sua operatione variationem
+<lb ed="#L" n="137"/>accipit: sicut, variata chusa, necesse est effectum variari.
+<lb ed="#L" n="138"/>Volitio autem fit, non secundum quod volitum recipitur
+<lb ed="#L" n="139"/>in voluntate, sed secundum quod voluntas in volitum
+<lb ed="#L" n="140"/>inclinatur, secundum quem ordinem voluntas comparatur
+<lb ed="#L" n="141"/>ad appetitum sensitivum sicut movens ad motum, ut
+<lb ed="#L" n="142"/>dicitur III de Anima . Ideo non est necesse quod, facta
+<lb ed="#L" n="143"/>immutatione appetitus sensitivi per corporum caelestium
+<lb ed="#L" n="144"/>impressionem, in actu voluntatis variatio aut mutatio fiat,
+<lb ed="#L" n="145"/>sed semper in sua libertate manet ut secundum 
+inclina<lb ed="#L" break="no" n="146"/>tionem appetitus sensitivi eligat, aut contrario modo.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

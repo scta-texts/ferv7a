@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 30</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 30</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="86"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1953"><!-- ferv7a-l3c30 -->
+            <head xml:id="ferv7a-d1e1953-Hd1e101">Capitulum 30</head>
+            <p xml:id="ferv7a-d1e1953-d1e103">
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="59" type="fixed=86"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e110">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="60"/>TERTIO ostenditur quod nec divitiae sunt summum 
+ho<lb ed="#L" break="no" n="61"/>minis bonum. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e119">
+               <lb ed="#L" n="62"/>I. Et arguitur primo sic. Non appetuntur divitiae nisi  
+<lb ed="#L" n="63"/>propter aliud, inquantum utimur eis vel ad corporis 
+<lb ed="#L" n="64"/>sustentationem, vel ad aliquid aliud huiusmodi. Ergo non  
+<lb ed="#L" n="65"/>sunt summum bonum, quod est propter se, et non propter 
+<lb ed="#L" n="66"/>aliud desideratum. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e132">
+               <lb ed="#L" n="67"/>Secundo. Divitiae in hoc maxime conferunt quod 
+ex<lb ed="#L" break="no" n="68"/>penduntur. Ergo earum possessio non potest esse 
+sum<lb ed="#L" break="no" n="69"/>mum bonum, — Probatur consequentia. Quia illarum rerum 
+<lb ed="#L" n="70"/>possessio non potest esse summum hominis bonum quae 
+<lb ed="#L" n="71"/>maxime conferunt homini in hoc quod emittuntur. - Ista  
+<lb ed="#L" n="72"/>ratio particulariter probat de divitiis quas <ref xml:id="ferv7a-d1e1953-Rd1e147">Aristoteles, I  
+<lb ed="#L" n="73"/>Polit.</ref>, artificiales vocat, cuiusmodi sunt pecuniae. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e154">
+               <lb ed="#L" n="74"/>II. Tertio. Magis laudabilis est actus liberalitatis et 
+ma<lb ed="#L" break="no" n="75"/>gnificentiae ex hoc quod pecuniae emittuntur, quam ex eo 
+<lb ed="#L" n="76"/>quod conservantur: cuius signum est, quod ex hoc 
+no<lb ed="#L" break="no" n="77"/>mina harum virtutum sumuntur, Ergo felicitas in" 
+pos<lb ed="#L" break="no" n="78"/>sessione pecuniarum non consistit. - Probatur 
+conse<lb ed="#L" break="no" n="79"/>quentia. Quia actus virtutis laudabilis est ex eo quod ad  
+<lb ed="#L" n="80"/>felicitatem accedit.. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e172">
+               <lb ed="#L" n="81"/>Ad evidentiam huius rationis, considerandum est, ex 
+<lb ed="#L" n="82"/>doctrina <ref xml:id="ferv7a-d1e1953-Rd1e178">Sancti Thomae II II, q. cxvir</ref>, quod duo sunt  
+<lb ed="#L" n="83"/>ui actus liberalitatis circa pecuniam habitam: unus est uti  
+<lb ed="#L" n="84"/>pecunia, quod in ipsius emissione | consistit; alius est 
+<lb ed="#L" n="85"/>conservare ipsam ad idoneum usum, Inter hos actus, 
+<cb ed="#L" n="g"/>
+               <lb ed="#L" n="86"/>usus pecuniae, sive eius emissio, est principalis: utpote
+<lb ed="#L" n="87"/>ad quem alius ordinatur. Ideo magis laudabilis est usus
+<lb ed="#L" n="88"/>pecuniae quam ipsius conservatio. Et ex hoc vult Sanctus
+<lb ed="#L" n="89"/>Thomas concludere quod possessio pecuniarum non est
+<lb ed="#L" n="90"/>felicitas. Quia, si sic esset, tunc esset magis laudabilis
+<lb ed="#L" n="91"/>actus liberalitatis qui est conservare pecunias, quam usus
+<lb ed="#L" n="92"/>eius, qui est emittere: quia tanto actus virtutis est 
+lau<lb ed="#L" break="no" n="93"/>dabilis, quanto ad felicitatem accedit; conservatio autem
+<lb ed="#L" n="94"/>magis-accedit ad. possessionem pecuniae quam emissio,
+<lb ed="#L" n="95"/>per quam aliquis ab ipsarum possessione recedit; unde
+<lb ed="#L" n="96"/>et <ref xml:id="ferv7a-d1e1953-Rd1e213">Aristoteles, IV. Eth.</ref>, ait quod usus: pecuniarum in
+<lb ed="#L" n="97"/>dando et erogando consistere videtur, quia capere et 
+<lb ed="#L" n="98"/>conservare magis possessio est. Hoc autem constat esse
+<lb ed="#L" n="99"/>falsum. Idcirco in pecuniarum possessione felicitas 
+con<lb ed="#L" break="no" n="100"/>sistere non potest.
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e224">
+               <lb ed="#L" n="101"/>Circa illam  propositionem,: Nomina liberalitatis et
+<lb ed="#L" n="102"/>munificentiae  trahuntur ab eo quod emittuntur pecuniae,
+<lb ed="#L" n="103"/>considerandum, secundum doctrinam Sancti Thomae loco
+<lb ed="#L" n="104"/>allegato , quod hoc nomen liberalitas convenienter  Art. 2.
+<lb ed="#L" n="105"/>ab emissione sumptum esse videtur: quia, cum. aliquis
+<lb ed="#L" n="106"/>a se emittit aliquid, quodammodo. illud a sua custodia
+<lb ed="#L" n="107"/>et dominio liberat, et animum suum. ab eius affectu 
+li<lb ed="#L" break="no" n="108"/>berum esse demonstrat. Hoc idem in graeco idiomate
+<lb ed="#L" n="109"/>inspicere possumus: dicitur enim liberalitas latine graece
+<lb ed="#L" n="110"/>eleutheriotes , quod nomen ab hoc verbo eleutheroo
+<lb ed="#L" n="111"/>originem. ducit, hoc autem verbum latine significat libe-  
+<pb ed="#L" n="87"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rum facio, quod in ipsa emissione pecuniarum fit, per  
+<lb ed="#L" n="2"/>quam a suo dominio aliquis eam liberat. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e259">
+               <lb ed="#L" n="3"/>Adverte quod ista ratio differt a priori: quia haec 
+<lb ed="#L" n="4"/>procedit ex ordine actuum liberalitatis, et ex eorum 
+boni<lb ed="#L" break="no" n="5"/>tate: illa autem procedit ex utilitate quae homini 
+pro<lb ed="#L" break="no" n="6"/>venit ex pecuniis. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e270">
+               <lb ed="#L" n="7"/>III. Quarto. Homo divitiis melior est: cum ad eius 
+<lb ed="#L" n="8"/>usum ordinentur. Ergo etc. — Patet consequentia. Quia  
+<lb ed="#L" n="9"/>summum hominis bonum oportet homine melius esse. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e279">
+               <lb ed="#L" n="10"/>Quinto. In. consecutione divitiarum maxime locum 
+<lb ed="#L" n="11"/>habet fortuna. Ergo etc. — Probatur consequentia. Quia  
+<lb ed="#L" n="12"/>summum hominis bonum fortunae non subiacet: cum 
+<lb ed="#L" n="13"/>fortuita absque studio rationis eveniant; homo autem  
+<lb ed="#L" n="14"/>per rationem proprium finem consequatur. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e293">
+               <lb ed="#L" n="15"/>2. Circa istam propositionem, Summum hominis bonum 
+<lb ed="#L" n="16"/>fortunae non subiacet, dubitatur. Quia <ref xml:id="ferv7a-d1e1953-Rd1e299">Philosophus, II  
+<lb ed="#L" n="17"/>Phys.</ref>, ait quod fortuna et felicitas circa idem esse 
+vi<lb ed="#L" break="no" n="18"/>denter 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e307">
+               <lb ed="#L" n="19"/>Respondetur ex doctrina <ref xml:id="ferv7a-d1e1953-Rd1e311">Sancti Thomae Quarto, d. 
+<lb ed="#L" n="20"/>XLIX, q. 1, q 1, ad 5</ref>, quod fortuna et felicitas sunt 
+qui<lb ed="#L" break="no" n="21"/>dem. circa idem. subiectum, quia utraque non misi in  
+<lb ed="#L" n="22"/>rationalibus esse potest: non. autem sunt circa idem 
+<lb ed="#L" n="23"/>obiectum, quia fortuna est eorum quae propter aliud  
+<lb ed="#L" n="24"/>aguntur, quando aliquid praeter intentionem accidit ;  
+<lb ed="#L" n="25"/>felicitas autem non ad aliud ordinatur, et est quae ab  
+<lb ed="#L" n="26"/>omnibus intenditur. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e330">
+               <lb ed="#L" n="27"/>IV. Sexto. Divitiae involuntarie amittuntur; malis 
+eve<lb ed="#L" break="no" n="28"/>nire possunt, qui summo' bono. carere debent; et sunt  
+<lb ed="#L" n="29"/>instabiles. Ergo etc. 
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e339">
+               <lb ed="#L" n="30"/>Adverte, circa primam conditionem hic positam, quod 
+<lb ed="#L" n="31"/>de ratione summi boni est quod per violentiam alicui  
+<lb ed="#L" n="32"/>detrahi non possit: cum, praeter Legem Evangelicam,  
+<lb ed="#L" n="33"/>quae ponit beatam vitam aeternam esse, ut patet <ref xml:id="ferv7a-d1e1953-Rd1e349">Matth. 25,</ref>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="34"/>etiam secundum Boetium, et Tullium in Libro de Finibus  via.iotra, n. v.
+<lb ed="#L" n="35"/>Bonorum et Malorum, ac etiam secundum Aristotelem I
+<lb ed="#L" n="36"/>Ethicorum, felicitas :sit;-bonum per se sufficientissimum,  Cap. x, 7, 8;
+<lb ed="#L" n="37"/>et per consequens stabile ac perpetuum. Nam, ut Tullius Xa
+<lb ed="#L" n="38"/>ibidem  ait, si aliguid sit esse beatum, id oportet totum  Lib. 1, cap.
+<lb ed="#L" n="39"/>poni in potestate sapientis: nam, si amitti vita beata
+<lb ed="#L" n="40"/>potest, beata. esse 'mon potest; Sanctus Thomas etiam, I
+<lb ed="#L" n="41"/>IIa, q. v, a. 4, probat beatitudinem amitti non posse, si
+<lb ed="#L" n="42"/>fuerit perfecta. Idcirco, si divitiae amitti per violentiam
+<lb ed="#L" n="43"/>possunt, in ipsis felicitas consistere non poterit, et earum
+<lb ed="#L" n="44"/>possessio longe est a beatitudine aliena.
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e378">
+               <lb ed="#L" n="45"/>V. Sed quod in divitiis consistat felicitas, arguitur ex
+<lb ed="#L" n="46"/>duobus. Primo, quia ex V Ethicorum . habetur quod nu- TOP eios
+<lb ed="#L" n="47"/>misma ad hoc est inventum ut sit fideiussor habendi 
+<lb ed="#L" n="48"/>quodcumque homo voluerit. Constat autem, secundum
+<ref xml:id="ferv7a-d1e1953-Rd1e388">Boetium, III de Consol.</ref>, quod <quote xml:id="ferv7a-d1e1953-Qd1e391" source="http://scta.info/resource/hy7y6y-d1e67-d1e158" type="paraphrase"><!-- source imprecise -->felicitas est status omnium  
+<lb ed="#L" n="49"/>bonorum aggregatione perfectus</quote>.
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e398">
+               <lb ed="#L" n="50"/>Secundo, quia <ref xml:id="ferv7a-d1e1953-Rd1e402">Aristoteles, I Polit.</ref> , ait quod desiderium Me do isi
+<lb ed="#L" n="51"/>circa pecunias et divitias, scilicet artificiales, est infinitum.
+<lb ed="#L" n="52"/>Hoc autem ad summum bonum pertinere videtur, ut eius
+<lb ed="#L" n="53"/>desiderium sit infinitum.
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e412">
+               <lb ed="#L" n="54"/>2. Ad haec respondet Sanctus Thomas IaIIa, q. i, a. 1, 
+<lb ed="#L" n="55"/>Ad primum quidem, quod intendit Aristoteles pecunia
+<lb ed="#L" n="56"/>haberi posse omnia venalia, non autem simpliciter omnia:
+<lb ed="#L" n="57"/>quia spiritualia bona, quae venalia non sunt, pecunia
+<lb ed="#L" n="58"/>haberi non possunt.
+</p>
+            <p xml:id="ferv7a-d1e1953-d1e425">
+               <lb ed="#L" n="59"/>Ad secundum ait quod aliter est infinitum desiderium
+<lb ed="#L" n="60"/>pecuniarum, et aliter desiderium summi boni, Quia quando
+<lb ed="#L" n="61"/>habentur quaecumque temporalia, contemnuntur, et alia
+<lb ed="#L" n="62"/>appetuntur : eo quod magis eorum insufficientia 
+cogno<lb ed="#L" break="no" n="63"/>scatur cum habentur. Summum autem. bonum, quanto
+<lb ed="#L" n="64"/>perfectius possidetur, tanto magis amatur. Ideo ratio
+<lb ed="#L" n="65"/>nulla est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

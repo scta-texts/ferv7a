@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 63</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 63</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="177"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2222"><!-- ferv7a-l3c63 -->
+            <head>Capitulum 63</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="35" type="fixed=177"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="36"/>TERTIA conclusio est: In illa felicitate quae provenit
+<lb ed="#L" n="37"/>ex visione divina, omne desiderium humanum 
+imple<lb ed="#L" break="no" n="38"/>tur, ut in Psalmo dicitur; et omne humanum studium ibi
+<lb ed="#L" n="39"/>consummationem accipit.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>I. Probatur discurrendo per omnia in quae humanus
+<lb ed="#L" n="41"/>appetitus fertur, et quae, secundum Aristotelem, ad 
+feli<lb ed="#L" break="no" n="42"/>citatem requiruntur.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>In illa enim visione consummatur desiderium hominis
+<lb ed="#L" n="44"/>secundum contemplativam vitam, de cognitione veritatis:
+<lb ed="#L" n="45"/>quod sibi convenit inquantum est natura intellectualis. Quia
+<lb ed="#L" n="46"/>ei innotescunt omnia quae intellectus naturaliter scire 
+de<lb ed="#L" break="no" n="47"/>siderat, ut ex supra dictis patet.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Complebitur etiam desiderium eius secundum activam
+<lb ed="#L" n="49"/>et civilem vitam : quod sibi convenit secundum quod habet
+<lb ed="#L" n="50"/>rationem, qua inferiora disponere potest. Civilis enim 
+vi<lb ed="#L" break="no" n="51"/>tae multa sunt appetibilia: scilicet vivere secundum 
+vir<lb ed="#L" break="no" n="52"/>tutem, ad quod principaliter tendit; honoris sublimitas;
+<lb ed="#L" n="53"/>famae celebritas; et divitiae; quae omnia in illa visione
+<lb ed="#L" n="54"/>homines consequuntur. Primum quidem: quia ratio in
+<lb ed="#L" n="55"/>summo vigore erit, divino lumine illustrata, ne a recto
+<lb ed="#L" n="56"/>deficere possit, — Secundum vero: quia Beati ad summam
+<lb ed="#L" n="57"/>honoris altitudinem sublimantur, inquantum Deo uniuntur;
+<lb ed="#L" n="58"/>cuius signum est quod regnabunt cum Christo, ut dicitur
+<lb ed="#L" n="59"/>Apoc. xx. — Tertium autem: quia per illam visionem 
+red<lb ed="#L" break="no" n="60"/>duntur celebres non opinione hominum, qui decipi et 
+de<lb ed="#L" break="no" n="61"/>cipere possunt, sed secundum verissimam cognitionem Dei
+<lb ed="#L" n="62"/>et omnium Beatorum ; unde illa beatitudo in Psalmo gloria
+<lb ed="#L" n="63"/>nominatur. - Quartum denique: quia in illa beatitudine
+<lb ed="#L" n="64"/>Beati perfruuntur illo quod bonorum omnium perfectionem
+<lb ed="#L" n="65"/>comprehendit; quod ostenditur et Sap. vi, et in Psalmo,
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Adimplebitur etiam desiderium delectationis: quod 
+ho<lb ed="#L" break="no" n="67"/>mini et omnibus animalibus est commune, et sibi 
+secun<lb ed="#L" break="no" n="68"/>dum vitam voluptuosam convenit. Quia in illa felicitate
+<lb ed="#L" n="69"/>est delectatio perfectissima, ut dicitur in Psalmo : et tanto
+<lb ed="#L" n="70"/>perfectior ea quae est secundum sensus, quanto intellectus
+<lb ed="#L" n="71"/>est altior sensu; et tanto  est magis pura ab omni 
+per<lb ed="#L" break="no" n="72"/>mixtione contristantis aut sollicitudinis molestantis, quanto
+<lb ed="#L" n="73"/>illud bonum in quo delectabimur, maius est omni 
+sensi<lb ed="#L" break="no" n="74"/>bili bono, et magis intimum et continue delectans.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Complebitur etiam desiderium conservandi esse: quod
+<lb ed="#L" n="76"/>est sibi et omnibus rebus commune. Quia Beati perfectam
+<lb ed="#L" n="77"/>sempiternitatem consequentur, ab omni nocumento securi:
+<lb ed="#L" n="78"/>ut dicitur /saiae xrix, et Apoc. xxr.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Et sic patet recte dixisse Boetium quod beatitudo est
+<lb ed="#L" n="80"/>status omnium bonorum aggregatione  perfectus.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Infert postremo Sanctus "Thomas quod huic perfectae
+<lb ed="#L" n="82"/>et ultimae felicitati nihil in hac vita est adeo simile sicut
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="83"/>vita contemplativa. Et propter hoc philosophi in 
+contem<lb ed="#L" break="no" n="84"/>platione veritatis quae possibilis est in hac vita, ultimam
+<lb ed="#L" n="85"/>hominis felicitatem posuerunt. Et etiam a Domino vita
+<lb ed="#L" n="86"/>contemplativa magis commendatur, Lucae x, tanquam 
+ma<lb ed="#L" break="no" n="87"/>gis diuturna quam activa: incipit enim in hac vita, sed
+<lb ed="#L" n="88"/>in futura consummatur.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>II. Circa complementum desiderii delectationis, 
+adver<lb ed="#L" break="no" n="90"/>tendum quod, simpliciter et absolute loquendo, 
+delecta<lb ed="#L" break="no" n="91"/>tiones spirituales sunt potiores corporalibus, licet 
+corpo<lb ed="#L" break="no" n="92"/>rales sint quoad nos vehementiores. Sanctus Thomas autem
+<lb ed="#L" n="93"/>loquitur hoc loco de ipsis secundum ordiriem earum per
+<lb ed="#L" n="94"/>se et absolute: et tangit paucis verbis multas rationes quas
+<lb ed="#L" n="95"/>in I I^, q. xxxr, a 5; et IV Sent., d. xuix, q. m, a. 5 ,
+<lb ed="#L" n="96"/>explicite ponit.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Una est quod, cum ad delectationem requiratur bonum
+<lb ed="#L" n="98"/>coniunctum, id cui coniungitur, et ipsorum coniunctio,
+<lb ed="#L" n="99"/>quantum ad omnia haec delectatio spiritualis est potior
+<lb ed="#L" n="100"/>corporali. Quantum quidem ad id cui bonum coniungitur:
+<lb ed="#L" n="101"/>quia pars intellectiva est multo nobilior, et magis 
+cogno<lb ed="#L" break="no" n="102"/>scitiva, quam sensitiva, Hoc tangitur hic cum dicitur quod
+<lb ed="#L" n="103"/>intellectus est altior sensu. — Quantum etiam ad bonum
+<lb ed="#L" n="104"/>coniunctum: quia bonum spirituale est maius, et magis
+<lb ed="#L" n="105"/>dilectum, quam corporale. Cuius signum est, quia homines
+<lb ed="#L" n="106"/>multa sustinent incommoda, et a maximis delectationibus
+<lb ed="#L" n="107"/>corporalibus abstinent, propter honorem, famam, et 
+hu<lb ed="#L" break="no" n="108"/>iusmodi, quae sunt spiritualia bona. Hoc tangitur hic cum
+<lb ed="#L" n="109"/>dicitur quod illud bonum intelligibile est maius omni bono
+<lb ed="#L" n="110"/>sensibili. - Quantum vero ad ipsam coniunctionem : quia
+<lb ed="#L" n="111"/>res spirituales intellectae intimius uniuntur nobis quam res
+<lb ed="#L" n="112"/>corporales per sensum apprehensae; quia intellectus 
+per<lb ed="#L" break="no" n="113"/>tingit usque ad intimam rei quidditatem; per sensum autem
+<lb ed="#L" n="114"/>coniungimur rebus corporalibus quasi superficialiter 
+tan<lb ed="#L" break="no" n="115"/>tum, cum extrinseca tantum apprehendamus accidentia.
+<lb ed="#L" n="116"/>Hoc tangitur hic cum dicitur quod illud bonum est magis
+<lb ed="#L" n="117"/>intimum.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>Alia ratio est quia spirituales delectationes sunt 
+diutur<lb ed="#L" break="no" n="119"/>niores, utpote ex causis incorruptibilibus et immobilibus
+<lb ed="#L" n="120"/>provenientes: corporea vero delectabilia sunt corruptibilia.
+<lb ed="#L" n="121"/>Hanc tetigit Sanctus Thomas cum dixit quod bonum illud
+<lb ed="#L" n="122"/>est continue delectans.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Alia postremo ratio est quia delectationes spirituales
+<lb ed="#L" n="124"/>sunt sine motu et totae simul, et consequenter puriores:
+<lb ed="#L" n="125"/>corporales vero sunt cum motu, ex quo lassitudinem 
+in<lb ed="#L" break="no" n="126"/>ducunt. Hanc quoque Sanctus Thomas hic tangit cum ait
+<lb ed="#L" n="127"/>quod delectatio Beatorum est magis pura ab omni 
+per<lb ed="#L" break="no" n="128"/>mixtione contristantis,
+</p>
+            <p>
+               <lb ed="#L" n="129"/>III. Circa id quod dicitur, vitam contemplativam inci-
+<pb ed="#L" n="178"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>pere in hac vita. et consummari in futura, advertendum  
+<lb ed="#L" n="2"/>quod hoc non ideo dicitur quasi contemplatio quae est  
+<lb ed="#L" n="3"/>in hac vita, maneat in futura eodem modo, quia, ut 
+in<lb ed="#L" break="no" n="4"/>quit Sanctus Thomas II II, q. cuxxx, a. 8, ad 1, modus 
+<lb ed="#L" n="5"/>contemplandi non idem est hic et in Patria: sed quia vita  
+<lb ed="#L" n="6"/>contemplativa manet quoad eosdem actus quos habebat 
+<lb ed="#L" n="7"/>in via. Sicut enim in hac vita est aliqua contemplatio 
+di<lb ed="#L" break="no" n="8"/>vinae veritatis, ita et in Patria: licet ista sit imperfecta,  
+<lb ed="#L" n="9"/>illa vero perfecta. Intelligitur etiam ratione caritatis erga  
+<lb ed="#L" n="10"/>Deum, in qua principium et finem vita contemplativa 
+ha<lb ed="#L" break="no" n="11"/>bet. Unde inquit Gregorius, supra Ezechielem , quod 
+con<lb ed="#L" break="no" n="12"/>templativa hic incipit ut in caelesti patria perficiatur: quia  
+<lb ed="#L" n="13"/>amoris ignis, qui hic ardere inchoat, cum ipsum quem  
+<lb ed="#L" n="14"/>amat viderit, in amore ipsius amplius ignescit. 
+</p>
+            <p>
+               <lb ed="#L" n="15"/>IV. Circa conclusionem principaliter intentam occurrit  
+<lb ed="#L" n="16"/>dubium. Non enim videtur in illa felicitate per divinam  
+<lb ed="#L" n="17"/>visionem desiderium hominis compleri. Nam anima beata 
+<lb ed="#L" n="18"/>desiderat uniri corpori, et corporis.beatitudinem, quam  
+<lb ed="#L" n="19"/>nondum habet. Item aliquis Beatus desiderat salutem 
+ali<lb ed="#L" break="no" n="20"/>cuius quam ille nondum est adeptus. Ergo per visionem 
+<lb ed="#L" n="21"/>divinae essentiae desiderium hominis non completur. 
+</p>
+            <p>
+               <lb ed="#L" n="22"/>V. Respondetur, ex doctrina <ref>Sancti Thomae I IIae, q. v, 
+<lb ed="#L" n="23"/>a. 5, ad 5</ref>, quod compleri desiderium Beati potest 
+dupli<lb ed="#L" break="no" n="24"/>citer intelligi: uno modo, ex parte appetibilis; alio modo,  
+<lb ed="#L" n="25"/>ex parte appetentis. Animae ergo separatae desiderium 
+to<lb ed="#L" break="no" n="26"/>taliter quiescit ex parte appetibilis : quia habet id quod suo  
+<lb ed="#L" n="27"/>appetitui sufficit. Sed non totaliter impletur ex parte 
+ap<lb ed="#L" break="no" n="28"/>petentis: quia illud obiectum non possidet secundum 
+om<lb ed="#L" break="no" n="29"/>nem modum quo possidere vellet.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Hanc ego responsionem Sancti Thomae sic intelligo, 
+<lb ed="#L" n="31"/>quod non ita adimpletur animae beatae desiderium ex 
+vi<lb ed="#L" break="no" n="32"/>sione divinae essentiae quod in ipsa nullus sit desiderii  
+<lb ed="#L" n="33"/>motus: cum, ut arguebatur, aliqua alia desideret. Unde et  
+<lb ed="#L" n="34"/>I IP, q. rxvrr a. 4, ad 3; et III Sent., d. xxvr, a. ult,  
+<lb ed="#L" n="35"/>qu 2, inquit Sanctus Thomas quod animae beatae non |
+<lb ed="#L" n="36"/>dicuntur proprie sperare gloriam corporis, sed tantum 
+<lb ed="#L" n="37"/>desiderare; et IV. Sent., d. xv, q. nr, a. 3, ad 1, inquit  
+<lb ed="#L" n="38"/>quod sancti martyres habent desiderium de obtinenda stola  
+<lb ed="#L" n="39"/>corporis, et de societate sanctorum qui salvandi sunt. Sed  
+<lb ed="#L" n="40"/>dicitur adimpleri eius desiderium ex parte rei desideratae: 
+<lb ed="#L" n="41"/>inquantum habet perfectissimum et sufficientissimum 
+bo<lb ed="#L" break="no" n="42"/>num, quod desiderabat tanquam ultimum suum finem, 
+pro<lb ed="#L" break="no" n="43"/>pter quem omnia alia volebat, in cuius adeptione eius 
+es<lb ed="#L" break="no" n="44"/>sentialis felicitas consistit; licet illud non habeat omnibus  
+<lb ed="#L" n="45"/>modis quibus vellet, quia non habet illud ut corpus 
+bea<lb ed="#L" break="no" n="46"/>tificans. Tale enim obiectum sufficit eius appetitui. Tum 
+<lb ed="#L" n="47"/>quia, remotis omnibus aliis, est essentialiter beata ex eius 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="48"/>adeptione, utpote habens summum bonum. Tum quia
+<lb ed="#L" n="49"/>adeptio illius facit ut omne quod desiderat, infallibiliter
+<lb ed="#L" n="50"/>consequatur. Nam, cum non desideret nisi quod videt Deum
+<lb ed="#L" n="51"/>velle; et voluntas Dei semper impleatur: sequitur quod
+<lb ed="#L" n="52"/>et eius desiderium semper impletur, sive de unione ad
+<lb ed="#L" n="53"/>corpus, sive de societate salvandorum, sive de quocumque
+<lb ed="#L" n="54"/>alio. Unde inquit Sanctus Thomas I II, loco praeallegato ,
+<lb ed="#L" n="55"/>quod gloria corporis, quam desiderant Beati, habet 
+inevi<lb ed="#L" break="no" n="56"/>tabilem causam.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Ad hunc ergo sensum intelligitur quod hic dicitur, per
+<lb ed="#L" n="58"/>divinam visionem substantias intellectuales veram 
+felici<lb ed="#L" break="no" n="59"/>tatem. consequi, in qua omne desiderium quietatur. Quia
+<lb ed="#L" n="60"/>videlicet per illam habetur summum bonum, quod omne
+<lb ed="#L" n="61"/>desiderabile continet; et quod prae omnibus, tanquam finis
+<lb ed="#L" n="62"/>ultimus, desiderabatur; et in cuius adeptione essentia 
+bea<lb ed="#L" break="no" n="63"/>titudinis consistit; et etiam quia in ipso est inevitabilis
+<lb ed="#L" n="64"/>ratio et causa adimpletionis cuiuscumque desiderii; sicut
+<lb ed="#L" n="65"/>eius qui nondum adeptus est pecuniam, dicitur 
+quodam<lb ed="#L" break="no" n="66"/>modo desiderium rei habendae quietatum esse, quando
+<lb ed="#L" n="67"/>scit se, quandocumque voluerit, posse pecuniam obtinere.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>VI. Sed tunc insurgit aliud dubium. Nam perfecta 
+fe<lb ed="#L" break="no" n="69"/>licitas requirit perfectam quietationem desiderii et ex parte
+<lb ed="#L" n="70"/>appetibilis, et ex parte appetentis: cum omnis motus 
+na<lb ed="#L" break="no" n="71"/>turalis ad quietem tendat, felicitas autem sit terminus 
+ap<lb ed="#L" break="no" n="72"/>petitus. Ergo, si in anima separata non est quietatio 
+to<lb ed="#L" break="no" n="73"/>talis desiderii ex parte appetentis, non habebit perfectam
+<lb ed="#L" n="74"/>felicitatem.
+
+<lb ed="#L" n="75"/>Respondetur quod de perfecta felicitate Beati dupliciter
+<lb ed="#L" n="76"/>possumus loqui: uno modo, quantum ad perfectionem .
+es<lb ed="#L" break="no" n="77"/>sentialem felicitatis; alio modo, quantum ad perfectionem
+<lb ed="#L" n="78"/>essentialem simul et concomitantem, secundum quod 
+bea<lb ed="#L" break="no" n="79"/>titudo nominat statum omnium bonorum aggregatione 
+per<lb ed="#L" break="no" n="80"/>fectum. Si loquamur de prima perfectione, sic anima 
+se<lb ed="#L" break="no" n="81"/>parata est perfecte beata: quia videt Deum, in quo essentia
+<lb ed="#L" n="82"/>beatitudinis consistit, nec remanet in ipsa aliquod 
+deside<lb ed="#L" break="no" n="83"/>rium respectu huius. Si vero loquamur de eius perfectione
+<lb ed="#L" n="84"/>secundo modo, sic utique conceditur quod non est 
+per<lb ed="#L" break="no" n="85"/>fecte beata. Unde Sanctus Thomas Quarto, d. xrix, q. 1,
+<lb ed="#L" n="86"/>a. 4, tenet quod post resurrectionem augebitur beatitudo
+<lb ed="#L" n="87"/>Sanctorum extensive, inquantum anima gaudebit non 
+so<lb ed="#L" break="no" n="88"/>lum de bono proprio, sed etiam de bono corporis. Immo
+<lb ed="#L" n="89"/>etiam vult quod aliquo modo augebitur intensive, non
+<lb ed="#L" n="90"/>quidem perfectius Deum videndo ex parte obiecti, sed quia
+<lb ed="#L" n="91"/>ex unione ad corpus eius operatio efficacior erit. In quarto
+<lb ed="#L" n="92"/>etiam libro huius Contra Gentiles, cap, txxrx, ait. quod
+<lb ed="#L" n="93"/>anima separata nondum habet felicitatem perfectam, quia
+<lb ed="#L" n="94"/>nondum eius desiderium totaliter quietatur. 
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

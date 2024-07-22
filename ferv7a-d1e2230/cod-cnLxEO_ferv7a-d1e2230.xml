@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 64</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 64</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="180"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2230"><!-- ferv7a-l3c64 -->
+            <head>Capitulum 64</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="33" type="fixed=180"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <lb ed="#L" n="34"/>POSTQUAM determinavit Sanctus Thomas de Deo 
+secun<lb ed="#L" break="no" n="35"/>dum quod est rerum omnium finis, nunc vult de 
+re<lb ed="#L" break="no" n="36"/>gimine ipsius universali, secundum quod omnem 
+creatu<lb ed="#L" break="no" n="37"/>ram gubernat, determinare .
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Circa hoc autem duo facit: primo, agit de ipsa divina
+<lb ed="#L" n="39"/>providentia secundum se; secundo, de eius conditionibus,
+<lb ed="#L" n="40"/>cap. xciv. — Circa primum duo facit: primo, agit de 
+pro<lb ed="#L" break="no" n="41"/>videntia et gubernatione divina secundum quod ad omnia
+<lb ed="#L" n="42"/>communiter se extendit; secundo, ut se extendit 
+particu<lb ed="#L" break="no" n="43"/>lariter ad homines, cap. xxxiv. — Circa primum duo facit:
+<lb ed="#L" n="44"/>primo, agit de ipsa providentia; secundo, de ordine 
+exe<lb ed="#L" break="no" n="45"/>cutionis divinae providentiae, cap. rxxvir.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Circa primum duo facit: primo, ostendit in communi
+<lb ed="#L" n="47"/>Deum universa sua providentia gubernare; secundo, 
+osten<lb ed="#L" break="no" n="48"/>dit in particulari de aliquibus quod sub divina providentia
+<lb ed="#L" n="49"/>contineantur, capite sequenti,
+</p>
+            <p>
+               <lb ed="#L" n="50"/>I. Quantum ad primum, ponitur haec conclusio: Deus
+<lb ed="#L" n="51"/>sua divina providentia gubernat et regit universa.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Ad evidentiam huius conclusionis, antequam probetur,
+<lb ed="#L" n="53"/>considerandum est quod providentia et gubernatio se 
+ha<lb ed="#L" break="no" n="54"/>bent sicut ratio practica, quae scilicet ordinatur ad alicuius
+<lb ed="#L" n="55"/>operationem, et executio rei ordinatae per cognitionem:
+<lb ed="#L" n="56"/>sicut se habent ratio domus producendae in mente 
+domi<lb ed="#L" break="no" n="57"/>ficatoris existens, et productio domus. Nam providentia,
+<lb ed="#L" n="58"/>proprie loquendo, nihil aliud est quam idea et exemplar
+<lb ed="#L" n="59"/>ordinis rerum in suos fines, cum proposito talem ordinem
+<lb ed="#L" n="60"/>in rebus exequendi. Unde, definiens eam, Sanctus Thomas,
+<lb ed="#L" n="61"/>Prima Parte, q. xxm, a. 1, ait quod est ratio ordinis 
+re<lb ed="#L" break="no" n="62"/>rum in finem: accipitur enim in hac definitione ratio pro
+<lb ed="#L" n="63"/>conceptione practica in mente divina existente, regulativa
+<lb ed="#L" n="64"/>ordinis rerum ad suos fines; sicut ars divina est exemplar
+<lb ed="#L" n="65"/>rerum secundum quod egrediuntur a Deo et in suis 
+gra<lb ed="#L" break="no" n="66"/>dibus collocantur. - Quamvis etiam, extenso nomine 
+pro<lb ed="#L" break="no" n="67"/>videntiae, ipsa excogitatio ordinis rerum in finem, quae
+<lb ed="#L" n="68"/>dicit actum divini intellectus terminatum ad ideam et 
+ex<lb ed="#L" break="no" n="69"/>emplar talis ordinis, possit providentia nuncupari,
+<lb ed="#L" n="70"/>Attendendum tamen quod nomine rationis ordinis 
+re<lb ed="#L" break="no" n="71"/>rum in finem non accipitur exemplar quo repraesentatur
+<lb ed="#L" n="72"/>tantum ipsa habitudo et ordo uniuscuiusque rei ad suum
+<lb ed="#L" n="73"/>proprium finem: sed quo etiam repraesentantur practice
+<lb ed="#L" n="74"/>et disponuntur in mente divina ea quae conferunt ad finis
+<lb ed="#L" n="75"/>assecutionem, et ea quae a finis consecutione possunt 
+im<lb ed="#L" break="no" n="76"/>pedire. Patet I Sent., d, xxxix . Providendo enim Deus 
+uni<lb ed="#L" break="no" n="77"/>verso, in mente sua disponit ad quem finem unaquaeque
+<lb ed="#L" n="78"/>res sit ordinanda; et quae illi sint conferenda tanquam
+<lb ed="#L" n="79"/>utilia ad finem; atque etiam quae sint removenda a natura
+<lb ed="#L" n="80"/>tanquam impedientia finis assecutionem; sicut, quia homo
+<cb ed="#L" n="d"/>
+               <lb ed="#L" n="81"/>ordinatur ad rerum cognitionem per intellectum, datur sibi
+<lb ed="#L" n="82"/>corpus taliter complexionatum quod intellectivae cognitioni
+<lb ed="#L" n="83"/>deservire possit, non autem corpus asini aut equi, quod
+<lb ed="#L" n="84"/>magis talem cognitionem impediret.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Considerandum quoque quod dupliciter possumus loqui
+<lb ed="#L" n="86"/>de conferentibus ad finem et impedientibus ab eo.. Uno
+<lb ed="#L" n="87"/>modo, respectu primi et principalis provisi, quod est 
+uni<lb ed="#L" break="no" n="88"/>versum. Et tunc intelligendum est ad providentiam 
+per<lb ed="#L" break="no" n="89"/>tinere disponere et tribuere omnia conferentia ad finem,
+<lb ed="#L" n="90"/>et removere omnia impedimenta, tam extrinseca quam 
+in<lb ed="#L" break="no" n="91"/>trinseca: quia providentia respectu ipsius universi est non
+<lb ed="#L" n="92"/>solum de ordine ad finem, sed etiam de eventu finis, qui
+<lb ed="#L" n="93"/>est manifestatio et communicatio divinae bonitatis tali modo,
+<lb ed="#L" n="94"/>et ordo partium in universo qui ad talem 
+communicatio<lb ed="#L" break="no" n="95"/>nem et manifestationem ordinatur. - Alio modo, respectu
+<lb ed="#L" n="96"/>eorum quae secundario providentur, tanquam scilicet ad
+<lb ed="#L" n="97"/>perfectionem universi ordinata. Et tunc ad providentiam
+<lb ed="#L" n="98"/>pertinet removere omnia intrinseca impedimenta a natura:
+<lb ed="#L" n="99"/>ut scilicet res non habeat in natura sua aliquid per quod
+<lb ed="#L" n="100"/>sit improportionata fini proprio ad quem ordinatur. Non
+<lb ed="#L" n="101"/>autem ad ipsam pertinet removere omnia extrinseca 
+im<lb ed="#L" break="no" n="102"/>pedimenta ab omnibus huiusmodi: quia non omnia sic
+<lb ed="#L" n="103"/>sunt provisa ut omnino finem consequantur, sed aliqua sic
+<lb ed="#L" n="104"/>sunt provisa ut habeant ordinem et proportionem ad suum
+<lb ed="#L" n="105"/>finem, sed tamen possint a consecutione finis impediri.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Cum ergo dicitur quod Deus sua providentia gubernat
+<lb ed="#L" n="107"/>universa, datur intelligi quod apud ipsum est practica 
+con<lb ed="#L" break="no" n="108"/>ceptio et idea ordinis uniuscuiusque rei ad suum finem,
+<lb ed="#L" n="109"/>quod significatur nomine providentiae; et quod operatur ad
+<lb ed="#L" n="110"/>hoc ut omnia ad suos fines dirigantur, quod nomine 
+gu<lb ed="#L" break="no" n="111"/>bernationis exprimitur.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>IL. Probatur itaque conclusio primo sic. Omnia 
+ordi<lb ed="#L" break="no" n="113"/>nantur ad bonitatem divinam sicut ad finem. Ergo Deus, ad
+<lb ed="#L" n="114"/>quem principaliter illa bonitas pertinet, sicut substantialiter
+<lb ed="#L" n="115"/>habita et intellecta et amata, est omnium rerum gubernator.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Probatur consequentia. Quia quandocumque aliqua 
+ordi<lb ed="#L" break="no" n="117"/>nantur ad aliquem finem, omnia dispositioni illius 
+subia<lb ed="#L" break="no" n="118"/>cent ad quem principaliter pertinet ille finis. — Probatur
+<lb ed="#L" n="119"/>exemplo exercitus, et artium subordinatarum. Partes enim
+<lb ed="#L" n="120"/>exercitus, et eorum opera, ordinantur ad bonum ducis,
+<lb ed="#L" n="121"/>scilicet ad victoriam: et ideo ad ducem pertinet totum
+<lb ed="#L" n="122"/>exercitum gubernare. Similiter ars quae est de fine, 
+im<lb ed="#L" break="no" n="123"/>perat et dat leges arti quae est de iis quae sunt ad finem:
+<lb ed="#L" n="124"/>ut civilis militari, militaris equestri, et ars navis 
+guberna<lb ed="#L" break="no" n="125"/>toria navifactivae.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>2. Advertendum quod, cum dicitur bonitatem divinam
+<lb ed="#L" n="127"/>esse a Deo substantialiter habitam et intellectam et amatam,
+<pb ed="#L" n="181"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod possumus accipere ly substantialiter ut 
+determinati<lb ed="#L" break="no" n="2"/>vum omnium sequentium, Aliter enim a nobis intelligitur
+<lb ed="#L" n="3"/>et amatur bonitas divina, et aliter a Deo. A nobis enim
+<lb ed="#L" n="4"/>intelligitur et amatur, non tanquam existens de substantia
+<lb ed="#L" n="5"/>nostra, sed tanquam aliquid a nostra substantia extraneum.
+<lb ed="#L" n="6"/>Ideo non substantialiter intelligitur aut amatur, sed 
+acci<lb ed="#L" break="no" n="7"/>dentaliter, prout omne extraneum ab aliquo dicitur illi
+<lb ed="#L" n="8"/>accidentale. Non etiam actus quo eam intelligimus et 
+ama<lb ed="#L" break="no" n="9"/>mus, est nostra substantia, sed accidens. Ideo et hac quoque
+<lb ed="#L" n="10"/>ratione ipsam non intelligimus et amamus substantialiter.
+<lb ed="#L" n="11"/>A Deo autem intelligitur et amatur tanquam propria 
+sub<lb ed="#L" break="no" n="12"/>stantia, et tali actu qui est sua substantia: ita quod in ipso
+<lb ed="#L" n="13"/>intelligens, intellectum, et intellectio; similiter amans, quod
+<lb ed="#L" n="14"/>amatur, et ipse actus amandi; sunt unum substantialiter in
+<lb ed="#L" n="15"/>ipso. Et propterea bene dicitur quod est ab ipso et 
+in<lb ed="#L" break="no" n="16"/>tellecta et amata substantialiter. — Possumus etiam 
+acci<lb ed="#L" break="no" n="17"/>pere ut determinativum tantum ly habita: ita quod sit
+<lb ed="#L" n="18"/>sensus quod est habita tanquam eius substantia, et est
+<lb ed="#L" n="19"/>principaliter intellecta et principaliter amata.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>III. Secundo. Deus utitur omnibus dirigendo ea ad
+<lb ed="#L" n="21"/>finem. Ergo etc. — Probatur consequentia. Quia dirigere
+<lb ed="#L" n="22"/>ad finem est gubernare. — Antecedens vero probatur. Quia
+<lb ed="#L" n="23"/>omnia quae habent quocumque modo esse, sunt effectus
+<lb ed="#L" n="24"/>Dei facti propter finem qui est ipse. Quicumque. autem
+<lb ed="#L" n="25"/>facit aliquid propter finem, utitur illo ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>IV. Tertio. Deus est prinum movens non motum. Et
+<lb ed="#L" n="27"/>per intellectum, ut ex superioribus patet, est movens. Ergo
+<lb ed="#L" n="28"/>movet omnia per intellectum ad suos fines. Ergo 
+guber<lb ed="#L" break="no" n="29"/>nat omnia quae moventur in finem: sive moveantur 
+cor<lb ed="#L" break="no" n="30"/>poraliter; sive spiritualiter, sicut desiderans dicitur moveri
+<lb ed="#L" n="31"/>a desiderato.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Probatur [prima] consequentia. Quia primum movens
+<lb ed="#L" n="33"/>non minus, sed magis movet quam secundaria moventia:
+<lb ed="#L" n="34"/>cum sine eo non moveant alia. Et omnia quae moventur,
+<lb ed="#L" n="35"/>propter aliquem finem moveantur, ut supra est ostensum. —
+<lb ed="#L" n="36"/>Secunda vero consequentia probatur. Quia nihil aliud est
+<lb ed="#L" n="37"/>regere et gubernare per providentiam quam movere per
+<lb ed="#L" n="38"/>intellectum aliqua ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>2. Circa id quod addidit Sanctus Thomas conclusioni,
+<lb ed="#L" n="40"/>scilicet, sicut desiderans dicitur moveri a desiderato 
+spiri<lb ed="#L" break="no" n="41"/>tualiter, advertendum quod, licet motus proprie non dicatur
+<lb ed="#L" n="42"/>nisi in corporibus, transumptum tamen est nomen notus
+<lb ed="#L" n="43"/>ad significandum omnem operationem, etiam immanentem
+<lb ed="#L" n="44"/>in agente. Et sic dicitur aliquod operans tali operatione
+<lb ed="#L" n="45"/>moveri dum operatur: licet suus motus non sit actus
+<lb ed="#L" n="46"/>existentis in potentia, sed actus existentis in actu. Et hoc
+<lb ed="#L" n="47"/>dicitur moveri spiritualiter: quia videlicet ille motus non
+<lb ed="#L" n="48"/>est accidens corporale et extensum, sed spiritualis 
+ope<lb ed="#L" break="no" n="49"/>ratio. Cum ergo hic dicitur quod desiderans movetur a
+<lb ed="#L" n="50"/>desiderato spiritualiter, intelligitur quod movetur ab ipso,
+<lb ed="#L" n="51"/>non quemadmodum corpus movetur ab aliquo per 
+re<lb ed="#L" break="no" n="52"/>ceptionem alicuius formae partibiliter, sed secundum quod
+<lb ed="#L" n="53"/>operans dicitur moveri ad operationem ab eo quod est
+<lb ed="#L" n="54"/>suae operationis aliquo modo causa, Et quia desideratum
+<lb ed="#L" n="55"/>est causa desiderii per modum finis, ideo dicitur 
+deside<lb ed="#L" break="no" n="56"/>rans a desiderato spiritualiter moveri.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Cum ergo Deus sit primum movens non motum, non
+<lb ed="#L" n="58"/>solum in genere causae efficientis, inquantum omnis causa
+<lb ed="#L" n="59"/>efficiens in virtute eius operatur, sed etiam in genere causae
+<lb ed="#L" n="60"/>finalis, inquantum nihil habet rationem appetibilis nisi ex
+<lb ed="#L" n="61"/>participatione ipsius, qui est primum appetibile; idcirco
+<lb ed="#L" n="62"/>gubernat omnia quae moventur ad finem, sive corporaliter
+<lb ed="#L" n="63"/>moveantur sive spiritualiter; aut scilicet tanquam ab 
+effi<lb ed="#L" break="no" n="64"/>ciente, aut tanquam a fine.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>V. Quarto. Corpora naturalia moventur propter finem,
+<lb ed="#L" n="66"/>licet finem non cognoscant: sicut probatum est superius,
+<lb ed="#L" n="67"/>Scilicet cap. mr, ex hoc quod semper in eis accidit quod
+<lb ed="#L" n="68"/>melius est vel frequentius; et etiam quia non aliter fierent
+<lb ed="#L" n="69"/>per artem. Ergo tota operatio naturae ab aliqua cognitione
+<lb ed="#L" n="70"/>ordinatur. Ergo a Deo, mediate vel immediate. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Probatur prima consequentia, Quia impossibile est quod
+<lb ed="#L" n="72"/>aliqua non cognoscentia finem operentur propter finem,
+<lb ed="#L" n="73"/>et ordinate in ipsum perveniant, nisi ab aliquo 
+cogno<lb ed="#L" break="no" n="74"/>scente finem moveantur: ut patet de sagitta. — Secunda
+<lb ed="#L" n="75"/>quoque probatur. Quia omnis inferior ars et cognitio a
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>superiori principia accipit: ut in scientiis speculativis et
+<lb ed="#L" n="77"/>operativis apparet.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Ad evidentiam secundae probationis antecedentis, 
+con<lb ed="#L" break="no" n="79"/>siderandum quod, cum ars imitetur naturam quantum
+<lb ed="#L" n="80"/>potest, ut dicitur II Phys. ; si ars faceret ipsas res 
+na<lb ed="#L" break="no" n="81"/>turales sicut facit res artificiales ad earum similitudinem,
+<lb ed="#L" n="82"/>eas eodem modo faceret sicut natura facit. Manifestum est
+<lb ed="#L" n="83"/>autem quod ars faceret eas propter aliquem finem: quia
+<lb ed="#L" n="84"/>manifestum est quod agentis per intellectum est propter
+<lb ed="#L" n="85"/>aliquem finem operari. Ideo et naturam oportet in operibus
+<lb ed="#L" n="86"/>suis aliquem finem intendere. Et haec est ratio quam 
+inten<lb ed="#L" break="no" n="87"/>debat Sanctus Thomas per illa verba, et non aliter fierent
+<lb ed="#L" n="88"/>per artem.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Circa secundam consequentiam et eius probationem,
+<lb ed="#L" n="90"/>considerandum quod, sicut est ordo in causis moventibus
+<lb ed="#L" n="91"/>et finalibus, ita quod inferior causa non agit nisi in 
+vir<lb ed="#L" break="no" n="92"/>tute causae superioris; ita tam in cognitionibus practicis
+<lb ed="#L" n="93"/>quam speculativis est similis ordo, quod inferior scientia
+<lb ed="#L" n="94"/>non causat suarum conclusionum cognitionem nisi in 
+vir<lb ed="#L" break="no" n="95"/>tute superioris et nobilioris cognitionis, Et quia virtus
+<lb ed="#L" n="96"/>scientiae continetur in principiis, ideo oportet in illius 
+prin<lb ed="#L" break="no" n="97"/>cipiis salvari virtutem superioris scientiae: quod fit 
+in<lb ed="#L" break="no" n="98"/>quantum a superiori scientia illa accipit tanquam nota.
+<lb ed="#L" n="99"/>Patet enim in scientiis nostris quod omnes. scientiae 
+ac<lb ed="#L" break="no" n="100"/>cipiunt principia a Metaphysica, quae est superior, 
+inquan<lb ed="#L" break="no" n="101"/>tum in earum principiis salvatur virtus primorum | 
+prin<lb ed="#L" break="no" n="102"/>cipiorum, quae a Metaphysico consideratur. In practicis
+<lb ed="#L" n="103"/>etiam patet quod inferiores artes regulantur secundum
+<lb ed="#L" n="104"/>principia sibi tradita a superiori arte: sicut ars militaris a
+<lb ed="#L" n="105"/>civili accipit principia quibus regulatur; et ars factiva navis
+<lb ed="#L" n="106"/>accipit cognitionem qualiter oporteat esse navem, a. 
+gu<lb ed="#L" break="no" n="107"/>bernatoria arte. Et ideo, cum cognitio et ars divina 
+su<lb ed="#L" break="no" n="108"/>perior sit omni alia arte et cognitione, oportet ut ab ipsa
+<lb ed="#L" n="109"/>omnis alia ars, omnisque alia cognitio, reguletur et 
+diri<lb ed="#L" break="no" n="110"/>gatur. Et idcirco, si aliqua diriguntur in finem ab aliqua
+<lb ed="#L" n="111"/>inferiori cognitione, necesse est ut etiam a cognitione 
+di<lb ed="#L" break="no" n="112"/>vina talis ordo dependeat, inquantum illa cognitio inferior
+<lb ed="#L" n="113"/>a superiori cognitione dirigitur et regulatur.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>VI. Quinto. In universitate rerum sunt res distinctae et
+<lb ed="#L" n="115"/>contrariae in unum ordinem convenientes: cum quaedam
+<lb ed="#L" n="116"/>quorundam operationes excipiant, et quaedam a 
+quibus<lb ed="#L" break="no" n="117"/>dam iuventur, vel etiam operentur, idest, fiant et 
+produ<lb ed="#L" break="no" n="118"/>cantur: accipitur enim hoc loco operantur in passiva 
+signi<lb ed="#L" break="no" n="119"/>ficatione. Ergo etc. — Probatur consequentia. Quia ea quae
+<lb ed="#L" n="120"/>sunt secundum naturam distincta, non conveniunt in unum
+<lb ed="#L" n="121"/>ordinem nisi ab uno ordinante colligantur in unum.
+</p>
+            <p>
+               <lb ed="#L" n="122"/>2. Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="123"/>cum duplex sit ordo universi, ut dicitur XII Metaph. , 
+sci<lb ed="#L" break="no" n="124"/>licet ordo partium universi inter se et in toto, et ordo
+<lb ed="#L" n="125"/>universi totius ad Deum tanquam ad finem; proprie
+<lb ed="#L" n="126"/>loquendo, ut dicitur Verit, q. v, a. 1, ad 9 , dispositio
+<lb ed="#L" n="127"/>respicit ordinem partium ad invicem, quia disponi 
+di<lb ed="#L" break="no" n="128"/>cuntur aliqua secundum quod in diversis gradibus 
+collo<lb ed="#L" break="no" n="129"/>cantur a Deo; providentia vero respicit illum ordinem
+<lb ed="#L" n="130"/>qui est totius ad finem. Quod non solum circa 
+univer<lb ed="#L" break="no" n="131"/>sum intelligendum est, sed etiam circa unamquamque rem
+<lb ed="#L" n="132"/>particularem: quia dispositio respicit ordinem partium rei,
+<lb ed="#L" n="133"/>si habet partes, et ordinem quem habet in universo ad
+<lb ed="#L" n="134"/>alias partes; providentia vero respicit ordinem ipsius ad
+<lb ed="#L" n="135"/>suum finem, est enim idea sive exemplar ordinis 
+unius<lb ed="#L" break="no" n="136"/>cuiusque rei ad suum finem, in mente divina existens .,
+<lb ed="#L" n="137"/>Quod autem dicitur Prima, q. xxm, a. 1; et I Sent., d. xxxix,
+<lb ed="#L" n="138"/>q. n, a. 1, dispositionem respicere utrumque ordinem;
+<lb ed="#L" n="139"/>intelligendum est, non secundum proprietatem vocabuli,
+<lb ed="#L" n="140"/>sed secundum eius extensionem et translationem. Quia
+<lb ed="#L" n="141"/>enim ordo partium universi est propter ordinem ipsius ad
+<lb ed="#L" n="142"/>Deum, sic enim ordinantur ut ipsum universum consequi
+<lb ed="#L" n="143"/>possit divinae bonitatis similitudinem, et ut in ipso 
+divi<lb ed="#L" break="no" n="144"/>nae bonitatis abundantia manifestari possit: ideo nomen
+<lb ed="#L" n="145"/>dispositionis extensum est ad significandum etiam exemplar
+<lb ed="#L" n="146"/>sive ideam talis ordinis in finem. Patet ista expositio ex
+<lb ed="#L" n="147"/>ipsis Sancti Thomae verbis. Nam in Prima Parte, ut 
+osten<lb ed="#L" break="no" n="148"/>deret se loqui non secundum proprietatem vocabuli, sed
+<lb ed="#L" n="149"/>secundum quandam nominis extensionem, dixit, non 
+abso<lb ed="#L" break="no" n="150"/>lute quod dispositio sit talis, sed quod dispositio potest
+<pb ed="#L" n="182"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dici tam ratio ordinis rerum in finem, quam ratio 
+or<lb ed="#L" break="no" n="2"/>dinis partium in toto.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>3. Posset etiam dici quod ordo rerum in finem 
+dupli<lb ed="#L" break="no" n="4"/>citer accipi potest. Uno modo, ex parte rei ordinatae 
+tan<lb ed="#L" break="no" n="5"/>tum: quando scilicet res habet dispositionem per quam
+<lb ed="#L" n="6"/>est tali fini conveniens et proportionata; sicut ordo 
+me<lb ed="#L" break="no" n="7"/>dicinae ad finem, ex parte ipsius, est ut sit taliter 
+dispo<lb ed="#L" break="no" n="8"/>sita quod sit sufficiens talem morbum curare aut tales 
+hu<lb ed="#L" break="no" n="9"/>mores educere, et ad huiusmodi effectum proportionem
+<lb ed="#L" n="10"/>habet. — Alio modo potest accipi ordo ad finem ex parte
+<lb ed="#L" n="11"/>applicationis rei ad consecutionem sui finis: secundum
+<lb ed="#L" n="12"/>quod ipsa actualis applicatio ad consequendum finem 
+po<lb ed="#L" break="no" n="13"/>test dici ordo ad finem; sicut, cum quis sumit medicinam,
+<lb ed="#L" n="14"/>dicitur ipsam ad sanitatem actualiter ordinare, inquantum
+<lb ed="#L" n="15"/>eam propter consequendam sanitatem sumit.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Si accipiatur ordo ad finem primo modo, sic pertinet
+<lb ed="#L" n="17"/>ad dispositionem: quia ad ordinem partium inter se aut
+<lb ed="#L" n="18"/>in toto consequitur ordo et proportio ipsius ad finem;
+<lb ed="#L" n="19"/>non sunt enim partes convenienter ordinatae nisi ex ipsis
+<lb ed="#L" n="20"/>resultet in toto convenientia et proportio ad finem. Et sic
+<lb ed="#L" n="21"/>uterque ordo ad dispositionem pertinet. Dum enim Deus
+<lb ed="#L" n="22"/>similitudinem suae bonitatis statuit communicare creaturis,
+<lb ed="#L" n="23"/>excogitat in mente sua partes universi sic inter se 
+ordi<lb ed="#L" break="no" n="24"/>nandas esse, et ex ipsis sic ordinatis universum esse 
+fu<lb ed="#L" break="no" n="25"/>turum aptum fini quem intendit, scilicet ad 
+manifestatio<lb ed="#L" break="no" n="26"/>nem bonitatis suae, eo modo quo ipsam vult manifestari;
+<lb ed="#L" n="27"/>et secundum istum ordinem excogitatum proponit 
+crea<lb ed="#L" break="no" n="28"/>turas efficere. Et hoc est disponere apud seipsum universum.
+<lb ed="#L" n="29"/>Ad hunc sensum loquitur Sanctus Thomas in Prima Parte
+<lb ed="#L" n="30"/>et I Sententiarum.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Si autem accipiatur ordo ad finem secundo modo, sic
+<lb ed="#L" n="32"/>ad providentiam pertinet. Nam providentia est exemplar
+<lb ed="#L" n="33"/>et idea non solum proportionis, sed etiam directionis et
+<lb ed="#L" n="34"/>applicationis rerum ad finis assecutionem, et eorum quae
+<lb ed="#L" n="35"/>ad ipsum consequendum conferre possunt aut etiam 
+pos<lb ed="#L" break="no" n="36"/>sunt impedire, cum proposito perducendi eas ad finem
+<lb ed="#L" n="37"/>suo modo, scilicet fallibiliter aut infallibiliter; illis quae
+<lb ed="#L" n="38"/>ad hoc conferre possunt, in tali natura inductis; et quae
+<lb ed="#L" n="39"/>impedire possunt, a natura exclusis, ut I Sezt., loco 
+prae<lb ed="#L" break="no" n="40"/>allegato constat. Ad hunc sensum locutus est in Qu. de
+<lb ed="#L" n="41"/>Veritate: talis enim ordo ad finem non ad dispositionem,
+<lb ed="#L" n="42"/>sed ad providentiam pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>4. Si autem magis alicui placeat Capreoli expositio, in
+<lb ed="#L" n="44"/>Primo, d. xr, a. 2, dicentis quod correxit in Qu. de
+<lb ed="#L" n="45"/>Veritate id quod in I Sententiarum dixit, illam sequatur.
+<lb ed="#L" n="46"/>Sed meminerit quod dicitur I Sententiarum, in Prima
+<lb ed="#L" n="47"/>etiam Parte dici; Capreolum autem saepenumero, ad alia
+<lb ed="#L" n="48"/>proposita, dixisse tenendum esse quod in Summa tenuit
+<lb ed="#L" n="49"/>Sanctus Thomas, quoniam illud sit eius ultimum 
+testa<lb ed="#L" break="no" n="50"/>mentum. Huic enim non concordat si dicamus ea quae
+<lb ed="#L" n="51"/>in Prima Parte dixit, esse in Qu. de Veritate retractata.
+<lb ed="#L" n="52"/>Quare melius erit utrumque dictum salvare, aut aliquo
+<lb ed="#L" n="53"/>modorum dictorum, aut alio aliquo. meliori, quam dicere
+<lb ed="#L" n="54"/>unum per aliud retractatum.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>5. Sed licet dispositio divina a providentia secundum
+<lb ed="#L" n="56"/>rationem distinguatur, quia tamen dispositio providentiam
+<lb ed="#L" n="57"/>concomitatur et ordinatur ad ipsam, ideo saepenumero
+<lb ed="#L" n="58"/>actum dispositionis Sanctus Thomas attribuit providentiae,
+<lb ed="#L" n="59"/>et ex ipso providentiam divinam concludit. Quod sane in
+<lb ed="#L" n="60"/>hac ratione facit. Nam ex eo quod res distinctas in unum
+<lb ed="#L" n="61"/>ordinem universi colligit, concludit ipsum gubernatorem
+<lb ed="#L" n="62"/>et ordinatorem omnium esse, indifferenter utendo nomine
+<lb ed="#L" n="63"/>gubernatoris et ordinatoris diversarum naturarum in unum.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>VII. Sexto. Eorum quae circa caelestium corporum
+<lb ed="#L" n="65"/>motus apparent, assignari non potest ratio ex necessitate
+<lb ed="#L" n="66"/>naturae: cum quaedam ipsorum plures habeant 
+quibus<lb ed="#L" break="no" n="67"/>dam, et omnino difformes. Ergo oportet illorum motuum
+<lb ed="#L" n="68"/>ordinationem esse sub aliqua providentia: et per 
+conse<lb ed="#L" break="no" n="69"/>quens omnium inferiorum motuum et operationum, quae
+<lb ed="#L" n="70"/>per illos disponuntur. ,
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="72"/>cum natura determinetur ad unum, ubi in iis quae rei
+<lb ed="#L" n="73"/>alicui conveniunt, videtur aliqua multiplicitas et variatio,
+<lb ed="#L" n="74"/>oportet illud non naturae, sed alicui alteri principio 
+attri<lb ed="#L" break="no" n="75"/>buere. Ideo, cum motus caelorum varii sint; et unius
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>caeli sint plures motus etiam difformes, ut motus ab
+<lb ed="#L" n="77"/>oriente et motus ab occidente, et motus trepidationis .
+<lb ed="#L" n="78"/>octavae sphaerae; ipsos in naturam referre non oportet,
+<lb ed="#L" n="79"/>quasi ideo caelum illis motibus moveatur quia natura ad
+<lb ed="#L" n="80"/>illos motus impellat; sed in aliquod principium quod illos
+<lb ed="#L" n="81"/>caelestes motus ad aliquem finem dirigit et ordinat. Et
+<lb ed="#L" n="82"/>secundum hoc procedit haec ratio.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Advertendum tamen quod non intendit Sanctus Thomas
+<lb ed="#L" n="84"/>motus caelorum naturales nullo modo esse: sunt enim
+<lb ed="#L" n="85"/>naturales ex parte materiae, inquantum caelum habet in
+<lb ed="#L" n="86"/>sua natura aptitudinem ut talibus motibus ab intellectu
+<lb ed="#L" n="87"/>moveatur, ut inquit II. PAyzs. , et in plerisque aliis locis.
+<lb ed="#L" n="88"/>Sed vult ipsos non esse naturales ex parte formae et ex
+<lb ed="#L" n="89"/>parte principii activi, ut possit dici quod ex necessitate
+<lb ed="#L" n="90"/>naturae quae est forma, proveniunt, et non ab agente
+<lb ed="#L" n="91"/>per intellectum et voluntario sunt ordinati. 5
+</p>
+            <p>
+               <lb ed="#L" n="92"/>VIII. Septimo. Inveniuntur aliqua tanto perfectius 
+ordi<lb ed="#L" break="no" n="93"/>nata quanto sunt Deo magis propinqua: ut patet in 
+cor<lb ed="#L" break="no" n="94"/>poribus caelestibus, quae nunquam deficiunt ab eo quod
+<lb ed="#L" n="95"/>est secundum cursum naturae, sicut inferiora corpora; et
+<lb ed="#L" n="96"/>in substantiis intellectualibus, quae neque etiam mutabiles
+<lb ed="#L" n="97"/>sunt. Ergo Deus est causa totius ordinis rerum. Ergo etc.
+<lb ed="#L" n="98"/>— Probatur prima consequentia. Quia si aliquid tanto 
+par<lb ed="#L" break="no" n="99"/>ticipatur perfectius ab aliquibus quanto alicui rei magis
+<lb ed="#L" n="100"/>appropinquat, signum est quod illa res sit causa eius quod
+<lb ed="#L" n="101"/>diversimode participatur. Declaratur in calidis ex 
+appro<lb ed="#L" break="no" n="102"/>pinquatione ad ignem. Hoc autem provenit quia, quanto
+<lb ed="#L" n="103"/>aliquid propinquius est causae, tanto plus participat de
+<lb ed="#L" n="104"/>effectu .ipsius. i
+</p>
+            <p>
+               <lb ed="#L" n="105"/>IX. Octavo. Id quod est maxime bonum in rebus creatis,
+<lb ed="#L" n="106"/>est bonum ordinis universi, quod est maxime perfectum:
+<lb ed="#L" n="107"/>secundum Philosophum, XII Metaph.; et etiam ut in
+<lb ed="#L" n="108"/>Gen. 1 datur intelligi. Ergo bonum ordinis universi est
+<lb ed="#L" n="109"/>id quod est praecipue volitum et intentum a Deo. Ergo
+<lb ed="#L" n="110"/>Deus suo intellectu et voluntate omnia gubernat. — 
+Pro<lb ed="#L" break="no" n="111"/>batur prima consequentia. Quia intellectus et voluntatis
+<lb ed="#L" n="112"/>divinae, per quae Deus operatur, ut in superioribus patet,
+<lb ed="#L" n="113"/>finis ultimus est bonitas eius, ut scilicet eam rebus 
+com<lb ed="#L" break="no" n="114"/>municaret. Res autem participant divinam bonitatem, per
+<lb ed="#L" n="115"/>modum similitudinis, inquantum sunt bonae. — Secunda
+<lb ed="#L" n="116"/>vero consequentia probatur. Quia nihil aliud est gubernare
+<lb ed="#L" n="117"/>aliquam rem quam ei ordinem imponere.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>2. Circa probationem primae consequentiae, adverte
+<lb ed="#L" n="119"/>quod ex istis duabus propositionibus, scilicet, Bonitas
+<lb ed="#L" n="120"/>Dei est finis ut communicetur, et, Res participant divinam
+<lb ed="#L" n="121"/>bonitatem, per modum similitudinis, inquantum sunt bonae,
+<lb ed="#L" n="122"/>relinquit Sanctus Thomas tanquam manifeste sequens quod
+<lb ed="#L" n="123"/>quanto res sunt magis bonae, tanto sufitt magis volitae
+<lb ed="#L" n="124"/>et magis intentae, quia bonitati divinae magis assimilantur.
+<lb ed="#L" n="125"/>Ex quo patet quod, si ordo universi.est maxime bonum
+<lb ed="#L" n="126"/>in rebus creatis, est etiam maxime volitus et intentus.
+<lb ed="#L" n="127"/>Quae erat consequentia probanda.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>3. Circa hanc propositionem, Intellectus et voluntatis
+<lb ed="#L" n="129"/>divinae non potest esse alius finis. ultimus nisi bonitas |
+<lb ed="#L" n="130"/>eius, ut scilicet eam rebus communicaret, advertendum
+<lb ed="#L" n="131"/>primo, ut in ante habitis de mente Sancti Thomae 
+Po<lb ed="#L" break="no" n="132"/>tentia, q. rnt, a, 15, ad 14, dictum est, quod hoc non sic
+<lb ed="#L" n="133"/>intelligitur quasi ipsa divinae bonitatis. communicatio sit
+<lb ed="#L" n="134"/>ultimus divinae voluntatis finis, tunc enim ipsa similitudo
+<lb ed="#L" n="135"/>communicata, et per consequens aliquid creatum esset
+<lb ed="#L" n="136"/>finis Dei: sed quia sua bonitas est suus finis, ex cuius
+<lb ed="#L" n="137"/>amore eam vult communicare.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>Advertendum secundo, quod idcirco Sanctus "Thomas
+<lb ed="#L" n="139"/>de ultimo fine mentionem facit, quia, cum per ultimum
+<lb ed="#L" n="140"/>finem intelligat finem operantis, quem scilicet per suum
+<lb ed="#L" n="141"/>opus principaliter intendit, relinquere vult non esse 
+incon<lb ed="#L" break="no" n="142"/>veniens Deum agere ad alium finem praeter suam 
+boni<lb ed="#L" break="no" n="143"/>tatem, qui scilicet non sit ultimus ipsius finis, sed sit finis
+<lb ed="#L" n="144"/>operis, ad quem videlicet res creata perducitur: puta 
+as<lb ed="#L" break="no" n="145"/>similatio ad Deum, aut quodcumque aliud ad quod res
+<lb ed="#L" n="146"/>creata ordinatur.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>X. Nono: et est confirmatio praecedentis rationis. Bonum
+<lb ed="#L" n="148"/>ordinis universi est propinquissimum in rebus creatis 
+bo<lb ed="#L" break="no" n="149"/>nitati divinae, quae est finis divinae voluntatis. Ergo hunc
+<lb ed="#L" n="150"/>ordinem maxime curat Deus, Ergo etc. — Probatur prima
+<pb ed="#L" n="183"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consequentia, Quia unumquodque intendens aliquem finem,
+<lb ed="#L" n="2"/>magis curat de eo quod est propinquius fini ultimo: cum
+<lb ed="#L" n="3"/>hoc sit etiam finis aliorum. — Antecedens vero probatur,
+<lb ed="#L" n="4"/>Quia ad illud bonum ordinatur: ut patet in partibus, quae
+<lb ed="#L" n="5"/>ordinantur ad esse totius.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>XI. Decimo, ex eodem fundamento arguitur. Ordo rerum
+<lb ed="#L" n="7"/>creatarum secundum distinctionem naturarum et graduum
+<lb ed="#L" n="8"/>ex divina sapientia procedit. Ergo et ordo operationis,
+<lb ed="#L" n="9"/>Ergo etc. — Probatur prima consequentia. Quia per 
+ope<lb ed="#L" break="no" n="10"/>rationem res magis appropinquant ad ultimum finem, eo
+<lb ed="#L" n="11"/>quod per ipsam res consequatur suam ultimam 
+perfectio<lb ed="#L" break="no" n="12"/>nem: cum ultimus finis et perfectio rei sit vel operatio,
+<lb ed="#L" n="13"/>vel operationis terminus aut effectus, sicut eius perfectio
+<lb ed="#L" n="14"/>prima est forma, ut dicitur II. de Anima, text. 5. — 
+Se<lb ed="#L" break="no" n="15"/>cunda etiam probatur. Quia ordinare actiones aliquarum
+<lb ed="#L" n="16"/>rerum ad finem est ipsas gubernare.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>2. Circa istam propositionem, Ultimus finis rei et 
+per<lb ed="#L" break="no" n="18"/>fectio est vel operatio, vel operationis terminus aut effectus,
+<lb ed="#L" n="19"/>considerandum est, ut etiam in praecedentibus . est 
+osten<lb ed="#L" break="no" n="20"/>sum, quod operatio aut effectus operationis dicitur ultimus
+<lb ed="#L" n="21"/>finis et perfectio rei, non secundum quod perfectio 
+no<lb ed="#L" break="no" n="22"/>minat actum existentem in perfectibili, si universaliter 
+lo<lb ed="#L" break="no" n="23"/>quamur, cum non omnis operatio maneat in operante,
+<lb ed="#L" n="24"/>accipiendo operationem pro quocumque actu secundo:
+<lb ed="#L" n="25"/>sed secundum quod nominat ultimam actualitatem rei.
+<lb ed="#L" n="26"/>Res enim illi operationi suo modo coniuncta, vel effectui,
+<lb ed="#L" n="27"/>non remanet in potentia ad ulteriorem actum, ita quod
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="28"/>operatio vel eius effectus rem in potentia constituat ad
+<lb ed="#L" n="29"/>ulteriorem actum, sicut forma constituit rem cuius est
+<lb ed="#L" n="30"/>forma, in actu quidem primo, sed in potentia ad actum
+<lb ed="#L" n="31"/>secundum. Quando enim ex operatione nihil relinquitur,
+<lb ed="#L" n="32"/>ut in operationibus immanentibus invenitur; aut etiam in
+<lb ed="#L" n="33"/>aliquibus operationibus transeuntibus; tunc ipsa operatio
+<lb ed="#L" n="34"/>est ultimus finis et ultima rei perfectio, quia est ultimum
+<lb ed="#L" n="35"/>ad quod res ordinabatur; et ipsa res unita tali operationi,
+<lb ed="#L" n="36"/>sive subiective sive secundum virtutem.qua ab ipsa egreditur
+<lb ed="#L" n="37"/>operatio, habet ultimum suum complementum, quod est
+<lb ed="#L" n="38"/>uniri quomodocumque actualiter suae operationi. Quando
+<lb ed="#L" n="39"/>autem aliquid per ipsam operationem efficitur, ut in 
+do<lb ed="#L" break="no" n="40"/>mificatione accidit, tuncterminus sive effectus talis 
+opera<lb ed="#L" break="no" n="41"/>tionis est ultimus finis et ultima rei perfectio: quia ultimum
+<lb ed="#L" n="42"/>ad quod est in potentia, est effectus; et per quandam
+<lb ed="#L" n="43"/>continuationem suae virtutis cum effectu constituitur 
+ulti<lb ed="#L" break="no" n="44"/>mate in actu; ita quod non constituitur ex ipso effectu
+<lb ed="#L" n="45"/>res operans in potentia ad ulteriorem actum, sed est eius
+<lb ed="#L" n="46"/>potentia ultimate completa. :
+</p>
+            <p>
+               <lb ed="#L" n="47"/>CONFIRMATUR conclusio auctoritate Psalmi, ubi Dens
+<lb ed="#L" n="48"/>vocatur Dominus et Rex: regis enim et domini est suo
+<lb ed="#L" n="49"/>imperio regere et gubernare subditos. — Confirmatur etiam
+<lb ed="#L" n="50"/>quia divino praecepto rerum cursus ascribitur /ob. 1x, et
+<lb ed="#L" n="51"/>in Psalmo. ,
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Per hoc excluditur error antiquorum Naturalium, 
+di<lb ed="#L" break="no" n="53"/>centium omnia ex necessitate materiae, et consequenter
+<lb ed="#L" n="54"/>a casu, et non ex ordine providentiae, provenire.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

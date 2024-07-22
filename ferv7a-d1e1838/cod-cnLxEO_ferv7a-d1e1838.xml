@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 16</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 16</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="39"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1838"><!-- ferv7a-l3c16 -->
+            <head xml:id="ferv7a-d1e1838-Hd1e101">Capitulum 16</head>
+            <p xml:id="ferv7a-d1e1838-d1e103">
+               <pb ed="#L" n="39"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=39"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e112">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>POSTQUAM ostendit Sanctus Thomas quod omnia propter
+<lb ed="#L" n="3"/>aliquid agunt, ostendit quod Cuiuslibet rei finis sil
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e121">
+               <lb ed="#L" n="4"/>I. Et arguit primo sic. Omne agens agit propter bonum,
+<lb ed="#L" n="5"/>ut probatum est. Ergo ipsum bonum est' finis. - Probatur
+<lb ed="#L" n="6"/>consequentia. Quia omne agens ordinatur in finem per
+<lb ed="#L" n="7"/>suam actionem: vel enim ipsa operatio est finis; vel finis
+<lb ed="#L" n="8"/>actionis est finis agentis. Quod est eius bonum.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e134">
+               <lb ed="#L" n="9"/>Advertendum quod, quando agens non intendit aliquid
+<lb ed="#L" n="10"/>aliud praeter ipsam operationem, sicut in speculatione 
+ac<lb ed="#L" break="no" n="11"/>cidit, ipsa operatio est finis. Quando autem agens intendit
+<lb ed="#L" n="12"/>aliquid aliud praeter ipsam operationem, sicut cum 
+do<lb ed="#L" break="no" n="13"/>mificando aliquis intendit domum vel habitationem ; tunc
+<lb ed="#L" n="14"/>illud quod intenditur ab agente, est finis et agentis et
+<lb ed="#L" n="15"/>actionis; agentis quidem sicut intendentis ad illud per
+<lb ed="#L" n="16"/>suam operationem pervenire, actionis vero tanquam eius
+<lb ed="#L" n="17"/>quod ad ipsum ordinatur. Propter hoc inquit Sanctus
+<lb ed="#L" n="18"/>Thomas quod aliquando actionis finis est finis agentis.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e159">
+               <lb ed="#L" n="19"/>2. Sed occurrit dubium. Quia aliquando agens intendit
+<lb ed="#L" n="20"/>bonum alterius per suam actionem: sicut cum quis facit
+<lb ed="#L" n="21"/>domum ut aliquis alius eam inhabitet. Ergo falsum est
+<lb ed="#L" n="22"/>quod, universaliter loquendo, finis agentis sit eius bonum.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e170">
+               <lb ed="#L" n="23"/>Respondetur dupliciter. Primo, quod finis agentis, licet
+<lb ed="#L" n="24"/>quandoque sit aliquid extrinsecum, tamen est eius bonum
+<lb ed="#L" n="25"/>et perfectio inquantum est agens, ut dicitur <ref xml:id="ferv7a-d1e1838-Rd1e178">II Sent.
+<lb ed="#L" n="26"/>d. xxxvit, art. ult.</ref>, <quote xml:id="ferv7a-d1e1838-Qd1e183">eo quod moveat ipsum ad operandum</quote>,
+<lb ed="#L" n="27"/>et per consequens ad actum ipsum reducat; ac etiam ex
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e189">
+               <lb ed="#L" n="28"/>ipso fine aliquam perfectionem habeat operatio.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e194">
+               <lb ed="#L" n="29"/>Respondetur secundo, ex doctrina <ref xml:id="ferv7a-d1e1838-Rd1e198">Sancti Thomae Prima,
+<lb ed="#L" n="30"/>q. cur, a. 2, ad 1 et 2</ref>, quod bonum alicuius dicitur 
+ali<lb ed="#L" break="no" n="31"/>quando quo efficitur et actuatur ut forma, sicut sanitas
+<lb ed="#L" n="32"/>est bonum hominis sani; aliquando tanquam per ipsum
+<lb ed="#L" n="33"/>operatum, sicut domus est bonum domificatoris, aut 
+ali<lb ed="#L" break="no" n="34"/>quid huiusmodi; aliquando sicut habitum vel possessum,
+<lb ed="#L" n="35"/>ut ager emptus est bonum ementis; aliquando sicut 
+re<lb ed="#L" break="no" n="36"/>praesentatum per ipsum, sicut Hercules est bonum 
+ima<lb ed="#L" break="no" n="37"/>ginis quae fit ad ipsum repraesentandum. Et sic constat
+<lb ed="#L" n="38"/>domum aut habitationem esse aliquo modo bonum 
+domi<lb ed="#L" break="no" n="39"/>ficatoris, licet sit quid extrinsecum ab ipso. Unde negatur
+<lb ed="#L" n="40"/>consequentia. Stant enim simul quod finis agentis sit 
+ali<lb ed="#L" break="no" n="41"/>cuius alterius bonum uno modo, sit etiam alio modo agentis
+<lb ed="#L" n="42"/>bonum.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e230">
+               <lb ed="#L" n="43"/>II. Secundo arguitur. Appetitus cuiuslibet rei terminatur
+<lb ed="#L" n="44"/>ad bonum: ut patet ex boni definitione. Ergo etc. - 
+Pro<lb ed="#L" break="no" n="45"/>batur consequentia. Quia finis rei est in quod terminatur
+<lb ed="#L" n="46"/>eius appetitus.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e241">
+               <lb ed="#L" n="47"/>Advertendum circa antecedens et probationem 
+conse<lb ed="#L" break="no" n="48"/>quentiae, quod loquitur Sanctus Thomas de terminatione
+<lb ed="#L" n="49"/>primo et per se appetitus. Ut enim dicitur Prima, q. xx,
+<lb ed="#L" n="50"/>a. 1, bonum principalius et per se est obiectum 
+volun<lb ed="#L" break="no" n="51"/>tatis, malum autem secundario et per aliud, inquantum
+<lb ed="#L" n="52"/>scilicet opponitur bono: non enim appetitus fugit aliquod
+<lb ed="#L" n="53"/>malum misi quia contrariatur bono in quod inclinatur per
+<lb ed="#L" n="54"/>se. Et sic appetitus rei terminatur ad bonum primo et
+<lb ed="#L" n="55"/>per se, licet secundario et per aliud terminetur ad malum,
+<lb ed="#L" n="56"/>fugiendo ipsum. —- Similiter intelligendum est quod 
+assu<lb ed="#L" break="no" n="57"/>mitur ad probationem consequentiae. Finis enim rei est
+<lb ed="#L" n="58"/>in quod primo et per se terminatur appetitus.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e271">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="59"/>Tertio. Finis uniuscuiusque est eius perfectio. Ergo
+<lb ed="#L" n="60"/>bonum. — Probatur antecedens. Quia unumquodque, si
+<lb ed="#L" n="61"/>caret perfectione propria, movetur ad ipsam, quantum in
+<lb ed="#L" n="62"/>se est, idest, nisi impediatur: si autem ipsam habet, in ipsa
+<lb ed="#L" n="63"/>quiescit. Haec autem est conditio finis.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e287">
+               <lb ed="#L" n="64"/>Quarto. Ea quae cognoscunt finem, semper ordinantur
+<lb ed="#L" n="65"/>in bonum sicut in finem: quia voluntas non fertur in 
+ali<lb ed="#L" break="no" n="66"/>quid nisi sub ratione boni, quod est eius obiectum. Ergo
+<lb ed="#L" n="67"/>etiam ea quae finem non cognoscunt. Et sic omnium finis
+<lb ed="#L" n="68"/>est bonum. - Probatur consequentia. Quia eodem modo
+<lb ed="#L" n="69"/>ordinantur in finem ea quae cognoscunt finem, et quae finem
+<lb ed="#L" n="70"/>non cognoscunt, licet ad illum diversimode moveantur.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e305">
+               <lb ed="#L" n="71"/>III. Circa ea quae in hac ratione dicuntur, duo 
+occur<lb ed="#L" break="no" n="72"/>runt dubia. Primum est circa antecedentis probationem.
+<lb ed="#L" n="73"/>Nam videtur insuffuciens probatio. Probandum enim erat
+<lb ed="#L" n="74"/>universaliter quod cognoscentia finem ordinantur in bonum.
+<lb ed="#L" n="75"/>Et non probatur nisi de voluntate: cum tamen etiam
+<lb ed="#L" n="76"/>bruta, quae non habent voluntatem, finem cognoscant.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e321">
+               <lb ed="#L" n="77"/>Secundum est circa probationem consequentiae. 
+Viden<lb ed="#L" break="no" n="78"/>tur enim repugnare quod eodem modo omnia ordinentur
+<lb ed="#L" n="79"/>ad finem, et tamen diversimode ad illum moveantur : nam
+<lb ed="#L" n="80"/>si diversimode moventur ad finem, sequitur quod non sint
+<lb ed="#L" n="81"/>eodem modo ad finem ordinata.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e334">
+               <lb ed="#L" n="82"/>2. Ad primum respondetur quod per ea quae 
+cogno<lb ed="#L" break="no" n="83"/>scunt finem intelligit Sanctus Thomas ea quae finem 
+co<lb ed="#L" break="no" n="84"/>gnoscunt sub ratione finis, quia non tantum cognoscunt
+<lb ed="#L" n="85"/>id quod est finis, sed etiam ipsam finis rationem: haec
+<lb ed="#L" n="86"/>enim sunt quae proprie dicuntur per se moveri ad finem.
+<lb ed="#L" n="87"/>Talia autem sunt ea tantum quae habent intellectum, ut
+<lb ed="#L" n="88"/>superius  est ostensum, non autem bruta. Et quia voluntas
+<lb ed="#L" n="89"/>consequitur intellectum, ideo, dum probatur quod 
+volun<lb ed="#L" break="no" n="90"/>tas ordinatur in bonum, probatur universaliter quod 
+co<lb ed="#L" break="no" n="91"/>gnoscentia finem ordinantur in bonum,
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e358">
+               <lb ed="#L" n="92"/>3. Ad secundum dicitur quod ly eodem modo non 
+im<lb ed="#L" break="no" n="93"/>portat similitudinem ordinis ad finem, sed est expressivum
+<lb ed="#L" n="94"/>veritatis. Est enim sensus quod ita verum est carentia 
+co<lb ed="#L" break="no" n="95"/>gnitione ordinari et inclinari in finem, sicut verum est hoc
+<lb ed="#L" n="96"/>de habentibus cognitionem finis. Et est simile sicut si 
+di<lb ed="#L" break="no" n="97"/>ceremus de Sorte habente albedinem, posito quod etiam
+<lb ed="#L" n="98"/>Plato sit albus, sed intensiorem habeat albedinem: Eodem
+<lb ed="#L" n="99"/>modo Sortes est albus et Plato, idest, Ita verum est 
+Sor<lb ed="#L" break="no" n="100"/>tem esse album, sicut verum est de Platone. Obiectio
+<lb ed="#L" n="101"/>autem procedit acsi similitudinem importaret.
+</p>
+            <p xml:id="ferv7a-d1e1838-d1e383">
+               <lb ed="#L" n="102"/>Potest secundo responderi quod importat similitudinem
+<lb ed="#L" n="103"/>quantum ad id a quo provenit ordo et inclinatio. Sive
+<lb ed="#L" n="104"/>enim aliqua cognoscant finem, ut intellectualia; sive non
+<lb ed="#L" n="105"/>cognoscant, ut naturaliter mota; inclinatio et ordo 
+sequi<lb ed="#L" break="no" n="106"/>tur cognitionem. Appetitus enim finis in habentibus 
+co<lb ed="#L" break="no" n="107"/>gnitionem, sequitur cognitionem appetentis: appetitus 
+au<lb ed="#L" break="no" n="108"/>tem non habentis cognitionem sequitur cognitionem, non
+<lb ed="#L" n="109"/>quidem appetentis, sed alicuius alterius ordinantis ipsum
+<lb ed="#L" n="110"/>ad finem. Unde II Physicorum  dicitur quod opus naturae
+<lb ed="#L" n="111"/>est opus intelligentiae. Et ideo optime arguitur quod, si finis
+<lb ed="#L" n="112"/>unius est bonum, etiam et alterius finis est bonum: cum
+<lb ed="#L" n="113"/>utrobique talis ordinatio a cognitione proveniat. Sed licet in
+<lb ed="#L" n="114"/>hoc sit similitudo, non oportet tamen esse similitudinem
+<lb ed="#L" n="115"/>quoad motum ad finem, ut, si unum per se moveatur ad finem,
+<lb ed="#L" n="116"/>aliud etiam per se moveatur. Unde nulla est contradictio.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

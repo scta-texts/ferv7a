@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 123</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 123</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="383"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2712"><!-- ferv7a-l3c123 -->
+            <head>Capitulum 123</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="37" type="fixed=383"/>Commentaria Feerrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="38"/>POSTQUAM ostendit Sanctus Thomas quod matrimonium
+<lb ed="#L" n="39"/>est homini naturale, vult de matrimonii conditionibus
+<lb ed="#L" n="40"/>determinare . Et ponit quatuor conditiones in istis quatuor
+<lb ed="#L" n="41"/>capitulis.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>I. Prima est, quod matrimonium debet esse indivisibile
+<lb ed="#L" n="43"/>et indissolubile: sive, debet per totam vitam durare, quod
+<lb ed="#L" n="44"/>idem est. Circa hanc autem declarandam duo facit: primo,
+<lb ed="#L" n="45"/>probat quod secundum naturae inclinationem | 
+matrimo<lb ed="#L" break="no" n="46"/>nium debet esse indissolubile; secundo, probat quod talis
+<lb ed="#L" n="47"/>indissolubilitas convenienter humanis et divinis legibus est
+<lb ed="#L" n="48"/>instituta .
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Quantum ad primum, arguit primo sic. Naturale est
+<lb ed="#L" n="50"/>ut sollicitudo patris ad filium maneat usque ad finem vitae
+<lb ed="#L" n="51"/>suae. Ergo naturalis ordo requirit quod usque ad finem
+<lb ed="#L" n="52"/>vitae in humana specie pater et mater simul commaneant.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Probatur consequentia. Quia etiam in avibus sollicitudo
+<lb ed="#L" n="54"/>patris de filio causat commanentiam maris et feminae.
+<lb ed="#L" n="55"/>— Antecedens vero probatur. Quia, cum naturalis vita,
+<lb ed="#L" n="56"/>quae in patre perpetuo conservari non potest, quasi qua- |
+<lb ed="#L" n="57"/>dam successione conservetur in filio, conveniens est 
+secun<lb ed="#L" break="no" n="58"/>dum naturam ut in iis quae sunt patris, scilicet 
+possessio<lb ed="#L" break="no" n="59"/>nibus ad conservationem vitae naturalis ordinatis, succedat
+<lb ed="#L" n="60"/>et filius.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Advertendum est quod, quia educatio prolis, et eius
+<lb ed="#L" n="62"/>gubernatio, non fit convenienter a patre nisi etiam opus
+<lb ed="#L" n="63"/>matris concurrat, cum proles commune illorum bonum
+<lb ed="#L" n="64"/>sit, et utroque indigeat; quandiu durat sollicitudo patris
+<lb ed="#L" n="65"/>de filio, ex natura inclinatur pater ad commanendum matri,
+<lb ed="#L" n="66"/>sine qua non esset conveniens educatio filii. Et ideo, si
+<lb ed="#L" n="67"/>secundum naturam sollicitudo patris de filio est per totam
+<lb ed="#L" n="68"/>patris vitam, in qua pater filio thesaurizat , est secundum
+<lb ed="#L" n="69"/>naturae inclinationem ut etiam per totum tempus vitae
+<lb ed="#L" n="70"/>suae feminae commaneat. Et hoc est huius rationis 
+fun<lb ed="#L" break="no" n="71"/>damentum.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>II. Secundo. Est contra naturalem aequitatem praedictae
+<lb ed="#L" n="73"/>Societatis dissolutio. Ergo etc. — Probatur antecedens.
+<lb ed="#L" n="74"/>Femina indiget mare non solum propter generationem, 
+<lb ed="#L" n="75"/>sed etiam propter gubernationem: quia mas est ratione
+<lb ed="#L" n="76"/>perfectior et virtute fortior. Mulier vero ad viri 
+societa<lb ed="#L" break="no" n="77"/>tem assumitur propter necessitatem generationis. Sed, 
+ces<lb ed="#L" break="no" n="78"/>sante fecunditate et decore mulieris, impeditur ne ab alio
+<lb ed="#L" n="79"/>assumatur. Ergo damnum inferretur mulieri, contra 
+natu<lb ed="#L" break="no" n="80"/>ralem aequitatem, si dimitteretur a viro.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="81"/>Advertendum est quod naturalis aequitas habet ut ex
+<lb ed="#L" n="82"/>beneficio benefactor gratiam et commodum ab eo cui fit
+<lb ed="#L" n="83"/>beneficium reportet, non autem damnum. Ideo contra na:
+<lb ed="#L" n="84"/>turalem aequitatem est ut benefactori. damnum ex suo
+<lb ed="#L" n="85"/>beneficio inferatur. Si autem mulier, post suam 
+fecundi<lb ed="#L" break="no" n="86"/>tatem et decorem, quam in viri beneficium dedit praebendo
+<lb ed="#L" n="87"/>| se illi ad. generationem sociam, dimitteretur a viro, illi ex
+<lb ed="#L" n="88"/>suo beneficio damnum  inferretur: quia, indigens viro
+<lb ed="#L" n="89"/>tanquam gubernatore, post fecunditatis et decoris tempus,
+<lb ed="#L" n="90"/>non inveniret a quo assumeretur, et a quo gubernaretur.
+<lb ed="#L" n="91"/>Ideo talis dimissio contra naturalem aequitatem esset. Et
+<lb ed="#L" n="92"/>in hoc ratio consistit.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Tertio. Contra naturalem ordinem esset si mulier 
+vi<lb ed="#L" break="no" n="94"/>rum deserere posset. Ergo, si vir mulierem posset 
+dese<lb ed="#L" break="no" n="95"/>rere, non esset aequa societas viri ad mulierem, sed servitus
+<lb ed="#L" n="96"/>quaedam ex parte mulieris. — Antecedens probatur. Quia
+<lb ed="#L" n="97"/>non est in potestate eius qui alteri subditur, ut ab eius
+<lb ed="#L" n="98"/>regimine discedat. Mulier autem est paturaliter viro subiecta
+<lb ed="#L" n="99"/>tanquam gubernatori.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>III. Quarto. Quae certitudinem prolis impediunt, sunt
+<lb ed="#L" n="101"/>contra naturalem instinctum humanae speciei, Sed si vir
+<lb ed="#L" n="102"/>mulierem posset dimittere et mulier virum, et alteri 
+co<lb ed="#L" break="no" n="103"/>pulari, impediretur certitudo prolis. Ergo etc. — Probatur
+<lb ed="#L" n="104"/>maior. Quia, cum filius diuturna patris gubernatione 
+in<lb ed="#L" break="no" n="105"/>digeat, inest naturalis sollicitudo hominibus de certitudine
+<lb ed="#L" n="106"/>prolis. - Minor vero probatur. Quia mulier a primo cognita,
+<lb ed="#L" n="107"/>postmodum a secundo cognosceretur.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>2. Sed videtur haec ratio inefucax esse. Non enim
+<lb ed="#L" n="109"/>tollitur certitudo prolis nisi antequam nascatur proles,
+<lb ed="#L" n="110"/>mulier ab altero cognoscatur. Nam postquam nata est
+<lb ed="#L" n="111"/>proles, si mulier ab alio cognoscatur, non tollitur propter
+<lb ed="#L" n="112"/>hoc prolis prius natae certitudo. Et sic non concluditur
+<lb ed="#L" n="113"/>per hanc rationem perpetua et indivisibilis societas maris
+<lb ed="#L" n="114"/>ad feminam, sed tantum societas et indissolutio ante prolis
+<lb ed="#L" n="115"/>generationem.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Respondetur quod ista ratio non concludit directe 
+opor<lb ed="#L" break="no" n="117"/>tere societatem viri et mulieris per totam vitam durare,
+<lb ed="#L" n="118"/>sed esse quandam obligationem mutuam inter illos ut
+<lb ed="#L" n="119"/>mulier sic primo viro obligata sit quod alteri quam ipsi
+<lb ed="#L" n="120"/>copulari non possit — et consequenter, si debet esse aequa
+<lb ed="#L" n="121"/>societas, nec vir alteri mulieri — quia per concubitum 
+mu<lb ed="#L" break="no" n="122"/>lieris cum alio viro certitudo prolis tolleretur. Ex hoc
+<lb ed="#L" n="123"/>autem quod mulier et vir sibi mutuo obligantur tempore
+<pb ed="#L" n="384"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quo generationi sunt apti, relinquit Sanctus Thomas 
+ma<lb ed="#L" break="no" n="2"/>nifestum ex praecedentibus rationibus oportere etiam per
+<lb ed="#L" n="3"/>totam vitam huiusmodi societatem durare.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>3. Quinto. Inter virum et uxorem maxima amicitia esse
+<lb ed="#L" n="5"/>videtur: propter adunationem eorum non solum in actu
+<lb ed="#L" n="6"/>carnalis copulae, quae etiam inter bestias quandam suavem
+<lb ed="#L" n="7"/>amicitiam  facit; sed etiam ad totius domesticae 
+conver<lb ed="#L" break="no" n="8"/>sationis consortium. Cuius signum est quod propter uxorem
+<lb ed="#L" n="9"/>homo patrem et matrem dimittit, ut dicitur Gen. it. Ergo etc.
+<lb ed="#L" n="10"/>— Probatur consequentia. Quia amicitia, quanto maior est,
+<lb ed="#L" n="11"/>tanto debet esse firmior et diuturnior.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>IV. Secundo loco ostendit Sanctus Thomas quod 
+opor<lb ed="#L" break="no" n="13"/>tuit lege humana et divina ordinari ut matrimonium sit
+<lb ed="#L" n="14"/>indissolubile, et etiam quod sit una unius .
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Probat autem hoc dupliciter . Primo. Ea quae pertinent
+<lb ed="#L" n="16"/>ad generationem prolis, oportet legibus et divinis et humanis
+<lb ed="#L" n="17"/>ordinari. Sed leges humanae ex naturali instinctu 
+prove<lb ed="#L" break="no" n="18"/>niunt: ut ex demonstrativis scientiis ostenditur. Divinae
+<lb ed="#L" n="19"/>autem leges non solum naturae instinctum explicant, sed
+<lb ed="#L" n="20"/>etiam defectus naturalis instinctus supplent. Ergo iis 
+le<lb ed="#L" break="no" n="21"/>gibus debet circa generationem ordinari id quod est 
+secun<lb ed="#L" break="no" n="22"/>dum naturalem instinctum. Sed naturalis instinctus in specie
+<lb ed="#L" n="23"/>humana est quod coniunctio maris et feminae sit individua,
+<lb ed="#L" n="24"/>et unius sit una, Ergo hoc debuit humana lege ordinari.
+<lb ed="#L" n="25"/>Huic autem lex divina quandam supernaturalem rationem
+<lb ed="#L" n="26"/>apponit, ex significatione inseparabilis coniunctionis Christi
+<lb ed="#L" n="27"/>et Ecclesiae, si est una unius.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Assumptum probatur. Quia lex instituitur ad bonum
+<lb ed="#L" n="29"/>commune. lnter naturales autem actus sola generatio ad
+<lb ed="#L" n="30"/>bonum commune ordinatur, scilicet ad speciei 
+conserva<lb ed="#L" break="no" n="31"/>tionem. "
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Ex ista ratione infert Sanctus Thomas quod, quia 
+inor<lb ed="#L" break="no" n="33"/>dinationes circa actum generationis non solum instinctui
+<lb ed="#L" n="34"/>naturali repugnant, sed etiam leges divinas et humanas
+<lb ed="#L" n="35"/>transgrediuntur, magis circa hoc peccatur ex inordinatione
+<lb ed="#L" n="36"/>quam circa sumptionem cibi, aut alterius huiusmodi.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>2. Circa id quod dicitur, leges humanas ex naturali
+<lb ed="#L" n="38"/>instinctu procedere, considerandum est, ex doctrina Sancti
+<lb ed="#L" n="39"/>Thomae I II^, q. xcv, a. 2, quod hoc intelligitur non de
+<lb ed="#L" n="40"/>iniusta lege (quae proprie non est dicenda lex, immo legis
+<lb ed="#L" n="41"/>corruptio), sed de iusta. Cum enim dicatur aliquid iustum
+<lb ed="#L" n="42"/>ex eo quod est rectum secundum regulam rationis ; prima
+<lb ed="#L" n="43"/>autem regula rationis sit lex naturae : omnis lex humanitus
+<lb ed="#L" n="44"/>posita intantum habet de ratione legis, inquantum a lege
+<lb ed="#L" n="45"/>naturae derivatur. — Quomodo autem diversimode leges
+<lb ed="#L" n="46"/>aliquae a naturali lege deriventur, ostendit ibidem Sanctus
+<lb ed="#L" n="47"/>"Thomas.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>3. Circa id quod dicitur, divinam legem indivisibilitati
+<lb ed="#L" n="49"/>coniunctionis maris et feminae quae per legem humanam
+<lb ed="#L" n="50"/>est ordinata, apponere supernaturalem quandam rationem
+<lb ed="#L" n="51"/>ex significatione inseparabilitatis coniunctionis Christi et
+<lb ed="#L" n="52"/>Ecclesiae, si est una unius, duo sunt attendenda. Unum est
+<lb ed="#L" n="53"/>ex doctrina Sancti Thomae Quarto, d. xxxur, q. im, a. 1 ,
+<lb ed="#L" n="54"/>quod inseparabilitas viri et mulieris aliter consideratur in
+<lb ed="#L" n="55"/>matrimonio secundum quod est in officium naturae, quo
+<lb ed="#L" n="56"/>modo determinatio eius ad legem humanam pertinet: et
+<lb ed="#L" n="57"/>aliter secundum quod est Ecclesiae sacramentum, secundum
+<lb ed="#L" n="58"/>quem modum ad divinam pertinet legem. Primo enim modo,
+<lb ed="#L" n="59"/>inseparabilitas non est de prima intentione matrimonii :
+<lb ed="#L" n="60"/>quia non ordinatur ad prolis procreationem et 
+educatio<lb ed="#L" break="no" n="61"/>nem ac instructionem quousque ad perfectam aetatem
+<lb ed="#L" n="62"/>pervenerit, quod est de prima intentione naturae, hoc
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>enim absque tali perpetua societate esse posset: sed 
+ordi<lb ed="#L" break="no" n="64"/>natur ad hoc quod ei provideatur in posterum per totam
+<lb ed="#L" n="65"/>eius vitam, per hereditatis scilicet et. aliorum bonorum
+<lb ed="#L" n="66"/>dimissionem, quod videtur esse de secunda intentione 
+na<lb ed="#L" break="no" n="67"/>turae. — Secundo autem modo, inseparabilitas est de prima
+<lb ed="#L" n="68"/>matrimonii intentione. Intenditur enim primo in 
+matri<lb ed="#L" break="no" n="69"/>monio, secundum quod est institutum Ecclesiae 
+sacramen<lb ed="#L" break="no" n="70"/>tum, ut per ipsum indivisibilitas coniunctionis Christi et
+<lb ed="#L" n="71"/>Ecclesiae significetur: et haec significatur per matrimonii
+<lb ed="#L" n="72"/>indivisibilitatem. Et quia per divinam legem instituta sunt
+<lb ed="#L" n="73"/>sacramenta, ideo convenienter dicitur hanc rationem 
+signi<lb ed="#L" break="no" n="74"/>ficationis esse indivisibilitati matrimonii appositam.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Alterum est quod, quia aliquando dispensatum fuit 
+di<lb ed="#L" break="no" n="76"/>vinitus super pluralitate uxorum, et posset etiam 
+dispen<lb ed="#L" break="no" n="77"/>sari; si fieret dispensatio super uxorum pluralitate, et
+<lb ed="#L" n="78"/>per consequens matrimonii societas non esset individua,
+<lb ed="#L" n="79"/>matrimonii sacramentum non significaret indivisibilitatem
+<lb ed="#L" n="80"/>coniunctionis Christi et Ecclesiae, quia non significaret
+<lb ed="#L" n="81"/>coniunctionem Christi et Ecclesiae inquantum est una:
+<lb ed="#L" n="82"/>licet posset significare talem coniunctionem inquantum in
+<lb ed="#L" n="83"/>Ecclesia est graduum distinctio ut inquit Sanctus Thomas
+<lb ed="#L" n="84"/>Quarto, d. xxxii, a. 2 . Sed si est tantum una unius, ut est
+<lb ed="#L" n="85"/>per Christi legem institutum, talis indivisibilitas 
+coniun<lb ed="#L" break="no" n="86"/>ctionis Christi et Ecclesiae significatur per huiusmodi 
+matri<lb ed="#L" break="no" n="87"/>monii indivisibilitatem. Ideo addidit Sanctus Thomas, si est
+<lb ed="#L" n="88"/>una unius.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>V. Secundo, Coniunctio maris et feminae non solum
+<lb ed="#L" n="90"/>est ordinata legibus secundum quod ad prolem generandam
+<lb ed="#L" n="91"/>pertinet, sed etiam secundum quod pertinet ad bonos mores,
+<lb ed="#L" n="92"/>quos recta ratio disponit. Sed ad bonos mores pertinet
+<lb ed="#L" n="93"/>individua coniunctio maris et feminae: quia sic est amor
+<lb ed="#L" n="94"/>fidelior unius ad alterum ; est utriusque sollicitior cura in
+<lb ed="#L" n="95"/>rebus domesticis; subtrahuntur discordiarum origines inter
+<lb ed="#L" n="96"/>virum et propinquos uxoris, et firmior fit inter affines
+<lb ed="#L" n="97"/>dilectio; tolluntur etiam adulteriorum occasiones. Ergo etc.
+<lb ed="#L" n="98"/>— Probatur maior. Quia ad id quod est optimum in homine,
+<lb ed="#L" n="99"/>alia omnia ordinari oportet.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>VI. Confirmatur conclusio auctoritate Matth. xix, et
+<lb ed="#L" n="101"/>I Cor. vir.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Excluditur vero per hoc consuetudo dimittentium 
+uxo<lb ed="#L" break="no" n="103"/>res, Et licet hoc in veteri lege fuerit Iudaeis permissum,
+<lb ed="#L" n="104"/>hoc fuit propter duritiam eorum, ad evitandum maius
+<lb ed="#L" n="105"/>malum: quia videlicet proni erant ad occisionem uxorum.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Ad huius evidentiam, considerandum est, ex doctrina
+<lb ed="#L" n="107"/>Sancti Thomae IV Sent., articulo allegato, qu 2 , quod
+<lb ed="#L" n="108"/>duplex opinio fuit de libello repudii permisso ludaeis.
+<lb ed="#L" n="109"/>Quidam enim dixerunt quod Iudaei repudiando uxores non
+<lb ed="#L" n="110"/>peccabant, sed eis erat ex permissione divina licitum: quia
+<lb ed="#L" n="111"/>hoc esse peccatum non est per legem aut prophetas 
+indi<lb ed="#L" break="no" n="112"/>catum. Et habet haec opinio fundamentum ex verbis
+<lb ed="#L" n="113"/>Chrysostomi, inquientis quod a peccato abstulit culpam
+<lb ed="#L" n="114"/>legislator quando repudium permisit . — Alii vero dixerunt
+<lb ed="#L" n="115"/>quod dantes libellum repudii a peccato non excusabantur,
+<lb ed="#L" n="116"/>quamvis excusarentur a poena secundum leges infligenda.
+<lb ed="#L" n="117"/>Unde dicunt quod libellum repudii Moises Iudaeis permisit
+<lb ed="#L" n="118"/>propter maius malum cohibendum, scilicet uxoricidium :
+<lb ed="#L" n="119"/>sicut permissum eis fuit extraneis faenerari, ne fratribus
+<lb ed="#L" n="120"/>suis faenerarentur. — Sed licet, ut ibidem inquit Sanctus
+<lb ed="#L" n="121"/>Thomas, prima opinio probabilis sit, secunda tamen 
+com<lb ed="#L" break="no" n="122"/>munius tenetur. Et ideo ipsam videtur sequi hoc loco,
+<lb ed="#L" n="123"/>dum inquit quod permissum fuit minus malum ad maius
+<lb ed="#L" n="124"/>malum excludendum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

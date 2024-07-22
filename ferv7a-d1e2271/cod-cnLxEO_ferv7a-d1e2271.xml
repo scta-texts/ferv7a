@@ -1,0 +1,866 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 69</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 69</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="202"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2271"><!-- ferv7a-l3c69 -->
+            <head>Capitulum 69</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="8" type="fixed=202"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="9"/>POSTQUAM ostendit Sanctus Thomas Deum esse omnibus 
+<lb ed="#L" n="10"/>P operantibus causam operandi, vult nunc quendam 
+er<lb ed="#L" break="no" n="11"/>rorem ex praemissis  exortum excludere . Sumpserunt
+<lb ed="#L" n="12"/>enim quidam ex hoc quod. dictum est Deum esse omnibus
+<lb ed="#L" n="13"/>operantibus causam operandi, et quod in omnibus operatur,
+<lb ed="#L" n="14"/>occasionem dicendi quod nulla creatura habet aliquam
+<lb ed="#L" n="15"/>actionem in productione effectuum naturalium: ita scilicet
+<lb ed="#L" n="16"/>quod ignis non calefacit, sed causat Deus calorem 
+prae<lb ed="#L" break="no" n="17"/>sente igne.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Circa hunc autem errorem duo facit: primo, ipsum 
+ex<lb ed="#L" break="no" n="19"/>cludit; secundo, removet quaedam dubia, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>Circa primum tria facit: primo, ponit sectatores huius
+<lb ed="#L" n="21"/>erroris, cum eorum fundamentis; secundo, ipsum errorem
+<lb ed="#L" n="22"/>confutat; tertio, ad fundamenta errantium respondet ,
+</p>
+            <p>
+               <lb ed="#L" n="23"/>I. Quantum ad primum: — Quidam, scilicet Saraceni, ut
+<lb ed="#L" n="24"/>recitat Commentator, XII Metaph., text. 18, et IX. Metaph.,
+<lb ed="#L" n="25"/>commento 7, hunc errorem tenuerunt hac ratione, quod
+<lb ed="#L" n="26"/>formae non possunt nisi per creationem produci, cum ex
+<lb ed="#L" n="27"/>materia fieri non possint, eo quod non habeant materiam
+<lb ed="#L" n="28"/>partem sui; creare autem solius Dei est. :
+</p>
+            <p>
+               <lb ed="#L" n="29"/>2. Quidam vero alii, ponentes formas quae sunt in
+<lb ed="#L" n="30"/>materia provenire a formis quae sunt per se sine materia,
+<lb ed="#L" n="31"/>concordant praedictae opinioni. Posuit enim Plato ideas
+<lb ed="#L" n="32"/>esse causas essendi iis sensibilibus. — Avicenna vero 
+po<lb ed="#L" break="no" n="33"/>suit substantiales formas ab intelligentia separata effluere.
+<lb ed="#L" n="34"/>Declinabat autem a priori stultitia in hoc quod ponebat
+<lb ed="#L" n="35"/>accidentales. formas esse materiae dispositiones, et a 
+na<lb ed="#L" break="no" n="36"/>turalibus agentibus provenire.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Movebantur autem primo, quia omne quod non est
+<lb ed="#L" n="38"/>per se, provenit ab eo quod est per se. — Secundo, quia
+<lb ed="#L" n="39"/>nulla virtus activa invenitur esse in istis inferioribus nisi
+<lb ed="#L" n="40"/>accidentalis forma. — Tertio, quia animalia genita ex 
+pu<lb ed="#L" break="no" n="41"/>trefactione non generantur ex sibi similibus.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>3. Quidam vero, — sicut Avicebron, in libro de 
+Ma<lb ed="#L" break="no" n="43"/>teria et Forma (ut est apud Albertum, I Phys. ), quem
+<lb ed="#L" n="44"/>appellavit Librum Fontis Vitae, eo quod ex ipso tanquam
+<lb ed="#L" n="45"/>ex fonte vita fluat intellectus et scientiae, ponens nullum
+<lb ed="#L" n="46"/>corpus esse activum, sed virtutem substantiae spiritualis,
+<lb ed="#L" n="47"/>per corpora transeuntem, actiones agere quae per corpora
+<lb ed="#L" n="48"/>fieri. videntur, — addiderunt has rationes .
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Primo. Quia omnis corporis forma est adiuncta 
+quan<lb ed="#L" break="no" n="50"/>titati. Quantitas autem impedit actionem et motum. Quod
+<lb ed="#L" n="51"/>patet, quia per adiectionem quantitatis corpus fit 
+ponde<lb ed="#L" break="no" n="52"/>rosius, et tardatur motus eius.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Secunda. Quia nulla substantia est inferior corporali,
+<lb ed="#L" n="54"/>Omne autem agens, praeter primum, quod causat, requirit
+<lb ed="#L" n="55"/>subiectum inferius se.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Tertia. Quia corporalis substantia est in ultima distantia
+<lb ed="#L" n="57"/>a primo agente.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>4. Quidam vero in lege Maurorum, ut recitat Rabbi
+<lb ed="#L" n="59"/>Moyses, dicentes omnia accidentia creari a Deo, 
+addi<lb ed="#L" break="no" n="60"/>derunt hanc rationem, quia accidens non transit a subiecto
+<lb ed="#L" n="61"/>in subiectum .
+</p>
+            <p>
+               <lb ed="#L" n="62"/>II. Quantum ad secundum , arguitur contra praedictas
+<lb ed="#L" n="63"/>positiones. Primo sic. Si nulla inferior causa, et maxime
+<lb ed="#L" n="64"/>corporalis, aliquid operatur, sed solus Deus, non sequeretur
+<lb ed="#L" n="65"/>diversus effectus ex diversitate rerum in quibus Deus 
+ope<lb ed="#L" break="no" n="66"/>ratur: cum ipse Deus non varietur per hoc quod operatur
+<lb ed="#L" n="67"/>in diversis rebus. Hoc autem ad sensum apparet esse 
+fal<lb ed="#L" break="no" n="68"/>sum, Ergo etc..
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Adverte quod, si aliqua causa operetur per appositionem
+<lb ed="#L" n="70"/>alicuius alterius et praesentialitatem, non possunt 
+appo<lb ed="#L" break="no" n="71"/>sitione diversorum diversi effectus provenire nisi aut 
+pro<lb ed="#L" break="no" n="72"/>pter diversam actionem eorum quae apponuntur, inquan-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="73"/>tum in ipsis actio primi agentis limitatur; aut propter
+<lb ed="#L" n="74"/>aliquam mutationem et variationem causae ex eo quod
+<lb ed="#L" n="75"/>per appositionem diversorum operatur. Si ergo ponatur
+<lb ed="#L" n="76"/>quod diversa apposita in actione Dei nihil agant; et quod
+<lb ed="#L" n="77"/>Deus non varietur ex appositione diversorum in quibus
+<lb ed="#L" n="78"/>operatur sicut in re praesenti suae actioni, et per quam
+<lb ed="#L" n="79"/>sua actio transeat: non poterit salvari quomodo ex 
+appo<lb ed="#L" break="no" n="80"/>sitione diversorum sequantur diversi effectus a Deo; puta,
+<lb ed="#L" n="81"/>quomodo ex appositione calidi sequitur. calefactio et non
+<lb ed="#L" n="82"/>infrigidatio (nisi forte, per accidens) ; et ex semine hominis
+<lb ed="#L" n="83"/>apposito sequitur generatio hominis; et sic de aliis. Et
+<lb ed="#L" n="84"/>hoc est huius rationis fundamentum.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>2. Quia vero dici posset quod ista diversitas effechilum
+<lb ed="#L" n="86"/>ex applicatione diversorum provenit, non quia ista apposita
+<lb ed="#L" n="87"/>aliquid agant, neque quia ex appositione diversorum Deus
+<lb ed="#L" n="88"/>varietur, sed quia Deus statuit apponendo ignem calefacere,
+<lb ed="#L" n="89"/>et.hominem generare apponendo semen hominis: ideo, ut
+<lb ed="#L" n="90"/>hoc removeat, Sanctus "Thomas addit secundam rationem,
+<lb ed="#L" n="91"/>et arguit secundo loco sic. Si Deus solus omnia 
+imme<lb ed="#L" break="no" n="92"/>diate operaretur, frustra essent ab ipso adhibitae aliae res
+<lb ed="#L" n="93"/>ad producendos effectus. Sed est contra rationem 
+sapien<lb ed="#L" break="no" n="94"/>tiae ut aliquid sit frustra in operibus sapientis. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>3. Tertio. Deus communicavit aliis similitudinem suam
+<lb ed="#L" n="96"/>quantum ad esse. Ergo communicavit eis suam 
+similitu<lb ed="#L" break="no" n="97"/>dinem quantum ad agere. Ergo ut etiam res creatae 
+ha<lb ed="#L" break="no" n="98"/>beant proprias operationes, — Probatur consequentia. Quia
+<lb ed="#L" n="99"/>facere. aliquid actu consequitur ad esse actu: ut patet in
+<lb ed="#L" n="100"/>Deo. Quod autem dat alicui principale, dat eidem omnia
+<lb ed="#L" n="101"/>quae consequuntur ad illud: scilicet aut necessario, aut
+<lb ed="#L" n="102"/>secundum convenientiam et decentiam. Declaratur in dante
+<lb ed="#L" n="103"/>gravitatem, qui etiam. dat motum deorsum.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>III. Quarto. Si nulla creatura habet actionem ad a
+li<lb ed="#L" break="no" n="105"/>quem. effectum producendum, multum detrahitur 
+perfe<lb ed="#L" break="no" n="106"/>ctioni creaturae: cum ex abundantia perfectionis sit quod
+<lb ed="#L" n="107"/>perfectionem quam habet, possit alteri communicare. Ergo
+<lb ed="#L" n="108"/>detrahitur perfectioni divinae virtutis. — Probatur 
+conse<lb ed="#L" break="no" n="109"/>quentia. Quia, cum perfectio effectus determinet  
+perfe<lb ed="#L" break="no" n="110"/>ctionem causae, oportet quod a Deo, qui est perfectissimum
+<lb ed="#L" n="111"/>agens, creaturae perfectionem consequantur. Et sic, dum 
+de<lb ed="#L" break="no" n="112"/>trahitur perfectioni creaturae, detrahitur et perfectioni Dei.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>2. Circa istam propositionem, Perfectio effectus 
+deter<lb ed="#L" break="no" n="114"/>minat perfectionem causae, considerandum est quod 
+du<lb ed="#L" break="no" n="115"/>plicem sensumi habere potest. Uno modo, ut intelligatur
+<lb ed="#L" n="116"/>secundum realem efficientiam. Et sic non accipitur hic:
+<lb ed="#L" n="117"/>cum sit manifeste falsa. Constat enim quod perfectio 
+ef<lb ed="#L" break="no" n="118"/>fectus nihil agit in causa, ut possit causare determinationem
+<lb ed="#L" n="119"/>perfectionis ipsius: sed magis perfectio causae ponit 
+ter<lb ed="#L" break="no" n="120"/>minum perfectioni effectus. Unde hic dicitur, pro 
+mani<lb ed="#L" break="no" n="121"/>festatione dictae propositionis, quod maior virtus 
+perfe<lb ed="#L" break="no" n="122"/>ctiorem effectum inducit. - Alio modo, ut intelligatur
+<lb ed="#L" n="123"/>arguitive, et secundum quandam illationem et 
+consequen<lb ed="#L" break="no" n="124"/>tiam, Et hoc modo hic accipitur. Cum enim maior virtus
+<lb ed="#L" n="125"/>causet perfectiorem effectum, potest ex perfectione effectus
+<lb ed="#L" n="126"/>inferri a posteriori causae perfectio: et ubi in effectu maior
+<lb ed="#L" n="127"/>fuerit perfectio, potest inferri maiorem perfectionem in
+<lb ed="#L" n="128"/>causa esse.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>3. Sed tunc occurrit dubium. Nam licet, ubi causa de
+<lb ed="#L" n="130"/>necessitate naturae agit, derogans perfectioni effectus 
+de<lb ed="#L" break="no" n="131"/>roget etiam causae perfectioni, quia ubi perfectio effectus
+<lb ed="#L" n="132"/>minor fuerit, necesse est perfectionem talis causae minorem
+<lb ed="#L" n="133"/>esse; ubi tamen causa non agit secundum necessitatem
+<lb ed="#L" n="134"/>naturae, sed secundum suam determinationem et 
+propo<lb ed="#L" break="no" n="135"/>situm suae voluntatis, derogando effectui, non oportet ut
+<lb ed="#L" n="136"/>sit derogatum causae; cum stet causam voluntarie agentem
+<pb ed="#L" n="203"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>perfectissimam esse in se, et tamen parvam perfectionem
+<lb ed="#L" n="2"/>suo effectui dare velle. Deus autem est causa voluntaria
+<lb ed="#L" n="3"/>creaturarum, non autem causa agens ex necessitate naturae.
+<lb ed="#L" n="4"/>Ergo, quamvis ponatur aliquam perfectionem creaturae
+<lb ed="#L" n="5"/>deesse, ex hoc non derogatur virtuti divinae quin sit 
+per<lb ed="#L" break="no" n="6"/>fectissima.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>4. Respondetur, et dicitur primo, quod utique ista
+<lb ed="#L" n="8"/>ratio non videtur induci a Sancto Thoma tanquam 
+de<lb ed="#L" break="no" n="9"/>monstrativa, sed tanquam probabilis et persuasiva.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>Dicitur secundo, quod dupliciter loqui possumus de
+<lb ed="#L" n="11"/>divina virtute: uno modo, secundum quod in seipsa est;
+<lb ed="#L" n="12"/>alio modo, secundum. quod. creaturis communicatur, et
+<lb ed="#L" n="13"/>nobis ex eius effectibus manifestatur. Si primo modo 
+con<lb ed="#L" break="no" n="14"/>sideretur, sic, dum  derogatur perfectioni effectus, non
+<lb ed="#L" n="15"/>oportet derogari perfectioni causae. Et iuxfa hunc sensum
+<lb ed="#L" n="16"/>procedit obiectio. —. Si autem. secundo modo consideretur,
+<lb ed="#L" n="17"/>sic, derogando perfectioni creaturae, derogatur perfectioni
+<lb ed="#L" n="18"/>divinae virtutis. Quanto enim minor perfectio. fuerit in
+<lb ed="#L" n="19"/>creaturis, tanto divina bonitas et virtus erit ipsis minus
+<lb ed="#L" n="20"/>communicata; et quanto minorem perfectionem 
+cognove<lb ed="#L" break="no" n="21"/>rimus in creaturis, tanto minus et imperfectius divina virtus
+<lb ed="#L" n="22"/>nobis ex creaturis innotescit. Et secundum hunc sensum
+<lb ed="#L" n="23"/>probabilis est ratio Sancti Thomae. Cum enim 
+commu<lb ed="#L" break="no" n="24"/>nicare-suam perfectionem videatur consequi, saltem .
+se<lb ed="#L" break="no" n="25"/>cundum quandam convenientiam, ad esse in actu perfectum,
+<lb ed="#L" n="26"/>sicut et Deus, qui est actus purus, est etiam prima . causa
+<lb ed="#L" n="27"/>essendi omnibus; probabile videtur. quod Deus, qui dat
+<lb ed="#L" n="28"/>esse actu creaturis, det etiam illis ut agant; et si ponatur
+<lb ed="#L" n="29"/>quod det esse actu absque hoc quod agant, videtur 
+bo<lb ed="#L" break="no" n="30"/>nitati divinae derogari, utpote quae non communicaverit
+<lb ed="#L" n="31"/>seipsam, et nobis se non manifestaverit, secundum 
+com<lb ed="#L" break="no" n="32"/>municationem operationis quasi debitae creaturae.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>5. Posset etiam sustineri quod haec ratio necessario
+<lb ed="#L" n="34"/>concludit, dicendo quod operari et agere virtualiter, hoc
+<lb ed="#L" n="35"/>est, habere virtutem agendi, necessario consequitur ad hoc
+<lb ed="#L" n="36"/>quod est esse in actu perfecto et completo secundum
+<lb ed="#L" n="37"/>conditionem propriae.naturae. Et ideo dans esse actu 
+com<lb ed="#L" break="no" n="38"/>plete, necessario dat etiam virtutem agendi. Et sic, si 
+po<lb ed="#L" break="no" n="39"/>natur non posse convenire creaturae ut agat, sequitur
+<lb ed="#L" n="40"/>divinam virtutem imperfectam poni, utpote quae non possit
+<lb ed="#L" n="41"/>creaturae dare esse perfectum et completum. — Nec valet
+<lb ed="#L" n="42"/>quod dicitur Deum esse agentem voluntarium. Quia etiam
+<lb ed="#L" n="43"/>agens voluntarium, habens virtutem producendi aliquid in
+<lb ed="#L" n="44"/>actu completo, potest etiam illi dare id quod ad esse in
+<lb ed="#L" n="45"/>actu perfecto consequitur. Immo, si dat primum, 
+neces<lb ed="#L" break="no" n="46"/>sario dat secundum.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Prima tamen responsio videtur melior. Quia dicentes
+<lb ed="#L" n="48"/>creaturam nullam habere posse actionem, negarent quod
+<lb ed="#L" n="49"/>habere virtutem agendi consequatur necessario esse in actu.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>IV. Quinto: et est confirmatio praecedentis. Deus est
+<lb ed="#L" n="51"/>summum bonum. Ergo eius est optime omnia facere. Ergo
+<lb ed="#L" n="52"/>sic rebus creatis suam bonitatem communicavit ut una
+<lb ed="#L" n="53"/>res, quod accepit, possit in aliam: rem transfundere. Ergo
+<lb ed="#L" n="54"/>detrahere proprias actiones a rebus creatis, est divinae 
+bo<lb ed="#L" break="no" n="55"/>nitati derogare. — Probatur prima consequentia. Quia sicut
+<lb ed="#L" n="56"/>boni est bona facere, ita summi boni est aliquid optime
+<lb ed="#L" n="57"/>facere: idest, ipsum decet optime facere secundum rei factae
+<lb ed="#L" n="58"/>exigentiam. — Secunda quoque probatur. Quia melius est
+<lb ed="#L" n="59"/>quod bonum alicui collatum sit multorum commune, quam
+<lb ed="#L" n="60"/>quod sit proprium : cum bonum, quanto communius, tanto
+<lb ed="#L" n="61"/>divinius. Bonum autem unius fit multis commune, si ab
+<lb ed="#L" n="62"/>uno in alia per propriam actionem derivatur.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Sexto. Subtrahere a rebus actiones est ab eis ordinem
+<lb ed="#L" n="64"/>earum ad invicem subtrahere. Ergo est subtrahere eis id
+<lb ed="#L" n="65"/>optimum quod habent. Ergo primum est inconveniens. —
+<lb ed="#L" n="66"/>Probatur antecedens. Quia diversarum naturarum non est
+<lb ed="#L" n="67"/>colligatio in ordinis unitatem nisi per hoc quod quaedam
+<lb ed="#L" n="68"/>agunt et quaedam patiuntur. — Prima vero consequentia
+<lb ed="#L" n="69"/>probatur. Quia singula in seipsis sunt bona, simul autem
+<lb ed="#L" n="70"/>omnia sunt optima, propter ordinem universi: cum totum
+<lb ed="#L" n="71"/>semper sit melius partibus, et finis earum.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Septimo. Si effectus non producuntur ex actione rerum
+<lb ed="#L" n="73"/>creatarum, ergo impossibile est quod per effectus 
+mani<lb ed="#L" break="no" n="74"/>festetur virtus alicuius causae creatae. Ergo nunquam 
+na<lb ed="#L" break="no" n="75"/>tura alicuius rei creatae poterit cognosci per effectum.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Ergo subtrahitur nobis omnis cognitio scientiae naturalis,
+<lb ed="#L" n="77"/>in qua praecipue demonstrationes per effectum sumuntur, —
+<lb ed="#L" n="78"/>Probatur prima consequentia. Quia effectus non ostendit
+<lb ed="#L" n="79"/>virtutem causae nisi ratione actionis, quae, a virtute 
+pro<lb ed="#L" break="no" n="80"/>cedens, ad effectum terminatur. — Secunda vero probatur.
+<lb ed="#L" n="81"/>Quia natura rei creatae non cognoscitur per effectum nisi
+<lb ed="#L" n="82"/>inquantum per ipsum. cognoscitur virtus, quae naturam
+<lb ed="#L" n="83"/>consequitur. .
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Octavo. Apparet per inductionem quod simile agat suum
+<lb ed="#L" n="85"/>simile. Sed quod generatur in rebus inferioribus non est
+<lb ed="#L" n="86"/>forma tantum, sed compositum ex materia et forma: cum
+<lb ed="#L" n="87"/>generatio sit ex materia et ad formam terminetur. Ergo
+<lb ed="#L" n="88"/>generans est compositum ex materia et forma. Ergo non
+<lb ed="#L" n="89"/>est species rerum separata, ut Platonici voluerunt; neque
+<lb ed="#L" n="90"/>intelligentia agens, ut voluit Avicenna.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Adverte quod ista ratio sumpta est ex Aristotele, VII
+<lb ed="#L" n="92"/>Metaph. , contra Platonem. Et convincit tam Platonicos
+<lb ed="#L" n="93"/>quam Avicennam: quia supponebant unum falsum, scilicet
+<lb ed="#L" n="94"/>quod sola.forma generaretur, non autem compositum, et
+<lb ed="#L" n="95"/>non poterant salvare aliquam generationem univocam esse.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Nono: et est ratio particulariter contra Avicennam.
+<lb ed="#L" n="97"/>Formae accidentales quae sunt in rebus corporalibus, 
+ha<lb ed="#L" break="no" n="98"/>bent proprias actiones: scilicet per Avicennam, Ergo et
+<lb ed="#L" n="99"/>formae substantiales. Ergo, cum eius actio non sit disponere
+<lb ed="#L" n="100"/>materiam, quia ad hoc sufficiunt formae accidentales, forma
+<lb ed="#L" n="101"/>generantis est principium introductionis formae 
+substan<lb ed="#L" break="no" n="102"/>tialis in. generatum, — Probatur prima consequentia. Quia,
+<lb ed="#L" n="103"/>cum agere consequatur ad esse in actu, inconveniens est
+<lb ed="#L" n="104"/>quod actus perfectior, qui est forma substantialis, actione
+<lb ed="#L" n="105"/>destituatur: quando scilicet formae accidentali conveniat.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>V. Quantum. ad tertium , respondet Sanctus Thomas
+<lb ed="#L" n="107"/>rationibus praedictae opinionis.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Ad rationem. quidem primam, quae erat Saracenorum,
+<lb ed="#L" n="109"/>respondet quod, sicut forma dicitur ens non quasi ipsa
+<lb ed="#L" n="110"/>habeat esse (scilicet primo), sed quia per eam compositum
+<lb ed="#L" n="111"/>est; ita nec propria fit, sed incipit esse per hoc quod 
+com<lb ed="#L" break="no" n="112"/>positum sit reductum de potentia in actum quae est forma.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Adverte quod Sanctus Thomas ex his vult habere quod
+<lb ed="#L" n="114"/>non oportet formam creari, licet ex materia non fiat: quia
+<lb ed="#L" n="115"/>ipsa non est id quod fit, sed est id quo compositum fit;
+<lb ed="#L" n="116"/>et consequenter nulla productio ad ipsam primo terminatur.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>VI. Ad primam rationem pro Platonis opinione et 
+Avi<lb ed="#L" break="no" n="118"/>cennae , respondet quod non oportet ut habens formam
+<lb ed="#L" n="119"/>quasi participatam recipiat. eam immediate ab eo quod est
+<lb ed="#L" n="120"/>essentialiter forma; sed immediate ab aliquo habente formam
+<lb ed="#L" n="121"/>simili modo participatam, quod tamen agat virtute illius
+<lb ed="#L" n="122"/>formae separatae, si qua sit talis.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Adverte quod, sub dubitatione dixit de forma separata
+<lb ed="#L" n="124"/>si qua sit talis, quia non putat verum esse ideas separatas
+<lb ed="#L" n="125"/>quas Plato posuit; nec esse intelligentiam unam creatam
+<lb ed="#L" n="126"/>cuius sit omnes formas, substantiales inferioribus dare, ad
+<lb ed="#L" n="127"/>modum Avicennae. Sed tamen, quia non est intentionis
+<lb ed="#L" n="128"/>suae hoc loco de eorum positionibus disputare, ideo 
+re<lb ed="#L" break="no" n="129"/>spondet. admissa etiam eorum. positione quantum ad esse
+<lb ed="#L" n="130"/>illarum substantiarum . separatarum. ,
+</p>
+            <p>
+               <lb ed="#L" n="131"/>2. Ad secundam respondet quod, licet omnis actio 
+in<lb ed="#L" break="no" n="132"/>feriorum corporum fiat.per qualitates activas et passivas,
+<lb ed="#L" n="133"/>quae sunt accidentia; non tamen oportet quod non 
+pro<lb ed="#L" break="no" n="134"/>ducatur ex. earum actione nisi accidens. Quia agunt virtute
+<lb ed="#L" n="135"/>formae substantialis: et sic ex earum actione producuntur
+<lb ed="#L" n="136"/>formae substantiales, inquantum agunt instrumentaliter in
+<lb ed="#L" n="137"/>virtute formarum. substantialium.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>3. Ad tertiam dicit primo, quod in genitis ex 
+putrefa<lb ed="#L" break="no" n="139"/>ctione. forma generatur non ex substantia separata 
+imme<lb ed="#L" break="no" n="140"/>diate, sed ex: agente corporali, scilicet ex caelesti corpore.
+</p>
+            <p>
+               <lb ed="#L" n="141"/>Dicit secundo quod, licet ad producendas aliquas formas
+<lb ed="#L" n="142"/>imperfectas sufficiat virtus caelestis absque agente univoco,
+<lb ed="#L" n="143"/>eo quod corpus caeleste sit primum alterans, in cuius
+<lb ed="#L" n="144"/>virtute omnia moventia ad formam in istis inferioribus
+<lb ed="#L" n="145"/>agunt; ad producendas tamen formas perfectiores, sicut
+<lb ed="#L" n="146"/>sunt formae animalium perfectorum, requiritur cum agente
+<lb ed="#L" n="147"/>caelesti agens univocum; quia talia animalia non 
+gene<lb ed="#L" break="no" n="148"/>rantur nisi ex semine, idest, nisi cum virtute corporis 
+cae<lb ed="#L" break="no" n="149"/>lestis concurrente semine. j
+</p>
+            <p>
+               <lb ed="#L" n="150"/>Ad evidentiam huius responsionis, considerandum est
+<pb ed="#L" n="204"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod, licet hic non fiat mentio nisi de virtute corporis
+<lb ed="#L" n="2"/>caelestis in productione eorum quae per putrefactionem
+<lb ed="#L" n="3"/>generantur, in VII tamen Metaph., lect. 8, ponit Sanctus
+<lb ed="#L" n="4"/>'Thomas, et est de mente Averrois XII Metaph., commento
+<lb ed="#L" n="5"/>13, quod praeter virtutem corporis caelestis, est etiam in
+<lb ed="#L" n="6"/>materia ex qua generantur huiusmodi animalia, aliquod
+<lb ed="#L" n="7"/>principium simile virtuti activae quae est in semine, ex
+<lb ed="#L" n="8"/>quo huiusmodi animalium animae causantur. Quia tamen
+<lb ed="#L" n="9"/>huiusmodi principium et virtus non provenit ab anima, sicut
+<lb ed="#L" n="10"/>virtus quae est in semine ex quo perfecta animalia 
+gene<lb ed="#L" break="no" n="11"/>rantur, sed tantum a corpore caelesti, in quo virtualiter
+<lb ed="#L" n="12"/>omnes formae generatae sicut in principio activo 
+conti<lb ed="#L" break="no" n="13"/>nentur; ideo generatio horum soli corpori caelesti 
+attri<lb ed="#L" break="no" n="14"/>buitur hoc loco, et in aliis etiam locis , diciturque se habere
+<lb ed="#L" n="15"/>virtutem solis ad horum generationem sicut virtutem 
+for<lb ed="#L" break="no" n="16"/>mativam quae est in semine in generatione perfectorum.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>VII. Utrum autem idem secundum speciem possit ex
+<lb ed="#L" n="18"/>putrefactione et ex semine generari? — videtur, secundum
+<lb ed="#L" n="19"/>Sancti Thomae doctrinam, quod sic. Nam VII Metaph., lect.
+<lb ed="#L" n="20"/>6 et lect. 8, ubi ex proposito hanc materiam determinat,
+<lb ed="#L" n="21"/>tenet hoc de mente Aristotelis esse in naturis imperfectis.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Videtur autem hoc rationabile esse. Nam in multis 
+hu<lb ed="#L" break="no" n="23"/>iusmodi, ut in apibus, quae Commentator videtur dicere
+<lb ed="#L" n="24"/>utroque modo generari, XII Metaph., comment. 18, videmus
+<lb ed="#L" n="25"/>eandem figuram esse, eadem accidentia, easdem 
+operatio<lb ed="#L" break="no" n="26"/>nes, eosdem motus, eademque organa motus; item eadem
+<lb ed="#L" n="27"/>conservantia, eademque corrumpentia; ex quibus solemus
+<lb ed="#L" n="28"/>in cognitionem specierum devenire. Et hac ratione utitur
+<lb ed="#L" n="29"/>Scotus ad confirmationem positionis Sancti Thomae, in
+<lb ed="#L" n="30"/>I Sent., d. 1, q. 7 . Est etiam expressa mens Aristotelis, VII
+<lb ed="#L" n="31"/>Metaph., text. 23, ut etiam ex textu graeco apparet, ubi ait
+<lb ed="#L" n="32"/>quod quaedam eadem et ex spermate fiunt et sine spermate.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>2. Sed circa hoc difficultatem faciunt, primo, verba 
+Ari<lb ed="#L" break="no" n="34"/>stotelis, I de Gen. Animal., cap. 1 et xvr, ubi vult quod
+<lb ed="#L" n="35"/>quae non ex coitu animalium prodeunt, sed ex putri
+<lb ed="#L" n="36"/>materia, licet generent, non tamen sui generis prolem
+<lb ed="#L" n="37"/>procreant.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>3. Secundo, difficultate afferunt quaedam dicta Sancti
+<lb ed="#L" n="39"/>"Thomae quae contrarium sonare videntur. Nam Prima,
+<lb ed="#L" n="40"/>q. Lxxi, a. 1, ad 1, ait quod i/la quae naturaliter 
+gene<lb ed="#L" break="no" n="41"/>rantur ex semine, non possunt naturaliter sine semine
+<lb ed="#L" n="42"/>generari. — Primo quoque Sent., d. x, a. 5, ait quod idem
+<lb ed="#L" n="43"/>in specie non est per putrefactionem et seminationem. —
+<lb ed="#L" n="44"/>De Potentia etiam, q. nmt, a. 11, ad 1, ait quod animalia
+<lb ed="#L" n="45"/>generata ex semine, et ex putrefactione, in genere 
+conve<lb ed="#L" break="no" n="46"/>niunt, et specie differunt. — In de Veritate etiam, q. xr,
+<lb ed="#L" n="47"/>a. 2, ad 4 , videtur admittere quod mures generati ex 
+se<lb ed="#L" break="no" n="48"/>mine nom possunt esse eiusdem speciei,cum illis qui ex
+<lb ed="#L" n="49"/>putrefactione generantur.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>4. Tertio, difficultatem afferunt rationes Averrois, VIII
+<lb ed="#L" n="51"/>Phys., commento 46, et in Paraphrasi de Gen. Animal.,
+<lb ed="#L" n="52"/>lib. I, cap. r. Prima est. Si materiae sunt diversae, et formae
+<lb ed="#L" n="53"/>sunt diversae. Sed constat aliam materiam esse rem putrem,
+<lb ed="#L" n="54"/>et aliam sanguinem menstruum. Ergo etc. - Maior 
+pro<lb ed="#L" break="no" n="55"/>batur. Tum quia alioquin 707 esset forma propria huius
+<lb ed="#L" n="56"/>materiae. Et tunc quodlibet posset ex quolibet generari. —
+<lb ed="#L" n="57"/>Tum quia materiae essent otiosae.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Secunda est. Si sic esset, tunc eadem species esset a
+<lb ed="#L" n="59"/>natura et a casu. Hoc autem est falsum. Tum quia quod
+<lb ed="#L" n="60"/>fit a natura, opponitur ei quod fit a casu. — Tum quia
+<lb ed="#L" n="61"/>nulla species est a casu.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Tertia est. Si quod generatur ex semine, potest idem
+<lb ed="#L" n="63"/>generari ab agente aequivoco per putrefactionem, aut hoc
+<lb ed="#L" n="64"/>fiet de necessitate et semper ; aut in pluribus; aut raro.
+<lb ed="#L" n="65"/>Si primum, ergo nunquam generabitur ex semine. Si 
+se<lb ed="#L" break="no" n="66"/>cundum, ergo naturaliter generabitur aequivoce, et sic raro
+<lb ed="#L" n="67"/>generabitur ex semine: quod falsum esse constat. Si 
+ter<lb ed="#L" break="no" n="68"/>tium, ergo generabitur a casu: hoc autem dictum est 
+su<lb ed="#L" break="no" n="69"/>perius speciei repugnare. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Quarta est. Unius rei est tantum unus modus 
+proce<lb ed="#L" break="no" n="71"/>dendi ex alio. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Ad rationem autem superius adductam pro 
+posi<lb ed="#L" break="no" n="73"/>tione Sancti Thomae, dici posset, ex his quae in 
+Para<lb ed="#L" break="no" n="74"/>phrasi adducta habentur, quod similitudo inter genita per
+<lb ed="#L" n="75"/>putrefactionem et per seminationem, non necessario arguit
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>identitatem specificam : quia sensus non: potest in 
+omni<lb ed="#L" break="no" n="77"/>bus iudicare id in quo species una est aut plures. Nam
+<lb ed="#L" n="78"/>etiam inter naturale et artificiale tanta. poterit esse 
+simi<lb ed="#L" break="no" n="79"/>litudo quod iudicabitur ipsa esse unum secundum speciem :
+<lb ed="#L" n="80"/>ut patet de argento a natura genito, et de argento per
+<lb ed="#L" n="81"/>artem alchimiae producto.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>VIII. Pro solutione istorum dubiorum, sciendum quod
+<lb ed="#L" n="83"/>ea quae ex putrefactione generantur, sunt in duplici 
+dif<lb ed="#L" break="no" n="84"/>ferentia. Quaedam enim sunt quae hunc determinatum
+<lb ed="#L" n="85"/>generationis modum sibi natura vindicant, ut ab agente
+<lb ed="#L" n="86"/>tantum aequivoco, et ex putri materia generentur. 
+Quae<lb ed="#L" break="no" n="87"/>dam vero sunt quae ita ab agente aequivoco ex putri 
+ma<lb ed="#L" break="no" n="88"/>teria generantur, quod etiam ab agente univoco per 
+semi<lb ed="#L" break="no" n="89"/>nationem possunt generari. Utrumque autem genus ex
+<lb ed="#L" n="90"/>suae naturae imperfectione hoc habet ut ab agente 
+aequi<lb ed="#L" break="no" n="91"/>voco generari possit ex materia putri, sed primum genus
+<lb ed="#L" n="92"/>imperfectius est quam secundum: in primo enim genere
+<lb ed="#L" n="93"/>vermes quidam collocantur, et huiusmodi; in secundo
+<lb ed="#L" n="94"/>vero mures, ranae, et similia. Quae primo modo 
+gene<lb ed="#L" break="no" n="95"/>rantur ex putrefactione, constat quod cum nullo genito
+<lb ed="#L" n="96"/>per seminationem idem specie esse possunt: repugnat enim
+<lb ed="#L" n="97"/>quod talis natura per putrefactionem tantum generetur,
+<lb ed="#L" n="98"/>et quod etiam per seminationem. Unde huiusmodi aut
+<lb ed="#L" n="99"/>nullo modo generant: aut, si generant, diversum quiddam
+<lb ed="#L" n="100"/>generant a sua specie, quod nec mas est nec femina, puta
+<lb ed="#L" n="101"/>vermiculos quosdam, ut inquit Aristoteles loco allegato ,
+<lb ed="#L" n="102"/>capite xvr. Quae autem secundo modo generantur, 
+mani<lb ed="#L" break="no" n="103"/>festum est quod: cum aliquo per seminationem producto
+<lb ed="#L" n="104"/>idem secundum speciem esse possunt. Et ideo non 
+in<lb ed="#L" break="no" n="105"/>convenit ut sibi simile secundum speciem generent.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>IX. Ad auctoritatem ergo Aristotelis  dicitur quod non
+<lb ed="#L" n="107"/>est universaliter de omnibus. genitis per putrefactionem
+<lb ed="#L" n="108"/>intelligenda, sed de iis tantum quae ad primum genus
+<lb ed="#L" n="109"/>spectant, quae inquam habent natura ut ex putri tantum
+<lb ed="#L" n="110"/>materia et ab agente aequivoco generentur. Ex his enim
+<lb ed="#L" n="111"/>aliqua sunt quae non generant, secundum Aristotelis 
+men<lb ed="#L" break="no" n="112"/>tem, in praedicto capite, ut culices et vermiculi: aliqua
+<lb ed="#L" n="113"/>vero sunt quae generant quidem, sed alterum genus, ut
+<lb ed="#L" n="114"/>pulices, muscae, et huiusmodi. :
+</p>
+            <p>
+               <lb ed="#L" n="115"/>Si instetur quod sit auctoritas praedicta universaliter
+<lb ed="#L" n="116"/>de omnibus intelligenda, quia ratio quam adducit ad omnia
+<lb ed="#L" n="117"/>se extendit, haec scilicet: Si ex coitu eorum quae non ex
+<lb ed="#L" n="118"/>animalibus orta sunt, animalia orirentur, haec, si eiusdem
+<lb ed="#L" n="119"/>generis essent, primum quoque ortum parentum talem esse
+<lb ed="#L" n="120"/>oporteret. Si autem dissimilia essent, sed quae coire inter
+<lb ed="#L" n="121"/>se possent, rursus ex his alia quaedam natura 
+procrea<lb ed="#L" break="no" n="122"/>retur, et alia ex ea, et iia in infinitum : — dicitur quod 
+<lb ed="#L" n="123"/>haec ratio non universaliter concludit de omnibus; sed
+<lb ed="#L" n="124"/>tantum de primo genere. Nam si ex his quae habent ut
+<lb ed="#L" n="125"/>tantum ex putri materia et ab agente aequivoco generentur,
+<lb ed="#L" n="126"/>produceretur aliquid simile secundum speciem per 
+semi<lb ed="#L" break="no" n="127"/>nationem, sequitur quod et parentes essent talis naturae
+<lb ed="#L" n="128"/>quae posset per seminationem procreari. Hoc autem est
+<lb ed="#L" n="129"/>impossibile, per suppositum. Si etiam masculus et femina
+<lb ed="#L" n="130"/>producerentur diversa a parentibus secundum speciem, et
+<lb ed="#L" n="131"/>ipsa similiter alia diversa procrearent, etsic in infinitum:
+<lb ed="#L" n="132"/>quod abhorret natura. - De secundo autem genere 
+lo<lb ed="#L" break="no" n="133"/>quendo, non est inconveniens, si producant aliquid sui 
+ge<lb ed="#L" break="no" n="134"/>neris, quod et parentes habeant similem ortum: idest, quod
+<lb ed="#L" n="135"/>habeant naturam quae simili modo in ipsis, quantum est
+<lb ed="#L" n="136"/>ex se, procreari potuisset per seminationem.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>X. Ad difficultatem. quae ex verbis Sancti Thomae 
+ori<lb ed="#L" break="no" n="138"/>tur , respondetur.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Ad dictum Primae Partis, dicitur quod non intendit
+<lb ed="#L" n="140"/>negare Sanctus Thomas quin aliqua genita ex semine 
+pos<lb ed="#L" break="no" n="141"/>sint etiam eadem secundum speciem ex putri materia 
+ge<lb ed="#L" break="no" n="142"/>nerari; sed quod ea quae ex inclinatione et virtute activa
+<lb ed="#L" n="143"/>propriae naturae generantur ex semine, non possunt, ex
+<lb ed="#L" n="144"/>virtute huiusmodi suae naturae, per putrefactionem 
+gene<lb ed="#L" break="no" n="145"/>rari; virtus enim activa unius naturae ad unum modum
+<lb ed="#L" n="146"/>producendi determinatur. Huic autem non repugnat quod
+<lb ed="#L" n="147"/>possint per virtutem corporis caelestis, gerentem. vicem
+<lb ed="#L" n="148"/>virtutis talis naturae, ex putri materia generari,
+</p>
+            <p>
+               <lb ed="#L" n="149"/>Ad dictum Primi Semt., dicitur similiter quod sensus
+<lb ed="#L" n="150"/>illorum verborum est, idem in specie non esse, virtute
+<pb ed="#L" n="205"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>activa suae naturae, utroque illorum modorum, — Potest
+<lb ed="#L" n="2"/>etiam dici sensum esse quod idem in specie non 
+produ<lb ed="#L" break="no" n="3"/>citur per se ex seminatione et putrefactione, ad causas
+<lb ed="#L" n="4"/>particulares comparando. Nam, ut inquit Sanctus Thomas
+<lb ed="#L" n="5"/>VII Metaph., generatio animalis ex putrefactione, si ad
+<lb ed="#L" n="6"/>causas particulares hic inferius agentes referatur, 
+inve<lb ed="#L" break="no" n="7"/>nitur per accidens et casualis: quia praeter intentionem
+<lb ed="#L" n="8"/>caloris, qui putredinem causat, est quod ex putrefactione
+<lb ed="#L" n="9"/>hoc animal generetur.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>Ad dictum in Qu. de Potentia, dicitur quod intelligitur
+<lb ed="#L" n="11"/>de iis quae ex putrefactione tantum, propter summam 
+na<lb ed="#L" break="no" n="12"/>turae imperfectionem, habent generari: non autem 
+uni<lb ed="#L" break="no" n="13"/>versaliter de omni per putrefactionem genito. Hunc autem
+<lb ed="#L" n="14"/>sensum exprimit III. Sent, d. xxxur , a. 2, qu. 4, ad 1,
+<lb ed="#L" n="15"/>si bene inspiciatur.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Ad dictum ex Qu. de Ver., potest primo dici, quod 
+se<lb ed="#L" break="no" n="17"/>cundum mentem Commentatoris loquitur. Unde et in
+<lb ed="#L" n="18"/>arguendo ipsum allegat. - Potest secundo dici, quod non
+<lb ed="#L" n="19"/>loquitur universaliter de toto genere murium ex 
+putre<lb ed="#L" break="no" n="20"/>factione genitorum, sed de. quadam eorum specie 
+deter<lb ed="#L" break="no" n="21"/>minata, quae ex putrefactione tantum generari potest. Talis
+<lb ed="#L" n="22"/>enim species distinguitur ab illa specie murium qui et ex
+<lb ed="#L" n="23"/>seminatione et ex putrefactione possunt generari.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>XI. Ad rationes deinde ex Averroe sumptas 
+respon<lb ed="#L" break="no" n="25"/>detur.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Ad primam quidem dicitur quod materia proxima rei
+<lb ed="#L" n="27"/>duplex est: una inexistens ac permanens in re genita,
+<lb ed="#L" n="28"/>sicut caro et os materia humani corporis sunt; alia vero
+<lb ed="#L" n="29"/>transiens et in' re genita non permanens, sicut sanguis
+<lb ed="#L" n="30"/>menstruus corporis humani materia est. Si maior de prima
+<lb ed="#L" n="31"/>materia intelligatur, ipsa est universaliter vera. Sed dicitur
+<lb ed="#L" n="32"/>quod materia talis in genitis ex semine et ex putrefactione 
+<lb ed="#L" n="33"/>quae eiusdem speciei sunt, eiusdem est rationis in utrisque 
+<lb ed="#L" n="34"/>non enim virtute caelestis corporis ex putri materia tale
+<lb ed="#L" n="35"/>animal generatur nisi per ipsam virtutem ad eam materiae
+<lb ed="#L" n="36"/>dispositionem reducatur quam talis forma requirit. — Si
+<lb ed="#L" n="37"/>vero intelligatur de secunda materia, ipsa habet veritatem
+<lb ed="#L" n="38"/>in naturis tantum perfectis. Nam sunt naturae aliquae quae
+<lb ed="#L" n="39"/>non tantum ex materia ad aliquam certam perfectionem
+<lb ed="#L" n="40"/>reducta, tanquam ex materia transeunte, produci possunt,
+<lb ed="#L" n="41"/>sed etiam ex materia imperfecte disposita et putri.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Ad primam eius probationem dicitur quod, licet 
+cu<lb ed="#L" break="no" n="43"/>iuslibet materiae specificae sit una forma specifica propria
+<lb ed="#L" n="44"/>ex qua constituitur, non tamen oportet ut cuiuslibet 
+hu<lb ed="#L" break="no" n="45"/>iusmodi materiae sit una propria forma, quae scilicet ex
+<lb ed="#L" n="46"/>ipsa sola materia educi possit. Videmus enim in homine
+<lb ed="#L" n="47"/>quod ex cibis diversarum specierum sanguinis natura 
+ge<lb ed="#L" break="no" n="48"/>neratur. - Non tamen sequitur quod quodlibet possit ex
+<lb ed="#L" n="49"/>quolibet generari. Determinat enim sibi forma materiam
+<lb ed="#L" n="50"/>alicuius generis determinati, ita quod ex materia extra
+<lb ed="#L" n="51"/>illud genus educi non posset, licet ex speciebus pluribus
+<lb ed="#L" n="52"/>illius generis educatur: licet enim ex multis speciebus 
+re<lb ed="#L" break="no" n="53"/>rum generetur sanguis, non tamen ex unaquaque re.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Ad secundam quoque probationem, patet quod 
+conse<lb ed="#L" break="no" n="55"/>quentia falsa est.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>2. Ad secundam rationem dicitur, iuxta. doctrinam 
+Ari<lb ed="#L" break="no" n="57"/>stotelis VII Metaph., text. 22, et Sancti Thomae ibidem ,
+<lb ed="#L" n="58"/>quod non inconvenit aliquam speciem secundum aliquod
+<lb ed="#L" n="59"/>sui individuum fieri a natura, et secundum aliud fieri
+<lb ed="#L" n="60"/>a casu, si ad causas particulares fiat relatio. Unde negatur
+<lb ed="#L" n="61"/>falsitas consequentis, si ad ipsas causas particulares 
+hu<lb ed="#L" break="no" n="62"/>iusmodi generatio referatur. — Si autem in virtutem 
+cae<lb ed="#L" break="no" n="63"/>lestem referatur generatio ex putrefactione, negatur 
+con<lb ed="#L" break="no" n="64"/>sequentia. Est enim, ut dicit ibidem Sanctus "Thomas, de
+<lb ed="#L" n="65"/>intentione virtutis caelestis ut educantur in actu omnes
+<lb ed="#L" n="66"/>formae quae sunt in potentia materiae. :
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Ad primam improbationem consequentis, dicitur quod,
+<lb ed="#L" n="68"/>licet fieri a natura et fieri a casu sint modi ex se oppositi,
+<lb ed="#L" n="69"/>non inconvenit tamen ut, in ordine ad diversas causas, uni
+<lb ed="#L" n="70"/>et eidem speciei conveniant. Inventio enim thesauri quae
+<lb ed="#L" n="71"/>ab uno est intenta, alteri evenit per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Ad secundam dicitur quod, licet nulla tota species sit
+<lb ed="#L" n="73"/>a casu, non inconvenit tamen quod aliquod individuum
+<lb ed="#L" n="74"/>speciei, in ordine ad aliquam causarum inferiorum, 
+eve<lb ed="#L" break="no" n="75"/>niat a casu.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>3. Ad tertiam rationem dicitur primo quod, si absolute
+<lb ed="#L" n="77"/>loquamur, rarius huiusmodi animal generatur. ex 
+putre<lb ed="#L" break="no" n="78"/>factione quam ex seminatione.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Dicitur secundo quod, si in causam caelestem 
+gene<lb ed="#L" break="no" n="80"/>ratio ex putrefactione referatur, in pluribus evenit: pro
+<lb ed="#L" n="81"/>maiori enim parte ex materia taliter putrefacta virtus 
+cae<lb ed="#L" break="no" n="82"/>lestis. animal huiusmodi generat. Ut enim superius de
+<lb ed="#L" n="83"/>mente Sancti Thomae dictum est, de intentione virtutis
+<lb ed="#L" n="84"/>caelestis est ut omnes. formae. quae in materia sunt in
+<lb ed="#L" n="85"/>potentia, educantur in actu. ldeo, sicut aliae causae 
+na<lb ed="#L" break="no" n="86"/>turales effectus ad quos naturaliter inclinantur, pro 
+ma<lb ed="#L" break="no" n="87"/>iori parte, si in materiam agant dispositam, producunt,
+<lb ed="#L" n="88"/>ita et de caelo dicendum est,
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Cum autem contra primum dictum instatur, quia tunc
+<lb ed="#L" n="90"/>species esset a casu: — negatur consequentia. Quod enim
+<lb ed="#L" n="91"/>absolute aliquid raro eveniat, non facit ut a casu evenire
+<lb ed="#L" n="92"/>dicatur: alioquin coniunctio omnium planetarum. in signo
+<lb ed="#L" n="93"/>Piscium, quae rarissime evenit, diceretur a casu esse. Sed
+<lb ed="#L" n="94"/>tunc dicitur aliquid a casu accidere quando, praeter 
+intentio<lb ed="#L" break="no" n="95"/>nem agentis, eius effectui raro coniungitur, ut ex II 
+Physi<lb ed="#L" break="no" n="96"/>corum patet.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Cum etiam contra secundum dictum arguitur, quia
+<lb ed="#L" n="98"/>tunc tale animal naturaliter aequivoce generabitur: dicitur
+<lb ed="#L" n="99"/>quod hoc non est inconveniens. Dictum est enim et quod
+<lb ed="#L" n="100"/>huiusmodi animalia, propter imperfectionem suae naturae,
+<lb ed="#L" n="101"/>habent ut ab agente aequivoco produci possunt ; et quod
+<lb ed="#L" n="102"/>virtus caelestis ad horum generationem inclinatur .
+</p>
+            <p>
+               <lb ed="#L" n="103"/>4. Ad quartam rationem, potest primo responderi quod
+<lb ed="#L" n="104"/>assumptum illud habet veritatem in naturis tantum 
+per<lb ed="#L" break="no" n="105"/>fectis, non autem in naturis imperfectis.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Potest secundo responderi quod habet veritatem de
+<lb ed="#L" n="107"/>modo quo a supposito naturae ipsa natura communicatur.
+<lb ed="#L" n="108"/>Nam, cum suppositum naturae, inquantum huiusmodi, non
+<lb ed="#L" n="109"/>generet nisi virtute activa talis naturae; virtus autem 
+na<lb ed="#L" break="no" n="110"/>turae ad unum modum communicationis limitetur: 
+se<lb ed="#L" break="no" n="111"/>quitur quod ipsum naturae suppositum uno tantum modo
+<lb ed="#L" n="112"/>generat. Huic autem non repugnat quod a virtute 
+uni<lb ed="#L" break="no" n="113"/>versali possit etiam talis natura alio modo communicari.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Si autem contra hoc instetur, quia productiones 
+di<lb ed="#L" break="no" n="115"/>versarum rationum ad terminos specie distinctos 
+termi<lb ed="#L" break="no" n="116"/>nantur, cum motus accipiant speciem ex terminis: — dicitur
+<lb ed="#L" n="117"/>quod hoc verum est de productionibus quae sunt 
+diver<lb ed="#L" break="no" n="118"/>sarum rationum essentialiter, non autem de iis quae 
+ac<lb ed="#L" break="no" n="119"/>cidentaliter sunt diversarum rationum, cuiusmodi sunt 
+ge<lb ed="#L" break="no" n="120"/>neratio per putrefactionem, et generatio per seminationem,
+<lb ed="#L" n="121"/>eiusdem naturae specificae. Haec enim non sunt diversarum
+<lb ed="#L" n="122"/>rationum nisi quia una est ab agente univoco, alia vero
+<lb ed="#L" n="123"/>ab agente aequivoco, non quidem ut ab agente univoco
+<lb ed="#L" n="124"/>distinguitur, sed ut ipsius agentis univoci virtutem in se
+<lb ed="#L" n="125"/>continet.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>5. Attendendum autem quod, licet Commentator, ex
+<lb ed="#L" n="127"/>rationibus adductis, videatur opinioni Sancti Thomae 
+re<lb ed="#L" break="no" n="128"/>pugnare; ex iis tamen quae alibi dicit, videtur quod illi
+<lb ed="#L" n="129"/>opinioni concordet. Nam de igne, quem constat aliquando
+<lb ed="#L" n="130"/>ab agente univoco generari, ponit, III Caeli, commento 56,
+<lb ed="#L" n="131"/>et XII Metaph., commento 18, quod etiam per motum
+<lb ed="#L" n="132"/>localem, et ex lapide, et consequenter ab agente aequivoco
+<lb ed="#L" n="133"/>generetur. Propter quod videtur aliquibus quod dictum
+<lb ed="#L" n="134"/>ipsius VIII Phys., sit de naturis perfectis dumtaxat, de
+<lb ed="#L" n="135"/>quibus tantum ibi exemplificat, intelligendum.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>6. Ad responsionem autem quae data est ad rationem
+<lb ed="#L" n="137"/>pro opinione Sancti Thomae , dicitur quod non satisfacit.
+<lb ed="#L" n="138"/>Dato enim quod aliquando, propter similitudinem in figura
+<lb ed="#L" n="139"/>et colore, non possimus perspicuo diversitatem aliquorum
+<lb ed="#L" n="140"/>specificam cernere; similitudo tamen in figura, et 
+ope<lb ed="#L" break="no" n="141"/>ratione, et motu atque motuum organis, convenientiaque
+<lb ed="#L" n="142"/>in eisdem conservantibus et corrumpentibus, non videtur
+<lb ed="#L" n="143"/>esse inter ea quae diversa sunt specie. Et ideo 
+conve<lb ed="#L" break="no" n="144"/>nientia in istis identitatis specificae sufficiens indicium est.
+<lb ed="#L" n="145"/>Non enim a posteriori aliter in cognitionem unitatis aut
+<lb ed="#L" n="146"/>diversitatis specificae devenimus nisi ex horum 
+considera<lb ed="#L" break="no" n="147"/>tione.
+</p>
+            <p>
+               <lb ed="#L" n="148"/>XII. Ad primam rationem Avicebron , dicit primo 
+San<lb ed="#L" break="no" n="149"/>ctus Thomas quod quantitas non impedit actionem 
+for<lb ed="#L" break="no" n="150"/>mae nisi. per accidens, inquantum omnis quantitas con-
+<pb ed="#L" n="206"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tinua est in materia: forma autem quae est in materia,
+<lb ed="#L" n="2"/>cum sit minoris actualitatis; est etiam minoris virtutis in
+<lb ed="#L" n="3"/>agendo.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Dicit secundo quod, supposito modo actionis quam
+<lb ed="#L" n="5"/>forma in materia existens habere potest, quantitas non
+<lb ed="#L" n="6"/>minuit, sed magis auget actionem et motum naturalem:
+<lb ed="#L" n="7"/>licet corpora gravia sint tardioris motus innaturalis, cum
+<lb ed="#L" n="8"/>fuerint maioris quantitatis.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Circa illam propositionem, Omnis quantitas. continua
+<lb ed="#L" n="10"/>est in materia, adverte quod determinat ' se Sanctus 
+Tho<lb ed="#L" break="no" n="11"/>mas ad quantitatem continuam: et quia de illa intendebat
+<lb ed="#L" n="12"/>obiectio; et quia secundum aliquos quantitas discreta 
+in<lb ed="#L" break="no" n="13"/>venitur etiam in rebus immaterialibus. Licet enim apud
+<lb ed="#L" n="14"/>ipsum quantitas discreta inveniatur tantum in rebus 
+ma<lb ed="#L" break="no" n="15"/>terialibus, sicut et continua ; ut tamen absolutior sit eius
+<lb ed="#L" n="16"/>responsio, et magis a calumnia aliena, determinavit se ad
+<lb ed="#L" n="17"/>quantitatem continuam, de qua nullus in via Aristotelis
+<lb ed="#L" n="18"/>dubitat quin materiam consequatur.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Ad secundam dicit primo quod, licet corporale 
+sub<lb ed="#L" break="no" n="20"/>stantia sit infima in ordine rerum, non tamen oportet ut
+<lb ed="#L" n="21"/>omne corpus careat actione: quia etiam inter corpora
+<lb ed="#L" n="22"/>unum est superius, et formalius, et magis activum altero;
+<lb ed="#L" n="23"/>ut patet de igne respectu inferiorum. corporum.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>Dicit secundo, quod nec etiam infimum corpus 
+exclu<lb ed="#L" break="no" n="25"/>ditur ab agendo. Quia omne corpus agit secundum suam
+<lb ed="#L" n="26"/>formam, ad. — comparatur aliud. corpus secundum
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="27"/>suam materiam ut subiectum, inquantum eius materia est
+<lb ed="#L" n="28"/>in potentia ad formam agentis. Quod si e converso etiam
+<lb ed="#L" n="29"/>ad formam corporis patientis sit in potentia materia 
+cor<lb ed="#L" break="no" n="30"/>poris agentis, erunt agentia 'et patientia ad invicem: ut in
+<lb ed="#L" n="31"/>elementis accidit. Sin autem, unum erit agens tantum, 
+al<lb ed="#L" break="no" n="32"/>terum vero tantum patiens respectu ilios: sicut se habet
+<lb ed="#L" n="33"/>caelum ad elementa.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>3. Ad tertiam respondet negando quod corpus sit in
+<lb ed="#L" n="35"/>maxima distantia a Deo. Materia. enim prima, quae est
+<lb ed="#L" n="36"/>pura potentia, est illa quae maxime distat a. Deo, qui est
+<lb ed="#L" n="37"/>actus purus. Ideo ipsius est pati tantum, non autem agere.
+<lb ed="#L" n="38"/>Corpora vero accedunt ad divinam similitudinem 
+inquan<lb ed="#L" break="no" n="39"/>tum habent formam. Ideo agunt secundum quod formam
+<lb ed="#L" n="40"/>habent, patiuntur vero secundum quod habent materiam:
+</p>
+            <p>
+               <lb ed="#L" n="41"/>XIII. Ad rationem Maurorum  respondet quod ridicula
+<lb ed="#L" n="42"/>est. Quia non dicitur corpus calidum  calefacere quasi
+<lb ed="#L" n="43"/>idem numero calor qui est in calefaciente corpore, 
+trans<lb ed="#L" break="no" n="44"/>eat in corpus calefactum: sed. quia virtute eius fit alius
+<lb ed="#L" n="45"/>calor numero actu. in corpore calefacto, qui prius erat in
+<lb ed="#L" n="46"/>eo in potentia. Et hoc est commune omni agenti naturali.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Adverte ex Sancto Thoma, Pot. q. mr, a. 7, quod illa
+<lb ed="#L" n="48"/>propositio, Jdem accidens non migrat de subiecto in 
+sub<lb ed="#L" break="no" n="49"/>iectum, intelligitur de eodem accidente secundum 
+mu<lb ed="#L" break="no" n="50"/>merum: non autem quin simile secundum speciem, virtute
+<lb ed="#L" n="51"/>accidentis in aliquo subiecto existentis, in piod subiectum
+<lb ed="#L" n="52"/>induci possit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

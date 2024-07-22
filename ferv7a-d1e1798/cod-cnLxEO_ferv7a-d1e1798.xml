@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 11</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 11</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="32"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1798"><!-- ferv7a-l3c11 -->
+            <head xml:id="ferv7a-d1e1798-Hd1e101">Capitulum 11</head>
+            <p xml:id="ferv7a-d1e1798-d1e103">
+               <pb ed="#L" n="32"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=32"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e112">
+               <lb ed="#L" n="2"/>CUM ostensum sit bonum esse causam per accidens
+<lb ed="#L" n="3"/>mali, ostendit nunc Sanctus Thomas particulariter
+<lb ed="#L" n="4"/>quod est eius causa subiectiva . Circa hoc autem duo facit:
+<lb ed="#L" n="5"/>primo, ostendit propositum; secundo, infert unum 
+corol<lb ed="#L" break="no" n="6"/>larium, capite sequenti.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e125">
+               <lb ed="#L" n="7"/>Circa primum duo facit: primo, ostendit quod omne
+<lb ed="#L" n="8"/>malum in aliquo bono fundatur; secundo, removet unum
+<lb ed="#L" n="9"/>dubium .
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e134">
+               <lb ed="#L" n="10"/>I. Arguitur igitur primo sic. Malum non est per se
+<lb ed="#L" n="11"/>existens: cum non habeat essentiam. Ergo est in aliquo
+<lb ed="#L" n="12"/>subiecto. Ergo est in aliquo bono: quia omne subiectum,
+<lb ed="#L" n="13"/>cum.sit substantia quaedam, bonum quoddam est.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e146">
+               <lb ed="#L" n="14"/>Posset autem aliquis ad hanc rationem negare primam
+<lb ed="#L" n="15"/>consequentiam. Quia licet malum non habeat essentiam,
+<lb ed="#L" n="16"/>non oportet tamen ut sit in subiecto: cum sit negatio,
+<lb ed="#L" n="17"/>et nullum habeat esse reale.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e157">
+               <lb ed="#L" n="18"/>Sed ista responsio non tollit rationem. Quia aliter 
+lo<lb ed="#L" break="no" n="19"/>quendum est de simplici negatione; et aliter de 
+priva<lb ed="#L" break="no" n="20"/>tione, cuiusmodi est malum formaliter sumptum. Nam
+<lb ed="#L" n="21"/>simplex negatio, cum etiam de non ente dicatur, non 
+re<lb ed="#L" break="no" n="22"/>quirit aliquod subiectum. Privatio autem et malum est
+<lb ed="#L" n="23"/>negatio circa determinatum subiectum: et ideo non 
+de<lb ed="#L" break="no" n="24"/>nominat nisi ens. Propterea, cum malum sit in rebus, ut
+<lb ed="#L" n="25"/>superius  est ostensum; et non sit per se subsistens:
+<lb ed="#L" n="26"/>oportet quod sit in alio tanquam in subiecto; non quidem
+<lb ed="#L" n="27"/>ut ens aut dicens aliquam essentiam, sed sicut privatio 
+perfe<lb ed="#L" break="no" n="28"/>ctionis, iuxta praedeterminata , inquantum vere potest de
+<lb ed="#L" n="29"/>aliquo affirmari propter absentiam formae ab illo subiecto.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e186">
+               <lb ed="#L" n="30"/>2. Secundo. Subiectum formae est ens in potentia ad
+<lb ed="#L" n="31"/>formam. Quod bonum est: cum in eodem genere sit 
+po<lb ed="#L" break="no" n="32"/>tentia et actus. Ergo et malum est in bono sicut in 
+su<lb ed="#L" break="no" n="33"/>biecto: cum malum sit privatio, forma autem et privatio
+<lb ed="#L" n="34"/>sint in eodem subiecto.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e199">
+               <lb ed="#L" n="35"/>Posset ad hanc rationem negari quod ens in potentia
+<lb ed="#L" n="36"/>sit bonum. Quia, si ex eo quod ordinatur ad bonum 
+di<lb ed="#L" break="no" n="37"/>citur bonum, eadem ratione, cum ordinetur ad malum,
+<lb ed="#L" n="38"/>scilicet ad privationem, cuius est susceptiva, erit malum.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e210">
+               <lb ed="#L" n="39"/>Respondetur: et dicitur primo quod, ut superius  
+di<lb ed="#L" break="no" n="40"/>cebatur, materia ad bonum ordinatur per se, ad malum
+<lb ed="#L" n="41"/>autem et privationem per accidens: aut videlicet 
+inquan<lb ed="#L" break="no" n="42"/>tum est susceptiva formae amissibiliter; aut quia est 
+su<lb ed="#L" break="no" n="43"/>sceptiva formae cui coniungitur privatio alterius formae.
+<lb ed="#L" n="44"/>Ideo ex ordine ad bonum dicitur bonum quoddam: non
+<lb ed="#L" n="45"/>autem ex ordine ad malum dicitur mala.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e228">
+               <lb ed="#L" n="46"/>Dicitur secundo, ut superius, capite vr, dictum est, quod
+<lb ed="#L" n="47"/>privatio formae non est malum materiae: quia nulla forma
+<lb ed="#L" n="48"/>determinata est debita materiae, licet sit omnium 
+susce<lb ed="#L" break="no" n="49"/>ptiva; malum autem dicitur privatio formae debitae inesse.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e240">
+               <lb ed="#L" n="50"/>3. Tertio. Malum dicitur quia nocet. Sed non nocet
+<lb ed="#L" n="51"/>nisi bono. Ergo est in bono. — Patet consequentia. Quia
+<lb ed="#L" n="52"/>non noceret formaliter bono nisi esset in ipso. - Minor
+<lb ed="#L" n="53"/>vero probatur. Quia nocere malo est bonum: cum 
+cor<lb ed="#L" break="no" n="54"/>ruptio mali sit bona.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e253">
+               <lb ed="#L" n="55"/>Circa hanc propositionem, Malum non noceret 
+forma<lb ed="#L" break="no" n="56"/>liter bono nisi esset in bono, advertendum est quod ideo
+<lb ed="#L" n="57"/>addidit Sanctus Thomas ly formaliter, quia aliquid nocet
+<lb ed="#L" n="58"/>dupliciter, ut dicitur Secundo, d. xxxv, a. 1, ad 3: 
+sci<lb ed="#L" break="no" n="59"/>licet formaliter, et hoc est ipsum nocumentum, sive ipsa
+<lb ed="#L" n="60"/>boni ademptio vel privatio; et effective, et hoc est quod
+<lb ed="#L" n="61"/>causat privationem boni. Quod ergo active alicui. nocet,
+<lb ed="#L" n="62"/>ut sic, non est in. eo quantum ad proximum susceptivum
+<lb ed="#L" n="63"/>nocumenti: sed bene quod formaliter nocet.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e275">
+               <lb ed="#L" n="64"/>4. Quarto. Malum causatur a bono per accidens.
+<lb ed="#L" n="65"/>Ergo etc. — Probatur consequentia. Quia, cum omne per
+<lb ed="#L" n="66"/>accidens reducatur ad per se et in ipso fundetur, oportet
+<lb ed="#L" n="67"/>ut cum malo, qui est effectus per accidens boni, sit bonum
+<lb ed="#L" n="68"/>aliquod qui est effectus per se, in quo malum fundetur.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e288">
+               <lb ed="#L" n="69"/>II. Quantum ad secundum, removet Sanctus Thomas
+<lb ed="#L" n="70"/>dubium quoddam. Videtur enim primo aspectu quod
+<lb ed="#L" n="71"/>malum non sit in bono: cum sint opposita.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e297">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="72"/>Sed respondet quod, cum bonum communiter dicatur,
+<lb ed="#L" n="73"/>sicut et ens; sicut non est inconveniens quod non ens
+<lb ed="#L" n="74"/>sit in ente, sicut privatio in substantia, ita non est 
+in<lb ed="#L" break="no" n="75"/>conveniens quod malum sit in bono.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e310">
+               <lb ed="#L" n="76"/>Dicitur tamen secundo quod, sicut non ens non est
+<lb ed="#L" n="77"/>in ente sibi opposito, sed in alio, sicut caecitas non est
+<lb ed="#L" n="78"/>in visu, sed in animali; ita et malum non est in bono
+<lb ed="#L" n="79"/>sibi opposito, sed in alio; sicut malum moris est in bono
+<lb ed="#L" n="80"/>naturae; et malum naturae, quod est privatio formae, est
+<lb ed="#L" n="81"/>in materia, quae est bonum, sicut etiam  ens in potentia.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e327">
+               <lb ed="#L" n="82"/>III. Ad huius evidentiam, considerandum est quod 
+bo<lb ed="#L" break="no" n="83"/>num et malum dupliciter considerari possunt. Uno modo,
+<lb ed="#L" n="84"/>quantum ad communem naturam, ut ita dixerim, 
+utrius<lb ed="#L" break="no" n="85"/>que, secundum praecisionem ab inferioribus. Et quia sic
+<lb ed="#L" n="86"/>unum tollit totaliter reliquum, utpote illi directe 
+oppo<lb ed="#L" break="no" n="87"/>situm, unum in alio esse non potest. Unde si poneretur
+<lb ed="#L" n="88"/>aliquid per se bonum existere, tanquam universalis natura
+<lb ed="#L" n="89"/>boni, in ipso nullum malum esse posset: sicut patet in
+<lb ed="#L" n="90"/>Deo, qui est ipsa bonitas per se subsistens, in quo nullum
+<lb ed="#L" n="91"/>est malum. Et si aliquid esset per se et universale malum,
+<lb ed="#L" n="92"/>nullum bonum includeret. Sed quia hoc esse non potest,
+<lb ed="#L" n="93"/>cum malum dicat negationem boni in subiecto, ideo 
+in<lb ed="#L" break="no" n="94"/>quit Aristoteles, IV .Ethic., quod seipsum destrueret.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e358">
+               <lb ed="#L" n="95"/>2. Alio modo, quantum ad hoc particulare bonum et
+<lb ed="#L" n="96"/>malum. Et tunc dupliciter etiam unumquodque illorum
+<lb ed="#L" n="97"/>considerari potest. Uno modo, secundum universales 
+ra<lb ed="#L" break="no" n="98"/>tiones boni et mali in ipsis salvatas. Et sic quodlibet malum
+<lb ed="#L" n="99"/>cuilibet bono opponitur. Et secundum hoc dicit 
+Augusti<lb ed="#L" break="no" n="100"/>nus quod fallit dialecticorum regula, quae dicit contraria
+<lb ed="#L" n="101"/>simul esse non posse: quia sic malum invenitur in eo cui
+<lb ed="#L" n="102"/>universalis ratio boni convenit. Cum enim bonum, 
+uni<lb ed="#L" break="no" n="103"/>versaliter sumptum, non dicat aliquam determinatam 
+per<lb ed="#L" break="no" n="104"/>fectionem, sed perfectionem in communi, quicquid 
+per<lb ed="#L" break="no" n="105"/>fectionis res habeat, dicitur bona. Similiter quacumque
+<lb ed="#L" n="106"/>perfectione sibi debita careat, dicitur mala. Et sic, propter
+<lb ed="#L" n="107"/>amplitudinem rationis boni et mali, potest esse ut idem
+<lb ed="#L" n="108"/>secundum aliquid sit bonum, et secundum aliquid sit 
+ma<lb ed="#L" break="no" n="109"/>lum; et rationes quae, universaliter sumptae, sunt 
+oppo<lb ed="#L" break="no" n="110"/>sitae, in eodem possunt simul inveniri respectu 
+diverso<lb ed="#L" break="no" n="111"/>rum; sicut idem animal carens visu est simul bonum et
+<lb ed="#L" n="112"/>malum, bonum inquantum est ens in actu, malum 
+in<lb ed="#L" break="no" n="113"/>quantum caret perfectione. Propter hoc Sanctus Thomas
+<lb ed="#L" n="114"/>assignat pro ratione quare simul esse possint bonum et
+<lb ed="#L" n="115"/>malum, et unum in altero fundari, ipsam boni 
+amplitu<lb ed="#L" break="no" n="116"/>dinem et illimitationem. - Nec tamen sequitur quod 
+con<lb ed="#L" break="no" n="117"/>tradictoria simul vera sint, si idem sit bonum et malum:
+<lb ed="#L" n="118"/>quia non secundum idem, sed secundum diversa dicitur
+<lb ed="#L" n="119"/>bonum et malum.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e415">
+               <lb ed="#L" n="120"/>Alio modo considerari possunt bonum particulare et
+<lb ed="#L" n="121"/>malum secundum eorum particulares rationes. Et sic non
+<lb ed="#L" n="122"/>quodlibet malum opponitur cuilibet bono directe, sed 
+de<lb ed="#L" break="no" n="123"/>terminato bono: iniustitia enim opponitur iustitiae, non
+<lb ed="#L" n="124"/>autem temperantiae. Et hoc modo non est malum in bono
+<lb ed="#L" n="125"/>opposito, sed in alio bono: non enim iniustitia est in iustitia,
+<lb ed="#L" n="126"/>sed in anima; neque caecitas est in visu, sed in animali.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e433">
+               <lb ed="#L" n="127"/>3. Sed occurrit dubium. Quia Sanctus Thomas Prima,
+<lb ed="#L" n="128"/>q. xrvirr, a. 3, ad 3, et in aliis locis, videtur approbare 
+sen<lb ed="#L" break="no" n="129"/>tentiam Augustini dicentis in bono et malo fallere regulam
+<lb ed="#L" n="130"/>dialecticorum ; in QQ. autem de Malo, q. 1, a. 2, ad 5, dicit
+<lb ed="#L" n="131"/>quod non fallit etiam in iis regula secundum veritatem,
+<lb ed="#L" n="132"/>sed secundum quandam apparentiam, prout malum 
+abso<lb ed="#L" break="no" n="133"/>lute dictum et bonum videntur oppositionem habere.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e451">
+               <lb ed="#L" n="134"/>Dici ad hoc potest utrumque dictum verum esse, sed
+<lb ed="#L" n="135"/>diversimode. Nam si in bono et malo particulari 
+conside<lb ed="#L" break="no" n="136"/>rentur tantum universales rationes boni et mali, secundum
+<lb ed="#L" n="137"/>veritatem fallit illa regula: quia tunc unum oppositorum
+<lb ed="#L" n="138"/>est in altero. Ratio enim communis boni, et communis
+<lb ed="#L" n="139"/>ratio mali, sunt rationes oppositae: et ideo unumquodque
+<lb ed="#L" n="140"/>malum, inquantum malum, absolute opponitur unicuique
+<lb ed="#L" n="141"/>bono, inquantum absolute bonum est. Si autem in ipsis
+<pb ed="#L" n="33"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>considerentur particulares rationes boni et mali, sic fallit
+<lb ed="#L" n="2"/>regula secundum apparentiam tantum. Nam quia in hoc
+<lb ed="#L" n="3"/>particulari bono salvatur universalis ratio boni, et in hoc
+<lb ed="#L" n="4"/>particulari malo universalis ratio mali, videtur quod 
+quod<lb ed="#L" break="no" n="5"/>libet malum, etiam secundum particularem rationem, 
+con<lb ed="#L" break="no" n="6"/>trarietur cuilibet bono, ut tale bonum est, propter 
+con<lb ed="#L" break="no" n="7"/>trarietatem boni et mali in universali;.et sic, dum hoc 
+<lb ed="#L" n="8"/>malum est in hoc bono, videtur quod unum oppositorum
+<lb ed="#L" n="9"/>sit in alio. Sed non est sic: quia non quodlibet malum
+<lb ed="#L" n="10"/>contrariatur cuilibet bono, si secundum suas particulares
+<lb ed="#L" n="11"/>rationes sumantur; licet secundum universales rationes
+<lb ed="#L" n="12"/>boni et mali habeant oppositionem.
+</p>
+            <p xml:id="ferv7a-d1e1798-d1e501">
+               <lb ed="#L" n="13"/>IV. Circa illam. propositionem, Malum naturae, quod
+<lb ed="#L" n="14"/>est privatio formae, est in materia, quae est bonum, sicut
+<lb ed="#L" n="15"/>etiam ens in potentia , considerandum quod materiam esse
+<lb ed="#L" n="16"/>bonum sicut etiam ens in potentia, duplicem sensum 
+ha<lb ed="#L" break="no" n="17"/>bere potest. Unus est, quod est bonum in potentia, non
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="18"/>autem in actu, sicut non est ens in actu, sed in potentia,
+<lb ed="#L" n="19"/>Alius est quod, sicut est ens in potentia, ita est bonum
+<lb ed="#L" n="20"/>in actu. Et uterque sensus quantum ad. aliquid est verus.
+<lb ed="#L" n="21"/>Dupliciter enim de bonitate materiae primae loqui 
+pos<lb ed="#L" break="no" n="22"/>sumus. Uno modo, de bonitate quam habet a forma, dum
+<lb ed="#L" n="23"/>ipsa actualiter informatur: et sic non est bona nisi in 
+po<lb ed="#L" break="no" n="24"/>tentia dum caret ipsa forma. Alio modo, de bonitate quam
+<lb ed="#L" n="25"/>habet ab ipso ordine ad formam: et sic est aliquid bonum
+<lb ed="#L" n="26"/>aliquo modo in actu. Ipse enim ordo, et ipsa aptitudo ad
+<lb ed="#L" n="27"/>bonum, est bonum quoddam, ratione termini quem 
+re<lb ed="#L" break="no" n="28"/>spicit. Et omne ordinatum ad bonum, ut sic, habet 
+ra<lb ed="#L" break="no" n="29"/>tionem boni: unde et utilia cadunt sub divisione boni.
+<lb ed="#L" n="30"/>Utrumque sensum tetigit Sanctus Thomas Prima, q. v, a. 3;
+<lb ed="#L" n="31"/>ad 3. Videtur autem primus sensus hoc loco intendi, 
+pro<lb ed="#L" break="no" n="32"/>pter comparationem ad ens in potentia: unde Prima, 
+quae<lb ed="#L" break="no" n="33"/>stione allegata , expresse ait quod, sicut est ens in epe
+<lb ed="#L" n="34"/>tentia, ita et bonum in potentia.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

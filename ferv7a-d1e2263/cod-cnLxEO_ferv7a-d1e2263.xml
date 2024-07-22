@@ -1,0 +1,1157 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 68</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 68</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="193"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2263"><!-- ferv7a-l3c68 -->
+            <head>Capitulum 68</head>
+            <p>
+               <pb ed="#L" n="193"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=193"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>Ex praemissis infert Sanctus Thomas hoc corollarium :
+<lb ed="#L" n="3"/>Deus est ubique et in omnibus rebus.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Circa hoc autem duo facit: primo, ostendit propositum ;
+<lb ed="#L" n="5"/>secundo, excludit quasdam falsas existimationes, circa 
+fi<lb ed="#L" break="no" n="6"/>nem capituli .
+</p>
+            <p>
+               <lb ed="#L" n="7"/>I. Quantum ad primum, arguit primo sic. Deus movet
+<lb ed="#L" n="8"/>omnia ad suas operationes, ut ostensum est. Ergo est in
+<lb ed="#L" n="9"/>omnibus rebus. — Probatur consequentia. Quia movens et 
+<lb ed="#L" n="10"/>motum oportet esse simul, ut dicitur <ref>VII. Physicorum.</ref>
+               <lb ed="#L" n="11"/>2. Ad hanc rationem dicit <ref>Scotus, II Sent., d. i, q. v</ref> ,
+<lb ed="#L" n="12"/>quod aut nihil valet; aut oppositum concludit eius quod
+<lb ed="#L" n="13"/>intendit. Aut enim, inquit, intendit concludere Deum esse
+<lb ed="#L" n="14"/>praesentem omnibus, hoc est, esse moventem. Et tunc est
+<lb ed="#L" n="15"/>petitio principii, et conclusio nihil ad propositum: quia
+<lb ed="#L" n="16"/>intendit concludere immensitatem Dei, secundum quam est
+<lb ed="#L" n="17"/>praesens omnibus ; idem enim est principium et conclusio. —
+<lb ed="#L" n="18"/>Aut intendit concludere illam praesentiam quae competit
+<lb ed="#L" n="19"/>Deo inquantum est immensus. Et sic ex operatione 
+ali<lb ed="#L" break="no" n="20"/>cubi sequitur praesentia illa, et concluditur ex hoc quod
+<lb ed="#L" n="21"/>est in omnibus per operationem, a posteriori. Ergo prius
+<lb ed="#L" n="22"/>naturaliter erit praesens inquantum immensus, quam 
+in<lb ed="#L" break="no" n="23"/>quantum operans.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>3. Respondetur quod intendit Sanctus Thomas concludere
+<lb ed="#L" n="25"/>Deum esse in omnibus, et esse omnibus praesentem: idest,
+<lb ed="#L" n="26"/>habere habitudinem simultatis et praesentiae moventis 
+im<lb ed="#L" break="no" n="27"/>mediati ad res creatas. Et non est petitio principii: quia
+<lb ed="#L" n="28"/>concluditur relatio inesse ex fundamento relationis. Quia
+<lb ed="#L" n="29"/>enim Deus movet omnes res, ideo concluditur sibi 
+con<lb ed="#L" break="no" n="30"/>venire habitudinem praesentiae, quae talem motionem 
+con<lb ed="#L" break="no" n="31"/>comitatur: sicut ex eo quod aliquis generavit, concluditur
+<lb ed="#L" n="32"/>ipsum esse aut fuisse patrem.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Dicitur secundo, quod talis praesentia secundum 
+im<lb ed="#L" break="no" n="34"/>mensitatem, hoc est, quod Deus non tantum uni, sed
+<lb ed="#L" n="35"/>omnibus adest, concluditur ex operatione non a posteriori,
+<lb ed="#L" n="36"/>sed a priori secundum rationem, tanquam videlicet ex 
+ra<lb ed="#L" break="no" n="37"/>tione talis praesentiae et simultatis. Deum enim operari
+<lb ed="#L" n="38"/>in omnibus est ratio quod sit in omnibus: non autem
+<lb ed="#L" n="39"/>ex eo quod est in omnibus, operatur in illis.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>II. Secundo. Deus est virtutis infinitae. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="41"/>batur consequentia. Quia, cum dupliciter contingat aliquid
+<lb ed="#L" n="42"/>esse in loco, scilicet secundum contactum quantitatis 
+di<lb ed="#L" break="no" n="43"/>mensivae, ut corpus, et secundum contactum virtutis, ut
+<lb ed="#L" n="44"/>res incorporea: sic se habet res incorporea ad hoc quod
+<lb ed="#L" n="45"/>sit in aliquo per suam virtutem, sicut se habet res corporea
+<lb ed="#L" n="46"/>ad hoc quod sit in loco per quantitatem dimensivam.
+<lb ed="#L" n="47"/>Corpus autem infinitum quantitative esset ubique. Ergo
+<lb ed="#L" n="48"/>et virtus incorporea infinita. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Tertio . Causam particularem oportet adesse simul suo
+<lb ed="#L" n="50"/>proprio effectui. Ergo et universalem totius esse, quae est
+<lb ed="#L" n="51"/>Deus: cum unaquaeque ad suum effectum eodem modo
+<lb ed="#L" n="52"/>comparetur. Ergo in quocumque invenitur esse, oportet
+<lb ed="#L" n="53"/>ut adsit divina praesentia.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Advertendum quod, cum Deus sit ubique et in omnibus
+<lb ed="#L" n="55"/>per modum agentis immediati, ut declarabitur ; et duplex
+<lb ed="#L" n="56"/>sit immediatio agentis, scilicet secundum suppositum agens,
+<lb ed="#L" n="57"/>et secundum virtutem agendi: prima ratio et secunda 
+pro<lb ed="#L" break="no" n="58"/>bant Deum esse in omnibus sicut causa immediata 
+imme<lb ed="#L" break="no" n="59"/>diatione virtutis; haec autem tertia ratio probat quod sit
+<lb ed="#L" n="60"/>in omnibus sicut causa immediata immediatione suppositi.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>III. Quarto . Si Deus esset praesens uni tantum suorum
+<lb ed="#L" n="62"/>effectuum, utpote primo mobili, quod ab ipso movetur
+<lb ed="#L" n="63"/>immediate, sequeretur quod eius actio non posset ad alia
+<lb ed="#L" n="64"/>derivari nisi illo mediante. Hoc autem est inconveniens.
+<lb ed="#L" n="65"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Probatur consequentia. Quia quodcumque agens est
+<lb ed="#L" n="67"/>praesens tantum uni suorum effectuum, eius actio non
+<lb ed="#L" n="68"/>potest derivari ad alia nisi illo mediante: sicut virtus motiva
+<lb ed="#L" n="69"/>se habet ad cor. Ratio est, quia agens et patiens oportet
+<lb ed="#L" n="70"/>esse simul.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Falsitas vero consequentis probatur. Quia sequeretur
+<lb ed="#L" n="72"/>esse aliquam creaturam per quam posset expleri quicquid
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="73"/>divina virtus facere potest. Quod constat falsum esse: cum
+<lb ed="#L" n="74"/>divina virtus excedat in infinitum quamlibet rem creatam.
+<lb ed="#L" n="75"/>- Probatur sequela. Quia si actio agentis non potest ad
+<lb ed="#L" n="76"/>alia derivari nisi mediante aliquo primo, oportet ut illud
+<lb ed="#L" n="77"/>proportionaliter respondeat agenti secundum totam eius
+<lb ed="#L" n="78"/>virtutem: aliter non posset agens tota sua virtute uti.
+<lb ed="#L" n="79"/>Declaratur in virtute motiva animalis.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Idem sequitur, inquit Sanctus Thomas, si ponatur Deum
+<lb ed="#L" n="81"/>esse in aliquibus, non in omnibus.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>IV. Circa istam propositionem, Primum mobile a Deo
+<lb ed="#L" n="83"/>immediate movetur, occurrit dubium quomodo, in via
+<lb ed="#L" n="84"/>Sancti Thomae, sit intelligendum. Aliqui enim tenent quod
+<lb ed="#L" n="85"/>ipsum ita immediate movet quod nulla alia intelligentia
+<lb ed="#L" n="86"/>inter Deum et caelum mediat, a qua ipsum caelum 
+im<lb ed="#L" break="no" n="87"/>mediate moveatur, sed ipse Deus solus est causa primum
+<lb ed="#L" n="88"/>mobile movens. Moventur autem, quia XII Metaph. , 
+re<lb ed="#L" break="no" n="89"/>prehendit Avicennam ponentem primum mobile non 
+mo<lb ed="#L" break="no" n="90"/>veri immediate a Deo, sed a prima intelligentia creata.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Alii vero tenent quod non movet immediate, sed 
+me<lb ed="#L" break="no" n="92"/>diante intelligentia.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Ego dicerem, salvo semper meliori iudicio, quod 
+no<lb ed="#L" break="no" n="94"/>mine primi mobilis duo possumus intelligere: scilicet aut
+<lb ed="#L" n="95"/>ipsum solum corpus primi caeli, quod movetur ab alio;
+<lb ed="#L" n="96"/>aut aggregatum ex tali corpore et intelligentia illi 
+appro<lb ed="#L" break="no" n="97"/>priata; quo modo accipit Philosophus primum mobile,
+<lb ed="#L" n="98"/>dum ponit ipsum moveri a seipso et dividi in duas partes,
+<lb ed="#L" n="99"/>Scilicet in partem moventem et in partem motam . Si
+<lb ed="#L" n="100"/>accipiatur primum mobile pro aggregato ex corpore caeli
+<lb ed="#L" n="101"/>et intelligentia movente appropriata, sic movetur 
+imme<lb ed="#L" break="no" n="102"/>diate a Deo, secundum mentem Aristotelis. Si autem 
+acci<lb ed="#L" break="no" n="103"/>piatur pro corpore caeli dumtaxat quod ab alio movetur, sic
+<lb ed="#L" n="104"/>non movetur a Deo immediate, sed mediante intelligentia.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>2. Moveor ad hoc primo, quia Sanctus Thomas XII
+<lb ed="#L" n="106"/>Metaph., lect. 7, exponens illa verba Aristotelis , Movet
+<lb ed="#L" n="107"/>autem sicut appetibile, ait quod primum movens movet
+<lb ed="#L" n="108"/>sicut appetibile quia motus caeli est propter ipsum sicut
+<lb ed="#L" n="109"/>propter finem, causatus ab aliquo proximo movente, quod
+<lb ed="#L" n="110"/>movet propter primum movens immobile, ut assimilet se
+<lb ed="#L" n="111"/>ei in causando, et explicet in actu id quod est virtute in
+<lb ed="#L" n="112"/>primo movente. Ex his enim verbis constat quod ponit, de
+<lb ed="#L" n="113"/>mente Aristotelis, primum motorem non movere immediate
+<lb ed="#L" n="114"/>corpus caeli, sed. etiam alium motorem proximum.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>Secundo quia, ut ostensum est superius in Secundo
+<lb ed="#L" n="116"/>Libro , tenet Sanctus Thomas de mente Aristotelis esse
+<lb ed="#L" n="117"/>quod sint duo ordines intelligentiarum, unus scilicet 
+mo<lb ed="#L" break="no" n="118"/>ventium effective, alius moventium per modum finis;
+<lb ed="#L" n="119"/>et quod quodlibet caelum habet duos motores realiter
+<lb ed="#L" n="120"/>distinctos, unum moventem effective, alterum tanquam
+<lb ed="#L" n="121"/>finem propter quem movetur. Ex his constat quod Deus
+<lb ed="#L" n="122"/>non movet corpus caeli effective absque media intelligentia:
+<lb ed="#L" n="123"/>quia si immediate moveret, tunc oporteret esse aliam 
+in<lb ed="#L" break="no" n="124"/>telligentiam propter quam moveret sicut propter finem;
+<lb ed="#L" n="125"/>quod repugnat superius ab ipso demonstratis.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Tertio, quia in Qu. de Verit. q. v, a. 8, ait quod tam
+<lb ed="#L" n="127"/>a Sanctis quam a philosophis dicitur quod omnia 
+corpo<lb ed="#L" break="no" n="128"/>ralia mediantibus angelis a divina providentia reguntur,
+<lb ed="#L" n="129"/>inquantum scilicet movent superiora corpora.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>Quarto, quia superius in Primo Libro, cap. xmr, dixit
+<lb ed="#L" n="131"/>quod, postquam ostendit Aristoteles esse aliquem primum
+<lb ed="#L" n="132"/>motorem qui est pars moventis seipsum, investigat 
+ulte<lb ed="#L" break="no" n="133"/>rius, in Metaphysica, alium motorem omnino separatum,
+<lb ed="#L" n="134"/>qui est Deus.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>3. Quod autem reprobat opinionem Avicennae, non
+<lb ed="#L" n="136"/>obstat. Quia non reprobat illam principaliter nisi quantum
+<lb ed="#L" n="137"/>ad rationem quam ponit. Non enim reputat Sanctus Thomas
+<lb ed="#L" n="138"/>verum quod a Deo non possit nisi unum immediate 
+pro<lb ed="#L" break="no" n="139"/>venire, sicut voluit Avicenna. Quantum vero ad 
+conclu<lb ed="#L" break="no" n="140"/>sionem, convenit cum ipso, accipiendo caelum pro ipso
+<lb ed="#L" n="141"/>corpore praecise. Sed accipiendo caelum et primum mobile
+<lb ed="#L" n="142"/>pro aggregato, discordat ab ipso. Quia Avicenna in 
+pro<lb ed="#L" break="no" n="143"/>posito non distinxit inter movere per modum finis, et
+<pb ed="#L" n="194"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>movere per modum efficientis: ideo absolute negavit Deum
+<lb ed="#L" n="2"/>movere immediate primum mobile. Sanctus Thomas vero
+<lb ed="#L" n="3"/>inter huiusmodi motiones, de mente Aristotelis, 
+distinctio<lb ed="#L" break="no" n="4"/>nem ponens, dixit quod, non obstante quod Deus 
+im<lb ed="#L" break="no" n="5"/>mediate causaverit intelligentiam orbi appropriatam, non
+<lb ed="#L" n="6"/>inconvenit tamen quod etiam illius mobilis seipsum 
+mo<lb ed="#L" break="no" n="7"/>ventis sit causa immediata quantum ad motum in genere
+<lb ed="#L" n="8"/>causae finalis, eo modo quo dictum est primum motorem
+<lb ed="#L" n="9"/>movere sicut appetibile et desideratum. Aliae enim 
+intel<lb ed="#L" break="no" n="10"/>ligentiae, motrices inferiorum orbium, movent propter aliam
+<lb ed="#L" n="11"/>intelligentiam creatam immediate: prima autem intelligentia
+<lb ed="#L" n="12"/>creata, movens effective primum orbem, non movet propter
+<lb ed="#L" n="13"/>aliam intelligentiam creatam, sed immediate propter ipsum
+<lb ed="#L" n="14"/>Deum. Et sic conveniens ordo moventis ad mobile servatur:
+<lb ed="#L" n="15"/>dum primum mobile, seipsum movens immediate, movetur
+<lb ed="#L" n="16"/>a prima substantia quae est Deus, tanquam videlicet a fine
+<lb ed="#L" n="17"/>proximo causante in intelligentia movente appetitum quo
+<lb ed="#L" n="18"/>movet orbem; inferiora autem mobilia ab inferioribus 
+intel<lb ed="#L" break="no" n="19"/>ligentiis moventur proprie per modum finis.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>4. Ad hunc sensum intelligendae sunt omnes 
+auctori<lb ed="#L" break="no" n="21"/>tates Aristotelis et Commentatoris quibus dicitur primam
+<lb ed="#L" n="22"/>causam movere primum mobile immediate. Accipitur enim
+<lb ed="#L" n="23"/>primum mobile pro illo aggregato seipsum movente; et
+<lb ed="#L" n="24"/>intelliguntur de illa motione qua appetibile dicitur 
+imme<lb ed="#L" break="no" n="25"/>diate causare desiderium sui in parte movente eius quod
+<lb ed="#L" n="26"/>seipsum movet.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Ad hunc etiam sensum intelligitur quod hic dicitur,
+<lb ed="#L" n="28"/>primum mobile a Deo immediate moveri. Et est sensus:
+<lb ed="#L" n="29"/>Primum mobile a Deo tanquam a causante in ipso 
+desi<lb ed="#L" break="no" n="30"/>derium sui, immediate movetur, etc.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>V. Circa probationem falsitatis consequentis , etiam 
+du<lb ed="#L" break="no" n="32"/>bitatur. Quia non videtur sequi, si actio Dei non posset
+<lb ed="#L" n="33"/>ad alia nisi mediante uno primo devenire, quod esset aliqua
+<lb ed="#L" n="34"/>creatura quae ei secundum totam suam virtutem 
+respon<lb ed="#L" break="no" n="35"/>deret. Non enim idem iudicium est de virtute Dei, et de
+<lb ed="#L" n="36"/>virtute creaturae. Quia creatura tota sua virtute uti potest:
+<lb ed="#L" n="37"/>ideo oportet ut primum per quod ad alia eius actio 
+per<lb ed="#L" break="no" n="38"/>venit, sit tale quod per ipsum omnes effectus illius virtutis
+<lb ed="#L" n="39"/>expleri possint. Deus autem non potest tota sua virtute
+<lb ed="#L" n="40"/>uti, sic ut possit aliquando exhauriri per productionem
+<lb ed="#L" n="41"/>omnium per ipsam producibilium. Ideo, si sit aliquid 
+pri<lb ed="#L" break="no" n="42"/>mum per quod oporteat divinam actionem ad alia devenire,
+<lb ed="#L" n="43"/>non est necesse ut illud divinam virtutem adaequet 
+abso<lb ed="#L" break="no" n="44"/>lute, sed sufficit ut sit tale quod per ipsum expleri possint
+<lb ed="#L" n="45"/>omnes effectus quos Deus se producturum determinavit.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>2. Ad huius evidentiam, considerandum est quod aliter
+<lb ed="#L" n="47"/>loquendum est de medio actionis ex voluntate et 
+dispo<lb ed="#L" break="no" n="48"/>sitione agentis electo: et aliter de medio absolute actioni
+<lb ed="#L" n="49"/>agentis necessario. Licet enim aliquis possit sibi aliquid
+<lb ed="#L" n="50"/>statuere quo omnem suum effectum quem determinavit
+<lb ed="#L" n="51"/>producere, expleat, sicut potest artifex sibi instrumentum
+<lb ed="#L" n="52"/>aliquod fabricare quo utatur ad omnia illa opera quae
+<lb ed="#L" n="53"/>disponit operari, et idcirco non oporteat illud simpliciter
+<lb ed="#L" n="54"/>adaequare virtutem artificis, sed sufficit ut adaequet 
+dispo<lb ed="#L" break="no" n="55"/>sitionem et propositum illius de producendis per 
+instru<lb ed="#L" break="no" n="56"/>mentum; quando tamen medium est absolute necessarium
+<lb ed="#L" n="57"/>ad actionem agentis, secundum quod absolute est talis
+<lb ed="#L" n="58"/>natura, ita quod non nisi per illud potest agens ullo modo
+<lb ed="#L" n="59"/>operari, necesse est ut illud virtutem adaequet. Quia sicut
+<lb ed="#L" n="60"/>actio agentis, secundum suam rationem ut est absolute
+<lb ed="#L" n="61"/>actio ipsius.secundum suam speciem considerati, agentis
+<lb ed="#L" n="62"/>virtutem adaequat; ita oportet ut medium necessarium ad
+<lb ed="#L" n="63"/>expletionem virtutis, ipsam virtutem adaequet: alioquin
+<lb ed="#L" n="64"/>virtus agentis posset absque ipso ad aliquem effectum
+<lb ed="#L" n="65"/>terminari, et per consequens eius actio; et sic non esset
+<lb ed="#L" n="66"/>medium universaliter necessarium ad actionem agentis. Et
+<lb ed="#L" n="67"/>hoc habet veritatem tam in Deo quam in creatura: cum
+<lb ed="#L" n="68"/>haec veritas ex rationibus terminorum oriatur. Si enim est
+<lb ed="#L" n="69"/>medium necessarium ad omnem actionem agentis, oportet
+<lb ed="#L" n="70"/>ut sine ipso virtus operari non possit. Hoc autem est ipsum
+<lb ed="#L" n="71"/>virtutem adaequare in ratione instrumenti. Idcirco «etiam
+<lb ed="#L" n="72"/>in Deo repugnat quod aliquid sit medium omnino 
+neces<lb ed="#L" break="no" n="73"/>sarium per quod suos effectus producat, et illud medium
+<lb ed="#L" n="74"/>non adaequat virtutem divinam.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Cum autem dicitur quod virtus divina exhauriri non
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>potest, conceditur. Oportet tamen illud necessarium 
+me<lb ed="#L" break="no" n="77"/>dium esse tale quod per ipsum tota divina virtus expleri
+<lb ed="#L" n="78"/>posset si ipsa virtus esset totaliter exhauribilis. Quod cum
+<lb ed="#L" n="79"/>nulli creaturae convenire possit, cum omnis creatura a
+<lb ed="#L" n="80"/>divina virtute in infinitum superetur, oportet dicere quod
+<lb ed="#L" n="81"/>nullum est medium absolute necessarium per quod actio
+<lb ed="#L" n="82"/>divina ad alia habeat pervenire.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>VI. Quinto In qualibet re est aliquis effectus proximus
+<lb ed="#L" n="84"/>et immediatus Dei: cum in qualibet re sit aliquid quod
+<lb ed="#L" n="85"/>per creationem causatur, in corporalibus materia prima, in '
+<lb ed="#L" n="86"/>rebus incorporeis simplices earum essentiae; solius autem
+<lb ed="#L" n="87"/>Dei sit creare, ut ostensum est in Secundo. Ergo adest
+<lb ed="#L" n="88"/>omnibus rebus: praesertim cum ea quae de non esse ad
+<lb ed="#L" n="89"/>esse produxit, continuo et semper in esse conservet. —
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Probatur consequentia. Quia necesse est ut causa sit simul -
+<lb ed="#L" n="91"/>cum suo effectu proximo et immediato.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Adverte, ex eo quod inquit hoc loco Sanctus Thomas
+<lb ed="#L" n="93"/>necesse esse ut causa sit simul cum. suo effectu proximo
+<lb ed="#L" n="94"/>et immediato, quod illud quod dicit Potentia, q. ru, a. 11,
+<lb ed="#L" n="95"/>ad 5, scilicet quoniam sufficit quod movens et motum
+<lb ed="#L" n="96"/>sint simul in principio motus, non intelligitur de movente
+<lb ed="#L" n="97"/>proximo et immediato, sed de movente principali et primo.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>CONFIRMATUR conclusio auctoritate Jeremiae xxmr et
+<lb ed="#L" n="99"/>Psalmi.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>VII. Per hoc autem excluditur error quorundam 
+dicen<lb ed="#L" break="no" n="101"/>tium Deum 'in aliqua parte mundi determinata esse, puta
+<lb ed="#L" n="102"/>in primo caelo, et in parte orientis.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Quod tamen sustineri potest si intelligatur quod omnium
+<lb ed="#L" n="104"/>motionum corporearum principium, secundum naturae 
+or<lb ed="#L" break="no" n="105"/>dinem, ab aliqua determinata incipit parte, Deo movente:
+<lb ed="#L" n="106"/>secundum etiam quod Scriptura, /saiae ult., et in Psalmo,
+<lb ed="#L" n="107"/>ponit Deum in caelo esse. Praedicta opinio, sic exposita,
+<lb ed="#L" n="108"/>est Aristotelis, in fine VIII Physicorum .
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Addit autem Sanctus Thomas quod, quia etiam in 
+in<lb ed="#L" break="no" n="110"/>fimis rebus aliquid Deus praeter naturae ordinem operatur,
+<lb ed="#L" n="111"/>ostendit Deum etiam infimis rebus immediate adesse.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>VIII. Quantum ad secundum, excludit Sanctus Thomas  ct. init. 
+Com<lb ed="#L" break="no" n="113"/>quasdam falsas existimationes. Aliquis enim posset 
+existi<lb ed="#L" break="no" n="114"/>mare sic Deum esse ubique quasi per locorum spatia 
+se<lb ed="#L" break="no" n="115"/>cundum partes dividatur. - Hoc autem, inquit, non est
+<lb ed="#L" n="116"/>verum, sed est totus ubique: cum sit omnino simplex.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Aliquis etiam posset existimare quod esset simplex sicut
+<lb ed="#L" n="118"/>punctus, — Sed nec hoc, inquit, est verum: sed est 
+indivi<lb ed="#L" break="no" n="119"/>sibilis tanquam omnino extra genus continui existens. Ideo
+<lb ed="#L" n="120"/>non determinatur ad locum, magnum. vel parvum, ex 
+ne<lb ed="#L" break="no" n="121"/>cessitate suae essentiae, quasi oporteat eum esse in aliquo
+<lb ed="#L" n="122"/>loco: sed, cum sit universalis causa essendi, attingit omnia
+<lb ed="#L" n="123"/>quae sunt in loco suae virtutis immensitate.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Posset ulterius aliquis credere quod ita sit in rebus
+<lb ed="#L" n="125"/>quasi sit in ipsis mixtus. - At nec hoc, inquit, est verum,
+<lb ed="#L" n="126"/>cum neque sit forma neque materia alicuius rei: sed est
+<lb ed="#L" n="127"/>in rebus per modum causae agentis.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>IX. Circa existentiam Dei in loco et in aliis rebus, 
+con<lb ed="#L" break="no" n="129"/>siderandum primo, quod substantiam immaterialem esse in
+<lb ed="#L" n="130"/>aliquo cum nihil aliud dicat quam coniunctionem quandam
+<lb ed="#L" n="131"/>et praesentialitatem ad ipsum, sicut multipliciter dicitur
+<lb ed="#L" n="132"/>aliquid esse coniunctum et praesens alteri, ita multipliciter
+<lb ed="#L" n="133"/>dicitur una substantia immaterialis in aliqua re esse. In
+<lb ed="#L" n="134"/>proposito ergo duobus modis contingit unum coniungi et
+<lb ed="#L" n="135"/>esse praesens alteri. Uno modo, sicut causa coniungitur
+<lb ed="#L" n="136"/>et adest suo effectui: oportet enim causam et effectum
+<lb ed="#L" n="137"/>eius proximum simul esse, ut dictum est superius . Alio
+<lb ed="#L" n="138"/>modo, sicut locatum coniungitur et praesens est loco, 
+in<lb ed="#L" break="no" n="139"/>quantum locum replet. Quia ergo Deus est causa omnium
+<lb ed="#L" n="140"/>rerum, et etiam ipsius loci inquantum res quaedam est,
+<lb ed="#L" n="141"/>ideo hic dicitur quod Deus est in operibus suis per modum
+<lb ed="#L" n="142"/>causae agentis. Quia vero est causa omnium quae loca
+<lb ed="#L" n="143"/>replent, dicitur particulari modo esse ubique et in omnibus
+<lb ed="#L" n="144"/>locis, inquantum loca sunt: tanquam videlicet replens 
+ef<lb ed="#L" break="no" n="145"/>fective omnia loca. Et hoc significavit cum dixit quod
+<lb ed="#L" n="146"/>immensitate suae virtutis attingit omnia quae sunt in loco.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>X. Considerandum secundo quod, sicut in simultate et
+<lb ed="#L" n="148"/>contactu corporum, aut locati et loci, duo sunt, scilicet
+<lb ed="#L" n="149"/>substantia, quae est id quod dicitur esse simul cum altero,
+<lb ed="#L" n="150"/>et id quo talis substantia dicitur simul cum alia esse, scilicet
+<pb ed="#L" n="195"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quantitas: dimensiva; ita in simultate et contactu quo Deus
+<lb ed="#L" n="2"/>dicitur in rebus esse, duo sunt, scilicet substantia divina,
+<lb ed="#L" n="3"/>quae est id quod est in rebus; et eius continuata operatio,
+<lb ed="#L" n="4"/>quae est id quo hoc sibi convenit. Propter hoc 
+saepenu<lb ed="#L" break="no" n="5"/>mero dicitur a Sancto "Thoma quod Deus, et quaelibet
+<lb ed="#L" n="6"/>substantia spiritualis, est in loco per operationem : quia
+<lb ed="#L" n="7"/>videlicet ipsa substantia est id quod est in loco, operatio
+<lb ed="#L" n="8"/>vero est sibi ratio existendi in loco; sicut substantia 
+cor<lb ed="#L" break="no" n="9"/>poris continetur loco, dimensio vero est sibi ratio quod
+<lb ed="#L" n="10"/>a loco contineatur. Et sicut non oportet substantiam 
+cor<lb ed="#L" break="no" n="11"/>poream prius esse in loco quam propriis dimensionibus
+<lb ed="#L" n="12"/>attingat locum, sed utrumque simul est, unum sicut quo,
+<lb ed="#L" n="13"/>alterum sicut quod; ita non oportet Deum, et substantiam
+<lb ed="#L" n="14"/>spiritualem, prius esse in loco quam operetur in loco, sed
+<lb ed="#L" n="15"/>utrumque simul est in loco, substantia sicut quod, operatio
+<lb ed="#L" n="16"/>vero sicut quo. Licet enim operari praesupponat esse, non
+<lb ed="#L" n="17"/>tamen operari in loco praesupponit esse in loco, in 
+spi<lb ed="#L" break="no" n="18"/>ritualibus : sicut, licet quantitas praesupponat substantiam
+<lb ed="#L" n="19"/>in.qua sit, non tamen quantitatem esse in loco, sive 
+con<lb ed="#L" break="no" n="20"/>tingere locum, praesupponit substantiam esse in loco, sed
+<lb ed="#L" n="21"/>e converso.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>XI. Considerandum tertio , quod im doctrina Sancti
+<lb ed="#L" n="23"/>Thomae dubium admodum est. quid nomine operationis
+<lb ed="#L" n="24"/>intelligat, dum inquit quod substantia intellectualis est in
+<lb ed="#L" n="25"/>' loco per operationem. Capreolus enim, in rn dist., quaest. r,
+<lb ed="#L" n="26"/>Secundi, tenet quod nomine operationis intelligitur non
+<lb ed="#L" n="27"/>solum vera operatio transiens, sed quaecumque unitio ad
+<lb ed="#L" n="28"/>caelum, aut praesidentia, aut quodcumque aliud per modum
+<lb ed="#L" n="29"/>operationis transeuntis in rem corpoream locatam 
+desi<lb ed="#L" break="no" n="30"/>gnatum. Et sumit fundamentum ex verbis Sancti Thomae
+<lb ed="#L" n="31"/>intelligendum non solum motionem, sed quamcumque 
+uni<lb ed="#L" break="no" n="32"/>tionem qua sua virtute substantia se unit corpori, 
+praesi<lb ed="#L" break="no" n="33"/>dendo, vel continendo, vel quocumque alio modo.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Alii vero dicunt  quod nomine operationis intelligitur
+<lb ed="#L" n="35"/>alterum istorum trium: scilicet aut continuata exterior
+<lb ed="#L" n="36"/>operatio; aut continuata attentio cum interruptione 
+exte<lb ed="#L" break="no" n="37"/>rioris operationis, sicut angeli custodientes homines 
+con<lb ed="#L" break="no" n="38"/>tinue attendunt ut res bene succedat, licet non continua
+<lb ed="#L" n="39"/>operatione exteriori ibi aliquid agant; aut habitualis 
+ap<lb ed="#L" break="no" n="40"/>plicatio angelis ad operationem, quia scilicet virtus eius
+<lb ed="#L" n="41"/>sit in ultima dispositione ad opus, et deducta sint omnia
+<lb ed="#L" n="42"/>impedimenta. Quodcumque istorum affuerit, dicitur 
+an<lb ed="#L" break="no" n="43"/>gelus esse in loco per operationem. Sumit autem haec
+<lb ed="#L" n="44"/>opinio fundamentum et ex dictis in illo Quolibeto; et ex
+<lb ed="#L" n="45"/>eo quod dicitur Prima Parte, q. rm, a. 1, scilicet quod
+<lb ed="#L" n="46"/>angelus est in loco per applicationem virtutis angelicae
+<lb ed="#L" n="47"/>ad aliquem locum qualitercumque.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>2. Mihi autem, salvo meliori iudicio, videtur quod nulla
+<lb ed="#L" n="49"/>istarum expositionum sit ad mentem Sancti Thomae. Prima
+<lb ed="#L" n="50"/>enim videtur ponere quod operatio nihil aliud dicat quam
+<lb ed="#L" n="51"/>habitudinem ipsius substantiae ad locum. Non video autem
+<lb ed="#L" n="52"/>quomodo possit esse talis nova habitudo unitionis ad locum
+<lb ed="#L" n="53"/>in substantia separata, nisi sit aliquod aliud fundamentum
+<lb ed="#L" n="54"/>novum ad quod sequatur: alioquin dicendum erit quod
+<lb ed="#L" n="55"/>ipsa substantia angeli est in loco per seipsam, quia ipsa
+<lb ed="#L" n="56"/>est fundamentum. proximum talis habitudinis. — Nec valet
+<lb ed="#L" n="57"/>Si dicatur quod habet pro fundamento virtutem talis 
+sub<lb ed="#L" break="no" n="58"/>stantiae. Quia virtus, ut virtus activa, non habet ut uniatur
+<lb ed="#L" n="59"/>alteri nisi ratione operationis qua alterum contingit aut
+<lb ed="#L" n="60"/>effective aut formaliter: nihil enim suam virtutem ad 
+alte<lb ed="#L" break="no" n="61"/>rum applicat nisi agendo in illud.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Secunda autem interpretatio videtur directe esse contra
+<lb ed="#L" n="63"/>mentem Sancti Thomae Prima Parte, q. cxi, a, 6, ad 3,
+<lb ed="#L" n="64"/>ubi inquit quod, etsi interdum derelinquat angelus 
+ho<lb ed="#L" break="no" n="65"/>minem custoditum loco, non tamen derelinquit eum 
+quan<lb ed="#L" break="no" n="66"/>tum ad effectum custodiae: quia etiam cum est in caelo,
+<lb ed="#L" n="67"/>cognoscit quid circa hominem agatur, nec indiget mora
+<lb ed="#L" n="68"/>temporis ad motum localem, sed statim potest adesse. Ex
+<lb ed="#L" n="69"/>quo patet quod ad hoc ut angelus dicatur esse in aliquo loco,
+<lb ed="#L" n="70"/>non sufficit ut habeat continuatam attentionem. ad. locum;
+<lb ed="#L" n="71"/>aut sit proxime dispositus ad operandum ; deductaque sint
+<lb ed="#L" n="72"/>omnia impedimenta; sed requiritur ut ibi aliquid agat 
+exte<lb ed="#L" break="no" n="73"/>riori actione. Unde et II Sent., d. x1, art. 4, ad 5, dicitur
+<lb ed="#L" n="74"/>quod. angelus, quamvis. non semper sit praesens, potest
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>tamen semper custodire, inquantum effectus eius manet
+<lb ed="#L" n="76"/>post actionem suam.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>3. Propter quod videtur mihi dicendum quod nomine
+<lb ed="#L" n="78"/>operationis debeat intelligi operatio transiens qua effectus
+<lb ed="#L" n="79"/>aliquis in loco aut re locata producitur, ita quod angelus
+<lb ed="#L" n="80"/>ibi est ubi operatur tali operatione. Si autem nulla tali
+<lb ed="#L" n="81"/>operatione agit in aliquem locum, nullo modo dicitur ibi
+<lb ed="#L" n="82"/>esse. Unde si nullibi operatur hoc modo, nullibi est. —
+<lb ed="#L" n="83"/>Non oportet autem sollicitari qua operatione agat in caelum
+<lb ed="#L" n="84"/>empyreum, aut in aliquem alium locum in quo dicitur
+<lb ed="#L" n="85"/>esse, Quia sicut non nobis plene cognita est natura angelica,
+<lb ed="#L" n="86"/>neque caeli empyrei natura, ita nec nobis notae sunt omnes
+<lb ed="#L" n="87"/>operationes quibus potest aliquid in caelo empyreo et in
+<lb ed="#L" n="88"/>corporibus operari.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Videtur autem haec interpretatio esse ad mentem Sancti
+<lb ed="#L" n="90"/>Thomae I Sent, d. xxxvm, q. ur a. 1. Nam, acceptans
+<lb ed="#L" n="91"/>illam. opinionem quae ait angelum esse in loco per 
+ope<lb ed="#L" break="no" n="92"/>rationem, inquit; Dico quod angelus, et quaelibet 
+sub<lb ed="#L" break="no" n="93"/>stantia incorporea, non potest esse in corpore vel in loco
+<lb ed="#L" n="94"/>nisi per operationem qua effectum aliquem in eo causat,
+<lb ed="#L" n="95"/>praesidendo vel ministrando. Et declarans hunc effectum,
+<lb ed="#L" n="96"/>subiungit quod hoc est conferendo corpori locato, non
+<lb ed="#L" n="97"/>quidem esse, sed aliquid ad esse superadditum, scilicet vel
+<lb ed="#L" n="98"/>motum, vel lumen, vel aliquid huiusmodi. Ecce quod 
+no<lb ed="#L" break="no" n="99"/>mine operationis intelligit operationem transeuntem qua
+<lb ed="#L" n="100"/>aliquis effectus causatur in re.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>4. Ad id autem quod inquit Sanctus Thomas in .
+Quo<lb ed="#L" break="no" n="102"/>libeto , respondetur quod non illud dicit quasi velit nomine
+<lb ed="#L" n="103"/>operationis et contactus virtualis intelligi aliud quam veram
+<lb ed="#L" n="104"/>actionem transeuntem: sed ut daret intelligere nomine
+<lb ed="#L" n="105"/>operationis non esse solam motionem localem 
+intelligen<lb ed="#L" break="no" n="106"/>dam, sed omnem operationem transeuntem in corpus,
+<lb ed="#L" n="107"/>quaecumque sit illa. Nam et substantia praesidens corpori,
+<lb ed="#L" n="108"/>et illud sua virtute continens, aliquid in illud potest 
+ef<lb ed="#L" break="no" n="109"/>ficere. Similiter omnis unitio qua angelus sua virtute se
+<lb ed="#L" n="110"/>unit ad corpus, est secundum aliquam operationem 
+trans<lb ed="#L" break="no" n="111"/>euntem, licet non oporteat eam esse localem motionem. —
+<lb ed="#L" n="112"/>Eodem modo intelligendum est quod dicitur in Prima
+<lb ed="#L" n="113"/>Parte, angelum esse in loco per applicationem suae 
+vir<lb ed="#L" break="no" n="114"/>tutis qualitercumque . 
+</p>
+            <p>
+               <lb ed="#L" n="115"/>XII. Sed circa praedicta occurrit duplex dubium. Primum
+<lb ed="#L" n="116"/>est: Nam secundum doctrinam Sancti Thomae, Angelus
+<lb ed="#L" n="117"/>non potest transmutare corpora ad formam, sed tantum ad
+<lb ed="#L" n="118"/>motum localem . Ergo circa corpus non potest habere
+<lb ed="#L" n="119"/>aliam operationem quam movere localiter. Si ergo non
+<lb ed="#L" n="120"/>moveat localiter, non poterit dici esse in corpore aut in
+<lb ed="#L" n="121"/>loco per operationem transeuntem. Cuius oppositum est
+<lb ed="#L" n="122"/>dictum. E
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Secundum est, quia daemones et animae damnatae
+<lb ed="#L" n="124"/>sunt in inferno; et animae beatae sunt in caelo. Non 
+ap<lb ed="#L" break="no" n="125"/>paret autem quam operationem ibi habeant.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>2. Ad primum respondetur primo, quod dictum Sancti
+<lb ed="#L" n="127"/>"Thomae intelligitur de transmutatione ad formam omnino
+<lb ed="#L" n="128"/>materialem, non autem de transmutatione ad formam aliquo
+<lb ed="#L" n="129"/>modo spiritualem: hanc enim potest angelus producere.
+<lb ed="#L" n="130"/>Unde Sanctus Thomas loco praeallegato  ait quod angelus
+<lb ed="#L" n="131"/>est in loco inquantum operatur circa aliquod corpus 
+lo<lb ed="#L" break="no" n="132"/>catum vel motum, vel lumen, vel aliud huiusmodi.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>Respondetur secundo quod, licet angelus non possit
+<lb ed="#L" n="134"/>corpus virtute propria formaliter transmutare, potest tamen
+<lb ed="#L" n="135"/>hoc virtute divina: ut est de mente Sancti Thomae in
+<lb ed="#L" n="136"/>Qu. de Daemonibus, art. 9, ad 3 et 12 .
+</p>
+            <p>
+               <lb ed="#L" n="137"/>3. Sed non videtur ista responsio ad mentem Sancti
+<lb ed="#L" n="138"/>"Thomae esse. Nam ipse ubique tenet quod angeli non
+<lb ed="#L" n="139"/>possunt in imaginationem aliquam speciem imaginatam
+<lb ed="#L" n="140"/>imprimere, ex hoc quod non possunt corpora secundum
+<lb ed="#L" n="141"/>formam transmutare. Constat autem quod tales formae
+<lb ed="#L" n="142"/>habent esse spirituale: cum sint rerum sensibilium 
+inten<lb ed="#L" break="no" n="143"/>tiones. Ergo responsio nulla.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>Respondetur quod, cum dicitur angelum posse causare
+<lb ed="#L" n="145"/>aliquam formam habentem: esse spirituale, intelligitur quod
+<lb ed="#L" n="146"/>illud esse sit esse naturale talis formae, non autem quod
+<lb ed="#L" n="147"/>sit esse intentionale in anima. Nam esse intentionale formae
+<lb ed="#L" n="148"/>in anima habet causari ab ipsa forma naturale esse habente,
+<lb ed="#L" n="149"/>tanquam eius similitudo.
+</p>
+            <p>
+               <pb ed="#L" n="196"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>4. Ad secundum dubium dupliciter potest responderi.
+<lb ed="#L" n="2"/>Primo, quod angelus virtute propria habet esse in loco
+<lb ed="#L" n="3"/>per actionem suam transeuntem: sed virtute superioris
+<lb ed="#L" n="4"/>potest etiam per passionem ab alio in loco esse. Et ita
+<lb ed="#L" n="5"/>dicitur esse in igne inferni: quia ille ignis virtute divina
+<lb ed="#L" n="6"/>ipsum alligatum tenet ne alibi esse et operari possit. Et
+<lb ed="#L" n="7"/>idem de animabus est dicendum.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Sed quia Sanctus Thomas in IV Sent., dist. xiv , 
+vi<lb ed="#L" break="no" n="9"/>detur velle quod talis detentio et alligatio existentiam eius
+<lb ed="#L" n="10"/>in igne sicut in loco praesupponat, ideo secundo responderi
+<lb ed="#L" n="11"/>potest quod aliquid in ignem agunt, aut scilicet motum,
+<lb ed="#L" n="12"/>aut aliquid aliud nobis occultum, non possuntque in aliud
+<lb ed="#L" n="13"/>corpus operari.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Similiter de animabus quae ponuntur in caelo esse, 
+di<lb ed="#L" break="no" n="15"/>cendum est quod aliquid ibi operantur, quicquid sit illud.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>XIII. Considerandum quarto quod, quia angelus est
+<lb ed="#L" n="17"/>in loco non situaliter et dimensive, quemadmodum corpus,
+<lb ed="#L" n="18"/>sed tantum sicut movens in moto et operans in operato;
+<lb ed="#L" n="19"/>oportet ut secundum modum quo substantia movens, 
+es<lb ed="#L" break="no" n="20"/>sentialiter a moto distincta, est in ipso, et operans in
+<lb ed="#L" n="21"/>operato, accipiamus angelum esse in loco. Movens autem
+<lb ed="#L" n="22"/>non est in moto ratione alicuius quod sit in movente, sed
+<lb ed="#L" n="23"/>ratione actionis transeuntis in passum, unientis et 
+quo<lb ed="#L" break="no" n="24"/>dammodo colligantis movens et motum. Ideo et angelum
+<lb ed="#L" n="25"/>esse in loco, modo sibi per se convenienti, non exigit ut
+<lb ed="#L" n="26"/>id ratione cuius dicitur esse in loco, sit in ipso angelo,
+<lb ed="#L" n="27"/>sed requiritur ut sit in moto et passo. Cuius oppositum
+<lb ed="#L" n="28"/>convenit corpori. Nam quia est in loco situaliter et 
+di<lb ed="#L" break="no" n="29"/>mensive tanquam commensuratum loco, oportet ut per
+<lb ed="#L" n="30"/>quantitatem suam sit in loco, non autem per quantitatem
+<lb ed="#L" n="31"/>in alio corpore existentem : nihil enim commensuratur alicui
+<lb ed="#L" n="32"/>primo ratione extrinsecae quantitatis, sed ratione propriae
+<lb ed="#L" n="33"/>et sibi intrinsecae. Quod ergo dicitur, Deum esse in 
+omni<lb ed="#L" break="no" n="34"/>bus rebus tanquam causam agentem, intelligitur quod non
+<lb ed="#L" n="35"/>est in rebus situaliter et localiter ad modum rei quantae,
+<lb ed="#L" n="36"/>sed sicut operans est in eo quod operatur, ita quod agere
+<lb ed="#L" n="37"/>et operari in rebus est ratio praesentialitatis eius ad res.
+<lb ed="#L" n="38"/>Quod etiam aliquando vocat Sanctus Thomas esse in loco
+<lb ed="#L" n="39"/>per contactum virtutis .
+</p>
+            <p>
+               <lb ed="#L" n="40"/>XIV. Sed circa praedicta duplex occurrit dubium, a divo.
+<lb ed="#L" n="41"/>Thoma Prima, q. r1 , et I Sent., d, xxxvir , tactum. 
+Pri<lb ed="#L" break="no" n="42"/>mum est, utrum, sicut Deus simul est in pluribus locis, ita
+<lb ed="#L" n="43"/>angelus in pluribus saltem locis simul esse possit. Facit enim
+<lb ed="#L" n="44"/>in hac re dubium, praetermissis iis quae ab aliis dicuntur,
+<lb ed="#L" n="45"/>quia, cum angelum esse in loco nihil aliud sit quam ipsum
+<lb ed="#L" n="46"/>esse per extrinsecam operationem praesentem loco, ut ex
+<lb ed="#L" n="47"/>superioribus  constat; unum angelum simul esse in pluribus
+<lb ed="#L" n="48"/>locis continget si in pluribus locis simul operabitur. Hoc
+<lb ed="#L" n="49"/>autem non videtur impossibile angelo. Ergo videtur quod
+<lb ed="#L" n="50"/>simul in pluribus locis esse possit. Quod est contra 
+deter<lb ed="#L" break="no" n="51"/>minationem Sancti Thomae in locis praeallegatis. - Minor
+<lb ed="#L" n="52"/>probatur. Non minoris virtutis est angelus quam corpus
+<lb ed="#L" n="53"/>caeleste. Sed caeleste corpus simul in pluribus locis 
+in<lb ed="#L" break="no" n="54"/>ferioribus operatur, et diversis operationibus : quod patet,
+<lb ed="#L" n="55"/>quia in diversis locis diversos effectus producit. Ergo multo
+<lb ed="#L" n="56"/>magis hoc potest angelus.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Secundum est , utrum in uno et eodem loco simul esse
+<lb ed="#L" n="58"/>possint plures angeli. Et videtur quod sic. Quia unus homo
+<lb ed="#L" n="59"/>videtur a pluribus daemonibus obsideri : dicitur enim de
+<lb ed="#L" n="60"/>illo obsesso qui narratur curatus a Domino, quod in ipso
+<lb ed="#L" n="61"/>erat daemonum /egio. Hoc autem est contra 
+determi<lb ed="#L" break="no" n="62"/>nationem Sancti Thomae ubi supra.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>XV. Ad evidentiam primi dubii, considerandum est, ex
+<lb ed="#L" n="64"/>doctrina Sancti Thomae in locis adductis, quod non 
+in<lb ed="#L" break="no" n="65"/>convenit loca quae particulatim et divisim considerata sunt
+<lb ed="#L" n="66"/>plura, simul sumpta in comparatione ad unam virtutem se
+<lb ed="#L" n="67"/>habere tanquam unum totalem locum constituentia: sicut
+<lb ed="#L" n="68"/>plures domus et plures vici unam civitatem constituunt.
+<lb ed="#L" n="69"/>Dicitur ergo, de mente Sancti Thomae, quod unus angelus
+<lb ed="#L" n="70"/>non potest esse simul in pluribus locis ut plura sunt, idest
+<lb ed="#L" n="71"/>inquantum accipiuntur ut duo loca totaliter distincta, quia
+<lb ed="#L" n="72"/>ab una virtute finita non potest nisi una operatio provenire
+<lb ed="#L" n="73"/>simul, et consequenter nisi unus effectus: sed bene potest
+<lb ed="#L" n="74"/>esse in pluribus locis per modum unius loci, ut scilicet
+<lb ed="#L" n="75"/>unum totalem locum constituunt; sicut potest angelus
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>omnia unius civitatis loca simul destruere, inquantum
+<lb ed="#L" n="77"/>operationi angeli tota civitas pro uno loco et adaequato
+<lb ed="#L" n="78"/>et totali respondet. Potest enim angelus in loco magno esse,
+<lb ed="#L" n="79"/>et in loco parvo, et simul in pluribus locis, dummodo
+<lb ed="#L" n="80"/>possint ut unum locum integrantia aliquo modo accipi.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>2. Ad argumentum in oppositum, negatur quod caelum
+<lb ed="#L" n="82"/>per unicam virtutem possit immediate operari in pluribus
+<lb ed="#L" n="83"/>locis. Potest quidem per plures virtutes in pluribus partibus
+<lb ed="#L" n="84"/>caeli, puta in pluribus stellis, existentes, plures operationes
+<lb ed="#L" n="85"/>producere, et in pluribus locis ut plura sunt, operari: sed
+<lb ed="#L" n="86"/>per unicam virtutem hoc non potest.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Cum autem probatur quia in diversis locis diversos
+<lb ed="#L" n="88"/>effectus producit: — dicitur quod illos effectus non producit
+<lb ed="#L" n="89"/>immediate, sed mediante uno effectu quem in pluribus
+<lb ed="#L" n="90"/>locis ut unum locum constituunt, immediate producit; puta,
+<lb ed="#L" n="91"/>mediante lumine aut calore, aut aliquo huiusmodi. Nam
+<lb ed="#L" n="92"/>primus et immediatus effectus unius virtutis caelestis in
+<lb ed="#L" n="93"/>diversis subiectis diversam accipit limitationem, ut inde
+<lb ed="#L" n="94"/>diversi effectus possint provenire: sicut virtus causae 
+uni<lb ed="#L" break="no" n="95"/>versalis in causa particulari limitationem accipit. Angelus
+<lb ed="#L" n="96"/>autem non dicitur esse eo modo quo est in loco, nisi ubi
+<lb ed="#L" n="97"/>immediate operatur. Ideo, licet in pluribus locis possit 
+me<lb ed="#L" break="no" n="98"/>diate operari, sicut et caelum, non tamen propter hoc
+<lb ed="#L" n="99"/>dicitur simul in pluribus locis esse.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>XVI. Ad secundi dubii evidentiam, considerandum
+<lb ed="#L" n="101"/>primo, quod plures angelos simul esse in uno loco, 
+du<lb ed="#L" break="no" n="102"/>pliciter potest intelligi: uno modo, formaliter; alio modo,
+<lb ed="#L" n="103"/>materialiter. Nam cum angelus non sit in loco nisi per
+<lb ed="#L" n="104"/>operationem qua producit aliquid in loco, locus materialis
+<lb ed="#L" n="105"/>angeli est illa res quae est locus, aut in loco, absolute
+<lb ed="#L" n="106"/>et secundum se considerata: locus vero formalis est ipsa
+<lb ed="#L" n="107"/>res quae est locus, ut effectus operationis angelicae in se
+<lb ed="#L" n="108"/>habet. Ideo plures angelos esse simul in uno loco 
+mate<lb ed="#L" break="no" n="109"/>rialiter sumpto, est ipsos in una re locata, aut in una re
+<lb ed="#L" n="110"/>quae est locus, absolute sumpta, simul operari. Ipsos autem
+<lb ed="#L" n="111"/>simul esse in uno loco formaliter sumpto, est in uno 
+ma<lb ed="#L" break="no" n="112"/>teriali loco unum et eundem numero effectum producere.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Considerandum secundo, quod plures angelos simul
+<lb ed="#L" n="114"/>producere unum et eundem effectum, dupliciter intelligi
+<lb ed="#L" n="115"/>potest: uno modo, quod quilibet ipsorum sit causa per
+<lb ed="#L" n="116"/>se sufficiens totalis et immediata; alio modo, quod 
+qui<lb ed="#L" break="no" n="117"/>libet ipsorum se habeat ut causa insufficiens et partialis,
+<lb ed="#L" n="118"/>sicut se habent plures trahentes navem ad unum navis
+<lb ed="#L" n="119"/>tractum.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>2. Dicitur ergo primo, quod plures angelos esse simul
+<lb ed="#L" n="121"/>in uno loco materiali non est impossibile. Nam nulla est
+<lb ed="#L" n="122"/>ratio quare in unam et eandem rem non possint plures
+<lb ed="#L" n="123"/>angeli, diversis operationibus diversos effectus producendo,
+<lb ed="#L" n="124"/>operari: quia nec hoc aliis causis repugnat. Ostensum est
+<lb ed="#L" n="125"/>enim supra  angelum esse in loco non solum per motum
+<lb ed="#L" n="126"/>localem, sed etiam per alios effectus.
+</p>
+            <p>
+               <lb ed="#L" n="127"/>Dicitur secundo, quod plures esse simul in uno loco
+<lb ed="#L" n="128"/>formaliter tanquam causas partiales immediatas eiusdem
+<lb ed="#L" n="129"/>numero effectus, non est quidem impossibile, cum etiam
+<lb ed="#L" n="130"/>hoc aliis causis convenire possit: videtur tamen 
+inconve<lb ed="#L" break="no" n="131"/>niens, praesertim de angelis qui ex divina ordinatione 
+ope<lb ed="#L" break="no" n="132"/>rantur in loco. Nam, cum unus sufficiat effectum ad quem
+<lb ed="#L" n="133"/>mittitur per se solum, aut virtute propria aut virtute 
+di<lb ed="#L" break="no" n="134"/>vina, producere, superfluum videtur ut duo ad unum 
+ef<lb ed="#L" break="no" n="135"/>fectum tanquam partiales et insufficientes causae concurrant.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>Dicitur tertio, quod plures angelos esse simul totaliter
+<lb ed="#L" n="137"/>et adaequate in pluribus locis; hoc est, quod unum et
+<lb ed="#L" n="138"/>eundem numero effectum simul in eodem loco producant
+<lb ed="#L" n="139"/>tanquam immediatae causae et totales ipsius, est 
+simpli<lb ed="#L" break="no" n="140"/>citer impossibile, apud divum Thomam et apud 
+Aristo<lb ed="#L" break="no" n="141"/>telem, Quod enim ista sit mens Sancti Thomae, patet
+<lb ed="#L" n="142"/>Prima Parte, loco allegato , et I Sent., ubi expresse
+<lb ed="#L" n="143"/>ponit quod zmpossibile est ut duae causae completae sint
+<lb ed="#L" n="144"/>immediate unius et eiusdem rei. Idem etiam expresse tenet
+<lb ed="#L" n="145"/>V Metaph., cap. de Causa. - Quod vero sit etiam de
+<lb ed="#L" n="146"/>mente Aristotelis, patet II PAy's., text. 3o , et V Metaph.,
+<lb ed="#L" n="147"/>cap. de Causa , ubi, postquam dixit quod eiusdem 
+con<lb ed="#L" break="no" n="148"/>tingit esse multas causas, ut statuae artem statuificam et
+<lb ed="#L" n="149"/>aes, subiungit: sed non eodem modo, sed hoc quidem sicut
+<lb ed="#L" n="150"/>materia, illud autem ut unde motus. — ldem tenet Com-
+<pb ed="#L" n="197"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mentator II Phys., et V Metaph., exponendo illa verba,
+<lb ed="#L" n="2"/>sed non eodem modo. — Hoc est etiam de mente 
+The<lb ed="#L" break="no" n="3"/>mistii et Alberti in eisdem locis.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Ratio autem huius est, tum quia, si unus effectus 
+nu<lb ed="#L" break="no" n="5"/>mero a pluribus causis totalibus eiusdem generis et eiusdem
+<lb ed="#L" n="6"/>ordinis proveniret, effectus per se et determinatus non 
+ha<lb ed="#L" break="no" n="7"/>beret causam determinatam. Nam si ab una causa procedit,
+<lb ed="#L" n="8"/>et ab alia etiam potest procedere simul, sequitur quod prima
+<lb ed="#L" n="9"/>non est per se et determinata eius causa: causa enim sine
+<lb ed="#L" n="10"/>qua effectus aliquis esse potest, non est illius effectus per se
+<lb ed="#L" n="11"/>et determinata causa. — Nec valet dicere quod dependet
+<lb ed="#L" n="12"/>ab utraque ut sunt unum. Quia illas causas esse unum in
+<lb ed="#L" n="13"/>causando, si quaelibet est per se sufficiens et totalis causa,
+<lb ed="#L" n="14"/>non tollit quin effectus absque quacumque illarum per se
+<lb ed="#L" n="15"/>sumpta possit esse, Et per consequens relinquitur quod
+<lb ed="#L" n="16"/>nulla illarum sit per se et determinata causa ipsius.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>XVII. Sed contra hanc determinationem duplex occurrit
+<lb ed="#L" n="18"/>dubium. Primum est absolute contra illam probationem,
+<lb ed="#L" n="19"/>Unus effectus non potest esse a pluribus causis immediatis
+<lb ed="#L" n="20"/>eiusdem generis totalibus. Nam fingamus duo corpora 
+lu<lb ed="#L" break="no" n="21"/>"minosa eiusdem rationis et virtutis, aeque proxima alicui
+<lb ed="#L" n="22"/>secundum se totum, medio primo illuminabili perfecte,
+<lb ed="#L" n="23"/>idest in summo, a quovis eorum, — aut etiam, ut tollatur
+<lb ed="#L" n="24"/>-omnis calumnia, per Dei potentiam ipsa corpora luminosa
+<lb ed="#L" n="25"/>in eodem loco ponantur: quaeritur utrum tale medium
+<lb ed="#L" n="26"/>illuminabitur ab altero illorum corporum tantum, aut ab
+<lb ed="#L" n="27"/>utroque? Non ab altero tantum: quia non apparet ratio
+<lb ed="#L" n="28"/>quare magis ab uno quam ab altero debeat illuminari. Ergo
+<lb ed="#L" n="29"/>ab utroque. Sed utrumque illorum est causa sufficiens et
+<lb ed="#L" n="30"/>totalis illius effectus. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Secundum dubium est contra principale propositum.
+<lb ed="#L" n="32"/>Ponamus quod unus angelus velit in uno instanti aliquem
+<lb ed="#L" n="33"/>effectum. producere; et eundem effectum unus alius 
+an<lb ed="#L" break="no" n="34"/>gelus in eodem instanti producere velit ; sitque unusquisque
+<lb ed="#L" n="35"/>illorum sufficiens ad talis effectus productionem per se
+<lb ed="#L" n="36"/>sumptus; et unus illorum cogitationem alterius circa 
+pro<lb ed="#L" break="no" n="37"/>ductionem ignoret: - tunc arguitur sic. Unusquisque illorum
+<lb ed="#L" n="38"/>in illo et eodem instanti applicabit virtutem suam et suam
+<lb ed="#L" n="39"/>volitionem ad illum effectum. Ergo unusquisque ipsorum
+<lb ed="#L" n="40"/>illum producet. Et est unusquisque sufficiens et totalis
+<lb ed="#L" n="41"/>causa talis effectus. Ergo plures angeli simul erunt in eodem
+<lb ed="#L" n="42"/>loco formali totaliter. Cuius oppositum est dictum.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>2. Ad primum istorum dicitur quod aut a nullo illorum
+<lb ed="#L" n="44"/>corporum tale medium illuminabitur: aut ambo 
+concur<lb ed="#L" break="no" n="45"/>rent ad illum effectum tanquam causa partialis, ita scilicet
+<lb ed="#L" n="46"/>quod neutrum secundum totam suam virtutem aget, sed
+<lb ed="#L" n="47"/>secundum partem virtutis. Nam cum unumquodque 
+ipso<lb ed="#L" break="no" n="48"/>rum ad productionem illius effectus inclinetur per se, unum
+<lb ed="#L" n="49"/>alteri repugnabit, tanquam suae causalitatis impeditivo. Et
+<lb ed="#L" n="50"/>ideo necesse erit aut ut nullum ipsorum agat, uno alterum
+<lb ed="#L" n="51"/>omnino prohibente: aut ut neutrum sua virtute totaliter
+<lb ed="#L" n="52"/>utatur, sed ambo ad illum effectum tanquam partiales causae
+<lb ed="#L" n="53"/>concurrant.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>3. Ad secundum dicitur primo, si loquamur de angelis
+<lb ed="#L" n="55"/>beatis, quod nullus ipsorum circa corporalia operatur nisi
+<lb ed="#L" n="56"/>ex ordinatione divina: ut videtur velle Sanctus Thomas
+<lb ed="#L" n="57"/>I Sent. d. xxxvnu. Et ideo casus non est possibilis, nisi
+<lb ed="#L" n="58"/>supponeremus Deum impossibile praecipere.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Dicitur secundo, si loquamur de duobus angelis malis,
+<lb ed="#L" n="60"/>aut etiam de duobus bonis considerata in ipsis sola virtute
+<lb ed="#L" n="61"/>naturae, quod aut nullus illorum operaretur, uno alterum
+<lb ed="#L" n="62"/>impediente: aut partialiter ad illum effectum concurrerent,
+<lb ed="#L" n="63"/>ut de corporibus luminosis dicebatur. Licet enim cogitatio
+<lb ed="#L" n="64"/>unius angeli non sit alteri manifesta quandiu manet in
+<lb ed="#L" n="65"/>ipso solum, cum primum tamen ad aliquod extrinsecum
+<lb ed="#L" n="66"/>applicatur, cognosci potest. Et ideo se mutuo impedirent:
+<lb ed="#L" n="67"/>sicut duo homines se aliquando impediunt a productione
+<lb ed="#L" n="68"/>alicuius effectus, uno alteri repugnante.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>XVIII. Sed adhuc remanet dubium. Nam, cum angelus
+<lb ed="#L" n="70"/>in instanti aliquem effectum producere possit, applicet
+<lb ed="#L" n="71"/>unusquisque istorum angelorum suam virtutem ad passum
+<lb ed="#L" n="72"/>in uno et eodem instanti: - si unus alium impedit, quaeritur
+<lb ed="#L" n="73"/>quando impedit? Aut enim impedit ante instans 
+applica<lb ed="#L" break="no" n="74"/>tionis virtutis; aut in illo instanti; aut in tempore vel in
+<lb ed="#L" n="75"/>instanti sequenti. Non ante instans applicationis virtutis:
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>quia tunc uni angelo non est nota alterius cogitatio. Non
+<lb ed="#L" n="77"/>in ipso instanti : quia in ipso producit applicando virtutem,
+<lb ed="#L" n="78"/>cum in instanti producat, in talibus autem simul sit produci
+<lb ed="#L" n="79"/>et productum esse; non potest autem impediri quin effectus
+<lb ed="#L" n="80"/>producatur quando iam productus est. Non etiam in instanti
+<lb ed="#L" n="81"/>aut tempore sequenti: cum iam in praecedenti instanti
+<lb ed="#L" n="82"/>fuerit productus. Ergo nullo modo unus alium impediet.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>2. Respondetur quod unus alium impediet in instanti 
+ap<lb ed="#L" break="no" n="84"/>plicationis virtutis: non quidem applicationis existentis in
+<lb ed="#L" n="85"/>executione in illo instanti; sed quae esset nisi impediretur.
+<lb ed="#L" n="86"/>Unus enim impedit alterum ne applicetur virtus passo per
+<lb ed="#L" n="87"/>actualem productionem effectus, in illo instanti in quo 
+ef<lb ed="#L" break="no" n="88"/>fectum imperat: nam in instanti talis imperii proveniret
+<lb ed="#L" n="89"/>effectus nisi impediretur.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Cum arguitur, quia in illo instanti producitur effectus per
+<lb ed="#L" n="91"/>applicationem virtutis: - negatur. Nullum enim instans est in
+<lb ed="#L" n="92"/>quo tunc sit actualis applicatio virtutis agendo, sed tantum
+<lb ed="#L" n="93"/>est instans in quo esset talis applicatio nisi impediretur.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>XIX. Sed adhuc remanet dubium. Nam, cum angelus
+<lb ed="#L" n="95"/>agat per voluntatem, a virtute ipsius non provenit nisi
+<lb ed="#L" n="96"/>quod ipse vult evenire. Sed in illo instanti nullus ipsorum
+<lb ed="#L" n="97"/>vult alterum impedire: cum unus de alio non cogitet
+<lb ed="#L" n="98"/>quando effectum imperat, sed tantum velit effectum 
+pro<lb ed="#L" break="no" n="99"/>ducere. Ergo nullo modo unus illorum impedit alium in
+<lb ed="#L" n="100"/>instanti in quo productio effectus imperatur.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>2. Dicitur primo quod, licet a virtute angeli non 
+prove<lb ed="#L" break="no" n="102"/>niat per se nisi quod ipse vult evenire, potest tamen per
+<lb ed="#L" n="103"/>accidens aliud evenire, dum eius voluntati resistitur ne
+<lb ed="#L" n="104"/>effectus intentus eveniat.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Dicitur secundo, quod unus angelus in tali casu dicitur
+<lb ed="#L" n="106"/>alium impedire, non ex parte ipsius angeli, virtutem scilicet
+<lb ed="#L" n="107"/>eius debilitando et diminuendo ; sed tantum ex parte passi,
+<lb ed="#L" n="108"/>reddendo scilicet ipsum indispositum ad susceptionem 
+ef<lb ed="#L" break="no" n="109"/>fectus ab illo. Quod est formaliter, non autem active 
+im<lb ed="#L" break="no" n="110"/>pedire: iuxta ea quae dicit Sanctus Thomas IV Sent., d. xvu,
+<lb ed="#L" n="111"/>q. 1, art. 5, qu 1, ad 2. Nam ex dispositione ultima et
+<lb ed="#L" n="112"/>praesentia unius angeli potentis aliquem effectum totaliter
+<lb ed="#L" n="113"/>producere in passum, redditur passum indispositum et 
+im<lb ed="#L" break="no" n="114"/>potens ad suscipiendum illum effectum ab alio angelo 
+tan<lb ed="#L" break="no" n="115"/>quam a totali causa. Et ideo, si uterque angelus sit ultimate
+<lb ed="#L" n="116"/>dispositus ad producendum illum effectum pro uno et
+<lb ed="#L" n="117"/>eodem instanti, uterque illorum indisponet formaliter 
+pas<lb ed="#L" break="no" n="118"/>sum ad suscipiendum eundem effectum ab alio. Et sic a
+<lb ed="#L" n="119"/>nullo producetur.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>XX. Ad rationem principalem huius dubii, dicitur
+<lb ed="#L" n="121"/>quod, cum angelus per suam operationem possit esse in
+<lb ed="#L" n="122"/>loco magno et parvo, et etiam in loco indivisibili, 
+secun<lb ed="#L" break="no" n="123"/>dum doctrinam Sancti Thomae ; quando in uno corpore
+<lb ed="#L" n="124"/>sunt multi daemones, non dicuntur esse plures in unodoco
+<lb ed="#L" n="125"/>proprio, sed in pluribus locis propriis, inquantum unus
+<lb ed="#L" n="126"/>in:una parte corporis et alius in alia operatur, hominem
+<lb ed="#L" n="127"/>excruciando, vel aliquid aliud agendo.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>XXI. Contra fundamentum principale conclusionis, 
+sci<lb ed="#L" break="no" n="129"/>licet quod ideo Deus est in omnibus rebus quia rebus
+<lb ed="#L" n="130"/>omnibus dat esse et illas conservat , arguitur ex dictis Scoti
+<lb ed="#L" n="131"/>I Sent., dist. xxxvii . Primo. Soli convenit agere ubi non
+<lb ed="#L" n="132"/>est : quia generat mineram in visceribus terrae, vel aliquod
+<lb ed="#L" n="133"/>mixtum, et ibi non est. Et hoc agit sua forma 
+substan<lb ed="#L" break="no" n="134"/>tiali: quia non-substantia non potest generare substantiam.
+<lb ed="#L" n="135"/>Ergo ex operatione Dei in rebus non potest argui quod sit
+<lb ed="#L" n="136"/>in rebus.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>Secundo. Quod agens creatum non possit agere in 
+ali<lb ed="#L" break="no" n="138"/>quod distans nisi prius agat in propinquum, hoc non est
+<lb ed="#L" n="139"/>nisi aut quia concurrunt in ipso agente duae potentiae
+<lb ed="#L" n="140"/>activae subordinatae, quarum una habet proximum pro
+<lb ed="#L" n="141"/>passo proportionato, alia vero habet reliquum passum 
+re<lb ed="#L" break="no" n="142"/>motum proportionatum ; aut propler defectum virtutis
+<lb ed="#L" n="143"/>agentis, ex quo provenit quod prius producat formam
+<lb ed="#L" n="144"/>imperfectiorem quam perfectiorem. Sed nulla harum 
+con<lb ed="#L" break="no" n="145"/>ditionum in Deo reperitur: cum sit omnipotens. Ergo 
+po<lb ed="#L" break="no" n="146"/>test agere in distans.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>Tertio. Voluntas aeque potest velle distans sicut 
+pro<lb ed="#L" break="no" n="148"/>pinquum. Sed Deus omnipotens causat suo velle quicquid
+<lb ed="#L" n="149"/>vult. Ergo potest etiam causare aliquid distans.
+</p>
+            <p>
+               <lb ed="#L" n="150"/>Quarto. Non oportet praeintelligere Deum in aliqua
+<pb ed="#L" n="198"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>parte universi ut ibi aliquid causet, sed magis e converso
+<lb ed="#L" n="2"/>quod prius sit ibi secundum potentiam ubi prius aliquid
+<lb ed="#L" n="3"/>causet. Ergo, licet per impossibile non esset ibi praesens
+<lb ed="#L" n="4"/>secundum essentiam, posset tamen ibi causare. — Probatur
+<lb ed="#L" n="5"/>antecedens. Quia ante mundi creationem. praesentia 
+im<lb ed="#L" break="no" n="6"/>mensitatis non. praeexigebatur praesentiae potentiae ut 
+po<lb ed="#L" break="no" n="7"/>tentia est: immo potentia prius habuit terminum suum
+<lb ed="#L" n="8"/>quam esset praesentia secundum essentiam.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>XXII. Ad evidentiam horum, considerandum est quod
+<lb ed="#L" n="10"/>universaliter quidem verum est inter agens et passum 
+opor<lb ed="#L" break="no" n="11"/>tere esse aliquem contactum virtutis: non enim est 
+intel<lb ed="#L" break="no" n="12"/>ligibile quod unum agat in aliud, et quod illud sua virtute
+<lb ed="#L" n="13"/>non contingat. Agens autem contingere sua virtute passum,
+<lb ed="#L" n="14"/>est agens in ipsum passum operari, Sed quia contingit
+<lb ed="#L" n="15"/>agens operari in unum immediate, sicut manus movet
+<lb ed="#L" n="16"/>baculum; et operari in aliquod mediante altero, sicut
+<lb ed="#L" n="17"/>manus mediante baculo movet lapidem: ideo contingit
+<lb ed="#L" n="18"/>agens aliquid sua virtute contingere immediate, aliquid
+<lb ed="#L" n="19"/>vero mediate, scilicet mediante aliquo eius virtutem ad
+<lb ed="#L" n="20"/>passum deferente. Sicut autem in contactu quantitativo
+<lb ed="#L" n="21"/>unum: non potest alterum immediate tangere quin 
+sub<lb ed="#L" break="no" n="22"/>stantia eius illi sit immediata, ita impossibile est quod
+<lb ed="#L" n="23"/>unum: sua virtute aliud immediate contingat, non mediante
+<lb ed="#L" n="24"/>aliquo eius virtutem deferente, quin illi immediata sit eius
+<lb ed="#L" n="25"/>substantia. Sed sicut alius est contactus quantitativus et alius
+<lb ed="#L" n="26"/>est contactus virtutis, ita alia est immediatio substantiae
+<lb ed="#L" n="27"/>secundum contactum quantitativum, et alia secundum 
+con<lb ed="#L" break="no" n="28"/>tactum virtutis. Secundum enim contactum quantitativum
+<lb ed="#L" n="29"/>attenditur immediatio secundum situationem, ita videlicet
+<lb ed="#L" n="30"/>quod inter duas substantias situatas non mediat alia 
+sub<lb ed="#L" break="no" n="31"/>stantia situata. Secundum vero contactum virtutis attenditur
+<lb ed="#L" n="32"/>immediatio non situationis, cum aliquando agens non subsit
+<lb ed="#L" n="33"/>situi; puta agens spirituale; sed actuationis patientis ab
+<lb ed="#L" n="34"/>agente, ita scilicet quod inter agens et patiens non mediat
+<lb ed="#L" n="35"/>aliud agens a: quo ipsum patiens actuetur; et haec dicitur
+<lb ed="#L" n="36"/>immediatio causalitatis. Sicut autem immediatio sive 
+si<lb ed="#L" break="no" n="37"/>multas quantitatum est ratio immediationis situalis 
+sub<lb ed="#L" break="no" n="38"/>stantiarum quae illis quantitatibus subsunt, et ex earum
+<lb ed="#L" n="39"/>immediatione immediatio situalis substantiarum arguitur;
+<lb ed="#L" n="40"/>ita immediatio actionis agentis in passum et receptionis
+<lb ed="#L" n="41"/>patientis ab agente, est ratio immediationis agentis et 
+pa<lb ed="#L" break="no" n="42"/>tientis secundum causalitatem, et ex illarum immediatione
+<lb ed="#L" n="43"/>arguitur agentis et patientis immediatio. Quod si agens sit
+<lb ed="#L" n="44"/>spirituale, et per consequens non determinatum situ, non
+<lb ed="#L" n="45"/>tantum potest dici agens esse immediatum passo, sed etiam
+<lb ed="#L" n="46"/>in illo esse, tanquam videlicet ipsum per modum efficientis
+<lb ed="#L" n="47"/>immediate actuans, et ibi existens ubi est ipsum passum,
+<lb ed="#L" n="48"/>ut dicitur I Sent., d. xxxvn , art. 1.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Attendendum tamen quod substantiam spiritualem ibi
+<lb ed="#L" n="50"/>esse ubi est id in quod agit, sive esse in eodem situ ubi
+<lb ed="#L" n="51"/>est illud, dupliciter potest intelligi. Uno modo, quod 
+in<lb ed="#L" break="no" n="52"/>formetur situ et illi commensuretur, sicut et corpus in
+<lb ed="#L" n="53"/>quod agit. Et hoc non est verum: quia situi et loco sola
+<lb ed="#L" n="54"/>habentia quantitatem commensurantur. — Alio modo, per
+<lb ed="#L" n="55"/>indistinctionem, quia videlicet non est distincta et separata
+<lb ed="#L" n="56"/>a loco et situ illius corporis; et etiam' per causalitatem,
+<lb ed="#L" n="57"/>et per causalitatis praesentiam; causalitatis dico actualis,
+<lb ed="#L" n="58"/>non autem  potentialis tantum. Et hoc modo intelligitur
+<lb ed="#L" n="59"/>esse ubi est corpus in quod agit.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Ex his patet quod impossibile est aliquid agere immediate
+<lb ed="#L" n="61"/>in aliquod passum quin illud sit immediate et simul cum illo
+<lb ed="#L" n="62"/>immediatione causalitatis, et per indistantiam loci. Si enim ab
+<lb ed="#L" n="63"/>ipso distantia causalitatis distaret, iam non esset immediate
+<lb ed="#L" n="64"/>agens: quia inter ipsum et passum mediaret aliud agens.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>2. De hac ergo simultate, quae scilicet est secundum
+<lb ed="#L" n="66"/>contactum virtutis et secundum immediationem causalitatis,
+<lb ed="#L" n="67"/>loquitur Sanctus Thomas cum dicit Deum esse in omnibus
+<lb ed="#L" n="68"/>rebus: non autem de simultate situali, cum substantiae
+<lb ed="#L" n="69"/>immateriali non' conveniat situari, proprie loquendo, eo
+<lb ed="#L" n="70"/>quod careat quantitate. Haec autem simultas, sive existentia
+<lb ed="#L" n="71"/>Dei in rebus, nihil aliud formaliter importat quam 
+Aabi<lb ed="#L" break="no" n="72"/>tudinem praesentiae Dei ad res creatas, operationem qua
+<lb ed="#L" n="73"/>in ipsis immediate operatur concomitantem : sicut 
+prae<lb ed="#L" break="no" n="74"/>sentialitas et immediatio situalis duarum substantiarum. im-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>portat habitudinem praesentiae unius ad alterum, 
+immedia<lb ed="#L" break="no" n="76"/>tionem situum. et quantitatum concomitantem. Et similiter
+<lb ed="#L" n="77"/>est de existentia cuiuslibet substantiae separatae in loco:
+<lb ed="#L" n="78"/>non enim est in omni loco quem sua. virtute contingit,
+<lb ed="#L" n="79"/>sed in illo in quem immediate operatur. Scotus autem
+<lb ed="#L" n="80"/>instat contra Sanctum Thomam ac si poneret Deum aliquo.
+<lb ed="#L" n="81"/>|situ contineri, et non posse agere nisi in id quod est sibi
+<lb ed="#L" n="82"/>propinquum secundum situm. Quod longe alienum est a
+<lb ed="#L" n="83"/>mente ipsius, ut patuit.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>3. Utrum autem unum corpus possit immediate agere
+<lb ed="#L" n="85"/>in aliquod distans ab. eo secundum situm: — dicitur quod
+<lb ed="#L" n="86"/>non, de mente Aristotelis, VII Physicorum . Huius autem
+<lb ed="#L" n="87"/>ratio est quia, sicut virtus corporis, ut sic, est virtus 
+ma<lb ed="#L" break="no" n="88"/>terialis et in quanto. recepta, et sine corpore exerceri non
+<lb ed="#L" n="89"/>potest; ita et contactus virtutis inter corpora non potest
+<lb ed="#L" n="90"/>esse sine contactu quantitativo et materiali, Sicut enim se
+<lb ed="#L" n="91"/>habet virtus ad quantitatem, ita videtur se habere contactus
+<lb ed="#L" n="92"/>illius virtutis ad contactum secundum quantitatem. :
+</p>
+            <p>
+               <lb ed="#L" n="93"/>XXIII. Istis praemissis, ad argumenta Scoti  facile est
+<lb ed="#L" n="94"/>respondere.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Ad primum quidem, negatur antecedens. Est enim fal--
+<lb ed="#L" n="96"/>sum, ut patuit: sive intelligatur de immediatione secundum
+<lb ed="#L" n="97"/>situationem, sive de immediatione secundum causalitatem..—
+<lb ed="#L" n="98"/>Ad probationem dicitur quod ea quae in visceribus terrae
+<lb ed="#L" n="99"/>virtute. solis generantur, non immediate generantur a sole;
+<lb ed="#L" n="100"/>sed mediate: inquantum sol prius agit in corpora sibi 
+pro<lb ed="#L" break="no" n="101"/>pinqua, et illis mediantibus defertur virtus solis ad terrae
+<lb ed="#L" n="102"/>viscera. - Cum autem dicitur quod non-substantia non 
+po<lb ed="#L" break="no" n="103"/>test generare substantiam: hoc quidem verum est tanquam
+<lb ed="#L" n="104"/>principale agens, sed quod hoc agat tanquam instrumentum
+<lb ed="#L" n="105"/>substantiae, non inconvenit; calor enim naturalis in 
+anima<lb ed="#L" break="no" n="106"/>libus generat carnem instrumentaliter, inquantum videlicet
+<lb ed="#L" n="107"/>est instrumentum animae.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Ad. secundum, negatur maior. Ex alio enim potest illud
+<lb ed="#L" n="109"/>provenire. Nam si loquamur de simultate et distantia 
+se<lb ed="#L" break="no" n="110"/>cundum causalitatem, de qua loquimur in proposito, illud
+<lb ed="#L" n="111"/>provenit ex ipsa ratione immediati agentis. Nam si agens
+<lb ed="#L" n="112"/>ageret in distans secundum causalitatem, iam non esset 
+im<lb ed="#L" break="no" n="113"/>mediate agens, ut patuit. — Si vero loquamur de simultate
+<lb ed="#L" n="114"/>et distantia secundum situationem, hoc provenit ex 
+condi<lb ed="#L" break="no" n="115"/>tione virtutis corporeae. Quia enim, ut diximus, est virtus
+<lb ed="#L" n="116"/>materialis et recepta in quanto, sibi convenit ut nullum
+<lb ed="#L" n="117"/>corpus immediate contingat nisi illa se quantitative tangant.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>Ad tertium dicitur primo quod voluntas divina non
+<lb ed="#L" n="119"/>potest velle aliquid distans a Deo: quia ab ipso nihil neque
+<lb ed="#L" n="120"/>secundum situm localem distat, cum non sit situatus ; neque
+<lb ed="#L" n="121"/>secundum distantiam causalitatis, modo praeexposito, cum
+<lb ed="#L" n="122"/>nihil sit in rerum natura quod non immediate a divina actione
+<lb ed="#L" n="123"/>attingatur. Unde Prima Parte, q. vir, a. 1, ad 3, ait Sanctus
+<lb ed="#L" n="124"/>Thomas quod Aoc ad maximam Dei virtutem pertinet quod.
+<lb ed="#L" n="125"/>immediate in omnibus. agit, et ideo nihil est ab eo distans.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Ad quartum, negatur consequentia. Licet enim oporteat
+<lb ed="#L" n="127"/>praeintelligere Deum operari in aliquo, quantum ad 
+no<lb ed="#L" break="no" n="128"/>strum modum intelligendi, antequam sit secundum 
+essen<lb ed="#L" break="no" n="129"/>tiam praesens, inquantum operari est ratio quod Deus sit
+<lb ed="#L" n="130"/>in re aliqua; non sunt tamen separabilia secundum rem,
+<lb ed="#L" n="131"/>sed unum necessario alterum concomitatur. Non enim
+<lb ed="#L" n="132"/>omne prius potest esse absque posteriori: praesertim quando
+<lb ed="#L" n="133"/>est naturalis sequela ad alterum, et unum est ratio alterius.
+<lb ed="#L" n="134"/>Sicut, quia simultas et contactus quantitatis substantiae
+<lb ed="#L" n="135"/>corporeae est ratio simultatis substantiae, si removeretur
+<lb ed="#L" n="136"/>contactus quantitatis, removeretur simultas situalis 
+sub<lb ed="#L" break="no" n="137"/>stantiae corporeae; et, licet simultas quantitatis sit prior
+<lb ed="#L" n="138"/>secundum intellectum substantiae corporeae simultate, 
+po<lb ed="#L" break="no" n="139"/>sito tamen contactu et simultate quantitatum, necesse est
+<lb ed="#L" n="140"/>poni substantiarum quae illis quantitatibus substant 
+simul<lb ed="#L" break="no" n="141"/>tatem; ita in proposito, cum relationis praesentiae Dei ad
+<lb ed="#L" n="142"/>creaturam ratio sit operatio ipsius in creaturam, non potest
+<lb ed="#L" n="143"/>operatio divina a tali praesentialitate essentiae separari.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>Alia argumenta facit Scotus in Secundo, d. m, q. vi,
+<lb ed="#L" n="145"/>ad probandum quod angelus non est in loco per 
+opera<lb ed="#L" break="no" n="146"/>tionem: sed illa plenissime soluta sunt a Capreolo et aliis
+<lb ed="#L" n="147"/>Thomistis. Ideo illa praetermittenda duxi: praesertim quia
+<lb ed="#L" n="148"/>ex dictis facile eorum. solutio haberi potest.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

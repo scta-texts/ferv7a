@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 70</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 70</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="207"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2279"><!-- ferv7a-l3c70 -->
+            <head>Capitulum 70</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="23" type="fixed=207"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="24"/>EXCLUSA opinione illorum. qui proprias actiones a rebus
+<lb ed="#L" n="25"/>creatis subtrahebant, vult Sanctus Thomas solvere 
+quae<lb ed="#L" break="no" n="26"/>dam dubia quae aliquibus circa praemissa difficultatem 
+af<lb ed="#L" break="no" n="27"/>ferunt. Nom enim videtur aliquibus possibile esse: quod
+<lb ed="#L" n="28"/>effectus naturales attribuantar Deo et naturali agenti.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>I Et arguunt primo sic. Una actio a duobus agentibus
+<lb ed="#L" n="30"/>non videtur posse. progredi. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Secundo. Divina virtus sufficit ad. effectus naturales
+<lb ed="#L" n="32"/>producendos. Ergo superfluum est adhibere naturales 
+vir<lb ed="#L" break="no" n="33"/>tutes. Vel, si naturalis virtus sufficit, superfluum est quod
+<lb ed="#L" n="34"/>divina virtus agat. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Tertio. Si Deus totum effectum naturalem producit,
+<lb ed="#L" n="36"/>nihil relinquitur de effectu naturali es ad producendum.
+<lb ed="#L" n="37"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>II. Ad primum respondet Sanctus Thomas quod, cum
+<lb ed="#L" n="39"/>in quolibet agente sit considerare rem quae agit, et 
+vir<lb ed="#L" break="no" n="40"/>tutem per quam agit, virtus inferioris agentis dependet a
+<lb ed="#L" n="41"/>virtute superioris agentis, inquantum superius agens dat
+<lb ed="#L" n="42"/>virtutem inferiori agenti per quam agit; vel conservat eam;
+<lb ed="#L" n="43"/>vel applicat ad agendum, dando illi solum motum. Ideo
+<lb ed="#L" n="44"/>actio inferioris agentis fit ab eo non solum per propriam
+<lb ed="#L" n="45"/>virtutem, sed etiam per virtutem omnium superiorum 
+agen<lb ed="#L" break="no" n="46"/>tium. Et sicut agens infimum invenitur immediatum 
+acti<lb ed="#L" break="no" n="47"/>vum, ita virtus primi agentis invenitur immediata ad 
+pro<lb ed="#L" break="no" n="48"/>ducendum effectum. Ex quo sequitur quod, sicut non est
+<lb ed="#L" n="49"/>inconveniens unam actionem procedere ab. agente et eius
+<lb ed="#L" n="50"/>virtute, ita non est inconveniens eundem effectum a Deo
+<lb ed="#L" n="51"/>et inferiori. agente immediate produci, licet alio et alio
+<lb ed="#L" n="52"/>modo: a Deo scilicet immediatione virtutis; ab inferiori
+<lb ed="#L" n="53"/>vero agente immediatione suppositi agentis.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>2. Circa illam propositionem, Superius agens dat 
+infe<lb ed="#L" break="no" n="55"/>riori agenti virtutem per quam agit, vel conservat eam,
+<lb ed="#L" n="56"/>vel applicat ad agendum, advertendum, ex doctrina Sancti
+<lb ed="#L" n="57"/>Thomae Pot., q. ut, a. 7, ad 7, quod duplex vis ad agendum
+<lb ed="#L" n="58"/>rebus creatis inest dum agunt. Una est forma habens esse
+<lb ed="#L" n="59"/>firmum et ratum in natura, per quam agunt tanquam
+<lb ed="#L" n="60"/>propria et naturali virtute. Alia est vis quae est intentio
+<lb ed="#L" n="61"/>sola virtutis divinae, habens esse incompletum, per modum
+<lb ed="#L" n="62"/>quo colores sunt in aere, et virtus artis in instrumento :
+<lb ed="#L" n="63"/>et ista vis non convenit rebus nisi quando actualiter 
+ope<lb ed="#L" break="no" n="64"/>rantur et agunt tanquam divinae virtutis instrumenta ; sicut
+<lb ed="#L" n="65"/>et virtus artis non remanet in instrumento nisi quando
+<lb ed="#L" n="66"/>ipso utitur ad operationem artis. Deus ergo dat rebus 
+na<lb ed="#L" break="no" n="67"/>turalibus utramque virtutem: sed secundam tantum illis
+<lb ed="#L" n="68"/>communicat dum eas ad operationem applicat. Ideo dixit
+<lb ed="#L" n="69"/>Sanctus Thomas quod superius agens dat inferiori agenti :
+<lb ed="#L" n="70"/>virtutem per quam agit; vel conservat eam, quod pertinet
+<lb ed="#L" n="71"/>ad primam virtutem; vel applicat ad agendum, quod per
+<lb ed="#L" n="72"/>secundam virtutem efficitur.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>III. De immediatione virtutis et suppositi dictum est in
+<lb ed="#L" n="74"/>praecedentibus : ideo satis est nunc unum exoriens dubium
+<lb ed="#L" n="75"/>excludere, Videtur enim quod virtus supremi agentis non
+<lb ed="#L" n="76"/>sit productiva effectus quasi causa immediata, ut hic dicitur.
+<lb ed="#L" n="77"/>Sicut enim primum agens operatur per secunda agentia .
+<lb ed="#L" n="78"/>tanquam per instrumenta, ita virtus primi agentis utitur
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="79"/>virtutibus secundorum agentium tanquam instrumentis. Sed
+<lb ed="#L" n="80"/>quia primum agens operatur per secunda tanquam. per
+<lb ed="#L" n="81"/>instrumenta, ipsum- non dicitur agens immediatum, sed
+<lb ed="#L" n="82"/>mediatum: et infimum : agens, ut hic dicitur, est 
+imme<lb ed="#L" break="no" n="83"/>diatum. activum. Ergo, quia. primi agentis virtus agit per
+<lb ed="#L" n="84"/>virtutes secundorum tanquam. per instrumenta, ipsa non
+<lb ed="#L" n="85"/>erit immediata causa' effectus, sed mediata;
+</p>
+            <p>
+               <lb ed="#L" n="86"/>2. Respondetur quod in hac obiectione accidit deceptio
+<lb ed="#L" n="87"/>quia accipitur ordo eodem modo in virtutibus, et in 
+sup<lb ed="#L" break="no" n="88"/>positis- agentibus, cum dicimus unum operari per alterum;
+<lb ed="#L" n="89"/>et eodem modo accipitur immediatio. Hoc autem non sic
+<lb ed="#L" n="90"/>est: sed ordo qui consideratur in suppositis, cum dicimus
+<lb ed="#L" n="91"/>unum suppositum per aliud operari, est ordo descensus;
+<lb ed="#L" n="92"/>ordo vero qui in virtutibus consideratur, est ordo ascensus.
+<lb ed="#L" n="93"/>Cum enim dicimus unum suppositum agere per: aliud,
+<lb ed="#L" n="94"/>intelligimus quod agit per. ipsum tanquam per 
+instrumen<lb ed="#L" break="no" n="95"/>tum.ab eo motum. ad aliquod. producendum: sicut cum
+<lb ed="#L" n="96"/>dicimus fabrum- lignarium facere scamnum per.serram. Et
+<lb ed="#L" n="97"/>ideo, si multa agentia ad unam operationem concurrunt,
+<lb ed="#L" n="98"/>dum dicimus unum operari per aliud, ibi consideratur 
+de<lb ed="#L" break="no" n="99"/>scensus quidam a supremo agente non moto usque ad
+<lb ed="#L" n="100"/>infinum agens motum. Sed cum dicimus virtutem unius
+<lb ed="#L" n="101"/>agere per virtutem alterius, intelligimus ipsius virtutem ab
+<lb ed="#L" n="102"/>alterius virtute tanquam ab agente, sive tanquam a 
+su<lb ed="#L" break="no" n="103"/>periori. forma, dependere, inquantum ab ipsa ad suam
+<lb ed="#L" n="104"/>operationem movetur. Et sic, ubi multae virtutes fuerint
+<lb ed="#L" n="105"/>Ssubordinatae, ut.una dicatur per alteram operari, ibi 
+con<lb ed="#L" break="no" n="106"/>sideratur ascensus quidam a virtutibus motis ad virtutes
+<lb ed="#L" n="107"/>moventes. — Ex quo. sequitur quod, cum dicimus aliquod
+<lb ed="#L" n="108"/>agens esse immediatum, intelligimus post ipsum non esse
+<lb ed="#L" n="109"/>aliud suppositum agens ab ipso motum. Cum autem 
+di<lb ed="#L" break="no" n="110"/>cimus aliquam virtutem: esse immediate. productivam 
+ef<lb ed="#L" break="no" n="111"/>fectus, intelligimus ipsam non habere ante se aliam 
+vir<lb ed="#L" break="no" n="112"/>tutem a qua moveatur, sed ipsam esse ex se productivam
+<lb ed="#L" n="113"/>effectus, ut hic dicitur. Unde hanc immediationem virtutis
+<lb ed="#L" n="114"/>assimilat Sanctus Thomas immediationi primi principii:
+<lb ed="#L" n="115"/>nam et primum principium dicitur immediatum, quia ex
+<lb ed="#L" n="116"/>propriis terminis virtutem habet, et veritas ipsius a nullius
+<lb ed="#L" n="117"/>alterius propositionis veritate dependet.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>3. Cum ergo dicitur quod, sicut primum agens operatur
+<lb ed="#L" n="119"/>per secunda agentia tanquam per instrumenta, ita virtus
+<lb ed="#L" n="120"/>primi agentis utitur virtutibus secundorum agentium 
+tan<lb ed="#L" break="no" n="121"/>quam instrumentis: hoc admisso, negari potest 
+conse<lb ed="#L" break="no" n="122"/>quentia. Quia, ut ostensum est, alia est immediatio 
+sup<lb ed="#L" break="no" n="123"/>positi agentis, et alia immediatio virtutis, secundum quod
+<lb ed="#L" n="124"/>ipsis utuntur philosophi.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Potest etiam negari illud assumptum. Quia ratio 
+instru<lb ed="#L" break="no" n="126"/>menti convenit proprie ipsi agenti, non autem virtuti 
+in<lb ed="#L" break="no" n="127"/>strumenti, Et si aliqua virtus dicatur virtus instrumentalis,
+<lb ed="#L" n="128"/>hoc non dicitur quasi ipsa virtus sit instrumentum, sed
+<lb ed="#L" n="129"/>quia est instrumenti virtus,
+</p>
+            <p>
+               <lb ed="#L" n="130"/>Si autem velimus alio modo. uti vocabulis quam 
+phi<lb ed="#L" break="no" n="131"/>losophi utantur, et vocare virtutem immediate agentem
+<lb ed="#L" n="132"/>illam qua nulla est inferior virtus mota ad productionem
+<lb ed="#L" n="133"/>effectus; sic nullum inconveniens esset dicere quod, sicut
+<pb ed="#L" n="208"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>primum agens non est immediatum effectui secundum 
+sup<lb ed="#L" break="no" n="2"/>positum, ita neque est immediatum secundum virtutem.
+<lb ed="#L" n="3"/>Sed hoc esset abuti vocabulis in philosophia.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>IV. Sed circa praedicta adhuc dubitatur. Nam videtur
+<lb ed="#L" n="5"/>Sanctus Thomas oppositum eius quod hic dicitur, alibi
+<lb ed="#L" n="6"/>dicere. Hic enim ait quod iidem effectus proveniunt a Deo
+<lb ed="#L" n="7"/>immediate immediatione virtutis, ab inferioribus autem 
+im<lb ed="#L" break="no" n="8"/>mediate. immediatione. suppositi. In Primo autem Sent.,
+<lb ed="#L" n="9"/>d. xxxvi, q. 1, a. 1, ad 4, videtur velle quod Deus sit
+<lb ed="#L" n="10"/>immediata causa omnium etiam immediatione suppositi.
+<lb ed="#L" n="11"/>Nam postquam dixit quod virtus Dei est immediatissima
+<lb ed="#L" n="12"/>omnibus, subiungit: Sed quia ipsemet est sua virtus, ideo
+<lb ed="#L" n="13"/>non tantum est immediatum principium operationis in
+<lb ed="#L" n="14"/>omnibus, sed immediate in omnibus operans: quod in aliis
+<lb ed="#L" n="15"/>causis non contingit. - In QQ. etiam de Potentia Dei, q. ur,
+<lb ed="#L" n="16"/>a. 7, in fine, postquam conclusit quod Deus est causa
+<lb ed="#L" n="17"/>operationis cuiuslibet inquantum eius virtute omnis alia
+<lb ed="#L" n="18"/>virtus agit, subiungit: .Et cum iis coniunxerimus quod
+<lb ed="#L" n="19"/>Deus sit sua virtus, et quod sit intra quamlibet rem sicut
+<lb ed="#L" n="20"/>tenens rem in esse, sequetur quod ipse in quolibet operante
+<lb ed="#L" n="21"/>immediate operetur. Ex quibus videtur velle quod Deus
+<lb ed="#L" n="22"/>in omnibus immediate operetur, non tantum immediatione
+<lb ed="#L" n="23"/>virtutis, sed etiam immediatione suppositi.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>V. Ad evidentiam huius dubii, notandum est primo,
+<lb ed="#L" n="25"/>quod differentia est inter agens corporeum et Deum, 
+quan<lb ed="#L" break="no" n="26"/>tum ad existentiam in rebus et simultatem cum eis. Quia
+<lb ed="#L" n="27"/>substantia rei corporeae non dicitur esse in alia re, proprie
+<lb ed="#L" n="28"/>loquendo, a se distincta, nisi quia localiter ab ea 
+conti<lb ed="#L" break="no" n="29"/>netur: unde unum corpus esse in alio est ipsum ab alio
+<lb ed="#L" n="30"/>localiter contineri. Similiter unum corpus non dicitur simul
+<lb ed="#L" n="31"/>esse cum alio corpore, nisi aut quia ambo sunt in eodem
+<lb ed="#L" n="32"/>loco, sicut miraculose fieri potest; aut quia sunt 
+imme<lb ed="#L" break="no" n="33"/>diate situata, ita videlicet quod inter situm unius et situm
+<lb ed="#L" n="34"/>alterius non mediat alterius corporis situs. Deus autem,
+<lb ed="#L" n="35"/>secundum proprium modum suum et aliarum 
+substan<lb ed="#L" break="no" n="36"/>tiarum separatarum, dicitur esse in rebus quantum ad 
+sub<lb ed="#L" break="no" n="37"/>stantiam et essentiam suam, non per localem continentiam
+<lb ed="#L" n="38"/>et situalem, sed per causalitatem. Unde ipsius substantiam
+<lb ed="#L" n="39"/>esse in rebus est ipsum esse causam immaediatam, idest,
+<lb ed="#L" n="40"/>habere habitudinem agentis proximi ad ipsas res. Et 
+simi<lb ed="#L" break="no" n="41"/>liter ipsum esse simul cum rebus, est ipsum esse rerum
+<lb ed="#L" n="42"/>immediatam causam.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Considerandum secundo, quod aliter dicitur absolute
+<lb ed="#L" n="44"/>aliquod agens corporeum esse agens immediatum, et aliter
+<lb ed="#L" n="45"/>Deus. Agens enim corporeum dicitur agens immediatum
+<lb ed="#L" n="46"/>quando inter situm suae substantiae et situm sui effectus
+<lb ed="#L" n="47"/>non mediat situaliter aliud agens corporeum ab ipso motum.
+<lb ed="#L" n="48"/>Non enim dicitur substantia corporea immediata alteri nisi
+<lb ed="#L" n="49"/>quia extremitas suae quantitatis est simul cum extremitate
+<lb ed="#L" n="50"/>quantitatis sui effectus, aut passi in quod agit: ut patet
+<lb ed="#L" n="51"/>ex his quae dicuntur IV Physicorum . Sed Deus absolute
+<lb ed="#L" n="52"/>dicitur agens immediatum alicuius rei quando inter ipsum
+<lb ed="#L" n="53"/>et effectum non est aliud agens secundum ordinem 
+cau<lb ed="#L" break="no" n="54"/>salitatis, non autem secundum ordinem situs.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Sciendum tertio quod, quia substantia corporea non
+<lb ed="#L" n="56"/>est idem cum virtute qua agit, non oportet, si virtus eius
+<lb ed="#L" n="57"/>est in aliqua re extrinseca, quod in ea sit sua substantia:
+<lb ed="#L" n="58"/>cum substantia eius non dicatur esse nisi ubi situaliter 
+col<lb ed="#L" break="no" n="59"/>locatur; virtus autem dicatur esse etiam ubi aliquid per
+<lb ed="#L" n="60"/>ipsam causaliter attingitur. Quia vero substantia divina est
+<lb ed="#L" n="61"/>idem quod sua virtus, ideo ubi est eius virtus, ibi est et
+<lb ed="#L" n="62"/>eius substantia. Ex quo sequitur quod, si proprie volumus
+<lb ed="#L" n="63"/>loqui, non sufficit ad hoc ut corpus aliquod dicatur in
+<lb ed="#L" n="64"/>aliud immediate agere, quod virtus eius sit immediata passo
+<lb ed="#L" n="65"/>secundum causalitatem: sed requiritur etiam quod ipsum
+<lb ed="#L" n="66"/>agens sit proximum passo situaliter et secundum suppositum
+<lb ed="#L" n="67"/>agens; quia immediatio in corporibus, proprie loquendo,
+<lb ed="#L" n="68"/>attenditur $ecundum ordinem situs. Unde, quamvis virtus
+<lb ed="#L" n="69"/>solis, in ordine virtutum corporalium, dicatur immediata iis
+<lb ed="#L" n="70"/>quae in visceribus terrae generantur, inquantum proxima
+<lb ed="#L" n="71"/>agentia virtute eius operantur, non tamen convenienter
+<lb ed="#L" n="72"/>dicitur quod sol est illorum agens immediatum: cum inter
+<lb ed="#L" n="73"/>ipsum et illa multa sitit agentia corporalia media secundum
+<lb ed="#L" n="74"/>situm. Et quando dicimus quod sol immediate illa generat,
+<lb ed="#L" n="75"/>illud improprie dicitur: quia videlicet dicitur illa generare,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>non quia ipse agat, sed eo quod agentia proxima eius .
+<lb ed="#L" n="77"/>virtute generent. - Ad hoc autem quod Deus dicatur agens
+<lb ed="#L" n="78"/>immediatum absolute, sufficit ut eius virtus sit immediata
+<lb ed="#L" n="79"/>causaliter. Quia immediatio in Deo est tantum secundum
+<lb ed="#L" n="80"/>ordinem causalitatis. Et ideo, cum sua substantia sit idem
+<lb ed="#L" n="81"/>quod sua virtus, ubi est sua virtus, est etiam sua substantia,
+<lb ed="#L" n="82"/>et ipsa causat immediate id quod ab eius virtute 
+imme<lb ed="#L" break="no" n="83"/>diate causatur.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Sciendum quarto, quod aliud est dicere absolute Deum
+<lb ed="#L" n="85"/>esse agens immediate in omnibus rebus: et aliud est dicere
+<lb ed="#L" n="86"/>Deum esse agens in omnibus immediate immediatione
+<lb ed="#L" n="87"/>suppositi. Quia ad primum sufficit quod res immediate
+<lb ed="#L" n="88"/>attingat sua virtute, idest, quod ipse sit agens, et inter
+<lb ed="#L" n="89"/>ipsam virtutem Dei et effectum non sit aliqua virtus 
+su<lb ed="#L" break="no" n="90"/>perior per quam agat: cum enim sit idem in ipso agens
+<lb ed="#L" n="91"/>et virtus, non tantum dicitur quod alia agentia agant in
+<lb ed="#L" n="92"/>virtute ipsius, sed etiam quod ipse agit immediate sua
+<lb ed="#L" n="93"/>virtute. Ad secundum vero requiritur quod inter Deum et
+<lb ed="#L" n="94"/>res nulla sit causa ipsi co-agens tanquam ab ipso mota,
+<lb ed="#L" n="95"/>sed quod se solo proxime operetur.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>VI. Ad dubium ergo dicitur primo, quod non est mens
+<lb ed="#L" n="97"/>Sancti Thomae, ubi allegatur, quod Deus differat ab aliis
+<lb ed="#L" n="98"/>agentibus quia illa agant immediate immediatione suppositi
+<lb ed="#L" n="99"/>tantum, Deus autem agat immediate et immediatione 
+vir<lb ed="#L" break="no" n="100"/>tutis et immediatione suppositi: quia istud implicaret. Si
+<lb ed="#L" n="101"/>enim Deus esset immediate agens immediatione suppositi
+<lb ed="#L" n="102"/>in omnibus effectibus aliarum causarum, aliae causae non
+<lb ed="#L" n="103"/>agerent immediate immediatione suppositi: — nisi 
+dice<lb ed="#L" break="no" n="104"/>remus quod inter Deum et alias causas non est ordo per
+<lb ed="#L" n="105"/>se in causando, secundum supposita agentia: cuius 
+oppo<lb ed="#L" break="no" n="106"/>situm omnis schola et philosophorum et theologorum tenet,
+<lb ed="#L" n="107"/>et maxime apparet in hoc loco ex Sancto Thoma, et in
+<lb ed="#L" n="108"/>aliis locis allegatis.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Dicitur secundo, quod mens eius est quod Deus non
+<lb ed="#L" n="110"/>solum ad effectus aliarum causarum sic se habet quod
+<lb ed="#L" n="111"/>virtus eius sit effectibus immediata, et ipsae causae dicantur
+<lb ed="#L" n="112"/>agere immediate per eius virtutem, non autem ipse dicatur
+<lb ed="#L" n="113"/>absolute sua virtute immediate agere sicut accidit in primo
+<lb ed="#L" n="114"/>agente corporali, ut declaravimus : sed, sicut virtus eius est
+<lb ed="#L" n="115"/>omnibus rebus immediata, et est principium quo agendi
+<lb ed="#L" n="116"/>in omnibus, ita ipse dicitur agere sua virtute immediate
+<lb ed="#L" n="117"/>ut principium quod absolute, cum sit idem realiter cum
+<lb ed="#L" n="118"/>ipsa, et ubi est virtus eius secundum causalitatem, sit etiam
+<lb ed="#L" n="119"/>ipse Deus eodem modo. In hoc enim differt Deus ab aliis
+<lb ed="#L" n="120"/>primis agentibus quae sunt corpora, respectu effectus a
+<lb ed="#L" n="121"/>proxima causa producti, quia primum agens corporeum
+<lb ed="#L" n="122"/>non dicitur proprie immediatum agens sicut quod, sed
+<lb ed="#L" n="123"/>tantum virtus eius est sicut quo inferiora agentia agunt,
+<lb ed="#L" n="124"/>quia non est in inferioribus agentibus secundum suam
+<lb ed="#L" n="125"/>substantiam in quibus est sua virtus, neque est idem quod
+<lb ed="#L" n="126"/>virtus ipsa, ut idem sit agens quo et agens quod: Deus
+<lb ed="#L" n="127"/>autem, quia est idem quod sua virtus, et est ubi ipsa est,
+<lb ed="#L" n="128"/>non tantum babet ut eius virtus sit quo agentia secunda
+<lb ed="#L" n="129"/>agant, sed etiam habet ut sit agens quod, in eodem ordine
+<lb ed="#L" n="130"/>quo sua virtus est agens quo; ut scilicet immediate agat
+<lb ed="#L" n="131"/>immediatione virtutis, et non per virtutem alterius agentis;
+<lb ed="#L" n="132"/>et ut dici absolute possit: Deus immediate in omnibus
+<lb ed="#L" n="133"/>operatur.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Cum hoc autem stat quod aliqua agat mediate 
+me<lb ed="#L" break="no" n="135"/>diatione suppositi: dum causis naturalibus utitur tanquam
+<lb ed="#L" n="136"/>instrumentis non solum virtutis suae, sicut inferiores causae
+<lb ed="#L" n="137"/>corporeae sunt instrumentum virtutum superiorum 
+cor<lb ed="#L" break="no" n="138"/>porum, sed etiam ipsius Dei agentis.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>VII. Sed circa istam responsionem remanent quaedam
+<lb ed="#L" n="140"/>dubia, Primum est: nam, secundum dicta, verum est, 
+abso<lb ed="#L" break="no" n="141"/>lute loquendo, quod Deus immediate producit 
+unumquod<lb ed="#L" break="no" n="142"/>que, quia sua virtute immediate attingit omnia. Et hoc
+<lb ed="#L" n="143"/>videtur ab omnibus concessum. Ergo vanum est quaerere
+<lb ed="#L" n="144"/>utrum Deus sit causa omnium immediata: an aliquorum
+<lb ed="#L" n="145"/>sit causa mediata, aliquorum vero immediata. Et tamen
+<lb ed="#L" n="146"/>hoc a praeclarissimis philosophis in dubium vertitur, et
+<lb ed="#L" n="147"/>aliqui dicunt Deum aliqua immediate produxisse, aliqua
+<lb ed="#L" n="148"/>vero mediate.
+</p>
+            <p>
+               <lb ed="#L" n="149"/>Secundum dubium est. Aut loquimur de virtute divina
+<lb ed="#L" n="150"/>secundum seipsam, ut est in Deo: aut quantum ad eius
+<pb ed="#L" n="209"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>intentionem et similitudinem in agentibus inferioribus 
+re<lb ed="#L" break="no" n="2"/>ceptam. Si primo modo, non est verum quod ipsa sit in
+<lb ed="#L" n="3"/>agentibus inferioribus, sed est tantum in Deo: sicut et
+<lb ed="#L" n="4"/>Dei sapientia in solo Deo est secundum seipsam, Si vero
+<lb ed="#L" n="5"/>secundo modo loquamur, sic falsum est quod Deus sit
+<lb ed="#L" n="6"/>ipsa virtus: cum virtus illo modo sit accidens in creatura.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>VIII. Ad primum dupliciter potest responderi. Primo
+<lb ed="#L" n="8"/>quod, dum philosophi quaerunt utrum Deus sit causa 
+ef<lb ed="#L" break="no" n="9"/>fectiva immediata omnium, non quaerunt de immediatione
+<lb ed="#L" n="10"/>virtutis: quia hoc pro manifesto et confesso tenent. Sed
+<lb ed="#L" n="11"/>quaerunt de immediatione suppositi : an scilicet omnia per
+<lb ed="#L" n="12"/>se solum produxerit in esse, nullo alio agente cooperante ;
+<lb ed="#L" n="13"/>vel potius aliqua per se solum produxerit, alia vero 
+pro<lb ed="#L" break="no" n="14"/>duxerit aliis causis cooperantibus, Et sic non est vanum
+<lb ed="#L" n="15"/>quaesitum, sed multas patitur difficultates.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Secundo responderi potest quod non ab omnibus 
+phi<lb ed="#L" break="no" n="17"/>losophis conceditur quod Deus agat immediate in omnibus
+<lb ed="#L" n="18"/>rebus secundum virtutem, eo modo quo nos dicimus 
+vir<lb ed="#L" break="no" n="19"/>tutem divinam esse omnibus immediatam, quia videlicet
+<lb ed="#L" n="20"/>per se omnem rem attingit, et nulla causa agit nisi 
+in<lb ed="#L" break="no" n="21"/>quantum virtus primi agentis eam applicat ad operationem
+<lb ed="#L" n="22"/>et ea utitur sicut instrumento: sed aliqui dixerunt quod
+<lb ed="#L" n="23"/>Deus quaedam immediate produxit, ipsa scilicet sua virtute
+<lb ed="#L" n="24"/>attingendo; quaedam vero mediate, dando videlicet causis
+<lb ed="#L" n="25"/>ipsorum virtutes naturales quibus operantur, et eas in esse
+<lb ed="#L" n="26"/>conservando, non autem illa sua virtute immediate 
+attin<lb ed="#L" break="no" n="27"/>gendo. Et ideo convenienter etiam quaeritur a philosophis,
+<lb ed="#L" n="28"/>an Deus omnia secundum suam virtutem immediate 
+pro<lb ed="#L" break="no" n="29"/>ducat.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>2. Ad secundum dubium respondetur quod accidit 
+de<lb ed="#L" break="no" n="31"/>ceptio quia imaginamur divinam virtutem esse in rebus
+<lb ed="#L" n="32"/>eo modo quo forma substantialis aut accidentalis dicitur
+<lb ed="#L" n="33"/>esse in suo susceptivo: cum tamen ipsam esse in rebus
+<lb ed="#L" n="34"/>non sit ipsam rebus per modum formae inhaerere, sed
+<lb ed="#L" n="35"/>res contingere eas in esse producendo. Dicitur ergo quod
+<lb ed="#L" n="36"/>loquimur de virtute divina secundum quod in se est. - Cum
+<lb ed="#L" n="37"/>autem arguitur contra, quia sic non est in causis 
+inferio<lb ed="#L" break="no" n="38"/>ribus: negatur. Dicitur enim quod est in causis inferioribus
+<lb ed="#L" n="39"/>per modum operantis in illas, licet non per modum formae
+<lb ed="#L" n="40"/>inhaerentis. Agit enim immediate quandam sui participa-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="41"/>tionem in omnibus causis inferioribus, et cum illa 
+parti<lb ed="#L" break="no" n="42"/>cipata similitudine simul immediate ipsarum effectus 
+at<lb ed="#L" break="no" n="43"/>tingit. Accipitur enim tanquam una virtus ipsa virtus in
+<lb ed="#L" n="44"/>Deo existens, et eius intentio in causis inferioribus 
+pro<lb ed="#L" break="no" n="45"/>ducta: sicut ars quae est in mente artificis, et eius intentio
+<lb ed="#L" n="46"/>in instrumento recepta, pro una virtute accipiuntur.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>IX. Ad secundum , negat Sanctus Thomas 
+consequen<lb ed="#L" break="no" n="48"/>tiam, Non enim est superfluum, si res naturalis producat
+<lb ed="#L" n="49"/>proprium effectum, quod Deus illum producat: quia res
+<lb ed="#L" n="50"/>naturalis non producit illum nisi virtute divina.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>Neque etiam superfluum est, si Deus potest per seipsum
+<lb ed="#L" n="52"/>omnes effectus naturales producere, quod per alias quasdam
+<lb ed="#L" n="53"/>causas producantur. Quia ex immensitate bonitatis suae
+<lb ed="#L" n="54"/>voluit suam similitudinem rebus communicare non solum
+<lb ed="#L" n="55"/>quantum ad hoc quod essent, sed etiam quantum ad hoc
+<lb ed="#L" n="56"/>quod essent aliorum causae. — Et etiam quia per hoc
+<lb ed="#L" n="57"/>decor ordinis in rebus creatis apparet.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Adverte quod, cum dicatur superfluum ad operationem
+<lb ed="#L" n="59"/>aut quod non est ad operationem necessarium ; aut quod
+<lb ed="#L" n="60"/>non solum non est necessarium, sed etiam propter nullum
+<lb ed="#L" n="61"/>bonum, aut propter nullam utilitatem adducitur: cum 
+di<lb ed="#L" break="no" n="62"/>citur quod res naturalis non producit effectum nisi virtute
+<lb ed="#L" n="63"/>divina, datur intelligi quod non est superfluum, Deum
+<lb ed="#L" n="64"/>agere ad effectum naturae, quasi sine ipso talis effectus 
+pro<lb ed="#L" break="no" n="65"/>duci possit. Immo necessarium est Deum agere ad talem 
+ef<lb ed="#L" break="no" n="66"/>fectum: quia, remota virtute divina, per quam res naturalis
+<lb ed="#L" n="67"/>agit, ipsa non posset agere; sicut, remota virtute artis, serra
+<lb ed="#L" n="68"/>non posset scamnum operari. - Cum vero dicitur Deum
+<lb ed="#L" n="69"/>suam similitudinem voluisse rebus communicare et 
+quan<lb ed="#L" break="no" n="70"/>tum ad esse et quantum ad operari: datur intelligi non
+<lb ed="#L" n="71"/>esse superfluam actionem rerum creatarum in productione
+<lb ed="#L" n="72"/>effectuum Dei secundo modo. Quia, licet non sit 
+neces<lb ed="#L" break="no" n="73"/>saria quasi sine ipsa Deus effectum producere non possit,
+<lb ed="#L" n="74"/>ex hoc tamen magis manifestatur divina bonitas, et maior
+<lb ed="#L" n="75"/>decor in rebus creatis apparet, et sic non inutiliter concurrit.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>X. Ad tertium , negat assumptum. Totus enim effectus
+<lb ed="#L" n="77"/>ab utroque agente fit, sed secundum alium modum: sicut
+<lb ed="#L" n="78"/>totus effectus attribuitur et principali agenti et instrumento,
+<lb ed="#L" n="79"/>uni scilicet tanquam ex se operanti, alteri vero tanquam
+<lb ed="#L" n="80"/>operanti in virtute alterius.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 59</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 59</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="165"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2190"><!-- ferv7a-l3c59 -->
+            <head>Capitulum 59</head>
+            <p>
+               <pb ed="#L" n="165"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=165"/>Commentaria Ferrariensis .
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>QVIA: Ostensum est quod videntium Deum unus alio
+<lb ed="#L" n="3"/>perfectius videt, posset aliquis quaerere utrum sit
+<lb ed="#L" n="4"/>tanta inaequalitas quod nulla rerum multitudo sit quam
+<lb ed="#L" n="5"/>omnes videant; an magis sint quaedam quae ab omnibus
+<lb ed="#L" n="6"/>in essentia divina videantur. Ideo ad hanc quaestionem vult
+<lb ed="#L" n="7"/>Sanctus Thomas respondere .
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Circa hoc autem duo facit: primo, ostendit quae sunt
+<lb ed="#L" n="9"/>illa quae in divina essentia ab omnibus videntur; secundo,
+<lb ed="#L" n="10"/>removet quoddam dubium, circa medium huius capituli .
+</p>
+            <p>
+               <lb ed="#L" n="11"/>I. Quantum ad primum, ponit hanc conclusionem: 
+Qui<lb ed="#L" break="no" n="12"/>libet divinam substantiam videntium cognoscit omnia: 
+ge<lb ed="#L" break="no" n="13"/>nera et species et virtutes, et totum ordinem universi.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Probatur primo. Appetitus naturalis intellectus est ut
+<lb ed="#L" n="15"/>omnia praedicta cognoscat: ut demonstrat humanum 
+stu<lb ed="#L" break="no" n="16"/>dium erga  singula horum. Ergo etc. — Probatur 
+conse<lb ed="#L" break="no" n="17"/>quentia, Quia oportet quod appetitus naturalis substantiae
+<lb ed="#L" n="18"/>intellectualis divinam substantiam videntis omnino quiescat:
+<lb ed="#L" n="19"/>cum quiescat appetitus naturalis cuiuslibet rei cum ad 
+ul<lb ed="#L" break="no" n="20"/>timum finem pervenerit,
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Secundo, Intellectus per lumen gloriae elevatur ad 
+vi<lb ed="#L" break="no" n="22"/>dendum Dei substantiam, quae est summum in genere
+<lb ed="#L" n="23"/>intelligibilium. Ergo multo magis eodem lumine perficitur
+<lb ed="#L" n="24"/>ad. omnia alia intelligenda quae sunt in rerum natura.
+<lb ed="#L" n="25"/>Ergo etc. — Probatur consequentia ex differentia posita
+<lb ed="#L" n="26"/>inter intellectum. et sensum, III de Anima. Quia videlicet
+<lb ed="#L" n="27"/>intellectus, postquam intellexerit magis intelligibile, non
+<lb ed="#L" n="28"/>minus poterit alia intelligibilia intelligere, immo magis:
+<lb ed="#L" n="29"/>cum non corrumpatur nec impediatur a suo obiecto, sed
+<lb ed="#L" n="30"/>solum perficiatur. Hoc autem non convenit sensui respectu
+<lb ed="#L" n="31"/>sensibilis: eo quod ab excellentibus sensibilibus 
+corrum<lb ed="#L" break="no" n="32"/>patur vel debilitetur.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Adverte quod non oportet quidem, si aliquo lumine
+<lb ed="#L" n="34"/>intellectuali manifestatur maius intelligibile, quod 
+mani<lb ed="#L" break="no" n="35"/>festetur eodem etiam minus intelligibile, ita quod videatur
+<lb ed="#L" n="36"/>in maiori: sed bene probabile est quod lumen elevans
+<lb ed="#L" n="37"/>intellectum ad divinam essentiam videndam, quae est 
+ex<lb ed="#L" break="no" n="38"/>cellentissimum intelligibile, natum omnia repraesentare 
+cla<lb ed="#L" break="no" n="39"/>rissime, elevet. etiam ad videndum rcrum omnium 
+natura<lb ed="#L" break="no" n="40"/>lium species et naturas, quae sunt illius divinae substantiae
+<lb ed="#L" n="41"/>effectus, in quibus divina bonitas relucet.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>IL Sed dubium occurrit circa hanc rationem. Nam ex
+<lb ed="#L" n="43"/>ipsa non solum videtur posse concludi quod Beati 
+vi<lb ed="#L" break="no" n="44"/>deant omnia ad universi ordinem pertinentia, sed quod
+<lb ed="#L" n="45"/>absolute omnia videant. Nam ita omnia a Deo 
+produci<lb ed="#L" break="no" n="46"/>bilia sunt minus intelligibile quam divina essentia, sicut
+<lb ed="#L" n="47"/>et omnia praedicta. :
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Respondetur quod haec ratio inducitur ad excludendum
+<lb ed="#L" n="49"/>responsionem quae ad praecedentem rationem posset dari.
+<lb ed="#L" n="50"/>Posset enim aliquis dicere quod, quamvis naturale 
+desi<lb ed="#L" break="no" n="51"/>derium naturae intellectualis sit ad cognoscendum omnia
+<lb ed="#L" n="52"/>praedicta, impeditur tamen ab horum cognitione propter
+<lb ed="#L" n="53"/>divinae essentiae quae videtur excellentiam, sicut sensus
+<lb ed="#L" n="54"/>ab: excellentibus sensibilibus ne minus sensibilia cognoscat
+<lb ed="#L" n="55"/>impeditur. Sed ista responsio per hanc rationem excluditur,
+<lb ed="#L" n="56"/>ut patet ex ipso rationis processu. Ideo ex ipsa concludi
+<lb ed="#L" n="57"/>non potest quod Beati omnia absolute in Deo videant:
+<lb ed="#L" n="58"/>sed tantum quod excellentia intelligibilis divini non 
+im<lb ed="#L" break="no" n="59"/>pedit quin illa Beati videant in Deo quae naturaliter scire
+<lb ed="#L" n="60"/>desiderant.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>HL. Tertio. Quae requiruntur ad perfectionem esse 
+na<lb ed="#L" break="no" n="62"/>turalis, requiruntur etiam ad perfectionem esse 
+intelligi<lb ed="#L" break="no" n="63"/>bilis, vel etiam plura. Sed perfectio esse intelligibilis est
+<lb ed="#L" n="64"/>cum intellectus ad suum finem pervenerit, scilicet ad 
+vi<lb ed="#L" break="no" n="65"/>dendum Deum: sicut perfectio esse naturalis in rerum
+<lb ed="#L" n="66"/>constitutione consistit. Ergo omnia quae ad perfectionem
+<lb ed="#L" n="67"/>universi produxit Deus, intellectui videnti se manifestat. —
+<lb ed="#L" n="68"/>Probatur maior. Quia esse intelligibile non est minoris
+<lb ed="#L" n="69"/>ambitus quam esse naturale, sed forte maioris; cum 
+in<lb ed="#L" break="no" n="70"/>tellectus etiam negationes et privationes intelligat, quae
+<lb ed="#L" n="71"/>non habent esse naturale.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Advertendum quod ratio consistit in hoc quod, cum
+<lb ed="#L" n="73"/>intellectus pervenerit ad suum finem, qui est videre di-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="74"/>vinam substantiam, habebit complementum perfectionis in
+<lb ed="#L" n="75"/>esse. intelligibili. Perfectio autem intellectus in esse 
+intel<lb ed="#L" break="no" n="76"/>ligibili est intelligere. Ideo; cum pervenerit. ad videndum
+<lb ed="#L" n="77"/>Deum, habebit completam cognitionem totius esse 
+intel<lb ed="#L" break="no" n="78"/>ligibilis: alioquin non pervenisset ad ultimum suum finem,
+<lb ed="#L" n="79"/>cum adhuc remaneret aliquid ab eo intelligendum. Omnia
+<lb ed="#L" n="80"/>autem quae pertinent ad perfectionem esse naturalis, 
+per<lb ed="#L" break="no" n="81"/>tinent etiam ad perfectionem esse intelligibilis: cum 
+unum<lb ed="#L" break="no" n="82"/>quodque sit intelligibile inquantum est ens in actu. Ideo
+<lb ed="#L" n="83"/>oportet ut videat omnia ad esse naturae pertinentia. ' .
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Quarto. Quilibet videntium. Deum ita perfecte eum
+<lb ed="#L" n="85"/>videt quod impletur tota eius capacitas naturalis, immo
+<lb ed="#L" n="86"/>exceditur. Igitur omnia videt ad quae se.extendit sua 
+ca<lb ed="#L" break="no" n="87"/>pacitas naturalis. Ergo etc. — Probatur secunda 
+conse<lb ed="#L" break="no" n="88"/>quentia (prima. enim est manifesta). Quia capacitas 
+natu<lb ed="#L" break="no" n="89"/>ralis cuiuslibet intellectus extendit se ad omnia praedicta
+<lb ed="#L" n="90"/>cognoscenda.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>CowriRMATUR auctoritate Domini, Exod. xxxi; et 
+aucto<lb ed="#L" break="no" n="92"/>ritate Gregorii. o
+</p>
+            <p>
+               <lb ed="#L" n="93"/>IV. Advertendum, quod istam Gregorii auctoritatem in
+<lb ed="#L" n="94"/>IV Dialogorum, scilicet, Quid est quod non videant qui
+<lb ed="#L" n="95"/>videntem omnia vident? videtur Sanctus Thomas, ex eo
+<lb ed="#L" n="96"/>quod eam. ad confirmationem praedictorum inducit, 
+inter<lb ed="#L" break="no" n="97"/>pretari non de omnibus simpliciter, sed de omnibus 
+ge<lb ed="#L" break="no" n="98"/>neribus, speciebus, virtutibus, et ordine universi. In Prima
+<lb ed="#L" n="99"/>vero Parte ; et Verit, q. vur, a. 4, eam interpretatur
+<lb ed="#L" n="100"/>quantum ad sufficientiam medii: quia divina essentia est,
+<lb ed="#L" n="101"/>quantum in seipsa est, sufficiens medium demonstrationis
+<lb ed="#L" n="102"/>rerum omnium. — Addit etiam in Qu. Verit, , aliam 
+expo<lb ed="#L" break="no" n="103"/>sitionem: scilicet quod potest intelligi de iis quae pertinent
+<lb ed="#L" n="104"/>ad substantiam beatitudinis, Nam, ut ibidem dicitur, ad 12,
+<lb ed="#L" n="105"/>quamvis nulla cognitio creaturae sit de substantia 
+beati<lb ed="#L" break="no" n="106"/>tudinis tanquam beatificans, aliqua tamen cognitio 
+crea<lb ed="#L" break="no" n="107"/>turae pertinet ad beatitudinem quasi necessaria ad aliquem
+<lb ed="#L" n="108"/>actum Beati: puta ad gubernationem eorum qui eius
+<lb ed="#L" n="109"/>curae committuntur; vel ad laudandum, sicut sunt 
+crea<lb ed="#L" break="no" n="110"/>turae ex quibus perfectio universi constat. Sed ista 
+expo<lb ed="#L" break="no" n="111"/>sitio est quasi eadem cum ea quae hic ponitur.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>V. Quantum ad secundum, removet quoddam dubium
+<lb ed="#L" n="113"/>Sanctus Thomas quod ex praedictis videtur insurgere .
+<lb ed="#L" n="114"/>Nam dictum est in superioribus quod videntes Deum non
+<lb ed="#L" n="115"/>vident omnia. Hic vero dicitur quod omnia vident. Et sic
+<lb ed="#L" n="116"/>videntur contradictoria dici.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Respondet quod nulla est contradictio, sed utrumque
+<lb ed="#L" n="118"/>est verum, si recte intelligatur. Si enim per omnia 
+intel<lb ed="#L" break="no" n="119"/>ligantur quae ad. universi perfectionem pertinent, sic 
+vi<lb ed="#L" break="no" n="120"/>dentes Deum omnia vident: ut patet ex rationibus 
+supe<lb ed="#L" break="no" n="121"/>rius inductis. Replicat autem unam rationem, quae sibi
+<lb ed="#L" n="122"/>forte videbatur subtilior, scilicet hanc: quia, cum. 
+intel<lb ed="#L" break="no" n="123"/>lectus sit quodammodo omnia, quaecumque ad 
+perfectio<lb ed="#L" break="no" n="124"/>nem naturae pertinent, etiam pertinent ad perfectionem
+<lb ed="#L" n="125"/>esse intelligibilis. Unde secundum Augustinum, super Gen.
+<lb ed="#L" n="126"/>ad litt.,, talia non solum facta sunt per Dei Verbum ut
+<lb ed="#L" n="127"/>in propria natura subsisterent, sed etiam in intelligentia
+<lb ed="#L" n="128"/>angeli, ut intelligerentur ab eis. Haec autem sunt naturae
+<lb ed="#L" n="129"/>specierum, et earum proprietates et virtutes: cum ad 
+spe<lb ed="#L" break="no" n="130"/>cies naturae intentio feratur. Ergo haec cognoscere .
+per<lb ed="#L" break="no" n="131"/>tinet: ad perfectionem intellectualis naturae. Ergo hoc in
+<lb ed="#L" n="132"/>finali beatitudine per visionem divinae essentiae 
+conse<lb ed="#L" break="no" n="133"/>quitur. Per cognitionem quoque specierum naturalium
+<lb ed="#L" n="134"/>cognoscuntur et individua sub speciebus existentia: ut
+<lb ed="#L" n="135"/>patet ex dictis superius de cognitione Dei et angelorum.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>Si vero per omnia intelligantur omnia quae Deus, suam
+<lb ed="#L" n="137"/>essentiam intelligendo, cognoscit: nullus intellectus creatus
+<lb ed="#L" n="138"/>omnia in Dei substantia videt. Non enim videt omnia quae
+<lb ed="#L" n="139"/>Deus facere potest et nunquam faciet, Non etiam videt
+<lb ed="#L" n="140"/>omnium rerum factarum rationes, ut dicitur Eccle. vim.
+<lb ed="#L" n="141"/>Non denique videt omnia quae ex sola Dei voluntate
+<lb ed="#L" n="142"/>dependent: sicut sunt praedestinatio, electio, iustificatio,
+<lb ed="#L" n="143"/>et huiusmodi. — Duo prima probantur, quia unum non
+<lb ed="#L" n="144"/>posset esse sine comprehensione divinae virtutis, quod
+<lb ed="#L" n="145"/>superius ostensum est esse impossibile: et ostenditur etiam
+<pb ed="#L" n="166"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>auctoritate Job xr. Alterum vero non posset esse sine
+<lb ed="#L" n="2"/>comprehensione divinae bonitatis et divinae sapientiae:
+<lb ed="#L" n="3"/>quia, cum ratio rerum factarum sit ut bonitas Dei 
+diffun<lb ed="#L" break="no" n="4"/>datur in rebus, aliquis rerum omnium rationes cognosceret
+<lb ed="#L" n="5"/>si cognosceret omnia bona quae in rebus creatis secundum
+<lb ed="#L" n="6"/>ordinem divinae sapientiae provenire possunt; quod esset
+<lb ed="#L" n="7"/>divinam bonitatem 'et etiam  sapientiam comprehendere.
+<lb ed="#L" n="8"/>— Tertium vero probatur auctoritate Apostoli, I Cor. rr.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>VI. Circa praedicta duo occurrunt dubia. Primum est
+<lb ed="#L" n="10"/>quia Sanctus Thomas Prima, q. xir, a. 8, ad ult, inquit
+<lb ed="#L" n="11"/>quod cognoscere singularia non est de perfectione 
+intel<lb ed="#L" break="no" n="12"/>lectus creati, et quod ad hoc naturale desiderium 
+ratio<lb ed="#L" break="no" n="13"/>nalis creaturae non fertur, relinquens quod illa non 
+vi<lb ed="#L" break="no" n="14"/>dentur in Deo. — Hic autem videtur oppositum dici: nam
+<lb ed="#L" n="15"/>inquit quod per cognitionem naturalium specierum 
+co<lb ed="#L" break="no" n="16"/>gnoscuntur individua sub huiusmodi speciebus existentia
+<lb ed="#L" n="17"/>ab intellectu vidente Deum.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Secundum dubium  est, quia hic dicitur quod omnes
+<lb ed="#L" n="19"/>rerum factarum rationes non potest intellectus creatus
+<lb ed="#L" n="20"/>cognoscere. - In loco vero praeallegato dicitur quod
+<lb ed="#L" n="21"/>naturale desiderium rationalis creaturae est ad sciendum
+<lb ed="#L" n="22"/>omnia illa quae ad perfectionem intellectus pertinent: et
+<lb ed="#L" n="23"/>haec sunt species et genera rerum, et rationes earum,
+<lb ed="#L" n="24"/>quae in Deo videbit quilibet divinam essentiam videns.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>VII. Ad primum horum respondetur quod singularia
+<lb ed="#L" n="26"/>dupliciter considerari possunt. Uno modo, quantum ad
+<lb ed="#L" n="27"/>ipsorum naturam individuatam, secundum quam sub specie
+<lb ed="#L" n="28"/>continentur; et quantum ad ea quae sibi conveniunt 
+se<lb ed="#L" break="no" n="29"/>cundum naturalem ordinem universi. Et sic vult hic 
+San<lb ed="#L" break="no" n="30"/>ctus Thomas quod a vidente Deum videantur per 
+cogni<lb ed="#L" break="no" n="31"/>tionem naturalium specierum. Et hoc quidem probabile
+<lb ed="#L" n="32"/>est. Quia sicut substantiae separatae, ut superius est 
+osten<lb ed="#L" break="no" n="33"/>sum, videndo cognitione naturali speciem, vident omnia
+<lb ed="#L" n="34"/>iliius individua actu existentia, eo quod. species 
+intelligi<lb ed="#L" break="no" n="35"/>bilis naturae specificae sit etiam eorum similitudo : ita,
+<lb ed="#L" n="36"/>cum cognitio Beati non sit inferior cognitione naturali
+<lb ed="#L" n="37"/>substantiae separatae, conveniens est quod videntes per
+<lb ed="#L" n="38"/>divinam essentiam, quae est omnium similitudo, aliquam
+<lb ed="#L" n="39"/>naturam et speciem, videant per illam omnia individua
+<lb ed="#L" n="40"/>illius naturae.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Alio modo considerari possunt quantum ad ea quae
+<lb ed="#L" n="42"/>ipsis ex divina ordinatione proveniunt; aut etiam quae ad
+<lb ed="#L" n="43"/>ipsius creaturae voluntatem pertinent. Et sic intelligit in
+<lb ed="#L" n="44"/>Prima Parte. Unde copulative dixit quod cognoscere alia
+<lb ed="#L" n="45"/>singularia, et cogitata et facta eorum, non est de 
+perfe<lb ed="#L" break="no" n="46"/>ctione intellectus creati. Sic enim verum est quod videntes
+<lb ed="#L" n="47"/>Deum non vident omnes homines videndo omnia quae
+<lb ed="#L" n="48"/>illis in dies ex divina ordinatione succedunt, et eorum
+<lb ed="#L" n="49"/>omnes cogitatus. Et similiter non vident omnia ad quae
+<lb ed="#L" n="50"/>alia singularia ex divina institutione ordinantur, sed de iis
+<lb ed="#L" n="51"/>tantum vident quantum perfectio beatitudinis requirit: ut
+<lb ed="#L" n="52"/>dicitur de Verit., ubi supra ; et Quarto, d. xrv, q. nr, a. t.
+<lb ed="#L" n="53"/>Hoc autem exigit perfectio beatitudinis, ut videant quae
+<lb ed="#L" n="54"/>ad ipsos pertinent, sicut sunt vota et orationes et 
+devo<lb ed="#L" break="no" n="55"/>tiones hominum qui eis afficiuntur, et eorum implorant
+<lb ed="#L" n="56"/>auxilium, et alia huiusmodi. Ex sic aliqua singularia, 
+quan<lb ed="#L" break="no" n="57"/>tum ad ea quae ad eorum propriam voluntatem et divinam
+<lb ed="#L" n="58"/>ordinationem pertinent, cognoscunt, non autem omnia:
+<lb ed="#L" n="59"/>licet omnia illa cognoscant inquantum sunt huius naturae
+<lb ed="#L" n="60"/>singularia, et quantum ad ea quae sibi secundum ordinem
+<lb ed="#L" n="61"/>naturae conveniunt. Unde etiam Gregorii opinio in XII lib.
+<lb ed="#L" n="62"/>Moral., quam approbat Sanctus Thomas in loco 
+praeal<lb ed="#L" break="no" n="63"/>legato  magis quam opinionem Augustini in libro de Cura
+<lb ed="#L" n="64"/>pro mortuis agenda , sic est intelligenda. Cum enim inquit
+<lb ed="#L" n="65"/>quod qui intus Dei claritatem vident, nullo modo 
+cre<lb ed="#L" break="no" n="66"/>dendum est quod sit foris aliquid quod ignorant, 
+intel<lb ed="#L" break="no" n="67"/>ligendum est de iis quae ad ordinem naturae pertinent:
+<lb ed="#L" n="68"/>non autem de omnibus absolute quae singularibus 
+quo<lb ed="#L" break="no" n="69"/>modocumque conveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>VIII. Sed remanet dubium, utrum omnia singularia, tam
+<lb ed="#L" n="71"/>praesentia quam futura, videant Beati in divina essentia :
+<lb ed="#L" n="72"/>an tantum quae praesentia sunt. Si enim ponatur quod
+<lb ed="#L" n="73"/>videant singularia etiam futura, videtur hoc esse contra
+<lb ed="#L" n="74"/>mentem Sancti Thomae. Primo, quia hic dicitur quod
+<lb ed="#L" n="75"/>cognoscunt individua sub speciebus existentia. Constat
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>autem quod futura sub speciebus non existunt. - 
+Se<lb ed="#L" break="no" n="77"/>cundo, quia Prima Parte, q. xir, a. 8, ad ult., tenet quod
+<lb ed="#L" n="78"/>non cognoscunt ea quae nondum sunt. — Tertio, quia
+<lb ed="#L" n="79"/>Prima, q. 1xxxixj a. 8, tenet quod vident omnia praesentia
+<lb ed="#L" n="80"/>quae hic aguntur, sicut angeli.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Si vero ponatur quod cognoscant tantum singularia
+<lb ed="#L" n="82"/>praesentia: cum per successionem fiant praesentia, sequitur
+<lb ed="#L" n="83"/>quod in visione beata successio erit et mutatio; quod est
+<lb ed="#L" n="84"/>contra Augustinum, ultimo de 7rinitate .
+</p>
+            <p>
+               <lb ed="#L" n="85"/>IX. Potest ad hoc dici quod utraque pars sustentari
+<lb ed="#L" n="86"/>potest. Possumus enim, primo, tenere quod Beati vident
+<lb ed="#L" n="87"/>tantum praesentia quae hic aguntur, iuxta ea quae dicuntur
+<lb ed="#L" n="88"/>Prima, q. rxxxix.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Et cum instatur quod tunc esset successio et mutatio : —
+<lb ed="#L" n="90"/>dicitur primo, quod dupliciter potest intelligi successio
+<lb ed="#L" n="91"/>in visione beata: uno modo, extrinsece; alio modo, 
+in<lb ed="#L" break="no" n="92"/>trinsece. Si accipiatur intrinsece, non sequitur quod sit ibi
+<lb ed="#L" n="93"/>successio: quia est unus tantum actus visionis beatificae
+<lb ed="#L" n="94"/>semper manens, qui neque intenditur neque remittitur,
+<lb ed="#L" n="95"/>quamvis aliqua singularia prius non videantur et 
+postmo<lb ed="#L" break="no" n="96"/>dum videantur. Sicut, si ponatur angelus per speciem /
+70<lb ed="#L" break="no" n="97"/>minis considerare naturam humanam et eius singularia,
+<lb ed="#L" n="98"/>eadem visione durante et nullo modo in se variata, potest
+<lb ed="#L" n="99"/>videre homines aliquos quos prius non videbat: quia, 
+an<lb ed="#L" break="no" n="100"/>tequam essent, non participabant actu specie humana, ut
+<lb ed="#L" n="101"/>simul cum ipsa videri possent; postquam autem sunt 
+pro<lb ed="#L" break="no" n="102"/>ducti, actu humana participant natura. — Si vero accipiatur
+<lb ed="#L" n="103"/>extrinsece, non est inconveniens esse successionem in 
+vi<lb ed="#L" break="no" n="104"/>sione huiusmodi inquantum ad singularia terminatur: idest,
+<lb ed="#L" n="105"/>quod illa singularia successive terminent talem visionem.
+<lb ed="#L" n="106"/>— Et si arguatur, quia non possunt plura cognosci in causa
+<lb ed="#L" n="107"/>nisi perfectius causa cognoscatur: — dicitur quod hoc 
+ve<lb ed="#L" break="no" n="108"/>rum est de iis quae per se cognoscuntur in causa, non
+<lb ed="#L" n="109"/>autem de iis quae cognoscuntur in causa inquantum 
+par<lb ed="#L" break="no" n="110"/>ticipant actu rem per se cognitam: quia tunc sufficit ut
+<lb ed="#L" n="111"/>quod prius eo non participabat, nunc actu participet. Sic
+<lb ed="#L" n="112"/>autem est de singularibus: nam illa terminant illam visionem,
+<lb ed="#L" n="113"/>non per se, sed inquantum specie participant; et prius non.
+<lb ed="#L" n="114"/>sunt actu, postmodum vero sunt.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>Dicitur secundo, quod illud evenit absque mutatione
+<lb ed="#L" n="116"/>ipsius visionis in se: sed per mutationem tantum ipsorum
+<lb ed="#L" n="117"/>singularium.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>2. Possumus, secundo, tenere quod Beati, eo modo quo
+<lb ed="#L" n="119"/>singularia cognoscunt in Deo, non solum praesentia, sed
+<lb ed="#L" n="120"/>et praeterita et futura simul vident, absque scilicet illa 
+ex<lb ed="#L" break="no" n="121"/>trinseca successione: eo quod et visio illa aeternitate 
+men<lb ed="#L" break="no" n="122"/>suretur aliquo modo; et videantur species rerum per 
+di<lb ed="#L" break="no" n="123"/>vinam essentiam, quae est et specierum et singularium
+<lb ed="#L" n="124"/>omnium similitudo. :
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Non obstat autem, primo, quod hic dicitur. Quia 
+intelli<lb ed="#L" break="no" n="126"/>gitur de singularibus existentibus sub speciebus pro 
+qua<lb ed="#L" break="no" n="127"/>cumque temporis differentia.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>Non obstat, secundo, quod dicitur quaestione xr 
+Pri<lb ed="#L" break="no" n="129"/>mae Partis, Quia illud intelligitur de speciebus quae 
+nun<lb ed="#L" break="no" n="130"/>quam erunt, sed tamen a Deo produci possunt,
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Non obstat, tertio, quod adducitur ex quaestione rxxxix
+<lb ed="#L" n="132"/>Primae Partis. Quia, licet ibi dicatur quod cognoscunt
+<lb ed="#L" n="133"/>omnia praesentia quae hic aguntur, de quo in illo loco
+<lb ed="#L" n="134"/>quaerebatur, non tamen dicit quod sola praesentia videant.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>3. Licet autem prima responsio fortassis sustentari 
+pos<lb ed="#L" break="no" n="136"/>sit (quod non assero), iuxta ea quae libro L, cap. xv;
+<lb ed="#L" n="137"/>dicta sunt, videtur tamen mihi quod secunda sit magis
+<lb ed="#L" n="138"/>amplectenda in doctrina Sancti Thomae. Nam Qu. Verit.,
+<lb ed="#L" n="139"/>q. vnt, a. 12, ad 2, de angelis beatis loquens, ait quod
+<lb ed="#L" n="140"/>quantum ad visionem qua vident res in Verbo, 
+indiffe<lb ed="#L" break="no" n="141"/>renter se habent ad cognoscendum praesentia et futura.
+<lb ed="#L" n="142"/>Capitulis etiam sequentibus immediate tenet quod eorum
+<lb ed="#L" n="143"/>quae videntur in divina essentia, unum non videtur prius
+<lb ed="#L" n="144"/>et aliud posterius, sed omnia simul et unico actu videntur.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>X. Ad secundum dubium respondetur quod rationes
+<lb ed="#L" n="146"/>rerum hoc loco dicuntur intelligibilia quae de rebus 
+co<lb ed="#L" break="no" n="147"/>gnosci possunt, omnia scilicet quae intellectus potest 
+intel<lb ed="#L" break="no" n="148"/>ligere rebus inesse. Huiusmodi autem sunt in duplici 
+diffe<lb ed="#L" break="no" n="149"/>rentia, Quaedam enim sunt quae naturam rei et quidditatem
+<lb ed="#L" n="150"/>necessario concomitantur: ut sunt naturales virtutes et pro-
+<pb ed="#L" n="167"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>prietates rei. Et tales ex perfecta cognitione quidditatis 
+co<lb ed="#L" break="no" n="2"/>gnosci possunt. Et de his intelligit Sanctus Thomas Prima
+<lb ed="#L" n="3"/>Parte: unde etiam hic dixit quod Beati omnium specierum
+<lb ed="#L" n="4"/>naturas et virtutes et propria accidentia cognoscunt. —
+<lb ed="#L" n="5"/>Quaedam vero sunt quae rebus secundum quod divinae
+<lb ed="#L" n="6"/>providentiae substant, conveniunt. Et tales non 
+cogno<lb ed="#L" break="no" n="7"/>scuntur, cognita natura et quidditate rei. Et de his loquitur
+<lb ed="#L" n="8"/>Sanctus Thomas hic, cum dicit Beatos som cognoscere
+<lb ed="#L" n="9"/>omnes rationes rerum factarum. Istae enim rationes sunt
+<lb ed="#L" n="10"/>habitudines rebus factis convenientes in ordine ad finem
+<lb ed="#L" n="11"/>qui est bonitas divina. Unde, loquens Sanctus Thomas de
+<lb ed="#L" n="12"/>his rationibus, inquit quod ratio rei factae sumitur ex
+<lb ed="#L" n="13"/>fine quem agens intendit : istud enim verum est de ratione
+<lb ed="#L" n="14"/>conveniente rei ut facta est et ad aliquem finem ordinata.
+<lb ed="#L" n="15"/>Cognoscere igitur omnes habitudines et ordinationes 
+pos<lb ed="#L" break="no" n="16"/>sibiles convenire rebus creatis ut divinae providentiae 
+sub<lb ed="#L" break="no" n="17"/>sunt, esset cognoscere omnes gradus divinae bonitatis 
+qui<lb ed="#L" break="no" n="18"/>bus diffundi potest. Quod esset divinam bonitatem 
+com<lb ed="#L" break="no" n="19"/>prehendere. Quod cum impossibile sit, impossibile est ut
+<lb ed="#L" n="20"/>rerum creatarum .cognoscantur omnes huiusmodi rationes,
+<lb ed="#L" n="21"/>quae ipsis ex divina providentia et sapientia possunt 
+con<lb ed="#L" break="no" n="22"/>venire.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>XI. Postremo, circa ea quae in hoc capitulo dicta sunt,
+<lb ed="#L" n="24"/>advertendum est quod hoc loco indifferenter locutus est
+<lb ed="#L" n="25"/>Sanctus Thomas de omnibus Beatis, quia ea quae omnibus
+<lb ed="#L" n="26"/>conveniunt determinavit. Hoc enim commune est omnibus
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="27"/>Beatis, quod vident omnia ad perfectionem naturae 
+uni<lb ed="#L" break="no" n="28"/>versi pertinentia, non autem vident omnia quae Deus, suam
+<lb ed="#L" n="29"/>essentiam videndo, cognoscit. — In aliis autem locis, scilicet
+<lb ed="#L" n="30"/>Verit., loco praeallegato ; et q. xx, a. 4; et Tertio, d. xiv ;
+<lb ed="#L" n="31"/>et IV Sent, d. xuix, ubi supra, differentiam quandam 
+po<lb ed="#L" break="no" n="32"/>nit inter animam Christi et alios Beatos, Vult enim quod
+<lb ed="#L" n="33"/>anima Christi scit omnia quae cognoscit Deus scientia 
+vi<lb ed="#L" break="no" n="34"/>sionis, quae scilicet. pro aliqua temporis differentia habent
+<lb ed="#L" n="35"/>esse, sive ad esse naturae pertineant, sive ad esse gratiae
+<lb ed="#L" n="36"/>et ordinem divinae providentiae et praedestinationis. Unde
+<lb ed="#L" n="37"/>etiam scit omnia singularia, et omnes singulares actus 
+om<lb ed="#L" break="no" n="38"/>nium, et cordis abscondita. Alii autem de praedictis plura
+<lb ed="#L" n="39"/>aut pauciora cognoscunt, secundum quod divinam 
+essen<lb ed="#L" break="no" n="40"/>tiam perfectius aut imperfectius vident.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Addit autem. unum in IV Sent. scilicet: Nihil 
+pro<lb ed="#L" break="no" n="42"/>hibet dicere quod post diem iudicii omnes . Beati scient
+<lb ed="#L" n="43"/>omnia praedicta quae Deus scit scientia visionis: non 
+qui<lb ed="#L" break="no" n="44"/>dem. videndo divinam essentiam, quia tunc omnes essent
+<lb ed="#L" n="45"/>aequaliter beati; sed quaedam quidem in divina essentia,
+<lb ed="#L" n="46"/>alia vero per revelationem ab anima Christi omnia 
+huius<lb ed="#L" break="no" n="47"/>modi vidente, et ab aliis superioribus Beatis. Quod quidem
+<lb ed="#L" n="48"/>non per novas illuminationes, sed per continuationem 
+illu<lb ed="#L" break="no" n="49"/>minationis fiet: sicut si imaginemur solem quiescentem
+<lb ed="#L" n="50"/>illuminare aerem. Unde. Apoc. xx1 dicitur quod claritas
+<lb ed="#L" n="51"/>Dei illuminabit civitatem. Beatorum, et lucerna eius est
+<lb ed="#L" n="52"/>Agnus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

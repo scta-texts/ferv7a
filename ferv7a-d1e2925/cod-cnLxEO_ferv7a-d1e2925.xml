@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 149</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 149</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="439"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2925"><!-- ferv7a-l3c149 -->
+            <head>Capitulum 149</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="85" type="fixed=439"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="86"/>POSTQUAM ostendit Sanctus Thomas hominem divino
+<lb ed="#L" n="87"/>indigere auxilio ad beatitudinem consequendam, vult
+<lb ed="#L" n="88"/>nunc ostendere quod tale auxilium homo promereri non
+<lb ed="#L" n="89"/>potest. Et primo, probat propositum; secundo, removet
+<lb ed="#L" n="90"/>quoddam dubium .
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Arguit itaque primo sic. Homo non movet seipsum
+<lb ed="#L" n="92"/>ad hoc ut adipiscatur divinum auxilium, sed potius ad hoc
+<lb ed="#L" n="93"/>a Deo movetur. Ergo non propter hoc nobis datur quia
+<lb ed="#L" n="94"/>nos ad illud per bona opera promovemur , sed nos potius
+<lb ed="#L" n="95"/>ideo per bona opera proficimus, quia divino auxilio prae-
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="96"/>venimur. — Probatur antecedens. Quia quaelibet res ad id
+<lb ed="#L" n="97"/>quod supra ipsam est, materialiter se habet. Materia autem
+<lb ed="#L" n="98"/>non movet seipsam ad suam perfectionem, sed oportet
+<lb ed="#L" n="99"/>quod ab alio moveatur. — Consequentia vero probatur:
+<lb ed="#L" n="100"/>quia motio moventis praecedit motum mobilis ratione
+<lb ed="#L" n="101"/>et causa.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>2. Circa hoc ultimum dictum, advertendum quod motio
+<lb ed="#L" n="103"/>moventis dupliciter potest intelligi praecedere motum 
+mo<lb ed="#L" break="no" n="104"/>bilis ratione. Uno modo, sicut id dicitur esse alio prius
+<lb ed="#L" n="105"/>ratione quod in eius definitione cadit. Et sic, iuxta defi-
+<pb ed="#L" n="440"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nitionem motus positam in: III Phys. ; constat quod movere
+<lb ed="#L" n="2"/>non est prius ratione quam moveri. Sed. posset hoc modo
+<lb ed="#L" n="3"/>dici prius ratione, si acciperetur definitio motus 
+comple<lb ed="#L" break="no" n="4"/>ctens omnes eius causas. Diceretur enim "quod /nofus:est
+<lb ed="#L" n="5"/>actus existentis in potentia inquantum huiusmodi, a 
+mo<lb ed="#L" break="no" n="6"/>vente causatus in mobili, — Alio modo, sicut quod prius
+<lb ed="#L" n="7"/>cadit in intellectu de uno in aliud procedente, dicitur prius
+<lb ed="#L" n="8"/>ratione. Et hoc modo moventis motio est prius motu
+<lb ed="#L" n="9"/>mobilis: prius enim intelligimus motum ab agente et 
+mo<lb ed="#L" break="no" n="10"/>vente procedere, quam recipiatur in mobili.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Dicitur etiam praecedere causa, idest causalitate : non
+<lb ed="#L" n="12"/>quia sit vera causa effectiva motus mobilis, quia, cum eadem
+<lb ed="#L" n="13"/>res sit motio moventis et. motus mobilis: quantum ad id
+<lb ed="#L" n="14"/>quod in recto dicunt, unum non potest esse alterius causa :
+<lb ed="#L" n="15"/>effectiva realiter; sed eo modo. quo id quod alteri 
+secun<lb ed="#L" break="no" n="16"/>dum modum considerandi praesupponitur, ut sic, dicitur
+<lb ed="#L" n="17"/>prius causalitate. — Potest etiam dici quod intelligitur hoc
+<lb ed="#L" n="18"/>de motione et motu quantum ad habitudines quibus inter
+<lb ed="#L" n="19"/>se formaliter distinguuntur: non quidem sic quod una sit
+<lb ed="#L" n="20"/>alterius causa; sed. quia una est conditio agentis, alia vero
+<lb ed="#L" n="21"/>conditio patientis ; causa autem agens est prior causa 
+pa<lb ed="#L" break="no" n="22"/>tiente et materiali. |
+</p>
+            <p>
+               <lb ed="#L" n="23"/>3. Occurrit autem circa hanc rationem dubium. Per
+<lb ed="#L" n="24"/>eam enim videtur probari quod nec etiam homo possit
+<lb ed="#L" n="25"/>beatitudinem promereri. Quod tamen falsum esse constat.
+<lb ed="#L" n="26"/>Ita enim supra naturam hominis est beatitudo sicut et
+<lb ed="#L" n="27"/>gratia. Et consequenter ita ad ipsam materialiter se habebit
+<lb ed="#L" n="28"/>anima sicut ad gratiam.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Respondetur quod aliter loquendum est de homine
+<lb ed="#L" n="30"/>secundum principia tantum naturalia considerato: et aliter
+<lb ed="#L" n="31"/>de ipso ut iam habente supradictum divinum auxilium.
+<lb ed="#L" n="32"/>Si primo modo consideretur; sic tam gratia quam  
+beati<lb ed="#L" break="no" n="33"/>tudo. est supra naturam suam, et ad ea materialiter tantum
+<lb ed="#L" n="34"/>comparatur: idest, per modum susceptivi, non autem per
+<lb ed="#L" n="35"/>modum agentis ad acquisitionem eorum sufficienter, cum
+<lb ed="#L" n="36"/>principia naturalia non sufficiant ad eas perfectiones quae
+<lb ed="#L" n="37"/>supra naturam sunt, acquirendas. Et si ad hunc sensum
+<lb ed="#L" n="38"/>procedat obiectio, conceditur quod infertur: scilicet quod
+<lb ed="#L" n="39"/>nec etiam beatitudinem homo potest. promereri.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Si autem secundo modo consideretur, sic beatitudo non
+<lb ed="#L" n="41"/>est supra hominis naturam, inquantum scilicet est tali auxilio
+<lb ed="#L" n="42"/>perfecta: sicut, licet calefacere sit supra naturam aquae
+<lb ed="#L" n="43"/>secundum principia tantum naturalia consideratae, non est
+<lb ed="#L" n="44"/>tamen supra naturam aquae calefactae inquantum habet
+<lb ed="#L" n="45"/>calorem. Et ideo homo ut perfectus gratia, non tantum
+<lb ed="#L" n="46"/>materialiter se habet ad beatitudinem, sed etiam active:
+<lb ed="#L" n="47"/>inquantum per tale divinum auxilium ad beatitudinem
+<lb ed="#L" n="48"/>acquirendam sufficienter agere potest, propter virtutes quae
+<lb ed="#L" n="49"/>ex illo oriuntur, de quibus inferius  agetur. -
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Quia ergo, cum hoc loco ad praedictum auxilium homo
+<lb ed="#L" n="51"/>comparatur, fit comparatio naturae hominis praecise 
+sum<lb ed="#L" break="no" n="52"/>ptae ad ipsum, intendit Sanctus Thomas quod ipsum ex
+<lb ed="#L" n="53"/>actibus a facultate naturae provenientibus homo 
+prome<lb ed="#L" break="no" n="54"/>reri non potest. [deo ipsa ratio optime de gratia procedit:
+<lb ed="#L" n="55"/>procederetque eodem modo de beatitudine, si ad principia
+<lb ed="#L" n="56"/>dumtaxat naturalia fieret comparatio. |
+</p>
+            <p>
+               <lb ed="#L" n="57"/>II. Secundo. Anima nostra operatur sub Deo sicut agens
+<lb ed="#L" n="58"/>instrumentale sub principali. Ergo non potest se 
+praepa<lb ed="#L" break="no" n="59"/>rare ad suscipiendum effectum divini auxilii nisi secundum.
+<lb ed="#L" n="60"/>quod agit ex virtute divina. Ergo magis praevenitur divino
+<lb ed="#L" n="61"/>auxilio ad bene operandum, quam praeveniat divinum 
+auxi<lb ed="#L" break="no" n="62"/>lium, quasi merendo vel':se ad illud praeparando. - 
+Pro<lb ed="#L" break="no" n="63"/>batur prima consequentia. Quia agens instrumentale non
+<lb ed="#L" n="64"/>disponit ad perfectionem inducendam a principali agente
+<lb ed="#L" n="65"/>nisi secundum quod agit in virtute principalis agentis:
+<lb ed="#L" n="66"/>ut ostenditur de calore ignis.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>2. Sed videtur quod ista ratio non. concludat. Per 
+ef<lb ed="#L" break="no" n="68"/>fectum enim divini auxilii intelligitur aut beatitudo, ad
+<lb ed="#L" n="69"/>quam homo secundum praedictum auxilium, operando
+<lb ed="#L" n="70"/>potest pervenire; aut ipsum opus meritorium ex gratia
+<lb ed="#L" n="71"/>proveniens; aut ipsummet auxilium divinum, ut sit 
+con<lb ed="#L" break="no" n="72"/>structio intransitiva, sitque idem dicere effectum divini
+<lb ed="#L" n="73"/>auxilii, quod effectum quod est divinum auxilium. Si 
+pri<lb ed="#L" break="no" n="74"/>mum, sic utique conceditur quod anima non potest se
+<lb ed="#L" n="75"/>praeparare per opera meritoria ad susceptionem talis ef-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>fectus divini auxilii nisi secundum quod agit virtute divina.
+<lb ed="#L" n="77"/>Sed non est hoc ad propositum. Quia non intendit hic
+<lb ed="#L" n="78"/>probare Sanctus Thomas quod homo non possit promereri
+<lb ed="#L" n="79"/>vitam aeternam sine auxilio et virtute divina: hoc enim
+<lb ed="#L" n="80"/>ostensum est in praecedenti capite . — Si secundum, sic
+<lb ed="#L" n="81"/>etiam non est ad propositum. Quia non quaeritur an homo
+<lb ed="#L" n="82"/>possit mereri sine divino auxilio meritum quod ex gratia
+<lb ed="#L" n="83"/>procedit. Satis enim constat quod non est sine divino
+<lb ed="#L" n="84"/>auxilio si est effectus gratiae. — Si tertium, sic concluditur
+<lb ed="#L" n="85"/>quidem quod homo non potest se praeparare ad gratiae
+<lb ed="#L" n="86"/>susceptionem nisi secundum quod agit virtute divina; et
+<lb ed="#L" n="87"/>quod praevenitur homo divino quodam auxilio ad 
+huius<lb ed="#L" break="no" n="88"/>modi praeparationem, et ad bene operandum. Non autem
+<lb ed="#L" n="89"/>concludit quod praeveniatur ipso divino auxilio de quo
+<lb ed="#L" n="90"/>loquimur, scilicet ipsa gratia: et quod homo non possit
+<lb ed="#L" n="91"/>gratiam promereri. Non enim repugnat operi bono, et
+<lb ed="#L" n="92"/>alicuius perfectionis meritorio, quod virtute divina agatur.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>3. Ad huius evidentiam, considerandum est quod, cum
+<lb ed="#L" n="94"/>rationes huius capitis contra errorem Pelagii inducantur,
+<lb ed="#L" n="95"/>accipiendae sunt secundum quod per eas error 
+Pelagia<lb ed="#L" break="no" n="96"/>norum refelli potest. Posuerunt enim Pelagiani quod 
+ini<lb ed="#L" break="no" n="97"/>tium boni operis est.ex nobis; et similiter praeparatio ad
+<lb ed="#L" n="98"/>gratiam; et quod ad hoc homo nullo divino auxilio 
+in<lb ed="#L" break="no" n="99"/>diget. Ex quo sequebatur gratiam nobis a Deo dari propter
+<lb ed="#L" n="100"/>nostra merita omne divinum auxilium praecedentia. 
+Re<lb ed="#L" break="no" n="101"/>probatur ergo hic error cum ostenditur quod nullum opus
+<lb ed="#L" n="102"/>a nobis bonum, et alicuius rei meritorium, fieri potest nisi
+<lb ed="#L" n="103"/>divino auxilio nos praeveniente: et quod tale opus virtute
+<lb ed="#L" n="104"/>tantum naturae a nobis fieri non potest, ut in sequentibus
+<lb ed="#L" n="105"/>rationibus ostenditur. Et ideo dicitur quod per effectum
+<lb ed="#L" n="106"/>divini auxilii, ut patet capite sequenti, hic intelligitur ipse
+<lb ed="#L" n="107"/>effectus divinus, scilicet gratia, qua ad bona opera iuvamur.
+<lb ed="#L" n="108"/>Et est sensus quod non praevenimus ac promeremur :
+ssim<lb ed="#L" break="no" n="109"/>pliciter et absolute gratiam ac auxilium divinum nostris
+<lb ed="#L" n="110"/>operibus naturalibus, quia, cum nullum opus bonum agere
+<lb ed="#L" n="111"/>possimus nisi in virtute divina, ut ostenditur etiam I? I',
+<lb ed="#L" n="112"/>q. cix, a. 6; et Quol. 1, a. 7, necesse est ut divinum aliquod
+<lb ed="#L" n="113"/>auxilium omnem naturam nostram, bonam operationem,
+<lb ed="#L" n="114"/>omneque nostrum meritum praeveniat. Quod si necesse
+<lb ed="#L" n="115"/>est ut aliquod divinum auxilium, ipsa scilicet interior
+<lb ed="#L" n="116"/>motio a Deo ad bonum, omnem nostram bonam et rectam
+<lb ed="#L" n="117"/>operationem qua ad supernaturalia ordinamur, praecedat ;
+<lb ed="#L" n="118"/>manifestum est quod ex facultate tantum naturae secundum
+<lb ed="#L" n="119"/>auxilium, habitualem videlicet gratiam, promereri non 
+pos<lb ed="#L" break="no" n="120"/>sumus. Quod est principale intentum. 
+</p>
+            <p>
+               <lb ed="#L" n="121"/>Cum autem contra hunc sensum arguitur quia, licet
+<lb ed="#L" n="122"/>aliquod divinum auxilium praeveniat omne opus bonum
+<lb ed="#L" n="123"/>in nobis, non tamen ex hoc sequitur quod habitualem.
+<lb ed="#L" n="124"/>gratiam promereri non possimus: - dicitur quod optime
+<lb ed="#L" n="125"/>sequitar, ad mentem Sancti Thomae scilicet, quod per
+<lb ed="#L" n="126"/>solam virtutem. naturalem ipsam gratiam: promereri non
+<lb ed="#L" n="127"/>possimus. Si enim nullum opus.bonum a nobis fieri potest,
+<lb ed="#L" n="128"/>praesertim ad supernaturalia disponens, nisi in virtute 
+di<lb ed="#L" break="no" n="129"/>vina, sequitur ut virtute tantum propria nihil boni 
+huiusce<lb ed="#L" break="no" n="130"/>modi agere possimus, et consequenter nihil quod gratiae
+<lb ed="#L" n="131"/>meritorium sit. Unde, licet non repugnet operi bono et
+<lb ed="#L" n="132"/>meritorio quod virtute divina agatur, immo hoc necessarium
+<lb ed="#L" n="133"/>sit, repugnat tamen quod ex virtute naturae tantum fiat.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>III. Tertio. Anima humana ordinatur sub Deo sicut
+<lb ed="#L" n="135"/>particulare agens sub universali. Ergo impossibile est esse
+<lb ed="#L" n="136"/>aliquem rectum motum in ipsa quem non praeveniat 
+di<lb ed="#L" break="no" n="137"/>vina actio. — Probatur consequentia. Quia nullum agens
+<lb ed="#L" n="138"/>particulare potest universaliter praevenire actionem primi
+<lb ed="#L" n="139"/>universalis agentis: cum eius actio ab universali agente
+<lb ed="#L" n="140"/>originem habeat, ut patet in motibus. - Confirmatur aucto -
+<lb ed="#L" n="141"/>ritate Joan. xv. 
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Quarto. Effectus divini auxilii, qui facultatem naturae
+<lb ed="#L" n="143"/>excedit, non est proportionatus actibus quos homo ex 
+na<lb ed="#L" break="no" n="144"/>turali facultate producit. Ergo etc. - Probatur consequentia,
+<lb ed="#L" n="145"/>Quia merces merito proportionatur: cum in retributione
+<lb ed="#L" n="146"/>pro meritis aequalitas iustitiae observetur.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>2. Ad evidentiam huius rationis, considerandum est, ex
+<lb ed="#L" n="148"/>doctrina Sancti "Thomae I II, q. cxiv, a. 1, quod, cum
+<lb ed="#L" n="149"/>recompensare mercedem operis vel laboris sit actus 
+iusti<lb ed="#L" break="no" n="150"/>tiae; iustitia vero quaedam aequalitas sit: ubi non est
+<pb ed="#L" n="441"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>simpliciter aequalitas, ibi non simpliciter est ratio meriti 
+<lb ed="#L" n="2"/>et mercedis; sed potest esse secundum quid ratio meriti, 
+<lb ed="#L" n="3"/>inquantum servatur aequalitas secundum quid. Et quia
+<lb ed="#L" n="4"/>inter Deum et hominem maxima est inaequalitas; et totum
+<lb ed="#L" n="5"/>quod est hominis bonum, a Deo est: ideo non potest inter
+<lb ed="#L" n="6"/>hominem et Deum esse ratio meriti simpliciter, sed tantum
+<lb ed="#L" n="7"/>secundum quid, et inquantum homo facit opus cui debetur
+<lb ed="#L" n="8"/>a Deo merces et retributio secundum divinam 
+praeordina<lb ed="#L" break="no" n="9"/>tionem, non autem absolute. Quod ergo dicitur, mercedem
+<lb ed="#L" n="10"/>merito proportionari oportere, intelligitur aut simpliciter,
+<lb ed="#L" n="11"/>sicut inter eos inter quos potest esse absoluta aequalitas;
+<lb ed="#L" n="12"/>aut secundum quid et secundum praemiantis ordinationem,
+<lb ed="#L" n="13"/>sicut inter hominem et Deum, inter quos non potest esse 
+<lb ed="#L" n="14"/>absoluta aequalitas. Similiter, cum dicitur quod in 
+retri<lb ed="#L" break="no" n="15"/>butione mercedis aequalitas iustitiae observatur, intelligitur 
+<lb ed="#L" n="16"/>aut simpliciter, aut secundum quid. Et quia auxilium 
+divi<lb ed="#L" break="no" n="17"/>hum, cum naturae facultatem excedat, non est 
+proportio<lb ed="#L" break="no" n="18"/>natum, etiam secundum ordinationem divinam, operibus ex
+<lb ed="#L" n="19"/>naturali facultate productis, — actus enim naturalis 
+cuius<lb ed="#L" break="no" n="20"/>cumque rei non ordinatur divinitus ad aliquid excedens
+<lb ed="#L" n="21"/>proportionem virtutis quae est principium actus: cum ex
+<lb ed="#L" n="22"/>institutione divinae providentiae nihil agat ultra suam 
+spe<lb ed="#L" break="no" n="23"/>ciem - ideo opera nostra ex naturali tantum facultate 
+pro<lb ed="#L" break="no" n="24"/>ducta rion possunt habere rationem meriti respectu praedicti
+<lb ed="#L" n="25"/>divini auxilii. Et secundum hoc ista ratio procedit.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>IV. Quinto. Cognitio supernaturalis finis est homini a
+<lb ed="#L" n="27"/>Deo: cum facultatem naturae excedat, et consequenter
+<lb ed="#L" n="28"/>naturalem rationem. Ergo motus voluntatis nostrae in
+<lb ed="#L" n="29"/>ultimum finem a divino auxilio proveniunt. — Probatur
+<lb ed="#L" n="30"/>consequentia. Quia cognitio praecedit voluntatis motum.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Advertendum: est, ex doctrina Sancti Thomae I? II,
+<lb ed="#L" n="32"/>q. cxir; et Verit., q. xxvi , quod non potest homo se
+<lb ed="#L" n="33"/>ad habitualem gratiam praeparare nisi per rectum motum
+<lb ed="#L" n="34"/>voluntatis in ultimum finem: per fidem scilicet et 
+deside<lb ed="#L" break="no" n="35"/>rium, quo ipsum esse iustificatorem et obiectum 
+beatitu<lb ed="#L" break="no" n="36"/>dinis credit, et quo ipsum sub illa ratione desiderat, eiusque
+<lb ed="#L" n="37"/>appetit gratiam. Qui quidem motus, si perfectus sit, ipsam
+<lb ed="#L" n="38"/>gratiae infusionem natura tantum praecedit, secundum 
+or<lb ed="#L" break="no" n="39"/>dinem causae materialis. Si autem sit imperfectus, etiam
+<lb ed="#L" n="40"/>tempore praecedit. Propter hoc, volens concludere 
+San<lb ed="#L" break="no" n="41"/>ctus Thomas quod homo non potest per principia tantum 
+<lb ed="#L" n="42"/>naturalia mereri gratiam, aut se ad ipsam praeparare, 
+con<lb ed="#L" break="no" n="43"/>cludit quod motus voluntatis in ultimum finem a Deo
+<lb ed="#L" n="44"/>praeveniuntur. Hoc enim idem est ac si diceretur quod
+<lb ed="#L" n="45"/>praeparationem ad gratiam divinum praecedit auxilium:
+<lb ed="#L" n="46"/>et sic non est ex sola naturae virtute.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>CowrrRMATUR auctoritate Apostoli, ad Titum nr, Non ex
+<lb ed="#L" n="48"/>operibus etc.; et ad Rom. 1x, Non est volentis etc. Per quae
+<lb ed="#L" n="49"/>Apostoli verba, ait Sanctus Thomas, liberum non excluditur
+<lb ed="#L" n="50"/>arbitrium, sed ostenditur Deo esse subiectum. Confirmatur
+<lb ed="#L" n="51"/>etiam auctoritate leremiae, 7Aren. v, Converte nos etc.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>V. Secundo. Excludit quandam obiectionem . Videtur
+<lb ed="#L" n="53"/>enim oppositum huius dici Zach. r, ubi ex persona Dei
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="54"/>dicitur, Convertimini ad me, et ego convertar ad vos:
+<lb ed="#L" n="55"/>ex quo videtur quod nostra conversio Dei operationem
+<lb ed="#L" n="56"/>praeveniat.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Sed respondet Sanctus Thomas quod illud dicitur non
+<lb ed="#L" n="58"/>quin Dei operatio nostram conversionem praeveniat: sed
+<lb ed="#L" n="59"/>quia conversionem nostram, qua ad ipsum convertimur,
+<lb ed="#L" n="60"/>adiuvat subsequenter, eam roborando ut ad effectum 
+per<lb ed="#L" break="no" n="61"/>veniat, et stabiliendo ut finem debitum consequatur.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Advertendum quod per istam responsionem intelligit
+<lb ed="#L" n="63"/>Sanctus Thomas dupliciter Deum se habere ad nostram
+<lb ed="#L" n="64"/>conversionem. Uno modo, animam hominis interius 
+mo<lb ed="#L" break="no" n="65"/>vendo et instigando ad hoc ut ad Deum convertatur. Et
+</p>
+            <p>
+               <lb ed="#L" n="66"/>sic conversio Dei ad hominem praevenit. nostram in ipsum
+<lb ed="#L" n="67"/>conversionem. — Alio modo, roborando ipsam nostram
+<lb ed="#L" n="68"/>conversionem ad hoc ut peccati remissionem et gratiam
+<lb ed="#L" n="69"/>consequatur, qui est eius effectus; et etiam stabiliendo et
+<lb ed="#L" n="70"/>firmando ipsam ad debitum finem, scilicet beatitudinem
+<lb ed="#L" n="71"/>consequendam. Si enim homo' in sua conversione 
+perse<lb ed="#L" break="no" n="72"/>veraverit, finem beatitudinis consequetur. Et sic conversio
+<lb ed="#L" n="73"/>Dei ad nos non praevenit nostram conversionem, sed ipsam
+<lb ed="#L" n="74"/>concomitatur; aut etiam aliquo modo sequitur, secundum
+<lb ed="#L" n="75"/>scilicet quod unus effectus gratiae alium subsequitur, ut
+<lb ed="#L" n="76"/>ostenditur I I5, q. cxi, a. 3.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>PER Hoc PELAGIANORUM ERROR EXCLUDITUR, dicentium
+<lb ed="#L" n="78"/>huiusmodi auxilium propter merita nobis dari: atque etiam
+<lb ed="#L" n="79"/>quod iustificationis nostrae initium ex nobis sit, idest ex
+<lb ed="#L" n="80"/>virtute sola naturae, consummatio autem, gratiae scilicet
+<lb ed="#L" n="81"/>infusio et peccati remissio, est a Deo.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>VI. Sed remanet dubium ex dictis. Cum. enim 
+osten<lb ed="#L" break="no" n="83"/>sum sit hominem non posse mereri gratiam virtute naturae,
+<lb ed="#L" n="84"/>cum ad quaelibet bona opera divino praeveniatur auxilio ;
+<lb ed="#L" n="85"/>remanet dubium utrum .homo per opera facta ab ipso
+<lb ed="#L" n="86"/>divino auxilio divinaque motione instigato, ipsam gratiam
+<lb ed="#L" n="87"/>mereatur, saltem de congruo.
+</p>
+            <p>
+               <ref>Capreolus, in Quarto, d. xrv, q. ir, ad argg. Henrici</ref>, tenet
+<lb ed="#L" n="88"/>finaliter, de mente Sancti Thomae, quod, proprie loquendo,
+<lb ed="#L" n="89"/>nulla dispositio praecedens habitum gratiae potest dici 
+me<lb ed="#L" break="no" n="90"/>ritum, nec de congruo nec de condigno. — Sed non videtur
+<lb ed="#L" n="91"/>hoc mihi esse de mente Sancti Thomae. Nam licet non sit
+<lb ed="#L" n="92"/>ibi meritum de condigno, propter inaequalitatem operum
+<lb ed="#L" n="93"/>nostrorum ad gratiam, non video tamen quomodo non sit
+<lb ed="#L" n="94"/>ibi meritum congrui: cum secundum mentem Sancti 
+Tho<lb ed="#L" break="no" n="95"/>mae I II^, q. cxiv, a. 3, meritum congrui accipiatur 
+secun<lb ed="#L" break="no" n="96"/>dum aequalitatem proportionis, ut scilicet homini agenti
+<lb ed="#L" n="97"/>secundum suam virtutem, Deus recompenset secundum
+<lb ed="#L" n="98"/>excellentiam suae virtutis Secundum hoc enim congruum
+<lb ed="#L" n="99"/>videtur ut homini praeparanti se ad gratiam secundum quod
+<lb ed="#L" n="100"/>a Deo movetur, Deus gratiam infundat. Quae autem adducit
+<lb ed="#L" n="101"/>Capreolus ex I II^, q. cxi; et q.,cxtv; et ex II Sent.,
+<lb ed="#L" n="102"/>d. xxvi, non cogunt. Nam diligenter inspicienti apparet
+<lb ed="#L" n="103"/>quod in locis illis intendit Sanctus Thomas de merito
+<lb ed="#L" n="104"/>dumtaxat condigni, non autem de merito congrui: immo
+<lb ed="#L" n="105"/>in II Sent. , expresse concedit ibi esse meritum congrui.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 101</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 101</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="313"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2533"><!-- ferv7a-l3c101 -->
+            <head>Capitulum 101</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="37" type="fixed=313"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <lb ed="#L" n="38"/>POSTQUAM determinavit Sanctus Thomas de iis quae a
+<lb ed="#L" n="39"/>Deo fiunt praeter solitum: .cursum naturae in . ordine
+<lb ed="#L" n="40"/>ad naturam, nunc. determinat de ipsis quantum ad. 
+ratio<lb ed="#L" break="no" n="41"/>nem miraculi .
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Circa hoc autem sed facit: primo, de ipsis miraculis
+<lb ed="#L" n="43"/>determinat ; secundo, ostendit quibus; conveniat miracula
+<lb ed="#L" n="44"/>facere, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Circa primum duo facit: primo, ostendit quae possint dici
+<lb ed="#L" n="46"/>miracula; secundo, ponit miraculorum gradus et ordines .
+</p>
+            <p>
+               <lb ed="#L" n="47"/>I. Quantum ad primum, inquit quod illa simpliciter 
+<lb ed="#L" n="48"/>dicenda sunt miracula quae divinitus fiunt praeter ordinem
+<lb ed="#L" n="49"/>communiter servatum in rebus, — Hoc autem declarat: quia
+<lb ed="#L" n="50"/>miraculum dicitur quasi de se admiratione plenum. lllud
+<lb ed="#L" n="51"/>autem simpliciter mirum est, quod habet causam simpliciter
+<lb ed="#L" n="52"/>occultam. Causa autem simpliciter occulta Deus est.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Ad evidentiam secundae propositionis, notat quod, cum
+<lb ed="#L" n="54"/>tunc admiremur aliquid cum, effectum videntes, causam
+<lb ed="#L" n="55"/>ignoramus; aliquid quidem est mirum quantum ad hunc
+<lb ed="#L" n="56"/>hominem tantum, non autem simpliciter, quando alicui
+<lb ed="#L" n="57"/>causa apparentis effectus est ignota, non est autem ignota
+<lb ed="#L" n="58"/>omnibus; ut patet in eo qui, videns eclipsim solis, 
+admi<lb ed="#L" break="no" n="59"/>ratur. Aliquid vero est simpliciter mirum quando causa
+<lb ed="#L" n="60"/>alicuius effectus est simpliciter omnibus occulta.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>2. Ad huius evidentiam considerandum est, ex doctrina
+<lb ed="#L" n="62"/>ipsius Potentia, q. vr, a. 2; et II Sent., d. xviu, 3, quod
+<lb ed="#L" n="63"/>ad rationem miraculi simpliciter et proprie dicti duo 
+re<lb ed="#L" break="no" n="64"/>quiruntur, secundum quod duo ad admirationem pertinent,
+<lb ed="#L" n="65"/>ut haberi potest ex I Metaphysicae. Unum est causa 
+se<lb ed="#L" break="no" n="66"/>cundum se nobis occulta, qualis est Deus: ut scilicet illud
+<lb ed="#L" n="67"/>quod miraculum est, sit a solo Deo productum aut factum.
+<lb ed="#L" n="68"/>Alterum est, ut in re sit unde videatur aliter debere 
+eve<lb ed="#L" break="no" n="69"/>nire. Sicut resuscitatio mortui est a solo Deo; et corpus
+<lb ed="#L" n="70"/>mortuum in se habet ut perpetuo careat vita, et sic habet
+<lb ed="#L" n="71"/>in se unde non debeat in ipso vita causari; et idcirco
+<lb ed="#L" n="72"/>miraculum dicitur. Ubi altera.istarum conditionum 
+defi<lb ed="#L" break="no" n="73"/>ciat, non est proprie miraculum. Utraque conditio hoc loco
+<lb ed="#L" n="74"/>tangitur: prima, dum dicitur illa simpliciter dicenda esse
+<lb ed="#L" n="75"/>miracula quae divinitus fiunt ; secunda, cum dicitur praeter
+<lb ed="#L" n="76"/>ordinem communiter servatum in rebus, ex hoc enim
+<lb ed="#L" n="77"/>quod aliquid praeter talem ordinem fit, constat quod in
+<lb ed="#L" n="78"/>re est unde aliter fieri debeat.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>3. Propter defectum secundae conditionis, creatio 
+uni<lb ed="#L" break="no" n="80"/>versi non est miraculosa: quia non est in re unde aliter
+<lb ed="#L" n="81"/>esse debeat. Immo naturali ordine sic esse debet: cum 
+so<lb ed="#L" break="no" n="82"/>lus Deus sit totius esse auctor. — Similiter animarum
+<cb ed="#L" n="d"/>
+               <lb ed="#L" n="83"/>creatio non est miraculosa: quia non potest aliter anima
+<lb ed="#L" n="84"/>habere esse; et consuetus ordo productionis est ut, homine
+<lb ed="#L" n="85"/>materiam disponente, a Deo creetur in materia. Si tamen
+<lb ed="#L" n="86"/>Deus aliquam animam crearet absque opere. hominis 
+ma<lb ed="#L" break="no" n="87"/>teriam disponentis, talis creatio esset. miraculosa, utpote
+<lb ed="#L" n="88"/>praeter consuetum modum  eveniens. — Eadem. ratione,
+<lb ed="#L" n="89"/>non est miraculosa iustificatio impii quae. communiter fit:
+<lb ed="#L" n="90"/>quia anima rationalis, cum sit ad imaginem: Dei facta;
+<lb ed="#L" n="91"/>secundum naturam suam capax est Dei per gratiam; 'et
+<lb ed="#L" n="92"/>a solo Deo iustificatio fieri potest, et propterea non est
+<lb ed="#L" n="93"/>praeter ordinem naturae creatae. Licet enim voluntas impii
+<lb ed="#L" n="94"/>tendat in malum, et sic videatur habere ordinem ad 
+op<lb ed="#L" break="no" n="95"/>positum iustificationis, secundum iustitiae exigentiam ; quia
+<lb ed="#L" n="96"/>tamen iustificatio non fit praeter ordinem propriae causae,
+<lb ed="#L" n="97"/>quae est Deus, cuius solius est iustificare, idcirco: non est
+<lb ed="#L" n="98"/>miraculosa; sicut nec calefactio aquae ab igne est 
+mira<lb ed="#L" break="no" n="99"/>culosa, licet sit contra inclinationem formae aquae. Aliqua
+<lb ed="#L" n="100"/>tamen. iustificatio potest esse miraculosa: si scilicet fiat
+<lb ed="#L" n="101"/>praeter consuetum. cursum iustificationis, sicut fuit 
+iusti<lb ed="#L" break="no" n="102"/>ficatio. Pauli, qui statim quandam" perfectam iustitiam
+<lb ed="#L" n="103"/>accepit .
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Advertendum tamen quod licet, proprie loquendo,
+<lb ed="#L" n="105"/>creatio et iustificatio non. sint miracula, quia completam
+<lb ed="#L" n="106"/>rationem miraculi non habent; improprie tamen et 
+im<lb ed="#L" break="no" n="107"/>perfecte dici possunt miracula, quia sunt magna opera,
+<lb ed="#L" n="108"/>et a solo Deo fieri possunt, qui est causa nobis occulta.
+<lb ed="#L" n="109"/>Et ideo quandoque a Doctoribus. inter opera miraculosa
+<lb ed="#L" n="110"/>connumerantur. Unde Sanctus Thomas I II'5, q. cx,
+<lb ed="#L" n="111"/>a. ult., inquit quod, si in operibus miraculosis 
+conside<lb ed="#L" break="no" n="112"/>retur. quod sola virtute divina fieri possunt, quantum ad
+<lb ed="#L" n="113"/>hoc creatio et iustificatio, et universaliter omne opus quod
+<lb ed="#L" n="114"/>a solo Deo fieri potest, miraculosum dici possunt.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>II. Quantum ad secundum, enumerat Sanctus Thomas
+<lb ed="#L" n="116"/>gradus miraculorum . Et ponit tres gradus. Supremus est,
+<lb ed="#L" n="117"/>quando aliquid fit a Deo quod natura nunquam facere
+<lb ed="#L" n="118"/>potest: ut cum duo corpora sunt simul, et similia. Et in
+<lb ed="#L" n="119"/>hoc gradu.etiam ordo est: quia quanto aliqua maiora
+<lb ed="#L" n="120"/>sunt et magis a. facultate naturae remota, tanto maiora
+<lb ed="#L" n="121"/>miracula sunt. — Secundus est, quando Deus aliquid facit
+<lb ed="#L" n="122"/>quod natura facere potest, sed non per illum ordinem:
+<lb ed="#L" n="123"/>sicut cum homo post mortem redit ad vitam. Et in hoc
+<lb ed="#L" n="124"/>etiam gradu quod est magis a facultate naturae remotum,
+<lb ed="#L" n="125"/>maius miraculum est. - Tertius est, quando Deus facit
+<lb ed="#L" n="126"/>quod consuetum est fieri operatione naturae, tamen absque
+<lb ed="#L" n="127"/>naturae principiis operantibus.
+</p>
+            <p>
+               <pb ed="#L" n="314"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Ad evidentiam huius distinctionis, considerandum est,
+<lb ed="#L" n="2"/>ex Prima Parte, q. cv, a 8, quod ad supremum gradum
+<lb ed="#L" n="3"/>pertinent illa quae sunt omnino supra naturam quantum
+<lb ed="#L" n="4"/>ad substantiam facti: ita videlicet quod id quod fit a Deo,
+<lb ed="#L" n="5"/>nullo modo potest a natura fieri. - Ad secundum gradum
+<lb ed="#L" n="6"/>pertinent illa quae a natura quidem fieri possunt, sed non
+<lb ed="#L" n="7"/>in hoc: sicut vita a natura quidem fieri potest, sed non
+<lb ed="#L" n="8"/>in corpore animalis mortui. Unde quod hic ait 
+San<lb ed="#L" break="no" n="9"/>ctus Thomas, quod non possunt a natura fieri per illum
+<lb ed="#L" n="10"/>ordinem, intelligitur non de ordine actualis productionis
+<lb ed="#L" n="11"/>formae, sed de ordine et sequela formae productae ad 
+con<lb ed="#L" break="no" n="12"/>ditionem subiecti: exemplificavit enim Sanctus 'Thomas
+<lb ed="#L" n="13"/>de ambulatione. claudi post debilitatem, de vita alicuius
+<lb ed="#L" n="14"/>post mortem, et de visione post caecitatem. — Ad tertium
+<lb ed="#L" n="15"/>gradum pertinent illa quae excedunt facultatem naturae,
+<lb ed="#L" n="16"/>quantum ad ipsum ordinem faciendi et modum operandi:
+<lb ed="#L" n="17"/>puta quia fiunt statim, et non secundum consuetum cursum
+<lb ed="#L" n="18"/>et ordinem naturae; sicut cum quis statim a febre curatur,
+<lb ed="#L" n="19"/>et cum aer statim, absque naturalibus causis, condensatur
+<lb ed="#L" n="20"/>in pluvias.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>2, Circa magnitudinem miraculorum, considerandum est
+<lb ed="#L" n="22"/>quod non est ideni dicere aliquid esse maius opus Dei
+<lb ed="#L" n="23"/>altero eius opere, et illud esse maius miraculum. Potest
+<lb ed="#L" n="24"/>enim esse majus opus Dei, et tamen erit minus 
+miracu<lb ed="#L" break="no" n="25"/>lum. Nam dicitur maius opus Dei quod est nobilius et
+<lb ed="#L" n="26"/>excellentius, et magis divinam virtutem manifestat: dicitur.
+<lb ed="#L" n="27"/>autem maius miraculum quod magis rationem miraculi
+<lb ed="#L" n="28"/>participat, quae consistit in hoc quod aliquid a Deo fiat,
+<lb ed="#L" n="29"/>et quod in re sit aliquid ex quo videatur quod aliter fieri
+<lb ed="#L" n="30"/>debeat. Non inconvenit autem quod aliquid sit 
+excellen<lb ed="#L" break="no" n="31"/>tius altero, et magis divinam virtutem manifestet, et tamen
+<lb ed="#L" n="32"/>minus habeat de ratione miraculi: ut puta, quia non est
+<lb ed="#L" n="33"/>in natura creata unde debeat aliter evenire, cum ad illud
+<lb ed="#L" n="34"/>nullum ordinem habeat natura activa creata, sed ipsum sit
+<lb ed="#L" n="35"/>supra ordinem omnium producibilium a natura. Sic dicimus
+<lb ed="#L" n="36"/>creationem universi, et iustificationem impii, esse maiora
+<lb ed="#L" n="37"/>opera divina quam sit sanatio subita alicuius a febre,
+<lb ed="#L" n="38"/>licet ista sanatio sit maius miraculum, utpote magis de
+<lb ed="#L" n="39"/>ratione miraculi habens. Propter hoc inquit Sanctus 
+Tho<lb ed="#L" break="no" n="40"/>mas I II, articulo praeallegato, ad 1, quod quaedam 
+mi<lb ed="#L" break="no" n="41"/>raculosa opera, licet sint minora quam iustificatio impii
+<lb ed="#L" n="42"/>quantum ad bonum quod fit, plus tamen habent de ratione
+<lb ed="#L" n="43"/>miraculi: intellige, quia habent quicquid ad rationem 
+mi<lb ed="#L" break="no" n="44"/>raculi pertinet; iustificatio autem hoc tantum habet de
+<lb ed="#L" n="45"/>ratione miraculi quod a Deo fit, qui est causa secundum
+<lb ed="#L" n="46"/>se nobis occulta. ;
+</p>
+            <p>
+               <lb ed="#L" n="47"/>III. Circa dicta autem duplex occurrit dubium.. 
+Pri<lb ed="#L" break="no" n="48"/>mum est, quia dictum est quod primum gradum inter 
+mi<lb ed="#L" break="no" n="49"/>racula tenent quae, quantum ad substantiam facti, natura
+<lb ed="#L" n="50"/>nunquam facere potest. Huic enim videtur contradicere
+<lb ed="#L" n="51"/>id quod dicitur Prima Parte, quaestione supra allegata,
+<lb ed="#L" n="52"/>art. 7, ad 1, ubi dicitur quod creatio et iustificatio non
+<lb ed="#L" n="53"/>dicuntur proprie miracula, quia non sunt nata fieri per
+<lb ed="#L" n="54"/>alias causas. Ex hoc enim sequitur quod ea facta a Deo
+<lb ed="#L" n="55"/>quae natura facere non potest, non solum non sunt 
+su<lb ed="#L" break="no" n="56"/>prema miracula, sed nec proprie sunt miracula. Quod est
+<lb ed="#L" n="57"/>oppositum eius quod hic dictum est.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Secundum dubium est, quia inter suprema miracula
+<lb ed="#L" n="59"/>enumerat Sanctus Thomas quod mare divisum 
+transeun<lb ed="#L" break="no" n="60"/>tibus iter praebeat. Hoc enim non videtur verum: immo
+<lb ed="#L" n="61"/>nec videtur miraculum. Quia posset fieri virtute angeli,
+<lb ed="#L" n="62"/>quae est virtus in natura creata: nam secundum doctrinam
+<lb ed="#L" n="63"/>ipsius, materia corporalis obedit angelis quantum ad 
+mo<lb ed="#L" break="no" n="64"/>tum localem : constat autem quod talis divisio maris
+<lb ed="#L" n="65"/>potest per motum localem aquae fieri. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>IV. Ad primum horum dupliciter responderi potest.
+<lb ed="#L" n="67"/>Primo, ex doctrina Sancti Thomae de Potentia Dei et
+<lb ed="#L" n="68"/>II Sent., locis allegatis, quod dictum in Prima Parte 
+intelli<lb ed="#L" break="no" n="69"/>gitur quando nec etiam est in re unde aliter esse debeat.
+<lb ed="#L" n="70"/>Quia enim tunc solum miramur de aliquo quando 
+vide<lb ed="#L" break="no" n="71"/>tur nobis quod aliter esse debeat, illa quae nullo modo,
+<lb ed="#L" n="72"/>quantum ad substantiam facti, a natura fieri possunt, nec
+<lb ed="#L" n="73"/>est in ipsis unde oppositum esse debeat, proprie miracula
+<lb ed="#L" n="74"/>dici non possunt: quia in seipsis non habent admirationis
+<lb ed="#L" n="75"/>causam. Et hoc modo creatio et iustificatio impii, proprie
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>loquendo, miracula non sunt: quia non sunt nata fieri ab
+<lb ed="#L" n="77"/>alia causa. quam a Deo, et non habet in se res unde sic
+<lb ed="#L" n="78"/>non debeat esse. Non est ergo contradictio. Quia hic 
+po<lb ed="#L" break="no" n="79"/>nuntur in supremo gradu miraculorum ea quae nullo
+<lb ed="#L" n="80"/>modo natura facere potest, et in re est unde aliter debeat
+<lb ed="#L" n="81"/>evenire: de iis autem non loquitur Sanctus Thomas in
+<lb ed="#L" n="82"/>loco praeallegato Primae Partis, sed tantum de iis quae
+<lb ed="#L" n="83"/>a natura fieri non possunt, nec etiam est in re unde 
+op<lb ed="#L" break="no" n="84"/>positum esse debeat.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>2. Secundo potest responderi, ex doctrina Sancti Thomae
+<lb ed="#L" n="86"/>IV Sent., d. xvi, a. 5; et I II^, articulo praeallegato,
+<lb ed="#L" n="87"/>quod dictum Primae Partis intelligitur quando in recipiente
+<lb ed="#L" n="88"/>est naturalis ordo ad recipiendum talem effectum a solo
+<lb ed="#L" n="89"/>Deo, et a nullo alio. Hoc enim significant illa verba, non
+<lb ed="#L" n="90"/>sunt nata fieri per alias causas, quasi diceretur: Ideo
+<lb ed="#L" n="91"/>creatio et iustificatio non sunt miracula, quia susceptiva
+<lb ed="#L" n="92"/>creationis passivae et iustificationis, secundum naturae 
+ordi<lb ed="#L" break="no" n="93"/>nem, sunt huiusmodi effectus susceptiva a. solo Deo, non
+<lb ed="#L" n="94"/>autem a quacumque causa creata. Talia enim non fiunt, ut
+<lb ed="#L" n="95"/>sic, praeter ordinem naturae: cum fiant ut eorum 
+natu<lb ed="#L" break="no" n="96"/>ralis ordo exigit. Et ideo proprie miracula non sunt. llla
+<lb ed="#L" n="97"/>enim quae sunt miracula, non habent in recipiente 
+ordi<lb ed="#L" break="no" n="98"/>nem naturalem ad illum effectum a solo Deo immediate
+<lb ed="#L" n="99"/>recipiendum; sive, non sunt ex se nata illum effectum a
+<lb ed="#L" n="100"/>solo Deo immediate recipere; et ideo, cum fiunt, non
+<lb ed="#L" n="101"/>fiunt secundum ordinem suae naturae, sed praeter eorum
+<lb ed="#L" n="102"/>naturalem ordinem.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Ex hoc patet nullam esse in dictis Sancti Thomae 
+con<lb ed="#L" break="no" n="104"/>tradictionem. Nam cum hic ponuntur inter suprema 
+mi<lb ed="#L" break="no" n="105"/>racula ea quae a natura nullo modo fieri possunt, 
+intel<lb ed="#L" break="no" n="106"/>ligitur de illis effectibus ad quos suscipiendos a solo Deo
+<lb ed="#L" n="107"/>immediate non est consuetus ordo naturae. Cum vero 
+di<lb ed="#L" break="no" n="108"/>citur in Prima Parte illa non esse miracula quae non sunt
+<lb ed="#L" n="109"/>nata fieri per alias causas, intelligitur de iis et quae per .
+<lb ed="#L" n="110"/>alias causas fieri non possunt, et quorum susceptiva 
+ha<lb ed="#L" break="no" n="111"/>bent naturalem ordinem et aptitudinem ad hoc ut illos
+<lb ed="#L" n="112"/>effectus immediate a solo Deo recipiant. E
+</p>
+            <p>
+               <lb ed="#L" n="113"/>3. Sed tunc remanet dubium: quomodo, inquam, in
+<lb ed="#L" n="114"/>anima recipiente gratiam per iustificationem, sit ordo 
+na<lb ed="#L" break="no" n="115"/>turalis ad gratiam ; cum sit donum Dei supernaturale, sicut
+<lb ed="#L" n="116"/>et gloria.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Dicitur quod dupliciter potest ordo alicuius susceptivi
+<lb ed="#L" n="118"/>ad aliquam formam dici naturalis. Uno modo, quia 
+con<lb ed="#L" break="no" n="119"/>sequitur naturam susceptivi per comparationem ad aliquod
+<lb ed="#L" n="120"/>agens creatum, quod hoc loco vocatur agens naturale.
+<lb ed="#L" n="121"/>Et sic non intelligitur ordinem animae ad gratiam esse
+<lb ed="#L" n="122"/>naturalem. — Alio modo, quia natura susceptivi est capax
+<lb ed="#L" n="123"/>ilius formae; et ad hoc est instituta a Deo et ordinata:
+<lb ed="#L" n="124"/>ut ab ipso solo talem formam suscipiat, et non ab alio;
+<lb ed="#L" n="125"/>nec talis natura in se habet aliquid illi formae repugnans.
+<lb ed="#L" n="126"/>Talis enim potentia potest dici obedientialis aliquo modo,
+<lb ed="#L" n="127"/>inquantum est ad formam a solo Deo suscipiendam:
+<lb ed="#L" n="128"/>potest etiam dici aliquo modo naturalis, inquantum 
+na<lb ed="#L" break="no" n="129"/>tura subiecti est a Deo ad illam formam secundum 
+insti<lb ed="#L" break="no" n="130"/>tutionem divinam ordinata, et facta est. illius formae
+<lb ed="#L" n="131"/>secundum se capax. Et hoc modo in anima est ordo
+<lb ed="#L" n="132"/>naturalis ad gratiam. Hominem enim Deus a principio
+<lb ed="#L" n="133"/>instituit ut esset secundum animam gratiae et 
+beatitu<lb ed="#L" break="no" n="134"/>dinis capax, eamque, nisi sibi ipsi impedimento esset,
+<lb ed="#L" n="135"/>nancisceretur a Deo. Ad hunc sensum intelligitur dictum
+<lb ed="#L" n="136"/>Augustini, in libro de Praed. Sanct., quod posse habere
+<lb ed="#L" n="137"/>fidem, sicut et caritatem, naturae est hominum. Talis
+<lb ed="#L" n="138"/>autem ordo naturalis non. invenitur in operibus 
+miracu<lb ed="#L" break="no" n="139"/>losis.quae a solo Deo fiunt. Non enim sol est secundum
+<lb ed="#L" n="140"/>naturam suam a Deo ordinatus ad retrocessionem, sed
+<lb ed="#L" n="141"/>magis ut continue procedat: licet praeter hunc ordinem
+<lb ed="#L" n="142"/>consuetum, tempore Iosue, fecerit eum Deus retrocedere .
+<lb ed="#L" n="143"/>Similiter est in aliis.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>V. Ad secundum dubium  posset, primo, dici quod
+<lb ed="#L" n="145"/>talis divisio maris Rubri qualis fuit tempore Pharaonis ,
+<lb ed="#L" n="146"/>non potest fieri virtute aliqua creata. — Et cum probatur
+<lb ed="#L" n="147"/>quia materia corporalis obedit angelis quantum ad motum
+<lb ed="#L" n="148"/>localem : — diceretur quod illud habet veritatem ubi non
+<lb ed="#L" n="149"/>immutatur ordo naturae a Deo institutus. Unde inquit
+<lb ed="#L" n="150"/>Sanctus Thomas de Malo, q. xvr, a. 9, ad 2, quod dae-
+<pb ed="#L" n="315"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mones non possunt humani corporis lineamenta in 
+be<lb ed="#L" break="no" n="2"/>stialia veraciter commutare, quia hoc est praeter ordinem  
+<lb ed="#L" n="3"/>a Deo naturae inditum. Et art. 10, ad ult., ait quod 
+dae<lb ed="#L" break="no" n="4"/>mones, licet possint movere aliquam partem terrae, non 
+<lb ed="#L" n="5"/>tamen possent movere totam terram : quia non est propo
+r<lb ed="#L" break="no" n="6"/>tionatum naturae. eorum ut mutent ordinem elementorum  
+<lb ed="#L" n="7"/>mundi. In ista autem maris Rubri divisione mutaretur 
+<lb ed="#L" n="8"/>aliquo modo ordo naturae institutus a Deo: instituit enim  
+<lb ed="#L" n="9"/>Deus mare continuum, et instabile ac fluidum, sicut et  
+<lb ed="#L" n="10"/>totam terram immutabilem fecit. Et sic accipitur ipsum  
+<lb ed="#L" n="11"/>mare, propter magnam aquarum copiam, tanquam totum 
+<lb ed="#L" n="12"/>elementum aquae: ut, sicut non posset virtus angelica 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="13"/>totam terram scindere in partes, ita non possit ipsum mare
+<lb ed="#L" n="14"/>illo modo dividere.
+
+<lb ed="#L" n="15"/>Secundo responderi potest quod Sanctus Thomas 
+exem<lb ed="#L" break="no" n="16"/>plum illud ponit secundum mentem illorum philosophorum
+<lb ed="#L" n="17"/>qui posuerunt quod' substantiae separatae movent tantum
+<lb ed="#L" n="18"/>corpora caelestia immediate, non autem possunt haec 
+in<lb ed="#L" break="no" n="19"/>feriora nisi mediante motu caeli movere: quam opinionem
+<lb ed="#L" n="20"/>tenere videtur Aristoteles . Nam voluit Sanctus Thomas
+<lb ed="#L" n="21"/>exemplificare non tantum secundum fidei veritatem, sed
+<lb ed="#L" n="22"/>etiam secundum philosophorum opinionem, dans 
+exem<lb ed="#L" break="no" n="23"/>plum in iis quae etiam philosophi a virtute creata fieri
+<lb ed="#L" n="24"/>non posse concederent.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

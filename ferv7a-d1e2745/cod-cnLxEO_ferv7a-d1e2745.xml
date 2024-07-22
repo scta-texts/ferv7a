@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 127</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 127</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="391"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2745"><!-- ferv7a-l3c127 -->
+            <head>Capitulum 127</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="15" type="fixed=391"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="16"/>POSTQUAM ostendit Sanctus Thomas quomodo per 
+di<lb ed="#L" break="no" n="17"/>vinam legem ordinatur homo circa usum venereorum,
+<lb ed="#L" n="18"/>consequenter vult ostendere quomodo circa ciborum usum
+<lb ed="#L" n="19"/>ordinetur ,
+</p>
+            <p>
+               <lb ed="#L" n="20"/>I. Et ponit primo  hanc conclusionem: Nullus cibiusus
+<lb ed="#L" n="21"/>secun se est peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Probatur primo sic. Finis debitus sumptionis ciborum
+<lb ed="#L" n="23"/>est conservatio corporis per nutrimentum. Ergo quicumque
+<lb ed="#L" n="24"/>cibus hoc facere potest, absque peccato potest sumi. Ergo
+<lb ed="#L" n="25"/>nullius cibi sumptio est secundum se peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Probatur prima consequentia. Quia fit unumquodque
+<lb ed="#L" n="27"/>secundum rationem quando ordinatur secundum quod 
+con<lb ed="#L" break="no" n="28"/>gruit debito fini. Quod autem fit secundum rationem, fit
+<lb ed="#L" n="29"/>absque peccato.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Consequentia vero secunda relinquitur pro manifesta.
+<lb ed="#L" n="31"/>Quia, cum nomine cibi intelligatur quicquid in corporis
+<lb ed="#L" n="32"/>nutrimentum transire potest, omnis cibus, inquantum
+<lb ed="#L" n="33"/>huiusmodi, potest corpus nutriendo conservare. Et ideo, si
+<lb ed="#L" n="34"/>quicumque cibus hoc facere potest, absque peccato sumi
+<lb ed="#L" n="35"/>potest, optime sequitur quod omnis cibus absque peccato
+<lb ed="#L" n="36"/>potest sumi. Et sic sequitur quod nullius cibi sumptio sit
+<lb ed="#L" n="37"/>secundum se peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>IL. Secundo. Nullus cibus secundum suam naturam malus
+<lb ed="#L" n="39"/>est, quia omnis res secundum suam naturam est bona, ut
+<lb ed="#L" n="40"/>superius est ostensum: licet possit esse alicui malus, 
+in<lb ed="#L" break="no" n="41"/>quantum saluti corporis ipsius contrariatur. Ergo nullius
+<lb ed="#L" n="42"/>cibi sumptio, inquantum est talis res, est secundum se
+<lb ed="#L" n="43"/>peccatum; licet esse possit si aliquis, praeter rationem,
+<lb ed="#L" n="44"/>ipso contra suam salutem utatur. — Probatur consequentia.
+<lb ed="#L" n="45"/>Quia nullius rei usus secundum se malus est, nisi res ipsa
+<lb ed="#L" n="46"/>secundum se mala sit.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Tertio. Uti rebus ad hoc ad quod sunt, non est 
+se<lb ed="#L" break="no" n="48"/>cundum se malum. Sed omnia sunt propter hominem. Ergo
+<lb ed="#L" n="49"/>uti rebus vel ad esum, vel ad quicquid aliud homini sunt
+<lb ed="#L" n="50"/>utilia, non est secundum se peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>III. Quarto. Cibi immediate ad corpus pertinent, non
+<lb ed="#L" n="52"/>ad animam. Ergo etc. — Probatur consequentia. Quia 
+de<lb ed="#L" break="no" n="53"/>fectus peccati ab anima derivatur ad corpus, non autem
+<lb ed="#L" n="54"/>e converso: peccatum enim dicimus secundum quod 
+de<lb ed="#L" break="no" n="55"/>ordinatur voluntas.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>2. Circa probationem consequentiae occurrit dubium.
+<lb ed="#L" n="57"/>Videtur enim peccatum originale a carne derivari ad 
+ani<lb ed="#L" break="no" n="58"/>mam: cum ipsa anima ex unione ad carnem peccati 
+ori<lb ed="#L" break="no" n="59"/>ginalis maculam contrahat. Ergo non videtur universaliter
+<lb ed="#L" n="60"/>verum quod ab anima derivetur defectus peccati ad corpus,
+<lb ed="#L" n="61"/>non autem e converso.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Respondetur quod dupliciter possumus intelligere 
+pec<lb ed="#L" break="no" n="63"/>catum originale derivari a carne ad animam, Uno modo,
+<lb ed="#L" n="64"/>quia prius inficiat carnem, quae simul cum anima constituit
+<lb ed="#L" n="65"/>humanam naturam tanquam pars. Et hoc modo falsum
+<lb ed="#L" n="66"/>est: quia, ut declarat Sanctus Thomas in plerisque locis,
+<lb ed="#L" n="67"/>singulariter autem in QQ. de Malo, q. 1v, a. 3, peccatum
+<lb ed="#L" n="68"/>originale est subiective tantum in anima rationali inquantum
+<lb ed="#L" n="69"/>est pars naturae humanae. — Nec valet quod dicitur ipsam
+<lb ed="#L" n="70"/>ex unione ad carnem peccati originalis maculam contrahere.
+<lb ed="#L" n="71"/>Quia hoc non dicitur quasi ipsa caro prius infecta animam
+<lb ed="#L" n="72"/>inficiat: sed quia anima non contrahit illam maculam nisi
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="73"/>inquantum est actu pars humanae naturae; non fit autem
+<lb ed="#L" n="74"/>actu pars humanae naturae nisi per unionem ad carnem.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Alio modo, quia prius est in carnali semine, ex quo
+<lb ed="#L" n="76"/>homo generatur, quam in anima sit. Et sic verum est quod
+<lb ed="#L" n="77"/>est in semine tanquam in causa instrumentali: non autem
+<lb ed="#L" n="78"/>verum est quod sit in ipso tanquam in causa principali,
+<lb ed="#L" n="79"/>vel tanquam in subiecto. Probatio autem Sancti Thomae
+<lb ed="#L" n="80"/>intelligitur quod defectus peccati derivatur ab anima ad
+<lb ed="#L" n="81"/>corpus tanquam a causa principali et a subiecto peccati,
+<lb ed="#L" n="82"/>non autem e converso a corpore ad animam. Et sic
+<lb ed="#L" n="83"/>obiectio nulla est.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>IV. Secunda conclusio  est: Ciborum sumptio ROMAN
+<lb ed="#L" n="85"/>esse peccatum inquantum repugnat rectitudini voluntatis.
+<lb ed="#L" n="86"/>Declarat autem hoc multipliciter fieri: scilicet aut propter
+<lb ed="#L" n="87"/>repugnantiam ad proprium finem ciborum, sicut cum quis
+<lb ed="#L" n="88"/>propter delectationem utitur cibis saluti corporis contrariis;
+<lb ed="#L" n="89"/>aut propter repugnantiam ad conditionem eius qui utitur
+<lb ed="#L" n="90"/>cibis, vel eorum cum quibus conversatur; aut propter
+<lb ed="#L" n="91"/>repugnantiam ad legem ex aliqua causa speciali aliquos
+<lb ed="#L" n="92"/>cibos prohibentem; vel ad regulam prohibentem aliquibus
+<lb ed="#L" n="93"/>cibis uti ad concupiscentiam refraenandam (intellige, ubi
+<lb ed="#L" n="94"/>hoc esset per regulam ad peccatum obligantem prohibitum).
+</p>
+            <p>
+               <lb ed="#L" n="95"/>CONFIRMATUR conclusio auctoritate Domini Matth. xv;
+<lb ed="#L" n="96"/>et Apostoli I Cor. x, et I Tim. 1v.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Per hoc autem excluditur quorundam error qui 
+ali<lb ed="#L" break="no" n="98"/>quorum ciborum usum secundum se dicunt esse illicitum,
+<lb ed="#L" n="99"/>de quibus Apostolus loquitur ibidem.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>V. Ex praedictis infert Sanctus Thomas quod zec etiam
+<lb ed="#L" n="101"/>divitiarum possessio secundum se est illicita, si ordo rationis
+<lb ed="#L" n="102"/>servetur.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Probatur. Quia ea quae exterius possidentur, necessaria
+<lb ed="#L" n="104"/>sunt ad ciborum sumptionem, ad educationem prolis, ad
+<lb ed="#L" n="105"/>familiae sustentationem, et alias corporis necessitates. Ista
+<lb ed="#L" n="106"/>autem non sunt illicita, nisi secundum quod exeunt ab
+<lb ed="#L" n="107"/>ordine rationis.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Confirmatur. Quia Apostolus, I 7Zm. ult. divites non
+<lb ed="#L" n="109"/>condemnat, sed eis certam regulam divitiis utendi tradit.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Excluditur per hoc error quorundam qui, ut Augustinus
+<lb ed="#L" n="111"/>in libro de Haeresibus refert, Apostolicos se 
+arrogan<lb ed="#L" break="no" n="112"/>tissime vocaverunt, eo quod in suam communionem non
+<lb ed="#L" n="113"/>acciperent utentes coniugibus, et res proprias possidentes.
+<lb ed="#L" n="114"/>Qui ideo sunt haeretici, quoniam, se ab Ecclesiae 
+sepa<lb ed="#L" break="no" n="115"/>rantes, putant nullam spem habere eos qui iis rebus utuntur
+<lb ed="#L" n="116"/>quibus ipsi carent.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>VI. Circa rerum possessionem et divitiarum, 
+conside<lb ed="#L" break="no" n="118"/>randum, ex doctrina Sancti Thomae II II, q. rxvr, a. 2,
+<lb ed="#L" n="119"/>quod in hoc duo possumus considerare: scilicet 
+procura<lb ed="#L" break="no" n="120"/>tionis et dispensationis potestatem; et ipsarum possessionum
+<lb ed="#L" n="121"/>ac divitiarum usum. Quantum ad primum: Licitum est
+<lb ed="#L" n="122"/>homini quod propria possideat. Quia hoc modo et 
+solli<lb ed="#L" break="no" n="123"/>citius et ordinatius res procurantur, et status hominum est
+<lb ed="#L" n="124"/>magis pacificus. - Quantum vero ad secundum: Non licet
+<lb ed="#L" n="125"/>habere divitias quasi proprias, sed haberi debent tanquam
+<lb ed="#L" n="126"/>communes: ut scilicet de facili homo eas communicet in
+<lb ed="#L" n="127"/>necessitates aliorum. — Utrumque istorum tangit Sanctus
+<lb ed="#L" n="128"/>Thomas$ hoc loco. Primum, cum ait quod nec divitiarum
+<lb ed="#L" n="129"/>possessio secundum se est illicita: hoc enim pertinet ad pro-
+<pb ed="#L" n="392"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>curationis et dispensationis potestatem. — Secundum vero  
+<lb ed="#L" n="2"/>cum ait, sj ordo rationis servetur: hoc enim non solum  
+<lb ed="#L" n="3"/>ad rerum possessionem, quae iusta esse debet, refertur,  
+<lb ed="#L" n="4"/>sed etiam ad usum pertinet. Unde in eius explanatione 
+<lb ed="#L" n="5"/>ponit, et quod eis debito modo utatur ad suam et aliorum  
+<lb ed="#L" n="6"/>utilitatem. 
+</p>
+            <p>
+               <lb ed="#L" n="7"/>2. Si autem instetur, quia secundum ius naturale omnia  
+<lb ed="#L" n="8"/>sunt communia; et per consequens contra ius naturale 
+<lb ed="#L" n="9"/>est possessionum aut divitiarum proprietas: — respondetur, 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>ex doctrina Sancti Thomae ibidem, et Ia II, q. xciv, a.
+<lb ed="#L" n="11"/>5, ad 3, quod non dicitur communis omuium possessio
+<lb ed="#L" n="12"/>esse de iure naturali quia ad hoc natura inclinet: sed
+<lb ed="#L" n="13"/>quia natura distinctionem possessionum non induxit. Sicut
+<lb ed="#L" n="14"/>possumus dicere quod hominem esse nudum est de iure
+<lb ed="#L" n="15"/>naturali, quia natura non dedit ei vestitum, sed ars 
+adin<lb ed="#L" break="no" n="16"/>venit. Et ideo possessionum proprietas non est contra ius
+<lb ed="#L" n="17"/>naturale, sicut nec hominem esse vestitum: sed est aliquid
+<lb ed="#L" n="18"/>per humanam inventionem iuri naturali superadditum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

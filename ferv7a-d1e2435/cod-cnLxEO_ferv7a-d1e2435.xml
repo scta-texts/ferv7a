@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 89</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 89</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="273"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2435"><!-- ferv7a-l3c89 -->
+            <head>Capitulum 89</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="39" type="fixed=273"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="40"/>QUIA ad auctoritates in superiori capite adductas 
+perver<lb ed="#L" break="no" n="41"/>sum quidam nituntur dare intellectum, ideo Sanctus
+<lb ed="#L" n="42"/>Thomas vult eorum interpretationem excludere, suamque
+<lb ed="#L" n="43"/>positionem confirmare . Circa hoc autem duo facit: primo,
+<lb ed="#L" n="44"/>ponit eorum interpretationem; secundo, illam reprobat 32.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>I. Quantum ad primum, inquit quod quidam, non 
+in<lb ed="#L" break="no" n="46"/>telligentes qualiter motum voluntatis Deus in nobis 
+cau<lb ed="#L" break="no" n="47"/>sare possit absque praeiudicio libertatis voluntatis, cum
+<lb ed="#L" n="48"/>inquit Apostolus quod Deus est qui operatur in nobis
+<lb ed="#L" n="49"/>velle et perficere , exponunt dicentes hoc intelligi debere
+<lb ed="#L" n="50"/>inquantum dat nobis virtutem volendi, non autem quia
+<lb ed="#L" n="51"/>faciat nos velle hoc aut illud. Et ista est expositio 
+Ori<lb ed="#L" break="no" n="52"/>genis in III Periarchon. — Ex hoc etiam videtur processisse
+<lb ed="#L" n="53"/>opinio dicentium providentiam non esse de electionibus,
+<lb ed="#L" n="54"/>sed de exterioribus eventibus. Quia non semper qui eligit
+<lb ed="#L" n="55"/>aliquid consequi, poterit ad illud pervenire: et sic eventus
+<lb ed="#L" n="56"/>actionum non subduntur libero arbitrio, sed providentia
+<lb ed="#L" n="57"/>disponuntur.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>II. Quantum ad secundum, arguitur contra hanc 
+inter<lb ed="#L" break="no" n="59"/>pretationem, ostendendo quod non solum virtutem volendi
+<lb ed="#L" n="60"/>a Deo habemus, sed etiam operationem voluntatis.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Primo, quia Isaiae xxvi dicitur: Omnia opera nostra
+<lb ed="#L" n="62"/>operatus es in nobis, Domine.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Secundo quia, cum inquit Salomon, loco superius 
+al<lb ed="#L" break="no" n="64"/>legato , Cor regis in manu Domini, et quocumque voluerit,
+<lb ed="#L" n="65"/>vertet illud, ostendit divinam causalitatem non solum ad
+<lb ed="#L" n="66"/>potentiam voluntatis extendi, sed etiam ad actum ipsius.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Tertio, arguitur ratione: Homo non potest virtute 
+vo<lb ed="#L" break="no" n="68"/>luntatis sibi data uti nisi inquantum agit in virtute Dei.
+<lb ed="#L" n="69"/>Ergo Deus est causa non solum voluntatis, sed etiam 
+vo<lb ed="#L" break="no" n="70"/>lendi. — Probatur antecedens, Quia nulla res potest propria
+<lb ed="#L" n="71"/>virtute agere nisi agat in virtute Dei, ut superius est 
+osten<lb ed="#L" break="no" n="72"/>sum. — Consequentia vero probatur. Quia illud in cuius
+<lb ed="#L" n="73"/>virtute agens agit, est causa non solum virtutis, sed etiam
+<lb ed="#L" n="74"/>actus. Declaratur in artifice respectu instrumenti. i|
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Quarto. In corporalibus omnis motus a primo motu
+<lb ed="#L" n="76"/>causatur, Ergo et omnis motus voluntatis causatur a prima
+<lb ed="#L" n="77"/>voluntate. — Probatur consequentia. Quia perfectius 
+inve<lb ed="#L" break="no" n="78"/>nitur ordo in spiritualibus quam in corporalibus.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Quinto. Superius est ostensum quod Deus est causa
+<lb ed="#L" n="80"/>omnis actionis, et operatur in omni agente. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Sexto, arguitur ratione Aristotelis in VIII Eudemiae
+<lb ed="#L" n="82"/>Ethicae, idest, Ethicae ad Eudemum scriptae; nam libri
+<lb ed="#L" n="83"/>Ethicorum qui habentur in usu, sunt ad Nicomachum
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="84"/>scripti. Quod aliquis intelligat, consilietur, eligat, et velit,
+<lb ed="#L" n="85"/>oportet aliquid esse causam. Quae si est aliud 
+con<lb ed="#L" break="no" n="86"/>silium et alia voluntas praecedens, oportet devenire ad
+<lb ed="#L" n="87"/>aliquod primum: cum non sit procedere in istis in 
+infi<lb ed="#L" break="no" n="88"/>nitum. Ergo Deus est primum principium nostrorum 
+con<lb ed="#L" break="no" n="89"/>siliorum et voluntatum, ' :
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Probatur assumptum. Quia omne novum oportet quod
+<lb ed="#L" n="91"/>habeat aliquam causam. — Consequentia vero probatur.
+<lb ed="#L" n="92"/>Quia illud primum oportet esse aliquid melius ratione,
+<lb ed="#L" n="93"/>Nihil autem est melius intellectu et ratione nisi Deus.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>III. Ad evidentiam huius rationis, considerandum est
+<lb ed="#L" n="95"/>quod in isto processu, quo proceditur ab intellectu ad
+<lb ed="#L" n="96"/>voluntatem, et a voluntate ad intellectum, oportet, tam
+<lb ed="#L" n="97"/>ex parte intellectus quam ex parte voluntatis, devenire ad
+<lb ed="#L" n="98"/>aliquid primum, cuius Deus sit proxima causa per modum
+<lb ed="#L" n="99"/>agentis totalis et sufficientis, Nam operationis naturalis
+<lb ed="#L" n="100"/>causa agens est ille qui dat naturam: sicut generans grave
+<lb ed="#L" n="101"/>dat illi motum primo et per se sicut agens quod movet .
+<lb ed="#L" n="102"/>Unde, cum sit aliqua operatio naturalis tam intellectus
+<lb ed="#L" n="103"/>quam voluntatis; et Deus sit naturae intellectualis 
+imme<lb ed="#L" break="no" n="104"/>diata causa: operatio naturalis tam intellectus quam 
+vo<lb ed="#L" break="no" n="105"/>luntatis est a Deo tanquam ab agente quod talem actionem
+<lb ed="#L" n="106"/>producit; ab intellectu vero et voluntate tanquam a forma
+<lb ed="#L" n="107"/>qua producitur, sicut motus deorsum est a gravitate 
+tan<lb ed="#L" break="no" n="108"/>quam a forma qua generaus movet gravia.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Ex parte ergo voluntatis, in praedicto processu, oportet
+<lb ed="#L" n="110"/>devenire ad aliquem actum primum, qui omnes alios 
+vo<lb ed="#L" break="no" n="111"/>luntatis actus praecedat. Qui actus est volitio finis: in hac
+<lb ed="#L" n="112"/>vita quidem sub communi ratione ultimi finis, sive sub
+<lb ed="#L" n="113"/>communi ratione summi et perfecti boni; in statu vero
+<lb ed="#L" n="114"/>patriae etiam sub particulari ratione, scilicet divinae 
+es<lb ed="#L" break="no" n="115"/>sentiae clare visae. Iste autem actus est naturalis in via
+<lb ed="#L" n="116"/>quoad specificationem actus: inquantum, si voluntati 
+pro<lb ed="#L" break="no" n="117"/>ponatur summum bonum, et ipsa actum circa ipsum 
+sum<lb ed="#L" break="no" n="118"/>mum bonum eliciat, talis actus necessario est prosecutio,
+<lb ed="#L" n="119"/>non autem fuga. In patria autem est necessarius etiam quoad
+<lb ed="#L" n="120"/>exercitium actus: inquantum voluntas videntis divinam 
+es<lb ed="#L" break="no" n="121"/>sentiam clare, necessario elicit actum amoris et fruitionis
+<lb ed="#L" n="122"/>circa ipsam. Unde iste actus, quantum ad illud quod habet
+<lb ed="#L" n="123"/>naturalitatis et necessitatis, habet Deum pro principali causa,
+<lb ed="#L" n="124"/>non autem voluntatem nostram, nisi sicut dictum est.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Ex parte etiam intellectus, oportet devenire ad aliquem
+<lb ed="#L" n="126"/>primum actum naturalem. Licet enim volitionem eorum
+<lb ed="#L" n="127"/>quae sunt ad finem, praecedat consilium et inquisitio; et
+<pb ed="#L" n="274"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tale consilium. praecedat volitio finis et consilii et 
+inqui<lb ed="#L" break="no" n="2"/>sitionis, inquantum libere consiliamur: quia tamen voluntas
+<lb ed="#L" n="3"/>non fertur in bonum nisi sit cognitum et apprehensum per
+<lb ed="#L" n="4"/>intellectum, ideo necesse est esse aliquem actum intellectus
+<lb ed="#L" n="5"/>qui omnem actum voluntatis praecedat, et per consequens
+<lb ed="#L" n="6"/>sit naturalis, utpote nullo modo a voluntate procedens, Unde
+<lb ed="#L" n="7"/>et istum actum oportet referre in Deum sicut in causam
+<lb ed="#L" n="8"/>proximam principalem, ut dictum est de actu. voluntatis.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>2. Quis autem sit iste actus: — videtur dicendum quod
+<lb ed="#L" n="10"/>sunt illae cognitiones, sive complexae sive incomplexae,
+<lb ed="#L" n="11"/>quas absque electione, sed naturali inclinatione intellectus
+<lb ed="#L" n="12"/>elicimus, praesente aliquo obiecto in intellectu: aut a 
+prin<lb ed="#L" break="no" n="13"/>cipio, cum primum incipimus uti ratione et intellectu;
+<lb ed="#L" n="14"/>aut cum primum incipimus de aliquo cognoscibili et 
+ap<lb ed="#L" break="no" n="15"/>petibili considerare. Rationabile enim videtur ut ex 
+phan<lb ed="#L" break="no" n="16"/>tasmatibus et intellectu agente agentibus in intellectum
+<lb ed="#L" n="17"/>possibilem, moveatur naturaliter intellectus ad alicuius 
+co<lb ed="#L" break="no" n="18"/>gnitionem ante omnem electionem et ante omnem 
+voli<lb ed="#L" break="no" n="19"/>tionem: cum non sit processus in infinitum in 
+cognitio<lb ed="#L" break="no" n="20"/>nibus intellectus ordinatis, et oporteat ad aliquam devenire
+<lb ed="#L" n="21"/>cognitionem quae a voluntate non imperetur, et per 
+con<lb ed="#L" break="no" n="22"/>sequens mere naturalis sit.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Haec autem dixerim, non quia alio modo Deus non
+<lb ed="#L" n="24"/>possit intellectum et voluntatem movere ad aliquam 
+ope<lb ed="#L" break="no" n="25"/>rationem quam dando illi naturam ad quam de necessitate
+<lb ed="#L" n="26"/>sequitur talis operatio, positis iis quae ex parte intellectus
+<lb ed="#L" n="27"/>et voluntatis requiruntur, — posita scilicet specie 
+intelligi<lb ed="#L" break="no" n="28"/>bili in intellectu; et bene dispositis viribus interioribus 
+ap<lb ed="#L" break="no" n="29"/>prehensivis; et posito appetibili in esse intellecto, quo
+<lb ed="#L" n="30"/>obiectum voluntatis fit in actu — sed quia iste est modus
+<lb ed="#L" n="31"/>conveniens naturae intelligibili, secundum quem eius 
+ope<lb ed="#L" break="no" n="32"/>rationes tandem habent reduci ad aliquos primos actus, qui
+<lb ed="#L" n="33"/>sunt in Deum tanquam in principalem causam referendi.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>3. Est autem et alius modus quo Deus aliquando 
+intel<lb ed="#L" break="no" n="35"/>lectum et voluntatem movet, non ex naturali inclinatione
+<lb ed="#L" n="36"/>propriae naturae secundum se, sed ex sola motione qua
+<lb ed="#L" n="37"/>applicat intellectum ad intelligendum et considerandum
+<lb ed="#L" n="38"/>aliquod obiectum, et voluntatem ad aliquid volendum
+<lb ed="#L" n="39"/>movet. Qui quidem actus, licet non dicatur naturalis 
+tan<lb ed="#L" break="no" n="40"/>quam naturae principia consequens, dicitur tamen naturalis
+<lb ed="#L" n="41"/>inquantum fit virtute superioris naturae dantis omnibus et
+<lb ed="#L" n="42"/>esse et operationem: est enim unaquaeque natura 
+dispo<lb ed="#L" break="no" n="43"/>sita ad obediendum primae omnium causae.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>IV. Ex his patet vanas esse rationes Henrici, a Capreolo
+<lb ed="#L" n="45"/>recitatas, I[ Sent., d. xxv , quibus arguit primum motum
+<lb ed="#L" n="46"/>voluntatis non esse a Deo. Tum videlicet quia secundum
+<lb ed="#L" n="47"/>generalem administrationem Deus omnia movet: non tamen
+<lb ed="#L" n="48"/>dicuntur motus aliorum esse a Deo, nisi sicut. a. causa
+<lb ed="#L" n="49"/>universali,
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Tum quia tunc voluntas non esset libera et domina
+<lb ed="#L" n="51"/>suorum actuum.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>2. Ad primum enim patet quod non est eadem ratio de
+<lb ed="#L" n="53"/>voluntate, et de aliis. Quia motus aliarum rerum habent
+<lb ed="#L" n="54"/>aliquas causas particulares, in quas referri habent: sicut
+<lb ed="#L" n="55"/>motus gravium et levium refertur in generantem, a quo
+<lb ed="#L" n="56"/>principium formale motus acceperunt. Motus autem 
+na<lb ed="#L" break="no" n="57"/>turalis intellectus et voluntatis, quo dicitur creatura 
+in<lb ed="#L" break="no" n="58"/>tellectualis naturaliter intelligere et velle, non habet 
+ali<lb ed="#L" break="no" n="59"/>quam causam principalem proximam nisi Deum: quia ipse
+<lb ed="#L" n="60"/>solus est causa proxima et immediata naturae intellectualis,
+<lb ed="#L" n="61"/>ad quam huiusmodi operationes naturaliter. consequuntur,
+<lb ed="#L" n="62"/>modo exposito, sicut motus deorsum ad formam gravitatis.
+<lb ed="#L" n="63"/>Ideo motus naturales aliarum [rerum] non ita sunt Deo
+<lb ed="#L" n="64"/>attribuendi sicut motus intellectus et voluntatis.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Ad secundum etiam patet quod non est inconveniens
+<lb ed="#L" n="66"/>voluntatem non esse liberam et dominam respectu omnium
+<lb ed="#L" n="67"/>suorum actuum. Ad actus enim ad quos naturaliter et 
+ne<lb ed="#L" break="no" n="68"/>cessario inclinatur a Deo, non habet libertatem, inquantum
+<lb ed="#L" n="69"/>naturales sunt et necessarii: et secundum illos, ut sic, non
+<lb ed="#L" n="70"/>meretur et demeretur. Sed habet alios actus liberos: eos
+<lb ed="#L" n="71"/>videlicet ad quos ipsam movet Deus non tanquam 
+neces<lb ed="#L" break="no" n="72"/>sario volentem, sed libere; sicut sunt actus circa ea quae
+<lb ed="#L" n="73"/>sunt ad finem sine quibus finis haberi potest; sicut etiam
+<lb ed="#L" n="74"/>est actus circa ultimum finem in via quantum ad eius
+<lb ed="#L" n="75"/>exercitium.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>3. Mens ergo rationis est quod oportet devenire ad 
+ali<lb ed="#L" break="no" n="77"/>quam primam cognitionem intellectus, quam nullum 
+con<lb ed="#L" break="no" n="78"/>silium et nulla volitio praecedit quae sit eius causa. Et
+<lb ed="#L" n="79"/>huius cognitionis causa est Deus, qui dedit talem naturam
+<lb ed="#L" n="80"/>intellectui ut in talem cognitionem, praesente obiecto in
+<lb ed="#L" n="81"/>intellectu, et bene dispositis phantasmatibus, tendat 
+neces<lb ed="#L" break="no" n="82"/>sario. Similiter oportet devenire ad aliquem actum 
+volun<lb ed="#L" break="no" n="83"/>tatis quem nullus alius actus voluntatis, neque aliquod 
+con<lb ed="#L" break="no" n="84"/>silium, praecedit ut causa. Et ipsius Deus est causa, qui
+<lb ed="#L" n="85"/>voluntati dedit naturalem inclinationem in illum actum, aut
+<lb ed="#L" n="86"/>quantum ad exercitium, aut quantum ad specificationem.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>V. Circa ipsam conclusionem, quae ponit Deum esse
+<lb ed="#L" n="88"/>causam actuum voluntatis, dubitatur ex Scoto, xxxvii dist.
+<lb ed="#L" n="89"/>II Sent., in 2" quaesito . Primo. Nulla potentia habet 
+per<lb ed="#L" break="no" n="90"/>Jecte in sua potestate effectum qui non potest causari ab
+<lb ed="#L" n="91"/>ea immediate, nec ab aliqua causa cuius causatio non  est
+<lb ed="#L" n="92"/>in potestate illius potentiae: quia quod habet perfecte 
+ef<lb ed="#L" break="no" n="93"/>fectum in sua potestate, potest se solo in illum, vel 
+cau<lb ed="#L" break="no" n="94"/>satio cuiuslibet concurrentis est in eius potestate. Sed 
+cau<lb ed="#L" break="no" n="95"/>satio Dei non est in potestate voluntatis creatae. Ergo,
+<lb ed="#L" n="96"/>si Deus necessario concurrat immediate ut causa, scilicet
+<lb ed="#L" n="97"/>immediata, respectu volitionis creatae, voluntas creata non
+<lb ed="#L" n="98"/>habet plene in sua potestate illam volitionem. Hoc. est
+<lb ed="#L" n="99"/>falsum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Confirmatur. Quia quod ab alio determinatur ad 
+ali<lb ed="#L" break="no" n="101"/>quid, non habet perfecte illud in sua potestate.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Secundo. Illud non est contingens propter habitudinem
+<lb ed="#L" n="103"/>sui ad aliquam causam ad cuius eventum causa superior
+<lb ed="#L" n="104"/>est determinata, cuius causae determinationem necessario
+<lb ed="#L" n="105"/>sequitur determinatio omnium causarum inferiorum. Sed
+<lb ed="#L" n="106"/>si voluntas divina est causa immediata meae volitionis,
+<lb ed="#L" n="107"/>iam est aliqua causa determinata respectu eius, scilicet
+<lb ed="#L" n="108"/>voluntas Dei. Et determinationem eius necessario 
+conco<lb ed="#L" break="no" n="109"/>mitatur determinatio voluntatis meae respectu eiusdem.
+<lb ed="#L" n="110"/>Igitur illud velle non est contingens, Hoc est falsum.
+<lb ed="#L" n="111"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>Tertio. Cum Deus sit causa prior voluntate, quaeritur
+<lb ed="#L" n="113"/>an in illo priori signo Deus causet immediate rectitudinem
+<lb ed="#L" n="114"/>perfectam in velle: an non? Si primum, sequitur quod
+<lb ed="#L" n="115"/>voluntas in secundo signo non peccat: quia non causat
+<lb ed="#L" n="116"/>in effectu oppositum eius quod prima causa. causat. Si
+<lb ed="#L" n="117"/>secundum, idem sequitur : quia non potest in velle rectum;
+<lb ed="#L" n="118"/>non habendo autem velle rectum, si habere non potest, non
+<lb ed="#L" n="119"/>peccat. Sequitur ergo quod voluntas peccare non potest.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Quarto. Tunc Deus esset totalis causa volitionis. Ergo
+<lb ed="#L" n="121"/>voluntas nullam haberet causalitatem supra volitionem :
+<lb ed="#L" n="122"/>quia cum totali causa alicuius nihil aliud potest causare
+<lb ed="#L" n="123"/>in eodem genere causae.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Quinto. Aliqua est totalis causa sui effectus. Ergo etiam
+<lb ed="#L" n="125"/>voluntas. Ergo Deus non causat immediate volitionem.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>VI. Ad omnia ista argumenta patet faciliter responsio
+<lb ed="#L" n="127"/>ex iis quae superius in primo libro de scientia et 
+volun<lb ed="#L" break="no" n="128"/>tate sunt determinata . Veruntamen, ut etiam magis eorum
+<lb ed="#L" n="129"/>inefficacia constet: supposito bono intellectu conclusionis,
+<lb ed="#L" n="130"/>scilicet quod Deus immediate causat actum voluntatis 
+imme<lb ed="#L" break="no" n="131"/>diatione virtutis, non autem immediatione suppositi, sicut
+<lb ed="#L" n="132"/>et de actibus aliarum virtutum superius est ostensum; 
+vo<lb ed="#L" break="no" n="133"/>luntas autem causat ipsam volitionem immediate 
+immedia<lb ed="#L" break="no" n="134"/>tione suppositi, non autem immediatione virtutis: — dicitur
+<lb ed="#L" n="135"/>ad primum, quod habere perfecte in sua potestate effectum
+<lb ed="#L" n="136"/>dupliciter potest intelligi. Uno modo, quia illum potest
+<lb ed="#L" n="137"/>producere et non producere, et a nulla alia causa 
+depen<lb ed="#L" break="no" n="138"/>dentiam habet in illius effectus productione. Et sic neque
+<lb ed="#L" n="139"/>voluntas, neque quaecumque alia causa creata, habet 
+ef<lb ed="#L" break="no" n="140"/>fectum perfecte in sua potestate: quia omnis causa creata
+<lb ed="#L" n="141"/>necessario dependet a prima causa, sicut in essendo, ita et
+<lb ed="#L" n="142"/>in causando. — Alio modo, quia potest producere effectum
+<lb ed="#L" n="143"/>et non producere, supposita prima causa a qua dependet;
+<lb ed="#L" n="144"/>et a nulla causa ad producendum aut ad non producendum
+<lb ed="#L" n="145"/>necessitatur. Et sic conceditur quod voluntas habet 
+per<lb ed="#L" break="no" n="146"/>fecte in sua potestate volitionem suam. Et ad hunc 
+sen<lb ed="#L" break="no" n="147"/>sum, negatur maior. Stant enim simul quod aliqua causa
+<lb ed="#L" n="148"/>secunda, secundum se et absolute, possit producere et non
+<lb ed="#L" n="149"/>producere effectum; et tamen causatio alterius superioris
+<lb ed="#L" n="150"/>causae non sit in eius potestate. Quia, ut in superioribus 
+<pb ed="#L" n="275"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est ostensum, stat libertas secundae causae cum necessitate
+<lb ed="#L" n="2"/>immutabilitatis, sive cum necessitate suppositionis primae
+<lb ed="#L" n="3"/>causae.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Ad probationem, negatur assumptum. Non enim oportet
+<lb ed="#L" n="5"/>ut quod habet in potestate suum effectum, illum se solo
+<lb ed="#L" n="6"/>omnino possit efficere: sed sufficit ut se solo tanquam
+<lb ed="#L" n="7"/>proximo agente possit illum efficere. Nec etiam exigitur
+<lb ed="#L" n="8"/>ut causatio cuiuslibet concurrentis sit in eius potestate:
+<lb ed="#L" n="9"/>sed sufficit ut in eius potestate sit causatio causae 
+concur<lb ed="#L" break="no" n="10"/>rentis sui ordinis, quae scilicet sit causa proxima.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Ad confirmationem, patet per idem. Quia potest aliquid
+<lb ed="#L" n="12"/>determinari ab alio ad effectum, et tamen habere illum in
+<lb ed="#L" n="13"/>sua potestate, secundo modo superius dicto: eo quod
+<lb ed="#L" n="14"/>causa prima movet unamquamque causam secundam ad
+<lb ed="#L" n="15"/>suum effectum secundum conditionem ipsius causae 
+se<lb ed="#L" break="no" n="16"/>cundae; causam enim non potentem deficere sic ad suum
+<lb ed="#L" n="17"/>effectum determinat ut ipsum necessario absolute producat;
+<lb ed="#L" n="18"/>causam autem quae deficere potest, ita determinat ut tamen
+<lb ed="#L" n="19"/>absolute deficere possit in producendo.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>VII. Ad secundum  dicitur primo, quod utique non
+<lb ed="#L" n="21"/>dicitur aliquis effectus contingens in ordine ad voluntatem
+<lb ed="#L" n="22"/>nostram tanquam ad primam radicem contingentiae et 
+li<lb ed="#L" break="no" n="23"/>bertatis: sed in ordine ad sapientiam et voluntatem 
+di<lb ed="#L" break="no" n="24"/>vinam; ut superius est ostensum ; inquantum scilicet Deus
+<lb ed="#L" n="25"/>determinavit aliqua quidem evenire necessario, et istis dedit
+<lb ed="#L" n="26"/>causas necessarias; alia vero evenire contingenter, et istis
+<lb ed="#L" n="27"/>dedit causas contingentes.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>2. Dicitur secundo, quod maior est falsa de causa 
+su<lb ed="#L" break="no" n="29"/>periori quae est determinata non necessario absolute, sed
+<lb ed="#L" n="30"/>voluntarie; et est causa effectus aliarum causarum tam
+<lb ed="#L" n="31"/>secundum esse, quam secundum modum necessitatis aut
+<lb ed="#L" n="32"/>contingentiae. Isto enim modo Deus est causa determinata
+<lb ed="#L" n="33"/>ad productionem creaturarum : quia videlicet libere se 
+de<lb ed="#L" break="no" n="34"/>terminavit ad ipsarum productionem, cum posset absolute
+<lb ed="#L" n="35"/>oppositum determinare, modo in superioribus  ostenso,
+<lb ed="#L" n="36"/>licet ista determinatio sit necessaria necessitate 
+immuta<lb ed="#L" break="no" n="37"/>bilitatis. Item determinavit ut talis effectus necessario, talis
+<lb ed="#L" n="38"/>vero contingenter eveniat, et eius determinationem sequitur
+<lb ed="#L" n="39"/>determinatio omnium causarum: quia videlicet effectus
+<lb ed="#L" n="40"/>quos determinavit per istas causas evenire necessario, ipsae
+<lb ed="#L" n="41"/>causae necessario producunt; illos vero quos determinavit
+<lb ed="#L" n="42"/>per illas causas contingenter et libere evenire, ipsae causae
+<lb ed="#L" n="43"/>efficiunt contingenter. Cum ista tamen contingentia 
+abso<lb ed="#L" break="no" n="44"/>luta effectus in ordine ad suam causam proximam, 
+supe<lb ed="#L" break="no" n="45"/>rius  est ostensum stare necessitatem suppositionis, qua
+<lb ed="#L" n="46"/>dicitur effectus contingens evenire necessario et 
+infallibi<lb ed="#L" break="no" n="47"/>liter, supposito quod Deus velit illum evenire voluntate
+<lb ed="#L" n="48"/>consequente et voluntate completa.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>VIII. Ad tertium  dicitur quod non datur ex parte rei
+<lb ed="#L" n="50"/>aliquod signum prius in quo Deus, ante ipsam voluntatem,
+<lb ed="#L" n="51"/>producat volitionem nostram. Si autem sit sermo de prio-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="52"/>ritate secundum nostrum modum intelligendi: - dicitur
+<lb ed="#L" n="53"/>quod in illo priori in quo intelligimus volitionem quae est
+<lb ed="#L" n="54"/>peccatum terminare actionem divinam antequam a voluntate
+<lb ed="#L" n="55"/>producatur, Deus dat volitioni perfectam bonitatem quae
+<lb ed="#L" n="56"/>nata est sibi convenire secundum suam entitatem 
+abso<lb ed="#L" break="no" n="57"/>lutam, et in ordine ad Deum; non autem illam quae nata
+<lb ed="#L" n="58"/>est sibi convenire inquantum ab humana voluntate 
+pro<lb ed="#L" break="no" n="59"/>cedit. - Cum infertur ex utroque membro quod tunc 
+vo<lb ed="#L" break="no" n="60"/>luntas in secundo signo non peccat, negatur consequentia.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Ad primae consequentiae probationem, dicitur quod illa
+<lb ed="#L" n="62"/>deformitas quae convenit actui volitionis ut a voluntate
+<lb ed="#L" n="63"/>humana dependet, non opponitur bonitati et rectitudini
+<lb ed="#L" n="64"/>quam Deus in illo actu causat, sed rectitudini quam causat
+<lb ed="#L" n="65"/>humana voluntas. Bonitas enim naturae et in ordine ad
+<lb ed="#L" n="66"/>Deum, et malitia moralis, quae sumitur ex ordine ad 
+vo<lb ed="#L" break="no" n="67"/>luntatem creatam, non opponuntur: immo unum fundatur
+<lb ed="#L" n="68"/>in alio. Sed bene opponuntur bonitas ex voluntate humana,
+<lb ed="#L" n="69"/>et malitia ex eadem proveniens, circa eundem actum.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Ad secundae consequentiae probationem, negatur quod,
+<lb ed="#L" n="71"/>secundum istam intellectus considerationem, non possit 
+vo<lb ed="#L" break="no" n="72"/>luntas in aliquid quod causa prior in primo signo non
+<lb ed="#L" n="73"/>produxit. Immo potest in rectitudinem quae nata est 
+con<lb ed="#L" break="no" n="74"/>venire ut a voluntate humana producitur: talis enim 
+bo<lb ed="#L" break="no" n="75"/>nitas est habitudo ad regulas divinas et regulas rationis, 
+se<lb ed="#L" break="no" n="76"/>cundum quas debet humana voluntas regulari. Non 
+incon<lb ed="#L" break="no" n="77"/>venit autem actum aliquam habitudinem habere secundum
+<lb ed="#L" n="78"/>quod procedit ab humana voluntate, quam non habet 
+se<lb ed="#L" break="no" n="79"/>cundum quod a Deo procedit: quia non producit ipsum
+<lb ed="#L" n="80"/>actum volitionis nostrae tanquam. per ipsum formaliter
+<lb ed="#L" n="81"/>volens, sicut voluntas humana,
+</p>
+            <p>
+               <lb ed="#L" n="82"/>IX. Ad quartum  dicitur quod causa totalis potest 
+du<lb ed="#L" break="no" n="83"/>pliciter accipi. Uno modo, pro causa quae se sola 
+ope<lb ed="#L" break="no" n="84"/>ratur, omnemque aliam causam excludit. Et tunc negatur
+<lb ed="#L" n="85"/>antecedens. Quamvis enim Deus actum voluntatis producat
+<lb ed="#L" n="86"/>immediate, non tamen est isto modo causa totalis: immo
+<lb ed="#L" n="87"/>secum assumit ipsam voluntatem ad causationem illius
+<lb ed="#L" n="88"/>actus. Sic autem est causa totalis eorum quae per 
+crea<lb ed="#L" break="no" n="89"/>tionem producit: quia in creatione nullam creatam causam
+<lb ed="#L" n="90"/>assumit. - Alio modo, pro causa sufficiente in suo ordine.
+<lb ed="#L" n="91"/>Et tunc negatur consequentia. Cum causa enim sufficienti
+<lb ed="#L" n="92"/>in uno ordine stat causa sufficiens alterius ordinis. Et sic
+<lb ed="#L" n="93"/>cum causalitate primae causae stat causalitas alterius causae
+<lb ed="#L" n="94"/>tanquam causae proximae.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>2. Per hanc distinctionem patet solutio ad quintum .
+<lb ed="#L" n="96"/>Nam si accipiatur totalis causa primo modo, sic 
+antece<lb ed="#L" break="no" n="97"/>dens est falsum: nulla enim causa creata potest agere non
+<lb ed="#L" n="98"/>concurrente prima causa; et sic nulla est causa totalis isto
+<lb ed="#L" n="99"/>modo. Si autem accipiatur secundo modo, negatur ultima
+<lb ed="#L" n="100"/>consequentia. Licet enim voluntas sit causa sufficiens suae
+<lb ed="#L" n="101"/>volitionis tanquam causa proxima, tion tamen excluditur
+<lb ed="#L" n="102"/>quin Deus ad illam tanquam proxima causa concurrat.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

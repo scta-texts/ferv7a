@@ -1,0 +1,800 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 56</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 56</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="156"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2165"><!-- ferv7a-l3c56 -->
+            <head>Capitulum 56</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="40" type="fixed=156"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="41"/>SECUNDA CONCLUSIO EST: Intellectus creatus, etsi 
+divi<lb ed="#L" break="no" n="42"/>nam substantiam videat, non tamen omnia cognoscit
+<lb ed="#L" n="43"/>quae per divinam substantiam cognosci possunt. Circa
+<lb ed="#L" n="44"/>hanc autem duo facit Sanctus Thomas: primo, eam probat;
+<lb ed="#L" n="45"/>secundo, removet quoddam dubium ,
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Probatur primo sic. Per divinam essentiam alia 
+co<lb ed="#L" break="no" n="47"/>gnoscuntur sicut cognoscitur effectus ex causa. Ergo non
+<lb ed="#L" n="48"/>est necessarium quod intellectus creatus, videndo ipsam,
+<lb ed="#L" n="49"/>omnia videat quae per ipsam videri possunt. — Probatur
+<lb ed="#L" n="50"/>consequentia. Quia tunc solum necesse est ut, cognito
+<lb ed="#L" n="51"/>aliquo principio, omnes eius effectus per ipsum 
+cogno<lb ed="#L" break="no" n="52"/>scantur, quando principium comprehenditur intellectu:
+<lb ed="#L" n="53"/>quia tunc cognoscitur secundum totam suam virtutem.
+<lb ed="#L" n="54"/>Intellectus autem creatus comprehendere non potest 
+di<lb ed="#L" break="no" n="55"/>vinam essentiam.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>2. Ad evidentiam antecedentis, duo sunt attendenda.
+<lb ed="#L" n="57"/>Unum est quod, licet essentia divina sit intellectui creato
+<lb ed="#L" n="58"/>videnti Deum medium cognoscendi per modum speciei
+<lb ed="#L" n="59"/>intelligibilis, non tamen solum illo modo est medium 
+in<lb ed="#L" break="no" n="60"/>telligendi creaturas, sed etiam sicut medium cognitum in
+<lb ed="#L" n="61"/>quo alterum cognoscitur: quia Beati, videntes divinam
+<lb ed="#L" n="62"/>essentiam, aliquos Dei effectus cognoscunt in ipsa cognita
+<lb ed="#L" n="63"/>et visa. Ideo dicitur in antecedente quod per divinam
+<lb ed="#L" n="64"/>essentiam aliquid cognoscitur sicut effectus cognoscitur
+<lb ed="#L" n="65"/>ex causa: effectus, enim cognoscitur ex causa, quando,
+<lb ed="#L" n="66"/>causa cognita, effectus ipse cognoscitur, — non faciendo,
+<lb ed="#L" n="67"/>pro nunc, differentiam inter cognosci in causa, et cognosci
+<lb ed="#L" n="68"/>ex causa.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Alterum est, quod dupliciter possumus intelligere res
+<lb ed="#L" n="70"/>alias a Deo contineri in ipso secundum esse cognoscibile:
+<lb ed="#L" n="71"/>uno modo, sicut res sunt in speculo; alio modo, sicut
+<lb ed="#L" n="72"/>effectus est in causa. Differunt autem isti duo modi, quia
+<lb ed="#L" n="73"/>res per speculum repraesentatae in ipso distinctionem
+<lb ed="#L" n="74"/>habent, alia est enim imago Sortis in speculo, et alia
+<lb ed="#L" n="75"/>imago Platonis: sed effectus in causa contenti nullam
+<lb ed="#L" n="76"/>habent in causa distinctionem, sed est una virtus causae
+<lb ed="#L" n="77"/>illorum omnium. productiva. Primum non potest dici de
+<lb ed="#L" n="78"/>Deo, si proprie loquamur, ut inquit Sanctus Thomas
+<lb ed="#L" n="79"/>Verit., q. vi, a. 4; et q. xit, a. 6: quia res in Deo, qui
+<lb ed="#L" n="80"/>simplicissimus est, nullam habent distinctionem; et si 
+ali<lb ed="#L" break="no" n="81"/>quando dicunt Doctores divinam essentiam esse speculum,
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="82"/>metaphorice dicitur, et intelligitur quantum ad hoc tantum
+<lb ed="#L" n="83"/>quod res in ipsa videri possunt, non autem quantum ad
+<lb ed="#L" n="84"/>hoc quod in ipsa distinctionem habeant. Secundum autem
+<lb ed="#L" n="85"/>convenienter dicitur: quia Deus omnium causa est per
+<lb ed="#L" n="86"/>se cognoscibilium, et omnia in ipso unita sunt tanquam
+<lb ed="#L" n="87"/>in una simplicissima virtute contenta. Quia ergo 
+unum<lb ed="#L" break="no" n="88"/>quodque, sicut est in aliquo, ita in ipso cognoscitur; cum
+<lb ed="#L" n="89"/>omnia contineantur in Deo sicut effectus in causa, 
+con<lb ed="#L" break="no" n="90"/>venientissime dicitur quod cognoscuntur per essentiam 
+di<lb ed="#L" break="no" n="91"/>vinam sicut effectus cognoscitur ex causa. !
+</p>
+            <p>
+               <lb ed="#L" n="92"/>3. Neque contra hoc valet ratio Scoti et aliorum, 
+di<lb ed="#L" break="no" n="93"/>centium quod omnia videntur in Deo sicut in speculo,
+<lb ed="#L" n="94"/>quia omnia per divinam essentiam repraesentantur distincte,
+<lb ed="#L" n="95"/>sicut per speculum. — Dicitur enim quod falsum est omnia
+<lb ed="#L" n="96"/>distincte per divinam essentiam repraesentari sicut res 
+re<lb ed="#L" break="no" n="97"/>praesentantur per speculum. Nam speculum repraesentat
+<lb ed="#L" n="98"/>distincte, non tantum ex parte rei repraesentatae, sed etiam
+<lb ed="#L" n="99"/>ex parte sui, inquantum res in ipso distinctionem habent.
+<lb ed="#L" n="100"/>Per essentiam autem divinam res distincte repraesentantur,
+<lb ed="#L" n="101"/>non quidem ex parte divinae essentiae, quasi in ipso 
+di<lb ed="#L" break="no" n="102"/>stinctionem habeant: sed ex parte ipsarum rerum, 
+inquan<lb ed="#L" break="no" n="103"/>tum nihil est in quacumque re per quod ab aliis rebus
+<lb ed="#L" n="104"/>distinguitur, quod non clarissime per divinam essentiam
+<lb ed="#L" n="105"/>repraesentetur.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>II. Contra hanc rationem, inquantum fundatur in hoc
+<lb ed="#L" n="107"/>quod, si intellectus videns divinam essentiam videret omnia
+<lb ed="#L" n="108"/>cognoscibilia per ipsam, eam comprehenderet, arguitur
+<lb ed="#L" n="109"/>primo ab Aureolo et Gottifredo . Cognoscere omnia in
+<lb ed="#L" n="110"/>Deo contingit et extensive, et intensive. Et ex primo non
+<lb ed="#L" n="111"/>sequitur comprehensio, sed ex secundo: quia perfectio
+<lb ed="#L" n="112"/>cognitionis attenditur per se penes intensionem. Sed 
+co<lb ed="#L" break="no" n="113"/>gnitio omnium in divina essentia potest esse tantum 
+exten<lb ed="#L" break="no" n="114"/>sive, et non intensive. Ergo ex omnium cognitione in Deo
+<lb ed="#L" n="115"/>non necessario infertur comprehensio ipsius.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>2. Secundo arguitur a Scoto, Tertio, d. xiv, q. ur .
+<lb ed="#L" n="117"/>Si duo insunt uni ordine quodam, ita quod unum est
+<lb ed="#L" n="118"/>tota ratio quare insit aliud; si videns primum non 
+com<lb ed="#L" break="no" n="119"/>prehendit illud cui inest, multo minus videns secundum
+<lb ed="#L" n="120"/>illud comprehendet, ut patet de duabus passionibus 
+ordi<lb ed="#L" break="no" n="121"/>nate uni subiecto inhaerentibus. Sed Deo inest infinitas
+<lb ed="#L" n="122"/>intensiva, et ista est ratio quod omnia sint in ipso. Et ad
+<pb ed="#L" n="157"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>videre infinitatem intensivam non sequitur comprehensio
+<lb ed="#L" n="2"/>Dei, ut patet. Ergo ad videre omnia in Deo, non sequitur
+<lb ed="#L" n="3"/>comprehensio Dei.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>3. Tertio, per eundem arguitur. Cognoscens unum
+<lb ed="#L" n="5"/>effectum in Verbo, neque effectum comprehendit, neque
+<lb ed="#L" n="6"/>Verbum ut est illius causa. Ergo neque, quotcumque 
+ef<lb ed="#L" break="no" n="7"/>fectus cognoscantur, comprehenditur Verbum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>III. Contra etiam assumptum ad probationem 
+conse<lb ed="#L" break="no" n="9"/>quentiae, scilicet quod ?unc solum, cognito aliquo 
+prin<lb ed="#L" break="no" n="10"/>cipio, omnes eius effectus cognoscuntur per ipsum, quando
+<lb ed="#L" n="11"/>comprehenditur intellectu, arguit Scotus, inquantum in eo
+<lb ed="#L" n="12"/>implicite includitur quod, cum plures effectus in causa
+<lb ed="#L" n="13"/>cognoscuntur, ipsa causa perfectius cognoscitur.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Primo, quia causa, inquantum causa, nullam 
+perfe<lb ed="#L" break="no" n="15"/>ctionem accipit a causato.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Secundo quia, accepto aliquo principio ut noto in
+<lb ed="#L" n="17"/>aliquo gradu, aut per ipsum, eius cognitione non aucta,
+<lb ed="#L" n="18"/>potest aliqua conclusio cognosci: aut non. Si sic, habetur
+<lb ed="#L" n="19"/>propositum. Si non, ergo principium in hoc gradu non
+<lb ed="#L" n="20"/>est principium.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Confirmatur. Quia notitia quid est non perficitur per
+<lb ed="#L" n="22"/>notitiam quia est. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>IV. Pro solutione primi, considerandum est quod aliter
+<lb ed="#L" n="24"/>loquendum est de cognitione effectuum Dei in seipsis: et
+<lb ed="#L" n="25"/>aliter de cognitione ipsorum in causa. Si enim 
+cogno<lb ed="#L" break="no" n="26"/>scerentur omnes huiusmodi effectus in seipsis, et non in
+<lb ed="#L" n="27"/>essentia divina, cognosceretur perfecte et comprehensive
+<lb ed="#L" n="28"/>virtus divina extensive tantum: quia solum cognosceretur
+<lb ed="#L" n="29"/>quantum ad extensionem eius ad omnes suos effectus.
+<lb ed="#L" n="30"/>Cognoscere enim causam quantum ad omnem suam 
+cau<lb ed="#L" break="no" n="31"/>salitatem ex cognitione effectuum, est ipsam perfecte
+<lb ed="#L" n="32"/>cognoscere et comprehendere quantum ad causalitatis
+<lb ed="#L" n="33"/>extensionem: quod est extensive comprehendere causam
+<lb ed="#L" n="34"/>inquantum causa est; non autem est ipsam causae 
+es<lb ed="#L" break="no" n="35"/>sentiam intensive comprehendere, quod est cognoscere
+<lb ed="#L" n="36"/>ipsam tantum quantum cognoscibilis est.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Si autem cognoscantur omnes effectus Dei in essentia
+<lb ed="#L" n="38"/>divina, ita quod essentia visa sit ratio videndi, omnia in
+<lb ed="#L" n="39"/>Deo extensive cognosci est impossibile, nisi intensive 
+co<lb ed="#L" break="no" n="40"/>gnito Deo tantum quantum cognoscibilis est: quod absque
+<lb ed="#L" n="41"/>comprehensione non est. Huius autem ratio est quia, cum
+<lb ed="#L" n="42"/>effectus a Deo producibiles sint secundum speciem 
+infi<lb ed="#L" break="no" n="43"/>niti, eo quod, quacumque specie data, potest perfectiorem
+<lb ed="#L" n="44"/>speciem producere, et, illa data, aliam perfectiorem, et
+<lb ed="#L" n="45"/>sic in infinitum; et oporteat ut, quanto plures huiusmodi
+<lb ed="#L" n="46"/>effectus in causa cognita cognoscuntur, tanto perfectius
+<lb ed="#L" n="47"/>cognoscatur causa, sicut quanto plures conclusiones in
+<lb ed="#L" n="48"/>uno principio cognoscuntur, tanto perfectius cognoscitur
+<lb ed="#L" n="49"/>principium: necesse est ut cum cognitione effectuum 
+di<lb ed="#L" break="no" n="50"/>vinorum infinitorum perfectissime cognoscatur Deus, et
+<lb ed="#L" n="51"/>cognoscatur tantum quantum cognoscibilis est, quod est
+<lb ed="#L" n="52"/>comprehendere ipsum et perfecte cognoscere intensive.
+<lb ed="#L" n="53"/>Sicut si, cognita veritate unius principii, cognoscantur in
+<lb ed="#L" n="54"/>ipsa omnes conclusiones in ipso principio virtualiter 
+con<lb ed="#L" break="no" n="55"/>tentae, ipsum principium et perfecte cognoscitur quantum
+<lb ed="#L" n="56"/>cognoscibile est, et idcirco comprehenditur; et non stant
+<lb ed="#L" n="57"/>simul quod omnes conclusiones in ipso virtualiter 
+con<lb ed="#L" break="no" n="58"/>tentae extensive cognoscantur in ipsa veritate principii
+<lb ed="#L" n="59"/>cognita tanquam in ratione cognoscendi, et tamen non
+<lb ed="#L" n="60"/>comprehendantur, sive non cognoscantur perfecte intensive
+<lb ed="#L" n="61"/>in ipso principio; cum claritas cognitionis conclusionis
+<lb ed="#L" n="62"/>sit ex resolutione ad sua principia.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>V. Tunc ad primum argumentum, negatur quod possint
+<lb ed="#L" n="64"/>omnes effectus Dei in ipso cognito infinite extensive 
+vi<lb ed="#L" break="no" n="65"/>deri, et non videantur infinite intensive. Quia sicut clara
+<lb ed="#L" n="66"/>notitia conclusionis habetur per resolutionem in sua 
+prin<lb ed="#L" break="no" n="67"/>cipia, quando scilicet videtur a principiis necessario 
+de<lb ed="#L" break="no" n="68"/>pendere; ita clara notitia effectuum habetur per 
+resolu<lb ed="#L" break="no" n="69"/>tionem ad omnes suas causas. Et ideo sicut, quando in
+<lb ed="#L" n="70"/>principio videtur necessitas omnium conclusionum in ipso
+<lb ed="#L" n="71"/>contentarum, ipsum principium cognoscitur quantum 
+co<lb ed="#L" break="no" n="72"/>gnoscibile est, et sic cognoscuntur conclusiones perfecte
+<lb ed="#L" n="73"/>sicut sunt cognoscibiles: ita, quando in prima causa 
+vi<lb ed="#L" break="no" n="74"/>dentur omnes effectus sui cum omnibus suis causis, 
+vi<lb ed="#L" break="no" n="75"/>dentur omnes effectus infinite intensive, idest, visione
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>intensive infinita; inquantum ipsa causa in qua 
+cogno<lb ed="#L" break="no" n="77"/>scuntur, cognoscitur tantum quantum cognoscibilis est, et
+<lb ed="#L" n="78"/>idcirco effectus cognoscuntur per ipsam tantum quantum
+<lb ed="#L" n="79"/>cognoscibiles sunt.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>2. Ad secundum dupliciter responderi potest. Primo,
+<lb ed="#L" n="81"/>quod maior habet veritatem dumtaxat in his quae eundem
+<lb ed="#L" n="82"/>modum essendi habent in tertio: non autem quando 
+di<lb ed="#L" break="no" n="83"/>versum modum essendi habent. Infinitas autem intensiva,
+<lb ed="#L" n="84"/>et effectus Dei, non habent eodem modo esse in ipso:
+<lb ed="#L" n="85"/>quia infinitas formaliter inest; effectus autem virtualiter.
+<lb ed="#L" n="86"/>Propter quod, cognita essentia, cognoscitur infinitas 
+in<lb ed="#L" break="no" n="87"/>tensiva: non autem, ipsa cognita, cognoscuntur omnes
+<lb ed="#L" n="88"/>effectus in ipsa.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Responderi secundo potest quod infinitatem intensivam
+<lb ed="#L" n="90"/>et infinitatem extensivam in Deo videri dupliciter contingit:
+<lb ed="#L" n="91"/>uno modo, materialiter; alio modo, formaliter. Materialiter
+<lb ed="#L" n="92"/>videtur quando videtur illa entitas quae est infinitas. Et
+<lb ed="#L" n="93"/>sic omnes videntes divinam essentiam, vident utramque
+<lb ed="#L" n="94"/>infinitatem: quia sua infinitas nihil aliud est quam sua
+<lb ed="#L" n="95"/>essentia. — Formaliter autem videtur quando videtur sub
+<lb ed="#L" n="96"/>ratione infinitatis: quando cognoscitur essentia divina ut
+<lb ed="#L" n="97"/>infinitam perfectionem habens absque limitatione ad 
+ali<lb ed="#L" break="no" n="98"/>quem determinatum gradum essendi, et ut habens 
+vir<lb ed="#L" break="no" n="99"/>tutem productivam effectuum infinitorum absque termino
+<lb ed="#L" n="100"/>ultra quem nihil aliud produci possit. Hoc autem 
+dupli<lb ed="#L" break="no" n="101"/>citer cognosci contingit. Uno modo, quantum ad quia est
+<lb ed="#L" n="102"/>tantum: et sic omnes videntes Deum vident infinitatem
+<lb ed="#L" n="103"/>Dei tam intensivam quam extensivam; nam et hoc multi
+<lb ed="#L" n="104"/>philosophi ex consideratione rerum sensibilium 
+cogno<lb ed="#L" break="no" n="105"/>verunt: probaverunt enim Deum esse infinitae virtutis et
+<lb ed="#L" n="106"/>perfectionis infinitae. Alio modo, quantum ad distinctam
+<lb ed="#L" n="107"/>cognitionem utriusque infinitatis: et sic Beati neutram
+<lb ed="#L" n="108"/>infinitatem cognoscunt. Cognoscere enim infinitatem 
+in<lb ed="#L" break="no" n="109"/>tensivam Dei isto modo, est cognoscere particulariter et
+<lb ed="#L" n="110"/>distincte omnes gradus perfectionis in ipsa contentos, qui
+<lb ed="#L" n="111"/>infiniti sunt, secundum quod unus ab alio distinguitur
+<lb ed="#L" n="112"/>formaliter: sicut cognoscere perfectionem animae 
+intel<lb ed="#L" break="no" n="113"/>lectivae distincte et perfecte, est cognoscere in ipsa 
+di<lb ed="#L" break="no" n="114"/>stincte omnes .gradus essendi in ipsa unite contentos,
+<lb ed="#L" n="115"/>scilicet gradum vitae, gradum sensitivi, et gradum 
+intel<lb ed="#L" break="no" n="116"/>lectivi. Cognoscere autem distincte infinitatem virtutis
+<lb ed="#L" n="117"/>extensivam Dei, est cognoscere omnes habitudines eius ad
+<lb ed="#L" n="118"/>quoscumque effectus producendos. Horum autem nullum
+<lb ed="#L" n="119"/>convenit videnti Deum, Quia ex utroque cognitionis modo
+<lb ed="#L" n="120"/>sequitur comprehensio divinae substantiae: ex cognitione
+<lb ed="#L" n="121"/>enim infinita sequitur comprehensio virtutis; ex 
+com<lb ed="#L" break="no" n="122"/>prehensione vero virtutis sequitur essentiae comprehensio,
+<lb ed="#L" n="123"/>cum virtus proportionetur essentiae.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Ad argumentum ergo, negatur minor quantum ad hanc
+<lb ed="#L" n="125"/>partem, scilicet quod ad cognitionem infinitatis intensivam
+<lb ed="#L" n="126"/>hoc secundo modo, non sequatur comprehensio Dei. —
+<lb ed="#L" n="127"/>Si autem primo aut secundo modo: conceditur minor, et
+<lb ed="#L" n="128"/>totum argumentum. Sicut enim ex cognitione infinitatis
+<lb ed="#L" n="129"/>intensivae materialiter sumptae, aut etiam formaliter 
+sum<lb ed="#L" break="no" n="130"/>ptae quantum ad quia est tantum, non sequitur 
+com<lb ed="#L" break="no" n="131"/>prehensio Dei; ita et ad cognitionem omnium effectuum
+<lb ed="#L" n="132"/>in Deo per virtutem ipsius extensivam materialiter 
+co<lb ed="#L" break="no" n="133"/>gnitam, aut etiam formaliter quantum ad quia est, non
+<lb ed="#L" n="134"/>sequitur divinam essentiam esse comprehensam. 
+Proportio<lb ed="#L" break="no" n="135"/>naliter ergo sumendo utramque infinitatem, eodem modo
+<lb ed="#L" n="136"/>sequitur comprehensio, et non-comprehensio.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>3. Ad tertium, negatur assumptum, si effectus 
+cogno<lb ed="#L" break="no" n="138"/>scatur quantum ad omnia quae nata sunt sibi per 
+po<lb ed="#L" break="no" n="139"/>tentiam divinam convenire, quo modo refertur in Deum
+<lb ed="#L" n="140"/>sicut in causam. Sic enim comprehenditur et effectus, et
+<lb ed="#L" n="141"/>Verbum inquantum est illius causa: scilicet proportionaliter
+<lb ed="#L" n="142"/>ad ipsum effectum. Quod est Verbum non simpliciter, sed
+<lb ed="#L" n="143"/>secundum quid comprehendi: sicut cognoscere omnes 
+ef<lb ed="#L" break="no" n="144"/>fectus a Deo producibiles in Verbo, non est absque 
+com<lb ed="#L" break="no" n="145"/>prehensione simpliciter ipsius Verbi.
+</p>
+            <p>
+               <lb ed="#L" n="146"/>VI. Ad primum Scoti contra assumptum ad probationem
+<lb ed="#L" n="147"/>consequentiae , dicitur primo, quod non dicimus nos 
+co<lb ed="#L" break="no" n="148"/>gnitionem principii accipere perfectionem a cognitione
+<lb ed="#L" n="149"/>conclusionum; et similiter cognitionem causae accipere
+<lb ed="#L" n="150"/>perfectionem a cognitione effectuum; sed dicimus unam
+<pb ed="#L" n="158"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cognitionem alteram. concomitari. Quia: quanto est 
+per<lb ed="#L" break="no" n="2"/>fectior cognitio causae, tanto plures effectus in ipsa 
+co<lb ed="#L" break="no" n="3"/>gnoscuntur: et e converso, quanto plures effectus in causa
+<lb ed="#L" n="4"/>cognoscuntur, tanto causa perfectius cognoscitur.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Dicitur secundo, quod hoc habet veritatem quando
+<lb ed="#L" n="6"/>causa et principium est per se sufficiens ratio cognoscendi
+<lb ed="#L" n="7"/>effectum, nullo alio requisito: quo modo dicimus divinam
+<lb ed="#L" n="8"/>essentiam esse per se sufficientem rationem. cognoscendi
+<lb ed="#L" n="9"/>suos effectus. Tunc enim impossibile est ut in causa eodem
+<lb ed="#L" n="10"/>modo cognita, cognoscantur nunc plures, nunc pauciores
+<lb ed="#L" n="11"/>effectus: cum. idem, manens idem, semper faciat idem,
+<lb ed="#L" n="12"/>loquendo de causa per se sufficiente. Ideo cognitio 
+plu<lb ed="#L" break="no" n="13"/>rium effectuum in causa praesupponit perfectiorem causae
+<lb ed="#L" n="14"/>cognitionem, licet eam non causet.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>2. Ad secundum dicitur quod non potest per principium
+<lb ed="#L" n="16"/>cognitum illo gradu aliqua conclusio de novo. cognosci,
+<lb ed="#L" n="17"/>nisi aucta principii cognitione. Cum enim. illa conclusio
+<lb ed="#L" n="18"/>non videatur in principio sic cognito a principio, signum
+<lb ed="#L" n="19"/>est illam cognitionem principii non esse per se sufficientem
+<lb ed="#L" n="20"/>rationem cognoscendi conclusionem.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Cum arguitur contra, quia tunc principium in illo gradu
+<lb ed="#L" n="22"/>non esset principium: — negatur consequentia. de principio
+<lb ed="#L" n="23"/>habituali. Licet enim per illud principium: sic cognitum
+<lb ed="#L" n="24"/>non cognoscatur illa conclusio, in. ipso tamen est unde
+<lb ed="#L" n="25"/>possit per ipsum cognosci si perfectiori modo cognoscatur.
+<lb ed="#L" n="26"/>- De principio vero actualiter principiante et causante,
+<lb ed="#L" n="27"/>conceditur quod non erit principium respectu illius, 
+con<lb ed="#L" break="no" n="28"/>clusionis.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>3. Ad tertium dicitur sicut ad primum. Non enim dicimus
+<lb ed="#L" n="30"/>cognitionem. quid est perfici per cognitionem quia est:
+<lb ed="#L" n="31"/>sed bene dicimus non posse esse perfectiorem cognitionem
+<lb ed="#L" n="32"/>quia.est per cognitionem quid est, tanquam per causam
+<lb ed="#L" n="33"/>suffucientem et praecisam,. nisi praesupposita —
+<lb ed="#L" n="34"/>quid est perfectiori.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>VII. Secundo . Intellectus divinus excedit omnem  
+in<lb ed="#L" break="no" n="36"/>tellectum creatum. Ergo plura.cognoscit quam intellectus
+<lb ed="#L" n="37"/>creatus possit cognoscere. Ergo plura per essentiam 
+di<lb ed="#L" break="no" n="38"/>vinam cognoscit quam intellectus creatus videre per ipsam
+<lb ed="#L" n="39"/>possit. - Probatur prima consequentia. Quia intellectus
+<lb ed="#L" n="40"/>divinus excedit omnem intellectum creatum. Quanto autem
+<lb ed="#L" n="41"/>intellectus est altior, tanto plures res cognoscit, aut plures
+<lb ed="#L" n="42"/>rerum rationes. — Secunda vero probatur: quia Deus non
+<lb ed="#L" n="43"/>cognoscit aliquid nisi per hoc quod essentiam suam videt.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Circa probationem primae consequentiae, advertendum
+<lb ed="#L" n="45"/>est quod sub disiunctione dixit Sanctus Thomas altiorem
+<lb ed="#L" n="46"/>intellectum plures res, aut plures rerum rationes, 
+cogno<lb ed="#L" break="no" n="47"/>scere. Quia non est simpliciter necessarium quod intellectus
+<lb ed="#L" n="48"/>altior plures res cognoscat: omnes enim substantiae 
+se<lb ed="#L" break="no" n="49"/>paratae easdem res cognoscunt naturali cognitione, et
+<lb ed="#L" n="50"/>tamen una est altior altera. Sed sufficit quod. aut plures
+<lb ed="#L" n="51"/>res cognoscat, aut plures rationes, idest, plura intelligibilia
+<lb ed="#L" n="52"/>et plura praedicata de eisdem rebus.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>VIII. Tertio. Divinam virtutem nullus intellectus creatus
+<lb ed="#L" n="54"/>comprehendere potest. Ergo neque omnia potest 
+cogno<lb ed="#L" break="no" n="55"/>scere in quae divina virtus potest. Sed omnia in quae
+<lb ed="#L" n="56"/>divina virtus potest, sunt per essentiam Dei cognoscibilia.
+<lb ed="#L" n="57"/>Ergo intellectus creatus, videns divinam substantiam, non
+<lb ed="#L" n="58"/>videt omnia quae in Dei substantia videri possunt.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Probatur antecedens. Tum quia virtus divina est 
+infi<lb ed="#L" break="no" n="60"/>nita. — Tum ex comparatione ad essentiam divinam.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Prima vero consequentia. probatur: quia ex. opposito
+<lb ed="#L" n="62"/>consequentis infertur oppositum. antecedentis: cognoscere
+<lb ed="#L" n="63"/>enim omnia in quae aliqua virtus potest, infert 
+comprehen<lb ed="#L" break="no" n="64"/>dere ipsam virtutem.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Adverte, ex conclusione huius rationis, quod pro eodem
+<lb ed="#L" n="66"/>accipit Sanctus Thomas intellectum creatum cognoscere
+<lb ed="#L" n="67"/>omnia quae .per divinam substantiam cognosci possunt, id
+<lb ed="#L" n="68"/>quod in principio capituli propositum est; et ipsum 
+co<lb ed="#L" break="no" n="69"/>gnoscere omnia quae in Dei substantia cognosci possunt,
+<lb ed="#L" n="70"/>quod hic concluditur. Ut enim dictum est superius , 
+vi<lb ed="#L" break="no" n="71"/>dentes Deum per essentiam vident aliqua per ipsam 
+essen<lb ed="#L" break="no" n="72"/>tiam non modo tanquam per speciem: intelligibilem, sed
+<lb ed="#L" n="73"/>etiam tanquam per aliquid cognitum in quo alia videntur.
+<lb ed="#L" n="74"/>Et sic videre per substantiam divinam, et vitm in divina
+<lb ed="#L" n="75"/>substantia, pro eodem accipiuntur.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>IX. Quarto. Intellectus videns Deum non cognoscit ea
+<lb ed="#L" n="77"/>quae. ex simplici eius voluntate dependent. Ergo non 
+co<lb ed="#L" break="no" n="78"/>gnoscit omnia quae Deus per suam essentiam videt.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Consequentia relinquitur nota, ex eo quod constat Deum
+<lb ed="#L" n="80"/>illa ipsa cognoscere per essentiam suam quae ex Dei 
+vo<lb ed="#L" break="no" n="81"/>luntate dependent.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Antecedens vero probatur sic. Proprium obiectum 
+in<lb ed="#L" break="no" n="83"/>tellectus est quod quid est, idest, substantia rei, ut dicitur
+<lb ed="#L" n="84"/>III de Anima. Ergo quicquid intellectus de aliqua re 
+co<lb ed="#L" break="no" n="85"/>gnoscit, per cognitionem substantiae illius. rei cognoscit.
+<lb ed="#L" n="86"/>Ergo: quod non potest cognosci per cognitionem 
+substan<lb ed="#L" break="no" n="87"/>tiae rei, oportet quod: intellectui sit ignotum. Sed quid
+<lb ed="#L" n="88"/>aliquis velit, non potest cognosci per cognitionem 
+sub<lb ed="#L" break="no" n="89"/>stantiae ipsius: cum non feratur in volita omnino 
+natu<lb ed="#L" break="no" n="90"/>raliter. Ergo quid aliquis velit, non potest aliquis 
+intel<lb ed="#L" break="no" n="91"/>lectus cognloscere: nisi forte per aliquos effectus; aut per
+<lb ed="#L" n="92"/>causam, sicut Deus cognoscit voluntates nostras per hoc
+<lb ed="#L" n="93"/>quod est nobis causa volendi; aut per hoc quod aliquis
+<lb ed="#L" n="94"/>suam voluntatem: alteri manifestat. Ergo etc. — Probatur
+<lb ed="#L" n="95"/>prima consequentia. Ratione quidem: quia nulla virtus
+<lb ed="#L" n="96"/>cognoscitiva cognoscit rem aliquam nisi secundum rationem
+<lb ed="#L" n="97"/>proprii obiecti; ut in visu apparet. Signo autem : ex hoc:
+<lb ed="#L" n="98"/>quod in demonstratione per quam innotescunt nobis 
+pro<lb ed="#L" break="no" n="99"/>pria accidentia, principium aecipimus quod quid est, ut
+<lb ed="#L" n="100"/>dicitur I. Posteriorum. — Quod autem substantiam rei 
+ali<lb ed="#L" break="no" n="101"/>cuius cognoscat intellectus per: accidentia, ut dicitur I. de
+<lb ed="#L" n="102"/>Anima: hoc sibi accidit inquantum eius cognitio oritur
+<lb ed="#L" n="103"/>a sensu. Unde habet locum in naturalibus. tantum: non
+<lb ed="#L" n="104"/>autem in mathematicis, in quibus scilicet decihnie uni
+<lb ed="#L" n="105"/>a priori et a causa procedunt.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>2. Ad evidentiam antecedentis, considerandum est quod, |
+<lb ed="#L" n="107"/>cum volitum ab aliquo dupliciter considerari possit, 
+sci<lb ed="#L" break="no" n="108"/>licet et materialiter quantum ad entitatem ipsius, et 
+for<lb ed="#L" break="no" n="109"/>maliter inquantum : habet rationem voliti; ipsum cognosci
+<lb ed="#L" n="110"/>a nobis dupliciter potest, aut inquam materialiter quantum.
+<lb ed="#L" n="111"/>ad eius entitatem, aut formaliter inquantum volitum. Si
+<lb ed="#L" n="112"/>primo modo accipiatur, sic non est inconveniens quod
+<lb ed="#L" n="113"/>cognoscamus aliquid quod quis vult: possum enim ego
+<lb ed="#L" n="114"/>cognoscere domum. quam aliquis vult et desiderat. Si
+<lb ed="#L" n="115"/>autem accipiatur formaliter, sic non potest. cognosci quid
+<lb ed="#L" n="116"/>aliquis velit, nisi illis modis assignatis . Etsi enim domum
+<lb ed="#L" n="117"/>ego cognoscam quam aliquis vult; non tamen cognosco
+<lb ed="#L" n="118"/>quod. sit ab ipso volita, nisi ex. aliquo effectu, aut ex ipsius
+<lb ed="#L" n="119"/>manifestatione. Antecedens ergo intelligendum est de. 
+vo<lb ed="#L" break="no" n="120"/>litis a Deo formaliter, quae non cognoscuntur visa 
+sub<lb ed="#L" break="no" n="121"/>stantia Dei: non enim videns Deum videt ex hoc ipsum
+<lb ed="#L" n="122"/>velle hoc aut illud.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>3. Circa probationem antecedentis, considerandum quod
+<lb ed="#L" n="124"/>dupliciter possumus loqui de ordine cognitorum: uno
+<lb ed="#L" n="125"/>modo, secundum se; alio modo, quoad nos. Secundum se
+<lb ed="#L" n="126"/>habent accidentia rei per ipsius substantiam cognosci: cum
+<lb ed="#L" n="127"/>substantia sit secundum se notior accidente. Quoad nos
+<lb ed="#L" n="128"/>autem in aliquibus est e converso: quia nos a sensibus
+<lb ed="#L" n="129"/>cognitionem accipimus, quorum est rei accidentia 
+extrin<lb ed="#L" break="no" n="130"/>seca cognoscere. Procedit ergo probatio Sancti Thomae
+<lb ed="#L" n="131"/>secundum ordinem cognitorum secundum se,.non autem
+<lb ed="#L" n="132"/>quoad nos: quia intellectus creatus videns Deum, de quo
+<lb ed="#L" n="133"/>hic principaliter intenditur, et aliqua in Deo videns 
+ordi<lb ed="#L" break="no" n="134"/>nate, secundum quod in ipsis secundum se est ordo, videt.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>Advertendum etiam quod ratio intendit concludere ex
+<lb ed="#L" n="136"/>impossibilitate intellectus nostri in via, non quidem 
+im<lb ed="#L" break="no" n="137"/>possibilitatem, sed non-necessitatem in Patria. Ex hoc
+<lb ed="#L" n="138"/>enim quod intellectus noster in via non potest ex 
+cogni<lb ed="#L" break="no" n="139"/>tione substantiae alicuius cognoscere quid ille velit, propter
+<lb ed="#L" n="140"/>non naturalem dependentiam volitionis a substantia, vult
+<lb ed="#L" n="141"/>habere quod non est necessarium ut videns substantiam
+<lb ed="#L" n="142"/>alicuius, videat quid velit. Et sic non est necesse quod
+<lb ed="#L" n="143"/>videns substantiara divinam videat quid Deus velit: cum
+<lb ed="#L" n="144"/>multa velit Deus libere, quod vocat Sanctus Thomas hoc
+<lb ed="#L" n="145"/>loco simplici voluntate velle, et per.consequens eorum
+<lb ed="#L" n="146"/>volitio non habeat necessariam dependentiam ad. 
+substan<lb ed="#L" break="no" n="147"/>tiam divinam. Non vult autem. per. hoc excludere quin
+<lb ed="#L" n="148"/>videns substantiam divinam possit per ipsam aliqua volita
+<lb ed="#L" n="149"/>videre: quia, cum essentia divina ab. intellectu divino ut
+<lb ed="#L" n="150"/>exemplar, sive ut ratio volitorum. cognoscatur, potest
+<pb ed="#L" n="159"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>etiam ipsa essentia voluntate Dei uniri intellectui creato
+<lb ed="#L" n="2"/>ut exemplar et ratio aliquorum volitorum inquantum ab
+<lb ed="#L" n="3"/>ipso volita sunt. Et sic per essentiam divinam poterunt
+<lb ed="#L" n="4"/>cognosci aliqua quae a simplici voluntate divina 
+de<lb ed="#L" break="no" n="5"/>pendent.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>4. Circa illam propositionem, Voluntas. non tendit in
+<lb ed="#L" n="7"/>sua. volita omnino naturaliter, advertendum quod addidit
+<lb ed="#L" n="8"/>Sanctus Thomas ly omnino: vel quia ad aliqua sua volita
+<lb ed="#L" n="9"/>naturaliter tendit voluntas, — vult enim naturaliter 
+ulti<lb ed="#L" break="no" n="10"/>mum: finem, et esse et vivere, et alia quae sunt de 
+inte<lb ed="#L" break="no" n="11"/>gritate naturae:: ad alia vero volita libere se habet, 
+in<lb ed="#L" break="no" n="12"/>quantum illa potest acceptare et repudiare. Et ideo non
+<lb ed="#L" n="13"/>omnino naturaliter ad sua volita se habet, sed partim 
+na<lb ed="#L" break="no" n="14"/>turaliter et partim libere, respectu scilicet diversorum 
+obie<lb ed="#L" break="no" n="15"/>ctorum. Et sic differt voluntas ab alio principio quod
+<lb ed="#L" n="16"/>est natura: ipsa enim ad omnia sua obiecta naturaliter
+<lb ed="#L" n="17"/>tendit. -. Vel quia voluntas creata, licet in aliquid 
+natu<lb ed="#L" break="no" n="18"/>raliter feratur quantum ad. specificationem, non tamen
+<lb ed="#L" n="19"/>quantum ad exercitium actus, sola naturae xanditione
+<lb ed="#L" n="20"/>considerata.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>X. Quantum ad secundum , removet Sanctus Dosibodd
+<lb ed="#L" n="22"/>obiectionem quandam. Posset enim aliquis contra. 
+prae<lb ed="#L" break="no" n="23"/>dictam conclusionem sic. obiicere. Substantia divina est
+<lb ed="#L" n="24"/>aliquid maius quam omnia alia ab ipso. Sed intellectus
+<lb ed="#L" n="25"/>creatus Dei substantiam videre potest. Ergo multo magis
+<lb ed="#L" n="26"/>omnia alia potest intelligere.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Respondet autem quod, cum dupliciter aliqua cognosci
+<lb ed="#L" n="28"/>possint, scilicet in seipsis, et in sua causa; maius est 
+in<lb ed="#L" break="no" n="29"/>telligere divinam substantiam quam quicquid aliud praeter
+<lb ed="#L" n="30"/>ipsam quod in seipso cognosci potest; sed perfectioris
+<lb ed="#L" n="31"/>cognitionis est cognoscere divinam substantiam et eius
+<lb ed="#L" n="32"/>effectus in ipsa, quam divinam substantiam absque 
+effe<lb ed="#L" break="no" n="33"/>ctuum. cognitione in ipsa; quia divina substantia absque
+<lb ed="#L" n="34"/>eius comprehensione videri potest, omnia autem per ipsam
+<lb ed="#L" n="35"/>intelligi absque eius comprehensione fieri non potest. '
+</p>
+            <p>
+               <lb ed="#L" n="36"/>2. Ad evidentiam huius responsionis, considerandum
+<lb ed="#L" n="37"/>est quod cognosci in seipso est:per propriam speciem
+<lb ed="#L" n="38"/>cognosci, quae ipsius primo est repraesentativa, non autem
+<lb ed="#L" n="39"/>alicuius alterius: et per consequens est cognosci non 
+me<lb ed="#L" break="no" n="40"/>diante alio cognito. Cognosci autem in alio est cognosci
+<lb ed="#L" n="41"/>per speciem alterius: et per consequens est cognosci in
+<lb ed="#L" n="42"/>alio cognito, priusque per speciem repraesentato. Divina
+<lb ed="#L" n="43"/>ergo essentia, et omnes eius effectus, dupliciter cognosci
+<lb ed="#L" n="44"/>possunt. Uno modo, ut divina essentia per propriam 
+spe<lb ed="#L" break="no" n="45"/>ciem, quae est ipsamet; et similiter omnes eius effectus
+<lb ed="#L" n="46"/>per propriam speciem, sive unam, sive plures, 
+cognoscan<lb ed="#L" break="no" n="47"/>tur. Et tunc absque dubio maius est divina essentia in 
+ra<lb ed="#L" break="no" n="48"/>tione cognoscibilis quam omnes eius effectus: cum omnes
+<lb ed="#L" n="49"/>effectus, etiam simul sumpti, eo quod habeant esse 
+rece<lb ed="#L" break="no" n="50"/>ptum et creatum, non adaequent divinam essentiam, quae
+<lb ed="#L" n="51"/>est ipsum esse subsistens, in cognoscibilitate, sicut nec in
+<lb ed="#L" n="52"/>entitate, Et idcirco maius est cognoscere divinam 
+essen<lb ed="#L" break="no" n="53"/>tiam in seipsa, quam omnes eius effectus in seipsis et
+<lb ed="#L" n="54"/>non in ipsa essentia. — Sed si accipiatur divina essentia
+<lb ed="#L" n="55"/>per se ut cognita per seipsam, et omnes effectus ut 
+co<lb ed="#L" break="no" n="56"/>gniti in ipsa essentia, maius quiddam sunt in ratione 
+co<lb ed="#L" break="no" n="57"/>gnoscibilis omnes effectus divini cogniti in essentia, quam
+<lb ed="#L" n="58"/>ipsa divina essentia cognita absque suis effectibus. Et sic
+<lb ed="#L" n="59"/>maius est cognoscere omnes effectus Dei in ipsa essentia
+<lb ed="#L" n="60"/>divina, quam cognoscere ipsam essentiam absque effectuum
+<lb ed="#L" n="61"/>cognitione: quia perfectius cognoscitur essentia si in ipsa
+<lb ed="#L" n="62"/>omnes eius effectus cognoscantur, quam si cognoscatur
+<lb ed="#L" n="63"/>absque suorum effectuum cognitione. Unde, sicut perfectius
+<lb ed="#L" n="64"/>cognoscibile est Dei essentia secundum omnes eius rationes
+<lb ed="#L" n="65"/>quae in ipsa perfectionaliter includuntur, quam ipsamet
+<lb ed="#L" n="66"/>secundum unam dumtaxat rationem, puta secundum 
+ra<lb ed="#L" break="no" n="67"/>tionem sapientiae, accepta; et propterea maius est 
+cogno<lb ed="#L" break="no" n="68"/>scere ipsam secundum omnes huiusmodi rationes quam
+<lb ed="#L" n="69"/>secundum unam tantum; ita perfectius est omnia in ipsa
+<lb ed="#L" n="70"/>cognoscere, quam ipsam cognoscere absque hoc quod in
+<lb ed="#L" n="71"/>ipsa eius effectus videantur.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Unde ad obiectionem factam, patet falsum esse quod
+<lb ed="#L" n="73"/>maius quiddam sit divina essentia per se in ratione 
+co<lb ed="#L" break="no" n="74"/>gniti, quam omnes effectus in ipsa cogniti, ut sic; et quod
+<lb ed="#L" n="75"/>maius sit ipsam solam cognoscere quam cum ipsa omnes
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>eius effectus intueri; de qua cognitione effectuum 
+loqui<lb ed="#L" break="no" n="77"/>mur in proposito.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>XI. Sed quia dictum est essentiam divinam esse quid
+<lb ed="#L" n="79"/>maius quam omnes eius effectus, secundum quod 
+unum<lb ed="#L" break="no" n="80"/>quodque ipsorum in seipso cognoscitur, videtur sequi, si
+<lb ed="#L" n="81"/>divinam essentiam in seipsa cognoscere possumus, quod
+<lb ed="#L" n="82"/>omnes effectus ipsius saltem in seipsis cognoscere possimus,
+<lb ed="#L" n="83"/>licet in essentia divina videri non possint: quia qui potest
+<lb ed="#L" n="84"/>cognoscere maius intelligibile, potest cognoscere minus 
+in<lb ed="#L" break="no" n="85"/>telligibile, ut dicitur IIl de Anima . Quod sane si 
+con<lb ed="#L" break="no" n="86"/>cedatur, videtur sequi quod divina essentia comprehendi
+<lb ed="#L" n="87"/>poterit: ut arguebatur si in divina substantia 
+cognosce<lb ed="#L" break="no" n="88"/>rentur. Nam si cognoscuntur omnes effectus divinae 
+vir<lb ed="#L" break="no" n="89"/>tutis, cognoscitur perfecte virtus eius et comprehenditur:
+<lb ed="#L" n="90"/>ut patet in tertia ratione superius adducta. Ad 
+compre<lb ed="#L" break="no" n="91"/>hensionem autem virtutis sequitur posse comprehendi 
+es<lb ed="#L" break="no" n="92"/>sentiam: quia virtus essentiam. sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>2. Respondetur, quantum ex praedicta tertia ratione, et
+<lb ed="#L" n="94"/>de Verit., q. xx, a. 5, apparet, quod non solum in divina
+<lb ed="#L" n="95"/>essentia non possunt omnes divini effectus cognosci, sed
+<lb ed="#L" n="96"/>nec etiam in seipsis, scilicet distincte. — Dico distincte: quia
+<lb ed="#L" n="97"/>nihil prohibet ut confuse intelligantur, secundum quod
+<lb ed="#L" n="98"/>in aliquo communi conveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Cum autem probatur quia cognoscens maius 
+intelli<lb ed="#L" break="no" n="100"/>gibile potest cognoscere fhinus intelligibile : — dicitur primo,
+<lb ed="#L" n="101"/>ut glossat Sanctus Thomas de Verit., q. vi, a. 4, ad 17,
+<lb ed="#L" n="102"/>quod auctoritas illa Aristotelis intelligitur quando 
+intel<lb ed="#L" break="no" n="103"/>lectus maius intelligibile 'perfecte cognoscit, non autem
+<lb ed="#L" n="104"/>si cognoscat illud imperfecte... Modo, constat ex supra
+<lb ed="#L" n="105"/>dictis  quod intellectus videns Deum ipsum non 
+per<lb ed="#L" break="no" n="106"/>fecte cognoscit, cum non compreliendst. Ideo ratio: non
+<lb ed="#L" n="107"/>sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Dicitur secundo, ut habetur ex Qu. Verit., q. xx, a..5;
+<lb ed="#L" n="109"/>ad 1 et 4, quod vera est illa propositio. si minus possit
+<lb ed="#L" n="110"/>per se offerri intellectui. Modo, omnia a Deo producibilia
+<lb ed="#L" n="111"/>non possunt per se offerri intellectui: sicut non potest esse
+<lb ed="#L" n="112"/>quod. sit factum omne possibile a Deo produci, quia tunc
+<lb ed="#L" n="113"/>sua potentia esset limitata ad creaturas actu existentes.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>XII. Ex ista. responsione Sancti Thomae patet solutio
+<lb ed="#L" n="115"/>cuiusdam rationis Gottofredi, arguentis quod ex 
+cogni<lb ed="#L" break="no" n="116"/>tione omnium in divina essentia non sequitur 
+compre<lb ed="#L" break="no" n="117"/>hensio. essentiae: quia, inquit, omnia alia a Deo, si 
+po<lb ed="#L" break="no" n="118"/>nerentur, non adaequarent infinitum Dei esse .
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Patet enim ex praedictis quod omnia, secundum quidem
+<lb ed="#L" n="120"/>quod in seipsis cognosci possunt, non adaequant esse
+<lb ed="#L" n="121"/>infinitum. Dei: secundum tamen quod in divina essentia
+<lb ed="#L" n="122"/>cognosci possunt, quia simul tunc et ipsa et essentia divina
+<lb ed="#L" n="123"/>tanquam unum obiectum accipiuntur, illud adaequant.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>XIII. Contra praedictam conclusionem  arguunt idem
+<lb ed="#L" n="125"/>Gottofredus, in VI Quolib., q. i1 , et Durandus, probantes
+<lb ed="#L" n="126"/>quod Beati saltem vident essentias omnium creabilium, licet
+<lb ed="#L" n="127"/>omnia absolute non videant, Primo. Zntellectus creatus
+<lb ed="#L" n="128"/>clare videns divinam essentiam, videt in ipso omnia. quae
+<lb ed="#L" n="129"/>naiuraliter et ex necessitate repraesentantur. "Talia sunt
+<lb ed="#L" n="130"/>omnes quidditates rerum possibilium produci. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Secundo. Omnis creatura in Deo est creatrix essentia .
+<lb ed="#L" n="132"/>Ergo aequaliter se habent ut videantur per creatricem
+<lb ed="#L" n="133"/>essentiam.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>2. Scotus etiam, loco praeallegato  s arguit sic. Quilibet
+<lb ed="#L" n="135"/>intellectus est receptivus cuiuscumque - visionis in. Verbo
+<lb ed="#L" n="136"/>divisim. Ergo et coniunctim simul respectu omnium 
+obie<lb ed="#L" break="no" n="137"/>ctorum. Ergo etc. Probatur prima consequentia. Quia si
+<lb ed="#L" n="138"/>duo possunt simul inesse quia non opponuntur, et 
+infi<lb ed="#L" break="no" n="139"/>nita talia possunt simul inesse.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>3. Potest etiam argui ex verbis Sancti Thomae. Beati
+<lb ed="#L" n="141"/>cognoscunt de Deo quid est. Ergo cognoscunt omnia .ad
+<lb ed="#L" n="142"/>quae virtus eius se extendit. Ergo cognoscunt omnia 
+pro<lb ed="#L" break="no" n="143"/>ducibilia a Deo. - Antecedens est Sancti Thomae Verit.,
+<lb ed="#L" n="144"/>q. vn, a. 1, ad 8; et IV Sent., d. xuix, q. m, a. 3 .
+<lb ed="#L" n="145"/>Prima vero consequentia probatur. Beati vident quid est
+<lb ed="#L" n="146"/>Deus. Ergo vident distincte. omnes gradus. perfectionis
+<lb ed="#L" n="147"/>eius. essentiales: alioquin non. cognoscerent ipsum 
+quid<lb ed="#L" break="no" n="148"/>ditative. Sed cognitis omnibus eius gradibus 
+perfectiona<lb ed="#L" break="no" n="149"/>libus, cognoscuntur omnia ad quae virtus eius se extendit;
+<lb ed="#L" n="150"/>cum virtus eius tantum se extendat quantum sunt gradus
+<pb ed="#L" n="160"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>perfectionis in eo imitabiles a creatura. Ergo, si vident quid
+<lb ed="#L" n="2"/>est Deus, vident omnia ad quae virtus eius se extendit.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>XIV. Ad primum horum patet solutio ex superius dictis .
+<lb ed="#L" n="4"/>Nam maior est falsa. Ad hoc enim quod intellectus videns
+<lb ed="#L" n="5"/>divinam essentiam videat omnia quae per ipsam 
+natura<lb ed="#L" break="no" n="6"/>liter repraesentantur, non sufficit qualiscumque unio ipsius
+<lb ed="#L" n="7"/>ad intellectum, et qualiscumque ipsius cognitio, sed 
+re<lb ed="#L" break="no" n="8"/>quiritur ut intellectui uniatur secundum totum suum posse.
+<lb ed="#L" n="9"/>Hoc autem non convenit intellectui creato: cum non 
+unia<lb ed="#L" break="no" n="10"/>tur sibi nisi mediante aliqua participatione finita luminis
+<lb ed="#L" n="11"/>gloriae, sed magis aut minus attingit ipsam intellectus
+<lb ed="#L" n="12"/>secundum quod magis aut minus de lumine gloriae 
+par<lb ed="#L" break="no" n="13"/>ticipat. Ideo non oportet ut omnis videns ipsam omnia
+<lb ed="#L" n="14"/>per eam naturaliter repraesentata videat: sicut nec videns
+<lb ed="#L" n="15"/>speculum omnia videt per speculum repraesentata, nisi
+<lb ed="#L" n="16"/>speculum suo visu comprehendat.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>2. Ad secundum, negatur consequentia, Licet enim
+<lb ed="#L" n="18"/>omnia in Deo sint creatrix essentia, inquantum ipsa Dei
+<lb ed="#L" n="19"/>essentia est omnium ratio et similitudo, non tamen unitur
+<lb ed="#L" n="20"/>intellectui creato ipsa essentia ut omnium ratio, sed ut
+<lb ed="#L" n="21"/>aliquorum; et uni intellectui unitur ut ratio plurium, alicui
+<lb ed="#L" n="22"/>vero ut ratio pauciorum.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>3. Ad tertium, quod est Scoti, negatur consequentia,
+<lb ed="#L" n="24"/>Ad probationem dicitur primo, quod supponit unum 
+fal<lb ed="#L" break="no" n="25"/>sum, scilicet quod pluribus visiohibus videantur plura in
+<lb ed="#L" n="26"/>divina essentia. Dicimus enim quod unica visione videtur
+<lb ed="#L" n="27"/>divina essentia, et omnia quae in ipsa videntur,
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Dicitur secundo, quod ratio quare duo possunt cognosci
+<lb ed="#L" n="29"/>in divina essentia, non est quia illorum visiones non 
+op<lb ed="#L" break="no" n="30"/>ponantur, sed quia illarum positionem non concomitatur
+<lb ed="#L" n="31"/>aliquod impossibile. Hoc autem quod omnia producibilia
+<lb ed="#L" n="32"/>in divina essentia cognoscantur, concomitatur unum 
+im<lb ed="#L" break="no" n="33"/>possibile, scilicet divinam substantiam ab intellectu creato
+<lb ed="#L" n="34"/>comprehendi. Ideo aliqua determinata et finita in divina
+<lb ed="#L" n="35"/>essentia cognosci possunt, non autem infinita a Deo 
+pro<lb ed="#L" break="no" n="36"/>ducibilia: sicut dari duas divisiones continui in actu non
+<lb ed="#L" n="37"/>repugnat, sed bene dari simul omnes eius divisiones pos-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="38"/>sibiles; quia ad secundum sequitur hoc impossibile, quod
+<lb ed="#L" n="39"/>infinitum erit in actu; ad primum autem nullum sequitur
+<lb ed="#L" n="40"/>impossibile.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>4. Ad ultimum dicitur quod Beatos cognoscere de Deo
+<lb ed="#L" n="42"/>quid est, dupliciter potest intelligi. Uno modo, quia ipsum
+<lb ed="#L" n="43"/>cognoscunt per propriam formam intelligibilem, ipsius
+<lb ed="#L" n="44"/>essentiam et quidditatem immediate intellectui 
+repraesen<lb ed="#L" break="no" n="45"/>tantem. Alio modo, quia cognoscunt essentiam eius 
+quan<lb ed="#L" break="no" n="46"/>tum ad omnes gradus perfectionis in ea per eminentiam
+<lb ed="#L" n="47"/>contentos, distincta cognitione: eo modo quo nos dicimus
+<lb ed="#L" n="48"/>cognoscere quid est homo, quia cognoscimus omnia 
+ge<lb ed="#L" break="no" n="49"/>nera distincte, et omnes differentias, quae de ipso 
+essentia<lb ed="#L" break="no" n="50"/>liter praedicantur. Cum ergo dicit Sanctus Thomas quod
+<lb ed="#L" n="51"/>Beati vident quid est Deus, intendit de cognitione quid
+<lb ed="#L" n="52"/>est primo modo, non autem secundo modo. Nam. Beati
+<lb ed="#L" n="53"/>non vident distincte omnes divinas perfectiones, quae sunt
+<lb ed="#L" n="54"/>infinitae: licet videant illam simplicem essentiam 
+imme<lb ed="#L" break="no" n="55"/>diate, infinitas perfectiones unite et simpliciter absque
+<lb ed="#L" n="56"/>ulla. distinctione continentem. In quo a cognitione viae
+<lb ed="#L" n="57"/>differt cognitio Beatorum. Nam in via non videtur a nobis
+<lb ed="#L" n="58"/>Deus per propriam formam, quae eius essentiam 
+imme<lb ed="#L" break="no" n="59"/>diate repraesentet intellectui, sed per formam creaturae,
+<lb ed="#L" n="60"/>quae immediate creaturam repraesentat, in qua Deus sicut
+<lb ed="#L" n="61"/>causa in effectu cognoscitur. Ideo cognitio viae non 
+di<lb ed="#L" break="no" n="62"/>citur cognitio quid est, sed bene cognitio Patriae.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Ad sensum ergo in quo conceditur antecedens, 
+ne<lb ed="#L" break="no" n="64"/>gatur prima consequentia. — Ad probationem, etiam 
+ne<lb ed="#L" break="no" n="65"/>gatur consequentia, cum probatur quia alioquin non 
+co<lb ed="#L" break="no" n="66"/>gnoscerent ipsum quidditative. Negatur de cognitione
+<lb ed="#L" n="67"/>quidditativa primo modo. Ad illam enim cognitionem
+<lb ed="#L" n="68"/>quid est non requiritur ut videantur omnes essentiae 
+di<lb ed="#L" break="no" n="69"/>vinae perfectiones distincte, sed sufficit ut essentia ipsa
+<lb ed="#L" n="70"/>in se per propriam formam immediate videatur, non
+<lb ed="#L" n="71"/>autem in alio cognito. Unde IV Sent, ubi supra, ad 5,
+<lb ed="#L" n="72"/>inquit Sanctus Thomas quod non videbitur Deus a Beatis
+<lb ed="#L" n="73"/>sicut videtur res per suam definitionem, cuius essentia
+<lb ed="#L" n="74"/>comprehenditur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 117</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 117</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="367"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2663"><!-- ferv7a-l3c117 -->
+            <head>Capitulum 117</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="62" type="fixed=367"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="63"/>CUM ostensum sit. quod homo per. divinam legem 
+or<lb ed="#L" break="no" n="64"/>dinatur ad Deum, vult nunc ostendere Sanctus Thomas
+<lb ed="#L" n="65"/>quod per ipsam etiam ad proximi amorem ordinatur.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>I. Et arguit primo sic. Communicant homines in uno 
+<lb ed="#L" n="67"/>ultimo fine beatitudinis, ad quem divinitus, hoc est per  
+<lb ed="#L" n="68"/>divinam legem, ordinantur. Ergo oportet ut uniantur ad 
+<lb ed="#L" n="69"/>invicem mutua dilectione. - Probatur consequentia, Quia  
+<lb ed="#L" n="70"/>oportet unionem esse affectus inter eos quibus est unus  
+<lb ed="#L" n="71"/>finis communis. 
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Adverte quod efficacia huius rationis in hoc consistit, 
+<lb ed="#L" n="73"/>quod intendens aliquem finem, intendit etiam id quod | 
+<lb ed="#L" n="74"/>talem finem concomitatur. Lex autem divina intendit ho- | 
+<lb ed="#L" n="75"/>mines ad amorem Dei ordinare tanquam 'ad finem; con- | 
+<lb ed="#L" n="76"/>venientiamque hominum ad hunc ultimum finem conco- | 
+<lb ed="#L" n="77"/>mitatur mutua hominum dilectio; sicut et in- omnibus | 
+<lb ed="#L" n="78"/>aliis videmus quod communicantia in uno fine mutuo se | 
+<lb ed="#L" n="79"/>diligunt, ut homines unius artis. Ergo et divina lex mu- | 
+<lb ed="#L" n="80"/>tuam hominum dilectionem intendit. 
+</p>
+            <p>
+               <lb ed="#L" n="81"/>II. Secundo. Homines dilecti sunt a Deo, quibus sui | 
+<lb ed="#L" n="82"/>ipsius fruitionem quasi ultimum finem praedisposuit. Ergo 
+<lb ed="#L" n="83"/>oportet "ut; sicut aliquis est dilector Dei, ita et proximi !
+<cb ed="#L" n="h"/>
+               <lb ed="#L" n="84"/>dilector fiat. Ergo etc. — Probatur prima consequentia.
+<lb ed="#L" n="85"/>Quia quicumque diligit aliquem, consequens est ut etiam
+<lb ed="#L" n="86"/>diligat dilectos ab eo, et omnes, qui coniuncti sunt ei.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Adverte hic, ne errandi occasionem sumas, quod non
+<lb ed="#L" n="88"/>sic accipiendum est quod hic dicitur, Deum  
+praedispo<lb ed="#L" break="no" n="89"/>suisse fruitionem sui hominibus tanquam ultimum finem,
+<lb ed="#L" n="90"/>quasi substantia ultimi finis sit ipsa Dei fruitio ut a 
+vi<lb ed="#L" break="no" n="91"/>sione praescindit: sed quia fruitio est complementum 
+ul<lb ed="#L" break="no" n="92"/>timi finis, sicut decor complet iuventutem.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Aut etiam dicendum quod nomine ultimi finis non 
+ac<lb ed="#L" break="no" n="94"/>cipit Sanctus Thomas ipsam solam beatitudinis 
+substan<lb ed="#L" break="no" n="95"/>tiam, sed ipsam beatitudinem omni ex parte, idest tam
+<lb ed="#L" n="96"/>accidentaliter quam essentialiter completam. Et nomine
+<lb ed="#L" n="97"/>fruitionis non accipit ipsum actum voluntatis praecisum,
+<lb ed="#L" n="98"/>sed aggregatum ex visione Dei et delectatione. Tunc enim
+<lb ed="#L" n="99"/>verissimum est quod completa beatitudo et ultimus finis
+<lb ed="#L" n="100"/>consistit in fruitione Dei, idest, divinae essentiae visione
+<lb ed="#L" n="101"/>et delectatione talem visionem concomitante : ut in 
+prae<lb ed="#L" break="no" n="102"/>cedentibus  est ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>III. Tertio. Homo indiget ab aliis hominibus iuvari ad
+<lb ed="#L" n="104"/>consequendum ultimum finem: cum sit animal sociale.
+<pb ed="#L" n="368"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sed hoc fit convenientissime mutua dilectione inter 
+ho<lb ed="#L" break="no" n="2"/>mines existente, Ergo ex lege, quae homines in ultimum  
+<lb ed="#L" n="3"/>finem dirigit, praecipitur nobis mutua dilectio. 
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Adverte fundamentum huius rationis esse, legem 
+di<lb ed="#L" break="no" n="5"/>vinam, quae homines movet et inducit ad ultimi finis 
+<lb ed="#L" n="6"/>consecutionem, ordinari etiam ad illud quod maxime 
+con<lb ed="#L" break="no" n="7"/>veniens est ad consequendum finem: statuens enim finem 
+<lb ed="#L" n="8"/>ordinat, etiam ea quae ad finis consecutionem maxime 
+<lb ed="#L" n="9"/>conveniunt. Mutua autem dilectio inter homines 
+conve<lb ed="#L" break="no" n="10"/>nientissime confert ad ultimi finis consecutionem: quia,  
+<lb ed="#L" n="11"/>ea existente, unus homo ab aliis maxime iuvatur in 
+con<lb ed="#L" break="no" n="12"/>secutione finis, Ideo lex divina ordinatur etiam ad 
+pro<lb ed="#L" break="no" n="13"/>ximi dilectionem. 
+</p>
+            <p>
+               <lb ed="#L" n="14"/>IV. Quarto. Lex divina ad hoc ordinat homines ut divinis  
+<lb ed="#L" n="15"/>vacent. Ergo etc. — Probatur consequentia. Quia ad hoc 
+<lb ed="#L" n="16"/>quod homo divinis vacet, indiget tranquillitate'et pace.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="17"/>Ea vero quae pacem perturbare possunt, praecipue per
+<lb ed="#L" n="18"/>dilectionem mutuam tolluntur,
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Quinto. Est omnibus hominibus naturale ut se invicem
+<lb ed="#L" n="20"/>diligant: ut multis signis constat. Ergo etc. — Probatur
+<lb ed="#L" n="21"/>consequentia. Quia lex divina profertur homini in 
+auxi<lb ed="#L" break="no" n="22"/>lium legis naturalis,
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Advertendum, ex doctrina Sancti Thomae I? II, q. xcvi,
+<lb ed="#L" n="24"/>a. 6, quod lex divina data fuit hominibus propter 
+defe<lb ed="#L" break="no" n="25"/>ctum legis naturalis, quae propter. exuperantiam 
+pecca<lb ed="#L" break="no" n="26"/>torum erat obscurata. Et primo data fuit lex vetus, 
+tan<lb ed="#L" break="no" n="27"/>quam imperfecta, deinde lex nova, tanquam perfecta, ut
+<lb ed="#L" n="28"/>homines per imperfectam legem ad perfectam 
+manudu<lb ed="#L" break="no" n="29"/>cerentur. Idcirco inquit Sanctus Thomas hoc loco quod
+<lb ed="#L" n="30"/>lex divina datur homini im auxilium legis naturalis.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>CONFIRMATUR CONCLUSIO auctoritate <ref>Io. xv</ref>, et <ref>I Jo. IV</ref>,
+<lb ed="#L" n="32"/>et <ref>Matth. xxu.</ref>
+            </p>
+         </div>
+      </body>
+   </text>
+</TEI>

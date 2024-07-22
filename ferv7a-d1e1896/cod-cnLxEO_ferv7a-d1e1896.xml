@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 23</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 23</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="58"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1896"><!-- ferv7a-l3c23 -->
+            <head xml:id="ferv7a-d1e1896-Hd1e101">Capitulum 23</head>
+            <p xml:id="ferv7a-d1e1896-d1e103">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="79" type="fixed=58"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e110">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="80"/>Ex iis quae in praecedenti capitulo dicta sunt, deducit
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e117">
+               <lb ed="#L" n="81"/>hoc corollarium Sanctus Thomas , quod Primum 
+mo<lb ed="#L" break="no" n="82"/>tivum motus caeli est aliquid intellectivum. Circa hoc autem
+<lb ed="#L" n="83"/>duo facit: primo, ostendit propositum ; secundo, removet
+<lb ed="#L" n="84"/>quaedam dubia .
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e128">
+               <lb ed="#L" n="85"/>I. Quantum ad primum, arguit primo sic. Corpus 
+cae<lb ed="#L" break="no" n="86"/>leste, secundum quod agit per motum suum, intendit 
+ul<lb ed="#L" break="no" n="87"/>timam formam, qui est intellectus humanus, qui quidem
+<lb ed="#L" n="88"/>est altior omni forma, scilicet informante. Ergo non agit
+<lb ed="#L" n="89"/>ad generationem per propriam speciem sicut agens 
+prin<lb ed="#L" break="no" n="90"/>cipale, sed secundum speciem alicuius superioris agentis
+<lb ed="#L" n="91"/>intellectualis, cuius ipsum est instrumentum. Ergo movetur
+<lb ed="#L" n="92"/>ab aliqua intellectuali 'substantia.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e149">
+               <lb ed="#L" n="93"/>Probatur prima consequentia. Quia nihil secundum
+<lb ed="#L" n="94"/>propriam speciem agens intendit formam altiorem sua
+<lb ed="#L" n="95"/>forma: cum omne agens intendat sibi simile. — Secunda
+<lb ed="#L" n="96"/>consequentia. probatur, Quia caelum agit ad generationem
+<lb ed="#L" n="97"/>Secundum quod movetur.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e162">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="98"/>Advertendum quod agens agere secundum propriam:
+<lb ed="#L" n="99"/>speciem, est eius naturam et formam esse sibi principalem
+<lb ed="#L" n="100"/>rationem agendi. Dicimus enim Quod equus secundum
+<lb ed="#L" n="101"/>propriam speciem generat equum, quia natura equi est sibi
+<lb ed="#L" n="102"/>principalis ratio generandi, et propria virtus equi est causa
+<lb ed="#L" n="103"/>principalis talis generationis. Cum ergo dicitur quod 
+cae<lb ed="#L" break="no" n="104"/>lum non agit ad generationem secundum propriam speciem,
+<lb ed="#L" n="105"/>intelligitur quod. natura et forma caeli non est sibi propria
+<lb ed="#L" n="106"/>et principalis ratio et virtus qua ad generationem agit: sed
+<lb ed="#L" n="107"/>aliqua virtus intellectualis, a qua movetur, est id cuius
+<lb ed="#L" n="108"/>virtute ad generationem agit, tanquam eius instrumentum.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e191">
+               <lb ed="#L" n="109"/>II. Secundo. Corpus caeli movetur ab aliquo. Ergo aut
+<lb ed="#L" n="110"/>illud est ei unitum, ita quod compositum ex caelo et
+<lb ed="#L" n="111"/>movente dicatur movere seipsum: aut est illi extrinsecum.
+<lb ed="#L" n="112"/>Si primum, ergo caelum est animatum: cum omne movens
+<lb ed="#L" n="113"/>seipsum sit vivum et animatum. Non anima nutritiva: cum
+<lb ed="#L" n="114"/>non sit in eo generatio et corruptio. Non sensitiva: cum
+<lb ed="#L" n="115"/>non habeat organorum diversitatem. Ergo intellectiva.
+<pb ed="#L" n="59"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Ergo etc. — Si secundum, aut illud movens erit 
+corpo<lb ed="#L" break="no" n="2"/>reum: aut. incorporeum. Si corporeum, oportebit illud
+<lb ed="#L" n="3"/>ab alio moveri; et cum non sit processus in infinitum
+<lb ed="#L" n="4"/>in corporibus, scilicet ordinatis essentialiter, oportebit 
+de<lb ed="#L" break="no" n="5"/>venire ad primum movens incorporeum. Quod autem est
+<lb ed="#L" n="6"/>penitus incorporeum, est intellectuale, ut ex superioribus
+<lb ed="#L" n="7"/>patet. Ergo etc. — Idem sequitur si ponatur ab incorporeo
+<lb ed="#L" n="8"/>immediate moveri.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e230">
+               <lb ed="#L" n="9"/>III. Tertio. Sicut corpora gravia et levia sunt simplicia,
+<lb ed="#L" n="10"/>ita et corpora caelestia. Ergo, si moventur a natura, 
+mo<lb ed="#L" break="no" n="11"/>vebuntur sicut illa. Sed illa moventur a generante et 
+re<lb ed="#L" break="no" n="12"/>movente prohibens, non autem ita quod forma in eis sit
+<lb ed="#L" n="13"/>movens et materia mota: cum nihil moveatur nisi corpus.
+<lb ed="#L" n="14"/>Ergo et similiter corpora caelestia movebuntur. Hoc autem
+<lb ed="#L" n="15"/>est impossibile: cum ipsa sint ingenerabilia, utpote non
+<lb ed="#L" n="16"/>habentia contrarietatem ; et motus eorum impediri non 
+pos<lb ed="#L" break="no" n="17"/>sit. Ergo moventur a moventibus per apprehensionem. Non
+<lb ed="#L" n="18"/>per apprehensionem sensitivam. Ergo per intellectivam.
+<lb ed="#L" n="19"/>7:2. Circa istam rationem, qua probatur gravia et levia
+<lb ed="#L" n="20"/>moveri a generante et removente prohibens, quia videlicet
+<lb ed="#L" n="21"/>non possunt moveri sic quod forma sit movens et materia
+<lb ed="#L" n="22"/>mota, dubitatur. Posset enim responderi, ut respondent
+<lb ed="#L" n="23"/>aliqui qui huiusmodi corpora a seipsis moveri dicunt, quod
+<lb ed="#L" n="24"/>non sic moventur a seipsis quasi forma praecise sumpta
+<lb ed="#L" n="25"/>sit movens et materia sit mota, sed quia totum est 
+mo<lb ed="#L" break="no" n="26"/>vens et totum est motum: sed verum est quod totum est
+<lb ed="#L" n="27"/>movens ratione formae, quia videlicet forma est sibi 
+prin<lb ed="#L" break="no" n="28"/>cipium quo movet; est autem motum ratione materiae,
+<lb ed="#L" n="29"/>ita quod materia est sibi principium quo movetur. Et sic
+<lb ed="#L" n="30"/>tam movens quam motum constat esse corpus.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e280">
+               <lb ed="#L" n="31"/>Sed quod ista responsio non satisfaciat, ostenditur ex 
+ver<lb ed="#L" break="no" n="32"/>bis et intentione <ref xml:id="ferv7a-d1e1896-Rd1e286">Commentatoris in VIII Phys., comm. 3o</ref>,
+<lb ed="#L" n="33"/>a quo Sanctus Thomas hanc rationem sumpsit. Ibi enim
+<lb ed="#L" n="34"/>probat quod corpora simplicia non moventur ex se, quia
+<lb ed="#L" n="35"/>nullum eorum potest dividi in motorem et motum; et
+<lb ed="#L" n="36"/>quod non potest dici corpus simplex dividi in motorem
+<lb ed="#L" n="37"/>et motum eo quod dividatur in materiam et formam,
+<lb ed="#L" n="38"/>quoniam, inquit, materia prima non est existens actu.
+<lb ed="#L" n="39"/>Patet enim ex iis verbis quod ad hoc ut aliquid dicatur
+<lb ed="#L" n="40"/>seipsum movere per se, non sufficit ut dividatur in actum
+<lb ed="#L" n="41"/>et potentiam, quorum uno sit movens tanquam ratione
+<lb ed="#L" n="42"/>movendi, altero vero sit motum tanquam ratione qua 
+mo<lb ed="#L" break="no" n="43"/>vetur: sed requiritur ut dividatur in duas partes quarum
+<lb ed="#L" n="44"/>quaelibet sit ens in actu, et una sit movens, altera vero
+<lb ed="#L" n="45"/>mota. Et sic, cum corpus simplex in huiusmodi partes
+<lb ed="#L" n="46"/>dividi non possit, manifestum est, ut deducit Sanctus 
+Tho<lb ed="#L" break="no" n="47"/>mas, quod seipsum non movet: scilicet per se, quamvis
+<lb ed="#L" n="48"/>per accidens possit se movere, ad motum videlicet eius
+<lb ed="#L" n="49"/>quod per ipsum movetur, sicut et nauta per accidens 
+mo<lb ed="#L" break="no" n="50"/>vetur ad motum navis. De quo modo motionis intendit
+<lb ed="#L" n="51"/>Averroes cum inquit, III Caeli, comm. 28 , et IV Caeli,
+<lb ed="#L" n="52"/>comm. 2, quod lapis movet se inquantum est gravis in
+<lb ed="#L" n="53"/>actu, et movetur inquantum est in potentia. inferius. Vult
+<lb ed="#L" n="54"/>enim quod grave, ex eo quod est actu grave, movet per
+<lb ed="#L" n="55"/>se medium; ad motionem autem medii, movetur a se per
+<lb ed="#L" n="56"/>accidens, inquantum est in potentia ad locum deorsum;
+<lb ed="#L" n="57"/>sicut nauta, qui per se movet navem inquantum habet
+<lb ed="#L" n="58"/>virtutem motivam, movetur per accidens a se ad motum
+<lb ed="#L" n="59"/>navis, in quantum est in potentia ad locum ad quem
+<lb ed="#L" n="60"/>navis suo motu pervenit.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e350">
+               <lb ed="#L" n="61"/>IV. Quarto. Si non esset motus caeli per 
+apprehen<lb ed="#L" break="no" n="62"/>sionem, sed esset a sola natura, principium eius esset
+<lb ed="#L" n="63"/>forma caeli: sicut in elementis, quorum formae, licet non
+<lb ed="#L" n="64"/>sint moventes, sunt tamen principia motuum, cum ad eas
+<lb ed="#L" n="65"/>sequantur motus naturales, sicut et aliae proprietates 
+na<lb ed="#L" break="no" n="66"/>turales.. Hoc autem est impossibile. Quia forma est 
+prin<lb ed="#L" break="no" n="67"/>cipium motus localis inquantum corpori debetur aliquis
+<lb ed="#L" n="68"/>locus, in quem vi suae formae movetur: ut patet in igne.
+<lb ed="#L" n="69"/>Corpori autem caelesti secundum suam formam non magis
+<lb ed="#L" n="70"/>congruit unum ubi quam aliud. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e375">
+               <lb ed="#L" n="71"/>2. Circa motum gravium et levium, advertendum primo,
+<lb ed="#L" n="72"/>quod ideo dicitur forma non esse movens, sed principium
+<lb ed="#L" n="73"/>motus, quia non est movens principale, tanquam movens
+<lb ed="#L" n="74"/>quod: sed. est id quo generans movet, et est. principium
+<lb ed="#L" n="75"/>quo ipsum motum movetur.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e388">
+               <lb ed="#L" n="76"/>Advertendum secundo, quod ex verbis Sancti Thomae
+<lb ed="#L" n="77"/>in hac ratione habetur intellectus positionis suae in 
+su<lb ed="#L" break="no" n="78"/>perioribus  explicatus de motu gravium et levium. Ex hoc
+<lb ed="#L" n="79"/>enim quod dicitur motus naturales horum corporum 
+con<lb ed="#L" break="no" n="80"/>sequi ad eorum formas sicut et aliae proprietates; et quod
+<lb ed="#L" n="81"/>forma est principium motus inquantum debetur aliquis
+<lb ed="#L" n="82"/>locus corpori, in quem movetur vi formae tendentis in
+<lb ed="#L" n="83"/>illum locum; item quod, quia generans dat talem formar,
+<lb ed="#L" n="84"/>ideo dicitur esse motor: datur intelligi quod non dicitur
+<lb ed="#L" n="85"/>generans ideo movere huiusmodi corpora quasi nova 
+mo<lb ed="#L" break="no" n="86"/>tione. novoque impulsu illa ad sua loca propellat, sed
+<lb ed="#L" n="87"/>quia dedit ipsis formas ad quas, deductis impedimentis,
+<lb ed="#L" n="88"/>per quandam maturalem resultantiam consequuntur tales
+<lb ed="#L" n="89"/>motus. Ex hoc enim sequitur quod in eandem causam
+<lb ed="#L" n="90"/>reduci oportet et formas et tales motus: sicut in eandem
+<lb ed="#L" n="91"/>causam reducuntur forma et aliae proprietates: naturalitet
+<lb ed="#L" n="92"/>formam consequentes.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e427">
+               <lb ed="#L" n="93"/>3. Circa id quod dicitur, corpori caelesti non magis
+<lb ed="#L" n="94"/>congruere unum zbi quam aliud secundum suam 
+natu<lb ed="#L" break="no" n="95"/>ram, advertendum quod bene addidit Sanctus "Thomas,
+<lb ed="#L" n="96"/>secundum suam naturam. Dicitur enim aliquis locus 
+con<lb ed="#L" break="no" n="97"/>gruere alicui corpori secundum suam naturam, quando
+<lb ed="#L" n="98"/>rei natura perficitur in loco ita quod extra locum suum
+<lb ed="#L" n="99"/>non habet complementum suae perfectionis: sicut igni
+<lb ed="#L" n="100"/>convenit secundum suam naturam esse sursum, quia in
+<lb ed="#L" n="101"/>loco sursum conservatur, et perfectius atque actualius suis
+<lb ed="#L" n="102"/>proprietatibus perficitur. Hoc autem non invenitur in 
+cor<lb ed="#L" break="no" n="103"/>pore caelesti, ut scilicet substantia caeli aliquam a loco
+<lb ed="#L" n="104"/>perfectionem accipiat: cum non conservetur a loco. Ideo
+<lb ed="#L" n="105"/>secundum suam naturam non magis sibi congruit unus
+<lb ed="#L" n="106"/>quam alius. Inquantum tamen ad rerum generationem 
+<lb ed="#L" n="107"/>ordinatur, ut dicitur <ref xml:id="ferv7a-d1e1896-Rd1e461">Quarto, d. xrvir, ubi supra</ref> , magis
+<lb ed="#L" n="108"/>congruit sibi unus locus quam alius: quia per sui 
+prae<lb ed="#L" break="no" n="109"/>sentiam et propinquitatem ad aliqua corpora aliquem 
+ef<lb ed="#L" break="no" n="110"/>fectum causat quem non causat ut est absens.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e471">
+               <lb ed="#L" n="111"/>V. Quinto. Si motus caeli esset a natura tantum, esset
+<lb ed="#L" n="112"/>ordinatus ad aliquam quietem. Sed contrarium huius 
+ap<lb ed="#L" break="no" n="113"/>paret: cum sit .continuus. Ergo etc. — Probatur 
+conse<lb ed="#L" break="no" n="114"/>quentia. Quia, cum natura semper ad unum tendat nisi
+<lb ed="#L" n="115"/>impediatur, non potest esse finis naturae id quod 
+diffor<lb ed="#L" break="no" n="116"/>mitatem habet. Motus autem difformitatem habet: quia
+<lb ed="#L" n="117"/>quod movetur dissimiliter se habet nunc et prius. Ergo
+<lb ed="#L" n="118"/>motus non potest esse finis in quem tendit natura, sed
+<lb ed="#L" n="119"/>intendit quietem per motum, quae ad motum comparatur
+<lb ed="#L" n="120"/>sicut unum ad multa: quiescit enim quod similiter se habet
+<lb ed="#L" n="121"/>nunc et prius.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e497">
+               <lb ed="#L" n="122"/>Circa probationem falsitatis consequentis, advertendum
+<lb ed="#L" n="123"/>quod motum aliquem esse continuum, dupliciter potest
+<lb ed="#L" n="124"/>intelligi. Uno modo, quia partes eius ad unum 
+commu<lb ed="#L" break="no" n="125"/>nem terminum copulantur. Et sic non accipit hoc loco
+<lb ed="#L" n="126"/>Sanctus Thomas: quia non repugnat aliquem motum esse
+<lb ed="#L" n="127"/>hoc modo continuum, et tamen esse ordinatum ad aliquam
+<lb ed="#L" n="128"/>quietem ; ut patet de motu gravis, qui est continuus, et
+<lb ed="#L" n="129"/>ad quietem in loco deorsum ordinatur. — Alio modo, quia
+<lb ed="#L" n="130"/>est perseverans et nunquam interrumpitur quiete. Et sic
+<lb ed="#L" n="131"/>accipitur hic. Motus enim qui nunquam habet terminum
+<lb ed="#L" n="132"/>in actu, non ordinatur ad quietem: quia motus ad quietem
+<lb ed="#L" n="133"/>ordinatus aliquando cessat, scilicet per successionem sive
+<lb ed="#L" n="134"/>adventum quietis. Unde, cum motus caeli nunquam actu
+<lb ed="#L" n="135"/>terminetur, sed una circulatio alteri circulationi 
+continue<lb ed="#L" break="no" n="136"/>tur; et, secundum philosophos, nunquam talis motus sit
+<lb ed="#L" n="137"/>cessaturus: constat quod ad nullam quietem est ordinatus.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e534">
+               <lb ed="#L" n="138"/>2. Circa istam propositionem, Quod quiescit similiter
+<lb ed="#L" n="139"/>se habet nunc et prius, considerandum quod intelligitur
+<lb ed="#L" n="140"/>de nunc et priori temporis mehsurantis quietem: non
+<lb ed="#L" n="141"/>autem de priori temporis ipsam praecedentis. Ita quod
+<lb ed="#L" n="142"/>sensus est quod, acceptis quibuscumque duobus 
+instan<lb ed="#L" break="no" n="143"/>tibus temporis mensurantis quietem alicuius, in illis quod
+<lb ed="#L" n="144"/>quiescit est in eadem dispositione.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e553">
+               <lb ed="#L" n="145"/>Utrum autem aliquid possit quiescere in aliquo toto
+<lb ed="#L" n="146"/>tempore, et tamen in ultimo instanti illius temporis aliter
+<lb ed="#L" n="147"/>se. habere: —- dicitur, secundum doctrinam <ref xml:id="ferv7a-d1e1896-Rd1e561">Sancti Thomae
+<lb ed="#L" n="148"/>Prima, q. LIII, a. 3</ref>, quod non.. Ibi enim, quia de ratione
+<lb ed="#L" n="149"/>quietis est' quod quiescens non se habeat aliter nunc quam
+<lb ed="#L" n="150"/>prius, concludit quod in quolibet nunc temporis mensu-
+<pb ed="#L" n="60"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rantis quietem, quiescens est in eodem, idest in eadem
+<lb ed="#L" n="2"/>dispositione, . in primo scilicet, in medio, et. in ultimo
+<lb ed="#L" n="3"/>instanti. Habet enim pro impossibili quod aliquid in toto
+<lb ed="#L" n="4"/>aliquo tempore, tanquam mensura scilicet adaequata 
+quie<lb ed="#L" break="no" n="5"/>tis, quiescat, et tamen in ultimo instanti illius sit sub alia
+<lb ed="#L" n="6"/>dispositione et forma, cum quiescere in aliquo toto tempore
+<lb ed="#L" n="7"/>in aliquo, sit esse in illo in quolibet instanti illius 
+tem<lb ed="#L" break="no" n="8"/>poris. Huius autem ratio est, ut colligi potest ex loco
+<lb ed="#L" n="9"/>praeallegato, et <ref xml:id="ferv7a-d1e1896-Rd1e595">I Sent., d. xxxvrt, q. IV, a. 3</ref>, et est <ref xml:id="ferv7a-d1e1896-Rd1e597">de
+<lb ed="#L" n="10"/>mente Aristotelis et Commentatoris, VI Physicorum </ref>, quia
+<lb ed="#L" n="11"/>omnis instantanea transmutatio est terminus alicuius motus.
+<lb ed="#L" n="12"/>Omne enim quod transmutatum est, prius 
+transmutaba<lb ed="#L" break="no" n="13"/>tur: et omne quod generatum est, prius generabatur, ut
+<lb ed="#L" n="14"/>patet <ref xml:id="ferv7a-d1e1896-Rd1e611">ibidem, commento 59</ref>. Ideo non potest esse ut aliquid
+<lb ed="#L" n="15"/>in ultimo instanti alicuius temporis sit transmutatum, et
+<lb ed="#L" n="16"/>tamen in toto tempore praecedenti quieverit.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e618">
+               <lb ed="#L" n="17"/>3. Advertendum autem quod non est idem dicere aliquid
+<lb ed="#L" n="18"/>toto uno tempore esse. sub una forma,. in ultimo vero
+<lb ed="#L" n="19"/>instanti illius temporis esse sub alia. forma; et aliquid
+<lb ed="#L" n="20"/>quiescere tolo uno tempore sub una forma, in instanti
+<lb ed="#L" n="21"/>vero ultimo transmutatum esse ad aliam formam. Potest
+<lb ed="#L" n="22"/>enim aliquid esse sub una forma et tamen sub illa non
+<lb ed="#L" n="23"/>quiescere, sed transmutari: sicut patet in. eo quod 
+mo<lb ed="#L" break="no" n="24"/>vetur ad generationem et in ultimo instanti est generatum;
+<lb ed="#L" n="25"/>illud enim manet toto tempore aliquo sub forma 
+praece<lb ed="#L" break="no" n="26"/>denti, non tamen quiescit sub illa, sed per alterationem
+<lb ed="#L" n="27"/>est in corrumpi, et continue, dum alteratur, alio et. alio
+<lb ed="#L" n="28"/>modo se habet sub i ipsa forma, dum continue magis 
+appro<lb ed="#L" break="no" n="29"/>pinquat ad corruptionem ipsius et alterius generationem.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e649">
+               <lb ed="#L" n="30"/>VI. Sic autem intellecta propositione Sancti Thomae,
+<lb ed="#L" n="31"/>manifestum est argumenta Scoti in Secundo, d. m, q. 11,
+<lb ed="#L" n="32"/>nullius esse momenti, Arguit enim primo, quia sequeretur
+<lb ed="#L" n="33"/>quod in ultimo instanti prolationis verborum 
+Consecra<lb ed="#L" break="no" n="34"/>tionis, esset ibi forma panis: quia illa praefuit toto 
+tem<lb ed="#L" break="no" n="35"/>pore prolationis.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e665">
+               <lb ed="#L" n="36"/>Secundo quia, cum aliquo toto tempore aer quievit in
+<lb ed="#L" n="37"/>esse tenebroso, in ultimo instanti illius esset tenebrosus:
+<lb ed="#L" n="38"/>et ita illuminatio non fieret in instanti.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e674">
+               <lb ed="#L" n="39"/>Si autem dicatur, inquit, quod illuminatio est terminus
+<lb ed="#L" n="40"/>motus localis, contra: — Ponatur quod sol sit creatus de
+<lb ed="#L" n="41"/>novo, et medium praeexistens: constat quod illuminatio non
+<lb ed="#L" n="42"/>erit terminus motus localis. - Nunc etiam ista illuminatio
+<lb ed="#L" n="43"/>non est per se terminus motus localis, sed aliquod .ubi
+<lb ed="#L" n="44"/>acquisitum ipsi soli. — Nec potest per hoc evadi quin aer
+<lb ed="#L" n="45"/>quieverit sub esse tenebroso usque ad hoc instans.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e692">
+               <lb ed="#L" n="46"/>2. Ad primum dicitur primo, quod non est contra
+<lb ed="#L" n="47"/>sensum propositionis, quae intelligitur secundum naturae
+<lb ed="#L" n="48"/>cursum et de possibilitate naturali. Hic autem arguitur
+<lb ed="#L" n="49"/>de eo quod miraculose et supernaturaliter fit.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e704">
+               <lb ed="#L" n="50"/>Dicitur secundo quod, licet toto tempore  prolationis
+<lb ed="#L" n="51"/>verborum sit forma panis, non tamen quiescit: quia per
+<lb ed="#L" n="52"/>verborum successionem, quae est quidam motus, panis
+<lb ed="#L" n="53"/>magis fit propinquus ut desinat per conversionem in corpus
+<lb ed="#L" n="54"/>Christi ; et ratione huius motus prolationis verborum, cuius
+<lb ed="#L" n="55"/>terminus est conversio in corpus Christi, fieri praecedit
+<lb ed="#L" n="56"/>factum esse, sicut in generatione generari: praecedit 
+gene<lb ed="#L" break="no" n="57"/>ratum esse, ratione alterationis praecedentis, cuius est 
+ter<lb ed="#L" break="no" n="58"/>minus; ut patet <ref xml:id="ferv7a-d1e1896-Rd1e725">IV Sent. d. xu a. 3, qu 2, ad 3</ref>.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e728">
+               <lb ed="#L" n="59"/>3. Ad secundum dicitur quod aer non quiescit toto
+<lb ed="#L" n="60"/>tempore praecedente. illuminationem, cum secundum 
+cur<lb ed="#L" break="no" n="61"/>sum naturae, illuminatio sit terminus motus localis, 
+Se<lb ed="#L" break="no" n="62"/>cundum enim quod sol magis ad aerem per motum localem
+<lb ed="#L" n="63"/>appropinquat, ipse aer est magis propinquus acceptioni
+<lb ed="#L" n="64"/>luminis. Unde secundum motum solis ad aerem, dicitur
+<lb ed="#L" n="65"/>aer ad lumen accedere et a tenebroso esse recedere 
+suc<lb ed="#L" break="no" n="66"/>cessive, non per amissionem partis post partem, sed per
+<lb ed="#L" n="67"/>maiorem et minorem appropinquationem ad lumen. Sicut
+<lb ed="#L" n="68"/>enim materia per alterationem disponitur ad susceptionem
+<lb ed="#L" n="69"/>formae substantialis et ad abiectionem formae quam babet,
+<lb ed="#L" n="70"/>propter quod dicitur moveri ad formam, licet ipsam 
+se<lb ed="#L" break="no" n="71"/>cundum se totam in ultimo instanti dumtaxat recipiat ;
+<lb ed="#L" n="72"/>ita per motum localem solis, propter quem aer fit ipsi
+<lb ed="#L" n="73"/>soli magis propinquus, aer disponitur ad luminis 
+susce<lb ed="#L" break="no" n="74"/>ptionem, quae est in instanti, et propter huius successivam
+<lb ed="#L" n="75"/>appropinquationem dicitur moveri ad lumen.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e767">
+               <lb ed="#L" n="76"/>4. Cum autem instatur primo de sole noviter creato, 
+di<lb ed="#L" break="no" n="77"/>citur quod non est. contra propositum : quia non loquimur
+<lb ed="#L" n="78"/>de eo quod Deus per creationem facere potest, sed de eo
+<lb ed="#L" n="79"/>quod cursui. naturali congruit. — Potest secundo dici quod
+<lb ed="#L" n="80"/>illa creatio corporis Iuminosi supplet vicem motus localis.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e780">
+               <lb ed="#L" n="81"/>Cum obiicitur secundo, quia illuminatio non est per
+<lb ed="#L" n="82"/>se terminus motus localis: — negatur de nova 
+illumina<lb ed="#L" break="no" n="83"/>tione. Licet enim illuminatio simpliciter, non sit per se
+<lb ed="#L" n="84"/>primo terminus, sive intrinsecus terminus, huius motus
+<lb ed="#L" n="85"/>localis, nova tamen illuminatio est per se terminus 
+secun<lb ed="#L" break="no" n="86"/>darius et extrinsecus.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e796">
+               <lb ed="#L" n="87"/>Cum obiicitur tertio quod, hoc non obstante, aer quievit
+<lb ed="#L" n="88"/>sub esse tenebroso usque ad ultimum instans: patet ex
+<lb ed="#L" n="89"/>praecedentibus hoc falsum:esse. Licet enim fuerit sub esse
+<lb ed="#L" n="90"/>tenebroso usque ad ultimum instans, non tamen sub tali
+<lb ed="#L" n="91"/>esse quievit: quia, licet non esset subiectum motus alicuius
+<lb ed="#L" n="92"/>ad lucem, in sole tamen erat motus ad eius illuminationem
+<lb ed="#L" n="93"/>et eexpulsionem tenebrae ordinatus.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e814">
+               <lb ed="#L" n="94"/>VII. Sexto. Illo dato, sequeretur quod MEE he contra
+<lb ed="#L" n="95"/>naturam ab occidente recedens rediret ad orientem. Hoc
+<lb ed="#L" n="96"/>est impossibile: cum in motu caelesti nihil sit violentum
+<lb ed="#L" n="97"/>et contra naturam. Ergo etc. — Probatur conscquentia.
+<lb ed="#L" n="98"/>Quia motus caeli ad cH est naturalis. In motu
+<lb ed="#L" n="99"/>autem. qui est a natura tanquam a principio activo, si
+<lb ed="#L" n="100"/>accessus ad. aliquid est naturalis, recessus ab co est 
+inna<lb ed="#L" break="no" n="101"/>turalis: ut patet in gravi.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e835">
+               <lb ed="#L" n="102"/>Adverte, quod non: dixit Sanctus Thomas absolute, ja
+<lb ed="#L" n="103"/>motu qui est a natura, si accessus est. naturalis, recessus
+<lb ed="#L" n="104"/>est innaturalis, sed addidit, tanquam a principio activo:
+<lb ed="#L" n="105"/>quia videlicet,si motus sit naturalis tantum propter 
+prin<lb ed="#L" break="no" n="106"/>cipium passivum, hoc non oportet; sicut enim accessus
+<lb ed="#L" n="107"/>est naturalis, ita et recessus potest esse naturalis, ut patet
+<lb ed="#L" n="108"/>in motu materiae ad formam; sicut enim ad formam 
+na<lb ed="#L" break="no" n="109"/>turaliter accedit, ita ab ipsa naturaliter recedit. oH
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e855">
+               <lb ed="#L" n="110"/>VIII. Quantum ad secundum ., intendit Sanctus 
+Tho<lb ed="#L" break="no" n="111"/>mas dubia quaedam ex praecedentibus suborientia. 
+re<lb ed="#L" break="no" n="112"/>movere.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e864">
+               <lb ed="#L" n="113"/>Primum .est. Cum dictum sit motum caeli non esse
+<lb ed="#L" n="114"/>dumtaxat a natura, sed a substantia intellectuali, videtur
+<lb ed="#L" n="115"/>sequi quod motus caeli non sit naturalis. .
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e873">
+               <lb ed="#L" n="116"/>Ad hoc respondet quod illud non sequitur. Licet enim
+<lb ed="#L" n="117"/>non sit naturalis ratione principii activi, sed voluntarius,
+<lb ed="#L" n="118"/>est tamen naturalis ratione principii passivi, inquantum
+<lb ed="#L" n="119"/>caelum naturalem aptitudinem habet ad talem motum:
+<lb ed="#L" n="120"/>sicut et generatio simplicium corporum est naturalis : 
+ra<lb ed="#L" break="no" n="121"/>tione materiae, cui inest naturalis appetitus ad. formam
+<lb ed="#L" n="122"/>naturalem, non autem ratione principii activi, cum illud sit
+<lb ed="#L" n="123"/>extra, natura autem sit principium motus eius in quo est.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e893">
+               <lb ed="#L" n="124"/>Declaratur autem propositum. Quia unumquodque 
+pa<lb ed="#L" break="no" n="125"/>titur et movetur secundum quod est in potentia, agit vero
+<lb ed="#L" n="126"/>et movet secundum quod est actu. Corpus autem caeleste,
+<lb ed="#L" n="127"/>secundum suam substantiam consideratum, invenitur ut in
+<lb ed="#L" n="128"/>potentia indifferenter se habens ad quodlibet ubi, sicut
+<lb ed="#L" n="129"/>materia prima ad omnem formam: quod non invenitur in
+<lb ed="#L" n="130"/>corpore gravi et levi, quod, in sui natura consideratum,
+<lb ed="#L" n="131"/>non est indifferens ad omnem locum, sed ex ratione suae
+<lb ed="#L" n="132"/>formae sibi determinatur locus. Ex hoc deducitur quod
+<lb ed="#L" n="133"/>motus gravium et levium, quando a nobis per intellectum
+<lb ed="#L" n="134"/>moventur, est violentus: quia ipsis inest naturalis aptitudo
+<lb ed="#L" n="135"/>ad contrarium motum ei quo a nobis moventur; licet
+<lb ed="#L" n="136"/>motus corporis animalis ab anima non sit violentus, 
+in<lb ed="#L" break="no" n="137"/>quantum est animatum. Non autem motus corporum 
+cae<lb ed="#L" break="no" n="138"/>lestium est violentus: quia corpora caelestia non habent
+<lb ed="#L" n="139"/>aptitudinem ad contrarium motum, sed ad illum quo. 
+mo<lb ed="#L" break="no" n="140"/>ventur a substantia intelligente,
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e932">
+               <lb ed="#L" n="141"/>2. Attendendum primo quod, cum natura dividatur per
+<lb ed="#L" n="142"/>materiam et formam; et natura sit principium motus eius.
+<lb ed="#L" n="143"/>in quo est: ad hoc ut motus sit naturalis, sufficit quod
+<lb ed="#L" n="144"/>secundum inclinationem alterius horum, scilicet materiae
+<lb ed="#L" n="145"/>aut formae, procedat. Et ideo non inconvenit motum esse
+<lb ed="#L" n="146"/>naturalem ex sola aptitudine materiae, et naturae per 
+mo<lb ed="#L" break="no" n="147"/>dum potentiae, ad talem motum, licet principium activum
+<lb ed="#L" n="148"/>motus sit extrinsecum.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e953">
+               <lb ed="#L" n="149"/>Attendendum secundo, cum dicitur motum gravium et
+<lb ed="#L" n="150"/>levium a nobis esse violentum quia habent naturalem apti-
+<pb ed="#L" n="61"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tudinem ad contrarium. motum, quod hoc intelligitur de
+<lb ed="#L" n="2"/>aptitudine determinata ad talem motum cum repugnantia
+<lb ed="#L" n="3"/>ad oppositum motum: non autem de aptitudine 
+indiffe<lb ed="#L" break="no" n="4"/>renti ad utrumque motum, sicut est in caelo aptitudo
+<lb ed="#L" n="5"/>indifferens ad omnia ubi.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e975">
+               <lb ed="#L" n="6"/>Attendendum tertio; cum inquit Sanctus Thomas 
+cae<lb ed="#L" break="no" n="7"/>um secundum suam naturam indifferenter se habere ad
+<lb ed="#L" n="8"/>quodlibet ubi, quod ideo addidit secundum naturam, quia,
+<lb ed="#L" n="9"/>licet ex intentione substantiae moventis possit caelum ad 
+<lb ed="#L" n="10"/>aliquod ubi determinari, considerata tamen natura caeli
+<lb ed="#L" n="11"/>secundum se, non est ad aliquod ubi determinatum.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e991">
+               <lb ed="#L" n="12"/>Attendendum quarto, quod anima, ut dicitur <ref xml:id="ferv7a-d1e1896-Rd1e995">Prima,
+<lb ed="#L" n="13"/>q. Lxu, a. 2, ad 2</ref>, quantum est de se, nata est movere
+<lb ed="#L" n="14"/>in quamlibet partem. Ideo necesse est motum animalis,
+<lb ed="#L" n="15"/>qui est ab anima, naturalem esse, sicut et in gravibus
+<lb ed="#L" n="16"/>et levibus motus qui est a forma ipsorum, est naturalis:
+<lb ed="#L" n="17"/>est enim motus naturalis qui est a principio intrinseco.
+<lb ed="#L" n="18"/>Propterea bene hic dicitur quod motus corporis animalis,
+<lb ed="#L" n="19"/>inquantum est animatum, non est ei violentus, licet sit
+<lb ed="#L" n="20"/>ei violentus inquantum est grave quoddam. Corpus enim
+<lb ed="#L" n="21"/>animalis, quamvis sola anima informetur et non alia forma,
+<lb ed="#L" n="22"/>inquantum tamen informatur anima ut anima est, habet
+<lb ed="#L" n="23"/>movveri in quamlibet partem: inquantum autem informatur
+<lb ed="#L" n="24"/>anima ut est forma corporis, quam gravitas consequitur,
+<lb ed="#L" n="25"/>habet moveri tantum deorsum. Et ideo dicitur VIII 
+PAy<lb ed="#L" break="no" n="26"/>sicorum, quod animal totum quidem seipsum. naturaliter
+<lb ed="#L" n="27"/>movet: corpus autem, secundum quod est corpus, 
+con<lb ed="#L" break="no" n="28"/>tingit natura et extra naturam moveri.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1033">
+               <lb ed="#L" n="29"/>IX. Circa dicta duplex occurrit dubium. Primum est.
+<lb ed="#L" n="30"/>Nam <ref xml:id="ferv7a-d1e1896-Rd1e1039">Commentator, VIII Phys., comm. 27</ref>, vult motum
+<lb ed="#L" n="31"/>corporis caelestis esse simpliciter naturalem, et ex parte
+<lb ed="#L" n="32"/>animae et ex parte corporis. Ergo non est verum quod
+<lb ed="#L" n="33"/>hic dicitur, scilicet quod est naturalis tantum ratione 
+prin<lb ed="#L" break="no" n="34"/>cipii passivi.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1051">
+               <lb ed="#L" n="35"/>Secundum dubium est. Si anima nata est movere ad
+<lb ed="#L" n="36"/>omnem partem, animalis corpus, inquantum animatum,
+<lb ed="#L" n="37"/>indifferens est ad omnem 'motum et ad omnem locum.
+<lb ed="#L" n="38"/>Et tamen motus eius est naturalis ex parte formae. Ergo,
+<lb ed="#L" n="39"/>ex eo quod caelum est indifferens ad. omne abi, non 
+se<lb ed="#L" break="no" n="40"/>quitur, ut deduxit Sanctus Thomas, quod sit motus eius
+<lb ed="#L" n="41"/>naturalis ex parte principii passivi tantum, sed potest esse
+<lb ed="#L" n="42"/>naturalis etiam ex parte principii activi.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1071">
+               <lb ed="#L" n="43"/>2. Ad primum horum dicitur, primo, quod Commentator
+<lb ed="#L" n="44"/>videtur in hac re varie esse locutus. In loco enim 
+alle<lb ed="#L" break="no" n="45"/>gato videtur quod motus caeli sit naturalis tam ex parte
+<lb ed="#L" n="46"/>principii activi quam ex parte principii passivi: in <ref xml:id="ferv7a-d1e1896-Rd1e1081">I autem
+<lb ed="#L" n="47"/>Caeli, comm. 5, et ll. Caeli, comm. 3</ref>, videtur velle quod
+<lb ed="#L" n="48"/>sit naturalis tantum ex parte principii passivi.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1091">
+               <lb ed="#L" n="49"/>Pro concordia autem dictorum eius, et etiam ad Sanctum
+<lb ed="#L" n="50"/>Thomam, posset dici, praetermissa aliorum responsione,
+<lb ed="#L" n="51"/>quod motus dupliciter potest dici naturalis ex parte principii
+<lb ed="#L" n="52"/>activi. Uno modo, quia principium activum motus est sibi
+<lb ed="#L" n="53"/>intrinsecum ut forma eius. Et sic motus caeli non est
+<lb ed="#L" n="54"/>naturalis, neque apud Sanctum Thomam neque apud 
+Com<lb ed="#L" break="no" n="55"/>mentatorem : quia principium activum motus eius est forma
+<lb ed="#L" n="56"/>abstracta secundum esse. — Alio modo, quia principium 
+acti<lb ed="#L" break="no" n="57"/>vum motus est natum tale corpus movere absque 
+resisten<lb ed="#L" break="no" n="58"/>tia, et est illi corpori appropriatum ad movendum. Et hoc
+<lb ed="#L" n="59"/>modo intelligit, Commentator ipsum motum caeli esse 
+na<lb ed="#L" break="no" n="60"/>turalem ex principio activo: accipit enim caelum pro 
+ag<lb ed="#L" break="no" n="61"/>gregato ex intelligentia et corpore caelesti. Unde in <ref xml:id="ferv7a-d1e1896-Rd1e1121">I.
+<lb ed="#L" n="62"/>Caeli, comm. allegato</ref>, ait quod formae abstractae, 
+se<lb ed="#L" break="no" n="63"/>cundum quod sunt formae abstractae, innatae sunt ut illud
+<lb ed="#L" n="64"/>quod movetur ab eis, sit corpus neque grave neque leve;
+<lb ed="#L" n="65"/>sicut innatae sunt ut motum ab eis sit rotundum; et sicut
+<lb ed="#L" n="66"/>innata est forma ignis ut habeat materiam propriam. Et
+<ref xml:id="ferv7a-d1e1896-Rd1e1135">VII Phys., loco adducto</ref>, vult quod motus caeli sit per
+<lb ed="#L" n="67"/>principium in eo ita quod in suo corpore non est 
+prin<lb ed="#L" break="no" n="68"/>cipium contrarium motui animae. Nomine. autem caeli
+<lb ed="#L" n="69"/>etiam ibi accipit aggregatum ex corpore caelesti et 
+intel<lb ed="#L" break="no" n="70"/>ligentia movente, quae aliquo modo dici potest anima eius,
+<lb ed="#L" n="71"/>inquantum est illi appropriata ad movendum.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1149">
+               <lb ed="#L" n="72"/>Patet igitur non esse contradictionem neque inter dicta
+<lb ed="#L" n="73"/>Commentatoris, neque inter Commentatorem et Sanctum
+<lb ed="#L" n="74"/>Thomam : cum Sanctus Thomas loquatur de naturali motu
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>ex principio activo primo modo, Commentator autem de
+<lb ed="#L" n="76"/>haturali secundo modo loquatur.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1165">
+               <lb ed="#L" n="77"/>3. Ad secundum respondetur quod motus potest didi 
+na<lb ed="#L" break="no" n="78"/>turalis ex parte formae, dupliciter. Uno modo, quia est
+<lb ed="#L" n="79"/>a forma intrinseca non agente per apprehensionem, sed
+<lb ed="#L" n="80"/>mere naturaliter movente. Alio modo, quia est a forma
+<lb ed="#L" n="81"/>intrinseca. non agente.per violentiam, sed quae nata est
+<lb ed="#L" n="82"/>taliter movere, et mobile natum est ab ipsa taliter moveri
+<lb ed="#L" n="83"/>ut illi. formae subiicitur. Indifferentia ergo ad diversa ubi
+<lb ed="#L" n="84"/>arguit motum .non esse naturalem ex parte formae primo
+<lb ed="#L" n="85"/>modo, idest, non esse secundum inclinationem formae
+<lb ed="#L" n="86"/>moventis absque apprehensione: quia forma talis inclinat
+<lb ed="#L" n="87"/>ad unum determinate. Et sic Sanctus Thomas arguit ex
+<lb ed="#L" n="88"/>indifferentia caeli ad. omnia ubi, quod eius motus non est
+<lb ed="#L" n="89"/>naturalis ex parte suae formae, cum illa sit forma mere
+<lb ed="#L" n="90"/>naturalis. Talis autem indifferentia non arguit motum non
+<lb ed="#L" n="91"/>esse naturalem secundo modo: quia. forma per 
+apprehen<lb ed="#L" break="no" n="92"/>sionem agens potest suum mobile ad diversa movere, 
+se<lb ed="#L" break="no" n="93"/>cundum diversitatem apprehensionum. Et sic non 
+incon<lb ed="#L" break="no" n="94"/>venit mobile .esse indifferens ad diversa ubi inquantum
+<lb ed="#L" n="95"/>natum est a tali forma moveri; et motum eius esse
+<lb ed="#L" n="96"/>naturalem. inquantum movetur a forma intrinseca sic
+<lb ed="#L" n="97"/>nata movere; ipsumque sic ab ipsa natum est moveri
+<lb ed="#L" n="98"/>inquantum tali formae subiicitur, licet aliunde ad 
+oppo<lb ed="#L" break="no" n="99"/>situm dumtaxat motum inclinetur. — Unde ad obiectionem,
+<lb ed="#L" n="100"/>negatur quod motus animalis, ut est animal, sit naturalis
+<lb ed="#L" n="101"/>ex parte formae, eo modo quo loquitur Sanctus Thomas
+<lb ed="#L" n="102"/>hoc loco de motu naturali ex parte fegmae, dum loquitur
+<lb ed="#L" n="103"/>de motu caeli.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1226">
+               <lb ed="#L" n="104"/>X. Secundum dubium quod removet Sanctus Thomas,
+<lb ed="#L" n="105"/>est. Posset enim aliquis arguere quod motus caeli non
+<lb ed="#L" n="106"/>sit voluntarius, quia est'unus et uniformis: voluntas autem
+<lb ed="#L" n="107"/>ad multa se habet, et non est determinata ad unum.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1237">
+               <lb ed="#L" n="108"/>Sed respondet quod voluntas determinatur ad unum
+<lb ed="#L" n="109"/>per suam sapientiam, qua dirigitur infallibiliter ad unum
+<lb ed="#L" n="110"/>finem, sicut natura determinatur ad unum per suam 
+vir<lb ed="#L" break="no" n="111"/>tutem. Ideo quod motus caeli sit voluntarius, non repugnat
+<lb ed="#L" n="112"/>eius unitati et conformitati.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1250">
+               <lb ed="#L" n="113"/>Ad huius responsionis evidentiam, cousiderandum est
+<lb ed="#L" n="114"/>quod, cum voluntas sequatur cognitionem intellectivam,
+<lb ed="#L" n="115"/>et ab ipsa tanquam a sua regula dirigatur; licet, 
+consi<lb ed="#L" break="no" n="116"/>derata ratione voluntatis absolute, voluntas sit causa 
+in<lb ed="#L" break="no" n="117"/>differens et non determinata ad unum; inquantum tamen
+<lb ed="#L" n="118"/>sequitur iudicium intellectus iudicantis aliquid esse 
+vo<lb ed="#L" break="no" n="119"/>lendum et faciendum, determinationem habet ad illud, ita
+<lb ed="#L" n="120"/>quod propter illud determinate agit; et potest ad aliquem
+<lb ed="#L" n="121"/>finem uniformiter et infallibiliter movere, quando et 
+co<lb ed="#L" break="no" n="122"/>gnitio qua dirigitur est infallibilis et certa, et ipsa voluntas
+<lb ed="#L" n="123"/>impediri non potest in suo effectu. Et sic, cum voluntas
+<lb ed="#L" n="124"/>substantiae moventis caelum impediri non possit; 
+diriga<lb ed="#L" break="no" n="125"/>turque a. sapientia infallibili et certa ad unum finem; ipsa
+<lb ed="#L" n="126"/>intellectualis substantia uniformiter movet caelum et 
+infal<lb ed="#L" break="no" n="127"/>libiliter ad finem quem intendit in movendo, et non se
+<lb ed="#L" n="128"/>habet ad motum caeli ut causa indeterminata, sed ut 
+li<lb ed="#L" break="no" n="129"/>mitata ad unum.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1290">
+               <lb ed="#L" n="130"/>XI. Tertium. dubium quod excludit, est: — Si enim
+<lb ed="#L" n="131"/>motus caeli est naturalis, videtur quod in motu caelesti
+<lb ed="#L" n="132"/>possit aliquid esse contra naturam, sicut in motu gravium
+<lb ed="#L" n="133"/>et levium.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1301">
+               <lb ed="#L" n="134"/>Respondet ex praemissis quod non est simile. Neque
+<lb ed="#L" n="135"/>enim accessus ad aliquod ubi in motu caeli, neque recessus
+<lb ed="#L" n="136"/>ab eo, est contra naturam, sicut in gravibus et levibus.
+<lb ed="#L" n="137"/>Tum quia in gravibus et levibus naturae intentio 
+deter<lb ed="#L" break="no" n="138"/>minata. est ad unum. locum, ad quem accessus est 
+natu<lb ed="#L" break="no" n="139"/>ralis, et a quo recessus est contra naturam. Tum quia
+<lb ed="#L" n="140"/>motus quo acceditur ad medium (intellige de medio mundi),
+<lb ed="#L" n="141"/>et motus quo receditur ab eo, sunt contrarii. - Naturae
+<lb ed="#L" n="142"/>autem intentio in motu caeli, secundum quam scilicet
+<lb ed="#L" n="143"/>naturam dicitur eorum motus naturalis, non est ad aliquod
+<lb ed="#L" n="144"/>ubi determinatum. Et motus quo circulariter recedit ab
+<lb ed="#L" n="145"/>aliquo signo, non est contrarius motui quo ad ipsum 
+ac<lb ed="#L" break="no" n="146"/>cedit, sed est unus et continuus. Sicut enim et accessus
+<lb ed="#L" n="147"/>et recessus gravium et levium respectu loci medii inter
+<lb ed="#L" n="148"/>extrema est naturalis, et non sunt motus contrarii, sed
+<lb ed="#L" n="149"/>est unus motus continuus, quia totum, scilicet accessus et
+<pb ed="#L" n="62"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>recessus talis, stat sub una intentione naturae; ita et in
+<lb ed="#L" n="2"/>caeli motu; nam quodlibet ubi in motu caeli est sicut
+<lb ed="#L" n="3"/>medium in motu recto, non sicut extremum.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1349">
+               <lb ed="#L" n="4"/>Adverte quod motus gravis quo receditur a medio mundi,
+<lb ed="#L" n="5"/>tendit ad locum sursum sibi contrarium: et quia motus
+<lb ed="#L" n="6"/>sursum et motus deorsum corporis gravis sunt contrarii,
+<lb ed="#L" n="7"/>utpote ad contraria loca tendentes, ideo bene hic dicitar
+<lb ed="#L" n="8"/>quod motus quorum uno natura accedit ad medium et
+<lb ed="#L" n="9"/>altero recedit, sunt contrarii. Motus autem caeli quo 
+acce<lb ed="#L" break="no" n="10"/>ditur ad aliquod signum, non est contrarius ei quo 
+rece<lb ed="#L" break="no" n="11"/>ditur ab eo: quia motus quo receditur. ab aliquo signo,
+<lb ed="#L" n="12"/>non est ad ubi contrarium ei ad quod acceditur, cum in
+<lb ed="#L" n="13"/>motu circulari non sit contrarietas secundum aliqua puncta
+<lb ed="#L" n="14"/>in circulo designata, prout. sunt puncta ipsius circuli;
+<lb ed="#L" n="15"/>licet possit aliquo modo secundum illa: esse. oppositio
+<lb ed="#L" n="16"/>prout sunt extrema diametri, secundum quam mensuratur
+<lb ed="#L" n="17"/>maxima distantia in circulo, ut ait Sanctus Thomas I
+<lb ed="#L" n="18"/>Caeli, in expositione textus 87 
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1384">
+               <lb ed="#L" n="19"/>XII. Ultimum dubium est. Nam quia dictum est motum
+<lb ed="#L" n="20"/>caeli esse a substantia intellectuali, posset aliquis quaerere
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="21"/>utrum illa substantia sit coniuncta corpori caelesti-ut sit
+<lb ed="#L" n="22"/>anima eius; an sit separata. Et utrum sit prima substantia
+<lb ed="#L" n="23"/>quae immediate movet caelum; an substantia creata, qua
+<lb ed="#L" n="24"/>mediante moveat; aut prima substantia moveat primum,
+<lb ed="#L" n="25"/>et aliae alia.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1404">
+               <lb ed="#L" n="26"/>Respondet Sanctus Thomas quod nihil refert 
+quod<lb ed="#L" break="no" n="27"/>cumque horum dicatur, dummodo habeatur quod motus
+<lb ed="#L" n="28"/>caelestis est a substantia intellectuali.
+</p>
+            <p xml:id="ferv7a-d1e1896-d1e1413">
+               <lb ed="#L" n="29"/>Advertendum quod Sanctus Thomas: nihil aliud vult
+<lb ed="#L" n="30"/>ex hoc suo processu habere nisi quod. motus caeli non
+<lb ed="#L" n="31"/>| est naturalis tantum, sed partim naturalis et partim 
+vo<lb ed="#L" break="no" n="32"/>]untarius. Hoc autem habetur sive ponatur quod 
+substan<lb ed="#L" break="no" n="33"/>tia intellectualis movens sit forma caeli, sive ponatur quod
+<lb ed="#L" n="34"/>sit separata. Cum enim de ratione moventis non sit quod
+<lb ed="#L" n="35"/>sit intrinsecum moto, potest movens voluntarium et esse
+<lb ed="#L" n="36"/>intrinsecum et esse extrinsecum: motus enim progressivus
+<lb ed="#L" n="37"/>hominis, qui est ab anima coniuncta, est voluntarius; et
+<lb ed="#L" n="38"/>motus rotae ab homine separato est voluntarius. Propterea
+<lb ed="#L" n="39"/>bene dicitur hic quod nihil refert ad d mem ror ed
+<lb ed="#L" n="40"/>que illorum dicatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

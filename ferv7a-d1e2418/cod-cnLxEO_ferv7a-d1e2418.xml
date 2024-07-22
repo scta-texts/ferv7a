@@ -1,0 +1,311 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 87</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 87</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="267"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2418"><!-- ferv7a-l3c87 -->
+            <head>Capitulum 87</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="34" type="fixed=267"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="35"/>QUIA ad. praedicta in capite rxxxv posset aliquis dicere
+<lb ed="#L" n="36"/>quod, licet caelum virtute corporea non possit esse
+<lb ed="#L" n="37"/>causa nostrarum electionum, potest tamen earum esse causa
+<lb ed="#L" n="38"/>virtute animae moventis, vult. Sanctus Thomas hanc 
+eva<lb ed="#L" break="no" n="39"/>sionem excludere . Et 'duo facit: primo enim recitat
+<lb ed="#L" n="40"/>' quorundam opinionem; secundo, eam removet .
+</p>
+            <p>
+               <lb ed="#L" n="41"/>I. Quantum ad primum, inquit quod Avicenna posuit
+<lb ed="#L" n="42"/>motus caelestium corporum esse causam nostrarum 
+ele<lb ed="#L" break="no" n="43"/>ctionum, non per occasionem tantum, sed per se. Cum
+<lb ed="#L" n="44"/>enim motus caelestis, secundum ipsum, sit ab anima; et
+<lb ed="#L" n="45"/>sit motus corporis; dixit quod sicut, inquantum motus
+<lb ed="#L" n="46"/>corporis, habet virtutem transmutandi corpora, ita 
+inquan<lb ed="#L" break="no" n="47"/>tum est ab anima, habet virtutem imprimendi in animas
+<lb ed="#L" n="48"/>nostras. - Ad idem etiam, inquit Sanctus Thomas, opinio
+<lb ed="#L" n="49"/>Albumasar in primo sui Zntroductorii redit.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Il. Quantum ad secundum, arguit contra praedictam
+<lb ed="#L" n="51"/>positionem, Primo sic . Actio corporis caelestis nullo modo
+<lb ed="#L" n="52"/>se extendit ad immutationem intellectus et voluntatis, nisi
+<lb ed="#L" n="53"/>forte per accidens, ut supra  est ostensum. Ergo anima
+<lb ed="#L" n="54"/>caelestis corporis, si sit animatum, non potest in intellectum
+<lb ed="#L" n="55"/>et voluntatem imprimere mediante motu caelestis 
+cor<lb ed="#L" break="no" n="56"/>. poris. — Probatur consequentia. Quia, cum omnem 
+ef<lb ed="#L" break="no" n="57"/>fectum qui per instrumentum aliquod ab efficiente procedit,
+<lb ed="#L" n="58"/>oporteat esse proportionatum instrumento, sicut agenti, illud
+<lb ed="#L" n="59"/>non potest per aliquod instrumentum fieri ad quod nullo
+<lb ed="#L" n="60"/>modo se extendit actio instrumenti.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>III. Ad hanc rationem fortasse diceret aliquis quod 
+prin<lb ed="#L" break="no" n="62"/>cipium petit. Nam hoc probandum est, quod actio 
+cor<lb ed="#L" break="no" n="63"/>poris nullo modo se extendat ad immutationem intellectus
+<lb ed="#L" n="64"/>et voluntatis. Dicetur enim quod, licet actio corporis, ut
+<lb ed="#L" n="65"/>corporis est absolute, non se extendat ad immutationem
+<lb ed="#L" n="66"/>intellectus et voluntatis, ad eam tamen se extendit 
+in<lb ed="#L" break="no" n="67"/>quantum est instrumentum animae moventis: sicut et ab
+<lb ed="#L" n="68"/>ipso Sancto Thoma ponitur IV Sent., d. rv, q. r, a. 1 , quod
+<lb ed="#L" n="69"/>res sensibilis quae est sacramentum, inquantum est Dei
+<lb ed="#L" n="70"/>instrumentum, causat in anima characterem, sive ornatum
+<lb ed="#L" n="71"/>quendam, quae est species qualitatis, cum tamen corpus
+<lb ed="#L" n="72"/>propria virtute in spiritum agere non possit.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>IV. Sed si diligenter haec ratio consideretur, apparebit
+<lb ed="#L" n="74"/>non esse in ipsa petitionem principii, sed eam efficacem
+<lb ed="#L" n="75"/>esse et recto ordine procedere. Aliud est enim 
+instru<lb ed="#L" break="no" n="76"/>mentum posse in aliquem effectum in quem non posset
+<lb ed="#L" n="77"/>virtute propriae naturae: et aliud est ipsum posse 
+attin<lb ed="#L" break="no" n="78"/>gere aliquod passum, in ipso aliquam formam causando,
+<lb ed="#L" n="79"/>quod passum sua propria actione attingere non posset.
+<lb ed="#L" n="80"/>Primum enim non est dubium posse instrumento 
+conve<lb ed="#L" break="no" n="81"/>nire: nam calor naturalis animalis potest virtute animae,
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="82"/>tanquam eius fnstratmenirum, generare carnem, quam 
+pro<lb ed="#L" break="no" n="83"/>pria virtute generare non posset. Secundum vero est omnino
+<lb ed="#L" n="84"/>impossibile. Non. enim potest instrumentum aliquem 
+ef<lb ed="#L" break="no" n="85"/>fectum virtute principalis agentis in aliquod passum 
+indu<lb ed="#L" break="no" n="86"/>cere quod sua propria actione attingere non possit. Videmus
+<lb ed="#L" n="87"/>enim calorem, qui est animae instrumentum, sua propria
+<lb ed="#L" n="88"/>actione, quae est calefactio, attingere corpus in quod
+<lb ed="#L" n="89"/>cibus virtute animae convertitur. Similiter videmus quod
+<lb ed="#L" n="90"/>serra omnem illam materiam sua propria actione, quae
+<lb ed="#L" n="91"/>est scindere, attingit, in quam ars per ipsam, tanquam per
+<lb ed="#L" n="92"/>instrumentum, formam artificialem inducit.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Secundum ergo hunc sensum procedit ratio Sancti
+<lb ed="#L" n="94"/>Thomae. Nam cum illud non possit per aliquod 
+instru<lb ed="#L" break="no" n="95"/>mentum fieri ad quod nullo modo se extendit actio 
+pro<lb ed="#L" break="no" n="96"/>pria instrumenti, neque scilicet per modum  inducentis
+<lb ed="#L" n="97"/>formam, neque per modum disponentis aliquo modo 
+ma<lb ed="#L" break="no" n="98"/>teriam aut subiectum, neque per modum aliquo modo
+<lb ed="#L" n="99"/>agentis in illud passum; et actio propria corporis caelestis
+<lb ed="#L" n="100"/>nullo. modo se extendere ' possit ad immutationem 
+intel<lb ed="#L" break="no" n="101"/>lectus et voluntatis, scilicet aut formam principalem 
+in<lb ed="#L" break="no" n="102"/>ducendo, aut disponendo directe in ipsum intellectum et
+<lb ed="#L" n="103"/>voluntatem agendo, ut superius  est'ostensum: manifeste
+<lb ed="#L" n="104"/>sequitur non posse corpus caeleste esse instrumentum 
+ani<lb ed="#L" break="no" n="105"/>mae moventis ad immutandum intellectum aut voluntatem.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Nec assumitur quod est probandum. Quia probandum
+<lb ed="#L" n="107"/>est quod caelum non potest esse causa electionum  
+no<lb ed="#L" break="no" n="108"/>strarum. ut instrumentum animae moventis. Assumitur
+<lb ed="#L" n="109"/>autem quod caelum sua propria actione non potest 
+attin<lb ed="#L" break="no" n="110"/>gere intellectum et voluntatem: quod longe diversum est
+<lb ed="#L" n="111"/>a conclusione. Et est simile ac si quis probaret ex ferro
+<lb ed="#L" n="112"/>non posse per serram instrumentaliter fieri scamnum, quia
+<lb ed="#L" n="113"/>actio propria serrae, quae est scindere et dividere, non
+<lb ed="#L" n="114"/>potest ferrum attingere.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>2. Quod autem obiicitur de sacramento causante 
+chara<lb ed="#L" break="no" n="116"/>cterem in anima, non obstat. Quia aliter loquendum est
+<lb ed="#L" n="117"/>de instrumento divinae virtutis: et aliter de instrumento
+<lb ed="#L" n="118"/>virtutis creatae. Virtus enim creata, cum non utatur 
+instru<lb ed="#L" break="no" n="119"/>mento nisi ad agendum, praesupponit in instrumento quo
+<lb ed="#L" n="120"/>utitur ad aliquem effectum, virtutem naturalem qua possit
+<lb ed="#L" n="121"/>attingere passum in quod agere intendit: alioquin non
+<lb ed="#L" n="122"/>magis uteretur uno instrumento quam alio. Unde videmus
+<lb ed="#L" n="123"/>in artificialibus ad diversos effectus diversa aptari 
+instru<lb ed="#L" break="no" n="124"/>menta, et secundum diversitatem materiae in quam ars
+<lb ed="#L" n="125"/>operari intendit, diversa accipi instrumenta, quae sua actione
+<lb ed="#L" n="126"/>materiam possint attingere, Idem etiam in naturalibus 
+vi<lb ed="#L" break="no" n="127"/>demus. - Virtus autem divina utitur sacramentis non tantum
+<lb ed="#L" n="128"/>ad agendum, sed etiam ad significandum. Unde a theo-
+<pb ed="#L" n="268"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>logis ponuntur non solum in genere causae, sed etiam
+<lb ed="#L" n="2"/>in genere signi. ldeo non praesupponit virtutem activam
+<lb ed="#L" n="3"/>naturalem in ipsis qua possint agere in animam, in quam
+<lb ed="#L" n="4"/>intendit Deus gratiam per ipsa causare: sed praesupponit
+<lb ed="#L" n="5"/>in ipsis convenientiam naturalis actionis ipsorum ad 
+signi<lb ed="#L" break="no" n="6"/>ficandum actionem Dei in animam, et effectus ipsorum
+<lb ed="#L" n="7"/>ad significandum effectum divinum; virtutem autem qua
+<lb ed="#L" n="8"/>possint in animam operari, illis supernaturaliter tribuit,
+<lb ed="#L" n="9"/>Sicut, quia aqua baptismalis per suam actionem naturalem,
+<lb ed="#L" n="10"/>quae est corpus abluere et mundare, est conveniens signum
+<lb ed="#L" n="11"/>spiritualis ablutionis et mundationis quae fit in baptismo
+<lb ed="#L" n="12"/>per gratiam; propterea ipsam assumit Deus tanquam 
+in<lb ed="#L" break="no" n="13"/>'Sstrumentum ad causandum gratiam, dans sibi 
+supernatu<lb ed="#L" break="no" n="14"/>ralem virtutem qua possit, suam naturalem actionem circa
+<lb ed="#L" n="15"/>corpus exercendo, etiam supernaturaliter in animam 
+ali<lb ed="#L" break="no" n="16"/>quam dispositionem ad gratiam introducere; sicut et igni
+<lb ed="#L" n="17"/>inferni dat virtutem animarum detentivam, quam sibi nulla
+<lb ed="#L" n="18"/>virtus creata dare potest. Ratio ergo Sancti Thomae optime
+<lb ed="#L" n="19"/>procedit in proposito, ubi agitur de instrumento virtutis
+<lb ed="#L" n="20"/>creatae; non autem procederet de instrumento virtutis
+<lb ed="#L" n="21"/>divinae.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>3. Ideo cum <ref>Capreolus, in IV Sent., d. 1, q. 1</ref>, 
+respon<lb ed="#L" break="no" n="23"/>dens ad argumentum <name>Durandi</name>, inquit non esse 
+univer<lb ed="#L" break="no" n="24"/>saliter verum instrumentum agere naturaliter, et virtute
+<lb ed="#L" n="25"/>propria, aliquam actionem circa quamcumque matericm
+<lb ed="#L" n="26"/>circa quam agit supernaturaliter et in virtute alterius, si
+<lb ed="#L" n="27"/>intelligatur non esse universaliter verum propter 
+instru<lb ed="#L" break="no" n="28"/>mentum divinae virtutis, est bene dictum. Si autem 
+in<lb ed="#L" break="no" n="29"/>telligatur non esse universaliter verum quia sit etiam 
+ali<lb ed="#L" break="no" n="30"/>quod instrumentum virtutis creatae quod nullam actionem
+<lb ed="#L" n="31"/>naturalem possit habere circa materiam circa quam in 
+vir<lb ed="#L" break="no" n="32"/>tute agentis naturalis operatur, non puto bene dictum.
+<lb ed="#L" n="33"/>Non enim, ut arguebatur, posset ratio hic posita salvari.
+<lb ed="#L" n="34"/>Neque salvari posset ratio posita Verit., q. v, a. 10, ad 4,
+<lb ed="#L" n="35"/>qua. arguit Sanctus Thomas quod, quia instrumentum 
+spi<lb ed="#L" break="no" n="36"/>ritualis agentis non agit per virtutem spiritualem nisi quia
+<lb ed="#L" n="37"/>agit per virtutem corporalem; secundum autem virtutem
+<lb ed="#L" n="38"/>corporalem non agit corpus caeleste nisi in corpus: ideo
+<lb ed="#L" n="39"/>et actio corporis caelestis quae est secundum virtutem 
+spi<lb ed="#L" break="no" n="40"/>ritualem, non potest ad animam pertingere.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>V, Secundo . Si una anima humana in aliam animam
+<lb ed="#L" n="42"/>humanam aliquid per operationem corporalem imprimit ,
+<lb ed="#L" n="43"/>talis actio corporalis non pervenit ad aliam animam nisi
+<lb ed="#L" n="44"/>mediante corpore. Declaratur exemplo manifestationis 
+in<lb ed="#L" break="no" n="45"/>telligentiae per vocem significativam. — Ergo, si anima 
+cae<lb ed="#L" break="no" n="46"/>lestis aliquid imprimat per motum corporeum, actio illa
+<lb ed="#L" n="47"/>non pervenit usque ad animam nostram nisi per 
+muta<lb ed="#L" break="no" n="48"/>tionem corporis nostri. Sed illa non est causa nostrarum
+<lb ed="#L" n="49"/>electionum, scilicet sufficiens, sed occasio tantum . Ergo
+<lb ed="#L" n="50"/>etc. — Probatur prima consequentia. Quia causa agens 
+per<lb ed="#L" break="no" n="51"/>ticularis in agendo similitudinem gerit causae universalis,
+<lb ed="#L" n="52"/>et est eius exemplum.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>VI. Tertio. Corpori caelesti, quod moveri ponitur ab
+<lb ed="#L" n="54"/>anima coniuncta, propinquius est corpus nostrum quam
+<lb ed="#L" n="55"/>anima. Ergo immutatio corporis caelestis, ab anima eius
+<lb ed="#L" n="56"/>procedens, non pertingit ad animam nostram nisi mediante
+<lb ed="#L" n="57"/>corpore. Ergo motus corporis caelestis non potest esse
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="58"/>causa nostrae electionis, scilicet directe, per hoc quod est
+<lb ed="#L" n="59"/>ab anima,
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Probatur antecedens. Quia anima nostra non habet
+<lb ed="#L" n="61"/>ordinem ad corpus caeleste nisi mediante corpore. Cuius
+<lb ed="#L" n="62"/>signum est quod intellectus separati nullum habent ordinem
+<lb ed="#L" n="63"/>ad corpus: nisi forte moventis ad motum. — Prima vero
+<lb ed="#L" n="64"/>consequentia probatur. Quia, cum movens et motum 
+opor<lb ed="#L" break="no" n="65"/>teat esse simul, oportet ut a primo movente perveniat
+<lb ed="#L" n="66"/>motus ad ultimum quod movetur, ordine quodam; ut
+<lb ed="#L" n="67"/>scilicet movens per id quod est sibi proximum, moveat id
+<lb ed="#L" n="68"/>quod est ab eo distans. - Secunda quoque consequentia
+<lb ed="#L" n="69"/>probatur. Quia ad motum corporis non movetur anima
+<lb ed="#L" n="70"/>nisi per accidens; nec immutationem corporis sequitur
+<lb ed="#L" n="71"/>electio, nisi per: occasionem.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>2. Ad evidentiam huius rationis, considerandum est quod
+<lb ed="#L" n="73"/>ordo propinquitatis mobilium ad primum quod movet, non
+<lb ed="#L" n="74"/>est ordo situalis, sed est ordo mutabilitatis secundum 
+na<lb ed="#L" break="no" n="75"/>turae inslitutionem : ut illud videlicet dicatur propinquius
+<lb ed="#L" n="76"/>primo moventi quod per prius natum est ab ipso moveri,
+<lb ed="#L" n="77"/>illud vero dicatur remotius quod natum est ab ipso moveri
+<lb ed="#L" n="78"/>posterius. Unde tanto magis aliquid distat a primo 
+mo<lb ed="#L" break="no" n="79"/>vente, quanto, secundum ordinem naturae rebus inditum,
+<lb ed="#L" n="80"/>posterius natum est ab ipso moveri, et per plura media
+<lb ed="#L" n="81"/>oportet ad ipsum ipsius actionem pervenire. Corpus autem
+<lb ed="#L" n="82"/>nostrum medium est inter corpus caeleste et animam 
+no<lb ed="#L" break="no" n="83"/>stram secundum hunc ordinem: cum ipsa anima nullum
+<lb ed="#L" n="84"/>habeat ordinem ad corpus caeleste nisi quia est corpori
+<lb ed="#L" n="85"/>unita. Cuius conveniens signum adducit Sanctus Thomas,
+<lb ed="#L" n="86"/>quia substantia intellectualis separata a corpore non habet
+<lb ed="#L" n="87"/>talem ordinem ad corpus caeleste: immo magis comparatur
+<lb ed="#L" n="88"/>ad ipsum sicut movens ad motum. Idcirco non pervenit
+<lb ed="#L" n="89"/>immutatio corporis caelestis ad animam, etiam virtute
+<lb ed="#L" n="90"/>animae facta, nisi corporis immutatione mediante: de qua
+<lb ed="#L" n="91"/>superius  est ostensum quod est tantum electionis nostrae
+<lb ed="#L" n="92"/>occasio quaedam, non autem sufficiens causa, Et in hoc
+<lb ed="#L" n="93"/>consistit ratio Sancti Thomae.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>VII. Quarto. Secundum positionem Avicennae, et 
+quo<lb ed="#L" break="no" n="95"/>rundam philosophorum aliorum, intellectus agens est 
+sub<lb ed="#L" break="no" n="96"/>stantia separata, agens in animas nostras inquantum facit
+<lb ed="#L" n="97"/>intellecta in potentia esse intellecta in actu. Hoc autem
+<lb ed="#L" n="98"/>facit per abstractionem ab omnibus materialibus 
+conditio<lb ed="#L" break="no" n="99"/>nibus. Ergo quod directe agit in animam, non agit in eam
+<lb ed="#L" n="100"/>per motum corporeum, sed magis per abstractionem ab
+<lb ed="#L" n="101"/>omni corporeo. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Adverte. quod ista ratio est persuasiva tantum ad hon
+<lb ed="#L" n="103"/>minem Avicennae sectatorem. Quia si intellectus agens,
+<lb ed="#L" n="104"/>apud Avicennam, est substantia separata; et agitin animam
+<lb ed="#L" n="105"/>nostram causando in ipsa species intellectas a materialibus
+<lb ed="#L" n="106"/>et corporalibus conditionibus abstractas: signum evidens
+<lb ed="#L" n="107"/>est, si quid directe in animam nostram agat, illud non
+<lb ed="#L" n="108"/>agere in ipsam per motum corporeum. Non est autem ratio
+<lb ed="#L" n="109"/>absolute concludens: quia apud Aristotelem et Sanctum
+<lb ed="#L" n="110"/>Thomam falsum est, ut superius in secundo libro  est
+<lb ed="#L" n="111"/>ostensum, intellectum agentem substantiam separatam esse.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>ULTIMO inquit Sanctus "Thomas quod per easdem 
+ra<lb ed="#L" break="no" n="113"/>tiones probari posset motum caeli non esse nostrarum
+<lb ed="#L" n="114"/>electionum causam per virtutem substantiae separatae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 156</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 156</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="460"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2982"><!-- ferv7a-l3c156 -->
+            <head>Capitulum 156</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="79" type="fixed=460"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="80"/>POSTQUAM ostendit Sanctus Thomas hominem divina
+<lb ed="#L" n="81"/>gratia ad perseverandum in bono indigere, vult ulterius
+<lb ed="#L" n="82"/>ostendere quod ipsa etiam ad resurgendum a peccato 
+in<lb ed="#L" break="no" n="83"/>digeat. Circa hoc autem duo facit: primo, ostendit 
+pro<lb ed="#L" break="no" n="84"/>positum ; secundo, quoddam dubium excludit, cap. crix.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Circa primum tria facit; primo, ostendit quod /tomo,
+<lb ed="#L" n="86"/>si in peccatum ceciderit (durante scilicet statu vitae), potest
+<lb ed="#L" n="87"/>per auxilium gratiae reparari; secundo, quod hoc sine
+<lb ed="#L" n="88"/>gratia fieri non potest, cap. seq.; tertio, qualiter homo a
+<lb ed="#L" n="89"/>peccato liberetur, cap. crvir.
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="90"/>I. Quantum ad primum, arguit primo sic. Homo 
+per<lb ed="#L" break="no" n="91"/>severat in bono auxilio divinae gratiae. Ergo, si per 
+pecca<lb ed="#L" break="no" n="92"/>tum lapsus fuerit, eiusdem. gratiae auxilio reparari potest.
+<lb ed="#L" n="93"/>- Probatur consequentia. Quia eiusdem virtutis est. 
+con<lb ed="#L" break="no" n="94"/>tinuare salutem alicuius, et interruptam reparare: ut patet
+<lb ed="#L" n="95"/>de virtute naturali respectu sanitatis.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Secundo. Deus non requirit meritum in voluntate ad
+<lb ed="#L" n="97"/>gratiam conferendam, cum sine meritis detur: sicut nom
+<lb ed="#L" n="98"/>requirit dispositionem naturalem in subiecto corporeo. Ergo
+<lb ed="#L" n="99"/>potest gratiam, per quam peccata tolluntur, conferre alicui
+<pb ed="#L" n="461"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>etiam postquam a gratia cecidit per peccatum. - Probatur 
+<lb ed="#L" n="2"/>consequentia, Quia agens quod non requirit dispositionem 
+<lb ed="#L" n="3"/>in subiecto, potest suum effectum imprimere in subiectum
+<lb ed="#L" n="4"/>qualitercumque dispositum.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>2. Circa istam propositionem, Deus non requirit 
+dispo<lb ed="#L" break="no" n="6"/>sitionem naturalem in subiecto corporeo, advertendum, ex
+<lb ed="#L" n="7"/>doctrina Sancti Thomae I II, q. cxir . quod intelligitur
+<lb ed="#L" n="8"/>de dispositione praecedente divinam actionem, et quam
+<lb ed="#L" n="9"/>ipse non causet: non autem de dispositione concomitante
+<lb ed="#L" n="10"/>formam, et ab ipso Deo simul cum forma causatam. Cum
+<lb ed="#L" n="11"/>enim oporteat formam et materiam esse proportionata,— quia
+<lb ed="#L" n="12"/>non omnis forma omni materiae convenit: non enim anima
+<lb ed="#L" n="13"/>intellectiva est receptibilis in materia lapidis tanquam illius
+<lb ed="#L" n="14"/>forma — necesse est ad hoc ut materia recipiat formam,
+<lb ed="#L" n="15"/>quod disponatur dispositionibus quibus illi formae 
+propor<lb ed="#L" break="no" n="16"/>tionatur. Sed differentia est inter Deum et agens naturale:
+<lb ed="#L" n="17"/>quia agens naturale, antequam inducat formam, praeexigit
+<lb ed="#L" n="18"/>in materia aliquas dispositiones ad formam ; Deus autem
+<lb ed="#L" n="19"/>non praeexigit in materia dispositiones, sed simul causare
+<lb ed="#L" n="20"/>potest formam et dispositiones, sicque simul et materiam
+<lb ed="#L" n="21"/>informare potest et ipsam ad formam disponere.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Nec obstat quod non infundit animam rationalem nisi 
+ma<lb ed="#L" break="no" n="23"/>teria fuerit per naturale agens disposita: — quia hoc non est
+<lb ed="#L" n="24"/>propter necessitatem, quasi videlicet aliter agere non possit,
+<lb ed="#L" n="25"/>cum primum hominem absque naturalis agentis dispositione
+<lb ed="#L" n="26"/>anima intellectiva informaverit, et etiam in resuscitatione
+<lb ed="#L" n="27"/>hominis materia non praedisponatur ab agente naturali:
+<lb ed="#L" n="28"/>sed ut aliquam causalitatem homini circa alteri hominis
+<lb ed="#L" n="29"/>productionem communicet.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>II. Tertio. Auxilium gratiae datur homini, non per 
+ge<lb ed="#L" break="no" n="31"/>nerationem, sed postquam iam est. Ergo etc. — Probatur
+<lb ed="#L" n="32"/>consequentia. Quia haec sola homo amissa recuperare non
+<lb ed="#L" n="33"/>potest quae per generationem ei adveniunt: eo quod homo
+<lb ed="#L" n="34"/>non potest iterum generari.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Quarto. Habitus acquisiti per actus, si amittantur, 
+pos<lb ed="#L" break="no" n="36"/>sunt per similes actus reacquiri. Ergo multo magis gratia
+<lb ed="#L" n="37"/>potest divina operatione reparari. — Probatur consequentia.
+<lb ed="#L" n="38"/>Quia gratia est quaedam habitualis dispositio in anima.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>Quinto. In homine, postquam in peccatum cecidit, 
+quan<lb ed="#L" break="no" n="40"/>diu status huius viae durat, remanet aptitudo ut moveatur
+<lb ed="#L" n="41"/>ad bonum: cuius signum est. quod remanet in eo boni
+<lb ed="#L" n="42"/>desiderium, et'dolor de malo. Ergo etc. — Probatur 
+con<lb ed="#L" break="no" n="43"/>sequentia. Quia quod natum est moveri ad aliquem finem,
+<lb ed="#L" n="44"/>potest in illum finem pervenire: alioquin frustra moveretur.
+<lb ed="#L" n="45"/>In operibus autem Dei nihil est frustra: sicut neque in
+<lb ed="#L" n="46"/>operibus naturae.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="47"/>III. Sexto. In anima humana, etiam post peccatum,
+<lb ed="#L" n="48"/>manet potentia ad bonum: quia per peccatum non 
+tol<lb ed="#L" break="no" n="49"/>luntur potentiae naturales, quibus anima ordinatur ad
+<lb ed="#L" n="50"/>suum bonum, Ergo etc. — Probatur consequentia. Quia,
+<lb ed="#L" n="51"/>cum nulla potentia passiva inveniatur in rerum natura
+<lb ed="#L" n="52"/>quae non possit reduci in actum per aliquam potentiam
+<lb ed="#L" n="53"/>activam naturalem, multo minus est aliqua potentia in
+<lb ed="#L" n="54"/>anima humana quae non sit reducibilis in actum per 
+po<lb ed="#L" break="no" n="55"/>tentiam activam divinam.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>2. Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="57"/>cum duplex sit potentia animae ad bonum, scilicet ad bonum
+<lb ed="#L" n="58"/>naturale, et ad bonum supernaturale; Iss loquitur Sanctus
+<lb ed="#L" n="59"/>Thomas de potentia animae ad bonum supernaturale : quia
+<lb ed="#L" n="60"/>loquitur de potentia ad susceptionem gratiae et ad 
+me<lb ed="#L" break="no" n="61"/>ritum, per divinam virtutem activam reducenda in actum.
+<lb ed="#L" n="62"/>Et quia potentia ad supernaturalia proprie potentia 
+obe<lb ed="#L" break="no" n="63"/>dientialis est, non autem naturalis: ideo, cum dicitur quod
+<lb ed="#L" n="64"/>anima est in potentia ad bonum, et est reducibilis ad actum
+<lb ed="#L" n="65"/>per divinam potentiam, intelligendum est de potentia 
+obe<lb ed="#L" break="no" n="66"/>dientiali.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Nec obstat quod probat Sanctus "Thomas post peccatum
+<lb ed="#L" n="68"/>remanere in anima potentiam ad bonum ex eo quod per
+<lb ed="#L" n="69"/>peccatum non tolluntur potentiae naturales, quibus anima
+<lb ed="#L" n="70"/>ordinatur ad bonum: - quia dupliciter possumus loqui de
+<lb ed="#L" n="71"/>potentia huiusmodi. Uno modo, quantum ad ipsam 
+qua<lb ed="#L" break="no" n="72"/>litatem animae quae dicitur eius potentia, secundum quam
+<lb ed="#L" n="73"/>est boni supernaturalis capax, verbi gratia de 1pso intellectu
+<lb ed="#L" n="74"/>et voluntate: alio modo, de ordine ipsius qualitatis ad
+<lb ed="#L" n="75"/>bonum. Si primo modo accipiamus, sic talis potentia est
+<lb ed="#L" n="76"/>naturalis, quia est qualitas naturam animae inseparabiliter
+<lb ed="#L" n="77"/>concomitans: unde potest dici naturalis in ordine ad 
+ani<lb ed="#L" break="no" n="78"/>mam. Si vero secundo modo, sic non est naturalis, sed
+<lb ed="#L" n="79"/>obedientialis in ordine ad bonum. Quia autem ista habitudo
+<lb ed="#L" n="80"/>secundum quam dicitur anima intellectiva in potentia 
+obe<lb ed="#L" break="no" n="81"/>dientiali ad bonum, fundatur super animae potentia quae
+<lb ed="#L" n="82"/>est eius naturalis qualitas; idcirco ostendit Sanctus Thomas
+<lb ed="#L" n="83"/>huiusmodi potentiam obedientialem manere post peccatum,
+<lb ed="#L" n="84"/>quia peccatum non tollit ipsas naturales potentias animae,
+<lb ed="#L" n="85"/>qualitates scilicet naturales ; non autem quia potentia 
+quan<lb ed="#L" break="no" n="86"/>tum ad ordinem ad bonum supernaturale sit naturalis.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>CowriRMATUR primo, auctoritate <ref>Isaiae 1</ref>, et <ref>Prov. x</ref>
+            </p>
+            <p>
+               <lb ed="#L" n="88"/>Confirmatur secundo, quia hoc continue petimus, 
+dicen<lb ed="#L" break="no" n="89"/>tes: <quote>Dimitte nobis debita nostra.</quote>
+            </p>
+            <p>
+               <lb ed="#L" n="90"/>Per hoc excluditur Novatianorum error, dicentium de
+<lb ed="#L" n="91"/>peccatis post baptismum commissis hominem veniam 
+con<lb ed="#L" break="no" n="92"/>sequi non posse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

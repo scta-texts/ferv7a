@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 46</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 46</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="123"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2083"><!-- ferv7a-l3c46 -->
+            <head>Capitulum 46</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="82" type="fixed=123"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="83"/>UA contra praedictam determinationem videntur esse 
+<lb ed="#L" n="84"/>quaedam Augustini verba, ideo Sanctus Thomas, ut 
+<lb ed="#L" n="85"/>ostendat Augustinum contra hanc veritatem non sentire,  
+<lb ed="#L" n="86"/>eius verba examinat, ostenditque illa nullatenus suae 
+sen<lb ed="#L" break="no" n="87"/>tentiae repugnare . 
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Verba <ref>Augustini, in IX de Trin.</ref> haec sunt: <quote source="http://scta.info/resource/adt-l9-d1e1043@147-172">Mens,  
+<lb ed="#L" n="89"/>sicut corporearum rerum notitias per sensus corporis 
+<lb ed="#L" n="90"/>colligit, sic incorporearum rerum per semetipsam. Ergo  
+<lb ed="#L" n="91"/>et seipsam per seipsam novit: quoniam est incorporea</quote>.  
+<lb ed="#L" n="92"/>Ex quibus. verbis videtur velle Augustinus quod mens 
+<lb ed="#L" n="93"/>seipsam per seipsam intelligat; et, intelligendo se, 
+intel<lb ed="#L" break="no" n="94"/>ligat substantias separatas; et per consequens quod in 
+<lb ed="#L" n="95"/>hac vita possimus cognoscere substantias separatas. Quod  
+<lb ed="#L" n="96"/>est contra praedicta. in potentia vel in habitu tantum,
+</p>
+            <p>
+               <lb ed="#L" n="97"/>I. Ad istam auctoritatem Augustini dicit duo Sanctus 
+<lb ed="#L" n="98"/>Thomas. Primum est, quod non est mens eius quod 
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="99"/>anima nostra possit per seipsam de se intelligere quid est:
+<lb ed="#L" n="100"/>hoc est, quod ipsamet sit principium quo se quantum ad
+<lb ed="#L" n="101"/>quid est intelligat, eo modo quo species intelligibilis hominis
+<lb ed="#L" n="102"/>est principium quo devenitur in cognitionem quidditatis
+<lb ed="#L" n="103"/>et essentiae hominis. Ostenditque et quod hoc est 
+impossi<lb ed="#L" break="no" n="104"/>bile; et quod est contra mentem Augustini et Aristotelis .
+<lb ed="#L" n="105"/>Arguit autem primo. Si hoc esset, semper anima 
+in<lb ed="#L" break="no" n="106"/>telligeret de se quid est: Hoc patet falsum esse. Ergo. —
+<lb ed="#L" n="107"/>Probatur sequela. Quia, cum potentia cognoscitiva sit actu
+<lb ed="#L" n="108"/>cognoscens per hoc quod cognitum  est in ipsa, si est
+<lb ed="#L" n="109"/>in ea in potentia, cognoscit in potentia; si in actu, 
+co<lb ed="#L" break="no" n="110"/>gnoscit in actu; si medio modo, cognoscit in habitu.
+<lb ed="#L" n="111"/>Ipsa autem anima semper adest sibi actu, et nunquam
+</p>
+            <p>
+               <lb ed="#L" n="112"/>II. Videtur autem quod ratio haec non concludat. Immo
+<lb ed="#L" n="113"/>eam solvit Sanctus Thomas in Qu. Verit, q. x, a. 8,
+<pb ed="#L" n="124"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ad 11, inquiens quod, sicut non: oportet ut semper 
+in<lb ed="#L" break="no" n="2"/>telligatur actu. illud cuius. notitia habitualiter habetur
+<lb ed="#L" n="3"/>per intentiones in intellectu. existentes, ita non oportet
+<lb ed="#L" n="4"/>quod mens semper actualiter intelligatur, cuius notitia
+<lb ed="#L" n="5"/>inest nobis habitualiter per hoc quod ipsa eius essentia
+<lb ed="#L" n="6"/>intellectui nostro est praesens. Ex quibus patet illam
+<lb ed="#L" n="7"/>conditionalem, et assumptum ad eius probationem, 
+sci<lb ed="#L" break="no" n="8"/>licet quod anima nunquam adsit sibi in. habitu tantum,
+<lb ed="#L" n="9"/>falsam esse.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>III. Ad huius evidentiam, considerandum est quod, c cum
+<lb ed="#L" n="11"/>ad hoc ut aliquid intelligatur. duo requirantur, scilicet
+<lb ed="#L" n="12"/>quod sit intellectum in actu, et quod fiat unum cum
+<lb ed="#L" n="13"/>intelligente, quanto magis intellectum in actu fuerit unum
+<lb ed="#L" n="14"/>cum intelligente, tanto magis habet ut a tali intellectu
+<lb ed="#L" n="15"/>intelligatur. Ideo, si fuerit unum cum ipso non totaliter
+<lb ed="#L" n="16"/>in actu, sed partim in potentia et partim in actu, 
+intel<lb ed="#L" break="no" n="17"/>ligitur, ut inquit Sanctus Thomas, non in actu perfecto,
+<lb ed="#L" n="18"/>sed partim in actu et partim in potentia, quod est 
+habi<lb ed="#L" break="no" n="19"/>tualiter intelligi. Si autem sit unum cum ipso perfecte in
+<lb ed="#L" n="20"/>actu, perfecte et secundum actualem considerationem 
+in<lb ed="#L" break="no" n="21"/>telligitur.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Aliter autem contingit intelligibile esse unum cum 
+in<lb ed="#L" break="no" n="23"/>telligente cum idem intelligit seipsum per seipsum 
+imme<lb ed="#L" break="no" n="24"/>diate: et aliter cum intelligit aliud a se. Cum enim aliquod
+<lb ed="#L" n="25"/>intellectum in actu intelligit se per seipsum, ita quod
+<lb ed="#L" n="26"/>sola praesentialitas sui est sibi ratio quod a seipso 
+co<lb ed="#L" break="no" n="27"/>gnoscatur, intelligens et intellectum sunt omnino unum:
+<lb ed="#L" n="28"/>quia essentia intelligentis, et id quo intelligit, sunt omnino
+<lb ed="#L" n="29"/>eadem res. Cum autem intelligens intelligit aliquid aliud
+<lb ed="#L" n="30"/>a se, non sunt omnino unum et idem intelligens et 
+in<lb ed="#L" break="no" n="31"/>tellectum, sive id quo intelligit, sed sunt unum per
+<lb ed="#L" n="32"/>quandam unionem: inquantum videlicet intellectum unitur
+<lb ed="#L" n="33"/>intelligenti aut per suam substantiam, aut per speciem
+<lb ed="#L" n="34"/>intelligibilem. Unam autem et eandem rem numero non
+<lb ed="#L" n="35"/>contingit esse magis et minus, sive perfectius et 
+imper<lb ed="#L" break="no" n="36"/>fectius, eandem sibi ipsi, sed semper est eadem sibi realiter
+<lb ed="#L" n="37"/>perfecto modo. Sed bene unum et idem contingit 
+per<lb ed="#L" break="no" n="38"/>fectius et minus perfecte alteri uniri. Ideo, si perfecta
+<lb ed="#L" n="39"/>identitas est ratio quod aliquid, seipsum cognoscat 
+quid<lb ed="#L" break="no" n="40"/>ditative, oportet quod illud seipsum semper quidditative
+<lb ed="#L" n="41"/>cognoscat: cum nunquam tale intellectum sit idem cum
+<lb ed="#L" n="42"/>intelligente imperfecto modo, sed semper sit illi perfecto
+<lb ed="#L" n="43"/>modo idem. Non autem, si unio perfecta intellecti cum
+<lb ed="#L" n="44"/>intelligente est causa quod aliquid actu intelligatur, oportet
+<lb ed="#L" n="45"/>quod semper intelligatur actu: quia non semper eius est
+<lb ed="#L" n="46"/>perfecta unio cum intelligente, sed aliquando imperfecta.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Ex his patet processum Sancti Thomae efficacem esse.
+<lb ed="#L" n="48"/>Quia enim anima sibi semper adest per identitatem; et
+<lb ed="#L" n="49"/>nunquam in potentia vel in habitu. tantum, quod est esse
+<lb ed="#L" n="50"/>aliquo modo unum, aliquo modo non unum: si 
+intelli<lb ed="#L" break="no" n="51"/>genti praesentialitas et identitas ad seipsam est sibi ratio
+<lb ed="#L" n="52"/>quod seipsam quidditative intelligat, sequitur quod seipsam
+<lb ed="#L" n="53"/>semper intelligat, propter perfectam unionem et 
+praesen<lb ed="#L" break="no" n="54"/>tiam ad seipsam, quae semper illi adest. Unde responsio
+<lb ed="#L" n="55"/>ad rationem Sancti "Thomae nulla est. Nec est simile de
+<lb ed="#L" n="56"/>eo quod cognoscitur per intentionem suam existentem
+<lb ed="#L" n="57"/>in intellectu, et de anima se per seipsam cognoscente,
+<lb ed="#L" n="58"/>ut ostensum est. Quia tale intelligibile non est semper
+<lb ed="#L" n="59"/>unitum intellectui perfecto modo, sicut anima sibi ipsi:
+<lb ed="#L" n="60"/>sed aliquando imperfecto modo. Idcirco aliquando 
+co<lb ed="#L" break="no" n="61"/>gnoscitur actu, aliquando vero habitu tantum. — Quid
+<lb ed="#L" n="62"/>autem intendat Sanctus Thomas in illa responsione , 
+di<lb ed="#L" break="no" n="63"/>cetur in conclusione secunda 
+</p>
+            <p>
+               <lb ed="#L" n="64"/>IV. Secundo . Hoc dato, omnes homines cognoscerent
+<lb ed="#L" n="65"/>de anima quid est: cum omnes habeant animam. Hoc
+<lb ed="#L" n="66"/>est falsum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Tertio. Sequitur quod quid sit anima, erit naturaliter
+<lb ed="#L" n="68"/>notum. Ergo nullus circa animam quid est, erraret. Hoc
+<lb ed="#L" n="69"/>est falsum: ut constat ex variis opinionibus de natura
+<lb ed="#L" n="70"/>animae. Ergo etc; — Probatur prima consequentia. Quia
+<lb ed="#L" n="71"/>cognitio quae fit. per aliquid naturaliter nobis inditum,
+<lb ed="#L" n="72"/>est naturalis: ut patet de primis principiis, quae 
+co<lb ed="#L" break="no" n="73"/>gnoscuntur per lumen intellectus agentis. — Secunda
+<lb ed="#L" n="74"/>quoque probatur. Quia in iis quae naturaliter nota sunt,
+<lb ed="#L" n="75"/>nullus errare potest: ut etiam circa prima principia patet.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Circa istam propositionem, Cognitio quae fit per aliquid
+<lb ed="#L" n="77"/>naturaliter nobis inditum, est naturalis, advertendum
+<lb ed="#L" n="78"/>quod cognitio potest dici naturalis dupliciter. Uno modo,
+<lb ed="#L" n="79"/>ut distinguitur contra supernaturaliter habitam, sive contra
+<lb ed="#L" n="80"/>acceptam a superiori lumine quam sit lumen intellectus
+<lb ed="#L" n="81"/>agentis. Et sic omnis' cognitio a nobis virtute principii
+<lb ed="#L" n="82"/>naturalis quomodocumque, sive, inquain, immediate sive
+<lb ed="#L" n="83"/>mediate acquisita, dicitur naturalis. Hoc modo non 
+ac<lb ed="#L" break="no" n="84"/>cipitur hic. — Alio modo, ut distinguitur contra 
+cogni<lb ed="#L" break="no" n="85"/>tionem per studium et exercitium acquisitam: et sic dicitur
+<lb ed="#L" n="86"/>cognitio naturalis illa quae statim et absque inquisitione
+<lb ed="#L" n="87"/>aliqua in intellectu causatur. Et hoc modo accipitur hic.
+<lb ed="#L" n="88"/>Nam talis per principium aliquod naturale immediate,
+<lb ed="#L" n="89"/>idest nulla mediante cognitione, causatur in nobis: sicut
+<lb ed="#L" n="90"/>primorum principiorum cognitio immediate a lumine 
+in<lb ed="#L" break="no" n="91"/>tellectus agentis causatur; non quidem actualis, sed 
+habi<lb ed="#L" break="no" n="92"/>tualis, quia, ut superius  de mente Sancti Thomae est
+<lb ed="#L" n="93"/>ostensum, intellectus agens non est ipse habitus 
+primo<lb ed="#L" break="no" n="94"/>rum principiorum, sed est eius causa, inicio
+<lb ed="#L" n="95"/>tasmata, quae ex sensibus accipiuntur.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Quarto. Si illud est, erit per se notum quid est anima.
+<lb ed="#L" n="97"/>Ergo erit primo notum, et principium cognoscendi alia.
+<lb ed="#L" n="98"/>Hoc est falsum: cum non supponatur in scientia quasi
+<lb ed="#L" n="99"/>notum quid est anima, sed proponatur inquirendum.
+<lb ed="#L" n="100"/>Ergo etc. — Patet prima consequentia. Quia per ipsammet
+<lb ed="#L" n="101"/>animam erit notum. — Secunda vero probatur. Quia in
+<lb ed="#L" n="102"/>quolibet ordine quod est per se, est prius eo quod est
+<lb ed="#L" n="103"/>per aliud, et principium eius.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>2. Quinto. Ostenditur et hoc esse de mente Augustini,
+<lb ed="#L" n="105"/>auctoritate ipsius in X de 7Tim., ubi vult quod anima
+<lb ed="#L" n="106"/>cognoscit quidem seipsam quasi praesentem, non tamen
+<lb ed="#L" n="107"/>quasi ab aliis distinctam, quod esset cognoscere ipsam
+<lb ed="#L" n="108"/>quid est, Nam scitur de re quid est quando scitur prout
+<lb ed="#L" n="109"/>est ab aliis distincta.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Ex hoc etiam patet quod in verbis in principio 
+capi<lb ed="#L" break="no" n="111"/>tuli adductis, non voluit Augustinus quod anima 
+co<lb ed="#L" break="no" n="112"/>gnoscat de se quid est per seipsam.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Sexto arguitur auctoritate Aristotelis. Intellectus 
+pos<lb ed="#L" break="no" n="114"/>sibilis intelligit se sicut alia: ut dicitur III de Anima,
+<lb ed="#L" n="115"/>text. 16 . Ergo non per seipsum.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Ad evidentiam antecedentis, notat Sanctus Thomas
+<lb ed="#L" n="117"/>quod aliter loquendum est. de intellectu nostro, et aliter
+<lb ed="#L" n="118"/>de substantiis separatis. Intellectus enim noster, in se 
+con<lb ed="#L" break="no" n="119"/>sideratus, est solum in potentia ad esse intelligibile; nihil
+<lb ed="#L" n="120"/>autem cognoscitur secundum quod est in potentia, sed
+<lb ed="#L" n="121"/>secundum quod est in actu; ideo se intelligit non per
+<lb ed="#L" n="122"/>seipsum, sed per speciem intelligibilem, qua fit in actu
+<lb ed="#L" n="123"/>in genere intelligibilium et actu intelligens. Substantiae
+<lb ed="#L" n="124"/>autem separatae, quia sunt aliquid actu in genere 
+intel<lb ed="#L" break="no" n="125"/>ligibilium, de se intelligunt quid sunt per suas substantias.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Quomodo anima intellectiva — pro eodem enim hic 
+acci<lb ed="#L" break="no" n="127"/>pitur anima intellectiva, et intellectus possibilis, et mens:
+<lb ed="#L" n="128"/>quia consideratur ipsa anima ut virtutem intelligendi habet —
+<lb ed="#L" n="129"/>sit pura potentia in genere intelligibilium, et constituitur
+<lb ed="#L" n="130"/>in actu per speciem intelligibilem, ostensum est in 
+se<lb ed="#L" break="no" n="131"/>cundo libro. .
+</p>
+            <p>
+               <lb ed="#L" n="132"/>V. Unum tantum occurrit dubium, quod in illo loco
+<lb ed="#L" n="133"/>tactum non fuit. Nam multoties, de mente Aristotelis
+<lb ed="#L" n="134"/>III de Anima , dictum est quod anima intellectiva, 
+vir<lb ed="#L" break="no" n="135"/>tute intellectus agentis, facit res materiales actu 
+intelligi<lb ed="#L" break="no" n="136"/>biles, quae prius erant intelligibiles in potentia. Hoc enim
+<lb ed="#L" n="137"/>falsum vjdetur. Nam non potest facere intelligibilia in actu
+<lb ed="#L" n="138"/>nisi quod est actu intelligibile: sicut non potest facere
+<lb ed="#L" n="139"/>actu calidum quod mon est actu calidum. Ergo anima
+<lb ed="#L" n="140"/>intellectiva est in genere intelligibilium, non sicut im
+<lb ed="#L" n="141"/>potentia, sed sicut existens in actu.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>s Respondetur quod dupliciter aliquid potest dici 
+in<lb ed="#L" break="no" n="143"/>telligibile in actu in ratione obiecti: uno modo; quia est
+<lb ed="#L" n="144"/>ex natura sua actu intelligibile, sive ex natura suae speciei
+<lb ed="#L" n="145"/>habet ut possit primo movere aut terminare intellectum ;
+<lb ed="#L" n="146"/>alio modo, quia non est ex natura suae speciei actu 
+in<lb ed="#L" break="no" n="147"/>telligibile, sed ex alio sibi accidentaliter advenit. Quod
+<lb ed="#L" n="148"/>facit aliquod intelligibile in actu primo modo, oportet esse
+<lb ed="#L" n="149"/>ut sit intellectum in actu secundum se: sicut Deus, qui
+<lb ed="#L" n="150"/>intelligentias producit, est secundum se maxime intelli-
+<pb ed="#L" n="125"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>gibilis. Sed hoc modo intellectus agens non facit 
+intelligi<lb ed="#L" break="no" n="2"/>bilia in actu: non enim producit res materiales per se
+<lb ed="#L" n="3"/>subsistentes extra materiam individualem. -. Quod autem
+<lb ed="#L" n="4"/>facit aliquod intelligibile in actu secundo modo, non
+<lb ed="#L" n="5"/>oportet ut sit secundum se actu intellectum, sed. sufficit
+<lb ed="#L" n="6"/>quod sit aliquid de genere intelligibilium et substantiarum
+<lb ed="#L" n="7"/>intellectivarum, natum acquirere perfectionem suam ab
+<lb ed="#L" n="8"/>alio. Hoc autem modo anima intellectiva per intellectum
+<lb ed="#L" n="9"/>agentem facit intelligibilia in actu: inquantum res quae
+<lb ed="#L" n="10"/>in seipsis materiales sunt, facit immateriales, non quidem
+<lb ed="#L" n="11"/>in seipsis et extra intellectum, sed in intellectu possibili,
+<lb ed="#L" n="12"/>ex qua immaterialitate habent ut sint actu intelligibiles.
+<lb ed="#L" n="13"/>Ideo anima intellectiva, ut factiva talium intelligibilium,
+<lb ed="#L" n="14"/>est quidem actu intelligibilis sicut id quo aliquid est 
+in<lb ed="#L" break="no" n="15"/>telligibile in actu: non autem sicut id quod ex se. natum
+<lb ed="#L" n="16"/>est intelligi. Unde Sanctus Thomas in QQ. Verit., q. x,
+<lb ed="#L" n="17"/>a; 8, in resp. ad 10 secundo loco solutorum, ait quod
+<lb ed="#L" n="18"/>lumen. intellectus agentis per seipsum a nobis intelligitur
+<lb ed="#L" n="19"/>inquantum est ratio specierum intelligibilium, faciens eas
+<lb ed="#L" n="20"/>intelligibiles actu: sicut lux corporalis videtur inquantum
+<lb ed="#L" n="21"/>est ratio visibilitatis visibilium. Et Prima, q. rxxxvm ,
+<lb ed="#L" n="22"/>inquit quod lumen intellectus agentis est actus ipsorum
+<lb ed="#L" n="23"/>intelligibilium.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>3. Si autem instetur quod tunc res materialis, 
+intelli<lb ed="#L" break="no" n="25"/>gibilis facta, perfectius erit in genere intelligibilium quam
+<lb ed="#L" n="26"/>anima intellectiva: quia et erit de genere intelligibilium,
+<lb ed="#L" n="27"/>et in illo genere se habebit sicut actus, sive sicut ens in
+<lb ed="#L" n="28"/>actu: — dicitur quod non est inconveniens rem materialem,
+<lb ed="#L" n="29"/>ut abstractam, esse secundum quid perfectiori modo in
+<lb ed="#L" n="30"/>genere intelligibilium quam anima secundum 
+participa<lb ed="#L" break="no" n="31"/>tionem quandam ab alio acceptam, non autem per suam
+<lb ed="#L" n="32"/>essentiam. Simpliciter tamen anima intellectiva habet esse
+<lb ed="#L" n="33"/>perfectius in illo genere. Quia ipsa, licet infimum locum
+<lb ed="#L" n="34"/>teneat inter substantias intellectuales, est tamen per se
+<lb ed="#L" n="35"/>in illo genere uti substantia per se subsistens et 
+intel<lb ed="#L" break="no" n="36"/>lectiva: et etiam ut intelligibilis actu ut quo aliud est actu
+<lb ed="#L" n="37"/>intelligibile, Natura autem materialis non est in illo genere
+<lb ed="#L" n="38"/>ut substantia per se subsistens, nec ut natura intellectiva:
+<lb ed="#L" n="39"/>sed per esse accidentale quod habet in intellectu, secundum
+<lb ed="#L" n="40"/>quod est virtute intellectus agentis immaterialis effecta.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>VI. Secundum quod inquit Sanctus Thomas , est quod
+<lb ed="#L" n="42"/>intentio beati Augustini est mentem seipsam cognoscere
+<lb ed="#L" n="43"/>per seipsam inquantum de se cognoscit quod est, id est,
+<lb ed="#L" n="44"/>inquantum cognoscit se esse: et. sic cognoscendo seipsam,
+<lb ed="#L" n="45"/>cognoscit de substantiis separatis quia sunt, non autem
+<lb ed="#L" n="46"/>quid sunt. Nisi enim ex seipsa anima cognosceret hoc
+<lb ed="#L" n="47"/>ipsum quod est intellectuale, nequaquam cognosceremus,
+<lb ed="#L" n="48"/>sive per demonstrationem sive per fidem, aliquas 
+substan<lb ed="#L" break="no" n="49"/>tias intellectuales esse. Cuius signum est quod scientia
+<lb ed="#L" n="50"/>de intellectu animae oportet uti tanquam principio ad
+<lb ed="#L" n="51"/>omnia quae de substantiis separatis .cognoscimus.
+<lb ed="#L" n="52"/>Probat autem Sanctus Thomas quod anima se esse
+<lb ed="#L" n="53"/>per seipsam cognoscat, sic. Anima, ex eo quod percipit
+<lb ed="#L" n="54"/>se agere, percipit se esse. Sed agit per seipsam. Ergo
+<lb ed="#L" n="55"/>et se esse per seipsam cognoscit.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>2. Sed quia posset aliquis instare: Licet anima per
+<lb ed="#L" n="57"/>seipsam non.cognoscat de se quid est, sed tantum quia
+<lb ed="#L" n="58"/>est, per scientias tamen. speculativas potest devenire ad
+<lb ed="#L" n="59"/>hoc ut cognoscat de se quid est. Ergo, quamvis per
+<lb ed="#L" n="60"/>cognitionem qua anima cognoscit se esse, non deveniamus
+<lb ed="#L" n="61"/>ad cognitionem substantiarum separatarum nisi quia sunt,
+<lb ed="#L" n="62"/>per scientias tamen speculativas. ad illam pervenire 
+pote<lb ed="#L" break="no" n="63"/>rimus: - respondet Sanctus Thomas quod non est eadem
+<lb ed="#L" n="64"/>ratio. Quia intelligere nostrum, per quod devenimus ad
+<lb ed="#L" n="65"/>cognoscendum quid est anima, est multum. remotum ab
+<lb ed="#L" n="66"/>intelligentia substantiae separatae, idest, ab ipso 
+intelli<lb ed="#L" break="no" n="67"/>gere qui est actus.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Addit autem quod tamen, cognoscendo quid est anima,
+<lb ed="#L" n="69"/>potest perveniri ad sciendum aliquod genus remotum
+<lb ed="#L" n="70"/>substantiarum separatarum.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>INFERT POSTREMO ex dictis hoc corollarium  ; quod simile
+<lb ed="#L" n="72"/>est de iis quae sunt in anima nostra, scilicet de habitibus
+<lb ed="#L" n="73"/>et potentiis, sicut et de anima. Quia inquantum eorum
+<lb ed="#L" n="74"/>actus percipimus, scimus quia sunt: quid vero sunt, ex
+<lb ed="#L" n="75"/>actuum qualitate invenimus,
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>VII. Circa rationem qua probatur animam se esse per
+<lb ed="#L" n="77"/>seipsam cognoscere, dubitatur. Ex illa enim maiore videtur
+<lb ed="#L" n="78"/>sequi oppositum intenti, sic arguendo. Anima ex eo quod
+<lb ed="#L" n="79"/>percipit se agere, percipit se esse. Sed suum agere non
+<lb ed="#L" n="80"/>est ipsamet. Ergo. se esse per aliud, non per seipsam 
+co<lb ed="#L" break="no" n="81"/>gnoscit. Unde in Prima Parte  concludit Sanctus Thomas
+<lb ed="#L" n="82"/>quod Sortes vel Plato non per ipsam animam, sed per
+<lb ed="#L" n="83"/>eius actus cognoscit se habere animam.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>2. Respondetur, ex doctrina Sancti Thomae Verit., q. x,
+<lb ed="#L" n="85"/>a. 8 et 9, quod dupliciter potest anima cognosci esse:
+<lb ed="#L" n="86"/>scilicet actualiter; et habitualiter. Si loquamur de 
+cogni<lb ed="#L" break="no" n="87"/>tione actuali, sic animam non cognoscit aliquis se habere
+<lb ed="#L" n="88"/>per ipsam animam, sed per suos actus: puta per sentire,
+<lb ed="#L" n="89"/>intelligere, moveri, et huiusmodi. Et de hac cognitione
+<lb ed="#L" n="90"/>loquitur Sanctus Thomas Prima Parte. — Si vero loquamur
+<lb ed="#L" n="91"/>de cognitione habituali, sic aliquis per ipsammet animam,
+<lb ed="#L" n="92"/>ex eo scilicet quod est sibi cp cognoscit se habere
+<lb ed="#L" n="93"/>animam.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Ratio ergo Sancti Thomae cuniindit; non de 
+cogni<lb ed="#L" break="no" n="95"/>tione actuali, sed de cognitione habituali. Ex hoc enim
+<lb ed="#L" n="96"/>quod anima actualiter se esse cognoscit quia cognoscit
+<lb ed="#L" n="97"/>se agere, cum ipsa per seipsam sit principium illius actionis,
+<lb ed="#L" n="98"/>qua cognita, cognoscitur esse anima; sequitur quod ipsa
+<lb ed="#L" n="99"/>praesentia animae est ratio quare sit potens exire in actum
+<lb ed="#L" n="100"/>cognitionis sui ipsius, quod est ipsam se esse per seipsam
+<lb ed="#L" n="101"/>habitualiter cognoscere.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Cum deducitur ex illa maiore ratio ad oppositum, 
+di<lb ed="#L" break="no" n="103"/>citur quod utique concluditur per illam animam non per
+<lb ed="#L" n="104"/>seipsam, sed per aliud, scilicet per suos actus, cognoscere
+<lb ed="#L" n="105"/>seipsam. actualiter: non autem quod non cognoscatur
+<lb ed="#L" n="106"/>habitualiter per seipsam. Immo ex illamet maiore, 
+sub<lb ed="#L" break="no" n="107"/>sumpta minore. quam subsumit Sanctus Thomas, scilicet
+<lb ed="#L" n="108"/>quod per seipsam agit, sequitur quod per seipsam 
+habi<lb ed="#L" break="no" n="109"/>tualiter cognoscatur.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>3. Ad evidentiam autem huius responsionis, duo sunt
+<lb ed="#L" n="111"/>consideranda. Primum est, quod actus et operationes
+<lb ed="#L" n="112"/>animae dupliciter cognosci possunt: uno modo, quantum
+<lb ed="#L" n="113"/>ad esse ipsorum; alio modo, quantum ad ipsorum 
+con<lb ed="#L" break="no" n="114"/>ditionem et naturam. Primo modo, sunt medium per quod
+<lb ed="#L" n="115"/>anima devenit in cognitionem sui ipsius actualem quod
+<lb ed="#L" n="116"/>sit: ex eo enim quod aliquis cognoscit se operari 
+opera<lb ed="#L" break="no" n="117"/>tiones animae, cognoscit se habere animam. Ideo dixit
+<lb ed="#L" n="118"/>Sanctus Thomas quod .ex hoc quod percipit se agere, 
+co<lb ed="#L" break="no" n="119"/>gnoscit se esse: ut daret intelligere quod non 
+qualiscum<lb ed="#L" break="no" n="120"/>que cognitio actuum ducit in cognitionem esse animae, sed
+<lb ed="#L" n="121"/>illa cognitio qua cognoscit aliquis.sibi inesse animae actus.
+<lb ed="#L" n="122"/>- Secundo autem modo, sunt principium cognitionis animae
+<lb ed="#L" n="123"/>quantum ad quid est. Unde dixit Sanctus Thomas quod
+<lb ed="#L" n="124"/>Aristoteles ex ipso intelligere demonstrat naturam. 
+intel<lb ed="#L" break="no" n="125"/>lectus possibilis, scilicet quod sit immixtus et incorruptibilis.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Secundum est, quod aliquid per essentiam suam 
+co<lb ed="#L" break="no" n="127"/>gnoscere se esse actuali cognitione, est praesentiam suae
+<lb ed="#L" n="128"/>essentiae ad intellectum facere actualiter cognosci quod
+<lb ed="#L" n="129"/>ipsum est, nullo alio requisito: sicut substantiam. 
+sepa<lb ed="#L" break="no" n="130"/>ratam dicimus. se semper actu cognoscere per seipsam,
+<lb ed="#L" n="131"/>quia ipsa sola praesentia suae substantiae ad eius 
+intel<lb ed="#L" break="no" n="132"/>lectum, facit. ut seipsam actu intelligat. Cognoscere autem
+<lb ed="#L" n="133"/>se esse habituali cognitione per suam essentiam, est ipsam
+<lb ed="#L" n="134"/>solam praesentiam essentiae facere ut ipsum sit potens
+<lb ed="#L" n="135"/>progredi in actum cognitionis suae existentiae. Quia ergo
+<lb ed="#L" n="136"/>sola praesentia animae in.aliquo non facit ut aliquis 
+actua<lb ed="#L" break="no" n="137"/>liter cognoscat se animam habere, alioquin unusquisque
+<lb ed="#L" n="138"/>semper actualiter cognosceret se habere animam, quia
+<lb ed="#L" n="139"/>semper anima sibi est praesens; sed requiritur quod ab
+<lb ed="#L" n="140"/>ipsa anima egrediantur actus, in quibus ipsius animae
+<lb ed="#L" n="141"/>existentia cognoscatur, sicut, cum cognoscitur alicui inesse
+<lb ed="#L" n="142"/>aliqua actio, cognoscitur inesse principia talis actionis:
+<lb ed="#L" n="143"/>ideo. bene inquit Sanctus Thomas  quod anima actuali
+<lb ed="#L" n="144"/>cognitione non cognoscit per essentiam suam se esse,
+<lb ed="#L" n="145"/>habitualiter autem se per suam essentiam cognoscit; quia
+<lb ed="#L" n="146"/>non requiritur aliquis habitus ad hoc ut percipiat se et quid
+<lb ed="#L" n="147"/>in seipsa agatur, sed ad hoc sufficit ipsa animae essentia,
+<lb ed="#L" n="148"/>quae menti est praesens, sicut et ex ea progrediuntur actus
+<lb ed="#L" n="149"/>in quibus esse cognoscitur. Unde Sanctus Thomas in sua
+<lb ed="#L" n="150"/>ratione, ex eo quod anima per se, hoc est per virtutem
+<pb ed="#L" n="126"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>suae naturae, agit, concludit quod per seipsam intelligit 
+<lb ed="#L" n="2"/>de se quod est, scilicet habitualiter, inquantum per eius 
+<lb ed="#L" n="3"/>praesentiam potens est aliquis cognoscere de ipsa quod sit, 
+<lb ed="#L" n="4"/>eliciendo actus in quibus cognoscitur.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>VIII. Sed multa circa hanc declarationem | insurgunt 
+<lb ed="#L" n="6"/>dubia. Primum est. Anima in nullum actum cognitionis 
+<lb ed="#L" n="7"/>potest exire nisi, per speciem intelligibilem actuetur: cum
+<lb ed="#L" n="8"/>Sit pura potentia in genere intelligibilium, ut superius  est
+<lb ed="#L" n="9"/>dictum. Ergo per essentiam suam neque potest aliud a se
+<lb ed="#L" n="10"/>intelligere, neque intelligere se intelligere, neque se esse:
+<lb ed="#L" n="11"/>sed indiget aliquo habitu, sive aliqua specie, ad hoc ut
+<lb ed="#L" n="12"/>percipiat se esse. Ergo non per solam suam praesentiam
+<lb ed="#L" n="13"/>potest aliquis cognoscere se habere animam. Ergo non
+<lb ed="#L" n="14"/>cognoscit se esse habitualiter per suam essentiam.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Secundum est, quia superius  dixit Sanctus Thomas
+<lb ed="#L" n="16"/>quod anima semper adest sibi, non secundum potentiam
+<lb ed="#L" n="17"/>vel in habitu tantum, sed in actu. Ergo non cognoscit
+<lb ed="#L" n="18"/>se esse habitualiter per seipsam: per illud enim aliquid
+<lb ed="#L" n="19"/>habitualiter tantum cognoscitur, quod est habitualiter in
+<lb ed="#L" n="20"/>intellectu.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Tertium est. Sicut per actus animae cognoscitur anima
+<lb ed="#L" n="22"/>esse, ita per ipsos devenitur in cognitionem eius quid est,
+<lb ed="#L" n="23"/>licet alio et alio modo. Ergo si, quia per seipsam 
+pro<lb ed="#L" break="no" n="24"/>ducit actus in quibus cognoscitur ipsam esse, dicitur
+<lb ed="#L" n="25"/>seipsam cognoscere habitualiter quod sit, eadem ratione |
+<lb ed="#L" n="26"/>dicetur et seipsam se habitualiter cognoscere quantum
+<lb ed="#L" n="27"/>ad quid est.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>IX. Pro solutione primi dubii, considerandum . est
+<lb ed="#L" n="29"/>quod, cum operatio demonstret omne suum principium
+<lb ed="#L" n="30"/>esse, quia non potest operatio esse nisi omnia eius 
+prin<lb ed="#L" break="no" n="31"/>cipia ponantur; quomodocumque aliqua sint principia
+<lb ed="#L" n="32"/>operationis, praesertim proxima, illa per operationem 
+co<lb ed="#L" break="no" n="33"/>gnoscuntur. Et si talis operatio sit cognitio, ipsa sola
+<lb ed="#L" n="34"/>praesentia uniuscuiusque principii est ratio ut illud 
+prin<lb ed="#L" break="no" n="35"/>cipium possit cognosci esse: cum omne principium 
+co<lb ed="#L" break="no" n="36"/>gnitionis per se in suo ordine ad operationem concurrat.
+<lb ed="#L" n="37"/>Sicut enim calor est ratio quare calidum possit calefacere,
+<lb ed="#L" n="38"/>ita quodlibet principium cognitionis est ratio quare 
+co<lb ed="#L" break="no" n="39"/>gnoscens possit cognitionem elicere. Et'quia ex cognitione
+<lb ed="#L" n="40"/>natum est cognosci principium cognitionis esse, sicut ex
+<lb ed="#L" n="41"/>quacumque operatione potest principium operationis 
+co<lb ed="#L" break="no" n="42"/>gnosci ; ideo praesentia principii cognitionis in cognoscente
+<lb ed="#L" n="43"/>est ratio ut cognoscens possit cognoscere illud principium
+<lb ed="#L" n="44"/>esse. Unde et natura intellectiva, quae per seipsam est
+<lb ed="#L" n="45"/>principium intellectionis per modum intellectivi (nomine
+<lb ed="#L" n="46"/>naturae intellectivae comprehendendo intellectum), est sibi
+<lb ed="#L" n="47"/>ratio ut cognoscat se intelligere, et sic cognoscat se esse.
+<lb ed="#L" n="48"/>Et similiter species intelligibilis, quae concurrit ad 
+intel<lb ed="#L" break="no" n="49"/>lectionem per modum formae actuantis intellectum, per
+<lb ed="#L" n="50"/>solam suam praesentiam in intellectu est ratio ut 
+co<lb ed="#L" break="no" n="51"/>gnoscatur esse ab eo qui novit ad actum intellectionis
+<lb ed="#L" n="52"/>speciem aliquam intelligibilem concurrere, inquantum per
+<lb ed="#L" n="53"/>seipsam in suo ordine est causa intellectionis, et per 
+in<lb ed="#L" break="no" n="54"/>tellectionem cognoscitur esse. Idem est de omni habitu
+<lb ed="#L" n="55"/>intellectus. Et sic patet quod per seipsam tam essentia
+<lb ed="#L" n="56"/>animae quam species intelligibilis et habitus, est id per
+<lb ed="#L" n="57"/>quod aliquis est potens coguoscere se habere animam,
+<lb ed="#L" n="58"/>aut se habere speciem intelligibilem aut habitum.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Ex iis patet quod ista consequentia non valet, Anima
+<lb ed="#L" n="60"/>intellectiva non potest exire in actum intellectionis nisi
+<lb ed="#L" n="61"/>per speciem intelligibilem actuetur. Ergo per essentiam
+<lb ed="#L" n="62"/>suam non polest intelligere se intelligere neque se esse,
+<lb ed="#L" n="63"/>tanquam ratio ex parte cognoscentis se tenens, et medium
+<lb ed="#L" n="64"/>quo se habitualiter intelligat, non enim species 
+intelligi<lb ed="#L" break="no" n="65"/>bilis facit ut anima habeat potentiam intellectivam, cum
+<lb ed="#L" n="66"/>illa propriam naturam animae consequatur: sed bene 
+se<lb ed="#L" break="no" n="67"/>quitur, Ergo non potest se intelligere per seipsam 
+tan<lb ed="#L" break="no" n="68"/>quam per totale et completum principium productivum
+<lb ed="#L" n="69"/>intellectionis. Sicut. non sequitur, Species intelligibilis
+<lb ed="#L" n="70"/>non potest exire.in actum | intellectionis nisi simul cum
+<lb ed="#L" n="71"/>potentia intellectiva, et nisi adsit intentio applicans 
+spe<lb ed="#L" break="no" n="72"/>ciem ad actum. Ergo non est per seipsam ratio ut 
+co<lb ed="#L" break="no" n="73"/>gnosci possit esse, tanquam principium intellectionis: sed
+<lb ed="#L" n="74"/>bene sequitur, Ergo mon est totale principium talis 
+in<lb ed="#L" break="no" n="75"/>tellectionis actualis.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>X. Ad secundum  dicitur quod animam adesse sibi 
+du<lb ed="#L" break="no" n="77"/>pliciter potest intelligi: uno modo absolute, quantum ad
+<lb ed="#L" n="78"/>suam naturam absolute consideratam; alio modo, praecise
+<lb ed="#L" n="79"/>tanquam ratio cognoscendi apud intellectum. Primo modo
+<lb ed="#L" n="80"/>intellexit Sanctus Thomas in prima ratione huius capituli.
+<lb ed="#L" n="81"/>Anima enim non aliquando est eadem sibi ipsi imperfecte,
+<lb ed="#L" n="82"/>aliquando perfecte, ut possit dici. adesse sibi aliquando
+<lb ed="#L" n="83"/>secundum habitum, aliquando secundum actum: sed. 
+sem<lb ed="#L" break="no" n="84"/>per perfecte, ut ibi est declaratum . Et ideo deducebat
+<lb ed="#L" n="85"/>Sanctus Thomas quod anima semper de se intelligeret
+<lb ed="#L" n="86"/>actu quid est, si ex eo solo anima de se cognoscit quid
+<lb ed="#L" n="87"/>est quia adest sibi absolute per identitatem: cum semper
+<lb ed="#L" n="88"/>sibi perfecto modo adsit. - In hac autem responsione,
+<lb ed="#L" n="89"/>sumpta ex QQ. de Verit., animam adesse sibi intelligit
+<lb ed="#L" n="90"/>Sanctus Thomas secundo modo. Non enim inconvenit
+<lb ed="#L" n="91"/>animam adesse intellectui ut rationem alicuius. cognitionis
+<lb ed="#L" n="92"/>habitualiter: inquantum ipsa praesentia animae apud 
+in<lb ed="#L" break="no" n="93"/>tellectum est ratio quod ipsa potens sit.cognoscere seipsam
+<lb ed="#L" n="94"/>quantum. ad esse, non autem est ratio quod actualiter se
+<lb ed="#L" n="95"/>intelligat. Unde et non oportet, si anima est sibi hoc modo
+<lb ed="#L" n="96"/>praesens semper, quod semper se intelligat actu: sed 
+suf<lb ed="#L" break="no" n="97"/>ficit quod semper sit potens se intelligere; sicut et semper,
+<lb ed="#L" n="98"/>quandiu. est, potens est agere per modum virtutis 
+intel<lb ed="#L" break="no" n="99"/>lectivae.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>XI. Ad tertium dicitur quod non est eadem ratio de
+<lb ed="#L" n="101"/>cognitione animae quantum ad quia est, et quantum ad
+<lb ed="#L" n="102"/>quid est. Quia ad cognitionem quia est habitualem sufficit
+<lb ed="#L" n="103"/>quod sit productiva actus, per quem cognoscitur esse, et
+<lb ed="#L" n="104"/>adsit intellectui: hoc autem sibi per seipsam convenit.
+<lb ed="#L" n="105"/>Ad cognitionem autem quid est exigitur ut sit aliquid
+<lb ed="#L" n="106"/>intellectum in actu: quia nihil est medium, tanquam 
+spe<lb ed="#L" break="no" n="107"/>cies, aut per modum speciei intelligibilis, quo aliquid 
+co<lb ed="#L" break="no" n="108"/>gnoscitur quantum ad quid est, etiam habitualiter, nisi
+<lb ed="#L" n="109"/>sit aliquid intellectum in actu; propter hoc enim ponitur
+<lb ed="#L" n="110"/>quod per ipsas res materrales non potest cognosci quid
+<lb ed="#L" n="111"/>sunt nisi virtute intellectus agentis fiant actu intelligibiles
+<lb ed="#L" n="112"/>per speciem in intellectu possibili causatam. Anima autem
+<lb ed="#L" n="113"/>intellectiva non est in actu intellecta per seipsam, ut est
+<lb ed="#L" n="114"/>corpori coniuncta, sed per species a phantasmatibus 
+abs<lb ed="#L" break="no" n="115"/>tractas. Ideo per seipsam non cognoscit de se, etiam
+<lb ed="#L" n="116"/>habitualiter, quid est, sed tantum potentialiter: licet sit
+<lb ed="#L" n="117"/>productiva actus, per quem natura animae, investigatione
+<lb ed="#L" n="118"/>quadam et deductione, cognoscitur.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>XII. Circa illud quod dicitur , quoniam mec etiam
+<lb ed="#L" n="120"/>per fidem accipere possemus hanc cognitionem quod sint 
+<lb ed="#L" n="121"/>quaedam substantiae intellectuales, nisi anima nostra ex
+<lb ed="#L" n="122"/>seipsa cognosceret quod intellectuale est , advertendum
+<lb ed="#L" n="123"/>quod hoc non dicitur quasi per illam cognitionem qua
+<lb ed="#L" n="124"/>anima, cognoscendo se esse, cognoscit quod intelligibile
+<lb ed="#L" n="125"/>est, causetur cognitio fidei per aliquam naturalem 
+argu<lb ed="#L" break="no" n="126"/>mentationem, qua. cognoscamus substantias aliquas 
+sepa<lb ed="#L" break="no" n="127"/>ratas et intellectuales esse: cognitio enim fidei infusae,
+<lb ed="#L" n="128"/>ut sic, non dependet necessario ex aliqua. naturali 
+argu<lb ed="#L" break="no" n="129"/>mentatione. Sed sic intelligendum est quod, sicut in aliis
+<lb ed="#L" n="130"/>quae sunt fidei, oportet praecognosci quid per nomina
+<lb ed="#L" n="131"/>importetur, alioquin intellectus illis non adhaereret etiam
+<lb ed="#L" n="132"/>per fidem, quia nihil de significato propositionum. 
+intel<lb ed="#L" break="no" n="133"/>ligeret: ita illam cognitionem qua cognoscimus, sive per
+<lb ed="#L" n="134"/>demonstrationem sive. per fidem, esse aliquas substantias
+<lb ed="#L" n="135"/>intellectuales separatas, oportet ut praecedat cognitio qua,
+<lb ed="#L" n="136"/>ex ipsa anima per actus suos cognita, cognoscimus certo
+<lb ed="#L" n="137"/>aliquod intellectuale esse; quia per illam cina
+<lb ed="#L" n="138"/>scimus quid sit substantias intellectuales esse.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>XIII. Circa corollarium ,. advertendum, ex doctritix
+<lb ed="#L" n="140"/>Sancti Thomae in loco allegato de Verit., quod licet
+<lb ed="#L" n="141"/>habitus, et alia quae sunt in anima nostra, cognoscamus
+<lb ed="#L" n="142"/>quantum ad quia sunt, inquantum ex illis ipsis actus 
+per<lb ed="#L" break="no" n="143"/>cipimus; quid vero sint, ex actuum qualitate inveniamus,
+<lb ed="#L" n="144"/>sicut est de anima: eae tamen duae cognitiones aliter
+<lb ed="#L" n="145"/>ordinantur circa habitus quam circa animam. Cognitio
+<lb ed="#L" n="146"/>enim de habitibus quia sunt, praesupponit cognitionem
+<lb ed="#L" n="147"/>quid sunt: non autem cognitio quia est de anima, 
+prae<lb ed="#L" break="no" n="148"/>supponit cognitionem quid est de ipsa, cum multi sciant
+<lb ed="#L" n="149"/>se habere animam qui nesciunt quid est anima. Cuius
+<lb ed="#L" n="150"/>ratio est, quia non potest per actus cognosci aliquod
+<pb ed="#L" n="127"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>principium inesse nobis nisi praecognoscatur illud esse
+<lb ed="#L" n="2"/>principium talis actus: sicut non possum ex aliquo actu
+<lb ed="#L" n="3"/>cognoscere iustitiam esse in me, nisi sciam iustitiam esse
+<lb ed="#L" n="4"/>principium illius actus. Habitus autem per essentiam suam
+<lb ed="#L" n="5"/>est principium :alis actus, ita videlicet quod essentia sua
+<lb ed="#L" n="6"/>consistit in hoc quod est esse principium talis actus: sicut
+<lb ed="#L" n="7"/>quid est iustitiae consistit in hoc quod est esse per quam
+<lb ed="#L" n="8"/>quis reddit unicuique quod suum est. Ideo non potest
+<lb ed="#L" n="9"/>cognosci per actum quod aliquis habitus nobis insit nisi
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>praecognoscatur quid est ille habitus. Dum autem 
+co<lb ed="#L" break="no" n="11"/>gnoscitur anima esse principium alicuius actus, non 
+co<lb ed="#L" break="no" n="12"/>gnoscitur per hoc eius essentia: quia suum quid est non
+<lb ed="#L" n="13"/>consistit in hoc quod est esse principium talis actus; cum
+<lb ed="#L" n="14"/>non per suam essentiam sit principium actus, scilicet
+<lb ed="#L" n="15"/>immediate, sed per potentiam. Ideo non oportet 
+prae<lb ed="#L" break="no" n="16"/>cognosci de ipsa quid est, dum cognoscitur eam in nobis
+<lb ed="#L" n="17"/>esse: sed sufficit cognoscere in ipsa esse potentiam talis
+<lb ed="#L" n="18"/>actus productivam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

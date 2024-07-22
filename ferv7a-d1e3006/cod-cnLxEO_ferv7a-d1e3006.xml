@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 159</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 159</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="465"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e3006"><!-- ferv7a-l3c159 -->
+            <head>Capitulum 159</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="62" type="fixed=465"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="63"/>QUIA ex praedictis posset aliquis errandi occasionem
+<lb ed="#L" n="64"/>sumere, vult Sanctus Thomas dubium quoddam 
+re<lb ed="#L" break="no" n="65"/>movere .
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Circa hoc autem duo facit: primo, removet ipsum
+<lb ed="#L" n="67"/>dubium; secundo, quoddam in responsione assumptum
+<lb ed="#L" n="68"/>exponit, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>I. Dubium est hoc. Posset enim alicui videri, cum nullus
+<lb ed="#L" n="70"/>in finem ultimum dirigi possit nisi auxilio divinae gratiae,
+<lb ed="#L" n="71"/>ut ostensum est; sine qua etiam haberi non possunt 
+neces<lb ed="#L" break="no" n="72"/>saria ad tendendum in ipsum: quod non sit homini 
+im<lb ed="#L" break="no" n="73"/>putandum si praedictis careat; quia nulli imputatur quod
+<lb ed="#L" n="74"/>ab alio dependet, auxilium autem gratiae homo mereri non
+<lb ed="#L" n="75"/>potest, nec etiam sine eo potest ad Deum converti. Hoc
+<lb ed="#L" n="76"/>autem falsissimum esse constat. Quia sequetur quod carens
+<lb ed="#L" n="77"/>fide, spe, et huiusmodi, non sit poena dignus: contra id
+<lb ed="#L" n="78"/>quod dicitur Joan. ur, Qui incredulus est etc. Sequetur
+<lb ed="#L" n="79"/>etiam, cum nullus ad beatitudinis finem sine praemissis 
+per<lb ed="#L" break="no" n="80"/>veniat, quod aliqui sint homines qui nec beatitudinem 
+con<lb ed="#L" break="no" n="81"/>sequantur, nzc patiantur poenam a Deo: cuius contrarium
+<lb ed="#L" n="82"/>ostenditur Matth. xxv. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Respondet autem Sanctus 'Thomas quod, licet homo per
+<lb ed="#L" n="84"/>motum liberi arbitrii nec gratiam promereri possit nec ad
+<cb ed="#L" n="h"/>
+               <lb ed="#L" n="85"/>Deum converti, potest tamen seipsum impedire ne eam
+<lb ed="#L" n="86"/>recipiat, ut ostenditur /ob xxr et xxrv. Ideo non immerito
+<lb ed="#L" n="87"/>imputatur in culpam ei qui impedimentum praestat gratiae
+<lb ed="#L" n="88"/>receptioni. Quia Deus, quantum est in se, paratus est 
+omni<lb ed="#L" break="no" n="89"/>bus gratiam dare, ut patet I 77m. 1m; illi autem soli 
+pri<lb ed="#L" break="no" n="90"/>vantur gratia qui in seipsis gratiae impedimentum praestant.
+<lb ed="#L" n="91"/>Declaratur exemplo claudentis oculos, sole mundum
+<lb ed="#L" n="92"/>illuminante.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Ex hac responsione vult habere Sanctus Thomas quod
+<lb ed="#L" n="94"/>illa propositio, Nulli imputatur quod ab alio dependet, falsa
+<lb ed="#L" n="95"/>est quando non est ex parte eius a quo illud dependet
+<lb ed="#L" n="96"/>quin illud habeatur, sed ex parte recipientis ponentis 
+im<lb ed="#L" break="no" n="97"/>pedimentum voluntariae illius receptioni. Sic autem accidit
+<lb ed="#L" n="98"/>quando quis gratiam non accipit. Ideo non est absque eius
+<lb ed="#L" n="99"/>imputatione.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>II. Ad huius evidentiam, considerandum est quod, cum
+<lb ed="#L" n="101"/>duplex sit auxilium quo ad beatitudinis consecutionem 
+indi<lb ed="#L" break="no" n="102"/>gemus: scilicet habitualis gratia; et divina motio, tam 
+in<lb ed="#L" break="no" n="103"/>trinsece quam extrinsece facta, qua ad bonum dirigimur et
+<lb ed="#L" n="104"/>ad gratiae praeparationem excitamur: — primum auxilium
+<lb ed="#L" n="105"/>Deus non omnibus dat, absolute loquendo, postquam 
+pec<lb ed="#L" break="no" n="106"/>caverunt; sed bene omnibus se ad ipsum praeparantibus
+<pb ed="#L" n="466"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ex divina motione, concedit. Secundum autem auxilium 
+<lb ed="#L" n="2"/>omnibus impendit, et nulli, quantum ad hoc, est absens  
+<lb ed="#L" n="3"/>Deus: cum nullus sit qui ab eo non moveatur ad bonum, 
+<lb ed="#L" n="4"/>et ad gratiae praeparationem, iuxta illud Apoc. ri, Ego  
+<lb ed="#L" n="5"/>sto ad ostium et pulso, ctc. Sed quia divina providentia  
+<lb ed="#L" n="6"/>unumquodque secundum naturae suae conditionem 
+guber<lb ed="#L" break="no" n="7"/>nat et movet; homo autem est liberi arbitrii, potestque 
+<lb ed="#L" n="8"/>divinam motionem sequi et non sequi: inde est quod aliqui,  
+<lb ed="#L" n="9"/>divinam hanc motionem sequentes, se ad gratiam praeparant;  
+<lb ed="#L" n="10"/>aliqui vero, ipsam non 'sequentes, non se praeparant ad 
+<lb ed="#L" n="11"/>gratiam, sed illi magis impedimentum praestant peccando. 
+<lb ed="#L" n="12"/>Dicitur ergo Deus paratus esse, quantum in se est, omnibus  
+<lb ed="#L" n="13"/>gratiam habitualem dare: quia eam omnibus se ad illam 
+prae<lb ed="#L" break="no" n="14"/>parantibus vult dare, nullique deest auxilium suum ipsum  
+<lb ed="#L" n="15"/>quandoque movens et instigans ad hoc ut se ad gratiam  
+<lb ed="#L" n="16"/>praeparet. Et ideo bene hic dicitur quod merito homini
+<lb ed="#L" n="17"/>imputatur si gratiam, et virtutes eam concomitantes, non  
+</p>
+            <p>
+               <lb ed="#L" n="18"/>accipiat: quod enim non recipiat aliquid ab eo qui paratus 
+<lb ed="#L" n="19"/>est dare, et qui quandoque ad accipiendum instigat, non est  
+<lb ed="#L" n="20"/>absque eius imputatione. 
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Quod si auxilium illud, sine quo homo non potest aliquod  
+<lb ed="#L" n="22"/>bonum agere, et sine quo non potest quis se ad gratiam 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="23"/>praeparare, non esset omnibus commune, sed alicui deesset :
+<lb ed="#L" n="24"/>fortassis aliquam haberet apparentiam si is qui dicto auxilio :
+<lb ed="#L" n="25"/>caret, gratiam non acquirat; quia nulli videtur imputandum
+<lb ed="#L" n="26"/>si non habeat quod sine auxilio alterius acquirere non 
+po<lb ed="#L" break="no" n="27"/>test, si sibi auxilium illud non adsit. Sed nec hoc omnino
+<lb ed="#L" n="28"/>veritatem habet. Quia, si quis propria voluntate in malum
+<lb ed="#L" n="29"/>aliquod cadat a quo per se liberari non potest, si non 
+libe<lb ed="#L" break="no" n="30"/>retur, non est absque eius imputatione. Debebat enim cavere
+<lb ed="#L" n="31"/>ne in illud malum incideret a quo sciebat se propria virtute
+<lb ed="#L" n="32"/>liberari non posse: sicut non est absque imputatione quod
+<lb ed="#L" n="33"/>aliquis non exeat ex puteo, ex quo non potest exire nisi
+<lb ed="#L" n="34"/>ab alio adiuvetur, quando propria voluntate in illum se
+<lb ed="#L" n="35"/>deiecit. Homo autem qui peccat, propria voluntate cadit,
+<lb ed="#L" n="36"/>per quod gratia privatur, quam per se acquirere non potest.
+<lb ed="#L" n="37"/>Ideo merito sibi imputatur si gratiam non habeat: etiam
+<lb ed="#L" n="38"/>deficiente sibi divino auxilio, ad gratiae praeparationem
+<lb ed="#L" n="39"/>necessario.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Unde propositio assumpta veritatem habet dumtaxat
+<lb ed="#L" n="41"/>quando is qui sic privatur, non fuit ob aliquam suam 
+cul<lb ed="#L" break="no" n="42"/>pam causa talis privationis, ut patet capite sequenti. Sed
+<lb ed="#L" n="43"/>si ipse sua culpa fuit huiusmodi carentiae et privationis
+<lb ed="#L" n="44"/>causa, falsa est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

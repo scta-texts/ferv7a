@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 74</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 74</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="218"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2312"><!-- ferv7a-l3c74 -->
+            <head>Capitulum 74</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="79" type="fixed=218"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="80"/>QVARTUM dubium  est: quia, posita divina providentia, 
+<lb ed="#L" n="81"/>videtur excludi casus et fortuna. Quod enim est 
+pro<lb ed="#L" break="no" n="82"/>visum, non est fortuitum aut casuale: cum ista praeter 
+in<lb ed="#L" break="no" n="83"/>tentionem agentis eveniant. Si ergo omnia quae in 
+uni<lb ed="#L" break="no" n="84"/>verso contingunt, sunt provisa, sequitur quod nihil erit  
+<lb ed="#L" n="85"/>casuale et fortuitum. 
+</p>
+            <p>
+               <lb ed="#L" n="86"/>I. Ad hoc autem removendum, ponit Sanctus Thomas
+<lb ed="#L" n="87"/>hanc conclusionem: Divina providentia non subtrahit a 
+<lb ed="#L" n="88"/>rebus causam et fortunam
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="89"/>Probatur primo. Si non provenirent aliqua a casu et
+<lb ed="#L" n="90"/>fortuna, non provenirent aliqua in minori parte. Ergo omnia
+<lb ed="#L" n="91"/>ex necessitate acciderent. Sed hoc est contra rationem 
+di<lb ed="#L" break="no" n="92"/>vinae providentiae, ut superius est ostensum. Ergo etc. —
+<lb ed="#L" n="93"/>Probatur antecedens. Quia fortuna et casus dicuntur  in
+<lb ed="#L" n="94"/>iis quae in minori parte accidunt. — Prima vero 
+conse<lb ed="#L" break="no" n="95"/>quentia probatur. Quia ea quae sunt contingentia ut in 
+<lb ed="#L" n="96"/>pluribus a necessariis differunt hoc solo quod possunt in 
+<lb ed="#L" n="97"/>minori parte deficere
+</p>
+            <p>
+               <pb ed="#L" n="219"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>2. Attende, circa primam consequentiam et eius 
+pro<lb ed="#L" break="no" n="2"/>bationem, quod, cum tria sint effectuum genera: quaedam
+<lb ed="#L" n="3"/>scilicet quae semper a sua causa proveniunt, quae 
+neces<lb ed="#L" break="no" n="4"/>saria dicuntur; quaedam quae pro maiori parte eveniunt,
+<lb ed="#L" n="5"/>sicut effectus causarum naturalium inferiorum, quae dicuntur
+<lb ed="#L" n="6"/>contingentia ut in pluribus; quaedam vero quae raro et pro
+<lb ed="#L" n="7"/>minori. parte eveniunt a sua causa, sicut monstra, quae 
+di<lb ed="#L" break="no" n="8"/>cuntur raro contingentia:- si removeantur raro contingentia,
+<lb ed="#L" n="9"/>removeri necesse est et contingentia ut in pluribus, quia
+<lb ed="#L" n="10"/>raro contingentia proveniunt ex eo quod aliquae causae a
+<lb ed="#L" n="11"/>suis producendis etfectibus impediuntur aliquando, sed raro;
+<lb ed="#L" n="12"/>ex eo autem quod causa aliquando impeditur sed raro;
+<lb ed="#L" n="13"/>sequitur quod pro maiori parte suos effectus producat. Et
+<lb ed="#L" n="14"/>sic quod sint contingentia ut in pluribus, sequitur 
+neces<lb ed="#L" break="no" n="15"/>sario ex eo quod ponuntur contingentia ut in. paucioribus,
+<lb ed="#L" n="16"/>et e converso. Ideo etiam, uno remoto, removetur et 
+reli<lb ed="#L" break="no" n="17"/>quum, et e converso: sicut in convertibilibus accidit. 
+Re<lb ed="#L" break="no" n="18"/>motis autem contingentibus ut in paucioribus et 
+contingen<lb ed="#L" break="no" n="19"/>tibus ut in pluribus, sequitur illa sola esse in entibus quae
+<lb ed="#L" n="20"/>semper eveniunt, quae dicuntur ex necessitate evenire. Ideo
+<lb ed="#L" n="21"/>optime infert Sanctus Thomas, si nihil evenit in minori
+<lb ed="#L" n="22"/>parte, quod omnia eveniunt de necessitate.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>3. Sed occurrit dubium. Posset enim aliquis dicere quod
+<lb ed="#L" n="24"/>praeter contingentia ut in pluribus et contingentia ut in
+<lb ed="#L" n="25"/>paucioribus, sunt etiam contingentia ad utrumlibet, ut sunt
+<lb ed="#L" n="26"/>ea quae a voluntate procedunt. Ideo, quamvis ponatur nihil
+<lb ed="#L" n="27"/>esse a casu et in minori parte, et per consequens nihil
+<lb ed="#L" n="28"/>esse pro maiori parte, non sequitur quod omnia sint ex
+<lb ed="#L" n="29"/>necessitate, sed poterunt aliqua esse ad utrumlibet 
+con<lb ed="#L" break="no" n="30"/>tingentia.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Respondetur, ex doctrina Sancti Thomae II Phy's., lect. 8;
+<lb ed="#L" n="32"/>et est de mente Averrois ibidem, commento 48; quod ex
+<lb ed="#L" n="33"/>causa contingenti ad utrumlibet nihil provenit nisi per 
+ali<lb ed="#L" break="no" n="34"/>quid determinetur ad unum: cum sit in potentia. Ideo, ut
+<lb ed="#L" n="35"/>possit in actum exire et effectum aliquem producere, oportet
+<lb ed="#L" n="36"/>quod aut pro maiori parte illum producat, aut in minori
+<lb ed="#L" n="37"/>parte. Et sic oportet ut effectus proveniens a causa quae
+<lb ed="#L" n="38"/>est ad utrumlibet, secundum se considerata, aut in maiori
+<lb ed="#L" n="39"/>parte proveniat aut in minori: et nullus sit effectus ad
+<lb ed="#L" n="40"/>utrumlibet contingens ut natus est in actum educi, cum
+<lb ed="#L" n="41"/>non proveniat ab ea nisi inquantum determinata est ad
+<lb ed="#L" n="42"/>unum; a causa enim ad utrumlibet, inquantum ad 
+utrum<lb ed="#L" break="no" n="43"/>libet est, nullus potest effectus provenire. Propterea optime
+<lb ed="#L" n="44"/>sequitur, si nihil evenit in maiori parte, et nihil in minori
+<lb ed="#L" n="45"/>parte, quod omnia semper de necessitate eveniant.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>II. Secundo. Contra rationem providentiae esset si res
+<lb ed="#L" n="47"/>providentiae subiectae non agerent propter finem : cum 
+pro<lb ed="#L" break="no" n="48"/>videntiae sit omnia ordinare in finem. Esset etiam contra
+<lb ed="#L" n="49"/>perfectionem universi, si nulla res corruptibilis esset, et
+<lb ed="#L" n="50"/>nulla virtus potens deficere. Ergo et, si non essent aliqua
+<lb ed="#L" n="51"/>casualia, contra rationem. providentiae et contra 
+perfectio<lb ed="#L" break="no" n="52"/>nem universi esset, — Probatur consequentia. Quia ex eo
+<lb ed="#L" n="53"/>quod aliquid agens propter finem deficit ab eo quod 
+in<lb ed="#L" break="no" n="54"/>tendit, sequitur aliqua casu contingere.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>III. Tertio. Ex ordine divinae providentiae et 
+disposi<lb ed="#L" break="no" n="56"/>tionis multitudo et diversitas causarum provenit. 
+Suppo<lb ed="#L" break="no" n="57"/>sita vero causarum dispositione , oportet quandoque unam
+<lb ed="#L" n="58"/>per alteram impediri vel iuvari ad effectum producendum.
+<lb ed="#L" n="59"/>Ex concursu autem plurium causarum contingit aliquid
+<lb ed="#L" n="60"/>casualiter evenire, dum finis non intentus provenit: ut 
+in<lb ed="#L" break="no" n="61"/>ventio debitoris ab eo qui vadit ad forum non ob hanc
+<lb ed="#L" n="62"/>causam. Ergo divina providentia non excludit casualia.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Adverte quod ex concursu plurium causarum contingit
+<lb ed="#L" n="64"/>aliquid casualiter evenire per comparationem ad aliquam
+<lb ed="#L" n="65"/>illarum causarum concurrentium, aut per comparationem ad
+<lb ed="#L" n="66"/>utramque, dum aliquid evenit praeter intentionem aut unius
+<lb ed="#L" n="67"/>illarum aut utriusque: sicut, cum aliquis vadit ad forum ut
+<lb ed="#L" n="68"/>inveniat debitorem, debitor autem ad forum vadit non ut
+<lb ed="#L" n="69"/>inveniatur a creditore, sed ut aliquid emat, inventio debitoris
+<lb ed="#L" n="70"/>a creditore est casualis per comparationem ad debitorem
+<lb ed="#L" n="71"/>tantum, quia praeter eius intentionem evenit; cum autem
+<lb ed="#L" n="72"/>a domino mittuntur duo servi ut sibi obvient illis hoc 
+igno<lb ed="#L" break="no" n="73"/>rantibus, concursus duorum servorum non intendentium
+<lb ed="#L" n="74"/>sibi obviare, est respectu utriusque casualis. Per 
+compa<lb ed="#L" break="no" n="75"/>rationem autem ad superiorem causam ordinantem con-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>cursum talium causarum, et effectum ex earum concursu
+<lb ed="#L" n="77"/>provenientem, non dicitur concursus ipse, aut effectus inde
+<lb ed="#L" n="78"/>proveniens, casualis esse: cum non sit praeter eius 
+inten<lb ed="#L" break="no" n="79"/>tionem, sed sit intentus. Propter quod dicit Sanctus 
+Tho<lb ed="#L" break="no" n="80"/>mas Prima, q. xxt, a. 2, ad. 1, quod respectu causae 
+uni<lb ed="#L" break="no" n="81"/>versalis nullus effectus dicitur casualis: cum nihil ab eius
+<lb ed="#L" n="82"/>ordine subtrahi possit.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>2. Sed occurrit dubium. Videtur enim Sanctus Thomas
+<lb ed="#L" n="84"/>dicere contradictoria, cum ait evenire aliquid casualiter
+<lb ed="#L" n="85"/>dum finis non intentus provenit. Nam de ratione finis est
+<lb ed="#L" n="86"/>quod sit intentus: est enim cuius gratia aliquid fit. Ergo
+<lb ed="#L" n="87"/>repugnat quod aliquid sit finis, et tamen non sit intentum.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Respondetur quod finis dupliciter accipi potest: uno
+<lb ed="#L" n="89"/>modo, materialiter, quantum scilicet ad ipsam rem 
+abso<lb ed="#L" break="no" n="90"/>lute quae terminat actionem; alio modo, formaliter, 
+sci<lb ed="#L" break="no" n="91"/>licet pro re quae terminat actionem ut habet rationem
+<lb ed="#L" n="92"/>causae finalis. Secundo modo, repugnat quod aliquid sit
+<lb ed="#L" n="93"/>finis, et non sit intentum. Primo vero modo, non 
+repu<lb ed="#L" break="no" n="94"/>gnat. Et sic intelligitur dictum Sancti Thomae: nam 
+con<lb ed="#L" break="no" n="95"/>stat quod effectus fortuitus, inquantum huiusmodi, non est
+<lb ed="#L" n="96"/>finis actionis quam terminat nisi materialiter.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>IV. Quarto. Ad perfectionem rerum requiritur quod non
+<lb ed="#L" n="98"/>solum sint entia per se, sed etiam entia per accidens. Ergo
+<lb ed="#L" n="99"/>ad perfectionem earum requiritur quod sint etiam causae
+<lb ed="#L" n="100"/>quaedam per accidens. Ergo non est contra providentiam,
+<lb ed="#L" n="101"/>quae rerum perfectionem conservat, quod aliqua fiant a casu.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Probatur antecedens, Quia, cum res non habeant in.sua
+<lb ed="#L" n="103"/>substantia ultimam perfectionem, oportet ut aliquam per
+<lb ed="#L" n="104"/>accidentia consequantur, et per plura quandoque. Ex hoc
+<lb ed="#L" n="105"/>autem sequitur esse ens per accidens: cum subiectum et
+<lb ed="#L" n="106"/>accidens, et etiam plura accidentia unius subiecti, sint unum
+<lb ed="#L" n="107"/>et ens per accidens. — Prima vero consequentia probatur.
+<lb ed="#L" n="108"/>Quia, cum quod non est, non possit esse alicuius causa,
+<lb ed="#L" n="109"/>oportet ut secundum quod unumquodque se habet ad
+<lb ed="#L" n="110"/>esse, ita se habeat ad hoc quod sit causa. Et per 
+conse<lb ed="#L" break="no" n="111"/>quens quod secundum diversitatem ordinis in entibus sit
+<lb ed="#L" n="112"/>diversitas etiam ordinis in causis. - Secunda vero 
+conse<lb ed="#L" break="no" n="113"/>quentia probatur. Quia ea quae ex causis aliquibus 
+pro<lb ed="#L" break="no" n="114"/>cedunt per accidens, dicuntur a casu accidere vel a fortuna.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>2. Circa assumptum ad probationem secundae 
+conse<lb ed="#L" break="no" n="116"/>quentiae dubium occurrit. Quia non videtur universaliter
+<lb ed="#L" n="117"/>verum ea quae ex causis per accidens eveniunt, esse a
+<lb ed="#L" n="118"/>casu vel a fortuna. Cum enim dicimus quod musicum 
+aedi<lb ed="#L" break="no" n="119"/>ficat; non dicimus domum fieri a casu aut a fortuna: et
+<lb ed="#L" n="120"/>sic de multis aliis. d
+</p>
+            <p>
+               <lb ed="#L" n="121"/>Respondetur quod non est intentio Sancti Thomae 
+di<lb ed="#L" break="no" n="122"/>cere omnia quae per accidens eveniunt, a casu esse aut a
+<lb ed="#L" n="123"/>fortuna: sed quod aliqua quae per accidens eveniunt ex
+<lb ed="#L" n="124"/>aliquibus causis, quae scilicet sunt praeter intentionem
+<lb ed="#L" n="125"/>agentis et in minori parte coniunguntur effectui per se, a
+<lb ed="#L" n="126"/>casu et a fortuna proveniunt. T
+</p>
+            <p>
+               <lb ed="#L" n="127"/>V. Circa istam propositionem, Unumquodque, sicut se
+<lb ed="#L" n="128"/>habet ad esse, ita se habet ad hoc quod sit causa, 
+dubi<lb ed="#L" break="no" n="129"/>tatur. Nam album habet esse per accidens, et tamen est
+<lb ed="#L" n="130"/>per se causa disgregationis visus. — Multae etiam aliae sunt
+<lb ed="#L" n="131"/>causae quae habent esse per se, et tamen sunt causae per
+<lb ed="#L" n="132"/>accidens alicuius praeter earum intentionem evenientis.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>Respondetur quod ista propositio intelligitur quod omnis
+<lb ed="#L" n="134"/>causa talem modum causalitatis habet, qualem modum habet
+<lb ed="#L" n="135"/>essendi, ita quod sibi proportionaliter respondent modus
+<lb ed="#L" n="136"/>causandi et modus essendi causae. Et intelligitur de esse
+<lb ed="#L" n="137"/>non quocumque, sed de eo secundum quod rei attribuitur
+<lb ed="#L" n="138"/>causalitas. Si enim illud esse conveniat rei per se, et 
+causa<lb ed="#L" break="no" n="139"/>litas sibi conveniet per se: si autem illi conveniat per
+<lb ed="#L" n="140"/>accidens, et causalitas sibi per accidens conveniet. Et sicut
+<lb ed="#L" n="141"/>dicitur de istis modis per se et per accidens, ita 
+intelli<lb ed="#L" break="no" n="142"/>gitur de aliis modis essendi et causandi: puta de primo et
+<lb ed="#L" n="143"/>secundario, de quo et quod. 3
+</p>
+            <p>
+               <lb ed="#L" n="144"/>2. Cum autem dicitur primo, quod album habet esse per
+<lb ed="#L" n="145"/>accidens, et tamen per se disgregat: — dicitur quod 
+no<lb ed="#L" break="no" n="146"/>mine albi duo possumus intelligere: scilicet aut ipsam 
+albe<lb ed="#L" break="no" n="147"/>dinem, secundum quod habet esse in subiecto; aut ipsum
+<lb ed="#L" n="148"/>subiectum albedine informatum, puta lignum aut parietem.
+<lb ed="#L" n="149"/>Si ipsam albedinem intelligamus, negatur quod habeat esse
+<lb ed="#L" n="150"/>per accidens, tanquam videlicet sit quoddam ens per ac-
+<pb ed="#L" n="220"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cidens: immo est ens per se, ut ens per se opponitur enti
+<lb ed="#L" n="2"/>per accidens, non autem ut opponitur enti in alio; est enim
+<lb ed="#L" n="3"/>natura quaedam, ad unum genus et ad unam speciem 
+de<lb ed="#L" break="no" n="4"/>terminata. Et similiter est per se causa disgregationis: quia
+<lb ed="#L" n="5"/>ista propositio est per se, Album disgregat. - Si autem
+<lb ed="#L" n="6"/>intelligamus subiectum albedine informatum, ut dicamus
+<lb ed="#L" n="7"/>quod lignum aut paries disgregat: sic dicitur quod album
+<lb ed="#L" n="8"/>per accidens disgregat, non autem per se. Sicut enim album
+<lb ed="#L" n="9"/>per accidens praedicatur de ligno, ut patet V Metaph., cap.
+<lb ed="#L" n="10"/>de Ente, ita et disgregare per accidens de ipso 
+praedi<lb ed="#L" break="no" n="11"/>catur. Et sic lapis habet esse album per accidens, et per
+<lb ed="#L" n="12"/>accidens disgregationem visus causat: quia hoc facit 
+in<lb ed="#L" break="no" n="13"/>quantum accidit sibi esse album.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>3. Cum secundo dicitur quod causae multae per se 
+ha<lb ed="#L" break="no" n="15"/>bentes esse, sunt causae per accidens: — negatur, loquendo
+<lb ed="#L" n="16"/>de esse ratione cuius sibi causalitas attribuitur. Sicut enim
+<lb ed="#L" n="17"/>fodiens sepulcrum per accidens invenit thesaurum, et 
+di<lb ed="#L" break="no" n="18"/>citur causa illius inventionis per accidens, ita habet 
+ali<lb ed="#L" break="no" n="19"/>quod esse per accidens ratione cuius ista causalitas sibi per
+<lb ed="#L" n="20"/>accidens attribuitur: hoc enim sibi convenit inquantum est
+<lb ed="#L" n="21"/>inventivus thesauri, esse autem thesauri inventivum accidit
+<lb ed="#L" n="22"/>fodienti sepulcrum inquantum huiusmodi; ista enim 
+pro<lb ed="#L" break="no" n="23"/>positio, Fodiens sepulcrum est inventivus thesauri, per 
+ac<lb ed="#L" break="no" n="24"/>cidens est. Similiter in aliis causis per accidens, semper
+<lb ed="#L" n="25"/>causalitas consequitur aliquod ens per accidens: scilicet
+<lb ed="#L" n="26"/>praedicationem per accidens alicuius de eo cui attribuitur
+<lb ed="#L" n="27"/>causalitas. Sic enim ab Aristotele accipitur ens per accidens
+<lb ed="#L" n="28"/>V Metaph. , quando scilicet unum de altero per accidens
+<lb ed="#L" n="29"/>praedicatur. Et hoc sive accipiatur per accidens ex parte
+<lb ed="#L" n="30"/>causae tantum, quando scilicet id quod accidit causae per
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="31"/>se, dicitur causa per accidens; sive accipiatur ex parte 
+ef<lb ed="#L" break="no" n="32"/>fectus, quando videlicet aliquid non intentum coniungitur
+<lb ed="#L" n="33"/>effectui per se; nam etiam tunc oportet aliquid praedicari
+<lb ed="#L" n="34"/>per accidens de causa per se alterius effectus, ex quo
+<lb ed="#L" n="35"/>causae illi talis effectus per accidens attribuatur.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>VI. Quinto. Ad ordinem divinae providentiae pertinet
+<lb ed="#L" n="37"/>ut sit ordo et gradus in causis. Sed quanto aliqua causa
+<lb ed="#L" n="38"/>est superior, tanto est maioris virtutis, et per consequens
+<lb ed="#L" n="39"/>ad plura eius causalitas se extendit. Ergo ordo divinae 
+pro<lb ed="#L" break="no" n="40"/>videntiae exigit ut causa superior sit quae ad plura se
+<lb ed="#L" n="41"/>extendat quam causa inferior. Ergo etiam exigit quod 
+ali<lb ed="#L" break="no" n="42"/>quid eveniat praeter intentionem causae inferioris et 
+par<lb ed="#L" break="no" n="43"/>ticularis. Ergo et quod sit casus et fortuna.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Probatur secunda consequentia. Quia, cum nullius 
+cau<lb ed="#L" break="no" n="45"/>sae intentio se extendat ultra virtutem eius, quia esset 
+fru<lb ed="#L" break="no" n="46"/>stra, utpote non potens adimpleri per ipsam causam; 
+in<lb ed="#L" break="no" n="47"/>tentio causae particularis non se extendit ad omnia quae
+<lb ed="#L" n="48"/>contingere possunt, scilicet ex superiori causa; et per 
+con<lb ed="#L" break="no" n="49"/>sequens aliqua evenire possunt praeter eius intentionem. —
+<lb ed="#L" n="50"/>"Tertia vero consequentia probatur. Quia ex hoc contingit
+<lb ed="#L" n="51"/>aliquid casualiter vel fortuito, quod aliqua praeter 
+agen<lb ed="#L" break="no" n="52"/>tium intentionem eveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Adverte quod in hac deductione aliquae propositiones
+<lb ed="#L" n="54"/>interpositae sunt quas Sanctus Thomas non posuit, 
+bre<lb ed="#L" break="no" n="55"/>vitati studens. Hoc enim ideo factum est, quia illas ipse
+<lb ed="#L" n="56"/>manifeste dat intelligere; et ad completam et formalem 
+de<lb ed="#L" break="no" n="57"/>ductionem exiguntur.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>CowrimMaTUR conclusio auctoritate Eccle. 1x: Vidi nec
+<lb ed="#L" n="59"/>velocium esse cursum, sed tempus casumque in omnibus.
+<lb ed="#L" n="60"/>Exponit Sanctus Thomas, scilicet inferioribus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

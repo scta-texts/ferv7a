@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 145</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 145</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="434"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2892"><!-- ferv7a-l3c145 -->
+            <head>Capitulum 145</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="35" type="fixed=433"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="36"/>POSTQUAM ostendit Sanctus Thomas peccato mortali 
+de<lb ed="#L" break="no" n="37"/>beri poenam quae est beatitudinis privatio, ostendit
+<lb ed="#L" n="38"/>consequenter quod contra Deum agentes sunt puniendi
+<lb ed="#L" n="39"/>etiam per experientiam alicuius nocivi .
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Circa hoc autem duo facit: primo, ostendit propositum ;
+<lb ed="#L" n="41"/>secundo, unum corollarium infert, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>I. Quantum ad primum, arguit primo sic. In culpa non
+<lb ed="#L" n="43"/>solum avertitur mens ab ultimo fine, sed etiam indebite
+<lb ed="#L" n="44"/>convertitur in alia quasi in fines. Ergo sic peccans non
+<lb ed="#L" n="45"/>solum est puniendus per hoc quod excludatur a fine, sed
+<lb ed="#L" n="46"/>etiam per hoc quod ex.aliis rebus sentiat nocumentum.
+<lb ed="#L" n="47"/>— Patet consequentia. Quia poena debet proportionaliter
+<lb ed="#L" n="48"/>culpae respondere.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Advertendum quod aversio et conversio, secundum quod
+<lb ed="#L" n="50"/>inveniuntur in peccato, intelliguntur secundum affectum
+<lb ed="#L" n="51"/>et voluntatem: aversio quidem, secundum quod voluntas,
+<lb ed="#L" n="52"/>quae Deum deberet tanquam ultimum finem habere, non
+<lb ed="#L" n="53"/>inclinatur in ipsum tanquam in finem, ordinando sua in
+<lb ed="#L" n="54"/>ipsum ultimate, et ipsum super omnia' amando; conversio
+<lb ed="#L" n="55"/>vero,secundum quod voluntas amat aliquod creatum 
+tan<lb ed="#L" break="no" n="56"/>quam ultimum finem et super omnia, et ad ipsum omnia
+<lb ed="#L" n="57"/>sua ordinat, Illi igitur aversioni convenientissime pro poena
+<lb ed="#L" n="58"/>respondet carentia divinae fruitionis: ut scilicet, sicut Deum
+<lb ed="#L" n="59"/>quis peccando dereliquit, ita a Deo derelinquatur, non
+<lb ed="#L" n="60"/>sitque divinae fruitionis et beatitudinis particeps. 
+Conver<lb ed="#L" break="no" n="61"/>sioni vero conveniens est ut respondeat pro poena 
+no<lb ed="#L" break="no" n="62"/>cumentum aliquod ex creaturis: ut sicut in creaaturis quis
+<lb ed="#L" n="63"/>est plus debito voluntarie delectatus, ita ex ipsis creaturis
+<lb ed="#L" n="64"/>nocumentum accipiat et tristitiam.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>II. Secundo. Qui habent voluntatem aversam ab ultimo
+<lb ed="#L" n="66"/>fine, non timent ab illo excludi. Ergo per solam 
+exclu<lb ed="#L" break="no" n="67"/>sionem ab ultimo fine a peccando non revocarentur. Ergo
+<lb ed="#L" n="68"/>oportet peccantibus aliam poenam, quam timeant, adhibere.
+<lb ed="#L" n="69"/>— Probatur antecedens. Quia nullus timet amittere quod non
+<lb ed="#L" n="70"/>desiderat adipisci. — Ultima vero consequentia probatur:
+<lb ed="#L" n="71"/>quia poenae inferuntur pro culpis ut timore poenarum
+<lb ed="#L" n="72"/>homines a peccatis retrahantur.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Adverte quod hoc non dicitur quasi ad B illuba aliud
+<lb ed="#L" n="74"/>inferantur poenae quam ut homines a peccato retrahantur:
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="75"/>nam dictum est in praecedenti capite quod inferuntur a
+<lb ed="#L" n="76"/>Deo propter ordinem servandum in creaturis. Sed 
+intel<lb ed="#L" break="no" n="77"/>ligitur quod, ultra illum ordinem in creaturis servandum,
+<lb ed="#L" n="78"/>inferuntur etiam ut homines a peccato retrahantur.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Tertio. Qui in creaturis finem constituit, eis non utitur
+<lb ed="#L" n="80"/>sicut debet, referendo scilicet ad ultimum finem. Ergo. etc.
+<lb ed="#L" n="81"/>— Probatur consequentia. Quia si quis eo quod est ad
+<lb ed="#L" n="82"/>finem inordinate utitur, non solum fine privatur, sed etiam
+<lb ed="#L" n="83"/>aliud nocumentum incurrit: ut patet in cibo inordinate
+<lb ed="#L" n="84"/>assumpto ab infirmo.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Advertendum quod, licet mortaliter peccans in aliquam
+<lb ed="#L" n="86"/>creaturam tanquam in finem inclinetur; et sic talis creatura
+<lb ed="#L" n="87"/>apud ipsum non accipiatur tanquam aliquod ordinatum ad
+<lb ed="#L" n="88"/>finem, sed tanquam finis: omnis tamen creatura, secundum
+<lb ed="#L" n="89"/>se considerata, ad Deum tanquam ad ultimum finem 
+ordi<lb ed="#L" break="no" n="90"/>natur. Idcirco bene dictum est quod constituens finem in
+<lb ed="#L" n="91"/>creaturis inordinate utitur eo quod est ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Quarto. Qui recte agunt, in fine ab eis intento 
+perci<lb ed="#L" break="no" n="93"/>piunt perfectionem et gaudium. Ergo e contrario debent
+<lb ed="#L" n="94"/>peccantes ex his in quibus finem constituunt, afflictionem
+<lb ed="#L" n="95"/>accipere et nocumentum. — Probatur consequentia. Quia
+<lb ed="#L" n="96"/>sicut recte agentibus debentur bona, ita perverse lo dan
+<lb ed="#L" n="97"/>debentur mala.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>CowriRMATUR auctoritate Matth. XXv, et "Psalmi.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Excluditur autem per hoc opinio Algazelis ponentis
+<lb ed="#L" n="100"/>peccatores sola ultimi finis amissione affligendos esse.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Adverte quod hanc opinionem attribuit etiam Avicennae :
+<lb ed="#L" n="102"/>Sanctus Thomas IV Sent, d. xii , quantum ad hoc 
+<lb ed="#L" n="103"/>quod peccatores non puniuntur per experientiam alicuius
+<lb ed="#L" n="104"/>corporalis nocumenti, sed per separationem a fine. Addidit
+<lb ed="#L" n="105"/>tamen Avicenna quod, praeter poenam separationis a
+<lb ed="#L" n="106"/>fine, animae malorum post mortem etiam per corporum
+<lb ed="#L" n="107"/>similitudines punientur: sicut: in. somnis per huiusmodi
+<lb ed="#L" n="108"/>similitudines existentes in phantasia videtur homini quod
+<lb ed="#L" n="109"/>torqueatur. Quod esse impossibile ostendit ibidem 
+San<lb ed="#L" break="no" n="110"/>ctus Thomas.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Quomodo autem anima a corpore separata ex aliquo
+<lb ed="#L" n="112"/>corporeo nocumentum pati possit, ostendetur inferius 
+li<lb ed="#L" break="no" n="113"/>bro quarto .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

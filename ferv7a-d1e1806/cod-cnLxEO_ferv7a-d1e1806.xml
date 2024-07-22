@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 13</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 13</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="34"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1806"><!-- ferv7a-l3c12 -->
+            <head xml:id="ferv7a-d1e1806-Hd1e101">Capitulum 13</head>
+            <p xml:id="ferv7a-d1e1806-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="23" type="fixed=34"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="24"/>Ex praemissis deducit corollarie Sanctus Thomas quod,
+<lb ed="#L" n="25"/>E Quantumcumque multiplicetur malum, nunquam potest
+<lb ed="#L" n="26"/>totum bonum corrumpere . Quod probat, quia oportet
+<lb ed="#L" n="27"/>quod semper maneat mali subiectum, quod est bonum.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e123">
+               <lb ed="#L" n="28"/>I. Sed movet circa hoc corollarium dubium. Si enim
+<lb ed="#L" n="29"/>ex finito aliquid infinities tollatur, oportet illud quandoque
+<lb ed="#L" n="30"/>per ablationem consumi. Sed per intensionem mali in 
+in<lb ed="#L" break="no" n="31"/>finitum semper minuitur bonum, quod est finitum. Ergo
+<lb ed="#L" n="32"/>tolletur quandoque totum bonum per malum.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e136">
+               <lb ed="#L" n="33"/>Ad hoc respondent quidam negando maiorem, quando
+<lb ed="#L" n="34"/>sequens ablatio fit secundum eandem proportionem. Patet
+<lb ed="#L" n="35"/>enim in divisione continui secundum partes 
+proportio<lb ed="#L" break="no" n="36"/>nales, quod in infinitum procedit, et nunquam tamen tota
+<lb ed="#L" n="37"/>quantitas consumitur. Hoc autem modo dicunt fieri boni
+<lb ed="#L" n="38"/>diminutionem.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e153">
+               <lb ed="#L" n="39"/>Sed contra hanc responsionem arguit sic Sanctus 
+Tho<lb ed="#L" break="no" n="40"/>mas. In processu huiusmodi divisionis semper quod 
+po<lb ed="#L" break="no" n="41"/>sterius subtrahitur est minus: ut patet in divisione 
+quan<lb ed="#L" break="no" n="42"/>titatis. Sed hoc in diminutione boni per malum 
+nequa<lb ed="#L" break="no" n="43"/>quam potest accidere. Tum quia, quanto bonum per 
+ma<lb ed="#L" break="no" n="44"/>lum magis fuerit diminutum, erit infirmius: et sic per 
+se<lb ed="#L" break="no" n="45"/>cundum malum magis diminui poterit; hoc est, ab ipso
+<lb ed="#L" n="46"/>non minus, sed maius poterit tolli. Tum quia malum 
+se<lb ed="#L" break="no" n="47"/>quens contingit esse maius priore aut aequale: et per 
+con<lb ed="#L" break="no" n="48"/>sequens tollet aut maius aut aequale bonum.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e177">
+               <lb ed="#L" n="49"/>Adverte quod Sanctus "Thomas per haec verba, Hoc
+<lb ed="#L" n="50"/>in diminutione boni nequaquam potesi accidere, non vult
+<lb ed="#L" n="51"/>ponere impossibilitatem diminutionis boni secundum 
+ean<lb ed="#L" break="no" n="52"/>dem proportionem, sed tantum non-necessitatem talis 
+di<lb ed="#L" break="no" n="53"/>visionis, ut patet Prima, q. xrvur, a. 4, ad 3. Unde sensus
+<lb ed="#L" n="54"/>est quod nequaquam potest esse in diminutione boni ut
+<lb ed="#L" n="55"/>semper necessario servetur eadem proportio: cum 
+con<lb ed="#L" break="no" n="56"/>tingat, aut ex debilitatione boni remanentis post 
+subtra<lb ed="#L" break="no" n="57"/>ctionem, aut ex aequalitate vel maioritate mali posterioris
+<lb ed="#L" n="58"/>in posteriori subtractione, aut maius aut aequale subtrahi.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e201">
+               <lb ed="#L" n="59"/>II. Respondet igitur Sanctus Thomas: et dicit primo,
+<lb ed="#L" n="60"/>quod malum tollit quidem totaliter bonum cui opponitur,
+<lb ed="#L" n="61"/>sed tamen remanet subiectum. Quod cum habeat, 
+inquan<lb ed="#L" break="no" n="62"/>tum est subiectum, rationem boni, secundum quod est
+<lb ed="#L" n="63"/>potentia ad actum boni quod per malum privatur, quanto
+<lb ed="#L" n="64"/>minus fuerit in potentia ad illud bonum, tanto minus erit
+<lb ed="#L" n="65"/>bonum.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e219">
+               <lb ed="#L" n="66"/>Dicit secundo, quod fit minus potentia ad formam, non
+<lb ed="#L" n="67"/>per subtractionem alicuius partis ipsius subiecti aut eius
+<lb ed="#L" n="68"/>potentiae, sed quia per contrarium actum impeditur ne
+<lb ed="#L" n="69"/>in actum formae exire possit: sicut tanto est minus 
+po<lb ed="#L" break="no" n="70"/>tentia frigidum, quanto in eo magis calor augetur. Et sic
+<lb ed="#L" n="71"/>bonum diminuitur per malum magis apponendo 
+contra<lb ed="#L" break="no" n="72"/>rium, quam aliquid subtrahendo de bono. Quanto enim
+<lb ed="#L" n="73"/>bonum ad quod praeter intentionem agentis sequitur 
+ma<lb ed="#L" break="no" n="74"/>lum, magis multiplicatur, tanto potentia ad bonum 
+con<lb ed="#L" break="no" n="75"/>trarium magis diminuitur. Et sic per malum magis dicitur
+<lb ed="#L" n="76"/>diminui bonum: inquantum videlicet per bonum cui ma-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="77"/>lum coniungitur, tollitar magis potentia subiecti ad bonum
+<lb ed="#L" n="78"/>quod per malum removetur, in qua potentialitate 
+consi<lb ed="#L" break="no" n="79"/>stit bonitas subiecti.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e254">
+               <lb ed="#L" n="80"/>Dicit tertio, quod haec diminutio boni in naturalibus
+<lb ed="#L" n="81"/>quidem non potest in infinitum procedere. Quia neque
+<lb ed="#L" n="82"/>forma contraria, neque virtus contrarii agentis, potest in
+<lb ed="#L" n="83"/>infinitum augeri: cum formae naturales et virtutes sint 
+ter<lb ed="#L" break="no" n="84"/>minatae. — Sed in moralibus potest diminutio in infinitum
+<lb ed="#L" n="85"/>procedere. Quia et intellectus potest intelligendo in 
+in<lb ed="#L" break="no" n="86"/>finitum procedere: cuius signum est quod mathematicae
+<lb ed="#L" n="87"/>species numerorum et figurarum dicuntur infinitae. 
+Simi<lb ed="#L" break="no" n="88"/>liter voluntas in volendo in infinitum procedit: volens
+<lb ed="#L" n="89"/>enim furtum committere, potest velle et aliud quid 
+com<lb ed="#L" break="no" n="90"/>mittere in infinitum. Et sic in infinitum bonum naturalis
+<lb ed="#L" n="91"/>aptitudinis per malum moris diminui potest: cum quanto
+<lb ed="#L" n="92"/>voluntas magis in fines indebitos tendit, tanto difficilius
+<lb ed="#L" n="93"/>ad proprium et debitum finem redeat; ut patet in iis in
+<lb ed="#L" n="94"/>quibus per peccandi consuetudinem iam est habitus 
+vi<lb ed="#L" break="no" n="95"/>tiorum inductus, Nunquam tamen talis aptitudo totaliter
+<lb ed="#L" n="96"/>tollitur, sed semper naturam concomitatur.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e293">
+               <lb ed="#L" n="97"/>Ex iis patet quod obiectio nulla est. Quia procedit de
+<lb ed="#L" n="98"/>diminutione quae fit per subtractionem, non autem de ea
+<lb ed="#L" n="99"/>quae fit per appositionem contrarii. Et etiam quia in 
+natura<lb ed="#L" break="no" n="100"/>libus falsum est quod malum possit in infinitum intendi per
+<lb ed="#L" n="101"/>huiusmodi appositionem, bonumque diminui in infinitum.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e307">
+               <lb ed="#L" n="102"/>2. Adverte quod quanto potentia magis elongatur ab actu,
+<lb ed="#L" n="103"/>et subiectum est minus habile ad eius susceptionem, tanto
+<lb ed="#L" n="104"/>difficilius ad actum reducitur: ut patet in naturalibus et
+<lb ed="#L" n="105"/>in artificialibus. Et ideo signum elongationis potentiae ab
+<lb ed="#L" n="106"/>actu est difficultas reductionis ad actum. Propter hoc, 
+vo<lb ed="#L" break="no" n="107"/>lens Sanctus Thomas ostendere diminutionem naturalis
+<lb ed="#L" n="108"/>aptitudinis ad bonum per peccatum in infinitum, adducit
+<lb ed="#L" n="109"/>pro signo quod quanto voluntas magis in indebitos fines
+<lb ed="#L" n="110"/>tendit, tanto difficilius redit ad debitum finem. Quae cum
+<lb ed="#L" n="111"/>in infinitum possit tendere in indebitos fines, sicut et 
+in<lb ed="#L" break="no" n="112"/>tellectus in infinitum potest diversa intelligere, sequitur
+<lb ed="#L" n="113"/>quod in infinitum talis difficultas augeri possit; et per
+<lb ed="#L" n="114"/>consequens in infinitum elongari potentia ab actu, et in
+<lb ed="#L" n="115"/>infinitum aptitudo diminui.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e340">
+               <lb ed="#L" n="116"/>III. Ad evidentiam huius responsionis, considerandum
+<lb ed="#L" n="117"/>primo, ex doctrina Sancti Thomae Prima Parte, loco 
+al<lb ed="#L" break="no" n="118"/>legato; et II Sent., d. 34, a. 4; item in QQ. de Malo, q. 11,
+<lb ed="#L" n="119"/>a. 11 et 12; et l II^, q. rxxxv, a. 1 et 2, quod triplex
+<lb ed="#L" n="120"/>est bonum: scilicet jllud cui malum opponitur; 
+subie<lb ed="#L" break="no" n="121"/>ctum mali; et habilitas ipsius subiecti ad bonum, quam
+<lb ed="#L" n="122"/>hic Sanctus Thomas aptitudinem ad bonum vocat. Malum
+<lb ed="#L" n="123"/>ergo bonum cui opponitur totaliter tollit: sicut caecitas
+<lb ed="#L" n="124"/>totaliter tollit visum. — Entitatem autem subiecti non modo
+<lb ed="#L" n="125"/>non totaliter tollit, sed nec diminuit: sicut caecitas nihil
+<lb ed="#L" n="126"/>removet a substantia oculi. — Sed ipsam habilitatem et 
+apti<lb ed="#L" break="no" n="127"/>tudinem subiecti ad bonum, quae est potentia ad 
+susce<lb ed="#L" break="no" n="128"/>ptionem actus, diminuit quidem modo dicto, 
+concomi<lb ed="#L" break="no" n="129"/>tando scilicet in subiecto formam contrariam bono cui
+<pb ed="#L" n="35"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>opponitur et quod totaliter tollit, per quam formam 
+im<lb ed="#L" break="no" n="2"/>peditur subiectum a susceptione formae oppositae; non
+<lb ed="#L" n="3"/>autem ipsam habilitatem totaliter tollit, quia, cum 
+con<lb ed="#L" break="no" n="4"/>comitetur substantiam et naturam subiecti, natura manente
+<lb ed="#L" n="5"/>subiecti, remanet semper ipsa habilitas. Dat exemplum
+<lb ed="#L" n="6"/>Sanctus Thomas de habilitate aeris ad lumen, quae, 
+quam<lb ed="#L" break="no" n="7"/>vis per interpositionem corporis opaci in infinitum inter
+<lb ed="#L" n="8"/>ipsam et solem diminui possit in infinitum, nunquam tamen,
+<lb ed="#L" n="9"/>manente aere, totaliter tollitur. Si tamen esset aliquid 
+po<lb ed="#L" break="no" n="10"/>tens subiectum corrumpere, illud, corrumpendo subiectum,
+<lb ed="#L" n="11"/>totaliter habilitatem subiecti removeret. Unde quamvis, ubi
+<lb ed="#L" n="12"/>fit diminutio alicuius per subtractionem partium, oporteat
+<lb ed="#L" n="13"/>finitum tandem totaliter consumi; ubi tamen fit diminutio
+<lb ed="#L" n="14"/>et remissio per interpositionem impedimenti et obstaculi,
+<lb ed="#L" n="15"/>non oportet ut finitum tandem consumatur: possunt enim
+<lb ed="#L" n="16"/>impedimenta in infinitum apponi, quibus potentia et 
+apti<lb ed="#L" break="no" n="17"/>tudo magis elongatur ab actu, et tamen semper quantum
+<lb ed="#L" n="18"/>ad aliquid potentia et aptitudo remanet.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e416">
+               <lb ed="#L" n="19"/>2. Considerandum secundo quod, cum praedicta habilitas
+<lb ed="#L" n="20"/>et aptitudo ad bonum intelligatur ut media inter subiecti
+<lb ed="#L" n="21"/>maturam, in qua fundatur sicut in radice, et bonum in
+<lb ed="#L" n="22"/>quod tendit; diminutio habilitatis per appositionem 
+im<lb ed="#L" break="no" n="23"/>pedimenti non intelligitur ut se tenet ex parte radicis, cum
+<lb ed="#L" n="24"/>per tale impedimentum non diminuatur natura subiecti;
+<lb ed="#L" n="25"/>sed intelligitur ut ad bonum tendit; per huiusmodi enim
+<lb ed="#L" n="26"/>appositionem impeditur ne ad bonum in quod ordinatur
+<lb ed="#L" n="27"/>pertingat. Unde quanto plura apponuntur impedimenta,
+<lb ed="#L" n="28"/>tanto magis impeditur et elongatur ab actu; quod est
+<lb ed="#L" n="29"/>ipsam aptitudinem et habilitatem sive inclinationem ad
+<lb ed="#L" n="30"/>bonum diminui ut ex parte ipsius termini consideratur.
+<lb ed="#L" n="31"/>Unde obiectiones Durandi in Secundo, d. xxxiv , quae
+<lb ed="#L" n="32"/>procedunt de diminutione habilitatis huiusmodi ut se tenet
+<lb ed="#L" n="33"/>ex parte subiecti, non procedunt contra Sanctum '
+Tho<lb ed="#L" break="no" n="34"/>mam. Diminutio enim habilitatis et intensio ut se tenet
+<lb ed="#L" n="35"/>ex parte termini, non oportet ut fiat per aliquid 
+inhae<lb ed="#L" break="no" n="36"/>rens subiecto: licet forte hoc requiratur ad intensionem
+<lb ed="#L" n="37"/>et remissionem eius ut se tenet ex parte subiecti.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e460">
+               <lb ed="#L" n="38"/>Similiter obiectiones Scoti in xxxv distinctione Secundi,
+<lb ed="#L" n="39"/>constat non procedere contra hanc determinationem : quia
+<lb ed="#L" n="40"/>procedunt de diminutione quae est per subtractionem, non
+<lb ed="#L" n="41"/>autem de ea quae est per appositionem impedimenti, et
+<lb ed="#L" n="42"/>quae non est per se, sed per aliud.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e473">
+               <lb ed="#L" n="43"/>IV. Sed occurrit dubium circa dicta. Videmus namque
+<lb ed="#L" n="44"/>quod homo caecus non potest per naturam visum 
+recu<lb ed="#L" break="no" n="45"/>perare. Ergo non remanet in ipso habilitas et aptitudo
+<lb ed="#L" n="46"/>naturalis ad visum: quia aptitudo naturalis potest per agens
+<lb ed="#L" n="47"/>naturale in actum reduci. Ergo malum totaliter tollit 
+ap<lb ed="#L" break="no" n="48"/>titudinem subiecti ad bonum.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e489">
+               <lb ed="#L" n="49"/>2. Ad hoc dicitur primo, quod hoc est universaliter 
+ve<lb ed="#L" break="no" n="50"/>rum, quod, manente potentia ad aliquem actum, remanet
+<lb ed="#L" n="51"/>semper eius habilitas ad actum quae in ipsa immediate
+<lb ed="#L" n="52"/>fundatur, et remota potentia, removetur: quia ipsam po-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="53"/>tentiam necessario concomitatur. Et quia nulla privatio,
+<lb ed="#L" n="54"/>ut sic, tollit subiectum suum aut potentiam, cum. illud
+<lb ed="#L" n="55"/>sibi determinet ut in quo sit suo modo; ideo nulla 
+pri<lb ed="#L" break="no" n="56"/>vatio, et nullum malum, removet a suo subiecto 
+habili<lb ed="#L" break="no" n="57"/>tatem ad formam in ipso immediate fundatam ; licet 
+con<lb ed="#L" break="no" n="58"/>tingat aliquando per aliquod agens corrumpi potentiam
+<lb ed="#L" n="59"/>simul et habilitatem.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e519">
+               <lb ed="#L" n="60"/>3. Dicitur secundo, quod homo caecus, licet totaliter
+<lb ed="#L" n="61"/>amiserit aptitudinem proximam ad actum videndi, quae in
+<lb ed="#L" n="62"/>virtute visiva fundabatur; remanet tamen in ipso aptitudo
+<lb ed="#L" n="63"/>ad potentiam visivam, ut dicitur de Malo, q. 2, a. 12, ad 3;
+<lb ed="#L" n="64"/>et remanet etiam aptitudo ad actum videndi tanquam in
+<lb ed="#L" n="65"/>radice et fundamento remoto.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e535">
+               <lb ed="#L" n="66"/>Cum probatur quia non potest per naturam visum 
+re<lb ed="#L" break="no" n="67"/>cuperare: — dicitur quod hoc non est propter defectum
+<lb ed="#L" n="68"/>aptitudinis; sed quia, ut dicitur I^ I, q. rxxxv, a. 2, ad 3,
+<lb ed="#L" n="69"/>deest causa quae possit reducere illam aptiitudinem ad
+<lb ed="#L" n="70"/>actum, formando organum quod requiritur ad videndum.
+</p>
+            <p xml:id="ferv7a-d1e1806-d1e548">
+               <lb ed="#L" n="71"/>Cum autem dicitur quoniam naturalis aptitudo potest
+<lb ed="#L" n="72"/>per agens naturale in actum reduci: — respondetur, ut
+<lb ed="#L" n="73"/>haberi potest ex doctrina Sancti Thomae Tertio, d. 1, q. 1,
+<lb ed="#L" n="74"/>a. 3, ad 4, quod utique aptitudo naturalis, secundum suam
+<lb ed="#L" n="75"/>speciem absolute considerata, potest reduci in actum ab
+<lb ed="#L" n="76"/>aliquo agente naturali: non autem oportet ut unaquaeque
+<lb ed="#L" n="77"/>singularis aptitudo in actum reduci possit, quia propter
+<lb ed="#L" n="78"/>aliquod impedimentum provenire potest ut in actum reduci
+<lb ed="#L" n="79"/>non possit. Et sic dicitur quod aptitudo naturalis ad 
+vi<lb ed="#L" break="no" n="80"/>sum, secundum speciem considerata, reduci potest ad
+<lb ed="#L" n="81"/>actum per agens naturale, videmus enim per naturalem
+<lb ed="#L" n="82"/>generationem talem aptitudinem impleri: in eo autem qui
+<lb ed="#L" n="83"/>privatus est visu, non potest per agens naturale reduci in
+<lb ed="#L" n="84"/>actum propter impedimentum quod supervenit. Cum enim
+<lb ed="#L" n="85"/>ordine quodam respiciat visum et caecitatem, quia scilicet
+<lb ed="#L" n="86"/>non pervenit ad caecitatem nisi per visum; non potest
+<lb ed="#L" n="87"/>fieri reditus ab ipsa ad visum per agens naturale, quia,
+<lb ed="#L" n="88"/>cum materia ad diversa se habet secundum ordinem, non
+<lb ed="#L" n="89"/>potest ex posteriori rediri in prius, ut inquit Sanctus
+<lb ed="#L" n="90"/>"Thomas VIII Metaph., eo quod cuiuslibet rei sit 
+determi<lb ed="#L" break="no" n="91"/>natus modus generationis. ldeo, cum ponitur in animali
+<lb ed="#L" n="92"/>caecitas, ponitur impedimentum ne habilitas ad visum 
+re<lb ed="#L" break="no" n="93"/>duci possit ab agente naturali in actum, — Nec obstat quod
+<lb ed="#L" n="94"/>aliquando homo est caecus a nativitate: et sic non videtur
+<lb ed="#L" n="95"/>quod materia semper perveniat ad caecitatem per virtutem
+<lb ed="#L" n="96"/>visivam. Dicitur enim quod, licet tunc non habeat prius
+<lb ed="#L" n="97"/>virtutem visivam, habuisset tamen nisi fuisset impedita.
+<lb ed="#L" n="98"/>Unde sicut corrumpens oculum dicitur corrumpere visum
+<lb ed="#L" n="99"/>in eo existentem, et caecitas concomitans est corruptio
+<lb ed="#L" n="100"/>visus qui praefuit; ita causans impedimentum aut 
+contra<lb ed="#L" break="no" n="101"/>riam. dispositionem ad visum in generatione animalis, 
+di<lb ed="#L" break="no" n="102"/>citur indirecte corrumpere visum qui affuisset si non fuisset
+<lb ed="#L" n="103"/>impeditus; et caecitas concomitans est corruptio visus qui
+<lb ed="#L" n="104"/>debebat adesse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

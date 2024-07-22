@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 84</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 84</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="250"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2394"><!-- ferv7a-l3c84 -->
+            <head>Capitulum 84</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="15" type="fixed=250"/>Commentaria Ferrariensis.
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="16"/>POSTQUAM determinavit Sanctus Thomas de divina 
+pro<lb ed="#L" break="no" n="17"/>videntia secundum quod .ad omnia communiter se
+<lb ed="#L" n="18"/>extendit, nunc incipit agere de ipsa secundum quod 
+par<lb ed="#L" break="no" n="19"/>ticulariter se extendit ad homines . Circa hoc autem duo
+<lb ed="#L" n="20"/>facit: primo, ostendit a quibus humanae electiones 
+guber<lb ed="#L" break="no" n="21"/>nentur; secundo, quaedam corrollaria infert, cap. xcr. —
+<lb ed="#L" n="22"/>Circa primum tria facit: primo, ostendit quod corpora 
+cae<lb ed="#L" break="no" n="23"/>lestia non sunt causa humanarum electionum; secundo,
+<lb ed="#L" n="24"/>quod neque substantiae separatae, cap. Lxxxvmi; tertio,
+<lb ed="#L" n="25"/>quod. divinae providentiae subduntur, cap. xc.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Circa primum duo facit: primo, ostendit quod corpora
+<lb ed="#L" n="27"/>caelestia non imprimant in intellectus nostros; secundo,
+<lb ed="#L" n="28"/>quod non sint causa electionum nostrarum, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>I. Quantum ad primum, ponuntur duae conclusiones .
+<lb ed="#L" n="30"/>Prima est: Eorum quae sunt circa intellectum, corpora
+<lb ed="#L" n="31"/>caelestia causa per se esse non possunt directe. :
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Probatur primo sic. Intellectus ordine naturae omnia
+<lb ed="#L" n="33"/>corpora excedit. Ergo impossibile est quod. corpora 
+cae<lb ed="#L" break="no" n="34"/>lestia agant in intellectum directe. Ergo non possunt esse
+<lb ed="#L" n="35"/>per se causa eorum quae sunt circa intellectum. — 
+Pro<lb ed="#L" break="no" n="36"/>batur consequentia. Quia divinae providentiae ordo est ut
+<lb ed="#L" n="37"/>per superiora regantur inferiora et moveantur. i
+</p>
+            <p>
+               <lb ed="#L" n="38"/>2. Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="39"/>ex parte effectus, dicitur causa per se alicuius effectus quae
+<lb ed="#L" n="40"/>propria virtute et propria actione attingit effectum 
+secun<lb ed="#L" break="no" n="41"/>dum. seipsum, non ratione alicuius alterius cui 
+coniun<lb ed="#L" break="no" n="42"/>gatur. llla vero dicitur esse causa per accidens quae non.
+<lb ed="#L" n="43"/>attingit propria actione effectum. secundum seipsum, sed
+<lb ed="#L" n="44"/>aliquid aliud, cui coniungitur. Sicut dicimus fodientem
+<lb ed="#L" n="45"/>sepulcrum esse causam per se sepulcri; inventionis autem
+<lb ed="#L" n="46"/>thesauri esse causam. per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Considerandum secundo, quod unum agere in aliud
+<lb ed="#L" n="48"/>dupliciter contingit: uno modo, directe; alio modo, indi-.
+<lb ed="#L" n="49"/>recte. Dicitur aliquid in aliud directe agere, quando actio
+<lb ed="#L" n="50"/>eius et influxus ad ipsum tanquam ad passum pertingit,
+<lb ed="#L" n="51"/>aliquid in ipso causando. Indirecte autem dicitur agere,
+<lb ed="#L" n="52"/>quando eius actio non pertingit ad ipsum, causando 
+ali<lb ed="#L" break="no" n="53"/>quid in eo, sed pertingit ad aliquid aliud ex quo in ipso
+<lb ed="#L" n="54"/>aliquid resultat. Primo modo, dicimus ignem agcre in aquam
+<lb ed="#L" n="55"/>quam calefacit: secundo modo, dicimus ipsum agere in.
+<lb ed="#L" n="56"/>homines inter quos ex acceptione aquae calidae discordia
+<lb ed="#L" n="57"/>est exorta.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Considerandum tertio, quod agere directe in aliquod
+<lb ed="#L" n="59"/>passum necessario infertur ex hoc quod est esse causam
+<lb ed="#L" n="60"/>per se eius quod fit in tali passo: non enim potest. ali-'
+<lb ed="#L" n="61"/>quod agens esse per se causa alicuius in aliquo facti nisi
+<lb ed="#L" n="62"/>in subiectum et passum directe agat; nam quod ab agente
+<lb ed="#L" n="63"/>causatur in aliquo, oportet per aliquam agentis actionem
+<lb ed="#L" n="64"/>terminatam ad passum tanquam ad subiectum. fieri,..Non
+<lb ed="#L" n="65"/>autem ex hoc quod . est directe, infertur agere per se:.
+<lb ed="#L" n="66"/>quia etiam agens per accidens directe agere potest, in-.
+<lb ed="#L" n="67"/>quantum sua actione aliquid attingit, licet non primo, |
+<lb ed="#L" n="68"/>sed per aliud. Agere etiam in passum indirecte necessario
+<lb ed="#L" n="69"/>infertur ex hoc, quod est esse causam per accidens eius
+<lb ed="#L" n="70"/>quod fit in passo. Et quia, quando aliquod consequens
+<lb ed="#L" n="71"/>necessario sequitur ad aliquod antecedens, necessario etiam
+<lb ed="#L" n="72"/>negatione consequentis infertur negatio antecedentis, ideo
+<lb ed="#L" n="73"/>Sanctus Thomas, eX eo quod corpora caelestia non 
+di<lb ed="#L" break="no" n="74"/>recte agunt in intellectum nostrum, infert quod non sunt
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="75"/>per se causa eorum quae in intellectu fiunt: neque enim
+<lb ed="#L" n="76"/>per se causant ea quae in intellectu fiunt, neque eorum:
+<lb ed="#L" n="77"/>actio intellectum attingit.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>II. Secundo. Ea, quae sunt circa intellectum, sunt 
+om<lb ed="#L" break="no" n="79"/>nino extra motum, per se loquendo, ut patet VII Phys.:
+<lb ed="#L" n="80"/>immo per quietem a motu fit anima prudens et sciens.
+<lb ed="#L" n="81"/>Ergo etc. — Probatur consequentia. Quia, cum nihil 
+cau<lb ed="#L" break="no" n="82"/>setur ex motu nisi inquantum agens movet, passum autem:
+<lb ed="#L" n="83"/>movetur; quae sunt immobilia tanquam omnino extra
+<lb ed="#L" n="84"/>motum, non causantur ex motu. Corpus autem non.agit
+<lb ed="#L" n="85"/>nisi per motum.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Adverte, quod addit Sanctus Thomas ad antecedens
+<lb ed="#L" n="87"/>per se loquendo: quia ea quae in intellectu fiunt, per
+<lb ed="#L" n="88"/>accidens possunt in mctu esse, tatione phantasmatum ad
+<lb ed="#L" n="89"/>intellectionem concurrentium.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Tertio. Intellectus neque est corpus, neque virtus cor-.
+<lb ed="#L" n="91"/>porea, Ergo non possunt corpora caelestia in ipsum, 
+di<lb ed="#L" break="no" n="92"/>recte imprimere. - Probatur consequentia. Quia, cum :
+<lb ed="#L" n="93"/>nihil causetur a corpore nisi inquantum, dum movetur,
+<lb ed="#L" n="94"/>movet, oportet id quod impressionem corporis recipit,
+<lb ed="#L" n="95"/>moveri: nihil autem movetur nisi corpus.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Quarto. Omne agens et movens oportet aliquo modo.
+<lb ed="#L" n="97"/>esse actu respectu eorum quae causat, Sed corpora caelestia
+<lb ed="#L" n="98"/>non sunt actu intelligibilia: cum sint singularia sensibilia.
+<lb ed="#L" n="99"/>Ergo non possunt causare intelligibilia. Ergo etc. - Probatur
+<lb ed="#L" n="100"/>maior. Quia omne quod movetur ab aliquo, reducitur ab
+<lb ed="#L" n="101"/>eo de potentia in actum, Nihil autem reducitur in actum
+<lb ed="#L" n="102"/>nisi per id quod est actu. — Ultima vero consequentia.
+<lb ed="#L" n="103"/>probatur. Quia intellectus noster non est in potentia nisi
+<lb ed="#L" n="104"/>ad intelligibilia in actu: scilicet tanquam ad formas in ipso
+<lb ed="#L" n="105"/>immediate recipiendas.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Ista ratio probat particulariter caelum noh esse causam
+<lb ed="#L" n="107"/>speciei. intelligibilis.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>III. Quinto. Quod subditur corpori caelesti secundum
+<lb ed="#L" n="109"/>suam operationem, subditur etiam illi secundum 
+princi<lb ed="#L" break="no" n="110"/>pium suae naturae. Sed pars intellectiva non causatur ab
+<lb ed="#L" n="111"/>aliquibus principiis corporalibus, sed est omnino ab 
+ex<lb ed="#L" break="no" n="112"/>trinseco. Ergo eius operatio non subditur corporibus 
+cae<lb ed="#L" break="no" n="113"/>lestibus. — Maior probatur, Quia propria operatio rei 
+con<lb ed="#L" break="no" n="114"/>sequitur naturam ipsius. rei, quae, rebus generatis per;
+<lb ed="#L" n="115"/>generationem acquiritur simul cum propria operatione.
+<lb ed="#L" n="116"/>Declaratur in gravi et levi.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>2. Circa istam rationem duplex occurrit dubium. 
+Pri<lb ed="#L" break="no" n="118"/>mum est quia, si nihil potest subdi secundum operationem.
+<lb ed="#L" n="119"/>corpori quod mon causatur ab ipso secundum suam 
+sub<lb ed="#L" break="no" n="120"/>stantiam, sequitur quod homo non poterit esse causa
+<lb ed="#L" n="121"/>operationis alicuius instrumenti cuius non est causa. Quod.
+<lb ed="#L" n="122"/>tamen videtur manifeste falsum: est enim causa incisionis
+<lb ed="#L" n="123"/>ensis, et tamen non est eius causa.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Secundum est quia, quamvis maior sit vera de actione
+<lb ed="#L" n="125"/>consequente necessario naturam statim. nisi impediatur,
+<lb ed="#L" n="126"/>non tamen sequitur quod causa intellectionis sit etiam"
+<lb ed="#L" n="127"/>causa naturae intellectivae: quia intellectio non est talis.
+<lb ed="#L" n="128"/>operatio, ut patet. 
+</p>
+            <p>
+               <lb ed="#L" n="129"/>3. Ad primum dicitur primo, quod ratio procedit de:
+<lb ed="#L" n="130"/>operatione consequente naturam per se, non autem de
+<lb ed="#L" n="131"/>operatione instrumenti, quae non convenit instrumento,
+<lb ed="#L" n="132"/>nisi. per novum motum quo ab aliquo movetur. Actio
+<lb ed="#L" n="133"/>enim instrumenti magis attribuitur utenti instrumento quam
+<pb ed="#L" n="251"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ipsi instrumento: nam magis m hominem incidere
+<lb ed="#L" n="2"/>lignum quam gladium.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Ad secundum dicitur quod ista ratio videtur concludere
+<lb ed="#L" n="4"/>de actione intellectus agentis, quae est facere intelligibilia
+<lb ed="#L" n="5"/>in actu,sive actuare intellectum : possibilem. Nam sicut in
+<lb ed="#L" n="6"/>praecedenti ratione ostendit corpus caeleste non esse causam
+<lb ed="#L" n="7"/>speciei intelligibilis, ita hac ratione ostenditur quod non
+<lb ed="#L" n="8"/>est causa illius actionis qua intellectus agens ipsas species
+<lb ed="#L" n="9"/>intelligibiles format. Ideo propositio assumpta optime 
+pro<lb ed="#L" break="no" n="10"/>positum infert. Quia ista operatio intellectus agentis 
+natu<lb ed="#L" break="no" n="11"/>raliter consequitur intellectum agentem, positis 
+phantasma<lb ed="#L" break="no" n="12"/>tibus convenientibus in imaginatione et debite dispositis,
+<lb ed="#L" n="13"/>sicut calefactio. naturaliter consequitur ignem. Propterea,
+<lb ed="#L" n="14"/>sicut generans ignem, qui est causa calefactionis, est etiam
+<lb ed="#L" n="15"/>causa naturae ignis; ita et quod est causa operationis
+<lb ed="#L" n="16"/>intellectus agentis, oportet esse causam naturae ipsius.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>IV. Sexto. Intellectus in. sua operatione abstrahit a
+<lb ed="#L" n="18"/>tempore, sicut a loco : cum consideret universale, quod
+<lb ed="#L" n="19"/>est abstractum ab hic et nunc. Ergo etc. — Probatur 
+con<lb ed="#L" break="no" n="20"/>sequentia. Quia ea quae causantur ex motibus caelestibus,
+<lb ed="#L" n="21"/>tempori subduntur, quod est numerus primi motus.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Attendendum primo, quod convenienter Sanctus 
+Tho<lb ed="#L" break="no" n="23"/>mas ex obiecto intellecto, inquantum huiusmodi, arguit
+<lb ed="#L" n="24"/>operationem intellectus non esse in tempore. Quia, cum
+<lb ed="#L" n="25"/>esse abstractum a loco et tempore non conveniat 
+uni<lb ed="#L" break="no" n="26"/>versali secundum quod est in singulari, immo, ut sic, sit
+<lb ed="#L" n="27"/>determinatum: ad certum tempus et ad certum "locum;
+<lb ed="#L" n="28"/>habeat autem separationem ab istis conditionibus 
+secun<lb ed="#L" break="no" n="29"/>dum quod est obiectum intellectus: necesse est ut ipsa
+<lb ed="#L" n="30"/>intellectio, quae. ex obiecto intellecto, inquantum: 
+intel<lb ed="#L" break="no" n="31"/>lectum: est, specificatur, sit extra tempus; oportet enim
+<lb ed="#L" n="32"/>naturam rei ex forma Mc ad modum essendi 
+de<lb ed="#L" break="no" n="33"/>terminari.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Attendendum secundo quod, licet operatio intellectus
+<lb ed="#L" n="35"/>per se non sit in tempore, per accidens tamen sibi 
+admi<lb ed="#L" break="no" n="36"/>scetur tempus, ratione phantasmatum, quae ad ipsam 
+exi<lb ed="#L" break="no" n="37"/>guntur, ut in praecedentibus  de mente Sancti Thomae est
+<lb ed="#L" n="38"/>ostensum: sicut et ipsum universale, quod per se abstrahit
+<lb ed="#L" n="39"/>a loco et tempore negative, ratione tamen singularis in
+<lb ed="#L" n="40"/>quo est, ad certum locum et certum tempus determinatur.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>V. Septimo. Intelligere transcendit speciem et formam
+<lb ed="#L" n="42"/>cuiuslibet corporis agentis. Ergo nullum corpus per 
+for<lb ed="#L" break="no" n="43"/>mam suam corpoream potest intelligere. Ergo multo minus
+<lb ed="#L" n="44"/>potest in alio ipsum intelligere causare. — Probatur prima
+<lb ed="#L" n="45"/>consequentia. Quia nihil agit; ultra suam speciem: 
+tan<lb ed="#L" break="no" n="46"/>quam scilicet primum et per se.agens. — Antecedens vero
+<lb ed="#L" n="47"/>probatur. Quia forma.corporea est. materialis et 
+indivi<lb ed="#L" break="no" n="48"/>duata; intelligere autem habet speciem ab obiecto, me
+<lb ed="#L" n="49"/>est universale et immateriale.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>2. Circa ultimam consequentiam dubium occurit. Nam
+<lb ed="#L" n="51"/>multa sunt quae agens in seipso causare non potest, et
+<lb ed="#L" n="52"/>tamen in alio causat: sol enim causat formas in istis 
+infe<lb ed="#L" break="no" n="53"/>rioribus, quas tamen in seipso non causat. Quamvis ergo
+<lb ed="#L" n="54"/>aliquid in seipso non causet operationem intelligendi, non
+<lb ed="#L" n="55"/>tamen sequitur quod in alio causare non possit. )
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Respondetur quod ista consequentia tenet de actu 
+in<lb ed="#L" break="no" n="57"/>telligendi inquantum excedit formam agentis. Si enim 
+cor<lb ed="#L" break="no" n="58"/>pus non potest intellectionem in seipso causare propter
+<lb ed="#L" n="59"/>excessum eius supra formam et speciem corporis, multo
+<lb ed="#L" n="60"/>magis non poterit, propter eandem rationem, ipsam in
+<lb ed="#L" n="61"/>alio causare: magis enim videretur, si haberet causalitatem
+<lb ed="#L" n="62"/>super. talem actum, quod illum in seipso causaret quam in
+<lb ed="#L" n="63"/>alio, eo quod sit operatio immanens. Quod si hoc. non
+<lb ed="#L" n="64"/>potest, multo minus et aliud poterit. Non ergo illa 
+conse<lb ed="#L" break="no" n="65"/>quentia tenet in virtute illius propositionis, Agems quod
+<lb ed="#L" n="66"/>non potest aliquid in seipso causare, neque illud causare
+<lb ed="#L" n="67"/>in alio potest, ut obiectio supponit: sed virtute. istius,
+<lb ed="#L" n="68"/>Quod non potest in seipso causare intellectionem, propter
+<lb ed="#L" n="69"/>excessum ipsius intellectionis supra formam et speciem eius,
+<lb ed="#L" n="70"/>multo minus potest illam in alio causare. Ista autem 
+mani<lb ed="#L" break="no" n="71"/>feste: verissima est. Idcirco Sanctus Thomas illam 
+conse<lb ed="#L" break="no" n="72"/>quentiam, tanquam per se manifestam, non curavit probare.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>VI. Octavo. Anima nostra intelligit secundum quod
+<lb ed="#L" n="74"/>unitur substantiis intellectualibus, quae sunt superiores
+<lb ed="#L" n="75"/>ordine naturae corporibus caelestibus. Ergo etc. — Probatur
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>antecedens. Quia anima non potest intelligere nisi secundum
+<lb ed="#L" n="77"/>quod lumen intellectuale inde sortitur. — Consequentia
+<lb ed="#L" n="78"/>vero probatur. Quia secundum illud quo aliquid unitur
+<lb ed="#L" n="79"/>superioribus, non est inferioribus subiectum.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Ad evidentiam huius rationis, considerandum est quod
+<lb ed="#L" n="81"/>illud quo aliquid, quasi per quandam continuationem,
+<lb ed="#L" n="82"/>superioribus unitur, cum sit quaedam superioris 
+partici<lb ed="#L" break="no" n="83"/>patio, ad naturam superioris pertinere videtur, licet 
+excel<lb ed="#L" break="no" n="84"/>lentiori modo in illo inveniatur. Unde ex superiori et
+<lb ed="#L" n="85"/>inferiori, quantum ad illud, quodammodo efficitur unum:
+<lb ed="#L" n="86"/>aut saltem inter illa est talis immediatio ut nihil dignius
+<lb ed="#L" n="87"/>inter illa possit mediare. Et idcirco quod est illo 
+supe<lb ed="#L" break="no" n="88"/>riori inferius, est etiam inferius ordine naturae eo quod
+<lb ed="#L" n="89"/>sic illi superiori continuatur. Et per consequens, sicut non
+<lb ed="#L" n="90"/>potest in superiorem naturam agere, ita non potest agere in
+<lb ed="#L" n="91"/>illud quod ei continuatur, quantum ad illud in quo 
+uniun<lb ed="#L" break="no" n="92"/>tur. Cum ergo, ratione luminis intellectualis, sit quaedam
+<lb ed="#L" n="93"/>continuatio inter animam humanam et superiores 
+intel<lb ed="#L" break="no" n="94"/>lectus; et operatio intellectualis a tali lumine procedat:
+<lb ed="#L" n="95"/>optime sequitur quod corpora caelestia, quae sunt inferiora
+<lb ed="#L" n="96"/>substantiis intellectualibus, in humanun intellectum directe
+<lb ed="#L" n="97"/>agere non possint, sicut neque in superiores intellectus.
+<lb ed="#L" n="98"/>Et: secundum hoc procedit haec ratio.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>VII. Nono. Et est ratio directe contra positionem 
+phi<lb ed="#L" break="no" n="100"/>losophorum. Ponere corpora caelestia esse causam nobis
+<lb ed="#L" n="101"/>intelligendi, est consequens opinionem eorum qui 
+pone<lb ed="#L" break="no" n="102"/>bant intellectum non differre a sensu: ut patet ex 
+Phi<lb ed="#L" break="no" n="103"/>losopho, II de Anima, text. 150 . Sed haec opinio est
+<lb ed="#L" n="104"/>falsa. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Ad manifestationem maioris inducit primo opinionem
+<lb ed="#L" n="106"/>Democriti, Empedoclis, et aliorum antiquorum  
+Natura<lb ed="#L" break="no" n="107"/>lium Philosophorum, qui, ponentes intellectum non 
+dif<lb ed="#L" break="no" n="108"/>ferre a sensu, dixerunt quod, cum trasmutatio inferiorum
+<lb ed="#L" n="109"/>corporum sequatur transmutationem corporum superiorum,
+<lb ed="#L" n="110"/>intellectualis etiam operatio sequetur corporum caelestium
+<lb ed="#L" n="111"/>motus. - Manifestatur auctoritate Homeri, exposita per
+<lb ed="#L" n="112"/>Augustinum, IV Civit., c. xt, dicentis quod alis est 
+intel<lb ed="#L" break="no" n="113"/>lectus in diis et hominibus terrenis, qualem in die inducit 
+<lb ed="#L" n="114"/>Pater virorum deorumque.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>Inducit secundo opinionem Stoicorum, ponentium 
+ne<lb ed="#L" break="no" n="116"/>cessitate quadam fatali hominum vitam duci. Dicebant
+<lb ed="#L" n="117"/>enim .cognitionem intellectus causari ex eo quod imagines
+<lb ed="#L" n="118"/>corporum nostris mentibus imprimuntur: ut narrat <ref>Boetius,
+<lb ed="#L" n="119"/>V de Consolatione</ref>. Contra quam opinionem ex ipso Boetio
+<lb ed="#L" n="120"/>arguitur: quia intellectus componit et dividit, et comparat
+<lb ed="#L" n="121"/>suprema ad infima, et cognoscit universalia et simplices
+<lb ed="#L" n="122"/>formas, quae in corporibus non inveniuntur, et ad quae
+<lb ed="#L" n="123"/>sensus exterior non se extendit.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Inducitur tertio contra praedictas opiniones Plato et
+<lb ed="#L" n="125"/>Aristoteles, qui, ponentes a sensu intellectum differre,
+<lb ed="#L" n="126"/>causam nostrae scientiae non corporibus, sed rebus 
+im<lb ed="#L" break="no" n="127"/>materialibus attribuerunt, ille ideis, iste intellectui agenti.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>Inducitur et auctoritas Scripturae, Job xxxv, et Psalmi,
+<lb ed="#L" n="129"/>ubi dicitur: Qui docet hominem scientiam. :
+</p>
+            <p>
+               <lb ed="#L" n="130"/>VII. Secunda conclusio est: Licet corpora caelestia
+<lb ed="#L" n="131"/>directe intelligentiae nostrae causa esse non possint, aliquid
+<lb ed="#L" n="132"/>tamen ad hoc indirecte operantur, agendo scilicet in aliquod
+<lb ed="#L" n="133"/>ex quo aut iuvatur aut impeditur actio: intellectus.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Probatur. Quia in nobis operatio intellectus compleri
+<lb ed="#L" n="135"/>non potest sine operatione virtutum corporearum, quae
+<lb ed="#L" n="136"/>sunt imaginatio, et vis memorativa, et cogitativa. Cuius
+<lb ed="#L" n="137"/>signum est duplex. Unum est quod, impeditis harum 
+vir<lb ed="#L" break="no" n="138"/>tutum. operationibus propter aliquam «corporis 
+indisposi<lb ed="#L" break="no" n="139"/>tionem, operatio intellectus impeditur: ut in  phreneticis,
+<lb ed="#L" n="140"/>idest mente captis, et lethargis, idest obliviosis, accidit.
+<lb ed="#L" n="141"/>Aliud est quod bonitas dispositionis corporis humani facit
+<lb ed="#L" n="142"/>aptum ad bene intelligendum, ex hoc quod praedictae vires
+<lb ed="#L" n="143"/>fortiores existunt: ut patet ex l| de Anima. Dispositio
+<lb ed="#L" n="144"/>autem corporis humani subiacet corporibus caelestibus:
+<lb ed="#L" n="145"/>ut patet ex Augustino, V Civit., cap. v1; et ex Damasceno,
+<lb ed="#L" n="146"/>secundo libro.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>Ex quo infert Sanctus Thomas primo quod, sicut 
+me<lb ed="#L" break="no" n="148"/>dicus de bonitate intellectus iudicare potest ex corporis
+<lb ed="#L" n="149"/>dispositione sicut ex dispositione proxima, ita. astrologus
+<lb ed="#L" n="150"/>ex motibus caelestibus sicut ex causa remota.
+</p>
+            <p>
+               <pb ed="#L" n="252"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Secundo, infert Ptolomaei dictum in Centiloquio circa
+<lb ed="#L" n="2"/>bonitatem intelligentiae, secundum hunc modum verificari
+<lb ed="#L" n="3"/>posse, dum inquit quod, cum fuerit Mercurius in nativitate
+<lb ed="#L" n="4"/>alicuius in aliqua domorum Saturni, et ipse fortis in esse
+<lb ed="#L" n="5"/>suo, dat bonitatem intelligentiae medullitus in rebus.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>IX. Sed contra hanc secundam conclusionem et eius
+<lb ed="#L" n="7"/>corollaria potest argui rationibus loannis Pici, hominis
+<lb ed="#L" n="8"/>ingeniosissimi, in libro Adversus Astrologos, tenentis
+<lb ed="#L" n="9"/>corpora caelestia esse causas universales horum inferiorum,
+<lb ed="#L" n="10"/>et diversitatem effectuum in istis inferioribus contingentium
+<lb ed="#L" n="11"/>in causas tantum proximas, non autem in aliquas 
+constel<lb ed="#L" break="no" n="12"/>lationes, sive siderum positiones, esse referendam; Ex quo
+<lb ed="#L" n="13"/>sequitur. diversitatis intellectuum ex diversa corporis 
+dispo<lb ed="#L" break="no" n="14"/>sitione provenientis causam esse aliquam particularem
+<lb ed="#L" n="15"/>virtutem, non autem diversam siderum positionem. Quo
+<lb ed="#L" n="16"/>fit ut etiam falsum sit posse astrologum de bonitate 
+intel<lb ed="#L" break="no" n="17"/>lectus ex motibus caelestibus iudicare, ut hic dicitur; et
+<lb ed="#L" n="18"/>dictum Ptolomaei, quod .Sanctus Thomas verificare 
+niti<lb ed="#L" break="no" n="19"/>tur, salvari non posse.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>Arguit enim primo sic. Caelum est causa universalis.
+<lb ed="#L" n="21"/>Causa universalis non distinguit effectus, sed tantum causae
+<lb ed="#L" n="22"/>proximae, tam specificae quam singulares. Ergo caelum
+<lb ed="#L" n="23"/>non est causa diversitatis effectuum in istis inferioribus,
+</p>
+            <p>
+               <lb ed="#L" n="24"/>Confirmatur primo. Nulla est siderum positio sub
+<lb ed="#L" n="25"/>qua de leone leo, de equo equus non nascatur. Ergo
+<lb ed="#L" n="26"/>diversitas rerum non positioni siderum, sed diversitati
+<lb ed="#L" n="27"/>particularium causarum est ascribenda.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Confirmatur secundo . Natos simul eodem momento ex
+<lb ed="#L" n="29"/>diversis parentibus, intra eandem eiusdem tamen regionis
+<lb ed="#L" n="30"/>latitudinem et longitudinem, fortuna, ingenio, corpore,
+<lb ed="#L" n="31"/>diversissimos videmus. Ergo eorum diversitas a 
+particula<lb ed="#L" break="no" n="32"/>ribus causis, quae diversae sunt, non a siderum positione,
+<lb ed="#L" n="33"/>quae una est, provenit..
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Secundo principaliter arguitur sic. Caelum in haec
+<lb ed="#L" n="35"/>inferiora agit lumine. dumtaxat et motu, a quibus non
+<lb ed="#L" n="36"/>aliud materiae communicatur quam motus, lux et calor.
+<lb ed="#L" n="37"/>Sed haec ab omnibus fluunt stellis. Ergo non sunt diversi
+<lb ed="#L" n="38"/>influxus caelorum secundum variam siderum positionem.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>X. Ad huius diffcultatis evidentiam, considerandum
+<lb ed="#L" n="40"/>est primo, ex doctrina Sancti Thomae I Sent., d. xxxvi,
+<lb ed="#L" n="41"/>a. 5, et in plerisque aliis locis, quod, cum causa prima et
+<lb ed="#L" n="42"/>universalis effectus particulares mediantibus causis secundis
+<lb ed="#L" n="43"/>efficiat; oportet virtutem ipsius in causa secunda recipi,
+<lb ed="#L" n="44"/>ut quasi per ipsam ad effectum deferatur. Quia autem
+<lb ed="#L" n="45"/>unumquodque recipitur in alio per modum recipientis,
+<lb ed="#L" n="46"/>accipit virtus universalis causae limitationem quandam, et
+<lb ed="#L" n="47"/>determinationem ad determinatos effectus, ex secunda causa
+<lb ed="#L" n="48"/>in qua recipitur, Idcirco dictum est superius multos ef- |
+<lb ed="#L" n="49"/>fectus contingenter evenire, quamvis prima causa sit 
+ne<lb ed="#L" break="no" n="50"/>cessaria, propter contingentiam. secundae causae, in qua
+<lb ed="#L" n="51"/>primae causae virtus limitationem accipit. Et eadem 
+ra<lb ed="#L" break="no" n="52"/>tione, dum aliqua universalis. causa ad. generationem equi
+<lb ed="#L" n="53"/>agit, mediante equo generat equum; et dum agit ad 
+ge<lb ed="#L" break="no" n="54"/>nerationem bovis, mediante bove generat bovem. Pari
+<lb ed="#L" n="55"/>ratione, dum agit mediante equo debilis virtutis, equum
+<lb ed="#L" n="56"/>debilem et imbecillum generat; et dum equo forti mediante
+<lb ed="#L" n="57"/>agit, fortem equum producit et robustum ;'et sic de aliis.
+<lb ed="#L" n="58"/>Videtur ergo decipi Picus, vir alioquin. doctissimus,
+<lb ed="#L" n="59"/>quia, cum. caelum universalem causam esse viderit, rerum
+<lb ed="#L" n="60"/>diversitatem in eius virtutem referri non posse putavit:
+<lb ed="#L" n="61"/>cum tamen oppositum, ob hanc rationem, sit existimandum.
+<lb ed="#L" n="62"/>Si enim caelum universalis causa est, sine qua corporeum
+<lb ed="#L" n="63"/>nullum nec agit nec agere potest, fateri nos necesse est
+<lb ed="#L" n="64"/>caelum esse omnis diversitatis causam, utpote quod omnes
+<lb ed="#L" n="65"/>causas secundas ad agendum moveat, a quibus diversi
+<lb ed="#L" n="66"/>effectus proveniant. Propterea ponimus diversitatem ingenii
+<lb ed="#L" n="67"/>a caeli impressione, indirecte tamen et ex transverso atque
+<lb ed="#L" n="68"/>occasione quadam, provenire: quoniam caelum, veluti
+<lb ed="#L" n="69"/>universalis causa, diversas dispositiones corporeas 
+secun<lb ed="#L" break="no" n="70"/>dum quas sensitivae vires variantur, efficiat, quibus in suo
+<lb ed="#L" n="71"/>opere utitur intellectus.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Sed harum dispositionum corporearum varietatem non
+<lb ed="#L" n="73"/>sic in caelum referimus quasi ab ipso solo, nulla media
+<lb ed="#L" n="74"/>interveniente causa, proveniat: sed quia caelum secunda
+<lb ed="#L" n="75"/>causa utitur, quae vigorosior efficitur dum agit caelo in
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>tali dispositione existente, quam si taliter dispositum non
+<lb ed="#L" n="77"/>esset, lpsum etiam caelum, mediante aliqua. particulari
+<lb ed="#L" n="78"/>causa, removet impedimenta quibus conveniens materiae
+<lb ed="#L" n="79"/>dispositio, aut etiam actio secundae causae agentis, 
+im<lb ed="#L" break="no" n="80"/>pediri posset. Non enim inconveniens est ex secundis
+<lb ed="#L" n="81"/>causis aliquem effectum provenire. ut sunt instrumenta
+<lb ed="#L" n="82"/>alterius agentis, qui ex virtute dumtaxat propriae naturae
+<lb ed="#L" n="83"/>non eveniret: sicut videmus operatione artis fieri 
+mira<lb ed="#L" break="no" n="84"/>biles effectus mediante igne, et aliis causis naturalibus,
+<lb ed="#L" n="85"/>qui ab illis dumtaxat causis naturalibus non provenirent,
+</p>
+            <p>
+               <lb ed="#L" n="86"/>XI. Considerandum secundo, ex doctrina Sancti Thomae
+<lb ed="#L" n="87"/>II Sent, d. xv,a. 1 et 2; Prima, q. rxx,. a. 1, ad 2;
+<lb ed="#L" n="88"/>in Qu. de Spirit., a. 8, ad 12; et II Caeli, lect. 10, quod,
+<lb ed="#L" n="89"/>licet. motu et lumine universae agant stellae tanquam
+<lb ed="#L" n="90"/>virtute omnibus communi, praeter tamen communem
+<lb ed="#L" n="91"/>lucis virtutem, habent singulae stellae proprias virtutes,
+<lb ed="#L" n="92"/>quibus diversorum effectuum sunt effectrices, quae 
+vir<lb ed="#L" break="no" n="93"/>tutes speciem uniuscuiusque stellae consequuntur, Et quia
+<lb ed="#L" n="94"/>secundum quod suo motu diversimode se habet stella ad
+<lb ed="#L" n="95"/>aliam stellam et ad inferiora, diversos effectus efficit, ideo
+<lb ed="#L" n="96"/>secundum diversos aspectus et coniunctiones diversimode
+<lb ed="#L" n="97"/>imprimunt stellae et diversimode operantur, secundum
+<lb ed="#L" n="98"/>quod inferior stella participat de virtute superioris stellae;
+<lb ed="#L" n="99"/>et secundum quod ex pluribus virtutibus agentibus aliquid
+<lb ed="#L" n="100"/>efficitur quod unica sola virtute fieri non posset; aut etiam
+<lb ed="#L" n="101"/>secundum quod una stella ex determinata sua virtute nata
+<lb ed="#L" n="102"/>est aliam stellam aut iuvare aut impedire a suo proprio
+<lb ed="#L" n="103"/>effectu; sicut videmus in inferioribus rebus unam causam
+<lb ed="#L" n="104"/>aliam iuvare, aliam vero impedire, nam causa aliqua
+<lb ed="#L" n="105"/>iuvatur ad suum effectum ex appositione calidi, quae ex
+<lb ed="#L" n="106"/>frigidi appositione impeditur. Sic etiam dicimus, 
+opinio<lb ed="#L" break="no" n="107"/>nem Ptolomaei hic recitatam sequentes, quod, si fuerit
+<lb ed="#L" n="108"/>Mercurius, in nativitate alicuius, in aliqua domorum 
+Sa<lb ed="#L" break="no" n="109"/>turni, et ipse fortis in esse suo, iuvatur ex illa positione
+<lb ed="#L" n="110"/>Mercurius ad causandum, mediantibus tamen causis 
+secun<lb ed="#L" break="no" n="111"/>dis quibus utitur ut instrumentis, eam dispositionem 
+cor<lb ed="#L" break="no" n="112"/>poris quae 'sit viribus sensitivis convenientissima, ex qua
+<lb ed="#L" n="113"/>virium sensitivarum dispositione efficitur ut aliquis 
+ope<lb ed="#L" break="no" n="114"/>ratione intellectus. effcacissime uti possit, unde quis 
+op<lb ed="#L" break="no" n="115"/>timi ingenii dicatur esse. Et ideo optime inquit Sanctus
+<lb ed="#L" n="116"/>Thomas quod astrologus ex motibus aut ex positione
+<lb ed="#L" n="117"/>siderum de bonitate ingenii iudicare potest tanquam ex
+<lb ed="#L" n="118"/>causa remota, de qua bonitate medicus ex corporis 
+ha<lb ed="#L" break="no" n="119"/>bitudine tanquam ex.causa proxima iudicabit.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Unde quod ait Picus noster, si quam virtutem praeter
+<lb ed="#L" n="121"/>lumen et motum habent astra, illam universalem ad omnia
+<lb ed="#L" n="122"/>inferiora esse, falsissimum: est. Sunt enim aliquae virtutes
+<lb ed="#L" n="123"/>stellis ad determinatos effectus datae, non ad omnes: licet
+<lb ed="#L" n="124"/>communi luminis natura in omnia haec inferiora aliquid
+<lb ed="#L" n="125"/>possint. Et illae tamen virtutes universales dici possunt,
+<lb ed="#L" n="126"/>inquantum non tantum ad unum individuum sunt 
+deter<lb ed="#L" break="no" n="127"/>minatae, sed in multa individua, et in multiplices sui 
+ef<lb ed="#L" break="no" n="128"/>fectus differentias extenduntur, et multis .particularibus
+<lb ed="#L" n="129"/>causis vario modo dispositis cooperantur.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>Quia autem meum institutum est, non aliorum 
+opi<lb ed="#L" break="no" n="131"/>niones impugnare, sed tantum Sancti. Thomae dicta in
+<lb ed="#L" n="132"/>hoc Libro interpretari, eaque ab omni calumnia defendere,
+<lb ed="#L" n="133"/>in impugnatione huius opinionis non immorabor, sed ad
+<lb ed="#L" n="134"/>obiecta tantum respondebo.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>XII. Ad primum itaque, absolute loquendo, negatur
+<lb ed="#L" n="136"/>minor. Dico enim quod causa universalis distinguit effectus
+<lb ed="#L" n="137"/>mediantibus causis secundis: quod est proprium causae
+<lb ed="#L" n="138"/>corporeae universalis, licet per seipsam huiusmodi causa
+<lb ed="#L" n="139"/>tales effectus non distinguat.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>Si autem intelligatur quod causa universalis non habe
+<lb ed="#L" n="141"/>in seipsa diversas virtutes quibus. diversos effectus efficiat,
+<lb ed="#L" n="142"/>sed hoc est secundarum causarum proprium: - dicitur
+<lb ed="#L" n="143"/>primo, quod non est inconveniens causam. universalem
+<lb ed="#L" n="144"/>corpoream secunduraa diversas partes habere diversam 
+vir<lb ed="#L" break="no" n="145"/>tutem ad diversos effectus, mediantibus causis 
+particula<lb ed="#L" break="no" n="146"/>ribus, producendos: sicut diversae artes diversis 
+instru<lb ed="#L" break="no" n="147"/>mentis utuntur ad diversos effectus. Caelum autem, nomine
+<lb ed="#L" n="148"/>caeli intelligendo universalitatem orbium et stellarum,
+<lb ed="#L" n="149"/>dicimus habere diversas virtutes secundum diversitatem
+<lb ed="#L" n="150"/>orbium et stellarum ; et esse causam universalem non so-
+<pb ed="#L" n="253"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>lum inquantum motu et lumine in omnia operatur, sed
+<lb ed="#L" n="2"/>etiam inquantum huiusmodi diversis virtutibus in omnia
+<lb ed="#L" n="3"/>inferiora agit, una videlicet virtute unum effectum 
+produ<lb ed="#L" break="no" n="4"/>cendo, et alia alium.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Dicitur secundo, quod etiam quaelibet stella potest dici
+<lb ed="#L" n="6"/>causa. universalis, licet aliquam virtutem habeat distinctam
+<lb ed="#L" n="7"/>a virtute alterius stellae, producatque aliquem effectum
+<lb ed="#L" n="8"/>distinctum ab effectu alterius. Tum quia motu et lumine,
+<lb ed="#L" n="9"/>quae sunt omnibus corporibus caelestibus communia, in
+<lb ed="#L" n="10"/>haec inferiora agit. Tum quia propria virtute, suam 
+spe<lb ed="#L" break="no" n="11"/>ciem et naturam consequente, in diversos effectus potest,
+<lb ed="#L" n="12"/>inquantum in ipsa multarum causarum particularium 
+vir<lb ed="#L" break="no" n="13"/>tutes unite continentur, sicut et in luce omnes effectus
+<lb ed="#L" n="14"/>inferiores contineri unite Picus autumat.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>2. Ad primam confirmationem, negatur consequentia.
+<lb ed="#L" n="16"/>Quod enim de leone non generetur nisi leo, etiam virtute
+<lb ed="#L" n="17"/>siderum est: quia caelum non agit particulares effectus
+<lb ed="#L" n="18"/>nisi mediante: causa secunda, et ad diversos ac 
+determi<lb ed="#L" break="no" n="19"/>natos effectus producendos utitur diversis ac determinatis
+<lb ed="#L" n="20"/>causis secundis, sicut artifex diversis instrumentis ad 
+diver<lb ed="#L" break="no" n="21"/>sos effectus utitur. Unde, sicut non valet: Ars fabrilis per
+<lb ed="#L" n="22"/>tale instrumentum non producit nisi talem effectum, et
+<lb ed="#L" n="23"/>per tale non nisi talem. Ergo diversitas horum effectuum.
+<lb ed="#L" n="24"/>non dependet ab artifice, sed tantum ab instrumentis ; ita
+<lb ed="#L" n="25"/>non valet: Quomodocumque sidera disponantur, a talibus
+<lb ed="#L" n="26"/>causis particularibus non proveniunt misi tales effectus.
+<lb ed="#L" n="27"/>Ergo solae causae secundae sunt causae diversorum 
+effec<lb ed="#L" break="no" n="28"/>tuum, et non siderum positio.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Dicitur secundo quod, licet de equo non nascatur nisi
+<lb ed="#L" n="30"/>equus, aliqua tamen siderum dispositio est sub qua equus
+<lb ed="#L" n="31"/>potens est equum generare, qua non existente, non 
+ge<lb ed="#L" break="no" n="32"/>neraret (quae tamen dispositio non consistit in indivisibili,
+<lb ed="#L" n="33"/>sed latitudinem habet), et sic de aliis. Unde videmus 
+quae<lb ed="#L" break="no" n="34"/>dam animalia certis anni temporibus esse generationi apta
+<lb ed="#L" n="35"/>quae aliis anni temporibus non generant.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>3. Ad secundam confirmationem, negatur consequentia.
+<lb ed="#L" n="37"/>Quod enim diversae sint fortunae aut dispositiones eodem
+<lb ed="#L" n="38"/>momento nascentium, et in eadem longitudine et 
+latitu<lb ed="#L" break="no" n="39"/>dine, non arguit siderum positionem non agere in baec
+<lb ed="#L" n="40"/>inferiora: sed arguit ipsam non necessario agere, et caeli
+<lb ed="#L" n="41"/>influxum accipere limitationem in causa secunda. Quia
+<lb ed="#L" n="42"/>enim corpora caelestia non agunt nisi in materia, et non
+<lb ed="#L" n="43"/>nisi mediantibus agentibus particularibus, potest influxus
+<lb ed="#L" n="44"/>corporum caelestium impediri et ex materiae 
+indisposi<lb ed="#L" break="no" n="45"/>tione, ct ex indispositione particularis agentis, in quo caeli
+<lb ed="#L" n="46"/>virtus limitationem accipit. Unde stant simul quod siderum
+<lb ed="#L" n="47"/>positio sit nata hunc effectum producere; et tamen in
+<lb ed="#L" n="48"/>uno non producatur, ex aliquo impediente, sive sit causa
+<lb ed="#L" n="49"/>inferior sive etiam alia constellatio; in alio vero, in quo
+<lb ed="#L" n="50"/>impedimenta non accidunt, producatur. Propterea 
+conce<lb ed="#L" break="no" n="51"/>ditur quidem quod diversitas horum effectuum in causas
+<lb ed="#L" n="52"/>secundas tanquam in causas proximas referatur: negatur
+<lb ed="#L" n="53"/>tamen quod diversi effectus in diversas siderum positiones
+<lb ed="#L" n="54"/>tanquam in causas remotas referri non debeant.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Posset autem ex opposito sic argui. Filii qui ex eisdem
+<lb ed="#L" n="56"/>parentibus generantur, et sunt eodem magistro et 
+prae<lb ed="#L" break="no" n="57"/>ceptore instituti, eisdemque cibis educati, inveniuntur 
+di<lb ed="#L" break="no" n="58"/>versorum morum, et diversa ac varia fortuna agitari. Ergo
+<lb ed="#L" n="59"/>eorum diversitas non ex particularibus agentibus, sed ex
+<lb ed="#L" n="60"/>diversa siderum positione, aliqua ex parte provenit.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>4. Ad secundam rationem principalem? dicitur primo,
+<lb ed="#L" n="62"/>quod antecedens est falsum. Ut enim ostensum est, de
+<lb ed="#L" n="63"/>mente Sancti Thomae, sidera, praeter motum et lucem,
+<lb ed="#L" n="64"/>habent proprias virtutes eorum species consequentes, 
+qui<lb ed="#L" break="no" n="65"/>bus determinatos effectus in haec inferiora producunt.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Dicitur secundo quod, admisso etiam antecedente, 
+con<lb ed="#L" break="no" n="67"/>sequentia non tenet, Quia, ut dicitur de Spiritualibus
+<lb ed="#L" n="68"/>Creaturis, articulo praeallegato, lux non esi eiusdem 
+ra<lb ed="#L" break="no" n="69"/>tionis in omnibus stellis. Ideo praeter communes effectus
+<lb ed="#L" n="70"/>consequentes communem lucis naturam, unumquodque
+<lb ed="#L" n="71"/>sidus suo lumine aliquem particularem effectum producere
+<lb ed="#L" n="72"/>potest.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>XIII. Sed contra praedictas responsiones, inquantum
+<lb ed="#L" n="74"/>ponunt praeter lucem esse in stellis particulares virtutes;
+<lb ed="#L" n="75"/>praesertim. contra dictum Sancti Thomae II Caeli , quod
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>omnia caelestia corpora, secundum communem virtutem
+<lb ed="#L" n="77"/>luminis, habent calefacere; secundum autem proprias 
+vir<lb ed="#L" break="no" n="78"/>tutes, habent etiam infrigidare, arguit Picus sic. Lux
+<lb ed="#L" n="79"/>quae in corporibus caelestibus ponitur, aut continet 
+emi<lb ed="#L" break="no" n="80"/>nenter omnes quatuor primas qualitates: aut non. Si 
+pri<lb ed="#L" break="no" n="81"/>mum, arguitur sic. Non potest alicui ex propria ratione
+<lb ed="#L" n="82"/>convenire aliquid imperfectius eo quod illi convenit ex
+<lb ed="#L" n="83"/>communi natura: cum semper differentiae universali 
+con<lb ed="#L" break="no" n="84"/>tractior differentia perfectionis gradum adiungat, Sed 
+qua<lb ed="#L" break="no" n="85"/>litas illa quae continet omnem qualitatem, perfectior est
+<lb ed="#L" n="86"/>ea quae tantum frigoris est effectiva, Ergo etc, — Si 
+se<lb ed="#L" break="no" n="87"/>cundum, tunc sic. Nulli competit ex propria natura 
+ali<lb ed="#L" break="no" n="88"/>quid repugnans proprietatibus illi a communi natura 
+con<lb ed="#L" break="no" n="89"/>venientibus. Sed calefacere convenit stellis ex communi
+<lb ed="#L" n="90"/>virtute lucis. Ergo frigus efficere non potest alicui illarum
+<lb ed="#L" n="91"/>ex propria et peculiari virtute convenire.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>XIV. Ad evidentiam illius dicti Sancti Thomae, et etiam
+<lb ed="#L" n="93"/>eorum quae dicta sunt, considerandum est quod dupliciter
+<lb ed="#L" n="94"/>possumus intelligere caelum, sive stellam, per propriam
+<lb ed="#L" n="95"/>virtutem infrigidare et alios effectus facere, per communem
+<lb ed="#L" n="96"/>autem naturam lucis calorem efficere. Uno modo, quod
+<lb ed="#L" n="97"/>illa propria virtus sit qualitas realiter a luce distincta. —
+<lb ed="#L" n="98"/>Alio modo, quod sit ipsa lux determinata ad speciem
+<lb ed="#L" n="99"/>huius stellae: ita quod haec. lux, inquantum lux absolute,
+<lb ed="#L" n="100"/>sive secundum communem lucis naturam, habeat 
+calefa<lb ed="#L" break="no" n="101"/>cere; inquantum vero talis lux, consequens videlicet 
+de<lb ed="#L" break="no" n="102"/>terminatae huius stellae speciem et naturam, puta Saturni,
+<lb ed="#L" n="103"/>habeat infrigidare, et alios determinatos effectus producere.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Licet autem uterque sensus salvari possit ad mentem
+<lb ed="#L" n="105"/>Sancti Thomae, videtur tamen in locis praeallegatis  ad
+<lb ed="#L" n="106"/>secundum sensum declinare. Nam diversitatem effectuum
+<lb ed="#L" n="107"/>a stellis provenientium diversarum stellarum radiis 
+tri<lb ed="#L" break="no" n="108"/>buit . — Expresse autem in 1I Sent., ubi supra , ait quod,
+<lb ed="#L" n="109"/>praeter naturam lucis quae communis est omnibus 
+cor<lb ed="#L" break="no" n="110"/>poribus caelestibus, quaelibet stella habet virtutem 
+deter<lb ed="#L" break="no" n="111"/>minatam consequentem suam speciem, ratione cuius lux
+<lb ed="#L" n="112"/>eius et motus habet vel infrigidare vel humectare. — 
+Si<lb ed="#L" break="no" n="113"/>militer d, xr, a. 3, ait quod omnis alteratio quae est in
+<lb ed="#L" n="114"/>inferioribus, perficitur per virtutem luminis, quia caelum
+<lb ed="#L" n="115"/>est primum alterans.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Hoc autem intelligo de stella cui lumen est connaturale:
+<lb ed="#L" n="117"/>secundum enim illud lumen, inquantum est tale lumen,
+<lb ed="#L" n="118"/>universos suos effectus operatur qui sibi proprii sunt. Sed
+<lb ed="#L" n="119"/>si lumen sibi ab extrinseco proveniat, et variatione 
+qua<lb ed="#L" break="no" n="120"/>dam, sicut videmus in luna, fortassis oportet tunc 
+natu<lb ed="#L" break="no" n="121"/>ralem ipsius virtutem qua infrigidat et humectat, 
+distinc<lb ed="#L" break="no" n="122"/>tam esse a lumine recepto, quo aliqualiter calefacit.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>2. Sed quicumque sensus teneatur, obiectio non 
+pro<lb ed="#L" break="no" n="124"/>cedit: quanquam contra primum sensum magis videatur
+<lb ed="#L" n="125"/>afferri. Unde, cum quaeritur, an lux contineat eminenter
+<lb ed="#L" n="126"/>omnes quatuor primas qualitates: — tenendo primum 
+sen<lb ed="#L" break="no" n="127"/>sum, dicitur quod non, sed tantum continet calorem, et
+<lb ed="#L" n="128"/>qualitatem quae calorem concomitatur. Cum autem 
+ar<lb ed="#L" break="no" n="129"/>guitur contra, quia nulli convenit ex propria natura aliquid
+<lb ed="#L" n="130"/>repugnans ei quod convenit sibi ex natura communi: —
+<lb ed="#L" n="131"/>licet hoc proprie veritatem habeat de natura communi
+<lb ed="#L" n="132"/>essentiali, dicitur tamen quod hoc est verum de eo quod
+<lb ed="#L" n="133"/>repugnat intrinsece naturae communi, aut eius naturali
+<lb ed="#L" n="134"/>proprietati; falsum est autem de eo quod repugnat illi
+<lb ed="#L" n="135"/>extrinsece, scilicet ratione effectus tantum. Modo dicitur
+<lb ed="#L" n="136"/>quod, quia caelum est ab omni contrarietate remotum,
+<lb ed="#L" n="137"/>virtus calefactiva in ipso, et virtus frigefactiva, non: sunt
+<lb ed="#L" n="138"/>contraria, neque intrinsece opponuntur, sicut neque species
+<lb ed="#L" n="139"/>contrariorum in intellectu sunt contrariae: sed extrinsece
+<lb ed="#L" n="140"/>tantum opponuntur, inquantum una est productiva caloris,
+<lb ed="#L" n="141"/>et alia est frigoris productiva, quae sunt qualitates 
+oppo<lb ed="#L" break="no" n="142"/>sitae. Ideo non inconvenit ut simul sint in corpore 
+cae<lb ed="#L" break="no" n="143"/>lesti: in causa enim universali non inconvenit virtutes quae
+<lb ed="#L" n="144"/>in particularibus causis sunt dispersae et contrariae, uniri
+<lb ed="#L" n="145"/>et esse absque contrarietate; sicut omnes creaturarum
+<lb ed="#L" n="146"/>virtutes in Deo quam maxime uniuntur. Et huius ratio
+<lb ed="#L" n="147"/>est quia in causa universali non oportet esse effectum
+<lb ed="#L" n="148"/>secundum eandem rationem, sed sufficit ut eminentiori
+<lb ed="#L" n="149"/>modo sit in ipsa et virtualiter tantum: sicut calor 
+produ<lb ed="#L" break="no" n="150"/>ctus a sole non est in sole secundum: suam specificam
+<pb ed="#L" n="254"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rationem, sed tantum virtualiter, inquantum in luce est
+<lb ed="#L" n="2"/>virtus productiva caloris. — Unde, si instaretur quod 
+con<lb ed="#L" break="no" n="3"/>trarii effectus requirunt contrarias causas: constat quod
+<lb ed="#L" n="4"/>hoc habet veritatem de causis particularibus tantum et
+<lb ed="#L" n="5"/>univocis, non autem: de causis aequivocis, cuiusmodi est
+<lb ed="#L" n="6"/>caelum.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Tenendo autem secundum sensum,. dicitur quod in
+<lb ed="#L" n="8"/>luce alicuius stellae habentis infrigidare et alias qualitates
+<lb ed="#L" n="9"/>efficere; omnes illae qualitates eminenter continentur, non
+<lb ed="#L" n="10"/>inquantum lux est absolute, quia ut: sic habet taritudh
+<lb ed="#L" n="11"/>calefacere: sed inquantum est talis lux, consequens hanc
+<lb ed="#L" n="12"/>stellam. Cum autem arguitur contra, quia non potest alicui
+<lb ed="#L" n="13"/>convenire ex propria ratione aliquid imperfectius eo quod
+<lb ed="#L" n="14"/>ili; convenit ex communi natura: — constat quod non
+<lb ed="#L" n="15"/>arguitur contra praedictum sensum. Quia non dicimus
+<lb ed="#L" n="16"/>quod, ultra lucem continentem omnes illas qualitates, sit
+<lb ed="#L" n="17"/>alia. virtus in stella: effectiva tantummodo frigiditatis: sed
+<lb ed="#L" n="18"/>quod lux sua, quae, inquantum lux, est tantum  effectiva
+<lb ed="#L" n="19"/>caloris, inquantum est lux hanc stellam. consequens, habet
+<lb ed="#L" n="20"/>virtutem ut etiam sit effectiva aliarum qualitatum et aliorum
+<lb ed="#L" n="21"/>effectuum; quod est perfectius quam calefacere tantum.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Dicitur praeterea quod qualitas illa quae est frigoris
+<lb ed="#L" n="23"/>effectiva, secundum quod est in caelo, non est 
+imperfe<lb ed="#L" break="no" n="24"/>ctior ea. quae est omnium quatuor qualitatum effectiva,
+<lb ed="#L" n="25"/>cum sint una et eadem virtus secundum rem: sicut nec
+<lb ed="#L" n="26"/>virtus divina hominis productiva in Deo est go evi insu
+<lb ed="#L" n="27"/>virtute. productiva omnium.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>XV. Sed resultat aliud dubius. Videtur enim sequi,
+<lb ed="#L" n="29"/>si in una stella est virtus calefactiva et virtus effectiva
+<lb ed="#L" n="30"/>frigiditatis, sive sint una sive diversae virtutes, quod simul
+<lb ed="#L" n="31"/>causabit in eodem calorem et frigus, puta quod luna simul
+<lb ed="#L" n="32"/>calefaciet et infrigidabit aerem: cum stella sit agens ma
+<lb ed="#L" n="33"/>turale. Hoc autem est impossibile.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>2. Dicitur primo quod, cum caelum sit causa universalis
+<lb ed="#L" n="35"/>et' corporea, non agit in haec inferiora nisi mediantibus
+<lb ed="#L" n="36"/>causis secundis. Ideo .non sequitur quod in uno et eodem
+<lb ed="#L" n="37"/>contrarias qualitates inducat: sed in diversis, secundum
+<lb ed="#L" n="38"/>quod causae particulares in diversa subiecta operantur;
+<lb ed="#L" n="39"/>mediante enim igne, aliqua calefacit; mediante vero aqua,
+<lb ed="#L" n="40"/>alia infrigidat et humectat.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Dicitur secundo, quod etiam diversitas materiae facit
+<lb ed="#L" n="42"/>ad. diversitatem effectuum. Sicut enim caelum eadem luce
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="43"/>indurat lutum et liquefacit ceram. propter diversam 
+ma<lb ed="#L" break="no" n="44"/>teriae dispositionem, ita diversa materiae dispositio facit ut
+<lb ed="#L" n="45"/>aliquid a caelo calorem accipiat, non autem frigiditatem ;
+<lb ed="#L" n="46"/>e contrario vero aliud recipiat frigus, non autem calorem.
+<lb ed="#L" n="47"/>Dicitur tertio, quod fortassis, secundum opinionem 
+te<lb ed="#L" break="no" n="48"/>nentium quod formae contrariae in gradibus remissis 
+pos<lb ed="#L" break="no" n="49"/>sint in eodem subiecto simul esse; non est inconveniens
+<lb ed="#L" n="50"/>quod in uno et eodem simul causentur a caelo frigus et
+<lb ed="#L" n="51"/>caior in gradibus in quibus se compatiuntur, si ponamus
+<lb ed="#L" n="52"/>caelum aliquid ad calorem aut frigus immediate, hoc est
+<lb ed="#L" n="53"/>non mediante particulari agente calido aut frigido, diversis
+<lb ed="#L" n="54"/>suis virtutibus alterare, puta aerem. Sicut enim non 
+incon<lb ed="#L" break="no" n="55"/>venit, .si ligno appropinquetur calidum et frigidum, et
+<lb ed="#L" n="56"/>calidum sit fortius, lignum accipere caliditatem ab uno, ab
+<lb ed="#L" n="57"/>altero. vero aliquem gradum frigiditatis non repugnantem
+<lb ed="#L" n="58"/>gradui illius caloris: ita non inconvenit astrum, puta 
+lu<lb ed="#L" break="no" n="59"/>nam, simul in aere causare frigiditatem ratione propriae
+<lb ed="#L" n="60"/>virtutis, aliquem vero gradum caloris virtute luminis in
+<lb ed="#L" n="61"/>ipso causare. Unde, quamvis lunae magis sit infrigidare
+<lb ed="#L" n="62"/>virtute propriae qualitatis quam calefacere, ex communi
+<lb ed="#L" n="63"/>lucis natura causat tamen in aere ab ipsa infrigidato aliquem
+<lb ed="#L" n="64"/>etiam caloris gradum 'suae frigiditati non. repugnantem.
+<lb ed="#L" n="65"/>Propter quod noctes plenilunii dicuntur ab Aristotele, in
+<lb ed="#L" n="66"/>libro de Partibus Animalium , esse calidiores: quia 
+vide<lb ed="#L" break="no" n="67"/>licet, quanto plus luminis habet luna, tanto magis aerem
+<lb ed="#L" n="68"/>secundum aliquem gradum calefacit; licet semper 
+frigidi<lb ed="#L" break="no" n="69"/>tatem intensiorem calore propria virtute introducat.
+<lb ed="#L" n="70"/>Potest etiam dici quod non sequitur ut ab una stella
+<lb ed="#L" n="71"/>contrariae qualitates simul in eodem causentur, sed tantum
+<lb ed="#L" n="72"/>quod una virtus aliam. impedit ne-suum effectum in alio
+<lb ed="#L" n="73"/>producat. Sicut enim aqua calefacta impeditur per 
+cali<lb ed="#L" break="no" n="74"/>ditatem advenientem ne infrigidet, et ideo tantum calefacit;
+<lb ed="#L" n="75"/>ita luna, quae secundum proprietatem suae naturae est
+<lb ed="#L" n="76"/>infrigiditativa, adveniente luminis plenitudine, impeditur
+<lb ed="#L" n="77"/>ne aerem infrigidet, aut ne tantum frigiditatis efficiat. Nec
+<lb ed="#L" n="78"/>hoc est inconveniens in luna ponere: quia receptio 
+lu<lb ed="#L" break="no" n="79"/>minis non est sibi contra naturam, sed naturalis. Ideo,
+<lb ed="#L" n="80"/>sicut sibi naturale est remoto lumine infrigidare, ita naturale
+<lb ed="#L" n="81"/>est sibi adveniente lumine calefacere, aut minus infrigidare.
+<lb ed="#L" n="82"/>Haec dixerim quantum mihi pro nunc occurrit. Si quid
+<lb ed="#L" n="83"/>melius menti succurrerit, iuvante Deo, illud. in medium
+<lb ed="#L" n="84"/>promam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

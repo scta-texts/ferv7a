@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 143</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 143</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="428"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2876"><!-- ferv7a-l3c143 -->
+            <head>Capitulum 143</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="39" type="fixed=428"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="40"/>POSTQUAM determinavit Sanctus Thomas de poena et
+<lb ed="#L" n="41"/>P praemio secundum se, determinat nunc de ipsis in
+<lb ed="#L" n="42"/>ordine ad peccatum et bona opera . Circa hoc autem duo
+<lb ed="#L" n="43"/>facit: primo, determinat de poena quae in finis privatione
+<lb ed="#L" n="44"/>consistit, quae dicitur poena damni; secundo, de poena
+<lb ed="#L" n="45"/>quae est experientia alicuius nocivi, quae dicitur poena
+<lb ed="#L" n="46"/>sensus, cap. cxLv. :
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Circa primum duo facit: primo, ostendit peccato mortali
+<lb ed="#L" n="48"/>deberi exclusionem omnino ab ultimo fine, veniali vero
+<lb ed="#L" n="49"/>difficultatem perveniendi ad ipsum ; secundo, ostendit 
+poe<lb ed="#L" break="no" n="50"/>nam qua quis ultimo fine privatur, oportere interminabilem
+<lb ed="#L" n="51"/>esse, capite sequenti,
+</p>
+            <p>
+               <lb ed="#L" n="52"/>I. Quantum ad primum, arguit primo sic. Secundum
+<lb ed="#L" n="53"/>differentiam peccatorum oportet esse differentiam 
+poena<lb ed="#L" break="no" n="54"/>rum. Sed per peccatum mortale totaliter intentio mentis
+<lb ed="#L" n="55"/>avertitur  ab ordine ad Deum, qui est ultimus finis 
+bo<lb ed="#L" break="no" n="56"/>norum: per peccatum vero veniale, manente ordine humanae
+<lb ed="#L" n="57"/>mentis ad ultimum finem, impedimentum aliquod affertur,
+<lb ed="#L" n="58"/>quo retardatur ne libere tendat in finem. Ergo mortaliter
+<lb ed="#L" n="59"/>peccans sic puniendus est quod excidat ab hominis fine:
+<lb ed="#L" n="60"/>venialiter autem peccans, quod retardetur, aut difficultatem
+<lb ed="#L" n="61"/>patiatur in adipiscendo finem.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>2. Ad evidentiam huius rationis, considerandum est quod
+<lb ed="#L" n="63"/>homo mortaliter non peccat nisi quando creaturam praefert
+<lb ed="#L" n="64"/>Deo, ipsam plus amando quam Deum. Quod quidem 
+ap<lb ed="#L" break="no" n="65"/>paret quando magis eligit aliquid aliud quam vivere 
+se<lb ed="#L" break="no" n="66"/>cundum Deum et illi inhaerere: nam si magis amaret
+<lb ed="#L" n="67"/>Deum, magis eligeret vivere secundum ipsum ac eius 
+prae<lb ed="#L" break="no" n="68"/>cepta; quam quocumque temporali bono potiri; sicut,
+<lb ed="#L" n="69"/>quia homo magis propriam vitam amat quam voluptatem,
+<lb ed="#L" n="70"/>a maxima etiam voluptate retrahitur si eam existimet esse
+<lb ed="#L" n="71"/>suae vitae infallibiliter peremptivam. Venialiter autem homo
+<lb ed="#L" n="72"/>peccat quando circa ea quae sunt ad finem inordinate
+<lb ed="#L" n="73"/>sc habet, inquantum eis plus vel minus debito intendit,
+<lb ed="#L" n="74"/>salvato tamen ordine et inclinatione ad debitum finem:
+<lb ed="#L" n="75"/>quia videlicet, licet alicui rei nimis afficiatur, non tamen
+<lb ed="#L" n="76"/>pro. ea vellet Deum. offendere, contra eius praeceptum
+<lb ed="#L" n="77"/>aliquid agendo. Unde assimilatur venialiter peccans ei qui
+<lb ed="#L" n="78"/>ad aliquem quidem terminum tendit, sed nimis in via
+<lb ed="#L" n="79"/>moratur. Propter hoc bene dicitur hic quod per peccatum
+<lb ed="#L" n="80"/>mortale avertitur totaliter intentio mentis ab ordine ad
+<lb ed="#L" n="81"/>Deum, qui est ultimus finis; per veniale autem non, sed
+<lb ed="#L" n="82"/>affertur impedimentum, quo homo retardatur ne libere
+<lb ed="#L" n="83"/>tendat in finem: quia videlicet per peccatum mortale consti-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="84"/>tuit homo finem in creatura, eam plus quam Deum amando,
+<lb ed="#L" n="85"/>et recedit ab amore, tam habitu quam actu, quo tenetur
+<lb ed="#L" n="86"/>Deum super omnia diligere; per peccatum autem veniale
+<lb ed="#L" n="87"/>removetur fortassis aut diminuitur actualis dilectio Dei
+<lb ed="#L" n="88"/>super omnia, dum nimis alicui creaturae homo affcitur,
+<lb ed="#L" n="89"/>nihil actu de Deo cogitando, et sic impeditur ab actuali
+<lb ed="#L" n="90"/>Dei dilectione; non tamen removetur habitualis dilectio
+<lb ed="#L" n="91"/>Dei, cum per ipsum non removeatur caritas, qua Deus
+<lb ed="#L" n="92"/>semper habitualiter ab habente ipsam super omnia diligitur.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>II. Secundo arguitur ex eodem fundamento. Sicut est
+<lb ed="#L" n="94"/>voluntas in hominibus, ita est inclinatio naturalis in rebus
+<lb ed="#L" n="95"/>naturalibus. Sed si a re naturali tollatur inclinatio eius
+<lb ed="#L" n="96"/>ad finem, omnino finem illum consequi non potest: si
+<lb ed="#L" n="97"/>autem fuerit a suo motu impedita, manente inclinatione
+<lb ed="#L" n="98"/>ad finem, remoto prohibente, pervenit ad finem, ut 
+decla<lb ed="#L" break="no" n="99"/>ratur in gravi. Ergo ita est in hominibus. Sed eius qui
+<lb ed="#L" n="100"/>peccat mortaliter voluntatis intentio omnino avertitur .a
+<lb ed="#L" n="101"/>fine ultimo: intentio autem peccantis venialiter manet 
+con<lb ed="#L" break="no" n="102"/>versa ad finem, sed aliqualiter impeditur, dum plus debito
+<lb ed="#L" n="103"/>inhaeret iis quae sunt ad finem. Ergo peccanti mortaliter
+<lb ed="#L" n="104"/>debetur ut omnino excludatur a finis consecutione: 
+pec<lb ed="#L" break="no" n="105"/>canti autem venialiter, ut difficultatem patiatur antequam
+<lb ed="#L" n="106"/>ad finem perveniat.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>Advertendum quod per peccatum mortale dicitur quis
+<lb ed="#L" n="108"/>excludi a finis consecutione, per veniale autem impediri
+<lb ed="#L" n="109"/>et retardari, quia, cum per mortale homo patiatur defectum
+<lb ed="#L" n="110"/>principii perducentis ad finem, scilicet caritatis, nunquam
+<lb ed="#L" n="111"/>ad illum finem, quantum est ex intrinseco, pervenire potest:
+<lb ed="#L" n="112"/>per veniale autem homo patitur quandam indecentiam
+<lb ed="#L" n="113"/>actus quo pergendum erat ad finem, et obligatur ad 
+tem<lb ed="#L" break="no" n="114"/>poralis poenae solutionem, et ideo, nisi remota indecentia
+<lb ed="#L" n="115"/>illa et soluta poena, non potest homo ad beatitudinem, quae
+<lb ed="#L" n="116"/>est ultimus finis, pervenire; quod est a consecutione finis
+<lb ed="#L" n="117"/>retardari.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>III. Tertio. Si ille cuius intentio aversa est ab ultimo
+<lb ed="#L" n="119"/>fine, ipsum assequatur finem, erit hoc a casu et a fortuna:
+<lb ed="#L" n="120"/>quia, cum quis consequitur quod non intendebat, est a
+<lb ed="#L" n="121"/>casu et a fortuna. Sed hoc est inconveniens. Quia ultimus
+<lb ed="#L" n="122"/>finis est bonum intellectus. Inconveniens est autem quod
+<lb ed="#L" n="123"/>intellectus suum finem non consequatur per viam 
+intel<lb ed="#L" break="no" n="124"/>ligibilem, sed a fortuna. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Advertendum quod ultimus finis hominis, ut in 
+supe<lb ed="#L" break="no" n="126"/>rioribus  est ostensum, nihil aliud est quam Dei, qui est
+<lb ed="#L" n="127"/>summa Veritas, cognitio et visio per essentiam. Cognitio
+<pb ed="#L" n="429"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>autem veritatis est bonum et perfectio intellectus. Ideo |
+<lb ed="#L" n="2"/>bene dicitur quod ultimus finis est bonum intellectus. — |
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Advertendum est etiam quod, cum unaquaeque res ad |
+<lb ed="#L" n="4"/>suum finem habeat inclinationem secundum suae naturae
+<lb ed="#L" n="5"/>conditionem, conveniens est ut unaquaeque etiam 
+se<lb ed="#L" break="no" n="6"/>cundum modum suae naturae finem consequatur: nam
+<lb ed="#L" n="7"/>naturalia finem neturaliter consequuntur; sensitiva vero,
+<lb ed="#L" n="8"/>inquantum huiusmodi, sensibiliter, idest ex sensibili 
+appre<lb ed="#L" break="no" n="9"/>hensione. Eadem ratione, conveniens est ut intelligibilia
+<lb ed="#L" n="10"/>suum bonum et suum finem intelligibiliter, idest ex 
+ap<lb ed="#L" break="no" n="11"/>prehensione intelligibili et intentione voluntatis eam 
+con<lb ed="#L" break="no" n="12"/>sequente, assequantur, Et quia fortuna repugnat intelligibili
+<lb ed="#L" n="13"/>cognitioni, et intentioni eius quod quis assequitur; ideo
+<lb ed="#L" n="14"/>conveniens non est ut intelligibilia, inguantum huiusmodi,
+<lb ed="#L" n="15"/>suum finem a fortuna consequantur. Quod sane eveniret
+<lb ed="#L" n="16"/>si mortaliter peccans, cuius intentio a fine ultimo omnino
+<lb ed="#L" n="17"/>avertitur, ipsum ultimum finem praeter suam intentionem
+<lb ed="#L" n="18"/>assequeretur. Et hoc est huius rationis fundamentum.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>2. Sed occurrit circa hoc dubium. Videtur enim quod
+<lb ed="#L" n="20"/>venialiter peccans quandoque ultimum finem assequatur
+<lb ed="#L" n="21"/>praeter intentionem. Nam si aliquis in ipso actu peccati
+<lb ed="#L" n="22"/>venialis, puta dum verbum otiosum dicit, moriatur, nihil
+<lb ed="#L" n="23"/>de Deo cogitando, expiata culpa assequetur beatitudinem.
+<lb ed="#L" n="24"/>Et praeter intentionem: quia non est mortuus cum hac
+<lb ed="#L" n="25"/>intentione. Ergo a fortuna quis potest beatitudinem consequi.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Respondetur quod, licet iste non sit mortuus cum 
+in<lb ed="#L" break="no" n="27"/>tentione actuali perveniendi ad ultimum finem, habebat
+<lb ed="#L" n="28"/>tamen habitualem intentionem finis ex caritate in ipso
+<lb ed="#L" n="29"/>existente; et virtualem etiam intentionem, ex eo quod
+<lb ed="#L" n="30"/>quandoque se et sua ordinavit in Deum, et contraria 
+in<lb ed="#L" break="no" n="31"/>tentio non intervenit. Et sic non a fortuna, sed ex intentione
+<lb ed="#L" n="32"/>finem assequitur.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="33"/>IV. Quarto. Finis et bonum est perfectio voluntatis
+<lb ed="#L" n="34"/>sicut forma materiae. Ergo ipsum non consequitur nisi
+<lb ed="#L" n="35"/>fuerit convenienter disposita. Ergo non consequitur ipsum
+<lb ed="#L" n="36"/>si intentio ab ipso avertitur. — Probatur prima consequentia
+<lb ed="#L" n="37"/>ex similitudine materiae et formae. — Secunda vero: quia
+<lb ed="#L" n="38"/>voluntas disponitur ad finem per intentionem et 
+deside<lb ed="#L" break="no" n="39"/>rium eius.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Quinto. Homo per opera virtutum, in quibus praecipuum
+<lb ed="#L" n="41"/>est intentio finis debiti, consequitur felicitatem. Ergo, si
+<lb ed="#L" n="42"/>quis contra virtutem agat ab intentione ultimi finis aversus,
+<lb ed="#L" n="43"/>conveniens est quod ultimo fine privetur. — Probatur 
+con<lb ed="#L" break="no" n="44"/>sequentia. Quia in ordinatis ad finem, existente aut futuro
+<lb ed="#L" n="45"/>fine, necesse est ea quae sunt ad finem fore; et ipsis non
+<lb ed="#L" n="46"/>existentibus, finis non erit; alioquin frustra per huiusmodi
+<lb ed="#L" n="47"/>media finis quaeritur.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>2. Circa hoc ultimum dictum dubium occurrit. Nam
+<lb ed="#L" n="49"/>contingit aliquem finem posse haberi sine aliquo 
+deter<lb ed="#L" break="no" n="50"/>minato medio, et tamen non frustra per illud medium
+<lb ed="#L" n="51"/>quaeritur: sicut per unam potionem aliquis quaerit 
+sani<lb ed="#L" break="no" n="52"/>tatem, quam alia via posset acquirere, et tamen frustra
+<lb ed="#L" n="53"/>non adhibetur, cum per ipsam fiat sanus. Et universaliter,
+<lb ed="#L" n="54"/>quando finis per plura media acquiri potest, nullum illorum
+<lb ed="#L" n="55"/>mediorum adhibetur frustra quando sequitur effectus.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Respondetur quod hic loquitur Sanctus Thomas de
+<lb ed="#L" n="57"/>mediis ad finem: necessariis sine quibus finis haberi non
+<lb ed="#L" n="58"/>potest: sicut se habet intentio finis debiti ad felicitatem.
+<lb ed="#L" n="59"/>De talibus enim verum est quod, si finis esse potest illis
+<lb ed="#L" n="60"/>non existentibus, frustra per illa quaeritur finis, scilicet
+<lb ed="#L" n="61"/>tanquam per ea quae ad finem necessaria sunt. Obiectio
+<lb ed="#L" n="62"/>autem procedit de medio non necessario ad finem, licet
+<lb ed="#L" n="63"/>et ipsum ad finem perducere possit.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>CONFIRMATUR conclusio auctoritate <ref>Matth. vii</ref>.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

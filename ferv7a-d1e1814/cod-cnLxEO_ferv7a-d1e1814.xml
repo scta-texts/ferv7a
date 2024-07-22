@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 13</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 13</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="36"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1814"><!-- ferv7a-l3c13 -->
+            <head xml:id="ferv7a-d1e1814-Hd1e101">Capitulum 13</head>
+            <p xml:id="ferv7a-d1e1814-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="21" type="fixed=36"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1814-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="22"/>POSTQUAM ostendit Sanctus Thomas quod malum non
+<lb ed="#L" n="23"/>causatur nisi a bono, si aliquod malum habet 
+cau<lb ed="#L" break="no" n="24"/>sam, nunc vult ostendere quod Cuiuslibet mali oportet
+<lb ed="#L" n="25"/>esse aliquam causam per accidens .
+</p>
+            <p xml:id="ferv7a-d1e1814-d1e123">
+               <lb ed="#L" n="26"/>Et arguit primo sic. Malum est in bono ut in 
+sub<lb ed="#L" break="no" n="27"/>iecto. Ergo etc. — Patet consequentia. Quia omne quod
+<lb ed="#L" n="28"/>est in subiecto, causatur vel ex principiis subiecti, vel ex
+<lb ed="#L" n="29"/>aliqua causa extrinseca.
+</p>
+            <p xml:id="ferv7a-d1e1814-d1e134">
+               <lb ed="#L" n="30"/>Secundo. Malum est in subiecto quod est in potentia ad
+<lb ed="#L" n="31"/>ipsum et ad suum oppositum. Ergo etc. — Patet 
+antece<lb ed="#L" break="no" n="32"/>dens. — Consequentia vero probatur. Quia quod est in 
+po<lb ed="#L" break="no" n="33"/>tentia ad opposita, non constituitur in actu alicuius eorum
+<lb ed="#L" n="34"/>nisi per aliquam causam: cum nulla potentia faciat se.in actu.
+</p>
+            <p xml:id="ferv7a-d1e1814-d1e148">
+               <lb ed="#L" n="35"/>Adverte circa antecedens, quod non est universaliter
+<lb ed="#L" n="36"/>verum, ut dicitur Verit., q. xxt, a. 2, ad 1, quod omne 
+sub<lb ed="#L" break="no" n="37"/>iectum habitus possit esse etiam subiectum privationis:
+<lb ed="#L" n="38"/>quia aliquando habitus inest a natura, et a subiecto 
+se<lb ed="#L" break="no" n="39"/>parari non potest. Sed bene est universaliter verum quod
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="40"/>omne subiectum mali est etiam susceptivum boni 
+oppo<lb ed="#L" break="no" n="41"/>siti, Et ideo non dixit quod omne subiectum formae sit -
+<lb ed="#L" n="42"/>in potentia ad formam et suum oppositum, quod est 
+pri<lb ed="#L" break="no" n="43"/>vatio; sed e contrario quod subiectum mali est in potentia
+<lb ed="#L" n="44"/>ad utrumque oppositum. Cum enim malum sit privatio, ut
+<lb ed="#L" n="45"/>inquit, eius quod quis natus est et debet habere, necesse
+<lb ed="#L" n="46"/>est ut, si in aliquo subiecto sit malum, illud sit in 
+po<lb ed="#L" break="no" n="47"/>tentia et ad malum et ad bonum sibi oppositum, ita quod
+<lb ed="#L" n="48"/>sit utriusque receptivum.
+</p>
+            <p xml:id="ferv7a-d1e1814-d1e183">
+               <lb ed="#L" n="49"/>Tertio. Malum semper inest praeter naturam eius cui
+<lb ed="#L" n="50"/>inest: cum sit privatio perfectionis debitae inesse. Ergo etc.—
+<lb ed="#L" n="51"/>Probatur consequentia. Quia quod advenit alicui praeter
+<lb ed="#L" n="52"/>naturam suam, advenit ei ex aliqua alia causa: ut patet
+<lb ed="#L" n="53"/>in motu lapidis sursum, et in aqua quae calefit.
+</p>
+            <p xml:id="ferv7a-d1e1814-d1e196">
+               <lb ed="#L" n="54"/>Quarto. Omne bonum praeter primum habet aliquam
+<lb ed="#L" n="55"/>causam. Ergo et omne malum habet causam per accidens:
+<lb ed="#L" n="56"/>quia omne malum. consequitur ad aliquod: bonum, sicut
+<lb ed="#L" n="57"/>corruptio ad generationem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

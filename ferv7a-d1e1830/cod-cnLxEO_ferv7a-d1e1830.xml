@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 15</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 15</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="38"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1830"><!-- ferv7a-l3c15 -->
+            <head xml:id="ferv7a-d1e1830-Hd1e101">Capitulum 15</head>
+            <p xml:id="ferv7a-d1e1830-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="15" type="fixed=38"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="16"/>Ex omnibus praedictis deducit Sanctus Thomas quod
+<lb ed="#L" n="17"/>E Non potest esse aliquod summum malum, quod sit
+<lb ed="#L" n="18"/>omnium malorum principium .
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e121">
+               <lb ed="#L" n="19"/>Et arguit primo sic. Non potest esse aliquod malum
+<lb ed="#L" n="20"/>omnino separatum a bono. Ergo non est summum 
+ma<lb ed="#L" break="no" n="21"/>lum. — Patet consequentia. Quia summum malum oportet
+<lb ed="#L" n="22"/>esse absque consortio omnis boni: sicut et summum 
+bo<lb ed="#L" break="no" n="23"/>num est omnino separatum ab omni malo.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e134">
+               <lb ed="#L" n="24"/>Secundo. Malum nullam habet essentiam. Ergo etc. —
+<lb ed="#L" n="25"/>Patet consequentia. Quia oportet ut summe malum sit
+<lb ed="#L" n="26"/>per essentiam malum: sicut et summe bonum est quod
+<lb ed="#L" n="27"/>est per essentiam bonum.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e146">
+               <lb ed="#L" n="28"/>Adverte quod, sicut bonum dicitur et per essentiam
+<lb ed="#L" n="29"/>et per participationem, ita, si daretur summum malum,
+<lb ed="#L" n="30"/>oporteret malum dividi in malum per essentiam et malum
+<lb ed="#L" n="31"/>per participationem. Summum autem malum non esset
+<lb ed="#L" n="32"/>malum per participationem: alioquin non esset summum
+<lb ed="#L" n="33"/>malum. [deo necesse esset ut esset per essentiam suam
+<lb ed="#L" n="34"/>malum, ut Sanctus Thomas assumit.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e164">
+               <lb ed="#L" n="35"/>Tertio. Omne malum causatur a bono. Ergo malum
+<lb ed="#L" n="36"/>non est primum principium: cum primum principium
+<lb ed="#L" n="37"/>non sit ab aliquo causatum.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e173">
+               <lb ed="#L" n="38"/>Ad hanc rationem dici posset quod, licet malum non
+<lb ed="#L" n="39"/>sit primum principium simpliciter, est tamen aliquod
+<lb ed="#L" n="40"/>malum primum principium omnium malorum. Sed haec
+<lb ed="#L" n="41"/>responsio nulla est: quia, ut ex superioribus patet, opor-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="42"/>teret etiam in causatione mali resolutionem fieri in bonum;
+<lb ed="#L" n="43"/>ut etiam in sequenti ratione tangitur.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e191">
+               <lb ed="#L" n="44"/>Quarto. Malum non agit nisi in virtute boni. Ergo
+<lb ed="#L" n="45"/>non potest esse primum principium: cum tale agat 
+vir<lb ed="#L" break="no" n="46"/>tute propria.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e200">
+               <lb ed="#L" n="47"/>Quinto. Malum non evenit nisi per accidens et praeter
+<lb ed="#L" n="48"/>intentionem. Ergo non est primum. Ergo non est 
+pri<lb ed="#L" break="no" n="49"/>mum principium. — Probatur prima consequentia. Quia
+<lb ed="#L" n="50"/>per accidens est posterius eo quod est per se.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e211">
+               <lb ed="#L" n="51"/>Adverte quod ponentes esse summum malum 
+princi<lb ed="#L" break="no" n="52"/>pium omnium malorum, existimaverunt malum esse 
+pri<lb ed="#L" break="no" n="53"/>mum et per se effectum ipsius. Et ideo haec ratio optima
+<lb ed="#L" n="54"/>est contra eos. Si enim malum non producitur nisi per
+<lb ed="#L" n="55"/>accidens et praeter intentionem, ut ex superioribus  
+con<lb ed="#L" break="no" n="56"/>stat, satis apparet quod non potest esse primo et per se
+<lb ed="#L" n="57"/>intentum. Ex quo sequitur quod non est aliquod primum
+<lb ed="#L" n="58"/>principium mali, tanquam scilicet prima et per se causa
+<lb ed="#L" n="59"/>mali, ut volebant Manichaei.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e234">
+               <lb ed="#L" n="60"/>Sexto. Malum omne habet causam per accidens. Ergo
+<lb ed="#L" n="61"/>non est primum principium: cum illud non habeat 
+cau<lb ed="#L" break="no" n="62"/>sam neque per se neque per accidens.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e243">
+               <lb ed="#L" n="63"/>Septimo. Malum non est causa nisi per accidens. Ergo
+<lb ed="#L" n="64"/>non est primum principium: quia causa per se est prior
+<lb ed="#L" n="65"/>causa per accidens.
+</p>
+            <p xml:id="ferv7a-d1e1830-d1e252">
+               <lb ed="#L" n="66"/>Ex iis excluditur Manichaeorum error, ponentium aliquod
+<lb ed="#L" n="67"/>summum malum, quod est principium omnium malorum,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

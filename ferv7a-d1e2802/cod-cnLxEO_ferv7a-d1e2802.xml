@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 134</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 134</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="405"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2802"><!-- ferv7a-l3c134 -->
+            <head>Capitulum 134</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="79" type="fixed=405"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="80"/>DETERMINATA veritate, respondet Sanctus Thomas 
+ratio<lb ed="#L" break="no" n="81"/>nibus superius inductis . Circa hoc autem duo facit:
+<lb ed="#L" n="82"/>primo, solvit rationes inductas contra paupertatem 
+abso<lb ed="#L" break="no" n="83"/>lute  ; secundo, solvit eas quae modos particulares vivendi
+<lb ed="#L" n="84"/>in paupertate impugnant , capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>I. Quantum ad primum, ad primam rationem, quae 
+pro<lb ed="#L" break="no" n="86"/>cedebat ex naturali appetitu in homine congregandi 
+ne<lb ed="#L" break="no" n="87"/>cessaria vitae, respondet: et dicit primo, quod ex hac
+<lb ed="#L" n="88"/>naturali inclinatione non oportet quemlibet circa hoc opus
+<lb ed="#L" n="89"/>occupari : sed, quia multa necessaria sunt ad bominis vitam,
+<lb ed="#L" n="90"/>oportet per diversos diversa fieri, ut scilicet quidam sint
+<lb ed="#L" n="91"/>agricultores, quidam animalium custodes, et sic de aliis.
+<lb ed="#L" n="92"/>Oportet etiam ut quidam vacent spiritualibus rebus, ad
+<lb ed="#L" n="93"/>aliorum meliorationem: quia vita hominum non solum
+<lb ed="#L" n="94"/>corporalibus indiget, sed magis spiritualibus. — Declaratur
+<lb ed="#L" n="95"/>ex apibus, in quibus non omnes eidem vacant officio.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Dicit secundo, quod haec distributio officiorum in 
+di<lb ed="#L" break="no" n="97"/>versas personas fit a divina providentia, secundum quod
+<lb ed="#L" n="98"/>quidam magis inclinantur ad hoc officium quam ad alia.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="99"/>2. Ad evidentiam huius responsionis, considerandum
+<lb ed="#L" n="100"/>est. quod naturalis inclinatio ad id quod necessarium est
+<lb ed="#L" n="101"/>unicuique, est duplex. Quaedam, ad id quod necessarium
+<lb ed="#L" n="102"/>est unicuique ita quod ab alio sibi satisfieri non potest,
+<lb ed="#L" n="103"/>sicut unicuique animali est naturalis inclinatio ad 
+comes<lb ed="#L" break="no" n="104"/>tionem: et talis inclinatio naturae ita est unicuique indita
+<lb ed="#L" n="105"/>quod. quodlibet individuum naturae naturali necessitate
+<lb ed="#L" n="106"/>fertur per seipsum in id ad quod natura inclinat. Quaedam
+<lb ed="#L" n="107"/>vero est quae inclinat quidem ad aliquid quod unicuique
+<lb ed="#L" n="108"/>est necessarium, sed tamen in hoc uni per alterum subveniri
+<lb ed="#L" n="109"/>potest, sicut homini sitienti est naturalis inclinatio ad 
+quae<lb ed="#L" break="no" n="110"/>rendum potum, qui tamen per alium sibi quaeri et 
+mi<lb ed="#L" break="no" n="111"/>nistrari potest: et haec naturalis inclinatio non est ita
+<lb ed="#L" n="112"/>unicuique naturae individuo indita ut naturali necessitate
+<lb ed="#L" n="113"/>occupet se circa opus ad quod natura inclinat, sed sufficit
+<lb ed="#L" n="114"/>quod aut per seipsum in illud feratur, aut sibi per aliud
+<lb ed="#L" n="115"/>individuum subveniatur. Talis est naturalis inclinatio ad
+<lb ed="#L" n="116"/>congregationem eorum quae sunt necessaria in vita. Quando
+<lb ed="#L" n="117"/>enim alicui per nullum alium hominem possunt congre-
+<pb ed="#L" n="406"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>gari necessaria vitae, ille in ipsam naturali necessitate fertur:
+<lb ed="#L" n="2"/>sed quando per alium. congregantem potest sibi de 
+neces<lb ed="#L" break="no" n="3"/>sariis vitae provideri, in talem congregationem non fertur
+<lb ed="#L" n="4"/>naturali necessitate, sed, manente ipsa naturali inclinatione,
+<lb ed="#L" n="5"/>potest homo in aliis occupari operibus, quibusdam aliis
+<lb ed="#L" n="6"/>divitiarum congregationi insistentibus, eique providentibus
+<lb ed="#L" n="7"/>de necessariis vitae. Propter quod inquit Sanctus 
+Tho<lb ed="#L" break="no" n="8"/>mas II II, q. cuxxxvir, a. 3, ad 1, quod ad illa praecepta
+<lb ed="#L" n="9"/>legis naturae quae pertinent ad bonum multorum, non
+<lb ed="#L" n="10"/>tenentur. singuli, sed sufficit quod unus vacet uni officio
+<lb ed="#L" n="11"/>et alius alteri: puta quod quidam sint opifices, quidam
+<lb ed="#L" n="12"/>agricolae. Idem etiam ex iis quae inferius dicet, cap. cxxxvr,
+<lb ed="#L" n="13"/>haberi potest. Ex quo patet convenienter dictum esse a
+<lb ed="#L" n="14"/>Sancto Thoma quod non est hoc modo naturalis 
+incli<lb ed="#L" break="no" n="15"/>natio homini ad congregandum necessaria vitae, quod
+<lb ed="#L" n="16"/>oporteat quemlibet circa hoc occupari. Et ideo 
+conse<lb ed="#L" break="no" n="17"/>quentia illa qua inferebatur esse contra legem naturae
+<lb ed="#L" n="18"/>congregata dispergere, falsa est.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>II. Ad secundam respondet admittendo. quod ultimate
+<lb ed="#L" n="20"/>infertur: sed dicit quod qui temporalia relinquunt, non
+<lb ed="#L" n="21"/>sibi subtrahunt necessaria vitae; quia remanet sibi spes
+<lb ed="#L" n="22"/>probabilis suae vitae sustentandae, vel ex labore proprio,
+<lb ed="#L" n="23"/>vel ex aliorum beneficiis; quod enim ab amicis habetur,
+<lb ed="#L" n="24"/>aliqualiter a nobis habetur.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Adverte quod ex hac responsione negatur illa 
+conse<lb ed="#L" break="no" n="26"/>quentia : Per substantiam exteriorum bonorum vita hominis
+<lb ed="#L" n="27"/>conservatur. Ergo, sicut vitam suam, ita et exteriorem
+<lb ed="#L" n="28"/>substantiam tenetur unusquisque conservare per seipsum.
+<lb ed="#L" n="29"/>Sufficit enim quod per alios conservetur, a quibus 
+pro<lb ed="#L" break="no" n="30"/>babilis est spes habendi quantum necesse fuerit.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>III. Ad tertiam dicit quod qui subtrahit sibi per 
+volun<lb ed="#L" break="no" n="32"/>tariam paupertatem facultatem subveniendi aliis in 
+tempora<lb ed="#L" break="no" n="33"/>libus ut acquirat spiritualia, per quae potest aliis subvenire,
+<lb ed="#L" n="34"/>non facit contra bonum societatis humanae: quia maius
+<lb ed="#L" n="35"/>est subvenire alteri in spiritualibus quam in temporalibus.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Ex hoc patet illam propositionem assumptam, Naturale
+<lb ed="#L" n="37"/>est hominibus quod unus alium in necessitatibus iuvet,
+<lb ed="#L" n="38"/>intelligendam esse de necessitatibus aut spiritualibus, aut
+<lb ed="#L" n="39"/>temporalibus. Et ideo consequentia nulla est.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>IV. Ad quartam dicit quod divitiae quoddam hominis
+<lb ed="#L" n="41"/>bonum sunt secundum quod ad bonum rationis ordinantur,
+<lb ed="#L" n="42"/>non autem secundum se. Et ideo nihil prohibet 
+pauper<lb ed="#L" break="no" n="43"/>tatem melius quiddam esse, si per eam ad perfectius bonum
+<lb ed="#L" n="44"/>aliquid ordinatur .
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="45"/>Advertendum quod per hanc responsionem vult 
+San<lb ed="#L" break="no" n="46"/>ctus Thomas concedere primam conclusionem quae infertur,
+<lb ed="#L" n="47"/>scilicet quod bonum est habere. substantiam huius, mundi.
+<lb ed="#L" n="48"/>Intelligendum tamen secundum quod ad bonum rationis
+<lb ed="#L" n="49"/>ordinatur. — Sed ultimam consequentiam negat, scilicet,
+<lb ed="#L" n="50"/>Ergo abiicere substantiam per voluntariam paupertatem
+<lb ed="#L" n="51"/>malum est. Non enim malum est abiicere minus bonum
+<lb ed="#L" n="52"/>propter maius bonum.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>V. Ad quintam dicit quod paupertas non est abiicienda
+<lb ed="#L" n="54"/>tanquam secundum se malum, propter aliqua vitia quae
+<lb ed="#L" n="55"/>ex ea accidentaliter  quandoque proveniant. Quia, cum
+<lb ed="#L" n="56"/>neque divitiae neque paupertas sint secundum se hominis
+<lb ed="#L" n="57"/>bonum, sed secundum quod ad bonum rationis ordinantur,
+<lb ed="#L" n="58"/>nihil prohibet ex aliquo eorum aliquod vitium oriri, quando
+<lb ed="#L" n="59"/>non veniunt in usum hominis secundum regulam rationis.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Ex hoc patet antecedens illud falsum esse, Paupertas
+<lb ed="#L" n="61"/>est occasio mali, scilicet secundum se (in quo sensu 
+intel<lb ed="#L" break="no" n="62"/>ligendum est occasiones malorum vitandas esse): licet
+<lb ed="#L" n="63"/>quandoque usus ipsius malus sit, quia non secundum 
+re<lb ed="#L" break="no" n="64"/>gulam rationis est.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>VL. Ad sextam dicit primo, quod medium virtutis acci
+<lb ed="#L" n="66"/>pitur, non secundum quantitatem exteriorum quae in usum
+<lb ed="#L" n="67"/>hominis veniunt, ut patet in magnarimo et magnifico: sed
+<lb ed="#L" n="68"/>secundum regulam rationis, inquantum nec eam transcendit
+<lb ed="#L" n="69"/>nec ab ea deficit.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Dicit secundo, quod regula rationis non solum metitur
+<lb ed="#L" n="71"/>quantitatem rei quae in usum-venit: sed conditionem 
+per<lb ed="#L" break="no" n="72"/>sonae, et intentionem eius, et opportunitatem loci et 
+tem<lb ed="#L" break="no" n="73"/>poris, et alia huiusmodi.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Dicit tertio, applicando dicta ad propositum, quod
+<lb ed="#L" n="75"/>quamvis quis per voluntariam paupertatem omnia 
+de<lb ed="#L" break="no" n="76"/>serat, non tamen contrariatur virtuti, nec prodigaliter facit:
+<lb ed="#L" n="77"/>cum hoc faciat debito fine, et aliis conditionibus debitis
+<lb ed="#L" n="78"/>servatis. Ostenditur hoc per comparationem ad eum qui
+<lb ed="#L" n="79"/>se morti ex virtute fortitudinis exponit.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>2. Advertendum, ex doctrina Sancti Thomae l Il5,
+<lb ed="#L" n="81"/>q. Lxiv , quod primum quod hic dicitur, non est.sic 
+in<lb ed="#L" break="no" n="82"/>telligendum quasi in nulla virtute medium virtutis 
+acci<lb ed="#L" break="no" n="83"/>piatur secundum quantitatem rei, in iustitia enim medium
+<lb ed="#L" n="84"/>rationis est medium rei: sed quia non in omnibus 
+virtu<lb ed="#L" break="no" n="85"/>tibus medium accipitur secundum rei quantitatem, sed
+<lb ed="#L" n="86"/>secundum adaequationem ad regulam rationis.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Ap AucTORITATEM Salomonis, dicit quod loquitur de
+<lb ed="#L" n="88"/>coacta paupertate, quae furandi solet esse occasio. ^.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

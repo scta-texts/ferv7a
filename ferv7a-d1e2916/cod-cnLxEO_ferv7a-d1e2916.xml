@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 148</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 148</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="439"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2916"><!-- ferv7a-l3c148 -->
+            <head>Capitulum 148</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="55" type="fixed=438"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="56"/>QUIA posset alicui videri, ex auctoritate 7oam. vr, et
+<lb ed="#L" n="57"/>Apostoli ad Rom. vir, et II Cor. v, quod per 
+prae<lb ed="#L" break="no" n="58"/>dictum divinum auxilium aliqua coactio inferatur homini
+<lb ed="#L" n="59"/>ad bene agendum, vult Sanctus Thomas hanc falsam
+<lb ed="#L" n="60"/>existimationem excludere .
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Et ponit hanc conclusionem: Per auxilium divinae
+<lb ed="#L" n="62"/>gratiae homo non cogitur ad virtutem.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Et arguit primo sic, Proprium est homini, et omni 
+ratio<lb ed="#L" break="no" n="64"/>nali creaturae, quod voluntarie agat, et suis actibus 
+domi<lb ed="#L" break="no" n="65"/>netur. Ergo Deus suo auxilio hominem non cogit ad recte
+<lb ed="#L" n="66"/>agendum. — Probatur consequentia. Quia divina providentia
+<lb ed="#L" n="67"/>rebus omnibus providet secundum modum earum .
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Secundo. Divinum auxilium sic intelligitur ad bene 
+agen<lb ed="#L" break="no" n="69"/>dum homini adhiberi quod Deus in nobis nostra opera
+<lb ed="#L" n="70"/>operatur sicut causa prima: ut patet etiam Zsaiae xxvi.
+<lb ed="#L" n="71"/>Sed causa prima causat operationem causae secundae 
+se<lb ed="#L" break="no" n="72"/>cundum modum ipsius, Ergo et Deus causat in nobis
+<lb ed="#L" n="73"/>nostra opera secundum modum nostrum, qui est ut 
+vo<lb ed="#L" break="no" n="74"/>luntarie, et non coacte agamus. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Ista ratio differt a praecedenti, quia illa procedit ex 
+uni<lb ed="#L" break="no" n="76"/>versali modo gubernationis divinae providentiae: ista autem
+<lb ed="#L" n="77"/>procedit ex modo agendi causae primae circa actiones
+<lb ed="#L" n="78"/>causae secundae.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Tertio. Auxilium divinum nobis ad hoc praecipue im-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="80"/>nobis actum voluntatis, sed ipsum praecipue in nobis facit.
+<lb ed="#L" n="81"/>Quod etiam Apostolus, ad Philipp. 1t, confirmat, dum ait:
+<lb ed="#L" n="82"/>Deus est qui operatur in nobis velle etc. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="83"/>batur prima consequentia. Quia homo per voluntatem
+<lb ed="#L" n="84"/>ordinatur in finem. — Secunda vero: quia coactio excludit
+<lb ed="#L" n="85"/>in nobis actum voluntatis; cum coacte. agamus id cuius
+<lb ed="#L" n="86"/>contrarium volumus.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Quarto. Actus coacti non sunt actus virtutum: cum
+<lb ed="#L" n="88"/>principium in eis sit electio, quae sine voluntario esse non
+<lb ed="#L" n="89"/>potest. Ergo etc. — Probatur consequentia. Quia homo
+<lb ed="#L" n="90"/>per actus virtutum pervenit gd ultimum finem.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Quinto. Finis ultimus, qui est felicitas, non competit
+<lb ed="#L" n="92"/>nisi voluntarie agentibus, qui sunt domini sui actus: unde
+<lb ed="#L" n="93"/>neque inanimata neque bruta felicia dicimus. Ergo etc.
+<lb ed="#L" n="94"/>— Probatur consequentia. Quia quae sunt ad finem, debent
+<lb ed="#L" n="95"/>fini esse proportionata.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Confirmatur auctoritate Deut. xxx, et Eccli. xv.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Ad auctoritates in principio capituli: adductas, quibus
+<lb ed="#L" n="98"/>videbatur probari quod homo per gratiam ageretur ad bene
+<lb ed="#L" n="99"/>operandum, non respondet Sanctus Thomas: quia ex dictis
+<lb ed="#L" n="100"/>solutio. patet. Ex eo enim quod Deus omnibus secundum
+<lb ed="#L" n="101"/>modum suae naturae providet, ut dictum est; habetque
+<lb ed="#L" n="102"/>natura rationalis ut libere agat: constat quod trahi, urgeri,
+<lb ed="#L" n="103"/>et similia, non dicunt coactionem, sed tantum inclinari et
+<lb ed="#L" n="104"/>moveri ad bonum, libertate servata. WEN
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

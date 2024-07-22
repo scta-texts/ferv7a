@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 163</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 163</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="474"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e3039"><!-- ferv7a-l3c163 -->
+            <head>Capitulum 163</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="47" type="fixed=474"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="48"/>Ex praedictis infert Sanctus Thomas quid sit 
+praedesti<lb ed="#L" break="no" n="49"/>natio, reprobatio, et electio divina .
+</p>
+            <p>
+               <lb ed="#L" n="50"/>I. Et dicit duo. Dicit enim primo quod, cum omnia
+<lb ed="#L" n="51"/>quae aguntur a Deo, ab aeterno per eius sapientiam 
+pro<lb ed="#L" break="no" n="52"/>visa et ordinata sint, necesse est praedictam hominum
+<lb ed="#L" n="53"/>distinctionem, secundum scilicet quod divina operatione
+<lb ed="#L" n="54"/>aliqui diriguntur in ultimum finem per gratiam adiuti, aliqui
+<lb ed="#L" n="55"/>vero, auxilio gratiae deserti, a fine decidunt, ab aeterno
+<lb ed="#L" n="56"/>esse a Deo ordinatam. Unde secundum quod aliquos ab
+<lb ed="#L" n="57"/>aeterno praeordinavit ut dirigendos in ultimum finem,
+<lb ed="#L" n="58"/>dicitur eos praedestinasse: iuxta illud Ephes. r, Qui 
+prae<lb ed="#L" break="no" n="59"/>destinavit nos in adoptionem filiorum, secundum 
+propo<lb ed="#L" break="no" n="60"/>situm voluntatis suae. — Illos autem quibus ab aeterno
+<lb ed="#L" n="61"/>disposuit se gratiam, scilicet finalem, non daturum, 
+di<lb ed="#L" break="no" n="62"/>citur reprobasse, vel odio habuisse: iuxta id quod dicitur
+<lb ed="#L" n="63"/>Malach. 1, Iacob dilexi, Esau autem odio habui. — Ratione
+<lb ed="#L" n="64"/>vero distinctionis ipsius, secundum quod quosdam 
+repro<lb ed="#L" break="no" n="65"/>bavit et quosdam praedestinavit, attenditur divina electio :
+<lb ed="#L" n="66"/>de qua ad Ephes. 1 dicitur, Elegit nos in ipso etc. - Ex quo
+<lb ed="#L" n="67"/>patet ista esse partem divinae providentiae, secundum quod
+<lb ed="#L" n="68"/>homines ex divina providentia in ultimum finem ordinantur.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>2. Advertendum primo, quod praedestinatio nominat 
+ra<lb ed="#L" break="no" n="70"/>tionem ordinis aliquorum in vitam aeternam, ab aeterno
+<lb ed="#L" n="71"/>in mente divina praeexistentem, cum praescientia eventus.
+<lb ed="#L" n="72"/>Propter hoc dicitur hic quod secundum quod Deus aliquos
+<lb ed="#L" n="73"/>ab aeterno praeordinavit ut dirigendos in ultimum finem,
+<lb ed="#L" n="74"/>dicitur eos praedestinasse.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Advertendum secundo, quod electio divina aliquorum
+<lb ed="#L" n="76"/>respectu ultimi finis, attenditur secundum quod Deus vult
+<lb ed="#L" n="77"/>eis bonum vitae aeternae prae aliis, quibusdam (scilicet
+<lb ed="#L" n="78"/>reprobis) nom volendo hoc bonum. ldeo hic dicitur quod
+<lb ed="#L" n="79"/>ratione huius distinctionis, secundum quod aliquos 
+repro<lb ed="#L" break="no" n="80"/>bavit, aliquos vero praedestinavit, attenditur divina electio.
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="81"/>Advertendum tertio, quod ad divinam providentiam 
+per<lb ed="#L" break="no" n="82"/>tinet omnia in suos fines ordinare, et per consequens 
+ordi<lb ed="#L" break="no" n="83"/>nare hominem in vitam aeternam. Et quia eiusdem est
+<lb ed="#L" n="84"/>ordinare aliqua in finem aliquem, et alia ab illo fine 
+exclu<lb ed="#L" break="no" n="85"/>dere, ideo ad divinam providentiam pertinet aliquos ad
+<lb ed="#L" n="86"/>ultimum finem ordinare, alios vero ab illo excludere, 
+per<lb ed="#L" break="no" n="87"/>mittendo illorum casum. Propter hoc dicitur hic quod 
+prae<lb ed="#L" break="no" n="88"/>destinatio, reprobatio et electio est quaedam pars divinae
+<lb ed="#L" n="89"/>providentiae, secundum quod homines ex divina 
+providen<lb ed="#L" break="no" n="90"/>tia ordinantur in ultimum finem: quia videlicet ista 
+per<lb ed="#L" break="no" n="91"/>tinent ad hominis dumtaxat ordinationem ' in ultimum finem,
+<lb ed="#L" n="92"/>cum ad divinam providentiam ordo uniuscuiusque rei in
+<lb ed="#L" n="93"/>quemcumque finem pertineat.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>II. Dicit secundo, quod ex eo quod dictum est 
+prae<lb ed="#L" break="no" n="95"/>dicta esse partem providentiae, sequuntur duo. Primum
+<lb ed="#L" n="96"/>est, quod ex eisdem manifestum esse potest praedicta 
+ne<lb ed="#L" break="no" n="97"/>cessitatem non inducere, ex quibus superius est ostensum
+<lb ed="#L" n="98"/>divinam providentiam contingentiam a rebus non auferre.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Alterum est, quod praedestinationem et electionem non
+<lb ed="#L" n="100"/>habere causam ex aliquibus humanis meritis, potest esse
+<lb ed="#L" n="101"/>manifestum non solum quia gratia, quae est 
+praedestina<lb ed="#L" break="no" n="102"/>tionis effectus, meritis non praevenitur, sed omnia merita
+<lb ed="#L" n="103"/>praecedit humana; sed etiam ex hoc quod divinae 
+volun<lb ed="#L" break="no" n="104"/>tatis et providentiae, quae est prima causa eorum quae
+<lb ed="#L" n="105"/>fiunt, nihil causa esse potest; licet effectuum providentiae
+<lb ed="#L" n="106"/>et praedestinationis unus possit alterius esse causa. Quod
+<lb ed="#L" n="107"/>etiam auctoritate Apostoli confirmatur, dicentis: Quis prior
+<lb ed="#L" n="108"/>dedit ei etc.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>2. Ad huius rei evidentiam, considerandum est quod
+<lb ed="#L" n="110"/>duo in praedestinatione considerare possumus: scilicet 
+ef<lb ed="#L" break="no" n="111"/>fectum in praedestinato causatum; et ipsam operationem
+<lb ed="#L" n="112"/>immanentem Dei praedestinantis. Effectus etiam talis 
+du<lb ed="#L" break="no" n="113"/>pliciter potest considerari: scilicet totaliter, et partialiter.
+<pb ed="#L" n="475"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Prima ratio hic tacta procedit de totali effectu 
+praedesti<lb ed="#L" break="no" n="2"/>nationis. Nam sub ipso totali effectu comprehenditur 
+quic<lb ed="#L" break="no" n="3"/>quid est in homine ipsum ordinans in salutem. Unde,
+<lb ed="#L" n="4"/>cum gratia hoc efficiat, constat quod est effectus 
+praede<lb ed="#L" break="no" n="5"/>stinationis. Et ideo; cum omne meritum praecedat, sequitur
+<lb ed="#L" n="6"/>ut merita non possint ipsius esse causa. Et per consequens
+<lb ed="#L" n="7"/>totalis effectus praedestinationis merita causa esse non
+<lb ed="#L" n="8"/>possunt.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Secunda vero ratio dupliciter potest intelligi. Uno modo,
+<lb ed="#L" n="10"/>ut procedat de ipso actu Dei praedestinantis : ut videlicet,
+<lb ed="#L" n="11"/>sicut volitionis divinae et actus providendi nihil est causa,
+<lb ed="#L" n="12"/>ita etiam neque praedestinationis sit aliqua causa; cum
+<lb ed="#L" n="13"/>praedestinatio sit pars providentiae. — Alio modo, ut etiam
+<lb ed="#L" n="14"/>de totali effectu praedestinationis intelligatur: ut videlicet,
+<lb ed="#L" n="15"/>sicut primi effectus in rebus habent pro causa tantum 
+divi<lb ed="#L" break="no" n="16"/>nam voluntatem et divinam providentiam, ex quo sequitur
+<lb ed="#L" n="17"/>quod in rebus creatis nihil est causa omnium volitorum
+<lb ed="#L" n="18"/>a Deo et provisorum, sed tantum divina bonitas; ita et
+<lb ed="#L" n="19"/>totius effectus praedestinationis nihil sit causa excepta 
+di<lb ed="#L" break="no" n="20"/>vina bonitate. - Istis autem non obstat quod unus effectus
+<lb ed="#L" n="21"/>partialis praedestinationis sit alterius effectus causa: sicut
+<lb ed="#L" n="22"/>gloria est causa finalis gratiae; et gloriae gratia est causa
+<lb ed="#L" n="23"/>meritoria; et aliquo modo materialis dispositio, sicut omne
+<lb ed="#L" n="24"/>quod di it subiectum ad receptionem alicuius 
+perfectio<lb ed="#L" break="no" n="25"/>nis, ad materiae rationem reducitur.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>De iis pertractat Sanctus Thomas Prima Parte, q. xxii;
+<lb ed="#L" n="27"/>et Verit. q. vr; et I Sent., d. xut.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Advertendum autem, cum tria nominaverit Sanctus 
+Tho<lb ed="#L" break="no" n="29"/>mas, scilicet praedestinationem, reprobationem, et 
+electio<lb ed="#L" break="no" n="30"/>nem, de duobus tantum, scilicet de praedestinatione et 
+ele<lb ed="#L" break="no" n="31"/>ctione, inquit quod causam non habent. Quoniam videlicet
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="32"/>non est eadem ratio de omnibus tribus: reprobationis enim,
+<lb ed="#L" n="33"/>quantum ad eius effectum totalem, aliquid est causa, scilicet
+<lb ed="#L" n="34"/>culpa; quod, ut dictum est et declaratum cap. crxi, in
+<lb ed="#L" n="35"/>praedestinatione non invenitur.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>III. Si autem instetur contra praedicta, ut instat <ref>
+                  <name>Henricus</name>,
+<lb ed="#L" n="37"/>Quolibeto IV<!-- q. 19--> et V<!-- 5. q. 5 --></ref>  : — Tum quia electio praesupponit 
+dispa<lb ed="#L" break="no" n="38"/>ritatem eligendi a reprobando. Tum quia iustitia semper est
+<lb ed="#L" n="39"/>comes misericordiae: et sic videtur quod omnes effectus
+<lb ed="#L" n="40"/>divini proveniant ex iustitia ; et consequenter quod sit aliqua
+<lb ed="#L" n="41"/>causa ex parte creaturae omnium effectuum divinorum -
+<lb ed="#L" n="42"/>dicitur ad primum quod assumptum est falsum. Potest
+<lb ed="#L" n="43"/>enim voluntas divina ex iis quae paria esse intelliguntur
+<lb ed="#L" n="44"/>quantum in ipsis est, unum eligere ex sola arbitrii voluntate
+<lb ed="#L" n="45"/>ad aliquid ad quod aliud non eligit: licet forte electioni
+<lb ed="#L" n="46"/>humanae praesupponatur inaequalitas eligendi a 
+reproban<lb ed="#L" break="no" n="47"/>do, inquantum necesse est voluntatem ab uno magis 
+mo<lb ed="#L" break="no" n="48"/>veri quam ab alio.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Ad secundum dicitur quod in primis effectibus divinis
+<lb ed="#L" n="50"/>iustitia non est comes misericordiae, quasi videlicet in illis
+<lb ed="#L" n="51"/>producatur aliquid quod alicui creaturae debitum" sit: sed
+<lb ed="#L" n="52"/>potest hoc modo iustitia esse, inquantum Deus facit id
+<lb ed="#L" n="53"/>quod est suae sapientiae et praeordinationi debitum . Hoc
+<lb ed="#L" n="54"/>autem non arguit aliquid esse ex parte creaturae quod sit
+<lb ed="#L" n="55"/>causa totalis effectus praedestinationis: propter quod 
+vide<lb ed="#L" break="no" n="56"/>licet Deus effectum huiusmodi in praedestinatis efficiat.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Reliqua quae ad hanc materiam pertinent, superius,
+<lb ed="#L" n="58"/>ubi de providentia agebatur , sunt pertractata.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>LAUS DEO
+<lb ed="#L" n="60"/>Explicit Liber Tertius
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

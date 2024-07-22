@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 8</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 8</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="22"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1773"><!-- ferv7a-l3c8 -->
+            <head xml:id="ferv7a-d1e1773-Hd1e101">Capitulum 8</head>
+            <p xml:id="ferv7a-d1e1773-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="43" type="fixed=22"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1773-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="44"/>CONTRA positam conclusionem quaedam instantiae fiunt,
+<lb ed="#L" n="45"/>quas primo recitat Sanctus Thomas; secundo solvit,
+<lb ed="#L" n="46"/>capite sequenti.
+</p>
+            <p xml:id="ferv7a-d1e1773-d1e121">
+               <lb ed="#L" n="47"/>I. Quantum ad primum, arguunt quidam primo sic.
+<lb ed="#L" n="48"/>Malum est differentia specifica habitus et actus moralis :
+<lb ed="#L" n="49"/>cum vitium sit malus habitus secundum suam speciem.
+<lb ed="#L" n="50"/>Ergo dat speciem aliquibus rebus. Ergo est aliqua essentia.
+</p>
+            <p xml:id="ferv7a-d1e1773-d1e132">
+               <lb ed="#L" n="51"/>Secundo. Bonum et malum sunt contraria. Ergo etc. —
+<lb ed="#L" n="52"/>Probatur consequentia. Quia utrumque contrariorum est
+<lb ed="#L" n="53"/>natura quaedam.
+</p>
+            <p xml:id="ferv7a-d1e1773-d1e142">
+               <lb ed="#L" n="54"/>Tertio. Bonum et malum dicuntur esse genera 
+con<lb ed="#L" break="no" n="55"/>trariorum ab Aristotele. Ergo etc. — Probatur 
+consequen<lb ed="#L" break="no" n="56"/>tia. Quia cuiuslibet generis est essentia et natura aliqua.
+</p>
+            <p xml:id="ferv7a-d1e1773-d1e151">
+               <lb ed="#L" n="57"/>Quarto. Malum agit: corrumpit enim bonum. Ergo etc.—
+<lb ed="#L" n="58"/>Patet consequentia. Quia omne quod agit, est res aliqua.
+</p>
+            <p xml:id="ferv7a-d1e1773-d1e158">
+               <lb ed="#L" n="59"/>Quinto. Invenitur inter mala unum altero peius. Ergo
+<lb ed="#L" n="60"/>etc. — Probatur consequentia. Quia in quibus invenitur
+<lb ed="#L" n="61"/>maius et minus, oportet quod sint res aliquae habentes
+<lb ed="#L" n="62"/>ordinem.
+</p>
+            <p xml:id="ferv7a-d1e1773-d1e169">
+               <lb ed="#L" n="63"/>Sexto. Malum est in mundo. Ergo etc. — Probatur 
+con<lb ed="#L" break="no" n="64"/>sequentia. Quia res et ens convertuntur,
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

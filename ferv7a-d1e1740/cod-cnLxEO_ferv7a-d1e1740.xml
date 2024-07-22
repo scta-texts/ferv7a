@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 4</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 4</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="11"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1740"><!-- ferv7a-l3c4 -->
+            <head xml:id="ferv7a-d1e1740-Hd1e101">Capitulum 4</head>
+            <p xml:id="ferv7a-d1e1740-d1e103">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="80" type="fixed=11"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e110">
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="81"/>DE praemissis deducit corollarie Sanctus Thomas quod 
+<lb ed="#L" n="82"/>Malum est praeter intentionem in rebus, et incidit 
+prae<lb ed="#L" break="no" n="83"/>ter intentionem agentium . Rationeque huius corollarii, 
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e121">
+               <lb ed="#L" n="84"/>de natura mali determinationem facit. 
+<lb ed="#L" n="85"/>Circa hoc autem duo facit: primo, determinat de na- | 
+<lb ed="#L" n="86"/>tura mali; secundo, infert unum corollarium, cap. xv. 
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e130">
+               <lb ed="#L" n="87"/>Circa primum tria facit: primo, ostendit malum esse 
+<lb ed="#L" n="88"/>praeter intentionem, quod immediate sequitur ex 
+praece<lb ed="#L" break="no" n="89"/>dentibus; secundo, agit de natura mali,.cap. vir; tertio, 
+<lb ed="#L" n="90"/>de eius causalitate, cap. x. 
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e142">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="91"/>Circa primum tria facit: primo, ostendit propositum;
+<lb ed="#L" n="92"/>secundo, movet dubitationes, capite sequenti; tertio, 
+re<lb ed="#L" break="no" n="93"/>spondet, capite vr.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e153">
+               <lb ed="#L" n="94"/>I. Quantum ad primum, arguit primo sic. Malum est
+<lb ed="#L" n="95"/>diversum a bono, quod intendit omne agens. Ergo praeter
+<lb ed="#L" n="96"/>intentionem evenit: quia quod ex actione consequitur 
+di<lb ed="#L" break="no" n="97"/>versum ab eo quod erat intentum ab agente, praeter 
+in<lb ed="#L" break="no" n="98"/>tentionem accidit.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e166">
+               <lb ed="#L" n="99"/>Secundo. Agens intendit finem correspondentem virtuti.
+<lb ed="#L" n="100"/>Ergo quod sequitur respondens defectui virtutis, est praeter
+<pb ed="#L" n="12"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>intentionem. Ergo et malum. — Probatur antecedens. Quia
+<lb ed="#L" n="2"/>agens, secundum quod agit, sic intendit finem. Agit autem
+<lb ed="#L" n="3"/>secundum quod habet de virtute activa, non autem 
+se<lb ed="#L" break="no" n="4"/>cundum quod defectum virtutis patitur. — Consequentia
+<lb ed="#L" n="5"/>vero secunda probatur. Quia defectus in effectu et actione
+<lb ed="#L" n="6"/>consequitur aliquem defectum in principiis actionis: ut
+<lb ed="#L" n="7"/>patet in partubus monstruosis, et claudicatione.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e192">
+               <lb ed="#L" n="8"/>Adverte, cum dicitur defectum in operatione et effectu
+<lb ed="#L" n="9"/>consequi aliquem defectum in principiis actionis, quod
+<lb ed="#L" n="10"/>defectus principii dupliciter potest accipi. Uno modo, pro
+<lb ed="#L" n="11"/>remotione alicuius perfectionis debitae inesse principio:
+<lb ed="#L" n="12"/>sicut defectus seminis agentis ad generationem aliquando
+<lb ed="#L" n="13"/>est remotio caliditatis debitae inesse ipsi ad rectam 
+gene<lb ed="#L" break="no" n="14"/>rationem, a quocumque alterante proveniat. Alio modo,
+<lb ed="#L" n="15"/>pro impedimento principii ab extrinseco proveniente: sicut
+<lb ed="#L" n="16"/>quod ignis non perfecte lignum aliquod comburat, potest
+<lb ed="#L" n="17"/>ex interpositione alicuius corporis impedientis ne actio
+<lb ed="#L" n="18"/>ignis ad lignum complete perveniat, provenire; tunc enim
+<lb ed="#L" n="19"/>aliquis defectus est agentis, inquantum sua tota virtute,
+<lb ed="#L" n="20"/>ex aliquo impediente, uti non potest. Sed verum est quod
+<lb ed="#L" n="21"/>iste defectus reducitur aliquo modo in defectum causae
+<lb ed="#L" n="22"/>intrinsecum: inquantum videlicet habet virtutem quae 
+im<lb ed="#L" break="no" n="23"/>pediri, propter suam imperfectionem, potest. — In 
+propo<lb ed="#L" break="no" n="24"/>sito ergo accipitur defectus principii communiter, sive 
+in<lb ed="#L" break="no" n="25"/>trinsecus sit sive extrinsecus. Et intelligitur de principiis
+<lb ed="#L" n="26"/>non solum actionis, sed etiam materialibus: cum enim
+<lb ed="#L" n="27"/>accidit in effectu defectus, provenit hoc aut ex defectu
+<lb ed="#L" n="28"/>agentis, aut ex defectu materiae.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e240">
+               <lb ed="#L" n="29"/>II. Tertio . Mobile suo motu tendit ad formam, ad
+<lb ed="#L" n="30"/>privationem autem pervenit per accidens et praeter 
+inten<lb ed="#L" break="no" n="31"/>tionem. Ergo intendit suo motu pervenire ad bonum, 
+per<lb ed="#L" break="no" n="32"/>venit autem ad malum praeter intentionem. Ergo, cum
+<lb ed="#L" n="33"/>omne agens et movens tendat ad bonum, malum 
+pro<lb ed="#L" break="no" n="34"/>venit praeter agentis intentionem.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e256">
+               <lb ed="#L" n="35"/>Antecedens declaratur in generatione et corruptione,
+<lb ed="#L" n="36"/>ubi constat materiam non intendere privationem, licet sit
+<lb ed="#L" n="37"/>ad ipsam in potentia: cum impossibile sit ipsam esse sub
+<lb ed="#L" n="38"/>privatione tantum. Declaratur etiam et in aliis motibus. —
+<lb ed="#L" n="39"/>Prima vero consequentia probatur. Quia bonum est 
+secun<lb ed="#L" break="no" n="40"/>dum quod materia est perfecta per formam, et potentia
+<lb ed="#L" n="41"/>per actum proprium: malum autem secundum quod est
+<lb ed="#L" n="42"/>privata actu debito. — Secunda quoque probatur. Quia ad
+<lb ed="#L" n="43"/>idem tendit motus mobilis et motio moventis: cum 
+vide<lb ed="#L" break="no" n="44"/>licet idem sit actus moventis et mobilis, ut dicitur III 
+PAy<lb ed="#L" break="no" n="45"/>sicorum .
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e283">
+               <lb ed="#L" n="46"/>Adverte, circa istam propositionem, Bonum est 
+secun<lb ed="#L" break="no" n="47"/>dum quod materia est perfecta per formam, et potentia
+<lb ed="#L" n="48"/>per actum proprium, quod caute addidit Sanctus Thomas
+<lb ed="#L" n="49"/>ly proprium. Quia potentiae bonum non est esse sub 
+quo<lb ed="#L" break="no" n="50"/>cumque actu, sed tantum sub proprio et sibi debito: sicut
+<lb ed="#L" n="51"/>non est bonum aquae esse sub caliditate, sed sub 
+frigi<lb ed="#L" break="no" n="52"/>ditate, quae est perfectio sibi debita. Licet enim omnis
+<lb ed="#L" n="53"/>forma et actus secundum se sit perfectio quaedam, non
+<lb ed="#L" n="54"/>tamen est bonum aut perfectio uniuscuiusque, accipiendo
+<lb ed="#L" n="55"/>perfectionem pro eo quod naturae debetur, et secundum
+<lb ed="#L" n="56"/>quam dicitur natura in suo esse completa.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e309">
+               <lb ed="#L" n="57"/>III. Circa ea quae dicuntur in hac ratione, multa 
+oc<lb ed="#L" break="no" n="58"/>currunt dubia. Primum est, quia appetitus et intentio 
+ma<lb ed="#L" break="no" n="59"/>teriae nihil est aliud quam sua potentia receptiva: ut est
+<lb ed="#L" n="60"/>de mente Sancti Thomae II Sent., d. xvur, q. 1, a. 2; et
+<lb ed="#L" n="61"/>Verit.,, q. xxii, a. 1, ad 3. Si ergo materia est in potentia
+<lb ed="#L" n="62"/>ad privationem, et ad ipsam per motum simul cum forma
+<lb ed="#L" n="63"/>pervenit, sequitur quod materiae appetitus et intentio sit
+<lb ed="#L" n="64"/>ad privationem. Ergo repugnantiam includit quod hic 
+di<lb ed="#L" break="no" n="65"/>citur, scilicet materiam esse in potentia ad privationem, et
+<lb ed="#L" n="66"/>tamen, dum movetur, non intendere privationem.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e333">
+               <lb ed="#L" n="67"/>2. Secundum est , quia posset aliquis dicere quod 
+ma<lb ed="#L" break="no" n="68"/>teria, licet, quia non potest esse sub privatione tantum, non
+<lb ed="#L" n="69"/>appetat privationem separatim et seorsum a forma, ipsam
+<lb ed="#L" n="70"/>tamen simul cum forma appetit et intendit: sicut simul est
+<lb ed="#L" n="71"/>in potentia ad utrumque, et simul ad utrumque tendit.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e346">
+               <lb ed="#L" n="72"/>3. Tertium est circa istam propositionem, Materia non
+<lb ed="#L" n="73"/>potest esse sub privatione tantum. Potest enim argui
+<lb ed="#L" n="74"/>contra ipsam argumentis Scoti, tenentis, II Sent. d. xr,
+<lb ed="#L" n="75"/>q. 1 , materiam posse esse sine omni forma.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e357">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Primo. Absolutum distinctum et prius alio absoluto,
+<lb ed="#L" n="77"/>potest esse sine contradictione absque illo. Materia est
+<lb ed="#L" n="78"/>absolutum distinctum et prius forma quacumque. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e368">
+               <lb ed="#L" n="79"/>Secundo. Deus dat esse materiae mediante forma, quae
+<lb ed="#L" n="80"/>non est de essentia materiae. Ergo Deus sine forma potest
+<lb ed="#L" n="81"/>dare esse materiae. — Probatur consequentia. Quia quicquid
+<lb ed="#L" n="82"/>Deus absolutum facit in creaturis mediante causa secunda
+<lb ed="#L" n="83"/>quae non est de essentia causati, potest facere sine illa.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e382">
+               <lb ed="#L" n="84"/>Tertio. Deus immediate creat materiam. Ergo 
+imme<lb ed="#L" break="no" n="85"/>diate potest eam conservare, sine aliqua alia entitate 
+ab<lb ed="#L" break="no" n="86"/>soluta posteriore.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e391">
+               <lb ed="#L" n="87"/>Quarto. Non est necessitas absoluta connexionis 
+ma<lb ed="#L" break="no" n="88"/>teriae ad formam. Ergo etc. — Probatur antecedens. Quia
+<lb ed="#L" n="89"/>tunc materia determinaret sibi de necessitate aliquam 
+for<lb ed="#L" break="no" n="90"/>quod enim determinat sibi aliquod genus, 
+deter<lb ed="#L" break="no" n="91"/>minat sibi aliquam speciem in genere illo; et quod 
+de<lb ed="#L" break="no" n="92"/>terminat sibi aliquam speciem, de necessitate determinat
+<lb ed="#L" n="93"/>sibi esse in aliquo individuo uno illius speciei.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e409">
+               <lb ed="#L" n="94"/>Confirmatur. Quia materia se habet contingenter ad
+<lb ed="#L" n="95"/>quamlibet formam. Ergo et contingenter se habet ad totum
+<lb ed="#L" n="96"/>genus formae.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e418">
+               <lb ed="#L" n="97"/>Sequitur ergo ex istis quod non est absolute 
+impossi<lb ed="#L" break="no" n="98"/>bile materiam esse sub privatione tantum.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e425">
+               <lb ed="#L" n="99"/>IV. Ad primum dubium dicitur quod potentia 
+mate<lb ed="#L" break="no" n="100"/>riae ad privationem non habet proprie et per se rationem
+<lb ed="#L" n="101"/>potentiae receptivae in comparatione ad ipsam 
+privatio<lb ed="#L" break="no" n="102"/>nem, cum privatio formaliter sumpta nullum esse ponat
+<lb ed="#L" n="103"/>in materia: sed per accidens dicitur receptiva privationis,
+<lb ed="#L" n="104"/>inquantum est receptiva formae quam potest amittere, et
+<lb ed="#L" n="105"/>inquantum est receptiva alterius formae cui necessario
+<lb ed="#L" n="106"/>coniungitur privatio formae quam habet. Et ideo, cum
+<lb ed="#L" n="107"/>dicitur quod materia est in potentia ad privationem formae
+<lb ed="#L" n="108"/>habitae, intelligendum est per accidens et secundario, 
+ra<lb ed="#L" break="no" n="109"/>tione scilicet formae cui coniungitur. Appetitus autem et
+<lb ed="#L" n="110"/>inclinatio materiae dicitur potentialitas et habilitas 
+mate<lb ed="#L" break="no" n="111"/>riae ad id quod per se respicit, non autem habilitas et
+<lb ed="#L" n="112"/>potentialitas ad id quod respicit secundario et per 
+acci<lb ed="#L" break="no" n="113"/>dens: quia appetitus rei respicit eius perfectionem, non
+<lb ed="#L" n="114"/>autem negationem perfectionis.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e462">
+               <lb ed="#L" n="115"/>V. Ad secundum dubium dicitur quod, si privatio 
+ae<lb ed="#L" break="no" n="116"/>qualiter cum forma respiceretur a potentia, oporteret 
+utrum<lb ed="#L" break="no" n="117"/>que simul intendi et appeti a materia: cum simul tendat
+<lb ed="#L" n="118"/>ad ipsa. Sed quia non per se materia respicit privationem,
+<lb ed="#L" n="119"/>sed tantum per accidens, inquantum coniungitur formae,
+<lb ed="#L" n="120"/>ideo non appetitur per se a materia simul cum forma, sed
+<lb ed="#L" n="121"/>tantum per accidens, inquantum appetitur forma cui 
+con<lb ed="#L" break="no" n="122"/>iungitur. Sanctus Thomas autem loquitur hic de appetitu
+<lb ed="#L" n="123"/>et intentione per se, non autem de appetitu per accidens.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e485">
+               <lb ed="#L" n="124"/>VI. Ad evidentiam tertii dubii , considerandum quod
+<lb ed="#L" n="125"/>materiam posse esse absque omni forma, et per 
+conse<lb ed="#L" break="no" n="126"/>quens solum sub privatione, dupliciter potest intelligi.
+<lb ed="#L" n="127"/>Primo, loquendo de possibili absolute, secundum quod
+<lb ed="#L" n="128"/>illud dicitur possibile quod contradictionem non implicat.
+<lb ed="#L" n="129"/>Et sic materiam posse esse absque omni forma est non
+<lb ed="#L" n="130"/>implicare contradictionem quod sit in actu et nullam 
+ha<lb ed="#L" break="no" n="131"/>beat formam. Et quia a Deo fieri potest quicquid 
+con<lb ed="#L" break="no" n="132"/>tradictionem non implicat, si illo modo possibile fuerit
+<lb ed="#L" n="133"/>materiam esse absque forma, poterit Deus facere quod sit
+<lb ed="#L" n="134"/>absque forma. — Secundo, loquendo de possibili per 
+com<lb ed="#L" break="no" n="135"/>parationem ad potentiam activam naturalem. Et sic 
+mate<lb ed="#L" break="no" n="136"/>riam posse esse absque omni forma est posse per virtutem
+<lb ed="#L" n="137"/>aliquam naturalem fieri ut habeat esse absque omni forma.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e518">
+               <lb ed="#L" n="138"/>Scotus ergo tenuit per potentiam divinam materiam
+<lb ed="#L" n="139"/>posse habere esse sine forma: et quod ipsam esse sine
+<lb ed="#L" n="140"/>forma contradictionem non implicat. — Sanctus Thomas
+<lb ed="#L" n="141"/>autem, Prima, q rxvr, a. 1; Pot., q. 1v, a. 1; Quolibetis,
+<lb ed="#L" n="142"/>quol. 3, a. 1, tenet, cum Averroe, II Physic., comm. 12; et
+<lb ed="#L" n="143"/>Avicenna, secundo Metaphysicae suae libro, cap. n, quod
+<lb ed="#L" n="144"/>implicat contradictionem materiam actualiter existere ab- -
+<lb ed="#L" n="145"/>sque omni forma, et per consequens non est aliquid a
+<lb ed="#L" n="146"/>Deo factibile. "Tunc enim esset aliquid actu sine actu;
+<lb ed="#L" n="147"/>et aliquid esset ens quod non esset ad aliquem modum
+<lb ed="#L" n="148"/>entis determinatum. — Sed quia ab aliis Thomistis est haec
+<lb ed="#L" n="149"/>quaestio disputata, et praesertim a Capreolo, in II Sent.,
+<lb ed="#L" n="150"/>d. xii , satis pro nunc sit ad argumenta Scoti respondere. 
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e549">
+               <pb ed="#L" n="13"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>2. Ad primum, negatur maior, quando duo absoluta
+<lb ed="#L" n="2"/>necessariam habent inter se connexionem. Non est enim
+<lb ed="#L" n="3"/>vera universaliter, ut patet in quantitate et qualitate: nam
+<lb ed="#L" n="4"/>quantitas non potest esse in natura nisi habeat aliquam
+<lb ed="#L" n="5"/>figuram ; et tamen quantitas est aliquid absolutum prius
+<lb ed="#L" n="6"/>qualitate. Materia autem, quantum ad actualitatem 
+existen<lb ed="#L" break="no" n="7"/>tiae, habet cum forma naturalem et necessariam 
+connexio<lb ed="#L" break="no" n="8"/>nem. Unde est quidem verum quod omne quod potest
+<lb ed="#L" n="9"/>existere sine alio, non autem aliud sine ipso, est eo prius:
+<lb ed="#L" n="10"/>non autem, e converso, omne upra potest esse sine 
+po<lb ed="#L" break="no" n="11"/>steriori.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e580">
+               <lb ed="#L" n="12"/>Dicitur secundo, quod illa maior propositio, si habeat
+<lb ed="#L" n="13"/>veritatem, tenet tantum in priori et posteriori quorum
+<lb ed="#L" n="14"/>utrumque dicit aliquem actum: non autem in priori quod
+<lb ed="#L" n="15"/>nullum dicit actum, sed puram potentiam, cuiusmodi est
+<lb ed="#L" n="16"/>materia prima.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e593">
+               <lb ed="#L" n="17"/>Dicitur tertio quod, si habet veritatem, intelligitur de
+<lb ed="#L" n="18"/>separatione a quocumque posteriori divisim, non autem
+<lb ed="#L" n="19"/>coniunctim. Animal enim, licet possit absque unaquaque
+<lb ed="#L" n="20"/>Specie sua divisim et per se accepta existere, non potest
+<lb ed="#L" n="21"/>tamen esse absque omni specie animalis coniunctim, ita
+<lb ed="#L" n="22"/>quod sit animal in rerum natura in nulla specie animalis
+<lb ed="#L" n="23"/>existens. Eodem modo, licet materia possit esse absque
+<lb ed="#L" n="24"/>quacumque forma particulatim sumpta, non tamen potest
+<lb ed="#L" n="25"/>esse absque omni forma coniunctim, ita quod in rerum
+<lb ed="#L" n="26"/>natura existat nulli formae subiecta.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e617">
+               <lb ed="#L" n="27"/>3. Ad secundum, negatur consequentia. Ad 
+proba<lb ed="#L" break="no" n="28"/>tionem dicitur quod assumptum est verum de causa 
+se<lb ed="#L" break="no" n="29"/>cunda agente, non autem de formali. Quicquid enim facit
+<lb ed="#L" n="30"/>Deus mediante causa secunda efficiente, potest se solo
+<lb ed="#L" n="31"/>operari absque causa secunda. Non autem quicquid facit
+<lb ed="#L" n="32"/>mediante causa formali, potest absque tali causa 
+ope<lb ed="#L" break="no" n="33"/>rari: non enim potest facere parietem album absque 
+al<lb ed="#L" break="no" n="34"/>bedine, nam esse album est habere albedinem. Modo,
+<lb ed="#L" n="35"/>Deus dat esse materiae mediante forma tanquam causa
+<lb ed="#L" n="36"/>formali, non autem tanquam causa effuciente. Ideo ratio
+<lb ed="#L" n="37"/>non sequitur,
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e644">
+               <lb ed="#L" n="38"/>4. Et per hoc patet responsio ad tertium. Licet enim
+<lb ed="#L" n="39"/>Deus immediate creet materiam per remotionem causae
+<lb ed="#L" n="40"/>mediae efficientis, non tamen per remotionem causae 
+me<lb ed="#L" break="no" n="41"/>diae formalis.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e655">
+               <lb ed="#L" n="42"/>5. Ad quartum, negatur antecedens. Ad cuius 
+proba<lb ed="#L" break="no" n="43"/>tionem, negatur consequentia. Ad probationem vero 
+con<lb ed="#L" break="no" n="44"/>sequentiae dupliciter responderi potest. Primo, quod 
+assum<lb ed="#L" break="no" n="45"/>ptum habet veritatem duabus conditionibus observatis:
+<lb ed="#L" n="46"/>prima est, quod tale determinans sibi genus, sit aliquid
+<lb ed="#L" n="47"/>completum in actu; secundo, quod genus quod sibi 
+de<lb ed="#L" break="no" n="48"/>terminat, sibi sit essentiale. Sic enim verum est omne
+<lb ed="#L" n="49"/>quod determinat sibi genus, determinare sibi aliquam 
+spe<lb ed="#L" break="no" n="50"/>ciem illius generis: quia, ut dicitur in Praedicamentis ,
+<lb ed="#L" n="51"/>quod est in aliquo genere, est in aliqua specie illius 
+ge<lb ed="#L" break="no" n="52"/>neris. Non autem verum est ubi altera illarum 
+conditio<lb ed="#L" break="no" n="53"/>num desit; et multo minus verum est ubi deficit utraque.
+<lb ed="#L" n="54"/>In proposito autem deficit utraque conditio: quia et 
+ma<lb ed="#L" break="no" n="55"/>teria non est ens completum in actu, cum sit pura 
+po<lb ed="#L" break="no" n="56"/>tentia; neque forma est de essentia materiae absolute
+<lb ed="#L" n="57"/>sumptae. Ideo assumptum illud non habet veritatem in
+<lb ed="#L" n="58"/>proposito. — Ratio autem quare materia, quae est ens
+<lb ed="#L" n="59"/>incompletum, una existens, non determinat sibi aliquam
+<lb ed="#L" n="60"/>speciem specialissimam de genere substantiae neque 
+ali<lb ed="#L" break="no" n="61"/>quod individuum, est quia ratione suae potentialitatis est
+<lb ed="#L" n="62"/>susceptiva diversarum formarum; et quia forma est id a
+<lb ed="#L" n="63"/>quo unumquodque speciem habet, ideo, sicut est in 
+po<lb ed="#L" break="no" n="64"/>tentia ad diversas formas, ita est in potentia et indifferens
+<lb ed="#L" n="65"/>ad diversas species et ad diversa individua.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e710">
+               <lb ed="#L" n="66"/>Responderi secundo ad idem assumptum potest, 
+lo<lb ed="#L" break="no" n="67"/>quendo de genere extrinseco ab essentia eius potentiae
+<lb ed="#L" n="68"/>quae sibi illud genus determinat, quod dupliciter potest
+<lb ed="#L" n="69"/>intelligi quod determinat sibi aliquod genus extrinsecum
+<lb ed="#L" n="70"/>determinare sibi speciem illius generis: uno modo, quod
+<lb ed="#L" n="71"/>determinet sibi in essendo aliquam determinatam speciem
+<lb ed="#L" n="72"/>ilius generis; alio modo, quod determinet sibi alteram
+<lb ed="#L" n="73"/>illarum sub disiunctione. Primo modo, assumptum est 
+fal<lb ed="#L" break="no" n="74"/>sum: secundo modo, est verum. Nam potentia visiva, quae
+<lb ed="#L" n="75"/>determinat sibi colorem pro obiecto operationis, non de-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>terminat sibi album determinate et signate, ita quod non
+<lb ed="#L" n="77"/>possit videre nisi album, neque similiter nigrum, aut 
+quem<lb ed="#L" break="no" n="78"/>cumque alium colorem: non potest tamen videre nisi 
+vi<lb ed="#L" break="no" n="79"/>deat aliquem colorem particularem, aut scilicet hunc aut
+<lb ed="#L" n="80"/>illum. Similiter hoc corpus, puta lignum, determinat sibi
+<lb ed="#L" n="81"/>locum: non tamen hunc locum sibi determinat signate,
+<lb ed="#L" n="82"/>sic quod non possit esse sine hoc loco; sed verum est
+<lb ed="#L" n="83"/>quod non potest esse, secundum naturam, nisi sit in hoc
+<lb ed="#L" n="84"/>aut in illo loco, enumerando omnia loca. Pari modo, non
+<lb ed="#L" n="85"/>est necesse ut materia, quae determinat sibi formam in
+<lb ed="#L" n="86"/>essendo, determinet sibi hanc signate, puta formam 
+ho<lb ed="#L" break="no" n="87"/>minis, ut, sicut non potest esse sine forma, ita non possit
+<lb ed="#L" n="88"/>esse sine forma hominis: sed bene oportet ut sibi 
+deter<lb ed="#L" break="no" n="89"/>minet aliquam. formam particularem sub disiunctione;
+<lb ed="#L" n="90"/>non enim potest esse in actu nisi sub aliqua particulari
+<lb ed="#L" n="91"/>forma sit, aut hac scilicet aut illa, omnes formas 
+enu<lb ed="#L" break="no" n="92"/>merando.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e773">
+               <lb ed="#L" n="93"/>Per hoc patet responsio ad confirmationem. 
+Conse<lb ed="#L" break="no" n="94"/>quentia enim falsa est. Nam quod contingenter se habet
+<lb ed="#L" n="95"/>ad quodlibet contentum sub genere signate et determinate
+<lb ed="#L" n="96"/>acceptum, ut est verum materiam contingenter se habere
+<lb ed="#L" n="97"/>ad omnem formam, non oportet ut contingenter se 
+ha<lb ed="#L" break="no" n="98"/>beat ad totum genus. Unde secundum ipsummet <ref xml:id="ferv7a-d1e1740-Rd1e788">Scotum,
+<lb ed="#L" n="99"/>II Sent., d. xv</ref>, ista consequentia neganda est: Hoc corpus
+<lb ed="#L" n="100"/>potest esse sine hoc loco et sine illo (et sic de aliis 
+si<lb ed="#L" break="no" n="101"/>gnate). Ergo potest esse sine omni loco. Sed bene verum
+<lb ed="#L" n="102"/>est quod id quod contingenter se habet ad omne 
+conten<lb ed="#L" break="no" n="103"/>tum sub genere vage et indeterminate ac sub disiunctione
+<lb ed="#L" n="104"/>acceptum, contingenter se habet ad totum genus. Sed non
+<lb ed="#L" n="105"/>dicimus ad hunc sensum materiam ad omnem formam
+<lb ed="#L" n="106"/>contingenter se habere. Immo necessario se habet ad illam :
+<lb ed="#L" n="107"/>quia non potest esse sine hac aut illa.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e811">
+               <lb ed="#L" n="108"/>VII. Quarto . In agentibus per intellectum et 
+aesti<lb ed="#L" break="no" n="109"/>mationem quamcumque, malum est praeter intentionem.
+<lb ed="#L" n="110"/>Ergo et in agentibus per naturam. Ergo in omnibus
+<lb ed="#L" n="111"/>agentibus.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e822">
+               <lb ed="#L" n="112"/>Probatur antecedens. In huiusmodi agentibus intentio
+<lb ed="#L" n="113"/>sequitur apprehensionem: cum tendat in id quod 
+appre<lb ed="#L" break="no" n="114"/>henditur ut finis. Ergo, si perveniatur ad aliquid quod
+<lb ed="#L" n="115"/>non habet speciem apprehensam, erit praeter intentionem:
+<lb ed="#L" n="116"/>sicut accidit in eo qui, credens se comedere mel, comedit
+<lb ed="#L" n="117"/>fel. Sed huiusmodi agens tendit in aliquid secundum quod
+<lb ed="#L" n="118"/>accipit illud sub ratione boni. Ergo, si illud ad quod 
+per<lb ed="#L" break="no" n="119"/>venitur, non sit bonum, sed malum, erit praeter 
+intentio<lb ed="#L" break="no" n="120"/>nem. — Probatur quoque prima consequentia. Quia 
+ten<lb ed="#L" break="no" n="121"/>dere ad bonum est commune agenti per intellectum et
+<lb ed="#L" n="122"/>per naturam agenti.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e849">
+               <lb ed="#L" n="123"/>2. Advertenda hic sunt duo. Primum est, quod aliquid
+<lb ed="#L" n="124"/>apprehendi ut finem, dupliciter potest intelligi: uno modo,
+<lb ed="#L" n="125"/>ut cognoscatur illi convenire finis rationem; alio modo,
+<lb ed="#L" n="126"/>ut apprehendatur tanquam per se appetibile, 
+apprehen<lb ed="#L" break="no" n="127"/>dendo scilicet illud tanquam conveniens absolute, non
+<lb ed="#L" n="128"/>autem tanquam ad aliud utile. Primo modo, convenit 
+tan<lb ed="#L" break="no" n="129"/>tum habentibus intellectum, quorum est cognoscere quid
+<lb ed="#L" n="130"/>sit finis. Secundo autem modo etiam brutis convenit. 
+Pro<lb ed="#L" break="no" n="131"/>pter hoc dixit Sanctus 'Thomas non solum de agentibus
+<lb ed="#L" n="132"/>per intellectum, sed etiam de agentibus per aestimationem
+<lb ed="#L" n="133"/>quamcumque, sicut videlicet sunt bruta, quae naturali 
+aesti<lb ed="#L" break="no" n="134"/>matione ad suas moventur operationes, quod intentio 
+se<lb ed="#L" break="no" n="135"/>quitur apprehensionem, quia tendit in illud quod 
+appre<lb ed="#L" break="no" n="136"/>henditur ut finis. Nam et intentio aliquo modo convenit
+<lb ed="#L" n="137"/>brutis, ut declaratum est superius in secundo Libro .
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e884">
+               <lb ed="#L" n="138"/>Secundum est quod, licet agenti per naturam et agenti
+<lb ed="#L" n="139"/>per intellectum diversimode conveniat tendere in bonum,
+<lb ed="#L" n="140"/>hoc tamen commune est utrique, quod intentio sequitur
+<lb ed="#L" n="141"/>formam per quam agens operatur. Et ideo, sicut in agente
+<lb ed="#L" n="142"/>per intellectum intentio sequitur apprehensionem per quam
+<lb ed="#L" n="143"/>ipsum agit, et omne quod sequitur non conforme 
+appre<lb ed="#L" break="no" n="144"/>hensioni eius, est praeter intentionem ipsius; ita intentio
+<lb ed="#L" n="145"/>agentis per naturam sequitur formam per quam agens 
+na<lb ed="#L" break="no" n="146"/>turale agit, et omne quod evenit non conforme 
+inclina<lb ed="#L" break="no" n="147"/>tioni formae agentis, est praeter eius intentionem. Et ideo,
+<lb ed="#L" n="148"/>cum malum ita discordet ab inclinatione formae naturalis,
+<lb ed="#L" n="149"/>quae ad bonum inclinat, sicut ab apprehensione agentis
+<lb ed="#L" n="150"/>per intellectum; sicut est praeter intentionem agentis per
+<pb ed="#L" n="14"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>intellectum, ita.est praeter agentis naturalis intentionem. 
+<lb ed="#L" n="2"/>Propter hoc optime Sanctus Thomas, ad ostendendum 
+<lb ed="#L" n="3"/>quod malum est praeter intentionem agentis naturalis, si 
+<lb ed="#L" n="4"/>est praeter intentionem agentis per intellectum, hac ra- 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>tione utitur, quod tendere ad bonum est commune utrique
+<lb ed="#L" n="6"/>agenti.
+</p>
+            <p xml:id="ferv7a-d1e1740-d1e934">
+               <lb ed="#L" n="7"/>ULTIMO confirmatur conclusio auctoritate Dionysii,
+<lb ed="#L" n="8"/>IV cap. de Divinis Nominibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

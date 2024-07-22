@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 114</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 114</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="363"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2639"><!-- ferv7a-l3c114 -->
+            <head>Capitulum 114</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="43" type="fixed=363"/>Commentaria Forrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="44"/>POSTQUAM ostendit Sanctus Thomas quod creatura 
+ratio<lb ed="#L" break="no" n="45"/>nalis quodam particulari modo sub divina providentia
+<lb ed="#L" n="46"/>cadit, inquantum dirigitur non tantum secundum 
+congru<lb ed="#L" break="no" n="47"/>entiam speciei, sed etiam secundum individui 
+congruen<lb ed="#L" break="no" n="48"/>tiam, ulterius de ipso modo. divinae gubernationis circa .
+<lb ed="#L" n="49"/>rationalia individua, inquantum huiusmodi, determinat.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Circa hoc autem duo facit: primo, ostendit quod ad
+<lb ed="#L" n="51"/>Deum pertinet hominibus leges dare; secundo, quod ad
+<lb ed="#L" n="52"/>ipsum pertinet homines punire vel praemiare, cap. cxr.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Circa primum duo facit: primo, ostendit necessarium
+<lb ed="#L" n="54"/>fuisse ut hominibus divinitus darentur leges; secundo, ad
+<lb ed="#L" n="55"/>quod lex divina tendat, manifestat, capite sequenti. ^ '
+</p>
+            <p>
+               <lb ed="#L" n="56"/>I. Quantum ad primum, ponitur haec conclusio: 
+Ne<lb ed="#L" break="no" n="57"/>cessarium fuit homini divinitus legem dari.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Probatur primo: sic... Xctus irrationalium, prout ad 
+spe<lb ed="#L" break="no" n="59"/>ciem pertinent, diriguntur a Deo quadam naturali inclina:
+<lb ed="#L" n="60"/>tione, quae naturam speciei consequitur. Ergo, supra hoc,
+<lb ed="#L" n="61"/>dandum est aliquid hominibus quo in suis personalibus
+<lb ed="#L" n="62"/>actionibus dirigantur. Sed hoc dicimus legem. Ergo etc.
+<lb ed="#L" n="63"/>- Probatur consequentia, Quia sicut actus irrationalium
+<lb ed="#L" n="64"/>diriguntur a Deo ea. ratione qua ad speciem pertinent, ita
+<lb ed="#L" n="65"/>humani actus diriguntur a Deo secundum qued pertinent
+<lb ed="#L" n="66"/>ad individuum.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Advertendum quod lex, ut in sequentibus dicitur, nihil
+<lb ed="#L" n="68"/>aliud est quam regula et mensura qua aliquorum actus 
+diri<lb ed="#L" break="no" n="69"/>guntur et gubernantur. Ideo hoc loco inquit Sanctus Thomas
+<lb ed="#L" n="70"/>quod legem dicimus id quo homines in suis personalibus
+<lb ed="#L" n="71"/>actibus diriguntur.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>IL. Secundo. Rationalis creatura sic ddp providentiae
+<lb ed="#L" n="73"/>subditur quod etiam illius quandam similitudinem. 
+parti<lb ed="#L" break="no" n="74"/>cipat, inquantum et se in suis actibus et alia gubernare
+<lb ed="#L" n="75"/>potest. Ergo etc. - Probatur consequentia. Quia id quo
+<lb ed="#L" n="76"/>aliquorum actus gubernantur, dicitur lex.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>Advertendum est huius rationis efficaciam in hoc 
+con<lb ed="#L" break="no" n="78"/>sistere quod, sicut omnia quae sunt in universo, quadam
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="79"/>lege et regula. a Deo gubernantur;, cum ipsa divina 
+provi<lb ed="#L" break="no" n="80"/>dentia: sit omnium lex et regula; ita, cum actus humani
+<lb ed="#L" n="81"/>ab ipso homine, quandam participatam similitudinem 
+di<lb ed="#L" break="no" n="82"/>vinae providentiae habente, gubernentur, necesse est ut
+<lb ed="#L" n="83"/>homo aliquam habeat a Deo regulam et legem qua actus
+<lb ed="#L" n="84"/>suos dirigat, quae scilicet lex sit quaedam divinae 
+provi<lb ed="#L" break="no" n="85"/>dentiae participatio.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>III. Tertio. Illis solum convenit dari legem qui sui operis
+<lb ed="#L" n="87"/>rationem cognoscunt. Hoc autem soli convenit rationali
+<lb ed="#L" n="88"/>creaturae. Ergo illi soli fuit conveniens legem dari. - Maior
+<lb ed="#L" n="89"/>probatur. Quia lex est quaedam ratio et regula operandi.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>2: Circa probationem maioris, considerandum est, ex
+<lb ed="#L" n="91"/>doctrina Sancti Thomae l I, q. xc, quod ratio hoc
+<lb ed="#L" n="92"/>loco: accipitur. pro eo quod per actum intellectus 
+consti<lb ed="#L" break="no" n="93"/>tuitur, quo modo omnis'conceptus per actum intellectus
+<lb ed="#L" n="94"/>productus, sive complexus sive incomplexus, dicitur ratio.
+<lb ed="#L" n="95"/>llle ergo conceptus quem ratio practica format de 
+actio<lb ed="#L" break="no" n="96"/>nibus exercendis, qui conceptus est quaedam universalis
+<lb ed="#L" n="97"/>propositio de agendis, dicitur ratio et regula actionis : quia
+<lb ed="#L" n="98"/>secundum quod. intellectus. determinat. aliquam actionem
+<lb ed="#L" n="99"/>oportere fieri, ita est exercenda, Nihil ergo aliud est dicere
+<lb ed="#L" n="100"/>legem esse rationem et regulam operandi, quam legem esse
+<lb ed="#L" n="101"/>conceptionem intellectus practici secundum quam operatio
+<lb ed="#L" n="102"/>est dirigenda et regulanda: quemadmodum et operatio
+<lb ed="#L" n="103"/>artificialis per artem in mente artificis existentem regulatur.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Ista ratio, et ea quae. immediate sequitur, probat non
+<lb ed="#L" n="105"/>solum hominibus oportere leges dari, sed etiam quod solis
+<lb ed="#L" n="106"/>hominibus inter animalia.sint dandae.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>IV. Quarto. Illis danda est lex in quibus est agere et non
+<lb ed="#L" n="108"/>agere. Hoc autem soli creaturae rationali convenit. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Advertendum quod ratio: quare illis tantum danda est
+<lb ed="#L" n="110"/>lex in.quorum potestate est agere vel non agere, est quia,
+<lb ed="#L" n="111"/>ut dicitur I I, loco allegato , Jex regula quaedam est
+<lb ed="#L" n="112"/>et mensura actuum, secundum quam aliquis inducitur ad
+<lb ed="#L" n="113"/>agendum, vel ab agendo retrahitur. Ad illa enim ad quae
+<pb ed="#L" n="364"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quis ex naturae necessitate inducitur, non oportet ut per
+<lb ed="#L" n="2"/>legem superadditam naturae inducatur. Et multo minus
+<lb ed="#L" n="3"/>necessarium est ut per legem ab illis retrahatur: cum 
+im<lb ed="#L" break="no" n="4"/>possibile sit utnon fiant eo modo quo naturae necessitas
+<lb ed="#L" n="5"/>exigit, Unde et brutis non datur proprie lex, quia naturali
+<lb ed="#L" n="6"/>instinctu ad suas actiones aguntur, Sed ad ea quae quis
+<lb ed="#L" n="7"/>potest agere et non agere, induci quis potest ut agat, aut
+<lb ed="#L" n="8"/>etiam ne agat retrahi. Ideo circa ea necesse est dari legem, |
+<lb ed="#L" n="9"/>ut per ipsam fiat actuum liberorum directio. |
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>V. Quinto. Creatura rationalis finem suum ultimum in
+<lb ed="#L" n="11"/>Deo et a Deo consequitur. Ergo etc. — Probatur 
+conse<lb ed="#L" break="no" n="12"/>quentia. Quia .ab eo unusquisque legis capax, legem 
+su<lb ed="#L" break="no" n="13"/>scipit, a quo ad finem perducitur: sicut inferior artifex
+<lb ed="#L" n="14"/>ab architectore, et miles a duce exercitus. Huius autem
+<lb ed="#L" n="15"/>ratio. est, quia cuiuslibet operis ratio a fine sumitur: lex
+<lb ed="#L" n="16"/>autem ratio operis est.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>CONFIRMATUR CONCLUSIO auctoritate <ref>Jeremiae xxxi</ref>; et
+<ref>Oseae viii</ref>.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

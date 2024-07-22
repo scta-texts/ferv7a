@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 153</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 153</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="448"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2957"><!-- ferv7a-l3c153 -->
+            <head>Capitulum 153</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="23" type="fixed=448"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="24"/>TERTIA conclusio est; Oportet per. gratiam in nobis
+<lb ed="#L" n="25"/>spem futurae, beatitudinis causari. .
+</p>
+            <p>
+               <lb ed="#L" n="26"/>I. Probatur primo, ex eo quod per gratiam causatur
+<lb ed="#L" n="27"/>in nobis caritas et fides. Et procedit ex duplici capite:
+<lb ed="#L" n="28"/>ex eo scilicet quod spes caritatem antecedit; et ex eo quod
+<lb ed="#L" n="29"/>caritatem sequitur spei confirmatio. Utroque enim modo
+<lb ed="#L" n="30"/>sequitur quod.gratia, quae est.caritatis causa et fidei, sit
+<lb ed="#L" n="31"/>etiam causa spei: quia, ut dicebatur superius , quod est
+<lb ed="#L" n="32"/>causa alicuius per modum naturalis sequelae ab ipso 
+ori<lb ed="#L" break="no" n="33"/>ginati, est etiam causa eius quod antecedit ad ipsum; et
+<lb ed="#L" n="34"/>similiter quod est causa alicuius, est etiam causa eius quod
+<lb ed="#L" n="35"/>ad ipsum naturaliter consequitur.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Ex primo itaque capite arguitur sic. Causatur in homine.
+<lb ed="#L" n="37"/>per gratiam gratum facientem quod Deum propter se diligat.
+<lb ed="#L" n="38"/>Ergo sequitur ut per ipsam homo spem de Deo adipiscatur.
+<lb ed="#L" n="39"/>- Probatur consequentia.:Quia per hoc quod aliquis ' ab
+<lb ed="#L" n="40"/>alio sperat bonum, fit homini via ad hoc ut illum diligat
+<lb ed="#L" n="41"/>secundum seipsum: volendo scilicet ei bonum, etiam si
+<lb ed="#L" n="42"/>nihil sibi inde proveniat. - Hoc autem probatur: quia, cum
+<lb ed="#L" n="43"/>dilectio quae est ad alios proveniat in homine ex dilectione
+<lb ed="#L" n="44"/>quae est ad seipsum, oportet quod homo, per hoc quod
+<lb ed="#L" n="45"/>circa proprium bonum afficitur, perducatur ad hoc quod
+<lb ed="#L" n="46"/>afficiatur circa bonum alterius. '
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Ex secundo vero capite arguitur sic, Per gratiam ita
+<lb ed="#L" n="48"/>constituitur homo Dei dilector, secundum caritatis affectum,
+<lb ed="#L" n="49"/>quod etiam instruitur per fidem quod a Deo praediligatur,
+<lb ed="#L" n="50"/>ut habetur I Joan. 1v. Ergo sequitur ex dono gratiae quod
+<lb ed="#L" n="51"/>homo de Deo spem babeat. — Probatur consequentia. Quia,
+<lb ed="#L" n="52"/>cum amicitia multas habeat utilitates consequentes, quamvis
+<lb ed="#L" n="53"/>propter propriam utilitatem non sit, oportet, cum aliquis
+<lb ed="#L" n="54"/>alium diligit, et cognoscit se ab eo diligi, quod de eo
+<lb ed="#L" n="55"/>spem habeat.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>2. Ad evidentiam huius rationis, considerandum est, ex
+<lb ed="#L" n="57"/>doctrina Sancti Thomae II II, q. xvii, a. 8; et de Virtut.,
+<lb ed="#L" n="58"/>qu. de Spe, a. 3, quod, cum duplex sit amor, scilicet 
+imper<lb ed="#L" break="no" n="59"/>fectus, quo quis amat aliquid non propter ipsum, sed ut
+<lb ed="#L" n="60"/>illius bonum sibi ipsi proveniat; et perfectus, quo aliquis
+<lb ed="#L" n="61"/>secundum se amatur: spes ad primum amorem spectat,
+<lb ed="#L" n="62"/>cum ille speret qui aliquid obtinere intendit ; ad caritatem
+<lb ed="#L" n="63"/>vero, quae inhaeret Deo secundum seipsum, pertinet 
+se<lb ed="#L" break="no" n="64"/>cundus amor. Et quia via generationis imperfectum 
+prae<lb ed="#L" break="no" n="65"/>cedit perfectum ; via vero perfectionis et formae perfectum
+<lb ed="#L" n="66"/>naturaliter est prius imperfecto: ideo convenienter dictum
+<lb ed="#L" n="67"/>est, per hoc quod aliquis ab alio sperat bonum, parari
+<lb ed="#L" n="68"/>viam ad hoc ut illum secundum seipsum diligat; et quod
+<lb ed="#L" n="69"/>ex caritate homo in spe confirmatur, tanquam videlicet
+<lb ed="#L" n="70"/>ex priore naturaliter et secundum perfectionem,
+</p>
+            <p>
+               <lb ed="#L" n="71"/>II. Secundo. Ex gratia homo dilector Dei constituitur.
+<lb ed="#L" n="72"/>Ergo causatur in eo desiderium unionis ad Deum, 
+secun<lb ed="#L" break="no" n="73"/>dum quod possibile est. Sed fides, quae causatur ex gratia,
+<lb ed="#L" n="74"/>declarat possibilem esse unionem hominis ad Deum 
+secun<lb ed="#L" break="no" n="75"/>dum perfectam fruitionem. Ergo et desiderium  fruitionis
+<lb ed="#L" n="76"/>divinae a gratia et a dilectione causatur. Ergo et spes futurae
+<lb ed="#L" n="77"/>beatitudinis adipiscendae. — Probatur prima consequentia.
+<lb ed="#L" n="78"/>Quia in omni diligente causatur desiderium ut uniatur suo
+<lb ed="#L" n="79"/>dilecto quantum possibile est. - Ultima vero: quia 
+desi<lb ed="#L" break="no" n="80"/>derium rei alicuius molestat animum desiderantis nisi adsit
+<lb ed="#L" n="81"/>spes de consequendo.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Adverte quod fundamentum huius rationis est quod a
+<lb ed="#L" n="83"/>gratia causatur dilectio et fides. Ab iis autem. duobus
+<lb ed="#L" n="84"/>causatur spes divinae fruitionis obtinendae: a dilectione
+<lb ed="#L" n="85"/>quidem, inquantum ab ipsa causatur desiderium possibilis
+<lb ed="#L" n="86"/>unionis ad Deum; a fide autem, inquantum ostenditur per
+<lb ed="#L" n="87"/>ipsam talem unionem, quae est secundum perfectam 
+fruitio<lb ed="#L" break="no" n="88"/>nem, possibilem esse. tns
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Tertio. In processu quo in beatitudinem desideratam
+<lb ed="#L" n="90"/>tanquam in ultimum finem tendimus, multa difficilia 
+immi<lb ed="#L" break="no" n="91"/>nent sustinenda: cum virtus, per quam ad eam tendimus,
+<lb ed="#L" n="92"/>circa difficilia sit. Ergo, ad hoc ut levius et promptius
+<lb ed="#L" n="93"/>homo in beatitudinem tenderet, necessarium fuit ei spem de
+<lb ed="#L" n="94"/>ea obtinenda adhibere. — Probatur consequentia, Quia in
+<lb ed="#L" n="95"/>jis'quae ordinantur ad aliquem finem desideratum, si aliqua
+<lb ed="#L" n="96"/>difficultas emerserit, solatium affert spes, de fine 
+conse<lb ed="#L" break="no" n="97"/>quendo: ut patet in desiderante sanitatem.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Quarto. Per gratiam homo dirigitur in ultimum finem.
+<lb ed="#L" n="99"/>Ergo etc. — Probatur consequentia. Quia, cum nullus 
+mo<lb ed="#L" break="no" n="100"/>veatur ad finem ad quem aestimat esse impossibile 
+per<lb ed="#L" break="no" n="101"/>veniri, ad hoc quod aliquis pergat in finem aliquem, oportet
+<lb ed="#L" n="102"/>ut afficiatur ad illum tanquam possibilem haberi. Et hic
+<lb ed="#L" n="103"/>est affectus spei.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Ad huius ultimi dicti evidentiam, considerandum est,
+<lb ed="#L" n="105"/>ex doctrina Sancti Thomae in quaestionibus praeallegatis,
+<lb ed="#L" n="106"/>quod spes ad appetitum spectat: quia tendit in bonum
+<lb ed="#L" n="107"/>tanquam in obiectum, bonum autem est voluntatis 
+obie<lb ed="#L" break="no" n="108"/>ctum. Est enim sperare motus quidam appetitivae virtutis
+<lb ed="#L" n="109"/>tendentis in bonum arduum possibile, sed cum difficultate
+<lb ed="#L" n="110"/>assequendum . Propterea bene hic dictum est quod affici ad
+<lb ed="#L" n="111"/>aliquem finem tanquam possibilem haberi, est affectus spei.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>CoxrriMaATUR conclusio auctoritate I Petri 1, Regeneravit
+<lb ed="#L" n="113"/>etc.; et ad Rom. viu, Spe etc.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>III. Circa praedicta dubium occurrit. Videtur enim quod
+<lb ed="#L" n="115"/>gratia non praecedat fidem, caritatem et spem, tanquam
+<lb ed="#L" n="116"/>earum aliquo modo causa, ut ostensum est in 
+praeceden<lb ed="#L" break="no" n="117"/>tibus : sed magis gratia sequatur ad ista. Ut enim ostendit
+<lb ed="#L" n="118"/>Sanctus Thomas in I II, q. cxru ; et Verit., q. xxvi , ad
+<lb ed="#L" n="119"/>iustificationem impii requiritur motus liberi arbitrii in Deum
+<lb ed="#L" n="120"/>secundum fidem et caritatem et spem, tanquam dispositio
+<lb ed="#L" n="121"/>ad susceptionem gratiae. Sed dispositio praecedit formam.
+<lb ed="#L" n="122"/>Ergo praedicta gratiam praecedunt.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>2. Ad huius evidentiam, considerandum est quod hoc loco
+<lb ed="#L" n="124"/>intendit Sanctus Thomas ponere ordinem gratiae ad 
+vir<lb ed="#L" break="no" n="125"/>tutes supradictas qui convenit eis per se: non autem ordinem
+<lb ed="#L" n="126"/>qui convenit eis per accidens, ratione conditionis subiecti.
+<lb ed="#L" n="127"/>Quod autem gratia infundatur homini adulto existenti in.
+<lb ed="#L" n="128"/>peccato, et per consequens cui conveniat se per actum
+<lb ed="#L" n="129"/>liberi arbitrii ad gratiam praeparare, per accidens est: cum
+<lb ed="#L" n="130"/>etiam in non adulto per baptismum gratia infundatur
+<lb ed="#L" n="131"/>absque liberi arbitrii praeparatione et dispositione. Ideo 
+ac<lb ed="#L" break="no" n="132"/>cidit gratiae quod ad ipsam comparentur actus illarum 
+vir<lb ed="#L" break="no" n="133"/>tutum per modum dispositionis et praeparationis cuiusdam.
+<lb ed="#L" n="134"/>Per se autem convenit gratiae ut sit radix et fundamentum
+<lb ed="#L" n="135"/>illarum virtutum, et earum aliquo modo forma: et per 
+con<lb ed="#L" break="no" n="136"/>sequens quod illas naturae ordine praecedat, sicut animae
+<lb ed="#L" n="137"/>essentia suas praecedit potentias. Et ideo hic ponitur gratia
+<lb ed="#L" n="138"/>tanquam ipsas virtutes naturae ordine praecedens: et falsum
+<lb ed="#L" n="139"/>est quod motus liberi arbitriisit per se dispositio ad gratiam.
+</p>
+            <p>
+               <pb ed="#L" n="449"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>3. Sed tamen, quia etiam in adulto peccatore, dum 
+iusti<lb ed="#L" break="no" n="2"/>ficatur, infunduntur in eodem instanti gratia atque virtutes
+<lb ed="#L" n="3"/>supradictae, quae theologales dicuntur, oportet etiam inter
+<lb ed="#L" n="4"/>illas naturae. ordinem investigare. Ubi advertendum. est,
+<lb ed="#L" n="5"/>ex doctrina Sancti Thomae de Verit., q. xxvi, a. 8, quod
+<lb ed="#L" n="6"/>ordo naturae potest attendi dupliciter inter ista: scilicet
+<lb ed="#L" n="7"/>secundum rationem causae materialis, in quo ordine 
+imper<lb ed="#L" break="no" n="8"/>fectum est prius. perfecto, tanquam materiae propinquius;
+<lb ed="#L" n="9"/>et secundum ordinem causae formalis, in quo ordine prius
+<lb ed="#L" n="10"/>est quod est formalius et perfectius. Primo odo, motus
+<lb ed="#L" n="11"/>liberi arbitrii naturaliter praecedit gratiae infusionem, sicut
+<lb ed="#L" n="12"/>dispositio materialis formam: secundo vero modo, gratia
+<lb ed="#L" n="13"/>praecedit motum liberi arbitrii. Sicut dispositio quae est
+<lb ed="#L" n="14"/>necessitans ad formam, ipsam concomitans, in rebus 
+natu<lb ed="#L" break="no" n="15"/>ralibus, aliquo modo: praecedit formam substantialem, in
+<lb ed="#L" n="16"/>genere causae, materialis, inquantum se tenet ex parte
+<lb ed="#L" n="17"/>materiae: sed ex parte causae formalis, est e converso,
+<lb ed="#L" n="18"/>quia forma substantialis perficit et materiam et accidentia
+<lb ed="#L" n="19"/>materialia.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>IV. Sed resultat dubium. Nam: Sanctus Thess; d IPS,
+<lb ed="#L" n="21"/>q. cxi, a. 8, ad 2, loquens de motu liberi arbitrii inquantum
+<lb ed="#L" n="22"/>est dispositio ad gratiam, ait quod naturae ordine praecedit
+<lb ed="#L" n="23"/>consecutionem gratiae, sequitur autem gratiae infusionem.
+<lb ed="#L" n="24"/>Hic autem dictum est, de mente ipsius, quod praecedit
+<lb ed="#L" n="25"/>gratiae infusionem.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Respondetur quod nulla est repugnantia in dictis Sancti
+<lb ed="#L" n="27"/>Thomae, si diligenter considerentur. De gratiae enim 
+infu<lb ed="#L" break="no" n="28"/>sione dupliciter loqui possumus. Uno mondo, ut se tenet
+<lb ed="#L" n="29"/>ex parte agentis tantum, distinguiturque a motu patientis,
+<lb ed="#L" n="30"/>qui dicitur gratiae susceptio, eo modo quo actio 
+distin<lb ed="#L" break="no" n="31"/>guitur a passione formaliter; alio modo, ut ex parte 
+pa<lb ed="#L" break="no" n="32"/>tientis se tenet: sicut calefactio potest accipi pro actione
+<lb ed="#L" n="33"/>calefacientis tantum, et potest accipi pro passione calefacti,
+<lb ed="#L" n="34"/>sive pro susceptione caloris. Si accipiatur secundo modo,
+<lb ed="#L" n="35"/>sic gratiae infusio ordine :'naturae motum liberi arbitrii
+<lb ed="#L" n="36"/>sequitur: et ad hunc sensum locuti sumus superius. Si
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="37"/>autem primo modo accipiatur, sic praecedit: et ad hunc
+<lb ed="#L" n="38"/>sensum loquitur in Prima Secundae. - Sub aliis verbis,
+<lb ed="#L" n="39"/>potest dici quod dupliciter ista. considerari possunt. Uno
+<lb ed="#L" n="40"/>modo, ex parte agentis: et sic gratiae infusio praecedit,
+<lb ed="#L" n="41"/>quia prius est actionem ab agente procedere quam aliquam
+<lb ed="#L" n="42"/>dispositionem, simul praesertim existentem cum forma, in
+<lb ed="#L" n="43"/>mobili suscipi. Alio modo, ex parte mobilis: et sic gratiae
+<lb ed="#L" n="44"/>infusio sequitur, quia prius natura est.subiectum ad formam
+<lb ed="#L" n="45"/>disponi, quam suscipere formam.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>2. Quod autem hoc sit ad mentem Sancti Thomae,
+<lb ed="#L" n="47"/>patet ex verbis eius, in quibus ait quod dispositio subiecti
+<lb ed="#L" n="48"/>praecedit susceptionem formae ordine naturae, sequitur
+<lb ed="#L" n="49"/>tamen actionem agentis, per quam etiam ipsum subiectum
+<lb ed="#L" n="50"/>disponitur. Et ideo motus liberi arbitrii praecedit 
+conse<lb ed="#L" break="no" n="51"/>cutionem gratiae, sequitur autem gratiae infusionem. Patet
+<lb ed="#L" n="52"/>enim quod in iis verbis supponit Sanctus "Thomas una
+<lb ed="#L" n="53"/>actione infundi gratiam et dispositionem ad ipsam; et quod
+<lb ed="#L" n="54"/>accipit infusionem gratiae pro actione tantum qua Deus
+<lb ed="#L" n="55"/>gratiam infundit, quae-naturaliter et dispositionem subiecti
+<lb ed="#L" n="56"/>et formae susceptionem praecedit, sicut actio praecedit 
+natu<lb ed="#L" break="no" n="57"/>raliter passionem. Et sic considerat ordinem istorum ex
+<lb ed="#L" n="58"/>parte agentis, cum dicit gratiae infusionem praecedere
+<lb ed="#L" n="59"/>dispositionem subiecti et motum liberi arbitrii. Cum autem
+<lb ed="#L" n="60"/>dicit dispositionem subiecti et motum liberi arbitrii 
+prae<lb ed="#L" break="no" n="61"/>cedere susceptionem gratiae, constat quod loquitur de
+<lb ed="#L" n="62"/>infusione gratiae ex parte suscipientis; et quod considerat
+<lb ed="#L" n="63"/>ordinem dispositionis et formae ex parte mobilis sive
+<lb ed="#L" n="64"/>susceptivi, in quo naturaliter prius fecipitur dispositio ad
+<lb ed="#L" n="65"/>formam quam ipsa forma. Unde patet quod intentio Sancti
+<lb ed="#L" n="66"/>Thomae in Prima Secundae non discordat ab iis quae in
+<lb ed="#L" n="67"/>QQ. de Veritate dicit, et quod superius annotavimus: 
+sci<lb ed="#L" break="no" n="68"/>licet quod, secundum ordinem causae materialis, motus
+<lb ed="#L" n="69"/>liberi arbitrii praecedit gratiae infusionem, quam in Prima
+<lb ed="#L" n="70"/>Secundae vocat gratiae susceptionem ; secundum vero 
+ordi<lb ed="#L" break="no" n="71"/>nem causae formalis, gratiae infusio, quae scilicet nominat
+<lb ed="#L" n="72"/>actionem, motum liberi arbitrii praecedit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

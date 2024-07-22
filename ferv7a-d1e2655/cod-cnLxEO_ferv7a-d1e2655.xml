@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 116</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 116</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="366"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2655"><!-- ferv7a-l3c116 -->
+            <head>Capitulum 116</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="16" type="fixed=366"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="17"/>SECUNDO loco ostendit Sanctus Thomas qualis sit adhaesio
+<lb ed="#L" n="18"/>quam divina lex intendit .
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Circa hoc autem. duo facit: primo, ostendit quod talis
+<lb ed="#L" n="20"/>adhaesio est per amorem; secundo, aod est etiam. per
+<lb ed="#L" n="21"/>fidem, cap. cxvut.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Quia autem in Dei amore amor proximi continetur,
+<lb ed="#L" n="23"/>primo probat quod divina lex hominem ad Dei amorem 
+or<lb ed="#L" break="no" n="24"/>dinat; secundo, quod. ad amorem proximi, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>I. Quantum ad primum, ponit hanc conclusionem: 
+Zn<lb ed="#L" break="no" n="26"/>tentio divinae legis principaliter ordinat ad amandum Deum.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Et arguit primo sic. Homo principaliter adhaeret Deo
+<lb ed="#L" n="28"/>per amorem. Ergo etc. - Patet consequentia. Quia 
+in<lb ed="#L" break="no" n="29"/>tentio divinae legis principaliter est ad hoc ut homo Deo
+<lb ed="#L" n="30"/>adhaereat.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Antecedens vero probatur. Quia, cum intellectu et 
+vo<lb ed="#L" break="no" n="32"/>luntate solum homo adhaerere Deo possit, non autem 
+se<lb ed="#L" break="no" n="33"/>cundum inferiores vires; adhaesio quae est per intellectum,
+<lb ed="#L" n="34"/>completionem recipit per eam. quae. est per voluntatem, :
+<lb ed="#L" n="35"/>per quam homo quodammodo quiescit in eo quod 
+intel<lb ed="#L" break="no" n="36"/>lectus apprehendit. Voluntas autem ei cui inhaeret propter
+<lb ed="#L" n="37"/>timorem, inhaeret propter aliud, ut scilicet evitet malum
+<lb ed="#L" n="38"/>sibi imminens si non adhaereat: ei vero cui adhaeret propter
+<lb ed="#L" n="39"/>amorem, adhaeret propter seipsum. Quod autem est propter
+<lb ed="#L" n="40"/>se, principalius est eo quod est propter aliud.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>2. Ad huius rationis evidentiam, considerandum est
+<lb ed="#L" n="42"/>quod. actum quo. voluntas alicui adhaeret, dupliciter 
+con<lb ed="#L" break="no" n="43"/>siderare possumus: uno modo, per praecisionem ab actu
+<lb ed="#L" n="44"/>intellectus apprehendentis rem  volitam ; alio modo, ut
+<lb ed="#L" n="45"/>actum intellectus includit, inquantum non est nisi rei 
+co<lb ed="#L" break="no" n="46"/>gnitae. Si accipiatur per praecisionem, secundum: quod
+<lb ed="#L" n="47"/>ab actu intellectus. formaliter. distinguitur: sic per 
+volun<lb ed="#L" break="no" n="48"/>tatem. non maxime homo Deo adhaeret, absolute loquendo,
+<lb ed="#L" n="49"/>sed magis per intellectum; cum cognitio fiat.per hoc quod
+<lb ed="#L" n="50"/>cognitum recipitur in cognoscente, et intellectus in actu
+<lb ed="#L" n="51"/>sit intellectum in actu ; " velle autem sit inclinatio in
+<lb ed="#L" n="52"/>rem volitam.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Si vero: accipiatur. per imctnsititenb! actus intellectus :
+<lb ed="#L" n="54"/>sic maior adhaesio est per. voluntatem quam per 
+intelle<lb ed="#L" break="no" n="55"/>ctum; magis enim Deo adhaeret qui Deum in seipso habet
+<lb ed="#L" n="56"/>per cognitionem et in eo per amorem aliquo modo quie-
+</p>
+            <p>
+               <lb ed="#L" n="57"/>amat. Et hoc modo accipit Sanctus Thomas maiorem esse
+<lb ed="#L" n="58"/>adhaesionem per voluntatem ea quae est per intellectum;
+<lb ed="#L" n="59"/>Quod patet ex eo. quod. ait adhaesionem quae est per 
+in<lb ed="#L" break="no" n="60"/>tellectum, accipere complementum per eam quae est 
+vo<lb ed="#L" break="no" n="61"/>luntatis. Ex hoc enim dat intelligere quod maior est 
+ad<lb ed="#L" break="no" n="62"/>haesio per voluntatem et intellectum simul, quam adhaesio
+<lb ed="#L" n="63"/>quae est per solum intellectum: quia illa quae est per:
+<lb ed="#L" n="64"/>intellectum: tantum, caret complemento suae perfectionis;
+<lb ed="#L" n="65"/>quae vero per intellectum est et voluntatem, habet suae
+<lb ed="#L" n="66"/>perfectionis complementum,
+</p>
+            <p>
+               <lb ed="#L" n="67"/>II. Secundo. Amor Summi Boni maxime facit bonos,
+<lb ed="#L" n="68"/>Ergo etc. — Probatur consequentia. Quia finis cuiuslibet
+<lb ed="#L" n="69"/>legis, et maxime divinae, est homines facere bonos.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Antecedens vero probatur sic. Homo dicitur bonus ex
+<lb ed="#L" n="71"/>eo quod habet bonam voluntatem, per quam reducit in
+<lb ed="#L" n="72"/>actu quicquid boni (scilicet superadditi) est in ipso. 
+Vo<lb ed="#L" break="no" n="73"/>luntas autem bona est ex eo quod vult bonum, et prae-.
+<lb ed="#L" n="74"/>cipue maximum bonum, quod. est finis. Ergo, quanto magis
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="75"/>huiusmodi bonum. voluntas vult, tanto magis homo est
+<lb ed="#L" n="76"/>bonus. Sed magis vult homo quod vult propter amorem
+<lb ed="#L" n="77"/>quam id. quod vult propter timorem tantum : cum volitum
+<lb ed="#L" n="78"/>per timorem mixtum sit involuntario. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>III. Tertio. Bonitas hominis est per virtutem: cum haec
+<lb ed="#L" n="80"/>bonum faciat habentem. Unde et lex intendit facere 
+vir<lb ed="#L" break="no" n="81"/>tuosos; et praecepta legis sunt de actibus virtutum. Ergo
+<lb ed="#L" n="82"/>amor boni est ultimum intentum in lege divina. — 
+Pro<lb ed="#L" break="no" n="83"/>batur consequentia. Quia de conditione virtutis est ut 
+vir<lb ed="#L" break="no" n="84"/>tuosus et firmiter et delectabiliter operetur. Quod maxime
+<lb ed="#L" n="85"/>facit amor.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Adverte quod haec ratio supponit intentionem legis
+<lb ed="#L" n="87"/>esse ut homines bonos efficiat. Sic enim, cum homo sit
+<lb ed="#L" n="88"/>bonus ex eo quod per amorem virtutis operatur, quia
+<lb ed="#L" n="89"/>bonus est per virtutem; virtus autem exigit ut per amorem
+<lb ed="#L" n="90"/>operetur, alioquin non operaretur firmiter et delectabiliter,
+<lb ed="#L" n="91"/>quod est de ratione virtutis: optime sequitur intentionem
+<lb ed="#L" n="92"/>legis divinae esse ut homo Biligaty et maxime Summum
+<lb ed="#L" n="93"/>Bonum, qui est Deus.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>IV. Quarto. Legislatores imperio edis eaitae movent
+<lb ed="#L" n="95"/>eos quibus lex datur. Ergo intendunt ut perfectissime
+<lb ed="#L" n="96"/>moveantur. Ergo intentio totius legislatoris est ut homo
+<lb ed="#L" n="97"/>Deum amet.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Probatur prima consequentia, Quia omne agens intendit
+<lb ed="#L" n="99"/>perfectionem in eo quod agit: scilicet, quantum potest;
+<lb ed="#L" n="100"/>et quantum natura. effectus exigit. — Secunda vero ' 
+proba<lb ed="#L" break="no" n="101"/>tur; quia qui tendunt in Deum ipsum amando, 
+perfectis<lb ed="#L" break="no" n="102"/>sime moventur in ipsum. Huius autem ratio est, quia.in
+<lb ed="#L" n="103"/>omnibus quae moventur ab aliquo primo movente, tanto
+<lb ed="#L" n="104"/>aliquid: perfectius movetur quanto «magis participat de
+<lb ed="#L" n="105"/>motione et similitudine primi moventis, Deus autem, qui
+<lb ed="#L" n="106"/>est divinae: legis dator, omnia facit propter amorem suum;
+</p>
+            <p>
+               <lb ed="#L" n="107"/>CONFIRMATUR auctoritate I 77m. 1; et Matth. xxu. 
+</p>
+            <p>
+               <lb ed="#L" n="108"/>V. Ex his infert Sanctus Thomas convenienter legem 
+no<lb ed="#L" break="no" n="109"/>vam, tanquam perfectiorem, dici legem amoris: veterem
+<lb ed="#L" n="110"/>vero legem, tanquam imperfectiorem, dici timoris legem.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>2. Circa hoc corollarium. dubium occurrit. Lex enim
+<lb ed="#L" n="112"/>vetus ita est lex hominibus a.Deo data sicut lex nova,
+<lb ed="#L" n="113"/>quae est lex Evangelii. Sed ostensum est legem divinam
+<lb ed="#L" n="114"/>ad amorem Dei homines. ordinare, non autem ad timorem,
+<lb ed="#L" n="115"/>Ergo lex vetus non debet dici magis lex timoris quam
+<lb ed="#L" n="116"/>amoris: aut, si timoris lex dicenda est, falsum est quod
+<lb ed="#L" n="117"/>lex. divina ad: amorem: ordinet, universaliter loquendo. 
+</p>
+            <p>
+               <lb ed="#L" n="118"/>3..Ad huius evidentiam, considerandum est, ex doctrina
+<lb ed="#L" n="119"/>Sancti Thomae I I, q. cvi, a. 1, quod lex vetus et
+<lb ed="#L" n="120"/>nova non sic distinguuntur quasi sint duae leges omnino
+<lb ed="#L" n="121"/>duos habentes fines, immo ipsarum unus est finis, scilicet
+<lb ed="#L" n="122"/>ut homines subdantur Deo: sed distinguuntur sicut 
+per<lb ed="#L" break="no" n="123"/>fectum et imperfectum in: eadem specie; lex. enim vetus
+<lb ed="#L" n="124"/>imperfectior est lege nova, et remotius ordinat ad finem
+<lb ed="#L" n="125"/>legis. Et ideo lex vetus, quae dabatur imperfectis, 
+dice<lb ed="#L" break="no" n="126"/>batur Jex timoris: quia inducebantur homines ad 
+obser<lb ed="#L" break="no" n="127"/>vantiam, praeceptorum et subiectionem Dei per poenarum
+<lb ed="#L" n="128"/>comminationem. Lex autem nova, quae datur 
+perfectio<lb ed="#L" break="no" n="129"/>ribus, dicitur Jex- amoris : quia, cum eius principalitas 
+con<lb ed="#L" break="no" n="130"/>sistat in ipsa gratia cordibus indita, non propter timorem
+<lb ed="#L" n="131"/>poenarum, sed propter amorem virtutis et Dei inducit 
+ho<lb ed="#L" break="no" n="132"/>mines ad praeceptorum observantiam. Unde, etsi 
+prae<lb ed="#L" break="no" n="133"/>cepta caritatis darentur in lege. veteri, non tamen ipsa lex
+<pb ed="#L" n="367"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ad hoc inclinabat ut propter amorem divina'observarentur  
+<lb ed="#L" n="2"/>praecepta. In lege autem nova dantur praecepta caritatis, 
+<lb ed="#L" n="3"/>et per ipsam legem, quae principaliter: consistit in gratia  
+<lb ed="#L" n="4"/>Spiritus Sancti fidelium cordibus indita; inclinatur homo  
+<lb ed="#L" n="5"/>per se; tanquam ad aliquid proprium, ut propter amorem 
+<lb ed="#L" n="6"/>Dei illi sit subiectus, illique per amoremr ibhaereat. «  
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Quod ergo dictum est, legem divinam 'ad hoc tendere 
+<lb ed="#L" n="8"/>ut homo Deum diligat, intelligendum. .est de lege divina  
+<lb ed="#L" n="9"/>secundum suam: perfectionem sumpta, non autem de' ipsa 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>secundum quod imperfectioribus datur. Et ideo infert
+<lb ed="#L" n="11"/>Sanctus. Thomas :quod lex. nova, tanquam perfectior, 
+di<lb ed="#L" break="no" n="12"/>citur lex amoris, ac si diceret: 'Cum dictum est legem
+<lb ed="#L" n="13"/>divinam ad amorem 'Dei' intendere, intelligitur de lege
+<lb ed="#L" n="14"/>perfecta, qualis est lex nova'et lex Evangelii, in. cordibus
+<lb ed="#L" n="15"/>hominum: descripta , unde dicitur lex amoris: non autem  I Cor. im, 3;
+<lb ed="#L" n="16"/>intelligitur: de lege. imperfecta, qualis est lex vetus, im ta- pudicitia
+<lb ed="#L" n="17"/>patet solutio ad obiecta.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

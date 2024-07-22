@@ -1,0 +1,434 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 39</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 39</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="96"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2026"><!-- ferv7a-l3c39 -->
+            <head>Capitulum 39</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="87" type="fixed=96"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="88"/>SECUNDO, ostendit Sanctus Thomas quod non sufficit ad
+<lb ed="#L" n="89"/>humanam felicitatem cognitio Dei quae per 
+demonstra<lb ed="#L" break="no" n="90"/>tionem habetur.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Sed notat primo, quod per demonstrationem habetur
+<lb ed="#L" n="92"/>altior cognitio de Deo, et magis acceditur ad propriam
+<lb ed="#L" n="93"/>eius cognitionem, quam per praemissam: eo quod per
+<lb ed="#L" n="94"/>demonstrationem removeantur ab eo multa, per quorum
+<lb ed="#L" n="95"/>remotionem ab aliis discretus intelligitur. Demonstratur
+<lb ed="#L" n="96"/>enim ipsum esse immobilem, aeternum, incorporeum, etc.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Notat secundo quod, cum ad propriam rei 
+cognitio<lb ed="#L" break="no" n="98"/>nem perveniatur non solum per affirmationes, sed etiam
+<lb ed="#L" n="99"/>per negationes, differt tamen inter istos modos propriae
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="100"/>cognitionis: quia per affirmationes proprias scitur de re
+<lb ed="#L" n="101"/>quid est, et quomodo ab aliis separatur; per proprias vero
+<lb ed="#L" n="102"/>negationes scitur quod est ab aliis separata, sed quid sit
+<lb ed="#L" n="103"/>remanet ignotum, Et talis est propria cognitio quae habetur
+<lb ed="#L" n="104"/>de Deo per demonstrationes. - De hoc modo cognoscendi
+<lb ed="#L" n="105"/>Deum per negationes, determinatum est in I libro, cap. xtv.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>I. Istis praesuppositis, probatur conclusio primo sic. 
+Fe<lb ed="#L" break="no" n="107"/>licitas est quoddam commune bonum, possibile provenire
+<lb ed="#L" n="108"/>omnibus hominibus, nisi accidat aliquibus impedimentum
+<lb ed="#L" n="109"/>quo sint orbati. Sed ad praedictam cognitionem pauci
+<lb ed="#L" n="110"/>perveniunt, propter impedimenta huius cognitionis, quae
+<lb ed="#L" n="111"/>in I libro sunt tacta, Ergo etc. - Probatur maior. Quia
+<pb ed="#L" n="97"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quae sunt unius speciei, perveniunt ad finem illius speciei
+<lb ed="#L" n="2"/>ut in pluribus: eo quod quae sunt a natura, aut semper
+<lb ed="#L" n="3"/>aut in pluribus sint, et raro deficiant, Felicitas autem est
+<lb ed="#L" n="4"/>finis humanae speciei: cum ipsam omnes homines 
+natu<lb ed="#L" break="no" n="5"/>raliter desiderent,
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Adverte, cum dicitur omnes homines naturaliter 
+desi<lb ed="#L" break="no" n="7"/>derare beatitudinem, quod hoc, iusta superius dicta, 
+in<lb ed="#L" break="no" n="8"/>telligitur de felicitate formaliter. sumpta: idest, de 
+felici<lb ed="#L" break="no" n="9"/>tate quantum ad communem rationem nomine felicitatis
+<lb ed="#L" n="10"/>importatam, quae estratio perfecti et completi boni; 
+na<lb ed="#L" break="no" n="11"/>turaliter enim unusquisque desiderat complementum suae
+<lb ed="#L" n="12"/>perfectionis, et supremum suum bonum. Non autem 
+in<lb ed="#L" break="no" n="13"/>telligitur de felicitate materialiter sumpta: idest de eo cui
+<lb ed="#L" n="14"/>convenit ratio summi boni. — Itern, intelligitur quantum ad
+<lb ed="#L" n="15"/>specificationem actus: non autem quantum ad exercitium.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>III. Circa istam rationem multipliciter dubitatur. Primo,
+<lb ed="#L" n="17"/>Circa processum rationis. Videtur enim fieri transitus ab
+<lb ed="#L" n="18"/>esse ad possibile, et a possibili ad esse. Nam ad 
+proba<lb ed="#L" break="no" n="19"/>tionem: maioris assumitur quod ea quae sunt unius speciei,
+<lb ed="#L" n="20"/>perveniunt ad finem illius speciei ut in pluribus; et 
+con<lb ed="#L" break="no" n="21"/>cluditur quod felicitas est bonum . possibile provenire
+<lb ed="#L" n="22"/>omnibus hominibus, nisi accidat impedimentum aliquibus;
+<lb ed="#L" n="23"/>cum deberet concludi quod est bonum ad quod omnes
+<lb ed="#L" n="24"/>aut plures homines perveniunt. — Similiter sub maiori
+<lb ed="#L" n="25"/>subsumitur minor de inesse, scilicet, pauci perveniunt ad
+<lb ed="#L" n="26"/>illam cognitionem: cum tamen deberet subsumi, pauci
+<lb ed="#L" n="27"/>possunt ad illam. pervenire. — Et sic videtur processus
+<lb ed="#L" n="28"/>falsus esse.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Secundo, quia per hanc rationem probaretur quod
+<lb ed="#L" n="30"/>etiam felicitas quae in hac vita haberi potest, non 
+con<lb ed="#L" break="no" n="31"/>sistit in cognitione Dei et substantiarum separatarum
+<lb ed="#L" n="32"/>qualis potest haberi: nam et pauci ad ipsam perveniunt.
+<lb ed="#L" n="33"/>Quod .est contra <ref>Aristotelem, I et X Ethicorum</ref> .
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Tertio, quia par hanc rationem etiam probaretur quod
+<lb ed="#L" n="35"/>visio Dei per essentiam non est humana felicitas. Nam
+<lb ed="#L" n="36"/>et ad hanc pauci perveniunt: iuxta illud <ref>Matth. xx</ref>, <quote source="http://scta.info/resource/mt20_16@8-14">Multi
+<lb ed="#L" n="37"/>sunt vocati, pauci vero electi</quote>.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>III. Ad primum horum respondetur quod non est in hoc
+<lb ed="#L" n="39"/>processu error. Nam maior, licet videatur loqui de 
+pos<lb ed="#L" break="no" n="40"/>sibili tantum, intelligitur tamen et de inesse. Sensus enim
+<lb ed="#L" n="41"/>est' quod felicitas est bonum quod potest omnibus adesse,
+<lb ed="#L" n="42"/>idest, a cuius consecutione nullus prohibetur, nisi sint
+<lb ed="#L" n="43"/>aliqui orbati, idest carentes aliquo principio naturae: et
+<lb ed="#L" n="44"/>per consequens plures ad ipsam quandoque perveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Unde ex illa propositione dat intelligere Sanctus Thomas
+<lb ed="#L" n="46"/>sensum et sequentium et praecedentium propositionum.
+<lb ed="#L" n="47"/>Illius enim propositionis, Ea quae sunt unius speciei,
+<lb ed="#L" n="48"/>perveniunt ad finem illius speciei ut in pluribus, sensus
+<lb ed="#L" n="49"/>est quod maior pars eorum quae continentur sub specie,
+<lb ed="#L" n="50"/>habet potentiam perveniendi ad finem ultimum speciei;
+<lb ed="#L" n="51"/>habetque sufficientia principia ad eius consecutionem ; et
+<lb ed="#L" n="52"/>consequitur ipsum finem; sicut et in aliis rebus 
+natura<lb ed="#L" break="no" n="53"/>libus in paucioribus evenit quod effectus secundum speciei
+<lb ed="#L" n="54"/>inclinationem non eveniat. Similiter et haec propositio,
+<lb ed="#L" n="55"/>Ad praedictam cognitionem de Deo habendam per viam
+<lb ed="#L" n="56"/>demonstrationis, pauci perveniunt, eodem modo 
+intelli<lb ed="#L" break="no" n="57"/>genda est. Sensus est enim quod ad cognitionem Dei
+<lb ed="#L" n="58"/>per demonstrationem habendam, pauci sunt qui non 
+im<lb ed="#L" break="no" n="59"/>pediantur: quia plures sunt quibus adsunt impedimenta
+<lb ed="#L" n="60"/>ad talem cognitionem, de quibus in primo libro dictum
+<lb ed="#L" n="61"/>est; quam qui illis impedimentis carent. -
+</p>
+            <p>
+               <lb ed="#L" n="62"/>2. Ad secundum dicitur primo, quod felicitas perfecta,
+<lb ed="#L" n="63"/>etiam naturalis, in hac vita haberi non potest: ut patet
+<lb ed="#L" n="64"/>etiam per Aristotelem, in locis praeallegatis. Unde cognitio
+<lb ed="#L" n="65"/>substantiarum separatarum quae per scientias speculativas
+<lb ed="#L" n="66"/>acquiritur, non est perfecta felicitas, sed quaedam perfectae
+<lb ed="#L" n="67"/>felicitatis participatio.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Dicitur secundo, quod non sequitur ex hoc processu
+<lb ed="#L" n="69"/>felicitatem possibilem haberi in hac vita, non consistere
+<lb ed="#L" n="70"/>in cognitione Dei et substantiarum separatarum qualis in
+<lb ed="#L" n="71"/>hac vita haberi potest, licet pauci in hac ad ipsam 
+per<lb ed="#L" break="no" n="72"/>venire possint. Illa enim propositio, Ea quae sunt unius
+<lb ed="#L" n="73"/>speciei, possunt ad finem illius speciei ut in pluribus
+<lb ed="#L" n="74"/>pervenire, habet veritatem simpliciter considerata natura,
+<lb ed="#L" n="75"/>et de fine naturae absolute sumpto: non autem consi-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>derata natura secundum: statum aliquem determinatum,
+<lb ed="#L" n="77"/>puta secundum statum. huius vitae. Unde dicitur quod,
+<lb ed="#L" n="78"/>considerata natura humana secundum se, et. considerato
+<lb ed="#L" n="79"/>fine talis naturae, plures pervenire possunt ad illum finem
+<lb ed="#L" n="80"/>qui est cognitio substantiarum. separatarum; et plures ad
+<lb ed="#L" n="81"/>ipsum perveniunt, saltem post mortem. Non oportet autem
+<lb ed="#L" n="82"/>quod ad illum finem plures in hac vita perveniant: quia
+<lb ed="#L" n="83"/>sunt in hac vita multa quae a 'consecutione talis finis
+<lb ed="#L" n="84"/>impediunt. Si qui tamen consequuntur aliquam 
+similitu<lb ed="#L" break="no" n="85"/>dinem felicitatis in hac vita, eorum felicitas in cognitione
+<lb ed="#L" n="86"/>substantiarum separatarum consistit.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Dicitur tertio, quod aliter loquendum est de iis quae
+<lb ed="#L" n="88"/>ab alio tantam moventur ad finem consequendum: et aliter
+<lb ed="#L" n="89"/>de iis quae sua operatione libere ad finis acquisitionem
+<lb ed="#L" n="90"/>seipsa movent. In illis enim quae ab alio tantum moventur
+<lb ed="#L" n="91"/>ad finem, plura consequuntur finem, si ad finem 
+mo<lb ed="#L" break="no" n="92"/>veantur: et quia naturalia habent aliquod principium in
+<lb ed="#L" n="93"/>se per quod a dante naturam moventur ad finem, ideo
+<lb ed="#L" n="94"/>pro maiori parte finem consequuntur. In istis autem quae
+<lb ed="#L" n="95"/>seipsa movent propria operatione ad acquirendum finem,
+<lb ed="#L" n="96"/>verum est quod ut in pluribus ad finem perveniunt, non
+<lb ed="#L" n="97"/>quidem absolute, sed sj ad acquisitionem finis operentur.
+<lb ed="#L" n="98"/>Et ideo, si omnes homines scientiis speculativis vacarent,
+<lb ed="#L" n="99"/>tenderentque ad substantiarum separatarum cognitionem
+<lb ed="#L" n="100"/>possibilem in hac vita haberi, pro maiori parte ad hunc
+<lb ed="#L" n="101"/>finem pervenirent. Sed quia, propter occupationes huius
+<lb ed="#L" n="102"/>vitae, et propter studii laborem, pauci ad hanc acquirendam
+<lb ed="#L" n="103"/>cognitionem operantur, ideo pauci ad ipsam perveniunt,
+<lb ed="#L" n="104"/>et sic pauci consequuntur naturae rationalis finem.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>3. Ad tertium dicitur quod haec ratio concludit de fine
+<lb ed="#L" n="106"/>qui naturae virtute acquiri potest: ut patet ex 
+proposi<lb ed="#L" break="no" n="107"/>tione hac assumpta, Ea quae sunt a natura, sunt semper
+<lb ed="#L" n="108"/>vel in pluribus, deficiunt autem in paucioribus. Visio
+<lb ed="#L" n="109"/>autem Dei per essentiam est finis virtutem naturae 
+exce<lb ed="#L" break="no" n="110"/>dens. Ideo non oportet ipsum pluribus hominibus 
+adve<lb ed="#L" break="no" n="111"/>nire, sed sufficit ut paucioribus adveniat: licet omnes
+<lb ed="#L" n="112"/>homines sint vocati ad fidem et ad gloriam. — Inferius 
+<lb ed="#L" n="113"/>vero ostendet Sanctus Thomas quod nec ipsa naturalis
+<lb ed="#L" n="114"/>felicitas, ad quam omnes saltem post mortem perveniunt,
+<lb ed="#L" n="115"/>est completa felicitas hominis.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>IV. Secundo, Cognitio de Deo per demonstrationem 
+ha<lb ed="#L" break="no" n="117"/>bita remanet in potentia ad aliquid ulterius de Deo 
+co<lb ed="#L" break="no" n="118"/>gnoscendum, vel eadem nobiliori modo: posteriores enim
+<lb ed="#L" n="119"/>conati sunt aliquid traditis de Deo ab antiquioribus 
+adiun<lb ed="#L" break="no" n="120"/>gere. Ergo etc. — Probatur consequentia. Quia felicitas,
+<lb ed="#L" n="121"/>quae est ultimus finis, est actus cui non adiungitur 
+po<lb ed="#L" break="no" n="122"/>tentia ad ulteriorem actum: cum esse in actu sit finis
+<lb ed="#L" n="123"/>existentis in potentia.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>2. Sed non videtur ista ratio concludere. Per ipsam
+<lb ed="#L" n="125"/>enim probaretur quod nullus videns divinam essentiam
+<lb ed="#L" n="126"/>est beatus: quia, cum nullus videntium Deum ipsum
+<lb ed="#L" n="127"/>comprehendat, visioni cuiuslibet beati adiungitur potentia
+<lb ed="#L" n="128"/>ad aliquid de Deo cognoscendum, vel eadem nobiliori
+<lb ed="#L" n="129"/>modo.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>Respondetur quod. dupliciter loqui possumus de 
+po<lb ed="#L" break="no" n="131"/>tentia. Uno modo, ut nominat tantum carentiam alicuius
+<lb ed="#L" n="132"/>perfectionis cum aptitudine ad eam suscipiendam. Et sic
+<lb ed="#L" n="133"/>conceditur quod visioni cuiuscumque beati adiungitur
+<lb ed="#L" n="134"/>potentia ad perfectiorem actum. Sed de potentia hoc
+<lb ed="#L" n="135"/>modo sumpta non est sermo in hac ratione. — Alio modo,
+<lb ed="#L" n="136"/>ut nominat huiusmodi carentiam formae et aptitudinem
+<lb ed="#L" n="137"/>ad ipsam, et ultra hoc, tendentiam ad perfectionem:
+<lb ed="#L" n="138"/>quando scilicet carens perfectione ad illam movetur. Et
+<lb ed="#L" n="139"/>sic accipitur potentia hoc loco. Ille enim qui novit
+<lb ed="#L" n="140"/>aliquid de Deo per demonstrationem, conatur aliquid
+<lb ed="#L" n="141"/>ulterius de ipso cognoscere, vel idem nobiliori modo;
+<lb ed="#L" n="142"/>vel saltem posteriores aliquid cognitioni ab aliis traditae
+<lb ed="#L" n="143"/>conantur adiungere. Quod est signum cognitioni habitae
+<lb ed="#L" n="144"/>adiungi potentiam ad ulteriorem actum tendentem et 
+mo<lb ed="#L" break="no" n="145"/>tam. Modo dicitur quod potentia hoc modo non 
+adiun<lb ed="#L" break="no" n="146"/>gitur visioni beatorum. Quia neque videns Deum 
+secun<lb ed="#L" break="no" n="147"/>dum aliquem gradum, movetur ad quaerendam visionem
+<lb ed="#L" n="148"/>secundum altiorem gradum, sed eius appetitus in illo
+<lb ed="#L" n="149"/>gradu visionis quem habet, quietatur; nec qui posterius
+<lb ed="#L" n="150"/>efficitur beatus, quaerit addere ad visionem alterius beati,
+<pb ed="#L" n="98"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cum talis visio non. habeatur per. rationis inquisitionem,
+<lb ed="#L" n="2"/>sed per Dei gratiam. Sed de iis erit inferius? latior sermo.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>V. Tertio, Praedictae cognitioni multiplex error adiungi
+<lb ed="#L" n="4"/>potest: ut patet in. multis qui, aliquid de.Deo per 
+de<lb ed="#L" break="no" n="5"/>monstrationem cognoscentes, dum circa aliqua eis, 
+demon<lb ed="#L" break="no" n="6"/>stratio deesset, in multiplices errores inciderunt. Ergo. etc.
+<lb ed="#L" n="7"/>— Probatur consequentia. Quia felicitas omnem miseriam
+<lb ed="#L" n="8"/>excludit, Deceptio autem et error est magna pars rene
+<lb ed="#L" n="9"/>unde omnes eam naturaliter refugiunt, . .
+</p>
+            <p>
+               <lb ed="#L" n="10"/>Si dicatur quod aliqui absque adiunctione erroris 
+ve<lb ed="#L" break="no" n="11"/>ritatem de Deo via demonstrationis invenerunt: — patet eos
+<lb ed="#L" n="12"/>fuisse paucissimos... Quod non congruit felicitati: scilicet 
+<lb ed="#L" n="13"/>naturali, quae est communis finis, idest omnibus aut
+<lb ed="#L" n="14"/>pluribus conveniens.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Advertendum, ex "iiim Sancti 'Thomae Pins, q q. XXI,
+<lb ed="#L" n="16"/>a. 4; et I? IE, q. xxx, a..1, quod, cum miseria felicitati
+<lb ed="#L" n="17"/>opponatur; felicitas . autem .sit bonum intellectualis. 
+na<lb ed="#L" break="no" n="18"/>turae tantum; oportet et miseriam, proprie loquendo,
+<lb ed="#L" n="19"/>esse malum intellectualis tantum naturae; sive,, inquam,
+<lb ed="#L" n="20"/>contrarietur appetitui naturali ipsius, sive appetitui electivo.
+<lb ed="#L" n="21"/>Quia ergo, error et deceptio intellectus est malum ipsius
+<lb ed="#L" n="22"/>intellectus; et per consequens magnum hominis malum,
+<lb ed="#L" n="23"/>cum per intellectum. homo ..sit homo: .ideo. dixit, 
+San<lb ed="#L" break="no" n="24"/>ctus ,''homas «qued error 8t. deceptio est magna pars
+<lb ed="#L" n="25"/>miseriae.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>VI. Quarto. Praedicta, cognitio . anultum incertitudinis
+<lb ed="#L" n="27"/>habet. Quod demonstrat diversitas. scientiarum de divinis
+<lb ed="#L" n="28"/>eorum.qui via demonstrationis processerunt. Ergo etc. —
+<lb ed="#L" n="29"/>Probatur consequentia. Quia felicitas in operatione . 
+per<lb ed="#L" break="no" n="30"/>fecta consistit; ad perfectionem autem; cognitionis .
+requi<lb ed="#L" break="no" n="31"/>ritur certitudo, ut patet I. Posteriorum. .,... yon
+</p>
+            <p>
+               <lb ed="#L" n="32"/>2. Sed videtur. quod antecedens huius rationis '
+contra<lb ed="#L" break="no" n="33"/>dictionem implicet. Si enim cognitio per demonstrationem
+<lb ed="#L" n="34"/>habetur; demonstratio autem. facit scire; non dicimur
+<lb ed="#L" n="35"/>autem aliquid. scire, ut habetur I Poster., nisi cognoscamtus
+<lb ed="#L" n="36"/>quod impossibile est aliter se babere, quod, est habere
+<lb ed="#L" n="37"/>certam. cognitionem: sequitur quod cognitio per 
+demon<lb ed="#L" break="no" n="38"/>strationem sit certa. Et sic, dicere cognitionem habitam
+<lb ed="#L" n="39"/>de. Deo, per demonstrationem habere multum 
+incertitu<lb ed="#L" break="no" n="40"/>dinis, est dicere contradictoria. .
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Responderi potest dupliciter. Primo, quod non. loquitur
+<lb ed="#L" n="42"/>Sanctus Thomas in illo antecedente. praecise de. 
+cogni<lb ed="#L" break="no" n="43"/>tione Dei quae per demonstrationem, causatur, quia, ut
+<lb ed="#L" n="44"/>deducitur, talis cognitio certitudinem habet: sed de. 
+co<lb ed="#L" break="no" n="45"/>gnitione tali simu] cum aliis cognitionibus adiunctis, quando.
+<lb ed="#L" n="46"/>aliquis, cum,.cognitione habita de Deo. per: 
+demonstra<lb ed="#L" break="no" n="47"/>tionem, per discursum .et ratiocinationem ' probabilem
+<lb ed="#L" n="48"/>devenit in aliquam aliam cognitionem Dei non .per 
+de<lb ed="#L" break="no" n="49"/>monstrationem. Accepta enim hac, totali cognitione, in
+<lb ed="#L" n="50"/>ipsa: est multum. incertitudinis; non ratione. conclusionis
+<lb ed="#L" n="51"/>demonstratae, sed ratione eorum quae Pp ita 'esse
+<lb ed="#L" n="52"/>existimantur.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Secundo. responderi potest, iuxta, ea quae dicta sunt
+<lb ed="#L" n="54"/>in <ref>I libro, cap. IV</ref>, quod non loquitur Sanctus Thomas.de
+<lb ed="#L" n="55"/>cognitione quam, aliquis habet per veram demonstrationem
+<lb ed="#L" n="56"/>apud ipsum existentem, quam scit esse demonstrationem;
+<lb ed="#L" n="57"/>quia, ut arguitur, oportet talem cognitionem esse, certam:
+<lb ed="#L" n="58"/>sed loquitur de cognitione a philosophis per, 
+demonstra<lb ed="#L" break="no" n="59"/>tionem aliis tradita, Ista. enim incertitudinem habet apud
+<lb ed="#L" n="60"/>eum qui docetur, licet non apud docentem. Quamvis enim
+<lb ed="#L" n="61"/>aliquis philosophus. tradat. conclusiones verissime 
+demon<lb ed="#L" break="no" n="62"/>stratas, tamen- multi de huiusmodi conclusionibus dubitant,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="63"/>eo quod yim demonstrationis factae i ignorent: quando 
+prae<lb ed="#L" break="no" n="64"/>sertim videant a diversis, qui. sapientes videntur, diversa et
+<lb ed="#L" n="65"/>opposita doceri, Et ista videtur esse intentio Sancti Thomae:
+<lb ed="#L" n="66"/>contra quam obiectio facta locum non habet. . i
+</p>
+            <p>
+               <lb ed="#L" n="67"/>VII. Quinto. Illa cognitio est essentialiter felicitas, qua
+<lb ed="#L" n="68"/>habita, non restabit alicuius scibilis desideranda. cognitio.
+<lb ed="#L" n="69"/>Sed talis non est. cognitio praedicta: cum, illa habita, alia
+<lb ed="#L" n="70"/>desideremus scire nondum per illam.. cognitionem scita.
+<lb ed="#L" n="71"/>Ergo ;etc. - Probatur maior, Quia . felicitas. est ultimus
+<lb ed="#L" n="72"/>finis cognitionis humanae. Voluntas autem cum. fuerit
+<lb ed="#L" n="73"/>ultimum finem consecuta,. quietatur.eius desiderium. .
+</p>
+            <p>
+               <lb ed="#L" n="74"/>VIII. Sexto. Intellectus videtur esse in potentia ad omnia
+<lb ed="#L" n="75"/>intelligibilia. Ergo. ad eius ultimum finem, qui est felicitas;
+<lb ed="#L" n="76"/>requiritur ut sit totaliter reductus ad actum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>Probatur prima consequentia, Quia finis cuiuslibet
+<lb ed="#L" n="78"/>existentis in. potentia est ut educatur in actum secundum
+<lb ed="#L" n="79"/>quod est possibile: ut scilicet cuius potentia tota non
+<lb ed="#L" n="80"/>potest reduci in actum simul, reducatur. in actum. 
+suc<lb ed="#L" break="no" n="81"/>cessive, ut est in materia prima. respectu formarum ;;,cuius
+<lb ed="#L" n="82"/>vero potentia tota potest in actum,.reduci, totaliter in
+<lb ed="#L" n="83"/>actum reducatur. Duo autem intelligibilia possunt simul
+<lb ed="#L" n="84"/>in intellectu possibili esse secundum actum. ritis licet
+<lb ed="#L" n="85"/>forte .non. secundum actum secundum. .. -
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Secunda quoque consequentia probatur. Quia habite
+<lb ed="#L" n="87"/>cognitione .de -Deo; quae .per. "Semonsidetioneg deben
+<lb ed="#L" n="88"/>potest, adhuc multa ignoramus. .,-
+</p>
+            <p>
+               <lb ed="#L" n="89"/>2. Adverte circa antecedens, quod. ly siet non px
+<lb ed="#L" n="90"/>nitur tanquam dubitationem continens: sed ut idem. 
+si<lb ed="#L" break="no" n="91"/>gnificat quod est manifestum. Nam clarum est intellectum
+<lb ed="#L" n="92"/>posse omnia intelligibilia: cognoscere: cum cognoscat. 
+ma<lb ed="#L" break="no" n="93"/>teriam .primam, quae est minimae: .entitatis; et Deum, qui
+<lb ed="#L" n="94"/>perfectissimus est, et maxime a,sensibus remotus. .
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Advertendum quoque; circa. probationem. primae 
+con<lb ed="#L" break="no" n="96"/>sequentiae, quod, cum. velit probare;Sanctus "Thomas sequi
+<lb ed="#L" n="97"/>ultimum finem intellectus. esse, ut sit' totaliter reductus in
+<lb ed="#L" n="98"/>actum, assumit quod'.duo intelligibilia possunt simul esse
+<lb ed="#L" n="99"/>in intellectu: cum tamen videatur quod.,debuerit. 
+assu<lb ed="#L" break="no" n="100"/>mere. omnia. intelligibilia, simul.posse esse. in intellectu.
+<lb ed="#L" n="101"/>Hoc enim .facit -ut..ostendat. quod eadem ratio: est de
+<lb ed="#L" n="102"/>duobus  intelligibilibus totaliter. diversis, et de omnibus.
+<lb ed="#L" n="103"/>Nihil,enim videtur repugnare quod . plura . intelligibilia
+<lb ed="#L" n="104"/>possint. simul esse, nisi quia sunt. formae eiusdem generis,
+<lb ed="#L" n="105"/>utpote eandem potentiam respicientes. Si autem: hoc..non
+<lb ed="#L" n="106"/>obstat duobus intelligibilibus, non obstabit etiam omnibus :
+<lb ed="#L" n="107"/>sicut et philosophus,. IV. Phys., arguit, si duo corpora 
+<lb ed="#L" n="108"/>possunt simul esse in aodesn, loco, quod infinita.:simul
+<lb ed="#L" n="109"/>esse possunt. " 5d
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Attendendum etiam, cum ait, licet forte nou Dre
+<lb ed="#L" n="111"/>actum. secundum, qui est consideratio, quod. non. ideo
+<lb ed="#L" n="112"/>addidit forte quasi .apud ipsum dubium sit.an duo 
+intel<lb ed="#L" break="no" n="113"/>ligibilia possint simul esse in intellectu secundum actum
+<lb ed="#L" n="114"/>perfectum, cum  determinaverit in praecedentibus . ipsa
+<lb ed="#L" n="115"/>illo modo simul in intellectu esse non posse: sed ut
+<lb ed="#L" n="116"/>ostenderet;non referre. ad suum propositum quodcumque
+<lb ed="#L" n="117"/>illorum oppositorum dicatur. Sufficit enim sibi quod- duo
+<lb ed="#L" n="118"/>intelligibilia, immo: omnia, possunt in intellectu simul . esse
+<lb ed="#L" n="119"/>in actu primo: quidquid sit de actu secundo. Quia, cum
+<lb ed="#L" n="120"/>per cognitionem habitam. de Deo demonstrationis via
+<lb ed="#L" n="121"/>non sint.omnia intelligibilia in. actu neque primo, qui
+<lb ed="#L" n="122"/>est habitualis scientia, neque secundo, qui est consideratio :
+<lb ed="#L" n="123"/>optime sequitur quod ultima hominis felicitas in tali
+<lb ed="#L" n="124"/>cognitione non consistit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

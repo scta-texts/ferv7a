@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 36</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 36</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="93"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2002"><!-- ferv7a-l3c36 -->
+            <head>Capitulum 36</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="73" type="fixed=92"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="74"/>QUARTO ostenditur quod nec im operatione artis 
+ul<lb ed="#L" break="no" n="75"/>tima hominis felicitas consistit.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>Et arguitur, tum quia cognitio artis est practica: et ita
+<lb ed="#L" n="77"/>ad finem ordinatur.
+</p>
+            <p>
+               <cb ed="#L" n="h"/>
+               <lb ed="#L" n="78"/>Tum quia artificiata sunt fines artis. Illa autem non
+<lb ed="#L" n="79"/>sunt finis humanae vitae: sed e contrario nos artificialium
+<lb ed="#L" n="80"/>finis sumus, cum omnia propter usum hominis fiant ; 
+sci<lb ed="#L" break="no" n="81"/>licet aut immediate aut mediate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

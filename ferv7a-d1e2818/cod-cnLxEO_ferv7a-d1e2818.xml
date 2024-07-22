@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 136</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 136</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="413"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2818"><!-- ferv7a-l3c136 -->
+            <head>Capitulum 136</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="91" type="fixed=413"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="92"/>POSTQUAM disputavit Sanctus Thomas contra impugnantes
+<lb ed="#L" n="93"/>paupertatem voluntariam, vult consequenter contra eos
+<lb ed="#L" n="94"/>qui perpetuam continentiam impugnant, disputare .
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Circa hoc autem duo facit: primo, disputat contra 
+im<lb ed="#L" break="no" n="96"/>pugnantes perpetuam continentiam; secundo, contra eos
+<lb ed="#L" n="97"/>qui matrimonium virginitati aequabant, capite sequenti .
+</p>
+            <p>
+               <lb ed="#L" n="98"/>I. Quantum ad primum, adducit rationes impugnantium
+<lb ed="#L" n="99"/>continentiam, et. eas solvit.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="100"/>Arguebant igitur primo sic. Bonum speciei est divinius
+<lb ed="#L" n="101"/>quam bonum individui. Ergo magis peccat qui omnino
+<lb ed="#L" n="102"/>abstinet ab actu quo conservatur species, quam peccaret
+<lb ed="#L" n="103"/>si abstineret ab actu quo conservatur individuum. Sed
+<lb ed="#L" n="104"/>commixtio maris et feminae ad bonum speciei ordinatur.
+<lb ed="#L" n="105"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Respondet Sanctus Thomas quod in iis quae ad 
+unius<lb ed="#L" break="no" n="107"/>cuiusque necessitatem pertinent, ad sustentationem scilicet
+<pb ed="#L" n="414"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>individui, oportet quod cuilibet provideatur: et ideo oportet
+<lb ed="#L" n="2"/>quod quilibet cibo et potu utatur. In iis autem quae 
+ne<lb ed="#L" break="no" n="3"/>cessaria sunt multitudini, non oportet, neque possibile est
+<lb ed="#L" n="4"/>quod cuilibet de multitudine attribuatur: quia multa sunt
+<lb ed="#L" n="5"/>necessaria homini, ut cibus, potus, et huiusmodi, quae
+<lb ed="#L" n="6"/>impossibile est ut per unum procurentur. Ideo diversorum
+<lb ed="#L" n="7"/>oportet esse diversa officia: sicut et in corpore diversa
+<lb ed="#L" n="8"/>membra ad diversos actus ordinantur. Quia igitur 
+gene<lb ed="#L" break="no" n="9"/>ratio non est de necessitate individui, sed speciei, non est
+<lb ed="#L" n="10"/>necesse quod omnes homines illi vacent.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Et est advertendum sensum huius responsionis esse
+<lb ed="#L" n="12"/>quod quaedam sunt ordinata ad individui conservationem,
+<lb ed="#L" n="13"/>sine quibus individuum.conservari non posset, sicut est usus
+<lb ed="#L" n="14"/>cibi et potus: et ista necesse est ut a quolibet individuo
+<lb ed="#L" n="15"/>habeantur. Quaedam vero sunt ordinata ad multitudinis
+<lb ed="#L" n="16"/>bonum, sine quibus scilicet multitudo conservari non
+<lb ed="#L" n="17"/>posset, ut est generationis actus: et ista non est necesse
+<lb ed="#L" n="18"/>a quolibet individuo fieri, sed sufficit quod aliqui de 
+mul<lb ed="#L" break="no" n="19"/>titudine illi operi intendant, aliis in, aliis officiis occupatis.
+<lb ed="#L" n="20"/>Unde negatur consequentia: quia.non est similis ratio de
+<lb ed="#L" n="21"/>iis quae ad necessitatem individui pertinent, et de iis quae
+<lb ed="#L" n="22"/>pertinent ad necessitatem speciei. Nisi enim illis intendat
+<lb ed="#L" n="23"/>hic homo singularis, ipse conservari non potest. Non autem,
+<lb ed="#L" n="24"/>si istis non vacet, non poterit speciei conservari: sunt enim
+<lb ed="#L" n="25"/>alii quorum opere conservari potest.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>2. Sed occurrit dubium. Nam Sanctus Thomas in utroque
+<lb ed="#L" n="27"/>membro suae distinctionis utitur cibo et potu pro exemplis.
+<lb ed="#L" n="28"/>Et sic videtur quod uti cibo et potu sit unicuique 
+neces<lb ed="#L" break="no" n="29"/>sarium: et non sit unicuique necessarium.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Respondetur. quod est idem exemplum materialiter, nori
+<lb ed="#L" n="31"/>autem formaliter. Dupliciter enim potest considerari cibus
+<lb ed="#L" n="32"/>et, potus. Uno modo,.quantum ad usum. Et sic pertinet
+<lb ed="#L" n="33"/>ad primum membrum, Unde dixit Sanctus Thomas: 
+Ne<lb ed="#L" break="no" n="34"/>cessarium est quod quilibet homo cibo et potu utatur.
+<lb ed="#L" n="35"/>- Alio modo, quantum ad procurationem et 
+praepara<lb ed="#L" break="no" n="36"/>tionem. Et sic pertinet ad secundum membrum. Non enim :
+<lb ed="#L" n="37"/>necesse est perire individuum si ipsum sibi non procuret
+<lb ed="#L" n="38"/>et praeparet cibum et potum: quia potest illi per alios
+<lb ed="#L" n="39"/>praeparari. Sed bene multitudo periret si nullus esset qui
+<lb ed="#L" n="40"/>cibum procuraret et potum. Unde dixit Sanctus Thomas
+<lb ed="#L" n="41"/>quod multa sunt necessaria multitudini hominum, ut cibus,
+<lb ed="#L" n="42"/>potus, indumentum, domus, et huiusmodi, quae impossibile
+<lb ed="#L" n="43"/>est ut per unum procurentur.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>II. Secundo. Ex divina ordinatione dantur homini
+<lb ed="#L" n="45"/>membra ad generationem apta; et vis concupiscibilis 
+in<lb ed="#L" break="no" n="46"/>citans; et alia huiusmodi, Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Respondet ex dictis quod, licet homini sint divinitus
+<lb ed="#L" n="48"/>provisa ea quae ad generationis actum ordinantur, tanquam
+<lb ed="#L" n="49"/>toti speciei necessaria, non tamen oportet quod quilibet
+<lb ed="#L" n="50"/>actui generationis intendat. Nam data est homini industria
+<lb ed="#L" n="51"/>aedificandi, et virtus ad pugnandum: nec tamen oportet
+<lb ed="#L" n="52"/>quod omnes sint aedificatores aut milites.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Tertio. Si bonum est quod unus contineat, ergo melius
+<lb ed="#L" n="54"/>quod multi Ergo optimum quod omnes. Hoc est 
+incon<lb ed="#L" break="no" n="55"/>veniens. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Ex praedictis respondet quod ab iis quae sunt 
+multi<lb ed="#L" break="no" n="57"/>tudini necessaria, cuiusmodi est generationis actus, quamvis
+<lb ed="#L" n="58"/>melius sit quantum ad singulos quod abstineat, melioribus.
+<lb ed="#L" n="59"/>deditus, non tamen est bonum quod omnes. abstineant.
+<lb ed="#L" n="60"/>— Declaratur et ex ordine universi, et ex corpore animalis,
+<lb ed="#L" n="61"/>in quibus non esset melius ut totum esset quale est 
+no<lb ed="#L" break="no" n="62"/>bilior pars. Unde patet consequentiam illam nullam esse.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Quarto. Castitas, sicut aliae virtutes, in medio consistit. .
+<lb ed="#L" n="64"/>Ergo contra virtutem agit qui omnino concupiscentiis
+<lb ed="#L" n="65"/>abstinet.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Respondet, ex iis quae dicta sunt superius de 
+pauper<lb ed="#L" break="no" n="67"/>tate, quod, cum medium virtutis non accipiatur secundum
+<lb ed="#L" n="68"/>quantitatem quae ratione ordinatur, idest, cui ratio habet
+<lb ed="#L" n="69"/>modum: imponere, sed secundum regulam rationis, quae
+<lb ed="#L" n="70"/>debitum finem attingit et circumstantias convenientes 
+me<lb ed="#L" break="no" n="71"/>titur; ab omnibus venereorum delectationibus abstinere
+<lb ed="#L" n="72"/>praeter rationem, insensibilitatis vitium dicitur; si autem
+<lb ed="#L" n="73"/>secundum rationem fiat, virtus est, quae etiam  communem
+<lb ed="#L" n="74"/>hominis modum excedit. Unde virginitas angelis dicitur
+<lb ed="#L" n="75"/>esse cognata. 
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>III. Quinto. Resistere omnino concupiscentiis, et quasi
+<lb ed="#L" n="77"/>continuam pugnam habere, maiorem inquietudinem animo
+<lb ed="#L" n="78"/>tribuit quam si eis aliquis moderate uteretur. Ergo 
+per<lb ed="#L" break="no" n="79"/>fectioni virtutis adversatur: quia inquietudo animi maxime
+<lb ed="#L" n="80"/>perfectioni virtutis repugnat.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Respondet Sanctus Thomas: et dicit primo, -— 
+sol<lb ed="#L" break="no" n="82"/>licitudo et occupatio quam habent coniugati de uxoribus
+<lb ed="#L" n="83"/>et aliis, est continua; inquietudo autem ex pugna 
+con<lb ed="#L" break="no" n="84"/>cupiscentiarum est ad aliquam horam. Quae etiam 
+mino<lb ed="#L" break="no" n="85"/>ratur ex hoc quod eis aliquis non consentit; et per 
+absti<lb ed="#L" break="no" n="86"/>nentiam, et alia exercitia corporalia.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Dicit secundo, quod usus corporalium delectabilium
+<lb ed="#L" n="88"/>magis abducit mentem a sua altitudine, et impedit a 
+con<lb ed="#L" break="no" n="89"/>templatione spiritualium, quam inquietudo in resistendo
+<lb ed="#L" n="90"/>concupiscentiis.. Quia, cum delectatio faciat appetitum
+<lb ed="#L" n="91"/>quiescere in re delectabili, per usum. delectabilium, et
+<lb ed="#L" n="92"/>maxime venereorum, mens maxime carnalibus fn heerer
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Dicit tertio, quod nihil prohibet, quamvis universaliter
+<lb ed="#L" n="94"/>dicatur uni homini melius esse continentiam servare quam
+<lb ed="#L" n="95"/>matrimonio uti, quin alicui illud melius sit, Quod 
+osten<lb ed="#L" break="no" n="96"/>ditur ex verbis Domini, qui in Matthaeo, facta de 
+con<lb ed="#L" break="no" n="97"/>tinentia mentione, dicit: Non omnes capiunt verbum hoc,
+<lb ed="#L" n="98"/>sed qui potest capere, capiat.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>2. Circa hoc ultimum dictum, advertendum quod, sicut
+<lb ed="#L" n="100"/>lex universaliter statuit quid sit agendum, quia illud pro
+<lb ed="#L" n="101"/>maiori parte. bonum est et utile, tamen in aliquo casu
+<lb ed="#L" n="102"/>melius est legem non servare; sicut lex statuit depositum
+<lb ed="#L" n="103"/>e$se restituendum, et tamen, si quis deposuerit. gladium,
+<lb ed="#L" n="104"/>et postea sit effectus furiosus, non est ei restituendus
+<lb ed="#L" n="105"/>gladius: ita universaliter dicitur melius esse unicuique 
+sin<lb ed="#L" break="no" n="106"/>gulariter considerato quod contineat, quia pro maiori parte
+<lb ed="#L" n="107"/>ita est; et tamen alicui melius erit matrimonio uti, quia,
+<lb ed="#L" n="108"/>ex sua naturali complexione, minor ei erit inquietudo
+<lb ed="#L" n="109"/>mentis in matrimonio quam in continentia, et magis 
+po<lb ed="#L" break="no" n="110"/>terit contemplationi et spiritualibus vacare. Et hoc est quod
+<lb ed="#L" n="111"/>in hoc ultimo dicto intendit Sanctus "Thomas. — Patet
+<lb ed="#L" n="112"/>autem ex ista responsione Sanctum Thomam velle negare
+<lb ed="#L" n="113"/>antecedens per primum dictum; per secundum autem etiam
+<lb ed="#L" n="114"/>negare consequentiam.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>IV. Ultimo, adducitur praeceptum Domini primis 
+pa<lb ed="#L" break="no" n="116"/>rentibus datum, cum dicitur Genesis 1 et 1x: Crescite et
+<lb ed="#L" n="117"/>UHR et Matth. xix.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>Sed inquit Sanctus Thomas primo, ex praedictis patere
+<lb ed="#L" n="119"/>responsionem. Cum enim illud praeceptum respiciat 
+na<lb ed="#L" break="no" n="120"/>turalem inclinationem in hominibus ad conservandam 
+spe<lb ed="#L" break="no" n="121"/>ciem per actum generationis, non est necessarium: per
+<lb ed="#L" n="122"/>omnes executioni mandari, sed per aliquos.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Dicit secundo, quod non expediebat ab actu 
+genera<lb ed="#L" break="no" n="124"/>tionis omni tempore abstinere: maxime quando necessaria
+<lb ed="#L" n="125"/>erat multiplicatio generationis, vel propter hominum 
+pau<lb ed="#L" break="no" n="126"/>citatem, sicut in principio. humani generis; vel propter
+<lb ed="#L" n="127"/>paucitatem fidelis populi, quando oportebat ipsum per
+<lb ed="#L" n="128"/>carnalem generationem multiplicari, ut fuit in Testamento
+<lb ed="#L" n="129"/>Veteri. Et ideo consilium de continentia perpetua 
+reser<lb ed="#L" break="no" n="130"/>vatum fuit temporibus Novi Testamenti, quando spiritualis 
+<lb ed="#L" n="131"/>populus per spiritualem generationem multiplicatur, scilicet
+<lb ed="#L" n="132"/>per baptismum.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>2. Circa hoc quod dicitur, non licuisse omni 
+tem<lb ed="#L" break="no" n="134"/>pore. ab actu generationis abstinere, quia videlicet, non
+<lb ed="#L" n="135"/>licuit in principio generis humani, nec in Veteri '
+Testa<lb ed="#L" break="no" n="136"/>mento, dubitatur. Quia oppositum huius videtur" dici
+<lb ed="#L" n="137"/>IV Sent. d. xxxu, q. nur a. 2, ad 2, ubi ait. Sanctus
+<lb ed="#L" n="138"/>Thomas. quod. non peccasset virginitatem servans etiam
+<lb ed="#L" n="139"/>tempore Moysi.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>Respondetur quod de tempore legis Moysi dupliciter
+<lb ed="#L" n="141"/>loqui: possumus: aut scilicet quantum ad tempus sequens
+<lb ed="#L" n="142"/>sufficientem multiplicationem fidelium; aut quantum ad
+<lb ed="#L" n="143"/>tempus in quo necesse erat multiplicari fideles per 
+car<lb ed="#L" break="no" n="144"/>nalem generationem, nondum facta sufficienti 
+multiplica<lb ed="#L" break="no" n="145"/>tione colentium Deum. Primo modo intelligitur quod 
+di<lb ed="#L" break="no" n="146"/>citur in IV Sententiarum. Unde ait ibidem quod, facta
+<lb ed="#L" n="147"/>multiplicatione colentium Deum sufficienti, non peccasset
+<lb ed="#L" n="148"/>virginitatem servans etiam tempore Moysi. — Secundo modo
+<lb ed="#L" n="149"/>intelligitur quod dicitur hoc loco. Unde et hic ait quod
+<lb ed="#L" n="150"/>non expediebat ab actu generationis abstinere quando ne-
+<pb ed="#L" n="415"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cessaria erat multiplicatio generationis propter paucitatem
+<lb ed="#L" n="2"/>fidelis populi, ut fuit in. Veteri Testamento: — intellige,
+<lb ed="#L" n="3"/>quantum ad aliquod tempus Veteris Testamenti.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Loco etiam praeallegato, ad 1, ait quod superfluum
+<lb ed="#L" n="5"/>esset si quis servare vellet virginitatem quando non deberet,
+<lb ed="#L" n="6"/>sicut tempore legis Moysi: — intellige similiter, quantum
+<lb ed="#L" n="7"/>ad aliquod tempus illius legis.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Simili modo intelligendum est quod dicitur IV Sent.,
+<lb ed="#L" n="9"/>d. xrix, q. v, a. 3 , ad 3, ubi dicitur quod tempore legis
+<lb ed="#L" n="10"/>Moysi, quando cultus Dei etiam per carnalem actum pro- |
+<lb ed="#L" n="11"/>pagandus erat, non erat omnino laudabile a commixtione
+<lb ed="#L" n="12"/>carnis. abstinere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

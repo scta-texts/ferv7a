@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 45</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 45</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="118"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2075"><!-- ferv7a-l3c45 -->
+            <head>Capitulum 45</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="39" type="fixed=118"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="40"/>Vno quod non possumus substantias separatas 
+intelli<lb ed="#L" break="no" n="41"/>gere in hac vita per illos modos quos praedicti 
+philo<lb ed="#L" break="no" n="42"/>sophi posuerunt, restat inquirendum an sit aliquis modus
+<lb ed="#L" n="43"/>quo ipsas in hac vita intelligere possimus. Circa hoc autem
+<lb ed="#L" n="44"/>duo facit Sanctus Thomas: primo, ostendit quod dictum
+<lb ed="#L" n="45"/>est ; secundo, removet quoddam dubium, in capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Circa primum duo facit: primo, ostendit nos non posse
+<lb ed="#L" n="47"/>in hac vita tales substantias intelligere; secundo, inquirit
+<lb ed="#L" n="48"/>an aliquando illas intelligere possimus .
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Circa primum duo facit: primo, adducit rationem 
+The<lb ed="#L" break="no" n="50"/>mistii qua probat nos posse substantias separatas 
+intel<lb ed="#L" break="no" n="51"/>ligere; secundo, ad eam respondet, et simul. suum 
+con<lb ed="#L" break="no" n="52"/>firmat propositum .
+</p>
+            <p>
+               <lb ed="#L" n="53"/>I. Quantum ad primum, arguit Themistius, in tertio
+<lb ed="#L" n="54"/>suae Paraphrasis libro, capite r, sic, per locum a 
+mi<lb ed="#L" break="no" n="55"/>nori. Substantiae separatae sunt magis intelligibiles quam
+<lb ed="#L" n="56"/>materialia: cum sint secundum seipsa intelligibilia, illa
+<lb ed="#L" n="57"/>vero fiant intelligibilia per intellectum agentem. Ergo, si
+<lb ed="#L" n="58"/>noster intellectus. comprehendit haec materialia, multo
+<lb ed="#L" n="59"/>magis natus est intelligere substantias separatas.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Adverte quod haec ratio dicitur a minori esse: quia
+<lb ed="#L" n="61"/>minus videtur quod noster intellectus comprehendat minus
+<lb ed="#L" n="62"/>intelligibilia, quam quod comprehendat magis intelligibilia ;
+<lb ed="#L" n="63"/>et tamen illa. comprehendit.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>II. Ad hanc rationem respondet Sanctus Thomas quod
+<lb ed="#L" n="65"/>secundum diversas opiniones de intellectu possibili est
+<lb ed="#L" n="66"/>iudicanda. Et dicit primo, quod secundum opinionem
+<lb ed="#L" n="67"/>Averrois, ponentis ipsum esse substantiam a corpore 
+se<lb ed="#L" break="no" n="68"/>paratam, recte procedit ratio: quia, cum tunc nullum
+<lb ed="#L" n="69"/>necessarium. ordinem ad res materiales habeat, ea quae
+<lb ed="#L" n="70"/>sunt magis intelligibilia in seipsis, erunt ei magis 
+intelli<lb ed="#L" break="no" n="71"/>gibilia. Sed tamen, hoc dato, sequitur quod nos a 
+prin<lb ed="#L" break="no" n="72"/>cipio substantias separatas intelligamus: cum a principio 
+<lb ed="#L" n="73"/>intelligamus per intellectum possibilem. Hoc autem constat
+<lb ed="#L" n="74"/>esse falsum. Et licet hoc inconveniens nitatur Averroes
+<lb ed="#L" n="75"/>evitare, secundum ea: quae dicta sunt superius de 
+copu<lb ed="#L" break="no" n="76"/>latione intellectus agentis, patet tamen. ex praemissis illa
+<lb ed="#L" n="77"/>esse. falsa,
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Circa hanc opinionem Averrois, considerandum quod
+<lb ed="#L" n="79"/>dicitur intellectus possibilis habere necessarium ordinem
+<lb ed="#L" n="80"/>ad res materiales quando nihil nisi ex rebus materialibus
+<lb ed="#L" n="81"/>cognoscere potest: non' habere autem ordinem ad res
+<lb ed="#L" n="82"/>materiales dicitur quando ab. ipsis im intelligendo 
+depen<lb ed="#L" break="no" n="83"/>dentiam non habet. Quando ergo ponitur omnino a ma-
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="84"/>teria separatus; et per consequens nullum .ad res 
+mate<lb ed="#L" break="no" n="85"/>riales necessarium ordinem. in intelligendo habere: tunc '
+<lb ed="#L" n="86"/>obiectum sibi connaturale erit intelligibile a materia 
+se<lb ed="#L" break="no" n="87"/>cundum se separatum, utpote secum in modo essendi
+<lb ed="#L" n="88"/>conveniens. Ideo quae sunt magis intelligibilia in seipsis,
+<lb ed="#L" n="89"/>erunt, apud Averroem, ei magis intelligibilia: sicut, quia
+<lb ed="#L" n="90"/>nos ponimus. animam intellectivam esse. materiae 
+con<lb ed="#L" break="no" n="91"/>iunctam secundum esse, dicimus, ei esse magis 
+intelli<lb ed="#L" break="no" n="92"/>gibilia quae sunt minus intelligibilia in seipsis, scilicet
+<lb ed="#L" n="93"/>materialia; quae opere intellectus agentis fiunt acta 
+in<lb ed="#L" break="no" n="94"/>tellecta.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>2. Dicit secundo quod, si ponatur intellectus possibilis
+<lb ed="#L" n="96"/>non esse separatus, sed esse corpori coniunctus secundum
+<lb ed="#L" n="97"/>esse; cum ex hoc necessarium ordinem habeat ad 
+mate<lb ed="#L" break="no" n="98"/>rialia, non sequitur, si substantiae separatae sunt in seipsis
+<lb ed="#L" n="99"/>magis cognoscibiles, quod propter hoc sint magis 
+cognosci<lb ed="#L" break="no" n="100"/>biles intellectui nostro: quia, ut superius est ostensum,
+<lb ed="#L" n="101"/>per materialia intellecta non — substantiae —
+<lb ed="#L" n="102"/>intelligi.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Confirmatur haec responsio ex verbis Aristotelis, |
+<lb ed="#L" n="104"/>Metaph., text. 1, dicentis quod difficultas intelligendi res
+<lb ed="#L" n="105"/>illas accidit ex nobis, nom ex illis: idest, non provenit
+<lb ed="#L" n="106"/>ex eo quod illae res minus intelligibiles sint quam alia
+<lb ed="#L" n="107"/>intelligibilia a nobis; sed ex debilitate. intellectus nostri,
+<lb ed="#L" n="108"/>quia, cum sit unitus corpori secundum esse, rebus 
+ma<lb ed="#L" break="no" n="109"/>terialibus est obligatus. i
+</p>
+            <p>
+               <lb ed="#L" n="110"/>3. In hac responsione tangit Sanctus Thomas primam
+<lb ed="#L" n="111"/>rationem ad probandum quod intellectus unitus corpori
+<lb ed="#L" n="112"/>substantias separatas intelligere non possit: hanc scilicet.
+<lb ed="#L" n="113"/>Per materialia intellecta non. possunt intelligi substantiae
+<lb ed="#L" n="114"/>separatae. Ergo etc. - Probatur consequentia. Quia 
+intel<lb ed="#L" break="no" n="115"/>lectus coniunctus non nisi per materialia ad cognitionem
+<lb ed="#L" n="116"/>aliorum pervenire potest.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Advertendum autem, quia Sanctus Thomas concludit
+<lb ed="#L" n="118"/>in. hac ratione »ullo modo posse intelligi substantias 
+se<lb ed="#L" break="no" n="119"/>paratas ab intellectu. coniuncto, quod non. accipitur hic
+<lb ed="#L" n="120"/>modus intelligendi ex parte rei cognitae, quasi velit 
+con<lb ed="#L" break="no" n="121"/>cludere quod nihil de substantiis. separatis. intelligamus :
+<lb ed="#L" n="122"/>non enim vult hoc ostendere. Sed accipitur modus ex
+<lb ed="#L" n="123"/>parte cognoscentis: et est sensus quod intellectus 
+con<lb ed="#L" break="no" n="124"/>iunctus nullum habet modum quo quidditates 
+substan<lb ed="#L" break="no" n="125"/>tiarum separatarum in seipsis intelligere possit. .
+</p>
+            <p>
+               <lb ed="#L" n="126"/>III. Secunda ratio ad idem est. Substantiae separatae
+<lb ed="#L" n="127"/>non sunt factae intellectae in actu per intellectum agentem,
+<pb ed="#L" n="119"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sed solum materialia. Ergo ad sola materialia se extendit
+<lb ed="#L" n="2"/>intellectus possibilis.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Probatur consequentia. Quia potentia passiva ad illa
+<lb ed="#L" n="4"/>solum «est in potentia in quae potest eius proprium 
+acti<lb ed="#L" break="no" n="5"/>vum: cum omni potentiae passivae respondeat potentia
+<lb ed="#L" n="6"/>activa in natura, ne sit frustra. Declaratur in visu. 
+Intel<lb ed="#L" break="no" n="7"/>lectus autem possibilis, qui est virtus quodammodo passiva,
+<lb ed="#L" n="8"/>habet tanquam proprium agens intellectum agentem. 
+De<lb ed="#L" break="no" n="9"/>claratur ex verbis Aristotelis in III de Anima.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>2. Circa illam propositionem, Omni potentiae passivae
+<lb ed="#L" n="11"/>respondet potentia activa in natura, advertendum quod
+<lb ed="#L" n="12"/>dupliciter potest accipi potentia passiva. Uno modo, pro
+<lb ed="#L" n="13"/>omni potentia receptiva alicuius formae: quo modo etiam
+<lb ed="#L" n="14"/>potentia obedientialis potest dici potentia passiva. Et de
+<lb ed="#L" n="15"/>tali non intelligitur propositio Sancti Thomae. Potentiae
+<lb ed="#L" n="16"/>enim -obedientiali non respondet aliqua potentia activa in
+<lb ed="#L" n="17"/>natura, idest potentia.creaturae, cum non:sit potentia ad
+<lb ed="#L" n="18"/>fortnam naturalem: sed sufficit ad hoc ut non sit frustra,
+<lb ed="#L" n="19"/>quod sit aliquod agens ipsam potens reducere in actum,
+<lb ed="#L" n="20"/>quod est agens divinum. - Alio modo potest accipi pro
+<lb ed="#L" n="21"/>potentia dumtaxat receptiva formae naturalis. Et.de tali
+<lb ed="#L" n="22"/>intelligitur propositio praedicta. Nisi enim: tali potentiae
+<lb ed="#L" n="23"/>responderet potentia activa in natura, non posset in actum
+<lb ed="#L" n="24"/>reduci naturaliter: potentia enim passiva, ut inquit 
+San<lb ed="#L" break="no" n="25"/>ctus Thomas, non reducitur in actum nisi per potentiam
+<lb ed="#L" n="26"/>activam. Et per cohsequens esset frustra passiva potentia,
+<lb ed="#L" n="27"/>si sibi nulla activa naturalis responderet.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Advertendum etiam, cum dicitur intellectum esse virtutem
+<lb ed="#L" n="29"/>quodammodo passivam, quod addidit Sanctus Thomas ly
+<lb ed="#L" n="30"/>quodammodo; ut daret intelligere quod intellectus possibilis
+<lb ed="#L" n="31"/>non est omnino potentia passiva, ut materia prima, sed est
+<lb ed="#L" n="32"/>aliquo modo potentia passiva, et aliquo modo potentia activa.
+<lb ed="#L" n="33"/>Inquantum enim recipit speciem a suo obiecto, est passiva
+<lb ed="#L" n="34"/>potentia: inquantum vero, factus in actu per speciem
+<lb ed="#L" n="35"/>obiecti, producit intellectionem, est aliquo modo potentia
+<lb ed="#L" n="36"/>activa, sive productiva, ut in superioribus  ostendimus.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>3. Confirmatur ista ratio exemplo Aristotelis, dicentis
+<lb ed="#L" n="38"/>ita se habere intellectum nostrum ad manifestissima 
+na<lb ed="#L" break="no" n="39"/>turae, sicut se habet oculus vespertilionis ad lucem solis.
+<lb ed="#L" n="40"/>Sed ad hoc exemplum inquit Averroes quod 
+difucul<lb ed="#L" break="no" n="41"/>tatem cognoscendi substantias separatas vult Aristoteles
+<lb ed="#L" n="42"/>per ipsum ostendere, non autem impossibilitatem. Unde
+<lb ed="#L" n="43"/>quod non sit impossibile eas cognoscere arguit, quia alias
+<lb ed="#L" n="44"/>essent frustra: sicut si esset aliquod visibile quod a nullo
+<lb ed="#L" n="45"/>videri posset.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Respondet Sanctus Thomas hanc consequentiam 
+fri<lb ed="#L" break="no" n="47"/>volam esse. Quia, quamvis a nobis nunquam  
+intellige<lb ed="#L" break="no" n="48"/>rentur, tamen intelligerentur a seipsis, et sic non essent
+<lb ed="#L" n="49"/>frustra intelligibiles: sicut nec sol frustra visibilis est,
+<lb ed="#L" n="50"/>quamvis a vespertilione videri non possit, cum ipsum alia
+<lb ed="#L" n="51"/>videre. possint.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Addit ipse Sanctus Thomas, in Il Metaph. , aliam 
+ra<lb ed="#L" break="no" n="53"/>tionem. falsitatis illius. consequentiae: inquiens quod 
+co<lb ed="#L" break="no" n="54"/>gnitio intellectus nostri non est finis substantiarum 
+se<lb ed="#L" break="no" n="55"/>paratarum, sed magis e converso. Ideo non sequitur eas
+<lb ed="#L" n="56"/>esse frustra si non intelligantur a nobis: cum illud frustra
+<lb ed="#L" n="57"/>sit quod non consequitur finem ad quem est.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>IV. Circa hanc consequentiam Averrois, et responsionem
+<lb ed="#L" n="59"/>Sancti Thomae, laborant multi Averroistae, volentes 
+osten<lb ed="#L" break="no" n="60"/>dere.eam esse necessariam, et responsionem Sancti Thomae
+<lb ed="#L" n="61"/>nullam esse. :
+</p>
+            <p>
+               <ref>
+                  <name>Ioannes enim de Ianduno</name>, in III de Anima</ref>, dupliciter
+<lb ed="#L" n="62"/>eam declarat. Primo sic. Inquit enim nion supponi a 
+Com<lb ed="#L" break="no" n="63"/>mentatore quod. finis substantiarum separatarum sit 
+in<lb ed="#L" break="no" n="64"/>telligi a nobis, ut videtur intelligere. Sanctus "Thomas,
+<lb ed="#L" n="65"/>II: Metaph. :. sed. supponit eas esse a nobis naturaliter 
+co<lb ed="#L" break="no" n="66"/>gnoscibiles, eo quod sub eius obiecto primo et adaequato,
+<lb ed="#L" n="67"/>scilicet sub ente, contineantur, et per consequens quod
+<lb ed="#L" n="68"/>sint naturale motivum intellectus: nostri. Tunc deducit
+<lb ed="#L" n="69"/>sic consequentiam. Substantiae separatae sunt a nobis
+<lb ed="#L" n="70"/>naturaliter cognoscibiles. Ergo, si nos non possumus eas
+<lb ed="#L" n="71"/>naturaliter cognoscere, erunt frustra. Probatur consequentia:
+<lb ed="#L" n="72"/>quia frustra est potentia activa cui non respondet in 
+na<lb ed="#L" break="no" n="73"/>tura potentia passiva; intelligibile autem est. motivum
+<lb ed="#L" n="74"/>intellectus.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>Secundo eam deducit volens quod, quamvis intelligi
+<lb ed="#L" n="76"/>a nobis non sit finis principalis earum, est tamen 
+secun<lb ed="#L" break="no" n="77"/>darius earum finis: cum agant primo propter se, secundario
+<lb ed="#L" n="78"/>propter alia, ut dicitur II .Caeli, Comment. 21. Ideo, si.
+ne<lb ed="#L" break="no" n="79"/>queant a nobis intelligi, sequitur quod sint frustra quantum
+<lb ed="#L" n="80"/>ad finem secundarium, Et sic natura aliquid otiose egisset.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>2. Alii, sicut <ref>
+                  <name>Rugerius</name>, in Tractatu suo de Intellectu</ref>,
+<lb ed="#L" n="82"/>misso Beato Thomae pro responsione ad tractatum suum
+<lb ed="#L" n="83"/>contra Averroistas, illam consequentiam sic deducit. 
+Intel<lb ed="#L" break="no" n="84"/>lectus noster non potest intelligere substantias separatas.
+<lb ed="#L" n="85"/>Ergo sunt simpliciter ignoratae. Ergo natura otiose egit.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Probatur prima consequentia. Intellectus noster non
+<lb ed="#L" n="87"/>potest intelligere Deum. Ergo nulla mediarum 
+intelligen<lb ed="#L" break="no" n="88"/>tiarum potest illum intelligere: quia, si non est Deus 
+re<lb ed="#L" break="no" n="89"/>ceptibilis in maximo receptivo in genere abstractorum,
+<lb ed="#L" n="90"/>cuiusmodi est intellectus noster, nec in minus receptivo illius
+<lb ed="#L" n="91"/>generis. Ergo nulla mediarum potest intelligere mediam: et
+<lb ed="#L" n="92"/>per consequens nec seipsam. Ergo sunt simpliciter 
+igno<lb ed="#L" break="no" n="93"/>ratae: quia neque sunt intellectae a primo intellectu, cum
+<lb ed="#L" n="94"/>nihil intelligat extra se; nec a seipsis; nec ab intellectu
+<lb ed="#L" n="95"/>nostro. Ergo sunt otiosae. Et sic sequitur, a primo ad
+<lb ed="#L" n="96"/>ultimum: Intellectus noster non potest substantias 
+sepa<lb ed="#L" break="no" n="97"/>ratas intelligere. Ergo sunt otiosae.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>3. Alii dicunt non fuisse mentem Averrois probare
+<lb ed="#L" n="99"/>substantias separatas esse possibile a nobis intelligi, sed
+<lb ed="#L" n="100"/>quod quandoque eas intelligamus. Supponit autem eas
+<lb ed="#L" n="101"/>esse aptas intelligi simpliciter ab omni intellectu; et quod
+<lb ed="#L" n="102"/>intellectus noster sit natus eas intelligere. Tunc.sic. Si
+<lb ed="#L" n="103"/>intellectus noster non intelligeret quandoque substantias
+<lb ed="#L" n="104"/>separatas, tunc non esset intellectum ab alio: id quod in
+<lb ed="#L" n="105"/>se est natum intelligi aptitudine mutua, scilicet tam ex
+<lb ed="#L" n="106"/>parte intelligibilis, quam ex parte intellectus. Ergo natura
+<lb ed="#L" n="107"/>otiose egisset.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>V. Sed quod isti modi rationem Commentatoris non
+<lb ed="#L" n="109"/>salvent, facile est videre. Prima quidem deductio constat
+<lb ed="#L" n="110"/>quod supponit falsum, scilicet quod substantiae separatae
+<lb ed="#L" n="111"/>sint a nobis naturaliter cognoscibiles, loquendo de 
+cogni<lb ed="#L" break="no" n="112"/>tione ipsarum .in seipsis, idest per proprias species: de
+<lb ed="#L" n="113"/>hoc enim loquimur in proposito. — Et cum probatur quia
+<lb ed="#L" n="114"/>continentur sub. obiecto adaequato intellectus, negatur
+<lb ed="#L" n="115"/>consequentia. Non enim valet. 77oc continetur sub obiecto
+<lb ed="#L" n="116"/>adaequato intellectus nostri, Ergo est a nostro intellectu
+<lb ed="#L" n="117"/>cognoscibile per propriam speciem. Sufficit enim. quod
+<lb ed="#L" n="118"/>qualitercumque cognoscatur. Quia licet ens sit obiectum
+<lb ed="#L" n="119"/>adaequatum intellectui nostro, inquantum omne contentum
+<lb ed="#L" n="120"/>sub.ente est aliquo modo ab intellectu nostro cognoscibile,
+<lb ed="#L" n="121"/>et e converso; non tamen est obiectum proportionatum,
+<lb ed="#L" n="122"/>ut possit perfecte quantum 'ad omnia sub ipso contehta
+<lb ed="#L" n="123"/>comprehendi; sed tale obiectum est quidditas rei materialis.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Ad secundam deductionem eiusdem modi, dicitur primo,
+<lb ed="#L" n="125"/>quod intellectio substantiarum separatarum non est finis
+<lb ed="#L" n="126"/>ipsarum neque principalis neque secundarius. Quia neque
+<lb ed="#L" n="127"/>sunt principaliter productae propter cognitionem earum
+<lb ed="#L" n="128"/>a nobis, sed propter bonitatem divinam tanquam propter
+<lb ed="#L" n="129"/>finem extrinsecum, aut propter bonum universi tanquam
+<lb ed="#L" n="130"/>propter finem intrinsecum : neque earum productionem 
+na<lb ed="#L" break="no" n="131"/>turae Auctor ad hoc ordinavit ut a nobis intelligerentur,
+<lb ed="#L" n="132"/>cum ad earum essentias: cognoscendas -non possit 
+intel<lb ed="#L" break="no" n="133"/>lectus noster per sensibilia, a quibus cognitionem accipit,
+<lb ed="#L" n="134"/>pervenire. Et licet agant aliquid secundaria intentione
+<lb ed="#L" n="135"/>propter nos, non sequitur quod nostra cognitio sit finis
+<lb ed="#L" n="136"/>secundarius ipsarum secundum earum naturam  
+conside<lb ed="#L" break="no" n="137"/>ratarum, sed quod sumus secundarius finis alicuius 
+ope<lb ed="#L" break="no" n="138"/>rationis earum.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>2. Ad deductionem Rugerii, negatur prima consequentia,
+<lb ed="#L" n="140"/>Ad eius probationem, negantur omnes consequentiae 
+in<lb ed="#L" break="no" n="141"/>termediae, quicquid sit de consequentibus illarum. Prima
+<lb ed="#L" n="142"/>quidem, quia non sequitur, si intellectus noster non potest
+<lb ed="#L" n="143"/>Deum intelligere, quod nec mediae intelligentiae illum
+<lb ed="#L" n="144"/>intelligere possint: cum intellectus noster sit pura potentia
+<lb ed="#L" n="145"/>in genere intelligibilium, non autem mediae intelligentiae,
+<lb ed="#L" n="146"/>ut ostensum est in secundo libro .
+</p>
+            <p>
+               <lb ed="#L" n="147"/>Probatio etiam illius nulla est. Maxime enim 
+recepti<lb ed="#L" break="no" n="148"/>vum in genere aliquo potest intelligi dupliciter: aut 
+sci<lb ed="#L" break="no" n="149"/>licet quod est maxime remotum ab actu illius generis 'et
+<pb ed="#L" n="120"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>maxime est in potentia, sicut materia prima potest dici
+<lb ed="#L" n="2"/>maxime receptiva in genere materialium; aut quia est
+<lb ed="#L" n="3"/>maxime proportionatum formae, sicut corpus organicum
+<lb ed="#L" n="4"/>potest dici maxime receptivum animae. Si accipiatur
+<lb ed="#L" n="5"/>maxime receptivum in genere abstractorum primo modo,
+<lb ed="#L" n="6"/>negatur assumptum: stant enim quod aliquid sit 
+recepti<lb ed="#L" break="no" n="7"/>bile in eo quod est magis in actu, et non sit receptibile
+<lb ed="#L" n="8"/>in eo quod est minus in actu; sicut anima rationalis est
+<lb ed="#L" n="9"/>receptibilis in corpore organico, et tamen non est 
+recepti<lb ed="#L" break="no" n="10"/>bilis immediate in sanguine, aut in materia prima non 
+<lb ed="#L" n="11"/>disposita. — Si autem accipiatur maxime receptivum 
+se<lb ed="#L" break="no" n="12"/>cundo modo, negatur quod intellectus noster sit maxime
+<lb ed="#L" n="13"/>receptivus in genere abstractorum formae divinae: immo,
+<lb ed="#L" n="14"/>quanto intellectus est superior, tanto est illius. formae
+<lb ed="#L" n="15"/>magis receptivus.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Secunda etiam consequentia falsa est. Quia intelligentia
+<lb ed="#L" n="17"/>media non intelligit naturaliter Deum per formam illi
+<lb ed="#L" n="18"/>adaequatam: et tamen intelligit se et alias medias.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Ultima praeterea consequentia non tenet. Quia, dato
+<lb ed="#L" n="20"/>quod mediae intelligentiae nec a nobis nec a seipsis 
+in<lb ed="#L" break="no" n="21"/>telligantur, adhuc tamen non sunt omnino ignoratae : quia
+<lb ed="#L" n="22"/>intelliguntur a prima. Et cum arguitur, quia prima 
+intel<lb ed="#L" break="no" n="23"/>ligentia nihil intelligit extra se: hoc est falsum, et contra
+<lb ed="#L" n="24"/>Aristotelem, ut superius est ostensum; et, secundum
+<lb ed="#L" n="25"/>aliquos, etiam contra Commentatorem ipsum, cum omnia
+<lb ed="#L" n="26"/>entia; apud ipsum, contineantur in mente primi entis
+<lb ed="#L" n="27"/>sicut formae artificiales in mente artificis, ut inquit XII
+<lb ed="#L" n="28"/>Metaph., comm. 18 et 36 .
+</p>
+            <p>
+               <lb ed="#L" n="29"/>3. Ad tertium modum respondetur: et dicitur primo,
+<lb ed="#L" n="30"/>quod falsum est Commentatorem velle probare nos 
+quan<lb ed="#L" break="no" n="31"/>doque intelligere substantias separatas, non autem quod
+<lb ed="#L" n="32"/>hoc non sit impossibile. Ex verbis enim ipsius expresse
+<lb ed="#L" n="33"/>constat hoc esse contra mentem eius. Inquit enim : Sed
+<lb ed="#L" n="34"/>hoc:non demonstrat res abstractas intelligere esse 
+im<lb ed="#L" break="no" n="35"/>possibile, sicut. inspicere solem est impossibile 
+vesperti<lb ed="#L" break="no" n="36"/>lioni. Quoniam si ita esset, tunc otiose egisset, quia 
+fe<lb ed="#L" break="no" n="37"/>cisset id quod est in se naturaliter intellectum, non 
+in<lb ed="#L" break="no" n="38"/>tellectum ab alio. Nam quod inquit, quoniam si ita esset,
+<lb ed="#L" n="39"/>non potest referri nisi ad id quod antea dixerat, cuius
+<lb ed="#L" n="40"/>vult rationem assignare. Dixerat autem quod illud 
+exem<lb ed="#L" break="no" n="41"/>plum Aristotelis non demonstrabat impossibilitatem 
+co<lb ed="#L" break="no" n="42"/>gnoscendi substantias separatas. Ideo et illud antecedens
+<lb ed="#L" n="43"/>intelligendum est de non-impossibilitate cognitionis.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Dicitur secundo, quod ex ipsis verbis Commentatoris
+<lb ed="#L" n="45"/>apparet quod. non supponit ista quae iste dicit. Nam
+<lb ed="#L" n="46"/>ipsemet Commentator superius in hoc eodem commento
+<lb ed="#L" n="47"/>primo, ostendit quid intelligat per in/ellectum in se 
+natu<lb ed="#L" break="no" n="48"/>raliter. Distinguit enim ipsum contra id quod ab 
+intel<lb ed="#L" break="no" n="49"/>lectu agente fit intellectum in actu. Quod autem fit 
+in<lb ed="#L" break="no" n="50"/>tellectum in actu ab intellectu agente, dicitur intellectum
+<lb ed="#L" n="51"/>in actu quia habet per ipsum intellectum agentem 
+con<lb ed="#L" break="no" n="52"/>ditionem ex qua habet aliquid ut possit actum intellectus
+<lb ed="#L" n="53"/>terminare, scilicet abstractionem a materia. Ergo sic dicit
+<lb ed="#L" n="54"/>aliquid esse secundum naturam suam intellectum in actu,
+<lb ed="#L" n="55"/>quia est naturaliter abstractum a materia, ex quo habet
+<lb ed="#L" n="56"/>ut sit naturae intelligibilis: non autem quia habeat 
+natu<lb ed="#L" break="no" n="57"/>ralem ordinem ad hunc aut illum intellectum. Et sic patet,
+<lb ed="#L" n="58"/>cum arguit Commentator quod natura otiose egisset quia
+<lb ed="#L" n="59"/>fecisset in se naturaliter intellectum non intellectum ab
+<lb ed="#L" n="60"/>aliquo, quod non supponit substantias separatas esse 
+na<lb ed="#L" break="no" n="61"/>turaliter intelligibiles a quocumque intellectu, sed ipsas
+<lb ed="#L" n="62"/>esse naturae intelligibilis per seipsas. Et quia, dato quod
+<lb ed="#L" n="63"/>non intelligantur ab intellectu nostro, possunt intelligi ab
+<lb ed="#L" n="64"/>alio intellectu; et etiam cognitio nostra non est finis
+<lb ed="#L" n="65"/>ipsarum: ideo, apud Sanctum Thomam, non sequitur
+<lb ed="#L" n="66"/>quod natura otiose circa ipsas egisset.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>VI. Quantum ad secundum principale , ostendit 
+San<lb ed="#L" break="no" n="68"/>ctus "Thomas, an aliquando possit intellectus humanus
+<lb ed="#L" n="69"/>cognoscere substantias separatas. Et duo dicit, Primum
+<lb ed="#L" n="70"/>est quod, si'ponatur intellectus virtus quaedam esse 
+ma<lb ed="#L" break="no" n="71"/>terialis generabilis et corruptibilis, nullo modo potest 
+in<lb ed="#L" break="no" n="72"/>telligere substantias separatas: quia erit impossibile ipsum
+<lb ed="#L" n="73"/>esse separatum, et determinatur ad intelligendum materialia.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Secundum est quod, si ponatur incorruptibilis et a 
+ma<lb ed="#L" break="no" n="75"/>teria independens secundum esse, quamvis corpori sit
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>unitus, obligatio ad intelligendas res materiales accidit ei ex
+<lb ed="#L" n="77"/>unione ad corpus. Ideo, separata anima a corpore, poterit
+<lb ed="#L" n="78"/>immaterialia intelligere per lumen intellectus agentis, quod
+<lb ed="#L" n="79"/>est similitudo luminis existentis in substantiis separatis.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>VII. Circa hanc determinationem Sancti Thomae duo
+<lb ed="#L" n="81"/>sunt facienda: primo, declaranda est eius positio; secundo,
+<lb ed="#L" n="82"/>obiectionibus quibusdam quae contra ipsam fiunt, est
+<lb ed="#L" n="83"/>respondendum .
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Quantum ad primum, considerandum est quod res
+<lb ed="#L" n="85"/>aliqua dupliciter cognosci potest: uno modo, per aliud
+<lb ed="#L" n="86"/>cognitum; alio modo, per seipsam. Et utroque modo
+<lb ed="#L" n="87"/>dupliciter etiam potest cognosci: uno modo, perfecte;
+<lb ed="#L" n="88"/>alio modo, imperfecte. Cognoscitur res per aliud 
+cogni<lb ed="#L" break="no" n="89"/>tum, quando cognoscitur, non per speciem propriam quae
+<lb ed="#L" n="90"/>ipsam immediate intellectui repraesentet, sed per speciem:
+<lb ed="#L" n="91"/>alterius cogniti, ex cuius cognitione intellectus in eius
+<lb ed="#L" n="92"/>notitiam devenit: cognoscitur vero per se, quando per
+<lb ed="#L" n="93"/>propriam speciem ipsam immediate intellectui 
+repraesen<lb ed="#L" break="no" n="94"/>tantem cognoscitur. Perfecte cognoscitur, quando aut per
+<lb ed="#L" n="95"/>propriam speciem, aut per aliquod cognitum quod ipsam
+<lb ed="#L" n="96"/>quantum ad ultimas eius differentias repraesentat, 
+co<lb ed="#L" break="no" n="97"/>gnoscitur: sicut cum per speciem hominis cognoscimus
+<lb ed="#L" n="98"/>quid est homo perfecte, et per effectum: adaequatum
+<lb ed="#L" n="99"/>causae cognoscimus quid est causa. Imperfecte vero 
+co<lb ed="#L" break="no" n="100"/>gnoscitur, quando aut per speciem aut per aliud cognitum
+<lb ed="#L" n="101"/>non ducitur intellectus ad cognoscendum ultimas rei 
+dif<lb ed="#L" break="no" n="102"/>ferentias, sed ad cognitionem alicuius tantum praedicati,
+<lb ed="#L" n="103"/>sive substantialis sive accidentalis.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>2. Cum ergo Sanctus Thomas id quod negat de 
+intel<lb ed="#L" break="no" n="105"/>lectu coniuncto respectu substantiarum separatarum, 
+affir<lb ed="#L" break="no" n="106"/>mat de intellectu separato; accipienda est ista differentia
+<lb ed="#L" n="107"/>non quantum ad omnia, sed quantum ad aliquem modum
+<lb ed="#L" n="108"/>cognitionis.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Conveniunt enim in hoc intellectus. noster coniunctus
+<lb ed="#L" n="110"/>et separatus, quod neque coniunctus neque separatus
+<lb ed="#L" n="111"/>potest cognoscere perfecte et quidditative substantias 
+sepa<lb ed="#L" break="no" n="112"/>ratas. Coniunctus quidem: quia, ut arguebatur superius ;
+<lb ed="#L" n="113"/>et Prima, q. xxxvi ; et de Anima, q. 16 ; et super
+<lb ed="#L" n="114"/>Boet. Trin., q. 4; et II Metaph. , sensibilia, ex quorum
+<lb ed="#L" n="115"/>cognitione intellectus coniunctus in cognitionem substan- 4
+<lb ed="#L" n="116"/>tiarum separatarum devenit, non possunt deducere intel- '
+<lb ed="#L" n="117"/>lectum in cognitionem quod quid est ipsarum; cum neque
+<lb ed="#L" n="118"/>sint effectus earum adaequati; neque illis perfecte 
+assi<lb ed="#L" break="no" n="119"/>milentur, immo, valde dissimilia sint; eo quod ipsa sint
+<lb ed="#L" n="120"/>materialia, et ipsae sint immateriales. — Separatus autem:
+<lb ed="#L" n="121"/>quia, ut habetur Prima, q. rxxxtx, 2; et in Qu. de Anima ,
+<lb ed="#L" n="122"/>species substantiarum separatarum sunt altiores virtute 
+in<lb ed="#L" break="no" n="123"/>tellectiva intellectus nostri, sicut et substantia. mno
+<lb ed="#L" n="124"/>separata est superior natura animae.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Differunt autem, primo, quia intellectus coniunctus non
+<lb ed="#L" n="126"/>potest cognoscere substantias separatas in seipsis, idest per
+<lb ed="#L" n="127"/>proprias species eas immediate intellectui repraesentantes :
+<lb ed="#L" n="128"/>quia illae non possunt causari in intellectu via sensus, a
+<lb ed="#L" n="129"/>quo cognitio omnis intellectiva originem ducit. Separatus
+<lb ed="#L" n="130"/>autem hoc potest: quia intelligit per species a divino 
+lu<lb ed="#L" break="no" n="131"/>mine in intellectum influxas .
+</p>
+            <p>
+               <lb ed="#L" n="132"/>Differunt secundo, quia cognitio intellectus separati de
+<lb ed="#L" n="133"/>substantiis separatis, licet non sit perfecta et quidditativa,
+<lb ed="#L" n="134"/>est tamen altior et perfectior quam cognitio intellectus
+<lb ed="#L" n="135"/>coniuncti de ipsis: quia ipsae species quibus intellectus
+<lb ed="#L" n="136"/>separatus intelligit, perfectius i ipsas repraesentant quam res
+<lb ed="#L" n="137"/>sensibiles, quibus coniunctus in earum notitiam 
+manudu<lb ed="#L" break="no" n="138"/>citur. Unde probabile est quod plura de substantiis 
+sepa<lb ed="#L" break="no" n="139"/>ratis separatus intelligat intellectus noster et clarius quam
+<lb ed="#L" n="140"/>coniunctus: puta quod aliquas conditiones cognoscat quibus
+<lb ed="#L" n="141"/>una ab altera discernitur, secundum quod mutua 
+con<lb ed="#L" break="no" n="142"/>versatio exigit et mutua locutio intellectualis, licet earum
+<lb ed="#L" n="143"/>quidditates, propter debilitatemn virtutis intellectualis, non
+<lb ed="#L" n="144"/>perfecte comprehendat; sicut aliquis homo hebetioris
+<lb ed="#L" n="145"/>sensus alium. hominem quantum ad' aliqua" accidentia
+<lb ed="#L" n="146"/>propria cognoscit, quibus eum ab aliis hominibus 
+discer<lb ed="#L" break="no" n="147"/>nit, licet eius individuales conditiones discernere et sensu
+<lb ed="#L" n="148"/>penetrare non possit. Oportet enim dicere quod animae
+<lb ed="#L" n="149"/>damnatorum daemones videant, quorum societate 
+tristi<lb ed="#L" break="no" n="150"/>tiam habent.
+</p>
+            <p>
+               <pb ed="#L" n="121"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Quod autem dixi, intellectum separatum intelligere
+<lb ed="#L" n="2"/>substantias separatas imperfecto modo, intelligendum est
+<lb ed="#L" n="3"/>de intelligentiis, non autem de animabus: quia, ut inquit
+<lb ed="#L" n="4"/>Sanctus "Thomas in loco praeallegato Primae Partis, una
+<lb ed="#L" n="5"/>anima separata alias animas separatas, quantum ad naturam
+<lb ed="#L" n="6"/>specificam, perfecte cognoscit: cum sint unius generis. —
+<lb ed="#L" n="7"/>ltem intelligendum est de cognitione naturali. Quia 
+quan<lb ed="#L" break="no" n="8"/>tum ad cognitionem beatam, anima separata, videndo 
+di<lb ed="#L" break="no" n="9"/>vinam essentiam, perfecte et quidditative substantias 
+sepa<lb ed="#L" break="no" n="10"/>ratas cognoscit.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>3. Ex his patet quod mens Sancti Thomae hoc loco, ut
+<lb ed="#L" n="12"/>in aliis locis explicatur , est quod intellectus coniunctus
+<lb ed="#L" n="13"/>non potest cognoscere substantias separatas in seipsis,
+<lb ed="#L" n="14"/>hoc est, per proprias species in ipso..existentes, sed bene
+<lb ed="#L" n="15"/>separatus hoc potest: non autem quod coniunctus non
+<lb ed="#L" n="16"/>possit eas perfecte et quidditative cognoscere, sed bene
+<lb ed="#L" n="17"/>separatus. Et si-aliquando inveniretur dicere quod 
+con<lb ed="#L" break="no" n="18"/>iunctus cognoscat illas quantum ad quia est, non autem
+<lb ed="#L" n="19"/>quantum ad quid est, relinquens quod separatus cognoscat
+<lb ed="#L" n="20"/>illas quantum ad quid est: per cognitionem quid est non
+<lb ed="#L" n="21"/>accipit. cognitionem perfectam quae ad ultimas rei 
+diffe<lb ed="#L" break="no" n="22"/>rentias se extendit, sed cognitionem qua intellectus rem
+<lb ed="#L" n="23"/>seipsa-intuetur, non autem in aliquo effectu. Sic enim
+<lb ed="#L" n="24"/>videtur ipsa substantia rei, et non tantum effectus ex quo
+<lb ed="#L" n="25"/>devenitur in eius cognitionem: unde dicitur per illam
+<lb ed="#L" n="26"/>cognosci quid est, quia cognoscitur substantia, quae 
+signi<lb ed="#L" break="no" n="27"/>ficatur per quid. Per illam autem qua cognoscitur res per
+<lb ed="#L" n="28"/>effectum, dicitur cognosci res quantum ad quia est: sicut
+<lb ed="#L" n="29"/>et demonstratio per effectum et a posteriori dicitur. ab
+<lb ed="#L" n="30"/>Aristotele, I Poster., demonstratio quia. :
+</p>
+            <p>
+               <lb ed="#L" n="31"/>VIII. Sed occurrit dubium. Si enim intellectui separato
+<lb ed="#L" n="32"/>naturale. est, inquantum est separatus, ut intelligat per
+<lb ed="#L" n="33"/>species sibi divino lumine influxas, quemadmodum inquit
+<lb ed="#L" n="34"/>Sanctus Thomas Prima Parte?, videtur conveniens ut
+<lb ed="#L" n="35"/>sibi tales species infundantur quae suae virtuti sint 
+pro<lb ed="#L" break="no" n="36"/>portionatae et quibus perfecte res possit intelligere: nam
+<lb ed="#L" n="37"/>et aliis substantiis separatis datae sunt.species earum 
+vir<lb ed="#L" break="no" n="38"/>tutibus proportionatae. Ergo perfecte et quidditative anima
+<lb ed="#L" n="39"/>separata substantias alias separatas intelliget.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>2. Ad hoc dicitur primo quod, loquendo quantum ad
+<lb ed="#L" n="41"/>exigentiam naturae, non' possunt dari intellectui nostro
+<lb ed="#L" n="42"/>separato species intelligibiles quibus perfecte substantias
+<lb ed="#L" n="43"/>separatas intelligat. Quia, cum formae intelligibiles 
+reci<lb ed="#L" break="no" n="44"/>piantur in intellectu secundum modum ipsius intellectus,
+<lb ed="#L" n="45"/>quemadmodum universaliter verum est quod unumquodque
+<lb ed="#L" n="46"/>recipitur in alio secundum modum recipientis; et 
+intel<lb ed="#L" break="no" n="47"/>lectus noster, quantumcumque separatus, sit inferioris et
+<lb ed="#L" n="48"/>imperfectioris ordinis quam substantiae separatae: necesse
+<lb ed="#L" n="49"/>est ut substantiae separatae recipiantur in ipso 
+intelligi<lb ed="#L" break="no" n="50"/>biliter imperfectiori modo quam sint in seipsis naturaliter ;
+<lb ed="#L" n="51"/>et per consequens quod intellectus ipsas imperfectiori
+<lb ed="#L" n="52"/>modo quam sint in seipsis cognoscibiles, apprehendat.
+<lb ed="#L" n="53"/>Unde species infusae sunt quidem virtuti intellectus nostri
+<lb ed="#L" n="54"/>proportionatae, inquantum, sicut virtus ipsius est ad 
+in<lb ed="#L" break="no" n="55"/>telligendum substantias separatas imperfecte, ita sibi dantur
+<lb ed="#L" n="56"/>species imperfecte eas intellectui ipsius repraesentantes:
+<lb ed="#L" n="57"/>non tamen conveniens est dari sibi species quibus illas
+<lb ed="#L" n="58"/>perfecte intelligat, quia eius naturae non convenit.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Dicitur secundo, quod non est eadem ratio de intellectu
+<lb ed="#L" n="60"/>nostro et de intellectu intelligentiarum. Quia, cum omnes
+<lb ed="#L" n="61"/>intelligentiae sint unius ordinis, unaquaeque illarum nata
+<lb ed="#L" n="62"/>est alias perfecte intelligere. Ideo dantur eis species quae
+<lb ed="#L" n="63"/>ipsis alias intelligentias perfecte repraesentent. Intellectus
+<lb ed="#L" n="64"/>autem noster est inferioris ordinis ad intelligentias, ut
+<lb ed="#L" n="65"/>dictum est. Unde sicut, quia intellectus noster est 
+infe<lb ed="#L" break="no" n="66"/>rioris ordinis ad substantias separatas, non cognoscit ipsas
+<lb ed="#L" n="67"/>perfecte, neque recipit species ipsas perfecte 
+repraesen<lb ed="#L" break="no" n="68"/>tantes; ita, quia intelligentiae sunt inferioris ordinis ad
+<lb ed="#L" n="69"/>Deum, ipsum naturali cognitione perfecte non cognoscunt,
+<lb ed="#L" n="70"/>neque speciem aliquam recipiunt quae ipsis Deum 
+per<lb ed="#L" break="no" n="71"/>fecte repraesentet.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>IX. Advertendum autem, cum inquit Sanctus Thomas 
+<lb ed="#L" n="73"/>animam separatam intelligere substantias separatas per
+<lb ed="#L" n="74"/>lumen intellectus agentis, quod hoc non est sic 
+acci<lb ed="#L" break="no" n="75"/>piendum quasi ipsum lumen intellectus agentis per se
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>sufficiat ad huiusmodi intellectionem, absque additamento
+<lb ed="#L" n="77"/>alicuius speciei intelligibilis; aut quod intellectus agens
+<lb ed="#L" n="78"/>suo lumine faciat substantias separatas intellectas in actu
+<lb ed="#L" n="79"/>causando earum species in intellectu possibili, sicut circa
+<lb ed="#L" n="80"/>materialia se habet: sed quia, ut dicitur in Qu. de Anima,
+<lb ed="#L" n="81"/>a. 15, ad 9, per intellectum possibilem recipiet anima 
+spe<lb ed="#L" break="no" n="82"/>cies effluentes a substantiis superioribus, per intellectum
+<lb ed="#L" n="83"/>vero agentem habebit virtutem ad intelligendum. In anima
+<lb ed="#L" n="84"/>enim coniuncta intellectus agens. duo facit: nam et 
+intel<lb ed="#L" break="no" n="85"/>ligibilia in potentia facit intelligibilia in actu; et dat 
+in<lb ed="#L" break="no" n="86"/>tellectui possibili virtutem ad intelligendum :per modum
+<lb ed="#L" n="87"/>cuiusdam luminis, ita quod virtus animae ad intelligendum
+<lb ed="#L" n="88"/>est tam ex intellectu possibili quam ex intellectu agente.
+<lb ed="#L" n="89"/>In anima :vero separata non facit intelligibilia in actu:
+<lb ed="#L" n="90"/>cum in ipsa non sint phantasmata, quae ad facienda 
+in<lb ed="#L" break="no" n="91"/>telligibilia in actu simul cum intellectu agente requiruntur.
+<lb ed="#L" n="92"/>Addidit autem hoc Sanctus Thomas, quod anima 
+sepa<lb ed="#L" break="no" n="93"/>rata intelligit substantias separatas per lumen intellectus
+<lb ed="#L" n="94"/>agentis, ut ostenderet non deesse animae virtutem qua
+<lb ed="#L" n="95"/>possit substantias separatas intelligere per influentiam 
+spe<lb ed="#L" break="no" n="96"/>cierum ex superiori lumine: cum.habeat in se 
+similitu<lb ed="#L" break="no" n="97"/>dinem quandam intellectualis luminis existentis in 
+substan<lb ed="#L" break="no" n="98"/>tiis. separatis, receptam a communi causa utrorumque,
+<lb ed="#L" n="99"/>videlicet a Deo; licet, dum est corpori coniuncta, propter
+<lb ed="#L" n="100"/>motus corporeos et occupationes sensibiles, retineatur ne
+<lb ed="#L" n="101"/>possit huiusmodi. superiores influxus recipere.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>2. Attendendum etiam, .cum inquit Sanctus Thomas
+<lb ed="#L" n="103"/>obligationem ad intelligenda materialia accidere intellectui
+<lb ed="#L" n="104"/>humano in quantum est unitus corpori, quod ly accidere
+<lb ed="#L" n="105"/>non accipitur ut idem est quod accidentaliter advenire:
+<lb ed="#L" n="106"/>per se enim et naturaliter, non secundum accidens, 
+con<lb ed="#L" break="no" n="107"/>venit intellectui coniuncto obligatio ad intelligenda 
+ma<lb ed="#L" break="no" n="108"/>terialia, sicut sibi naturale est uniri corpori; ut in multis
+<lb ed="#L" n="109"/>locis Sanctus Thomas ostendit, et superius in secundo
+<lb ed="#L" n="110"/>libro  est ostensum. Sed accipitur ut idem est quod
+<lb ed="#L" n="111"/>convenire et congruere: congruit enim et convenit animae
+<lb ed="#L" n="112"/>talis obligatio ad materialia secundum illum statum quo
+<lb ed="#L" n="113"/>est corpori unita, non autem secundum statum quo est
+<lb ed="#L" n="114"/>a corpore separata.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>X. Quantum ad secundum , contra hanc Sancti Thomae
+<lb ed="#L" n="116"/>determinationem arguitur a quibusdam  dupliciter. Primo.
+<lb ed="#L" n="117"/>Intelligere substantias separatas est nobilissima operatio
+<lb ed="#L" n="118"/>animae humanae, ut patet ex I et X Ethicorum. Et
+<lb ed="#L" n="119"/>corpus humanum est eius propria materia. Ergo per 
+unio<lb ed="#L" break="no" n="120"/>nem ad corpus non impeditur a. cognitione substantiarum
+<lb ed="#L" n="121"/>separatarum. — Probatur consequentia. Quia nulla forma
+<lb ed="#L" n="122"/>impeditur a sua nobilissima operatione propter unionem
+<lb ed="#L" n="123"/>eius ad propriam materiam.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Secundo. Generatio unius speciei non impeditur a 
+cor<lb ed="#L" break="no" n="125"/>pore nisi quia corpus habet contrariam dispositionem
+<lb ed="#L" n="126"/>dispositioni requisitae ad eius generationem. Sed corpus
+<lb ed="#L" n="127"/>humanum nullam habet dispositionem contrariam 
+dispo<lb ed="#L" break="no" n="128"/>sitioni quam exigit receptio specierum intelligibilium ex
+<lb ed="#L" n="129"/>superiori influentia. Ergo per unionem ad corpus non .
+<lb ed="#L" n="130"/>impeditur talium specierum receptio. Ergo neque impeditur
+<lb ed="#L" n="131"/>cognitio substantiarum separatarum per talem unionem.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>Confirmatur. Bonum simpliciter alicuius naturae non
+<lb ed="#L" n="133"/>impeditur propter bonum simpliciter eiusdem naturae.
+<lb ed="#L" n="134"/>Intelligere autem substantias separatas est bonum 
+simpli<lb ed="#L" break="no" n="135"/>citer naturae humanae. Et unio ipsius ad corpus est etiam
+<lb ed="#L" n="136"/>eius bonum simpliciter. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>XI. Ad haec dicitur primo quod, si arguens intendat
+<lb ed="#L" n="138"/>arguere de cognitione perfecta et quidditativa, negatur
+<lb ed="#L" n="139"/>quod intelligere substantias separatas hoc modo sit summa
+<lb ed="#L" n="140"/>perfectio animae humanae, et quod sit eius perfectio 
+sim<lb ed="#L" break="no" n="141"/>pliciter. Immo nulla est eius perfectio: cum, ut dictum
+<lb ed="#L" n="142"/>est superius , eas quidditative cognoscere sit sibi 
+impos<lb ed="#L" break="no" n="143"/>sibile, naturaliter loquendo. .
+</p>
+            <p>
+               <lb ed="#L" n="144"/>Similiter conceditur quod ab illa cognitione non 
+im<lb ed="#L" break="no" n="145"/>peditur per unionem ad corpus: non enim dicitur res
+<lb ed="#L" n="146"/>impediri nisi ab eo quod potest sibi convenire.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>2. Si autem intendat concludere quod intellectus 
+con<lb ed="#L" break="no" n="148"/>iunctus ita potest substantias separatas per proprias 
+spe<lb ed="#L" break="no" n="149"/>cies intueri sicut separatus: tunc ad primam dicitur primo,
+<lb ed="#L" n="150"/>quod Philosophus non loquitur de ea cognitione substan-
+<pb ed="#L" n="122"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tiarum separatarum quae habetur per earum species, sed
+<lb ed="#L" n="2"/>de ea quae ex sensibilibus acquiritur. Et de hac 
+conce<lb ed="#L" break="no" n="3"/>ditur quod non impeditur intellectus ex unione ad corpus:
+<lb ed="#L" n="4"/>immo per talem unionem iuvatur,
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Dicitur secundo quod, licet intelligere substantias 
+se<lb ed="#L" break="no" n="6"/>paratas per species infusas sit nobilissima animae humanae
+<lb ed="#L" n="7"/>operatio, inquantum intelligere per conversionem ad 
+su<lb ed="#L" break="no" n="8"/>periora, ut inquit Sanctus Thomas Prima Parte, rxxxix, 1,
+<lb ed="#L" n="9"/>est nobilius quam intelligere per conversionem ad 
+phan<lb ed="#L" break="no" n="10"/>tasmata; et etiam inquantum est clarior notitia quae de
+<lb ed="#L" n="11"/>nobilissimis rebus haberi ab anima humana possit: 707
+<lb ed="#L" n="12"/>tamen ista cognilio est naturalis animae simpliciter, sed
+<lb ed="#L" n="13"/>lantum. inquantum habet esse separatum, ut dicitur in
+<lb ed="#L" n="14"/>Qu. de Anima, q. 1, ad 7; et q. xvi, ad 2 ; et Prima Parte,
+<lb ed="#L" n="15"/>loco allegato. Ideo negatur consequentia.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Ad cuius probationem dicitur quod, licet nulla forma
+<lb ed="#L" n="17"/>impediatur a sua nobilissima operatione naturali per
+<lb ed="#L" n="18"/>unionem ad propriam materiam, per talem tamen unionem
+<lb ed="#L" n="19"/>impediri potest a sua nobilissima operatione quae est ei
+<lb ed="#L" n="20"/>praeter naturam, cuiusmodi est dicta operatio. Nec 
+in<lb ed="#L" break="no" n="21"/>conveniens est ut forma uniatur materiae licet 
+impe<lb ed="#L" break="no" n="22"/>diatur ab aliqua nobili cognitione sibi convenienti praeter
+<lb ed="#L" n="23"/>naturam, quando ex tali unione de aliis rebus perfectiorem
+<lb ed="#L" n="24"/>et distinctiorem cognitionem acquirit quam si non esset
+<lb ed="#L" n="25"/>unita. Sic autem est in anima humana. Nam, ut declarat
+<lb ed="#L" n="26"/>Sanctus Thomas locis praeallegatis , si anima non acciperet
+<lb ed="#L" n="27"/>cognitionemi a sensibilibus via sensuum, sed intelligeret
+<lb ed="#L" n="28"/>per species intelligentiis separatis proportionatas, haberet
+<lb ed="#L" n="29"/>de rebus confusam tantum et imperfectam cognitionem.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>3. Ad secundam, negatur maior. Quia potest impediri
+<lb ed="#L" n="31"/>ex corpore receptio alicuius formae intelligibilis in anima,
+<lb ed="#L" n="32"/>non propter contrarietatem dispositionis corporis ad dispo-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="33"/>sitionem quam illa forma requirit, sed quia ex unione ad.
+<lb ed="#L" n="34"/>corpus anima habet naturalem ordinem ad res materiales
+<lb ed="#L" n="35"/>et phantasmata, ut nihil possit nisi ex sensibilibus et
+<lb ed="#L" n="36"/>phantasmatibus intelligere. Modus enim operandi 
+unius<lb ed="#L" break="no" n="37"/>cuiusque sequitur eius modum essendi, cum 
+unumquod<lb ed="#L" break="no" n="38"/>que operetur secundum quod est in actu, ut in 
+superio<lb ed="#L" break="no" n="39"/>ribus  est ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Posset etiam negari minor. Intelligere enim per 
+con<lb ed="#L" break="no" n="41"/>versionem ad superiora requirit separationem a materia:
+<lb ed="#L" n="42"/>cuius signum est quod dormientibus et alienatis a sensibus
+<lb ed="#L" n="43"/>quaedam revelationes fiunt quae sensu utentibus non
+<lb ed="#L" n="44"/>eveniunt. Corpus autem est quoddam materiale, et animam
+<lb ed="#L" n="45"/>ad quandam aliquo modo materialitatem trahit.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>4. Ad confirmationem, negatur quod intelligere 
+substan<lb ed="#L" break="no" n="47"/>tias separatas illo modo sit animae bonum simpliciter:
+<lb ed="#L" n="48"/>sed est bonum animae secundum quod habet esse 
+sepa<lb ed="#L" break="no" n="49"/>ratum. Quod quidem esse separatum, ut dicitur Prima Parte,
+<lb ed="#L" n="50"/>quaestione adducta, non est animae naturale, sed praeter
+<lb ed="#L" n="51"/>naturam.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>XII Possent adduci et argumenta <ref>Scoti, in I Sent.,
+<lb ed="#L" n="53"/>d. III, q. 1</ref>, quibus ostendit nos in hac vita posse 
+substan<lb ed="#L" break="no" n="54"/>tias separatas quantum ad quid est cognoscere: sed quia
+<lb ed="#L" n="55"/>concedit non posse substantias separatas a nobis perfecte
+<lb ed="#L" n="56"/>cognosci in hac vita, licet aliquem de ipsis proprium et
+<lb ed="#L" n="57"/>substantialem conceptum habere possimus; et hoc idem
+<lb ed="#L" n="58"/>tenet Sanctus "Thomas, et differentia tantum est in verbis,
+<lb ed="#L" n="59"/>quia illa cognitio apud Scotum vocatur cognitio quid,
+<lb ed="#L" n="60"/>quamvis sit imperfecta, apud Sanctum Thomam vero 
+vo<lb ed="#L" break="no" n="61"/>catur magis cognitio quia est; ideo non est opus eius
+<lb ed="#L" n="62"/>argumenta solvere.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Alia quae circa hanc materiam difficultatem in doctrina
+<lb ed="#L" n="64"/>Sancti Thomae afferre possent, vide superius libro secundo .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

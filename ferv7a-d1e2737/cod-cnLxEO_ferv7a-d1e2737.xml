@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 126</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 126</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="389"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2737"><!-- ferv7a-l3c126 -->
+            <head>Capitulum 126</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="83" type="fixed=389"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="84"/>QUARTA conditio matrimonii  est quod licite actus
+<lb ed="#L" n="85"/>coniugalis exercetur, nec est divina lege prohibitus.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>I. Hoc autem probat Sanctus Thomas ostendendo 
+in<lb ed="#L" break="no" n="87"/>conveniens esse dicere quod omnis carnalis coniunctio sit
+<lb ed="#L" n="88"/>peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Et arguit primo sic. Lege divina solum illa sunt 
+pro<lb ed="#L" break="no" n="90"/>hibita quae rationi adversantur. Sed non omnis carnalis
+<lb ed="#L" n="91"/>coniunctio adversatur rationi. Immo, sicut contra rationem
+<lb ed="#L" n="92"/>est ut ea quis utatur contra bonum prolis, ita secundum
+<lb ed="#L" n="93"/>rationem est quod aliquis ea utatur secundum quod 
+con<lb ed="#L" break="no" n="94"/>gruit ad prolis generationem et educationem, Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Secundo. Quorundam membrorum corporis usus est
+<lb ed="#L" n="96"/>carnalis commixtio. Ergo est eorum finis. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="97"/>batur prima consequentia. Quia, cum membra corporis
+<lb ed="#L" n="98"/>sint quaedam animae instrumenta, finis cuiuslibet ipsorum
+<cb ed="#L" n="h"/>
+               <lb ed="#L" n="99"/>est eius usus: sicut et cuiuslibet alterius instrumenti. — 
+Se<lb ed="#L" break="no" n="100"/>cunda vero probatur: quia illud quod est finis aliquarum
+<lb ed="#L" n="101"/>naturalium rerum, non potest esse secundum se malum,
+<lb ed="#L" n="102"/>cum talia ex divina providentia ordinentur ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Tertio. Omnibus animalibus inest naturalis inclinatio
+<lb ed="#L" n="104"/>ad coniunctionem carnalem. Ergo etc. — Probatur 
+conse<lb ed="#L" break="no" n="105"/>quentia. Quia, cum naturales inclinationes insint rebus a
+<lb ed="#L" n="106"/>Deo, impossibile est ut inclinatio alicuius speciei sit ad
+<lb ed="#L" n="107"/>id quod est secundum se malum.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Quarto. Perpetuitas speciei non conservatur in 
+anima<lb ed="#L" break="no" n="109"/>libus nisi per generationem, quae est ex commixtione 
+car<lb ed="#L" break="no" n="110"/>nali. Ergo etc. — Probatur consequentia. Quia illud sine quo
+<lb ed="#L" n="111"/>non potest esse aliquid quod est bonum et optimum, non
+<lb ed="#L" n="112"/>est secundum se malum.
+</p>
+            <p>
+               <pb ed="#L" n="390"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Excluditur autem per hoc error matrimonium et nuptias
+<lb ed="#L" n="2"/>damnantium: scilicet Manichaeorum, quia credebant 
+cor<lb ed="#L" break="no" n="3"/>poralia non a bono, sed a malo principio esse.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>II. Contra hanc conclusionem argui posset, quia nullus
+<lb ed="#L" n="5"/>de aliquo verecundatur nisi quia malum est. Videtur autem
+<lb ed="#L" n="6"/>quod homo de carnali commixtione tanquam de aliquo
+<lb ed="#L" n="7"/>turpitudinem habente verecundetur.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Sed dicitur, de mente Sancti Thomae IV Sent., d. xxvi,
+<lb ed="#L" n="9"/>q. 1, a. 3 ; et d. xxxr, q. 1, a. 1  quod huiusmodi 
+car<lb ed="#L" break="no" n="10"/>nalis commixtio habet quidem in se quandam turpitu-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="11"/>dinem, sed illa turpitudo est turpitudo poenae, inquantum
+<lb ed="#L" n="12"/>ex primi parentis peccato effectum est ut inferiores vires
+<lb ed="#L" n="13"/>et membra corporis rationi non obediant. Non autem est
+<lb ed="#L" n="14"/>turpitudo culpae. Et ideo de tali actu homo erubescit,
+<lb ed="#L" n="15"/>non sicut de culpa, sed sicut de quolibet alio defectu.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Quia etiam quandam similitudinem mali et actus 
+inor<lb ed="#L" break="no" n="17"/>dinati habet, propter concupiscentiae corruptionem, ideo
+<lb ed="#L" n="18"/>assignantur aliqua bona excusantia illum, facientia scilicet
+<lb ed="#L" n="19"/>ut malus non sit, quamvis mali quandam similitudinem
+<lb ed="#L" n="20"/>habeat. Haec autem bona sunt proles et fides .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

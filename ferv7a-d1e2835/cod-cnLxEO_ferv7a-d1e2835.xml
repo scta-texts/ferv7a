@@ -1,0 +1,378 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 138</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 138</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="416"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2835"><!-- ferv7a-l3c138 -->
+            <head>Capitulum 138</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="84" type="fixed=416"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="85"/>POSTQUAM disputavit Sanctus Thomas contra Vigilantium
+<lb ed="#L" n="86"/>voluntariam paupertatem impugnantem; et contra eos
+<lb ed="#L" n="87"/>qui perpetuam impugnant continentiam; vult contra eos
+<lb ed="#L" n="88"/>qui vota impugnant et obedientiam, disputare .
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Circa hoc autem duo facit: primo, adducit 'eorum
+<lb ed="#L" n="90"/>rationem et solvit; secundo, contra eos arguit .
+</p>
+            <p>
+               <lb ed="#L" n="91"/>I. Dicit ergo primo, quod quibusdam visum est stultum
+<lb ed="#L" n="92"/>esse obligare se voto ad obediendum alicui, aut ad 
+quod<lb ed="#L" break="no" n="93"/>cumque servandum: hac scilicet ratione, quia videtur 
+de<lb ed="#L" break="no" n="94"/>rogari laudabilitati virtuosorum actuum per hoc quod ex
+<lb ed="#L" n="95"/>necessitate obedientiae vel voti fiunt. Unumquodque enim
+<lb ed="#L" n="96"/>bonum, quanto liberius agitur, tanto virtuosius esse videtur.
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="97"/>Quanto autem aliquis ad aliquid observandum astringitur
+<lb ed="#L" n="98"/>maiori necessitate, tanto minus libere id agere videtur.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>2. Respondet autem Sanctus Thomas quod isti videntur
+<lb ed="#L" n="100"/>rationem necessitatis ignorare. Et duo dicit.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Primo quod, cum sit triplex necessitas, scilicet coactionis;
+<lb ed="#L" n="102"/>et ex interiori inclinatione procedens; et ex fine: necessitas
+<lb ed="#L" n="103"/>coactionis laudem virtuosorum actuum diminuit, quia 
+vo<lb ed="#L" break="no" n="104"/>luntario contrariatur; non autem aliae duae necessitates.
+<lb ed="#L" n="105"/>Immo necessitas ex interiori inclinatione procedens ipsam
+<lb ed="#L" n="106"/>auget: facit voluntatem intense tendere in actum virtutis;
+<lb ed="#L" n="107"/>et, si habitus virtutis ad finem perfectionis devenerit, 
+quan<lb ed="#L" break="no" n="108"/>dam necessitatem infert ad bene agendum, ut in Beatis;
+<pb ed="#L" n="417"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nec tamen propter hoc aliquid libertati voluntatis deperit,
+<lb ed="#L" n="2"/>nec bonitati actus. Idem est de necessitate finis: quod
+<lb ed="#L" n="3"/>enim quis agit tanquam necessarium ad finem, ex hoc
+<lb ed="#L" n="4"/>ipso laudabile est; et tanto laudabilius, quanto finis fuerit
+<lb ed="#L" n="5"/>melior.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Dicit secundo, quod necessitas observandi quae quis
+<lb ed="#L" n="7"/>vovit, aut obediendi ei cui se supponit, est tantum 
+neces<lb ed="#L" break="no" n="8"/>sitas finis: est enim necessarium voventi hoc vel illud
+<lb ed="#L" n="9"/>agere, si debet votum impleri, aut obedientia servari. Et
+<lb ed="#L" n="10"/>ideo, cum ii fines laudabiles sint, utpote quibus homo se
+<lb ed="#L" n="11"/>Deo subiicit, necessitas praedicta nihil diminuit de laude
+<lb ed="#L" n="12"/>virtutis.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Ex ista responsione patet quod, admissa minore de
+<lb ed="#L" n="14"/>necessitate coactionis, alia propositio subintellecta, scilicet
+<lb ed="#L" n="15"/>quod talis sit necessitas voti observandi et obedientiae
+<lb ed="#L" n="16"/>implendae, falsa est. Si autem intelligatur ipsa minor de
+<lb ed="#L" n="17"/>altera aliarum. duarum necessitatum, falsa est: quia 
+huius<lb ed="#L" break="no" n="18"/>modi necessitas neque libertatem neque voluntarium tollit.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>II. Sed occurrit circa hoc dubium. Ut enim dicitur in
+<lb ed="#L" n="20"/>Qu. de Malo, q. xvr, a. 5, liberum arbitrium dicitur eo
+<lb ed="#L" n="21"/>quod in diversa possit. Sed homo non potest in diversa
+<lb ed="#L" n="22"/>respectu eius boni ad quod ex interiori inclinatur ex 
+ne<lb ed="#L" break="no" n="23"/>cessitate: ut patet in Beatis, qui semper actu diligunt
+<lb ed="#L" n="24"/>Deum, et non possunt non actu ipsum diligere dilectione
+<lb ed="#L" n="25"/>caritatis. Ergo talis necessitas non stat cum libertate. Ergo
+<lb ed="#L" n="26"/>male dicitur quod necessitas huiusmodi nihil tollit de 
+li<lb ed="#L" break="no" n="27"/>bertate voluntatis.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Respondetur quod, cum libertas duobus modis sumatur,
+<lb ed="#L" n="29"/>scilicet ut opponitur necessitati coactionis, et ut opponitur
+<lb ed="#L" n="30"/>necessitati naturalis inclinationis; non est de ratione ipsius
+<lb ed="#L" n="31"/>inquantum opponitur necessitati coactionis, quod in diversa
+<lb ed="#L" n="32"/>possit, sed quod voluntatis inclinatione quis operetur. Quod
+<lb ed="#L" n="33"/>potest convenire etiam agenti aliquid ex naturali 
+inclina<lb ed="#L" break="no" n="34"/>tione: nam voluntas vult id in quod homo naturali 
+in<lb ed="#L" break="no" n="35"/>clinatione voluntatis fertur, cum voluntatis actus nihil aliud
+<lb ed="#L" n="36"/>sit quam inclinatio volentis in aliquod. Per oppositum
+<lb ed="#L" n="37"/>autem, quod quis necessitate coactionis agit, invitus agit,
+<lb ed="#L" n="38"/>et contra voluntatem. - De ratione autem libertatis 
+inquan<lb ed="#L" break="no" n="39"/>tum opponitur necessitati naturalis inclinationis, est quod
+<lb ed="#L" n="40"/>in diversa possit: quia non habet determinationem ad unum.
+<lb ed="#L" n="41"/>Unde Verit., q. xxi, a. 6, inquit Sanctus Thomas quod
+<lb ed="#L" n="42"/>voluntas dicitur libera inquantum necessitatem non habet.
+<lb ed="#L" n="43"/>De hac ergo loquitur Sanctus Thomas loco allegato: hic
+<lb ed="#L" n="44"/>vero loquitur de libertate ut opponitur coactioni.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>III. Secundo, arguit Sanctus Thomas contra praedictum
+<lb ed="#L" n="46"/>errorem , ostendens quod, dum implentur aliqua quae
+<lb ed="#L" n="47"/>quis vovit, vel quae sibi praecipiuntur ab eo cui se 
+sub<lb ed="#L" break="no" n="48"/>didit propter Deum, illa maiori laude et remuneratione
+<lb ed="#L" n="49"/>sunt digna. Hoc autem probat triplici ratione .
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Pro prima ratione, duo praemittit. Unum est, quod
+<lb ed="#L" n="51"/>contingit unum actum duorum esse vitiorum: dum actus
+<lb ed="#L" n="52"/>unius vitii ad finem alterius vitii ordinatur. Et similiter
+<lb ed="#L" n="53"/>actum contingit unius virtutis ad aliam ordinari: sicut cum
+<lb ed="#L" n="54"/>aliquis dat sua ut cum alio amicitiam caritatis habeat.
+<lb ed="#L" n="55"/>—- Alterum est, quod huiusmodi actus virtutis maiorem
+<lb ed="#L" n="56"/>laudem habet ex caritate, ad quam ordinatur, quam ex
+<lb ed="#L" n="57"/>liberalitate, cuius est actus secundum suam speciem. Unde,
+<lb ed="#L" n="58"/>si remittatur in eo quod liberalitatis est, laudabilior est
+<lb ed="#L" n="59"/>ex eo quod ad caritatem ordinatur, et maiori mercede
+<lb ed="#L" n="60"/>dignus, quam si liberalius ageretur non in ordine ad 
+ca<lb ed="#L" break="no" n="61"/>ritatem.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Tunc sic. Si aliquis faciat aliquod opus virtutis absque
+<lb ed="#L" n="63"/>voto, puta ieiunet vel contineat, erit actus vel castitatis
+<lb ed="#L" n="64"/>vel abstinentiae. Si autem ex voto faciat, refertur ulterius
+<lb ed="#L" n="65"/>ad religionis virtutem, cuius est aliquid Deo vovere, quae
+<lb ed="#L" n="66"/>virtus est potior castitate. et abstinentia, utpote faciens nos
+<lb ed="#L" n="67"/>recte habere ad Deum. Ergo est laudabilior eo quod 
+<lb ed="#L" n="68"/>ex voto facit, etiam si non delectetur in abstinentia vel
+<lb ed="#L" n="69"/>castitate, ex eo quod delectatur in potiori virtute, quae
+<lb ed="#L" n="70"/>est religio.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>2. Cum dicitur quod vovere actus est religionis, 
+adver<lb ed="#L" break="no" n="72"/>tendum, ex doctrina Sancti Thomae II II^, q. rxxxvri,
+<lb ed="#L" n="73"/>a. 5 et 6, quod actus qui ex voto fiunt, in quantum 
+huius<lb ed="#L" break="no" n="74"/>modi, ad cultum divinum pertinent, quasi quaedam 
+sa<lb ed="#L" break="no" n="75"/>crificia. Quia votum est quaedam promissio Deo facta;
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>promissio autem nihil aliud est quam ordinatio eius quod
+<lb ed="#L" n="77"/>promittitur in eum cui promittitur; et sic votum est 
+ordi<lb ed="#L" break="no" n="78"/>natio quaedam eorum quae quis vovet, in divinum cultum
+<lb ed="#L" n="79"/>seu obsequium. Ordinare autem actum cuiuscumque 
+vir<lb ed="#L" break="no" n="80"/>tutis in cultum et obsequium Dei, ad religionis virtutem
+<lb ed="#L" n="81"/>pertinet. Ideo. convenienter dicitur quod vovere actus
+<lb ed="#L" n="82"/>religionis est.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>3. Sed occurrit dubium circa hoc quod addit Sanctus
+<lb ed="#L" n="84"/>Thomas: etiam si non delectetur in castitate vel 
+absti<lb ed="#L" break="no" n="85"/>nentia. Videtur enim de ratione habitus esse ut faciat
+<lb ed="#L" n="86"/>delectationem in opere suo: ut patet per Philosophum
+<lb ed="#L" n="87"/>in II Ethicorum . Ergo non videtur bene dictum quod
+<lb ed="#L" n="88"/>aliquis operans opus castitatis vel abstinentiae in ordine ad
+<lb ed="#L" n="89"/>religionem, in ipso opere non delectetur: ut ratio videtur
+<lb ed="#L" n="90"/>supponere.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Ad hoc potest etiam tripliciter responderi. Primo, quod
+<lb ed="#L" n="92"/>non asserit illud Sanctus Thomas, sed sub conditione 
+lo<lb ed="#L" break="no" n="93"/>quitur, inquiens ita esse, etiam si non delectetur operans
+<lb ed="#L" n="94"/>in ipsa castitate vel abstinentia.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Secundo, quod non loquitur hic de illis actibus 
+secun<lb ed="#L" break="no" n="96"/>dum quod ab habitu castitatis et abstinentiae proveniunt,
+<lb ed="#L" n="97"/>sed secundum quod materialiter sunt opera castitatis et
+<lb ed="#L" n="98"/>abstinentiae: sicut et aliquis quandoque operatur iusta,
+<lb ed="#L" n="99"/>non tamen ex habitu et virtute iustitiae.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Tertio, ex doctrina Sancti Thomae II I5, q. cxx, a.
+<lb ed="#L" n="101"/>8, ad 2, de mente Philosophi III Eth. , responderi potest
+<lb ed="#L" n="102"/>quod non in omnibus virtutibus operari delectabiliter existit,
+<lb ed="#L" n="103"/>nisi inquantum quis attingit finem. Possunt enim opera
+<lb ed="#L" n="104"/>virtutum secundum sui naturam esse tristia, licet propter
+<lb ed="#L" n="105"/>finem sint delectabilia.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>IV. Secundo . Si aliquis facit aliquid. propter Deum,
+<lb ed="#L" n="107"/>illum actum Deo offert. Si autem ex voto hoc faciat, non
+<lb ed="#L" n="108"/>solum actum offert Deo, sed etiam potentiam. Ergo 
+pro<lb ed="#L" break="no" n="109"/>positum suum est ad aliquid maius Deo offerendum. Ergo
+<lb ed="#L" n="110"/>ille actus erit virtuosior, etsi in executione alius videatur
+<lb ed="#L" n="111"/>ferventior.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>Probatur ultima consequentia. Quia, cum potissimum
+<lb ed="#L" n="113"/>in virtute sit finis, si finis fuerit eminentior, quamvis in
+<lb ed="#L" n="114"/>actu aliquis se remissius habeat, erit eius actus virtuosior:
+<lb ed="#L" n="115"/>sicut, si aliquis proponat propter bonum virtutis longam
+<lb ed="#L" n="116"/>viam agere, alius autem brevem, laudabilior erit qui maius
+<lb ed="#L" n="117"/>aliquod propter virtutem intendit, licet in progressu viae
+<lb ed="#L" n="118"/>lentus  procedat.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Cum dicitur voventem non solum actum, sed etiam
+<lb ed="#L" n="120"/>potentiam Deo offerre, advertendum est illud sic 
+intelli<lb ed="#L" break="no" n="121"/>gendum esse quod vovens non solum dat Deo actum ad
+<lb ed="#L" n="122"/>quem se-voto obligavit, sed etiam Deo potestatem agendi
+<lb ed="#L" n="123"/>offert, quia de cetero non potest licite facere contra id quod
+<lb ed="#L" n="124"/>vovit. Et ideo dicitur maius aliquid, Deo offerre quam non
+<lb ed="#L" n="125"/>ex voto agens: sicut plus. daret homini qui daret ei 
+arbo<lb ed="#L" break="no" n="126"/>rem cum fructibus, quam qui fructus tantum daret .
+</p>
+            <p>
+               <lb ed="#L" n="127"/>V. Circa hanc rationem duplex dubium occurrit. Primum
+<lb ed="#L" n="128"/>est quia, cum assumatur quod, si finis fuerit eminentior,
+<lb ed="#L" n="129"/>actus erit virtuosior, non subsumitur, ut debet subsumi,
+<lb ed="#L" n="130"/>quod finis ex voto aliquid agentis sit eminentior, sed quod
+<lb ed="#L" n="131"/>vovens maius aliquid agere propter Deum proponit. Hoc
+<lb ed="#L" n="132"/>autem non pertinet ad finem, sed ad id quod ordinatur
+<lb ed="#L" n="133"/>ad finem. Unde et exemplum etiam quod assumitur ad
+<lb ed="#L" n="134"/>manifestationem illius propositionis, non videtur ad 
+pro<lb ed="#L" break="no" n="135"/>positum : quod enim unus proponat longiorem viam agere
+<lb ed="#L" n="136"/>propter virtutem quam alius, non ostendit ipsum agere
+<lb ed="#L" n="137"/>propter eminentiorem finem, cum utriusque finis sit virtus;
+<lb ed="#L" n="138"/>sed quod ad eundem finem maius aliquid ordinat.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>2. Secundum est, quia non videtur haec consequentia
+<lb ed="#L" n="140"/>valere: Faciens aliquid ex voto, maius aliquid offert Deo
+<lb ed="#L" n="141"/>quam faciens non ex voto. Ergo actus eius est virtuosior.
+<lb ed="#L" n="142"/>Nam, ut patet Marci xii  et Lucae xxi , magis laudatur
+<lb ed="#L" n="143"/>a Domino vidua paupercula, quae duo aera minuta in
+<lb ed="#L" n="144"/>gazophylacium misit, quam divites, qui multum miserunt.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>VI. Ad primum dicitur quod de fine dupliciter loqui
+<lb ed="#L" n="146"/>possumus: uno modo, de ipsa re absolute quae est finis;
+<lb ed="#L" n="147"/>alio modo, de eo quod quis intendit circa rem quae est
+<lb ed="#L" n="148"/>finis; sicut finis avari est pecuniae possessio, aut usus. Ad
+<lb ed="#L" n="149"/>hoc quod una operatio sit altera virtuosior aut laudabilior,
+<lb ed="#L" n="150"/>sufficit quod altero illorum. modorum habeat eminentiorem
+<pb ed="#L" n="418"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>finem. Dicitur ergo quod optime subsumitur de fine in
+<lb ed="#L" n="2"/>hac ratione, sed secundo modo. Res enim quae in 
+pro<lb ed="#L" break="no" n="3"/>posito est finis, materialiter est Deus: ipsa autem subiectio
+<lb ed="#L" n="4"/>ad Deum est finis tanquam id quod circa Deum intenditur,
+<lb ed="#L" n="5"/>qui potest dici finis tanquam rei quae est finis assecutio.
+<lb ed="#L" n="6"/>Et quia maiorem subiectionem ad Deum intendit qui 
+ali<lb ed="#L" break="no" n="7"/>quid agit propter Deum ex voto quam qui agit non ex
+<lb ed="#L" n="8"/>voto, ideo eminentior est finis sui operis quam finis operis
+<lb ed="#L" n="9"/>non operantis ex voto. Unde Sanctus Thomas Il II ,
+<lb ed="#L" n="10"/>hanc rationem pertractans, ait quod i/le qui aliquid vovet
+<lb ed="#L" n="11"/>et. facit, magis. se subiicit Deo quam qui facit solum. —
+<lb ed="#L" n="12"/>Exemplum etiam est ad propositum. Nam licet longitudo
+<lb ed="#L" n="13"/>viae, absolute sumpta, habeat rationem ordinati ad finem,
+<lb ed="#L" n="14"/>tamen labor intentus per ipsam ad acquirendam virtutem,
+<lb ed="#L" n="15"/>habet rationem finis proximi, Et ideo, quia proponens 
+lon<lb ed="#L" break="no" n="16"/>gam viam agere propter virtutem, intendit maiorem laborem
+<lb ed="#L" n="17"/>in.acquirenda. virtute quam proponens brevem viam agere,
+<lb ed="#L" n="18"/>ideo eminentiorem finem intendit.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>2. Ad secundum dicitur. quod - facere. aliquid : maius
+<lb ed="#L" n="20"/>propter Deum, ceteris paribus, est. virtuosius, quia maiorem
+<lb ed="#L" n="21"/>Dei dilectionem ostendit: sicut qui maius aliquid et 
+dif<lb ed="#L" break="no" n="22"/>ficilius propter amicum operatur, ostendit se illum magis
+<lb ed="#L" n="23"/>diligere. Ideo qui,magis se subiicit Deo, virtuosius 
+ope<lb ed="#L" break="no" n="24"/>ratur. — Non obstat autem vidua illa.. Quia licet id quod
+<lb ed="#L" n="25"/>obtulit parum fuerit, et minus quam id quod divites 
+of<lb ed="#L" break="no" n="26"/>ferebant, considerata, rei quantitate absolute; erat tamen
+<lb ed="#L" n="27"/>magnum per comparationem ad ipsam, quae paupercula
+<lb ed="#L" n="28"/>erat. Unde, considerata eius. paupertate, maius offerebat
+<lb ed="#L" n="29"/>quam divites. Hoc. autem ostendit Dominus cum ait quod
+<lb ed="#L" n="30"/>omnes ex eo quod abundabat illis, miserunt: haec vero,
+<lb ed="#L" n="31"/>de penuria sua, omnia quae habuit misit. Et. sic. patet
+<lb ed="#L" n="32"/>quod non -erat' paritas ex parte offerentium.
+<lb ed="#L" n="33"/>VII. Tertio . llle qui vovit se aliquid facturum, 
+inten<lb ed="#L" break="no" n="34"/>tius , idest maiori intentione, illud voluit quam qui 
+sim<lb ed="#L" break="no" n="35"/>pliciter facere disponit. Ergo ex hac intentione redditur
+<lb ed="#L" n="36"/>executio voti cum intentione quadam laudabilis, etiam
+<lb ed="#L" n="37"/>quando voluntas vel non actu fertur in opus, vel remisse.
+<lb ed="#L" n="38"/>Ergo laudabilius fit quod ex voto fit quam quod fit sine
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="39"/>voto: ceteris tamen paribus. — Antecedens probatur. Quia
+<lb ed="#L" n="40"/>vovens non solum facere voluit, sed voluit se firmare ut
+<lb ed="#L" n="41"/>non deficeret a faciendo. — Consequentia vero prima 
+pro<lb ed="#L" break="no" n="42"/>batur: quia voluntas praecedens actum manet virtute in
+<lb ed="#L" n="43"/>tota consecutione actus, et ipsum laudabilem reddit, etiam
+<lb ed="#L" n="44"/>quando de tali proposito voluntatis in executione operis
+<lb ed="#L" n="45"/>non cogitatur.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="47"/>cum quis aliquid vovet, voluntatis intentio in duo fertur,
+<lb ed="#L" n="48"/>scilicet in id quod se facturum vovet, et in immobilitatem
+<lb ed="#L" n="49"/>voluntatis ac firmitatem: vult enim voluntatem suam esse
+<lb ed="#L" n="50"/>firmatam ac stabilitam in eo faciendo, ita quod non liceat
+<lb ed="#L" n="51"/>sibi deinceps ab illo proposito resilire. Propter hoc dicitur
+<lb ed="#L" n="52"/>quod vovens se aliquid facturum, intentius in illud fertur
+<lb ed="#L" n="53"/>quam non vovens et agens, cuius voluntas non fertur nisi
+<lb ed="#L" n="54"/>in actum. Et quia haec intentio voventis laudabilis est;
+<lb ed="#L" n="55"/>laudabiliorque quam intentio proponentis se aliquod bonum
+<lb ed="#L" n="56"/>facturum sed non voventis; et manet virtute in executione
+<lb ed="#L" n="57"/>operis etiam quando de tali proposito voluntatis non 
+co<lb ed="#L" break="no" n="58"/>gitatur: ideo actus ipse in executione, ex illa intentione
+<lb ed="#L" n="59"/>prima voventis, qua disposuit se firmiter et immobiliter
+<lb ed="#L" n="60"/>operari, aliquam laudabilitatem habet quam non habet
+<lb ed="#L" n="61"/>opus factum non ex voto. Propterea optime infert 
+San<lb ed="#L" break="no" n="62"/>ctus Thomas ex illa prima intentione voventis, actum
+<lb ed="#L" n="63"/>factum ex voto laudabiliorem esse quam' sit actus qui non
+<lb ed="#L" n="64"/>est factus ex voto. lip
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Notanda sunt autem verba ultima Sancti Thomae, 
+sci<lb ed="#L" break="no" n="66"/>licet: ceteris paribus. Ex hoc enim datur intelligi quod,
+<lb ed="#L" n="67"/>de eodem actu loquendo, puta abstinentiae, castitatis et
+<lb ed="#L" n="68"/>huiusmodi, est laudabilius illud facere ex voto quam facere
+<lb ed="#L" n="69"/>sine voto, eisdem et aequalibus circumstantiis occurrentibus:
+<lb ed="#L" n="70"/>sed ubi cetera non sunt paria, puta quod unus. maiori
+<lb ed="#L" n="71"/>caritate ageret id quod sine voto agit, quam alius agat
+<lb ed="#L" n="72"/>id ad quod voto obligatur, et similia, non est necesse 
+lauda<lb ed="#L" break="no" n="73"/>bilius esse agere ex voto quam agere sine voto.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Hanc materiam plenissime pertractat Sanctus Thomas
+<lb ed="#L" n="75"/>Secunda Secundae, loco praeallegato ; et in Tractatu de
+<lb ed="#L" n="76"/>Perfectione Vitae Spiritualis, capite xu. !
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

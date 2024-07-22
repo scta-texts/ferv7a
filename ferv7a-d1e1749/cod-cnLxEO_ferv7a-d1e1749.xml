@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 5</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 5</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="15"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1749"><!-- ferv7a-l3c5 -->
+            <head xml:id="ferv7a-d1e1749-Hd1e101">Capitulum 5</head>
+            <p xml:id="ferv7a-d1e1749-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="85" type="fixed=15"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1749-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="86"/>QUIA contra determinatam veritatem aliquae rationes
+<lb ed="#L" n="87"/>sunt quae difficultatem afferunt, ideo illas Sanctus
+<lb ed="#L" n="88"/>Thomas, ut completa et integra veritas habeatur, primo
+<lb ed="#L" n="89"/>adducit; secundo solvit, capite sequenti .
+</p>
+            <p xml:id="ferv7a-d1e1749-d1e123">
+               <lb ed="#L" n="90"/>I. Quantum ad primum, arguit primo sic. Malum in
+<lb ed="#L" n="91"/>naturalibus est semper: cum generationi semper sit 
+con<lb ed="#L" break="no" n="92"/>iuncta corruptio. In voluntariis etiam peccatum in pluribus
+<lb ed="#L" n="93"/>accidit: cum difficile sit operari secundum virtutem, II 
+Ethi<lb ed="#L" break="no" n="94"/>corum. Ergo malum non provenit praeter intentionem. —
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="95"/>Probatur consequentia. Quia quod est praeter intentionem
+<lb ed="#L" n="96"/>est fortuitum et casuale, et in paucioribus accidens.
+</p>
+            <p xml:id="ferv7a-d1e1749-d1e143">
+               <lb ed="#L" n="97"/>Secundo, Tertio Ethicorum dicitur quod malitia est
+<lb ed="#L" n="98"/>voluntaria. Ergo malum non est praeter voluntatem, vel
+<lb ed="#L" n="99"/>intentionem.
+</p>
+            <p xml:id="ferv7a-d1e1749-d1e153">
+               <lb ed="#L" n="100"/>Tertio. Corruptio est mutatio naturalis. Ergo finis eius,
+<lb ed="#L" n="101"/>qui est privatio habens rationem» mali, est intentus a 
+na<lb ed="#L" break="no" n="102"/>tura. — Probatur consequentia. Quia omnis motus 
+natu<lb ed="#L" break="no" n="103"/>ralis habet finem intentum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

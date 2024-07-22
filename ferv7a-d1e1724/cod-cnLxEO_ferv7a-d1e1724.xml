@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 2</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 2</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="6"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1724"><!-- ferv7a-l3c2 -->
+            <head xml:id="ferv7a-d1e1724-Hd1e101">Capitulum 2</head>
+            <p xml:id="ferv7a-d1e1724-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="79" type="fixed=6"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="80"/>POSITO prooemio, accedit Sanctus Thomas ad primam
+<lb ed="#L" n="81"/>partem propositi sui, scilicet iuxta divisionem ab eo
+<lb ed="#L" n="82"/>positam; scilicet ad determinandum de Deo secundum
+<lb ed="#L" n="83"/>quod. est rerum omnium finis .
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e123">
+               <lb ed="#L" n="84"/>Circa hoc autem duo facit: primo, ostendit finem 
+cu<lb ed="#L" break="no" n="85"/>iuslibet rei esse bonum; secundo, omnia ordinari in Deum
+<lb ed="#L" n="86"/>sicut in finem, cap. xvi. '
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e132">
+               <lb ed="#L" n="87"/>Circa primum duo facit: primo, ostendit omnia agere 
+prop<lb ed="#L" break="no" n="88"/>ter aliquid; secundo, cuiuslibet rei finem esse bonum, cap. xvr.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e140">
+               <lb ed="#L" n="89"/>Circa primum duo facit: primo, ostendit omnia agere
+<lb ed="#L" n="90"/>propter finem; secundo, omnia agere propter bonum, 
+ca<lb ed="#L" break="no" n="91"/>pite sequenti. — Circa primum duo facit: primo, probat
+<lb ed="#L" n="92"/>propositum; secundo removet unum dubium .
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e151">
+               <lb ed="#L" n="93"/>Advertendum autem quod, cum finis habeat rationem
+<lb ed="#L" n="94"/>ultimi et rationem causae, in hoc capite non agitur de
+<lb ed="#L" n="95"/>fine ut habet rationem causae, sed ut habet rationem ultimi.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e160">
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="96"/>I. Arguit igitur primo sic, ad probandum quod omnia
+<lb ed="#L" n="97"/>agunt propter finem.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e169">
+               <lb ed="#L" n="98"/>Omnis agentis impetus ad aliquid certum tendit: 
+quan<lb ed="#L" break="no" n="99"/>doque quidem ad actionem ipsam; quandoque vero ad
+<lb ed="#L" n="100"/>aliquid factum per actionem. Ergo omne agens in agendo
+<lb ed="#L" n="101"/>intendit finem: aut actionem, quando actio non terminatur
+<lb ed="#L" n="102"/>ad aliquod factum; aut operatum per PER si SHiquid per
+<lb ed="#L" n="103"/>ipsam efficiatur.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e185">
+               <lb ed="#L" n="104"/>Probatur antecedens. Tum quia.non ex quacumque
+<lb ed="#L" n="105"/>virtute quaevis actio procedit: ut- patet in calore et 
+fri<lb ed="#L" break="no" n="106"/>gore. Tum quia actiones specie. differunt secundum 
+di<lb ed="#L" break="no" n="107"/>versitatem activorum. — Consequentia quoque probatur.
+<lb ed="#L" n="108"/>Quia in manifeste agentibus propter finem hoc dicimus
+<lb ed="#L" n="109"/>esse finem in quod tendit impetus, idest actualis inclinatio
+<lb ed="#L" n="110"/>et motio, agentis: quia dum agens illud adipiscitur, dicitur
+<lb ed="#L" n="111"/>adipisci finem, et dum ab eo deficit, dicitur deficere a fine
+<pb ed="#L" n="7"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>intento, sive cognoscat finem sive non cognoscat; ut patet
+<lb ed="#L" n="2"/>in medico. sanante, et homine currente. -
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e214">
+               <lb ed="#L" n="3"/>Adverte, cum. dicitur quandoque terminari actionem
+<lb ed="#L" n="4"/>ad aliquod factum, ut. domificationem ad domum et 
+sa<lb ed="#L" break="no" n="5"/>nationem ad sanitatem, quandoque vero non, ut 
+intelli<lb ed="#L" break="no" n="6"/>gere et sentire: quod intelligitur de facto ad cuius 
+per<lb ed="#L" break="no" n="7"/>fectionem ordinatur operatio; non autem de facto quod
+<lb ed="#L" n="8"/>propter perfectionem operationis efficitur. Intelligere enim
+<lb ed="#L" n="9"/>non habet aliquid factum per ipsam ad cuius perfectionem
+<lb ed="#L" n="10"/>ordinetur: sed bene habet aliquid: factum quod est ad 
+com<lb ed="#L" break="no" n="11"/>plementum et perfectionem ipsius intellectionis ordinatum.
+<lb ed="#L" n="12"/>Ideo dicitur absolute intellectionem non habere aliquod
+<lb ed="#L" n="13"/>factum per ipsam: domificatio autem dicitur habere 
+ali<lb ed="#L" break="no" n="14"/>quod per ipsam factum, quia terminatur ad aliquid per
+<lb ed="#L" n="15"/>ipsam productum, non tanquam ad id quod producatur
+<lb ed="#L" n="16"/>propter perfectionem operationis, sed tanquam ad id ad
+<lb ed="#L" n="17"/>quod perficiendum ordinatur operatio. Unde bene dicitur
+<lb ed="#L" n="18"/>quod in iis quae habent aliquod tale factum, ipsum factum
+<lb ed="#L" n="19"/>est finis; in iis autem quae non habent aliquod tale factum,
+<lb ed="#L" n="20"/>ipsa operatio est finis: quia videlicet in illis operatio 
+inten<lb ed="#L" break="no" n="21"/>ditur propter factum ad cuius perfectionem ordinatur; in
+<lb ed="#L" n="22"/>istisautem operatum intenditur propter ipsam operationem,
+<lb ed="#L" n="23"/>propter cuius complementum et perfectionem intenditur.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e263">
+               <lb ed="#L" n="24"/>II. Secundo. In actione cuiuslibet agentis est venire ad 
+<lb ed="#L" n="25"/>aliquid ultra quod agens non quaerit aliquid. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e270">
+               <lb ed="#L" n="26"/>Probatur consequentia. Quia in omnibus agentibus 
+pro<lb ed="#L" break="no" n="27"/>pter finem, hoc esse ultimum finem dicimus ultra: quod
+<lb ed="#L" n="28"/>agens non quaerit aliquid, ut sanitas respectu medici. — 
+Pro<lb ed="#L" break="no" n="29"/>batur etiam antecedens. Quia alias procederent in infinitum
+<lb ed="#L" n="30"/>actiones. Quod est. impossibile: quia agens non inciperet
+<lb ed="#L" n="31"/>agere, cum nihil moveatur ad id ad quod est impossibile
+<lb ed="#L" n="32"/>pervenire; infinita autem: non contingit pertransire.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e288">
+               <lb ed="#L" n="33"/>III. Tertio: et est confirmatio praecedentis. Impossibile
+<lb ed="#L" n="34"/>est ut actiones in infinitum procedant. Ergo oportet esse
+<lb ed="#L" n="35"/>aliquid quo habito conatus agentis quiescat. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e297">
+               <lb ed="#L" n="36"/>Probatur antecedens. Si actiones agentis procedant in
+<lb ed="#L" n="37"/>infinitum, aut ex illis sequitur aliquod. factum, aut non.
+<lb ed="#L" n="38"/>Non primum. Quia impossibile est ut agens incipiat 
+fa<lb ed="#L" break="no" n="39"/>cere aliquod factum ad quod praeexiguntur actiones 
+infi<lb ed="#L" break="no" n="40"/>nitae: tale enim impossibile est esse, et per consequens
+<lb ed="#L" n="41"/>impossibile est fieri, et sic illud facere est impossibile. —
+<lb ed="#L" n="42"/>Non etiam secundum. Quia si accipiatur ordo huiusmodi
+<lb ed="#L" n="43"/>actionum secundum ordinem virtutum activarum, ut est
+<lb ed="#L" n="44"/>ordo inter sentire, imaginari, intelligere et velle, 
+inquan<lb ed="#L" break="no" n="45"/>tum unum est propter aliud, patet quod non est possibile
+<lb ed="#L" n="46"/>procedere in infinitum in virtutibus activis, sicut neque
+<lb ed="#L" n="47"/>in formis rerum, ex II Metaph., text. 10, cum forma sit
+<lb ed="#L" n="48"/>agendi principium. Si etiam accipiatur ordo ipsarum 
+se<lb ed="#L" break="no" n="49"/>cundum ordinem obiectorum, sicut est ordo in 
+conside<lb ed="#L" break="no" n="50"/>Tatione corporis, animae, substantiae separatae, et Dei,
+<lb ed="#L" n="51"/>incipiendo a corpore, ut scilicet consideratio unius sit ut
+<lb ed="#L" n="52"/>deveniatur ad alterius considerationem: sic non est 
+pro<lb ed="#L" break="no" n="53"/>'essus in infinitum; quia neque in obiectis est processus
+<lb ed="#L" n="54"/>in infinitum, sicut neque in entibus, cum sit unum 
+pri<lb ed="#L" break="no" n="55"/>Tum ens, ut supra probatum est.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e343">
+               <lb ed="#L" n="56"/>2. Circa istam rationem dubium occurrit. Posset enim
+<lb ed="#L" n="57"/>aliquis dicere quod, licet non sit processus in infinitum
+<lb ed="#L" n="58"/>in obiectis per se ordinatis, sicut nec in entibus, tamen
+<lb ed="#L" n="59"/>nihil prohibet esse processum in infinitum in 
+accidenta<lb ed="#L" break="no" n="60"/>liter ordinatis, Et sic operationes possunt procedere in
+<lb ed="#L" n="61"/>infinitum: sicut, posita aeternitate mundi, generarentur res
+<lb ed="#L" n="62"/>in infinitum, et generationes sibi in infinitum. succederent.
+<lb ed="#L" n="63"/>Et sic unum agens potest producere unam actionem 
+pro<lb ed="#L" break="no" n="64"/>pter aliam, et illam propter aliam, in infinitum.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e365">
+               <lb ed="#L" n="65"/>Respondetur quod aliud est loqui de. actionibus per
+<lb ed="#L" n="66"/>quas aliquod factum producitur: et aliud de actionibus
+<lb ed="#L" n="67"/>ex quibus nullum factum sequitur, cuiusmodi sunt 
+intel<lb ed="#L" break="no" n="68"/>ligere et sentire. Ubi enim sequitur aliquod factum, sicut
+<lb ed="#L" n="69"/>in generationibus, est quidem processus in infinitum 
+re<lb ed="#L" break="no" n="70"/>spectu diversorum genitorum, quia in infinitum singularia
+<lb ed="#L" n="71"/>generari possunt: sed respectu unius obiecti producendi
+<lb ed="#L" n="72"/>non potest esse processus in infinitum in actionibus, quia
+<lb ed="#L" n="73"/>nunquam compleretur eius productio. — Ubi autem ex 
+actio<lb ed="#L" break="no" n="74"/>nibus non sequitur aliquod factum, non potest esse 
+pro<lb ed="#L" break="no" n="75"/>cessus in infinitum ex processu obiectorum formalium in
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>infinitum: quia formalia obiecta non sunt infinita. Sed
+<lb ed="#L" n="77"/>bene posset esse processus in infinitum absolute circa 
+ma<lb ed="#L" break="no" n="78"/>terialia obiecta, quae sibi invicem in infinitum: succedunt,
+<lb ed="#L" n="79"/>si agens in infinitum duraret. Sed non potest esse 
+pro<lb ed="#L" break="no" n="80"/>cessus in infinitum ordinatus, ita quod una operatio. sit
+<lb ed="#L" n="81"/>propter aliam intenta, et illa propter aliam, in infinitum.
+<lb ed="#L" n="82"/>Et hoc modo intelligitur quod hic dicit Sanctus "Thomas
+<lb ed="#L" n="83"/>de processu in infinitum actionum ex quibus nullum 
+fa<lb ed="#L" break="no" n="84"/>ctum sequitur. Talem enim ordinem non habent 
+consi<lb ed="#L" break="no" n="85"/>derationes diversorum singularium unius naturae: quia
+<lb ed="#L" n="86"/>cognitio unius illorum non potest esse ratio cognitionis
+<lb ed="#L" n="87"/>alterius in infinitum procedendo, quia non omnia individua
+<lb ed="#L" n="88"/>sic sunt ordinata ut unum, quantum est ex se, sit nobis
+<lb ed="#L" n="89"/>notius quam. alterum quoad intellectum. Et similiter est
+<lb ed="#L" n="90"/>in omnibus aliis huiusmodi operationibus.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e427">
+               <lb ed="#L" n="91"/>IV. Quarto. Sequeretur principia activa in infinitum
+<lb ed="#L" n="92"/>procedere. Hoc est falsum, ut est ostensum: scilicet in
+<lb ed="#L" n="93"/>praecedenti ratione. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="94"/>Quia in iis quae agunt propter finem, omnia intermedia
+<lb ed="#L" n="95"/>inter agens et ultimum finem sunt fines respectu priorum,
+<lb ed="#L" n="96"/>et principia activa respectu sequentium.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e443">
+               <lb ed="#L" n="97"/>2. Circa hanc rationem duplex occurrit dubium. 
+Pri<lb ed="#L" break="no" n="98"/>mum. est, quia non videtur distingui a praecedenti ratione.
+<lb ed="#L" n="99"/>Probatum est enim etiam per illam non esse processum
+<lb ed="#L" n="100"/>in infinitum in actionibus quia non proceditur in infinitum
+<lb ed="#L" n="101"/>in virtutibus activis.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e456">
+               <lb ed="#L" n="102"/>Secundum est, quia videtur supponere Sanctua "Thomas
+<lb ed="#L" n="103"/>quod habet probare, scilicet quod sit aliquis ultimus finis
+<lb ed="#L" n="104"/>agentis. Hoc enim probandum est.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e465">
+               <lb ed="#L" n="105"/>3. Ad primum dicitur quod non est eadem haec ratio
+<lb ed="#L" n="106"/>cum praecedente, licet ad eam dependentiam habeat. Quia
+<lb ed="#L" n="107"/>in praecedenti ratione probatum est quod non est propter
+<lb ed="#L" n="108"/>infinitatem virtutum activarum ut actiones in infinitum
+<lb ed="#L" n="109"/>procedant, quia in ilis non proceditur in infinitum: hic
+<lb ed="#L" n="110"/>autem arguitur quod, si in actionibus proceditur in 
+infi<lb ed="#L" break="no" n="111"/>nitum, oportet ut ipsae virtutes in infinitum procedant,
+<lb ed="#L" n="112"/>quod falsum esse ostensum est.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e485">
+               <lb ed="#L" n="113"/>Ad secundum dicitur quod non supponit quod habet
+<lb ed="#L" n="114"/>probare. Intendit enim hanc universalem probare: Omne
+<lb ed="#L" n="115"/>agens agit. propter finem. Hoc autem non supponit, sed
+<lb ed="#L" n="116"/>supponitur in aliquibus quae manifeste propter finem
+<lb ed="#L" n="117"/>agunt, inveniri ultimum finem: sanans enim, ut sic, habet
+<lb ed="#L" n="118"/>pro ultimo fine sanitatem. Deinde, ex eo quod invenitur
+<lb ed="#L" n="119"/>in illis quae manifeste propter finem agunt, vult 
+propo<lb ed="#L" break="no" n="120"/>situm deducere universaliter. In illis enim manifestum est
+<lb ed="#L" n="121"/>quod intermedia sunt fines respectu priorum, et principia
+<lb ed="#L" n="122"/>activa respectu posteriorum: sicut medicina ab artifice
+<lb ed="#L" n="123"/>facta est causa sanitatis. Et ex hoc habetur quod, si 
+pro<lb ed="#L" break="no" n="124"/>cedatur in infinitum in actionibus, ita quod conatus agentis
+<lb ed="#L" n="125"/>non sit ad aliquid determinatum, priora facta erunt 
+pro<lb ed="#L" break="no" n="126"/>ductiva posteriorum in infinitum, supposito quod agens
+<lb ed="#L" n="127"/>agat unum propter aliud et illud propter aliud in 
+infini<lb ed="#L" break="no" n="128"/>tum, et sic erunt infinita principia activa et productiva.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e522">
+               <lb ed="#L" n="129"/>V. Quinto. Tam agens per intellectum, quam per 
+na<lb ed="#L" break="no" n="130"/>turam, agit propter finem. Ergo omne agens.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e530">
+               <lb ed="#L" n="131"/>Probatur antecedens. Quoad agentia quidem per 
+in<lb ed="#L" break="no" n="132"/>tellectum, quia agunt praeconcipientia in intellectu id quod
+<lb ed="#L" n="133"/>per actionem consequuntur, et ex tali praeconceptione
+<lb ed="#L" n="134"/>agunt. Hoc est enim agere per intellectum, — Quo vero ad
+<lb ed="#L" n="135"/>agentia naturalia, quia sicut in intellectu. praeconcipiente
+<lb ed="#L" n="136"/>praeexistit tota similitudo effectus ad. quem per actiones
+<lb ed="#L" n="137"/>intelligentis pervenitur, ita in agente naturali praeexistit
+<lb ed="#L" n="138"/>similitudo naturalis effectus, ex qua actio ad hunc effectum
+<lb ed="#L" n="139"/>determinatur, ut patet in productione ignis et olivae.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e552">
+               <lb ed="#L" n="140"/>Ad evidentiam huius rationis, quantum ad id quod
+<lb ed="#L" n="141"/>tangit de naturalibus agentibus, considerandum quod agens
+<lb ed="#L" n="142"/>per intellectum in aliquod determinatum tendit secundum
+<lb ed="#L" n="143"/>directionem ipsius conceptionis, quia agit per 
+conceptio<lb ed="#L" break="no" n="144"/>nem, quae est similitudo alicuius determinati: conceptio
+<lb ed="#L" n="145"/>enim agentis non dirigit nisi in illud cuius est similitudo,
+<lb ed="#L" n="146"/>quia omne agens producit formam similem formae per
+<lb ed="#L" n="147"/>quam agit, sicut domificator per conceptionem domus ad
+<lb ed="#L" n="148"/>nihil aliud producendum ordinatur quam ad domum. Et
+<lb ed="#L" n="149"/>quia ubi est eadem causa, debet idem effectus sequi, 
+pro<lb ed="#L" break="no" n="150"/>pterea, cum etiam in agente naturali sit similitudo effectus
+<pb ed="#L" n="8"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>naturalis, ad quem actio agentis per talem similitudinem
+<lb ed="#L" n="2"/>determinatur, sequitur ut etiam. agens naturale agat 
+pro<lb ed="#L" break="no" n="3"/>pter aliquid ultimum, et sic agat propter finem. Ultimum
+<lb ed="#L" n="4"/>enim quod. per suam actionem intendit agens naturale, est
+<lb ed="#L" n="5"/>similitudo: formae per quam agit; sicut ultimum quod 
+in<lb ed="#L" break="no" n="6"/>tendit.agens per intellectum, est id cui per suam 
+praecon<lb ed="#L" break="no" n="7"/>ceptionem- assimilatur: impetus enim agentis sequitur 
+in<lb ed="#L" break="no" n="8"/>clinationem formae per quam operatur. Et hoc est huius
+<lb ed="#L" n="9"/>rationis fundamentum.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e602">
+               <lb ed="#L" n="10"/>VI. Sexto. In agente per artem, et in agente per 
+na<lb ed="#L" break="no" n="11"/>turam, invenitur peccatum: sicut cum grammaticus non
+<lb ed="#L" n="12"/>loquitur: recte, et: cum, monstruosi partus producuntur.
+<lb ed="#L" n="13"/>Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e613">
+               <lb ed="#L" n="14"/>Probatur consequentia. .Quia :peccatum : non invenitur
+<lb ed="#L" n="15"/>nisi in iis quae sunt propter finem: non enim imputatur
+<lb ed="#L" n="16"/>alicui-ad peccatum si deficiat ab eo ad quod non est; sicut
+<lb ed="#L" n="17"/>non imputatur aedificatori aut grammatico si deficiat a 
+sa<lb ed="#L" break="no" n="18"/>nando, sed bene medico imputatur.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e626">
+               <lb ed="#L" n="19"/>Ad evidentiam fundamenti huius rationis, MaCHI etin
+<lb ed="#L" n="20"/>ex doctrina Sancti Thomae I II^, q. xxr, a. 1; et Malo,
+<lb ed="#L" n="21"/>q. 11, a. 1, quod peccatum, sive in naturalibus sive in 
+arti<lb ed="#L" break="no" n="22"/>ficialibus, secundum Aristotelem, II Physic. , consistit in
+<lb ed="#L" n="23"/>actu qui agitur propter finem, non quidem ut peccatum
+<lb ed="#L" n="24"/>agentis sit absolute non consequi finem, cum contingat
+<lb ed="#L" n="25"/>aliquando ut agens non consequatur finem non propter
+<lb ed="#L" n="26"/>defectum naturae aut artis, sed aliunde, sicut quod. natura
+<lb ed="#L" n="27"/>non digerat ferrum in. stomacho, est quia est indigestibile,
+<lb ed="#L" n="28"/>et quod medicus non inducat sanitatem, aliquando accidit
+<lb ed="#L" n="29"/>quia aut infirmus habet aegritudinem incurabilem, aut 
+ali<lb ed="#L" break="no" n="30"/>quod contra sanitatem agit: sed contingit agens. peccare
+<lb ed="#L" n="31"/>quando producit operationem non habentem debitum 
+or<lb ed="#L" break="no" n="32"/>dinem ad finem. Medico enim imputatur si deficiat a 
+sa<lb ed="#L" break="no" n="33"/>nando, quando propter defectum suae operationis hoc
+<lb ed="#L" n="34"/>evenit, quia scilicet non operatur secundum regulam artis:
+<lb ed="#L" n="35"/>unde si etiam introduceret sanitatem non operando 
+se<lb ed="#L" break="no" n="36"/>cundum regulas artis, nihilominus peccaret, propter 
+inor<lb ed="#L" break="no" n="37"/>dinationem operationis. Propter quod, cum inquit Sanctus
+<lb ed="#L" n="38"/>Thomas medicum peccare si deficiat a sanando, 
+intelli<lb ed="#L" break="no" n="39"/>gendum est, si defectus sanationis proveniat ex eo quod
+<lb ed="#L" n="40"/>a regulis medicinae divertit. Fundamentum ergo rationis
+<lb ed="#L" n="41"/>huius est hoc solum, scilicet quod peccatum invenitur
+<lb ed="#L" n="42"/>tantum in iis quae sunt propter finem; non autem hoc,
+<lb ed="#L" n="43"/>quod consistat in non assecutione finis absolute. Sive enim
+<lb ed="#L" n="44"/>quis assequatur finem operando sive non, satis est 
+pro<lb ed="#L" break="no" n="45"/>posito quod ubicumque invenitur peccatum, ibi invenitur
+<lb ed="#L" n="46"/>ordo ad finem.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e689">
+               <lb ed="#L" n="47"/>VII. Septimo. Si agens non tenderet ad aliquem 
+deter<lb ed="#L" break="no" n="48"/>rninatum effectum, impossibile esset ut ageret. Quia omnes
+<lb ed="#L" n="49"/>effectus essent illi indifferentes: quod autem indifferenter
+<lb ed="#L" n="50"/>se habet ad multa, non magis unum eorum operatur quam
+<lb ed="#L" n="51"/>aliud, nisi determinetur per aliquid ad unum.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e703">
+               <lb ed="#L" n="52"/>Ad hanc rationem dici posset quod agens multis 
+actio<lb ed="#L" break="no" n="53"/>nibus agit, et quod determinatur ad aliquid agendum una
+<lb ed="#L" n="54"/>actione; sed quia illud ad aliud ordinat, et illud ad aliud
+<lb ed="#L" n="55"/>in infinitum, ideo non tendit ad aliquod ultimum quod
+<lb ed="#L" n="56"/>sit eius finis.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e716">
+               <lb ed="#L" n="57"/>Sed haec responsio non est ad mentem rationis. Tum
+<lb ed="#L" n="58"/>quia sufficit ad rationem quod unaquaeque actio habeat
+<lb ed="#L" n="59"/>aliquem determinatum effectum ab agente intentum. Talis
+<lb ed="#L" n="60"/>enim effectus erit finis agentis illa actione; et sic agens,
+<lb ed="#L" n="61"/>inquantum agens, unaquaque actione agit propter finem,
+<lb ed="#L" n="62"/>cum agat ad aliquid determinatum, non autem in 
+incer<lb ed="#L" break="no" n="63"/>tum; quod erat intentum. — Tum quia ostensum est 
+su<lb ed="#L" break="no" n="64"/>pra  actiones agentis non posse in infinitum procedere
+<lb ed="#L" n="65"/>secundum ordinem unius ad alterum.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e738">
+               <lb ed="#L" n="66"/>Quomodo autem a causa contingente ad utrumlibet non
+<lb ed="#L" n="67"/>sequatur effectus nisi per aliquid determinatur, declaratum
+<lb ed="#L" n="68"/>est in primo libro .
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e747">
+               <lb ed="#L" n="69"/>VIIL. Quantum. ad. secundum, removet Sanctus 
+Tho<lb ed="#L" break="no" n="70"/>mas dubium quoddam. Posset enim aliquis opinari quod
+<lb ed="#L" n="71"/>sit agens aliquod non operans propter finem, quia actiones
+<lb ed="#L" n="72"/>ludicrae et contemplatoriae, et quae absque intentione
+<lb ed="#L" n="73"/>fiunt, ut confricatio barbae, non videntur propter finem
+<lb ed="#L" n="74"/>aliquem esse.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e763">
+               <lb ed="#L" n="75"/>Respondet Sanctus Thomas, et dicit tria. Primo, qd
+<lb ed="#L" n="76"/>actiones contemplativae non sunt propter aliquem finem;
+<lb ed="#L" n="77"/>sed ipsae sunt finis.. — Secundo, quod actiones ludicrae
+<lb ed="#L" n="78"/>sunt finis quando quis ludit solum propter delectationem
+<lb ed="#L" n="79"/>quae est in ludo: sunt autem propter. finem cum 
+ludi<lb ed="#L" break="no" n="80"/>mus ut postmodum: fortius secundo agamus .: — "Tertio,
+<lb ed="#L" n="81"/>quod actiones absque. attentione factae non sunt ab 
+in<lb ed="#L" break="no" n="82"/>tellectu, sed aut ab aliqua subita imaginatione; aut a 
+na<lb ed="#L" break="no" n="83"/>turali principio, sicut inordinatio humorum pruritum 
+ex<lb ed="#L" break="no" n="84"/>citans est causa illius confricationis barbae. Et hae actiones
+<lb ed="#L" n="85"/>ad aliquos fines tendunt, licet praeter ordinem intellectus.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e789">
+               <lb ed="#L" n="86"/>2. Circa primum. dictum, advertendum quod ex ipso
+<lb ed="#L" n="87"/>habetur non oportere, ad hoc quod aliquid: agat: propter
+<lb ed="#L" n="88"/>finem, ut eius operatio ad aliud. tanquam ad finem 
+or<lb ed="#L" break="no" n="89"/>dinetur, sed sufficit quod ipsa sit ultimum quod illa actione
+<lb ed="#L" n="90"/>intenditur. Sive enim agens intendat aliquod aliud praeter
+<lb ed="#L" n="91"/>operationem, sive ipsam tantum operationem, dicitur 
+sem<lb ed="#L" break="no" n="92"/>per agere propter finem, idest propter aliquid ultimo in- -
+<lb ed="#L" n="93"/>tentum.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e810">
+               <lb ed="#L" n="94"/>3. Circa. secundum dictum dubitatur, quia videbur's 
+im<lb ed="#L" break="no" n="95"/>plicari contradictio. Delectatio enim quae est in 
+opera<lb ed="#L" break="no" n="96"/>tione, est aliud ab operatione ludicra: quia ipsa ad 
+appe<lb ed="#L" break="no" n="97"/>titum pertinet, operatio autem ad aliam potentiam. Si
+<lb ed="#L" n="98"/>ergo aliquis ludat propter delectationem quae est. in ludo,
+<lb ed="#L" n="99"/>ipsa.operatio ordinatur ad delectationem sicut ad finem;
+<lb ed="#L" n="100"/>et per:consequens operatio. ipsa non est finis. Et sic 
+im<lb ed="#L" break="no" n="101"/>plicat dicere quod operatio ludicra est finis quando quis
+<lb ed="#L" n="102"/>ludit solum propter delectationem quae est in ludo.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e832">
+               <lb ed="#L" n="103"/>Augetur dubitatio. Quia II I^, q. CLXXX, a. 1; et 7, ad i,
+<lb ed="#L" n="104"/>dicitur quod contemplatio terminatur in affectu. Et hoc
+<lb ed="#L" n="105"/>etiam contra primum dictum procedit.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e841">
+               <lb ed="#L" n="106"/>Respondetur, ex doctrina Sancti Thomae IV-Sent.,d. xxix,
+<lb ed="#L" n="107"/>q. rrt, a. 4, qu 3, quod delectatio consequens aliquam 
+ope<lb ed="#L" break="no" n="108"/>rationem et ipsa operatio non sunt consideranda 
+tan<lb ed="#L" break="no" n="109"/>quam duo bona, sed tanquam unum: quia ex ipsis fit una
+<lb ed="#L" n="110"/>operatio perfecta, sicut ex perfectibili et sua perfectione.
+<lb ed="#L" n="111"/>Et ideo loquitur hic Sanctus. Thomas de operatione et
+<lb ed="#L" n="112"/>delectatione tanquam de uno intento ab agente: non 
+au<lb ed="#L" break="no" n="113"/>tem tanquam sint duo intenta quorum unum propter aliud
+<lb ed="#L" n="114"/>intendatur, contra quem sensum procedit obiectio. — Utrum
+<lb ed="#L" n="115"/>autem, si considerentur tanquam duo intenta, delectatio
+<lb ed="#L" n="116"/>sit finis, an magis operatio ad quam cstdeuiten, 
+osten<lb ed="#L" break="no" n="117"/>detur inferius, capite xxvr.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e870">
+               <lb ed="#L" n="118"/>Ad confirmationem dicitur, pro nunc, quod loqui
+<lb ed="#L" n="119"/>ibidem Sanctus Thomas de operatione ut distinguitur a
+<lb ed="#L" n="120"/>delectatione: secundum quem modum potest dici 
+delecta<lb ed="#L" break="no" n="121"/>tionem aliquo modo esse. finem, licet non sit simpliciter
+<lb ed="#L" n="122"/>finis, ut inferius ostendetur. Hic autem loquitur de 
+utro<lb ed="#L" break="no" n="123"/>que tanquam de uno intento, ita quod delectatio et 
+ope<lb ed="#L" break="no" n="124"/>ratio simul intenta non ordinantur in contemplatione aut
+<lb ed="#L" n="125"/>in tali operatione ludicra ad alium finem, sed ipsa tunc,
+<lb ed="#L" n="126"/>cum sua delectatione coniuncta, est finis et ultimum 
+in<lb ed="#L" break="no" n="127"/>tentum.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e894">
+               <lb ed="#L" n="128"/>4. Circa tertium dictum, attendendum quod vult 
+San<lb ed="#L" break="no" n="129"/>ctus Thomas per illud quod huiusmodi quae ex 
+impro<lb ed="#L" break="no" n="130"/>viso eveniunt actiones, non sunt quidem per intellectum
+<lb ed="#L" n="131"/>ad aliquem finem ordinatae, sed bene a natura aut 
+ima<lb ed="#L" break="no" n="132"/>ginatione ad aliquid ordinantur, puta coniricatio barbae
+<lb ed="#L" n="133"/>ad pruritus exclusionem.
+</p>
+            <p xml:id="ferv7a-d1e1724-d1e910">
+               <lb ed="#L" n="134"/>Ex his excluditur error Naturalium antiquorum, causam
+<lb ed="#L" n="135"/>finalem a rebus abstrahentium, omniaque ex necessitate
+<lb ed="#L" n="136"/>materiae fieri ponentium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 21</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 21</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="51"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1879"><!-- ferv7a-l3c21 -->
+            <head xml:id="ferv7a-d1e1879-Hd1e101">Capitulum 21</head>
+            <p xml:id="ferv7a-d1e1879-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="31" type="fixed=51"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="32"/>OSTENSO quod res intendunt Deo assimilari quantum
+<lb ed="#L" n="33"/>ad bonitatem, probat nunc Sanctus Thomas quod
+<lb ed="#L" n="34"/>intendant ei assimilari quantum ad causalitatem .
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e121">
+               <lb ed="#L" n="35"/>Duplex autem potest esse sensus huius intenti. Unus,
+<lb ed="#L" n="36"/>quod omnis res creata inclinatur ad causandum aliquid,
+<lb ed="#L" n="37"/>et ad hoc ut in causando assimiletur Deo. Alius, quod
+<lb ed="#L" n="38"/>res creata quae est alterius causa, per hoc quod aliud
+<lb ed="#L" n="39"/>causat, tendit in divinam similitudinem. Licet autem 
+uter<lb ed="#L" break="no" n="40"/>que sensus aliquo modo veritatem habeat, et possit litterae
+<lb ed="#L" n="41"/>adaptari: — videtur enim unaquaeque res in actu per suam
+<lb ed="#L" n="42"/>formam posse aliquid causare, ut videtur velle Sanctus
+<lb ed="#L" n="43"/>"Thomas I Ethic., lect. 10 (licet non omnis possit causare
+<lb ed="#L" n="44"/>sibi simile in specie), et per consequens inclinatur ad 
+cau<lb ed="#L" break="no" n="45"/>sandum, et intendit in hoc assimilari Deo: similiter 
+unum<lb ed="#L" break="no" n="46"/>quodque agens, dum agit, intendit in agendo aliquam Dei
+<lb ed="#L" n="47"/>similitudinem — secundus tamen sensus magis videtur hoc
+<lb ed="#L" n="48"/>loco intendi, quantum ex rationibus constare potest.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e154">
+               <lb ed="#L" n="49"/>Circa hoc autem duo facit Sanctus Thomas: primo
+<lb ed="#L" n="50"/>enim probat propositum; secundo, circa finem capituli ,
+<lb ed="#L" n="51"/>ostendit quod haec assimilatio ad Deum in causando est
+<lb ed="#L" n="52"/>superior rei perfectio .
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e166">
+               <lb ed="#L" n="53"/>I. Quantum ad primum, arguit primo sic. Res creatae
+<lb ed="#L" n="54"/>tendunt in divinam similitudinem per suam operationem.
+<lb ed="#L" n="55"/>Ergo intendunt in hoc divinam similitudinem ut sunt aliis
+<lb ed="#L" n="56"/>causa. — Probatur consequentia. Quia per suam 
+opera<lb ed="#L" break="no" n="57"/>tionem una res fit causa alterius.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e179">
+               <lb ed="#L" n="58"/>Pro declaratione huius rationis, attendendum quod hic
+<lb ed="#L" n="59"/>non sumitur operatio communiter, ut in capite sequenti;
+<lb ed="#L" n="60"/>sed pro sola actione transeunte. Unde antecedentis sensus
+<lb ed="#L" n="61"/>est quod unumquodque per suam actionem intendit Deo
+<lb ed="#L" n="62"/>assimilari. Similiter alia propositio in hoc sensu vera est,
+<lb ed="#L" n="63"/>scilicet quod per suam actionem una res est causa alterius.
+<lb ed="#L" n="64"/>Sensus ergo rationis est quod ideo res creata in causando
+<lb ed="#L" n="65"/>tendit in divinam similitudinem, quia causat per suam
+<lb ed="#L" n="66"/>actionem; per actionem autem intendit Deo assimilari,
+<lb ed="#L" n="67"/>tanquam per complementum .suae perfectionis.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e203">
+               <lb ed="#L" n="68"/>II. Secundo. Res intendunt Deo assimilari inquantum
+<lb ed="#L" n="69"/>est bonus. Sed ipse ex sua bonitate aliis esse largitur:
+<lb ed="#L" n="70"/>cum unumquodque agat inquantum est actu perfectum.
+<lb ed="#L" n="71"/>Ergo res generaliter desiderant assimilari Deo in hoc quod
+<lb ed="#L" n="72"/>sunt causae.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e216">
+               <lb ed="#L" n="73"/>Adverte quod ly generaliter positum in conclusione
+<lb ed="#L" n="74"/>potest distribuere pro omnibus rebus creatis absolute: et
+<lb ed="#L" n="75"/>potest distribuere pro omnibus rebus habentibus virtutem
+<lb ed="#L" n="76"/>causativam aliorum. Et utroque modo, iuxta ea quae in
+<lb ed="#L" n="77"/>principio diximus, verificari potest, Videtur autem, 
+se<lb ed="#L" break="no" n="78"/>quendo expositionem datam, quod distribuat pro causis
+<lb ed="#L" n="79"/>activis tantum: ut sit sensus rationis quod, cum Deus ex
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="80"/>sua bonitate dat esse rebus, res creatae quae aliorum sunt
+<lb ed="#L" n="81"/>causae, causando divinam bonitatem imitantur; et dum 
+in<lb ed="#L" break="no" n="82"/>tendunt causare, intendunt divinae bonitatis similitudinem.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e242">
+               <lb ed="#L" n="83"/>II. Tertio. Esse aliorum causam est bonum. Ergo in
+<lb ed="#L" n="84"/>hoc quod res sunt aliorum causae, divinam similitudinem
+<lb ed="#L" n="85"/>intendunt. — Probatur antecedens. Quia, cum solum bonum
+<lb ed="#L" n="86"/>per se cognoscatur  et causetur, unumquodque per hoc
+<lb ed="#L" n="87"/>quod est causa alterius, ordinatur ad bonum. Ordo autem
+<lb ed="#L" n="88"/>ad bonum boni rationem habet. — Consequentia vero 
+pro<lb ed="#L" break="no" n="89"/>batur. Quia secundum quodlibet bonum ad quod aliquid
+<lb ed="#L" n="90"/>tendit, intendit divinam similitudinem: quia bonum 
+crea<lb ed="#L" break="no" n="91"/>tum est ex participatione divinae bonitatis.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e264">
+               <lb ed="#L" n="92"/>IV. Quarto. Sic intendunt res in similitudinem Dei sicut
+<lb ed="#L" n="93"/>effectus in similitudinem agentis. Ergo etc. — Probatur 
+con<lb ed="#L" break="no" n="94"/>sequentia. Quia effectus tendit in similitudinem agentis non
+<lb ed="#L" n="95"/>solum quantum ad speciem ipsius, sed etiam quantum ad
+<lb ed="#L" n="96"/>hoc quod sit aliorum causa: cum agens intendat assimilare
+<lb ed="#L" n="97"/>sibi patiens non solum quantum ad esse, sed etiam quantum
+<lb ed="#L" n="98"/>ad causalitatem, sicut patet in effectibus naturalibus; eiusdem
+<lb ed="#L" n="99"/>autem rationis sit quod effectus tendat in similitudinem
+<lb ed="#L" n="100"/>agentis, et quod agens assimilet sibi effectum.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e287">
+               <lb ed="#L" n="101"/>Circa hanc ultimam propositionem, advertendum quod,
+<lb ed="#L" n="102"/>licet aliqua dici possint esse eiusdem rationis multipliciter,
+<lb ed="#L" n="103"/>tamen hoc loco accipitur esse eiusdem rationis pro eo
+<lb ed="#L" n="104"/>quod est unum ex alio inferri et e converso : ut sit idem
+<lb ed="#L" n="105"/>esse eiusdem rationis quod esse mutuae argumentationis,
+<lb ed="#L" n="106"/>idest, quod unum ex altero deducatur et e converso; sicut
+<lb ed="#L" n="107"/>si diceremus quod eiusdem rationis est quod homo sit
+<lb ed="#L" n="108"/>risibilis, et quod sit rationalis, quia videlicet unum est causa
+<lb ed="#L" n="109"/>alterius, et ex uno infertur reliquum et e converso. Quia
+<lb ed="#L" n="110"/>enim homo est rationalis, ideo est risibilis, et ex eo quod
+<lb ed="#L" n="111"/>est rationalis, infertur a priori quod est risibilis; et e 
+con<lb ed="#L" break="no" n="112"/>verso ex eo quod est risibilis, infertur a posteriori quod
+<lb ed="#L" n="113"/>est rationalis. Ita in proposito, quod agens intendat 
+assi<lb ed="#L" break="no" n="114"/>milare sibi effectum sua actione, est causa quod effectus
+<lb ed="#L" n="115"/>tendat in similitudinem agentis, et mutuo se inferunt. Ideo
+<lb ed="#L" n="116"/>bene dicitur quod sunt eiusdem rationis.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e324">
+               <lb ed="#L" n="117"/>Circa istam propositionem, Agens intendit sibi 
+assimi<lb ed="#L" break="no" n="118"/>lare patiens quantum ad causalitatem, advertendum quod
+<lb ed="#L" n="119"/>non intelligitur universaliter de omni agente, et de eadem
+<lb ed="#L" n="120"/>ratione causalitatis. Si enim intelligatur de eadem 
+causa<lb ed="#L" break="no" n="121"/>litate secundum speciem, intelligitur tantum de agente 
+uni<lb ed="#L" break="no" n="122"/>voco. Tale enim causat in effectu principium activum
+<lb ed="#L" n="123"/>eiusdem rationis cum suo activo principio: sicut homo
+<lb ed="#L" n="124"/>generans causat in homine genito virtutem generativam
+<lb ed="#L" n="125"/>eiusdem rationis cum sua, et ideo assimilat sibi effectum in
+<lb ed="#L" n="126"/>causalitate eiusdem rationis. — Si vero intelligatur de 
+cau<lb ed="#L" break="no" n="127"/>salitate in communi, sic extenditur etiam ad agentia aequi-
+<pb ed="#L" n="52"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>voca: unumquodque enim agens dat suo effectui, qui est
+<lb ed="#L" n="2"/>ens in actu, formam, quae est principium alicuius actionis;
+<lb ed="#L" n="3"/>et per consequens assimilat sibi ipsum aliquo modo 
+quan<lb ed="#L" break="no" n="4"/>tum ad causalitatem. Sed, licet ita sit, propositio tamen
+<lb ed="#L" n="5"/>Sancti Thomae intelligitur de patiente quod natum est esse
+<lb ed="#L" n="6"/>causa alterius: sensus enim est quod agens intendit 
+pro<lb ed="#L" break="no" n="7"/>ducere effectum sibi similem in agendo, si talis effectus
+<lb ed="#L" n="8"/>natus sit alterius causa esse.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e372">
+               <lb ed="#L" n="9"/>V. Quinto. Per hoc quod aliquid est alterius causa,
+<lb ed="#L" n="10"/>tendit in suam perfectionem: cum tunc maxime 
+unum<lb ed="#L" break="no" n="11"/>quodque perfectum sit quando potest sibi simile facere, —
+<lb ed="#L" n="12"/>intellige in natura quae est nata sibi simile facere, — ut
+<lb ed="#L" n="13"/>patet in eo quod lucet et illuminare potest. Ergo etc. —
+<lb ed="#L" n="14"/>Probatur consequentia. Quia unumquodque tendens in
+<lb ed="#L" n="15"/>suam perfectionem, tendit in divinam similitudinem.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e390">
+               <lb ed="#L" n="16"/>Adverte quod ista ratio differt a tertia ratione, quia ibi
+<lb ed="#L" n="17"/>consideratur esse causam ut est simpliciter absolute 
+bo<lb ed="#L" break="no" n="18"/>num, tanquam ad bonum ordinem importans: hic autem
+<lb ed="#L" n="19"/>consideratur esse bonum ut perfectionem agentis. Ideo
+<lb ed="#L" n="20"/>sunt rationes formaliter distinctae.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e403">
+               <lb ed="#L" n="21"/>VI. Quantum ad secundum , probat quod tendere in
+<lb ed="#L" n="22"/>divinam similitudinem in hoc quod est esse causam 
+alio<lb ed="#L" break="no" n="23"/>rum, est superior , idest nobilior perfectio rei. Et probat
+<lb ed="#L" n="24"/>ex duobus. Primo, quia causa, inquantum huiusmodi, est
+<lb ed="#L" n="25"/>superior causato. — Secundo, quia haec perfectio ultimo
+<lb ed="#L" n="26"/>accidit rei: cum prius unumquodque in se perfectum sit
+<lb ed="#L" n="27"/>quam possit alterum causare. — Confirmatur quoque 
+aucto<lb ed="#L" break="no" n="28"/>ritate Dionysii, r1 capite Caelestis Hierarchiae.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e423">
+               <lb ed="#L" n="29"/>Attendendum hoc loco quod ista perfectio quae est
+<lb ed="#L" n="30"/>esse causam alterius, dupliciter considerari potest in ordine.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="31"/>ad alias perfectiones. Uno modo, praescindendo hanc 
+per<lb ed="#L" break="no" n="32"/>fectionem ab aliis formaliter. Et sic ista perfectio non
+<lb ed="#L" n="33"/>est simpliciter nobilior aliis, sed tantum 'secundum quid.
+<lb ed="#L" n="34"/>Simpliciter enim nobilius est habere naturam et 
+substan<lb ed="#L" break="no" n="35"/>tiam completam, quam habere habitudinem causae respectu
+<lb ed="#L" n="36"/>alterius, si unum ab altero praescindatur: licet haec 
+per<lb ed="#L" break="no" n="37"/>fectio sit nobilior secundum quid, inquantum scilicet est
+<lb ed="#L" n="38"/>completiva perfectionis rei, et comparatur ad antecedentes
+<lb ed="#L" n="39"/>perfectiones sicut actus ad potentiam.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e453">
+               <lb ed="#L" n="40"/>Alio modo considerari potest non praescindendo ipsam
+<lb ed="#L" n="41"/>ab aliis, sed magis omnes alias includendo, inquantum
+<lb ed="#L" n="42"/>omnes alias rei intrinsecas perfectiones praesupponit. Et sic
+<lb ed="#L" n="43"/>esse causam aliorum est nobilissima perfectio rei: inquantum
+<lb ed="#L" n="44"/>res, antequam causet, non habet complementam suae 
+per<lb ed="#L" break="no" n="45"/>fectionis, sed aliquid sibi perfectionis deest, loquendo de re
+<lb ed="#L" n="46"/>quae ex sua causalitate aliquid perfectionis acquirit; dum
+<lb ed="#L" n="47"/>autem est causa rei, habet suae perfectionis complementum.
+<lb ed="#L" n="48"/>Accipit ergo Sanctus Thomas propositionem in secundo
+<lb ed="#L" n="49"/>sensu, licet et in primo secundum quid habeat veritatem.
+</p>
+            <p xml:id="ferv7a-d1e1879-d1e477">
+               <lb ed="#L" n="50"/>VII. Attendendum autem quod, licet hoc capitulum 
+ex<lb ed="#L" break="no" n="51"/>posuerimus de causalitate efficientis, quod magis videtur
+<lb ed="#L" n="52"/>intendere Sanctus Thomas, posset tamen etiam exponi de
+<lb ed="#L" n="53"/>omni causalitate: scilicet quod unaquaeque res creata in
+<lb ed="#L" n="54"/>causando, quomodocumque causet, intendit 
+assimilatio<lb ed="#L" break="no" n="55"/>nem divinam, inquantum per suam causalitatem aliquo
+<lb ed="#L" n="56"/>modo perficitur. Et sic dicemus quod etiam materia, in hoc
+<lb ed="#L" n="57"/>quod recipit et patitur, quod est eius operari, ut constat
+<lb ed="#L" n="58"/>ex capitulo sequenti, tendit in bonum suum et in 
+assimi<lb ed="#L" break="no" n="59"/>lationem divinam. Sed hoc minus videtur ad intentionem
+<lb ed="#L" n="60"/>Sancti Thomae accedere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

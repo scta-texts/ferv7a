@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 95</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 95</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="297"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2484"><!-- ferv7a-l3c95 -->
+            <head>Capitulum 95</head>
+            <p>
+               <pb ed="#L" n="297"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=297"/>Commentaria Feerrariensis
+</p>
+            <p>
+               <lb ed="#L" n="2"/>QUIA Ostensum est superius  divinae providentiae 
+immo<lb ed="#L" break="no" n="3"/>bilitatem necessitatem rebus provisis non imponere,
+<lb ed="#L" n="4"/>vult Sanctus Thomas ostendere quod nec etiam utilitatem
+<lb ed="#L" n="5"/>orationis excludit .
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Circa hoc autem duo facit: primo, ostendit propositum;
+<lb ed="#L" n="7"/>secundo, ostendit quod non est inconveniens si non semper 
+<lb ed="#L" n="8"/>petitiones orantium admittuntur a Deo, capite sequenti 
+</p>
+            <p>
+               <lb ed="#L" n="9"/>I. Quantum ad primum, praemisso quod non ad hoc
+<lb ed="#L" n="10"/>oratio funditur ad Deum ut aeterna providentiae dispositio
+<lb ed="#L" n="11"/>immutetur, sed ut quis id quod desiderat assequatur: 
+ar<lb ed="#L" break="no" n="12"/>guitur primo sic. Ad supereminentiam divinae bonitatis
+<lb ed="#L" n="13"/>pertinet ut esse, et bene esse, omnibus ordine quodam
+<lb ed="#L" n="14"/>distribuat. Sed omnia naturaliter bonum desiderant. Ergo
+<lb ed="#L" n="15"/>conveniens est ut, secundum suam bonitatem, desideria
+<lb ed="#L" n="16"/>pia, quae per orationem explicantur, adimpleat.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>Adverte quod sensus huius rationis est: — Quia ad 
+di<lb ed="#L" break="no" n="18"/>vinam bonitatem pertinet distribuere esse, et bene esse,
+<lb ed="#L" n="19"/>omnibus ordine quodam, idest, dare rei unam bonitatem
+<lb ed="#L" n="20"/>mediante alia, et uti causis mediis ad conferendum 
+boni<lb ed="#L" break="no" n="21"/>tatem rebus secundum conditionem suae naturae; ordo:
+<lb ed="#L" n="22"/>autem naturalis uniuscuiusque rei ad bonum est mediante
+<lb ed="#L" n="23"/>desiderio, quia naturaliter quaelibet res tendit ad bonum
+<lb ed="#L" n="24"/>suum mediante inclinatione, quae hic vocatur desiderium:
+<lb ed="#L" n="25"/>conveniens est ut Deus det creaturae bonum suum 
+me<lb ed="#L" break="no" n="26"/>diante desiderio boni, sicut et mediantibus aliis causis
+<lb ed="#L" n="27"/>aliquos producit effectus. Hoc autem est adimplere 
+crea<lb ed="#L" break="no" n="28"/>turae desiderium. Ideo conveniens est ut desiderium 
+crea<lb ed="#L" break="no" n="29"/>turae adimpleat. — Creatura autem rationalis suum 
+deside<lb ed="#L" break="no" n="30"/>rium per orationem explicat. Ergo conveniens est ut Deus
+<lb ed="#L" n="31"/>adimpleat creaturae rationalis desideria per orationem 
+ex<lb ed="#L" break="no" n="32"/>plicata.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>II. Circa autem ipsam conclusionem, advertendum, ex
+<lb ed="#L" n="34"/>doctrina Sancti Thomae II II, q. rxxxri, a. 1; et IV Sent.,
+<lb ed="#L" n="35"/>d. xv , quod oratio, ut hic loquimur de oratione, et de
+<lb ed="#L" n="36"/>qua theologi multa determinant, mihi] aliud significat
+<lb ed="#L" n="37"/>quam petitionem quandam quam homo Deo facit. Unde
+<lb ed="#L" n="38"/>de Augustinus, in Libro de Verbis Domini, ait quod oratio
+<lb ed="#L" n="39"/>petitio quaedam est; et Damascenus, in tertio libro , ait
+<lb ed="#L" n="40"/>quod oratio est petitio decentium a Deo. Sicut autem 
+im<lb ed="#L" break="no" n="41"/>de Fide perare proprie est actus rationis, quia per imperium 
+ap<lb ed="#L" break="no" n="42"/>plicantur subditi ab imperante ad consecutionem eius quod
+<lb ed="#L" n="43"/>desideratur, in quo ordinatio quaedam disponentis aliquid
+<lb ed="#L" n="44"/>per aliud esse faciendum importatur; ita oratio ad rationem
+<lb ed="#L" n="45"/>pertinet; est enim actus rationis ordinantis aliquo modo
+<lb ed="#L" n="46"/>ut aliquid per alium fiat qui inferior non est, dum illud
+<lb ed="#L" n="47"/>per ipsum fieri petit.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Sed, licet oratio sit formaliter actus rationis, 
+praesup<lb ed="#L" break="no" n="49"/>ponit tamen desiderium, tanquam principium a quo 
+cau<lb ed="#L" break="no" n="50"/>satur: est enim petitio executionis desiderii a Deo. Ideo
+<lb ed="#L" n="51"/>oratio vocalis, quae immediate significat actum rationis
+<lb ed="#L" n="52"/>deprecantis, mediate significat ipsum desiderium 
+volun<lb ed="#L" break="no" n="53"/>tatis, sicut principium et originem a quo procedit.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Ex iis sequitur quod idem est dicere Deum adimplere
+<lb ed="#L" n="55"/>desideria per orationem explicata,et Deum adimplere 
+oran<lb ed="#L" break="no" n="56"/>tium preces. Sed, licet idem sint, per primum tamen magis
+<lb ed="#L" n="57"/>natura orationis explicatur. Propterea Sanctus Thomas, ut
+<lb ed="#L" n="58"/>magis naturam orationis explicaret, cum proposuerit per
+<lb ed="#L" n="59"/>immobilitatem providentiae utilitatem orationis non 
+ex<lb ed="#L" break="no" n="60"/>cludi; et per consequens probandum esset Deum aliquando
+<lb ed="#L" n="61"/>mediantibus orationibus aliqua bona conferre; concludit
+<lb ed="#L" n="62"/>quod conveniens est Deum desideria pia, quae per 
+ora<lb ed="#L" break="no" n="63"/>tionem explicantur, adimplere.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Advertendum etiam quod non dicit Sanctus Thomas
+<lb ed="#L" n="65"/>absolute conveniens esse ut Deus desideria impleat, sed,
+<lb ed="#L" n="66"/>ut pia adimpleat desideria. Non enim omnia desideria per
+<lb ed="#L" n="67"/>orationem explicata merentur exaudiri, puta si quis 
+com<lb ed="#L" break="no" n="68"/>plementum alicuius peccati peteret: sed illa quae sunt de
+<lb ed="#L" n="69"/>necessariis et utilibus ad salutem, quae pia desideria 
+di<lb ed="#L" break="no" n="70"/>cuntur,
+</p>
+            <p>
+               <lb ed="#L" n="71"/>III. Secundo. Omne desiderium est quidam motus ad
+<lb ed="#L" n="72"/>bonum. Qui non potest rebus inesse nisi a Deo. Ergo etc.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="73"/>Probatur antecedens quoad secundam partem: quia
+<lb ed="#L" n="74"/>Deus est per essentiam bonus, et fons bonitatis. Quoad
+<lb ed="#L" n="75"/>primam vero partem: quia movens omne movet ad aliquid
+<lb ed="#L" n="76"/>simile sibi. - Consequentia vero probatur. Quia ad 
+mo<lb ed="#L" break="no" n="77"/>ventem pertinet ut illud quod movetur, perducat ad finem.
+<lb ed="#L" n="78"/>Cuius signum est, quod per eandem naturam aliquid 
+mo<lb ed="#L" break="no" n="79"/>vetur ad finem, et consequitur finem, et in eo quiescit.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Circa istam propositionem, Motus desiderii ad bonum
+<lb ed="#L" n="81"/>non potest esse in rebus nisi a Deo, advertendum quod
+<lb ed="#L" n="82"/>per hoc mon intendit Sanctus "Thomas excludere causas
+<lb ed="#L" n="83"/>proximas desiderii: sed hoc tantum vult habere, quod iste
+<lb ed="#L" n="84"/>motus est a Deo tanquam a prima et principali causa,
+<lb ed="#L" n="85"/>inquantum talis motus ad bonum non provenit a libero
+<lb ed="#L" n="86"/>arbitrio nisi ut movetur a Deo. Si enim sit desiderium
+<lb ed="#L" n="87"/>naturae, constat quod est a Deo: cum ipse sit omnis 
+na<lb ed="#L" break="no" n="88"/>turae auctor. Si vero sit desiderium voluntatis, constat ex
+<lb ed="#L" n="89"/>praecedentibus  quod ipse solus movet voluntatem et ad
+<lb ed="#L" n="90"/>operationem applicat interius operando.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>IV. Tertio. Efficacior est impressio divinae motionis
+<lb ed="#L" n="92"/>in substantiis intellectualibus quam in substantiis aliis 
+na<lb ed="#L" break="no" n="93"/>turalibus. Sed naturalia per motionem divinam naturalem
+<lb ed="#L" n="94"/>appetitum boni consequuntur, et appetitus completionem,
+<lb ed="#L" n="95"/>assequendo proprios fines. Ergo multo magis intellectuales
+<lb ed="#L" n="96"/>substantiae. — Probatur maior. Quia quanto aliqua sunt
+<lb ed="#L" n="97"/>propinquiora moventi, tanto efficacius impressionem 
+mo<lb ed="#L" break="no" n="98"/>ventis consequuntur: ut patet de iis quae ab igne 
+cale<lb ed="#L" break="no" n="99"/>fiunt. Substantiae autem intellectuales sunt propinquiores
+<lb ed="#L" n="100"/>Deo quam substantiae naturales inanimatae.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Quarto. Deus creaturam suam amat, et magis eam quae
+<lb ed="#L" n="102"/>plus de bonitate eius participat, ut ostensum est supra. Ergo
+<lb ed="#L" n="103"/>vult desideria creaturae rationalis impleri, quae perfectissime
+<lb ed="#L" n="104"/>divinam bonitatem participant. Ergo etc. — Probatur prima
+<lb ed="#L" n="105"/>consequentia. Quia de ratione amicitiae est quod amans
+<lb ed="#L" n="106"/>velit impleri desiderium amati, inquantum vult eius bonum:
+<lb ed="#L" n="107"/>unde dicitur quod amicorum est idem velle. - Secunda vero
+<lb ed="#L" n="108"/>probatur. Quia voluntas Dei est perfectissima causa: cum
+<lb ed="#L" n="109"/>ipse per suam voluntatem sit causa rerum.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Quinto. Est maxime commendabile in hominibus ut
+<lb ed="#L" n="111"/>iuste petentibus assensum non negent: cum per hoc 
+vo<lb ed="#L" break="no" n="112"/>centur liberales, clementes, misericordes et pii. Ergo etc. —
+<lb ed="#L" n="113"/>Probatur consequentia. Quia bonum creaturae derivatum
+<lb ed="#L" n="114"/>est per quandam similitudinem a bonitate divina.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>CONFIRMATUR auctoritate Psalmi, et Matth. vir.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

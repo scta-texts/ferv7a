@@ -1,0 +1,406 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 61</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 61</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="169"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2206"><!-- ferv7a-l3c61 -->
+            <head>Capitulum 61</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="29" type="fixed=169"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="30"/>POSTQUAM posuit Sanctus Thomas uniuscuiusque ad 
+bea<lb ed="#L" break="no" n="31"/>titudinem concurrentis particulares conditiones, nunc 
+<lb ed="#L" n="32"/>conditiones generales manifestat . Et ponit tres 
+conclu<lb ed="#L" break="no" n="33"/>siones.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>I. Quarum prima est: Per visionem divinae essentiae 
+<lb ed="#L" n="35"/>intellectus creatus fit vitae aeternae particeps. 
+<lb ed="#L" n="36"/>Probatur primo. Visio praedicta in quadam aeternitatis  
+<lb ed="#L" n="37"/>participatione consistit. Et est vita quaedam. Ergo etc. 
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Probatur antecedens. Quoad primam quidem partem,sic. 
+<lb ed="#L" n="39"/>In praedicta visione non est aliqua successio. Ergo etc.  
+<lb ed="#L" n="40"/>Probatur consequentia: quia aeternitas in hoc a tempore  
+<lb ed="#L" n="41"/>differt, quod tempus in quadam successione habet esse, 
+<lb ed="#L" n="42"/>aeternitatis vero esse est totum simul. — Quoad secundam 
+<lb ed="#L" n="43"/>vero, quia actio intellectus est quaedam vita: (supple) 
+se<lb ed="#L" break="no" n="44"/>cundum quod vita sumitur pro operatione seipsum 
+mo<lb ed="#L" break="no" n="45"/>ventis ad operationem. 
+</p>
+            <p>
+               <lb ed="#L" n="46"/>2. Sed videtur ista ratio deficere. Quia supponit nullam  
+<lb ed="#L" n="47"/>esse aliam durationem quam tempus et aeternitatem : et 
+<lb ed="#L" n="48"/>ideo, quia visio beata non mensuratur tempore, concludit  
+<lb ed="#L" n="49"/>quod in quadam aeternitatis participatione perficitur. Hoc  
+<lb ed="#L" n="50"/>autem suppositum est falsum: quia datur alia mensura 
+<lb ed="#L" n="51"/>durationis media, scilicet aevum; ut patet Prima Parte, 
+<lb ed="#L" n="52"/>q. x ; et I Sent., d. xix ; et in multis aliis locis. Ergo etc.  
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Respondetur quod ratio optime propositum concludit. 
+<lb ed="#L" n="54"/>Quia intentio Sancti Thomae est in illa ratione ostendere 
+<lb ed="#L" n="55"/>quod illa operatio est extra tempus omnino, et ideo alia  
+<lb ed="#L" n="56"/>mensura mensuratur, quae aut est aeternitas, aut 
+partici<lb ed="#L" break="no" n="57"/>patio aeternitatis. Et ideo non oportebat distinguere inter  
+<lb ed="#L" n="58"/>aevum et aeternitatem, sed utrumque aeternitatis nomine 
+<lb ed="#L" n="59"/>complexus est. 
+</p>
+            <p>
+               <lb ed="#L" n="60"/>II. Secundo. Esse divinae substantiae in aeternitate 
+con<lb ed="#L" break="no" n="61"/>sistit: vel magis est ipsa aeternitas. Ergo visio eius in 
+par<lb ed="#L" break="no" n="62"/>ticipatione aeternitatis consistit. — Probatur consequentia.  
+<lb ed="#L" n="63"/>Quia per obiecta specificantur actus. 
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Adverte quod ex eo quod per obiecta specificantur 
+<lb ed="#L" n="65"/>actus, vult habere Sanctus Thomas quod actus de 
+perfe<lb ed="#L" break="no" n="66"/>ctione obiecti participet: sicut unumquodque particeps est 
+<lb ed="#L" n="67"/>perfectionis formae a qua specificatur. Ideo, si specificatur  
+<lb ed="#L" n="68"/>visio ab aeternitate, oportet ut aeternitate aliquo modo 
+<lb ed="#L" n="69"/>participet. 
+</p>
+            <p>
+               <lb ed="#L" n="70"/>2. Sed videtur quod ista ratio non concludat. Quia per 
+<lb ed="#L" n="71"/>eam etiam concluderetur per intellectionem viae aliquem 
+<lb ed="#L" n="72"/>fieri participem vitae aeternae. Is enim qui definitionem 
+<lb ed="#L" n="73"/>aeternitatis considerat, habet intellectionem cuius obiectum  
+<lb ed="#L" n="74"/>est aeternitas. Ergo, si, quia obiectum divinae visionis est  
+<lb ed="#L" n="75"/>in aeternitate vel est ipsa aeternitas, videns divinam 
+essen<lb ed="#L" break="no" n="76"/>tiam est particeps vitae aeternae, sequitur quod et iste 
+<lb ed="#L" n="77"/>erit particeps vitae aeternae. . 
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Respondetur quod non est eadem ratio de considerante 
+<lb ed="#L" n="79"/>rationem aeternitatis in hac vita; et de vidente divinam 
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="80"/>essentiam. Quia dupliciter potest aliquid dici aeternitate
+<lb ed="#L" n="81"/>participare. Uno modo, extrinsece tantum. Et sic ille qui
+<lb ed="#L" n="82"/>aeternitatem considerat, aliquo modo aeternitate participat
+<lb ed="#L" n="83"/>extrinsece: inquantum sua operatione aeternitatem aliquo
+<lb ed="#L" n="84"/>modo attingit, licet imperfecto modo. Sed de hac 
+parti<lb ed="#L" break="no" n="85"/>cipatione non loquitur Sanctus Thomas. — Alio modo,
+<lb ed="#L" n="86"/>intrinsece, tanquam videlicet ad ordinem aeternorum 
+per<lb ed="#L" break="no" n="87"/>tinens. Et sic videntes divinam essentiam aeternitatis sunt
+<lb ed="#L" n="88"/>participes, non autem is qui in via aeternitatis rationem
+<lb ed="#L" n="89"/>considerat: quia ille tantum hoc modo, aeternitatem 
+co<lb ed="#L" break="no" n="90"/>gnoscendo, participat aeternitate, qui ipsam aeternitatis 
+en<lb ed="#L" break="no" n="91"/>titatem perfecte ut in se est intuetur. Hoc enim non potest
+<lb ed="#L" n="92"/>esse nisi ad ordinem divinae naturae intellectus sit 
+eleva<lb ed="#L" break="no" n="93"/>tus. Nam dictum est supra  quod oportet perfecte 
+cogno<lb ed="#L" break="no" n="94"/>scentem aliquid unius ordinis ad illum ordinem pertinere,
+<lb ed="#L" n="95"/>aut ad ordinem superiorem. Et similiter, cum operatio 
+spe<lb ed="#L" break="no" n="96"/>cificetur ex obiecto, sic specificatur ut ad ordinem obiecti
+<lb ed="#L" n="97"/>sui pertineat, quando illud obiectum per se immediate et
+<lb ed="#L" n="98"/>perfecte attingit. Quando autem illud obiectum imperfecte
+<lb ed="#L" n="99"/>tantum et in alio intuetur, non specificatur ut ad eius 
+or<lb ed="#L" break="no" n="100"/>dinem pertineat: sed tantum extrinseca quadam et 
+imper<lb ed="#L" break="no" n="101"/>fecta specificatione. Est enim magis quaedam dispositio
+<lb ed="#L" n="102"/>ad speciem illius cognitionis quam sit aliquid completum
+<lb ed="#L" n="103"/>in specie. T
+</p>
+            <p>
+               <lb ed="#L" n="104"/>III. Tertio. Visio haec non est in tempore ex parte
+<lb ed="#L" n="105"/>eius quod videtur, neque ex parte eius quo videtur: cum
+<lb ed="#L" n="106"/>utrumque sit substantia divina, quae est aeterna. Neque
+<lb ed="#L" n="107"/>etiam ex parte videntis: cum esse intellectus non 
+subia<lb ed="#L" break="no" n="108"/>ceat tempori, eo quod sit incorruptibilis. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="109"/>batur consequentia, Quia si aliqua actio sit in tempore,
+<lb ed="#L" n="110"/>hoc est propter aliquod illorum trium.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Quarto. Actio animae intellectivae secundum quam
+<lb ed="#L" n="112"/>coniungitur inferioribus, quae sunt in tempore, est 
+tem<lb ed="#L" break="no" n="113"/>poralis. Ergo eius actio secundum quam coniungitur 
+su<lb ed="#L" break="no" n="114"/>perioribus, quae sunt supra tempus, aeternitatem participat.
+<lb ed="#L" n="115"/>Talis autem maxime est divina visio. Ergo etc. — Probatur
+<lb ed="#L" n="116"/>prima consequentia. Quia anima intellectiva est creata in
+<lb ed="#L" n="117"/>confinio aeternitatis et temporis, ut dicitur in libro de 
+Cau<lb ed="#L" break="no" n="118"/>sis, utpote existens ultima in ordine intellectuum, et 
+ele<lb ed="#L" break="no" n="119"/>vata tamen supra materiam corporalem.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>CONFIRMATUR auctoritate Joan. xvi.
+</p>
+            <p>
+               <lb ed="#L" n="121"/>IV. Circa ea quae dicta sunt, occurrit dubium, Rationes
+<lb ed="#L" n="122"/>enim supra dictae non videntur concludere, saltem pro
+<lb ed="#L" n="123"/>maiori parte, nisi quod visio divina mensuratur aliqua 
+men<lb ed="#L" break="no" n="124"/>sura supra tempus. Ad hoc autem videtur sufficere quod
+<lb ed="#L" n="125"/>aevo mensuretur: nam aevum est supra tempus, et est
+<lb ed="#L" n="126"/>quaedam aeternitas participata, ut saepe numero ait Sanctus
+<lb ed="#L" n="127"/>Thomas ; cum sit mensura esse secundum se 
+intransmu<lb ed="#L" break="no" n="128"/>tabilis. Remanet ergo dubium an videntes divinam 
+essen<lb ed="#L" break="no" n="129"/>tiam dicantur vitae aeternae participes quia eorum visio
+<pb ed="#L" n="170"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>mensuretur aevo: vel potius quia mensuretur aliqua alia
+<lb ed="#L" n="2"/>mensura, quae sit aeternitas et sit supra aevum.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>V. Ad huius evidentiam, considerandum est quod, cum
+<lb ed="#L" n="4"/>aeternitas, aevum et tempus distinguantur ex parte 
+men<lb ed="#L" break="no" n="5"/>suratorum, ut patet Prima, q. x , in hoc quod aeternitas
+<lb ed="#L" n="6"/>mensurat esse divinum, aevum mensurat creaturas imtu- :
+<lb ed="#L" n="7"/>tabiles et incorruptibiles, tempus vero motum et res 
+cor<lb ed="#L" break="no" n="8"/>ruptibiles; ad cognoscendum qua mensura aliqua operatio
+<lb ed="#L" n="9"/>mensuretur, videndum est ad quem ordinem istorum 
+men<lb ed="#L" break="no" n="10"/>surabilium pertineat. Quia si ad ordinem divini esse 
+spe<lb ed="#L" break="no" n="11"/>ctet, mensurabitur aeternitate; si ad ordinem creaturarum
+<lb ed="#L" n="12"/>immutabilium, aevo mensurabitur; si autem ad^ ordinem
+<lb ed="#L" n="13"/>mutabilium, mensurabitur tempore.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>2. Considerandum secundo, quod operatio beatifica, 
+in<lb ed="#L" break="no" n="15"/>quantum beatifica est, ad ordinem rerum mutabilium et
+<lb ed="#L" n="16"/>corruptibilium pertinere non potest: quia ipsa tota simul
+<lb ed="#L" n="17"/>est, et ex se deficere non potest, sed habet esse indeficiens.
+<lb ed="#L" n="18"/>Sancti enim, ut dicitur IV Sent., d. xrix, q. 1, a. 2, qu 3, ad
+<lb ed="#L" n="19"/>ult., ex hoc quod Deo adhaerebunt, stabilitatem ex divino
+<lb ed="#L" n="20"/>munere consequentur, ut scilicet transmutari non possint.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Non potest etiam ad ordinem creaturarum immutabilium
+<lb ed="#L" n="22"/>pertinere, propter duo. Primo, quia ad illum ordinem 
+per<lb ed="#L" break="no" n="23"/>tinent solum creaturae subsistentes, et quae virtute 
+natu<lb ed="#L" break="no" n="24"/>rali creaturae fieri possunt: quae enim naturtalem virtutern
+<lb ed="#L" n="25"/>creaturae excedunt, intra naturalem ordinem creaturae non
+<lb ed="#L" n="26"/>continentur. Operatio autem beatifica neque est subsistens
+<lb ed="#L" n="27"/>creatura; neque virtute aliqua creaturae produci potest, ut
+<lb ed="#L" n="28"/>sit alicui creaturae naturalis, cum per divinam virtutem,
+<lb ed="#L" n="29"/>divinamque essentiam, per modum formae intelligibilis,
+<lb ed="#L" n="30"/>eliciatur. - Secundo, quia alia est immutabilitas operationis
+<lb ed="#L" n="31"/>beatificae, et alia immutabilitas substantiae incorruptibilis.
+<lb ed="#L" n="32"/>Nam talis substantia, licet sit immutabilis secundum esse
+<lb ed="#L" n="33"/>substantiale, et non habeat secundum tale esse 
+successio<lb ed="#L" break="no" n="34"/>nem neque prius aut posterius, admittit tamen secum 
+mu<lb ed="#L" break="no" n="35"/>tabilitatem et prius et posterius secundum successionem
+<lb ed="#L" n="36"/>affectionum et intellectionum, ita quod vere dicitur ipsam
+<lb ed="#L" n="37"/>esse mutabilem secundum operationes. Operatio autem
+<lb ed="#L" n="38"/>beatifica non solum est immutabilis et tota simul 
+quan<lb ed="#L" break="no" n="39"/>tum ad suum esse: sed nec etiam patitur secum aliquam
+<lb ed="#L" n="40"/>mutationem et successionem, secundum quam. ipsa 
+mu<lb ed="#L" break="no" n="41"/>tari dicatur.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Relinquitur ergo quod talis operatio ad ordinem divinae
+<lb ed="#L" n="43"/>operationis et divini esse pertineat, veluti quaedam divinae
+<lb ed="#L" n="44"/>beatitudinis similitudo participata. Sicut enim divina 
+ope<lb ed="#L" break="no" n="45"/>ratio in se immutabilis est, nullamque secum admittit 
+mu<lb ed="#L" break="no" n="46"/>tationem qua. ipsa mutetur, omnemque virtutem excedit
+<lb ed="#L" n="47"/>creaturae, ita et operatio beatifica.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>3. Ex his responsio ad dubium clarissime patet. Dicitur
+<lb ed="#L" n="49"/>enim quod operatio beatifica mensuratur aeternitate, ut
+<lb ed="#L" n="50"/>tenet Sanctus Thomas, IV Sent., loco allegato; et Prima,
+<lb ed="#L" n="51"/>q. x, a. 3, et a. 5, ad 1; et Quolib. X, q. 1, a. 1 : non
+<lb ed="#L" n="52"/>autem tempore aut instanti temporis, aut aevo, propter
+<lb ed="#L" n="53"/>adductas rationes.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>VI. Sed attendendum est quod operationem beatificam
+<lb ed="#L" n="55"/>aeternitate mensurari, dupliciter intelligi potest. Uno modo,
+<lb ed="#L" n="56"/>quod ipsa aeternitas secundum se sit mensura talis visionis.
+<lb ed="#L" n="57"/>Alio modo, quod aliqua alia mensura, superior aevo sed
+<lb ed="#L" n="58"/>Dei aeternitate inferior, sit eius mensura, quae nullum
+<lb ed="#L" n="59"/>aliud nomen habet nisi quod vocatur aeternitas 
+partici<lb ed="#L" break="no" n="60"/>pata. Utrumque quidem sustineri posset de mente Sancti
+<lb ed="#L" n="61"/>Thomae: quia utrumque ex eius verbis potest haberi.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Veruntamen videtur mihi quod magis sit tenendum, de
+<lb ed="#L" n="63"/>mente ipsius, ipsam aeternitatem quae divinum esse 
+men<lb ed="#L" break="no" n="64"/>surat, visionis beatae mensuram esse. Moveor ad hoc quia
+<lb ed="#L" n="65"/>in IV Sent., postquam ostendit quod neque tempore 
+men<lb ed="#L" break="no" n="66"/>suratur neque aevo, concludit quod propria eius mensura
+<lb ed="#L" n="67"/>est ipsa aeternitas. — Et etiam quia, ubicumque de mensura
+<lb ed="#L" n="68"/>durationis mentionem facit, nunquam nisi tres mensuras
+<lb ed="#L" n="69"/>ponit, scilicet aeternitatem, aevum et tempus, — Et ulterius
+<lb ed="#L" n="70"/>quia visio beata, ut sic; ad ordinem divinum pertinet, ut
+<lb ed="#L" n="71"/>ostendimus . Videmus autem omnia quae sunt unius 
+or<lb ed="#L" break="no" n="72"/>dinis, una mensura mensurari: omnia enim generabilia et
+<lb ed="#L" n="73"/>corruptibilia. mensurantur tempore ; et omnia creata 
+incor<lb ed="#L" break="no" n="74"/>ruptibilia mensurantur aevo. Unde dicere oportet quod
+<lb ed="#L" n="75"/>omnia quae divini ordinis sunt, aeternitate mensurentur.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Advertendum est tamen quod, sieut ad ordinem 
+divi<lb ed="#L" break="no" n="77"/>num aliquid pertinet essentialiter et primo, sicut Deus;
+<lb ed="#L" n="78"/>aliquid. vero secundario et per quandam participationem,
+<lb ed="#L" n="79"/>ut visio beatifica, inquantum variationi non subest et est
+<lb ed="#L" n="80"/>supra omnem naturae facultatem: ita et aliquid 
+mensu<lb ed="#L" break="no" n="81"/>ratur aeternitate per se et adaequate, ut Deus; aliquid
+<lb ed="#L" n="82"/>vero tanquam mensura excedente et ab ipso participata,
+<lb ed="#L" n="83"/>sicut ipsa visio beata, ut sic. Cum enim visio haec non
+<lb ed="#L" n="84"/>pertineat ad ordinem divinum tanquam divinam 
+perfectio<lb ed="#L" break="no" n="85"/>nem adaequans, sed tanquam aliquid de divina perfectione,
+<lb ed="#L" n="86"/>quae Deo naturalis est, participans; non est inconveniens
+<lb ed="#L" n="87"/>si, inquantum ad. ordinem divinum pertinet, non habeat
+<lb ed="#L" n="88"/>mensuram adaequatam, sed tantum excedentem. Unde 
+San<lb ed="#L" break="no" n="89"/>ctus Thomas, loco praeallegato in IV Sent., ad 3, ait quod
+<lb ed="#L" n="90"/>aeternitas non est communicabilis homini ita quod sit eius
+<lb ed="#L" n="91"/>mensura adaequata, aut alicuius quod in ipso est. Potest
+<lb ed="#L" n="92"/>tamen homini communicari secundum aliquam 
+participa<lb ed="#L" break="no" n="93"/>tionem, ita quod sit particeps aeternitatis qua divina 
+ope<lb ed="#L" break="no" n="94"/>ratio mensuratur. — Quod autem dixit, quoniam  
+aeter<lb ed="#L" break="no" n="95"/>nitas est propria mensura eius: per propriam mensuram
+<lb ed="#L" n="96"/>non intellexit mensuram adaequatam, sed mensuram sui
+<lb ed="#L" n="97"/>ordinis, et qua sola mensuratur.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>2. Si quis autem aliam partem tenere vellet, posset
+<lb ed="#L" n="99"/>dicere quod, sicut Beatus fit particeps illius visionis qua
+<lb ed="#L" n="100"/>Deus seipsum videt ita quod habet aliquam operationem
+<lb ed="#L" n="101"/>in se quae est quaedam similitudo participata illius divinae
+<lb ed="#L" n="102"/>visionis, ita fit particeps aeternitatis inquantum sua 
+ope<lb ed="#L" break="no" n="103"/>ratio mensuratur adaequate aliqua mensura sibi inexistente
+<lb ed="#L" n="104"/>quae est quaedam participata similitudo verae aeternitatis,
+<lb ed="#L" n="105"/>Et quod Sanctus Thomas illam nomine aeternitatis 
+com<lb ed="#L" break="no" n="106"/>prehendit. Et quod non oportet omnia quae sunt unius
+<lb ed="#L" n="107"/>ordinis, unam habere mensuram, nisi eodem modo ad
+<lb ed="#L" n="108"/>eundem ordinem pertineant. Modo, ut dictum est, Deus
+<lb ed="#L" n="109"/>et visio beata non eodem modo. ad divinum ordinem
+<lb ed="#L" n="110"/>pertinent.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>VII. Sed contra praedicta arguit Scotus, IV Sent., d. xxix,
+<lb ed="#L" n="112"/>q. vri. Primo. Si sic esset, sequeretur actum inquantum
+<lb ed="#L" n="113"/>informatum, esse immutabiliorem substantia ipsius actus:
+<lb ed="#L" n="114"/>cum, per ie, actus inquantum informatus mensuretur 
+ae<lb ed="#L" break="no" n="115"/>ternitate, secundum autem suam substantiam, mensuretur
+<lb ed="#L" n="116"/>aevo. Sed hoc est impossibile: quia impossibile est id quod
+<lb ed="#L" n="117"/>convenit alicui per accidens, esse immutabilius eo cui inest.
+<lb ed="#L" n="118"/>Ergo etc. a
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Secundo. Aeternum, sicut est totum simul, ita caret 
+po<lb ed="#L" break="no" n="120"/>tentia non essendi. Sed hoc nulli creato convenit. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="121"/>Tertio. Operatio beatifica non est eminentioris 
+perma<lb ed="#L" break="no" n="122"/>nentiae quam substantia intellectualis. Ergo non 
+mensu<lb ed="#L" break="no" n="123"/>ratur aeternitate, sed aevo. — Probatur antecedens. Quia
+<lb ed="#L" n="124"/>est eius accidens, et consequenter minus nobilis.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Quarto. Sicut visio Dei dicitur aeterna in Scriptura
+<lb ed="#L" n="126"/>Sacra, ita et poena damnatorum. Sed poena damnatorum
+<lb ed="#L" n="127"/>non est aeterna aliqua aeternitate ab aevo distincta. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>VIII. Ad primum horum dicitur primo, quod non ponit
+<lb ed="#L" n="129"/>Sanctus "Thomas, ut opinatur Scotus, visionem divinam
+<lb ed="#L" n="130"/>secundum suam substantiam mensurari aevo, secundum
+<lb ed="#L" n="131"/>vero suam formam mensurari aeternitate, quasi substantia
+<lb ed="#L" n="132"/>eius et sua forma intrinseca sint duo distincta: sed quod,
+<lb ed="#L" n="133"/>cum ipsa visio aeternitate mensuretur, hoc non convenit
+<lb ed="#L" n="134"/>sibi inquantum absolute est intellectio ab intellectu creato
+<lb ed="#L" n="135"/>elicita, sed inquantum est talis intellectio quae est divinae
+<lb ed="#L" n="136"/>essentiae visio; sicut dicimus aliquid convenire homini 
+in<lb ed="#L" break="no" n="137"/>quantum rationalis est, quod non convenit sibi inquantum
+<lb ed="#L" n="138"/>est animal, licet animal et rationale sint una res in homine.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Dicitur secundo, quod illa.formatio quae convenit illi
+<lb ed="#L" n="140"/>visioni, non se habet ad intellectionem absolute sumptam
+<lb ed="#L" n="141"/>tanquam aliquid omnino extraneum ab ipsa secundum rem:
+<lb ed="#L" n="142"/>sed tanquam differentia ad genus, quae cum illo quidem
+<lb ed="#L" n="143"/>est idem secundum rem, secundum autem formalem 
+ra<lb ed="#L" break="no" n="144"/>tionem accidit generi, sicut se habet rationale ad animal.
+<lb ed="#L" n="145"/>Et quod isto modo accidentaliter se habet ad aliud, non
+<lb ed="#L" n="146"/>inconvenit maiorem immutabilitatem habere ex propria
+<lb ed="#L" n="147"/>ratione quam habeat illud cui secundum rationem 
+intel<lb ed="#L" break="no" n="148"/>ligitur advenire . Et sic dicimus quod illi intellectioni qua
+<lb ed="#L" n="149"/>videtur divina substantia, convenit maior immutabilitas 
+ra<lb ed="#L" break="no" n="150"/>tione differentiae quam: ratione generis: idest, inquantum
+<pb ed="#L" n="171"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>talis visio, quam inquantum intellectio absolute. Unde ratio
+<lb ed="#L" n="2"/>non est contra mentem Sancti Thomae.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>2. Ad secundum dicitur quod aeternum simpliciter caret
+<lb ed="#L" n="4"/>omnimoda potentia non essendi, tam videlicet logica quam
+<lb ed="#L" n="5"/>naturali, et tam ab intrinseco quam ab extrinseco. Aeternum
+<lb ed="#L" n="6"/>autem secundum participationem, sufficit quod careat 
+po<lb ed="#L" break="no" n="7"/>tentia non essendi naturali, quia videlicet per nullam 
+vir<lb ed="#L" break="no" n="8"/>tutem naturae possit deficere; et quod careat omni 
+mu<lb ed="#L" break="no" n="9"/>tabilitate a principio intrinseco. Sic autem visio huiusmodi
+<lb ed="#L" n="10"/>est aeterna et caret potentia ad non esse. Sicut enim nulla
+<lb ed="#L" n="11"/>virtute naturae potest sufficienter produci, ita nulla virtute
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="12"/>naturae potest deficere; neque in ipsa, aut in eius 
+susce<lb ed="#L" break="no" n="13"/>ptivo, est potentia ad eius privationem, inquantum visio
+<lb ed="#L" n="14"/>beatifica est.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>3. Ad tertium  dicitur, secundum doctrinam Sancti 
+Tho<lb ed="#L" break="no" n="16"/>mae Prima, q. x, a. 3, ad 2, quod non eodem modo est
+<lb ed="#L" n="17"/>visio divina. aeterna, et poena damnatorum. Licet enim
+<lb ed="#L" n="18"/>poena damnatorum, secundum quod caret fine, possit 
+ali<lb ed="#L" break="no" n="19"/>quo modo dici aeterna; non est tamen vere aeterna, cum
+<lb ed="#L" n="20"/>sit cum quadam transmutatione, quae aeternitati repugnat ;
+<lb ed="#L" n="21"/>dicitur enim 7ob xxiv , quod ad nimium calorem 
+trans<lb ed="#L" break="no" n="22"/>ibunt ab aquis nivium.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 38</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 38</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="96"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2018"><!-- ferv7a-l3c38 -->
+            <head>Capitulum 38</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="95" type="fixed=94"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="96"/>POSTQUAM ostendit Sanctus Thomas felicitatem | 
+sub<lb ed="#L" break="no" n="97"/>stantiae intellectualis in Dei contemplatione consistere,
+<lb ed="#L" n="98"/>vult nunc ostendere in quali Dei cognitione consistat
+<lb ed="#L" n="99"/>Circa hoc autem duo facit: primo, ostendit in qua Dei
+<cb ed="#L" n="h"/>
+               <lb ed="#L" n="100"/>cognitione non consistat felicitas; secundo, in qua 
+con<lb ed="#L" break="no" n="101"/>sistat, circa finem capitis r .
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Circa primum, ostendit primo , quod. felicitas non
+<lb ed="#L" n="103"/>consistit in cognitione Dei quae communiter habetur a
+<cb ed="#L" n="i"/>
+               <lb ed="#L" n="104"/>pluribus. Et duo facit: Primo, declarat conclusionem;
+<lb ed="#L" n="105"/>secundo eam probat .
+</p>
+            <p>
+               <lb ed="#L" n="106"/>I. Quantum ad primum, inquit quod per cognitionem
+<lb ed="#L" n="107"/>communem Dei intelligit confusam quandam cognitionem
+<lb ed="#L" n="108"/>quae quasi omnibus adest: sive quia, secundum aliquos,
+<lb ed="#L" n="109"/>cognoscitur Deum esse tanquam per se notum ; sive, quod
+<lb ed="#L" n="110"/>verius est, quia videtur naturali ratione oportere esse
+<lb ed="#L" n="111"/>aliquem ordinatorem rerum quas videmus. Quis autem,
+<lb ed="#L" n="112"/>vel qualis sit, et an unus tantum sit ordinator naturae,
+<lb ed="#L" n="113"/>non habetur statim ex hac communi consideratione. — 
+De<lb ed="#L" break="no" n="114"/>claratur per similitudinem cognitionis animae ex motu
+<lb ed="#L" n="115"/>et operibus aliis.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Hanc igitur cognitionem Dei inquit Sanctus Thomas
+<lb ed="#L" n="117"/>ad felicitatem non sufficere.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>2. Advertendum primo, quod Sanctus Thomas duas 
+opi<lb ed="#L" break="no" n="119"/>niones de esse Dei tangit, superius in I libro  adductas:
+<lb ed="#L" n="120"/>quarum una dicebat quod Deum esse demonstrari non
+<lb ed="#L" n="121"/>potest eo quod sit per se notum nobis, sicut et nota
+<lb ed="#L" n="122"/>nobis sunt prima principia demonstrationis; altera vero
+<lb ed="#L" n="123"/>dicebat quod non est per se notum nobis. Et quia prima
+<lb ed="#L" n="124"/>opinio falsa est et secunda vera, ideo inquit Sanctus
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Thomas, Secundum verius est. Quia tamen ambae 
+opi<lb ed="#L" break="no" n="126"/>niones in hoc conveniunt quod aliqua cognitio Dei 
+com<lb ed="#L" break="no" n="127"/>munis est quasi omnibus, ideo utramque ad sui propositi
+<lb ed="#L" n="128"/>confirmationem adduxit.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>Advertendum secundo, quod non dixit hanc confusam
+<lb ed="#L" n="130"/>Dei cognitionem omnibus adesse, sed quasi omnibus:
+<lb ed="#L" n="131"/>quia haec actualis cognitio ab aliquibus removetur propter
+<lb ed="#L" n="132"/>impedimentum virtutum sensitivarum. Sunt enim quidam
+<lb ed="#L" n="133"/>quibus defectus rationis inest, eo quod male affectas
+<lb ed="#L" n="134"/>habeant virtutes sensitivas interiores, ut patet in amentibus,
+<lb ed="#L" n="135"/>et istis haec actualis cognitio non adest. Sed omnibus
+<lb ed="#L" n="136"/>ratione utentibus videtur quandoque inesse. Nullus enim
+<lb ed="#L" n="137"/>huiusmodi est cui non aliquando insit consideratio quod
+<lb ed="#L" n="138"/>aliquis universi gubernator sit. Unde et <ref>Cicero, in I Quaest.
+<lb ed="#L" n="139"/>Tusc.</ref>, ait quod <quote source="http://scta.info/resource/ctd99a-asdvss-d1e219@12-26">nulla gens tam fera est, et nemo 
+ho<lb ed="#L" break="no" n="140"/>minum tam immanis, cuius mentem non imbuerit deorum
+<lb ed="#L" n="141"/>opinio</quote>.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>II. Quantum ad secundum, arguitur primo sic. Haec 
+co<lb ed="#L" break="no" n="143"/>gnitio multorum errorum admixtionem suscipit: ut patet
+<lb ed="#L" n="144"/>ex eo quod quidam corpora caelestia; quidam vero ipsa
+<lb ed="#L" n="145"/>elementa, utpote a quibus, secundum eos, alia ordinantur,
+<lb ed="#L" n="146"/>et eorum motus et actiones a nullo ordinatore eis insunt;
+<lb ed="#L" n="147"/>quidam vero homines qui alios ordinant, deos esse dixe-
+<cb ed="#L" n=""/>
+               <lb ed="#L" n="148"/>runt. Ergo etc. — Patet consequentia. Quia felicitatem
+<lb ed="#L" n="149"/>oportet operationem perfectam esse.
+</p>
+            <p>
+               <lb ed="#L" n="150"/>Secundo. Ad istam cognitionem non ordinantur humani
+<lb ed="#L" n="151"/>actus sicut in finem: immo quasi a principio, ab usu
+<lb ed="#L" n="152"/>videlicet rationis, omnibus adest. Ergo etc. — Patet 
+con<lb ed="#L" break="no" n="153"/>sequentia. Quia felicitas est finis humanorum actuum.
+</p>
+            <p>
+               <lb ed="#L" n="154"/>Adverte quod de ratione felicitatis, cum sit ultimus
+<lb ed="#L" n="155"/>finis, est ut sit ultima perfectio, ad quam homo suis 
+ope<lb ed="#L" break="no" n="156"/>ribus bene actis nititur pervenire. Ideo ex eo quod illa
+<lb ed="#L" n="157"/>confusa cognitio a principio adest, utpote a natura 
+pro<lb ed="#L" break="no" n="158"/>veniens, optime arguit Sanctus Thomas in ipsa humanam
+<lb ed="#L" n="159"/>felicitatem non consistere.
+</p>
+            <p>
+               <lb ed="#L" n="160"/>Tertio. Ex eo quod praedicta cognitione aliquis caret,
+<lb ed="#L" n="161"/>maxime vituperabilis apparet, et stolidus reputatur: iuxta
+<lb ed="#L" n="162"/>illud Psalmi, Dixit insipiens etc. Ergo etc. — Probatur
+<lb ed="#L" n="163"/>[consequentia]. Quia nullus per hoc vituperabilis apparet
+<lb ed="#L" n="164"/>quia felicitate careat: quinimmo carentes ea et in ipsam
+<lb ed="#L" n="165"/>tendentes laudantur.
+</p>
+            <p>
+               <lb ed="#L" n="166"/>Adverte quod carere felicitate non est vituperabile si
+<lb ed="#L" n="167"/>secundum se accipiatur, ut patet in hominibus 
+viven<lb ed="#L" break="no" n="168"/>tibus, et in pueris in solo originali decedentibus, inquantum
+<lb ed="#L" n="169"/>sunt particulares personae. Et sic intelligit Sanctus Thomas.
+<lb ed="#L" n="170"/>Carere tamen felicitate sua culpa, ut in damnatis 
+con<lb ed="#L" break="no" n="171"/>tingit, vituperabile est, ratione culpae adiunctae, quae
+<lb ed="#L" n="172"/>voluntaria est,
+</p>
+            <p>
+               <lb ed="#L" n="173"/>Quarto. Talis cognitio est imperfectissima: quia 
+huius<lb ed="#L" break="no" n="174"/>modi cognitio est per quam res cognoscitur in potentia
+<lb ed="#L" n="175"/>tantum, cum propria in communibus potentia contineantur.
+<lb ed="#L" n="176"/>Ergo etc. - Probatur consequentia. Quia felicitas est operatio
+<lb ed="#L" n="177"/>perfecta; et summum hominis bonum oportet esse 
+secun<lb ed="#L" break="no" n="178"/>dum id quod est in actu, et non id quod est in potentia;
+<lb ed="#L" n="179"/>cum potentia perfecta per actum habeat boni rationem.
+</p>
+            <p>
+               <lb ed="#L" n="180"/>Adverte quod ultima verba, scilicet, potentia perfecta
+<lb ed="#L" n="181"/>per actum habet boni rationem, adducuntur pro ratione
+<lb ed="#L" n="182"/>praecedentis propositionis. Et est sensus quod ideo 
+sum<lb ed="#L" break="no" n="183"/>mum. bonum hominis non est id quod est in potentia,
+<lb ed="#L" n="184"/>quia quod est in potentia, ut sic, non habet rationem
+<lb ed="#L" n="185"/>boni, cum careat actu, ex quo aliquid habet ut sit bonum;
+<lb ed="#L" n="186"/>sed omnem perfectionem et bonitatem habet inquantum
+<lb ed="#L" n="187"/>potentia est perfecta per actum. Sic enim arguatur. Quod
+<lb ed="#L" n="188"/>est in potentia, ut sic, non habet rationem boni, sed
+<lb ed="#L" n="189"/>tantum quod habet actum. Ergo quod est in potentia,
+<lb ed="#L" n="190"/>non potest esse summum bonum: oppositum enim 
+con<lb ed="#L" break="no" n="191"/>sequentis repugnat antecedenti.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 150</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 150</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="442"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2933"><!-- ferv7a-l3c150 -->
+            <head>Capitulum 150</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="95" type="fixed=442"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="96"/>POSTQUAM ostendit Sanctus Thomas necessarium esse 
+<lb ed="#L" n="97"/>nobis divinum quoddam auxilium ad beatitudinem
+<lb ed="#L" n="98"/>consequendam, quod: nostris operibus promereri non 
+pos<lb ed="#L" break="no" n="99"/>sumus, vult declarare quid illud auxilium sit. Circa hoc
+<lb ed="#L" n="100"/>autem duo facit: primo, ostendit quo nomine vocetur;
+<lb ed="#L" n="101"/>secundo, quid. sit .
+</p>
+            <p>
+               <lb ed="#L" n="102"/>I. Quantum ad primum, ait quod dictum auxilium
+<lb ed="#L" n="103"/>nominatur gratia, propter duo. Primo, quia datur gratis,
+<lb ed="#L" n="104"/>et absque propriis meritis praeco Quae ratio 
+tan<lb ed="#L" break="no" n="105"/>gitur Rom: xt.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Secundo, quia hoc auxilio speciali quadam .praerogativa
+<lb ed="#L" n="107"/>homo redditur Deo gratus: inquantum, praeter dilectionem
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="108"/>qua Deus omnem creaturam diligit volendo et operando
+<lb ed="#L" n="109"/>esse et perfectionem omnis creaturae, specialis ratio divinae
+<lb ed="#L" n="110"/>dilectionis ad illos consideratur quibus auxilium praebet
+<lb ed="#L" n="111"/>ad consecutionem- supernaturalis — scilicet fruitionis
+<lb ed="#L" n="112"/>sui ipsius, ut ostenditur ad Ephes.1: dicitur enim quis
+<lb ed="#L" n="113"/>alicui .esse gratus, quia est ei dilectus. Unde et qui ab
+<lb ed="#L" n="114"/>aliquo diligitur, dicitur eius gratiam habere...
+</p>
+            <p>
+               <lb ed="#L" n="115"/>2. Ad huius evidentiam, considerandum est, ex doctrina
+<lb ed="#L" n="116"/>Sancti "Thomae II Sent., d. xxvi, a. 1, ad 2, quod, quamvis
+<lb ed="#L" n="117"/>omnes naturales bonitates creaturis collatae gratiae dici
+<lb ed="#L" n="118"/>possint, quia gratis a Deo dantur, effectus tamen divinae
+<lb ed="#L" n="119"/>dilectionis qua hominem ad divinam fruitionem diligit,
+<pb ed="#L" n="443"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>antonomasice gratia dicitur: sicut et ipsa dilectio 
+anto<lb ed="#L" break="no" n="2"/>nomasice dicitur. dilectio, quia non solum. diligitur homo
+<lb ed="#L" n="3"/>a.Deo sicut ab artifice opus suum diligitur, sed perfecta
+<lb ed="#L" n="4"/>quadam dilectione, quae quasi amicitiae similis est, 
+inquan<lb ed="#L" break="no" n="5"/>tum trahit ipsum in. societatem suae. fruitionis, ut in eo
+<lb ed="#L" n="6"/>sit ipsius gloria et beatitudo quo Deus beatus est. Propter
+<lb ed="#L" n="7"/>hoc bene hic dicitur quod, quia homo redditur Deo gratus
+<lb ed="#L" n="8"/>per divinum illud auxilium speciali quadam jtodtMtes,
+<lb ed="#L" n="9"/>ideo ipsum auxilium. gratia noniinatur.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>II. Quantum ad secundum , ponit hanc ebaclosicneps
+<lb ed="#L" n="11"/>Gratia haec est aliquid in: homine gratificato existens,
+<lb ed="#L" n="12"/>tatigiatn forma quaedam et perfectio eius.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Probatur multiplici ratione . Prima ratio est. Auxilio
+<lb ed="#L" n="14"/>divinae gratiae homo dirigitur in ultimum finem. Ergo
+<lb ed="#L" n="15"/>oportet. quod continue isto auxilio potiatur, quousque ad
+<lb ed="#L" n="16"/>finem perveniat. Ergo talis gratia gratum faciens est aliqua
+<lb ed="#L" n="17"/>forma et perfectio in homine. manens, etiam quando non
+<lb ed="#L" n="18"/>operatur.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Probatur prima consequentia. Quia. quod. in finem 
+ali<lb ed="#L" break="no" n="20"/>quem dirigitur, oportet quod habeat continuum ordinem
+<lb ed="#L" n="21"/>in ipsum: cum movens continue moveat quousque mobile
+<lb ed="#L" n="22"/>per motum. finem. sortiatur.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Secunda vero: quia oppositum consequentis infert 
+op<lb ed="#L" break="no" n="24"/>positum: antecedentis. Si enim participaretur ab homine
+<lb ed="#L" n="25"/>secundum aliquem motum et passionem, et non secundum
+<lb ed="#L" n="26"/>aliquam formam manentem et quasi quiescentem in ipso,
+<lb ed="#L" n="27"/>non esset in homine nisi quandiu actu converteretur in
+<lb ed="#L" n="28"/>finem. Et sic, cum non continue hoc ab homine agatur,
+<lb ed="#L" n="29"/>sequitur. quod. isto auxilio homo non potiatur continue
+<lb ed="#L" n="30"/>quousque perveniat in finem. Quod est oppositum 
+ante<lb ed="#L" break="no" n="31"/>cedentis.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>2. Ad evidentiam huius rationis, considerandum est
+<lb ed="#L" n="33"/>quod dupliciter rem aliquam contingit in finem dirigi. Uno
+<lb ed="#L" n="34"/>modo, per aliquem actum secundum, quo actualiter 
+mo<lb ed="#L" break="no" n="35"/>vetur ad acquisitionem finis: sicut lapis deorsum dirigitur
+<lb ed="#L" n="36"/>cum actu movetur deorsum. Alio modo, per actum primum,
+<lb ed="#L" n="37"/>quo habet habitualem inclinationem et ordinem, sive 
+con<lb ed="#L" break="no" n="38"/>venientiam, ad finem: sicut, cum lapis non movetur actu
+<lb ed="#L" n="39"/>deorsum, propter gravitatem tamen in ipso existentem,
+<lb ed="#L" n="40"/>dicitur dirigi et inclinari ad locum deorsum. Utroque modo
+<lb ed="#L" n="41"/>Deus creaturam ad finem movere potest: sed differentia
+<lb ed="#L" n="42"/>est quia motio rei qua a Deo dirigitur ad finem per actualem
+<lb ed="#L" n="43"/>tendentiam ad finem, non est in re nisi quando res actualiter
+<lb ed="#L" n="44"/>per propriam operationem, in ipso a Deo causatam, 
+mo<lb ed="#L" break="no" n="45"/>vetur ad finem; forma autem qua habitualiter res inclinatur
+<lb ed="#L" n="46"/>ad finem, et fit fini conveniens et. proportionata, est in
+<lb ed="#L" n="47"/>ereatura etiam quando creatura non actualiter movetur ad
+<lb ed="#L" n="48"/>finem; sicut in gravi est gravitas etiam quando. non.actua- -
+<lb ed="#L" n="49"/>liter movetur deorsum. Quia ergo homo potest ad 
+superna<lb ed="#L" break="no" n="50"/>turalem beatitudinem a Deo dirigi et per actualem motionem
+<lb ed="#L" n="51"/>qua appetitum ad finis amorem et desiderium movet; et
+<lb ed="#L" n="52"/>r aliquam. formam :ab- eo-causatam qua "homo: quasi
+<lb ed="#L" n="53"/>habitualiter ordinatur in beatitudinem : si dirigatur in beati-;
+<lb ed="#L" n="54"/>tudinem per solam motionem appetitus a Deo ad actualem
+<lb ed="#L" n="55"/>operationem, cum. talis. non,sit in homine continua, ut
+<lb ed="#L" n="56"/>patet in homine dormiente, sequitur quod mec djrectio
+<lb ed="#L" n="57"/>huiusmodi ad finem sit continua. Propter hoc bene hic
+<lb ed="#L" n="58"/>infertur quod, si homo, divinum auxilium participaret 
+se<lb ed="#L" break="no" n="59"/>cundum aliquem motum aut passionem, scilicet secundum
+<lb ed="#L" n="60"/>motum voluntatis in ipsa a Deo causatum, non continue
+<lb ed="#L" n="61"/>homo potiretur divino auxilio: quousque ad finem 
+perve<lb ed="#L" break="no" n="62"/>niret: quia talis motus aut passio non esset in homine
+<lb ed="#L" n="63"/>nisi. quando. actu .converteretur in finem, per actualem
+<lb ed="#L" n="64"/>videlicet appetitum finis; quod constat non agi ab homine
+<lb ed="#L" n="65"/>continue.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>3. Circa probationem vero primae consequentiae, 
+adver<lb ed="#L" break="no" n="67"/>tendum quod, sicut motus dicitur continuus qui nulla
+<lb ed="#L" n="68"/>quiete interrumpitur, ita continuus ordo ad finem dicitur
+<lb ed="#L" n="69"/>ordo non interruptus quousque ad finem perveniatur. Si
+<lb ed="#L" n="70"/>enim sit ordo ad finem in aliquo, et postmodum ille ordo
+<lb ed="#L" n="71"/>cesset, deinde recuperetur, non dicitur continuus ordo ad
+<lb ed="#L" n="72"/>finem. Sed cum aliquid ordinatur ad finem, non 
+interrum<lb ed="#L" break="no" n="73"/>piturque ordo, sed pervenitur ad finem nulla facta ordinis
+<lb ed="#L" n="74"/>interruptione, dicitur ille ordo continuus. Ad hunc ergo
+<lb ed="#L" n="75"/>sensum intelligitur quod. ait Sanctus Thomas, id. quod in
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>aliquem finem dirigitur, oportere habere continuum 
+ordi<lb ed="#L" break="no" n="77"/>nem ad ipsum: quia videlicet necesse .est ut ad finetti
+<lb ed="#L" n="78"/>habeat ordinem nullo. modo interruptum, quousque ad
+<lb ed="#L" n="79"/>ipsum perveniat.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>III. Sed tunc duplex resultat dubium; Unum contra
+<lb ed="#L" n="81"/>ipsam propositionem. Videtur enim.ex hoc sequi quod
+<lb ed="#L" n="82"/>semel directus.a Deo in beatitudinem per gratiae 
+infusio<lb ed="#L" break="no" n="83"/>nem, nunquam ipsam gratiam possit amittere quousque ad
+<lb ed="#L" n="84"/>beatitudinem pervenerit: cum taamen Catholice teneatur
+<lb ed="#L" n="85"/>per peccatum mortale amitti KIA) ida cer 'per
+<lb ed="#L" n="86"/>poenitentiam posse.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Alterum est contra huius propositionis probationem
+<lb ed="#L" n="88"/>Nam ex hoc quod movens continue movet quousque 
+mo<lb ed="#L" break="no" n="89"/>bile per motum ad finem perveniat, noti habetur nisi quod
+<lb ed="#L" n="90"/>homo directus per divinam .motionem. in beatitudinem,
+<lb ed="#L" n="91"/>movetur tali motione quousque in ipsam perveniat. Et sic
+<lb ed="#L" n="92"/>habetur quod continue homo divino auxilio, quae est 
+di<lb ed="#L" break="no" n="93"/>vina motio, potiatur: non autem quod. potiatur- aliqua
+<lb ed="#L" n="94"/>forma permanente et quiescente, ut intendebatur.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>IV. Ad primi dubii solutionem, considerandum est quod,
+<lb ed="#L" n="96"/>cum in directione qua aliquid ab alio dirigitut in finem
+<lb ed="#L" n="97"/>per aliquid in ipso causatum quod sit fini proportionatum;
+<lb ed="#L" n="98"/>tria concurrant, scilicet actio agentis, qua rem dirigit et
+<lb ed="#L" n="99"/>movet ad finem; forma moti et directi, qua formaliter dirigi
+<lb ed="#L" n="100"/>dicitur; et habitudo consequens, quae est habitudo ordinati
+<lb ed="#L" n="101"/>et directi ad finem: manente ipsa directione activa agentis
+<lb ed="#L" n="102"/>et dirigentis, necesse est ipsam formam directi, et- 
+habitu<lb ed="#L" break="no" n="103"/>dinem consequentem, manere et non interrumpi;: quia
+<lb ed="#L" n="104"/>actio moventis non est sine actu mobilis, et sine moti 
+ha<lb ed="#L" break="no" n="105"/>bitudine ad id ad quod movetur. Sensus ergo propositionis
+<lb ed="#L" n="106"/>Sancti Thomae est quod, si aliquid in finem dirigitur, non
+<lb ed="#L" n="107"/>per solam prtae ordinationem dirigentis, sicut praedestinatus
+<lb ed="#L" n="108"/>dicitur esse in mente divina ab aeterno in vitam aeternam
+<lb ed="#L" n="109"/>directus et ordinatus, sed per actum aliquem receptum a
+<lb ed="#L" n="110"/>dirigente in eo qui dirigitur, quo fit vita aeterna dignus;
+<lb ed="#L" n="111"/>necesse est ut, manente directione activa qua in finem
+<lb ed="#L" n="112"/>dirigitur, maneat continue habitudo ad finem, et actus in
+<lb ed="#L" n="113"/>eo qui dirigitur receptus, super quo talis habitudo fundatur.
+<lb ed="#L" n="114"/>Sic enim, cum homo Deo gratus, quandiu est gratus, actione
+<lb ed="#L" n="115"/>divina dirigatur et ordinetur ad beatitudinem, etiam quando
+<lb ed="#L" n="116"/>non convertitur in ipsam beatitudinem per actum liberi
+<lb ed="#L" n="117"/>arbitrii; optime sequitur quod forma illa qua in talem finem
+<lb ed="#L" n="118"/>dirigitur, continue in ipso maneat, etiam quando non actu
+<lb ed="#L" n="119"/>operatur convertendo se ad finem; et per consequens quod
+<lb ed="#L" n="120"/>talis actus non est in homine per modum motus aut 
+pas<lb ed="#L" break="no" n="121"/>sionis, sed magis per. modum formae permanentis.
+</p>
+            <p>
+               <lb ed="#L" n="122"/>Ad dubium ergo dicitur quod illud non sequitur quod
+<lb ed="#L" n="123"/>infertur. Non enim intendit Sanctus Thomas quod 
+ordi<lb ed="#L" break="no" n="124"/>natum ad finem, absolute loquendo, babeat continuum 
+ordi<lb ed="#L" break="no" n="125"/>nem ad finem quousque finem consequatur : sed, ut dictum
+<lb ed="#L" n="126"/>est, quod, manente directione agentis, est continuus ordo
+<lb ed="#L" n="127"/>ad.finem.; quousque ipsum consequatur. Contingit autem
+<lb ed="#L" n="128"/>ipsam directionem hominis ad beatitudinem interrumpi per
+<lb ed="#L" n="129"/>peccatum, inquantum Deus cessat a causatione illius formae
+<lb ed="#L" n="130"/>et actus quo homo dirigebatur in finem. Et sic etiam
+<lb ed="#L" n="131"/>contingit ipsum ordinem interrumpi.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>2. Posset etiam brevius dici quod intelligitur quantum
+<lb ed="#L" n="133"/>est ex ipsa ratione directionis secundum se considerata.
+<lb ed="#L" n="134"/>Dirigens enim rem aliquam ad finem sua motione, quantum
+<lb ed="#L" n="135"/>est ex se, non cessat quousque rem ad finem perduxerit:
+<lb ed="#L" n="136"/>et per consequens talis habitudo et ordo rei directae, 
+se<lb ed="#L" break="no" n="137"/>cundum se, non habet quod interrumpatur. Cum hoc
+<lb ed="#L" n="138"/>tamen stat quod per aliquod impedimentum superveniens
+<lb ed="#L" n="139"/>possit ipsa directio et ipse ordo impediri: sicut potest,
+<lb ed="#L" n="140"/>superveniente vento, impediri sagitta ne ad signum 
+inten<lb ed="#L" break="no" n="141"/>tum a sagittante perveniat. Eodem modo dicitur quod ipsa
+<lb ed="#L" n="142"/>directio hominis Deo grati ad beatitudinem, secundum se,
+<lb ed="#L" n="143"/>continua est; et ordo huiusmodi hominis ad ipsam directi,
+<lb ed="#L" n="144"/>quantum est ex se, habet ut continue duret quousque homo
+<lb ed="#L" n="145"/>beatitudinem consequatur ; potest tamen talis ordo talisque
+<lb ed="#L" n="146"/>dueesnio per peccarum impediens interrumpi.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>3. Ad secundum  dicitur quod ex illa ratione non 
+con<lb ed="#L" break="no" n="148"/>caditur quod homo sola divina motione, absque formae
+<lb ed="#L" n="149"/>permanentis impressione, continue potiatur: sed solum
+<lb ed="#L" n="150"/>quod oportet in homine sic directo esse aliquem actum,
+<pb ed="#L" n="444"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et ordinem ipsum actum consequentem continuum esse,
+<lb ed="#L" n="2"/>manente ipsa activa directione, vel etiam, quantum est ex
+<lb ed="#L" n="3"/>se. Ex hoc autem sequitur quod, cum homo non semper
+<lb ed="#L" n="4"/>actu convertatur in finem per actum secundum exercitum ;
+<lb ed="#L" n="5"/>semper tamen a. Deo sit in ipsum directus, etiam quando
+<lb ed="#L" n="6"/>non actu operatur, quousque per peccatum talis directio
+<lb ed="#L" n="7"/>cesset: talis actus in homine ad beatitudinem directo non
+<lb ed="#L" n="8"/>potest esse sola motio divina qua liberum arbitrium in Deum
+<lb ed="#L" n="9"/>actualiter movet, quia. illa non continue manet; sed aliqua
+<lb ed="#L" n="10"/>forma in homine manens etiam quando actu non operatur.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>V. Secunda ratio est. Homo provocatur ad diligendum
+<lb ed="#L" n="12"/>aliquem specialiter propter bonum in ipso praeexistens,
+<lb ed="#L" n="13"/>Ergo, ubi ponitur specialis dilectio Dei ad hominem, oportet
+<lb ed="#L" n="14"/>quod ponatur aliquod bonum speciale homini a Deo 
+col<lb ed="#L" break="no" n="15"/>latum. Ergo etc. — Probatur. prima consequentia. Quia
+<lb ed="#L" n="16"/>dilectio. Dei. est causativa boni quod in nobis est, sicut
+<lb ed="#L" n="17"/>dilectio hominis provocatur et causatur ex aliquo. bono
+<lb ed="#L" n="18"/>quod est in dilecto. - Secunda vero: quia gratia gratum
+<lb ed="#L" n="19"/>faciens designat specialem Dei dilectionem.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>2. Sed videtur ista ratio concludere hoc solum, quod
+<lb ed="#L" n="21"/>gratia gratum faciens sit aliquid in homine: non autem
+<lb ed="#L" n="22"/>quod sit forma permanens, quod est intentum.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Respondetur quod, licet prima fronte videatur. illud
+<lb ed="#L" n="24"/>concludi, si tamen diligenter inspiciatur, propositum 
+con<lb ed="#L" break="no" n="25"/>cluditur. Sicut enim homo ad amorem specialem alterius
+<lb ed="#L" n="26"/>hominis provocatur ex aliqua eius perfectione in ipso 
+per<lb ed="#L" break="no" n="27"/>manente, aut vera aut existimata, non autem ex aliquo in
+<lb ed="#L" n="28"/>ipso existente per modum transeuntis: ita Deus, specialiter
+<lb ed="#L" n="29"/>creaturam rationalem diligendo, causat in ipsa aliquam
+<lb ed="#L" n="30"/>formam permanentem, qua possit dici formaliter Deo gratus.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>VI. Tertia ratio est. Finis in quem homo dirigitur per
+<lb ed="#L" n="32"/>auxilium gratiae, est supra naturam humanam. Ergo oportet
+<lb ed="#L" n="33"/>ut homini superaddatur supernaturalis. forma, qua 
+conve<lb ed="#L" break="no" n="34"/>nienter in ipsum ordinetur. — Probatur consequentia. Quia
+<lb ed="#L" n="35"/>unumquodque ordinatur in finem sibi convenientem 
+se<lb ed="#L" break="no" n="36"/>cundum rationem suae formae. Cuius signum est, quod
+<lb ed="#L" n="37"/>diversarum specierum diversi sunt fines.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Quarta ratio est. Oportet quod homo ad ultimum finem
+<lb ed="#L" n="39"/>per proprias operationes perveniat. Ergo oportet quod ei
+<lb ed="#L" n="40"/>superaddatur aliqua forma ex qua operationes eius 
+effica<lb ed="#L" break="no" n="41"/>ciam habeant promerendi ultimum finem. — Probatur 
+con<lb ed="#L" break="no" n="42"/>sequentia. Quia unumquodque operatur secundum 
+pro<lb ed="#L" break="no" n="43"/>priam formam.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Quinta ratio est. Modus proprius hominis est quod
+<lb ed="#L" n="45"/>ad perfectionem suarum operationum, oportet, supra 
+natu<lb ed="#L" break="no" n="46"/>rales potentias, ei inesse perfectiones aliquas et habitus,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="47"/>quibus quasi connaturaliter, faciliter et delectabiliter bonum
+<lb ed="#L" n="48"/>et bene operetur. Ergo etc. - Probatur consequentia. Quia
+<lb ed="#L" n="49"/>divina providentia omnibus providet secundum modum
+<lb ed="#L" n="50"/>suae. naturae. :
+</p>
+            <p>
+               <lb ed="#L" n="51"/>CowrigMATUR. Quia ad Ephes. v, gratia dicitur ux, quia
+<lb ed="#L" n="52"/>per ipsam homo promovetur ad Dei visionem: lux enim
+<lb ed="#L" n="53"/>est principium videndi.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>VII. Per hoc autem excluditur opinio dicentium gratiam
+<lb ed="#L" n="55"/>nihil in homine ponere: sicut nec in eo qui dicitur gratiam
+<lb ed="#L" n="56"/>regis habere. Qui decepti sunt non attendentes differentiam
+<lb ed="#L" n="57"/>inter dilectionem divinam et humanam. Illa enim est 
+causa<lb ed="#L" break="no" n="58"/>tiva boni quod in aliquo diligit: non autem humana.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Advertendum quod, licet dilectio humana non sit 
+uni<lb ed="#L" break="no" n="60"/>versaliter causativa boni quod in aliquo diligit, oportet
+<lb ed="#L" n="61"/>tamen in dilecto esse aliquam perfectionem qua alius ad
+<lb ed="#L" n="62"/>eum diligendum provocetur. Et sic in illo qui dicitur 
+gra<lb ed="#L" break="no" n="63"/>tiam regis habere, oportet aliquam perfectionem ponere
+<lb ed="#L" n="64"/>ex qua dilectio regis originem habeat: licet non oporteat
+<lb ed="#L" n="65"/>in ipso aliquid ponere per regis dilectionem causatum.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Ex his manifeste patet opinionem illorum falsam esse qui
+<lb ed="#L" n="67"/>dixerunt gratiam nihil aliud esse quam divinam dilectionem
+<lb ed="#L" n="68"/>et acceptionem, qua Deus hominem ad vitam aeternam
+<lb ed="#L" n="69"/>acceptat. Vide apud Capreolum, in xvm dist. Primi .
+</p>
+            <p>
+               <lb ed="#L" n="70"/>VIII. Advertendum etiam quod ex supra dictis manifeste
+<lb ed="#L" n="71"/>relinquitur quid sit gratia gratum faciens: idest, quae
+<lb ed="#L" n="72"/>hominem Deo gratum reddit ad beatitudinem 
+consequen<lb ed="#L" break="no" n="73"/>dam. Est enim: Forma quaedam et perfectio existens in
+<lb ed="#L" n="74"/>creatura rationali, per quam homo formaliter redditur Deo
+<lb ed="#L" n="75"/>gratus et dilectus, et per quam est homo dignus, vita
+<lb ed="#L" n="76"/>aeterna, et est ad eam capescendam ordinatus: sicut grave
+<lb ed="#L" n="77"/>est gravitate formaliter grave, et ad locum deorsum per
+<lb ed="#L" n="78"/>ipsam ordinatur. Et cum non sit forma substantialis, quia
+<lb ed="#L" n="79"/>advenit post esse completum rei, manifeste relinquitur quod
+<lb ed="#L" n="80"/>sit accidens; et qualitas quaedam; et in prima specie 
+quali<lb ed="#L" break="no" n="81"/>tatis, ut dicitur I I5, q. cx, a. 3; et Verit., q. xxvi, a. 2 ;
+<lb ed="#L" n="82"/>et II Sent., d. xxvr, a. 4: non quidem quod proprie possit
+<lb ed="#L" n="83"/>dici habitus de quo locutus est Philosophus in 
+Praedi<lb ed="#L" break="no" n="84"/>camentis , cum non immediate ordinetur ad operationem,
+<lb ed="#L" n="85"/>nec sit in potentia animae, sed in eius essentia; sed est
+<lb ed="#L" n="86"/>veluti dispositio et habilitas quaedam respectu gloriae, quae
+<lb ed="#L" n="87"/>est gratia consummata. Unde potest dici habitus ad 
+essen<lb ed="#L" break="no" n="88"/>dum: inquantum hominem constituit in quodam esse 
+su<lb ed="#L" break="no" n="89"/>pernaturali, faciens ipsum formaliter vita aeterna. dignum.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Quomodo. autem distinguatur a virtute, vide apud 
+Ca<lb ed="#L" break="no" n="91"/>preolum, in Secundo, d. xxvr; et argumenta Scoti, cum
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

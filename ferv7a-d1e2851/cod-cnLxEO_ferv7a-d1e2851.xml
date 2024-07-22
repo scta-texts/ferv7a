@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 140</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 140</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="425"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2851"><!-- ferv7a-l3c140 -->
+            <head>Capitulum 140</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="9" type="fixed=423"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="10"/>POSTQUAM ostendit Sanctus Thomas quod ad divinam
+<lb ed="#L" n="11"/>providentiam pertinet hominibus leges dare, vult 
+ulte<lb ed="#L" break="no" n="12"/>rius ostendere quod ad ipsam pertinet homines punire
+<lb ed="#L" n="13"/>vel praemiare .
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Circa hoc autem duo facit: primo, ostendit quod actus
+<lb ed="#L" n="15"/>hominis puniuntur vel praemiantur a Deo; secundo, de
+<lb ed="#L" n="16"/>poena et praemio determinat, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>I. Quantum ad primum, arguit primo sic. Ad divinam
+<lb ed="#L" n="18"/>providentiam pertinet ut legem hominibus ponat. Ergo ad
+<lb ed="#L" n="19"/>Deum. pertinet homines punire vel praemiare. — Probatur
+<lb ed="#L" n="20"/>consequentia. Quia eius est punire vel praemiare cuius
+<lb ed="#L" n="21"/>est legem imponere : cum legislatores per praemia et poenas
+<lb ed="#L" n="22"/>observantiam  legis inducant. 
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Secundo. Deus imposuit actibus hominum ordinem 
+ali<lb ed="#L" break="no" n="24"/>quem in respectu ad finem boni, idest, ad finem a quo omnia
+<lb ed="#L" n="25"/>bonitatem habent. Ergo oportet, si ordo ille est recte 
+po<lb ed="#L" break="no" n="26"/>situs, quod incedentes per illum finem boni consequantur,
+<lb ed="#L" n="27"/>scilicet ab ipso Deo, quod est praemiari: recedentes vero
+<lb ed="#L" n="28"/>ab illo per peccatum, a fine boni excludi, quod est puniri.
+<lb ed="#L" n="29"/>— Probatur consequentia. Quia ubicumque est aliquis ordo
+<lb ed="#L" n="30"/>debitus ad finem, oportet quod ordo ille ducat ad finem,
+<lb ed="#L" n="31"/>recessus vero ab ordine finem excludat: cum ea quae ad
+<lb ed="#L" n="32"/>finem ducunt, necessitatem consequantur ex fine.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>II. Tertio. Cum in rebus naturalibus debitus ordo 
+na<lb ed="#L" break="no" n="34"/>turalium principiorum et actionum servatur, sequitur ex
+<lb ed="#L" n="35"/>necessitate naturae conservatio et bonum in ipsis; corruptio
+<lb ed="#L" n="36"/>autem et malum, cum a debito et naturali ordine 
+rece<lb ed="#L" break="no" n="37"/>ditur. Ergo et in rebus humanis oportet quod, cum homo
+<lb ed="#L" n="38"/>voluntarie servat aut praetermittit ordinem divinae legis,
+<lb ed="#L" n="39"/>consequatur bonum aut malum, non ex necessitate, sed
+<lb ed="#L" n="40"/>ex dispensatione gubernantis, quod est praemiari vel puniri.
+<lb ed="#L" n="41"/>— Probatur consequentia. Quia observatio et transgressio
+<lb ed="#L" n="42"/>ordinis divinae providentiae, cui et res naturales et actus
+<lb ed="#L" n="43"/>humani subduntur, est in potestate humanae voluntatis 
+con<lb ed="#L" break="no" n="44"/>stituta, non autem in potestate naturalium rerum. Oportet
+<lb ed="#L" n="45"/>autem effectus causis per convenientiam respondere.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>2. Sed videtur quod ista ratio non concludat. Sicut
+<lb ed="#L" n="47"/>enim in naturalibus bonum aut malum quod sequitur, in
+<lb ed="#L" n="48"/>ipsam naturam tanquam in principium refertur, quia non
+<lb ed="#L" n="49"/>est in potestate naturalium rerum sequi ordinem suum
+<lb ed="#L" n="50"/>aut ab ipso recedere: ita, si debent effectus causis 
+cor<lb ed="#L" break="no" n="51"/>respondere in humanis actibus, sequitur quod bonum et
+<lb ed="#L" n="52"/>malum debeat referri in ipsam voluntatem, non autem in
+<lb ed="#L" n="53"/>dispositionem gubernantis, quia observatio et transgressio
+<lb ed="#L" n="54"/>debiti ordinis est in potestate humanae voluntatis 
+consti<lb ed="#L" break="no" n="55"/>tuta. Et sic non sequitur quod Dei sit praemiare aut punire.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Ad hoc dicitur quod haec ratio supponit bonum et
+<lb ed="#L" n="57"/>malum quod ex actione provenit, in omnibus esse ex 
+dispo<lb ed="#L" break="no" n="58"/>sitione gubernantis; sed in aliquibus, scilicet in natura-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="59"/>libus, sic esse ordinatum ut illis bonum aut malum ex
+<lb ed="#L" n="60"/>necessitate naturae proveniat; in aliquibus vero, idest in
+<lb ed="#L" n="61"/>voluntarie agentibus, sic esse dispositum ut non ex 
+neces<lb ed="#L" break="no" n="62"/>sitate naturae proveniat, sed ex voluntate gubernantis, sibi
+<lb ed="#L" n="63"/>dispensationem boni et mali reservantis. Non enim in 
+vo<lb ed="#L" break="no" n="64"/>luntarie agentibus conveniens est ut idem sit qui meretur
+<lb ed="#L" n="65"/>et retribuit, sed retributio ad superiorem pertinet. Et ideo,
+<lb ed="#L" n="66"/>cum homo non ex naturali principio, sed voluntate in suas
+<lb ed="#L" n="67"/>operationes feratur, sequitur quod bonum illi proveniat
+<lb ed="#L" n="68"/>et malum, non ex necessitate naturae, sed ex voluntate
+<lb ed="#L" n="69"/>gubernantis.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>II. Quarto. Actus humani divinae providentiae 
+subdun<lb ed="#L" break="no" n="71"/>tur. Ergo oportet malum quod in eis accidit, sub ordine
+<lb ed="#L" n="72"/>alicuius boni concludi. Sed hoc convenientissime fit per
+<lb ed="#L" n="73"/>hoc quod peccata puniuntur. Ergo etc. - Probatur prima
+<lb ed="#L" n="74"/>consequentia. Quia ad divinam bonitatem pertinet quod
+<lb ed="#L" n="75"/>nihil inordinatum in rebus relinquat. Declaratur in 
+natu<lb ed="#L" break="no" n="76"/>ralibus. — Minor vero subsumpta probatur. Quia.sic ea
+<lb ed="#L" n="77"/>quae debitam quantitatem excedunt, comprehenduntur sub
+<lb ed="#L" n="78"/>ordine iustitiae. — Declaratur. Quia homo debitum suae
+<lb ed="#L" n="79"/>quantitatis gradum excedit voluntatem suam divinae 
+prae<lb ed="#L" break="no" n="80"/>ferendo. Quae quidem inaequalitas tollitur dum, contra
+<lb ed="#L" n="81"/>voluntatem suam, aliquid secundum voluntatem divinam
+<lb ed="#L" n="82"/>pati cogitur.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Quinto, Divina providentia movet omnia ad 
+execu<lb ed="#L" break="no" n="84"/>tionem ordinis ab eo dispositi, Sed voluntas a suo obiecto,
+<lb ed="#L" n="85"/>quod est bonum vel malum, movetur. Ergo pertinet ad
+<lb ed="#L" n="86"/>divinam providentiam bona illi proponere in praemium, ut
+<lb ed="#L" n="87"/>ad recte procedendum moveatur; et mala in poenam, ad
+<lb ed="#L" n="88"/>hoc quod inordinationem vitet.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Ad huius rationis evidentiam, considerandum est, ut ex
+<lb ed="#L" n="90"/>superioribus  patet, quod voluntas a suo obiecto movetur,
+<lb ed="#L" n="91"/>non quidem per modum efficientis, sed per modum finis.
+<lb ed="#L" n="92"/>Finis autem non movet nisi voluntati sit propositus. Ideo,
+<lb ed="#L" n="93"/>cum Deus unumquodque ad executionem operis moveat
+<lb ed="#L" n="94"/>secundum quod eius conditio exigit, conveniens est ut
+<lb ed="#L" n="95"/>moveat voluntatem illi bonum et malum proponendo:
+<lb ed="#L" n="96"/>quamvis etiam interius ipsam possit effective movere.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Sexto. Convenientissime homo proficit ad finem boni ex
+<lb ed="#L" n="98"/>bono et malo alterius, dum excitatur ad bene agendum per
+<lb ed="#L" n="99"/>hoc quod videt bene operantes praemiari, et dum a malo
+<lb ed="#L" n="100"/>revocatur per hoc quod videt male agentes puniri. Ergo
+<lb ed="#L" n="101"/>ad divinam providentiam utrumque pertinet. — Probatur
+<lb ed="#L" n="102"/>consequentia. Quia divina providentia hoc modo res 
+ordi<lb ed="#L" break="no" n="103"/>navit quod una alteri prosit.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>CoxriRMATUR auctoritate Exodi xx, Psalmi, et Rom. m.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Per hoc excluditur error dicentium. quod Deus non
+<lb ed="#L" n="106"/>punit: scilicet Marcionis et Valentini, dicentium alium esse
+<lb ed="#L" n="107"/>Deum bonum, et alium Deum iustum, qui punit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

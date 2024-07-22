@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 128</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 128</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="393"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2753"><!-- ferv7a-l3c128 -->
+            <head>Capitulum 128</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="27" type="fixed=393"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="28"/>POSTQUAM ostendit Sanctus "Thomas hominem per 
+di<lb ed="#L" break="no" n="29"/>vinam legem circa corporalia ordinari, vult id quod
+<lb ed="#L" n="30"/>suum erat principale intentum prosequi, scilicet ostendere
+<lb ed="#L" n="31"/>quibus praeceptis homo ad proximum ordinetur . Circa
+<lb ed="#L" n="32"/>hoc autem duo facit: primo, ostendithominem per quaedam
+<lb ed="#L" n="33"/>praecepta ordinari ad proximum; secundo, ostendit quod
+<lb ed="#L" n="34"/>ea quae praecipiuntur, sunt etiam secundum naturam recta,
+<lb ed="#L" n="35"/>capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Circa primum tria facit: primo, ostendit ex 
+praeceden<lb ed="#L" break="no" n="37"/>tibus hominem ordinari per divinam legem ad habendum
+<lb ed="#L" n="38"/>pacem et concordiam cum proximo ; secundo, quibus 
+prae<lb ed="#L" break="no" n="39"/>ceptis ad hoc ordinetur ; tertio , quomodo multipliciter
+<lb ed="#L" n="40"/>ad praeceptorum observantiam inclinetur.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>L Primum probat primo sic. Secundum praedicta,
+<lb ed="#L" n="42"/>ordinatur homo per divinam legem ut ordinem rationis
+<lb ed="#L" n="43"/>servet in omnibus quae in eius usum venire possunt. Ergo
+<lb ed="#L" n="44"/>oportet ut ex divina lege instituatur ut homo secundum
+<lb ed="#L" n="45"/>ordinem rationis se habeat ad alios homines. — Probatur
+<lb ed="#L" n="46"/>consequentia. Quia inter omnia quae in usum hominis
+<lb ed="#L" n="47"/>veniunt, praecipua sunt alii homines: cum homo animal
+<lb ed="#L" n="48"/>sociale sit.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Secundo. Finis divinae legis est ut homo Deo adhaereat.
+<lb ed="#L" n="50"/>Sed in hoc iuvatur unus homo ex alio, tam quantum ;
+<lb ed="#L" n="51"/>ad cognitionem, quam etiam quantum ad affectionem.
+<lb ed="#L" n="52"/>Ergo etc. — Minor probatur. Quia iuvant se homines
+<lb ed="#L" n="53"/>mutuo in cognitione veritatis, et unus alium provocat
+<lb ed="#L" n="54"/>ad bonum: ut ostenditur Prov. xxvir, et Eccle. 1v.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Tertio. Ad divinam providentiam pertinet singula quae
+<lb ed="#L" n="56"/>ei subsunt, sub debito ordine continere: ut scilicet suum
+<lb ed="#L" n="57"/>ordinem et gradum teneat unumquodque. Ergo et divina
+<lb ed="#L" n="58"/>lex sic homines ordinare debet ut unusquisque suum 
+or<lb ed="#L" break="no" n="59"/>dinem teneat. Quod est homines habere pacem inter se,
+<lb ed="#L" n="60"/>secundum Augustinum. — Probatur consequentia. Quia lex
+<lb ed="#L" n="61"/>divina est quaedam ratio divinae providentiae ad homines
+<lb ed="#L" n="62"/>gubernandos.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Quarto. Quandocumque aliqua ordinantur sub aliquo,
+<lb ed="#L" n="64"/>oportet illa concorditer esse ordinata ad invicem: alias se
+<lb ed="#L" n="65"/>impedirent in consecutione finis communis, ut patet in
+<lb ed="#L" n="66"/>exercitu. Sed unusquisque homo per divinam legem 
+ordi<lb ed="#L" break="no" n="67"/>natur ad Deum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Confirmatur auctoritate Psalmi, et oam. xvi.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Advertendum quod hominem se habere secundum 
+or<lb ed="#L" break="no" n="70"/>dinem rationis ad alios homines, et inter homines esse
+<lb ed="#L" n="71"/>concordiam ordinatam et pacem, pro eodem accipit Sanctus
+<lb ed="#L" n="72"/>Thomas. Nam ratio unum hominem ad concordiam cum
+<lb ed="#L" n="73"/>aliis hominibus ordinat, cum omnium sit unus communis
+<lb ed="#L" n="74"/>finis: quae enim ad unum finem communem ordinantur,
+<lb ed="#L" n="75"/>ad illius consecutionem concordes sunt. Et ideo prima
+<lb ed="#L" n="76"/>ratio de ordine rationis unius hominis ad alios conciudit ;
+<lb ed="#L" n="77"/>reliquae vero de hominum societate et concordia.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>II. Secundo, ostendit Sanctus Thomas praeceptorum
+<lb ed="#L" n="79"/>convenientiam quibus homo ad proximum ordinatur .
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="80"/>Et arguit sic. Tunc ordinata concordia inter homines 
+ser<lb ed="#L" break="no" n="81"/>vatur, quando unicuique quod suum est redditur, quod est
+<lb ed="#L" n="82"/>iustitiae, ut dicitur Jsaiae xxxii. Ergo per legem divinam
+<lb ed="#L" n="83"/>oportuit iustitiae praecepta dari: ut unusquisque redderet
+<lb ed="#L" n="84"/>unicuique quod suum est, et abstineret a nocumentis ei
+<lb ed="#L" n="85"/>inferendis. Sed praecepta quae ordinant hominem ad 
+pro<lb ed="#L" break="no" n="86"/>ximum, sunt huiusmodi. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Probatur minor. Nam in praecepto de honore parentum,
+<lb ed="#L" n="88"/>posito Exod. xx, intelligitur praecipi ut tam parentibus
+<lb ed="#L" n="89"/>quam aliis unusquisque reddat quod debet, iuxta Apostoli
+<lb ed="#L" n="90"/>monitionem Aor. xur, — In praeceptis vero, Non occides,
+<lb ed="#L" n="91"/>Non moechaberis, Non furtum facies, praecipitur 
+absti<lb ed="#L" break="no" n="92"/>nendum esse a nocumento factis inferendo proximo, aut
+<lb ed="#L" n="93"/>in persona propria; aut in persona coniuncta; aut in 
+exte<lb ed="#L" break="no" n="94"/>rioribus rebus, In praecepto autem, Non loqueris contra
+<lb ed="#L" n="95"/>proximum tuum falsum testimonium, prohibetur ne verbo
+<lb ed="#L" n="96"/>contra iustitiam proximus offendatur. - Quia vero Deus etiam
+<lb ed="#L" n="97"/>cordium iudex est, prohibemur duobus aliis praeceptis ne
+<lb ed="#L" n="98"/>etiam. corde proximum offendamus, concupiscendo scilicet
+<lb ed="#L" n="99"/>eius uxorem, aut aliquam aliam eius rem.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>2. Advertendum est, ex doctrina Sancti Thomae I II5,
+<lb ed="#L" n="101"/>q. c, in multis articulis, quod licet in decalogo non 
+po<lb ed="#L" break="no" n="102"/>nantur nisi praecepta superius enumerata, sunt tamen in
+<lb ed="#L" n="103"/>divina lege multa alia praecepta moralia, ut patet in 
+Deu<lb ed="#L" break="no" n="104"/>teronomio et Levitico. Sed si recte consideretur, omnia
+<lb ed="#L" n="105"/>ad praecepta decalogi ordinem habent. Nam praecepta de
+<lb ed="#L" n="106"/>dilectione Dei et proximi se habent ad illa ut principia
+<lb ed="#L" n="107"/>communia et ex se manifesta ad conclusiones: et ideo in
+<lb ed="#L" n="108"/>haec referuntur praecepta decalogi ut conclusiones in 
+prin<lb ed="#L" break="no" n="109"/>cipia . Et idem dicendum est de praecepto fidei: hoc enim
+<lb ed="#L" n="110"/>quod est credere in Deum, est primum et per se notum
+<lb ed="#L" n="111"/>habenti fidem . Alia vero praecepta moralia quae in Sacra
+<lb ed="#L" n="112"/>Scriptura enumerantur, ad praecepta decalogi reducuntur
+<lb ed="#L" n="113"/>per modum cuiusdam additionis ad ipsa: ut late declarat
+<lb ed="#L" n="114"/>Sanctus Thomas loco praeallegato, articulo 11, discurrendo
+<lb ed="#L" n="115"/>per singula.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>III. Tertio loco ostendit Sanctus Thomas quomodo
+<lb ed="#L" n="117"/>multipliciter homo ad observantiam praeceptorum 
+incli<lb ed="#L" break="no" n="118"/>natur . Et ait quod aliqui ad hoc ab intrinseco inclinantur:
+<lb ed="#L" n="119"/>dum scilicet voluntarie observant legis praecepta, per 
+amo<lb ed="#L" break="no" n="120"/>rem. ad Deum et proximum. Unde ex dilectione tota legis
+<lb ed="#L" n="121"/>impletio dependet: ut dicitur Rom. xur et Matth. xxu.
+<lb ed="#L" n="122"/>Intellige: quia qui diligit Deum et proximum, omnia legis
+<lb ed="#L" n="123"/>praecepta sponte et delectabiliter implet. - Aliqui vero non
+<lb ed="#L" n="124"/>ab intrinseco, et sponte faciunt quod lex iubet, sed timore
+<lb ed="#L" n="125"/>poenarum; et non liberaliter, sed serviliter legem implent;
+<lb ed="#L" n="126"/>quod ostenditur Zsaiae xxvi.
+</p>
+            <p>
+               <lb ed="#L" n="127"/>Ex hoc infert Sanctus Thomas [quod], cum ii qui ab
+<lb ed="#L" n="128"/>interiori inclinantur ad legis observantiam, sibi ipsis sint lex,
+<lb ed="#L" n="129"/>habentes caritatem, quae eos loco legis inclinat et liberaliter
+<lb ed="#L" n="130"/>operari facit, non fuit necessarium quod propter eos lex
+<lb ed="#L" n="131"/>poneretur, sed propter illos qui ex seipsis non inclinantur
+<pb ed="#L" n="394"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ad bonum. Unde I Tim. 1, dicitur quod lex iusto non est 
+<lb ed="#L" n="2"/>posita, sed iniustis: non quidem quia iusti, non teneantur  
+<lb ed="#L" n="3"/>ad legem implendam; sed quia seipsis, etiam sine lege, ad ; 
+<lb ed="#L" n="4"/>iustitiam faciendam inclinantur. 
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Ad huius evidentiam, considerandum est, ex doctrina 
+<lb ed="#L" n="6"/>Sancti Thomae loco praeallegato, quod, cum omnia moralia 
+<lb ed="#L" n="7"/>praecepta sint de lege naturae, praecepta decalogi a primis  
+<lb ed="#L" n="8"/>praeceptis, quae sunt de dilectione Dei et proximi, tanquam 
+<lb ed="#L" n="9"/>conclusiones immediatae dependent: et ideo talia sunt quod  
+<lb ed="#L" n="10"/>statim in mente cuiuslibet popularis cadere possunt. Alia 
+<lb ed="#L" n="11"/>vero moralia praecepta non sunt adeo cuilibet manifesta,  
+<lb ed="#L" n="12"/>sed per diligentem inquisitionem sapientum inveniuntur 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="13"/>rationi consentire: et ista continentur in praeceptis decalogi
+<lb ed="#L" n="14"/>sicut conclusiones in principiis, Ex quo patet quod omnia
+<lb ed="#L" n="15"/>praecepta moralia aliquo modo in praeceptis dilectionis
+<lb ed="#L" n="16"/>continentur. Et ideo bene dictum est quod iusti ex seipsis,
+<lb ed="#L" n="17"/>etiam sine lege cogente, ad observandam iustitiam 
+incli<lb ed="#L" break="no" n="18"/>nantur. Ex eo enim quod caritatem habent, qua Deum
+<lb ed="#L" n="19"/>et proximum diligunt, in qua omnia praecepta virtualiter
+<lb ed="#L" n="20"/>continentur, ex caritate ad omnia implenda praecepta 
+in<lb ed="#L" break="no" n="21"/>clinantur, etiam nulla alia existente lege.
+<lb ed="#L" n="22"/>Cetera quae ad decalogi praecepta spectant, late de- .
+<lb ed="#L" n="23"/>terminat Sanctus Thomas loco praeallegato; et IT IF,
+<lb ed="#L" n="24"/>q. cxxm; et III Sent, d. xxxvir.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

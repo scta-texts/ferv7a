@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 112</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 112</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="357"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2622"><!-- ferv7a-l3c112 -->
+            <head>Capitulum 112</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="63" type="fixed=357"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="64"/>OSTENSO quod speciali quodam modo creaturae 
+ratio<lb ed="#L" break="no" n="65"/>nales divinae providentiae subduntur, vult Sanctus
+<lb ed="#L" n="66"/>Thomas de hoc speciali modo determinare . Circa hoc
+<lb ed="#L" n="67"/>autem duo facit: primo, ponit unum modum qui omnibus
+<lb ed="#L" n="68"/>substantiis intellectualibus est communis; secundo, alium
+<lb ed="#L" n="69"/>ponit, qui rationalibus tantum, in quibus est pluralitas
+<lb ed="#L" n="70"/>individuorum, convenit, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Quantum ad primum modum, duo facit: primo, ostendit
+<lb ed="#L" n="72"/>creaturas rationales propter se provideri, ceteras vero 
+tan<lb ed="#L" break="no" n="73"/>quam ad rationales ordinatas; secundo, removet | quaedam
+<lb ed="#L" n="74"/>dubia .
+</p>
+            <p>
+               <lb ed="#L" n="75"/>I. Quantum ad primum, arguit primo ex ipso 
+do<lb ed="#L" break="no" n="76"/>minio operationis, sic. Creatura intellectualis, secundum
+<lb ed="#L" n="77"/>suam cognitionem, est domina sui actus. Alia vero sui
+<lb ed="#L" n="78"/>actus dominium non habent. Ergo creaturae intellectuales
+<lb ed="#L" n="79"/>a Deo providentur quasi propter se a Deo procuratae :
+<lb ed="#L" n="80"/>aliae vero creaturae quasi ad rationales ordinatae.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Probatur consequentia. Quia quod ab altero tantum
+<lb ed="#L" n="82"/>agitur, rationem instrumenti habet: quod vero per se agit,
+<lb ed="#L" n="83"/>habet rationem principalis agentis. Omnis autem diligentia
+<lb ed="#L" n="84"/>quae circa instrumentum adhibetur, ad principale agens
+<lb ed="#L" n="85"/>tanquam ad finem refertur; quod vero circa principale
+<lb ed="#L" n="86"/>agens, vel ab ipso vel ab alio, inquantum est principale
+<lb ed="#L" n="87"/>agens, adhibetur, propter ipsum est; cum instrumentum
+<lb ed="#L" n="88"/>non quaaeratur propter we: sed ut eo principale agens
+<lb ed="#L" n="89"/>utatur.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>2. Circa id quod dicitur, intellectualem | naturam | 
+se<lb ed="#L" break="no" n="91"/>cundum suam cognitionem esse sui actus dominam, 
+adver<lb ed="#L" break="no" n="92"/>tendum est quod hoc non dicitur quasi libertas formaliter
+<lb ed="#L" n="93"/>in intellectu. resideat, ut enim dicitur Verit. q. xxiv, a. 6,
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="94"/>formaliter residet in voluntate: sed quia radix libertatis est
+<lb ed="#L" n="95"/>ipse intellectus, ut in eadem quaestione declaratur, art. 2.
+<lb ed="#L" n="96"/>Unde et I I5, q. xvir, a. 1, ad 2, dicitur quod radix 
+liber<lb ed="#L" break="no" n="97"/>tatis sicut subiectum est voluntas, sed sicut causa est ratio.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>II. Contra istam rationem instari^posset quod non recte
+<lb ed="#L" n="99"/>propositum concludat. Aut enim non concludit intentum:
+<lb ed="#L" n="100"/>aut oportet subintelligere propositionem quae falsa est.
+<lb ed="#L" n="101"/>Cum enim dicitur ceteras creaturas habere rationem 
+in<lb ed="#L" break="no" n="102"/>strumenti quia aguntur tantum, aut intelligitur. quod 
+ha<lb ed="#L" break="no" n="103"/>beant rationem instrumenti per comparationem ad Deum,
+<lb ed="#L" n="104"/>tanquam ad principale agens ipsis tanquam instrumentis
+<lb ed="#L" n="105"/>utentem: aut intelligitur quod hoc habeant per 
+compara<lb ed="#L" break="no" n="106"/>tionem ad creaturas rationales, quarum sint instrumenta.
+<lb ed="#L" n="107"/>Si primum, non sequitur quod ceterae creaturae ad 
+ra<lb ed="#L" break="no" n="108"/>tionales ordinentur: sed:ad Deumj cuius sunt instrumenta.
+<lb ed="#L" n="109"/>— Si secundum, falsum. videtur esse quod assumitur, 
+sci<lb ed="#L" break="no" n="110"/>licet quod omnes aliae creaturae sint intellectualis naturae
+<lb ed="#L" n="111"/>instrumenta. Non enim apparet quomodo per omnes 
+crea<lb ed="#L" break="no" n="112"/>turas ad suum finem operentur, 'sicut per instrumenta
+<lb ed="#L" n="113"/>operatur artifex.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Et praeterea, cum dicitur ceteras creaturas agi tantum,
+<lb ed="#L" n="115"/>ex quo habent rationem instrumenti, intelligitur ipsa agi
+<lb ed="#L" n="116"/>a4 Deo, non autem: a creaturis intellectualibus. Ergo non
+<lb ed="#L" n="117"/>est intelligendum ipsa esse creaturae intellectualis 
+instru<lb ed="#L" break="no" n="118"/>menta, sed Dei.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>2. Respondetur quod ceteras creaturas habere rationem
+<lb ed="#L" n="120"/>instrumenti intelligitur tam per comparationem ad Deum;
+<lb ed="#L" n="121"/>quam per comparationem ad creaturas intellectuales. Ex
+<lb ed="#L" n="122"/>eo enim quod aguntur tantum et non seipsa ad proprios
+<lb ed="#L" n="123"/>actus agunt, habent quod et sint instrumenta Dei agentis ;
+<pb ed="#L" n="358"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et etiam creaturae rationalis seipsam libere moventis, et
+<lb ed="#L" n="2"/>omnia alia in nobilitate excedentis.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Cum autem instatur primo, quia non apparet quomodo
+<lb ed="#L" n="4"/>per omnes creaturas intellectualis natura ad suum finem
+<lb ed="#L" n="5"/>operetur: — dicitur quod in hoc per omnes creaturas 
+ope<lb ed="#L" break="no" n="6"/>ratur, quod omnibus ad propriam utitur utilitatem aliquo
+<lb ed="#L" n="7"/>modo; sicut inquit Sanctus "Thomas de homine, ll Sent.,
+<lb ed="#L" n="8"/>d. t q. 1r, a. 3, quod ex vilibus, et etiam nocivis, sibi
+<lb ed="#L" n="9"/>utilitas provenit: eo quod per hoc humilior fit, et in 
+vi<lb ed="#L" break="no" n="10"/>libus Dei gloriam et sapientiam considerat. Similiter ea
+<lb ed="#L" n="11"/>quae in usum operis eius non veniunt, in eius utilitatem
+<lb ed="#L" n="12"/>cedunt dum de eis aliquam cognitionem habet, vel in
+<lb ed="#L" n="13"/>universali vel particulari.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Cum secundo instatur, quia intelligitur ea agi a Deo,
+<lb ed="#L" n="15"/>non autem a creaturis intellectualibus: — dicitur quod, licet
+<lb ed="#L" n="16"/>quantum ad actiones naturae agantur a Deo dante illis
+<lb ed="#L" n="17"/>naturam, tamen ex hoc non sequitur ea esse Dei 
+solum<lb ed="#L" break="no" n="18"/>modo instrumenta. Ex eo enim quod aguntur, et suarum
+<lb ed="#L" n="19"/>operationum dominium non habent, sequitur et quod Dei
+<lb ed="#L" n="20"/>sint instrumenta; et quod ab ipso etiam creaturae 
+intel<lb ed="#L" break="no" n="21"/>lectualis, utpote libere operantis et ob hoc dignioris 
+exi<lb ed="#L" break="no" n="22"/>stentis, sint instrumenta instituta, tanquam ad eius 
+utili<lb ed="#L" break="no" n="23"/>tatem et ad eius-usum ordinata; semper enim imperfectius
+<lb ed="#L" n="24"/>propter perfectius est.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>III. Secundo. Omnis alia creatura servituti naturaliter
+<lb ed="#L" n="26"/>subiecta est: sola vero natura intellectualis est libera.
+<lb ed="#L" n="27"/>Ergo etc. - Probatur antecedens. Quia quod habet sui actus
+<lb ed="#L" n="28"/>dominium, liberum est, est enim liber qui est sui causa,
+<lb ed="#L" n="29"/>qui scilicet propter seipsum est et operatur: quod autem
+<lb ed="#L" n="30"/>quadam necessitate ab alio agitur ad operandum, servituti
+<lb ed="#L" n="31"/>subiectum est. — Consequentia vero probatur. Quia in
+<lb ed="#L" n="32"/>quolibet regimine, liberis providetur propter seipsos, servis
+<lb ed="#L" n="33"/>autem ut sint in usum liberorum.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Tertio. Sola intellectualis natura. consequitur Deum,
+<lb ed="#L" n="35"/>qui est ultimus finis universi, in seipso, eum scilicet 
+co<lb ed="#L" break="no" n="36"/>gnoscendo et amando. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="37"/>Quia quando sunt aliqua ad aliquem finem ordinata quae
+<lb ed="#L" n="38"/>ad illum per seipsa pertingere non possunt, oportet 
+or<lb ed="#L" break="no" n="39"/>dinari ad illa quae finem consequuntur, quae propter se
+<lb ed="#L" n="40"/>ordinantur in finem. Declaratur in exercitu: cuius finis
+<lb ed="#L" n="41"/>est victoria, ad quam milites propter se quaeruntur, 
+custo<lb ed="#L" break="no" n="42"/>dientes autem equos et arma facientes quaeruntur propter
+<lb ed="#L" n="43"/>milites.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Adverte quod milites, qui ad victoriam ordinantur, 
+di<lb ed="#L" break="no" n="45"/>cuntur propter se quaeri, non secundum quod ly propter
+<lb ed="#L" n="46"/>se importat rationem finis absolute, repugnat enim ut
+<lb ed="#L" n="47"/>quaerantur propter victoriam tanquam propter finem, et
+<lb ed="#L" n="48"/>tamen ipsi sint absolute finis: sed ly propter se excludit
+<lb ed="#L" n="49"/>ordinem ad aliquid aliud ordinatum ad finem. Et est sensus
+<lb ed="#L" n="50"/>quod non quaeruntur in usum alterius ordinati ad 
+con<lb ed="#L" break="no" n="51"/>sequendum victoriam, sed quaeruntur ut suo actu et sua
+<lb ed="#L" n="52"/>virtute victoriam consequantur.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Quarto. Inter omnes partes universi nobiliores sunt
+<lb ed="#L" n="54"/>intellectuales naturae : quia magis ad similitudinem divinam
+<lb ed="#L" n="55"/>accedunt. Ergo etc. — Probatur consequentia, Quia in 
+quo<lb ed="#L" break="no" n="56"/>libet toto partes principales propter se exiguntur ad 
+con<lb ed="#L" break="no" n="57"/>stitutionem totius: aliae vero ad conservationem, vel ad
+<lb ed="#L" n="58"/>aliquam earum meliorationem.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>IV. Quinto. Naturae intellectuales maiorem affinitatem
+<lb ed="#L" n="60"/>habent ad totum quam aliae naturae: quia unaquaeque
+<lb ed="#L" n="61"/>est quodammodo omnia, inquantum totius entis suo 
+in<lb ed="#L" break="no" n="62"/>tellectu conprehensiva est; quaelibet autem alia substantia
+<lb ed="#L" n="63"/>particularem solam entis participationem habet. Ergo etc. —
+<lb ed="#L" n="64"/>Probatur consequentia. Quia partes ordinantur ad 
+perfe<lb ed="#L" break="no" n="65"/>ctionem totius: cum propter ipsum sint, non autem e
+<lb ed="#L" n="66"/>converso.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Advertendum quod haec ratio procedit ratione cuiusdam
+<lb ed="#L" n="68"/>similitudinis inter universum et naturam intellectualem.
+<lb ed="#L" n="69"/>Sicut. enim totum universum omnia continet, ita: etiam
+<lb ed="#L" n="70"/>intellectualis substantia sua cognitione totum ens 
+com<lb ed="#L" break="no" n="71"/>prehendit, Et ideo, sicut entia particularia ad totum 
+uni<lb ed="#L" break="no" n="72"/>versum ordinantur, ita etiam ad substantiam intellectualem.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Advertendum quoque quod idcirco, de aliis substantiis
+<lb ed="#L" n="74"/>loquens, Sanctus Thomas addit ly solam, inquiens quod
+<lb ed="#L" n="75"/>solam entitatis participationem particularem habent, ne
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>aliquis existimaret naturam intellectualem non habere entis
+<lb ed="#L" n="77"/>particularem participationem, sed esse universale ens. Habet
+<lb ed="#L" n="78"/>enim et ipsa particularem entis participationem; quia est
+<lb ed="#L" n="79"/>ad certum et determinatum gradum entis limitata. Sed ab
+<lb ed="#L" n="80"/>aliis differt naturis, quia illa solam entis particularem 
+par<lb ed="#L" break="no" n="81"/>ticipationem habent, et non sunt aliquo modo omnia :
+<lb ed="#L" n="82"/>natura autem intellectualis, quamvis sit ad certum gradum
+<lb ed="#L" n="83"/>entis secundum esse naturae limitata, est tamen aliquo
+<lb ed="#L" n="84"/>modo omnia secundum virtutem cognoscitivam, qua est
+<lb ed="#L" n="85"/>omnium comprehensiva.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Sexto. Secundum cursum naturae, substantia 
+intelle<lb ed="#L" break="no" n="87"/>ctualis omnibus aliis utitur propter se: vel ad intellectus
+<lb ed="#L" n="88"/>perfectionem; vel ad virtutis executionem et explicationem
+<lb ed="#L" n="89"/>scientiae, quo modo artifex explicat suae artis conceptionem
+<lb ed="#L" n="90"/>in materia corporali; vel ad corporis uniti animae 
+intel<lb ed="#L" break="no" n="91"/>lectuali sustentationem. Ergo etc. - Probatur consequentia.
+<lb ed="#L" n="92"/>Quia sicut agitur unumquodque cursu naturae, ita natum
+<lb ed="#L" n="93"/>est agi: idest, ita institutum est agi ab Auctore naturae.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>V. Septimo. Quae semper sunt in entibus, sunt propter
+<lb ed="#L" n="95"/>se a Deo volita: quae autem non semper sunt, non propter
+<lb ed="#L" n="96"/>se volita sunt, sed propter aliud. Sed substantiae 
+intelle<lb ed="#L" break="no" n="97"/>ctuales maxime ad hoc accedunt quod sint semper: cum
+<lb ed="#L" n="98"/>incorruptibiles sint secundum esse, mutabiles vero tantum
+<lb ed="#L" n="99"/>secundum electionem. Ergo etc:
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Probatur maior. Quia quod propter se quis quaerit,
+<lb ed="#L" n="101"/>semper quaerit: cum quod propter se est, semper sit.
+<lb ed="#L" n="102"/>Quod vero quis propter aliud quaerit, non oportet quod
+<lb ed="#L" n="103"/>semper illud quaerat, sed secundum quod competit ei
+<lb ed="#L" n="104"/>propter quod quaeritur. Esse autem rerum ex divina 
+pro<lb ed="#L" break="no" n="105"/>venit voluntate. .
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Circa probationem maioris, attendendum quod tanquam
+<lb ed="#L" n="107"/>convertibilia accipit Sanctus Thomas semper quaeri, et
+<lb ed="#L" n="108"/>propter se quaeri: quia, ut dicitur hic, quod propter se
+<lb ed="#L" n="109"/>est, idest, cuius esse non "ordinatur ad aliud, est semper;
+<lb ed="#L" n="110"/>et etiam e converso quod est semper, eius esse non est
+<lb ed="#L" n="111"/>propter aliquid aliud, sed propter ipsum. Idcirco, cum
+<lb ed="#L" n="112"/>probandum esset, quae semper sunt in entibus, esse propter
+<lb ed="#L" n="113"/>se a Deo volita, assumit, Quod propter se quis quaerit,
+<lb ed="#L" n="114"/>semper quaerit: cum tamen, secundum rectum 
+argumen<lb ed="#L" break="no" n="115"/>tationis modum, deberet assumi, Quod semper quis quaerit,
+<lb ed="#L" n="116"/>propter se quaerit. Hoc enim facit ut ostenderet, quantum
+<lb ed="#L" n="117"/>ad rem attinet, nihil referre utra illarum propositionum
+<lb ed="#L" n="118"/>assumatur ad maioris probationem: cum sint convertibiles.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>VI. Sed duplex occurrit dubium. Primum est circa istam
+<lb ed="#L" n="120"/>propositionem, Quod aliquis propter se quaerit, semper
+<lb ed="#L" n="121"/>quaerit. Non enim volens sanitatem, quae propter se 
+quae<lb ed="#L" break="no" n="122"/>ritur, semper ipsam vult: quia non semper de ipsa cogitat.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Secundum est circa illam propositionem, Quod propter
+<lb ed="#L" n="124"/>se est, semper est. Nam mundus propter se est: eo modo
+<lb ed="#L" n="125"/>quo hic accipitur propter se esse, idest, non propter 
+ali<lb ed="#L" break="no" n="126"/>quam aliam universi. partem. Et tamen non est semper:
+<lb ed="#L" n="127"/>quia accepit initium sui esse. Ergo etc. i
+</p>
+            <p>
+               <lb ed="#L" n="128"/>2. Ad. primum dicitur quod non est sensus illius 
+pro<lb ed="#L" break="no" n="129"/>positionis ut. quod propter se quaeritur, semper actu 
+se<lb ed="#L" break="no" n="130"/>cundo quaeratur, ut.obiectio supponit: sed quod volitum
+<lb ed="#L" n="131"/>propter se semper habitualiter saltem est volitum, quia
+<lb ed="#L" n="132"/>quandocumque voluntati proponatur, voluntas illud vult.
+<lb ed="#L" n="133"/>Cuius ratio est, quia id propter se quaeri dicitur quod
+<lb ed="#L" n="134"/>in se sufficientem bonitatem habet ex qua appeti debeat,
+<lb ed="#L" n="135"/>et non tantum habet bonitatem et appetibilitatem ex 
+or<lb ed="#L" break="no" n="136"/>dine ad aliud. Tale autem, quandocumque proponitur; 
+ac<lb ed="#L" break="no" n="137"/>ceptatur a voluntate et appetitur: cum ratio boni sit ratio
+<lb ed="#L" n="138"/>appetibilis. Et sic sanitas, quandocumque voluntati 
+propo<lb ed="#L" break="no" n="139"/>nitur, appetitur et amatur. Non sic autem est de medicina,
+<lb ed="#L" n="140"/>quae non appetitur semper quandocumque proponitur 
+vo<lb ed="#L" break="no" n="141"/>luntati, sed tunc tantum quando quis videt se non posse
+<lb ed="#L" n="142"/>assequi sanitatem absque: medicina.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>Ad secundum dicitur quod sensus illius propositionis
+<lb ed="#L" n="144"/>est quod id quod habet esse propter seipsum et propter
+<lb ed="#L" n="145"/>propriam bonitatem, non autem habet esse tantum ad 
+ali<lb ed="#L" break="no" n="146"/>quam partem universi ordinatum, tanquam videlicet ad
+<lb ed="#L" n="147"/>hoc tantum productum in esse ut sit alteri utile, in se non
+<lb ed="#L" n="148"/>habet unde deficere debeat, quantum est ex suo esse: cum
+<lb ed="#L" n="149"/>non sit productum nisi ad hoc ut sit, non autem ad hoc
+<lb ed="#L" n="150"/>ut in alterius utilitatem cedat. Sed cuius esse est ad la-
+<pb ed="#L" n="359"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>terum ordinatum, est determinatum ad tempus in quo
+<lb ed="#L" n="2"/>utile est ei ad quod ordinatur, ita quod illi non convenit
+<lb ed="#L" n="3"/>habere esse nisi quando alterius utilitas exigit. Et propter 
+<lb ed="#L" n="4"/>hoc in entibus quod propter se productum est, habet
+<lb ed="#L" n="5"/>semper esse postquam est productum: quod autem non 
+<lb ed="#L" n="6"/>propter se, sed propter aliud tantum est productum in
+<lb ed="#L" n="7"/>esse, non est semper, sed aliquando esse desinit. Obiectio |
+<lb ed="#L" n="8"/>autem procedit ac si ly semper acciperetur ut idem est
+<lb ed="#L" n="9"/>quod absque durationis initio : quem sensum, loquens |
+<lb ed="#L" n="10"/>Sanctus Thomas de substantiis separatis, excludit, dum
+<lb ed="#L" n="11"/>non inquit eas absolute semper esse, sed, maxime ad hoc |
+<lb ed="#L" n="12"/>accedere quod semper sint, eo quod sint incorruptibiles.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>3. Circa id quod dicitur, substantias intellectuales esse
+<lb ed="#L" n="14"/>secundum electionem mutabiles, advertendum quod non |
+<lb ed="#L" n="15"/>est sic hoc intelligendum quasi sint de bona electione in
+<lb ed="#L" n="16"/>malam electionem mutabiles, aut e. converso de mala in
+<lb ed="#L" n="17"/>bonam, sicut in hominibus accidit: sed quia inter bonas
+<lb ed="#L" n="18"/>earum electiones est successio, dum nunc unam rem 
+eli<lb ed="#L" break="no" n="19"/>gunt, nunc aliam. Et similiter est de malis electionibus:
+<lb ed="#L" n="20"/>quia, inquam, nunc unam malam electionem habent, nunc 
+<lb ed="#L" n="21"/>aliam.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>VII. Quantum ad secundum , removet Sanctus Thomas 
+<lb ed="#L" n="23"/>quasdam obiectiones quae fieri possent. Posset enim 
+in<lb ed="#L" break="no" n="24"/>stari ex duobus quod non omnia ad creaturas intellectuales 
+<lb ed="#L" n="25"/>ordinentur. Tum videlicet quia ad perfectionem universi 
+<lb ed="#L" n="26"/>ordinantur omnes eius partes, — Tum quia individua propter 
+<lb ed="#L" n="27"/>proprias species sunt.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>2. Ad primam respondet quod ad perfectionem totius
+<lb ed="#L" n="29"/>omnes partes ordinantur inquantum una deservit alteri.
+<lb ed="#L" n="30"/>Declaratur in pulmone, qui: est de perfectione corporis
+<lb ed="#L" n="31"/>humani inquantum cordi deservit. Et sic non est 
+contra<lb ed="#L" break="no" n="32"/>rium alias naturas esse propter intellectuales: et propter
+<lb ed="#L" n="33"/>perfectionem universi. Quia si deessent ea quae 
+substan<lb ed="#L" break="no" n="34"/>tiae intellectualis perfectio requirit, non esset universum
+<lb ed="#L" n="35"/>perfectum.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Advertendum quod, licet unius rei sit unus tantum 
+ul<lb ed="#L" break="no" n="37"/>timus finis, non inconvenit tamen unius esse plures fines
+<lb ed="#L" n="38"/>subordinatos : sicut reubarbarum ordinatur ad purgationem
+<lb ed="#L" n="39"/>cholerae, et ad sanitatem. Idcirco non inconvenit alias 
+na<lb ed="#L" break="no" n="40"/>turas proxime ad naturam intellectualem ordinari, inquan- |
+<lb ed="#L" n="41"/>tum sibi ex omnibus aliis naturis aliqua provenit utilitas,
+<lb ed="#L" n="42"/>et aliquo modo ad sui perfectionem omnia alia exiguntur,
+<lb ed="#L" n="43"/>ut ostensum est supra: et tamen ulterius ordinari ad
+<lb ed="#L" n="44"/>perfectionem universi,
+</p>
+            <p>
+               <lb ed="#L" n="45"/>3. Ad secundum respondet quod individua, per hoc
+<lb ed="#L" n="46"/>quod ad suas species ordinantur, ulterius ordinem ad 
+in<lb ed="#L" break="no" n="47"/>tellectualem naturam habent. Quia nullum corruptibilium
+<lb ed="#L" n="48"/>ordinatur ad hominem propter unum individuum hominis
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="49"/>tantum, sed propter totam speciem humanam. Huic autem
+<lb ed="#L" n="50"/>non posset aliquod corruptibilium deservire nisi secundum
+<lb ed="#L" n="51"/>totam suam speciem. Et sic ordo corruptibilium ad 
+ho<lb ed="#L" break="no" n="52"/>minem requirit ordinem individuorum ad speciem.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Advertendum quod aliter loquendum est de ordine 
+na<lb ed="#L" break="no" n="54"/>turae particularis alicuius individui: et aliter de ordine 
+in<lb ed="#L" break="no" n="55"/>stituentis naturarum universalitatem. Non inconvenit enim
+<lb ed="#L" n="56"/>naturam alicuius individui ordinare aliquod corruptibilium
+<lb ed="#L" n="57"/>ad unum individuum hominis tantum: sicut virtus 
+dige<lb ed="#L" break="no" n="58"/>stiva Sortis concoctionem cibi ad ipsius Sortis nutritionem
+<lb ed="#L" n="59"/>ordinat. Sed divina sapientia, partes universi ordinans et
+<lb ed="#L" n="60"/>producens in esse, non produxit aliquam naturam 
+corru<lb ed="#L" break="no" n="61"/>ptibilium propter unum hominis individuum tantum, sed
+<lb ed="#L" n="62"/>propter humanam speciem. Quod ergo bic dicitur de 
+or<lb ed="#L" break="no" n="63"/>dine corruptibilium ad hominem, intelligitur quantum ad
+<lb ed="#L" n="64"/>ordinem ex primo naturae Institutore provenientem : non
+<lb ed="#L" n="65"/>autem de ordine huius naturae particularis et singularis.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>4. Posset etiam instari quod creaturae intellectuales
+<lb ed="#L" n="67"/>propter se a divina providentia non ordinentur, quia tunc
+<lb ed="#L" n="68"/>non ordinarentur in Deum et in perfectionem universi.
+<lb ed="#L" n="69"/>Sed respondet Sanctus Thomas sequelam illam falsam
+<lb ed="#L" n="70"/>esse. Quia illud non dicitur quasi non ordinentur ulterius
+<lb ed="#L" n="71"/>in Deum et universi perfectionem: sed quia bona quae
+<lb ed="#L" n="72"/>per divinam providentiam sortiuntur, non sunt eis propter
+<lb ed="#L" n="73"/>alterius utilitatem data; quae vero aliis dantur, in eorum
+<lb ed="#L" n="74"/>usum ex divina'ordinatione cedunt.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>CONFIRMATUR CONCLUSIO auctoritate Deuteronomii 1v,
+<lb ed="#L" n="76"/>Psalm., et Sapientiae xm.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>VIII. Per hoc autem excluditur error ponentium peccatum
+<lb ed="#L" n="78"/>esse occidere bruta animalia. Hoc enim falsum esse 
+con<lb ed="#L" break="no" n="79"/>stat ex eo quod per divinam providentiam naturali ordine
+<lb ed="#L" n="80"/>in usum hominis ordinantur, ut patet Gem. ix. Si vero
+<lb ed="#L" n="81"/>inveniatur prohiberi in Sacra Scriptura crudelitas in bruta,
+<lb ed="#L" n="82"/>hoc fit aut ad removendum hominis animum a crudelitate
+<lb ed="#L" n="83"/>in homines exercenda; aut quia illata laesio animalibus
+<lb ed="#L" n="84"/>in temporale damnum hominis cedit; aut propter aliquam
+<lb ed="#L" n="85"/>significationem, sicut ab Apostolo exponitur illud de non
+<lb ed="#L" n="86"/>ligando ore bovis triturantis, scilicet quod intelligitur de
+<lb ed="#L" n="87"/>praedicatoribus, ut de suo labore vivere possint, I Cor. ix.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Advertendum, ex doctrina Sancti Thomae II II, q. 1xiv,
+<lb ed="#L" n="89"/>a. 1, ad 3, quod aliquando quidem peccatum est occidere
+<lb ed="#L" n="90"/>bruta: unde et in Sacra Scriptura apponitur poena 
+occi<lb ed="#L" break="no" n="91"/>soris, ut patet Exodi xxii  de occidente bovem aut ovem
+<lb ed="#L" n="92"/>alterius. Sed tamen hoc non est ratione occisionis ipsius
+<lb ed="#L" n="93"/>bruti secundum se: sed ratione damnificationis proximi
+<lb ed="#L" n="94"/>in re sua, quod pertinet ad peccatum furti aut rapinae.
+<lb ed="#L" n="95"/>Propterea dicitur hoc loco aliquando prohiberi in Scriptura
+<lb ed="#L" n="96"/>brutorum laesio eo quod inde damnum homini proveniat.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

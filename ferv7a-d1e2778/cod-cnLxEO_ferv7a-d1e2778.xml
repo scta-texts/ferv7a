@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 131</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 131</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="398"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2778"><!-- ferv7a-l3c131 -->
+            <head>Capitulum 131</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="72" type="fixed=398"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="73"/>POSTQUAM ostendit Sanctus Thomas convenienfiam 
+con<lb ed="#L" break="no" n="74"/>siliorum quae in divina lege traduntur, vult contra
+<lb ed="#L" n="75"/>eos qui horum consiliorum observationem impugnant,
+<lb ed="#L" n="76"/>disputare . Circa hoc autem tria facit: primo, disputat
+<lb ed="#L" n="77"/>contra impugnantes voluntariam paupertatem; secundo,
+<lb ed="#L" n="78"/>contra impugnantes perpetuam continentiam, cap. cXXXVI;
+<lb ed="#L" n="79"/>tertio, contra impugnantes obedientiae votum, cap. cxxxvir.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Circa primum tria facit: primo, rationes 
+impugnan<lb ed="#L" break="no" n="81"/>tium voluntariam paupertatem adducit; secundo, veritatem
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="82"/>determinat, cap. cxxxm; tertio, obiectionibus respondet,
+<lb ed="#L" n="83"/>cap. cxxxiv.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Circa primum duo facit: primo, ponit obiectiones contra
+<lb ed="#L" n="85"/>voluntariam paupertatem absolute; secundo, ponit 
+obie<lb ed="#L" break="no" n="86"/>ctiones contra particulares modos in paupertate vivendi,
+<lb ed="#L" n="87"/>capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Quantum ad primum, ait quod Vigilantius, et quidam
+<lb ed="#L" n="89"/>alii eius sectatores, paupertatis propositum iis rationibus
+<lb ed="#L" n="90"/>improbarunt.
+</p>
+            <p>
+               <pb ed="#L" n="399"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Primo. Homines ad suae vitae conservationem multis
+<lb ed="#L" n="2"/>indigent quae non omni tempore inveniri possunt. Ergo
+<lb ed="#L" n="3"/>inest homini ut ea congreget et conservet: ut patet ex
+<lb ed="#L" n="4"/>aliis animalibus. Ergo est contra legem naturalem 
+con<lb ed="#L" break="no" n="5"/>gregata dispergere per paupertatem.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Secundo. Per substantiam exteriorum bonorum vita 
+ho<lb ed="#L" break="no" n="7"/>minis conservatur. Ergo, sicut ex naturali lege unusquisque
+<lb ed="#L" n="8"/>suam vitam conservare tenetur, ita et exteriorem 
+substan<lb ed="#L" break="no" n="9"/>tiam. Ergo contra legem naturae est quod aliquis sibi
+<lb ed="#L" n="10"/>necessaria subtrahat.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Tertio. Est naturale hominibus ut unus alium in 
+ne<lb ed="#L" break="no" n="12"/>cessitatibus iuvet. Sed ab hoc auxilio ferendo se faciunt
+<lb ed="#L" n="13"/>impotentes qui exteriorem substantiam abiiciunt. Ergo etc.
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="14"/>Quarto. Si habere substantiam huius mundi malum sit,
+<lb ed="#L" n="15"/>sequitur quod alicui indigenti dare substantiam huius mundi
+<lb ed="#L" n="16"/>sit' malum, et auferre habenti sit bonum. Hoc est 
+incon<lb ed="#L" break="no" n="17"/>veniens. Ergo bonum est habere substantiam huius mundi.
+<lb ed="#L" n="18"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Quinto. Paupertas est occasio mali: scilicet furti, 
+adu<lb ed="#L" break="no" n="20"/>lationis, periurii, et huiusmodi. Ergo vitanda.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Sexto. Cum virtus in medio consistat, vitium in plus
+<lb ed="#L" n="22"/>circa exteriora est quod omnia dentur: sicut vitium in
+<lb ed="#L" n="23"/>minus est quod retineantur retinenda et non retinenda.
+<lb ed="#L" n="24"/>Sed hoc faciunt qui voluntarie paupertatem assumunt.
+<lb ed="#L" n="25"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>CoxriRMATUR auctoritate Proverb. xxx.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

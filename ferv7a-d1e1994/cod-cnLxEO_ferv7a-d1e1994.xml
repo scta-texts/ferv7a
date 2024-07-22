@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 35</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 35</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="91"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1994"><!-- ferv7a-l3c35 -->
+            <head xml:id="ferv7a-d1e1994-Hd1e101">Capitulum 35</head>
+            <p xml:id="ferv7a-d1e1994-d1e103">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="111" type="fixed=91"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e110">
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="112"/>TERTIO ostenditur quod neque in actu prudentiae est
+<lb ed="#L" n="113"/>ultima. hominis felicitas, ut Diogenes Cynicus et
+<lb ed="#L" n="114"/>Stoici voluerunt: quamvis in ipso sit activa et civilis
+<lb ed="#L" n="115"/>felicitas, ut in praecedenti capitulo , de mente 
+Aristo<lb ed="#L" break="no" n="116"/>telis, dictum est.
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e126">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="117"/>I. Et arguitur primo: quia actus prudentiae est solum
+<lb ed="#L" n="118"/>circa ea quae sunt virtutum moralium, in quibus non est
+<lb ed="#L" n="119"/>ultima hominis felicitas .
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e137">
+               <lb ed="#L" n="120"/>Secundo. Quia ultima felicitas hominis est in optima
+<lb ed="#L" n="121"/>hominis operatione, quae est circa perfectissima obiecta.
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e145">
+               <pb ed="#L" n="92"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Prudentiae autem operatio non est circa. nobilissima
+<lb ed="#L" n="2"/>obiecta intellectus vel rationis: cum sit circa contingentia
+<lb ed="#L" n="3"/>tantum. .
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e158">
+               <lb ed="#L" n="4"/>Tertio. Quia actus prudentiae ordinatur.ad aliud sicut
+<lb ed="#L" n="5"/>ad finem. Tum quia est practica cognitio. Tum quia 
+pru<lb ed="#L" break="no" n="6"/>dentia facit hominem bene se habere in iis quae. sunt ad
+<lb ed="#L" n="7"/>finem: ut patet VI Ethicorum.
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e169">
+               <lb ed="#L" n="8"/>Quarto. Quia bruta aliquid. prudentiae participant: ut
+<lb ed="#L" n="9"/>patet I Metaphysicae. Nihil autem participant felicitatis :
+<lb ed="#L" n="10"/>ut I Ethicorum ostenditur.
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e178">
+               <lb ed="#L" n="11"/>II. Circa. primam rationem. advertendum, ex doctrina
+<lb ed="#L" n="12"/>Sancti Thomae I? I^, q. rvur, a. 3, ad 1; Tertio, d. xxu,
+<lb ed="#L" n="13"/>q. tL, a. 4, qu 2, ad 3; de Virt. Cardin. a. 1, ad 3,
+<lb ed="#L" n="14"/>quod prudentia est media inter intellectuales virtutes et
+<lb ed="#L" n="15"/>morales: est enim secundum essentiam et subiectum virtus
+<lb ed="#L" n="16"/>intellectualis; secundum materiam vero moralis, cum sit
+<lb ed="#L" n="17"/>recta ratio agibilium, et sit virtutum moralium directiva.
+<lb ed="#L" n="18"/>Ideo hic dicitur quod .actus prudentiae est solum circa
+<lb ed="#L" n="19"/>ea quae sunt virtutum moralium, scilicet tanquam circa
+<lb ed="#L" n="20"/>materiam.
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e202">
+               <lb ed="#L" n="21"/>2. Circa secundam rationem advertendum, ex Sancto
+<lb ed="#L" n="22"/>Thoma I I^, q. nvir, a. 4, ad 2; et a. 5, ad 3; et IP. I5,
+<lb ed="#L" n="23"/>q. XLvit, a. 5; et est de mente Aristotelis VI Ehic., quod
+<lb ed="#L" n="24"/>licet prudentia et ars sint de numero virtutum 
+intellectua<lb ed="#L" break="no" n="25"/>lium secundum essentiam et secundum subiectum, 
+distin<lb ed="#L" break="no" n="26"/>guuntur tamen ab habitibus intellectualibus speculativis,
+<lb ed="#L" n="27"/>quia illi sunt circa necessaria, istae autem sunt circa 
+con<lb ed="#L" break="no" n="28"/>tingentia aliter se habere: ars enim est circa factibilia, quae
+<lb ed="#L" n="29"/>scilicet in materiam exteriorem transeunt; prudentia vero
+<lb ed="#L" n="30"/>circa agibilia, quae scilicet sunt operationes immanentes
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="31"/>in agente; est enim humanarum electionum regulatrix et
+<lb ed="#L" n="32"/>gubernatrix, electio autem consequitur iudicium rationis
+<lb ed="#L" n="33"/>de agendis, quod iudicium est eirca contingentia, ut dicitur
+<lb ed="#L" n="34"/>I IF5, q. xim, a. 6, ad 2. Ideo bene hic dicitur quod 
+pru<lb ed="#L" break="no" n="35"/>dentia est circa contingentia; zi d
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e239">
+               <lb ed="#L" n="36"/>3. Circa tertiam rationem advertendum, ex doctrina 
+San<lb ed="#L" break="no" n="37"/>cti Thomae Verit, q. v, a. 1, quod, cum duo in rebus
+<lb ed="#L" n="38"/>agibilibus sint consideranda, scilicet finis, et ea quae sunt
+<lb ed="#L" n="39"/>ad. finem; affectionem et bonam dispositionem ad finem
+<lb ed="#L" n="40"/>faciunt virtutes morales; prudentia vero dirigit in iis quae
+<lb ed="#L" n="41"/>sunt ad finem, inquantum dirigit consilium et electionem,
+<lb ed="#L" n="42"/>quae sunt circa ea quae sunt ad finem. Ideo hic dicitur
+<lb ed="#L" n="43"/>quod prudentia facit hominem bene se habere in iis quae
+<lb ed="#L" n="44"/>sunt ad finem.
+</p>
+            <p xml:id="ferv7a-d1e1994-d1e262">
+               <lb ed="#L" n="45"/>4. Circa quartam, attendendum quod bruta aliquid 
+pru<lb ed="#L" break="no" n="46"/>dentiae participare dicuntur, non quia virtus. prudentiae
+<lb ed="#L" n="47"/>aliquo modo. in ipsis sit, cum [in] ipsis non sit ratio,
+<lb ed="#L" n="48"/>prudentia autem sit recta ratio agibilium, ut dicitur
+<ref xml:id="ferv7a-d1e1994-Rd1e272">VI Ethicorum</ref>: sed quia in operibus suis aguntur simili
+<lb ed="#L" n="49"/>modo quo prudens operatur. Quemadmodum enim. 
+pru<lb ed="#L" break="no" n="50"/>dens in. suis operibus ordinate procedit, utpote ex ratione
+<lb ed="#L" n="51"/>quid sibi agendum. sit deliberans, ita bruta, ut I I^, q. xm,
+<lb ed="#L" n="52"/>a. 2, ad 3; et in I Metaph. , Sanctus Thomas inquit, ex
+<lb ed="#L" n="53"/>naturali instinctu ad ordinatissimas quasdam operationes
+<lb ed="#L" n="54"/>inclinantur, utpote a divina arte directa. Unde prudentia
+<lb ed="#L" n="55"/>in ipsis dicitur naturalis quaedam existimatio de 
+conve<lb ed="#L" break="no" n="56"/>nientibus .prosequendis et nocivis fugiendis: non autem
+<lb ed="#L" n="57"/>cognitio qua, cum deliberatione, unum ordinatum ad finem
+<lb ed="#L" n="58"/>alteri iudicatur esse praeeligendum, quod proprie ad 
+ra<lb ed="#L" break="no" n="59"/>tionem pertinet.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

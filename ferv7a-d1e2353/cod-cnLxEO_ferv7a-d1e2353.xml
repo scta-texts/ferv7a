@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 79</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 79</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="232"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2353"><!-- ferv7a-l3c79 -->
+            <head>Capitulum 79</head>
+            <p>
+               <pb ed="#L" n="232"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=232"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>POSTQUAM ostendit Sanctus Thomas quod per 
+substan<lb ed="#L" break="no" n="3"/>Pas intellectuales reguntur ceterae creaturae a Deo,
+<lb ed="#L" n="4"/>consequenter vult ostendere quomodo substantiae 
+spiri<lb ed="#L" break="no" n="5"/>tuales gubernentur ab ipso . Circa hoc autem duo facit:
+<lb ed="#L" n="6"/>primo, ostendit inferiores intellectuales substantias per 
+su<lb ed="#L" break="no" n="7"/>periores gubernari; secundo, de ordine ipsarum determinat,
+<lb ed="#L" n="8"/>capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>I. Quantum ad primum, ponitur haec conclusio: 
+Zn<lb ed="#L" break="no" n="10"/>feriores substantiae intellectuales per superiores reguntur.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Et arguit primo sic. Inter intellectuales naturas quaedam
+<lb ed="#L" n="12"/>sunt aliis altiores. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Adverte quod Sanctus 'T'homas consequentiam, tanquam
+<lb ed="#L" n="14"/>per se ex ante dictis manifestam, aliter non probat. Nam
+<lb ed="#L" n="15"/>in praecedenti capitulo ostensum est quod ordo congruus
+<lb ed="#L" n="16"/>est ut inferiora per superiora gubernentur.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>Secundo. Virtutes magis universales sunt motivae 
+par<lb ed="#L" break="no" n="18"/>ticularium virtutum. Sed superiores inter intellectuales 
+na<lb ed="#L" break="no" n="19"/>turas habent formas magis universales, ut in Secundo est 
+<lb ed="#L" n="20"/>ostensum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Ad evidentiam huius rationis, considerandum est quod
+<lb ed="#L" n="22"/>supponit Sanctus Thomas substantiam intellectualem 
+ope<lb ed="#L" break="no" n="23"/>rari per formam intellectam; et tantum eius virtutem 
+ex<lb ed="#L" break="no" n="24"/>tendi, quantum forma intellecta, scilicet practice, se extendit.
+<lb ed="#L" n="25"/>Ideo, cum deberet subsumere quod superiores substantiae
+<lb ed="#L" n="26"/>habent virtutes magis universales, hoc praetermisso, 
+sub<lb ed="#L" break="no" n="27"/>sumit eius probationem, scilicet quod habent formas magis
+<lb ed="#L" n="28"/>universales: — intellige, non universalitate potentialitatem
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="29"/>includente, quo modo animal est universale; sed 
+univer<lb ed="#L" break="no" n="30"/>salitate perfectionis et actualitatis, quo modo forma solis
+<lb ed="#L" n="31"/>dicitur universalis. Sic enim formae sive conceptus 
+supe<lb ed="#L" break="no" n="32"/>riorum substantiarum intellectualium sunt magis 
+univer<lb ed="#L" break="no" n="33"/>sales, inquaatum plura distincte repraesentant, et sunt 
+plu<lb ed="#L" break="no" n="34"/>rium exemplaria.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>II. Tertio. Superiores substantiae intellectuales sunt 
+pro<lb ed="#L" break="no" n="36"/>pin juiores primo principio, scilicet Deo. Ergo sunt aliarum
+<lb ed="#L" n="37"/>regitivae. — Probatur consequentia. Quia potentia 
+intelle<lb ed="#L" break="no" n="38"/>ctiva quae est propinquior principio, tanquam scilicet sua
+<lb ed="#L" n="39"/>cognitione illi magis appropinquans, semper invenitur 
+re<lb ed="#L" break="no" n="40"/>gitiva intellectualis virtutis quae magis a principio distat. —
+<lb ed="#L" n="41"/>Declaratur in scientiis et speculativis et activis.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Quarto. Superiores substantiae intellectuales perfectius
+<lb ed="#L" n="43"/>divinae sapientiae influentiam in seipsis recipiunt. Ergo
+<lb ed="#L" n="44"/>etc. — Probatur antecedens. Quia unumquodque recipit
+<lb ed="#L" n="45"/>aliquid secundum modum suum. - Consequentia vero 
+pro<lb ed="#L" break="no" n="46"/>batur. Quia, cum per. sapientiam divinam omnia 
+guber<lb ed="#L" break="no" n="47"/>nentur, ea quae sapientiam divinam magis participant, sunt
+<lb ed="#L" n="48"/>gubernativa eorum quae minus participant.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>CONFIRMATUR tam ista conclusio quam praecedens  ex
+<lb ed="#L" n="50"/>nominibus attributis superioribus spiritibus, dum dicitur in
+<lb ed="#L" n="51"/>Psalmo: Qui facis angelos tuos spiritus, et ministros tuos
+<lb ed="#L" n="52"/>ignem urentem. Dicuntur enim angeli, idest nuntii, 
+in<lb ed="#L" break="no" n="53"/>quantum inferiores dirigunt eis annuntiando ; dicuntur vero
+<lb ed="#L" n="54"/>ministri, inquantum in rebus corporalibus divinae 
+provi<lb ed="#L" break="no" n="55"/>dentiae ordinem exequuntur. :
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

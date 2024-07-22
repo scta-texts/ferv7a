@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 91</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 91</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="278"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2451"><!-- ferv7a-l3c91 -->
+            <head>Capitulum 91</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="42" type="fixed=278"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Ex iis quae praedicta sunt, tria infert Sanctus Thomas
+<lb ed="#L" n="44"/>E corollaria .
+</p>
+            <p>
+               <lb ed="#L" n="45"/>I. Prinum est, quod umana non aguntur. fortuito,
+<lb ed="#L" n="46"/>quasi scilicet a nullo ordinata et intenta: sed sic ad 
+su<lb ed="#L" break="no" n="47"/>periores reducuntur causas, quod electiones et voluntates
+<lb ed="#L" n="48"/>immediate a Deo disponuntur; cognitio intellectualis a
+<lb ed="#L" n="49"/>Deo mediantibus angelis ordinatur; corporalia vero, sive
+<lb ed="#L" n="50"/>interiora sive exteriora, in usum hominis venientia, a Deo
+<lb ed="#L" n="51"/>mediantibus angelis et caelestibus corporibus dispensantur.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>2. Licet autem ista ex praecedentibus manifesta sint,
+<lb ed="#L" n="53"/>omnia tamen unica ratione simul probat. Et arguit sic.
+<lb ed="#L" n="54"/>Omne multiforme, mutabile, et deficere potens, oportet
+<lb ed="#L" n="55"/>reduci sicut in principium in aliquod uniforme, et 
+immu<lb ed="#L" break="no" n="56"/>tabile, et deficere non valens. Sed omnia quae in nobis
+<lb ed="#L" n="57"/>sunt, inveniuntur multipliciter, variabilia, et defectibilia:
+<lb ed="#L" n="58"/>illa vero alia opposito modo se habent. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Probatur minor quoad omnes partes. Quoad electiones
+<lb ed="#L" n="60"/>nostras quidem probatur, quia in diversis et a diversis
+<lb ed="#L" n="61"/>diversa eliguntur, et multipliciter habentur: cum et 
+mu<lb ed="#L" break="no" n="62"/>tabiles sint; — tum propter animi levitatem, qui non est
+<lb ed="#L" n="63"/>firmatus in ultimo fine; tum propter mutationem rerum
+<lb ed="#L" n="64"/>quae nos circumstant — et, ut peccata testantur, sint 
+defe<lb ed="#L" break="no" n="65"/>ctibiles. — Divina autem voluntas, quia volendo unum
+<lb ed="#L" n="66"/>omnia vult, uniformis est, et est immutabilis et indeficiens,
+<lb ed="#L" n="67"/>ut superius est ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Quoad intelligentiam vero nostram probatur, quia, cum
+<lb ed="#L" n="69"/>ex multis sensibilibus veritatem intelligibilem quasi 
+con<lb ed="#L" break="no" n="70"/>gregemus, ipsa multiplicitatem habet. Et cum ex uno in
+<lb ed="#L" n="71"/>aliud discurrendo procedamus, est mutabilis. Propter 
+per<lb ed="#L" break="no" n="72"/>mixtionem quoque phantasiae et sensus, defectibilis est:
+<lb ed="#L" n="73"/>ut errores hominum ostendunt. — E.contrario vero 
+angelo<lb ed="#L" break="no" n="74"/>rum cognitio, cum ab uno fonte veritatis, scilicet Deo,
+<lb ed="#L" n="75"/>cognitionem accipiant, est uniformis. Cum autem non
+<lb ed="#L" n="76"/>discurrant, sed puram veritatem simplici intuitu intueantur,
+<lb ed="#L" n="77"/>est immobilis. Cum vero ipsas rerum quidditates per seipsas
+<lb ed="#L" n="78"/>intueantur, circa quas non potest intellectus errare, est
+<lb ed="#L" n="79"/>indefectibilis.
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="80"/>Quo vero ad corporalia humana manifestatur, quia in
+<lb ed="#L" n="81"/>ipsis est multiplicitas commixtionis et contrarietatis; et
+<lb ed="#L" n="82"/>non semper eodem modo moventur, cum motus eorum
+<lb ed="#L" n="83"/>non possint esse continui; et per alterationem et 
+cor<lb ed="#L" break="no" n="84"/>ruptionem deficere possint. - E contrario autem corpora
+<lb ed="#L" n="85"/>caelestia sunt simplicia et absque omni contrarietate; et
+<lb ed="#L" n="86"/>motus eorum sunt continui et semper eodem modo se
+<lb ed="#L" n="87"/>habentes: nec in ejs potest esse corruptio vel alteratio,
+<lb ed="#L" n="88"/>scilicet corruptiva.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>3. Adverte, cum dicitur quod ex multis sensibilibus
+<lb ed="#L" n="90"/>veritatem intelligibilem quasi congregamus, quod ly quasi
+<lb ed="#L" n="91"/>potest accipi similitudinarie, ratione ly congregamus. Non
+<lb ed="#L" n="92"/>enim proprie congregamus veritatem ex sensibilibus: cum
+<lb ed="#L" n="93"/>ipsa veritas non sit in sensibilibus formaliter, sed in 
+intel<lb ed="#L" break="no" n="94"/>lectu. Dicimur tamen similitudinarie congregare, tanquam
+<lb ed="#L" n="95"/>ibi praeexistat veritas, quia, licet formaliter veritas in ipsis
+<lb ed="#L" n="96"/>non existat, praeexistit tamen in ipsis originaliter et 
+fun<lb ed="#L" break="no" n="97"/>damentaliter. — Potest etiam accipi tanquam expressivum
+<lb ed="#L" n="98"/>veritatis. Quia ita est, quod aggregatio multarum 
+verita<lb ed="#L" break="no" n="99"/>tum in intellectu nostro ex multis sensibilibus originatur
+<lb ed="#L" n="100"/>et causatur.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>II. Circa secundam partem corollarii, cum dicitur 
+co<lb ed="#L" break="no" n="102"/>gnitionem nostram intellectualem a Deo mediantibus 
+an<lb ed="#L" break="no" n="103"/>gelis ordinari, advertendum est quod non sic est hoc
+<lb ed="#L" n="104"/>intelligendum quasi cognitio angelica sit causa productiva
+<lb ed="#L" n="105"/>intellectionis nostrae, tanquam agens immediate in 
+intel<lb ed="#L" break="no" n="106"/>lectum, quo modo Deus est causa humanae electionis
+<lb ed="#L" n="107"/>agendo in voluntatem : sed ad hunc sensum intelligitur,
+<lb ed="#L" n="108"/>ut haberi potest ex doctrina Sancti Thomae Prima, q.
+<lb ed="#L" n="109"/>cxut, a. 1; et ILSent.,, d. xi, quod, cum homines per
+<lb ed="#L" n="110"/>divinam providentiam ad beatitudinem supernaturalem 
+or<lb ed="#L" break="no" n="111"/>dinentur; suam autem providentiam in inferiora Deus per
+<lb ed="#L" n="112"/>superiora exequatur: homines, qui inferiores sunt ad 
+an<lb ed="#L" break="no" n="113"/>gelos, ad boni sui consecutionem per angelos movet, Nam
+<lb ed="#L" n="114"/>quia multipliciter homo in rebus agendis variari et deficere
+<lb ed="#L" n="115"/>potest, ideo data est a Deo hominibus angelorum custodia,
+<lb ed="#L" n="116"/>per quos ad bonum regulentur et dirigantur ac instruantur.
+<pb ed="#L" n="279"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Haec autem instructio, ut habetur II Sent., ubi supra, ad
+<lb ed="#L" n="2"/>ult.; et de Verit.,, q. xi, a. 3, fit secundum quod 
+dispo<lb ed="#L" break="no" n="3"/>nunt et illustrant phantasmata, quibus homo utitur in
+<lb ed="#L" n="4"/>intelligendo, ut ex illis rectam cognitionem accipiat; et
+<lb ed="#L" n="5"/>suo etiam lumine intellectuali lumen intellectus humani
+<lb ed="#L" n="6"/>confortant, ut vigorosius sit ad veritatem percipiendam.
+<lb ed="#L" n="7"/>Unde cognitionem humanam ordinari et regulari per
+<lb ed="#L" n="8"/>cognitionem angelicam, est ipsum angelum modis dictis
+<lb ed="#L" n="9"/>instruere hominem, et docere ipsum de iis quae ipse
+<lb ed="#L" n="10"/>angelus novit.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>2. Sed resultat ex iis dubium. Sicut enim per angelos
+<lb ed="#L" n="12"/>regulantur homines quoad cognitionem, ita regulantur
+<lb ed="#L" n="13"/>quoad affectum, ut patet locis praeallegatis. Ergo, sicut
+<lb ed="#L" n="14"/>reducitur cognitio humana in cognitionem angelicam 
+tan<lb ed="#L" break="no" n="15"/>quam in sui regulam, ita et volitio humana reducenda
+<lb ed="#L" n="16"/>est in volitionem angelicam sicut in regulam. Ergo male
+<lb ed="#L" n="17"/>ista duo dividit et separat Sanctus Thomas, cognitionem
+<lb ed="#L" n="18"/>in angelos referens, electionem autem in Deum.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Respondetur quod electio dupliciter regulari potest:
+<lb ed="#L" n="20"/>uno modo, tanquam a fine et forma; alio modo, tanquam
+<lb ed="#L" n="21"/>ab agente et efficiente. Primo modo, regulatio electionis
+<lb ed="#L" n="22"/>pertinet etiam ad angelos, inquantum instruunt hominem
+<lb ed="#L" n="23"/>circa cognitionem de agendis: dictum est enim superius 
+<lb ed="#L" n="24"/>quod bonum cognitum movet voluntatem. per modum
+<lb ed="#L" n="25"/>finis et formae, et quod substantiae separatae movent
+<lb ed="#L" n="26"/>voluntatem per modum persuadentis. Non autem secundo
+<lb ed="#L" n="27"/>modo ad ipsos pertinet regulare, sed hoc modo regulare
+<lb ed="#L" n="28"/>electionem est solius Dei, qui solus, cum voluntate humana,
+<lb ed="#L" n="29"/>est causa nostrarum electionum. Quia ergo hic intendit
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="30"/>Sanctus Thomas ostendere quomodo res humanae ad 
+su<lb ed="#L" break="no" n="31"/>periores causas efficientes reducuntur; et regulare 
+electio<lb ed="#L" break="no" n="32"/>nem per modum efficientis est solius Dei; regulare vero
+<lb ed="#L" n="33"/>intellectionem effective est etiam angelorum, inquantum
+<lb ed="#L" n="34"/>effective illuminant intellectum et phantasmata, quae 
+ef<lb ed="#L" break="no" n="35"/>fective intellectum ad cognitionem movent: ideo unum
+<lb ed="#L" n="36"/>retulit in angelos tanquam in invariabilem regulam, alterum
+<lb ed="#L" n="37"/>vero retulit in Deum.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>III. Circa illud quod dictum est, cognitionem 
+angelo<lb ed="#L" break="no" n="39"/>rum esse indefectibilem, attendendum, ex doctrina Sancti
+<lb ed="#L" n="40"/>'Thomae Prima, q. nvnr, a. 5; et in Qu. de Malo, q. xvt,
+<lb ed="#L" n="41"/>a. 6, quod hoc intelligendum est de cognitione ipsorum
+<lb ed="#L" n="42"/>circa ea quae ab ipsis naturaliter cognosci possunt: non
+<lb ed="#L" n="43"/>autem de ipsorum cognitione ut ad supernaturalia se
+<lb ed="#L" n="44"/>extendit. Circa enim huiusmodi errare possunt et deficere,
+<lb ed="#L" n="45"/>eorum natura considerata: licet angeli beati circa illa etiam
+<lb ed="#L" n="46"/>non decipiantur neque errent; quia, cum voluntas eorum
+<lb ed="#L" n="47"/>sit regulata, non applicant intellectum ad iudicandum de
+<lb ed="#L" n="48"/>iis quae eorum facultatem excedunt. '
+</p>
+            <p>
+               <lb ed="#L" n="49"/>2. Circa id quod dicitur, cognitionem angeli esse 
+im<lb ed="#L" break="no" n="50"/>mobilem, advertendum quod illud non sic est intelligendum
+<lb ed="#L" n="51"/>quasi in cognitione angeli nulla sit successio: cum enim
+<lb ed="#L" n="52"/>ostensum sit in praecedentibus  quod non omnia simul
+<lb ed="#L" n="53"/>cognoscunt, necesse est in ipsis successionem esse, 
+secun<lb ed="#L" break="no" n="54"/>dum quod cognoscunt diversa. Sed intelligitur de 
+immo<lb ed="#L" break="no" n="55"/>bilitate opposita discursui intellectus nostri: ut enim hic
+<lb ed="#L" n="56"/>dicitur, et ostensum est superius , non discurrunt a notis
+<lb ed="#L" n="57"/>ad ignota, sed causam et effectum, principium et conclu- ?
+<lb ed="#L" n="58"/>sionem, uno actu apprehendunt et intuentur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 52</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 52</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="144"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2132"><!-- ferv7a-l3c52 -->
+            <head>Capitulum 52</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="70" type="fixed=144"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="71"/>OTENSO quod divina essentia est forma intelligibilis
+<lb ed="#L" n="72"/>intellectus. videntis Deum, ostendit Sanctus Thomas
+<lb ed="#L" n="73"/>quae sit dispositio requisita ad hanc formam suscipiendam,
+<lb ed="#L" n="74"/>et ad hanc habendam visionem , Circa hoc autem duo
+<lb ed="#L" n="75"/>facit: primo, ostendit intellectum sua virtute non posse ad
+<lb ed="#L" n="76"/>divinae essentiae visionem pervenire: secundo, quod ad hoc
+<lb ed="#L" n="77"/>indiget aliqua divini luminis influentia, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>I. Quantum ad primum, ponitur haec conclusio: Non
+<lb ed="#L" n="79"/>est possibile quod ad. visionem Dei per. ipsam essentiam
+<lb ed="#L" n="80"/>divinam aliqua creata substantia ex virtute propria possit
+<lb ed="#L" n="81"/>altingere: scilicet, sufficienter.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Probatur primo. Videre Deum per ipsam divinam 
+es<lb ed="#L" break="no" n="83"/>sentiam est proprium divinae naturae: quia operari 
+se<lb ed="#L" break="no" n="84"/>cundum propriam formam est proprium cuiuslibet 
+ope<lb ed="#L" break="no" n="85"/>rantis. Ergo in illum modum visionis divinae non potest
+<lb ed="#L" n="86"/>creatura intellectualis nisi Deo hoc faciente. — Probatur
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="87"/>consequentia, Quia quod est proprium superioris naturae,
+<lb ed="#L" n="88"/>non potest consequi natura inferior nisi per actionem
+<lb ed="#L" n="89"/>superioris naturae cuius est proprium: sicut aqua non
+<lb ed="#L" n="90"/>potest esse calida nisi per actionem ignis. :
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Advertendum quod hic non accipitur proprium prout
+<lb ed="#L" n="92"/>excludit omne extraneum a subiecto, pro eo scilicet quod
+<lb ed="#L" n="93"/>convenit alicui soli, et nulli. extraneo ab ipso, sicut 
+risi<lb ed="#L" break="no" n="94"/>bilitas est proprium hominis: quia sic ratio assumeret
+<lb ed="#L" n="95"/>quod haberet probare; probandum enim est quod videre
+<lb ed="#L" n="96"/>Deum illo modo nulli alii a Deo conveniat, Sed. accipitur
+<lb ed="#L" n="97"/>proprium pro eo quod est naturale alicui secundum id
+<lb ed="#L" n="98"/>quo ab aliis differt: hoc enim est fundamentum et ratio
+<lb ed="#L" n="99"/>quod aliquid conveniat alicui soli; sicut ideo risibilitas
+<lb ed="#L" n="100"/>convenit soli homini, quia sequitur rationalitatem, per
+<lb ed="#L" n="101"/>quam homo ab omnibus aliis distinguitur. Sensus ergo
+<lb ed="#L" n="102"/>rationis est quod, quia videre Deum per ipsam divinam
+</p>
+            <p>
+               <pb ed="#L" n="145"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>essentiam est naturale Deo quantum ad id quo ab aliis
+<lb ed="#L" n="2"/>distinguitur, sicut et cuilibet agenti naturale est per 
+pro<lb ed="#L" break="no" n="3"/>priam formam operari; quod autem est sic naturale 
+su<lb ed="#L" break="no" n="4"/>periori naturae, non potest naturaliter inferiori naturae
+<lb ed="#L" n="5"/>convenire, sed, si sibi conveniat, hoc est per actionem
+<lb ed="#L" n="6"/>superioris naturae, sicut esse calidum, quod est naturale
+<lb ed="#L" n="7"/>igni non convenit aquae nisi per ignis actionem: ideo
+<lb ed="#L" n="8"/>videre Deum illo modo non potest alicui rationali 
+crea<lb ed="#L" break="no" n="9"/>turae naturaliter convenire.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>II. Secundo. Forma alicuius propria non fit alterius nisi
+<lb ed="#L" n="11"/>eo agente: agens enim facit sibi simile inquantum suam
+<lb ed="#L" n="12"/>formam communicat. Ergo, si divina essentia sit forma
+<lb ed="#L" n="13"/>intellectus, quod requiritur in visione divina, hoc non
+<lb ed="#L" n="14"/>potest esse nisi per actionem ipsius. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Adverte, circa probationem antecedentis, quod vult
+<lb ed="#L" n="16"/>arguere Sanctus Thomas ex conversione propositionum,
+<lb ed="#L" n="17"/>sic. Agens facit sibi simile suam formam communicando,
+<lb ed="#L" n="18"/>et nullo alio modo facit sibi simile, Ergo e converso, si
+<lb ed="#L" n="19"/>aliquid fit simile alicui secundum propriam eius formam,
+<lb ed="#L" n="20"/>talem formam accipit ab ipso cuius illa est propria forma.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Advertendum etiam quod ista ratio a praecedenti differt:
+<lb ed="#L" n="22"/>quia illa procedit ex eo quod ipsa visio Dei per essentiam
+<lb ed="#L" n="23"/>est propria.superioris naturae; haec vero procedit ex eo
+<lb ed="#L" n="24"/>quod divina essentia est propria forma Dei.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>III. Tertio. Ad hoc quod intellectus videat divinam 
+es<lb ed="#L" break="no" n="26"/>sentiam, oportet quod ipsa divina essentia copuletur 
+intel<lb ed="#L" break="no" n="27"/>lectui ut forma intelligibilis. Ergo etc. — Probatur 
+con<lb ed="#L" break="no" n="28"/>sequentia. Quia si aliqua duo debeant ad invicem copulari
+<lb ed="#L" n="29"/>quorum unum sit formale et aliud materiale, oportet quod
+<lb ed="#L" n="30"/>eorum copulatio fiat per actionem quae est ex parte eius
+<lb ed="#L" n="31"/>quod est formale, non autem per actionem eius quod est
+<lb ed="#L" n="32"/>materiale: cum formae sit agere, materiae vero pati.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>- Circa probationem consequentiae, advertendum quod
+<lb ed="#L" n="34"/>supponit Sanctus Thomas tanquam manifestum, non fieri
+<lb ed="#L" n="35"/>copulationem formalis et materialis nisi per aliquam 
+actio<lb ed="#L" break="no" n="36"/>nem: non enim forma unitur materiae nisi per actionem
+<lb ed="#L" n="37"/>alicuius,
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Supponit etiam quod per nullius alterius actionem quam
+<lb ed="#L" n="39"/>essentiae divinae aut ipsius intellectus, potest divina essentia
+<lb ed="#L" n="40"/>copulari intellectui creato. Quia divina essentia, cum. non
+<lb ed="#L" n="41"/>sit materialis, non potest per abstractionem a materia,
+<lb ed="#L" n="42"/>actione intellectus agentis, uniri intellectui possibili; nec
+<lb ed="#L" n="43"/>etiam per alicuius alterius superioris agentis actionem,
+<lb ed="#L" n="44"/>cum divina essentia sit supremi agentis natura. Ideo 
+re<lb ed="#L" break="no" n="45"/>linquitur quod hoc fiat aut per actionem intellectus cuius
+<lb ed="#L" n="46"/>est intelligere, aut per actionem Dei, qui intelligitur.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Istis suppositis, optime procedit ratio. Actio enim per
+<lb ed="#L" n="48"/>quam fit istorum duorum copulatio, magis se tenet ex
+<lb ed="#L" n="49"/>parte divinae essentiae quam ex parte intellectus: cum
+<lb ed="#L" n="50"/>intellectus comparetur ad illam sicut materia ad formam.
+<lb ed="#L" n="51"/>Ideo non per propriam virtutem intellectus unitur divinae
+<lb ed="#L" n="52"/>essentiae. Et per consequens non videt ipsam propria 
+vir<lb ed="#L" break="no" n="53"/>tute, sed virtute Dei habentis naturam divinam, fit talis
+<lb ed="#L" n="54"/>copulatio et talis visio.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>IV. Quarto. Intellectus creatus videt divinam substantiam
+<lb ed="#L" n="56"/>per essentiam Dei quasi per aliud a se. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="57"/>batur consequentia. Quia intellectus divinus per seipsum
+<lb ed="#L" n="58"/>videt divinam essentiam: cum sitipsa divina essentia, ut
+<lb ed="#L" n="59"/>in Primo est ostensum. Quod autem est per se, causa est
+<lb ed="#L" n="60"/>eius quod est per aliud.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Quinto. Videre Dei substantiam transcendit limites omnis
+<lb ed="#L" n="62"/>naturae creatae, Ergo etc. — Patet consequentia. Quia 
+quic<lb ed="#L" break="no" n="63"/>quid excedit limites alicuius naturae, non potest sibi 
+con<lb ed="#L" break="no" n="64"/>venire nisi per actionem alterius: ut patet de motu sursum
+<lb ed="#L" n="65"/>in aqua. — Antecedens vero probatur. Quia cuilibet naturae
+<lb ed="#L" n="66"/>intellectuali creatae proprium est ut intelligat per modum
+<lb ed="#L" n="67"/>suae substantiae. Substantia autem divina non potest sic
+<lb ed="#L" n="68"/>intelligi, ut supra est ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Advertendum quod modus proprius intelligendi 
+huma<lb ed="#L" break="no" n="70"/>nae naturae est ut ex sensibilibus cognoscat. Proprius autem
+<lb ed="#L" n="71"/>modus substantiae separatae est ut intelligat, non per 
+ac<lb ed="#L" break="no" n="72"/>ceptionem a sensibilibus, sed per ipsas substantias 
+sepa<lb ed="#L" break="no" n="73"/>ratas, et per species a divino lumine susceptas. Superius
+<lb ed="#L" n="74"/>autem ostensum est substantiam divinam nullo illorum
+<lb ed="#L" n="75"/>modorum posse intelligi. Idcirco inquit Sanctus Thomas
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ostensum esse divinam substantiam non posse intelligi
+<lb ed="#L" n="77"/>secundum modum proprium intellectualis substantiae.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>V. Circa istam propositionem, Cuilibet naturae 
+intel<lb ed="#L" break="no" n="79"/>lectuali creatae proprium est ut intelligat secundum 
+mo<lb ed="#L" break="no" n="80"/>dum suae substantiae, considerandum, ex doctrina Sancti
+<lb ed="#L" n="81"/>Thomae Prima, q. xui, a. 4; et q. Lxxxix, a. 2, quod
+<lb ed="#L" n="82"/>cum intellectio fiat per hoc quod intellectus aliqua forma
+<lb ed="#L" n="83"/>intelligibili actuatur; operatio autem suo principio formali
+<lb ed="#L" n="84"/>proportionatur, ut scilicet nobilioris principii nobilior sit
+<lb ed="#L" n="85"/>propria operatio, et perfectioris perfectior, et ut non possit
+<lb ed="#L" n="86"/>se extendere ultra conditionem ipsius: ideo necesse est
+<lb ed="#L" n="87"/>ut modus intellectionis accipiatur ex conditione speciei 
+in<lb ed="#L" break="no" n="88"/>telligibilis qua intellectus intelligit. Conditio.autem speciei
+<lb ed="#L" n="89"/>intelligibilis proportionatur naturae intelligentis: quia 
+vi<lb ed="#L" break="no" n="90"/>delicet, inquantum species est rei intellectae, ex conditione
+<lb ed="#L" n="91"/>naturae intelligentis suae perfectionis accipit. 
+determina<lb ed="#L" break="no" n="92"/>tionem et limitationem. Nam si natura intelligens rem
+<lb ed="#L" n="93"/>aliquam sit eiusdem modi essendi cum re intellecta, 
+spe<lb ed="#L" break="no" n="94"/>cies intelligibilis qua naturaliter rem illam intelligit, erit
+<lb ed="#L" n="95"/>perfecta forma rei intellectae, propter adaequationem 
+in<lb ed="#L" break="no" n="96"/>telligentis ad rem intellectam in modo essendi. Si autem
+<lb ed="#L" n="97"/>natura intelligens sit inferioris modi essendi quam sit res
+<lb ed="#L" n="98"/>intellecta, forma ipsa intelligibilis erit imperfecta forma
+<lb ed="#L" n="99"/>intelligibilis rei intellectae, ipsam non quidditative, sed
+<lb ed="#L" n="100"/>imperfecte repraesentans: et sic imperfectiori modo est in
+<lb ed="#L" n="101"/>tali intelligente quam sit in seipsa. Sequitur ergo quod
+<lb ed="#L" n="102"/>et cognitio alicuius rei intellectae proportionatur modo
+<lb ed="#L" n="103"/>naturae cognoscentis: quia videlicet, si natura cognoscens
+<lb ed="#L" n="104"/>adaequat rem cognitam quantum ad modum essendi, 
+co<lb ed="#L" break="no" n="105"/>gnitio naturalis intelligentis de tali re erit perfecta eius
+<lb ed="#L" n="106"/>cognitio; si autem natura cognoscens sit inferioris ordinis
+<lb ed="#L" n="107"/>et modi essendi quam res intellecta, cognitio quam 
+natu<lb ed="#L" break="no" n="108"/>raliter habet de tali re, non erit perfecta et quidditativa
+<lb ed="#L" n="109"/>illius cognitio, sed erit perfecta illius cognitione inferior;
+<lb ed="#L" n="110"/>et consequenter perfecta rei huiusmodi cognitio erit supra
+<lb ed="#L" n="111"/>naturalem cognitionem talis naturae cognoscentis. 
+Pro<lb ed="#L" break="no" n="112"/>pterea bene infert Sanctus Thomas, Prima, q. xr, a. 4,
+<lb ed="#L" n="113"/>quod, quia cuiuscumque cognoscentis cognitio est 
+secun<lb ed="#L" break="no" n="114"/>dum modum naturae cognoscentis, si modus essendi 
+ali<lb ed="#L" break="no" n="115"/>cuius rei cognitae excedat modum naturae cognoscentis,
+<lb ed="#L" n="116"/>oportet quod cognitio illius rei sit supra naturam illius
+<lb ed="#L" n="117"/>cognoscentis.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>Quia igitur omnis natura intellectualis creata est 
+limi<lb ed="#L" break="no" n="119"/>tatae naturae et finitae, a natura divina deficiens, omnes
+<lb ed="#L" n="120"/>species intelligibiles intellectualis naturae creatae, quibus
+<lb ed="#L" n="121"/>naturaliter intelligit, in hoc conveniunt quod sunt formae
+<lb ed="#L" n="122"/>limitatae et finitae, naturas limitatas et finitas 
+repraesen<lb ed="#L" break="no" n="123"/>tantes, a divinaque natura et quidditate, secundum suam
+<lb ed="#L" n="124"/>rationem et repraesentationem, longe deficientes. Et ideo
+<lb ed="#L" n="125"/>per huiusmodi species divina essentia quidditative 
+co<lb ed="#L" break="no" n="126"/>gnosci non potest: sed omnis talis cognitio ab eius 
+per<lb ed="#L" break="no" n="127"/>fecta cognitione deficiens est.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>VI. Ex his patet instantias Scoti, I Sent., d. mr, q. ur;
+<lb ed="#L" n="129"/>Quolib., q. xiv, a. 2; et IV Sent., d. xuix, q. xr, contra
+<lb ed="#L" n="130"/>Sanctum Thomam, nullius esse momenti. Non enim 
+in<lb ed="#L" break="no" n="131"/>tendit Sanctus Thomas, ut ille putat, oportere esse inter
+<lb ed="#L" n="132"/>naturam intelligentis et obiectum naturaliter et 
+quiddi<lb ed="#L" break="no" n="133"/>tative cognitum aequalitatem absolute, vel excessum 
+na<lb ed="#L" break="no" n="134"/>turae intelligentis: sed intelligit oportere esse inter obiectum
+<lb ed="#L" n="135"/>et naturam cognoscentis talem proportionem ut illud 
+obie<lb ed="#L" break="no" n="136"/>ctum natum sit cognosci per species intelligibiles tali 
+na<lb ed="#L" break="no" n="137"/>turae convenientes et connaturales. Et quia species illi
+<lb ed="#L" n="138"/>connaturales sunt quae sunt similitudines rerum eiusdem
+<lb ed="#L" n="139"/>ordinis secum, vel inferioris ordinis; dicuntur autem res
+<lb ed="#L" n="140"/>eiusdem ordinis, in proposito, quibus debetur idem modus
+<lb ed="#L" n="141"/>essendi generalis: ideo inter cognoscens et cognitum debet
+<lb ed="#L" n="142"/>esse convenientia in eodem modo essendi, aut excessus
+<lb ed="#L" n="143"/>cognoscentis ad cognitum,
+</p>
+            <p>
+               <lb ed="#L" n="144"/>2. Nec valet quod adducit in oppositum  de oculo
+<lb ed="#L" n="145"/>vidente caelum et terram, quae tamen, secundum ipsum,
+<lb ed="#L" n="146"/>non conveniunt in eodem modo essendi, cum ipse sit
+<lb ed="#L" n="147"/>corruptibilis, illa vero incorruptibilia; et de specie 
+intel<lb ed="#L" break="no" n="148"/>ligibili; quae non habet eundem modum essendi cum
+<lb ed="#L" n="149"/>obiecto, cum illa habeat esse accidentale, obiectum autem
+<lb ed="#L" n="150"/>habeat esse substantiale.
+</p>
+            <p>
+               <pb ed="#L" n="146"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Dicitur enim primo, quod oculus et caelum ac terra
+<lb ed="#L" n="2"/>conveniunt in hoc modo essendi generali, quia sunt 
+na<lb ed="#L" break="no" n="3"/>turae habentes esse in materia individuali: licet, sub hoc
+<lb ed="#L" n="4"/>genere, oculus habeat esse corruptibile, illa autem habeant
+<lb ed="#L" n="5"/>esse incorruptibile.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Dicitur secundo, quod species intelligibilis rei 
+mate<lb ed="#L" break="no" n="7"/>rialis convenit in modo essendi cum re materiali, non
+<lb ed="#L" n="8"/>quidem quantum ad modum essendi particularem quem
+<lb ed="#L" n="9"/>habet ut intellectum informat, sed quantum ad eum qui
+<lb ed="#L" n="10"/>sibi debetur naturaliter inquantum est talis natura et talis
+<lb ed="#L" n="11"/>quidditas: dictum est enim superius  quod forma quae
+<lb ed="#L" n="12"/>est in intellectu, est eiusdem speciei, immo est species
+<lb ed="#L" n="13"/>rei intellectae. Ideo, sicut rei intellectae convenit talis
+<lb ed="#L" n="14"/>modus essendi qui est habere esse substantiale in 
+ma<lb ed="#L" break="no" n="15"/>teria, ita speciei intelligibili eius debetur tale esse 
+natu<lb ed="#L" break="no" n="16"/>raliter, inquantum est species sive natura rei intellectae;
+<lb ed="#L" n="17"/>licet, praeter naturam, ex actione intellectus agentis, et
+<lb ed="#L" n="18"/>conditione intellectus possibilis, habeat alium modum 
+es<lb ed="#L" break="no" n="19"/>sendi in subiecto in quo est. Unde sunt eiusdem modi
+<lb ed="#L" n="20"/>essendi sibi naturaliter debiti, licet non sint eiusdem modi
+<lb ed="#L" n="21"/>essendi quantum ad esse quod actualiter habent.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>3. Non etiam sequitur quod angelus inferior nunquam
+<lb ed="#L" n="23"/>cognosceret superiorem . — Nam dicimus quod omnes
+<lb ed="#L" n="24"/>angeli in eodem modo essendi generali conveniunt, Sunt
+<lb ed="#L" n="25"/>enim tria genera essendi, secundum quos accipiuntur tres
+<lb ed="#L" n="26"/>rerum ordines, ut ponit Sanctus Thomas Prima, q. xii,
+<lb ed="#L" n="27"/>a. 4: Scilicet esse in hac materia individuali, in quo 
+con<lb ed="#L" break="no" n="28"/>veniunt omnia sensibilia materialia; esse separatum a 
+ma<lb ed="#L" break="no" n="29"/>teria, distinctum tamen ab essentia cuius est, in quo omnes
+<lb ed="#L" n="30"/>angeli conveniunt, licet in illo genere habeant gradus; et
+<lb ed="#L" n="31"/>esse a materia omnino separatum quod non distinguitur
+<lb ed="#L" n="32"/>ab essentia, qui modus essendi convenit soli Deo.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>4. Quod praeterea infert, quoniam tunc intellectus,
+<lb ed="#L" n="34"/>etiam cum lumine gloriae, non poterit videre Deum, quia
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="35"/>Deus excedit intellectum etiam lumine gloriae illustratum ;
+<lb ed="#L" n="36"/>hoc autem est falsum: — non cogit. Nam primo 
+respon<lb ed="#L" break="no" n="37"/>deri potest, ut alii respondent , quod non est contra
+<lb ed="#L" n="38"/>mentem Sancti Thomae. Quia non dicit naturam 
+infe<lb ed="#L" break="no" n="39"/>rioris modi essendi nullo modo posse cognoscere 
+natu<lb ed="#L" break="no" n="40"/>ram superioris modi essendi: sed quod non potest illam
+<lb ed="#L" n="41"/>propriis: viribus cognoscere, sive propria virtute, quantum
+<lb ed="#L" n="42"/>ad quidditativam cognitionem. Unde, si consequens 
+abso<lb ed="#L" break="no" n="43"/>lute intelligatur, negatur consequentia. Si autem 
+intel<lb ed="#L" break="no" n="44"/>ligatur de cognitione naturali quae est ex virtute propriae
+<lb ed="#L" n="45"/>naturae, et de quidditativa cognitione, negatur falsitas
+<lb ed="#L" n="46"/>consequentis.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Sed quia posset aliquis dicere quod, licet intellectus
+<lb ed="#L" n="48"/>per se non possit videre divinam essentiam naturaliter,
+<lb ed="#L" n="49"/>est tamen sibi naturalis haec visio ut stat sub lumine 
+glo<lb ed="#L" break="no" n="50"/>riae: sicut, licet aquae non sit naturale calefacere si per
+<lb ed="#L" n="51"/>se sumatur, et quantumcumque sit calida, nunquam. sibi,
+<lb ed="#L" n="52"/>inquantum est aqua, hoc convenit naturaliter; tamen aquae
+<lb ed="#L" n="53"/>inquantum calida est, convenit naturaliter calefacere, quia
+<lb ed="#L" n="54"/>illa actio naturaliter consequitur calorem: — ideo secundo
+<lb ed="#L" n="55"/>responderi potest, negando absolute consequentiam. Et ad
+<lb ed="#L" n="56"/>probationem, negatur quod Deus excedat intellectum, ut
+<lb ed="#L" n="57"/>illustratum lumine gloriae, illo excessu qui impedit ipsius
+<lb ed="#L" n="58"/>visionem. Immo intellectus sic illustratus est eiusdem 
+or<lb ed="#L" break="no" n="59"/>dinis cum Deo: ut declarabitur capitulo sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>VII. Confirmatur primo conclusio auctoritate Apostoli,
+<lb ed="#L" n="61"/>Rom. vr, dicentis: Gratia Dei vita aeterna. Quod ideo
+<lb ed="#L" n="62"/>dicitur quia ad ipsam visionem Dei, in qua beatitudo
+<lb ed="#L" n="63"/>consistit, quae vita aeterna dicitur, non potest homo nisi
+<lb ed="#L" n="64"/>divino munere pervenire, cum creaturae facultatem excedat:
+<lb ed="#L" n="65"/>quae enim sic adveniunt creaturae, divinae gratiae 
+de<lb ed="#L" break="no" n="66"/>putantur.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Confirmatur secundo Ioam. xiv, dum dicitur:
+<lb ed="#L" n="68"/>manifestabo ei meipsum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 90</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 90</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="276"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2443"><!-- ferv7a-l3c90 -->
+            <head>Capitulum 90</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="74" type="fixed=276"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="75"/>OSTENDAM ostendit Sanctus Thomas quod humanae 
+ele<lb ed="#L" break="no" n="76"/>ctiones neque corporibus caelestibus subduntur, neque
+<lb ed="#L" n="77"/>substantiis intellectualibus creatis, sed soli Deo, vult 
+ulte<lb ed="#L" break="no" n="78"/>rius ostendere illas divinae providentiae subiectas esse .
+<lb ed="#L" n="79"/>Circa hoc autem duo facit: primo, ostendit propositum ;
+<lb ed="#L" n="80"/>secundo, removet quasdam instantias .
+</p>
+            <p>
+               <lb ed="#L" n="81"/>I. Quantum ad primum, arguit primo sic. Deus est
+<lb ed="#L" n="82"/>causa electionis et voluntatis nostrae. Ergo electiones et
+<lb ed="#L" n="83"/>voluntates nostrae eius providentiae subduntur. — Probatur
+<lb ed="#L" n="84"/>consequentia, Quia omnia quae Deus agit, ex ordine 
+pro<lb ed="#L" break="no" n="85"/>videntiae suae agit.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Secundo. Nisi sic esset, sequeretur quod corporalia a
+<lb ed="#L" n="87"/>divina providentia subtraherentur; et sic totaliter nulla
+<lb ed="#L" n="88"/>esset providentia. — Probatur sequela. Quia omnia 
+corpo<lb ed="#L" break="no" n="89"/>ralia per spiritualia administrantur; et spiritualia agunt in
+<lb ed="#L" n="90"/>corporalia per voluntatem.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Adverte quod Sanctus Thomas in hac ratione 
+propo<lb ed="#L" break="no" n="92"/>situm suum extendit, probans non solum humanas ele-
+</p>
+            <p>
+               <lb ed="#L" n="93"/>ctiones, sed etiam aliarum substantiarum intellectualium
+<lb ed="#L" n="94"/>volitiones divinae providentiae subdi. Hoc autem facit
+<lb ed="#L" n="95"/>quia tam substantiae separatae quam animae humanae, in
+<lb ed="#L" n="96"/>hoc quod intellectuales substantiae creatae sunt, inquantum
+<lb ed="#L" n="97"/>huiusmodi, unius ordinis sunt, uniusque conditionis.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Fundamentum autem huius rationis est, quia quod non
+<lb ed="#L" n="99"/>habet providentiam de administratore aliquarum rerum
+<lb ed="#L" n="100"/>quoad actum quo illas administrat, neque etiam de ipsis
+<lb ed="#L" n="101"/>rebus administratis providentiam habet. Ordo enim effectus
+<lb ed="#L" n="102"/>consequitur suae causae intentionem et actionem. Ideo
+<lb ed="#L" n="103"/>sequitur, si Deus non habet providentiam de actibus 
+vo<lb ed="#L" break="no" n="104"/>luntatis, quibus creatura spiritualis corporalia administrat
+<lb ed="#L" n="105"/>ipsos ordinando ad suos fines, quod neque corporalium
+<lb ed="#L" n="106"/>providentiam habebit,
+</p>
+            <p>
+               <lb ed="#L" n="107"/>II. Tertio. Substantiae intellectuales sunt nobiliores
+<lb ed="#L" n="108"/>substantiis corporalibus. Ergo, si ista quantum ad suas
+<lb ed="#L" n="109"/>substantias et actiones cadunt sub ordine divinae 
+provi<lb ed="#L" break="no" n="110"/>dentiae, multo magis et illa. — Probatur consequentia.
+<pb ed="#L" n="277"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Quia quanto aliqua sunt nobiliora in universo, tanto oportet
+<lb ed="#L" n="2"/>quod magis participent ordinem , in quo bonum universi
+<lb ed="#L" n="3"/>consistit, Declaratur auctoritate Philosophi, reprehendentis
+<lb ed="#L" n="4"/>antiquos philosophos, Il PAys., text. 44, quod casum et 
+for<lb ed="#L" break="no" n="5"/>tunam in superioribus, non autem in inferioribus ponerent.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Quarto. Actiones substantiarum intellectualium 
+propin<lb ed="#L" break="no" n="7"/>quius ordinantur in Deum sicut in finem, quam actiones
+<lb ed="#L" n="8"/>aliarum rerum, ut est ostensum superius. Ergo magis 
+ca<lb ed="#L" break="no" n="9"/>dunt sub ordine providentiae, qua Deus omnia in seipsum
+<lb ed="#L" n="10"/>ordinat, quam actiones aliarum rerum. — Probatur 
+conse<lb ed="#L" break="no" n="11"/>quentia. Quia quae sunt propinquiora fini, magis cadunt
+<lb ed="#L" n="12"/>sub ordine qui est ad finem: cum etiam alia eis 
+median<lb ed="#L" break="no" n="13"/>tibus ordinentur ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Ad evidentiam huius ultimae propositionis, 
+consideran<lb ed="#L" break="no" n="15"/>dum est quod, sicut est ordo in causis efficientibus, ita
+<lb ed="#L" n="16"/>et in causis finalibus ordo invenitur. Sicut enim in causis
+<lb ed="#L" n="17"/>efucientibus id quod est immediatum primae causae, in
+<lb ed="#L" n="18"/>comparatione ad ipsam habet rationem moti, in 
+compa<lb ed="#L" break="no" n="19"/>ratione autem ad inferiora habet rationem moventis, et
+<lb ed="#L" n="20"/>mediante ipso inferius a prima causa movetur; ita in
+<lb ed="#L" n="21"/>causis finalibus quod est proximum ultimo fini, in 
+com<lb ed="#L" break="no" n="22"/>paratione ad ultimum finem habet rationem ordinati ad
+<lb ed="#L" n="23"/>finem, in comparatione autem ad remotiora a fine habet
+<lb ed="#L" n="24"/>rationemr finis, et mediante ipso alia ordinantur ad finem
+<lb ed="#L" n="25"/>ultimum. Sicut, quia evacuatio cholerae propinquior est
+<lb ed="#L" n="26"/>sanitati inducendae quam sumptio medicinae, ideo 
+cho<lb ed="#L" break="no" n="27"/>lerae evacuatio, quae ordinatur ad sanitatem sicut ad 
+fi<lb ed="#L" break="no" n="28"/>nem, est finis sumptionis medicinae, et ipsa sumptio 
+me<lb ed="#L" break="no" n="29"/>dicinae ordinatur mediante illa evacuatione ad sanitatem:
+<lb ed="#L" n="30"/>sumit enim aliquis medicinam propter sanitatem 
+conse<lb ed="#L" break="no" n="31"/>quendam, inquantum per ipsam putat evacuandam, 
+cho<lb ed="#L" break="no" n="32"/>leram. Et sic patet quod, mediantibus iis quae sunt fini
+<lb ed="#L" n="33"/>propinquiora, alia ad finem ordinantur.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>In proposito vero, aliae creaturae ordinantur ad Deum
+<lb ed="#L" n="35"/>sicut ad finem mediantibus substantiis intellectualibus, quia
+<lb ed="#L" n="36"/>non manifestant divinam bonitatem nisi inquantum prius
+<lb ed="#L" n="37"/>perfectiones substantiarum intelligibilium :aliquo. modo
+<lb ed="#L" n="38"/>manifestant, in quibus maxime divina bonitas manifestatur:
+<lb ed="#L" n="39"/>superiora enim in entibus sunt quodammodo inferiorum
+<lb ed="#L" n="40"/>exemplaria, excedentia tamen.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>III. Quinto. Quanto magis Deus aliqua amat, tanto
+<lb ed="#L" n="42"/>magis sub eius providentia cadunt. Sed Deus substantias
+<lb ed="#L" n="43"/>intellectuales maxime amat. Ergo etc. — Maior probatur.
+<lb ed="#L" n="44"/>Quia gubernatio providentiae ex amore divino procedit,
+<lb ed="#L" n="45"/>quo Deus res a se creatas amat: cum in hoc praecipue
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="46"/>consistat amor, quod amans amato bonum velit. 
+Con<lb ed="#L" break="no" n="47"/>firmatur auctoritate Psalmi: Dominus custodit etc, — Minor
+<lb ed="#L" n="48"/>et maior simul auctoritate Aristotelis, X .E?hic., probatur.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Sexto. Si solum exteriores proventus cadunt sub 
+pro<lb ed="#L" break="no" n="50"/>videntia, et non humanae electiones, sequitur quod verius
+<lb ed="#L" n="51"/>erit res humanas esse extra providentiaci quam quod
+<lb ed="#L" n="52"/>providentiae subsint. Sed hoc ex persona blasphemantium
+<lb ed="#L" n="53"/>inducitur Job xxm, et Exech. 1x, et Thren. mr. Ergo etc. —
+<lb ed="#L" n="54"/>Probatur assumptum. Quia bona interiora hominis, quae
+<lb ed="#L" n="55"/>ex voluntate et electione dependent, sunt magis propria
+<lb ed="#L" n="56"/>hominis quam illa quae extra ipsum sunt. Cuius signum
+<lb ed="#L" n="57"/>est, quod per illa homo dicitur esse bonus, non autem
+<lb ed="#L" n="58"/>per ista,
+</p>
+            <p>
+               <lb ed="#L" n="59"/>IV. Quantum ad secundum, removet Sanctus Thomas
+<lb ed="#L" n="60"/>quasdam instantias . Prima est, quia Eccli. xv, et Deut. xxx,
+<lb ed="#L" n="61"/>videtur dici quod Deus hominem sibi ipsi relinquat.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Sed inquit Sanctus Thomas quod verba illa inducuntur,
+<lb ed="#L" n="63"/>non ut hominum electiones a divina providentia 
+subtra<lb ed="#L" break="no" n="64"/>hantur, sed ut liberi esse arbitrii ostendantur.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>2. Secunda est, quia et Gregorius Nyssenus, in libro de
+<lb ed="#L" n="66"/>Homine, et Damascenus, in secundo libro, videntur dicere
+<lb ed="#L" n="67"/>quod ea quae sunt in nobis divinae providentiae non subsint.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Sed respondet quod nihil aliud intendunt quam quod ea
+<lb ed="#L" n="69"/>quae in nobis sunt, a divina determinatione  necessitatem
+<lb ed="#L" n="70"/>non recipiunt.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Ad huius evidentiam, considerandum est, ex iis quae
+<lb ed="#L" n="72"/>habentur Verit., q. v, a. 5, quod, licet omnia creata 
+di<lb ed="#L" break="no" n="73"/>vinae subdantur providentiae, diversimode tamen hoc. 
+con<lb ed="#L" break="no" n="74"/>venit substantiis intellectualibus et aliis. Ceterae enim
+<lb ed="#L" n="75"/>creaturae sic cadunt sub divina providentia quod sunt 
+pro<lb ed="#L" break="no" n="76"/>visae tantum et ordinatae. Substantiae autem intellectuales
+<lb ed="#L" n="77"/>sic sub ipsa cadunt quod non solum provisae sunt et
+<lb ed="#L" n="78"/>ordinatae, sed etiam sunt providentes et ordinantes et
+<lb ed="#L" n="79"/>seipsas et alia. Quia vero ipsae non sunt providentiae finis,
+<lb ed="#L" n="80"/>sed etiam in Deum ordinantur sicut in finem, in tantum
+<lb ed="#L" n="81"/>sunt ordinatae in quantum rectitudinem suae providentiae
+<lb ed="#L" n="82"/>ex regula divina sortiuntur. Et quia quod non est sibi
+<lb ed="#L" n="83"/>ipsi regula, sed per regulam extrinsecam in suo opere
+<lb ed="#L" n="84"/>dirigi habet, potest aliquando in operando a rectitudine
+<lb ed="#L" n="85"/>deficere, ideo sic cadunt sub divina providentia substantiae
+<lb ed="#L" n="86"/>intellectuales ut in opere suae providentiae deficere 
+pos<lb ed="#L" break="no" n="87"/>sint et peccare: et per consequens in suis operibus 
+liber<lb ed="#L" break="no" n="88"/>tatem habent. Et ideo ex hoc quod eorum electiones et
+<lb ed="#L" n="89"/>volitiones sub divina providentia cadunt, non sequitur
+<lb ed="#L" n="90"/>quod ab illa necessitatem sic vel sic eligendi habeant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

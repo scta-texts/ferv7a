@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 80</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 80</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="235"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2361"><!-- ferv7a-l3c80 -->
+            <head>Capitulum 80</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="23" type="fixed=235"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="24"/>POSTQUAM ostendit Sanctus Thomas substantias inferiores
+<lb ed="#L" n="25"/>intellectuales a. Deo per superiores gubernari, vult
+<lb ed="#L" n="26"/>consequenter de ordine ipsarum substantiarum 
+intellectua<lb ed="#L" break="no" n="27"/>agit de ordine substantiarum intellectualium separatarum,
+<lb ed="#L" n="28"/>quos angelos appellamus; secundo, de ordine hominum
+<lb ed="#L" n="29"/>inter se, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Circa primum duo facit: primo, agit de ordinatione
+<lb ed="#L" n="31"/>angelorum. secundum opinionem Dionysii; secundo, 
+opi<lb ed="#L" break="no" n="32"/>nionem Gregorii opinioni Dionysii comparat, circa finem
+<lb ed="#L" n="33"/>capituli 
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Circa primum duo facit: primo, praemittit quaedam ad
+<lb ed="#L" n="35"/>intelligentiam ordinationis Dionysii necessaria; secundo,
+<lb ed="#L" n="36"/>ipsam opinionem prosequitur .
+</p>
+            <p>
+               <lb ed="#L" n="37"/>l. Quantum ad primum, praemittit primo quod, cum
+<lb ed="#L" n="38"/>corporalia. per spiritualia regantur, oportet ut ordo 
+spiri<lb ed="#L" break="no" n="39"/>tualium et corporalium sibi respondeat: ut scilicet 
+supe<lb ed="#L" break="no" n="40"/>riora corpora per superiores spiritus, inferiora vero. per
+<lb ed="#L" n="41"/>inferiores regantur.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Advertendum. quod. non est sic intelligendum quod hic
+<lb ed="#L" n="43"/>dicitur quasi, accepta tota multitudine substantiarum 
+intel<lb ed="#L" break="no" n="44"/>lectualium absolute, supremae substantiae suprema corpora
+<lb ed="#L" n="45"/>regant, hoc enim. falsum est, ut ex sequentibus. patebit :
+<lb ed="#L" n="46"/>sed. quia, accepta multitudine spirituum gubernantium 
+cor<lb ed="#L" break="no" n="47"/>pora, illi. qui superiora corpora regunt, sunt superiores;
+<lb ed="#L" n="48"/>qui vero regunt inferiora, sunt inferiores,
+</p>
+            <p>
+               <lb ed="#L" n="49"/>II. Secundum. quod praemittit est quod, quia quanto
+<lb ed="#L" n="50"/>aliqua substantia est superior, tanto virtus eius est 
+uni<lb ed="#L" break="no" n="51"/>versalior; et virtus substantiae intellectualis est 
+univer<lb ed="#L" break="no" n="52"/>salior virtute corporis: superiores substantiae inteilectuales
+<lb ed="#L" n="53"/>habent virtutes non explicabiles per aliquam virtutem 
+cor<lb ed="#L" break="no" n="54"/>poream, et ideo non sunt corporibus unitae; inferiores
+<lb ed="#L" n="55"/>vero habent virtutes particulatas per corporea instrumenta
+<lb ed="#L" n="56"/>explicabiles, et ideo oportet quod corporibus uniantur.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Adverte quod istam differentiam substantiarum. 
+intel<lb ed="#L" break="no" n="58"/>lectualium. dupliciter  intelligere possumus. Uno modo,
+<lb ed="#L" n="59"/>ut sit differentia illarum. tantum. intellectualium. 
+substan<lb ed="#L" break="no" n="60"/>tiarum quas nos angelos dicimus, philosophi vero 
+sub<lb ed="#L" break="no" n="61"/>stantias separatas appellant. Et tunc sensus est quod 
+su<lb ed="#L" break="no" n="62"/>periores inter istas habent virtutes non explicabiles per
+<lb ed="#L" n="63"/>corpora, quia. in aliquos effectus possunt ad quos corpora
+<lb ed="#L" n="64"/>se extendere non possunt: eo quod virtus ipsarum sit 
+uni<lb ed="#L" break="no" n="65"/>versalior. virtute corporum, tam illa. videlicet virtute quae
+<lb ed="#L" n="66"/>ipsis. naturaliter convenit, quam illa quae nata est illis
+<lb ed="#L" n="67"/>instrumentaliter convenire. Ideo non uniuntur corporibus.
+<lb ed="#L" n="68"/>- Inferiores vero habent virtutes quae per corpora explicari
+<lb ed="#L" n="69"/>possunt, eo quod in nullum effectum . possint quem. per
+<lb ed="#L" n="70"/>corpora non valeant explicare: ideo corporibus uniuntur.
+<lb ed="#L" n="71"/>Et tunc intelligendum erit. virtutem. ipsarum esse virtute
+<lb ed="#L" n="72"/>corporum universaliorem, — quae, inquam, per se 
+corpori<lb ed="#L" break="no" n="73"/>bus convenit, non autem quae illis nata. est. 
+instrumen<lb ed="#L" break="no" n="74"/>taliter convenire,
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Sed ista expositio non videtur conveniens. Tum quia
+<lb ed="#L" n="76"/>falsum est quod inferiores angeli non possint in aliquem
+<lb ed="#L" n="77"/>effectum. quem per. corpora explere non possint. Possunt
+<lb ed="#L" n="78"/>enim illuminare intelligibiliter, confortando sua actione in-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="79"/>tellectum humanum, ut dicitur Prima, q. cxi, a. 1, quod
+<lb ed="#L" n="80"/>non fit instrumentaliter per corpus. - Tum quia, licet 
+pos<lb ed="#L" break="no" n="81"/>sint uti ad aliquem earum effectum aliquo corpore. sicut
+<lb ed="#L" n="82"/>instrumento, applicando particularia agentia suis. passivis;
+<lb ed="#L" n="83"/>ex hoc tamen. non. sequitur quod. oporteat ipsas 
+corpo<lb ed="#L" break="no" n="84"/>ribus. uniri (tanquam. videlicet de necessitate hoc earum
+<lb ed="#L" n="85"/>naturis conveniat), ut hic ait Sanctus Thomas. Immo, ut
+<lb ed="#L" n="86"/>dicitur Prima Parte, q. rr a. 1, et habetur ex superius
+<lb ed="#L" n="87"/>dictis in secundo libro , et in aliis locis, angeli non
+<lb ed="#L" n="88"/>habent corpora sibi naturaliter unita. — 'Tum quia ista 
+dif<lb ed="#L" break="no" n="89"/>ferentia nihil proposito deserviret. Inducitur enim ad 
+or<lb ed="#L" break="no" n="90"/>dinem hierarchiarum. manifestandum. Ad hoc autem 
+prae<lb ed="#L" break="no" n="91"/>dictus sensus in nullo deservit.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>2. Ideo secundo modo exponendus est hic locus, ut
+<lb ed="#L" n="93"/>ponatur differentia inter substantias separatas et animam
+<lb ed="#L" n="94"/>intellectivam. Quia enim substantia, quanto superior est,
+<lb ed="#L" n="95"/>tanto universaliorem habet virtutem, sicut corpora caelestia
+<lb ed="#L" n="96"/>corporibus inferioribus; cum substantia intellectualis. sit
+<lb ed="#L" n="97"/>superior substantia corporali, sequitur quod. virtus 
+sub<lb ed="#L" break="no" n="98"/>stantiae intellectualis est universalior virtute corporali, 
+ut<lb ed="#L" break="no" n="99"/>pote potens in aliquam operationem quae per corpus 
+exer<lb ed="#L" break="no" n="100"/>ceri non potest. Sed differentia est inter ipsas substantias
+<lb ed="#L" n="101"/>intellectuales. Quia quaedam sunt quae nullam habent 
+vir<lb ed="#L" break="no" n="102"/>tutem. cuius operatio habeat per corpus exerceri. Et istae
+<lb ed="#L" n="103"/>sunt superiores substantiae, quos angelos dicimus. In iis
+<lb ed="#L" n="104"/>enim non est nisi virtus intellectiva et appetitiva, quarum
+<lb ed="#L" n="105"/>nulla per corpus exercetur: neque etiam virtus motiva 
+ipsa<lb ed="#L" break="no" n="106"/>rum instrumento corporeo indiget, cum ipsa ab. intellectu
+<lb ed="#L" n="107"/>et voluntate non distinguatur. Ideo. non sunt corporibus
+<lb ed="#L" n="108"/>unitae tanquam formae: licet, divina dispositione, aliquae
+<lb ed="#L" n="109"/>ipsarum corporibus caelestibus ut motrices uniantur. —
+<lb ed="#L" n="110"/>Quaedam vero sunt quae, licet habeant aliquas virtutes
+<lb ed="#L" n="111"/>corpus excedentes, habent tamen aliquas quae sine 
+cor<lb ed="#L" break="no" n="112"/>pore expleri non. possunt: sicut sunt animae. humanae,
+<lb ed="#L" n="113"/>quae habent intellectum et voluntatem, quae nullo 
+cor<lb ed="#L" break="no" n="114"/>poreo organo indigent, habent vero virtutes sensitivas et
+<lb ed="#L" n="115"/>vegetativas, quae sine corporeo instrumento exerceri non
+<lb ed="#L" n="116"/>possunt. Et ideo, ad hoc ut possint exire in actum  
+ha<lb ed="#L" break="no" n="117"/>rum virtutum, necesse est ut corporibus uniantur 
+tan<lb ed="#L" break="no" n="118"/>quam. formae.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Ista differentia proposito deservit: quia per hoc vult
+<lb ed="#L" n="120"/>habere Sanctus Thomas quod, cum angeli. sint substantiae
+<lb ed="#L" n="121"/>intellectuales a corporibus separatae, divinas illuminationes
+<lb ed="#L" n="122"/>in ipsa intelligibili puritate percipiunt; animae vero 
+in<lb ed="#L" break="no" n="123"/>tellectivae, quia sunt corporibus unitae, et via sensuum
+<lb ed="#L" n="124"/>cognitionem accipiunt, ipsas divinas. illuminationes sub
+<lb ed="#L" n="125"/>sensibilium similitudinibus recipiunt, ut inquit Dionysius,
+<lb ed="#L" n="126"/>1 cap. Cael. Hier. Ideo aliam oportet esse hierarchiam
+<lb ed="#L" n="127"/>hominum, et aliam hierarchiam. angelorum : eo quod sit
+<lb ed="#L" n="128"/>alius. modus angelorum recipiendi divinas illuminationes,
+<lb ed="#L" n="129"/>et alius modus hominum. Ex quo ulterius vult habere
+<lb ed="#L" n="130"/>quod de hierarchia angelorum. convenienter. 
+determinan<lb ed="#L" break="no" n="131"/>dum est separatim ab hominum . hierarchia.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>III Tertium quod praemittit est quod, sicut superiores
+<lb ed="#L" n="133"/>substantiae intellectuales sunt universalioris virtutis, ita et
+<lb ed="#L" n="134"/>perfectius divinam dispositionem a. Deo. suscipiunt, in hoc
+<pb ed="#L" n="236"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod usque ad singularia ordinis rationem cognoscunt:
+<lb ed="#L" n="2"/>idest, non. solum cognoscunt dispositionem universalem
+<lb ed="#L" n="3"/>rerum quam Deus in sua mente disposuit, puta quod 
+dis<lb ed="#L" break="no" n="4"/>posuit universum esse propter manifestationem divinae
+<lb ed="#L" n="5"/>bonitatis, e£ motum corporum caelestium ordinavit ad 
+ge<lb ed="#L" break="no" n="6"/>nerationem horum inferiorum, et similia; sed etiam a Deo
+<lb ed="#L" n="7"/>accipiunt cognitionem ordinis uniuscuiusque rei singularis
+<lb ed="#L" n="8"/>quem Deus in seipso concepit. Sicut enim cognoscunt ad
+<lb ed="#L" n="9"/>quid ordinetur grave, ad quid leve; ad quid ordinetur 
+ca<lb ed="#L" break="no" n="10"/>lidum, ad quid ordinetur frigidum; ad quid talis herba 
+or<lb ed="#L" break="no" n="11"/>dinetur, ad quid vero talis; ita de mysteriis gratiae, et de
+<lb ed="#L" n="12"/>hominum salute, et de aliis quae particulariter per divinam
+<lb ed="#L" n="13"/>dispositionem sunt ordinata, particularem habent 
+cognitio<lb ed="#L" break="no" n="14"/>nem, et non tantum universalem.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Advertendum quod in hoc dicto per substantias 
+supe<lb ed="#L" break="no" n="16"/>riores intellectuales intelligit angelos, sicut et in secundo
+<lb ed="#L" n="17"/>dicto. Quod patet, quia inferius , loquens de angelis 
+in<lb ed="#L" break="no" n="18"/>fimae hierarchiae, vocat ipsos infimos inter superiores 
+in<lb ed="#L" break="no" n="19"/>tellectuales substantias.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>IV. Quartum quod praemittit est quod haec divinae ordi-.
+<lb ed="#L" n="21"/>nationis manifestatio divinitus facta usque ad ultimas 
+intel<lb ed="#L" break="no" n="22"/>lectualium substantiarum pertingit, ut ostenditur /ob xxv.
+<lb ed="#L" n="23"/>Inferiores tamen per eam singula quae ad ordinem divinae
+<lb ed="#L" n="24"/>providentiae spectant, ab ipsis exequenda, cognoscere non
+<lb ed="#L" n="25"/>possunt, sed solum in quadam communitate. Et quanto
+<lb ed="#L" n="26"/>inferiores sunt, tanto per primam illuminationem divinitus
+<lb ed="#L" n="27"/>acceptam minus in speciali divini ordinis cognitionem 
+ac<lb ed="#L" break="no" n="28"/>cipiunt: in tantum quod humanus intellectus, secundum
+<lb ed="#L" n="29"/>naturalem cognitionem, quorundam tantum 
+universalissi<lb ed="#L" break="no" n="30"/>morum notitiam habet.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Ex hoc autem datur intelligi quod, cum dictum est in
+<lb ed="#L" n="32"/>tertio dicto superiores substantias usque ad singularia 
+or<lb ed="#L" break="no" n="33"/>dinis rationem cognoscere, hoc intelligitur de genere 
+ipsa<lb ed="#L" break="no" n="34"/>rum substantiarum quae supra humanam animam sunt,
+<lb ed="#L" n="35"/>non autem de singulis illius generis. Ad illud enim genus
+<lb ed="#L" n="36"/>substantiarum pertinet ordines rerum in particulari 
+cogno<lb ed="#L" break="no" n="37"/>Scere, non autem ad omnes illius generis substantias.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>2. Ad evidentiam eius quod hic dicitur, considerandum
+<lb ed="#L" n="39"/>est quod videtur Sanctus Thomas duplicem illuminationem
+<lb ed="#L" n="40"/>ponere in substantiis separatis per acceptionem 
+superna<lb ed="#L" break="no" n="41"/>turalis luminis a Deo: unam, qua rerum cognitionem
+<lb ed="#L" n="42"/>habent in divinae essentiae visione; aliam vero, secundum
+<lb ed="#L" n="43"/>quod de iis quae in divina essentia non vident, 
+illumi<lb ed="#L" break="no" n="44"/>nantur a Deo. De prima illuminatione loquens hoc loco
+<lb ed="#L" n="45"/>inquit quod hoc est commune omnibus huiusmodi 
+sub<lb ed="#L" break="no" n="46"/>stantiis, quod manifestatio ordinationis divinae, scilicet de
+<lb ed="#L" n="47"/>rebus creatis secundum quod divinae providentiae subsunt,
+<lb ed="#L" n="48"/>ad ipsas pertingit, nam pervenit usque ad ultimas talium
+<lb ed="#L" n="49"/>substantiarum : omnes enim, dum vident divinam essentiam,
+<lb ed="#L" n="50"/>vident quidem omnia genera et species atque earum 
+vir<lb ed="#L" break="no" n="51"/>tutes et proprietates, videntque omnium creaturarum 
+or<lb ed="#L" break="no" n="52"/>dinem per divinam sapientiam statutum et excogitatum,
+<lb ed="#L" n="53"/>ut ex superioribus  patet. Sed inter istas quantum ad hoc
+<lb ed="#L" n="54"/>est differentia, quod inferiores angeli in divina essentia non
+<lb ed="#L" n="55"/>accipiunt adeo perfectam cognitionem ordinis divinae 
+pro<lb ed="#L" break="no" n="56"/>videntiae ut cognoscere possint singula exequenda ab
+<lb ed="#L" n="57"/>ipsis quae ad ordinem divinae providentiae spectant, sed
+<lb ed="#L" n="58"/>solum in quadam communitate, et tanto minus in 
+spe<lb ed="#L" break="no" n="59"/>ciali divini ordinis cognitionem accipiunt, quanto sunt 
+in<lb ed="#L" break="no" n="60"/>feriores: superiores autem perfectam et particularem 
+ac<lb ed="#L" break="no" n="61"/>cipiunt cognitionem. Hoc enim ex iis quae superius 
+<lb ed="#L" n="62"/>ostensa sunt, cum de beatitudine sermo fuit, facile est 
+co<lb ed="#L" break="no" n="63"/>gnoscere. Ibi enim dictum est quod non omnes videntes
+<lb ed="#L" n="64"/>divinam essentiam vident omnes rerum dispositiones, sive
+<lb ed="#L" n="65"/>omnes earum ordines, ut divinae providentiae subsunt,
+<lb ed="#L" n="66"/>excepta anima Christi : sed aliqui plures, aliqui pauciores.
+<lb ed="#L" n="67"/>Ex quo sequitur quod multae habitudines rerum, et 
+or<lb ed="#L" break="no" n="68"/>dinationes ex divina providentia rebus convenientes, a 
+su<lb ed="#L" break="no" n="69"/>perioribus Beatis in divina essentia cognoscuntur distincte,
+<lb ed="#L" n="70"/>quae ab inferioribus non cognoscuntur distincte, sed 
+con<lb ed="#L" break="no" n="71"/>fuse, sive in aliquo communi: sicut de mysterio 
+Incar<lb ed="#L" break="no" n="72"/>nationis inquit Sanctus Thomas, Prima, qJ'pyir, «a. (0579,
+<lb ed="#L" n="73"/>quod omnes angeli, cognitione qua vident res in Verbo,
+<lb ed="#L" n="74"/>illud in generali a principio cognoverunt, quia est 
+quod<lb ed="#L" break="no" n="75"/>dam generale principium, ad quod omnia eorum officia
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ordinantur; quantum autem ad speciales conditiones, non
+<lb ed="#L" n="77"/>sunt omnes a principio edocti, sed aliqui de ipsis plura,
+<lb ed="#L" n="78"/>aliqui vero pauciora cognoverunt, et aliqui posterius a. 
+su<lb ed="#L" break="no" n="79"/>perioribus edocentur, secundum quod eorum officiis 
+con<lb ed="#L" break="no" n="80"/>gruit.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Declarat autem hoc Sanctus Thomas proportionaliter ex
+<lb ed="#L" n="82"/>naturali cognitione. Videmus enim quod intellectus 
+huma<lb ed="#L" break="no" n="83"/>nus, qui inter omnes substantias intellectuales est infimus,
+<lb ed="#L" n="84"/>naturali cognitione solum. quorundam universalissimorum
+<lb ed="#L" n="85"/>notitiam habet, scilicet notitiam primorum principiorum,
+<lb ed="#L" n="86"/>sibi inditam a natura: — cum tamen videlicet superiores 
+in<lb ed="#L" break="no" n="87"/>tellectus distinctam de rebus habeant notitiam; ostensum
+<lb ed="#L" n="88"/>est enim supra  esse illis inditam omnium notitiam quae
+<lb ed="#L" n="89"/>naturaliter cognoscere possunt. Ex hoc enim apparet quod
+<lb ed="#L" n="90"/>etiam secundum supernaturalem cognitionem, quanto 
+in<lb ed="#L" break="no" n="91"/>tellectus angelicus est inferior, tanto minus distinctam de
+<lb ed="#L" n="92"/>rebus ad mysteria gratiae pertinentibus, et de iis quae a
+<lb ed="#L" n="93"/>sola divina voluntate dependent, notitiam habent: oportet
+<lb ed="#L" n="94"/>enim in illis cognitionis gratuitae modum naturali 
+cogni<lb ed="#L" break="no" n="95"/>tioni proportionari . . :
+</p>
+            <p>
+               <lb ed="#L" n="96"/>3. Attendendum autem quod per primam illuminationem
+<lb ed="#L" n="97"/>divinitus acceptam non potest hoc loco intelligi cognitio
+<lb ed="#L" n="98"/>angelorum per naturale lumen habita: quia secundum illam
+<lb ed="#L" n="99"/>cognitionem non distinguuntur angeli per hoc quod 
+su<lb ed="#L" break="no" n="100"/>periores habeant magis distinctam cognitionem de rebus,
+<lb ed="#L" n="101"/>ex parte ipsarum rerum cognitarum, inferiores vero minus
+<lb ed="#L" n="102"/>distinctam; cum, ut patet ex secundo libro , omnes 
+ha<lb ed="#L" break="no" n="103"/>beant connaturales species rerum quae ad eorum 
+natu<lb ed="#L" break="no" n="104"/>ralem cognitionem spectant, repraesententque illae species
+<lb ed="#L" n="105"/>et naturas universales et singularia existentia distincte. Ideo
+<lb ed="#L" n="106"/>oportet ut intelligatur de prima supernaturali illuminatione,
+<lb ed="#L" n="107"/>qua supernaturali lumine illuminantur.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>V. Quintum quod praemittit, ex praecedentibus sequens,
+<lb ed="#L" n="109"/>est quod substantiae intellectuales superiores perfectiorem
+<lb ed="#L" n="110"/>cognitionem dicti ordinis immediate consequuntur a Deo,
+<lb ed="#L" n="111"/>eamque aliae inferiores per ipsas consequuntur. Quod 
+ma<lb ed="#L" break="no" n="112"/>nifestatur exemplo discipuli, cuius universalis cognitio per
+<lb ed="#L" n="113"/>cognitionem magistri, qui in speciali cognoscit, perducitur
+<lb ed="#L" n="114"/>ad perfectum; et auctoritate Dionysii, vir cap. Caelestis
+<lb ed="#L" n="115"/>Hierarchiae.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Ad huius evidentiam considerandum est, ex doctrina
+<lb ed="#L" n="117"/>Sancti Thomae in Prima Parte, Quaestione :llegata , et
+<lb ed="#L" n="118"/>q. cvr , quod superiores angeli, perfectius divinam 
+essen<lb ed="#L" break="no" n="119"/>tiam. contemplantes, plura et altiora mysteria de iis quae
+<lb ed="#L" n="120"/>pertinent ad dispositionem universi, et praecipue ad salutem
+<lb ed="#L" n="121"/>electorum, in ipsa Dei visione cognoscunt, quam 
+inferio<lb ed="#L" break="no" n="122"/>res. Ideo dicuntur immediate accipere a Deo perfectiorem
+<lb ed="#L" n="123"/>cognitionem de ordine creaturarum quam inferiores, qui
+<lb ed="#L" n="124"/>in divina essentia tot divina mysteria non cognoscunt. Sed
+<lb ed="#L" n="125"/>licet inferiores non babeant de divinis mysteriis tantam
+<lb ed="#L" n="126"/>cognitionem videndo divinam essentiam quantam 
+supe<lb ed="#L" break="no" n="127"/>riores, illarum tamen rerum notitiam quam superiores 
+ha<lb ed="#L" break="no" n="128"/>bent, ipsi per revelationem a superioribus factam 
+conse<lb ed="#L" break="no" n="129"/>quuntur: quamvis in superioribus remaneat excellentior et
+<lb ed="#L" n="130"/>clarior notitia de iis quae inferioribus revelant, sicut unam
+<lb ed="#L" n="131"/>et eandem rem plenius intelligit magister quam discipulus
+<lb ed="#L" n="132"/>qui ab eo addiscit.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>2. Sed circa praedicta dubium occurrit. Nam, ut in 
+prae<lb ed="#L" break="no" n="134"/>cedentibus  est ostensum, de mente Sancti Thomae, Beati,
+<lb ed="#L" n="135"/>videndo divinam essentiam, vident in eo omnia quae ad
+<lb ed="#L" n="136"/>ipsos spectant: unde Quarto, d. xrv, q. ru, a. 1, tenet quod
+<lb ed="#L" n="137"/>in Verbo vident orationes, tam vocales quam mentales,
+<lb ed="#L" n="138"/>quae ad ipsos diriguntur. Ex quo dicere necesse est quod
+<lb ed="#L" n="139"/>a principio suae beatitudinis quilibet omnes orationes ad
+<lb ed="#L" n="140"/>ipsum dirigendas cognoscat: alioquin in visione rerum in
+<lb ed="#L" n="141"/>divina essentia successio esset, contra praedeterminata .
+<lb ed="#L" n="142"/>Ergo male dicitur hic quod inferiores intellectus per primam
+<lb ed="#L" n="143"/>illuminationem non cognoscunt singula quae ad ordinem
+<lb ed="#L" n="144"/>divinae providentiae spectant ab ipsis exequenda, $ed solum
+<lb ed="#L" n="145"/>in quadam communitate.
+</p>
+            <p>
+               <lb ed="#L" n="146"/>3. Respondetur, et dicitur primo, quod angelis beatis
+<lb ed="#L" n="147"/>sufficit scire in universali quae sint a se agenda, 
+cogno<lb ed="#L" break="no" n="148"/>scendo scilicet offucium ad quod sunt deputati ex divina
+<lb ed="#L" n="149"/>dispositione: non autem requiritur ad eorum beatitudinem
+<lb ed="#L" n="150"/>ut singula in particulari cognoscant quae sibi sunt in fu-
+<pb ed="#L" n="237"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>turum committenda. Nec ad hoc naturale eorum 
+deside<lb ed="#L" break="no" n="2"/>rium fertur. In humanis enim administratoribus, qui regis
+<lb ed="#L" n="3"/>iussa exequuntur, apparet quod eorum quiescit desiderium
+<lb ed="#L" n="4"/>si sciant quod sit suum officium apud regem; nec 
+quae<lb ed="#L" break="no" n="5"/>runt qui sapientes sunt, omnia scire in particulari quae 
+<lb ed="#L" n="6"/>per ipsos in futurum sunt ex regis impositione exequenda. 
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Dicitur secundo, quod orationes ab hominibus ad 
+san<lb ed="#L" break="no" n="8"/>ctos directae causam habent creatam. Ideo non est 
+prae<lb ed="#L" break="no" n="9"/>sumptionis si quis sanctorum eas scire desideret. Ea autem
+<lb ed="#L" n="10"/>quae sunt per angelos ex ordine divinae sapientiae 
+exe<lb ed="#L" break="no" n="11"/>quenda, ex mera et simplici voluntate dependent. Ideo velle
+<lb ed="#L" n="12"/>ea scrutari temeritatis magnae esset ac praesumptionis. 
+Id<lb ed="#L" break="no" n="13"/>circo nullus recta voluntate potest eorum agnitionem 
+de<lb ed="#L" break="no" n="14"/>siderare. Unde quod dicitur sanctos in divina essentia videre
+<lb ed="#L" n="15"/>universa quae ad eos spectant, intelligendum est de iis
+<lb ed="#L" n="16"/>quae ex causa creata dependentiam habent: non autem |
+<lb ed="#L" n="17"/>de iis quae in sola divinae voluntatis dispositione sunt
+<lb ed="#L" n="18"/>constituta tanquam per eos erga alios exequenda.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>VI. Quantum ad secundum, ex istis praesuppositis |:
+<lb ed="#L" n="20"/>ostendit Sanctus "Thomas ordinem inter substantias ipsas |
+<lb ed="#L" n="21"/>intellectuales . Et cum a Dionysio distinguantur angeli in |
+<lb ed="#L" n="22"/>tres hierarchias, idest sacros principatus; et quaelibet hie- |
+<lb ed="#L" n="23"/>rarchia tres ordines habeat  : hierarchias sic distinguit San- |
+<lb ed="#L" n="24"/>ctus Thomas, de mente Dionysii .
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Inquit enim quod distinguuntur secundum diversum |
+<lb ed="#L" n="26"/>modum accipiendi cognitionem perfectam ordinis divinae
+<lb ed="#L" n="27"/>providentiae. Nam angeli primae hierarchiae in altiori 
+prin<lb ed="#L" break="no" n="28"/>cipio, in ipso scilicet Deo, immediate talem cognitionem
+<lb ed="#L" n="29"/>accipiunt: - intellige, videndo ea quae inferioribus 
+reve<lb ed="#L" break="no" n="30"/>lant in ipsa divina essentia, sicut sunt ea quae a principio
+<lb ed="#L" n="31"/>suae beatitudinis cognoscunt; aut etiam accipiendo eorum
+<lb ed="#L" n="32"/>cognitionem immediate a Deo per revelationem, et sic 
+vi<lb ed="#L" break="no" n="33"/>dendo in lumine divinae revelationis. Nam, ut dicitur Prima
+<lb ed="#L" n="34"/>Parte, locis praeallegatis , usque ad diem iudicii, semper
+<lb ed="#L" n="35"/>nova aliqua supremis angelis revelantur de iis quae 
+per<lb ed="#L" break="no" n="36"/>tinent ad dispositionem universi, et praecipue ad salutem
+<lb ed="#L" n="37"/>electorum. — Angeli vero secundae, sive mediae hierarchiae,
+<lb ed="#L" n="38"/>non accipiunt hanc perfectam cognitionem in Deo per
+<lb ed="#L" n="39"/>visionem divinae essentiae, aut per immediatam 
+illumina<lb ed="#L" break="no" n="40"/>tionem a Deo, sed eam ab angelis primae hierarchiae per
+<lb ed="#L" n="41"/>illuminationem consequuntur; et in causis universalibus
+<lb ed="#L" n="42"/>creatis, quae sunt mediae inter supremam causam, qui est
+<lb ed="#L" n="43"/>Deus, et causas particulares, divinae providentiae ordinem
+<lb ed="#L" n="44"/>cognoscunt. — Angeli autem infimae hierarchiae ordinem
+<lb ed="#L" n="45"/>providentiae in particularibus causis cognoscibilem 
+divi<lb ed="#L" break="no" n="46"/>nitus accipiunt: idest, cognitionem talis ordinis in causis
+<lb ed="#L" n="47"/>particularibus per illuminationem ab angelis secundae 
+hie<lb ed="#L" break="no" n="48"/>rarchiae factam consequuntur. Nam ista cognitio dicitur
+<lb ed="#L" n="49"/>divinitus infimis angelis advenire, quia a Deo originem
+<lb ed="#L" n="50"/>habet aut per essentiam viso, aut immediate aliqua 
+my<lb ed="#L" break="no" n="51"/>steria et secreta supremis angelis revelante.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Notat autem Sanctus Thomas quod ideo angeli secundae
+<lb ed="#L" n="53"/>hierarchiae per causas universaliores cognoscunt quam
+<lb ed="#L" n="54"/>angeli infimae hierarchiae, quia sunt universaliores in 
+co<lb ed="#L" break="no" n="55"/>gnoscendo, sicut et universalioris sunt virtutis. Altioris
+<lb ed="#L" n="56"/>enim intellectus esset homo qui ordinem omnium 
+natura<lb ed="#L" break="no" n="57"/>lium considerare posset in corporibus caelestibus, quam
+<lb ed="#L" n="58"/>qui indiget ad perfectam cognitionem ad inferiora 
+prospi<lb ed="#L" break="no" n="59"/>cere. Et ideo convenienter ponuntur a Dionysio in media
+<lb ed="#L" n="60"/>hierarchia, utpote qui in causis universalibus, quae sunt
+<lb ed="#L" n="61"/>mediae inter Deum et causas particulares, possunt ordinem
+<lb ed="#L" n="62"/>providentiae perfecte cognoscere.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>2. Advertendum hoc loco quod, cum conditiones rerum
+<lb ed="#L" n="64"/>particularium et ordinationes ipsarum secundum 
+determi<lb ed="#L" break="no" n="65"/>nationem divinae providentiae, a Deo mediantibus causis
+<lb ed="#L" n="66"/>creatis proveniant, ita quod ad ipsum ordinem executioni
+<lb ed="#L" n="67"/>mandandum concurrit causa universalissima, quae est ipse
+<lb ed="#L" n="68"/>Deus, causa universalis creata, et causa particularis; oportet
+<lb ed="#L" n="69"/>ut angeli quorum natura est cognoscere per 
+universalis<lb ed="#L" break="no" n="70"/>simos conceptus, illas particularium conditiones et 
+ordi<lb ed="#L" break="no" n="71"/>nationes in universalissima causa cognoscant; ili autem
+<lb ed="#L" n="72"/>quorum est cognoscere per conceptus minus universales,
+<lb ed="#L" n="73"/>illas cognoscant per causas universales creatas, quae 
+vi<lb ed="#L" break="no" n="74"/>delicet propinquiores sunt universalissimae causae; illi
+<lb ed="#L" n="75"/>autem quorum est cognoscere per conceptus magis par-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ticulares, illas conditiones in causis magis particularibus
+<lb ed="#L" n="77"/>cognoscant. Ratio huius est quia, ubi aliquid cognoscitur
+<lb ed="#L" n="78"/>in causa, oportet conceptui intelligentis proportionaliter
+<lb ed="#L" n="79"/>correspondere causam, ut scilicet conceptui universaliori
+<lb ed="#L" n="80"/>correspondeat universalior causa: non dicitur enim aliquis
+<lb ed="#L" n="81"/>universalior conceptus nisi quia sibi aliquid universalius
+<lb ed="#L" n="82"/>obiectum respondet; et sic conceptui universaliori quo
+<lb ed="#L" n="83"/>cognoscitur aliquid in causa, ipsam videlicet causam in qua
+<lb ed="#L" n="84"/>virtualiter continetur cognoscendo, oportet universaliorem
+<lb ed="#L" n="85"/>causam respondere. Ostensum est autem superius, in 
+se<lb ed="#L" break="no" n="86"/>cundo libro , superiores angelos habere universaliorem
+<lb ed="#L" n="87"/>cognitionem, utpote per universaliores species intelligentes,
+<lb ed="#L" n="88"/>et unico conceptu plura distincte cognoscentes. Ideo 
+con<lb ed="#L" break="no" n="89"/>venientissime a Dionysio et Sancto Thoma attribuitur 
+su<lb ed="#L" break="no" n="90"/>premis angelis cognitio ordinis divinae providentiae in ipsa
+<lb ed="#L" n="91"/>suprema omnium causa; mediis autem cognitio huiusmodi
+<lb ed="#L" n="92"/>ordinis in causis universalibus creatis; infimis vero cognitio
+<lb ed="#L" n="93"/>in causis particularibus.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>3. Hoc autem possumus exemplariter declarare. Primo,
+<lb ed="#L" n="95"/>in malis. Nam Deus ab aeterno determinavit igne absumere
+<lb ed="#L" n="96"/>Sodomam et Gomorrham propter demerita. Huius autem
+<lb ed="#L" n="97"/>incendii tres causae fuerunt: scilicet iustitia divina, 
+tan<lb ed="#L" break="no" n="98"/>quam causa universalissima; peccata in communi, tanquam
+<lb ed="#L" n="99"/>causa universalis; hoc peccatum particulare quod est contra
+<lb ed="#L" n="100"/>naturam, tanquam particularis causa. Dicemus quod angeli
+<lb ed="#L" n="101"/>primae hierarchiae in divina essentia, quae est 
+universa<lb ed="#L" break="no" n="102"/>lissima omnium causa, aut per revelationem ipsis a Deo
+<lb ed="#L" n="103"/>immediate factam, conflagrationem futuram harum urbium
+<lb ed="#L" n="104"/>divinam iustitiam considerantes cognoverunt; et hanc 
+no<lb ed="#L" break="no" n="105"/>titiam inferioribus angelis mediae hierarchiae per 
+revela<lb ed="#L" break="no" n="106"/>tionem communicarunt. Angelos mediae bierarchiae 
+dice<lb ed="#L" break="no" n="107"/>mus, per revelationem et illuminationem sibi a superioribus
+<lb ed="#L" n="108"/>factam, considerantes malitiam illorum populorum in 
+com<lb ed="#L" break="no" n="109"/>muni, in qua omnia eorum peccata cognoverunt, scivisse
+<lb ed="#L" n="110"/>quod talis conflagratio futura esset. De infimis vero dicemus
+<lb ed="#L" n="111"/>quod, illuminati ab angelis mediae hierarchiae, 
+conflagra<lb ed="#L" break="no" n="112"/>tionem hanc cognoverunt considerantes in particulari 
+pec<lb ed="#L" break="no" n="113"/>catum contra naturam quod in iuvenes exercebant. Sic
+<lb ed="#L" n="114"/>enim constat quod superiores universaliori conceptu, plura
+<lb ed="#L" n="115"/>videlicet distincte repraesentante, et in universalioris causae
+<lb ed="#L" n="116"/>cognitione, dictum ordinem harum civitatum ad 
+confla<lb ed="#L" break="no" n="117"/>grationem a Deo institutum et praeordinatum cognoverunt;
+<lb ed="#L" n="118"/>inferiores vero conceptu minus universali, utpote pauciora
+<lb ed="#L" n="119"/>repraesentante, cognoverunt, et in causa minus universali.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Secundo, in bonis. Nam Deus ordinavit Petrum et
+<lb ed="#L" n="121"/>Paulum per martyrium salvandos virtute passionis Christi,
+<lb ed="#L" n="122"/>quae est universalis causa humanae salutis. Huius enim
+<lb ed="#L" n="123"/>universalissima causa fuit Deus; causa universalis passio
+<lb ed="#L" n="124"/>Christi; martyrium vero eorum causa particularis. Dicemus
+<lb ed="#L" n="125"/>quod angeli primae hierarchiae hanc divinam ordinationem
+<lb ed="#L" n="126"/>in ipsa divina essentia cognoverunt, aut in lumine a Deo
+<lb ed="#L" n="127"/>immediate accepto: verbi gratia, divinam bonitatem 
+con<lb ed="#L" break="no" n="128"/>siderantes, qua vult aliquos homines ad beatitudinem 
+per<lb ed="#L" break="no" n="129"/>ducere. Angeli autem mediae hierarchiae, ab angelis primae
+<lb ed="#L" n="130"/>hierarchiae illuminati, ipsam divinam ordinationem 
+vir<lb ed="#L" break="no" n="131"/>tutem passionis Christi considerantes cognoverunt. Sed
+<lb ed="#L" n="132"/>infimae hierarchiae angeli, a media illuminati et directi,
+<lb ed="#L" n="133"/>ipsam ordinationem in ipsa martyrii consideratione 
+co<lb ed="#L" break="no" n="134"/>gnoverunt, Petrum et Paulum esse in caelesti patria virtute
+<lb ed="#L" n="135"/>martyrii coronandos.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>VII. Quantum autem ad distinctionem ordinum in 
+qua<lb ed="#L" break="no" n="137"/>libet hierarchia contentorum , inquit Sanctus Thomas
+<lb ed="#L" n="138"/>quod, cum ordines primae hierarchiae in hoc conveniant
+<lb ed="#L" n="139"/>quod omnes a Deo immediate cognitionem ordinis divinae
+<lb ed="#L" n="140"/>providentiae accipiunt, in hoc distinguuntur, quod primi
+<lb ed="#L" n="141"/>et supremi illius hierarchiae rationem ordinis 
+providen<lb ed="#L" break="no" n="142"/>tiae accipiunt in ipso ultimo fine, qui est bonitas divina:
+<lb ed="#L" n="143"/>quidam tamen eorum aliis clarius. Et isti Seraphin 
+di<lb ed="#L" break="no" n="144"/>cuntur, idest, ardentes sive incendentes. — Secundi vero
+<lb ed="#L" n="145"/>praedictam ordinis rationem in ipsa forma divina perfecte
+<lb ed="#L" n="146"/>cognoscunt. Et hi dicuntur Cherubim, quod interpretatur
+<lb ed="#L" n="147"/>scientiae plenitudo. — ''ertii vero dispositionem divinorum
+<lb ed="#L" n="148"/>iudiciorum in seipsa considerant, et non in aliquo altiori
+<lb ed="#L" n="149"/>principio. Et hi dicuntur 7hroni, quia per thronum 
+po<lb ed="#L" break="no" n="150"/>testas iudiciaria significatur.
+</p>
+            <p>
+               <pb ed="#L" n="238"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Ne autem aliquis occasionem errandi accipiat, inquit
+<lb ed="#L" n="2"/>Sanctus Thomas quod non sunt sic praemissa intelligenda
+<lb ed="#L" n="3"/>quasi aliud sit divina bonitas, aliud divina essentia, et aliud
+<lb ed="#L" n="4"/>scientia rerum dispositionem continens: sed quia secundum
+<lb ed="#L" n="5"/>hoc est alia et alia consideratio; idest, ratione et 
+consi<lb ed="#L" break="no" n="6"/>deratione nostra distinctis conceptibus apprehenduntur.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>VIII. Sed occurrit dubium. Videtur enim contradictio
+<lb ed="#L" n="8"/>quaedam esse in verbis Sancti Thomae. Nam ponit 
+com<lb ed="#L" break="no" n="9"/>mune esse omnibus spiritibus primae hierarchiae ut 
+ra<lb ed="#L" break="no" n="10"/>tionem divinorum operum in ipso Deo immediate 
+cogno<lb ed="#L" break="no" n="11"/>scant. Posterius autem. dicit quod Throni dispositionem
+<lb ed="#L" n="12"/>divinorum iudiciorum in seipsa cognoscunt, non in aliquo
+<lb ed="#L" n="13"/>altiori principio.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>2. Ad huius evidentiam considerandum est quod, sicut
+<lb ed="#L" n="15"/>in rebus a Deo ordinatis invenitur et assimilatio ad Deum,
+<lb ed="#L" n="16"/>tanquam finis intrinsecus; et forma, secundum quam Deo
+<lb ed="#L" n="17"/>assimilantur; et ipsa ordinatio effectuum, secundum quod
+<lb ed="#L" n="18"/>unus effectus ad alium ordinatur, aut sicut causa ad 
+effe<lb ed="#L" break="no" n="19"/>ctum, aut sicut materia ad formam, aut quocumque alio
+<lb ed="#L" n="20"/>modo: ita oportet in Deo tria considerare secundum 
+ra<lb ed="#L" break="no" n="21"/>tionem distincta, istis tribus quae in effectibus inveniuntur
+<lb ed="#L" n="22"/>correspondentia. Et sic ponitur divina bonitas, tanquam
+<lb ed="#L" n="23"/>finis propter quem Deus omnia providet, correspondens
+<lb ed="#L" n="24"/>fini effectibus intrinseco; ponitur essentia divina, tanquam
+<lb ed="#L" n="25"/>forma per quam in effectibus propriae formae producuntur;
+<lb ed="#L" n="26"/>ponitur dispositio sive ordinatio, qua Deus in mente sua
+<lb ed="#L" n="27"/>ordinem in effectibus ponendum statuit. Ista ergo 
+ordi<lb ed="#L" break="no" n="28"/>natio divini intellectus, in ipsa mente divina existens, potest
+<lb ed="#L" n="29"/>cognosci cognoscendo bonitatem divinam per se, sub 
+ra<lb ed="#L" break="no" n="30"/>tione qua distinguitur ab essentia et ipsa ordinatione, Et
+<lb ed="#L" n="31"/>similiter potest cognosci in essentia, inquantum habet 
+ra<lb ed="#L" break="no" n="32"/>tionem formae ad cuius similitudinem. res producuntur:
+<lb ed="#L" n="33"/>ex formae enim consideratione potest cognosci quomodo
+<lb ed="#L" n="34"/>alia sint ordinanda ad hoc ut talis forma proveniat. Potest
+<lb ed="#L" n="35"/>et, tertio, cognosci in seipsa talis ordinatio, inquantum 
+con<lb ed="#L" break="no" n="36"/>sideratur secundum propriam rationem, ut distinguitur ab
+<lb ed="#L" n="37"/>essentia et bonitate, et videtur non in alio ad quod per
+<lb ed="#L" n="38"/>' prius terminetur cognitio.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>Ex his apparet quod nulla est contradictio in verbis
+<lb ed="#L" n="40"/>Sancti Thomae. Non enim intendit quod Throni 
+dispo<lb ed="#L" break="no" n="41"/>sitionem rebus inhaerentem in seipsa videant ut in ipsis
+<lb ed="#L" n="42"/>rebus existentem, non in ipso Deo, ut obiectio supponit:
+<lb ed="#L" n="43"/>sed quod in ipso Deo vident scientiam divinam et 
+cogni<lb ed="#L" break="no" n="44"/>tionem rerum ordinativam secundum se, ut distinguitur
+<lb ed="#L" n="45"/>ratione ab essentia divina et bonitate; non autem in 
+bo<lb ed="#L" break="no" n="46"/>nitate aut essentia, quae dicuntur altiora principia, sicut
+<lb ed="#L" n="47"/>finis et forma sunt nobiliora motu quo aliqua in finem
+<lb ed="#L" n="48"/>diriguntur et formam. Patet autem hoc ex eo quod, 
+re<lb ed="#L" break="no" n="49"/>movens errorem dictum, inquit quod hoc non est 
+intel<lb ed="#L" break="no" n="50"/>ligendum quasi aliud sit bonitas divina, aliud essentia,
+<lb ed="#L" n="51"/>aliud. scientia rerum dispositionem continens. Ex his enim
+<lb ed="#L" n="52"/>liquet quod per dispositionem divinorum. iudiciorum in
+<lb ed="#L" n="53"/>seipsa cognitam intellexit ipsam scientiam divinam rerum
+<lb ed="#L" n="54"/>dispositionem continentem, non autem eam dispositionem
+<lb ed="#L" n="55"/>quae rebus inhaeret.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>3. Advertendum tamen quod ex parte rei non ponitur
+<lb ed="#L" n="57"/>talis distinctio, quasi Throni divinorum iudiciorum 
+dispo<lb ed="#L" break="no" n="58"/>sitionem in seipsa videant, non autem videant bonitatem
+<lb ed="#L" n="59"/>et essentiam: unico enim actu quo vident essentiam 
+di<lb ed="#L" break="no" n="60"/>vinam, vident et bonitatem et scientiam. Sed hoc est 
+se<lb ed="#L" break="no" n="61"/>cundum considerationem intellectus nostri, distinguentem
+<lb ed="#L" n="62"/>ipsum actum. videndi Deum secundum quod ad diversa
+<lb ed="#L" n="63"/>obiecta secundum rationem distincta terminatur, et ab hoc
+<lb ed="#L" n="64"/>diversa nomina imponentem. Primos enim nominamus ab
+<lb ed="#L" n="65"/>ipsa Dei cognitione ut ad bonitatem terminatur, et dicimus
+<lb ed="#L" n="66"/>eos Seraphin; secundos vero ab ipsa cognitione ut ad 
+di<lb ed="#L" break="no" n="67"/>vinam essentiam terminatur, vocamus Cherubin; tertios
+<lb ed="#L" n="68"/>vero ab ipsa cognitione ut terminatur ad scientiam. rerum
+<lb ed="#L" n="69"/>ordinativam, 'hronos appellamus.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>IX. Ordines secundae hierarchiae sic distinguuntur quod,
+<lb ed="#L" n="71"/>cum omnes conveniant in hoc quod cognoscunt ordinem
+<lb ed="#L" n="72"/>divinae providentiae per considerationem universalium 
+cau<lb ed="#L" break="no" n="73"/>sarum, primi distribuunt universalis providentiae. 
+disposi<lb ed="#L" break="no" n="74"/>tionem in multos executores. Et vocantur Dominationes:
+<lb ed="#L" n="75"/>nam domini est praecipere quid alii exequantur. Unde
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Dionysius, vir cap. Caelest. Hier. dicit quod nomen 
+Do<lb ed="#L" break="no" n="77"/>minationis significat aliquam. anagogem etc. — Secundi
+<lb ed="#L" n="78"/>vero, qui sunt exequentes, distribuunt et multiplicant ipsam
+<lb ed="#L" n="79"/>dispositionem providentiae ad varios effectus. Et vocantur
+<lb ed="#L" n="80"/>Virtutes: sunt enim veluti universales executores. Unde
+<lb ed="#L" n="81"/>ad hunc ordinem pertinet principium universalis. 
+opera<lb ed="#L" break="no" n="82"/>tionis, Et videtur ad ipsos pertinere motus caelestium 
+cor<lb ed="#L" break="no" n="83"/>porum, ex quibus tanquam universalibus causis particulares
+<lb ed="#L" n="84"/>effectus consequuntur. Videtur etiam ad eos pertinere 
+exe<lb ed="#L" break="no" n="85"/>cutio divinorum operum quae. praeter naturae ordinem
+<lb ed="#L" n="86"/>fiunt. — Infimi autem custodiunt inconcussum ordinem
+<lb ed="#L" n="87"/>divinae providentiae in effectibus. institutum, cohibendo
+<lb ed="#L" n="88"/>ea quae possent hunc ordinem perturbare. Et dicuntur
+<lb ed="#L" n="89"/>Potestates.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>2. Circa auctoritatem Dionysii adductam ad 
+manifesta<lb ed="#L" break="no" n="91"/>tionem primi ordinis, ubi dicitur quod. omen 
+Domina<lb ed="#L" break="no" n="92"/>tionis designat aliquam anagogem superpositam omni 
+ser<lb ed="#L" break="no" n="93"/>vituti, considerandum quod, licet anagoges nomine Graeci
+<lb ed="#L" n="94"/>recessum significent, et classis emissionem, ut est apud
+<lb ed="#L" n="95"/>Suidam ; tamen hic accipitur pro celsitudine et 
+excel<lb ed="#L" break="no" n="96"/>lentia, ut etiam Latinus interpres videtur interpretari .
+<lb ed="#L" n="97"/>Nam a verbo anago deducitur, quod non solum recedo
+<lb ed="#L" n="98"/>significat, sed etiam superago. Unde et anagoge potest
+<lb ed="#L" n="99"/>etiam super-actionem, sive eminentem actionem significare,
+<lb ed="#L" n="100"/>et inde ad significandum excelsam intelligentiam trahi.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>X. Tertiae hierarchiae ordines conveniunt in hoc quod
+<lb ed="#L" n="102"/>est cognoscere ordinem divinae providentiae in 
+particula<lb ed="#L" break="no" n="103"/>ribus causis et rebus humanis: idest, inferioribus naturis
+<lb ed="#L" n="104"/>et causis particularibus, quae ad hominem ordinantur et
+<lb ed="#L" n="105"/>in eius usum. veniunt, praeponuntur. Sed differunt, quia
+<lb ed="#L" n="106"/>ad primos, qui vocantur Principatus, pertinet bonum 
+com<lb ed="#L" break="no" n="107"/>mune in rebus humanis, quod est bonum civitatis vel
+<lb ed="#L" n="108"/>gentis. Et sic ad. hos pertinet regnorum dispositio; 
+mu<lb ed="#L" break="no" n="109"/>tatio dominationis de gente in gentem ; et instructio eorum
+<lb ed="#L" n="110"/>qui sunt aliorum principes, in iis quae ad administrationem
+<lb ed="#L" n="111"/>regiminis pertinent. — Ad medios autem, qui vocantur
+<lb ed="#L" n="112"/>Archangeli, pertinet bonum. quod non in communitate
+<lb ed="#L" n="113"/>consistit, sed ad unumquemque pertinet secundum seipsum,
+<lb ed="#L" n="114"/>non est tamen uni soli utile, sed multis: ut sunt. quae
+<lb ed="#L" n="115"/>ab omnibus credenda sunt et servanda, sicut quae. sunt
+<lb ed="#L" n="116"/>fidei, et cultus divinus, et huiusmodi. — Ad infimos autem,
+<lb ed="#L" n="117"/>qui nomen commune retinent et Angeli vocantur, pertinet
+<lb ed="#L" n="118"/>bonum humanum quod ad unumquodque singulariter 
+per<lb ed="#L" break="no" n="119"/>tinet.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>2. Attendendum unum hoc loco, ex doctrina Sancti
+<lb ed="#L" n="121"/>Thomae Prima, q. cviu: quod licet aliqui inferiorum 
+or<lb ed="#L" break="no" n="122"/>dinum ab aliqua perfectione particulariter nominentur, per
+<lb ed="#L" n="123"/>hoc tamen non excluditur quin illa in. superioribus 
+ordi<lb ed="#L" break="no" n="124"/>nibus inveniatur; immo quicquid perfectionis invenitur in
+<lb ed="#L" n="125"/>inferioribus spiritibus, in superioribus etiam invenitur 
+se<lb ed="#L" break="no" n="126"/>cundum quendam excellentiorem inodum. Sed ab illa 
+no<lb ed="#L" break="no" n="127"/>minatur inferior ordo, non autem superior, quia illa 
+per<lb ed="#L" break="no" n="128"/>fectio est quasi adaequans inferiorem ordinem, et summa
+<lb ed="#L" n="129"/>perfectio in ipso inventa: non autem est suprema 
+perfe<lb ed="#L" break="no" n="130"/>ctio quam superior ordo habet. Sicut Throni denominantur
+<lb ed="#L" n="131"/>a cognitione ordinis. divinae. providentiae in ipsa mente
+<lb ed="#L" n="132"/>divina; Cherubin autem, licet hanc ipsam perfectionem
+<lb ed="#L" n="133"/>habeant, non tamen ab ipsa denominantur, sed a 
+supe<lb ed="#L" break="no" n="134"/>riori perfectione, idest ab hoc quod est inspicere in 
+es<lb ed="#L" break="no" n="135"/>sentia divina, tanquam. in forma universorum 
+intelligibi<lb ed="#L" break="no" n="136"/>lium, dictum providentiae ordinem. Et sic de. aliis est
+<lb ed="#L" n="137"/>dicendum.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>XI. Quantum ad secundum principale, comparat 
+San<lb ed="#L" break="no" n="139"/>ctus Thomas ordinationem Dionysii ad Gregorii 
+ordina<lb ed="#L" break="no" n="140"/>tionem . Et ait quod differunt quia, cum Dionysius 
+Princi<lb ed="#L" break="no" n="141"/>patus in ultima posuerit hierarchia, Virtutes vero in. 
+me<lb ed="#L" break="no" n="142"/>dia; Gregorius: e contrario Principatus in media. hierarchia
+<lb ed="#L" n="143"/>collocat, ponitque immediate post Dominationes ; Virtutes
+<lb ed="#L" n="144"/>vero in ultima hierarchia, ante Archangelos collocat.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>Sed circa horum differentiam duo dicit Sanctus Thomas.
+<lb ed="#L" n="146"/>Primo, quod utraque ordinatio in modico differt, Nam apud
+<lb ed="#L" n="147"/>Gregorium Principatus dicuntur non qui gentibus solum
+<lb ed="#L" n="148"/>praesunt, ut videlicet Dionysius interpretatur; sed etiam
+<lb ed="#L" n="149"/>qui ipsis bonis spiritibus principantur, quasi praesidentes
+<lb ed="#L" n="150"/>in ministeriorum divinorum executione. Ideo, ubi Dionysius
+<pb ed="#L" n="239"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Virtutes, quibus hoc attribuit, posuit, Gregorius posuit |
+<lb ed="#L" n="2"/>Principatus. — Item, apud Gregorium Virtutes dicuntur |
+<lb ed="#L" n="3"/>quae ad quasdam particulares operationes ordinantur cum |
+<lb ed="#L" n="4"/>aliqua contingit miraculose fieri. Secundum quam interpre- |
+<lb ed="#L" n="5"/>tationem, satis convenienter cum angelis infimae 
+hierar<lb ed="#L" break="no" n="6"/>chiae ordinantur. Ideo, ubi Dionysius posuit Principatus,
+<lb ed="#L" n="7"/>Gregorius Virtutes. collocavit.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Dicit secundo, quod utraque ordinatio ex verbis Apo- |
+<lb ed="#L" n="9"/>stoli auctoritatem habere potest: ordinatio quidem 
+Dio<lb ed="#L" break="no" n="10"/>nysii ex ordine qui servatur ascendendo, ad Ephes.
+<lb ed="#L" n="11"/>ordinatio vero. Gregorii ex ordine posito ad Coloss. 1,
+<lb ed="#L" n="12"/>descendendo. - De aliis autem spiritibus de quibus dictum
+<lb ed="#L" n="13"/>est supra, quos Apostolus in illa enumeratione non 
+no<lb ed="#L" break="no" n="14"/>minat, ostendit Sanctus Thomas in quibus locis Sacrae
+<lb ed="#L" n="15"/>Scripturae fiat mentio.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Ultimo notat quod, cum in omnibus ordinatis virtutibus
+<lb ed="#L" n="17"/>hoc sit commune, quod in vi superioris virtutis omnes
+<lb ed="#L" n="18"/>inferiores agunt; id quod diximus ad Seraphin ordinem
+<lb ed="#L" n="19"/>pertinere, scilicet imcendere, omnes inferiores ex virtute
+<lb ed="#L" n="20"/>ipsius exequuntur. Et similiter est in aliis ordinibus 
+con<lb ed="#L" break="no" n="21"/>siderandum .
+</p>
+            <p>
+               <lb ed="#L" n="22"/>2. Circa differentiam inter Dionysium et Gregorium, 
+ad<lb ed="#L" break="no" n="23"/>verte quod Sanctus Thomas in 1l Sent., d. 1x , tenet 
+or<lb ed="#L" break="no" n="24"/>dinationem Dionysii rationabiliorem esse, licet et Gregorii
+<lb ed="#L" n="25"/>ordinatio rationabilis sit. — Addit autem quod Gregorius
+<lb ed="#L" n="26"/>non multum intentionis apposuit ad ordinationem istorum
+<lb ed="#L" n="27"/>spirituum, sed solum ordines angelorum voluit numerare.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>XII, Circa ultimum quod notat Sanctus Thomas,
+<lb ed="#L" n="29"/>considerandum primo, quod triplicem intentionem in illis
+<lb ed="#L" n="30"/>verbis possumus accipere. Una est, quod omnes inferiores
+<lb ed="#L" n="31"/>species possunt in omnem effectum in quem possunt 
+Se<lb ed="#L" break="no" n="32"/>raphin, sed in virtute ipsorum Seraphin, non autem 
+vir<lb ed="#L" break="no" n="33"/>tute dumtaxat propria. — Alia est, quod inferiores ordines
+<lb ed="#L" n="34"/>omnem effectum in quem possunt, agunt in virtute 
+supe<lb ed="#L" break="no" n="35"/>riorum, et ipsorum Seraphin, quorum ordo primum locum
+<lb ed="#L" n="36"/>tenet. — Tertia est quod, si inferiores agunt aliquem 
+ef<lb ed="#L" break="no" n="37"/>fectum ad Seraphin spectantem, illum agunt in virtute
+<lb ed="#L" n="38"/>Seraphin.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>Omnes isti sensus habere veritatem possunt. Primus
+<lb ed="#L" n="40"/>quidem quia, cum virtutes ordinatae dicantur quarum una
+<lb ed="#L" n="41"/>movet alteram ad operandum, et quarum una per alteram
+<lb ed="#L" n="42"/>operatur, oportet omnes effectus qui a prima procedunt
+<lb ed="#L" n="43"/>inquantum cum aliis ordinatur, per inferiores virtutes 
+ex<lb ed="#L" break="no" n="44"/>pleri posse. Nam si in aliquem effectum posset qui non
+<lb ed="#L" n="45"/>posset per inferiores expleri, iam quantum ad illum 
+ef<lb ed="#L" break="no" n="46"/>fectum non haberet ordinem cum inferioribus ordinibus.
+<lb ed="#L" n="47"/>Et sic sequitur quod, cum respectu divinorum mysteriorum
+<lb ed="#L" n="48"/>Seraphin primum locum teneant; ab ipsisque usque ad
+<lb ed="#L" n="49"/>infimum ordinem revelationes huiusmodi secretorum 
+per<lb ed="#L" break="no" n="50"/>veniant: quicquid possunt Seraphin in huiusmodi mysteriis
+<lb ed="#L" n="51"/>exequendis, possunt et inferiores, virtute tamen ipsorum
+<lb ed="#L" n="52"/>Seraphin. — Secundus etiam sensus veritatem. manifestam
+<lb ed="#L" n="53"/>continet: quia causa inferior non agit nisi in virtute causae
+<lb ed="#L" n="54"/>superioris. — "Tertius itidem sensus manifeste verus est:
+<lb ed="#L" n="55"/>nam satis constat quod effectus primae causae non potest
+<lb ed="#L" n="56"/>per secundam produci nisi vi ipsius primae causae, -- Sed
+<lb ed="#L" n="57"/>licet omnes isti sensus veri sint, possintque textui 
+appli<lb ed="#L" break="no" n="58"/>cari, primus tamen sensus hic videtur intendi. Nam, ut
+<lb ed="#L" n="59"/>dicitur Prima, q. cxm, superiores angeli communicant
+<lb ed="#L" n="60"/>propria dona, a quibus denominantur, mediantibus 
+infe<lb ed="#L" break="no" n="61"/>rioribus angelis.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>2. Considerandum secundo, quod hoc notavit Sanctus
+<lb ed="#L" n="63"/>Thomas ut removeret dubium quoddam quod oriri posset.
+<lb ed="#L" n="64"/>Ex iis enim quae dicta sunt superius , habetur quod
+<lb ed="#L" n="65"/>angeli primae hierarchiae non exercent aliquid circa 
+in<lb ed="#L" break="no" n="66"/>feriora, sed ab operatione circa Deum nominantur. Huic
+<lb ed="#L" n="67"/>autem videtur obstare quod unus de Seraphin missus est
+<lb ed="#L" n="68"/>ad incendendum labia prophetae, ut habetur Zsaiae vi .
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Sed per hoc quod hic dicitur respondetur, et est de mente
+<lb ed="#L" n="70"/>Dionysii, xir cap. Cael. Hier., quod ille angelus non fuit
+<lb ed="#L" n="71"/>de ordine Seraphin, sed de ordinibus inferioribus: vocatur
+<lb ed="#L" n="72"/>autem nomine Seraphin, quia illum effectum qui est 
+incen<lb ed="#L" break="no" n="73"/>dere, fecit virtute Seraphin. Nam, cum Seraphin ardentes
+<lb ed="#L" n="74"/>sive incendentes dicantur, ad ipsos pertinet bomines in
+<lb ed="#L" n="75"/>Deum incendere: mediate quidem, non autem immediate.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>XIII. Circa istam hierarchiarum et ordinum 
+distinctio<lb ed="#L" break="no" n="77"/>nem, considerandum est quod, licet Sanctus Thomas 
+di<lb ed="#L" break="no" n="78"/>versimode in diversis locis loquatur, tamen, si diligenter
+<lb ed="#L" n="79"/>consideretur, omnes isti modi in unum facile reduci 
+pos<lb ed="#L" break="no" n="80"/>sunt, Quod manifestari facilissime potest si per ipsos 
+di<lb ed="#L" break="no" n="81"/>stinctionis modos discurramus.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Inter hierarchias enim. ponit hoc loco distinctionem,
+<lb ed="#L" n="83"/>quia angeli primae hierarchiae ordinem divinae 
+providen<lb ed="#L" break="no" n="84"/>tiae in divina essentia vident; angcli mediae hierarchiae
+<lb ed="#L" n="85"/>vident in causis universalibus; sed infimae hierarchiae 
+an<lb ed="#L" break="no" n="86"/>geli in causis particularibus intuentur. — In Prima vero
+<lb ed="#L" n="87"/>Parte, q. cvim, a. 1, hanc differentiam ponit, quod prima
+<lb ed="#L" n="88"/>hierarchia accipit rationes rerum prout procedunt a Deo;
+<lb ed="#L" n="89"/>secunda vero prout dependent a causis universalibus  ; sed
+<lb ed="#L" n="90"/>tertia secundum quod huiusmodi rationes a causis 
+parti<lb ed="#L" break="no" n="91"/>cularibus dependent. — At in lI Sent., d. 1x, a 3, ait quod
+<lb ed="#L" n="92"/>prima hierarchia accipit cognitionem divinorum effectuum
+<lb ed="#L" n="93"/>in ipsa prima causa universali; secunda hierarchia 
+cogno<lb ed="#L" break="no" n="94"/>scit res in universalibus rerum rationibus; tertia vero
+<lb ed="#L" n="95"/>hierarchia res im propriis rationibus cognoscit.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>2. Diligenter autem consideranti apparet quod duo ultimi
+<lb ed="#L" n="97"/>modi ad illum. qui hic ponitur reducuntur. Nam 
+conve<lb ed="#L" break="no" n="98"/>niunt in hoc omnes isti modi quod hierarchiae 
+distin<lb ed="#L" break="no" n="99"/>guuntur secundum diversum modum recipiendi divinas
+<lb ed="#L" n="100"/>illuminationes. Illi enim ordines qui universaliorem. 
+co<lb ed="#L" break="no" n="101"/>gnitionem ex sui natura habent, sic divinas illuminationes
+<lb ed="#L" n="102"/>recipiunt ut per illas cognoscant ea quae agenda sunt in
+<lb ed="#L" n="103"/>aliquo universaliori principio: sicut ille qui elevatioris 
+in<lb ed="#L" break="no" n="104"/>genii est, in uno principio sibi tradito a magistro multas
+<lb ed="#L" n="105"/>conclusiones cognoscit quas non cognoscit ille qui est
+<lb ed="#L" n="106"/>hebetioris et tardioris ingenii. Illi vero ordines qui 
+parti<lb ed="#L" break="no" n="107"/>culariorem cognitionem ex natura sua habent, per illas
+<lb ed="#L" n="108"/>divinas illuminationes cognoscunt quae sunt agenda in
+<lb ed="#L" n="109"/>aliquo particulariori principio.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>3. Modus ergo qui tangitur in Prima Parte , idem est
+<lb ed="#L" n="111"/>cum isto qui hic tangitur. Quia non videtur esse differentia
+<lb ed="#L" n="112"/>inter illos nisi quod in uno accipitur differentia ex parte
+<lb ed="#L" n="113"/>cognitionis rationum rerum, in alia vero ex parte 
+cogni<lb ed="#L" break="no" n="114"/>tionis ordinis divinae providentiae: et tamen, quantum ad
+<lb ed="#L" n="115"/>hoc, non est differentia nisi in nomine; nam quod hic vocat
+<lb ed="#L" n="116"/>Sanctus Thomas ordinem divinae providentiae, vocat in
+<lb ed="#L" n="117"/>Prima Parte rationes rerum. Per ista enim nomina nihil
+<lb ed="#L" n="118"/>aliud significatur quam id quod Deus ordinavit per suam
+<lb ed="#L" n="119"/>providentiam in rebus efficere. Prius enim intelligimus esse
+<lb ed="#L" n="120"/>in mente divina conceptum, ideam et exemplar ordinis
+<lb ed="#L" n="121"/>ponendi in rebus, quam talis ordo in ipsis rebus ponatur:
+<lb ed="#L" n="122"/>et talis idea, taleque exemplar, dicitur ordo per divinam
+<lb ed="#L" n="123"/>providentiam statutus, inquantum est eiusdem rationis cum
+<lb ed="#L" n="124"/>ipso extrinseco ordine aliquo modo; eo modo quo 
+di<lb ed="#L" break="no" n="125"/>cimus exemplar domus producendae in mente domificatoris
+<lb ed="#L" n="126"/>existens, esse domum in esse intelligibili. Dicitur etiam
+<lb ed="#L" n="127"/>ratio. rei, prout conceptus rei existens in mente divina
+<lb ed="#L" n="128"/>dicitur eius ratio et similitudo. Unde idem dictu est 
+co<lb ed="#L" break="no" n="129"/>gnoscere ordinem divinae providentiae, et cognoscere 
+ra<lb ed="#L" break="no" n="130"/>tiones rerum, in ipso Deo, quod cognoscere quid Deus
+<lb ed="#L" n="131"/>in mente sua determinaverit in rebus creatis efficere, sive
+<lb ed="#L" n="132"/>quem ordinem in aliquibus rebus ponere excogitaverit.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>4. Modus autem tactus in II Sent., cum duobus primis
+<lb ed="#L" n="134"/>quantum ad aliquid convenire videtur. Nam divini effectus,
+<lb ed="#L" n="135"/>secundum quorum cognitionem dicuntur distingui 
+hierar<lb ed="#L" break="no" n="136"/>chiae, simul cognoscuntur cum ordine divinae 
+providen<lb ed="#L" break="no" n="137"/>tiae in mente divina existente, et rationibus rerum. 
+Di<lb ed="#L" break="no" n="138"/>vinae enim providentiae effectus producendi in rebus, qui
+<lb ed="#L" n="139"/>nihil aliud sunt quam ordines quidam in ipsis ponendi,
+<lb ed="#L" n="140"/>de quibus tanquam de futuris producendis illuminantur
+<lb ed="#L" n="141"/>angeli, in mente divina primum habent esse per eorum
+<lb ed="#L" n="142"/>rationes et exemplaria. Ideo, cognito ipso ordine in mente
+<lb ed="#L" n="143"/>divina existente, cognoscuntur effectus divini secundum
+<lb ed="#L" n="144"/>illum ordinem producendi.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>Videtur autem modus ille differre ab aliis quantum ad
+<lb ed="#L" n="146"/>hoc: illi enim ponunt angelos mediae hierarchiae 
+cogno<lb ed="#L" break="no" n="147"/>scere rationes divinorum operum n causis creatis ; iste
+<lb ed="#L" n="148"/>vero modus ponit quod cognoscunt in ralionibus rerum,
+<lb ed="#L" n="149"/>quae sunt in intellectu. Sed dupliciter possumus, quantum
+<lb ed="#L" n="150"/>ad hoc, inter istos modos convenientiam invenire. Primo,
+<pb ed="#L" n="240"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>dicendo quod per causas creatas in duobus primis modis
+<lb ed="#L" n="2"/>nihil aliud intelligitur quam ipsi conceptus in mente
+<lb ed="#L" n="3"/>angelica existentes, qui in tertio modo rationes rerum
+<lb ed="#L" n="4"/>vocantur, secundum quas operantur illos effectus in quibus
+<lb ed="#L" n="5"/>Deo ministrant: nam, ut ibidem dicitur, formae per quas
+<lb ed="#L" n="6"/>angeli cognoscunt, sunt operativae ad minus respectu 
+ef<lb ed="#L" break="no" n="7"/>fectuum in quibus Deo ministrant. Et quia in superioribus
+<lb ed="#L" n="8"/>ordinibus: huiusmodi conceptus sunt universaliores, in 
+in<lb ed="#L" break="no" n="9"/>ferioribus vero sunt particulariores, inquantum superiores
+<lb ed="#L" n="10"/>unico conceptu plura cognoscunt quam inferiores, ideo
+<lb ed="#L" n="11"/>dicuntur angeli mediae hierarchiae in universalibus causis
+<lb ed="#L" n="12"/>cognoscere, inferiores vero im causis particularibus.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Secundo possumus convenientiam invenire dicendo quod
+<lb ed="#L" n="14"/>unus modus alium infert. Cum enim causa universalior
+<lb ed="#L" n="15"/>non cognoscatur a superioribus angelis nisi conceptu 
+uni<lb ed="#L" break="no" n="16"/>versaliori, ex eo quod ponitur superiores angelos 
+cogno<lb ed="#L" break="no" n="17"/>scere aliquid faciendum per divinam providentiam dum
+<lb ed="#L" n="18"/>per divinam illuminationem, videndo causam universalem,
+<lb ed="#L" n="19"/>vident ipsam per divinam providentiam ad productionem
+<lb ed="#L" n="20"/>talis effectus esse ordinatam ; sequitur quod illum effectum
+<lb ed="#L" n="21"/>in ratione et conceptu universali cognoscant, Et idem 
+di<lb ed="#L" break="no" n="22"/>cendum est de cognoscente in causa particulari. 
+Cogno<lb ed="#L" break="no" n="23"/>scens enim in consideratione passionis Christi, esse 
+sal<lb ed="#L" break="no" n="24"/>vandum Petrum per ipsam Christi passionem, cognoscit
+<lb ed="#L" n="25"/>Petrum esse salvandum ex illo conceptu quo Christi 
+pas<lb ed="#L" break="no" n="26"/>sionem cognoscit: qui conceptus est conceptus universalis
+<lb ed="#L" n="27"/>respectu conceptuum qui formantur de causis particularibus
+<lb ed="#L" n="28"/>salutis alicuius, sicut et ipsa passio Christi est communis
+<lb ed="#L" n="29"/>causa omnium salvandorum. Cognoscens vero Petrum esse
+<lb ed="#L" n="30"/>salvandum per martyrium in seipso consideratum, quae
+<lb ed="#L" n="31"/>est particularis causa salutis ipsius, cognoscit illud per
+<lb ed="#L" n="32"/>conceptum particularem quem de martyrio format. — Iste
+<lb ed="#L" n="33"/>modus magis videtur esse de mente Sancti Thomae, si eius
+<lb ed="#L" n="34"/>processus bene consideretur.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>XIV. Circa distinctionem etiam ordinum. unius 
+hierar<lb ed="#L" break="no" n="36"/>chiae, videtur esse diversitas. Nam hic angelos primae 
+hie<lb ed="#L" break="no" n="37"/>rarchiae distinguit per hoc quod Seraphin ordinem divinae
+<lb ed="#L" n="38"/>providentiae in divina bonitate vident; Cherubin in divina
+<lb ed="#L" n="39"/>essentia; 'Throni. in seipso, sive in ipsa Dei scientia rerum
+<lb ed="#L" n="40"/>ordinatrice, -- Angelos mediae distinguit quia Dominationes
+<lb ed="#L" n="41"/>distribuunt in multos executores dispositionem divinae
+<lb ed="#L" n="42"/>providentiae, quid alii exequantur praecipientes; Virtutes,
+<lb ed="#L" n="43"/>tanquam exequentes et operantes, dictam dispositionem
+<lb ed="#L" n="44"/>distribuunt et multiplicant ad varios effectus; Potestates
+<lb ed="#L" n="45"/>cohibent ea quae possent dictum. ordinem perturbare. —
+<lb ed="#L" n="46"/>Angelos infimae distinguit quia ad Principatus pertinet
+<lb ed="#L" n="47"/>boni communis gubernatio; ad Archaugelos gubernatio
+<lb ed="#L" n="48"/>bonorum quae ad unumquodque secundum seipsum 
+per<lb ed="#L" break="no" n="49"/>tinent, sed multis sunt utilia; ad. Augelos pertinet 
+guber<lb ed="#L" break="no" n="50"/>natio boni quod ad unum singulariter pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>In Prima vero Parte  distinguit angelos primae 
+hierar<lb ed="#L" break="no" n="52"/>chiae quia Seraphin excellunt in hoc quod est Deo uniri,
+<lb ed="#L" n="53"/>qui est.finis creaturarum; Cherubin supereminenter Dei
+<lb ed="#L" n="54"/>secreta cognoscunt; Throni Deum in seipsis familiariter
+<lb ed="#L" n="55"/>recipiunt, rationes rerum in ipso immediate cognoscendo,
+<lb ed="#L" n="56"/>quod est proprium totius primae hierarchiae. — Angelos
+<lb ed="#L" n="57"/>secundae distinguit quia ad Dominationes pertinet distinctio
+<lb ed="#L" n="58"/>eorum quae agenda sunt; ad Virtutes pertinet praebere
+<lb ed="#L" n="59"/>facultatem. ad implendum ; ad Potestates ordinare qualiter
+<lb ed="#L" n="60"/>ea quae sunt praecepta vel definita, possint impleri. — 
+An<lb ed="#L" break="no" n="61"/>gelos tertiae sic distinguit. quod . Principatus - incipiunt
+<lb ed="#L" n="62"/>actiones et alios ducunt; Augeli simpliciter exequuntur ;
+<lb ed="#L" n="63"/>Archangeli medio modo. se. habent.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Sed in II Sent. , angelos primae hierarchiae distinguit,
+<lb ed="#L" n="65"/>quia Seraphin ab actu amandi, quo perficitur voluntas,
+<lb ed="#L" n="66"/>denominantur; Cherubin ab actu videndi, quo perficitur
+<lb ed="#L" n="67"/>intelligentia; 'Throni ab actu comprehensionis, sive 
+reten<lb ed="#L" break="no" n="68"/>tionis, quo perficitur memoria. — Angelos mediae distinguit,
+<lb ed="#L" n="69"/>quia ad Dominationes pertinet dirigere in omnibus 
+di<lb ed="#L" break="no" n="70"/>vinis ministeriis; ad Virtutes pertinet adiuvare et 
+propu<lb ed="#L" break="no" n="71"/>gnare, ut non sit impossibile praestari exitu divina 
+mini<lb ed="#L" break="no" n="72"/>steria; ad Potestates pertinet sententiare quid unicuique
+<lb ed="#L" n="73"/>debeatur. — Angelos tertiae sic distinguit quod Principatus
+<lb ed="#L" n="74"/>habent actum limitatum .ad unam provinciam ; Axchangeli
+<lb ed="#L" n="75"/>habent actum. limitatum. ad unum hominem, sed de iis
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>quae pertinent ad bonum multorum, quae. explentur per
+<lb ed="#L" n="77"/>actum unius personae; Angeli vero habent actum 
+limi<lb ed="#L" break="no" n="78"/>tatum ad unum hominem, de iis quae ad ipsum tantum
+<lb ed="#L" n="79"/>pertinent.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>XV. Omnes autem isti modi possunt in unum reduci hoc
+<lb ed="#L" n="81"/>modo. Quantum. enim ad primam hierarchiam, conveniunt
+<lb ed="#L" n="82"/>omnes modi hic enumerati, quod angeli primae 
+hierar<lb ed="#L" break="no" n="83"/>chiae accipiunt cognitionem divinorum operum immediate
+<lb ed="#L" n="84"/>in ipso Deo. Sed quia Deus et est Deus, et primum 
+prin<lb ed="#L" break="no" n="85"/>cipium, et ultimus finis, hic dicitur quod accipiunt hanc
+<lb ed="#L" n="86"/>cognitionem omnes in ipso Deo, non limitando ad aliquam
+<lb ed="#L" n="87"/>rationem ; in Prima vero Parte, dicitur quod omnes hanc
+<lb ed="#L" n="88"/>cognitionem accipiunt im fine, qui est Deus; in ll vero
+<lb ed="#L" n="89"/>Sent., dicitur quod accipiunt hanc cognitionem in prima
+<lb ed="#L" n="90"/>causa universali. Idem tamen per omnia ista nomina 
+si<lb ed="#L" break="no" n="91"/>gnificatur: sed in diversis locis diversas Dei conditiones,
+<lb ed="#L" n="92"/>secundum nostrum modum intelligendi distinctas, 
+consi<lb ed="#L" break="no" n="93"/>deravit.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Quod dicitur in Prima Parte, Seraphin in hoc excellere
+<lb ed="#L" n="95"/>quod est uniri Deo; in II vero Sent., quod ab actu amandi
+<lb ed="#L" n="96"/>denominantur: idem est cum eo quod hic dicitur, scilicet
+<lb ed="#L" n="97"/>quod accipiunt cognitionem in fine, qui est divina bonitas.
+<lb ed="#L" n="98"/>Nam per omnia haec dicta significatur quod ab amore 
+de<lb ed="#L" break="no" n="99"/>nominantur: nam per amorem amans figitur in re amata,
+<lb ed="#L" n="100"/>et illi unitur; et similiter, quia intense amant ipsum finem,
+<lb ed="#L" n="101"/>et ex intenso amore totam aciem intellectus in ipso 
+fi<lb ed="#L" break="no" n="102"/>gunt, dicuntur accipere cognitionem in bonitate divina,
+<lb ed="#L" n="103"/>secundum quod est finis vehementer amatus. — Cum 
+di<lb ed="#L" break="no" n="104"/>citur de Cherubin quod supereminenter Dei secreta 
+co<lb ed="#L" break="no" n="105"/>gnoscunt; quod denominantur ab actu videndi; quod
+<lb ed="#L" n="106"/>cognoscunt perfecte in ipsa divina forma: significatur
+<lb ed="#L" n="107"/>plenitudo scientiae istorum angelorum, dum vident rerum
+<lb ed="#L" n="108"/>ordinem in essentia divina, quae est forma omnis 
+intel<lb ed="#L" break="no" n="109"/>ligibilis. Hoc autem dicitur, non. quod Seraphin, qui sunt
+<lb ed="#L" n="110"/>superiores, non tanta eminentia divina secreta cognoscant:
+<lb ed="#L" n="111"/>sed quia hoc in Cherubin est nobilissimum; Seraphin
+<lb ed="#L" n="112"/>vero et eminentius ipsa divina secreta vident, et ardentius
+<lb ed="#L" n="113"/>omnibus Deo per amorem uniuntur; ideo ab ista maxima
+<lb ed="#L" n="114"/>unione, tanquam a: perfectissimo actu in ratione unitivi,
+<lb ed="#L" n="115"/>denominantur. — De Thronis patet quod omnia dicta 
+re<lb ed="#L" break="no" n="116"/>feruntur ad. unum. Denominantur enim, tanquam infimi
+<lb ed="#L" n="117"/>illius hierarchiae, ab eo quod est commune: toti primae
+<lb ed="#L" n="118"/>hierarchiae, et ex quo prima hierarchia ab inferioribus
+<lb ed="#L" n="119"/>distinguitur, ab eo scilicet quod est videre rationes rerum.
+<lb ed="#L" n="120"/>in ipso Deo, quia nihil illo excellentius habent. Ideo 
+di<lb ed="#L" break="no" n="121"/>cuntur Deum in se tenere, tanquam videlicet eum sua
+<lb ed="#L" n="122"/>cognitione perseveranter. et immutabiliter amplectentes;.
+<lb ed="#L" n="123"/>et videre. divinae mentis ordinationem et cognitionem in
+<lb ed="#L" n="124"/>seipsa.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>2. Quantum ad secundam hierarchiam:. patet quod
+<lb ed="#L" n="126"/>omnes modi in hoc conveniunt quod ad ipsam pertinet
+<lb ed="#L" n="127"/>dispositio universalis de agendis, sicut et in causis 
+uni<lb ed="#L" break="no" n="128"/>versalibus ordinem divinae providentiae cognoscunt. Circa
+<lb ed="#L" n="129"/>Dominationes quoque patet nullam esse differentiam. Omnia
+<lb ed="#L" n="130"/>enim ad hoc tendunt quod ipsarum est distinguere ea.
+<lb ed="#L" n="131"/>quae agenda sunt, et praecipere ut exitu praestentur: sicut
+<lb ed="#L" n="132"/>architector distinguit, circa aedificium, esse aptandos 
+la<lb ed="#L" break="no" n="133"/>pides, esse complananda ligna, esse caementum terendum,
+<lb ed="#L" n="134"/>praecipitque. ut haec fiant, sed . per se nihil horum 
+exe<lb ed="#L" break="no" n="135"/>quitur. — Quae de Virtutibus dicuntur, videntur esse 
+dif<lb ed="#L" break="no" n="136"/>ferentia, sed omnia tamen in hoc concordant quod. sunt
+<lb ed="#L" n="137"/>primi inter exequentes, tanquam videlicet aliquod primum
+<lb ed="#L" n="138"/>et universale in divinis ministeriis per se exequentes, puta
+<lb ed="#L" n="139"/>corporum caelestium motum; et aliis executoribus tradendo
+<lb ed="#L" n="140"/>quid unisquisque agere debeat, circa tamen universalem
+<lb ed="#L" n="141"/>gubernationem. Hoc autem quod est Virtutes esse primos
+<lb ed="#L" n="142"/>in executione divinorum operum, et distributores mini-.
+<lb ed="#L" n="143"/>steriorum universalium, trahit secum hoc quod est iuvare
+<lb ed="#L" n="144"/>ut omnia fiant, et propugnare ac defendere sua virtute ne
+<lb ed="#L" n="145"/>aliquid impediat executionem divinae providentiae, quod
+<lb ed="#L" n="146"/>est praebere facultatem ad agendum. - Quae de 
+Pote<lb ed="#L" break="no" n="147"/>statibus. dicuntur, ad hoc tendunt quod Potestatum est
+<lb ed="#L" n="148"/>ordinem divinae providentiae in effectibus institutum 
+7n<lb ed="#L" break="no" n="149"/>concussum custodire, cohibendo sua sententia ea quae
+<lb ed="#L" n="150"/>possent hunc ordinem perturbare; et determinare quod
+<pb ed="#L" n="241"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>hoc ad hunc pertinet, non autem ad illum. Et propter
+<lb ed="#L" n="2"/>hoc dicuntur etiam ordinare qualiter ea quae praecepta
+<lb ed="#L" n="3"/>sunt, impleri possint.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>3. Quantum ad tertiam hierarchiam, omnes modi 
+conve<lb ed="#L" break="no" n="5"/>niunt in hoc, quod haec hierarchia habet actus suos circa
+<lb ed="#L" n="6"/>res humanas, scilicet circa inferiores naturas ad hominem
+<lb ed="#L" n="7"/>ordinatas. Quae autem de Principatibus dicuntur, ad hoc
+<lb ed="#L" n="8"/>tendunt quod regnis et civitatibus praeponuntur. Et ideo
+<lb ed="#L" n="9"/>dicuntur quasi incipientes actionem circa huiusmodi, et
+<lb ed="#L" n="10"/>alios ducentes ad executionem suorum operum circa res
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="11"/>humanas. — Archangelis convenit secundum omnes modos
+<lb ed="#L" n="12"/>gubernatio eorum quae multitudini conducunt, et ad 
+unum<lb ed="#L" break="no" n="13"/>quemque pertinent. Ideo dicuntur aliqua per seipsa exequi
+<lb ed="#L" n="14"/>circa res humanas, scilicet magna; inferiores vero in
+<lb ed="#L" n="15"/>aliqua dirigunt, veluti eorum principes et ductores. Ideo
+<lb ed="#L" n="16"/>inter Principatus et Angelos medii collocantur. - In his
+<lb ed="#L" n="17"/>quae de ultimo ordine Angelorum dicuntur, constat nullam
+<lb ed="#L" n="18"/>esse differentiam.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Reliqua quae ad hanc materiam pertinent, sunt diffuse
+<lb ed="#L" n="20"/>tractata in locis praeallegatis. ;
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

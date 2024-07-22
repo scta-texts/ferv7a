@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 113</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 113</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="360"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2631"><!-- ferv7a-l3c113 -->
+            <head>Capitulum 113</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="77" type="fixed=360"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="78"/>SECUNDO loco ponit Sanctus "Thomas modum 
+particu<lb ed="#L" break="no" n="79"/>larem quo creafurae rationales a 'divina- providentia |
+<lb ed="#L" n="80"/>gubernantur .
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Circa hoc autem duo facit: primo, ostendit creaturam
+<lb ed="#L" n="82"/>rationalem solam ad suos actus dirigi mon solum secundum
+<lb ed="#L" n="83"/>congruentiam speciei, sed. etiam secundum congruentiam
+<lb ed="#L" n="84"/>individui; secundo, circa ipsa individua modum' SIMIRES
+<lb ed="#L" n="85"/>gubernationis ponit, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>I Quantum ad primum, advertendum quod actus 
+indi<lb ed="#L" break="no" n="87"/>viduorum naturales, aut quorum principium est in ipsis,
+<lb ed="#L" n="88"/>sunt actus et individui et speciei, inquantum naturam
+<lb ed="#L" n="89"/>omnibus individuis communem consequuntur. Sed 
+diffe<lb ed="#L" break="no" n="90"/>runt actus creaturae rationalis ab actibus aliorum. Quia
+<lb ed="#L" n="91"/>actus aliorum ordinantur ad speciei conservationem et 
+per<lb ed="#L" break="no" n="92"/>fectionem, et in eis non attenditur nisi bonum speciei 
+se<lb ed="#L" break="no" n="93"/>cundum se; et, si attenditur bonum individui, hoc.non
+<lb ed="#L" n="94"/>est nisi inquantum ad speciem ordinatur. In actibus vero
+<lb ed="#L" n="95"/>intellectualis naturae, attenditur non tantum bonum et
+<lb ed="#L" n="96"/>perfectio speciei, sed etiam bonum individui secundum se.
+<lb ed="#L" n="97"/>Et ideo dicitur quod sola creatura rationalis ad suos
+<lb ed="#L" n="98"/>actus dirigitur non solum secundum quod congruit 
+spe<lb ed="#L" break="no" n="99"/>ciei, sed etiam secundum quod congruit individuo : idest,
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="100"/>non solum. illius actus Deus propter bonum speciei dirigit
+<lb ed="#L" n="101"/>et regulat, sed etiam" secundurn quod ad bonum individui
+<lb ed="#L" n="102"/>spectant; quia videlicet in illa non solum intendit speciei
+<lb ed="#L" n="103"/>conservationem, sed etiam ipsius individui bonum, etiam
+<lb ed="#L" n="104"/>si in bonum speciei non cederet. ;
+</p>
+            <p>
+               <lb ed="#L" n="105"/>2. Arguit autem primo sic. Creatura rationalis, scilicet
+<lb ed="#L" n="106"/>secundum individuum, divinae providentiae substat sicut
+<lb ed="#L" n="107"/>secundum se: gubernata et provisa, non solum propter
+<lb ed="#L" n="108"/>speciem, ut aliae creaturae. Érgo directionem a Deo ad
+<lb ed="#L" n="109"/>suos actus accipit non solum propter speciem, sed etiam
+<lb ed="#L" n="110"/>secundum individuum. - Probatur antecedens.. Quia -
+in<lb ed="#L" break="no" n="111"/>dividuum quod gubernatur solum, propter speciem, non
+<lb ed="#L" n="112"/>gubernatur propter seipsum. - - Consequentia vero probatur:
+<lb ed="#L" n="113"/>quia, cam res propter suam operationem esse' videatur,
+<lb ed="#L" n="114"/>unumquodque ad suum actum gubernatur secundum quod
+<lb ed="#L" n="115"/>divinae providentiae substat.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Ad evidentiam huius rationis, RAS ii est quod
+<lb ed="#L" n="117"/>propter se gubernari dupliciter accipi potest. Uno modo,
+<lb ed="#L" n="118"/>ut excludit omnem ordinem ad aliud. Et sic gubernari
+<lb ed="#L" n="119"/>propter se excludit gubernari propter alterius bonum. Et
+<lb ed="#L" n="120"/>hoc modo non intelligitur naturae rationalis individuum
+<lb ed="#L" n="121"/>propter se gubernari. Ostensum est enim superius ipsam
+<pb ed="#L" n="361"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>intellectualem naturam ad universi perfectionem ordinari.
+<lb ed="#L" n="2"/>— Alio modo, ut excludit ordinem ad alterum tantum :
+<lb ed="#L" n="3"/>quod scilicet non tantum est volitum et intentum propter
+<lb ed="#L" n="4"/>alterum, sed etiam propter bonum proprium, ita quod in
+<lb ed="#L" n="5"/>se habet unde sit volitum etiam si ad aliud non. ordinetur.
+<lb ed="#L" n="6"/>Et sic gubernari propter se non excludit etiam ordinem
+<lb ed="#L" n="7"/>ad aliud. Potest enim unum et idem hoc modo et propter
+<lb ed="#L" n="8"/>se gubernari, et propter aliud: inquantum videlicet et ad
+<lb ed="#L" n="9"/>bonum alterius ordinatur, et etiam in se habet unde sit
+<lb ed="#L" n="10"/>volitum. Et hoc modo accipitur hoc.loco naturam 
+ratio<lb ed="#L" break="no" n="11"/>nalem, etiam secundum individuum, esse propter se 
+gu<lb ed="#L" break="no" n="12"/>bernatam et provisam.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>II. Secundo.Si ita non esset, in leemnise non esset agere vel
+<lb ed="#L" n="14"/>non agere, sed oporteret quod naturalem inclinationem 
+com<lb ed="#L" break="no" n="15"/>munem toti speciei sequeretur. Hoc est falsum. Ergo etc.
+<lb ed="#L" n="16"/>— Probatur consequentia. Quia in.eis quae diriguntur in
+<lb ed="#L" n="17"/>suis actibus solum secundum quod pertinet ad speciem,
+<lb ed="#L" n="18"/>non est agere vel non agere: cum ea quae consequuntur
+<lb ed="#L" n="19"/>speciem sint communia et naturalia omnibus individuis sub
+<lb ed="#L" n="20"/>specie contentis; naturalia autem non sint in nobis.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Ad evidentiam huius rationis, considerandum est, quod
+<lb ed="#L" n="22"/>aliter loquendum est de ipsa facultate agendi vel non
+<lb ed="#L" n="23"/>agendi: et aliter de operatione quae huiusmodi subditur
+<lb ed="#L" n="24"/>facultati. -Nami facultas agendi vel non agendi naturalis est
+<lb ed="#L" n="25"/>homini, et totam speciem consequitur, nec est in nobis
+<lb ed="#L" n="26"/>ipsam habere vel non habere. Ipsa vero operatio quae 
+hu<lb ed="#L" break="no" n="27"/>iusmodi subditur facultati, non est naturalis, nec totam
+<lb ed="#L" n="28"/>speciem consequitur, accipiendo. zaturale pro eo quod
+<lb ed="#L" n="29"/>maturam de necessitate consequitur: nulla enim est 
+ope<lb ed="#L" break="no" n="30"/>ratio humana, inquantum huiusmodi, quae quantum ad
+<lb ed="#L" n="31"/>exercitium de necessitate naturae sequatur. ? Nam licet 
+in<lb ed="#L" break="no" n="32"/>telligere dicatur homini esse naturale inquantum potentia
+<lb ed="#L" n="33"/>intellectiva est homini naturalis, non tamen ipsum actu
+<lb ed="#L" n="34"/>intelligere sic est homini naturale ut naturam de 
+neces<lb ed="#L" break="no" n="35"/>sitate sequatur, alioquin oporteret ut. homo semper 
+intel<lb ed="#L" break="no" n="36"/>ligeret, positis iis quae ad agendum necessaria sunt ex
+<lb ed="#L" n="37"/>parte intellectus: sed est in hominis potestate intelligere
+<lb ed="#L" n="38"/>actu vel non intelligere. Et sic etiam hic determinatus
+<lb ed="#L" n="39"/>actus intelligendi non consequitur totam speciem. 
+huma<lb ed="#L" break="no" n="40"/>nam, licet facultas intelligendi totam speciem consequatur.
+<lb ed="#L" n="41"/>Sensus ergo consequentiae Sancti Thomae est quod, si
+<lb ed="#L" n="42"/>dirigeretur homo in suis actibus solum secundum quod
+<lb ed="#L" n="43"/>ad speciem pertinet, non esset in homine facultas qua
+<lb ed="#L" n="44"/>posset actionem actu producere et ipsam operationem
+<lb ed="#L" n="45"/>praetermittere, sed ipsam naturali necessitate produceret:
+<lb ed="#L" n="46"/>quia illa operatio consequeretur speciem, et sic esset 
+na<lb ed="#L" break="no" n="47"/>turalis, et per consequens non esset in hominis facultate.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>III. Tertio. In rationali creatura apparent multae actiones
+<lb ed="#L" n="49"/>ad quas non sufficit inclinatio speciei. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="50"/>batur antecedens hoc signo, quod actiones illae non sunt
+<lb ed="#L" n="51"/>similes in omnibus. - Consequentia vero probatur : quia,
+<lb ed="#L" n="52"/>cum divina providentia ad omnia singularia etiam minima
+<lb ed="#L" n="53"/>se extendat, in quibuscumque sunt aliquae actiones praeter
+<lb ed="#L" n="54"/>inclinationem speciei, oportet quod in illis per divinam
+<lb ed="#L" n="55"/>providentiam regulentur, praeter directionem quae pertinet
+<lb ed="#L" n="56"/>ad speciem.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Advertendum hoc loco quod, cum actio principio actionis
+<lb ed="#L" n="58"/>proportionetur, necesse est, ubi idem formale principium,
+<lb ed="#L" n="59"/>et eodem modo se habens, invenitur, ut et ibi similis 
+in<lb ed="#L" break="no" n="60"/>veniatur operatio: videmus enim quod omnes artifices
+<lb ed="#L" n="61"/>eandem artis perfectionem habentes, si secundum illam
+<lb ed="#L" n="62"/>artem operentur, eodem modo operantur, Cum ergo ca
+<lb ed="#L" n="63"/>quae ad speciem pertinent, eodem modo in omnibus speciei
+<lb ed="#L" n="64"/>individuis inveniantur, oportet ut operatio quae speciem
+<lb ed="#L" n="65"/>consequitur eodem modo ab omnibus fiat. Et si eodem
+<lb ed="#L" n="66"/>modo ab omnibus non fiat, non est operatio quae 
+com<lb ed="#L" break="no" n="67"/>munem speciem consequatur necessario. Et ideo 
+conve<lb ed="#L" break="no" n="68"/>nienter adducit Sanctus Thomas pro signo aliquas actiones
+<lb ed="#L" n="69"/>in hominibus esse praeter inclinationem speciei, quod non
+<lb ed="#L" n="70"/>in omnibus similes sunt.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>IV. Quarto. Sola creatura rationalis est capax 
+dire<lb ed="#L" break="no" n="72"/>ctionis qua dirigitur ad suos actus non solum secundum
+<lb ed="#L" n="73"/>speciem, sed etiam secundum individuum: cum habeat
+<lb ed="#L" n="74"/>intellectum et rationem, unde percipere possit quomodo
+<lb ed="#L" n="75"/>diversimode sit aliquid bonum vel malum secundum quod
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>congruit diversis individuis, temporibus et locis. Ergo etc. —
+<lb ed="#L" n="77"/>Probatur consequentia. Quia Deus unicuique naturae 
+pro<lb ed="#L" break="no" n="78"/>videt secundum ipsius capacitatem: cum tales condiderit
+<lb ed="#L" n="79"/>quales aptas esse cognovit ut per suam gubernationem
+<lb ed="#L" n="80"/>pervenirent ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Adverte, iuxta ea quae in praecedentibus dicta sunt ,
+<lb ed="#L" n="82"/>quod differt homo ab aliis animalibus in hoc,. quod alia
+<lb ed="#L" n="83"/>individua animalium sunt. tantum propter speciei 
+conser<lb ed="#L" break="no" n="84"/>vationem producta; et ideo omnes eorum actiones, quibus
+<lb ed="#L" n="85"/>etiam ipsum individuum conservatur in esse, ad ipsum
+<lb ed="#L" n="86"/>speciei bonum ordinantur, inquantum per huiusmodi 
+ma<lb ed="#L" break="no" n="87"/>nutenentiam individuorum species conservatur. Unde non
+<lb ed="#L" n="88"/>sunt capacia ad hoc ut dirigantur.in suas operationes nisi
+<lb ed="#L" n="89"/>quantum bonum et perfectio speciei exigit. Hominis autem
+<lb ed="#L" n="90"/>unumquodque individuum non solum est propter, speciei
+<lb ed="#L" n="91"/>conservationem productum, sed etiam propter se: cum
+<lb ed="#L" n="92"/>anima uniuscuiusque. perpetua sit et immortalis, et corpus
+<lb ed="#L" n="93"/>ab ea ordinem ad immortalitatem habeat . Ideo actiones
+<lb ed="#L" n="94"/>individui humani;non solum:ad bonum speciei ordinantur,.
+<lb ed="#L" n="95"/>sed etiam ad bonum et perfectionem ipsius individui, Et
+<lb ed="#L" n="96"/>propterea unumquodque individuum hominis capax est
+<lb ed="#L" n="97"/>directionis ad suos actus non solum secundum quod bonum
+<lb ed="#L" n="98"/>et perfectio speciei exigit, sed etiam secundum quod exigit
+<lb ed="#L" n="99"/>bonum et perfectio individui secundum se. Et propter
+<lb ed="#L" n="100"/>hoc datus est unicuique homini intellectus, quo. possit
+<lb ed="#L" n="101"/>percipere quomodo diversis individuis sit diversimode 
+ali<lb ed="#L" break="no" n="102"/>quod bonum vel malum. Sensus ergo illius antecedentis
+<lb ed="#L" n="103"/>est quod sola creatura rationalis capax est directionis ad
+<lb ed="#L" n="104"/>suos actus non solum quantum ad actus qui speciem 
+con<lb ed="#L" break="no" n="105"/>sequuntur, sed etiam. quantum ad, actus huius individui
+<lb ed="#L" n="106"/>inquantum est hoc individuum, ab alio hominis individuo
+<lb ed="#L" n="107"/>distinctum; et non solum secundum quod exigit bonum
+<lb ed="#L" n="108"/>et perfectio speciei, sed etiam secundum quod exigit bonum
+<lb ed="#L" n="109"/>et perfectio individui inquantum huiusmodi. |.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>V. Quinto. Creatura rationalis participat divinam 
+pro<lb ed="#L" break="no" n="111"/>videntiam non solum secundum gubernari, sed etjam 
+se<lb ed="#L" break="no" n="112"/>cundum gubernare se in suis actibus propriis, et etiam
+<lb ed="#L" n="113"/>alia. Ergo gubernatio actuum creaturae rationalis inquantum
+<lb ed="#L" n="114"/>sunt actus personales, ad. divinam providentiam pertinet. —
+<lb ed="#L" n="115"/>Probatur consequentia. Quia inferior providentia subditur
+<lb ed="#L" n="116"/>divinae quasi supremae. — Antecedens vero probatur; quia
+<lb ed="#L" n="117"/>creatura rationalis sic divinae providentiae subiacet quod
+<lb ed="#L" n="118"/>non solum ab ea gubernatur, sed etiam rationem! 
+provi<lb ed="#L" break="no" n="119"/>dentiae utcumque cognoscere potest.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>2. Circa istam propositionem, Creatura rationalis 
+ra<lb ed="#L" break="no" n="121"/>tionem providentiae cognoscere potest, considerandum est
+<lb ed="#L" n="122"/>quod hic per rationem providentiae duo possumus 
+intel<lb ed="#L" break="no" n="123"/>ligere: scilicet, aut rationem et causam gubernationis rerum
+<lb ed="#L" n="124"/>a Deo, quae gubernatio etiam quandoque providentia 
+no<lb ed="#L" break="no" n="125"/>minatur; aut conceptionem divini "intellectus de ordine
+<lb ed="#L" n="126"/>rerum in finem, quae providentia dicitur. Primo modo,
+<lb ed="#L" n="127"/>sensus est quod cognoscit propter quid talis res sic 
+gu<lb ed="#L" break="no" n="128"/>bernatur, talis vero sic: puta, quod corpora inferiora Deus
+<lb ed="#L" n="129"/>gubernat per corpora caelestia quia caelestia sunt 
+nobi<lb ed="#L" break="no" n="130"/>liora et excellentiora, utpote incorruptibilia. —- Secundo
+<lb ed="#L" n="131"/>vero modo, sensus est quod homo cognoscit ipsam 
+dis<lb ed="#L" break="no" n="132"/>positionem divini intellectus de rerum ordine in finem.
+<lb ed="#L" n="133"/>Et sic est constructio intransitiva, ut sit sensus: Cognoscit
+<lb ed="#L" n="134"/>rationem. providentiae, idest, rationem quae est ipsa 
+pro<lb ed="#L" break="no" n="135"/>videntia. Nam providentia ratio quaedam est, ut ex 
+su<lb ed="#L" break="no" n="136"/>perioribus  constat.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>Utroque modo dictum Sancti Thomae possumus 
+in<lb ed="#L" break="no" n="138"/>terpretari: quia ex utroque sensu optime sequitur intentum.
+<lb ed="#L" n="139"/>Ex hoc enim quod homo cognoscit ordinem divinae 
+gu<lb ed="#L" break="no" n="140"/>bernationis existentem in rebus, habet ut seipsum et alia
+<lb ed="#L" n="141"/>ad similitudinem divinae gubernationis possit gubernare.
+<lb ed="#L" n="142"/>Similiter ex hoc quod cognoscit ipsam divinam 
+providen<lb ed="#L" break="no" n="143"/>tiam quae est in mente divina, potest gubernare se et
+<lb ed="#L" n="144"/>alia. Quod brutis non convenit, quae talem cognitionem
+<lb ed="#L" n="145"/>non habent.
+</p>
+            <p>
+               <lb ed="#L" n="146"/>Sed licet uterque sensus adaptari possit litterae, 
+se<lb ed="#L" break="no" n="147"/>cundus tamen videtur magis intentum, ex illa dictione
+<lb ed="#L" n="148"/>utcumque apposita, cum ait creaturam rationalem sic subdi
+<lb ed="#L" n="149"/>divinae providentiae quod rationem providentiae utcumque
+<lb ed="#L" n="150"/>cognoscere potest. Idem enim videtur esse ac si diceret:
+<pb ed="#L" n="362"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Non potest .quidem creatura rationalis perfecte cognoscere
+<lb ed="#L" n="2"/>rationem divinae providentiae, cognoscendo videlicet ipsam
+<lb ed="#L" n="3"/>divinam mentem- ut: inse est, quemadmodum neque alia
+<lb ed="#L" n="4"/>divina. perfecte cognoscere possumus: sed tamen potest
+<lb ed="#L" n="5"/>aliqua ex parte huiusmodi rationem studio et. diligentia
+<lb ed="#L" n="6"/>deprehendere. Et ideo, cum ad hanc cognitionem elevetur
+<lb ed="#L" n="7"/>ut rationem gubernationis divinae aliquo modo cognoscat,
+<lb ed="#L" n="8"/>sibi etiam convenit ut ad similitudinem divinae 
+providen<lb ed="#L" break="no" n="9"/>tiae.et gubernationis, quam. cogrioscit, seipsum et alia. 
+gu<lb ed="#L" break="no" n="10"/>bernet, divinae gubernationis regulas imitando. .: ]
+</p>
+            <p>
+               <lb ed="#L" n="11"/>VI. Sexto. Anima rationalis non:solum secundum 
+spe<lb ed="#L" break="no" n="12"/>ciem. est perpetuitatis capax, sed etiam secundum 
+indivi<lb ed="#L" break="no" n="13"/>duum. Ergo-actus rationalis creaturae a divina providentia
+<lb ed="#L" n="14"/>diriguntur. non solum ea ratione qua ad speciem 
+perti<lb ed="#L" break="no" n="15"/>nent, sed etiam. inquantum. sunt personales actus. — 
+Pro<lb ed="#L" break="no" n="16"/>batur consequentia. Quia actus personales rationalis 
+crea<lb ed="#L" break="no" n="17"/>turae sunt:proprie-actus qui sunt'ab anima rationali.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Adverteridum quod ex conclusione:hic illata et in 
+prae<lb ed="#L" break="no" n="19"/>cedenti ratione; habetur: sensus conclusionis: propositae..
+<lb ed="#L" n="20"/>Cum enim: actus huius: homiriis particularis 'sint^ et actus
+<lb ed="#L" n="21"/>hominis, et.actus huius. hominis: huiusque personae; cum
+<lb ed="#L" n="22"/>dicitur quod''sola. creatura rationalis dirigitur a. Deo: ad
+<lb ed="#L" n="23"/>suos-actus non solum. secundum: congruentiam. speciei,
+<lb ed="#L" n="24"/>sed etiam. secundum congruentiam individui, intelligitur
+<lb ed="#L" n="25"/>quod: actus creaturae rationalis noh 'solum. diriguntur a
+<lb ed="#L" n="26"/>Deo inquantum '$unt actus hominis, idest, quantum ad id
+<lb ed="#L" n="27"/>quod convenit ipsis ex eo quod 'suBt actus habentis 
+na<lb ed="#L" break="no" n="28"/>turam humanam ; sed etiam inquantum: sunt actus huius
+<lb ed="#L" n="29"/>personae inquantum est haec; idest, quantum ad id quod
+<lb ed="#L" n="30"/>convenit ipsis ut huius ye pernn hominis, ab: e peti
+<lb ed="#L" n="31"/>sunt actus.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Advertendum etiam quod hated ratio supponit id: quod
+<lb ed="#L" n="33"/>in praecedentibus rationibus est ostensum , scilicet quod
+<lb ed="#L" n="34"/>ea quae sunt semper, sunt pftopter se provisa.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>2. Circa probationem consequentiae, considerandum est
+<lb ed="#L" n="36"/>quod; licet eadem forma hominis sit forma corporea, anima
+<lb ed="#L" n="37"/>vegetativa, anima sensitiva, et anima rationalis, et omnium
+<lb ed="#L" n="38"/>huiusmodi formarum operationes exerceat; tamen illi actus
+<lb ed="#L" n="39"/>sunt proprie hominis inquantum homio est, qui ab ipsa
+<lb ed="#L" n="40"/>forma inquantum rationalis est, proveniunt. Et quia 
+per<lb ed="#L" break="no" n="41"/>sona, proprie loquendo, in hominibus est ipsum 
+indivi<lb ed="#L" break="no" n="42"/>duum hominis inquantum rationale est, ideo convenienter
+<lb ed="#L" n="43"/>inquit Sanctus Thomas actus personales creaturae 
+ratio<lb ed="#L" break="no" n="44"/>nalis illos proprie actus esse qvi ab anima rationali, 
+in<lb ed="#L" break="no" n="45"/>quantum scilicet rationalis :est, proveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>CONFIRMATUR CONCLUSIO. Quia in Scripturis specialiter
+<lb ed="#L" n="47"/>Deo hominum cura attribuitur: ut in Psalmis; et I Cor. 1x,
+<lb ed="#L" n="48"/>ut scilicet ostendatur Deus habere de humanis actibus
+<lb ed="#L" n="49"/>curam etiam inquantum personales sunt, quod brutis
+<lb ed="#L" n="50"/>minime: convenire constat.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>VII. CrRcA  coNcLvstONEM in boc capite multipliciter
+<lb ed="#L" n="52"/>probatam, dubium non parvum occurrit. Si enim homo
+<lb ed="#L" n="53"/>sub divina providentia propter se cadit non solum quantum
+<lb ed="#L" n="54"/>ad speciem, sed etiam quantum ad indivicua, sequitur
+<lb ed="#L" n="55"/>quod plures homines salventur quam damnentur, Sed hoc
+<lb ed="#L" n="56"/>esse falsum fere ab omnibus est concessum: cum sit magna
+<lb ed="#L" n="57"/>hominum multitudo infidelium, qui omnes damnantur; et
+<lb ed="#L" n="58"/>ex Christianis damnentur etiam quam plurimi. Ergo etc. —
+<lb ed="#L" n="59"/>Probatur consequentia. Quia omne quod est provisum,
+<lb ed="#L" n="60"/>praesertim propter se, consequitur finem ut in pluribus,
+<lb ed="#L" n="61"/>nisi sit providentia errans.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Respondetur, quantum haberi potest ex doctrina Sancti
+<lb ed="#L" n="63"/>Thomae I Sent., d. xxxix, q. m, a. 2, ad 4, quod 
+conse<lb ed="#L" break="no" n="64"/>quentia est falsa. — Ad cuius probationem, dicitur quod
+<lb ed="#L" n="65"/>assumptum non est verum de eo quod: ad utrumlibet se
+<lb ed="#L" n="66"/>habet in operando ad'finem, quod, inquam, operatur ad
+<lb ed="#L" n="67"/>consecutionem finis per liberum arbitrium : "leer sit verum
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="68"/>de eo quod per naturam, quae .est ad.unum determinata,
+<lb ed="#L" n="69"/>operatur. Homo autem;: inquantum est intellectualis ^
+na<lb ed="#L" break="no" n="70"/>turae, non operatur per naturam, sed per liberum arbitrium;
+<lb ed="#L" n="71"/>quod. ad. utrumlibet se habet. Ideo: non 'sequitur ratio.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>VIII. Sed contra istam responsionem instari potest, quia
+<lb ed="#L" n="73"/>tunc ratio Sancti Thomae Prima, q: rx, a. 9, Qua probat
+<lb ed="#L" n="74"/>quod: plures angeli permanserunt quam. peccaverint, nulla
+<lb ed="#L" n="75"/>esset. Arguit enim sic.. Peccatum est.contra naturalem 
+in<lb ed="#L" break="no" n="76"/>clinationem. Sed quae contra naturam fiunt, in 
+paueio<lb ed="#L" break="no" n="77"/>ribus accidunt: cum. natura ; consequatur : effectum suum
+<lb ed="#L" n="78"/>vel semper vel ut in pluribus. Ergo -etc. — Dicetur.enim;
+<lb ed="#L" n="79"/>iuxta datam responsionem, quod et: minor est 'falsa,-et
+<lb ed="#L" n="80"/>etiam. quod ad. eius probationem -assumitur;'.de iis quae
+<lb ed="#L" n="81"/>fiunt contra naturam ad utrumlibet se habentem, cuiusmodi
+<lb ed="#L" n="82"/>est natura angelica. Vel ergo. haec ratio ron cotricludet:
+<lb ed="#L" n="83"/>Vel:etiam :verum erit in omni natura libera quod id 
+ma<lb ed="#L" break="no" n="84"/>iori parte suum finem. consequetur; Hos 3
+</p>
+            <p>
+               <lb ed="#L" n="85"/>2.. Ad hoc dubium duplex: mihi: occurrit 
+<lb ed="#L" n="86"/>Prima. haberi potest in I Sent., loco allegato. Et est quod
+<lb ed="#L" n="87"/>duplex est agens liberum:'et ad -utrumlibet se - habens.
+<lb ed="#L" n="88"/>Quoddam quidem, cui innatum est principium et perfectio
+<lb ed="#L" n="89"/>dirigens in rectam operationem: et ideo est perfectum et
+<lb ed="#L" n="90"/>completum agens. in se, Et hoe modo natura angelica est
+<lb ed="#L" n="91"/>agens liberum :' cum illi omnes. liabitus. sint naturaliter
+<lb ed="#L" n="92"/>con-creati. — Aliud vero. est agens liberum cui perfectiones
+<lb ed="#L" n="93"/>secundae, quibus dirigitur ad. operandum, mon sunt 
+in<lb ed="#L" break="no" n="94"/>natae, sed est in potentia ad illas :- et. ideo non est agens
+<lb ed="#L" n="95"/>perfectum et completum. Et hoc modo natura humana
+<lb ed="#L" n="96"/>est agens liberum: est' enim anima intellectiva in principio
+<lb ed="#L" n="97"/>veluti materia prima, ut inquit Commentator ;' et veluti
+<lb ed="#L" n="98"/>tabula in qua nihil est descriptum, ut dicitur III de Anima .
+</p>
+            <p>
+               <lb ed="#L" n="99"/>"Cuni ergo negatum est illud-assumptum de agente li:
+<lb ed="#L" n="100"/>bero et ad utrumlibet se habente, intelligitur de agente
+<lb ed="#L" n="101"/>libero secundo modo; cuiusmodi est homo: non autem
+<lb ed="#L" n="102"/>de agente libero primo modo, cuiusmodi est angelus. Ideo
+<lb ed="#L" n="103"/>ratio assumpta in Prima Parte concludit optime de angelo:
+<lb ed="#L" n="104"/>quia, licet haberet libertatem" ad operandum, non tamen
+<lb ed="#L" n="105"/>erat omnino ad utrumlibet, cum- per habitus innatos 
+in<lb ed="#L" break="no" n="106"/>clinaretur ad opus rectum. 'Non autem 'concluderet. de 
+ho<lb ed="#L" break="no" n="107"/>mine, qui a principio est omnino ad utrumlibet se habens
+<lb ed="#L" n="108"/>respectu cuiuscumque operis recti, licet in bonum 
+abso<lb ed="#L" break="no" n="109"/>lute aliquo modo inclinetur, et est i pie: a principio suae
+<lb ed="#L" n="110"/>originis: incompletum.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>3. Secunda responsio haberi potest Prima Parte, loco
+<lb ed="#L" n="112"/>allegato, ad 1. Aliter enim loquendum est de angelo: et
+<lb ed="#L" n="113"/>aliter de homine. Nam cum in angelis sit sola natura 
+in<lb ed="#L" break="no" n="114"/>tellectualis, peccatum, quod est contra naturam 
+intellectua<lb ed="#L" break="no" n="115"/>lem, est contra totam naturam angeli. Et quia quod est
+<lb ed="#L" n="116"/>contra totam aliquam naturam, in paucioribus accidit, ideo
+<lb ed="#L" n="117"/>pauciores de angelis peccaverunt. - In homine vero, quia
+<lb ed="#L" n="118"/>est non solum natura intellectualis, sed etiam natura 
+sen<lb ed="#L" break="no" n="119"/>sualis, peccatum, quod directe est contra naturam 
+intel<lb ed="#L" break="no" n="120"/>lectualem, non est contra totam hominis naturam: quia
+<lb ed="#L" n="121"/>non est contra sensualem. Ideo peccatum potest esse in
+<lb ed="#L" n="122"/>pluribus: dum homo, praetermisso: bono rationis, sequitur,
+<lb ed="#L" n="123"/>secundum naturae sensitivae inclinationem, bona sensibilia,
+<lb ed="#L" n="124"/>quae sunt pluribus nota quam intellectualia.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Nec obstat quod natura sensitiva nata est regulari 
+ra<lb ed="#L" break="no" n="126"/>tione, et sic peccatum videtur etiam contra naturam 
+sen<lb ed="#L" break="no" n="127"/>sitivam. — Dicitur enim quod, licet peccatum sit contra
+<lb ed="#L" n="128"/>naturam sensitivam ut ratione regulabilis est, non est tamen
+<lb ed="#L" n="129"/>contra naturam sensitivam ut sensitiva est: quia, ut 
+re<lb ed="#L" break="no" n="130"/>gulabilis ratione, pertinet ad naturam rationalem. Et sic
+<lb ed="#L" n="131"/>etiam peccatum contra naturam sensitivam ut regulabilem
+<lb ed="#L" n="132"/>ratione, est contra naturam rationalem: 'non autem contra
+<lb ed="#L" n="133"/>naturam sensitivam ut sensitiva est. Et per consequens non
+<lb ed="#L" n="134"/>est contra totam liominis naturam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

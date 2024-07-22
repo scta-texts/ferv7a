@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 54</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 54</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="150"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2149"><!-- ferv7a-l3c54 -->
+            <head>Capitulum 54</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="17" type="fixed=150"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="18"/>QUIA contra praedictam determinationem quaedam 
+obie<lb ed="#L" break="no" n="19"/>ctiones fieri possunt, ex quibus aliqui moti sunt ad.
+<lb ed="#L" n="20"/>ponendum quod nunquam ab aliquo intellectu. creato
+<lb ed="#L" n="21"/>divina essentia videatur; — quod et veram beatitudinem
+<lb ed="#L" n="22"/>creaturae rationalis tollit; et auctoritati Sacrae Scripturae
+<lb ed="#L" n="23"/>contradicit; et idcirco tanquam falsum et haereticum est
+<lb ed="#L" n="24"/>abiiciendum — ne aliquis relinquatur dubitandi locus, eas
+<lb ed="#L" n="25"/>vult Sanctus Thomas excludere .
+</p>
+            <p>
+               <lb ed="#L" n="26"/>I. Prima obiectio est. Divina substantia excedit omnem
+<lb ed="#L" n="27"/>capacitatem intellectus creati, magis quam intelligibile
+<lb ed="#L" n="28"/>excedat capacitatem sensus. Ergo nullo lumine 
+superve<lb ed="#L" break="no" n="29"/>niente intellectus creatus ad ipsam videndam poterit 
+ele<lb ed="#L" break="no" n="30"/>vari. - Probatur consequentia. Quia visus nullo lumine
+<lb ed="#L" n="31"/>superveniente potest elevari ad ea quae eius naturalem
+<lb ed="#L" n="32"/>facultatem. excedunt.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Respondetur quod divina essentia non sic est extra
+<lb ed="#L" n="34"/>facultatem intellectus creati quasi sit aliquid omnino 
+extra<lb ed="#L" break="no" n="35"/>neum ab ipso, sicut sonus a visu et substantia 
+immate<lb ed="#L" break="no" n="36"/>rialis a sensu, cum ipsa sit primum intelligibile, et totius
+<lb ed="#L" n="37"/>intellectualis cognitionis principium: sed sicut excedens
+<lb ed="#L" n="38"/>virtutem eius, eo modo quo sensibilium excellentia sunt
+<lb ed="#L" n="39"/>extra facultatem sensuum, ut patet ex II. Metaphysicae.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Adverte responsionem consistere in hoc, quod 
+dupli<lb ed="#L" break="no" n="41"/>citer potest intelligi divinam essentiam excedere 
+capaci<lb ed="#L" break="no" n="42"/>tatem intellectus creati. Uno modo, tanquam nullo modo
+<lb ed="#L" n="43"/>contenta sub eius adaequato et primo obiecto: sicut sonus
+<lb ed="#L" n="44"/>excedit capacitatem visus. Et tunc negatur assumptum:
+<lb ed="#L" n="45"/>divina enim essentia continetur sub ente, sive etiam sub
+<lb ed="#L" n="46"/>intelligibili, quod est intellectus obiectum. — Alio modo,
+<lb ed="#L" n="47"/>tanquam contentum quidem sub eius obiecto, sed 
+impro<lb ed="#L" break="no" n="48"/>portionatum sibi: eo modo quo excellens visibile dicitur
+<lb ed="#L" n="49"/>alicuius visus capacitatem excedere. Et tunc negatur 
+con<lb ed="#L" break="no" n="50"/>sequentia. Quia potentia potest per aliquam dispositionem
+<lb ed="#L" n="51"/>confortari ut in tale excedens obiectum possit in. quod
+<lb ed="#L" n="52"/>virtute propria non poterat. — Probatio autem 
+conse<lb ed="#L" break="no" n="53"/>quentiae nulla est: quia procedit de excessu primo modo,
+<lb ed="#L" n="54"/>quo modo intelligibile excedit sensum.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>2. Circa istam propositionem, Deus est primum 
+intelli<lb ed="#L" break="no" n="56"/>gibile, et totius intellectualis cognitionis principium, 
+adver<lb ed="#L" break="no" n="57"/>tendum, ex doctrina <ref>Sancti Thomae Prima, q. rxxxvmi,
+<lb ed="#L" n="58"/>a. 3</ref>; et super <ref>Boet. Trin., q. 1, a. 1</ref> , quod hoc non
+<lb ed="#L" n="59"/>ideo dicitur quasi primum ordine durationis quod a nobis
+<lb ed="#L" n="60"/>intelligitur, sit Deus, et per ipsum cognitum alia 
+intel<lb ed="#L" break="no" n="61"/>ligamus: sed quia est primum dignitate et intelligibilitate
+<lb ed="#L" n="62"/>contentum sub hoc quod dico intelligibile, et est causa
+<lb ed="#L" n="63"/>cognoscitivae virtutis, qua intelligimus.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>3. Ex hac responsione patet obiectionem illam Scoti
+<lb ed="#L" n="65"/>nullam esse qua arguit quod, si intellectus creatus virtute
+<lb ed="#L" n="66"/>suae naturae non potest videre divinam essentiam propter
+<lb ed="#L" n="67"/>excessum modi essendi ipsius supra modum essendi 
+intel<lb ed="#L" break="no" n="68"/>lectus, nunquam Beati videbunt Deum, quia nulla potentia
+<lb ed="#L" n="69"/>potest elevari supra suum obiectum adaequatum . Patet
+<lb ed="#L" n="70"/>enim quod, licet elevetur intellectus per lumen gloriae
+<lb ed="#L" n="71"/>ad videndum divinam substantiam, non tamen elevatur
+<lb ed="#L" n="72"/>supra suum obiectum adaequatum: sed elevatur ad aliquid
+<lb ed="#L" n="73"/>contentum sub suo obiecto adaequato quod erat sibi
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="74"/>naturaliter improportionatum, sicut excellens visibile est
+<lb ed="#L" n="75"/>improportionatum visui,
+</p>
+            <p>
+               <lb ed="#L" n="76"/>II. Secunda obiectio est. Lumen illud in infinitum distat
+<lb ed="#L" n="77"/>a Deo: cum sit aliquid creatum. Ergo per ipsum ad illam
+<lb ed="#L" n="78"/>visionem non potest intellectus creatus elevari.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Respondetur negando consequentiam. Quia lumen illud
+<lb ed="#L" n="80"/>non exaltat intellectum creatum ad talem visionem propter
+<lb ed="#L" n="81"/>eius indistantiam a divina substantia, sed propter virtutem
+<lb ed="#L" n="82"/>quam ad talem effectum a Deo sortitur, licet ab eo 
+se<lb ed="#L" break="no" n="83"/>cundum esse in infinitum distet. Hoc autem non 
+incon<lb ed="#L" break="no" n="84"/>venit: quia non coniungit Deo secundum esse, sed 
+secun<lb ed="#L" break="no" n="85"/>dum intelligere solum.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Sensus huius responsionis est quod lumen gloriae non
+<lb ed="#L" n="87"/>ideo elevat intellectum creatum ad visionem Dei quia non
+<lb ed="#L" n="88"/>distet in infinitum a Deo, sicut intellectus creatus distat:
+<lb ed="#L" n="89"/>sed quia habet virtutem uniendi intellectum Deo, per modum.
+<lb ed="#L" n="90"/>dispositionis, secundum esse intelligibile: quae quidem 
+vir<lb ed="#L" break="no" n="91"/>tus alicui etiam distanti in infinitum secundum esse a
+<lb ed="#L" n="92"/>Deo, potest convenire. Ideo ex eo quod in infinitum
+<lb ed="#L" n="93"/>distat a Deo secundum esse, non sequitur quod non
+<lb ed="#L" n="94"/>possit intellectum ad talem visionem elevare per modum
+<lb ed="#L" n="95"/>dispositionis, Nam et distantia in infinitum essentiae 
+di<lb ed="#L" break="no" n="96"/>vinae ab intellectu creato secundum esse naturale, non
+<lb ed="#L" n="97"/>est causa quare non possit naturaliter ab intellectu creato
+<lb ed="#L" n="98"/>videri: sed improportio in esse intelligibili, quia videlicet
+<lb ed="#L" n="99"/>intelligens creatum et divina essentia non sunt eiusdem
+<lb ed="#L" n="100"/>ordinis, sed essentia divina ad superiorem ordinem 
+per<lb ed="#L" break="no" n="101"/>tinet, Talis autem improportio per lumen gloriae tollitur,
+<lb ed="#L" n="102"/>inquantum facit intellectum creatum esse eiusdem ordinis
+<lb ed="#L" n="103"/>cum divina essentia in esse intelligibili: tanquam videlicet
+<lb ed="#L" n="104"/>faciens ipsum esse propriam potentiam, et proprium ac
+<lb ed="#L" n="105"/>proportionatum susceptivum divinae essentiae per modum
+<lb ed="#L" n="106"/>formae intelligibilis.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>II. Tertia obiectio est. Omnis intellectualis substantia,
+<lb ed="#L" n="108"/>ex hoc ipso quod intellectualis est, divinam similitudinem
+<lb ed="#L" n="109"/>gerit. Ergo sufficit ad visionem divinam. — Probatur 
+con<lb ed="#L" break="no" n="110"/>sequentia. Quia ponitur lumen gloriae [sufficere] eo quod
+<lb ed="#L" n="111"/>sit divinae substantiae similitudo.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>Respondetur negando consequentiam . Et ad 
+proba<lb ed="#L" break="no" n="113"/>tionem dicitur quod substantia intellectualis non est eodem
+<lb ed="#L" n="114"/>modo similitudo quo modo lumen gloriae, quod est 
+simi<lb ed="#L" break="no" n="115"/>litudo quantum ad hoc, quod ad Dei substantiam 
+viden<lb ed="#L" break="no" n="116"/>dam perducit, Quia, cum quaelibet substantia creata a
+<lb ed="#L" n="117"/>divina simplicitate deficiat, impossibile est ut totam suam
+<lb ed="#L" n="118"/>perfectionem habeat in eodem, sicut habet Deus. Ideo
+<lb ed="#L" n="119"/>aliud est in substantia intellectuali creata lumen quo 
+di<lb ed="#L" break="no" n="120"/>vina visione beatificatur; et aliud quodcumque lumen
+<lb ed="#L" n="121"/>quo in specie suae naturae constituitur, et 
+proportiona<lb ed="#L" break="no" n="122"/>liter suam substantiam  intelligit.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>2. Advertendum quod, cum non omnis similitudo eodem
+<lb ed="#L" n="124"/>modo se habeat ad divinam substantiam — quod sane 
+di<lb ed="#L" break="no" n="125"/>versitas graduum naturarum demonstrat — non omnis 
+si<lb ed="#L" break="no" n="126"/>militudo divinae naturae perducit ad visionem ipsius, sed
+<lb ed="#L" n="127"/>aliqua: illa scilicet quae ad hoc a Deo est instituta ut
+<lb ed="#L" n="128"/>talem visionem, per modum dispositionis intellectui creato
+<lb ed="#L" n="129"/>supervenientis, efficiat. Ideo non valet, Substantia intel-
+<pb ed="#L" n="151"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>lectualis est similitudo divinae substantiae. Ergo et ipsa
+<lb ed="#L" n="2"/>sufficit ad visionem divinam. Quia non sufficit 
+quaecum<lb ed="#L" break="no" n="3"/>que similitudo ad hoc, sed quidam determinatus modus
+<lb ed="#L" n="4"/>similitudinis: scilicet ut sit ex sua ratione naturalis 
+dispo<lb ed="#L" break="no" n="5"/>sitio ad divinam essentiam per modum formae 
+intelligi<lb ed="#L" break="no" n="6"/>bilis recipiendam. Qui sane modus nulli substantiae 
+intel<lb ed="#L" break="no" n="7"/>lectuali creatae convenire naturaliter potest.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Ex hac responsione patet responsio ad obiectionem
+<lb ed="#L" n="9"/>factam in praecedenti capitulo contra primam rationem.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>IV. Quarta obiectio est. Lumen illud est creatum. Ergo
+<lb ed="#L" n="11"/>poterit aliquis intellectus creatus esse qui Deum suo 
+conna<lb ed="#L" break="no" n="12"/>turali lumine videbit. - Probatur consequentia. Quia nihil
+<lb ed="#L" n="13"/>prohibet quod est creatum, alicui rei creatae connaturale esse.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Respondetur negando consequentiam. Quia, cum visio
+<lb ed="#L" n="15"/>ista omnem virtutem naturalem excedat, oportet et lumen
+<lb ed="#L" n="16"/>ipsum quo intellectus creatus ad talem visionem perficitur,
+<lb ed="#L" n="17"/>esse supernaturale. — Ex eo patet assumptum ad 
+proba<lb ed="#L" break="no" n="18"/>tionem consequentiae falsum esse.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>2. Ad evidentiam huius responsionis, considerandum,
+<lb ed="#L" n="20"/>ex doctrina Sancti Thomae Quarto, d. xix, q. 1t, a. 6; et
+<lb ed="#L" n="21"/>Verit., q. vnr, a. 3, quod, cum ad visionem divinae 
+es<lb ed="#L" break="no" n="22"/>sentiae requiratur ut ipsa uniatur per modum formae 
+in<lb ed="#L" break="no" n="23"/>telligibilis intellectui; et, quia ipsa excedit capacitatem
+<lb ed="#L" n="24"/>intellectus creati, ut ponatur lumen gloriae, elevans ipsum,
+<lb ed="#L" n="25"/>per modum dispositionis, ad hoc ut sit talis formae capax:
+<lb ed="#L" n="26"/>sicut ipsa forma est supernaturalis, ita oportet ipsum lumen
+<lb ed="#L" n="27"/>esse supernaturale, quia ultima dispositio ad formam et
+<lb ed="#L" n="28"/>forma sunt unius ordinis, quoad naturalitatem et 
+super<lb ed="#L" break="no" n="29"/>naturalitatem; quoniam, si forma est naturalis, et 
+dispo<lb ed="#L" break="no" n="30"/>sitionem naturalem esse oportet; si autem forma est 
+su<lb ed="#L" break="no" n="31"/>pernaturalis, oportet et dispositionem esse supernaturalem.
+<lb ed="#L" n="32"/>Ideo, licet lumen gloriae possit communicari intellectui
+<lb ed="#L" n="33"/>creato, non tamen potest illi sic communicari ut sit sibi
+<lb ed="#L" n="34"/>connaturale. Unde inquit Sanctus Thomas Prima Parte,
+<lb ed="#L" n="35"/>q. xm, a. 5, ad ult, quod n0z posset esse naturale 
+crea<lb ed="#L" break="no" n="36"/>turae nisi creatura esset naturae divinae, quod est 
+impos<lb ed="#L" break="no" n="37"/>sibile: sicut dispositio ultima ad formam ignis non potest
+<lb ed="#L" n="38"/>esse naturalis nisi habenti formam ignis. Unde falsum
+<lb ed="#L" n="39"/>est quod omne creatum possit alicui rei creatae esse 
+con<lb ed="#L" break="no" n="40"/>naturale. Sunt enim multae formae creatae, ut gratia, 
+ca<lb ed="#L" break="no" n="41"/>ritas, et huiusmodi, quae ex nullius creaturae principiis
+<lb ed="#L" n="42"/>innasci possunt: et per consequens nulli possunt 
+crea<lb ed="#L" break="no" n="43"/>turae connaturales esse.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>3. Ex hoc patet responsio ad argumentum Scoti , 
+ar<lb ed="#L" break="no" n="45"/>guentis quod, si per lumen gloriae intellectus fit sufficiens
+<lb ed="#L" n="46"/>ad videndum Deum, possibile erit per aliquam formam
+<lb ed="#L" n="47"/>creatam naturaliter videre Deum, quia et caecus 
+superna<lb ed="#L" break="no" n="48"/>turaliter illuminatus naturaliter videt. — Patet enim quod 
+<lb ed="#L" n="49"/>consequentia nulla est. Nec est simile de caeco 
+superna<lb ed="#L" break="no" n="50"/>turaliter illuminato; et de habente supernaturaliter lumen
+<lb ed="#L" n="51"/>gloriae. Quia vis visiva est naturalis forma, quae scilicet
+<lb ed="#L" n="52"/>homini secundum suam rationem est connaturalis, licet
+<lb ed="#L" n="53"/>in hoc homine sit supernaturaliter causata: lumen vero
+<lb ed="#L" n="54"/>gloriae est forma supernaturalis: Quod autem convenit
+<lb ed="#L" n="55"/>alicui ex forma supernaturali, non dicitur illi absolute
+<lb ed="#L" n="56"/>naturaliter convenire: licet possit dici aliquo modo sibi
+<lb ed="#L" n="57"/>naturale inquantum talem habet formam, sive, ut tali 
+for<lb ed="#L" break="no" n="58"/>mae substat; sicut aquae calidae, inquantum calida est,
+<lb ed="#L" n="59"/>naturale est calefacere, licet ex ipso calore non habeat
+<lb ed="#L" n="60"/>aqua ut virtute propriae naturae calefaciat.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Diceretur forte quod, licet lumen gloriae per essentiam
+<lb ed="#L" n="62"/>non possit esse forma naturalis rei creatae, cum sit 
+pro<lb ed="#L" break="no" n="63"/>prium Deo; lumen tamen gloriae per participationem,
+<lb ed="#L" n="64"/>quod est lumen creatum, nihil prohibet esse alicui 
+crea<lb ed="#L" break="no" n="65"/>turae connaturale. - Respondetur quod neque per essentiam
+<lb ed="#L" n="66"/>sumptum, neque per participationem, potest lumen 
+huius<lb ed="#L" break="no" n="67"/>modi esse connaturale creaturae. Cum enim secundum
+<lb ed="#L" n="68"/>suam rationem habeat quod sit ultima dispositio ad 
+es<lb ed="#L" break="no" n="69"/>sentiam divinam per modum formae suscipiendam, in
+<lb ed="#L" n="70"/>quocumque: gradu, etiam infimo, consideretur, non potest
+<lb ed="#L" n="71"/>esse connaturalis nisi ei cui divina essentia est 
+conna<lb ed="#L" break="no" n="72"/>turalis forma: cum, ut dictum est, forma et dispositio sint
+<lb ed="#L" n="73"/>unius ordinis quoad naturalitatem; sicut et ultima 
+dispo<lb ed="#L" break="no" n="74"/>sitio, quantumcumque minima, ad animam, non potest
+<lb ed="#L" n="75"/>esse naturalis nisi cui naturalis forma est ipsa anima.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>V. Quinta obiectio est. Deus est infinitus. Ergo per
+<lb ed="#L" n="77"/>lumen praedictum videri non potest. — Patet consequentia.
+<lb ed="#L" n="78"/>Quia infinitum, inquantum huiusmodi, est ignotum.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Respondetur quod, licet infinitum privative, sicut 
+quan<lb ed="#L" break="no" n="80"/>titas, sit ignotum, quia caret forma, quae est principium
+<lb ed="#L" n="81"/>cognitionis; infinitum tamen negative, quod est forma per
+<lb ed="#L" n="82"/>se subsistens non limitata per materiam, quo modo Deus
+<lb ed="#L" n="83"/>est infinitus, est secundum se maxime cognoscibile. - De
+<lb ed="#L" n="84"/>materia huius responsionis satis dictum est in 
+praece<lb ed="#L" break="no" n="85"/>dentibus ,
+</p>
+            <p>
+               <lb ed="#L" n="86"/>VI. Sexta obiectio est. Non est aliqua proportio 
+intel<lb ed="#L" break="no" n="87"/>lectus creati, perfecti etiam lumine gloriae, ad substantiam
+<lb ed="#L" n="88"/>divinam: cum adhuc remaneat distantia infinita. Ergo etc.
+<lb ed="#L" n="89"/>— Patet consequentia. Quia oportet esse proportionem 
+in<lb ed="#L" break="no" n="90"/>telligentis ad rem intellectam.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>lsta obiectio differt a secunda. Quia ibi arguebatur ex
+<lb ed="#L" n="92"/>distantia luminis gloriae a Deo: hic autem arguitur ex
+<lb ed="#L" n="93"/>distantia intellectus perfecti tali lumine ad Deum, et ex
+<lb ed="#L" n="94"/>improportione ex tali distantia proveniente.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Respondetur quod non est quidem inter intellectum
+<lb ed="#L" n="96"/>creatum et Deum proportio secundum aliquam 
+commen<lb ed="#L" break="no" n="97"/>surationem, ita scilicet quod unum alterum  mensuret
+<lb ed="#L" n="98"/>modo quantitativo, secundum proportionem dupli aut
+<lb ed="#L" n="99"/>ipli aut huiusmodi. Est tamen inter illa proportio 
+se<lb ed="#L" break="no" n="100"/>cundum quod proportio quamcumque habitudinem unius
+<lb ed="#L" n="101"/>ad alterum, vel materiae ad formam, vel causae ad 
+ef<lb ed="#L" break="no" n="102"/>fectum, significat: (supple) talis. autem proportio sufficit
+<lb ed="#L" n="103"/>ad visionem Dei.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>2. Ad evidentiam huius responsionis, considerandum
+<lb ed="#L" n="105"/>est quod lumen gloriae dupliciter considerari potest: uno
+<lb ed="#L" n="106"/>modo, inquantum est accidens creatum, informans 
+intel<lb ed="#L" break="no" n="107"/>lectum secundum aliquod esse naturale sibi; alio modo,
+<lb ed="#L" n="108"/>inquantum est dispositio ultima ad susceptionem divinae
+<lb ed="#L" n="109"/>essentiae per modum formae intelligibilis. Primo modo,
+<lb ed="#L" n="110"/>est longe alterius ordinis quam sit divina essentia: cum
+<lb ed="#L" n="111"/>sit entitas non solum divina natura, sed etiam omni 
+sub<lb ed="#L" break="no" n="112"/>stantia inferior. Secundo modo, est eiusdem ordinis cum
+<lb ed="#L" n="113"/>divina natura, utpote dispositio ultima ad ipsam. Sicut
+<lb ed="#L" n="114"/>dispositio ad formam substantialem, inquantum quidem
+<lb ed="#L" n="115"/>entitas habens esse accidentale, non est eiusdem ordinis
+<lb ed="#L" n="116"/>cum ipsa forma: inquantum tamen ultima dispositio
+<lb ed="#L" n="117"/>ad ipsam, est eiusdem ordinis; sese enim inseparabiliter
+<lb ed="#L" n="118"/>concomitantur, nam, posita tali dispositione in materia,
+<lb ed="#L" n="119"/>necesse est poni formam; et posita forma, necesse est
+<lb ed="#L" n="120"/>ipsam dispositionem poni. Non enim inconvenit aliquid,
+<lb ed="#L" n="121"/>inquantum est talis entitas, esse unius ordinis; inquantum
+<lb ed="#L" n="122"/>vero ad aliud respicit, alterius ordinis esse: sicut visio
+<lb ed="#L" n="123"/>divinae essentiae, inquantum est actus intellectus et 
+en<lb ed="#L" break="no" n="124"/>titas finita, non habet rationem summi boni; inquantuga
+<lb ed="#L" n="125"/>tamen est unio quaedam ad summum bonum et assecutio
+<lb ed="#L" n="126"/>eius, habet summi boni rationem. Lumen ergo gloriae,
+<lb ed="#L" n="127"/>inquantum est ultima dispositio ad susceptionem divinae
+<lb ed="#L" n="128"/>essentiae, est eiusdem ordinis cum ipsa; et ad eundem
+<lb ed="#L" n="129"/>essendi modum pertinet: licet, inquantum haec entitas
+<lb ed="#L" n="130"/>accidentalis, sit inferioris ordinis. Et ideo, dum intellectum
+<lb ed="#L" n="131"/>ad tam sublimem formam disponit, ipsum ad divinum
+<lb ed="#L" n="132"/>ordinem elevat, et facit proportionatum divinae naturae,
+<lb ed="#L" n="133"/>ea proportione quae requiritur inter cognoscens et 
+co<lb ed="#L" break="no" n="134"/>gnitum, ad quam nihil aliud requiritur quam ut 
+intel<lb ed="#L" break="no" n="135"/>lectus sit natus recipere intelligibile per modum formae
+<lb ed="#L" n="136"/>in esse intelligibili, et ipsum intelligibile sit natum in ipso
+<lb ed="#L" n="137"/>taliter recipi. Propter hoc inquit Sanctus Thomas, in locis
+<lb ed="#L" n="138"/>praeallegatis , quod per lumen gloriae rationalis creatura
+<lb ed="#L" n="139"/>efficitur deiformis, iuxta illud 1 Io. yn , Cum apparuerit,
+<lb ed="#L" n="140"/>similes ei erimus: inquantum videlicet habet formam ad
+<lb ed="#L" n="141"/>divinum ordinem pertinentem.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Nec obstat quod divina essentia est suum esse, non
+<lb ed="#L" n="143"/>autem lumen gloriae: — quia, licet quae pertinent ad
+<lb ed="#L" n="144"/>eundem ordinem per modum formarum principalium,
+<lb ed="#L" n="145"/>eodem modo se habeant ad suum esse, et habeant esse
+<lb ed="#L" n="146"/>proprium eiusdem rationis; non tamen quae pertinent ad
+<lb ed="#L" n="147"/>eundem ordinem, unum per modum formae principalis,
+<lb ed="#L" n="148"/>alterum per modum dispositionis ad formam, oportet
+<lb ed="#L" n="149"/>habere esse.proprium eiusdem rationis, sed sufficit ordo
+<lb ed="#L" n="150"/>et proportio inter illa dispositionis et formae; quia dispo-
+<pb ed="#L" n="152"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sitio non dicitur illius ordinis ex esse proprio, sed ex
+<lb ed="#L" n="2"/>ordine ad formam illius ordinis. Sicut formae substantiales
+<lb ed="#L" n="3"/>unius ordinis habent eodem modo esse; ultima. autem
+<lb ed="#L" n="4"/>dispositio. ad formam substantialem non: habet eodem
+<lb ed="#L" n="5"/>modo esse quantum ad proprium suum esse, cum esse
+<lb ed="#L" n="6"/>accidentale habeat. Non enim dicitur eiusdem ordinis, et
+<lb ed="#L" n="7"/>pertinere ad eundem: modum essendi cum forma 
+substan<lb ed="#L" break="no" n="8"/>tialii quia habeat esse et modum essendi eiusdem rationis
+<lb ed="#L" n="9"/>cum ipsa: sed quia ultimate disponit ad formam talem
+<lb ed="#L" n="10"/>modum essendi habentem. : cto
+</p>
+            <p>
+               <lb ed="#L" n="11"/>3. Ex hac responsione Sancti Thomae patet solutio
+<lb ed="#L" n="12"/>ad argumentum Durandi , arguentis quod lumen gloriae
+<lb ed="#L" n="13"/>non reddit intellectum de improportionato 
+proportiona<lb ed="#L" break="no" n="14"/>tum, quia obiectum excedit in infinitum intellectum etiam
+<lb ed="#L" n="15"/>cum lumine gloriae. — Patet enim ex dictis quod ista
+<lb ed="#L" n="16"/>distantia infinita non tollit quin intellectus sit 
+proportio<lb ed="#L" break="no" n="17"/>natus obiecto per modum intelligentis ad intellectum.
+<lb ed="#L" n="18"/>Licet enim lumen gloriae non removeat distantiam 
+infi<lb ed="#L" break="no" n="19"/>nitam quae est inter intellectum creatum et diviriam es- ;
+<lb ed="#L" n="20"/>sentiam, removet tamen improportionem quae erat inter
+<lb ed="#L" n="21"/>illa. Et hoc sufficit ad hoc ut per ipsum intellectus creatus
+<lb ed="#L" n="22"/>fiat potens ipsam intelligere: quia distantia sola secundum
+<lb ed="#L" n="23"/>esse naturae non impedit cognitionem, sed improportio
+<lb ed="#L" n="24"/>obiecti ad potentiam; quod contingit quando obiectum
+<lb ed="#L" n="25"/>est supra ordinem obiecti proportionati potentiae et ab
+<lb ed="#L" n="26"/>ea perfecte .cognoscibilis.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>VII. Praeter has obiectiones, sunt rationes Scoti, Tertio,
+<lb ed="#L" n="28"/>d. xiv, q. 1; et quarto, d. xrix, q. xr, contra 
+prae<lb ed="#L" break="no" n="29"/>dictam conclusionem. Quae quidem, licet ex praedictis
+<lb ed="#L" n="30"/>facile: possint solvi, ut tamen clarior earum sit solutio,
+<lb ed="#L" n="31"/>adducendae sunt.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Arguit igitur primo, sic. Lumen gloriae requiritur ad
+<lb ed="#L" n="33"/>divinam visionem aut ut per ipsum intellectus sit 
+susce<lb ed="#L" break="no" n="34"/>ptivus visionis: aut ut sit activus. Non primum. Tum
+<lb ed="#L" n="35"/>quia nullo modo per habitum suscipitur actus. — Tum
+<lb ed="#L" n="36"/>quia susceptivum ordinatum ad multas formas, maxime
+<lb ed="#L" n="37"/>ordinatur ad perfectissimam. Beatitudo autem est 
+perfectis<lb ed="#L" break="no" n="38"/>sima formarum ad quas ordinatur anima humana. Ergo
+<lb ed="#L" n="39"/>anima maxime ad illam ordinatur. Ergo eam immediate
+<lb ed="#L" n="40"/>recipit. 
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Non etiam secundum. Quia nec propter obiectum.
+<lb ed="#L" n="42"/>Quia, cum sit in se maxime intelligibile, per se sufficit,
+<lb ed="#L" n="43"/>Et etiam quia illud esset species obiecti, quam non ponit.
+<lb ed="#L" n="44"/>- Nec propter potentiam, 'Tum quia ipse intellectus forte
+<lb ed="#L" n="45"/>mere passive ibi se habet. Tum quia habitus non est 
+sim<lb ed="#L" break="no" n="46"/>pliciter principium agendi, sed sic agendi. - Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>2, Secundo . In anima est potentia passiva naturaliter
+<lb ed="#L" n="48"/>receptiva beatitudinis. Ergo sibi respondet aliqua potentia
+<lb ed="#L" n="49"/>activa naturalis. Ergo non requiritur supernaturale lumen.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>3. Tertio. Lumen gloriae, sicut et quodcumque 
+acci<lb ed="#L" break="no" n="51"/>dens, est imperfectius quam sit natura intellectualis. Ergo
+<lb ed="#L" n="52"/>poterit esse aliqua natura intellectualis quae ex puris 
+na<lb ed="#L" break="no" n="53"/>turalibus Deum videbit. - Probatur consequentia. Quia
+<lb ed="#L" n="54"/>perfectio inferior potest unite contineri in perfectione 
+su<lb ed="#L" break="no" n="55"/>periori.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>4. Quarto. Quicquid potest Deus mediante causa 
+se<lb ed="#L" break="no" n="57"/>cunda effectiva, potest sine illa. Sed lumen gloriae ponitur
+<lb ed="#L" n="58"/>ut efficiat visionem. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>VIII. Ad primum dicitur primo, quod non requiritur
+<lb ed="#L" n="60"/>lumen gloriae ad hoc ut intellectus sit visionis susceptivus:
+<lb ed="#L" n="61"/>sed bene ad hoc ut sit susceptivus essentiae divinae per
+<lb ed="#L" n="62"/>modum formae intelligibilis, ut superius  patuit.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Unde prima probatio, quae probat quod non requiritur
+<lb ed="#L" n="64"/>propter suscipiendam .visionem, non est contra mentem
+<lb ed="#L" n="65"/>Sancti Thomae.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Ad secundam, inquantum per ipsam concludi posset
+<lb ed="#L" n="67"/>quod non requiratur propter suscipiendam. divinam 
+es<lb ed="#L" break="no" n="68"/>sentiam: — negatur consequentia: quia mutatur modus
+<lb ed="#L" n="69"/>maioritatis in modum immediationis. Non enim sequitur,
+<lb ed="#L" n="70"/>si anima maxime ordinatur ad divinam essentiam 
+susci<lb ed="#L" break="no" n="71"/>piendam, quod illam. absque media dispositione recipiat.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>2. Dicitur secundo, quod requiritur lumen gloriae etiam
+<lb ed="#L" n="73"/>ad eliciendum actum visionis, non quidem propter 
+obie<lb ed="#L" break="no" n="74"/>ctum, quasi ipsum non sit sufficiens intelligibile: sed 
+in<lb ed="#L" break="no" n="75"/>quantum virtus intellectus per ipsum fortificatur modo
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>superius  dicto, sine quo non: posset concurrere cum
+<lb ed="#L" n="77"/>obiecto ad talem visionem eliciendam.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Nec tamen hoc dicimus quasi tale lumen et intellectus sint
+<lb ed="#L" n="79"/>duo partialia agentia huius visionis, ut obiicit Durandus :
+<lb ed="#L" n="80"/>sed quia lumen ipsum est intellectui ratio agendi per modum
+<lb ed="#L" n="81"/>fortificantis virtutem ad id quod absque ipso non. posset.
+<lb ed="#L" n="82"/>Et ad hunc sensum intelligitur dictum Sancti Thomae
+<lb ed="#L" n="83"/>in Quolibeto VII, a. 1 , ubi ait quod lumen gloriae facit
+<lb ed="#L" n="84"/>hoc respectu divinae essentiae in intellectu quod facit
+<lb ed="#L" n="85"/>respectu aliorum intelligibilium, quae non sunt lux tantum,
+<lb ed="#L" n="86"/>species rei intellectae simul et lumen. Nam cum species 
+in<lb ed="#L" break="no" n="87"/>telligibilis duo habeat, scilicet et quod perficit intellectum,
+<lb ed="#L" n="88"/>et quod facit intellectum esse unum cum intelligibili, nam
+<lb ed="#L" n="89"/>intellectus informatus specie intelligibili, qui dicitur 
+intel<lb ed="#L" break="no" n="90"/>lectus in actu, est idem cum intellecto in actu; lumen
+<lb ed="#L" n="91"/>gloriae facit id quod facit species intelligibilis, non quidem
+<lb ed="#L" n="92"/>quantum ad secundum, sed quantum ad primum; perficit
+<lb ed="#L" n="93"/>enim adeo intellectum ad videndum Deum quod non 
+in<lb ed="#L" break="no" n="94"/>diget alia similitudine creata, sed intellectus est per ipsum
+<lb ed="#L" n="95"/>lumen factus efficax ad eliciendam visionem Dei, simul
+<lb ed="#L" n="96"/>cum ipsa divina essentia sibi per seipsam unita.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Ad primam probationem in oppositum, negatur quod
+<lb ed="#L" n="98"/>intellectus se habeat mere passive ad hanc visionem. Immo
+<lb ed="#L" n="99"/>sicut, dum specie intelligibili naturali informatur, 
+con<lb ed="#L" break="no" n="100"/>currit active ad intellectionem eius quod sibi per speciem
+<lb ed="#L" n="101"/>repraesentatur; ita, dum informatur essentia divina 
+me<lb ed="#L" break="no" n="102"/>diante lumine gloriae, ad visionem ipsius essentiae concurrit
+<lb ed="#L" n="103"/>active. :
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Ad secundam, negatur quod habitus sive dispositio,
+<lb ed="#L" n="105"/>superveniens potentiae intellectivae, non sit principium
+<lb ed="#L" n="106"/>simpliciter agendi respectu alicuius determinatae 
+opera<lb ed="#L" break="no" n="107"/>tionis: constat enim quod species intelligibilis lapidis est
+<lb ed="#L" n="108"/>intellectui ratio simpliciter intelligendi lapidem. Sic etiam .
+<lb ed="#L" n="109"/>et lumen gloriae fortificat intellectum ut possit.in divinam
+<lb ed="#L" n="110"/>visionem, in quam nullo modo propria virtute potest.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>IX. Ad secundum , negatur antecedens, Licet enim in
+<lb ed="#L" n="112"/>anima sit capacitas recipiendi divinam visionem inquantum
+<lb ed="#L" n="113"/>est natura intellectualis, non est tamen capacitas receptiva
+<lb ed="#L" n="114"/>iliius ab agente naturali dumtaxat, sed est receptiva illius
+<lb ed="#L" n="115"/>concurrente divina natura uniente seipsam intellectui ut
+<lb ed="#L" n="116"/>formam intelligibilem, et elevante intellectum ut possit
+<lb ed="#L" n="117"/>illam visionem elicere. Et sic magis dicitur potentia 
+pas<lb ed="#L" break="no" n="118"/>siva obedientialis, quam naturalis.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>2. Ad tertium dicitur quod lumen gloriae, licet, 
+in<lb ed="#L" break="no" n="120"/>quantum accidens creatum, sit imperfectius substantia 
+in<lb ed="#L" break="no" n="121"/>tellectuali; inquantum tamen ad ordinem divinum pertinet,
+<lb ed="#L" n="122"/>tanquam dispositio ultima ad essentiam divinam in esse
+<lb ed="#L" n="123"/>intelligibili, est perfectius quacumque substantia intelligibili
+<lb ed="#L" n="124"/>creata. Ideo non potest unitive in. substantia creata 
+con<lb ed="#L" break="no" n="125"/>tineri. Nam, ut ex superioribus  patet, naturalis proprietas
+<lb ed="#L" n="126"/>naturae superioris, quamvis sit accidens, non potest 
+com<lb ed="#L" break="no" n="127"/>municari naturae inferiori ut illud naturaliter habeat, nisi
+<lb ed="#L" n="128"/>in naturam superiorem transferatur: quia, ut proprietas
+<lb ed="#L" n="129"/>superioris naturae, ad ordinem superiorem pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>3. Ad quartum dicitur quod Deus potest quidem sine
+<lb ed="#L" n="131"/>causa media effectiva producere omnem actionem quam
+<lb ed="#L" n="132"/>mediante alia causa producit: non tamen potest sine illa
+<lb ed="#L" n="133"/>causa producere ita quod dicatur illa secunda causa per
+<lb ed="#L" n="134"/>illam operationem operari, Sic enim conceditur quod Deus
+<lb ed="#L" n="135"/>illam entitatem . quae est visio divinae essentiae, potest
+<lb ed="#L" n="136"/>per se absque lumine gloriae, et etiam absque intellectu
+<lb ed="#L" n="137"/>creato producere: non tamen potest sic eam -producere
+<lb ed="#L" n="138"/>quod intellectus per eam videat divinam essentiam, nisi
+<lb ed="#L" n="139"/>concurrat intellectus ipse creatus, ad producendam 
+visio<lb ed="#L" break="no" n="140"/>nem sufficienter dispositus, et elevatus per lumen gloriae
+<lb ed="#L" n="141"/>ad ipsam divinam formam suscipiendam et ad eliciendam
+<lb ed="#L" n="142"/>talem visionem. ,
+</p>
+            <p>
+               <lb ed="#L" n="143"/>X. Advertendum autem quod nunc per Ecclesiam, in
+<ref>Clementina Ad nostrum, de Haer.</ref> , sunt damnati dicentes
+<lb ed="#L" n="144"/>quod <quote source="http://scta.info/resource/kdhaWs-d1e626-d1e181@200-209">anima non indiget lumine gloriae elevante ipsam
+<lb ed="#L" n="145"/>ad videndum Deum</quote>.
+</p>
+            <p>
+               <lb ed="#L" n="146"/>Nec valet glossa Aureoli, dicentis quod per lumen
+<lb ed="#L" n="147"/>gloriae ibi intelligitur actus secundus supernaturalis, non
+<lb ed="#L" n="148"/>autem aliquid per modum habitus se habens. Constat enim
+<lb ed="#L" n="149"/>quod Ecclesia voluit determinare id quod inter theologos
+<pb ed="#L" n="153"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>de lumine gloriae vertebatur in dubium. Manifestum est
+<lb ed="#L" n="2"/>autem quod theologi loquebantur de tali lumine tanquam
+<lb ed="#L" n="3"/>de aliqua dispositione ad videndam divinam essentiam 
+re<lb ed="#L" break="no" n="4"/>quisita, et non de actu secundo supernaturali. Oportet ergo
+<lb ed="#L" n="5"/>et determinationem Ecclesiae ad hunc sensum accipere.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Item, ipsa verba textus huic expositioni repugnant.
+<lb ed="#L" n="7"/>Damnatur enim positio dicens quod anima non indiget
+<lb ed="#L" n="8"/>lumine gloriae elevante ipsam ad videndum Deum.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>XL. Considerandum postremo, ex doctrina Sancti 
+Tho<lb ed="#L" break="no" n="10"/>mae Verit, q. xm, a. 2; et q. xx, a. 2; item II IT',
+<lb ed="#L" n="11"/>q. c.xxv, a. 3, ad 2, quod lumen gloriae dupliciter potest
+<lb ed="#L" n="12"/>haberi. Uno modo, per modum formae connaturalis factae
+<lb ed="#L" n="13"/>et permanentis: — voco connaturaliter factam, non 
+tan<lb ed="#L" break="no" n="14"/>quam ex principiis naturae provenientem, sed tanquam
+<lb ed="#L" n="15"/>fixam in subiecto et per modum naturae inclinantem, eo
+<lb ed="#L" n="16"/>modo quo dicimus habitum per modum naturae inclinare.
+<lb ed="#L" n="17"/>Alio modo, per modum passionis transeuntis. Primo modo
+<lb ed="#L" n="18"/>illustrantur Beati lumine gloriae in Patria. Secundo modo
+<lb ed="#L" n="19"/>illustrati sunt aliqui qui, in hac vita existentes, divinam es-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="20"/>sentiam viderunt: ut de Moyse et Paulo tenet Augustinus .
+<lb ed="#L" n="21"/>Nullo autem modo aliquis videre potest divinam essentiam
+<lb ed="#L" n="22"/>nisi altero illorum modorum lumine gloriae fuerit illustratus.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Quod autem inquit Sanctus Thomas in IV Sent., d. xvix,
+<lb ed="#L" n="24"/>q. t, a. 7; et Verit., q. x, a. 11, quoniam miraculose fieri
+<lb ed="#L" n="25"/>potest divina virtute ut aliquis intellectus creatus non
+<lb ed="#L" n="26"/>habens nisi dispositiones viae, elevetur ad videndum Deum
+<lb ed="#L" n="27"/>per essentiam, intelligendum est per exclusionem formae
+<lb ed="#L" n="28"/>supernaturalis se habentis per modum formae connaturalis
+<lb ed="#L" n="29"/>et permanentis: non autem dispositionis se habentis per
+<lb ed="#L" n="30"/>modum passionis transeuntis. Intellectus enim creatus potest
+<lb ed="#L" n="31"/>miraculose Deum videre, quamvis lumen gloriae per modum
+<lb ed="#L" n="32"/>formae permanentis non habeat: non autem potest Deum
+<lb ed="#L" n="33"/>videre si non habeat dispositionem per modum passionis
+<lb ed="#L" n="34"/>transeuntis advenientem.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Sunt aliae quaedam obiectiones Aureoli, a Capreolo in
+<lb ed="#L" n="36"/>IV Sent., d. xrix, q. 1v, recitatae. Sed quia non sunt 
+di<lb ed="#L" break="no" n="37"/>recte contra mentem Sancti Thomae, et ex praecedentibus
+<lb ed="#L" n="38"/>earum solutio patet, relinquantur ad praesens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

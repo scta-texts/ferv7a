@@ -1,0 +1,747 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 94</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 94</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="290"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2475"><!-- ferv7a-l3c94 -->
+            <head>Capitulum 94</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="35" type="fixed=290"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="36"/>POSTQUAM ostendit Sanctus Thomas omnia divinae 
+provi<lb ed="#L" break="no" n="37"/>dentiae subdi, vult de ipsius divinae providentiae 
+quali<lb ed="#L" break="no" n="38"/>tate determinare. Circa hoc autem duo facit: primo, agit
+<lb ed="#L" n="39"/>de ipsius certitudine; secundo; de eius ratione, capite xcv.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Circa primum: duo facit: primo, ostendit quod divina
+<lb ed="#L" n="41"/>providentia sit certa; secundo, quod. eius certitudo 
+utili<lb ed="#L" break="no" n="42"/>tatem orationis non excludit, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Circa primum tria facit: primo, ponit ea quae videntur
+<lb ed="#L" n="44"/>difficultatem in hac re facere; secundo, propositum 
+pro<lb ed="#L" break="no" n="45"/>bat; tertio, ad obiecta respondet ,
+</p>
+            <p>
+               <lb ed="#L" n="46"/>I. Quantum ad. primum, tangit quinque quae videntur
+<lb ed="#L" n="47"/>difficultatem afferre. Primum est, quia probat Philosophus,
+<lb ed="#L" n="48"/>VI Metaphys. quod si ponamus omnem effectum habere
+<lb ed="#L" n="49"/>causam per se; et quod, qualibet causa per se posita,
+<lb ed="#L" n="50"/>necesse est effectum poni: sequitur quod omnia futura de
+<lb ed="#L" n="51"/>necessitate eveniant. Ergo oportet dicere aut quod non
+<lb ed="#L" n="52"/>omnia divinae. providentiae subduntur, cuius oppositum
+<lb ed="#L" n="53"/>ostensum est supra; aut quod, providentia posita, non est
+<lb ed="#L" n="54"/>necesse eius effectum poni, et per consequens quod non
+<lb ed="#L" n="55"/>est certa; aut quod omnia de necessitate contingant, cum
+<lb ed="#L" n="56"/>providentia sit ab aeterno.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Secundum est, quia tunc haec conditionalis erit vera:
+<lb ed="#L" n="58"/>Si Deus hoc providit, hoc erit. Et per consequens, sicut
+<lb ed="#L" n="59"/>antecedens est necessarium, cum sit aeternum, ita et 
+con<lb ed="#L" break="no" n="60"/>sequens necessarium erit: oportet enim omnis conditionalis
+<lb ed="#L" n="61"/>consequens esse necessarium cuius antecedens est 
+neces<lb ed="#L" break="no" n="62"/>sarium. Et sic sequetur quod omnia ex necessitate 
+pro<lb ed="#L" break="no" n="63"/>veniant.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Tertium est, Si provisum est a Deo quod aliquis sit
+<lb ed="#L" n="65"/>regnaturus, aut possibile est quod non regnet, aut non.
+<lb ed="#L" n="66"/>Si secundum; ergo impossibile est ipsum non regnare.
+<lb ed="#L" n="67"/>Ergo necesse est ipsum regnare. Si primum: Possibili 
+po<lb ed="#L" break="no" n="68"/>sito in esse, nullum sequitur impossibile . Sequitur autem
+<lb ed="#L" n="69"/>divinam providentiam deficere. Ergo hoc non est 
+impos<lb ed="#L" break="no" n="70"/>sibile. Et sic oportet, si omnia a Deo provisa sunt, aut
+<lb ed="#L" n="71"/>quod providentia non sit certa; aut quod omnia de 
+ne<lb ed="#L" break="no" n="72"/>cessitate eveniant.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Quartum est quia, ut argumentatur Tullius in libro II
+<lb ed="#L" n="74"/>de Divinatione, si omnia sunt provisa, omnia aguntur
+<lb ed="#L" n="75"/>fato; et nullum erit voluntatis arbitrium ; et, eadem ratione,
+<lb ed="#L" n="76"/>omnes causae contingentes tollentur.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>Quintum est, quia providentia causas medias 
+contin<lb ed="#L" break="no" n="78"/>gentes et deficere valentes non tollit. Ergo providentiae
+<lb ed="#L" n="79"/>effectus deficere potest. Ergo etc.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="80"/>II. Quantum ad secundum , duae ponuntur conclusio- Videinit. 
+Com<lb ed="#L" break="no" n="81"/>nes, Prima est: Divina provisio omnino cassari non
+<lb ed="#L" n="82"/>potest.
+
+<lb ed="#L" n="83"/>Probatur duobus suppositis, quae in praecedentibus sunt
+<lb ed="#L" n="84"/>ostensa. Unum est, quod divinae providentiae ordo omnes
+<lb ed="#L" n="85"/>res complectitur: cum sit omnium existentium causa, 
+om<lb ed="#L" break="no" n="86"/>nibus rebus conferens esse; et per consequens omnibus
+<lb ed="#L" n="87"/>conservationem largiens; et perfectionem in ultimo fine
+<lb ed="#L" n="88"/>conferens, qui scilicet est assimilari Deo.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Alterum est quod, cum tanto perfectior sit providentia in
+<lb ed="#L" n="90"/>praemeditando ordinem, quanto magis usque ad minima
+<lb ed="#L" n="91"/>ordo providentiae potest perduci; in hoc vero quod ordo
+<lb ed="#L" n="92"/>praemeditatus rebus imponitur, sit dignior et perfectior
+<lb ed="#L" n="93"/>providentia gubernantis quanto universalior est, et per plura
+<lb ed="#L" n="94"/>ministeria suam explicat praemeditationem, quia et ipsa
+<lb ed="#L" n="95"/>ministeriorum dispositio magnam partem provisi ordinis
+<lb ed="#L" n="96"/>habet: oportet, cum divina providentia in summo 
+per<lb ed="#L" break="no" n="97"/>fectionis consistat, ut in providendo suae sapientiae 
+prae<lb ed="#L" break="no" n="98"/>meditatione sempiterna omnia ordinet, quantumcumque
+<lb ed="#L" n="99"/>minima videantur; quaecumque vero aliquid operantur,
+<lb ed="#L" n="100"/>instrumentaliter agant ab eo mota, et ei obtemperando
+<lb ed="#L" n="101"/>ministrent ad ordinem' providentiae, ab aeterno, ut ita
+<lb ed="#L" n="102"/>dicatur, excogitatum, explicandum in rebus.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Adverte quod addit Sanctus Thomas, ut ita dicatur,
+<lb ed="#L" n="104"/>ut det intelligere quod non est proprie dictum ordinem
+<lb ed="#L" n="105"/>providentiae divinae esse excogitatum, cum in Deo non
+<lb ed="#L" n="106"/>sit virtus cogitativa: sed est impropria locutio, nominando
+<lb ed="#L" n="107"/>ipsum actum intellectus cogitationem, ex aliqua 
+similitu<lb ed="#L" break="no" n="108"/>dine cogitativae ad intellectum.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>2. Istis suppositis, arguitur sic, Divinae providentiae 
+exe<lb ed="#L" break="no" n="110"/>cutio impediri non potest eo quod aliquod agens impediat
+<lb ed="#L" n="111"/>sibi contrarium agendo: cum omnia quae agere possunt,
+<lb ed="#L" n="112"/>necesse sit ut ei in agendo ministrent. Neque etiam 
+pro<lb ed="#L" break="no" n="113"/>pter defectum alicuius agentis aut patientis: cum omnis
+<lb ed="#L" n="114"/>virtus activa et passiva sit in rebus secundum divinam
+<lb ed="#L" n="115"/>dispositionem causata. Neque denique per ipsius 
+provi<lb ed="#L" break="no" n="116"/>dentiae mutationem: cum Deus sit omnino immutabilis,
+<lb ed="#L" n="117"/>ut supra est ostensum. Ergo divina provisio omnino 
+cas<lb ed="#L" break="no" n="118"/>sari non potest,
+</p>
+            <p>
+               <lb ed="#L" n="119"/>III. Ad huius evidentiam, considerandum est primo,
+<lb ed="#L" n="120"/>quod aliter loquendum est de divina virtute: et aliter de
+<lb ed="#L" n="121"/>virtute corporum caelestium, licet utraque sit universalis.
+<lb ed="#L" n="122"/>Divinae enim virtuti, quia omnibus causis dat virtutem
+<lb ed="#L" n="123"/>agendi, et omnes causae sunt eius instrumenta, nihil re-
+<pb ed="#L" n="291"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sistere potest in contrarium ipsius virtutis agendo: si enim
+<lb ed="#L" n="2"/>in contrarium ipsius ageret, iam non esset eius 
+instru<lb ed="#L" break="no" n="3"/>mentum, quia non ageret ut motum a Deo. — Similiter
+<lb ed="#L" n="4"/>sibi non potest deficere virtus activa aut passiva quibus
+<lb ed="#L" n="5"/>operetur tanquam causis mediis, si Deus velit per causas
+<lb ed="#L" n="6"/>medias operari: cum ipse infinitate suae potentiae omnibus
+<lb ed="#L" n="7"/>causis secundis eam quam voluerit possit virtutem tribuere.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Virtuti autem caelesti particulari potest aliqua causa
+<lb ed="#L" n="9"/>resistere sibi contrarium agendo: puta, si aliqua stella
+<lb ed="#L" n="10"/>inclinet ad imbrem, potest esse aliqua causa illi resistens
+<lb ed="#L" n="11"/>ad siccitatem operando. — Universali etiam virtuti caelestis
+<lb ed="#L" n="12"/>corporis resistere potest liberum arbitrium, quod, ut 
+su<lb ed="#L" break="no" n="13"/>perius  est ostensum, virtuti caelesti directe non subditur. —
+<lb ed="#L" n="14"/>Similiter potest deficere virtuti caelesti causa media 
+suf<lb ed="#L" break="no" n="15"/>ficiens: puta, si inclinet virtus caelestis ad generationem
+<lb ed="#L" n="16"/>masculi, potest isti influxui deficere in aliqua generatione
+<lb ed="#L" n="17"/>virtus activa hominis generantis; quando videlicet virtus
+<lb ed="#L" n="18"/>hominis generantis, qua caelum utitur, fuerit debilis et
+<lb ed="#L" n="19"/>impotens. — Potest denique virtuti caelesti deficere 
+con<lb ed="#L" break="no" n="20"/>veniens dispositio materiae, quam suae actioni 
+praesup<lb ed="#L" break="no" n="21"/>ponit, cum sit agens corporeum limitatae virtutis.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Ideo ordo virtutis caelestis ad aliquem effectum  
+mul<lb ed="#L" break="no" n="23"/>tipliciter cassari potest et impediri. Ordo autem divinae
+<lb ed="#L" n="24"/>providentiae cassari non potest. Et propterea iste ordo est
+<lb ed="#L" n="25"/>certus: ille vero incertus et fallibilis.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>2. Considerandum secundo, ex doctrina Sancti Thomae
+<lb ed="#L" n="27"/>Verit., q. vr, a. 3, quod alia est certitudo cognitionis: et
+<lb ed="#L" n="28"/>alia certitudo ordinis. Certitudo enim cognitionis attenditur
+<lb ed="#L" n="29"/>quantum ad hoc quod ita existimatur de re sicut est. 
+Cer<lb ed="#L" break="no" n="30"/>titudo vero ordinis attenditur in hoc quod causa 
+infalli<lb ed="#L" break="no" n="31"/>biliter suum effectum producat. Cum ergo dicitur quod
+<lb ed="#L" n="32"/>divina providentia est certa, intelligitur quod effectus 
+qui<lb ed="#L" break="no" n="33"/>libet divinae providentiae infallibiliter eveniet. Et hoc 
+si<lb ed="#L" break="no" n="34"/>gnificavit Sanctus Thomas cum dixit quod divina provisio
+<lb ed="#L" n="35"/>omnino cassari non potest : dicitur enim ordinatio et 
+pro<lb ed="#L" break="no" n="36"/>visio aliqua cassari posse, quando impediri potest ne quod
+<lb ed="#L" n="37"/>ordinatum est eveniat.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>IV. Sed occurrit dubium. Videtur enim Sanctus Thomas
+<lb ed="#L" n="39"/>oppositum eius quod hic dicitur, in QQ. Verit., q. vr, a. 1;
+<lb ed="#L" n="40"/>et I Sent., d. xv, q. 1r, a. 2, tenere. Ibi enim tenet quod
+<lb ed="#L" n="41"/>praedestinatio a providentia in hoc differt quod 
+praedesti<lb ed="#L" break="no" n="42"/>fatio respicit ordinem salvandorum in beatitudinem, et
+<lb ed="#L" n="43"/>eventum ordinis: unde non est nisi eorum qui gloriam
+<lb ed="#L" n="44"/>consequentur. Providentia vero respicit ordinem in finem
+<lb ed="#L" n="45"/>tantum, non autem eventum ordinis, quia non omnia quae
+<lb ed="#L" n="46"/>ad finem ordinantur, finem consequuntur: omnes enim
+<lb ed="#L" n="47"/>homines per divinam providentiam ordinantur ad 
+beatitu<lb ed="#L" break="no" n="48"/>dinem, et tamen non omnes beatitudinem consequuntur.
+<lb ed="#L" n="49"/>Ex iis enim videtur velle quod ordo divinae providentiae
+<lb ed="#L" n="50"/>non est certus et infallibilis: immo, quod cassari potest.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>V. Respondetur, et dicitur primo, quod aliter 
+loquen<lb ed="#L" break="no" n="52"/>dum est de providentia quantum ad communem rationem
+<lb ed="#L" n="53"/>providentiae, et aliter quantum ad modum aliquem ipsius
+<lb ed="#L" n="54"/>particularem : sicut aliter loquendum est de animali 
+quan<lb ed="#L" break="no" n="55"/>tum ad communem rationem animalis, et aliter quantum
+<lb ed="#L" n="56"/>ad aliquam eius determinatam speciem. Si loquamur de
+<lb ed="#L" n="57"/>providentia quantum ad communem eius rationem, 
+in<lb ed="#L" break="no" n="58"/>quantum absolute providentia est, sic providentia respicit
+<lb ed="#L" n="59"/>ordinem in finem tantum: non autem eventum, et finis
+<lb ed="#L" n="60"/>consecutionem. Ideo de intellectu eius nihil aliud est quam
+<lb ed="#L" n="61"/>ratio ordinis uniuscuiusque rei in suum finem 
+particu<lb ed="#L" break="no" n="62"/>larem, et in communem finem qui est divina bonitas. —
+<lb ed="#L" n="63"/>Si autem loquamur de providentia quantum ad aliquem
+<lb ed="#L" n="64"/>particularem eius modum, sic non inconvenit quod etiam
+<lb ed="#L" n="65"/>eventum et consecutionem finis respiciat: sicut patet in
+<lb ed="#L" n="66"/>hoc particulari modo providentiae qui dicitur 
+praedesti<lb ed="#L" break="no" n="67"/>natio; et in illo modo providentiae quo res necessariae
+<lb ed="#L" n="68"/>providentur; ac etiam in illo modo quo vult aliquod 
+con<lb ed="#L" break="no" n="69"/>tingens finem suum consequi.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>2. Dicitur secundo, quod est universaliter verum 
+or<lb ed="#L" break="no" n="71"/>dinem divinae providentiae in rebus provisis positum, eo
+<lb ed="#L" n="72"/>modo quo ad divinam providentiam spectat, certum esse
+<lb ed="#L" n="73"/>et infallibilem, et cassari non posse: ut hic dicitur, et
+<lb ed="#L" n="74"/>etiam habetur Prima, q. xxm, a. 2, ad 1, et a. 4; item
+<lb ed="#L" n="75"/>q. xxur, a. 6; item q. cur a. 7. Cum enim dupliciter
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>aliqua ordinentur in finem a divina providentia: uno modo,
+<lb ed="#L" n="77"/>quia per divinam providentiam determinatur tantum ut
+<lb ed="#L" n="78"/>habeant ea quibus ad suum finem pervenire possint; alio
+<lb ed="#L" n="79"/>modo, quia non solum per ipsam determinatur ut habeant
+<lb ed="#L" n="80"/>ea quibus ad finem possint pervenire, sed ctiam ut ad
+<lb ed="#L" n="81"/>ipsum finem perveniant, — utroque modo determinatio
+<lb ed="#L" n="82"/>divinae providentiae est certa et infallibilis. Ea enim quae
+<lb ed="#L" n="83"/>sic ad finem ordinantur ut non solum habeant'ea quibus
+<lb ed="#L" n="84"/>finem assequi possint, sed etiam ut ipsum finem assequantur,
+<lb ed="#L" n="85"/>utrumque infallibiliter consequuntur. Ea vero quae solum
+<lb ed="#L" n="86"/>primo modo ordinantur ad finem, infallibiliter 
+consequun<lb ed="#L" break="no" n="87"/>tur ea quibus suum finem assequi possint.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>3. Quod ergo hic dicitur, intelligitur ad hunc sensum,
+<lb ed="#L" n="89"/>quod infallibiliter evenit id quod per divinam providentiam
+<lb ed="#L" n="90"/>est ordinatum, eo modo quo ordinatum est et provisum.
+<lb ed="#L" n="91"/>In QQ. autem de Verit., et in I Sent., loquitur Sanctus
+<lb ed="#L" n="92"/>Thomas de providentia quantum ad id quod convenit sibi
+<lb ed="#L" n="93"/>secundum communem rationem providentiae. Et 
+intelli<lb ed="#L" break="no" n="94"/>gitur quod non omnia per divinam providentiam ordinata
+<lb ed="#L" n="95"/>ad aliquem finem, consequuntur finem suum: sed bene
+<lb ed="#L" n="96"/>omnes ordinati ad beatitudinem per divinam 
+praedesti<lb ed="#L" break="no" n="97"/>nationem, beatitudinem consequuntur. Quia aliqua primo
+<lb ed="#L" n="98"/>modo tantum per providentiam divinam ordinantur ad
+<lb ed="#L" n="99"/>finem: et sic ordo ille ad finem est fallibilis per 
+compa<lb ed="#L" break="no" n="100"/>rationem ad causas particulares; non autem per 
+compa<lb ed="#L" break="no" n="101"/>rationem ad divinam providentiam, quae non ordinavit
+<lb ed="#L" n="102"/>ut illi qui finem non consequuntur, consequerentur finem,
+<lb ed="#L" n="103"/>sed hoc tantum ut haberent convenientiam ad 
+assecutio<lb ed="#L" break="no" n="104"/>nem finis. Constat autem quod non contradicunt, 
+pro<lb ed="#L" break="no" n="105"/>videntiam non respicere exitum ordinis ad finem respectu
+<lb ed="#L" n="106"/>omnium quae per divinam providentiam aliquo. modo
+<lb ed="#L" n="107"/>ordinantur ad finem, sed respectu aliquorum respicere
+<lb ed="#L" n="108"/>ordinem in finem tantum, non autem eventum ordinis:
+<lb ed="#L" n="109"/>et tamen ordinem intentum, eo modo quo est provisum,
+<lb ed="#L" n="110"/>cassari non posse, sed esse certum et infallibilem.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>4. Si autem instetur, quia providentia ad voluntatem
+<lb ed="#L" n="112"/>consequentem pertinet; voluntas autem consequens semper
+<lb ed="#L" n="113"/>impletur; et sic videtur quod providentia eventum ordinis
+<lb ed="#L" n="114"/>in omnibus respiciat; et consequenter quod dicitur de
+<lb ed="#L" n="115"/>Verit., erit falsum, et retractatum in Prima Parte et hoc
+<lb ed="#L" n="116"/>loco: — respondetur quod, cum providentia duo includat,
+<lb ed="#L" n="117"/>scilicet volitionem finis aliquo modo, et volitionem ordinis
+<lb ed="#L" n="118"/>rerum ad finem ; respectu ordinis rerum ad finem, pertinet
+<lb ed="#L" n="119"/>ad voluntatem consequentem, et sic semper impletur quod
+<lb ed="#L" n="120"/>est provisum, quia omne quod est provisum ut habeat
+<lb ed="#L" n="121"/>ordinem ad aliquem finem, illum ordinem consequitur;
+<lb ed="#L" n="122"/>respectu autem finis, pertinet ad voluntatem antecedentem,
+<lb ed="#L" n="123"/>quantum ad aliqua provisa, ut vult Sanctus Thomas Verit.,
+<lb ed="#L" n="124"/>et I Sent., per providentiam enim, ut ibi dicitur, omnes
+<lb ed="#L" n="125"/>homines ad beatitudinem ordinantur,"et tamen non omnes
+<lb ed="#L" n="126"/>beatitudinem consequuntur; licet quantum ad aliqua, etiam
+<lb ed="#L" n="127"/>ad voluntatem consequentem pertineat. Unde assumptum
+<lb ed="#L" n="128"/>falsum est quantum ad providentiam respectu finis, si
+<lb ed="#L" n="129"/>universaliter sumatur.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>VI. Secunda conclusio est: Ex certitudine et 
+immo<lb ed="#L" break="no" n="131"/>bilitate divinae providentiae non oportet ut omnia quae
+<lb ed="#L" n="132"/>ex divina providentia eveniunt, de necessitate eveniant.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>Ad huius autem probationem, supponit Sanctus 
+Tho<lb ed="#L" break="no" n="134"/>mas duo. Primum est quod, cum omne agens tendat ad
+<lb ed="#L" n="135"/>bonum et melius quod potest; et bonum ac melius non
+<lb ed="#L" n="136"/>considerentur eodem modo in toto et partibus; immo,
+<lb ed="#L" n="137"/>melius foret parti si ad gradum superioris partis 
+perve<lb ed="#L" break="no" n="138"/>niret, melius autem toti est disparitas inter partes, sine
+<lb ed="#L" n="139"/>qua ordo et perfectio totius esse non potest, ut in 
+cor<lb ed="#L" break="no" n="140"/>pore humano declaratur: differentia est inter agens 
+parti<lb ed="#L" break="no" n="141"/>culare et agens universale, quia agens particulare tendit
+<lb ed="#L" n="142"/>ad bonum partis absolute, et facit eam quanto meliorem
+<lb ed="#L" n="143"/>potest in genere suo; universale autem agens tendit ad
+<lb ed="#L" n="144"/>bonum totius. Unde aliquis defectus est praeter intentionem
+<lb ed="#L" n="145"/>particularis agentis, qui est secundum intentionem agentis
+<lb ed="#L" n="146"/>universalis. Declaratur in generatione feminae, et in 
+cor<lb ed="#L" break="no" n="147"/>ruptione et deminutione, quae sunt de intentione naturae
+<lb ed="#L" n="148"/>universalis, idest virtutis universalis agentis; non autem
+<lb ed="#L" n="149"/>de intentione riaturae particularis, cum quaelibet res fugiat
+<lb ed="#L" n="150"/>defectum, tendat vero ad perfectionem, quantum in se est.,
+</p>
+            <p>
+               <pb ed="#L" n="292"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Secundum suppositum est quod inter partes universi
+<lb ed="#L" n="2"/>prima distinctio apparet secundum contingens et 
+neces<lb ed="#L" break="no" n="3"/>sarium. Superiora enim in entibus sunt necessaria, 
+incor<lb ed="#L" break="no" n="4"/>ruptibilia et immobilia: infima vero corrumpuntur quantum
+<lb ed="#L" n="5"/>ad esse, moventur quantum ad suas dispositiones, et suos
+<lb ed="#L" n="6"/>effectus contingenter producunt,
+</p>
+            <p>
+               <lb ed="#L" n="7"/>2. Istis suppositis, vult sic arguere. Quodlibet agens
+<lb ed="#L" n="8"/>quod est pars universi, intendit quantum potest in suo
+<lb ed="#L" n="9"/>esse et dispositione naturali persistere, et suum stabilire
+<lb ed="#L" n="10"/>effectum. Deus autem, qui est universi gubernator, intendit
+<lb ed="#L" n="11"/>quod effectuum eius hic quidem stabiliatur per modum
+<lb ed="#L" n="12"/>necessitatis, hic vero contingenter; et secundum hoc 
+di<lb ed="#L" break="no" n="13"/>versas causas eis adaptat. Ergo cadit sub ordine divinae
+<lb ed="#L" n="14"/>providentiae non solum hunc effectum esse, sed hunc esse
+<lb ed="#L" n="15"/>contingenter, alium vero necessario. Ergo quaedam eorum
+<lb ed="#L" n="16"/>quae divinae providentiae subduntur sunt necessaria, 
+quae<lb ed="#L" break="no" n="17"/>dam vero contingentia, et non omnia necessaria. Ergo
+<lb ed="#L" n="18"/>etc. — Antecedens, pro utraque sui parte, patet ex 
+sup<lb ed="#L" break="no" n="19"/>positis. — Prima vero et secunda consequentia ex se est
+<lb ed="#L" n="20"/>manifesta.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>VII. Circa istam propositionem, AJiquis defectus est
+<lb ed="#L" n="22"/>praeter intentionem particularis agentis, qui est secundum
+<lb ed="#L" n="23"/>intentionem | universalis agentis, considerandum primo,
+<lb ed="#L" n="24"/>quod intentio, proprie loquendo, in intellectualibus tantum
+<lb ed="#L" n="25"/>invenitur: est enim actus voluntatis tendentis in finem. Quia
+<lb ed="#L" n="26"/>tamen intentio huiusmodi est inclinatio quaedam 
+volun<lb ed="#L" break="no" n="27"/>tatis consequens apprehensionem rei per modum finis,
+<lb ed="#L" n="28"/>transumptum est nomen intentionis ad significandum 
+in<lb ed="#L" break="no" n="29"/>clinationem formae naturalis in aliquid. Et secundum hoc,
+<lb ed="#L" n="30"/>dicitur aliquid esse secundum intentionem naturae 
+univer<lb ed="#L" break="no" n="31"/>salis, quia virtus causae universalis ad illud inclinatur
+<lb ed="#L" n="32"/>et alia ad ipsum movet: aliquid vero dicitur secundum
+<lb ed="#L" n="33"/>intentionem naturae particularis, quia virtus causae 
+par<lb ed="#L" break="no" n="34"/>ticularis ad illud inclinationem habet.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Considerandum secundo quod, quia virtus consequitur
+<lb ed="#L" n="36"/>formam, non autem materiam, agit enim unumquodque
+<lb ed="#L" n="37"/>secundum quod est in actu, non autem secundum quod
+<lb ed="#L" n="38"/>est in potentia: ideo dicitur proprie aliquid esse de 
+in<lb ed="#L" break="no" n="39"/>tentione naturae quod est secundum formae inclinationem,
+<lb ed="#L" n="40"/>non autem quod rei convenit ratione materiae; licet et
+<lb ed="#L" n="41"/>id quod rei convenit ratione materiae, dicatur sibi 
+natu<lb ed="#L" break="no" n="42"/>raliter convenire, Corruptio ergo, et defectus et deminutio
+<lb ed="#L" n="43"/>alicuius rei, non sunt de intentione ipsius rei, quia non est
+<lb ed="#L" n="44"/>secundum inclinationem formae, cum formae sit dare esse
+<lb ed="#L" n="45"/>et perficere: sed bene in aliquibus ex necessitate materiae
+<lb ed="#L" n="46"/>sequuntur, Et propter hoc illi defectus dicuntur naturales:
+<lb ed="#L" n="47"/>nam et materia natura est, ut patet II Physicorum .
+<lb ed="#L" n="48"/>Bene ergo hic dicitur quod corruptio et defectus rei est
+<lb ed="#L" n="49"/>praeter intentionem naturae, sive agentis particularis: licet
+<lb ed="#L" n="50"/>sit de intentione agentis universalis, intendentis 
+multipli<lb ed="#L" break="no" n="51"/>cationem individuorum et conservationem . generationis,
+<lb ed="#L" n="52"/>quod sine aliquarum rerum corruptione esse non potest.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Considerandum tertio, ex doctrinaSancti ThomaelV Sent.,
+<lb ed="#L" n="54"/>d. xxxvi, q. 1, a. 1, ad 2, quod non inconvenit aliquid esse
+<lb ed="#L" n="55"/>praeter primam intentionem naturae particularis, quod
+<lb ed="#L" n="56"/>tamen est de secunda intentione ipsius: quando scilicet
+<lb ed="#L" n="57"/>inclinatio virtutis naturalis primo est ad unum, 
+secun<lb ed="#L" break="no" n="58"/>dario autem, si illud evenire non potest, est ad alterum.
+<lb ed="#L" n="59"/>Cum ergo hic dicitur feminae generationem esse praeter
+<lb ed="#L" n="60"/>intentionem agentis particularis, intelligitur de prima tantum
+<lb ed="#L" n="61"/>intentione, non autem de secunda. Nam licet virtus quae
+<lb ed="#L" n="62"/>est in semine, prima intentione feratur ad generationem
+<lb ed="#L" n="63"/>masculi, tamen, si illud, aut ex defectu materiae, aut ex
+<lb ed="#L" n="64"/>quavis alia causa, evenire non potest, fertur secundario ad
+<lb ed="#L" n="65"/>generationem feminae, tanquam ad id quod primo intento
+<lb ed="#L" n="66"/>est propinquum.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>VIII. Quantum ad tertium , respondetur obiectionibus
+<lb ed="#L" n="68"/>factis. Ad primam quidem, negatur ista consequentia :
+<lb ed="#L" n="69"/>Divina providentia est causa huius effectus futuri. Et est
+<lb ed="#L" n="70"/>non solum in praesenti et praeterito tempore, sed ab
+<lb ed="#L" n="71"/>aeterno. Ergo talis effectus est de necessitate futurus. —
+<lb ed="#L" n="72"/>Divina enim providentia est per se causa quod hic effectus
+<lb ed="#L" n="73"/>contingenter eveniat. Et hoc cassari non potest.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Adverte sensum responsionis huius esse quod non est
+<lb ed="#L" n="75"/>verum, posita causa per se alicuius effectus, qua posita
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>necesse est effectum poni, oportere effectum evenire 
+ne<lb ed="#L" break="no" n="77"/>cessario absolute: sed verum est oportere effectum evenire
+<lb ed="#L" n="78"/>eo modo quo sub causa continetur. Si enim sit causa effectus
+<lb ed="#L" n="79"/>quantum ad esse suum absolute, non autem quantum ad
+<lb ed="#L" n="80"/>modum necessitatis aut contingentiae: utique oportet quod
+<lb ed="#L" n="81"/>talis effectus de necessitate eveniat absolute. Et ad hunc
+<lb ed="#L" n="82"/>sensum procedit ratio Aristotelis. — Si autem sit causa 
+ef<lb ed="#L" break="no" n="83"/>fectus non tantum quantum ad esse, sed etiam quantum
+<lb ed="#L" n="84"/>ad determinatum modum producendi, scilicet necessitatis
+<lb ed="#L" n="85"/>aut contingentiae: oportet effectum necessario evenire cum
+<lb ed="#L" n="86"/>illo modo.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Quia ergo sub divina providentia continentur res, non
+<lb ed="#L" n="88"/>secundum esse solum, sed etiam secundum modum 
+pro<lb ed="#L" break="no" n="89"/>ducendi, inquantum per divinam providentiam 
+determi<lb ed="#L" break="no" n="90"/>natum est quo modo res quaelibet evenire debeat; et non
+<lb ed="#L" n="91"/>est per ipsam determinatum ut omnia de necessitate 
+eve<lb ed="#L" break="no" n="92"/>niant, sed quod quaedam eveniant necessario, ut motus
+<lb ed="#L" n="93"/>caelorum, quaedam vero contingenter, ut haec inferiora:
+<lb ed="#L" n="94"/>non sequitur omnia necessario evenire absolute, sed. 
+infal<lb ed="#L" break="no" n="95"/>libiliter aliqua evenire ex necessitate, aliqua vero 
+contin<lb ed="#L" break="no" n="96"/>genter.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>2. Ad secundum per idem respondetur. Quod scilicet
+<lb ed="#L" n="98"/>ila conditionalis est vera; et quod illud consequens est
+<lb ed="#L" n="99"/>necessarium, scilicet, Aoc erit; sed eo modo quo est 
+pro<lb ed="#L" break="no" n="100"/>visum. Si enim est provisum quod contingenter eveniat,
+<lb ed="#L" n="101"/>infallibiliter eveniet contingenter.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Ad tertium dicitur, eodem modo, quod possibile est
+<lb ed="#L" n="103"/>ipsum non regnare si secundum se consideretur, idest, si
+<lb ed="#L" n="104"/>consideretur suum esse absolute in ordine ad suam causam
+<lb ed="#L" n="105"/>proximam : quia provisum est ut contingenter hoc eveniat.
+<lb ed="#L" n="106"/>Si autem consideretur ut est provisum, idest quantum ad
+<lb ed="#L" n="107"/>modum eveniendi sibi ex divina providentia taxatum, est
+<lb ed="#L" n="108"/>impossibile quod contingenter non eveniat.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Adverte quod Sanctus Thomas paucis verbis satisfacit
+<lb ed="#L" n="110"/>rationi. Quam si ad omnes propositiones assumptas 
+ap<lb ed="#L" break="no" n="111"/>plicare voluerimus, dicendum est: - Cum quaeritur utrum
+<lb ed="#L" n="112"/>possibile sit hunc non regnare, aut non: dicitur quod 
+pos<lb ed="#L" break="no" n="113"/>sibile est ipsum non regnare absolute, et in se 
+considera<lb ed="#L" break="no" n="114"/>tum, in ordine scilicet ad causam particularem; est autem
+<lb ed="#L" n="115"/>impossibile ipsum non regnare contingenter, ut est 
+pro<lb ed="#L" break="no" n="116"/>visum. — Cum impugnatur prima pars quia, possibili posito
+<lb ed="#L" n="117"/>in esse, nullum sequitur impossibile; sequitur autem 
+di<lb ed="#L" break="no" n="118"/>vinam providentiam deficere, et non esse certam: — 
+ne<lb ed="#L" break="no" n="119"/>gatur minor. Quia divinae providentiae non subest quod
+<lb ed="#L" n="120"/>iste sit regnaturus absolute necessario, sed quod sit 
+re<lb ed="#L" break="no" n="121"/>gnaturus contingenter, Unde non potest poni in esse quod
+<lb ed="#L" n="122"/>iste non regnet contingenter, stante ista suppositione quod
+<lb ed="#L" n="123"/>sit provisum ut contingenter regnet: licet, secundum se
+<lb ed="#L" n="124"/>consideratus, possit non regnare. Si autem ponatur in esse
+<lb ed="#L" n="125"/>quod iste non regnet, sequitur non esse provisum quod
+<lb ed="#L" n="126"/>esset regnaturus absolute: non autem sequitur quod 
+pro<lb ed="#L" break="no" n="127"/>videntia deficiat, - Cum autem impugnatur secunda pars: —
+<lb ed="#L" n="128"/>conceditur quod necessarium est ipsum regnare 
+contin<lb ed="#L" break="no" n="129"/>genter, non autem absolute. - Ex quibus patet illam
+<lb ed="#L" n="130"/>conditionalem, quae infert scilicet, si omnia sint provisa
+<lb ed="#L" n="131"/>a Deo, quod aut providentia non est certa, aut omnia
+<lb ed="#L" n="132"/>ex necessitate eveniant, non sequi ex praemissis, si 
+intel<lb ed="#L" break="no" n="133"/>ligatur omnia de necessitate evenire absolute. Si autem
+<lb ed="#L" n="134"/>intelligatur omnia evenire de necessitate eo modo quo
+<lb ed="#L" n="135"/>provisa sunt, conceditur. Nam altera pars illius 
+conse<lb ed="#L" break="no" n="136"/>quentis est vera, scilicet secunda pars.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>3. Ad quartum, negatur consequentia: ut patet ex 
+prae<lb ed="#L" break="no" n="138"/>missis. Cum enim providentiae subdantur non solum 
+ef<lb ed="#L" break="no" n="139"/>fectus, sed etiam causae et modi essendi, non sequitur,
+<lb ed="#L" n="140"/>si omnia providentiae subduntur, quod nihil sit in nobis,
+<lb ed="#L" n="141"/>Aliqua enim sic sunt provisa ut per nos libere fiant.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Ad quintum, negatur consequentia. Quia, cum Deus in
+<lb ed="#L" n="143"/>omnibus operetur et pro suae arbitrio voluntatis, ad eius
+<lb ed="#L" n="144"/>providentiam pertinet ut causas defectibiles quandoque
+<lb ed="#L" n="145"/>deficere sinat, quandoque a defectu conservet,
+</p>
+            <p>
+               <lb ed="#L" n="146"/>Sensus istius responsionis est quod. aliquando Deus,
+<lb ed="#L" n="147"/>producens aliquem effectum mediante causa defectibili, non
+<lb ed="#L" n="148"/>permittit ipsam deficere; et consequenter ille effectus 
+in<lb ed="#L" break="no" n="149"/>fallibiliter a divina providentia evenit, licet mediante causa
+<lb ed="#L" n="150"/>contingenti et deficere potenti. Et ideo infallibilitas et cer-
+<pb ed="#L" n="293"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>titudo divinae providentiae non tollit contingentiam quae
+<lb ed="#L" n="2"/>effectui secundum se convenit, in ordine ad causam 
+pro<lb ed="#L" break="no" n="3"/>ximam.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Ubi attendendum, ex doctrina Sancti Thomae Verit.,
+<lb ed="#L" n="5"/>q. vr, a. 3, quod dupliciter invenimus ordinem respectu
+<lb ed="#L" n="6"/>alicuius effectus esse certum. Uno modo, ex eo quod una
+<lb ed="#L" n="7"/>causa particularis suum effectum, ex ordine divinae 
+pro<lb ed="#L" break="no" n="8"/>videntiae, infallibiliter producit. Alio modo, ex eo quod
+<lb ed="#L" n="9"/>multae causae, quarum quaelibet potest deficere, ad 
+con<lb ed="#L" break="no" n="10"/>secutionem unius effectus a Deo ordinantur loco eius quae
+<lb ed="#L" n="11"/>deficit, vel ne deficiat: sicut videmus perpetuitatem speciei
+<lb ed="#L" n="12"/>salvari in rebus corruptibilibus, non per unicum 
+indivi<lb ed="#L" break="no" n="13"/>duum, sed per successionem unius ad alterum, divina 
+pro<lb ed="#L" break="no" n="14"/>videntia sic gubernante ut non deficiant omnia, uno 
+de<lb ed="#L" break="no" n="15"/>ficiente. Si ergo loquamur de effectibus necessariis, illa
+<lb ed="#L" n="16"/>infallibiliter eveniunt, non tantum in ordine ad divinam
+<lb ed="#L" n="17"/>providentiam, sed etiam in ordine ad suas causas proximas.
+<lb ed="#L" n="18"/>Si autem loquamur de effectibus contingentibus, illi 
+infal<lb ed="#L" break="no" n="19"/>libiliter eveniunt, non in ordine ad proprias causas, sed
+<lb ed="#L" n="20"/>in ordine ad divinam providentiam, quae tot adminicula
+<lb ed="#L" n="21"/>apponit quod illorum propriae causae non deficiunt. 
+Pro<lb ed="#L" break="no" n="22"/>pterea inquit Sanctus Thomas quod ad divinam 
+provi<lb ed="#L" break="no" n="23"/>dentiam pertinet ut causas defectibiles quandoque a 
+de<lb ed="#L" break="no" n="24"/>fectu conservet.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Ultimo addit Sanctus Thomas: supra, ubi de scientia
+<lb ed="#L" n="26"/>Dei agebatur, soluta esse ea quae ad necessitatem 
+provi<lb ed="#L" break="no" n="27"/>sorum possent assumi ex certitudine praescientiae.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>IX. Ad evidentiam eorum quae hic dicuntur, 
+conside<lb ed="#L" break="no" n="29"/>randum est quod utique difficillimum est certitudinem
+<lb ed="#L" n="30"/>divinae providentiae cum contingentia causarum et 
+liber<lb ed="#L" break="no" n="31"/>tate arbitrii concordare, ut de certitudine praedestinationis
+<lb ed="#L" n="32"/>inquit Sanctus Thomas Verit., q. vi, a. 3: propter 
+imbe<lb ed="#L" break="no" n="33"/>ciliitatem, inquam, humani ingenii non valentis divina
+<lb ed="#L" n="34"/>sua virtute penetrare. Optimus tamen modus evadendi
+<lb ed="#L" n="35"/>difficultates quae circa hoc insurgunt, est modus qui hic
+<lb ed="#L" n="36"/>tangitur: scilicet quod, cum divinae providentiae et effectus
+<lb ed="#L" n="37"/>et causae subsint non solum secundum esse et secundum
+<lb ed="#L" n="38"/>operationem, sed etiam secundum modum essendi et 
+se<lb ed="#L" break="no" n="39"/>cundum modum operandi; non oportet omnia naturalia
+<lb ed="#L" n="40"/>aut humana absolute evenire ex necessitate, sed evenire
+<lb ed="#L" n="41"/>ex necessitate suppositionis et immutabilitatis, eo. modo
+<lb ed="#L" n="42"/>quo provisa sunt; scilicet contingenter et libere ea quae
+<lb ed="#L" n="43"/>determinavit Deus ut libere et contingenter eveniant ; 
+ne<lb ed="#L" break="no" n="44"/>cessario autem quae determinavit necessario evenire. Per
+<lb ed="#L" n="45"/>hoc enim fundamentum, ut patuit, solvit Sanctus Thomas
+<lb ed="#L" n="46"/>omnes adductas instantias: et per ipsum possunt etiam
+<lb ed="#L" n="47"/>aliae instantiae solvi.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>2. Arguit enim Aureolus, apud Capreolum, I Sent.,
+<lb ed="#L" n="49"/>d. x1, a. 3 , Primo. Omne quod infallibiliter eveniet, 
+im<lb ed="#L" break="no" n="50"/>mutabiliter eveniet: quia idem importatur per utrumque.
+<lb ed="#L" n="51"/>Sed quod est provisum, infallibiliter eveniet. Ergo 
+immu<lb ed="#L" break="no" n="52"/>tabiliter. Ergo sic eveniet effectus divinae providentiae
+<lb ed="#L" n="53"/>quod mutari non poterit.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Secundo. Manente conditione immutabili, fatuum est
+<lb ed="#L" n="55"/>conari ad tollendum illud quod est immutabile illa 
+con<lb ed="#L" break="no" n="56"/>ditione manente. Sed manifestum est quod divina 
+provi<lb ed="#L" break="no" n="57"/>dentia immutabilis permanet; et, stante providentia, id
+<lb ed="#L" n="58"/>quod est provisum non potest non evenire. Ergo fatuum
+<lb ed="#L" n="59"/>est conari aut consiliari de eo quod provisum est. Cum
+<lb ed="#L" n="60"/>ergo omnia sint provisa, sequitur quod omnis conatus
+<lb ed="#L" n="61"/>et omne consilium sit vanum.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>3. Ad primum horum, per hoc fundamentum, dicitur
+<lb ed="#L" n="63"/>quod omne provisum infallibiliter utique et immutabiliter
+<lb ed="#L" n="64"/>eveniet eo modo quo provisum est. Non tamen omne
+<lb ed="#L" n="65"/>huiusmodi eveniet infallibiliter et immutabiliter absolute.
+<lb ed="#L" n="66"/>Aliqua enim sic provisa sunt ut proveniant a causa 
+pro<lb ed="#L" break="no" n="67"/>xima fallibili et mutabili.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Ad secundum dicitur quod fatuum est conari ad 
+tol<lb ed="#L" break="no" n="69"/>lendum illud quod est immutabile manente conditione
+<lb ed="#L" n="70"/>immutabili, eo modo quo illud est immutabile illa 
+con<lb ed="#L" break="no" n="71"/>ditione manente. Modo, dicitur quod, manente divina 
+pro<lb ed="#L" break="no" n="72"/>videntia immutabili, id quod est provisum est immutabile
+<lb ed="#L" n="73"/>eo modo quo provisum est, non autem absolute. Ideo
+<lb ed="#L" n="74"/>fatuum est conari ad tollendum quin illud contingenter
+<lb ed="#L" n="75"/>eveniat quod provisum est ut eveniat contingenter; aut
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>quin necessario eveniat quod est provisum ut eveniat 
+ne<lb ed="#L" break="no" n="77"/>cessario. Non autem fatuum est conari ad tollendum illud
+<lb ed="#L" n="78"/>absolute. Ideo non est vanus omnis conatus, nec est vanum
+<lb ed="#L" n="79"/>omne consilium.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>4. Non autem approbo responsionem illam quae dicit
+<lb ed="#L" n="81"/>quod Deus, ex sua altiori quam cogitare possimus 
+excel<lb ed="#L" break="no" n="82"/>lentia, sic rebus eventibusque providet ut esse provisum a
+<lb ed="#L" n="83"/>Deo sequatur aliquid altius quam evitabilitas vel 
+inevita<lb ed="#L" break="no" n="84"/>bilitas. Hoc enim nihil dictu est. Nam cum evitabile et
+<lb ed="#L" n="85"/>non evitabile contradictorie opponantur, sicut posse non
+<lb ed="#L" n="86"/>evenire et non posse non evenire, oportet de re provisa
+<lb ed="#L" n="87"/>alterum illorum dici, scilicet aut quod evitabilis sit, aut
+<lb ed="#L" n="88"/>quod non sit evitabilis, Et sic remanet eadem difficultas:
+<lb ed="#L" n="89"/>quia videtur sequi incertitudo divinae providentiae, si 
+po<lb ed="#L" break="no" n="90"/>natur quod sit evitabilis; necessitas autem omnium, si
+<lb ed="#L" n="91"/>ponatur quod sit inevitabilis. Ideo responsio quae sumitur
+<lb ed="#L" n="92"/>ex Sancto Thoma hoc loco, convenientior est, et melius
+<lb ed="#L" n="93"/>satisfacit.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>X. Sed contra istam responsionem Sancti Thomae posset
+<lb ed="#L" n="95"/>aliquis sic instare. Accipio aliquem effectum provisum ut
+<lb ed="#L" n="96"/>eveniat, a causa tamen contingenti. Certum est quod 
+pro<lb ed="#L" break="no" n="97"/>videntia duo respicit: scilicet quod ipse effectus eveniat,
+<lb ed="#L" n="98"/>et quod eveniat contingenter; puta, Antichristus. Quaero,
+<lb ed="#L" n="99"/>quantum ad primum: utrum scilicet Antichristus fallibiliter
+<lb ed="#L" n="100"/>eveniet, ita scilicet quod possit non evenire? An eveniet
+<lb ed="#L" n="101"/>infallibiliter, ita scilicet quod non possit non evenire? Si
+<lb ed="#L" n="102"/>dicis quod fallibiliter: ergo providentia non est certa. Si
+<lb ed="#L" n="103"/>dicis quod infallibiliter: ergo necessario secundum se 
+eve<lb ed="#L" break="no" n="104"/>niet; et sic sequitur id quod dicis esse provisum ut 
+con<lb ed="#L" break="no" n="105"/>tingenter eveniat, necessario evenire absolute.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>2. Respondetur quod evenire fallibiliter ab aliqua causa
+<lb ed="#L" n="107"/>dupliciter potest intelligi, Uno modo quod, posita causa
+<lb ed="#L" n="108"/>ad agendum disposita, possit non evenire: quod proprie
+<lb ed="#L" n="109"/>dicitur evenire fallibiliter, nam fallibiliter evenire dicitur
+<lb ed="#L" n="110"/>in ordine ad causam positam in actu. Et hoc modo, 
+pro<lb ed="#L" break="no" n="111"/>visum ut eveniat, non evenit fallibiliter a divina providentia,
+<lb ed="#L" n="112"/>sed infallibiliter: quia divina providentia est efficacissima, et
+<lb ed="#L" n="113"/>non stant simul quod aliquid sit provisum, et non eveniat,
+<lb ed="#L" n="114"/>modo quo est provisum. Non tamen propter hoc sequitur
+<lb ed="#L" n="115"/>quod necessario absolute eveniat: sed tantum quod eveniat
+<lb ed="#L" n="116"/>necessario ex suppositione, idest, facta hac suppositione
+<lb ed="#L" n="117"/>quod provisum sit ut eveniat; et eo modo quo provisum
+<lb ed="#L" n="118"/>est ut eveniat, scilicet contingenter. Sicut necessarium
+<lb ed="#L" n="119"/>est Sortem moveri, facta hac suppositione quod currat;
+<lb ed="#L" n="120"/>et tamen absolute contingenter movetur, sicut et 
+contin<lb ed="#L" break="no" n="121"/>genter currit. Unde sicut valet, Si Sortes currit, Sortes
+<lb ed="#L" n="122"/>movetur. Sed currit, Ergo movetur; ita valet, Si hoc est
+<lb ed="#L" n="123"/>provisum ut eveniat, eveniet. Sed est provisum ut eveniat,
+<lb ed="#L" n="124"/>Ergo eveniet. Sed sicut non valet, Si sortes currit, Sortes
+<lb ed="#L" n="125"/>movetur. Sed Sortes currit. Ergo njovetur necessario et
+<lb ed="#L" n="126"/>infallibiliter : ita non valet, Si hoc est provisum, eveniet.
+<lb ed="#L" n="127"/>Sed est provisum. Ergo eveniet necessario et infallibiliter
+<lb ed="#L" n="128"/>absolute.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>Alio modo, quod ipsum secundum se possit non esse
+<lb ed="#L" n="130"/>et non produci: quod tamen improprie dicitur fallibiliter
+<lb ed="#L" n="131"/>evenire. Et hoc modo, omnia provisa fallibiliter eveniunt:
+<lb ed="#L" n="132"/>quia sicut Deus ab aeterno determinavit ut ista ventura
+<lb ed="#L" n="133"/>essent, ita potuit non determinare, sive determinare 
+op<lb ed="#L" break="no" n="134"/>positum, absolute loquendo, cum ea quae Deus producit,
+<lb ed="#L" n="135"/>libere producat; et sic quod est nunc provisum, non esset.
+<lb ed="#L" n="136"/>Non tamen ex hoc sequitur divinam providentiam esse
+<lb ed="#L" n="137"/>incertam: sed quod de eo cuius est providentia ut sit,
+<lb ed="#L" n="138"/>potuit non esse huiusmodi providentia absolute, licet, ipsa
+<lb ed="#L" n="139"/>providentia posita, mutari non possit.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>3. Si autem iterum instetur: lam facta est ista 
+sup<lb ed="#L" break="no" n="141"/>positio, quod provisum est ut Antichristus eveniat. Et ista
+<lb ed="#L" n="142"/>suppositio mutari non potest. Ergo inevitabiliter 
+Anti<lb ed="#L" break="no" n="143"/>christus eveniet: — dicitur quod inevitabiliter Antichristus
+<lb ed="#L" n="144"/>eveniet eo modo quo provisum est, scilicet contingenter:
+<lb ed="#L" n="145"/>quia contingenter evenire inseparabiliter coniunctum est
+<lb ed="#L" n="146"/>huic quod est, Antichristum evenire secundum quod est
+<lb ed="#L" n="147"/>provisum. Nam non est provisum quod Antichristus eveniat
+<lb ed="#L" n="148"/>nisi cum hac conditione, quod eveniat contingenter. Et
+<lb ed="#L" n="149"/>ideo per divinam providentiam sunt illi causae 
+contin<lb ed="#L" break="no" n="150"/>gentes praeparatae, ad hoc ut contingenter eveniat.
+</p>
+            <p>
+               <pb ed="#L" n="294"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>XI. Unum postremo dixerim: quod, cum evidenti 
+ra<lb ed="#L" break="no" n="2"/>tione ostendi possit divinam providentiam esse certam;  
+<lb ed="#L" n="3"/>et experientia videamus nos liberi arbitrii esse, cum pro  
+<lb ed="#L" n="4"/>nostro arbitrio multa faciamus; obscurum autem sit et 
+<lb ed="#L" n="5"/>difficile quomodo certitudo divinae providentiae cum 
+liber<lb ed="#L" break="no" n="6"/>tate arbitrii nostri stare possit: fatuum est negare nos liberi  
+<lb ed="#L" n="7"/>arbitrii esse, aut divinam providentiam non esse certam, 
+<lb ed="#L" n="8"/>quorum apertam et manifestam notitiam habemus, propter 
+<lb ed="#L" n="9"/>obscuritatem et inevidentiam eius quod nostrum ingenium  
+<lb ed="#L" n="10"/>superat, nostrisque viribus capere non possumus,
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Quomodo autem cum certitudine divinae providentiae 
+<lb ed="#L" n="12"/>stet libertas arbitrii, possumus hoc exemplo declarare. Si  
+<lb ed="#L" n="13"/>quis debilem viribus et volentem aliquo proficisci iuvaret  
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="14"/>sustinendo ne caderet in via, sicque eum ad aliquem 
+de<lb ed="#L" break="no" n="15"/>stinatum locum absque defectu perduceret, suis tamen
+<lb ed="#L" n="16"/>pedibus gradientem: diceretur utique quod iste perduxit ad
+<lb ed="#L" n="17"/>terminum absque defectu eum qui, si sibi relictus fuisset,
+<lb ed="#L" n="18"/>multoties in itinere cecidisset; et tamen, hoc non obstante,
+<lb ed="#L" n="19"/>hic suis pedibus ad terminum pervenit, et, quantum est ex
+<lb ed="#L" n="20"/>se, defectibiliter, cum viribus debilis esset. Simili ratione,
+<lb ed="#L" n="21"/>cum per divinam providentiam homo ad aliquem finem 
+per<lb ed="#L" break="no" n="22"/>ducitur, Deo eius voluntatem movente et adiuvante, atque
+<lb ed="#L" n="23"/>universa removente impedimenta: homo quidem libere et
+<lb ed="#L" n="24"/>propria voluntate, ac, quantum est ex ipso, defectibiliter
+<lb ed="#L" n="25"/>operatur; adiutus tamen per divinam providentiam, 
+in<lb ed="#L" break="no" n="26"/>quantum huiusmodi, infallibiliter ad illum finem pervenit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

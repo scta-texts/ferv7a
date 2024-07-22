@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 7</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 7</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="19"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1765"><!-- ferv7a-l3c7 -->
+            <head xml:id="ferv7a-d1e1765-Hd1e101">Capitulum 7</head>
+            <p xml:id="ferv7a-d1e1765-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="61" type="fixed=19"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="62"/>POSTQUAM ostendit Sanctus Thomas malum esse in rebus
+<lb ed="#L" n="63"/>praeter intentionem, vult nunc ostendere quoniam nulla
+<lb ed="#L" n="64"/>essentia est secundum se mala, accipiendo formaliter 
+ma<lb ed="#L" break="no" n="65"/>lum, scilicet pro ipsa privatione perfectionis debitae inesse.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e123">
+               <lb ed="#L" n="66"/>Circa hoc autem duo facit: primo, ostendit 
+proposi<lb ed="#L" break="no" n="67"/>tum; secundo, movet quaedam dubia et solvit, in duobus
+<lb ed="#L" n="68"/>capitulis sequentibus.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e132">
+               <lb ed="#L" n="69"/>L Arguitur ergo primo sic. Malum est privatio. Ergo
+<lb ed="#L" n="70"/>non est essentia aliqua in rebus. — Antecedens patet ex
+<lb ed="#L" n="71"/>usu nominis. - Consequentia vero probatur. Quia privatio
+<lb ed="#L" n="72"/>non est aliqua essentia, sed negatio in substantia, idest in
+<lb ed="#L" n="73"/>subiecto.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e146">
+               <lb ed="#L" n="74"/>Secundo. Unumquodque secundum hoc bonum est
+<lb ed="#L" n="75"/>quod essentiam habet. Ergo, cum bonum et malum 
+op<lb ed="#L" break="no" n="76"/>ponantur, nihil est malum secundum quod habet 
+essen<lb ed="#L" break="no" n="77"/>tiam. Ergo etc. - Probatur antecedens. Quia unumquodque
+<lb ed="#L" n="78"/>secundum suam essentiam habet esse. Inquantum autem
+<lb ed="#L" n="79"/>habet esse, habet aliquod bonum: cum omnia appetant esse.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e162">
+               <lb ed="#L" n="80"/>Adverte circa istam propositionem, Unumquodque 
+se<lb ed="#L" break="no" n="81"/>cundum suam essentiam habet esse, quod hoc dupliciter
+<lb ed="#L" n="82"/>potest intelligi. Uno modo, quod ipsa rei essentia sit eius
+<lb ed="#L" n="83"/>esse. Et sic falsa est propositio, nec sic eam intelligit
+<lb ed="#L" n="84"/>Sanctus Thomas: in solo enim Deo verum est quod eius
+<lb ed="#L" n="85"/>essentia sit ipsius esse, ut in superioribus  est ostensum. —
+<lb ed="#L" n="86"/>Alio modo, quod ex ipsa rei essentia proveniat esse rei.
+<lb ed="#L" n="87"/>Et sic vera est propositio, et hic intenta. Essentia enim
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="88"/>simplex creata est causa formalis sui esse, et eius 
+susce<lb ed="#L" break="no" n="89"/>ptivum. Essentia vero composita ex materia et forma est
+<lb ed="#L" n="90"/>proprium susceptivum esse, ita quod, constituta essentia,
+<lb ed="#L" n="91"/>statim resultat esse suppositi: et sic dicitur res secundum
+<lb ed="#L" n="92"/>essentiam habere esse. Est etiam essentia rei compositae
+<lb ed="#L" n="93"/>causa formalis esse ratione suae formae, quae dat esse
+<lb ed="#L" n="94"/>formaliter.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e199">
+               <lb ed="#L" n="95"/>II. Tertio. Malum nec est agens neque factum: cum
+<lb ed="#L" n="96"/>omne quod agit, agat inquantum est in actu et perfectum;
+<lb ed="#L" n="97"/>et cuiuslibet generationis terminus sit forma et bonum.
+<lb ed="#L" n="98"/>Ergo malum non est res aliqua. — Patet consequentia:
+<lb ed="#L" n="99"/>quia omnis res aut est agens aut est facta.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e212">
+               <lb ed="#L" n="100"/>Quarto. Omne agens agendo intendit bonum. Igitur
+<lb ed="#L" n="101"/>nullum ens inquantum huiusmodi, est malum. — Probatur
+<lb ed="#L" n="102"/>antecedens. Quia nihil tendit ad suum contrarium, sed ad
+<lb ed="#L" n="103"/>simile et conveniens.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e223">
+               <lb ed="#L" n="104"/>Adverte quod, licet haec ratio directe concludat 
+nul<lb ed="#L" break="no" n="105"/>lum ens factum esse malum, ex hoc tamen relinquitur
+<lb ed="#L" n="106"/>universaliter malum nullum ens esse. Si enim non est 
+ali<lb ed="#L" break="no" n="107"/>quod ens factum, multo minus erit ens aliorum factivum.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e234">
+               <lb ed="#L" n="108"/>III. Quinto. Quod est secundum se malum, non potest
+<lb ed="#L" n="109"/>esse alicui naturale. Ergo nulla essentia est secundum
+<lb ed="#L" n="110"/>se mala. — Probatur antecedens. Quia malum est privatio
+<lb ed="#L" n="111"/>eius quod est naturale, ut patet ex ratione mali: substantia
+<lb ed="#L" n="112"/>enim alicuius est ipsa natura rei; accidens vero ex 
+prin<lb ed="#L" break="no" n="113"/>cipiis alicuius substantiae causatur.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e251">
+               <pb ed="#L" n="20"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>2. Circa hanc propositionem, Omne quod est de 
+ge<lb ed="#L" break="no" n="2"/>nere accidentis, oportet quod ex principiis alicuius 
+sub<lb ed="#L" break="no" n="3"/>stantiae causetur, et sit illi naturale, dubitatur. Primo,
+<lb ed="#L" n="4"/>quia sic omne accidens erit proprium, et nullum erit 
+com<lb ed="#L" break="no" n="5"/>mune. Accidens enim omne est illi naturae proprium cui
+<lb ed="#L" n="6"/>est naturale, et ex cuius principiis causatur.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e271">
+               <lb ed="#L" n="7"/>Secundo, quia gratia et caritas sunt accidentia animae.
+<lb ed="#L" n="8"/>Et tamen ex principiis nullius subiecti causantur, et nulli
+<lb ed="#L" n="9"/>subiecto sunt naturalia.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e280">
+               <lb ed="#L" n="10"/>3. Ad evidentiam huius, considerandum quod, cum
+<lb ed="#L" n="11"/>omne accidens habeat per substantiam definiri, propter
+<lb ed="#L" n="12"/>naturalem dependentiam accidentis ad subiectum, ut 
+di<lb ed="#L" break="no" n="13"/>citur Quolibet IX, a. 5, ad 1; et, ut dicitur in Tractatu
+<lb ed="#L" n="14"/>de Ente et Essentia , differentiae in accidentibus 
+suman<lb ed="#L" break="no" n="15"/>tur ex diversitate principiorum ex quibus causantur : 
+ne<lb ed="#L" break="no" n="16"/>cesse est dicere omne accidens ex principiis alicuius 
+sub<lb ed="#L" break="no" n="17"/>stantiae causari, licet multoties illa principia sint nobis
+<lb ed="#L" n="18"/>incognita. Non oportet tamen, ut omnia causentur a 
+prin<lb ed="#L" break="no" n="19"/>cipiis propriis alicuius naturae specificae: sed sufficit quod
+<lb ed="#L" n="20"/>causentur aut ex principiis generis, aut speciei, aut etiam
+<lb ed="#L" n="21"/>individui, ut habetur ex eodem "Tractatu de Ente et 
+Es<lb ed="#L" break="no" n="22"/>sentia: sunt enim quaedam accidentia propria generis,
+<lb ed="#L" n="23"/>quaedam speciei, quaedam vero individui. Sed tamen 
+ad<lb ed="#L" break="no" n="24"/>vertendum, ex eodem "Tractatu , et ex II Sent., d. xxvr,
+<lb ed="#L" n="25"/>a. 2, ad 2, quod quaedam accidentia causantur ex 
+prin<lb ed="#L" break="no" n="26"/>cipiis subiecti quantum ad actum. completum, sicut calor
+<lb ed="#L" n="27"/>ab igne; quaedam vero causantur quantum ad aptitudinem
+<lb ed="#L" n="28"/>tantum, sicut diaphaneitas causatur ex principiis aeris,
+<lb ed="#L" n="29"/>completur tamen aliquo illuminante extrinsece; nam 
+dia<lb ed="#L" break="no" n="30"/>phanum in actu includit lucem, quae non convenit aeri
+<lb ed="#L" n="31"/>ab intrinseco nisi quantum ad aptitudinem et habilitatem
+<lb ed="#L" n="32"/>ad complementum actus. —- Quod ergo hic dicitur, omne
+<lb ed="#L" n="33"/>accidens causari ex principiis alicuius substantiae et illi esse
+<lb ed="#L" n="34"/>naturale, intelligitur aut quantum ad actum completum,
+<lb ed="#L" n="35"/>aut quantum ad aptitudinem.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e339">
+               <lb ed="#L" n="36"/>4. Ad primum ergo in oppositum respondetur quod
+<lb ed="#L" n="37"/>utique omne accidens est proprium respectu alicuius 
+sub<lb ed="#L" break="no" n="38"/>iecti, aut generici aut specifici aut singularis, quantum ad
+<lb ed="#L" n="39"/>hoc quod est causari ex principiis subiecti, modo 
+decla<lb ed="#L" break="no" n="40"/>rato; et comparari ad ipsum sicut proprius actus ad 
+pro<lb ed="#L" break="no" n="41"/>priam potentiam comparatur; et quantum etiam ad hoc
+<lb ed="#L" n="42"/>quod est sustentari per subiectum. Licet enim sint 
+quae<lb ed="#L" break="no" n="43"/>dam accidentia, ut dicitur I Sent., d. xvit, q. 1, a. 2, ad 2,
+<lb ed="#L" n="44"/>quae principiis subiecti repugnant et per violentiam 
+intro<lb ed="#L" break="no" n="45"/>ducuntur, sicut est de calore in aquam introducto ; oportet
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="46"/>tamen illa, aut quantum ad actum completum aut 
+quan<lb ed="#L" break="no" n="47"/>tum ad aptitudinem et habilitatem, determinare sibi 
+ali<lb ed="#L" break="no" n="48"/>quod subiectum, secundum genus aut speciem aut. 
+indi<lb ed="#L" break="no" n="49"/>viduum, sine quo esse quantum ad alterum illorum non
+<lb ed="#L" n="50"/>possunt. Licet enim calor in aliquo esse secundum actum
+<lb ed="#L" n="51"/>possit per violentiam, non tamen secundum aptitudinem
+<lb ed="#L" n="52"/>et habilitatem est in illo.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e381">
+               <lb ed="#L" n="53"/>Ad hunc sensum loquendo, nullum accidens est 
+com<lb ed="#L" break="no" n="54"/>mune. Quod autem dividitur accidens in proprium et 
+com<lb ed="#L" break="no" n="55"/>mune, accipitur haec divisio per comparationem ad speciem
+<lb ed="#L" n="56"/>specialissimam. Aliquod enim uni speciei specialissimae
+<lb ed="#L" n="57"/>convenit, ut risibilitas homini: aliquod vero convenit 
+plu<lb ed="#L" break="no" n="58"/>ribus speciebus, sicut albedo nivi, lacti, cygno, et aliis.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e397">
+               <lb ed="#L" n="59"/>5. Ad secundum dicitur, ex II Sent., loco praeallegato,
+<lb ed="#L" n="60"/>quod licet gratia et caritas non causentur ex principiis
+<lb ed="#L" n="61"/>subiecti quantum ad actum completum, receptibilitas 
+ta<lb ed="#L" break="no" n="62"/>men horum semper subiectum consequitur, et ex principiis
+<lb ed="#L" n="63"/>subiecti causatur, et sic potest dici naturalis, ut patet in
+<lb ed="#L" n="64"/>hoc quod est esse disciplinae susceptibile.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e414">
+               <lb ed="#L" n="65"/>Posset etiam dici quod loquitur Sanctus Thomas de
+<lb ed="#L" n="66"/>accidentibus quae per agens naturale causari possunt. Gratia
+<lb ed="#L" n="67"/>autem et caritas non sunt talia accidentia.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e423">
+               <lb ed="#L" n="68"/>IV. Sexto. Omnis essentia aut est forma, aut habens
+<lb ed="#L" n="69"/>formam: cum unumquodque collocetur in genere aut
+<lb ed="#L" n="70"/>huiusmodi, habet rationem bonitatis: tum quia est 
+prin<lb ed="#L" break="no" n="71"/>cipium actionis, et finis ab agente intentus; tum quia est
+<lb ed="#L" n="72"/>actus quo unumquodque est perfectum. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e436">
+               <lb ed="#L" n="73"/>Septimo. Actus, inquantum huiusmodi, bonum est: cum
+<lb ed="#L" n="74"/>unumquodque, secundum quod est actu, sit perfectum.
+<lb ed="#L" n="75"/>Potentia etiam bonum aliquid est: cum ad actum tendat;
+<lb ed="#L" n="76"/>et sit actui proportionata, non autem contraria; et sit in
+<lb ed="#L" n="77"/>eodem genere cum ipso; privatio autem non competat
+<lb ed="#L" n="78"/>ei nisi per accidens, scilicet inquantum coniungitur formae.
+<lb ed="#L" n="79"/>Ergo omne ens, inquantum ens, est bonum. — Patet 
+con<lb ed="#L" break="no" n="80"/>sequentia. Quia ens per actum et potentiam dividitur.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e456">
+               <lb ed="#L" n="81"/>Octavo. Malum non potest esse effectus Dei. Ergo, etc. —
+<lb ed="#L" n="82"/>Probatur consequentia. Quia omne esse, quocumque modo
+<lb ed="#L" n="83"/>sit, est a Deo, ut in Secundo huius est ostensum. — 
+Antece<lb ed="#L" break="no" n="84"/>dens quoque probatur. Quia malum non potest esse effectus
+<lb ed="#L" n="85"/>boni, scilicet per se. Deus autem est ipsa essentia bonitatis.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e469">
+               <lb ed="#L" n="86"/>CONFIRMATUR conclusio auctoritate Gen. 1; et Eccle. m;
+<lb ed="#L" n="87"/>et I Tim. 1V; et Dionysii, IV cap. de Div.
+</p>
+            <p xml:id="ferv7a-d1e1765-d1e476">
+               <lb ed="#L" n="88"/>Excluditur quoque Manichaeorum error, ponentium
+<lb ed="#L" n="89"/>aliquas res secundum naturas suas malas esse.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

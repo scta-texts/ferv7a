@@ -1,0 +1,762 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 92</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 92</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="282"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2459"><!-- ferv7a-l3c92 -->
+            <head>Capitulum 92</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="21" type="fixed=282"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="22"/>SECcUNDUM corollarium est : AZiquis dicitur bene fortunatus
+<lb ed="#L" n="23"/>S ex superioribus causis, scilicet Deo, angelis, et. caelo:
+<lb ed="#L" n="24"/>et etiam ex causis superioribus dicitur quis infortunatus.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Circa hoc autem tria facit Sanctus Thomas: primo,
+<lb ed="#L" n="26"/>ostendit quomodo homo est ex superioribus causis 
+for<lb ed="#L" break="no" n="27"/>tunatus; secundo, quomodo quantum ad exitum suarum
+<lb ed="#L" n="28"/>actionum ex superioribus causis iuvatur ; tertio, removet
+<lb ed="#L" n="29"/>quaedam dubia . ^:
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Circa: primum tria facit: priino, declarat propositum;
+<lb ed="#L" n="31"/>secundo, ostendit differentiam superiorum causarum in hoc
+<lb ed="#L" n="32"/>quod est efficere hominem fortunatum ; tertio, ostendit
+<lb ed="#L" n="33"/>respectu quorum dicitur quis bene aut male fortunatus ,
+</p>
+            <p>
+               <lb ed="#L" n="34"/>I. Primo ergo ostenditur hominem ex superioribus causis
+<lb ed="#L" n="35"/>fortunatum esse. Et arguitur sic. Dicitur alicui homini bene
+<lb ed="#L" n="36"/>secundum fortunam contingere quando aliquod bonum 
+ac<lb ed="#L" break="no" n="37"/>cidit sibi praeter intentionem. Sed contingit aliquod bonum
+<lb ed="#L" n="38"/>evenire homini praeter intentionem propriam, secundum
+<lb ed="#L" n="39"/>dispositionem corporis caelestis, angeli, et Dei. Ergo etc.
+<lb ed="#L" n="40"/>Maiorem non probat Sanctus Thomas: quia ex iis quae
+<lb ed="#L" n="41"/>in II Physicorum  dicuntur, est manifesta; et exemplo 
+in<lb ed="#L" break="no" n="42"/>ventionis thesauri declaratur. — Sed ponit minoris 
+proba<lb ed="#L" break="no" n="43"/>tionem et declarationem. Quam quidem minorem 
+forma<lb ed="#L" break="no" n="44"/>liter ipse non ponit, sed ex suo processu dat intelligere.
+<lb ed="#L" n="45"/>Probat autem sic. Contingit aliquem operari praeter 
+inten<lb ed="#L" break="no" n="46"/>tionem propriam, non tamen praeter intentionem alicuius
+<lb ed="#L" n="47"/>superioris cui ipse subest: declaratur exemplo domini 
+mit<lb ed="#L" break="no" n="48"/>tentis servum ut alium. conservum inveniat, quem tamen
+<lb ed="#L" n="49"/>ille praeter suam intentionem invenit. Sed homo est 
+or<lb ed="#L" break="no" n="50"/>dinatus secundum corpus sub corporibus caelestibus; 
+se<lb ed="#L" break="no" n="51"/>cundum intellectum, sub angelis ; secundum. voluntatem,
+<lb ed="#L" n="52"/>sub Deo. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Secundo, declarat conclusionem : inquiens quod, cum
+<lb ed="#L" n="54"/>Deus directe ad electionem operetur, actio vero. angeli
+<lb ed="#L" n="55"/>operetur per modum persuadentis, et actio. corporis 
+cae<lb ed="#L" break="no" n="56"/>lestis per modum disponentis; quando aliquis ex 
+impres<lb ed="#L" break="no" n="57"/>sione corporum caelestium inclinatur ad aliquas electiones
+<lb ed="#L" n="58"/>sibi utiles, quarum tamen utilitatem propria ratione non
+<lb ed="#L" n="59"/>cognoscit; et cum hoc, ex lumine intellectualis 
+substan<lb ed="#L" break="no" n="60"/>tiae illuminatur eius intellectus ad eadem intelligenda ; et
+<lb ed="#L" n="61"/>ex divina operatione inclinatur eius voluntas.ad aliquid
+<lb ed="#L" n="62"/>utile eligendum cuius rationem ignorat: dicitur esse bene
+<lb ed="#L" n="63"/>fortunatus; e contrario vero male fortunatus, quando ex
+<lb ed="#L" n="64"/>superioribus causis ad contraria eius electio inclinatur; sicut
+<lb ed="#L" n="65"/>de quodam dicitur, lerem. xxu: Scribe virum istum 
+ste<lb ed="#L" break="no" n="66"/>rilem, virum  qui in diebus: suis non prosperabitur, etc.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Sensus est, quod dicitur aliquis bene fortunatus quando
+<lb ed="#L" n="68"/>ad ampliora bona ex istarum causarum superiorum 
+dispo<lb ed="#L" break="no" n="69"/>sitione pervenit quam excogitaverit: dicitur vero male 
+for<lb ed="#L" break="no" n="70"/>tunatus quando ab iis quae prudenter disponit, deficit, et
+<lb ed="#L" n="71"/>ad inopinata mala devenit.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>2. Circa illam. propositionem, .Ex /Iumine intellectualis
+<lb ed="#L" n="73"/>substantiae intellectus hominis illuminatur, attendendum
+<lb ed="#L" n="74"/>quod dupliciter potest intellectus humanus ab intellectu
+<lb ed="#L" n="75"/>angelico illuminari: ut habetur ex doctrina Sancti Thomae
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="76"/>Prima, q. cxt, a. 1; et Verit.,, q. xr, a. 3. Primo quidem,
+<lb ed="#L" n="77"/>per infusionem luminis spiritualis habentis . esse 
+intentio<lb ed="#L" break="no" n="78"/>nale, et per influxum in intellectu humano; eo modo quo
+<lb ed="#L" n="79"/>virtus artis recipitur in. instrumento. Sic enim per. tale
+<lb ed="#L" n="80"/>lumen, quod. est quaedam similitudo intentionalis luminis
+<lb ed="#L" n="81"/>angelici, confortatur intellectus humanus ad aliquid 
+intel<lb ed="#L" break="no" n="82"/>ligendum quod non intelligeret et non consideraret sine
+<lb ed="#L" n="83"/>huiusmodi. lumine. —. Alio modo, non per infusionem 
+ali<lb ed="#L" break="no" n="84"/>cuius luminis in intellectu, sed per formationem tantum
+<lb ed="#L" n="85"/>aliquarum specierum in. imaginatione, quae ex 
+commo<lb ed="#L" break="no" n="86"/>tione spirituum in quibus species sensatae conservantur,
+<lb ed="#L" n="87"/>formari possunt. Ex huiusmodi eniin formis, sic virtute
+<lb ed="#L" n="88"/>angelica in imaginatione formatis, intellectus aliquam 
+co<lb ed="#L" break="no" n="89"/>gnitionem accipit, et aliquid considerat tanquam bonum,
+<lb ed="#L" n="90"/>quod non consideraret. Et quia omne quo aliquid mani:
+<lb ed="#L" n="91"/>festatur, lumen est, talis species potest /umen dici. ..
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Hoc autem non sic intelligo: quasi sint isti duo modi
+<lb ed="#L" n="93"/>separati omnino, et concurrere non possint, immo' cum
+<lb ed="#L" n="94"/>primo concurrit etiam secundus: sed' quia potest | secundus
+<lb ed="#L" n="95"/>fieri sine primo. Ipsa enim sola specierum formatio iri
+<lb ed="#L" n="96"/>imaginatione, ex qua aliquam intellectus notionem adipi
+<lb ed="#L" n="97"/>illuminatio dici potest.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>IL. Secundo, ostenditur. quomodo diversimode bye
+<lb ed="#L" n="99"/>homo bene fortunatus aut-male in ordine ad huiusmodi
+<lb ed="#L" n="100"/>causas , Et ponuntur multae differentiae.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Prima est, quia ex dispositione relicta in' nostro: 
+cor<lb ed="#L" break="no" n="102"/>pore a corpore caelesti, ex qua homo ad aliquas electiones
+<lb ed="#L" n="103"/>inclinatur, dicitur aliquis non solum bene aut male 
+for<lb ed="#L" break="no" n="104"/>tunatus, sed etiam bene aut male natus: ut patet ex 
+Phi<lb ed="#L" break="no" n="105"/>losopho in Magnis Moralibus. Ex illuminatione vero 
+in<lb ed="#L" break="no" n="106"/>tellectus ad aliquid agendum, vel instigatione voluntatis
+<lb ed="#L" n="107"/>a Deo, non dicitur homo bene aut male natus, sed magis
+<lb ed="#L" n="108"/>custoditus, vel gubernatus. Cuius ratio est, quia 
+impres<lb ed="#L" break="no" n="109"/>siones corporum caelestium. in corpora nostra causant in
+<lb ed="#L" n="110"/>nobis naturales corporum dispositiones. Quod enim unus,
+<lb ed="#L" n="111"/>praeter rationem propriam, eligat utilia, alius vero nociva,
+<lb ed="#L" n="112"/>non potest provenire ex diversa natura intellectus, cum
+<lb ed="#L" n="113"/>illa in omnibus sit una: nam diversitas formalis induceret
+<lb ed="#L" n="114"/>diversitatem secundum speciem, diversitas vero materialis
+<lb ed="#L" n="115"/>inducit diversitatem. secundum numerum.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>2. Adverte sensum istius differentiae esse quod non
+<lb ed="#L" n="117"/>dicitur unus bene natus et alius male nisi ex diversitate
+<lb ed="#L" n="118"/>quae in nativitate hominibus provenit: ut. scilicet ille 
+di<lb ed="#L" break="no" n="119"/>catur beme natus, qui ex sua nativitate babet dispositionem
+<lb ed="#L" n="120"/>in natura ad ea quae sibi utilia sunt; ille vero male natus;
+<lb ed="#L" n="121"/>qui ex sua nativitate habet ut ad sibi nociva disponatur.
+<lb ed="#L" n="122"/>Talis autem diversitas in hominibus ex nativitate 
+prove<lb ed="#L" break="no" n="123"/>niens, non potest attendi ex dispositione diversa 
+intelle<lb ed="#L" break="no" n="124"/>ctus et voluntatis secundum se: cum intellectus et voluntas
+<lb ed="#L" n="125"/>essentiam animae immediate consequantur, et in ipsa sola
+<lb ed="#L" n="126"/>radicentur; ipsa autem animae essentia, si secundum se
+<lb ed="#L" n="127"/>consideretur, non habeat diversitatem, sed sit unius rationis
+<lb ed="#L" n="128"/>et unius dispositionis; si quam autem babeat distinctionem
+<lb ed="#L" n="129"/>et diversitatem, hoc ex diversitate materiae proveniat, ex
+<pb ed="#L" n="283"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>qua individuatur. Sed bene attenditur diversitas in homi- |
+<lb ed="#L" n="2"/>nibus a nativitate secundum diversam corporis. 
+disposi<lb ed="#L" break="no" n="3"/>tionem.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Ideo, cum dicatur aliquid bene evenire aut male 
+ho<lb ed="#L" break="no" n="5"/>minibus ex Deo et substantiis separatis, inquantum in 
+in<lb ed="#L" break="no" n="6"/>tellectum agunt et in voluntatem, non dicitur aliquis bene |
+<lb ed="#L" n="7"/>aut male natus ex istis causis: eo quod ex ipsis non 
+pro<lb ed="#L" break="no" n="8"/>veniat a nativitate diversitas dispositionis intellectus et 
+vo<lb ed="#L" break="no" n="9"/>luntatis. Dicitur autem gubernatus, et custoditus, inquantum
+<lb ed="#L" n="10"/>diversi diversimode, secundum intellectum et voluntatem,
+<lb ed="#L" n="11"/>diriguntur ad suas electiones et intelligentias. Ex 
+corpo<lb ed="#L" break="no" n="12"/>ribus vero caelestibus convenienter dicitur aliquis bene
+<lb ed="#L" n="13"/>aut male natus: quia ab ipsis proveniunt a nativitate et
+<lb ed="#L" n="14"/>conceptione dispositiones variae corporales, secundum quas
+<lb ed="#L" n="15"/>unus ad utilia disponitur eligenda, et alius ad nociva.
+<lb ed="#L" n="16"/>HE. Secunda differentia est, quia homo non semper
+<lb ed="#L" n="17"/>eligit id quod angelus custodiens intendit;: neque id: ad
+<lb ed="#L" n="18"/>quod. caeleste corpus inclinat; semper autem eligit id quod
+<lb ed="#L" n="19"/>Deus in eius voluntate operatur. Unde custodia angelorum
+<lb ed="#L" n="20"/>interdum cassatur, iuxta illud Jerem. rt, Curavimus 
+Ba<lb ed="#L" break="no" n="21"/>bylonem, et non est curata; et. multo magis caelestium:
+cot<lb ed="#L" break="no" n="22"/>porum inclinatio cassatur; divina vero providentia semper
+<lb ed="#L" n="23"/>est firma. Ratio huius diversitatis est quia operatio angeli
+<lb ed="#L" n="24"/>et corporis caelestis est solum sicut disponens: dispositio
+<lb ed="#L" n="25"/>autem quae est ex corporis qualitate, vel intellectus 
+per<lb ed="#L" break="no" n="26"/>suasione, non inducit necessitatem ad ite Sed. 
+ope<lb ed="#L" break="no" n="27"/>futio Dei est sicut perficiens.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Ista differentia ex superius dictis satis est manifesta.
+<lb ed="#L" n="29"/>Illud solum est ad memoriam revocandum, quod, licet 
+ne<lb ed="#L" break="no" n="30"/>cessarium sit ex suppositione: voluntatem. velle id ad quod
+<lb ed="#L" n="31"/>Deus eam movet, cprrproasitanpir — vult et
+<lb ed="#L" n="32"/>ten
+</p>
+            <p>
+               <lb ed="#L" n="33"/>IV. Tertia differentia est inter corpus caeleste et 
+an<lb ed="#L" break="no" n="34"/>gelum. Quia videlicet. omnis: dispositio ad electionem ex
+<lb ed="#L" n="35"/>corporibus caelestibus .est' per modum alicuius passionis,
+<lb ed="#L" n="36"/>scilicet amoris vel odii, vel irae, vel huiusmodi: eo quod
+<lb ed="#L" n="37"/>corpora caelestia non disponant ad electionem nisi 
+in<lb ed="#L" break="no" n="38"/>quantum. imprimunt in corpora nostra, ex quibus incitatur
+<lb ed="#L" n="39"/>homo ad eligendum per modum quo passiones inducunt
+<lb ed="#L" n="40"/>ad electionem. Dispositio vero ad eligendum est ab. 
+an<lb ed="#L" break="no" n="41"/>gelo per modum intelligibilis. considerationis, absque. 
+pas<lb ed="#L" break="no" n="42"/>sione: aut scilicet cum illuminatur intellectus ab ipso ad
+<lb ed="#L" n="43"/>cognoscendum solum quod aliquid est bonum fieri, non
+<lb ed="#L" n="44"/>autem instruitur propter quem finem, quo casu, cum homo
+<lb ed="#L" n="45"/>pervenerit ad finem utilem non praeconsideratum, erit sibi
+<lb ed="#L" n="46"/>fortuitum ; aut cum instruitur et quod hoc fieri sit bonum,
+<lb ed="#L" n="47"/>et propter quem finem, quo casu non est fortuitum quando
+<lb ed="#L" n="48"/>pervenerit ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>2. Adverte, ex superioribus , quod dupliciter corpora
+<lb ed="#L" n="50"/>caelestia, in corpora nostra agendo; sunt nobis causa 
+ele<lb ed="#L" break="no" n="51"/>ctionis : aut scilicet causando aliquas dispositiones ex quibus
+<lb ed="#L" n="52"/>sumus ad aliquas passiones habiles, sicut cholerici sunt
+<lb ed="#L" n="53"/>proni ad iram; aut causando aliquam dispositionem ex
+<lb ed="#L" n="54"/>qua aliquis motus passionis insurgit, sicut ex nimia 
+frigi<lb ed="#L" break="no" n="55"/>ditate corpori adveniente insurgit appetitus ignis, et ex
+<lb ed="#L" n="56"/>nimia caliditate appetitus refugit calida. Quia ergo ex 
+cor<lb ed="#L" break="no" n="57"/>poribus caelestibus non instigatur homo ad aliquid 
+eli<lb ed="#L" break="no" n="58"/>gendum nisi altero istorum modorum, ideo bene dicitur
+<lb ed="#L" n="59"/>hic quod dispositio ad electionem ex corporibus caelestibus
+<lb ed="#L" n="60"/>est per modum passionis : inquantum videlicet non inclinat
+<lb ed="#L" n="61"/>ad eligendum nisi aliquam passionem excitando, ex qua
+<lb ed="#L" n="62"/>natus est appetitus intellectivus ad aliquid trahi et 
+incli<lb ed="#L" break="no" n="63"/>nari. Inclinatur autem appetitus intellectivus a passione,
+<lb ed="#L" n="64"/>ut habetur ] II^, q. 1x, a. 2; et q. x, a. 3, ex ea parte
+<lb ed="#L" n="65"/>qua movetur ab obiecto, inquantum homo, aliqualiter 
+dis<lb ed="#L" break="no" n="66"/>positus per passionem, aliquid iudicat esse conveniens et
+<lb ed="#L" n="67"/>bonum quod extra passionem existens non iudicaret. Et
+<lb ed="#L" n="68"/>ideo per hunc etiam modum dispositio corporalis ex 
+cor<lb ed="#L" break="no" n="69"/>poribus caelestibus proveniens ad electionem inclinat: 
+in<lb ed="#L" break="no" n="70"/>quantum est origo et fundamentum ex quo provenit illud
+<lb ed="#L" n="71"/>iudicium quo aliquid bonum et conveniens iudicatur. Et
+<lb ed="#L" n="72"/>ideo dicitur per modum passionis inclinare.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>V. Quarta differentia est, quia aliquod bonum potest
+<lb ed="#L" n="74"/>accidere homini non solum praeter propriam intentionem,
+<lb ed="#L" n="75"/>sed etiam praeter corporum caelestium inclinationem, et
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>praeter illuminationem angelorum: non autem praeter 
+pro<lb ed="#L" break="no" n="77"/>videntiam divinam. Et consequenter aliquod fortuitum
+<lb ed="#L" n="78"/>bonum vel malum potest homini contingere per 
+compa<lb ed="#L" break="no" n="79"/>rationem ad ipsum et ad illas alias causas, non autem
+<lb ed="#L" n="80"/>per comparationem ad Deum.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Ratio huius diversitatis est, quia vis activa spiritualis, 
+<lb ed="#L" n="82"/>sicut est altior quam corporalis, ita est universalior. Et
+<lb ed="#L" n="83"/>propterea non ad omnia ad quae se extendit humana
+<lb ed="#L" n="84"/>electio, se extendit dispositio caelestis corporis. Item virtus
+<lb ed="#L" n="85"/>humanae animae, vel etiam angeli, est particularis in 
+com<lb ed="#L" break="no" n="86"/>paratione ad virtutem divinam, quae est universalis respectu
+<lb ed="#L" n="87"/>omnium: entium.. Et per consequens, per comparationem
+<lb ed="#L" n="88"/>ad ipsam, in nulla re potest esse aliquid casuale et 
+im<lb ed="#L" break="no" n="89"/>pete.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>2. Ad evidentiam huius differentiae, considerandum est
+<lb ed="#L" n="91"/>quod aliter loquendum est de causa particulari; et aliter
+<lb ed="#L" n="92"/>de causa universali. Quia enim causa universalis in: plura
+<lb ed="#L" n="93"/>potest quam causa particularis, non inconvenit -aliquid
+<lb ed="#L" n="94"/>fieri secundum ordinem causae universalis: quod non fit
+<lb ed="#L" n="95"/>secundum ordinem causae particularis. Et per consequetis
+<lb ed="#L" n="96"/>non inconvenit aliquid esse per se intentum a causa 
+uni<lb ed="#L" break="no" n="97"/>versali quod sit praeter intentionem causae particularis;
+<lb ed="#L" n="98"/>et idcirco sit casuale in: comparatione ad causam  
+parti<lb ed="#L" break="no" n="99"/>cularem, licet non sit casuale in ordine ad' causam 
+uni<lb ed="#L" break="no" n="100"/>versalem. Causa autem particularis non potest in aliquid
+<lb ed="#L" n="101"/>in.quod. non possit causa universalis: cum non agat nisi
+<lb ed="#L" n="102"/>eius virtute. Ideo non potest aliquid esse per se in ordine
+<lb ed="#L" n="103"/>ad. causam particularem, quod. tamen.sit per accidens et
+<lb ed="#L" n="104"/>fortuitum in ordine ad causam universalem. Immo, si'sit
+<lb ed="#L" n="105"/>causa adeo universalis quod omnes causas particulares
+<lb ed="#L" n="106"/>contineat, nihil omnino in ordine ad. ipsam. poterit per
+<lb ed="#L" n="107"/>accidens sive fortuito evenire. Quia ergo anima rationalis
+<lb ed="#L" n="108"/>universalior est, quo scilicet ad intellectionem: et^ 
+volitio<lb ed="#L" break="no" n="109"/>nem, quam sit virtus caeli, ideo non inconvenit aliquid
+<lb ed="#L" n="110"/>evenire per se per comparationem ad ipsam, quod est per
+<lb ed="#L" n="111"/>accidens et fortuitum in ordine ad virtutem. caeli:' sicut
+<lb ed="#L" n="112"/>cum virtus caeli inclinat ad unum, puta ad iram et 
+vin<lb ed="#L" break="no" n="113"/>dictam; et tamen homo, ex voluntate et libero: arbitrio,
+<lb ed="#L" n="114"/>eligit mansuetus esse parcereque inimico. Quod enim iste
+<lb ed="#L" n="115"/>mansuetus sit parcatque inimico, est per 'se respectu 
+ho<lb ed="#L" break="no" n="116"/>minis, sed est per accidens in ordine ad virtutem et 
+in<lb ed="#L" break="no" n="117"/>clinationem siderum. Similiter, cum Deus maximus omnem
+<lb ed="#L" n="118"/>causam particularem, tam naturalitet agentem quam libere,
+<lb ed="#L" n="119"/>sub se contineat, atque unamquamque applicet. ad 
+ope<lb ed="#L" break="no" n="120"/>rationem, ut superius  est ostensum; constat nihil posse
+<lb ed="#L" n="121"/>esse per accidens et fortuitum in comparatione ad ipsum,
+<lb ed="#L" n="122"/>sed omne quod in rebus evenit, excepto malo culpae 
+in<lb ed="#L" break="no" n="123"/>quantum huiusmodi, est ab ipso provisum et intentum.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>VI. Tertio ostenditur respectu quorum dicitur quis bene
+<lb ed="#L" n="125"/>aut male fortunatus . Et ponitur duplex conclusio.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Prima est: Respectu moralium non potest quis dici bene
+<lb ed="#L" n="127"/>vel male fortunatus, sed bene aut male natus. — Probatur
+<lb ed="#L" n="128"/>prima pars. Quia bona moralia non possunt praeter 
+inten<lb ed="#L" break="no" n="129"/>tionem esse. — Secunda vero pars probatur, quia eX 
+cor<lb ed="#L" break="no" n="130"/>poris dispositione naturali est quis aptus ad electionem
+<lb ed="#L" n="131"/>virtutum vel vitiorum.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>Secunda conclusio est: Respectu bonorum exteriorum
+<lb ed="#L" n="133"/>potest dici homo bene natus; et bene fortunatus; et a Deo
+<lb ed="#L" n="134"/>gubernatus; et ab angelis custoditus.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>2. Adverte quod bona moralia dicuntur actus 
+volun<lb ed="#L" break="no" n="136"/>tarii et sub electione cadentes: nam proprium moralium
+<lb ed="#L" n="137"/>actuum est quod voluntarii sint. Ideo bene dicitur quod
+<lb ed="#L" n="138"/>moralia non possunt praeter intentionem esse: repugnat
+<lb ed="#L" n="139"/>enim quod aliquid voluntarie fiat, et quod praeter 
+inten<lb ed="#L" break="no" n="140"/>tionem eveniat, respectu eiusdem.
+</p>
+            <p>
+               <lb ed="#L" n="141"/>Adverte etiam. quod Deo attribuitur gubernatio 
+ho<lb ed="#L" break="no" n="142"/>minis, angelis vero custodia. Quia ad gubernationem 
+per<lb ed="#L" break="no" n="143"/>tinet hominem dirigere in finem. Primum autem et 
+prin<lb ed="#L" break="no" n="144"/>cipale inter ea quae hominis sunt, per quod homo ad
+<lb ed="#L" n="145"/>finem pervenit per opera meritoria, est electio: quia nihil
+<lb ed="#L" n="146"/>potest habere rationem meriti nisi inquantum sub electione
+<lb ed="#L" n="147"/>cadit. Ideo, quia Deus solus est causa humanae electionis
+<lb ed="#L" n="148"/>interius agendo, sibi gubernationem hominis Sanctus 
+Tho<lb ed="#L" break="no" n="149"/>mas attribuit. — Ad custodiam autem hominis pertinet 
+in<lb ed="#L" break="no" n="150"/>structio de agendis. Et quia per illuminationes angelorum
+<pb ed="#L" n="284"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>homines de huiusmodi instruuntur, idcirco angelis hominis
+<lb ed="#L" n="2"/>custodia attribuitur.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>VII. Quantum ad secundum principale, ostenditur 
+quo<lb ed="#L" break="no" n="4"/>modo quantum ad exitum suarum operationum, homo a
+<lb ed="#L" n="5"/>causis superioribus adiuvatur, Et ponitur duplex auxilium.
+<lb ed="#L" n="6"/>Unum est secundum quod adiuvatur homo, vel impeditur,
+<lb ed="#L" n="7"/>a superioribus causis quantum ad ipsam electionem, modis
+<lb ed="#L" n="8"/>dictis, — Aliud est secundum quod consequitur robur et 
+effi<lb ed="#L" break="no" n="9"/>caciam ad exequendum quod elegit. Quae quidem efficacia
+<lb ed="#L" n="10"/>non solum a Deo et angelis esse potest, sed etiam a 
+corpo<lb ed="#L" break="no" n="11"/>ribus caelestibus, inquantum in corpore sita est: ut est 
+ef<lb ed="#L" break="no" n="12"/>ficacia medici in sanando, agricolae in plantando, militis in
+<lb ed="#L" n="13"/>expugnando . Declaratur in rebus inanimatis, quae 
+sor<lb ed="#L" break="no" n="14"/>tiuntur efficaciam praeter eas virtutes quae qualitates
+<lb ed="#L" n="15"/>activas et passivas elementorum consequuntur : sicut quod
+<lb ed="#L" n="16"/>magnes attrahit ferrum. Sed multo perfectius hanc 
+efh<lb ed="#L" break="no" n="17"/>caciam ad sua opera efficaciter consequenda, Deus 
+homi<lb ed="#L" break="no" n="18"/>nibus elargitur.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Quantum ad primum auxilium, scilicet in eligendo, 
+dici<lb ed="#L" break="no" n="20"/>tur Deus hominem dirigere. Quantum vero ad secundum,
+<lb ed="#L" n="21"/>dicitur confortare. Haec auxilia tanguntur simul in Psalmis,
+<lb ed="#L" n="22"/>cum dicitur, Deus illuminatio etc. :
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Adverte, cum dicitur medicum in sanando consequi
+<lb ed="#L" n="24"/>efficaciam a superioribus causis, quod hoc intelligitur de
+<lb ed="#L" n="25"/>operatione medici qua ipse aliqua opera medicinalia 
+exe<lb ed="#L" break="no" n="26"/>quitur. Quia si loqueremur de inclinatione ad eligendum
+<lb ed="#L" n="27"/>medicinam quae sit aegroto conveniens, hoc ad primum
+<lb ed="#L" n="28"/>auxilium pertineret, quo scilicet quis adiuvatur ad 
+eli<lb ed="#L" break="no" n="29"/>gendum utilia,
+</p>
+            <p>
+               <lb ed="#L" n="30"/>2. Inter ista auxilia, inquit Sanctus Thomas, duplex
+<lb ed="#L" n="31"/>est differentia . Prima est, quia ex primo auxilio adiuvatur
+<lb ed="#L" n="32"/>homo tam in iis quae virtuti hominis subduntur, quam
+<lb ed="#L" n="33"/>etiam in aliis: sicut iuvari potest homo in hoc quod 
+in<lb ed="#L" break="no" n="34"/>stigetur ad quaerendum ubi est thesaurus, non autem in
+<lb ed="#L" n="35"/>hoc quod detur ei virtus ad inveniendum thesaurum ; cum
+<lb ed="#L" n="36"/>ex nulla hominis virtute procedat quod fodiens sepulcrum
+<lb ed="#L" n="37"/>inveniat thesaurum. Secundum autem auxilium ad illa 
+tan<lb ed="#L" break="no" n="38"/>tum se extendit ad quae virtus hominis valet: ut quod
+<lb ed="#L" n="39"/>medicus sanet, vel miles vincat in- pugna, potest adiuvari
+<lb ed="#L" n="40"/>non solum in hoc quod eligat convenientia ad finem, sed
+<lb ed="#L" n="41"/>etiam ut per virtutem a superiori causa acceptam 
+effica<lb ed="#L" break="no" n="42"/>citer exequatur. Unde primum auxilium est universalius.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>3. Circa illam propositionem, Non potest iuvari homo
+<lb ed="#L" n="44"/>ut ei detur virtus ad thesaurum inveniendum, dubium
+<lb ed="#L" n="45"/>occurrit. Quia aliquis sciens ubi positus est thesaurus,
+<lb ed="#L" n="46"/>habet virtutem ipsum thesaurum inveniendi: unde ipsum
+<lb ed="#L" n="47"/>quaerendo ex intentione invenit. Ergo non inconvenit
+<lb ed="#L" n="48"/>quod homini ex superioribus causis detur virtus ad 
+the<lb ed="#L" break="no" n="49"/>saurum inveniendum.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Respondetur quod per virtutem inveniendi thesaurum
+<lb ed="#L" n="51"/>duo possumus intelligere: scilicet aut virtutem per modum
+<lb ed="#L" n="52"/>virtutis dirigentis operationem, sive inventionem thesauri;
+<lb ed="#L" n="53"/>aut virtutem per modum virtutis corporalis exequentis.
+<lb ed="#L" n="54"/>Primo modo, non inconvenit alicui dari virtutem  
+inve<lb ed="#L" break="no" n="55"/>niendi thesaurum : quia non inconvenit alicui revelari et
+<lb ed="#L" n="56"/>dari cognitionem thesauri, per quam ad eius inventionem
+<lb ed="#L" n="57"/>dirigatur. — Secundo vero modo, non potest dari talis
+<lb ed="#L" n="58"/>virtus: quia virtus executiva quae est in membris, non
+<lb ed="#L" n="59"/>terminatur ad ipsam thesauri inventionem nisi mediante
+<lb ed="#L" n="60"/>aliqua operatione terminata ad aliquem effectum cui 
+in<lb ed="#L" break="no" n="61"/>ventio thesauri coniungitur, sive sit ambulatio, sive 
+ef<lb ed="#L" break="no" n="62"/>fossio sepulcri, sive quodcumque aliud tale; coniunctio
+<lb ed="#L" n="63"/>autem inventionis thesauri cum termino talis operationis
+<lb ed="#L" n="64"/>per accidens est. Cuius signum est, quod non semper, aut
+<lb ed="#L" n="65"/>pro maiori parte, illi coniungitur: non enim semper, aut
+<lb ed="#L" n="66"/>in maiori parte, fossioni sepulcri, aut ambulationi ad talem
+<lb ed="#L" n="67"/>locum, talis inventio thesauri est coniuncta. Ideo nullam
+<lb ed="#L" n="68"/>habet causam naturalem per se, ut superius  est ostensum.
+<lb ed="#L" n="69"/>Et propterea virtus quae est in membris ad fossionem 
+se<lb ed="#L" break="no" n="70"/>pulcri o aut ad aliquam similem actionem, non potest dici
+<lb ed="#L" n="71"/>virtus inventiva thesauri, quasi ex sua ratione ad talem
+<lb ed="#L" n="72"/>effectum ordinetur: licet aliquando ab ipsa talis effectus
+<lb ed="#L" n="73"/>per accidens eveniat, et praeter eius intentionem sive 
+in<lb ed="#L" break="no" n="74"/>clinationem. De tali ergo virtute intendit Sanctus Thomas
+<lb ed="#L" n="75"/>quod non potest dari homini, non autem de prima.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Ad rationem in oppositum dicitur quod sciens ubi est
+<lb ed="#L" n="77"/>thesaurus reconditus et occultatus, habet virtutem  
+dire<lb ed="#L" break="no" n="78"/>ctivam ad inventionem thesauri, scilicet cognitionem qua
+<lb ed="#L" n="79"/>dirigitur ad illam operationem per quam devenitur ad 
+the<lb ed="#L" break="no" n="80"/>sauri inventionem. Non autem habet virtutem per modum
+<lb ed="#L" n="81"/>exequentis ipsam, quae dicatur virtus thesauri inventiva,
+</p>
+            <p>
+               <lb ed="#L" n="82"/>4. Secunda differentia est, quia ex secundo auxilio, cum
+<lb ed="#L" n="83"/>detur homini ad prosequendum efficaciter ea quae homo
+<lb ed="#L" n="84"/>intendit, non potest dici proprie loquendo, homo bene
+<lb ed="#L" n="85"/>fortunatus, Sed bene ex primo: aut videlicet ipso solo
+<lb ed="#L" n="86"/>agente, ut cum adiuvatur ad hoc solum ut eligat illud cui
+<lb ed="#L" n="87"/>coniunctum est aliquod commodum quod provenit praeter
+<lb ed="#L" n="88"/>intentionem, ut in inventione thesauri; aut actione alterius
+<lb ed="#L" n="89"/>causae concurrente, secundum videlicet quod duo agentia
+<lb ed="#L" n="90"/>diriguntur ad aliquam actionem vel motum, sicut cum 
+va<lb ed="#L" break="no" n="91"/>dens ad forum causa aliquid emendi, invenit debitorem
+<lb ed="#L" n="92"/>praeter intentionem.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>VIII. Quantum ad tertium , removet Sanctus Thomas
+<lb ed="#L" n="94"/>duo dubia quae ex dictis oriri possent . Quia enim dictum
+<lb ed="#L" n="95"/>est ex caelo et ex Deo inclinari hominem ad electionem
+<lb ed="#L" n="96"/>alicuius cui coniungitur aliquod commodum vel 
+incom<lb ed="#L" break="no" n="97"/>modum, posset, primo, aliquis quaerere: Utrum illud
+<lb ed="#L" n="98"/>commodum vel incommodum sit fortuitum in ordine ad
+<lb ed="#L" n="99"/>istas causas, sicut in ordine ad hominis intentionem?
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Respondet autem quod illud commodum vel 
+incom<lb ed="#L" break="no" n="101"/>modum. quod, relatum ad hominis electionem, est 
+fortui<lb ed="#L" break="no" n="102"/>tum, relatum ad Deum, amittit rationem fortuiti: non
+<lb ed="#L" n="103"/>autem ad corpus caeleste relatum. Cuius ratio est, quia
+<lb ed="#L" n="104"/>effectus fortuitus non est unus: et ideo non potest habere
+<lb ed="#L" n="105"/>causam per se aliquam virtutem naturalem, cum naturae
+<lb ed="#L" n="106"/>sit proprium tendere ad unum. Virtus autem caelestis est
+<lb ed="#L" n="107"/>causa agens, non per modum intellectus, sed per modum
+<lb ed="#L" n="108"/>naturae. Unde virtus caelestis, licet possit per modum 
+pas<lb ed="#L" break="no" n="109"/>sionis, ut dictum est , ad fossionem sepulcri instigare;
+<lb ed="#L" n="110"/>non tamen potest per se inclinare ad hoc totum, quod
+<lb ed="#L" n="111"/>iste effodiat sepulcrum et locum ubi est thesaurus. Agens
+<lb ed="#L" n="112"/>autem per intellectum, quia intelligentis est multa 
+ordi<lb ed="#L" break="no" n="113"/>nare in unum, potest esse causa inclinationis in hoc totum,
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Declaratur. Quia etiam homo qui sciret thesaurum ibi
+<lb ed="#L" n="115"/>esse, posset ignorantem mittere ad fodiendum sepulcrum
+<lb ed="#L" n="116"/>in loco thesauri, ut illum praeter intentionem suam 
+in<lb ed="#L" break="no" n="117"/>veniret, ,
+</p>
+            <p>
+               <lb ed="#L" n="118"/>IX. Circa hoc duplex occurrit dubium. Primum est,
+<lb ed="#L" n="119"/>quia Sanctus Thomas, in VI Metaphys., videtur 
+oppo<lb ed="#L" break="no" n="120"/>situm dicere eius quod hic dicitur. Nam ibi ait quod
+<lb ed="#L" n="121"/>multi effectus per accidens in istis inferioribus inventi, si
+<lb ed="#L" n="122"/>in causam caelestem referantur, inveniuntur non esse per
+<lb ed="#L" n="123"/>accidens. Hic vero dicitur quod, cum aliqui effectus per |
+<lb ed="#L" n="124"/>accidens coniunguntur, talis coniunctionis nulla causa 
+na<lb ed="#L" break="no" n="125"/>turalis per se causa esse potest: et per consequens neque
+<lb ed="#L" n="126"/>virtus corporis caelestis. Constat autem haec opposita esse.
+</p>
+            <p>
+               <lb ed="#L" n="127"/>Videtur etiam opponi ei quod in principio capituli 
+di<lb ed="#L" break="no" n="128"/>ctum est, scilicet quod potest contingere aliquid praeter
+<lb ed="#L" n="129"/>intentionem hominis, quod tamen est. secundum ordinem
+<lb ed="#L" n="130"/>corporum caelestium. Quod enim est secundum corporum
+<lb ed="#L" n="131"/>caelestium ordinem, non est fortuitum per comparationem
+<lb ed="#L" n="132"/>ad corpora caelestia.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>2. Secundum dubium est , quia quod hic dicitur de
+<lb ed="#L" n="134"/>agente per intellectum, scilicet quod potest esse causa 
+in<lb ed="#L" break="no" n="135"/>clinationis in hoc totum, scilicet quod iste fodiat 
+sepul<lb ed="#L" break="no" n="136"/>crum et locum thesauri, videtur contradicere ei quod 
+su<lb ed="#L" break="no" n="137"/>perius  dixit, nom posse adiuvari hominem in hoc quod
+<lb ed="#L" n="138"/>detur ei virtus ad inveniendum thesaurum.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>X. Ad evidentiam primi dubii, considerandum primo
+<lb ed="#L" n="140"/>est quod, cum nullum ens per accidens, inquantum per
+<lb ed="#L" n="141"/>accidens est, habeat causam per se; nullus effectus per
+<lb ed="#L" n="142"/>accidens in comparatione ad unam causam, potest esse
+<lb ed="#L" n="143"/>per se in ordine ad aliam causam, nisi amittat in ordine
+<lb ed="#L" n="144"/>ad ipsam rationem entis per accidens. Si autem illam 
+ra<lb ed="#L" break="no" n="145"/>tionem amittat, et accipiat rationem entis per se, potest
+<lb ed="#L" n="146"/>ab illa causa per se dependere.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>2. Considerandum secundo, quod aliter loquendum est
+<lb ed="#L" n="148"/>de effectibus in eventibus humanis provenientibus: et aliter
+<lb ed="#L" n="149"/>de effectibus naturalibus. Nam effectus qui fortuito 
+ac<lb ed="#L" break="no" n="150"/>cidunt hominibus, non solum per accidens se habent ad
+<pb ed="#L" n="285"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>effectum intentum ab homine, faciuntque cum illo unum
+<lb ed="#L" n="2"/>per accidens; sed etiam per accidens se habent ad effectum
+<lb ed="#L" n="3"/>ad quem corpora caelestia inclinant. Puta, cum homo 
+fo<lb ed="#L" break="no" n="4"/>diens sepulcrum praeter suam intentionem invenit 
+thesau<lb ed="#L" break="no" n="5"/>rum, ista thesauri inventio per accidens se babet ad 
+fos<lb ed="#L" break="no" n="6"/>sionem sepulcri intentam ab Ifomine inquantum buiusmodi,
+<lb ed="#L" n="7"/>et secundum se ad illam fossionem ordinem non habet,
+<lb ed="#L" n="8"/>tanquam ipsam per se concomitetur, cum videamus pro
+<lb ed="#L" n="9"/>minori parte illa duo coniungi. Per accidens etiem se
+<lb ed="#L" n="10"/>habet ad illam fossionem sepulcri inquantum bomo ex
+<lb ed="#L" n="11"/>inclinatione caelesti sepulcrum fodit: cum raro eveniat ut
+<lb ed="#L" n="12"/>qui ex inclinatione caelesti sepulcrum fodit, inveniat 
+the<lb ed="#L" break="no" n="13"/>saurum.-— In effectibus autem naturalibus, invenitur quod
+<lb ed="#L" n="14"/>aliquis effectus per accidens se babet ad proprium effectum
+<lb ed="#L" n="15"/>alicuius causae inquantum est illius effectus, qui tamen ad
+<lb ed="#L" n="16"/>illum effectum ut a causa caelesti provenit, per se ordinem
+<lb ed="#L" n="17"/>habet. Sicut floritio unius herbae alia herba florente , ad
+<lb ed="#L" n="18"/>floritionem alterius herbae, inquantum a virtute illius herbae
+<lb ed="#L" n="19"/>provenit, secundum se ordinem non habet, sed per 
+ac<lb ed="#L" break="no" n="20"/>cidens se habet ad illam, cum virtus unius herbae 
+causali<lb ed="#L" break="no" n="21"/>tatem nullam habeat super floritionem alterius: quia tamen
+<lb ed="#L" n="22"/>potest esse ut ab una virtute caelesti proveniat utriusque
+<lb ed="#L" n="23"/>herbae floritio eodem tempore, ideo floritio unius, quae
+<lb ed="#L" n="24"/>per accidens erat in comparatione ad floritionem alterius
+<lb ed="#L" n="25"/>ut est ipsius herbae proprius effectus, in comparatione ad
+<lb ed="#L" n="26"/>ipsammet floritionem prout a virtute caelesti dependet,
+<lb ed="#L" n="27"/>habet ordinem per se, eo quod sese aut semper aut pro
+<lb ed="#L" n="28"/>maiori parte concomitentur, tanquam ab una et eadem
+<lb ed="#L" n="29"/>causa provenientes.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>3. Ex iis sequitur quod, cum in eventibus humanis id
+<lb ed="#L" n="31"/>quod est unum per accidens, comparatum ad corpus 
+cae<lb ed="#L" break="no" n="32"/>leste, non amittat rationem per accidens uniti et coniuncti
+<lb ed="#L" n="33"/>cum effectu ab homine intento, cum virtus caelestis 
+di<lb ed="#L" break="no" n="34"/>recte non segat super voluntatem humanam, quae locum
+<lb ed="#L" n="35"/>principalis agentis inter causas creatas tenet respectu illius
+<lb ed="#L" n="36"/>effectus ad quem fortuitus eventus consequitur; et eventus
+<lb ed="#L" n="37"/>fortuitus raro effectui intento coniungatur: non potest
+<lb ed="#L" n="38"/>habere unam causam caelestem per se utriusque effectus
+<lb ed="#L" n="39"/>coniunctionem intendentem. Sed bene aliquis effectus
+<lb ed="#L" n="40"/>naturalis qui, in ordine ad aliquam causam particularem,
+<lb ed="#L" n="41"/>est unum cum alio per accidens, potest, in ordine ad
+<lb ed="#L" n="42"/>causam caelestem, esse unum per se cum illo. Ideo potest
+<lb ed="#L" n="43"/>habere unam causam per se naturalem, quae sit una
+<lb ed="#L" n="44"/>virtus caelestis.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>XI. Ad dubium ergo dicitur primo, quod ea quae dicit
+<lb ed="#L" n="46"/>Sanctus Thomas in VI Metaphys., non contradicunt iis
+<lb ed="#L" n="47"/>quae hic dicuntur. Quia ibi loquitur in effectibus 
+patu<lb ed="#L" break="no" n="48"/>ralibus, in quibus possunt aliqui effectus inveniri qui, licet
+<lb ed="#L" n="49"/>non babeant.ordinem per se in comparatione ad causas
+<lb ed="#L" n="50"/>particulares, possunt tamen babere ordinem per se in 
+com<lb ed="#L" break="no" n="51"/>paratione ad causam caelestcm. Hic autem loquitur in
+<lb ed="#L" n="52"/>eventibus humanis, in quibus effectus non habentes 
+or<lb ed="#L" break="no" n="53"/>dinem inter se, non possunt babere ordinem per se etiam
+<lb ed="#L" n="54"/>ad causam caelestem ordinati.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Et si aliquando videatur Sanctus Thomas dicere quod
+<lb ed="#L" n="56"/>impossibile est aliquam virtutem caelestem esse causam
+<lb ed="#L" n="57"/>eorum quae hic aguntur per accidens, sive a casu sive a
+<lb ed="#L" n="58"/>fortuna, in quo. et effectus naturales videtur includere, ut
+<lb ed="#L" n="59"/>maxime videtur baberi Prima, q. cxvr, a. 1: — dicitur quod
+<lb ed="#L" n="60"/>non intendit absolute nullum eorum quae hic per accidens
+<lb ed="#L" n="61"/>fiunt, posse a virtute caelesti per se procedere; sed quod,
+<lb ed="#L" n="62"/>inquantum per accidens est et casuale secundum esse quod
+<lb ed="#L" n="63"/>habet extra intellectum, et nullum per se ordinem babens,
+<lb ed="#L" n="64"/>non potest reduci in causam caelestem, sed bene in causam
+<lb ed="#L" n="65"/>intelligentem reduci potest, quae in illis quae nullum per
+<lb ed="#L" n="66"/>se ordinem habent in natura, potest ordinem ponere 
+se<lb ed="#L" break="no" n="67"/>cundum quod per intellectum apprehenduntur. Hunc 
+sen<lb ed="#L" break="no" n="68"/>sum dat ipse intelligere dum Prima, q. cxv, a. 6, loquens
+<lb ed="#L" n="69"/>de concursu per accidens causae alicuius impedientis 
+ac<lb ed="#L" break="no" n="70"/>tionem alterius causae, inquit quod falis concursus non
+<lb ed="#L" n="71"/>habet causam inquantum est per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>2. Dicitur secundo, quod ea quae in principio capituli
+<lb ed="#L" n="73"/>dicuntur, non contradicunt iis quae hic dicuntur . 
+Du<lb ed="#L" break="no" n="74"/>pliciter enim potest intelligi aliquid esse secumdum 
+or<lb ed="#L" break="no" n="75"/>dinem corporis caelestis. Uno modo, directe et per se:
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>quo modo scilicet virtus caelestis aut est causa illius per
+<lb ed="#L" n="77"/>se immediate, aut est causa alicuius quod est per se illius
+<lb ed="#L" n="78"/>causa; sicut floritio herbae dicitur esse secundum ordinem
+<lb ed="#L" n="79"/>corporis caelestis. Alio modo, occasionaliter tantum et
+<lb ed="#L" n="80"/>indirecte: quando videlicet non est causa per se illius,
+<lb ed="#L" n="81"/>neque mediata neque immediata, sed est tantum causa 
+ali<lb ed="#L" break="no" n="82"/>cuius quod est illius alterius occasio, propinqua aut remota.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Cum ergo dicitur in principio capituli aliquid posse
+<lb ed="#L" n="84"/>contingere praeter intentionem hominis quod est secundum
+<lb ed="#L" n="85"/>ordinem caelestium corporum, intelligitur de ordine caeli
+<lb ed="#L" n="86"/>occasionaliter. Dicitur enim caelum ordinare ad aliquod
+<lb ed="#L" n="87"/>commodum vel incommodum, inquantum, imprimendo
+<lb ed="#L" n="88"/>in corpus, voluntatem aliquo modo inclinat ad eligendum
+<lb ed="#L" n="89"/>aliquid ex quo provenit sibi utilitas. Quem sensum dat
+<lb ed="#L" n="90"/>intelligere etiam hoc loco, dum inquit homini contingere
+<lb ed="#L" n="91"/>bene aut male secundum fortunam ex corpore caelesti, 
+in<lb ed="#L" break="no" n="92"/>quantum ab ipso disponitur ad eligendum aliquid cui 
+con<lb ed="#L" break="no" n="93"/>iunctum est aliquod commodum vel incommodum. Hoc
+<lb ed="#L" n="94"/>autem non repugnat ei quod dictum est, tale commodum
+<lb ed="#L" n="95"/>vel incommodum fortuitum esse ad caelum relatum. - Cum
+<lb ed="#L" n="96"/>autem probatur quia quod est secundum ordinem 
+cor<lb ed="#L" break="no" n="97"/>porum caelestium, non est fortuitum per comparationem
+<lb ed="#L" n="98"/>ad ipsa: — dicitur quod illud est verum de eo quod est 
+se<lb ed="#L" break="no" n="99"/>cundum ordinem ipsorum directe et per se, non autem
+<lb ed="#L" n="100"/>de eo quod est secundum ordinem ipsorum occasicnaliter.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>XII. Ad secundum dubium  respondetur quod 
+dupli<lb ed="#L" break="no" n="102"/>citer potest intelligi inclinari hominem ad illud totum.
+<lb ed="#L" n="103"/>Uno modo, accipiendo virtutem per quam habeat ordinem
+<lb ed="#L" n="104"/>ad illius totius effectus productionem. Et ad hunc sensum
+<lb ed="#L" n="105"/>intelligitur quod dictum est superius, non posse dari 
+ho<lb ed="#L" break="no" n="106"/>mini virtutem ad inventionem thesauri: quae scilicet sit
+<lb ed="#L" n="107"/>virtus executiva in membris existens. - Alio modo, ex eo
+<lb ed="#L" n="108"/>quod ad totum effectum movetur ex intentione alicuius
+<lb ed="#L" n="109"/>causae moventis, licet non totus effectus sit secundum
+<lb ed="#L" n="110"/>propriam ipsius intentionem, sed tantum aliqua pars eius.
+<lb ed="#L" n="111"/>Et sic intelligitur hoc loco. Constat autem haec 
+opposi<lb ed="#L" break="no" n="112"/>tionem non habere.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>XIII. Secundum quod dubitari posset , est. Quia enim
+<lb ed="#L" n="114"/>dictum est hcminem esse bene fortunatum ex caelo et
+<lb ed="#L" n="115"/>ex Deo, quaerere aliquis posset an homo dicatur ex caelo
+<lb ed="#L" n="116"/>universaliter fortunatus: ita scilicet quod in sua natura
+<lb ed="#L" n="117"/>habeat impressionem caelestem ad eligendum semper vel
+<lb ed="#L" n="118"/>in pluribus aliqua quibus commoda coniungantur per 
+ac<lb ed="#L" break="no" n="119"/>cidens ?
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Respondet Sanctus Thomas quod ex una virtute 
+cae<lb ed="#L" break="no" n="121"/>lesti non potest quis esse universaliter bene fortunatus,
+<lb ed="#L" n="122"/>sed solum quantum ad hoc vel ad illud. Quia natura non
+<lb ed="#L" n="123"/>ordinatur nisi ad unum. Ea autem secundum quae accidit
+<lb ed="#L" n="124"/>homini bene vel male secundum fortunam, non sunt 
+re<lb ed="#L" break="no" n="125"/>ducibilia in aliquid unum, sed sunt tnfinita et 
+indetermi<lb ed="#L" break="no" n="126"/>nata, ut II Physicorum dicitur, et ad sensum patet. Sed bene
+<lb ed="#L" n="127"/>potest esse universaliter fortunatus ita quod ex una 
+cae<lb ed="#L" break="no" n="128"/>lesti inclinatione inclinetur ad eligendum aliquid cui per
+<lb ed="#L" n="129"/>accidens coniungatur aliquod commodum; et ex alia 
+in<lb ed="#L" break="no" n="130"/>clinatione aliud; et ex tertia tertium; et sic de aliis. — Ex
+<lb ed="#L" n="131"/>una vero divina dispositione potest homo ad omnia dirigi:
+<lb ed="#L" n="132"/>et per consequens, esse universaliter bene fortunatus.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>2. Ad evidentiam huius responsionis, considerandum
+<lb ed="#L" n="134"/>est quod differt virtus naturalis corporum caelestium a
+<lb ed="#L" n="135"/>virtute divina qua Deus aliqua in inferioribus ordinat et
+<lb ed="#L" n="136"/>disponit. Virtus enim caelestis, cum sit naturalis, non 
+po<lb ed="#L" break="no" n="137"/>test, una existens, ad multa inclinare quae in aliquod unum
+<lb ed="#L" n="138"/>per se non uniantur: quia virtus naturae ad unum tendit.
+<lb ed="#L" n="139"/>Virtus autem divina qua res ordinat, est sua conceptio,
+<lb ed="#L" n="140"/>qua universaliter cuncta disponit. Et quia Deus unico 
+con<lb ed="#L" break="no" n="141"/>ceptu omnia apprehendit et intuetur, atque distincta et
+<lb ed="#L" n="142"/>multa in unum ordinat, ideo unica dispositione omnia
+<lb ed="#L" n="143"/>providet et gubernat. Propter hoc bene dicitur quod per
+<lb ed="#L" n="144"/>unicam virtutem caelestem non potest homo esse 
+univer<lb ed="#L" break="no" n="145"/>saliter bene fortunatus, quasi ex unica impressione 
+cae<lb ed="#L" break="no" n="146"/>lesti inclinetur semper ad eligendum utilia; sed bene ex
+<lb ed="#L" n="147"/>una divina dispositione et ordinatione potest homo esse
+<lb ed="#L" n="148"/>ordinatus ad eligendum semper, aut pro maiori parte, ea
+<lb ed="#L" n="149"/>quae sibi utilia sunt; et sic esse universaliter bene 
+for<lb ed="#L" break="no" n="150"/>tunatus, dum ad omnes suas electiones, aut ad maiorem
+<pb ed="#L" n="286"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>partem, ipsam praeter eius intentionem aliqua commoda
+<lb ed="#L" n="2"/>consequuntur.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>XIV. Ex his quae dicta sunt, patet non esse omnino
+<lb ed="#L" n="4"/>removendum quin homo possit ex caelo bene aut male
+<lb ed="#L" n="5"/>fortunatus dici, ut voluit Ioannes Picus , vir alioquin
+<lb ed="#L" n="6"/>omnifariam eruditissimus. Nec ratio quam assumit ex hoc
+<lb ed="#L" n="7"/>capite, hoc probat: quia videlicet effectus fortuitus cum
+<lb ed="#L" n="8"/>effectu intento non est unum per se, sed tantum per 
+acci<lb ed="#L" break="no" n="9"/>dens; effectus autem qui est unus per accidens, non potest
+<lb ed="#L" n="10"/>in unam causam naturalem reduci. Nam, ut exposuimus ,
+<lb ed="#L" n="11"/>ex hac ratione non infertur nisi quod aggregatum ex elfectu
+<lb ed="#L" n="12"/>intento et fortuito non est ab alidua virtute caelesti, et per
+<lb ed="#L" n="13"/>consequens quod non potest sic aliquis dici ex caelo for-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="14"/>tanatus quasi ad illud totum ex siderum impressione 
+incli<lb ed="#L" break="no" n="15"/>netur: quod utique concedimus, et est de mente Sancti
+<lb ed="#L" n="16"/>Thomae. Sed per hanc rationem non probatur non posse
+<lb ed="#L" n="17"/>hominem esse occasionaliter a caelo et siderum 
+posi<lb ed="#L" break="no" n="18"/>tione fortunatum, inquantum ex aliquo siderum afflatu ad
+<lb ed="#L" n="19"/>aliquas electiones occasionaliter inclinatur, ad quae aliqua
+<lb ed="#L" n="20"/>sequuntur commoda. Immo vult Sanctus Thomas hominem
+<lb ed="#L" n="21"/>hoc pacto posse dici. ex corporum caelestium impressione
+<lb ed="#L" n="22"/>fortunatum. Et ad hunc sensum intelligenda sunt verba
+<lb ed="#L" n="23"/>Augustini, V de Civ. Dei, inquientis non- usquequaque
+<lb ed="#L" n="24"/>absurde dici posse ad solas corporum differentias afflatus
+<lb ed="#L" n="25"/>quosdam valere sidereos, ex quibus videlicet corporum
+<lb ed="#L" n="26"/>differentiis humanae actiones occasionari possunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

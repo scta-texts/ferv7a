@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 27</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 27</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="83"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1928"><!-- ferv7a-l3c27 -->
+            <head xml:id="ferv7a-d1e1928-Hd1e101">Capitulum 27</head>
+            <p xml:id="ferv7a-d1e1928-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="13" type="fixed=83"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="14"/>POSTQUAM ostendit Sanctus Thomas quod intelligere Deum
+<lb ed="#L" n="15"/>est finis intellectualis naturae et eius felicitas, vult nunc,
+<lb ed="#L" n="16"/>ascendendo secundum ordinem bonorum, excludere falsas
+<lb ed="#L" n="17"/>de felicitate opiniones . Circa hoc autem duo facit: primo,
+<lb ed="#L" n="18"/>excludit falsas opiniones; secundo, concludit veritatem per .
+<lb ed="#L" n="19"/>inductionem, capite xxxvi.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e128">
+               <lb ed="#L" n="20"/>Circa primum quatuor facit: primo, ostendit quod 
+fe<lb ed="#L" break="no" n="21"/>licitas non consistit in voluptate; secundo, quod non in
+<lb ed="#L" n="22"/>bonis exterioribus, cap. seq.; tertio, quod non in bonis
+<lb ed="#L" n="23"/>corporis, cap. xxxii; quarto, quod. non in bonis animi
+<lb ed="#L" n="24"/>quantum ad aliquas animae operationes, cap. xxxi.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e141">
+               <lb ed="#L" n="25"/>I. Quantum ad primum, ostendit quod felicitas in 
+de<lb ed="#L" break="no" n="26"/>lectationibus sensibilibus non consistit, inter quas 
+praeci<lb ed="#L" break="no" n="27"/>puae sunt in cibis et venereis constitutae.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e151">
+               <lb ed="#L" n="28"/>Et arguit primo sic, Operationes quas consequuntur
+<lb ed="#L" n="29"/>huiusmodi. delectationes, non sunt ultimus finis, sed ad
+<lb ed="#L" n="30"/>alios fines ordinantur: ut comestio ad conservationem
+<lb ed="#L" n="31"/>corporis, coitus ad generationem. Ergo neque sunt ultimus
+<lb ed="#L" n="32"/>finis, neque ultimum finem concomitantur. Ergo etc. —
+<lb ed="#L" n="33"/>Probatur prima consequentia. Quia, ut ostensum est, 
+se<lb ed="#L" break="no" n="34"/>cundum naturae ordinem delectatio est dm tes 
+opera<lb ed="#L" break="no" n="35"/>otc non e converso.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e171">
+               <lb ed="#L" n="36"/>Secundo. In actu voluntatis ; non consistit felicitas. Ergo
+<lb ed="#L" n="37"/>multo minus in delectationibus huiusmodi, quae sunt in
+<lb ed="#L" n="38"/>appetitu sensitivo : cum voluntas sit superior appetitu
+<lb ed="#L" n="39"/>sensitivo.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e182">
+               <lb ed="#L" n="40"/>Tertio: et est ratio <ref xml:id="ferv7a-d1e1928-Rd1e186">Aristotelis, I Ethicorum</ref> . 
+Delecta<lb ed="#L" break="no" n="41"/>tiones huiusmodi sunt communes hominibus et brutis. Ergo
+<lb ed="#L" n="42"/>etc, — Patet consequentia. Quia felicitas est bonum 
+ho<lb ed="#L" break="no" n="43"/>minis proprium, et aon convenit brutis nisi abusive.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e195">
+               <lb ed="#L" n="44"/>Quarto. Huiusmodi delectationes non conveniunt 
+ho<lb ed="#L" break="no" n="45"/>mini secundum id quod est nobilissimum in ipso, quod -
+<lb ed="#L" n="46"/>est intellectus. Ergo etc. - Probatur consequentia. Quia
+<lb ed="#L" n="47"/>ultimus finis est nobilissimum eorum quae ad rem 
+per<lb ed="#L" break="no" n="48"/>tinent.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e208">
+               <lb ed="#L" n="49"/>Quinto. Tales delectationes consistunt'in hoc quod
+<lb ed="#L" n="50"/>homo coniungitur aliquibus se inferioribus. Ergo etc. —
+<lb ed="#L" n="51"/>Probatur consequentia. Summa perfectio hominis est per
+<lb ed="#L" n="52"/>hoc quod coniungitur rei altiori se, non autem inferiori:
+<lb ed="#L" n="53"/>cum finis sit melior eo quod est ad finem.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e221">
+               <lb ed="#L" n="54"/>2. Circa: istam propositionem, Finis est melior iis quae
+<lb ed="#L" n="55"/>sunt ad finem, dubium occurrit. Quia, ut superius , de
+<lb ed="#L" n="56"/>mente Aristotelis , dictum est, unumquodque est propter
+<lb ed="#L" n="57"/>suam operationem tanquam propter finem. Operatio autem
+<lb ed="#L" n="58"/>non est melior operante: cum noh sit subsistens, sicut
+<lb ed="#L" n="59"/>est ipsum operans.  -
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e238">
+               <lb ed="#L" n="60"/>Respondetur. quod, cum. Metsin sit finis; scilicet 
+eex<lb ed="#L" break="no" n="61"/>trinsecus et intrinsecus, ista. propositio intelligitur de fine
+<lb ed="#L" n="62"/>extrinseco et principali, cui res appetit: coniungi, et. ad
+<lb ed="#L" n="63"/>quem res tanquam ad suum finem ordinatur. Operatio
+<lb ed="#L" n="64"/>autem non est finis extrinsecus, sed intrinsecus, 
+inquan<lb ed="#L" break="no" n="65"/>tum per ipsam res suo fini exteriori coniungitur. Ideo
+<lb ed="#L" n="66"/>non oportet ipsam secundum se esse nobiliorem operante:
+<lb ed="#L" n="67"/>licet sit aliquo modo nobilior ipso, inquantum est 
+exte<lb ed="#L" break="no" n="68"/>rioris finis assecutio. |
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e260">
+               <lb ed="#L" n="69"/>3. Sexto. Usus harum delectationum non est bonus 
+ho<lb ed="#L" break="no" n="70"/>mini nisi sit moderatus: quia aliter se mutuo impedirent,
+<lb ed="#L" n="71"/>Ergo non sunt secundum se bonum hominis. Ergo etc. —
+<lb ed="#L" n="72"/>Probatur prima consequentia. Quia quod non est bonum
+<lb ed="#L" n="73"/>nisi secundum quod. est moderatum, non est secundum
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="74"/>se bonum, sed accipit bonitatem a moderante. — Secunda
+<lb ed="#L" n="75"/>probatur. Quia quod est summum, bonum, est per se
+<lb ed="#L" n="76"/>bonum.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e282">
+               <lb ed="#L" n="77"/>Septimo: et est confirmatio praecedentis. Maxime uti
+<lb ed="#L" n="78"/>iis delectationibus non est optimum: cum nimius usus
+<lb ed="#L" n="79"/>ipsarum reputetur in vitium, et sit corpori nocivus, et
+<lb ed="#L" n="80"/>similium delectationum impeditivus. Ergo non sunt per
+<lb ed="#L" n="81"/>se bonum. Ergo etc. — Probatur prima consequentia.
+<lb ed="#L" n="82"/>Quia in omnibus quae per se dicuntur, sequitur magis
+<lb ed="#L" n="83"/>ad magis, si simpliciter sequatur ad simpliciter.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e300">
+               <lb ed="#L" n="84"/>Adverte quod Sanctus ''homas non dixit absolute quod
+<lb ed="#L" n="85"/>in omnibus in quibus simpliciter sequitur ad simpliciter,
+<lb ed="#L" n="86"/>magis sequatur ad magis, sed dixit, in omnibus quae per
+<lb ed="#L" n="87"/>se dicuntur: quia in iis quae dicuntur per accidens, illa
+<lb ed="#L" n="88"/>regula, quae est Philosophi, non habet veritatem. Nor
+<lb ed="#L" n="89"/>enim valet, ut inferius dicitur, cap. cxxxix, Album est
+<lb ed="#L" n="90"/>musicum, Ergo. magis album est magis musicum. Sed
+<lb ed="#L" n="91"/>bene .valet, Album est disgregativum visus, Ergo magis
+<lb ed="#L" n="92"/>album est magis disgregativum.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e322">
+               <lb ed="#L" n="93"/>Octavo. Si ita esset, actus virtutis esset magis 
+lauda<lb ed="#L" break="no" n="94"/>bilis in accedendo ad has delectationes quam in 
+rece<lb ed="#L" break="no" n="95"/>dendo ab eis: quia ex hoc actus virtutis laudabiles sunt
+<lb ed="#L" n="96"/>quod. ad felicitatem : ordinantur. Sed hoc est falsum: ut
+<lb ed="#L" n="97"/>patet in actu temperantiae. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e335">
+               <lb ed="#L" n="98"/>Nono. Per delectationes praedictas homo impeditur a
+<lb ed="#L" n="99"/>maxima appropinquatione ad Deum, quae fit per 
+contem<lb ed="#L" break="no" n="100"/>plationem. Ergo etc. — Probatur consequentia. Quia illud
+<lb ed="#L" n="101"/>est finis, scilicet intrinsecus, horhinis, per quod maxime
+<lb ed="#L" n="102"/>appropinquatur ad Deum, qui est finis ultimus, scilicet
+<lb ed="#L" n="103"/>extrinsecus.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e352">
+               <lb ed="#L" n="104"/>II Ex iis, inquit Sanctus Thomas, excluditur. 
+Epicu<lb ed="#L" break="no" n="105"/>reorum error, in quorum persona loquitur Salomon, Eccle. v,
+<lb ed="#L" n="106"/>Hoc itaque visum etc., et Sap. ut, Ubique relinquamus etc. ;
+<lb ed="#L" n="107"/>et error Cerinthianorum, qui et Chiliastae sunt appellati,
+<lb ed="#L" n="108"/>quasi Millenarii, eo quod mille annos voluptatum 
+carna<lb ed="#L" break="no" n="109"/>lium post resurrectionem futuros fabulantur. Excluduntur
+<lb ed="#L" n="110"/>etiam fabulae Iudaeorum et Saracenorum, qui retributiones
+<lb ed="#L" n="111"/>iustorum in praedictis voluptatibus ponunt.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e372">
+               <lb ed="#L" n="112"/>III. Advertendum quod ponentium felicitatem in 
+volup<lb ed="#L" break="no" n="113"/>tate. consistere, aliqui immoderatas et excessivas 
+volup<lb ed="#L" break="no" n="114"/>tates, secundum quem modum illis-utentes vitiosi dicuntur;
+<lb ed="#L" n="115"/>esse felicitatem posuerunt: ut vulgus, qui ad hoc ducitur,
+<lb ed="#L" n="116"/>ut inquit <ref xml:id="ferv7a-d1e1928-Rd1e385">Philosophus, I Eth.</ref> , <quote xml:id="ferv7a-d1e1928-Qd1e387">eo quod videat complures
+<lb ed="#L" n="117"/>principes, qui maxime felices.esse videntur, instar 
+Sarda<lb ed="#L" break="no" n="118"/>napali vitam voluptuosam agere</quote>.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e395">
+               <lb ed="#L" n="119"/>2. Alii vero posuerunt felicitatem in voluptate "——
+<lb ed="#L" n="120"/>rata reoail ihe: ut Epicurus et Aristippus , et alii philosophi
+<lb ed="#L" n="121"/>istorum sectatores; Nam de Ejpicureis inquit Sanctus
+<lb ed="#L" n="122"/>Thomas, I £thic., lect. 5; quod maxime colebant 
+vir<lb ed="#L" break="no" n="123"/>tutes, eo quod viderent multa vitia esse voluptati 
+impe<lb ed="#L" break="no" n="124"/>dimento. Ait etiam Torquatus, apud Ciceronem, in Libro
+<lb ed="#L" n="125"/>de Finibus Bonorum et Malorum , voluisse Epicurum non
+<lb ed="#L" n="126"/>posse iucunde vivi nisi sapienter, honeste, iusteque vivatur:
+<lb ed="#L" n="127"/>nec sapienter, honeste, iuste, nisi iucunde.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e417">
+               <lb ed="#L" n="128"/>Movebantur autem iis rationibus ad ponendam 
+volupta<lb ed="#L" break="no" n="129"/>tem summum bonum. Primo, quia omnia appetunt 
+vo<lb ed="#L" break="no" n="130"/>luptatem: et pueri, inquam, et infantes, et bruta. — Secundo;
+<lb ed="#L" n="131"/>quia-dolor est summium malum, et maxime fugiendum. -
+<lb ed="#L" n="132"/>Tertio, quia omnia ad voluptatem videntur ordinari, etiam
+<lb ed="#L" n="133"/>virtutes ipsae.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e433">
+               <pb ed="#L" n="84"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>3. Sed ad primam harum dicitur, de mente Sancti: 
+Tho<lb ed="#L" break="no" n="2"/>mae E II, q. mr a. 6, ad 3; et IV Sent., d. xvix, q. rt,
+<lb ed="#L" n="3"/>quod licet omnia appetant voluptatem, non tamen
+<lb ed="#L" n="4"/>sequitur ipsam esse summum bonum: quia non appetunt
+<lb ed="#L" n="5"/>eam nisi.quia appetunt bonum cui voluptas: coniungitur.
+<lb ed="#L" n="6"/>Et sic voluptas a. natura ad bonum: ordinatur! ut 
+supe<lb ed="#L" break="no" n="7"/>rius  patuit, cum loquebamur de delectatione, — Huius
+<lb ed="#L" n="8"/>sententiae videtur etiam Cicero esse in loco allegato . Nam,
+<lb ed="#L" n="9"/>ad hanc respondens rationem, ait quod. zon ut. 
+volup<lb ed="#L" break="no" n="10"/>tatem expetat natura movet infantem, sed tantum ut
+<lb ed="#L" n="11"/>seipsum: diligat, ut integruin se salvumque velit; Omne:
+<lb ed="#L" n="12"/>enim animal, simul ut ortum est, et seipsum et omnes
+<lb ed="#L" n="13"/>suas partes diligit.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e468">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="14"/>Ad secundam rationem dicitur negando assumptum.
+<lb ed="#L" n="15"/>Non enim dolor est summum malum. Nec, omnis dolor
+<lb ed="#L" n="16"/>est fugiendus: ut patet in viro forti.
+</p>
+            <p xml:id="ferv7a-d1e1928-d1e480">
+               <lb ed="#L" n="17"/>Ad tertiam dicitur quod nom ordinantur omnia ad
+<lb ed="#L" n="18"/>voluptatem. Sed bene voluptas, extendendo nomen 
+volup<lb ed="#L" break="no" n="19"/>tatis ad delectationem etiam intellectualem, concomitatur
+<lb ed="#L" n="20"/>actum uniuscuiusque virtutis.— Loquendo autem de 
+volup<lb ed="#L" break="no" n="21"/>tate corporea, ut Epicurus loquebatur, falsissimum est
+<lb ed="#L" n="22"/>quod virtutes ad voluptatem ordinentur. Unde et falsum
+<lb ed="#L" n="23"/>est quodlibet, addita huiusmodi voluptate, fieri melius:
+<lb ed="#L" n="24"/>licet quodlibet bonum; addita delectatione, sit melius, 
+in<lb ed="#L" break="no" n="25"/>quantum delectatio est quies in bono adepto, et perficit
+<lb ed="#L" n="26"/>operationem sicut pulcritudo perficit iuventutem .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

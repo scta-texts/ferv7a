@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 6</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 6</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="16"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1757"><!-- ferv7a-l3c6 -->
+            <head xml:id="ferv7a-d1e1757-Hd1e101">Capitulum 6</head>
+            <p xml:id="ferv7a-d1e1757-d1e103">
+               <pb ed="#L" n="16"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>I bis. Positis obiectionibus contra determinationem 
+su<lb ed="#L" break="no" n="2"/>perius factam, accedit Sanctus Thomas ad earum 
+solutio<lb ed="#L" break="no" n="3"/>nem, suo ordine.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e116">
+               <lb ed="#L" n="4"/>Pro solutione autem primae rationis, praemittit quatuor.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e121">
+               <lb ed="#L" n="5"/>Primum est, quod ratio mali in aliqua substantia est
+<lb ed="#L" n="6"/>in privatione stricte et proprie accepta, quae scilicet est
+<lb ed="#L" n="7"/>eius quod nata est habere et debet habere, non autem in
+<lb ed="#L" n="8"/>privatione eius quod non est nata habere, aut non debet
+<lb ed="#L" n="9"/>habere: sicut homini malum est si non habeat manus,
+<lb ed="#L" n="10"/>non autem si non habeat alas, aut non habeat capillos
+<lb ed="#L" n="11"/>flavos.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e139">
+               <lb ed="#L" n="12"/>Secundum est, quod privatio formae comparata ad 
+ma<lb ed="#L" break="no" n="13"/>teriam, non est eius malum, sed bene est malum naturae
+<lb ed="#L" n="14"/>cuius est forma: sicut privatio formae ignis est malum
+<lb ed="#L" n="15"/>ignis, non autem materiae, Quia, licet materia nata sit
+<lb ed="#L" n="16"/>habere omnes formas, nulla tamen est ei debita, cum sine
+<lb ed="#L" n="17"/>una quavis earum possit esse in actu perfecta: quaelibet
+<lb ed="#L" n="18"/>tamen earum est debita alicui eorum quae sunt ex 
+ma<lb ed="#L" break="no" n="19"/>teria composita.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e160">
+               <lb ed="#L" n="20"/>Tertium est quod, cum tam privationes quam habitus
+<lb ed="#L" n="21"/>et formae non dicantur esse nisi secundum quod sunt
+<lb ed="#L" n="22"/>in subiecto, si privatio sit malum per comparationem ad
+<lb ed="#L" n="23"/>subiectum in quo est, erit malum simpliciter. Sin autem,
+<lb ed="#L" n="24"/>erit malum non simpliciter, sed alicuius.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e173">
+               <lb ed="#L" n="25"/>Quartum est, quod malum actionis est privatio ordinis
+<lb ed="#L" n="26"/>aut commensurationis debitae in actione, quando et 
+se<lb ed="#L" break="no" n="27"/>cundum quod debet inesse. Et talis privatio est 
+simpli<lb ed="#L" break="no" n="28"/>citer malum: quia cuilibet actioni est debitus aliquis ordo
+<lb ed="#L" n="29"/>et aliqua commensuratio.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e186">
+               <lb ed="#L" n="30"/>II. Ad evidentiam primi et secundi dicti, advertendum
+<lb ed="#L" n="31"/>quod hoc dicitur aliquid debitum alicui quod ad eius
+<lb ed="#L" n="32"/>integritatem et perfectionem requiritur, ita quod absque
+<lb ed="#L" n="33"/>eo non dicitur secundum suam speciem perfectum in 
+na<lb ed="#L" break="no" n="34"/>tura. Hoc autem esse potest tam ad essentiam substantiae,
+<lb ed="#L" n="35"/>quam etiam ad complementum et perfectionem aliquam
+<lb ed="#L" n="36"/>accidentalem, pertinens: homini enim debitum est quod
+<lb ed="#L" n="37"/>animam rationalem habeat; et quod habeat manus, si 
+de<lb ed="#L" break="no" n="38"/>beat dici perfectus homo in natura. Et ideo privatio huius
+<lb ed="#L" n="39"/>dicitur malum hominis: homo enim carens manibus est
+<lb ed="#L" n="40"/>imperfectus, et sic malum aliquod in ipso esse dicitur.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e212">
+               <lb ed="#L" n="41"/>2. Ad evidentiam tertii dicti, considerandum est quod,
+<lb ed="#L" n="42"/>cum forma habeat rationem boni inquantum dat esse, ut
+<lb ed="#L" n="43"/>dicitur Prima, qu. v, privatio illi opposita habet rationem
+<lb ed="#L" n="44"/>mali inquantum aufert aliquod esse. Idcirco, ad videndum
+<lb ed="#L" n="45"/>quomodo aliquod subiectum esse sub privatione sit malum
+<lb ed="#L" n="46"/>simpliciter aut non simpliciter, respiciendum est ad 
+mo<lb ed="#L" break="no" n="47"/>dum quo forma et privatio ad ipsum esse se habet. 
+Pro<lb ed="#L" break="no" n="48"/>pter hoc Sanctus Thomas, ut ostendat quomodo dicatur
+<lb ed="#L" n="49"/>malum aliquid simpliciter, accipit modum essendi 
+priva<lb ed="#L" break="no" n="50"/>tionis et habitus illi oppositi.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e236">
+               <lb ed="#L" n="51"/>Quia enim forma cui opponitur privatio, ut sic, et
+<lb ed="#L" n="52"/>privatio non habent esse nisi in subiecto, ad sanum 
+sen<lb ed="#L" break="no" n="53"/>sum loquendo de privatione, — dicitur enim habere esse
+<lb ed="#L" n="54"/>in subiecto quia negat a subiecto formam et esse, non
+<lb ed="#L" n="55"/>autem quia ipsa proprie habeat esse: est enim privatio,
+<lb ed="#L" n="56"/>communiter etiam accepta, carentia formae in aliquo 
+sub<lb ed="#L" break="no" n="57"/>iecto — ideo secundum quod ad subiectum diversimode se
+<lb ed="#L" n="58"/>habet, ita diversimode subiectum esse sub tali privatione
+<lb ed="#L" n="59"/>est malum. Quando enim privat a subiecto in quo est
+<lb ed="#L" n="60"/>formam illi subiecto debitam, tunc est malum subiecti ;
+<lb ed="#L" n="61"/>et ideo absolute malum est subiectum esse sub tali 
+pri<lb ed="#L" break="no" n="62"/>vatione, sicut absolute loquendo, absque alia additione,
+<lb ed="#L" n="63"/>malum est hominem non habere manum, quia carere manu
+<lb ed="#L" n="64"/>est malum in comparatione ad hominem. Quando autem
+<lb ed="#L" n="65"/>non privat a subiecto formam illi debitam, tunc non est
+<lb ed="#L" n="66"/>malum simpliciter subiectum esse sub tali privatione, cum
+<lb ed="#L" n="67"/>non sit illa privatio malum ut ad illud subiectum 
+com<lb ed="#L" break="no" n="68"/>paratur: dicitur enim malum alicuius simpliciter quod ad
+<lb ed="#L" n="69"/>ipsum comparatum est malum, non autem quod est 
+ma<lb ed="#L" break="no" n="70"/>lum ad alterum comparatum; sicut et bonum alicuius
+<lb ed="#L" n="71"/>simpliciter dicitur quod est bonum in comparatione ad
+<lb ed="#L" n="72"/>illud, non autem. quod est bonum in comparatione ad
+<lb ed="#L" n="73"/>aliud tantum. Potest tamen esse malum alicuius: sicut,
+<lb ed="#L" n="74"/>quia carere forma substantiali aeris non est malum 
+ma<lb ed="#L" break="no" n="75"/>teriae, cum non tollat formam materiae debitam, iuxta
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>praedicta, materiam carere forma aeris non est absolute
+<lb ed="#L" n="77"/>malum, sed est malum aeris, quia ex eo quod materia
+<lb ed="#L" n="78"/>non habet formam aeris, tollitur aeris natura.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e301">
+               <lb ed="#L" n="79"/>III. Istis suppositis, respondet Sanctus Thomas ad 
+ob<lb ed="#L" break="no" n="80"/>iectionem factam . Quantum enim ad naturalia, dicitur
+<lb ed="#L" n="81"/>primo, quod non omne quod est praeter intentionem est
+<lb ed="#L" n="82"/>casuale et in paucioribus. Corruptio enim naturalis et 
+pri<lb ed="#L" break="no" n="83"/>vatio aliqua, quae sunt praeter intentionem generantis,
+<lb ed="#L" n="84"/>semper sequuntur generationem : licet privatio quandoque
+<lb ed="#L" n="85"/>non sit malum simpliciter, sed alicuius, ut dictum est.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e320">
+               <lb ed="#L" n="86"/>Dicitur secundo, quod non est universaliter verum 
+ma<lb ed="#L" break="no" n="87"/>lum esse ut in pluribus. Privatio enim quae privat 
+ali<lb ed="#L" break="no" n="88"/>quod debitum generato, est simpliciter malum et casualis,
+<lb ed="#L" n="89"/>ut cum nascuntur partus monstruosi: hoc enim non 
+con<lb ed="#L" break="no" n="90"/>sequitur de necessitate ad id quod intenditur, sed ei 
+re<lb ed="#L" break="no" n="91"/>pugnat;
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e336">
+               <lb ed="#L" n="92"/>Dicitur tertio, quod malum actionis consequitur 
+defe<lb ed="#L" break="no" n="93"/>ctum virtutis activae, et est praeter intentionem agentis
+<lb ed="#L" n="94"/>habentis virtutem defectivam. Sed non est casuale quando
+<lb ed="#L" n="95"/>agens vel semper vel frequenter talem defectum patitur:
+<lb ed="#L" n="96"/>quia sequitur de necessitate ad agentem sic deficientem.
+<lb ed="#L" n="97"/>Est autem casuale quando talis defectus raro 
+concomi<lb ed="#L" break="no" n="98"/>tatur agentem. :
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e354">
+               <lb ed="#L" n="99"/>2. Quantum ad voluntaria, dicitur primo, quod 
+ali<lb ed="#L" break="no" n="100"/>quando malum non est casuale, aliquando vero est 
+ca<lb ed="#L" break="no" n="101"/>suale. Quando enim bonum particulare quod intenditur
+<lb ed="#L" n="102"/>in actione, habet coniunctam privationem boni secundum
+<lb ed="#L" n="103"/>rationem vel semper vel frequenter, ut delectationi 
+in<lb ed="#L" break="no" n="104"/>tentae ex usu feminae alterius coniuncta est inordinatio
+<lb ed="#L" n="105"/>adulterii, malum non sequitur casualiter. Quando autem
+<lb ed="#L" n="106"/>sequitur peccatum ut in paucioribus, malum est casuale:
+<lb ed="#L" n="107"/>sicut cum quis, proiiciens ad avem, hominem interficit.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e376">
+               <lb ed="#L" n="108"/>Dicitur secundo, quod idcirco huiusmodi bona ut in
+<lb ed="#L" n="109"/>pluribus intenduntur quibus privationes boni rationis 
+con<lb ed="#L" break="no" n="110"/>sequuntur, quia plures secundum sensum vivunt, eo quod
+<lb ed="#L" n="111"/>sensibilia particularia, in quibus est operatio, sint nobis
+<lb ed="#L" n="112"/>magis manifesta et efficacius moveant: ad plura autem
+<lb ed="#L" n="113"/>sensibilium bonorum sequitur privatio boni secundum
+<lb ed="#L" n="114"/>rationem. j
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e394">
+               <lb ed="#L" n="115"/>IV. Ad evidentiam eorum quae hic dicuntur, ut sciatur
+<lb ed="#L" n="116"/>quando malum in pluribus aut in paucioribus accidat,
+<lb ed="#L" n="117"/>primo videndum est quomodo hoc in naturalibus se 
+ha<lb ed="#L" break="no" n="118"/>beat; secundo, quomodo in voluntariis .
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e405">
+               <lb ed="#L" n="119"/>Quantum ad primum, sciendum, ex doctrina Sancti
+<lb ed="#L" n="120"/>Thomae Prima, q. rxur, a. 9, ad 1; Pot., q. ur, a. 6, ad 5;
+<lb ed="#L" n="121"/>II Sent., d. 1, q. 1, a. 1, ad 3, et d. xxxiv, [a. 3] ad 2, quod
+<lb ed="#L" n="122"/>in naturalibus malum considerari potest aut respectu 
+to<lb ed="#L" break="no" n="123"/>tius naturae; aut respectu alicuius determinatae speciei in
+<lb ed="#L" n="124"/>natura. Utro modo consideretur malum, est in paucioribus.
+<lb ed="#L" n="125"/>Respectu quidem totius naturae, patet: quia est tantum
+<lb ed="#L" n="126"/>in rebus corruptibilibus, quae, si considerentur in ratione
+<lb ed="#L" n="127"/>quantitatis continuae, sunt multo minora corporibus 
+cae<lb ed="#L" break="no" n="128"/>lestibus; omnia enim corpora corruptibilia simul sumpta
+<lb ed="#L" n="129"/>sunt multo minoris quantitatis quam sint corpora 
+caele<lb ed="#L" break="no" n="130"/>stia. Respectu etiam determinatae speciei patet: quia actio
+<lb ed="#L" n="131"/>semper secundum naturam evenit nisi impediatur; raro
+<lb ed="#L" n="132"/>autem accidit impedimentum. Unde videmus monstra pro
+<lb ed="#L" n="133"/>minori parte evenire in natura.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e441">
+               <lb ed="#L" n="134"/>Attendendum tamen quod, licet defectus naturae et
+<lb ed="#L" n="135"/>operationum eius in tota una specie pro minori parte
+<lb ed="#L" n="136"/>accidat, in uno tamen aliquo singulari potest contingere
+<lb ed="#L" n="137"/>defectus actionis pro maiori parte, propter defectum 
+vir<lb ed="#L" break="no" n="138"/>tutis aut instrumenti: sicut apparet in claudicante, et in
+<lb ed="#L" n="139"/>generante monstruosos filios pro maiori parte. Et ad hunc
+<lb ed="#L" n="140"/>sensum iritelligitur quod inquit hoc loco Sanctus Thomas,
+<lb ed="#L" n="141"/>quod malum consequitur semper aut frequenter in 
+natu<lb ed="#L" break="no" n="142"/>ralibus cum agens, scilicet singulare, vel semper vel 
+fre<lb ed="#L" break="no" n="143"/>quenter patitur virtutis: defectum. |
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e465">
+               <lb ed="#L" n="144"/>V. Quantum ad secundum, dicitur primo, quod in 
+an<lb ed="#L" break="no" n="145"/>gelis malum ut in paucioribus fuit. Quia pro maiori parte
+<lb ed="#L" n="146"/>secuta est operatio secundum convenientiam naturae, quae
+<lb ed="#L" n="147"/>est in ipsis tantum una et intellectualis: sicut et actio 
+na<lb ed="#L" break="no" n="148"/>turalis pro maiori parte sequitur secundum naturam.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e478">
+               <lb ed="#L" n="149"/>2. Dicitur secundo, quod in hominibus, considerata tota
+<lb ed="#L" n="150"/>natura speciei quantum ad factibilia, malum est in pau-
+<pb ed="#L" n="17"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cioribus: quia ars operatur per modum naturae, et sic 
+de<lb ed="#L" break="no" n="2"/>ficit in paucioribus, sicut et natura.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e494">
+               <lb ed="#L" n="3"/>Quantum vero ad agibilia et moralia, malum est in
+<lb ed="#L" n="4"/>pluribus. Quia, cum sensibilia particularia multiplicentur
+<lb ed="#L" n="5"/>magis, et sint pluribus nota, atque magis moveant quam
+<lb ed="#L" n="6"/>delectabilia secundum rationem, plures sequuntur 
+delecta<lb ed="#L" break="no" n="7"/>bilia secundum sensum, quae pro maiori parte habent 
+con<lb ed="#L" break="no" n="8"/>iunctam privationem boni rationis. Propter quod in ipsis
+<lb ed="#L" n="9"/>est malum hominis inquantum est homo: cum sit homo
+<lb ed="#L" n="10"/>per rationem, et consequenter debitum sit homini, 
+inquan<lb ed="#L" break="no" n="11"/>tum est homo, secundum rationem operari. Et ad hunc
+<lb ed="#L" n="12"/>sensum intelligitur quod inquit Aristoteles II Z'opicorum ,
+<lb ed="#L" n="13"/>malum ut in pluribus evenire; et quod hoc loco ait 
+San<lb ed="#L" break="no" n="14"/>ctus Thomas, quoniam ratio quare plures intendant bona
+<lb ed="#L" n="15"/>quibus privationes boni rationis coniunguntur, est quia
+<lb ed="#L" n="16"/>plures vivunt secundum sensum
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e527">
+               <lb ed="#L" n="17"/>3. Dicitur tertio quod, considerato uno individuo et 
+sin<lb ed="#L" break="no" n="18"/>gulari, si sit in eo voluntas per habitus virtutum perfecta,
+<lb ed="#L" n="19"/>malum evenit in paucioribus: quia habitus inclinat per
+<lb ed="#L" n="20"/>modum naturae, quae in paucioribus deficit. Si autem 
+vo<lb ed="#L" break="no" n="21"/>luntas sit per habitus vitiorum deformata, malum ut in
+<lb ed="#L" n="22"/>pluribus evenit: quia per huiusmodi habitus homo 
+con<lb ed="#L" break="no" n="23"/>ormatur brutis, quae pro maiori parte sequuntur naturae
+<lb ed="#L" n="24"/>impetum, ut inquit Boetius, in IV de Consol. prosa 3.
+<lb ed="#L" n="25"/>Et sic, cum operationes ab habitu vitii procedentes sint
+<lb ed="#L" n="26"/>malum hominis inquantum est homo, eo quod 
+contra<lb ed="#L" break="no" n="27"/>rientur rationi, sequitur quod talis pro maiori parte 
+ma<lb ed="#L" break="no" n="28"/>lum operetur. Si etiam voluntas nullo sit habitu perfecta,
+<lb ed="#L" n="29"/>cum, ut sic, ad utrumlibet se habeat; et mala pluribus
+<lb ed="#L" n="30"/>modis contingant quam bona; in pluribus flectitur in 
+ma<lb ed="#L" break="no" n="31"/>lum quam in id quod est perfecte et totaliter bonum;
+<lb ed="#L" n="32"/>supposito praesertim quod natura sit per peccatum vitiata.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e564">
+               <lb ed="#L" n="33"/>4. Dicitur quarto, de mente Sancti Thomae de Potentia,
+<lb ed="#L" n="34"/>loco allegato, quod, licet malum tam naturae quam moris,
+<lb ed="#L" n="35"/>comparando effectus ad communem causam, aliquando
+<lb ed="#L" n="36"/>pro maiori parte eveniat, sive natura in universali, sive in
+<lb ed="#L" n="37"/>aliquo singulari agente considerata; si tamen effectus ad
+<lb ed="#L" n="38"/>proprias causas comparentur, nunquam invenitur malum
+<lb ed="#L" n="39"/>nisi in paucioribus. Quamvis enim partus monstruosus, ad
+<lb ed="#L" n="40"/>virtutem generativam comparatus, absolute malum 
+quod<lb ed="#L" break="no" n="41"/>dam naturae sit, inquantum non sequitur naturae 
+ordi<lb ed="#L" break="no" n="42"/>nem; ad virtutem tamen generativam deficientem tali modo
+<lb ed="#L" n="43"/>comparatus, non est malum, cum sit secundum 
+inclina<lb ed="#L" break="no" n="44"/>tionem sui proprii principii; sed partus non monstruosus
+<lb ed="#L" n="45"/>erit malum illius virtutis sic deficientis, quia evenit praeter
+<lb ed="#L" n="46"/>eius inclinationem. Et cum illud raro eveniat, sequitur
+<lb ed="#L" n="47"/>quod effectus proprius illius causae pro minori parte 
+de<lb ed="#L" break="no" n="48"/>ficiat, et sic pro minori parte malum eveniat, ad propriam
+<lb ed="#L" n="49"/>causam comparatum. Similiter operatio circa delectabile
+<lb ed="#L" n="50"/>secundum sensum, comparata ad hominem absolute, est
+<lb ed="#L" n="51"/>mala: comparata tamen ad appetitum sensibilem et 
+natu<lb ed="#L" break="no" n="52"/>ram sensitivam, quae est illius propria causa, invenitur
+<lb ed="#L" n="53"/>bona, cum sit secundum talis naturae inclinationem; sicut
+<lb ed="#L" n="54"/>et in brutis appetitum sensibilem sequentibus est bona.
+<lb ed="#L" n="55"/>Ideo in huiusmodi operationibus circa sensibilia, ut ad
+<lb ed="#L" n="56"/>naturam sensitivam et appetitum sensibilem referuntur, in
+<lb ed="#L" n="57"/>paucioribus est malum, quia pro maiori parte cum 
+sen<lb ed="#L" break="no" n="58"/>sibili appetitu conveniunt: licet, ut ad rationem et 
+appe<lb ed="#L" break="no" n="59"/>titum rationalem, aut ad hominem absolute referuntur, pro
+<lb ed="#L" n="60"/>maiori parte in ipsis sit malum ; secundum quem sensum
+<lb ed="#L" n="61"/>superius? sumus locuti.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e630">
+               <lb ed="#L" n="62"/>Ex iis patet intellectus eorum quae inquit hoc loco
+<lb ed="#L" n="63"/>Sanctus Thomas, scilicet quod malum semper aut 
+fre<lb ed="#L" break="no" n="64"/>quenter accidit in operationibus ab agente deficiente 
+pro<lb ed="#L" break="no" n="65"/>venientibus, quando: tales defectus semper aut frequenter
+<lb ed="#L" n="66"/>virtutem agentis sequuntur. Hoc enim intelligitur 
+compa<lb ed="#L" break="no" n="67"/>rando ipsam actionem ad virtutem agentis absolute, puta
+<lb ed="#L" n="68"/>motum ad virtutem motivam: quia tunc, si defectus pro
+<lb ed="#L" n="69"/>maiori parte eam concomitetur, sequetur malum actionis
+<lb ed="#L" n="70"/>pro maiori parte. Si autem comparatio actionis fieret ad
+<lb ed="#L" n="71"/>virtutem ut est sub tali defectu, quo modo est causa 
+pro<lb ed="#L" break="no" n="72"/>pria actionis deficientis, tunc actio talis mala non erit
+<lb ed="#L" n="73"/>tanquam carens debito ordine: cum sibi ut a causa sic
+<lb ed="#L" n="74"/>deficiente provenit, non sit debitum habere perfectionem
+<lb ed="#L" n="75"/>qua caret; sicut nec malum est homini carere alarum per-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>fectione, cum non sit debitum ad hominis integritatem
+<lb ed="#L" n="77"/>habere alas.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e669">
+               <lb ed="#L" n="78"/>5. Attendendum autem quod in tota hac digressione 
+lo<lb ed="#L" break="no" n="79"/>quimur de malo simpliciter, ad sensum quem Sanctus
+<lb ed="#L" n="80"/>Thomas hic explicevits non autem de malo alicuius 
+al<lb ed="#L" break="no" n="81"/>terius tantum . Quia si de huiusmodi malo loqueremur,
+<lb ed="#L" n="82"/>omnem actionem, tam naturalem quam voluntariam, pro
+<lb ed="#L" n="83"/>maiori parte sequitur malum. Operationem enim bonam
+<lb ed="#L" n="84"/>moraliter et secundum rationem concomitatur privatio
+<lb ed="#L" n="85"/>boni delectabilis secundum sensum, quae privatio est 
+ma<lb ed="#L" break="no" n="86"/>lum appetitus sensitivi: et generationem formae 
+intro<lb ed="#L" break="no" n="87"/>ductae concomitatur privatio formae abiectae, quae est
+<lb ed="#L" n="88"/>malum naturae corruptae. Propter hoc dixit Sanctus 
+Tho<lb ed="#L" break="no" n="89"/>mas quod malum, sic scilicet acceptum, aut semper aut
+<lb ed="#L" n="90"/>pro maiori parte evenit in actionibus, et non evenit in
+<lb ed="#L" n="91"/>paucioribus et a casu.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e702">
+               <lb ed="#L" n="92"/>VI. Ad secundam obiectionem  respondetur negando
+<lb ed="#L" n="93"/>consequentiam: quia malum et est voluntarium, et est
+<lb ed="#L" n="94"/>praeter intentionem. Intentio enim est tantum ultimi finis,
+<lb ed="#L" n="95"/>quem quis propter se vult: voluntas autem est etiam eius
+<lb ed="#L" n="96"/>quod quis vult propter aliud, etiam si simpliciter illud
+<lb ed="#L" n="97"/>non vellet. Ostenditur hoc exemplo proiicientis merces in
+<lb ed="#L" n="98"/>mare causa salutis, ubi proiectio mercium est volita per
+<lb ed="#L" n="99"/>accidens. Et similiter dicitur malitia volita non per se, sed
+<lb ed="#L" n="100"/>per accidens: sicut aliquis vult propter bonum sensibile
+<lb ed="#L" n="101"/>inordinatam actionem.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e726">
+               <lb ed="#L" n="102"/>2. Attendendum, circa istam responsionem, quod 
+San<lb ed="#L" break="no" n="103"/>ctus Thomas differentiam facit inter intentionem alicuius
+<lb ed="#L" n="104"/>et illius volitionem. Quia id intendit voluntas et appetitus
+<lb ed="#L" n="105"/>in quod propter se inclinatur: quia intentio proprie. est
+<lb ed="#L" n="106"/>actus appetitus circa finem; finis autem, ut sic, est 
+pro<lb ed="#L" break="no" n="107"/>pter se volitus, Sed volitio est non solum eius quod 
+pro<lb ed="#L" break="no" n="108"/>pter se volumus, sed etiam eius quod volumus propter
+<lb ed="#L" n="109"/>aliud: sicut et sanitatem volumus et medicinam. Dicere
+<lb ed="#L" n="110"/>ergo quod malum sive malitia non est intenta, sed est
+<lb ed="#L" n="111"/>praeter intentionem, et tamen est volita per accidens, est
+<lb ed="#L" n="112"/>dicere quod non est volita propter se, sed tamen est volita
+<lb ed="#L" n="113"/>propter aliud.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e755">
+               <lb ed="#L" n="114"/>3. Advertendum secundo, quod volitum per accidens
+<lb ed="#L" n="115"/>dupliciter potest accipi. Uno modo, quod totaliter 
+sub<lb ed="#L" break="no" n="116"/>terfugit cognitionem volentis, et tamen est coniunctum
+<lb ed="#L" n="117"/>per se volito: sicut volens bibere dulce, ignorans. quod
+<lb ed="#L" n="118"/>illud sit venenum, dicitur velle venenum per accidens. Et
+<lb ed="#L" n="119"/>tale dicitur omnino per accidens esse: volitum. — Alio
+<lb ed="#L" n="120"/>modo, quia cadit quidem sub cognitione volentis, sed tamen
+<lb ed="#L" n="121"/>illud non vult nisi inquantum vult aliquod bonum cui
+<lb ed="#L" n="122"/>coniungitur; immo, si posset unum ab alio separare, vellet
+<lb ed="#L" n="123"/>unum sine alio: sicut ille qui vult proiicere merces in mare
+<lb ed="#L" n="124"/>causa propriae salutis, non vult mercium proiectionem
+<lb ed="#L" n="125"/>nisi quia vult salutem suam, quam consequi non potest
+<lb ed="#L" n="126"/>absque mercium perditione; et si posset salutem 
+con<lb ed="#L" break="no" n="127"/>sequi absque damno mercium, non vellet earum 
+perdi<lb ed="#L" break="no" n="128"/>tionem. i;
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e790">
+               <lb ed="#L" n="129"/>Malum ergo nunquam est volitum propter se. Sed 
+ali<lb ed="#L" break="no" n="130"/>quando est volitum omnino per accidens: sicut, cum quis
+<lb ed="#L" n="131"/>vult proiicere sagittam ad locum per quem non solent
+<lb ed="#L" n="132"/>homines transire, si accidat ut proiiciendo sagittam 
+ho<lb ed="#L" break="no" n="133"/>minem interficiat, dicitur voluisse hominis interfectionem
+<lb ed="#L" n="134"/>omnino per accidens et nullo modo per se, neque, 
+in<lb ed="#L" break="no" n="135"/>quam, primo, neque secundario propter aliud. — Aliquando
+<lb ed="#L" n="136"/>vero non est volitum per accidens omnino, quasi scilicet
+<lb ed="#L" n="137"/>non sit cognita deformitas et deordinatio actus voliti: sed
+<lb ed="#L" n="138"/>est volitum per accidens ut per accidens distinguitur contra
+<lb ed="#L" n="139"/>primo et per se, ut idem est quod per aliud; sicut, cum
+<lb ed="#L" n="140"/>quis vult consequi delectationem quae est in adulterio,
+<lb ed="#L" n="141"/>cognoscens illi coniunctam esse privationem ordinis 
+iu<lb ed="#L" break="no" n="142"/>stitiae, vult illam: deordinationem propter delectationem,
+<lb ed="#L" n="143"/>inquantum vult delectationem cui necessario illud malum
+<lb ed="#L" n="144"/>coniungitur, et magis vult illud malum incurrere quam
+<lb ed="#L" n="145"/>tali carere delectatione. Et ad hunc sensum inquit 
+Philo<lb ed="#L" break="no" n="146"/>sophus malitiam et peccatum quandoque voluntaria esse.
+<lb ed="#L" n="147"/>Nam mon solum est voluntarium quod propter seipsum
+<lb ed="#L" n="148"/>volumus, sed etiam quod volumus propter aliud, licet 
+se<lb ed="#L" break="no" n="149"/>cundum se sumptum non esset voluntarium, ut dicitur
+<lb ed="#L" n="150"/>I II, q. vr, a. 6. Et propter hoc, ut dicitur in QQ. de
+<pb ed="#L" n="18"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Malo, qu. 1, a. 3, ad 15, non excusatur homo in huiusmodi
+<lb ed="#L" n="2"/>a peccato, licet malum non sit propter se intentum: quia
+<lb ed="#L" n="3"/>ad hoc ut sibi malum imputetur, sufficit quod sit propter
+<lb ed="#L" n="4"/>aliud. volitum, licet non sit volitum propter se.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e854">
+               <lb ed="#L" n="5"/>Quod autem dixi, hominis interfectionem ex iactu
+<lb ed="#L" n="6"/>sagittae esse volitum omnino per accidens a non 
+consi<lb ed="#L" break="no" n="7"/>derante illud evenire debere, non contrariatur ei quod ait
+<lb ed="#L" n="8"/>Sanctus Thomas Malo, q. 1, a. 3, ad 15, quod scilicet, dum
+<lb ed="#L" n="9"/>accidens aliquod coniungitur effectui ut in paucioribus
+<lb ed="#L" n="10"/>et raro, non oportet quod agens intendens effectum per
+<lb ed="#L" n="11"/>se, intendat aliquo modo effectum per accidens. Accipit
+<lb ed="#L" n="12"/>enim Sanctus Thomas ibi effectum intendi per accidens
+<lb ed="#L" n="13"/>quando ex cognitione intenditur: non autem ut intendi
+<lb ed="#L" n="14"/>per accidens dicitur quod coniungitur intento per se etiam
+<lb ed="#L" n="15"/>si non cognoscatur suo intento per se coniunctum esse.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e880">
+               <lb ed="#L" n="16"/>VII. Ad tertiam obiectionem respondetur quod 
+pri<lb ed="#L" break="no" n="17"/>vatio non est intenta per se ct seorsum a forma, sed per
+<lb ed="#L" n="18"/>accidens, inquantum coniungitur formae, quae est finis
+<lb ed="#L" n="19"/>generationis, sicut et corruptio semper. generationi 
+con<lb ed="#L" break="no" n="20"/>iungitur. Declaratur exemplo corruptionis aquae et 
+gene<lb ed="#L" break="no" n="21"/>rationis aeris.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e896">
+               <lb ed="#L" n="22"/>2. Circa hanc responsionem duo sunt advertenda. 
+Pri<lb ed="#L" break="no" n="23"/>mum est, quod inientio quandoque proprie accipitur: et
+<lb ed="#L" n="24"/>sic est tantum de eo quod est finis et est per se 
+inten<lb ed="#L" break="no" n="25"/>tum. Quandoque vero. accipitur pro inclinatione appetitus
+<lb ed="#L" n="26"/>ad quodcumque. Cum ergo hic dicitur quod natura 
+utrum<lb ed="#L" break="no" n="27"/>que, scilicet et finem generationis et finem corruptionis,
+<lb ed="#L" n="28"/>simul intendit, accipitur intentio communiter, non autem
+<lb ed="#L" n="29"/>proprie. Licet enim sit unus et idem actus quo aliquid
+<lb ed="#L" n="30"/>inclinatur ad finem et ad id quod est ad finem, ut sic,
+<lb ed="#L" n="31"/>ille tamen dicitur intentio respectu finis, non autem 
+re<lb ed="#L" break="no" n="32"/>spectu ordinati ad finem. Unde non est contradictio in
+<lb ed="#L" n="33"/>verbis Sancti "Thomae cum in praecedenti responsione
+<lb ed="#L" n="34"/>dixit malum non esse intentum, sed tantum volitum, hic
+<lb ed="#L" n="35"/>autem dicit privationem, quae est malum quoddam, esse
+<lb ed="#L" n="36"/>simul intentum cum forma: ibi enim accepit intentionem
+<lb ed="#L" n="37"/>proprie, hic autem communiter. — Vel possumus dicere
+<lb ed="#L" n="38"/>quod malum non potest esse intentum proprio actu ad
+<lb ed="#L" n="39"/>ipsum terminato; sed bene potest intendi 'actu qui ad
+<lb ed="#L" n="40"/>bonum terminatur cui malum est coniunctum.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e940">
+               <lb ed="#L" n="41"/>3. Advertendum secundo, quod tam natura particularis
+<lb ed="#L" n="42"/>generans et corrumpens, quam universalis, intendunt primo
+<lb ed="#L" n="43"/>et per se generationem et formam geniti: per accidens
+<lb ed="#L" n="44"/>autem intendunt corruptionem, et privationem formae
+<lb ed="#L" n="45"/>praecedentis in materia, quia non potest esse generatio
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="46"/>nisi per abiectionem formae praecedentis. Aer enim agens
+<lb ed="#L" n="47"/>in aquam, et similiter virtus caelestis, aeris generationem,
+<lb ed="#L" n="48"/>ut hic dicitur, absolute et simpliciter intendunt, 
+corru<lb ed="#L" break="no" n="49"/>ptionem vero aquae non intendunt nisi quia generationi
+<lb ed="#L" n="50"/>aeris necessario coniungitur: si enim posset natura 
+gene<lb ed="#L" break="no" n="51"/>rare aerem absque corruptione alterius naturae, illud 
+fa<lb ed="#L" break="no" n="52"/>ceret. Propter hoc inquit Sanctus "Thomas quod natura
+<lb ed="#L" n="53"/>non intendit finem corruptionis seorsum a fine 
+genera<lb ed="#L" break="no" n="54"/>tionis, sed simul intendit utrumque. — Quod vero aliquando
+<lb ed="#L" n="55"/>inquit Sanctus Thomas corruptionem esse de intentione
+<lb ed="#L" n="56"/>naturae universalis, sed esse contra naturam 
+particula<lb ed="#L" break="no" n="57"/>rem , intelligendum est de natura particulari quae 
+cor<lb ed="#L" break="no" n="58"/>rumpitur: quia nec per se nec per accidens natura, 
+quan<lb ed="#L" break="no" n="59"/>tum est ex ratione suae formae, suam corruptionem 
+in<lb ed="#L" break="no" n="60"/>tendit. Non autem intelligitur de natura corrumpente aliam
+<lb ed="#L" n="61"/>naturam dum sibi simile generat: talis enim, ut dictum
+<lb ed="#L" n="62"/>est, cum generatione per accidens intendit corruptionem,
+<lb ed="#L" n="63"/>sicut et natura universalis.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e995">
+               <lb ed="#L" n="64"/>VIII. Ex istis responsionibus deducit Sanctus Thomas 
+ma<lb ed="#L" break="no" n="65"/>nifestum esse quod malum simpliciter est omnino praeter
+<lb ed="#L" n="66"/>intentionem in operibus naturae: malum vero non 
+simpli<lb ed="#L" break="no" n="67"/>citer, sed alicui, est a natura intentum secundum accidens.
+</p>
+            <p xml:id="ferv7a-d1e1757-d1e1006">
+               <lb ed="#L" n="68"/>Pro intellectu eorum quae dicta sunt, advertendum,
+<lb ed="#L" n="69"/>ex doctrina Sancti "Thomae Quarto, d. xxxvi, q. r, a. 1,.
+<lb ed="#L" n="70"/>ad 2, quod duplex est naturae intentio: una prima, alia
+<lb ed="#L" n="71"/>secunda. Prima intentio est inclinatio naturae absolute
+<lb ed="#L" n="72"/>ad sibi simile et conforme secundum" omnem sui 
+per<lb ed="#L" break="no" n="73"/>fectionem. Secunda autem est ad sibi simile quantum fieri
+<lb ed="#L" n="74"/>potest, supposito quod prima frustretur intentio: sicut et
+<lb ed="#L" n="75"/>in artificialibus prima intentio artificis est ex supposita
+<lb ed="#L" n="76"/>materia facere opus omni ex parte conforme arti; secunda
+<lb ed="#L" n="77"/>autem est, supposito quod non possit primum intentum
+<lb ed="#L" n="78"/>assequi, facere ex ipsa materia simile arti quantum potest.
+<lb ed="#L" n="79"/>Corruptio ergo et omnis defectus sunt contra primam
+<lb ed="#L" n="80"/>intentionem naturae: quia natura prima intentione esse et
+<lb ed="#L" n="81"/>perfectionem intendit. Est tamen aliquis defectus de 
+se<lb ed="#L" break="no" n="82"/>cunda intentione naturae. Quando enim natura non potest
+<lb ed="#L" n="83"/>effectum ad maiorem perfectionem perducere, inducit ad
+<lb ed="#L" n="84"/>minorem : sicut quando non potest facere masculum, facit
+<lb ed="#L" n="85"/>feminam, quae est mas occasionatus, ut dicitur XVI de
+<lb ed="#L" n="86"/>Animalibus . Quod ergo inquit Sanctus Thomas, malum
+<lb ed="#L" n="87"/>simpliciter esse omnino praeter intentionem in operibus
+<lb ed="#L" n="88"/>naturae, sicut partus monstruosi, intelligendum est quod
+<lb ed="#L" n="89"/>est praeter primam naturae intentionem: non autem quod
+<lb ed="#L" n="90"/>sit praeter secundam intentionem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

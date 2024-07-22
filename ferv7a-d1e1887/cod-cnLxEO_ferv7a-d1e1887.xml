@@ -1,0 +1,527 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 22</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 22</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="54"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1887"><!-- ferv7a-l3c22 -->
+            <head xml:id="ferv7a-d1e1887-Hd1e101">Capitulum 22</head>
+            <p xml:id="ferv7a-d1e1887-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="13" type="fixed=54"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="14"/>POSTQUAM ostendit Sanctus Thomas quod omnia 
+ordi<lb ed="#L" break="no" n="15"/>nantur in bonum et in divinam similitudinem sicut
+<lb ed="#L" n="16"/>in finem, nunc ostendit quomodo diversimode res in hunc
+<lb ed="#L" n="17"/>finem ordinantur . Circa hoc autem duo facit: primo,
+<lb ed="#L" n="18"/>ostendit propositum; secundo, unum corollarium deducit,
+<lb ed="#L" n="19"/>capite sequenti.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e128">
+               <lb ed="#L" n="20"/>I. Quantum ad primum, ponit duas conclusiones. Prima
+<lb ed="#L" n="21"/>est : Corpora inferiora, secundum quod motibus 
+natura<lb ed="#L" break="no" n="22"/>libus moventur, tendunt in divinam similitudinem quantum
+<lb ed="#L" n="23"/>ad hoc ut sint in seipsis perfecta secundum propriam
+<lb ed="#L" n="24"/>formam. et proprium ubi, non autem ut sint causa aliorum.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e141">
+               <lb ed="#L" n="25"/>Secunda est: Finis corporum caelestium est consequi
+<lb ed="#L" n="26"/>divinam similitudinem et quantum ad propriam 
+perfec<lb ed="#L" break="no" n="27"/>tionem, et in hoc quod sint aliorum causae.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e151">
+               <lb ed="#L" n="28"/>2. Pro declaratione autem harum conclusionum 
+prae<lb ed="#L" break="no" n="29"/>mittit duo. Unum est, quod diversimode res ordinantur in
+<lb ed="#L" n="30"/>finem, secundum diversitatem operationis: quia ultimum
+<lb ed="#L" n="31"/>per quod res ordinatur ad finem, est eius operatio.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e162">
+               <lb ed="#L" n="32"/>Alterum est, quod quaedam operatio est rei sicut 
+mo<lb ed="#L" break="no" n="33"/>ventis, ut calefacere. Quaedam ut rei ab alio motae, sicut
+<lb ed="#L" n="34"/>calefieri. Quaedam vero est perfectio operantis actu 
+ex<lb ed="#L" break="no" n="35"/>istentis, in aliud transmutandum non tendens: quorum
+<lb ed="#L" n="36"/>primo, scilicet eo quod est perfectio existentis in actu,
+<lb ed="#L" n="37"/>differt a passione et motu, quae videlicet sunt perfectiones
+<lb ed="#L" n="38"/>existentis in potentia; secundo vero, scilicet eo quod in
+<lb ed="#L" n="39"/>aliud transmutandum non tendit, differt ab actione 
+transmu<lb ed="#L" break="no" n="40"/>tativa exterioris materiae. Huiusmodi operatio est 
+intelli<lb ed="#L" break="no" n="41"/>gere, sentire et velle.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e186">
+               <lb ed="#L" n="42"/>3. Circa primum dictum advertendum, ut latius 
+explica<lb ed="#L" break="no" n="43"/>bitur inferius , quod, cum res extrinseca est finis alicuius
+<lb ed="#L" n="44"/>ultimus, finis ultimus intrinsecus est id quo coniungitur
+<lb ed="#L" n="45"/>res ipsi exteriori fini, et ipsum adipiscitur formaliter. Hoc
+<lb ed="#L" n="46"/>autem est rei operatio, accipiendo nomen operationis ut |
+<lb ed="#L" n="47"/>in hoc capite sumitur. Ideo bene hic dicitur quod ultimum
+<lb ed="#L" n="48"/>per quod unaquaeque res ordinatur ad finem, est eius 
+<lb ed="#L" n="49"/>operatio: quia videlicet per suam operationem unaquaeque
+<lb ed="#L" n="50"/>res fini coniungitur.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e208">
+               <lb ed="#L" n="51"/>Circa secundum attendendum quod, licet operatio 
+vi<lb ed="#L" break="no" n="52"/>deatur ex modo significandi importare actionem, tamen,
+<lb ed="#L" n="53"/>quantum ad rem significatam, non importat actionem 
+tan<lb ed="#L" break="no" n="54"/>tum, sed est nomen commune actioni et passioni. 
+Acci<lb ed="#L" break="no" n="55"/>pitur enim hic operatio pro actu primo et immediate
+<lb ed="#L" n="56"/>correspondente potentiae, cuius videlicet potentia est 
+prin<lb ed="#L" break="no" n="57"/>cipium immediatum quo. Potentia autem dividitur in
+<lb ed="#L" n="58"/>activam et passivam: quarum activa est id quo agens agit;
+<lb ed="#L" n="59"/>passiva vero est id quo patiens patitur. Ideo et operatio,
+<lb ed="#L" n="60"/>ad quam dicitur potentia, dividitur in actionem et 
+pas<lb ed="#L" break="no" n="61"/>sionem: ut patet in Qu. de Anima, a. 12. Propterea bene
+<lb ed="#L" n="62"/>hoc loco ait Sanctus Thomas quod quaedam operatio est
+<lb ed="#L" n="63"/>rei ut aliud moventis, idest, est actio; quaedam vero est
+<lb ed="#L" n="64"/>rei ut ab alio motae, idest, est passio.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e241">
+               <lb ed="#L" n="65"/>II. Istis suppositis, probat primam conclusionem hac
+<lb ed="#L" n="66"/>ratione. Ea quae moventur et operantur tantum, absque
+<lb ed="#L" n="67"/>eo quod alia moveant vel faciant, tendunt in divinam 
+si<lb ed="#L" break="no" n="68"/>militudinem quantum ad hoc tantum ut sint in seipsis
+<lb ed="#L" n="69"/>perfecta: cum habeant videlicet operationem illam tantum
+<lb ed="#L" n="70"/>quae est passio. Sed corpora inferiora, ut moventur 
+mo<lb ed="#L" break="no" n="71"/>tibus naturalibus, considerantur ut mota tantum, non autem
+<lb ed="#L" n="72"/>ut moventia, nisi per accidens. Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e261">
+               <lb ed="#L" n="73"/>Advertendum quod, licet agens, dum aliquid movet,
+<lb ed="#L" n="74"/>possit intendere aliquid aliud per talem motum praeter
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="75"/>perfectionem moti, sicut aedificator praeter domus 
+per<lb ed="#L" break="no" n="76"/>fectionem intendit habitationem et conservationem rerum;
+<lb ed="#L" n="77"/>motus tamen rei motae ut ad ipsam rem motam 
+com<lb ed="#L" break="no" n="78"/>paratur, non tendit nisi in finem motus rei motae 
+acqui<lb ed="#L" break="no" n="79"/>rendum: quia passio et moveri, ut sic praecise sumpta,
+<lb ed="#L" n="80"/>non sunt nisi ad hoc ut aliquid in mobili fiat, non autem
+<lb ed="#L" n="81"/>ut mobile aliud causet. Propterea bene assignatur pro 
+ra<lb ed="#L" break="no" n="82"/>tione quare inferiora corpora, secundum quod moventur
+<lb ed="#L" n="83"/>motibus naturalibus, intendunt divinam similitudinem
+<lb ed="#L" n="84"/>quantum ad propriam perfectionem tantum, quia, ut sic,
+<lb ed="#L" n="85"/>considerantur ut mota tantum, non autem ut moventia:
+<lb ed="#L" n="86"/>quia videlicet quae moventur et non movent nec agunt,
+<lb ed="#L" n="87"/>possunt quidem per motum propriam perfectionem assequi,
+<lb ed="#L" n="88"/>non autem esse causa aliorum.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e301">
+               <lb ed="#L" n="89"/>Attendendum etiam quod non inquit Sanctus Thomas
+<lb ed="#L" n="90"/>absolute corpora inferiora tendere in divinam similitudinem
+<lb ed="#L" n="91"/>solum quantum ad assecutionem propriae perfectionis, non
+<lb ed="#L" n="92"/>autem quantum ad causalitatem: sed addidit, secundum
+<lb ed="#L" n="93"/>quod moventur motibus naturalibus. Nam et ipsa corpora
+<lb ed="#L" n="94"/>inferiora proprias habent virtutes, quibus aliquid possunt
+<lb ed="#L" n="95"/>efficere, sicut ignis calefacit et aqua humectat: et 
+secun<lb ed="#L" break="no" n="96"/>dum hanc rationem, cum moveant et agant, intendunt
+<lb ed="#L" n="97"/>Deo assimilari etiam in causando. Sed verum est quod,
+<lb ed="#L" n="98"/>secundum quod moventur motibus naturalibus, quia non
+<lb ed="#L" n="99"/>movent per.hoc quod moventur, sed moventur tantum, —
+<lb ed="#L" n="100"/>nisi forte per accidens moveant, sicut accidit lapidi quod
+<lb ed="#L" n="101"/>descendens impellat aliquod obvians, — ideo, ut sic, non
+<lb ed="#L" n="102"/>tendunt in similitudinem divinam in causando, sed tantum
+<lb ed="#L" n="103"/>in acquirendo propriam formam aut proprium ubi, ut hic
+<lb ed="#L" n="104"/>dicitur.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e338">
+               <lb ed="#L" n="105"/>III. Secundam vero conclusionem  probat per hoc quod
+<lb ed="#L" n="106"/>corpora caelestia movent mota. Inquantum enim 
+moven<lb ed="#L" break="no" n="107"/>tur, tendunt in propriam perfectionem, eo quod fiunt in
+<lb ed="#L" n="108"/>aliquo ubi in quo prius erant in potentia, scilicet 
+secun<lb ed="#L" break="no" n="109"/>dum partem: et sic intendunt consequi divinam 
+similitu<lb ed="#L" break="no" n="110"/>dinem quantum ad propriam perfectionem, sicut et alia
+<lb ed="#L" n="111"/>corpora per suos motus naturales. Inquantum vero 
+mo<lb ed="#L" break="no" n="112"/>vendo movent, finis motus eorum est consequi divinam
+<lb ed="#L" n="113"/>similitudinem in hoc quod sunt causae aliorum. Et quia
+<lb ed="#L" n="114"/>sunt aliorum causae per hoc quod causant generationem
+<lb ed="#L" n="115"/>et corruptionem et alios motus in istis inferioribus, ideo
+<lb ed="#L" n="116"/>motus ipsorum inquantum movent, ordinatur ad 
+genera<lb ed="#L" break="no" n="117"/>tionem et corruptionem quae est in istis inferioribus.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e369">
+               <lb ed="#L" n="118"/>Advertendum quod, licet corpora caelestia per suos
+<lb ed="#L" n="119"/>motus sint causa non solum generationis et corruptionis
+<lb ed="#L" n="120"/>in istis inferioribus, sed etiam aliorum motuum, ut hic
+<lb ed="#L" n="121"/>dicitur; quia tamen principaliter intendunt esse 
+substan<lb ed="#L" break="no" n="122"/>tiale rerum inferiorum, cuius generationi necessario 
+con<lb ed="#L" break="no" n="123"/>iungitur corruptio; alias autem perfectiones accidentales
+<lb ed="#L" n="124"/>non intendunt nisi ut ad perfectionem substantiae 
+con<lb ed="#L" break="no" n="125"/>ferunt: ideo, quamvis dixerit Sanctus Thomas corpora
+<lb ed="#L" n="126"/>caelestia esse per suos motus causas etiam aliorum motuum
+<lb ed="#L" n="127"/>praeter generationem et corruptionem, hoc tamen solum
+<lb ed="#L" n="128"/>concludit, scilicet quod eorum motus ordinantur ad 
+gene<lb ed="#L" break="no" n="129"/>rationem et corruptionem rerum; quia videlicet generatio
+<lb ed="#L" n="130"/>et corruptio principaliter intenduntur, non autem alii 
+mo<lb ed="#L" break="no" n="131"/>tus. —- Quamvis etiam possit dici quod nomine 
+genera<lb ed="#L" break="no" n="132"/>tionis et corruptionis omnes motus comprehendit, 
+in<lb ed="#L" break="no" n="133"/>quantum omni motui coniungitur aliquo modo generatio
+<lb ed="#L" n="134"/>et corruptio, saltem accidentalis, dum terminus a quo
+<lb ed="#L" n="135"/>deperditur et terminus ad quem acquiritur.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e411">
+               <pb ed="#L" n="55"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>IV. Sed contra ea quae in hac secunda conclusione
+<lb ed="#L" n="2"/>dicta sunt, movet Sanctus Thomas duo dubia. Primum
+<lb ed="#L" n="3"/>est circa illud quod dictum est, corpus caeleste consequi
+<lb ed="#L" n="4"/>suam perfectionem per motum inquantum fit in aliquo
+<lb ed="#L" n="5"/>ubi in actu in quo prius erat in potentia. Non videtur
+<lb ed="#L" n="6"/>enim quod ex acquisitione talis ubi acquirat propriam 
+per<lb ed="#L" break="no" n="7"/>fectionem: quia, dum acquirit unum ai, remanet in 
+po<lb ed="#L" break="no" n="8"/>tentia ad ubi in quo prius erat in actu, et sic videtur 
+im<lb ed="#L" break="no" n="9"/>perfici.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e437">
+               <lb ed="#L" n="10"/>Secundum  est circa id quod dictum est, corpora
+<lb ed="#L" n="11"/>caelestia per suum motum ordinari ad generationem horum
+<lb ed="#L" n="12"/>inferiorum. Nam finis potior est iis quae sunt ad finem.
+<lb ed="#L" n="13"/>Corpora autem inferiora sunt indigniora corporibus 
+caele<lb ed="#L" break="no" n="14"/>stibus. Non ergo corpora caelestia per motum suum 
+or<lb ed="#L" break="no" n="15"/>dinantur ad generationem inferiorum,
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e453">
+               <lb ed="#L" n="16"/>V. Ad primum horum respondet Sanctus Thomas quod
+<lb ed="#L" n="17"/>propter hoc quod corpus caeleste, dum acquirit unum ubi
+<lb ed="#L" n="18"/>in actu, ad quod prius erat in potentia, remaneat in 
+po<lb ed="#L" break="no" n="19"/>tentia ad aliud ubi, in quo erat in actu, nihil minus suam
+<lb ed="#L" n="20"/>perfectionem consequitur. Quia corpus caeleste, quod est
+<lb ed="#L" n="21"/>in potentia ad ubi sicut materia prima ad formam, suam
+<lb ed="#L" n="22"/>perfectionem .consequitur per hoc quod tota eius potentia
+<lb ed="#L" n="23"/>— xeducitur ad actum successive, quod simul fieri non 
+po<lb ed="#L" break="no" n="24"/>terat: sicut et materia, dum recipit unam formam, licet
+<lb ed="#L" n="25"/>aliam amittat, in suam perfectionem tendit, quia sic tota
+<lb ed="#L" n="26"/>eius potentia ad actum reducitur successive, quod non
+<lb ed="#L" n="27"/>poterat simul fieri.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e483">
+               <lb ed="#L" n="28"/>2. Advertendum hoc loco quod a perfectionibus 
+suc<lb ed="#L" break="no" n="29"/>cessivis, sive quae in quadam successione acquiruntur et
+<lb ed="#L" n="30"/>aliter acquiri non possunt, subiectum habet perfici eo modo
+<lb ed="#L" n="31"/>quo ipsa perfectio nata est habere esse in actu: quia
+<lb ed="#L" n="32"/>subiectum non perficitur sua perfectione nisi secundum
+<lb ed="#L" n="33"/>quod habet esse; et ideo secundum quod perfectiones
+<lb ed="#L" n="34"/>diversimode natae sunt esse in actu, ita diversimode habet
+<lb ed="#L" n="35"/>per ipsas potentia perfici. Perfectio autem quae esse in
+<lb ed="#L" n="36"/>quadam successione nata est habere, nunquam totum suum
+<lb ed="#L" n="37"/>esse simul habere potest in actu, sed per partem post
+<lb ed="#L" n="38"/>partem, ita quod, una parte adveniente, altera recedit: ut
+<lb ed="#L" n="39"/>patet in motu et tempore. Ideo subiectum habet perfici
+<lb ed="#L" n="40"/>per eam, non ipsam totam simul recipiendo, sed unam
+<lb ed="#L" n="41"/>partem post aliam, et in receptione posterioris partis 
+amit<lb ed="#L" break="no" n="42"/>tendo priorem: sicut, dum mobile unam partem motus
+<lb ed="#L" n="43"/>recipit, aliam partem amittit. Sed perfectio quae esse in
+<lb ed="#L" n="44"/>successione non habet, totum suum esse nata est simul
+<lb ed="#L" n="45"/>habere, sicut anima. Ideo subiectum secundum ipsam
+<lb ed="#L" n="46"/>totam simul perficitur, et non unam eius partem post aliam
+<lb ed="#L" n="47"/>recipiendo.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e529">
+               <lb ed="#L" n="48"/>Quia ergo omnia ubi simul sumpta ad quae corpus
+<lb ed="#L" n="49"/>caeleste est in potentia, et omnes formae ad quas est in
+<lb ed="#L" n="50"/>potentia materia prima, ad sua subiecta comparata, habent
+<lb ed="#L" n="51"/>rationem entis successivi, quia non possunt simul esse in
+<lb ed="#L" n="52"/>suo subiecto; ideo et corpus caeleste habet perfici per
+<lb ed="#L" n="53"/>ipsa ubi unum post aliud recipiendo, et amittendo illud
+<lb ed="#L" n="54"/>quod habebat in actu dum recipit illud ad quod erat in
+<lb ed="#L" n="55"/>potentia, nec aliter potest ab ipsis ubi perfici et actuari;
+<lb ed="#L" n="56"/>et similiter materia prima habet perfici formis 
+substantia<lb ed="#L" break="no" n="57"/>libus successive, amittendo priorem dum posteriorem 
+re<lb ed="#L" break="no" n="58"/>cipit, nec aliter a multitudine formarum potest perfici.
+<lb ed="#L" n="59"/>Propterea optime respondet Sanctus Thomas quod nihil
+<lb ed="#L" n="60"/>minus consequitur suam perfectionem caelum dum, 
+acqui<lb ed="#L" break="no" n="61"/>rendo unum zbi, amittit aliud ubi; et idem ait de materia
+<lb ed="#L" n="62"/>prima respectu formarum: quia, inquam, haec est natura
+<lb ed="#L" n="63"/>talium actuum ut suas potentias cum tali successione 
+per<lb ed="#L" break="no" n="64"/>ficiant. Unde dicuntur simpliciter perfici: quamvis 
+secun<lb ed="#L" break="no" n="65"/>dum quid possint dici imperfici, inquantum desinunt priore
+<lb ed="#L" n="66"/>ubi et priore forma actuari; sicut et omne subiectum, dum
+<lb ed="#L" n="67"/>recipit formam ad quam naturaliter inclinatur, simpliciter
+<lb ed="#L" n="68"/>perfici dicitur, quamvis possit dici secundum quid imperfici,
+<lb ed="#L" n="69"/>inquantum ab ipso forma opposita praecedens abiicitur.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e579">
+               <lb ed="#L" n="70"/>VI. Sed circa hanc Sancti Thomae responsionem 
+du<lb ed="#L" break="no" n="71"/>bium occurrit. Quia ipsemet in QQ. de Potentia Dei,
+<lb ed="#L" n="72"/>q. v, a. 5, tenet quod finis motus caeli non est ut 
+con<lb ed="#L" break="no" n="73"/>sequatur in actu ubi ad quod est in potentia, licet hoc
+<lb ed="#L" n="74"/>Avicenna dicere videatur. Et inferius ait mom esse 
+pro<lb ed="#L" break="no" n="75"/>babile ut finis motus caeli sit aliqua eius perfectio. Et
+<lb ed="#L" n="76"/>in responsione ad septimum, ait quod caelum non 
+per<lb ed="#L" break="no" n="77"/>ficitur per locum, sicut corpora inferiora, quae in proprio
+<lb ed="#L" n="78"/>ubi conservantur.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e601">
+               <lb ed="#L" n="79"/>2. Respondetur, et dicitur primo, quod dupliciter potest
+<lb ed="#L" n="80"/>intelligi finem motus caeli esse ut consequatur in actu
+<lb ed="#L" n="81"/>ubi ad quod est in. potentia. Uno modo, ut hoc quod
+<lb ed="#L" n="82"/>dico, consequi in actu ubi ad quod est in potentia, 
+in<lb ed="#L" break="no" n="83"/>distincte et indeterminate sit finis motus caeli. Et sic non
+<lb ed="#L" n="84"/>est verum: quia cum caelum, in quocumque zi ponatur,
+<lb ed="#L" n="85"/>sit in potentia ad aliud ubi, nunquam posset caelum 
+con<lb ed="#L" break="no" n="86"/>sequi finem suum; semper enim remanet in potentia ad
+<lb ed="#L" n="87"/>aliquod ubi. Et ad hunc sensum loquitur Sanctus Thomas
+<lb ed="#L" n="88"/>in QQ. de Potentia Dei. — Alio modo, ut ponatur aliquod
+<lb ed="#L" n="89"/>ubi determinatum, puta oriens aut occidens, esse finem
+<lb ed="#L" n="90"/>alicuius determinatae partis motus caeli. Et sic non 
+incon<lb ed="#L" break="no" n="91"/>venit finem secundarium quidem, non autem principalem,
+<lb ed="#L" n="92"/>esse ut consequatur ubi ad quod est in potentia: finis
+<lb ed="#L" n="93"/>enim motus solis tendentis ab oriente ad occidentem, ut
+<lb ed="#L" n="94"/>sic, est consequi situm occidentis. Ad hunc sensum loquitur
+<lb ed="#L" n="95"/>hoc loco. Unde non contradicit quod hic dicitur ei quod
+<lb ed="#L" n="96"/>primo loco ex QQ. de Potentia in oppositum affertur.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e643">
+               <lb ed="#L" n="97"/>Dicitur secundo, quod dupliciter aliquid potest dici
+<lb ed="#L" n="98"/>perfectio alicuius: uno modo, quia illud ad rei integritatem
+<lb ed="#L" n="99"/>pertinet, aut est rei complementum, ad quod res per suam
+<lb ed="#L" n="100"/>formam naturaliter inclinatur; alio modo, quia est actus
+<lb ed="#L" n="101"/>ad quem res naturalem aptitudinem habet, licet res non
+<lb ed="#L" n="102"/>remaneat incompleta et imperfecta si illo careat. Primo
+<lb ed="#L" n="103"/>modo, ubi non est perfectio corporis caelestis: et sic 
+intel<lb ed="#L" break="no" n="104"/>ligitur in loco allegato. Secundo modo, est eius perfectio:
+<lb ed="#L" n="105"/>et sic hoc in loco intelligitur. — Ista responsio potest haberi
+<lb ed="#L" n="106"/>ex ipso Sancto Thoma in loco allegato ; et Quarto, d. 48,
+<lb ed="#L" n="107"/>dq 153. 25
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e669">
+               <lb ed="#L" n="108"/>VII. Ad secundum dubium  respondendo, duo facit
+<lb ed="#L" n="109"/>Sanctus Thomas: primo, satisfacit obiectioni; secundo,
+<lb ed="#L" n="110"/>declarat intellectum responsionis .
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e679">
+               <lb ed="#L" n="111"/>Quantum ad primum, respondet substantialiter quod
+<lb ed="#L" n="112"/>motus caeli ordinatur ad generationem horum inferiorum,
+<lb ed="#L" n="113"/>non tanquam ad ultimum finem, cum ille sit assimilari
+<lb ed="#L" n="114"/>Deo in hoc quod causa aliorum existat : sed tanquam ad
+<lb ed="#L" n="115"/>finem proximum. Talem autem finem non oportet esse
+<lb ed="#L" n="116"/>potiorem eo quod est ad finem, ut patet in agentibus
+<lb ed="#L" n="117"/>univocis: sed tantum finem ultimum et principalem.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e697">
+               <lb ed="#L" n="118"/>VIII. Quantum ad secundum, duo dicit. Primum est
+<lb ed="#L" n="119"/>quod, cum corpora caelestia sint superiora, et per 
+con<lb ed="#L" break="no" n="120"/>sequens simplicius et universalius divinae bonitatis 
+similitu<lb ed="#L" break="no" n="121"/>dinem participent quam inferiora, in quibus est talis 
+simili<lb ed="#L" break="no" n="122"/>tudo particularius et divisim ; ac per hoc, magis assimilentur
+<lb ed="#L" n="123"/>divinae voluntati, quia in tantum aliquid participat de 
+si<lb ed="#L" break="no" n="124"/>militudine divinae voluntatis inquantum participat de 
+simi<lb ed="#L" break="no" n="125"/>litudine divinae bonitatis, quae est eius obiectum: 
+com<lb ed="#L" break="no" n="126"/>parantur corpora caelestia ad inferiora sicut agens universale
+<lb ed="#L" n="127"/>ad particularem effectum; et corporis caelestis intentio
+<lb ed="#L" n="128"/>fertur ad bonum commune substantiae corporalis, sicut
+<lb ed="#L" n="129"/>intentio particularis agentis in istis inferioribus contrahitur
+<lb ed="#L" n="130"/>ad bonum huius aut illius speciei.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e728">
+               <lb ed="#L" n="131"/>2. Ex istis vult duo habere Sanctus Thomas. Unum est
+<lb ed="#L" n="132"/>quod, cum dicitur caelum per suum motum ordinari ad
+<lb ed="#L" n="133"/>generationem inferiorum, intelligendum est ipsum ordinari
+<lb ed="#L" n="134"/>ad inferiorum generationem in communi, et ad commune
+<lb ed="#L" n="135"/>bonum ipsorum: non autem ad generationem huius 
+par<lb ed="#L" break="no" n="136"/>ticularis, aut ad bonum eius inquantum huiusmodi (
+sci<lb ed="#L" break="no" n="137"/>licet primo); hoc enim est agentis particularis, non autem
+<lb ed="#L" n="138"/>universalis.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e748">
+               <lb ed="#L" n="139"/>Alterum est quod, cum dicitur caelum per suum motum
+<lb ed="#L" n="140"/>intendere divinam similitudinem in causando, intelligendum
+<lb ed="#L" n="141"/>est quod intendit divinam similitudinem in causando per
+<lb ed="#L" n="142"/>modum agentis universalis, non autem per modum agentis
+<lb ed="#L" n="143"/>particularis.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e761">
+               <lb ed="#L" n="144"/>3. Advertendum autem, ne videatur frustra. Sanctus
+<lb ed="#L" n="145"/>Thomas assumpsisse hanc propositionem, Unumquodque
+<lb ed="#L" n="146"/>in quantum participat similitudinem . divinae bonitatis,
+<lb ed="#L" n="147"/>in tantum participat de similitudine divinae voluntatis,
+<lb ed="#L" n="148"/>quod, cum divina voluntas sit per cuius intentionem res
+<lb ed="#L" n="149"/>producuntur et conservantur in esse, unumquodque 
+assi<lb ed="#L" break="no" n="150"/>milatur Deo in causando inquantum eius intentio in cau-
+<pb ed="#L" n="56"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sando assimilatur intentioni voluntatis ipsius. Ideo illud
+<lb ed="#L" n="2"/>agens quod universaliorem intentionem habet in causando,
+<lb ed="#L" n="3"/>magis divinae voluntati, quae universalissima est, 
+assimi<lb ed="#L" break="no" n="4"/>latur, quam illud quod particulariorem intentionem habet.
+<lb ed="#L" n="5"/>Universaliorem autem intentionem habet id cuius bonitas
+<lb ed="#L" n="6"/>et perfectio simplicior et universalior est: quia effectus
+<lb ed="#L" n="7"/>primo et per se alicuius agentis virtuti et perfectioni agentis
+<lb ed="#L" n="8"/>proportionatur. Unde, cum corpora caelestia habeant 
+sim<lb ed="#L" break="no" n="9"/>pliciorem et universaliorem bonitatem, universalitate 
+con<lb ed="#L" break="no" n="10"/>tinentiae perfectionalis, quam corpora inferiora; sequitur
+<lb ed="#L" n="11"/>quod corporum caelestium intentio in agendo universalior
+<lb ed="#L" n="12"/>sit, atque ad universalius bonum feratur, quam intentio
+<lb ed="#L" n="13"/>inferiorum agentium. Et haec est intentio Sancti T'homae.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e811">
+               <lb ed="#L" n="14"/>IX. Secundum quod dicit Sanctus Thomas  est quod,
+<lb ed="#L" n="15"/>quia tota generatio ordinatur ad hominem sicut ad ultimum
+<lb ed="#L" n="16"/>finem in genere generabilium et mobilium; et motio caeli
+<lb ed="#L" n="17"/>ordinatur ad generationem: sequitur quod finis motus caeli
+<lb ed="#L" n="18"/>ordinatur ad hominem sicut in ultimum finem in genere
+<lb ed="#L" n="19"/>generabilium et mobilium.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e828">
+               <lb ed="#L" n="20"/>Quod autem tota generatio ad hominem ordinetur, 
+de<lb ed="#L" break="no" n="21"/>clarat ex duobus. Primo, ex eo quod, cum intentio 
+cuius<lb ed="#L" break="no" n="22"/>libet existentis in potentia, quod scilicet movetur, sit ut
+<lb ed="#L" n="23"/>per motum tendat in actum; quanto aliquis actus fuerit
+<lb ed="#L" n="24"/>posterior et magis perfectus, tanto principalius materiae
+<lb ed="#L" n="25"/>appetitus, quo appetit formam, in ipsum fertur; et in 
+ul<lb ed="#L" break="no" n="26"/>teriorem ac perfectissimum actum quem consequi potest,
+<lb ed="#L" n="27"/>fertur sicut in ultimum finem generationis. Constat autem
+<lb ed="#L" n="28"/>ex ordine ipsarum formarum, et ex ordine generationis,
+<lb ed="#L" n="29"/>quod anima humana est ultima inter omnes formas et 
+per<lb ed="#L" break="no" n="30"/>fectissima. Ideo in hanc tendit materia per generationem
+<lb ed="#L" n="31"/>sicut in ultimum finem generationis. Et sic homo est finis
+<lb ed="#L" n="32"/>generationis.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e859">
+               <lb ed="#L" n="33"/>Secundo declarat idem ex hoc quod homo utitur 
+om<lb ed="#L" break="no" n="34"/>nium rerum generibus ad sui utilitatem: aliquibus, inquam,
+<lb ed="#L" n="35"/>ad esum, aliquibus ad vestitum, aliquibus ad vehiculum,
+<lb ed="#L" n="36"/>omnibus vero sensibilibus ad intellectualis cognitionis 
+per<lb ed="#L" break="no" n="37"/>fectionem. Quod significatur in Psalmo, ubi dicitur, Omnia
+<lb ed="#L" n="38"/>subiecisti sub pedibus eius; et Aristoteles ostendit, I Polit.,
+<lb ed="#L" n="39"/>jnquiens quod homo habet naturale dominium super omnia
+<lb ed="#L" n="40"/>animalia.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e879">
+               <lb ed="#L" n="41"/>Cum ergo res conserventur in esse secundum ordinem
+<lb ed="#L" n="42"/>in littera enarratum in generatione, sequitur manifeste 
+ho<lb ed="#L" break="no" n="43"/>minem esse finem totius generationis.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e888">
+               <lb ed="#L" n="44"/>2. Ex istis. vult habere Sanctus Thomas quod, cum
+<lb ed="#L" n="45"/>dictum est generationem esse finem proximum motus caeli,
+<lb ed="#L" n="46"/>assimilationem autem ad Deum in causando esse finem
+<lb ed="#L" n="47"/>ultimum, non sic est intelligendum quasi motus caeli non
+<lb ed="#L" n="48"/>habeat alium finem ultimum quam assimilationem ad Deum
+<lb ed="#L" n="49"/>in causando: sed quia ille est finis ultimus simpliciter.
+<lb ed="#L" n="50"/>Praeter hunc autem habet alium finem ultimum, non
+<lb ed="#L" n="51"/>quidem simpliciter, sed in genere generabilium et 
+mo<lb ed="#L" break="no" n="52"/>bilium, scilicet hominem.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e910">
+               <lb ed="#L" n="53"/>Adverte, cum dicitur, enarrando ordinem formarum,
+<lb ed="#L" n="54"/>quod anima sensitiva est in potentia ad intellectivam, et
+<lb ed="#L" n="55"/>vegetabilis ad sensitivam, quod non est intelligendum quasi
+<lb ed="#L" n="56"/>anima sensitiva praecedens sit susceptiva intellectivae, aut
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="57"/>eadem possit fieri intellectiva: sed quia materia existens
+<lb ed="#L" n="58"/>sub sensitiva, est in potentia ad intellectivam, ut patet in
+<lb ed="#L" n="59"/>processu generationis hominis. Et similiter dicendum est
+<lb ed="#L" n="60"/>de vegetabili respectu sensitivae.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e932">
+               <lb ed="#L" n="61"/>X. Pro declaratione principalis responsionis ad 
+du<lb ed="#L" break="no" n="62"/>bium , ubi dicitur corpora caelestia intendere tanquam
+<lb ed="#L" n="63"/>ultimum finem divinam similitudinem in hoc quod causae
+<lb ed="#L" n="64"/>aliorum existant, advertendum primo, ex doctrina Sancti
+<lb ed="#L" n="65"/>Thomae II Sezt., d. z, q. i, a. 2, quod differt finis 
+pro<lb ed="#L" break="no" n="66"/>portionatus rei quae est ad finem, a fine improportionaliter
+<lb ed="#L" n="67"/>eam excedente, quia proportionatus acquiritur secundum
+<lb ed="#L" n="68"/>seipsum ei quod ad finem movetur tanquam perfectio in
+<lb ed="#L" n="69"/>ipso recepta, ut sanitas acquiritur ei quod ad sanitatem
+<lb ed="#L" n="70"/>per medicinam movetur: improportionatus vero non 
+ac<lb ed="#L" break="no" n="71"/>quiritur ut perfectio inhaerens ei quod ad ipsum movetur,
+<lb ed="#L" n="72"/>sed aliqua eius similitudo. Cum ergo divina bonitas sit
+<lb ed="#L" n="73"/>finis improportionabiliter excedens omnem rem creatam,
+<lb ed="#L" n="74"/>non potest acquiri a caelo per motum suum ita ut sit forma
+<lb ed="#L" n="75"/>eius, sed acquiritur aliqua eius similitudo. Ideo, cum 
+di<lb ed="#L" break="no" n="76"/>citur quod similitudo divina in causando est ultimus finis
+<lb ed="#L" n="77"/>motus corporum caelestium, per hoc non excluditur quin
+<lb ed="#L" n="78"/>divina bonitas sit eius ultimus finis. Immo magis 
+manife<lb ed="#L" break="no" n="79"/>statur ipsam esse ultimum finem, qui a corpore caelesti
+<lb ed="#L" n="80"/>nisi per quandam similitudinem haberi non potest.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e979">
+               <lb ed="#L" n="81"/>2. Advertendum secundo quod, cum dicitur divinam 
+si<lb ed="#L" break="no" n="82"/>militudinem in causando esse ultimum finem huius motus,
+<lb ed="#L" n="83"/>dupliciter potest intelligi. Uno modo, quod ipsum causare,
+<lb ed="#L" n="84"/>in quo salvatur quaedam similitudo divina, sit eius finis.
+<lb ed="#L" n="85"/>Et sic non intelligitur hic: cum ipsa operatio, sive ipsum
+<lb ed="#L" n="86"/>causare, ut sic, tendat in aliud, scilicet in effectum. — Alio
+<lb ed="#L" n="87"/>modo, quod ultimus finis sit assimilatio ad Deum, causare
+<lb ed="#L" n="88"/>autem sit id secundum quod caelum hanc similitudinem
+<lb ed="#L" n="89"/>intendit et consequitur. Et hic sensus est hic intentus.
+<lb ed="#L" n="90"/>Ipsa enim similitudo ad Deum secundum se est finis 
+in<lb ed="#L" break="no" n="91"/>tentus: causare autem est id secundum quod caelum talem
+<lb ed="#L" n="92"/>similitudinem, et ipsum Deum per quandam similitudinis
+<lb ed="#L" n="93"/>participationem, consequitur. — Habetur hic sensus ex Sancto
+<lb ed="#L" n="94"/>Thoma I Sent., d. xxxvi, q. 1v, a !, ad 2.
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e1012">
+               <lb ed="#L" n="95"/>3. Sed dubium circa hoc occurrit. Quia Sanctus Thomas
+<lb ed="#L" n="96"/>in quaestione allegata superius  de Potentia Dei, 
+impu<lb ed="#L" break="no" n="97"/>gnat hanc opinionem quam hic sequitur, dicentem scilicet
+<lb ed="#L" n="98"/>quod finis motus caeli sit assimilari ad Deum in causando.
+<lb ed="#L" n="99"/>Ponitque finem huius motus esse determinatam 
+multitu<lb ed="#L" break="no" n="100"/>dinem animarum, ita quod motus, caeli est propter 
+im<lb ed="#L" break="no" n="101"/>plendum numerum electorum. jid
+</p>
+            <p xml:id="ferv7a-d1e1887-d1e1030">
+               <lb ed="#L" n="102"/>Respondetur quod opinionem hic positam, quae est
+<lb ed="#L" n="103"/>philosophorum, reprobat ibi Sanctus Thomas non tanquam
+<lb ed="#L" n="104"/>falsam, cnm dicat ipsam posse rationabiliter sustineri : sed
+<lb ed="#L" n="105"/>quia alia opinio, quae est theologorum, sibi probabilior
+<lb ed="#L" n="106"/>videtur. Unde, cum utraque opinio sit probabilis apud
+<lb ed="#L" n="107"/>ipsum, ibi sequitur opinionem theologorum, hic autem
+<lb ed="#L" n="108"/>philosophorum opinionem sequitur. Hoc autem facit quia,
+<lb ed="#L" n="109"/>cum hunc librum adversus Gentes scripserit, accipit 
+tan<lb ed="#L" break="no" n="110"/>quam vera ea quae probabiliter sustineri possunt et ab
+<lb ed="#L" n="111"/>ipsis conceduntur, ut faciliorem adversus ipsos viam habeat:
+<lb ed="#L" n="112"/>non autem ea quae ipsi nullo modo admitterent.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 103</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 103</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="323"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2549"><!-- ferv7a-l3c103 -->
+            <head>Capitulum 103</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="65" type="fixed=323"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="66"/>CUM ostensum sit solum Deum posse miracula facere, 
+<lb ed="#L" n="67"/>vult Sanctus Thomas ostendere quod, licet substantiae  
+<lb ed="#L" n="68"/>separatae non possint aliquid quod vere miraculum sit 
+<lb ed="#L" n="69"/>efficere, possunt tamen aliquos effectus mirabiles nobis 
+fa<lb ed="#L" break="no" n="70"/>cere , 
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Circa hoc autem duo facit: primo, ostendit propositum; 
+<lb ed="#L" n="72"/>secundo, de mirabilibus quae per artem magicam fiunt,  
+<lb ed="#L" n="73"/>determinat, capite sequenti. 
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Circa primum tria facit: primo, removet quandam 
+Avi<lb ed="#L" break="no" n="75"/>cennae opinionem, per quam posset ad ultimam rationem 
+<lb ed="#L" n="76"/>superioris capitis responderi; secundo, rationem supra 
+po<lb ed="#L" break="no" n="77"/>sitam declarat et confirmat ; tertio, propositum declarat  
+</p>
+            <p>
+               <lb ed="#L" n="78"/>I. Quantum ad primum, ait quod Avicenna, ponens   
+<lb ed="#L" n="79"/>multo magis obedire materiam substantiis separatis quam  
+<lb ed="#L" n="80"/>contrariis agentibus in natura, posuit ad earum 
+appre<lb ed="#L" break="no" n="81"/>hensionem aliquos effectus in istis inferioribus, vel 
+pluvia<lb ed="#L" break="no" n="82"/>rum vel sanationis, interdum sequi, absque aliquo corporeo  
+<lb ed="#L" n="83"/>agente medio. 
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Hoc autem a signo sic ostendit. Ad apprehensionem 
+ani<lb ed="#L" break="no" n="85"/>mae nostrae, cum fuerit fortis in sua imaginatione, 
+im<lb ed="#L" break="no" n="86"/>mutatur corpus aut ad motum localem, cadendo scilicet 
+<lb ed="#L" n="87"/>ex alta trabe; aut ad calorem, ut in concupiscentibus vel 
+<lb ed="#L" n="88"/>iratis; aut ad frigiditatem, ut in timentibus; aut ad febrem  
+<lb ed="#L" n="89"/>quandoque aut ad lepram. Et non solum corpus proprium 
+<lb ed="#L" n="90"/>obedit apprehensioni animae nostrae, sed etiam, si anima 
+<lb ed="#L" n="91"/>fuerit pura, non subiecta corporalibus passionibus, et fortis 
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="92"/>fuerit in sua apprehensione, corpora exteriora illi obediunt,
+<lb ed="#L" n="93"/>ut per fascinationem ostenditur. Ergo multo magis ad 
+ap<lb ed="#L" break="no" n="94"/>prehensionem substantiarum separatarum, quae sunt animae
+<lb ed="#L" n="95"/>vel motores orbium, sequuntur aliqui effectus in istis
+<lb ed="#L" n="96"/>inferioribus absque actione alicuius corporalis agentis.
+<lb ed="#L" n="97"/>Consonat autem, inquit Sanctus Thomas, haec positio
+<lb ed="#L" n="98"/>aliis. Avicennae positionibus: videlicet huic, quod omnes
+<lb ed="#L" n="99"/>formae substantiales in haec inferiora a substantia 
+sepa<lb ed="#L" break="no" n="100"/>rata effluant; et huic, quod agentia corporalia materiam
+<lb ed="#L" n="101"/>solum ad suscipiendam impressionem agentis separati 
+dis<lb ed="#L" break="no" n="102"/>ponunt.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Advertendum, ut ostendit Sanctus Thomas Potentia, q.
+<lb ed="#L" n="104"/>vi, a. 3. quod haec Avicennae positio, scilicet quod absque
+<lb ed="#L" n="105"/>agente corporeo substantiae separatae formas quandoque
+<lb ed="#L" n="106"/>imprimere possint, ex illa positione qua tenet formas a
+<lb ed="#L" n="107"/>substantia separata in materiam effluere, agentia vero 
+cor<lb ed="#L" break="no" n="108"/>poralia materiam tantum disponere, hac deductione 
+se<lb ed="#L" break="no" n="109"/>quitur. Materia obedit substantiae separatae ad 
+receptio<lb ed="#L" break="no" n="110"/>nem formae substantialis. Ergo: non erit inconveniens si
+<lb ed="#L" n="111"/>etiam obediat ad recipiendum dispositiones ad formam:
+<lb ed="#L" n="112"/>cum hoc minoris virtutis sit. Ergo, praeter ordinem 
+corpo<lb ed="#L" break="no" n="113"/>ralium agentium, aliquas formas solo imperio imprimere
+<lb ed="#L" n="114"/>potest.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>II. Contra autem hanc opinionem arguitSanctus Thomas,
+<lb ed="#L" n="116"/>inquiens illam opinionem ex qua haec originatur, non esse
+<lb ed="#L" n="117"/>veram, secundum doctrinam Aristotelis, qui VII Metaphy--
+<pb ed="#L" n="324"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sicae probat formas quae sunt in materia, non esse a formis
+<lb ed="#L" n="2"/>separatis, sed a formis existentibus in materia: sic enim
+<lb ed="#L" n="3"/>invenitur similitudo inter faciens et factum. er
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Ad signum autem assumptum ex anima nostra, inquit
+<lb ed="#L" n="5"/>falsum esse quod ex sola apprehensione animae aliqua
+<lb ed="#L" n="6"/>corporis immutatio fiat. Immo hoc non fit nisi mediante
+<lb ed="#L" n="7"/>motu locali: cum non sequatur ex apprehensione corporis
+<lb ed="#L" n="8"/>immutatio nisi apprehensioni fuerit adiuncta affectio aliqua ;
+<lb ed="#L" n="9"/>huiusmodi autem affectiones et passiones cum aliquo 
+de<lb ed="#L" break="no" n="10"/>terminato motu cordis accidunt, ex quo sequitur ulterius
+<lb ed="#L" n="11"/>totius corporis immutatio.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Ad id quod inducit de fascinatione, respondet hoc non
+<lb ed="#L" n="13"/>esse quia apprehensio unius immediate immutet corpus
+<lb ed="#L" n="14"/>alterius: sed quia, mediante motu cordis, immutat corpus
+<lb ed="#L" n="15"/>coniunctum, cuius immutatio ad oculum pervenit, a quo
+<lb ed="#L" n="16"/>infici potest aliquod extrinsecum, praecipue si sit facile
+<lb ed="#L" n="17"/>immutabile; sicut oculus menstruatae inficit speculum.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>III. Circa impugnationem opinionis Avicennae ab 
+Ari<lb ed="#L" break="no" n="19"/>stotele sumptam, VII et VIII. Metaphysicae, contra 
+Pla<lb ed="#L" break="no" n="20"/>tonis ideas arguente, et hic a Divo Thoma breviter tactam,
+<lb ed="#L" n="21"/>advertendum est quod sic arguit Aristoteles ibidem. Quod
+<lb ed="#L" n="22"/>fit, simile est facienti. Sed id quod proprie fit, hon est
+<lb ed="#L" n="23"/>forma vel materia, sed compositum. Ergo agens quod facit
+<lb ed="#L" n="24"/>res naturales per generationem existere, non est forma a
+<lb ed="#L" n="25"/>materia separata, sed. compositum ex materia et forma.
+<lb ed="#L" n="26"/>Maior probatur: quia omne agens agit sibi simile. Minor
+<lb ed="#L" n="27"/>vero: quia eius est fieri cuius est esse; compositum autem
+<lb ed="#L" n="28"/>est quod proprie est, forma vero est id quo aliquid est.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>In hac autem ratione attendendum primo, circa 
+maio<lb ed="#L" break="no" n="30"/>rem propositionem et eius probationem, quod ibi est sermo
+<lb ed="#L" n="31"/>de faciente immediato reducente formam de potentia in
+<lb ed="#L" n="32"/>actum.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Attendefidum secundo, quod illa similitudo inter faciens
+<lb ed="#L" n="34"/>et factum quod est compositum, intelligitur ad hunc 
+sen<lb ed="#L" break="no" n="35"/>sum, iuxta doctrinam Sancti Thomae Prima, q. cx, a 2 ; et
+<lb ed="#L" n="36"/>q. cxvit, a. 3, quod agens ipsum vel est compositum, sicut
+<lb ed="#L" n="37"/>ignis generans ignem ; vel ipsum totum compositum, 
+quan<lb ed="#L" break="no" n="38"/>tum ad formam et materiam, virtute continet, quod est
+<lb ed="#L" n="39"/>proprium Dei. Unde quod dicitur materiam non obedire
+<lb ed="#L" n="40"/>substantiae separatae. ad susceptionem formae ita quod
+<lb ed="#L" n="41"/>immediate possit formam in materiam inducere, intelligitur,
+<lb ed="#L" n="42"/>ut dicitur de Potentia, loco praeallegato, de substantia 
+se<lb ed="#L" break="no" n="43"/>parata creata, cuius virtus et essentia est ad 
+determina<lb ed="#L" break="no" n="44"/>tum. genus limitata: non autem de substantia increata,
+<lb ed="#L" n="45"/>cuius virtus est infinita.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>2. Circa id quod de fascinatione dicitur, advertendum,
+<lb ed="#L" n="47"/>ex doctrina Sancti Thomae ubi supra, q. cxvri, quod ex
+<lb ed="#L" n="48"/>vehementi commotione animae ad malitiam, quae fit cum
+<lb ed="#L" n="49"/>aliquo inordinato motu cordis, ut maxime im vetulabus
+<lb ed="#L" n="50"/>contingit, immutantur spiritus vitales, praesertim in oculis,
+<lb ed="#L" n="51"/>ad quos subtiliores spiritus perveniunt. Oculi autem, 
+ta<lb ed="#L" break="no" n="52"/>lium spirituum | exhalatione, aerem | inficiunt continuum:
+<lb ed="#L" n="53"/>usque ad. determinatum spatium. Et sic. per. aspectum
+<lb ed="#L" n="54"/>inficitur aliquod corpus, praesertim tenerum et facile 
+im<lb ed="#L" break="no" n="55"/>pressionis susceptivum, quale est corpus pueri. Et hoc
+<lb ed="#L" n="56"/>modo etiam specula, si fuerint nova et munda, ex. aspectu
+<lb ed="#L" n="57"/>mulieris patientis menstrua quandam contrahunt 
+impuri<lb ed="#L" break="no" n="58"/>tatem, ut dicitur in libro de Somno et Vigilia.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>IV. Secundo, rationem praedictam praecedentis capitis
+<lb ed="#L" n="60"/>declarat et confirmat: inquiens quod in virtute 
+substan<lb ed="#L" break="no" n="61"/>tiae spiritualis est ut corpus sibi obediat quantum ad 
+mo<lb ed="#L" break="no" n="62"/>tum localem, per quem adhibere potest aliqua naturaliter
+<lb ed="#L" n="63"/>activa ad. effectus aliquos producendos, sicut ars fabrilis
+<lb ed="#L" n="64"/>ignem ad mollificationem ferri adhibet: — supple, et nullo
+<lb ed="#L" n="65"/>alio modo potest materiam immutare. Hoc autem proprie.
+<lb ed="#L" n="66"/>miraculosum non est. Ergo substantiae spirituales creatae
+<lb ed="#L" n="67"/>miracula propria virtute facere non possunt: licet hoc
+<lb ed="#L" n="68"/>possint ut in virtute divina agunt; ut patet ex Gregorio
+<lb ed="#L" n="69"/>ponente unum ordinem angelorum miraculis faciendis 
+de<lb ed="#L" break="no" n="70"/>putatum esse; et aliquos sanctos ex potestate facere 
+mi<lb ed="#L" break="no" n="71"/>racula, non solum ex intercessione.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>2. Ad evidentiam huius ultimo dicti, considerandum est
+<lb ed="#L" n="73"/>quod duos modos tangit Sanctus Thomas, de mente 
+Gre<lb ed="#L" break="no" n="74"/>gorii in secundo libro Dialogorum , quibus miracula sancti
+<lb ed="#L" n="75"/>efficiunt. Unus est per intercessionem: dum scilicet sua
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>oratione expressa impetrant a Deo miracula fieri, Alius est
+<lb ed="#L" n="77"/>per potestatem ilis a Deo concessam; sicut lora quibus
+<lb ed="#L" n="78"/>rusticus ligatus tenebatur, ad Sancti Benedicti aspectum
+<lb ed="#L" n="79"/>extemplo sunt soluta, ut Beatus Gregorius narrat .
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Dupliciter autem exponit Sanctus "Thomas sanctos 
+mi<lb ed="#L" break="no" n="81"/>racula facere ex potestate. Nam de Potentia Dei, exponit
+<lb ed="#L" n="82"/>hoc esse per quandam virtutem aliquibus sanctis 
+super<lb ed="#L" break="no" n="83"/>naturaliter infusam, non. quae in ipsis sit per modum 
+ha<lb ed="#L" break="no" n="84"/>bitus aut formae permanentis, quia. sic miracula facerent
+<lb ed="#L" n="85"/>quandocumque vellent: sed quae est per modum formae
+<lb ed="#L" n="86"/>intentionalis, quae non remanet nisi ad praesentiam agentis,
+<lb ed="#L" n="87"/>sicut lumen in aere, et motus in instrumento.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Secunda vero Secundae, q. ctxxvi, a. 1, ad 1, ponit
+<lb ed="#L" n="89"/>hoc esse inquantum, non praecedente manifesta oratione,
+<lb ed="#L" n="90"/>ad nutum hominis Deus miraculose operatur: sicut cum
+<lb ed="#L" n="91"/>Petrus Ananiam et Sapphiram mentientes increpando morti
+<lb ed="#L" n="92"/>tradidit . Secundum enim hanc interpretationem, videtur
+<lb ed="#L" n="93"/>dicendum sanctos aliquando miracula facere ex potestate:
+<lb ed="#L" n="94"/>non proprie quidem quasi in scipsis habeant aliquam 
+vir<lb ed="#L" break="no" n="95"/>tutem faciendi miracula; sed secundum similitudinem, 
+in<lb ed="#L" break="no" n="96"/>quantum ad eorum nutum Deus quandoque miraculum
+<lb ed="#L" n="97"/>facit absque manifesta oratione ipsorum qua miraculosum
+<lb ed="#L" n="98"/>opus exposcant; sicut ad nutum regis fiunt ea quae vult
+<lb ed="#L" n="99"/>fieri, propter potestatem: in ipso existentem. — Potest 
+ta<lb ed="#L" break="no" n="100"/>men ista secunda Sancti "Thomae interpretatio ad primum
+<lb ed="#L" n="101"/>sensum etiam accipi: ut dicatur Deus ad nutum alicuius
+<lb ed="#L" n="102"/>sancti miraculose operari, inquantum, ipso manifeste non.
+<lb ed="#L" n="103"/>rogante, Deus illi virtutem faciendi miraculum per 
+mo<lb ed="#L" break="no" n="104"/>dum intentionalis formae infundit.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>3. Quare autem substantiis separatis conveniat corpora
+<lb ed="#L" n="106"/>posse localiter movere, licet non possint ea ad formam
+<lb ed="#L" n="107"/>transmutare, ostendit Sanctus "Thomas Prima, q. cx, a. 3;
+<lb ed="#L" n="108"/>et Potentia Dei, ubi supra ; et de Malo, q. xvr, a. 10, hac
+<lb ed="#L" n="109"/>ratione, quia motus localis est primus motuum, et ideo sibi
+<lb ed="#L" n="110"/>convenit ut alii motus a substantia spirituali ipso mediante
+<lb ed="#L" n="111"/>proveniant. :
+</p>
+            <p>
+               <lb ed="#L" n="112"/>V. Tertio, ostendit a substantiis separatis aliquos 
+effe<lb ed="#L" break="no" n="113"/>ctus nobis mirabiles provenire . Hoc autem duobus 
+sup<lb ed="#L" break="no" n="114"/>positis ostendit. Primum est quod, cum angeli vel daemones
+<lb ed="#L" n="115"/>res naturales ad aliquos determinatos effectus adhibent, eis
+<lb ed="#L" n="116"/>quasi quibusdam instrumentis utuntur. — Secundum, quod
+<lb ed="#L" n="117"/>ex hoc deducitur, est quod conveniens est ut ex rebus
+<lb ed="#L" n="118"/>naturalibus aliqui altiores effectus proveniant inquantum
+<lb ed="#L" n="119"/>eis tanquam instrumentis spirituales utuntur substantiae :.
+<lb ed="#L" n="120"/>quia ex instrumento procedit effectus non solum suae
+<lb ed="#L" n="121"/>virtuti correspondens, sed etiam ultra propriam virtutem,
+<lb ed="#L" n="122"/>inquantum agit in virtute principalis agentis; ut patet in
+<lb ed="#L" n="123"/>serra, et. in securi, et calore naturali.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Istis suppositis, inquit Sanctus Thomas huiusmodi 
+effe<lb ed="#L" break="no" n="125"/>ctus, qui inquam a substantiis spiritalibus adhibitis causis
+<lb ed="#L" n="126"/>naturalibus fiunt, reddi nobis «mirabiles dupliciter. Uno
+<lb ed="#L" n="127"/>modo, inquantum a substantiis spiritualibus naturales causae
+<lb ed="#L" n="128"/>modo nobis inconsueto ad proprios effectus apponuntur:
+<lb ed="#L" n="129"/>quo modo artificiosorum artificum opera miramur. - Alio
+<lb ed="#L" n="130"/>modo, ex eo quod naturales causae, ad effectus aliquos
+<lb ed="#L" n="131"/>producendos appositae, aliquid sortiuntur virtutis ex hoc
+<lb ed="#L" n="132"/>quod spiritualium substantiarum sunt istrumenta. Et hoc
+<lb ed="#L" n="133"/>magis ad miraculi rationem accedit. -
+</p>
+            <p>
+               <lb ed="#L" n="134"/>2. Advertendum quod primus modus quo substantiae
+<lb ed="#L" n="135"/>spirituales aliquos effectus operantur qui nobis mirabiles
+<lb ed="#L" n="136"/>sunt, est quando operantur effectus corporalium causarum
+<lb ed="#L" n="137"/>tantum. Quos miramur aut quia adhibent propria activa
+<lb ed="#L" n="138"/>modo nobis occulto: sicut, si videremus secari lignum et
+<lb ed="#L" n="139"/>serram occulte appositam non videremus, miraremur. Aut
+<lb ed="#L" n="140"/>quia aliquas causas adhibent quarum nos virtutem 
+igno<lb ed="#L" break="no" n="141"/>ramus: sicut si, adhibito magnete, miraremur quod ferrum
+<lb ed="#L" n="142"/>attraberetur, virtutem magnetis ignorantes, Aut quia 
+cele<lb ed="#L" break="no" n="143"/>rius adhibent causas naturales quam nos adhibere 
+pos<lb ed="#L" break="no" n="144"/>simus. Aut quia eas adhibent illis horis in quibus virtus
+<lb ed="#L" n="145"/>caelestis, quam certius hominibus cognoscunt, ad effectus
+<lb ed="#L" n="146"/>intentos magis cooperatur.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>Ad secundum autem modum pertinent effectus qui 
+vir<lb ed="#L" break="no" n="148"/>tute corporea per se produci non possunt, sed tantum ut
+<lb ed="#L" n="149"/>ipsa tanquam instrumento virtus utitur incorporea. Haec
+<lb ed="#L" n="150"/>autem ad rationem miraculi magis dicuntur accedere, quia
+<pb ed="#L" n="325"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tales effectus sunt magis supra naturam virtutis creatae
+<lb ed="#L" n="2"/>nobis cognitae, quae est virtus corporea. Quanto enim
+<lb ed="#L" n="3"/>magis aliquid est supra facultatem naturae nobis. cognitae,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="4"/>tanto magis de ratione miraculi participat: cum de ratione
+<lb ed="#L" n="5"/>miraculi sit quod sit supra facultatem naturae aliquo modo,
+<lb ed="#L" n="6"/>ut superius  patuit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

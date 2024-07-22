@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 160</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 160</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="467"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e3014"><!-- ferv7a-l3c160 -->
+            <head>Capitulum 160</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="9" type="fixed=467"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="10"/>QVIA in responsione ad dubium praecedens dictum est
+<lb ed="#L" n="11"/>in potestate liberi arbitrii esse praestare impedimentum
+<lb ed="#L" n="12"/>gratiae vel non praestare, vult Sanctus "Thomas ipsam 
+pro<lb ed="#L" break="no" n="13"/>positionem. declarare .
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Circa hoc autem duo facit: primo, declarat propositum;
+<lb ed="#L" n="15"/>secundo, ostendit quod, non obstante impedimento peccati
+<lb ed="#L" n="16"/>ad gratiae susceptionem, aliquos tamen Deus a peccato
+<lb ed="#L" n="17"/>liberat, aliis in peccato relictis, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>I. Quantum ad primum, inquit quod; cum dictum est
+<lb ed="#L" n="19"/>in libertate arbitrii esse ne impedimentum praestet gratiae,
+<lb ed="#L" n="20"/>hoc competit iis in quibus naturalis potentia integra fuerit :
+<lb ed="#L" n="21"/>non autem ei-qui, per inordinationem praecedentem, 
+de<lb ed="#L" break="no" n="22"/>clinavit ad malum. Quia etsi, ad aliquod momentum, ab
+<lb ed="#L" n="23"/>aliquo actu particulari peccati possit abstinere propria 
+po<lb ed="#L" break="no" n="24"/>testate; si tamen diu sibi relinquatur, in peccatum cadet,
+<lb ed="#L" n="25"/>per quod gratiae impedimentum praestatur.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>2. Ad evidentiam primae partis huius dicti, consideran--
+<lb ed="#L" n="27"/>dum est quod per naturalem potentiam intelligit Sanctus
+<lb ed="#L" n="28"/>Thomas liberi arbitrii potentiam, quae etiam voluntas dicitur,
+<lb ed="#L" n="29"/>nullo peccato nullaque inordinatione vitiatam, sicut erat in
+<lb ed="#L" n="30"/>primo parente antequam peccaret. — Patet haec interpretatio:
+<lb ed="#L" n="31"/>quia integritatem hanc condividit inordinationi peccati.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Circa autem hanc integritatem considerandum est primo,
+<lb ed="#L" n="33"/>quod dupliciter eam in libero arbitrio considerare possumus:
+<lb ed="#L" n="34"/>uno modo, secundum quod liberum arbitrium est virtus
+<lb ed="#L" n="35"/>humanae animae absolute, ita quod consideretur ipsius
+<lb ed="#L" n="36"/>integritas quae sibi ex natura humana praecise et nude 
+con<lb ed="#L" break="no" n="37"/>siderata convenit; alio modo, secundum quod per iustitiam
+<lb ed="#L" n="38"/>originalem erat perfecta, ut erat in primo parente: Licet
+<lb ed="#L" n="39"/>enim nullus unquam hominis status fuerit in quo non fuerit
+<lb ed="#L" n="40"/>homo aut sub iustitia originali aut sub peccato, quia primus
+<lb ed="#L" n="41"/>homo cum iustitia originali fuit creatus, et post eius 
+pec<lb ed="#L" break="no" n="42"/>catum tam ipse quam alii omnes sub peccato fuerunt; nihil
+<lb ed="#L" n="43"/>tamen prohibet, cum talis iustitia originalis fuerit aliquid
+<lb ed="#L" n="44"/>naturae humanae superadditum, considerari posse naturam
+<lb ed="#L" n="45"/>et absque tali dono et absque peccato, et quantum ad ea
+<lb ed="#L" n="46"/>quae sibi secundum se conveniunt ut et a tali dono
+<lb ed="#L" n="47"/>abstrahit et a peccato.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Considerandum secundo, quod homo dupliciter 
+consi<lb ed="#L" break="no" n="49"/>derari potest: uno modo, inquantum animal est; alio modo,
+<lb ed="#L" n="50"/>inquantum est homo, idest, ut rationem habet. Integritas
+<lb ed="#L" n="51"/>naturalis hominis inquantum homo est, habet ut appetitus
+<lb ed="#L" n="52"/>sensitivus ratione reguletur illique subiiciatur: propter quod
+<lb ed="#L" n="53"/>inquit Philosophus, III de Anima , quod appetitus 
+sensi<lb ed="#L" break="no" n="54"/>tivus sequitur rationalem sicut sphaera movetur a sphaera.
+<lb ed="#L" n="55"/>Et quia iustitia originalis in homine istum ordinem 
+natu<lb ed="#L" break="no" n="56"/>ralem virium animae manutenebat ; ideo idem est loqui de
+<lb ed="#L" n="57"/>integritate liberi arbitrii quae sibi convenit ex conditione
+<lb ed="#L" n="58"/>naturae hominis inquantum. huiusmodi, et de integritate
+<lb ed="#L" n="59"/>quae sibi convenit natura existente sub originali iustitia.
+<lb ed="#L" n="60"/>Propter hoc statum naturae integrae vocat Sanctus Thomas
+<lb ed="#L" n="61"/>statum naturae existentis sub iustitia originali, in quo statu
+<lb ed="#L" n="62"/>primi parentes fuerunt, sive fuerint in gratia conditi sive
+<lb ed="#L" n="63"/>non: statum vero naturae corruptae statum peccati vocat .
+<lb ed="#L" n="64"/>Vult ergo quod in statu naturae integrae, sive in statu quo
+<lb ed="#L" n="65"/>homo erat sub iustitia originali, in facultate liberi arbitrii
+<lb ed="#L" n="66"/>erat praestare impedimentum gratiae, et non praestare.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>3. Ad evidentiam secundae partis, considerandum primo,
+<lb ed="#L" n="68"/>quod non loquitur Sanctus Thomas de potentia liberi arbitrii
+<lb ed="#L" n="69"/>remota, qua dicitur homo posse non praestare 
+impedimen<lb ed="#L" break="no" n="70"/>tum gratiae, inquantum, supposito divino auxilio, potest se
+<lb ed="#L" n="71"/>ad gratiam praeparare, et sic, ea habita, potest non peccare.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Sed loquitur de potentia propinqua, qua dicitur liberum
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="73"/>arbitrium posse aliquid immediate, sive ex se solo sive
+<lb ed="#L" n="74"/>etiam ex conditionibus sibi superadditis: sicut dicimus 
+ho<lb ed="#L" break="no" n="75"/>minem posse iuste operari ex habitu iustitiae, quo voluntas
+<lb ed="#L" n="76"/>ad actus iustitiae habet inclinationem. Sic enim intelligitur
+<lb ed="#L" n="77"/>dictum Sancti Thomae: scilicet quod liberum arbitrium,
+<lb ed="#L" n="78"/>supposita inordinatione peccati praeteriti et iis quae ad
+<lb ed="#L" n="79"/>ipsam consequuntur, non habet in potestate sua vitare 
+pec<lb ed="#L" break="no" n="80"/>catum, potentia scilicet propinqua; et sic non est in eius
+<lb ed="#L" n="81"/>facultate non praestare impedimentum gratiae.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Considerandum secundo, quod dupliciter possumus 
+intel<lb ed="#L" break="no" n="83"/>ligere aliquem posse vitare omne peccatum, aut non posse :
+<lb ed="#L" n="84"/>uno modo divisim, considerando scilicet unumquodque 
+pec<lb ed="#L" break="no" n="85"/>catum secundum se; alio modo coniunctim, considerando
+<lb ed="#L" n="86"/>videlicet omnia simul. Sensus ergo propositionis Sancti 
+Tho<lb ed="#L" break="no" n="87"/>mae est, ut etiam declaratur I IP^, q. cix, a. 8, quod homo
+<lb ed="#L" n="88"/>in peccato existens, et gratia carens, potest quidem vitare
+<lb ed="#L" n="89"/>omnia peccata divisim : — quia, ostenso quocumque peccato
+<lb ed="#L" n="90"/>in particulari secundum se, verum est dicere, /7oc 
+pec<lb ed="#L" break="no" n="91"/>catum vitare potest : et hoc significavit cum dixit quod ad
+<lb ed="#L" n="92"/>aliquod momentum, idest ad breve tempus, potest ab aliquo
+<lb ed="#L" n="93"/>peccati actu particulari abstinere — non potest autem omnia
+<lb ed="#L" n="94"/>coniunctim vitare, ita videlicet quod nec hoc nec illud 
+com<lb ed="#L" break="no" n="95"/>mittat, singulis enumeratis, sed necesse est ut hoc committat
+<lb ed="#L" n="96"/>aut illud: et hoc significavit cum dixit, si diu sibi 
+relin<lb ed="#L" break="no" n="97"/>quatur, in peccatum cadet.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>4. Istis suppositis, probat Sanctus Thomas dictum suum
+<lb ed="#L" n="99"/>quantum ad secundam partem, de qua principaliter intendit
+<lb ed="#L" n="100"/>loqui. Et arguit primo sic. Mens hominis, a statu 
+recti<lb ed="#L" break="no" n="101"/>tudinis. declinando, recedit ab ordine ultimi finis. Ergo ille
+<lb ed="#L" n="102"/>efficitur minus dilectus eo ad quod mens inordinate 
+con<lb ed="#L" break="no" n="103"/>versa est sicut in ultimum finem. Ergo, quandocumque 
+oc<lb ed="#L" break="no" n="104"/>currerit aliquid conveniens inordinato fini, repugnans fini
+<lb ed="#L" n="105"/>debito, eligetur, nisi per gratiam ad debitum ordiriem 
+redu<lb ed="#L" break="no" n="106"/>catur. Ergo, post peccatum, non potest homo abstinere ab
+<lb ed="#L" n="107"/>omni peccato nisi per gratiam reparetur. — Probatur ultima
+<lb ed="#L" n="108"/>consequentia. Quia, dum eligitur aliquid quod repugnat
+<lb ed="#L" n="109"/>ultimo fini, impedimentum gratiae praestatur, et 
+conse<lb ed="#L" break="no" n="110"/>quenter peccatur. ,
+</p>
+            <p>
+               <lb ed="#L" n="111"/>II. Contra istam rationem instari potest dupliciter. Primo,
+<lb ed="#L" n="112"/>quia videtur quod ex falso fundamento procedat: scilicet
+<lb ed="#L" n="113"/>quod is qui mortaliter peccat, afficiatur illi bono ad quod
+<lb ed="#L" n="114"/>peccando conversus est, tanquam ultimo fini, etiam cessante
+<lb ed="#L" n="115"/>peccato, quousque affectus eius per gratiam ordinetur. Hoc
+<lb ed="#L" n="116"/>enim falsum esse videtur. Quia potest esse ut aliquis habens
+<lb ed="#L" n="117"/>habitum acquisitum temperantiae, semel contra habitus 
+in<lb ed="#L" break="no" n="118"/>clinationem peccet, deinde amplius tale peccatum non
+<lb ed="#L" n="119"/>committere deliberet. Constat enim quod iste non habebit,
+<lb ed="#L" n="120"/>post peccatum, pro ultimo fine aliquid temperantiae 
+con<lb ed="#L" break="no" n="121"/>trarium. Immo magis habebit pro fine id ad quod inclinat
+<lb ed="#L" n="122"/>temperantia, quae remansit, isto etiam peccante: cum non
+<lb ed="#L" n="123"/>corrumpatur habitus ex unico actu contrario.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Secundo , quia non videtur vera illa propositio: 
+Quan<lb ed="#L" break="no" n="125"/>documque occurrerit aliquid conveniens. inordinato fini,
+<lb ed="#L" n="126"/>repugnans fini debito, eligetur. Si enim hoc verum sit,
+<lb ed="#L" n="127"/>sequitur quod existens in peccato non possit singula peccata
+<lb ed="#L" n="128"/>vitare: quia videlicet conveniens fini inordinato necessario
+<lb ed="#L" n="129"/>eligetur semper quando. occurrerit. Hoc autem repugnat
+<lb ed="#L" n="130"/>superius dictis et dicendis. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>III. Ad evidentiam primi dubii, considerandum est quod,
+<lb ed="#L" n="132"/>cum loquamur hic de potentia propinqua liberi arbitrii
+<lb ed="#L" n="133"/>ad vitandum peccatum aut committendum absolute, 
+assi<lb ed="#L" break="no" n="134"/>gnatur ista prima ratio impossibilitatis vitandi omnia peccata,
+<lb ed="#L" n="135"/>ex remotione illius dispositionis qua ipsum liberum arbi-
+<pb ed="#L" n="468"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>trium erat ad vitandum peccatum, inquantum peccatum est,
+<lb ed="#L" n="2"/>proxima dispositione inclinatum; et ex positione contrariae
+<lb ed="#L" n="3"/>dispositionis, qua ad peccandum inclinatur, Quia videlicet
+<lb ed="#L" n="4"/>per peccatum removetur inhaesio voluntatis ad Deum 
+tan<lb ed="#L" break="no" n="5"/>quam ad ultimum finem, per quam voluntas inclinabatur
+<lb ed="#L" n="6"/>ad ea quae illi fini sunt convenientia, cum a fine omnia
+<lb ed="#L" n="7"/>opera regulentur, et per consequens ad vitandum peccatum,
+<lb ed="#L" n="8"/>per quod quis ab illo ultimo fine avertitur: ponitur vero
+<lb ed="#L" n="9"/>adhaesio eius ad bonum commutabile tanquam ad ultimum
+<lb ed="#L" n="10"/>finem, qui scilicet amatur plus quam Deus, per quam 
+adbae<lb ed="#L" break="no" n="11"/>sionem inclinatur in id quod est conveniens illi fini, quod
+<lb ed="#L" n="12"/>est mortale peccatum. Nam si voluntas, sive liberum 
+arbi<lb ed="#L" break="no" n="13"/>trium, per peccatum caret dispositione qua poterat absolute
+<lb ed="#L" n="14"/>vitare peccatum; habetque dispositionem inclinantem in
+<lb ed="#L" n="15"/>peccatum: consequens est ut aliquando peccet; sicut et
+<lb ed="#L" n="16"/>habens habitum non potest diu stare quin secundum illum
+<lb ed="#L" n="17"/>habitum operetur. Et sic ille qui peccavit, manente illa
+<lb ed="#L" n="18"/>privatione et illa dispositione, non potest omne peccatum
+<lb ed="#L" n="19"/>vitare: licet aliquod. particulare peccatum vitare possit.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>Considerandum secundo, ex doctrina Sancti Thomae
+<lb ed="#L" n="21"/>Verit., q. xxiv, a. 12, quod ista dispositio quae relinquitur in
+<lb ed="#L" n="22"/>peccante mortaliter, non semper est habitus vitii quo peccat,
+<lb ed="#L" n="23"/>quia ex uno actu non generatur habitus: sed est quaedam
+<lb ed="#L" n="24"/>habitualis adhaesio voluntatis ad finem inordinatum, idest,
+<lb ed="#L" n="25"/>ad commutabile bonum; cuius adhaesionis vis et inclinatio
+<lb ed="#L" n="26"/>in ea manet quousque bono incommutabili ut ultimo fini
+<lb ed="#L" n="27"/>adhaereat, quod quidem non fit nisi per gratiam. Ex quo
+<lb ed="#L" n="28"/>habetur quod, licet aliquis cesset a peccato, disponatque
+<lb ed="#L" n="29"/>non amplius illud. peccatum committere, ex aliqua 
+deli<lb ed="#L" break="no" n="30"/>beratione; propter hoc tamen non tollitur habitualis illa
+<lb ed="#L" n="31"/>inclinatio voluntatis ad indebitum finem, scilicet ad bonum
+<lb ed="#L" n="32"/>commutabile, sive ad bonum delectabile secundum sensum:
+<lb ed="#L" n="33"/>quia ista non tollitur nisi voluntas, quae per peccatum
+<lb ed="#L" n="34"/>ab incommutabili bono discessit, iterum in debito ordine
+<lb ed="#L" n="35"/>constituatur, et in adhaesione ad debitum finem. Hoc autem
+<lb ed="#L" n="36"/>non fit per solum actum liberi arbitrii disponentis non
+<lb ed="#L" n="37"/>peccare amplius illo peccato, sed requiritur divina gratia,
+<lb ed="#L" n="38"/>cuius est hominem in statu debitae rectitudinis constituere.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>2. Ad obiectionem ergo contra rationem Sancti "Thomae
+<lb ed="#L" n="40"/>dicitur quod non supponitur falsum. Non enim supponitur
+<lb ed="#L" n="41"/>quod peccans mortaliter, post peccatum, afficiatur continue
+<lb ed="#L" n="42"/>illi particulari bono ad quod peccando conversus est: sed
+<lb ed="#L" n="43"/>quod manet inclinatio ad bonum commutabile in generali,
+<lb ed="#L" n="44"/>et aversio ab incommutabili bono, quod in omni mortali
+<lb ed="#L" n="45"/>peccato includi manifestum, est. Qui enim fornicatur, non
+<lb ed="#L" n="46"/>necessario afficitur actu vel habitu post peccatum 
+delecta<lb ed="#L" break="no" n="47"/>tioni venereae, quia, ut arguebatur, si talis habeat habitum
+<lb ed="#L" n="48"/>temperantiae, faciliter reducitur ad abstinentiam huiusmodi
+<lb ed="#L" n="49"/>delectationis : necesse est tamen manere aversionem a Deo,
+<lb ed="#L" n="50"/>et inclinationem ad bonum creatum conveniens appetenti,
+<lb ed="#L" n="51"/>nisi fiat reparatio debiti ordinis per gratiam, Ex quo enim
+<lb ed="#L" n="52"/>quis bonum incommutabile pro creato et commutabili 
+repu<lb ed="#L" break="no" n="53"/>diavit; et non potest bono illi incommutabili propria virtute
+<lb ed="#L" n="54"/>iterato tanquam ultimo fini suarum operationum adhaerere:
+<lb ed="#L" n="55"/>relinquitur ut bonum commutabile et creatum sibi 
+conve<lb ed="#L" break="no" n="56"/>niens pro ultimo fine habitualiter habeat; oportet enim unum
+<lb ed="#L" n="57"/>esse uniuscuiusque hominis ultimum finem, in quem sua
+<lb ed="#L" n="58"/>omnia dirigat, cum a fine omnia regulentur, Unde, 
+quan<lb ed="#L" break="no" n="59"/>tumcumque per habitum temperantiae qui commisit 
+forni<lb ed="#L" break="no" n="60"/>cationem ad proprium temperantiae finem redeat, per hoc
+<lb ed="#L" n="61"/>tamen non tollitur quin mens privata maneat ordine ad
+<lb ed="#L" n="62"/>debitum finem, sitque inclinata ad bonum creatum sicut ad
+<lb ed="#L" n="63"/>ultimum finem.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Potest etiam dici quod, licet per habitum temperantiae iste
+<lb ed="#L" n="65"/>qui fornicatus est redeat ad finem proprium temperantiae
+<lb ed="#L" n="66"/>tanquam ad proximum finem, inquantum disponit ab 
+inde<lb ed="#L" break="no" n="67"/>bita venere deinceps abstinere; cum hoc tamen remanet in
+<lb ed="#L" n="68"/>voluntate inclinatio ad veneream delectationem tanquam ad
+<lb ed="#L" n="69"/>ultimum finem derelicta, ex eo quod in delectatione venerea
+<lb ed="#L" n="70"/>ultimum sibi finem peccando statuit; ista enim inclinatio
+<lb ed="#L" n="71"/>remanet quousque per alterius ultimi finis, sive debiti sive
+<lb ed="#L" n="72"/>indebiti, electionem removeatur. Efficacior est autem ista
+<lb ed="#L" n="73"/>inclinatio ad inducendum in peccatum, quam habitus 
+tempe<lb ed="#L" break="no" n="74"/>rantiae ad impediendum, propter naturae corruptionem, et
+<lb ed="#L" n="75"/>propter inordinationem voluntatis: quia, cum ultimus finis
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>summe et necessario ametur, quandocumque occurrit aliquid
+<lb ed="#L" n="77"/>fini conveniens indebito, voluntas in illud fertur, nisi magna
+<lb ed="#L" n="78"/>deliberatione retrahatur.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>IV. Ad secundum dubium respondetur quod illa 
+propo<lb ed="#L" break="no" n="80"/>sitio intelligenda est cum hac conditione, nisi homo seipsum
+<lb ed="#L" n="81"/>multa deliberatione cohibeat, ut patet de Veritate, 
+quae<lb ed="#L" break="no" n="82"/>stione praeallegata. Posuit autem eam Sanctus Thomas hic
+<lb ed="#L" n="83"/>absolute, quia consideratur quid secundum se conveniat
+<lb ed="#L" n="84"/>existenti in peccato secundum illam inclinationem ad 
+in<lb ed="#L" break="no" n="85"/>debitum finem. Sibi enim convenit secundum se ut, 
+quan<lb ed="#L" break="no" n="86"/>documque sese obtulerit aliquid inordinato fini conveniens,
+<lb ed="#L" n="87"/>illud eligat: si autem contingat non eligere, hoc est ex
+<lb ed="#L" n="88"/>aliquo alio retrahente. Ubi advertendum est quod, licet is
+<lb ed="#L" n="89"/>qui ex illa habituali inclinatione ad indebitum finem peccat,
+<lb ed="#L" n="90"/>aliquali deliberatione peccet, inquantum iam est in eius
+<lb ed="#L" n="91"/>electione determinatus finis, et perpendit id quod eligitur
+<lb ed="#L" n="92"/>peccatum mortale esse; ista tamen deliberatio non sufficit
+<lb ed="#L" n="93"/>ad retrahendum hominem a peccato, quia ille qui, bono
+<lb ed="#L" n="94"/>incommutabili repudiato, commutabili bono inhaesit, iam
+<lb ed="#L" n="95"/>non existimat malum a bono incommutabili averti; sed 
+re<lb ed="#L" break="no" n="96"/>quiritur tanta deliberatio ut perveniat considerando ad 
+ali<lb ed="#L" break="no" n="97"/>quid quod non possit non existimare malum; quae si non
+<lb ed="#L" n="98"/>adsit, homo in peccatum secundum illam inclinationem
+<lb ed="#L" n="99"/>fertur. Ideo optime dicitur quod, quandocumque occurrerit
+<lb ed="#L" n="100"/>aliquid conveniens inordinato fini repugnans fini debito,
+<lb ed="#L" n="101"/>illud eligitur: scilicet, considerata per se conditione habentis
+<lb ed="#L" n="102"/>habitualem inclinationem ad indebitum finem, Non sequitur
+<lb ed="#L" n="103"/>autem ex hoc quod singula peccata vitare non possit: quia,
+<lb ed="#L" n="104"/>hoc non obstante, potest contra unumquodque peccatum
+<lb ed="#L" n="105"/>niti, adhibendo tantam deliberationem quanta requiritur.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>V. Secundo. Cum mens inclinata fuerit ad aliquid, se
+<lb ed="#L" n="107"/>habet magis ad illud in quod inclinatur. Ergo aliquando
+<lb ed="#L" n="108"/>eligit id ad quod est inclinata, manente inclinatione. Ergo,
+<lb ed="#L" n="109"/>si inclinata fuerit in peccatum, non stabit diu quin peccet.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Probatur prima consequentia. Quia illud ad quod mens
+<lb ed="#L" n="111"/>est magis inclinata, eligit, nisi per quandam rationis 
+discus<lb ed="#L" break="no" n="112"/>sionem ab eo quadam sollicitudine abducatur: ut ex 
+repen<lb ed="#L" break="no" n="113"/>tinis ostenditur. Non est autem possibile mentem hominis
+<lb ed="#L" n="114"/>continue in ea vigilantia esse ut per rationem discutiat
+<lb ed="#L" n="115"/>quicquid debet velle vel agere. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="117"/>sicut habitus virtutis non imponit necessitatem operandi
+<lb ed="#L" n="118"/>absolute, hoc vel illo particulari considerato, sed tantum facit
+<lb ed="#L" n="119"/>inclinationem ad actum habitui conformem ; ita et 
+habi<lb ed="#L" break="no" n="120"/>tualis adhaesio ad indebitum finem non imponit 
+neces<lb ed="#L" break="no" n="121"/>sitatem absolute ad particulare hoc peccatum vel illud,
+<lb ed="#L" n="122"/>sed tantum inclinationem facit ad peccandum. Ideo sicut,
+<lb ed="#L" n="123"/>non obstante inclinatione causae naturalis pro maiori parte
+<lb ed="#L" n="124"/>agentis ad aliquem effectum, potest aliquando deficere ab
+<lb ed="#L" n="125"/>actione sua ex aliquo impediente; ita, stante ista habituali
+<lb ed="#L" n="126"/>inclinatione mentis ad peccandum, potest hoc particulare
+<lb ed="#L" n="127"/>peccatum et illud ex hominis vigilantia vitari; propter quod
+<lb ed="#L" n="128"/>dicitur quod existens in peccato mortali potest singula 
+pec<lb ed="#L" break="no" n="129"/>cata vitare. Sed tamen, quia in multis occupatur mens
+<lb ed="#L" n="130"/>humana, nec continue nec diu esse in tali vigilantia potest
+<lb ed="#L" n="131"/>qualis requiritur ad hoc ut peccatum vitetur; ideo necesse
+<lb ed="#L" n="132"/>est ut quandoque taliter dispositus peccet, et non maneat
+<lb ed="#L" n="133"/>diu absque peccato. Ex quo sequitur quod existens in
+<lb ed="#L" n="134"/>peccato mortali non potest omnia peccata vitare collective.
+<lb ed="#L" n="135"/>Et ex hoc ista ratio procedit.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>Tertio. Multi sunt impetus corporalium passionum; et
+<lb ed="#L" n="137"/>multa appetibilia secundum sensum; plurimae quoque 
+pas<lb ed="#L" break="no" n="138"/>siones et occasiones male agendi; quibus de facili homo (
+sci<lb ed="#L" break="no" n="139"/>licet in natura corrupta) provocatur ad peccandum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>Ex istis infertur stultam esse Pelagianorum opinionem, 
+di<lb ed="#L" break="no" n="141"/>centium hominem in peccato existentem sine gratia posse
+<lb ed="#L" n="142"/>vitare peccata. Cuius contrarium ostenditur in Psalmo, cum
+<lb ed="#L" n="143"/>dicitur, Dum defecerit etc.; et dum Dominus nos docet
+<lb ed="#L" n="144"/>orare, Et ne nos-etc.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>VI. Quia autem posset aliquis ex praedictis inferre quod
+<lb ed="#L" n="146"/>non imputetur homini ad culpam si impedimentum gratiae
+<lb ed="#L" n="147"/>praestet, hoc excludens Sanctus Thomas negat illud sequi.
+<lb ed="#L" n="148"/>Immo, inquit tale peccatum sequens ei ad culpam imputari
+<lb ed="#L" n="149"/>propter duo. Primo, quia hic defectus ex culpa praecedente
+<lb ed="#L" n="150"/>in eo relinquitur. Unde et ebrius ex sua culpa non excusatur
+<pb ed="#L" n="469"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ab homicidio per ebrietatem commisso. - Secundo quia,
+<lb ed="#L" n="2"/>cum in potestate eius sit nunc vitare hoc vel illud peccatum,
+<lb ed="#L" n="3"/>si peccat, voluntarie peccat.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Ex ista responsione Sancti Thomae patet responsio ad
+<lb ed="#L" n="5"/>obiectionem Scoti, cum arguit, II Sent, d. xxvm , quod,
+<lb ed="#L" n="6"/>si existens in peccato non posset omnia peccata vitare,
+<lb ed="#L" n="7"/>obligaretur homo a Deo ad impossibile. Patet enim primo,
+<lb ed="#L" n="8"/>quod non est inconveniens hominem obligari ad aliquid
+<lb ed="#L" n="9"/>quod est. factum sibi impossibile ex sua culpa, sicut accidit
+<lb ed="#L" n="10"/>in proposito: sed bene esset inconveniens ipsum obligari
+<lb ed="#L" n="11"/>ad id quod est absolute impossibile. — Patet secundo, quod
+<lb ed="#L" n="12"/>non obligatur homo ad impossibile propter hoc. Quia
+<lb ed="#L" n="13"/>unumquodque peccatum, secundum se acceptum, vitare
+<lb ed="#L" n="14"/>potest. Et ideo, si illud committit, voluntarie peccat.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>VII. Quia tria in hoc capite dicuntur: scilicet quod in
+<lb ed="#L" n="16"/>natura integra homo potest non praestare impedimentum
+<lb ed="#L" n="17"/>gratiae peccando ; - quod in natura corrupta et per 
+pec<lb ed="#L" break="no" n="18"/>catum deordinata, homo non potest non praestare peccando
+<lb ed="#L" n="19"/>impedimentum gratiae; — et quod potest existens in peccato
+<lb ed="#L" n="20"/>singula mortalia peccata vitare, contra unumquodque 
+isto<lb ed="#L" break="no" n="21"/>rum potest instari.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Contra primum quidem sic. Homo ex facultate propriae
+<lb ed="#L" n="23"/>naturae non potest adimplere praeceptum caritatis. Ergo
+<lb ed="#L" n="24"/>non potest vitare omissionem talis praecepti. Ergo non
+<lb ed="#L" n="25"/>potest non peccare. Ergo non potest non praestare 
+impe<lb ed="#L" break="no" n="26"/>dimentum gratiae.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>2. Contra secundum arguitur primo, fundamento 
+Du<lb ed="#L" break="no" n="28"/>randi, apud <ref>Capreolum, in II Sent., d. xxvi</ref> : quia homo
+<lb ed="#L" n="29"/>sine gratia potest in omne opus bonum bonitate morali, quae
+<lb ed="#L" n="30"/>est ex obiecto et circumstantiis. — Et etiam quia gratiae 
+pri<lb ed="#L" break="no" n="31"/>vatio non plus tollit quam poneret gratia. Ponebat autem
+<lb ed="#L" n="32"/>tantum efficaciam merendi. Ideo hoc tantum tollit gratiae
+<lb ed="#L" n="33"/>privatio : non autem potentiam vitandi omnia peccata.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Secundo, fundamento Scoti : quia peccator potest 
+ca<lb ed="#L" break="no" n="35"/>vere ab hoc mortali, Et dum cavet hoc, cavet omnia. Non
+<lb ed="#L" n="36"/>possunt enim esse simul in voluntate plures consensus : unus
+<lb ed="#L" n="37"/>scilicet quo vult unum peccatum vitare, et alius quo vult
+<lb ed="#L" n="38"/>committere aliud. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>3. Contra tertium arguitur primo. Dictum est superius 
+<lb ed="#L" n="40"/>hominem sine gratia non posse omnia peccata mortalia
+<lb ed="#L" n="41"/>vitare, ex eo quod non habet ad hoc potentiam 
+propin<lb ed="#L" break="no" n="42"/>quam, licet habeat potentiam remotam, scilicet libertatem
+<lb ed="#L" n="43"/>arbitrii. Sed sicut non habet potentiam propinquam ad 
+vi<lb ed="#L" break="no" n="44"/>tandum omnia, ita nec ad vitandum singula: cum supra
+<lb ed="#L" n="45"/>libertatem arbitrii nihil in eo sit per quod ad vitandum hoc
+<lb ed="#L" n="46"/>peccatum inclinetur. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Secundo. Existens in peccato obligatur ad ea quae sunt
+<lb ed="#L" n="48"/>iuris supernaturalis. Et illa non potest absque gratia implere.
+<lb ed="#L" n="49"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>VIII. Ad primum horum dicitur quod in statu naturae
+<lb ed="#L" n="51"/>integrae, supposito quod in homine nulla sit gratia, sicut non
+<lb ed="#L" n="52"/>potest homo diligere Deum dilectione caritatis, quae est
+<lb ed="#L" n="53"/>supernaturalis dilectio, ita sibi non datur praeceptum 
+cari<lb ed="#L" break="no" n="54"/>tatis, ut scilicet actu diligat Deum pro tunc ex caritate. Et
+<lb ed="#L" n="55"/>ideo non diligendo Deum ex caritate, non peccat. Si enim
+<lb ed="#L" n="56"/>datum esset homini non habenti gratiam, habenti tamen
+<lb ed="#L" n="57"/>naturam integram et mentem ordinatam, tale praeceptum,
+<lb ed="#L" n="58"/>fuisset obligatus ad impossibile simpliciter: quod 
+inconve<lb ed="#L" break="no" n="59"/>niens est. Dantur autem naturae sic consideratae praecepta
+<lb ed="#L" n="60"/>dumtaxat iuris naturalis, non autem supernaturalis iuris.
+<lb ed="#L" n="61"/>Quod si sibi daretur praeceptum de diligendo Deum super
+<lb ed="#L" n="62"/>omnia dilectione caritatis, simul etiam caritas infunderetur,
+<lb ed="#L" n="63"/>qua posset in actum exire.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>2. Ad <name>Durandum</name>, contra secundum dictum, 
+respon<lb ed="#L" break="no" n="65"/>detur: et dicitur primo quod, licet homo existens in pec-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="66"/>cato possit aliquo modo in omne opus moraliter bonum
+<lb ed="#L" n="67"/>divisim, non tamen potest in omne coniunctim.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Dicitur secundo, quod gratia, in natura deordinata et 
+cor<lb ed="#L" break="no" n="69"/>rupta, non tantum ponebat efficaciam merendi, sed etiam
+<lb ed="#L" n="70"/>naturam sanabat, et faciebat adhaesionem ad Deum 
+tan<lb ed="#L" break="no" n="71"/>quam ad ultimum finem, ita quod pro nullo bono 
+conse<lb ed="#L" break="no" n="72"/>quendo aut malo vitando existens in gratia volebat a Deo
+<lb ed="#L" n="73"/>discedere. Et ideo, remota gratia, remanet naturae 
+deordi<lb ed="#L" break="no" n="74"/>natio et aversio ab ultimo fine, quae, simul cum adhaesione
+<lb ed="#L" n="75"/>ad indebitum finem, tollit potentiam propinquam ad 
+vitan<lb ed="#L" break="no" n="76"/>dum omnia peccata coniunctim.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>3. Ad <name>Scotum</name>, negatur assumptum quoad secundam
+<lb ed="#L" n="78"/>partem. Potest enim quis, cavendo unum peccatum, aliud
+<lb ed="#L" n="79"/>committere: sicut quis, committendo adulterium, vult non
+<lb ed="#L" n="80"/>committere incestum.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Dicitur secundo quod, licet possit sigillatim hoc 
+pecca<lb ed="#L" break="no" n="82"/>tum nunc vitare, et pro tunc vitare omnia alia peccata, non
+<lb ed="#L" n="83"/>tamen semper aut diu hoc potest. Et sic non potest omne
+<lb ed="#L" n="84"/>peccatum vitare coniunctim.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Cum autem probatur assumptum, quia voluntas non
+<lb ed="#L" n="86"/>potest simul habere duos consensus: - dicitur primo, quod
+<lb ed="#L" n="87"/>per unicum consensum potest voluntas unum respuere et
+<lb ed="#L" n="88"/>aliud acceptare, quando duo simul ipsi proponuntur: sicut
+<lb ed="#L" n="89"/>cum alicui offertur duplex remedium ad sanitatem, verbi
+<lb ed="#L" n="90"/>gratia, potio amara et abscissio alicuius membri, et vult 
+acci<lb ed="#L" break="no" n="91"/>pere amaram potionem, non autem abscissionem membri;
+<lb ed="#L" n="92"/>tunc enim in acceptione unius intelligitur confutatio oppositi
+<lb ed="#L" n="93"/>alterius.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Dicitur tertio, quod etiam absque consensu qui feratur
+<lb ed="#L" n="95"/>in duo, potest quis unum praeceptum implere et aliud
+<lb ed="#L" n="96"/>omittere.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>4. Ad primum contra tertium dictum, respondetur quod
+<lb ed="#L" n="98"/>homo existens in peccato habet potentiam remotam qua
+<lb ed="#L" n="99"/>potest unumquodque peccatum divisim vitare, scilicet 
+liber<lb ed="#L" break="no" n="100"/>tatem voluntatis, qua potest contra unumquodque peccatum
+<lb ed="#L" n="101"/>niti. Licet enim sola libertas arbitrii non sufficiat ad 
+vitan<lb ed="#L" break="no" n="102"/>dum omnia, quia per ipsam non potest homo esse in 
+con<lb ed="#L" break="no" n="103"/>tinua, aut etiam diuturna vigilantia, ad resistendum omni
+<lb ed="#L" n="104"/>peccato et occasioni peccati collective; sufficit tamen, 
+com<lb ed="#L" break="no" n="105"/>muni intellecto semper divino auxilio, ad vitandum singula:
+<lb ed="#L" n="106"/>quia, demonstrato quocumque particulari tempore, verum
+<lb ed="#L" n="107"/>est dicere quod in eo potest uti sufficienti vigilantia ad
+<lb ed="#L" n="108"/>vitandum hoc particulare peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Si quaeratur quare, sicut divino auxilio communi potest
+<lb ed="#L" n="110"/>peccator vitare singula peccata, ita non potest omnia vitare?
+<lb ed="#L" n="111"/>- respondetur quod ratio huius esse potest quia divinum
+<lb ed="#L" n="112"/>auxilium movet hominem secundum eius conditionem.
+<lb ed="#L" n="113"/>Conditio autem hominis habet ut in aliquo quidem 
+particu<lb ed="#L" break="no" n="114"/>lari tempore possit esse in sufficienti vigilantia ad aliquid
+<lb ed="#L" n="115"/>agendum vel vitandum: non autem per totum tempus aut
+<lb ed="#L" n="116"/>diu, propter multa quibus humana mens implicatur.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Ad secundum dicitur quod intelligit Sanctus Thomas de
+<lb ed="#L" n="118"/>peccatis qua sunt contra praecepta iuris naturalis, et contra ,
+<lb ed="#L" n="119"/>praecepta Decalogi: non autem de praeceptis quae sunt
+<lb ed="#L" n="120"/>iuris supernaturalis. In iis enim non est verum quod 
+exi<lb ed="#L" break="no" n="121"/>stens in peccato possit singula vitare: cum nullo modo sine
+<lb ed="#L" n="122"/>gratia vitari possint, eo quod talia praecepta absque gratia
+<lb ed="#L" n="123"/>observari nequeunt, Quod praeceptis Decalogi non convenit.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Advertendum autem quod Sanctus Thomas, in II Sent.,
+<lb ed="#L" n="125"/>d. xxvi , impugnat opinionem dicentium existentem in 
+<lb ed="#L" n="126"/>peccato mortali non posse vitare omnia peccata, licet
+<lb ed="#L" n="127"/>singula vitare possit. Sed, ut apparet, illam suam opinionem
+<lb ed="#L" n="128"/>retractavit: non solum hoc loco, sed etiam I II^, q. cix ; 
+<lb ed="#L" n="129"/>et Verit., q. xxiv . Ideo in doctrina sua quod hic dicitur 
+<lb ed="#L" n="130"/>est tenendum
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

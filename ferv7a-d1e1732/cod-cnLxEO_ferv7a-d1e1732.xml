@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 3</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 3</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="9"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1732"><!-- ferv7a-l3c3 -->
+            <head xml:id="ferv7a-d1e1732-Hd1e101">Capitulum 3</head>
+            <p xml:id="ferv7a-d1e1732-d1e103">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="89" type="fixed=9"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e110">
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="90"/>Ostenso quod omne agens agit propter finem, nunc
+<lb ed="#L" n="91"/>ostendit Sanctus Thomas quod omne agens agit propter
+<lb ed="#L" n="92"/>bonum. Circa hoc autem duo facit: primo, ostendit 
+propo<lb ed="#L" break="no" n="93"/>situm; secundo, infert unum corollarium, capite sequenti.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e123">
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="94"/>Quantum ad primum, probat quod Omne agens agit
+<lb ed="#L" n="95"/>propter bonum,
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e132">
+               <lb ed="#L" n="96"/>I. Et primo sic. Omne agens tendit ad aliquod 
+deter<lb ed="#L" break="no" n="97"/>minatum. Ergo ad aliquid sibi conveniens: non enim in
+<pb ed="#L" n="10"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ipsum tenderet nisi propter aliquam convenientiam. Ergo
+<lb ed="#L" n="2"/>tendit ad bonum: quia quod est alicui conveniens, est
+<lb ed="#L" n="3"/>illi bonum.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e151">
+               <lb ed="#L" n="4"/>Adverte quod omne agens agit ad aliquid determinatum
+<lb ed="#L" n="5"/>ex inclinatione aut directione consequente formam per^
+<lb ed="#L" n="6"/>quam agit. Forma autem non dirigit nisi ad aliquid sibi
+<lb ed="#L" n="7"/>simile et conforme. Ideo illud determinatum propter quod
+<lb ed="#L" n="8"/>agens operatur, est simile, conforme et conveniens agenti
+<lb ed="#L" n="9"/>inquantum tali forma agit. Et super hoc fundatur prima
+<lb ed="#L" n="10"/>consequentia rationis huius.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e169">
+               <lb ed="#L" n="11"/>II. Secundo. Finis est in quo quiescit appetitus agentis
+<lb ed="#L" n="12"/>sive moventis, et eius quod movetur. Ergo omnis motus
+<lb ed="#L" n="13"/>et actio est propter bonum. — Probatur consequentia. Quia
+<lb ed="#L" n="14"/>hoc est de ratione boni ut terminet appetitum, ut ex eius
+<lb ed="#L" n="15"/>ratione patet.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e182">
+               <lb ed="#L" n="16"/>Sed videtur quod ista ratio non teneat:
+<lb ed="#L" n="17"/>ex puris affirmativis in secunda figura, sic arguendo. Finis
+<lb ed="#L" n="18"/>est in quo quiescit appetitus. Bonum est in quo quiescit
+<lb ed="#L" n="19"/>appetitus. Ergo bonum et finis sunt idem. Si ergo omne
+<lb ed="#L" n="20"/>agens agit propter finem, sequitur quod etiam agat 
+pro<lb ed="#L" break="no" n="21"/>pter bonum.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e198">
+               <lb ed="#L" n="22"/>Respondetur, de mente Commentatoris, 1I Pys.,
+<lb ed="#L" n="23"/>comm. 23; et IV Phys., comm. 33 et 42; item II Caeli,
+<lb ed="#L" n="24"/>comm. 23, quod non est inconveniens uti argumento in
+<lb ed="#L" n="25"/>secunda figura ex ambabus propositionibus affirmativis,
+<lb ed="#L" n="26"/>quando maior propositio convertitur universaliter. Et hoc
+<lb ed="#L" n="27"/>est manifestum per se: quia tunc syllogismus est virtute
+<lb ed="#L" n="28"/>in prima figura; conversa enim universaliter maiore, 
+ap<lb ed="#L" break="no" n="29"/>paret syllogismum in prima figura esse. Ideo doctores,
+<lb ed="#L" n="30"/>immo et Aristoteles ipse non curat aliquando argumenta
+<lb ed="#L" n="31"/>in debita forma explicite constituere, quando apparet ex
+<lb ed="#L" n="32"/>propositionum evidentia ipsa forma secundum quam habet
+<lb ed="#L" n="33"/>constitui. In proposito ergo non curavit Sanctus Thomas
+<lb ed="#L" n="34"/>de debita forma, quia maior propositio est universaliter
+<lb ed="#L" n="35"/>convertibilis: sicut enim omnis finis agentis ut sic est in
+<lb ed="#L" n="36"/>quo quietatur appetitus agentis, ita omne in quo appetitus
+<lb ed="#L" n="37"/>agentis quietatur est finis. Huic si subsumatur minor, 
+sci<lb ed="#L" break="no" n="38"/>licet, Bonum est in quo appetitus quietatur, optime 
+se<lb ed="#L" break="no" n="39"/>quitur in prima figura: Ergo bonum est finis.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e240">
+               <lb ed="#L" n="40"/>III. Tertio. Omnis actio et motus ad esse aliquo modo
+<lb ed="#L" n="41"/>ordinatur. Ergo ad bonum. — Patet consequentia. Quia
+<lb ed="#L" n="42"/>hoc ipsum quod est esse, est bonum: scilicet 
+fundamen<lb ed="#L" break="no" n="43"/>taliter. Cuius signum est quod omnia appetunt esse.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e251">
+               <lb ed="#L" n="44"/>Quarto. Omnis actio et motus est propter aliquam 
+per<lb ed="#L" break="no" n="45"/>fectionem : aut scilicet propter ipsammet actionem, quae
+<lb ed="#L" n="46"/>est perfectio secunda agentis; aut propter perfectionem
+<lb ed="#L" n="47"/>inductam in re mota; in quam etiam tendit mobile, si sit
+<lb ed="#L" n="48"/>motus naturalis. Ergo est propter bonum. — Patet 
+conse<lb ed="#L" break="no" n="49"/>quentia. Quia esse bonum idem est quod esse perfectum.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e268">
+               <lb ed="#L" n="50"/>Advertendum, cum dicitur quod in perfectionem ab
+<lb ed="#L" n="51"/>agente introductam in re mota, fendit etiam mobile si
+<lb ed="#L" n="52"/>motus sit naturalis: quod in motu naturali tam agens
+<lb ed="#L" n="53"/>quam mobile tendit in perfectionem ab agente causatam,
+<lb ed="#L" n="54"/>inquantum unumquodque illorum ad illam inclinatur; sed
+<lb ed="#L" n="55"/>hoc est diversimode. Quia agens inclinatur ad introducendam
+<lb ed="#L" n="56"/>illam in re mota actualitate formae per quam agit: mobile
+<lb ed="#L" n="57"/>autem, ut sic, ad illam suscipiendam inclinatur ex sua 
+natu<lb ed="#L" break="no" n="58"/>rali potentialitate. Quod non accidit in motu violento, ubi
+<lb ed="#L" n="59"/>nulla est naturalis potentia in mobili ad illum motum.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e292">
+               <lb ed="#L" n="60"/>IV. Quinto. Omne agens tendit in actum aliquem: quia
+<lb ed="#L" n="61"/>agit inquantum est in actu. Ergo tendit in bonum: quia
+<lb ed="#L" n="62"/>omnis actus habet rationem boni, cum malum non 
+inve<lb ed="#L" break="no" n="63"/>niatur nisi in potentia ab actu deficiente.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e303">
+               <lb ed="#L" n="64"/>Sexto. Agens per intellectum non determinat sibi finem
+<lb ed="#L" n="65"/>nisi sub ratione boni: quia intelligibile non movet nisi
+<lb ed="#L" n="66"/>sub ratione boni, quod est obiectum voluntatis. Ergo et
+<lb ed="#L" n="67"/>agens per naturam: quia, licet agens per intellectum 
+de<lb ed="#L" break="no" n="68"/>terminet sibi finem, non tamen agens per naturam, cum
+<lb ed="#L" n="69"/>non cognoscat rationem finis, sed movetur in finem sibi
+<lb ed="#L" n="70"/>ab aliquo intellectu determinatum.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e321">
+               <lb ed="#L" n="71"/>Hic duo sunt attendenda. Primum est, quod non ideo
+<lb ed="#L" n="72"/>dicitur intelligibile non movere nisi sub ratione boni, quasi
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="73"/>ipsum intellectum sub ratione boni moveat: hoc enim
+<lb ed="#L" n="74"/>falsum esset, cum ratio boni non sit ratio formalis obiecti
+<lb ed="#L" n="75"/>intellectus, sed magis ratio veri. Sed hoc dicitur in 
+or<lb ed="#L" break="no" n="76"/>dine ad appetitum determinantis sibi finem per intellectum.
+<lb ed="#L" n="77"/>Non enim agens per intellectum sibi determinat finem 
+pro<lb ed="#L" break="no" n="78"/>pter quem agat nisi quia proponit sibi id propter quod
+<lb ed="#L" n="79"/>vult operari, et ex cuius volitione movetur ad operandum.
+<lb ed="#L" n="80"/>Et sic oportet ut intelligibile quod sibi tanquam finem
+<lb ed="#L" n="81"/>determinat, moveat eius appetitum antequam ad 
+opera<lb ed="#L" break="no" n="82"/>tionem. procedat. Intelligibile autem non movet appetitum
+<lb ed="#L" n="83"/>nisi sub ratione boni.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e354">
+               <lb ed="#L" n="84"/>Secundum est, quod non determinare sibi finem 
+com<lb ed="#L" break="no" n="85"/>mune est et agentibus absque cognitione, et brutis:a
+gen<lb ed="#L" break="no" n="86"/>tibus ex cognitione. Ideo Sanctus Thomas utrumque 
+il<lb ed="#L" break="no" n="87"/>lorum nomine agentis per naturam comprehendit. Licet
+<lb ed="#L" n="88"/>enim bruta aliquam cognitionem illius rei quae est finis
+<lb ed="#L" n="89"/>habeant, ex qua ad operandum moventur, illam tamen
+<lb ed="#L" n="90"/>rem sub ratione finis non cognoscunt, cum non 
+cogno<lb ed="#L" break="no" n="91"/>scant quid sit finis, ut in praecedentibus  est ostensum.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e374">
+               <lb ed="#L" n="92"/>V. Septimo. Omnia malum fugiunt, tam agentia per
+<lb ed="#L" n="93"/>naturam quam agentia per intellectum : quod constat quia
+<lb ed="#L" n="94"/>resistunt corruptioni, quae est malum, quantum possunt.
+<lb ed="#L" n="95"/>Ergo etc. — Probatur consequentia. Quia eiusdem rationis
+<lb ed="#L" n="96"/>est fugere malum et appetere bonum: sicut non moveri
+<lb ed="#L" n="97"/>deorsum et moveri sursum. -
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e391">
+               <lb ed="#L" n="98"/>Circa istam propositionem, Eiusdem rationis est fugere
+<lb ed="#L" n="99"/>malum et appetere bonum, advertendum quod non ideo
+<lb ed="#L" n="100"/>dicuntur eiusdem rationis quasi sit unus et idem actus
+<lb ed="#L" n="101"/>fugere et appetere, seu desiderare: sed quia sese 
+conco<lb ed="#L" break="no" n="102"/>mitantur. Nullus enim fugit malum nisi propter appetitum
+<lb ed="#L" n="103"/>alicuius boni quod per tale malum tollitur: sicut nullus
+<lb ed="#L" n="104"/>fugit mortem nisi quia vitam appetit; et leve non recedit
+<lb ed="#L" n="105"/>a loco deorsum naturaliter nisi quia naturaliter appetit
+<lb ed="#L" n="106"/>moveri sursum.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e413">
+               <lb ed="#L" n="107"/>VI. Octavo. In operibus naturae videmus vel semper
+<lb ed="#L" n="108"/>vel frequentius quod melius est: ut in plantis et partib
+<lb ed="#L" n="109"/>animalium apparet. Et hoc non est a casu. Ergo baton
+<lb ed="#L" n="110"/>agens intendit quod est melius. Et multo manifestius agens
+<lb ed="#L" n="111"/>per intellectum. Ergo etc. - Minor patet. Quia quae sunt
+<lb ed="#L" n="112"/>semper vel frequenter, non sunt casualia vel fortuita, sed
+<lb ed="#L" n="113"/>quae accidunt in paucioribus.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e431">
+               <lb ed="#L" n="114"/>Attende hic, ex II Phys. , quod non solum quando
+<lb ed="#L" n="115"/>agens producit quod frequentius evenit, agit propter finem, "
+<lb ed="#L" n="116"/>sed etiam quando quod in minori parte evenit producit.
+<lb ed="#L" n="117"/>Non enim est casus aut fortuna nisi in actionibus quae
+<lb ed="#L" n="118"/>propter aliquem finem fiunt. Licet enim effectum qui in
+<lb ed="#L" n="119"/>minori parte evenit non intendat natura, saltem primo et
+<lb ed="#L" n="120"/>per se, non producit tamen illud nisi quando agit ad id
+<lb ed="#L" n="121"/>quod pro maiori parte evenit, ad quod cum ex aliquo 
+impe<lb ed="#L" break="no" n="122"/>dimento pervenire non potest, id quod raro evenit producit.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e453">
+               <lb ed="#L" n="123"/>Adverte etiam quod agens per intellectum non semper
+<lb ed="#L" n="124"/>aut pro maiori parte producit quod absolute melius est,
+<lb ed="#L" n="125"/>sed quod melius est per comparationem ad finem 
+extrin<lb ed="#L" break="no" n="126"/>secum quem intendit: sicut domificator non facit maiorem
+<lb ed="#L" n="127"/>et meliorem domum quae esse possit, sed quae sit 
+con<lb ed="#L" break="no" n="128"/>veniens habitantibus propter quorum habitationem eam
+<lb ed="#L" n="129"/>facit.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e471">
+               <lb ed="#L" n="130"/>Nono. Quod movetur, tendit ad bonum: quia tendit
+<lb ed="#L" n="131"/>ex potentia ad actum. Ergo et agens et movens. — Patet
+<lb ed="#L" n="132"/>consequentia, Quia, cum omne quod movetur ducatur ad
+<lb ed="#L" n="133"/>terminum motus ab agente et movente, oportet ad idem
+<lb ed="#L" n="134"/>tendere movens et quod movetur, inquantum movetur.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e484">
+               <lb ed="#L" n="135"/>VII. CowrmMATUR coNcLUsiO auctoritate dicentium 
+bo<lb ed="#L" break="no" n="136"/>num esse quod omnia appetunt; et Dionysii, rv cap. de
+<lb ed="#L" n="137"/>Div. Nom., dicentis quod omnia bonum et optimum 
+con<lb ed="#L" break="no" n="138"/>cupiscunt.
+</p>
+            <p xml:id="ferv7a-d1e1732-d1e496">
+               <lb ed="#L" n="139"/>Attendendum circa hoc capitulum et praecedens, quod
+<lb ed="#L" n="140"/>per hoc quod probat Sanctus Thomas omne agens agere
+<lb ed="#L" n="141"/>propter bonum et propter finem, non intendit agens agere
+<lb ed="#L" n="142"/>propter aliud bonum aut propter alium finem a se 
+distin<lb ed="#L" break="no" n="143"/>ctum, sed absolute loquitur: sive, inquam, agens agat 
+pro<lb ed="#L" break="no" n="144"/>pter seipsum, sive propter aliud, tanquam propter finem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

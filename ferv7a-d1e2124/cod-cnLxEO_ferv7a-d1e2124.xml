@@ -1,0 +1,609 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 51</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 51</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="140"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2124"><!-- ferv7a-l3c51 -->
+            <head>Capitulum 51</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="85" type="fixed=140"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="86"/>POSTQUAM ostendit Sanctus Thomas veram felicitatem in
+<lb ed="#L" n="87"/>visione divinae substantiae consistere, ulterius 
+condi<lb ed="#L" break="no" n="88"/>tiones huius visionis manifestare intendit. Circa hoc autem
+<lb ed="#L" n="89"/>duo facit: primo, manifestat conditiones in particulari 
+eo<lb ed="#L" break="no" n="90"/>rum quae ad talem visionem concurrunt; secundo, 
+com<lb ed="#L" break="no" n="91"/>munes conditiones ostendit, cap. Lxr. — Circa primum tria
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="92"/>facit: primo, ostendit conditiones eius ex parte intellectus;
+<lb ed="#L" n="93"/>secundo, ex parte obiecti, cap. Lv; tertio, ex parte ipsius
+<lb ed="#L" n="94"/>actus, cap. Lvrr. — Circa primum duo facit: primo, ostendit
+<lb ed="#L" n="95"/>quae sit forma qua intellectus Beati videt divinam 
+essen<lb ed="#L" break="no" n="96"/>tiam; secundo, quid requiratur ad hoc ut talis forma 
+reci<lb ed="#L" break="no" n="97"/>piatur in intellectu, capite sequenti.
+</p>
+            <p>
+               <pb ed="#L" n="141"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Circa primum duo facit: primo, praemittit unam 
+con<lb ed="#L" break="no" n="2"/>clusionem necessariam ad ea quae dicenda sunt; secundo,
+<lb ed="#L" n="3"/>propositum declarat .
+</p>
+            <p>
+               <lb ed="#L" n="4"/>I. Quantum ad primum, ponit hanc conclusionem: 
+Pos<lb ed="#L" break="no" n="5"/>sibile est substantiam Dei videri per intellectum et a 
+sub<lb ed="#L" break="no" n="6"/>stantiis intellectualibus separatis, et ab animabus nostris.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Probatur. Naturaliter omnes mentes desiderant per 
+in<lb ed="#L" break="no" n="8"/>tellectum substantiam Dei intelligere. Ergo possibile est
+<lb ed="#L" n="9"/>ut ad illam cognitionem perveniant. — Patet consequentia.
+<lb ed="#L" n="10"/>Quia aliter naturale desiderium esset inane.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Hoc loco attendendum diligenter quod non infert 
+San<lb ed="#L" break="no" n="12"/>ctus Thomas quod naturale desiderium esset inane si 
+in<lb ed="#L" break="no" n="13"/>tellectus non videret substantiam divinam: sed si non esset
+<lb ed="#L" n="14"/>possibile ipsum pervenire ad divinam substantiam 
+intelli<lb ed="#L" break="no" n="15"/>gendam. Quia non dicitur desiderium naturae esse inane
+<lb ed="#L" n="16"/>si in aliquo individuo non adimpleatur: sed si non sit
+<lb ed="#L" n="17"/>in individuis, natura non orbatis, potentia et capacitas ad
+<lb ed="#L" n="18"/>impletionem talis desiderii. Si enim in individuis non esset
+<lb ed="#L" n="19"/>talis potentia; nunquam naturae desiderium adimpleretur:
+<lb ed="#L" n="20"/>sed si in illis sit capacitas rei desideratae, naturae 
+deside<lb ed="#L" break="no" n="21"/>rium quandoque in aliquo individuo adimpletur; et hoc
+<lb ed="#L" n="22"/>sufficit ad. hoc ut non sit inane et frustra.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>II. Dubium autem difficile insurgit, quomodo desiderium
+<lb ed="#L" n="24"/>videndi divinam substantiam sit naturale: cum nulla 
+crea<lb ed="#L" break="no" n="25"/>tura intelligibilis possit ad illam visionem propria virtute
+<lb ed="#L" n="26"/>pervenire, ut in sequentibus  ostendetur.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Item, cum dicat Sanctus Thomas in plerisque locis,
+<lb ed="#L" n="28"/>praesertim I I5, q. v, a. 8; et IV Sent., d. xuix, q. 1, a. 3,
+<lb ed="#L" n="29"/>qu 1; atque Verit.,, q. xxu, a. 7, quod beatitudo, licet
+<lb ed="#L" n="30"/>secundum communem rationem naturaliter appetatur, in
+<lb ed="#L" n="31"/>particulari tamen, sive quantum ad particularem rationem
+<lb ed="#L" n="32"/>eius in quo ratio summi boni salvatur, non appetitur 
+na<lb ed="#L" break="no" n="33"/>turaliter. -
+</p>
+            <p>
+               <lb ed="#L" n="34"/>III. Respondent quidam  quod hoc desiderium non
+<lb ed="#L" n="35"/>est naturale naturae rationali absolute consideratae, sed
+<lb ed="#L" n="36"/>ut est ad beatitudinem ordinata; et supposita revelatione
+<lb ed="#L" n="37"/>effectuum gratiae et gloriae, quorum Deus est causa ut
+<lb ed="#L" n="38"/>Deus est in se absolute, non ut universale agens.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>Sed hoc non videtur esse ad mentem Sancti Thomae.
+<lb ed="#L" n="40"/>Primo quia, cum superius, cap. xrix, ostenderit quod 
+sub<lb ed="#L" break="no" n="41"/>stantiae separatae per suas essentias aliqua cognoscunt de
+<lb ed="#L" n="42"/>Deo, in capite r probat quod in tali cognitione, qua per
+<lb ed="#L" n="43"/>suas essentias Deum cognoscunt, non quiescit earum 
+na<lb ed="#L" break="no" n="44"/>turale desiderium, sed magis incitatur ad divinam 
+substan<lb ed="#L" break="no" n="45"/>tiam videndam: et sic huiusmodi naturale desiderium 
+se<lb ed="#L" break="no" n="46"/>quitur cognitionem qua substantia separata cognoscit Deum
+<lb ed="#L" n="47"/>per essentiam ipsius substantiae separatae. Constat autem
+<lb ed="#L" n="48"/>quod cognitio Dei qua cognoscitur Deus a substantia 
+se<lb ed="#L" break="no" n="49"/>parata per ipsius substantiae separatae essentiam, non
+<lb ed="#L" n="50"/>praesupponit cognitionem effectuum gratiae et gloriae.
+<lb ed="#L" n="51"/>Ergo desiderium videndi Deum non dicitur naturale ex
+<lb ed="#L" n="52"/>praesuppositione revelationis effectuum gratiae et gloriae,
+<lb ed="#L" n="53"/>sed est naturale. intelligibili naturae quantum ad 
+cogni<lb ed="#L" break="no" n="54"/>tionem causae ex quocumque effectu.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Secundo, quia ratio quam adducit Sanctus "Thomas
+<lb ed="#L" n="56"/>Prima Parte, q. xir, a. 1, et superius  tetigit, ad 
+proban<lb ed="#L" break="no" n="57"/>dum quod naturaliter substantia intellectualis desideret
+<lb ed="#L" n="58"/>cognoscere substantiam divinam, fundatur super hoc, quod
+<lb ed="#L" n="59"/>ex cognitione effectuum incitatur desiderium ad 
+cogni<lb ed="#L" break="no" n="60"/>tionem causae, et non quietatur desiderium, 
+quantum<lb ed="#L" break="no" n="61"/>cumque substantia effectus cognoscatur, nisi cognoscatur
+<lb ed="#L" n="62"/>substantia causae. Constat autem hanc propositionem
+<lb ed="#L" n="63"/>Sancti Thomae non determinari ad cognitionem effectuum
+<lb ed="#L" n="64"/>gratiae et gloriae, sed. ad cognitionem quorumcumque
+<lb ed="#L" n="65"/>effectuum extendi, et ad omnis causae cognitionem. Unde
+<lb ed="#L" n="66"/>illam. propositionem confirmavit ex hoc signo, quod 
+pro<lb ed="#L" break="no" n="67"/>pter hoc homines coeperunt philosophari. Ergo hoc 
+na<lb ed="#L" break="no" n="68"/>turale desiderium non innascitur solum ex cognitione
+<lb ed="#L" n="69"/>effectuum gratiae 'et gloriae.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Tertio, quia tunc tale desiderium inesset tantum 
+co<lb ed="#L" break="no" n="71"/>gnoscentibus effectus supernaturales gratiae et gloriae. Hoc
+<lb ed="#L" n="72"/>autem est falsum: quia, ut inquit Sanctus Thomas in hoc
+<lb ed="#L" n="73"/>Tertio Contra, capite L1 et rvir, hoc desiderium omni inest
+<lb ed="#L" n="74"/>intellectui. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>IV. Propter quod videtur mihi aliter dicendum, salvo
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>semper meliori iudicio. Ad cuius evidentiam, 
+consideran<lb ed="#L" break="no" n="77"/>dum est primo quod, cum naturale desiderium naturae
+<lb ed="#L" n="78"/>intellectualis, inquantum intellectualis est, sit actus elicitus
+<lb ed="#L" n="79"/>voluntatis, ut habetur I II^, q. x, a. 1; et omnis actus
+<lb ed="#L" n="80"/>voluntatis praesupponat aliquam cognitionem intellectus:
+<lb ed="#L" n="81"/>dicitur naturale desiderium naturae intellectualis, 
+inquan<lb ed="#L" break="no" n="82"/>tum huiusmodi, quod ad aliquam cognitionem intellectus
+<lb ed="#L" n="83"/>de necessitate consequitur. Et in proposito naturale 
+desi<lb ed="#L" break="no" n="84"/>derium videndi divinam essentiam est actus voluntatis de
+<lb ed="#L" n="85"/>necessitate consequens, quantum ad specificationem actus,
+<lb ed="#L" n="86"/>illam cognitionem qua cognoscitur per effectus quia est
+<lb ed="#L" n="87"/>de Deo. Nam, ut in praecedenti capite, in prima ratione,
+<lb ed="#L" n="88"/>tetigit Sanctus Thomas, cognitio qua cognoscitur Deus
+<lb ed="#L" n="89"/>infra cognitionem substantiae eius, est imperfecta 
+cogni<lb ed="#L" break="no" n="90"/>tionis species: omne autem quod est imperfectum in aliqua
+<lb ed="#L" n="91"/>specie, desiderat consequi perfectionem illius speciei.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Considerandum secundo quod, cum Deus et sit prima
+<lb ed="#L" n="93"/>omnium causa effectiva; et vere sit obiectum 
+supernatu<lb ed="#L" break="no" n="94"/>ralis beatitudinis, ad quam creatura intellectualis est per
+<lb ed="#L" n="95"/>divinam providentiam ordinata: dupliciter potest visio 
+di<lb ed="#L" break="no" n="96"/>vinae essentiae et naturae considerari. Uno modo, 
+in<lb ed="#L" break="no" n="97"/>quantum est visio essentiae primae causae absolute. Alio
+<lb ed="#L" n="98"/>modo, inquantum est visio obiecti supernaturalis 
+beatitu<lb ed="#L" break="no" n="99"/>dinis: et consequenter inquantum talis visio est summum
+<lb ed="#L" n="100"/>bonum intellectualis naturae, ad quod per divinam 
+pro<lb ed="#L" break="no" n="101"/>videntiam est ordinata tanquam ad ultimum finem.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Cum ergo dicitur quod desiderium videndi naturam
+<lb ed="#L" n="103"/>divinam est nobis naturale, intelligitur de natura 
+abso<lb ed="#L" break="no" n="104"/>lute considerata, respectu talis visionis ut primo modo
+<lb ed="#L" n="105"/>consideratur: non autem ut consideratur secundo modo.
+<lb ed="#L" n="106"/>Tunc enim tale desiderium continetur in illo universali
+<lb ed="#L" n="107"/>desiderio sciendi quo naturaliter desideratur cognitio quid
+<lb ed="#L" n="108"/>est causae, cognito ipsius quia est ex effectibus. Hoc
+<lb ed="#L" n="109"/>autem continetur in universali desiderio sciendi, quod 
+in<lb ed="#L" break="no" n="110"/>quit Aristoteles, I Metaph. ; nobis esse naturale. Et sic
+<lb ed="#L" n="111"/>naturaliter desideramus visionem Dei inquantum est visio
+<lb ed="#L" n="112"/>primae causae: non autem inquantum est summum 
+bo<lb ed="#L" break="no" n="113"/>num. Naturaliter enim cognosci potest quod sit aliorum
+<lb ed="#L" n="114"/>causa: non autem naturaliter scimus quod sit obiectum
+<lb ed="#L" n="115"/>supernaturalis beatitudinis, et quod eius visio sit 
+sum<lb ed="#L" break="no" n="116"/>mum bonum; immo aliqui dicunt summum bonum in
+<lb ed="#L" n="117"/>voluptate, aliqui vero in divitiis, aut in aliquo alio bono
+<lb ed="#L" n="118"/>creato consistere.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>2. Ad primum in oppositum dicitur quod naturalis 
+ap<lb ed="#L" break="no" n="120"/>petitus dupliciter accipi potest: uno modo, pro appetitu
+<lb ed="#L" n="121"/>formam naturalem consequente; alio modo, pro actu 
+eli<lb ed="#L" break="no" n="122"/>cito voluntatis qui ad aliquam apprehensionem de 
+neces<lb ed="#L" break="no" n="123"/>sitate consequitur, vel quantum ad exercitium actus, vel
+<lb ed="#L" n="124"/>quantum ad specificationem tantum. Si appetitus naturalis
+<lb ed="#L" n="125"/>primo modo accipiatur, sic inconveniens est aliquid appeti
+<lb ed="#L" n="126"/>naturaliter in quod virtute naturae non possit perveniri:
+<lb ed="#L" n="127"/>quia forma naturalis non inclinat ad id quod naturae 
+fa<lb ed="#L" break="no" n="128"/>cultatem excedit. — Si autem secundo modo naturalis 
+appe<lb ed="#L" break="no" n="129"/>titus accipiatur, sic non est inconveniens quod appetitus
+<lb ed="#L" n="130"/>in aliquid naturaliter feratur in quod virtute propriae 
+na<lb ed="#L" break="no" n="131"/>turae non potest intellectualis creatura pervenire: stant
+<lb ed="#L" n="132"/>enim simul quod aliquid desideretur naturaliter ex 
+prae<lb ed="#L" break="no" n="133"/>suppositione alicuius cognitionis, et tamen ad illud sola
+<lb ed="#L" n="134"/>virtute naturae non possit perveniri; sed sufficit ut 
+habean<lb ed="#L" break="no" n="135"/>tur ea quibus natura sit capax talis finis et eorum quae
+<lb ed="#L" n="136"/>ducunt ad finem, auxilioque alterius ad illum perveniri
+<lb ed="#L" n="137"/>possit. Unde Sanctus Thomas, super Boetio de Trin., q. ult.,
+<lb ed="#L" n="138"/>a. ult., ad 5, ait quod, quamvis homo naturaliter in finem
+<lb ed="#L" n="139"/>ultimum  inclinetur, scilicet sub communi ratione 
+beati<lb ed="#L" break="no" n="140"/>tudinis, non tamen potest naturaliter illum consequi, 
+pro<lb ed="#L" break="no" n="141"/>pter eminentiam ipsius, sed per gratiam tantum. Sunt enim
+<lb ed="#L" n="142"/>nobis indita principia quibus nos possumus ad cognitionem
+<lb ed="#L" n="143"/>perfectam | substantiarum | separatarum praeparare, non
+<lb ed="#L" n="144"/>tamen quibus ad eam possimus attingere, ut in illo 
+arti<lb ed="#L" break="no" n="145"/>culo dicitur.
+</p>
+            <p>
+               <lb ed="#L" n="146"/>Ex hoc patet quod visio divinae essentiae dicitur finis
+<lb ed="#L" n="147"/>supernaturalis, non quia nullo modo naturaliter 
+deside<lb ed="#L" break="no" n="148"/>retur, sed quia non potest ad ipsum ex solis naturae
+<lb ed="#L" n="149"/>principiis perveniri: sicut omnes naturaliter desiderant 
+ul<lb ed="#L" break="no" n="150"/>timum finem et beatitudinem sub communi ratione summi
+<pb ed="#L" n="142"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et perfecti boni, et tamen nullus ad hanc rationem summi
+<lb ed="#L" n="2"/>boni propria virtute potest pervenire.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>3. Ad secundum dicitur quod Sanctus Thomas in illis
+<lb ed="#L" n="4"/>locis: loquitur de naturali appetitu visionis divinae 
+essen<lb ed="#L" break="no" n="5"/>tiae inquantum est summum bonum, et ut terminatur ad
+<lb ed="#L" n="6"/>Deum ut est obiectum: supernaturalis beatitudinis: non
+<lb ed="#L" n="7"/>autem ut est visio primae causae absolute. Visio enim
+<lb ed="#L" n="8"/>illo modo non appetitur naturaliter, natura absolute 
+con<lb ed="#L" break="no" n="9"/>siderata: sed tantum ut natura est ad ipsam ordinata 
+tan<lb ed="#L" break="no" n="10"/>quam ad ultimum finem; et supposita revelatione quod
+<lb ed="#L" n="11"/>ipsa sit summum bonum et felicitas, ut dictum est in
+<lb ed="#L" n="12"/>primo libro ; ,
+</p>
+            <p>
+               <lb ed="#L" n="13"/>V. Sed contra hanc responsionem remanet dubium
+<lb ed="#L" n="14"/>adhuc. Nam Sanctus Thomas, Prima Parte, q. rxr, a. 2,
+<lb ed="#L" n="15"/>ostendit quod angeli indiguerunt gratia ad hoc ut 
+con<lb ed="#L" break="no" n="16"/>verterentur in. Deum, quia videre Deum per essentiam
+<lb ed="#L" n="17"/>est supra naturam cuiuslibet intellectus creati. Sed. 
+desi<lb ed="#L" break="no" n="18"/>derare visionem Dei per essentiam est conversio appetitus
+<lb ed="#L" n="19"/>in Deum. Ergo hoc desiderium praesupponit.gratiam. Et
+<lb ed="#L" n="20"/>sic non est naturale.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Responderi ad hoc dupliciter potest. Primo, ex II Sent.,
+<lb ed="#L" n="22"/>d. v, q. rr, a. 1, quod dictum Sancti Thomae intelligitur
+<lb ed="#L" n="23"/>de conversione angeli meritoria ultimi finis: non autem
+<lb ed="#L" n="24"/>de simplici desiderio.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Secundo responderi potest, iuxta praedeterminata, quod
+<lb ed="#L" n="26"/>loquitur ibidem Sanctus Thomas de conversione in Deum
+<lb ed="#L" n="27"/>quae dicit amorem quo diligitur Deus tanquam finis 
+ul<lb ed="#L" break="no" n="28"/>timus et obiectum beatitudinis supernaturalis, propter quod
+<lb ed="#L" n="29"/>omnia alia diliguntur: non autem de simplici desiderio
+<lb ed="#L" n="30"/>quo desideratur eius cognitio per essentiam ut est visio
+<lb ed="#L" n="31"/>primae causae. Et haec responsio, meo iudicio, est magis
+<lb ed="#L" n="32"/>aad. mentem Sancti Thomae. Nam,: cum inquit angelos
+<lb ed="#L" n="33"/>indigere gratia ad hoc ut convertantur in Deum, loquitur
+<lb ed="#L" n="34"/>de conversione in Deum ut est ultimus finis et obiectum
+<lb ed="#L" n="35"/>beatitudinis supernaturalis, idest, illius beatitudinis quae
+<lb ed="#L" n="36"/>per gratiam habenda est. Desiderium autem illud videndi
+<lb ed="#L" n="37"/>Deum quod insurgit ex consideratione effectuum ipsius,
+<lb ed="#L" n="38"/>est absolute inclinatio in cognitionem essentiae eius prout
+<lb ed="#L" n="39"/>est causa rerum, quomodocumque eius essentia videatur.
+<lb ed="#L" n="40"/>Ideo non est conversio in Deum qua diligitur Deus super
+<lb ed="#L" n="41"/>omnia ut est obiectum supernaturalis beatitudinis, et 
+pro<lb ed="#L" break="no" n="42"/>pter quem omnia diligantur. Ad hanc enim conversionem
+<lb ed="#L" n="43"/>requiritur cognitio qua sciatur illam visionem Dei per
+<lb ed="#L" n="44"/>essentiam esse ultimum finem nobis promissum, ad quem
+<lb ed="#L" n="45"/>omnia nostra dirigere debemus, et quem per divinam 
+gra<lb ed="#L" break="no" n="46"/>tiam sumus assecuturi. Talis autem cognitio non habetur
+<lb ed="#L" n="47"/>nisi ex revelatione divina.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>VI Quantum ad secundum , ponit Sanctus Thomas
+<lb ed="#L" n="49"/>hanc conclusionem: Ad hoc ut intellectus essentiam 
+di<lb ed="#L" break="no" n="50"/>vinam videat, oportet ut ipsam per ipsammet videat, ita
+<lb ed="#L" n="51"/>ut sit et quod videtur, et quo videtur. i
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Probatur. Non potest videri divina essentia per aliquam
+<lb ed="#L" n="53"/>speciem creatam, ut ex superioribus  patet. Ergo, si 
+vi<lb ed="#L" break="no" n="54"/>detur, oportet ut per ipsammet videatur.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>2. Sed contra hanc conclusionem movet Sanctus 
+Tho<lb ed="#L" break="no" n="56"/>mas dubium. Id enim quo intellectus aliquid intelligit,
+<lb ed="#L" n="57"/>est forma intellectus, per quam fit. in actu. Sed divina
+<lb ed="#L" n="58"/>essentia est per se subsistens, et nullius potest esse forma,
+<lb ed="#L" n="59"/>ut in primo libro est ostensum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Respondet, et dicit primo quod, sicut in esse 
+substan<lb ed="#L" break="no" n="61"/>tiali vel naturali substantia per seipsam subsistens quae
+<lb ed="#L" n="62"/>est composita ex materia et forma, non potest alteri esse
+<lb ed="#L" n="63"/>forma, propter contractionem formae ad illam materiam ;
+<lb ed="#L" n="64"/>substantia vero subsistens quae est forma tantum, potest
+<lb ed="#L" n="65"/>alteri esse forma, si esse suum ab aliquo alio participari
+<lb ed="#L" n="66"/>possit, sicut de anima humana ostensum est in secundo
+<lb ed="#L" n="67"/>huius; non autem si esse suum ab altero participari non
+<lb ed="#L" n="68"/>possit, quia sic [per] esse suum determinaretur in seipsa,
+<lb ed="#L" n="69"/>sicut materialia per materiam: sic et in esse intelligibili
+<lb ed="#L" n="70"/>considerandum est.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Dicit secundo quod, cum intellectus perfectio sit verum,
+<lb ed="#L" n="72"/>illud intelligibile erit ut forma tantum in genere 
+intelli<lb ed="#L" break="no" n="73"/>gibilium quod est veritas ipsa. Et quia verum sequitur
+<lb ed="#L" n="74"/>ad esse, illud tantum est sua veritas quod est suum esse.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Dicitur tertio, quod soli Deo convenit ut sit forma
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>tantum in genere intelligibilium: quia solus ipse est sua -
+<lb ed="#L" n="77"/>veritas, sicut et suum. esse. Alia vero subsistentia non
+<lb ed="#L" n="78"/>sunt ut pura forma in genere intelligibilium, sed ut
+<lb ed="#L" n="79"/>formam in aliquo subiecto habentes: cum unumquodque
+<lb ed="#L" n="80"/>eorum sit verum, non veritas; sicut est ens, non autem
+<lb ed="#L" n="81"/>ipsum esse.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Ex his concluditur responsio ad: obiectionem: et 
+di<lb ed="#L" break="no" n="83"/>citur quod essentia divina potest comparari ad intellectun:-
+<lb ed="#L" n="84"/>creatum ut species intelligibilis qua intelligit; non autem
+<lb ed="#L" n="85"/>essentia alicuius alterius substantiae separatae.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Cum autem instatur quod Deus nullius potest esse
+<lb ed="#L" n="87"/>forma: - respondetur quod hoc intelligitur secundum esse
+<lb ed="#L" n="88"/>naturale, non autem secundum esse intelligibile. Ratio 
+di<lb ed="#L" break="no" n="89"/>versitatis est, quia. primo modo sequeretur quod, simul
+<lb ed="#L" n="90"/>cum aliquo unita, constitueret unam naturam: quod esse
+<lb ed="#L" n="91"/>non potest, cum essentia divina in se perfecta sit in' sui
+<lb ed="#L" n="92"/>natura. Secundo autem modo, hoc non sequitur: quia
+<lb ed="#L" n="93"/>species intelligibilis unita intellectui non constituit aliquam
+<lb ed="#L" n="94"/>naturam, sed perficit ipsum ad intelligendum; quod 
+per<lb ed="#L" break="no" n="95"/>fectioni divinae essentiae non repugnat.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>3. Circa hoc quod dicitur de subsistente quod est forma
+<lb ed="#L" n="97"/>tantum, quod, inquam, si esse eius ab alio participari non
+<lb ed="#L" n="98"/>posset, per esse suum determinaretur. in seipso, sicut 
+ma<lb ed="#L" break="no" n="99"/>terialia. per materiam: advertendum .est quod duplicem
+<lb ed="#L" n="100"/>haec verba sensum habere possunt. Unus est, quod per
+<lb ed="#L" n="101"/>ipsum esse talis res subsistens individuaretur, sicut res
+<lb ed="#L" n="102"/>materiales per materiam signatam individuantur, ita quod
+<lb ed="#L" n="103"/>esse in illo esset principium individuationis, sicut materia
+<lb ed="#L" n="104"/>signata in rebus materialibus est individuationis principium.
+<lb ed="#L" n="105"/>Et sic non intelligitur. Nam secundum doctrinam 
+San<lb ed="#L" break="no" n="106"/>cti Thomae, substantiae separatae seipsis individuae sunt,
+<lb ed="#L" n="107"/>non autem per aliquid super additum: ut patet ubicumque
+<lb ed="#L" n="108"/>de hac materia loquitur , - Alius est, quod esset 
+incom<lb ed="#L" break="no" n="109"/>municabilis et individua ex hoc quod suum esse ab alio
+<lb ed="#L" n="110"/>participari non posset. Et hic sensus est verus, et hic
+<lb ed="#L" n="111"/>intentus. Nam, ut est de mente Sancti Thomae in Qu. de
+<lb ed="#L" n="112"/>Spiritualibus, a. 8, ad 4 et 13, et ut ostensum est supra
+<lb ed="#L" n="113"/>in secundo libro , forma separata a materia individuatur
+<lb ed="#L" n="114"/>per hoc quod non est nata in aliquo esse.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>4. Confirmatur ista responsio, quia congruit iis quae in
+<lb ed="#L" n="116"/>Sacra Scriptura dicuntur. Secundum enim hunc modum
+<lb ed="#L" n="117"/>videbimus Deum facie ad faciem, ut nobis promittitur
+<lb ed="#L" n="118"/>I Cor. xuz, quia eum immediate videbimus, sicut 
+homi<lb ed="#L" break="no" n="119"/>nem quem facie ad faciem videmus: non autem quia
+<lb ed="#L" n="120"/>corporali modo simus eum visurij cum nec ipse Deus
+<lb ed="#L" n="121"/>corpus sit, nec visus corporalis nisi rerum corporalium
+<lb ed="#L" n="122"/>esse possit. - Similes etiam Deo, et eius beatitudinis 
+par<lb ed="#L" break="no" n="123"/>ticipes erimus, ex hoc modo videndi, ut dicitur I Joan. nr:
+<lb ed="#L" n="124"/>quia et ipse Deus suam substantiam per ipsammet 
+intel<lb ed="#L" break="no" n="125"/>ligit. — Super mensam etiam Dei edemus et bibemus, ut
+<lb ed="#L" n="126"/>promittitur Luc. xxii, inquantum eadem felicitate fruemur
+<lb ed="#L" n="127"/>qua Deus est felix, videntes eum illo modo quo ipse
+<lb ed="#L" n="128"/>seipsum videt. Et sic de cibo et potu qui in mensa 
+Sa<lb ed="#L" break="no" n="129"/>pientiae sumitur, de quo fit mentio Proverb. 1x, 
+parti<lb ed="#L" break="no" n="130"/>cipabimus.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>VII. Circa hanc declarationem quomodo essentia 
+di<lb ed="#L" break="no" n="132"/>vina uniatur intellectui creato per modum speciei 
+intel<lb ed="#L" break="no" n="133"/>ligibilis, quam etiam ponit Sanctus Thomas in Qu. Verit.,
+<lb ed="#L" n="134"/>q. vmr, a. 1; et IV Sent, d. xxx, q. m, a. 1, 
+conside<lb ed="#L" break="no" n="135"/>randum est diligenter quod nulla alia ratione ponitur hic
+<lb ed="#L" n="136"/>species intelligibilis constituere intellectum in actu, nisi
+<lb ed="#L" n="137"/>quia perficit ipsum ad intelligendum: hoc est, quia ex
+<lb ed="#L" n="138"/>eius unione ad intellectum fit intellectus potens elicere
+<lb ed="#L" n="139"/>actum intelligendi circa id quod per ipsam obiective 
+re<lb ed="#L" break="no" n="140"/>praesentatur intellectui, quod absque ipsa non poterat.
+<lb ed="#L" n="141"/>Et quia divinae essentiae non repugnat sic uniri intellectui
+<lb ed="#L" n="142"/>ut per ipsam intellectus sit potens eam intelligere, ideo
+<lb ed="#L" n="143"/>convenienter dicitur quod unitur intellectui u£ forma in
+<lb ed="#L" n="144"/>esse intelligibili. :
+</p>
+            <p>
+               <lb ed="#L" n="145"/>Differenter tamen unitur intellectui species intelligibilis
+<lb ed="#L" n="146"/>alicuius rei intellectae: et divina essentia. Species enim
+<lb ed="#L" n="147"/>intelligibilis unitur intellectui et actuat ipsum in esse 
+in<lb ed="#L" break="no" n="148"/>telligibili, non per seipsam immediate, sed per suum esse
+<lb ed="#L" n="149"/>reale, quod est ab ipsa distinctum: non enim species 
+in<lb ed="#L" break="no" n="150"/>telligibilis est suum esse, sicut: nec ipsa quidditas cuius
+<pb ed="#L" n="143"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est species, est illud esse quod habet extra intellectum.
+<lb ed="#L" n="2"/>Divina autem essentia, existens in intellectu per modum
+<lb ed="#L" n="3"/>formae intelligibilis, actuat intellectum non per aliquid
+<lb ed="#L" n="4"/>aliud ab ipsa distinctum quod sit eius formalis effectus,
+<lb ed="#L" n="5"/>sed per seipsam: quia ipsa non distinguitur a suo esse,
+<lb ed="#L" n="6"/>sed est ipsum esse suum tam in intellectu quam extra.
+<lb ed="#L" n="7"/>Unde sicut intellectus dicitur in actu per speciem 
+intel<lb ed="#L" break="no" n="8"/>ligibllem in genere intelligibilium. inquantum ab ipsa
+<lb ed="#L" n="9"/>habet aliquod esse reale, per cuius acceptionem fit potens
+<lb ed="#L" n="10"/>ad intelligendum per speciem; ita dicitur in actu per 
+di<lb ed="#L" break="no" n="11"/>vinam essentiam inquantum ab ipsa, absque alio esse
+<lb ed="#L" n="12"/>medio, habet ut sit potens actu intelligere, tanquam a
+<lb ed="#L" n="13"/>formali principio intellectionis, Ex quo patet quod non
+<lb ed="#L" n="14"/>sic dicitur uniri essentia divina intellectui in esse 
+intel<lb ed="#L" break="no" n="15"/>ligibili tanquam forma, quasi det aliquod esse formaliter
+<lb ed="#L" n="16"/>intellectui quod dicatur esse intelligibile: sed quia est
+<lb ed="#L" n="17"/>intellectui per seipsam ratio et principium formale 
+intel<lb ed="#L" break="no" n="18"/>ligendi. Unde respondens Sanctus Thomas ad argumentum
+<lb ed="#L" n="19"/>quoddam quo arguebatur Deum per aliquam similitudinem
+<lb ed="#L" n="20"/>creatam videri, Prima, q. xir, a. 2, ad 3, ait quod, sicut
+<lb ed="#L" n="21"/>aliae formae intelligibiles, quae non sunt suum esse,
+<lb ed="#L" n="22"/>uniuntur intellectui secundum aliquod esse quo 
+infor<lb ed="#L" break="no" n="23"/>mant ipsum intellectum et faciunt ipsum in actu; ita
+<lb ed="#L" n="24"/>divina essentia, quae est ipsum esse, unitur intellectui
+<lb ed="#L" n="25"/>faciens ipsum in actu per seipsam.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>VIII. Sed circa praefatam responsionem Sancti Thomae
+<lb ed="#L" n="27"/>quaedam occurrunt dubia. Primum est circa substantiam
+<lb ed="#L" n="28"/>responsionis: quae consistit in hoc, quod divina essentia non
+<lb ed="#L" n="29"/>potest esse forma alicuius secundum esse naturale, 
+secun<lb ed="#L" break="no" n="30"/>dum autem esse intelligibile non repugnat sibi esse formam
+<lb ed="#L" n="31"/>intellectus. Contra hoc enim videtur esse ratio Sancti 
+Tho<lb ed="#L" break="no" n="32"/>mae qua probat contra Commentatorem, et III de Anima,
+<lb ed="#L" n="33"/>et in secundo libro huius, et in plerisque aliis locis,
+<lb ed="#L" n="34"/>non posse nos intelligere per intellectum si ponatur 
+in<lb ed="#L" break="no" n="35"/>tellectus esse substantia separata. Arguit enim hoc 
+fun<lb ed="#L" break="no" n="36"/>damento, sumpto ex <ref>Aristotele, II de Anima</ref>, quia id quo
+<lb ed="#L" n="37"/>aliquid operatur, oportet esse formam eius, dantem scilicet
+<lb ed="#L" n="38"/>sibi formaliter esse. Ergo, apud Sanctum Thomam, non
+<lb ed="#L" n="39"/>stant simul quod aliquid sit principium operandi alicui,
+<lb ed="#L" n="40"/>et non sit forma eius secundum esse. Ergo divina essentia
+<lb ed="#L" n="41"/>non potest esse intellectui ratio intelligendi nisi sibi uniatur
+<lb ed="#L" n="42"/>secundum esse, tanquam forma dans esse intellectui. Ergo
+<lb ed="#L" n="43"/>non stant simul quae hic dicit Sanctus Thomas: scilicet
+<lb ed="#L" n="44"/>quod divina essentia non potest esse forma alicuius 
+se<lb ed="#L" break="no" n="45"/>cundum esse naturale; et quod est intellectui forma per
+<lb ed="#L" n="46"/>quam intelligit.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Secundum dubium est circa hoc quod dixit, nulli
+<lb ed="#L" n="48"/>substantiae separatae convenire ut sit forma intelligibilis
+<lb ed="#L" n="49"/>intellectus. Hoc enim repugnare videtur ei quod superius
+<lb ed="#L" n="50"/>in secundo libro  dixit, scilicet quod substantia separata
+<lb ed="#L" n="51"/>se per seipsam intelligit, ita quod est quod intelligitur,
+<lb ed="#L" n="52"/>et quo intelligitur.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Tertium dubium est circa id quod dictum est, quod
+<lb ed="#L" n="54"/>species intelligibilis unita intellectui non constituit aliquam
+<lb ed="#L" n="55"/>naturam. Hoc enim contrariatur ei quod alibi dicit.
+<lb ed="#L" n="56"/>Sanctus Thomas, de mente Aristotelis, scilicet quod 
+con<lb ed="#L" break="no" n="57"/>stituitur intellectus in actu.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Quartum dubium est circa id quod dicitur exponendo
+<lb ed="#L" n="59"/>dictum Apostoli, quod videbimus Deum facie ad faciem,
+<lb ed="#L" n="60"/>inquantum videbimus eum immediate, per illum modum
+<lb ed="#L" n="61"/>quo videbitur per suam essentiam tanquam per formam
+<lb ed="#L" n="62"/>intelligibilem, sicut homines facie ad faciem videmus. Ista
+<lb ed="#L" n="63"/>enim metaphora non videtur convenienter exponi. Cum
+<lb ed="#L" n="64"/>enim aliquis videt hominem facie ad faciem, non sic videt
+<lb ed="#L" n="65"/>hominem quasi ille sit forma visibilis qua oculus videt:
+<lb ed="#L" n="66"/>sed videt per speciem causatam ab illo in oculo. Ergo
+<lb ed="#L" n="67"/>per hoc quod videbimus Deum per ipsammet divinam
+<lb ed="#L" n="68"/>essentiam, non convenienter exponitur quod videbimus
+<lb ed="#L" n="69"/>eum facie ad faciem.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="70"/>IX. Ad primum horum respondetur primo, ut in 
+se<lb ed="#L" break="no" n="71"/>cundo libro, cap. rix, responsum est, quod mens Sancti
+<lb ed="#L" n="72"/>Thomae in illa responsione est quod id quo aliquid 
+ope<lb ed="#L" break="no" n="73"/>ratur tanquam potentia operandi, vel tanquam primo et
+<lb ed="#L" n="74"/>principali principio ab operante distincto, oportet esse
+<lb ed="#L" n="75"/>formam eius dantem illi esse. Non autem loquebatur de
+<lb ed="#L" n="76"/>eo quo aliquid operatur tanquam perfectivo virtutis ad
+<lb ed="#L" n="77"/>Operandum, quo modo dicimus substantiam divinam esse
+<lb ed="#L" n="78"/>principium quo intellectus ipsam videt. — Sed licet non
+<lb ed="#L" n="79"/>oporteat id quo aliquid operatur tanquam complemento
+<lb ed="#L" n="80"/>virtutis, esse eius formam in essendo, oportet tamen ut
+<lb ed="#L" n="81"/>aliquam cum ipso habeat unionem : si enim esset omnino
+<lb ed="#L" n="82"/>separatum, non posset esse illi ratio agendi. Nam et 
+es<lb ed="#L" break="no" n="83"/>sentia divina unitur intellectui Beati, inquantum utrumque
+<lb ed="#L" n="84"/>est in anima: divina quidem essentia sicut operans in
+<lb ed="#L" n="85"/>ipsam intrinsece, quo modo dicitur Deus in rebus esse;
+<lb ed="#L" n="86"/>intellectus autem sicut eius proprietas. Similiter essentia
+<lb ed="#L" n="87"/>angeli, qua angelus seipsum intelligit, et eius intellectus,
+<lb ed="#L" n="88"/>uniuntur inter se, inquantum intellectus est essentiae 
+pro<lb ed="#L" break="no" n="89"/>prietas, in ipsaque radicatur, et ab ipsa omnem vim 
+in<lb ed="#L" break="no" n="90"/>telligendi habet.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Posset secundo responderi quod illa propositio Sancti
+<lb ed="#L" n="92"/>Thomae est vera de eo quo aliquid operatur cuius esse
+<lb ed="#L" n="93"/>ab eius essentia distinguitur, et non habet ex se cum 
+ope<lb ed="#L" break="no" n="94"/>rante aliam realem unionem: quia talis forma non actuat
+<lb ed="#L" n="95"/>aliquid extrinsecum nisi dando illi formaliter esse. Essentia
+<lb ed="#L" n="96"/>autem divina non est talis forma: immo ipsa est suum
+<lb ed="#L" n="97"/>esse. Ideo per seipsam potest intellectum actuare ad 
+in<lb ed="#L" break="no" n="98"/>telligendum, absque eo quod illi det esse formaliter.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>2. Ad secundum dubium dicitur quod loquitur hoc
+<lb ed="#L" n="100"/>loco Sanctus Thomas de substantia separata respectu alieni
+<lb ed="#L" n="101"/>intellectus: non enim potest esse forma intelligibilis alieni
+<lb ed="#L" n="102"/>intellectus, cum non sit veritas, ut dicebat Sanctus 
+Tho<lb ed="#L" break="no" n="103"/>mas, sed habens veritatem. Sed respectu proprii intellectus,
+<lb ed="#L" n="104"/>non inconvenit quod habeat rationem formae intelligibilis,
+<lb ed="#L" n="105"/>licet non sit veritas: quia ipsa naturalis unio essentiae
+<lb ed="#L" n="106"/>cum intellectu sufficit ad hoc ut per ipsam intellectus
+<lb ed="#L" n="107"/>intelligat; sicut essentia composita ex materia et forma
+<lb ed="#L" n="108"/>non potest esse alteri principium. essendi, sed bene suo
+<lb ed="#L" n="109"/>supposito, cui naturaliter unitur.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>3. Ad tertium dubium dicitur quod mens Sancti 
+Tho<lb ed="#L" break="no" n="111"/>mae in illis verbis est ex specie intelligibili et intellectu non
+<lb ed="#L" n="112"/>constitui aliquam unam naturam ab utroque distinctam,
+<lb ed="#L" n="113"/>sicut ex forma substantiali et materia constituitur 
+compo<lb ed="#L" break="no" n="114"/>situm ab utroque aliquo modo distinctum: non autem
+<lb ed="#L" n="115"/>quod non constituatur aliquod. unum quod est species
+<lb ed="#L" n="116"/>intelligibilis et intellectus ut unita sunt ad unam 
+opera<lb ed="#L" break="no" n="117"/>tionem, quod unum vocamus intellectum in actu.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>4. Ad quartum dicitur quod illa interpretatio 
+metg<lb ed="#L" break="no" n="119"/>phorae convenientissima est. Supponit enim Sanctus 
+Tho<lb ed="#L" break="no" n="120"/>mas quod omnis cognitio quae habetur de Deo per 
+quam<lb ed="#L" break="no" n="121"/>cumque speciem intelligibilem intellectus nostri, est cognitio
+<lb ed="#L" n="122"/>Dei mediata, qua scilicet videtur Deus in alio viso: quia
+<lb ed="#L" n="123"/>omnis forma creata existens in intellectu nostro, prius
+<lb ed="#L" n="124"/>repraesentat in esse obiectivo rem creatam, cuius est
+<lb ed="#L" n="125"/>species adaequata, quam Deum, et sic intellectus per rem
+<lb ed="#L" n="126"/>creatam cognitam tendit in divinam cognitionem. Propterea,
+<lb ed="#L" n="127"/>si aliqua cognitio Dei debet esse in nobis de ipso 
+imme<lb ed="#L" break="no" n="128"/>diate, necesse est ut sit per formam increatam, quae est
+<lb ed="#L" n="129"/>divina essentia. Unde circa cognitionem Dei, pro eodem
+<lb ed="#L" n="130"/>accipiuntur cognitio Dei immediata, et. cognitio Dei per
+<lb ed="#L" n="131"/>eius essentiam. Metaphora ergo in hoc consistit, quod
+<lb ed="#L" n="132"/>sicut homo videns alium hominem facie ad faciem, videt
+<lb ed="#L" n="133"/>ipsum absque alio medio cognito per quod videatur, ita 'in
+<lb ed="#L" n="134"/>Patria videbimus eum immediate, quod proveniet ex eo quod
+<lb ed="#L" n="135"/>videbimus eum per essentiam divinam: licet metaphora in
+<lb ed="#L" n="136"/>eo quod adductum est, habeat aliquam dissimilitudinem ad
+<lb ed="#L" n="137"/>id cui attribuitur; non enim oportet quantum ad omnia
+<lb ed="#L" n="138"/>esse similitudinem in metaphoricis locutionibus.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 47</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 47</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="128"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2092"><!-- ferv7a-l3c47 -->
+            <head>Capitulum 47</head>
+            <p>
+               <cb ed="#L" n="c"/>
+Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="53"/>OTENSO quod in hac vita substantias separatas nullo
+<lb ed="#L" n="54"/>modo quidditative possumus intelligere, deducit 
+ul<lb ed="#L" break="no" n="55"/>terius Sanctus Thomas quod multo minus essentiam Dei
+<lb ed="#L" n="56"/>videre possumus in hac vita: - nos videlicet, puri viatores,
+<lb ed="#L" n="57"/>ut excludamus Christum, qui simul erat comprehensor et
+<lb ed="#L" n="58"/>viator. Circa hoc autem duo facit: primo, probat 
+propo<lb ed="#L" break="no" n="59"/>situm; secundo, removet quasdam obiectiones .
+</p>
+            <p>
+               <lb ed="#L" n="60"/>I. Quantum ad primum, arguit primo ratione, sic.
+<lb ed="#L" n="61"/>Non possumus in hac vita intelligere substantias separatas,
+<lb ed="#L" n="62"/>propter connaturalitatem intellectus nostri ad phantasmata.
+<lb ed="#L" n="63"/>Ergo multo minus essentiam divinam videre possumus. —
+<lb ed="#L" n="64"/>Probatur consequentia. Quia divina essentia transcendit
+<lb ed="#L" n="65"/>omnes substantias separatas; et per consequens magis
+<lb ed="#L" n="66"/>distat a phantasmatibus quam aliae substantiae separatae.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Secundo arguit a signo. Quanto magis mens nostra ad
+<lb ed="#L" n="68"/>contemplanda spiritualia elevatur, tanto magis abstrahitur
+<lb ed="#L" n="69"/>a sensibilibus, Ergo ad divinam essentiam videndam, quae
+<lb ed="#L" n="70"/>est ultimus terminus contemplationis, oportet mentem
+<lb ed="#L" n="71"/>totaliter a sensibus corporeis esse absolutam, vel per mortem
+<lb ed="#L" n="72"/>vel per raptum. — Confirmatur auctoritate Exodi xxx.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>II. Advertendum quod ex probatione sumpta a signo,
+<lb ed="#L" n="74"/>cum videlicet dicitur oportere mentem, ad hoc nt videat
+<lb ed="#L" n="75"/>divinam essentiam, esse totaliter abstractam a sensibus
+<lb ed="#L" n="76"/>per mortem vel per raptum, dat Sanctus Thomas 
+intel<lb ed="#L" break="no" n="77"/>ligere quid intendat per hanc vitam, dum dicit quod in
+<lb ed="#L" n="78"/>hac vita videre essentiam divinam non possumus. Non
+<lb ed="#L" n="79"/>enim per hanc vitam intelligit esse naturale hominis 
+vi<lb ed="#L" break="no" n="80"/>ventis: sed intelligit exercitium sensuum circa sensibilia.
+<lb ed="#L" n="81"/>Et est sensus quod homo utens sensibus videre non potest
+<lb ed="#L" n="82"/>divinam essentiam, sed oportet ad eam videndam quod
+<lb ed="#L" n="83"/>abstrahatur ab usu omnium sensuum: vel per mortem, in
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="84"/>qua etiam amittitur esse hominis naturale; vel per raptum,
+<lb ed="#L" n="85"/>in quo, stante esse naturali hominis superioris naturae,
+<lb ed="#L" n="86"/>abstrahitur mens ab eo quod sibi per naturam conveniebat,
+<lb ed="#L" n="87"/>scilicet ab eo quod est intelligere per phantasmata.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>2. Advertendum ulterius, ex doctrina Sancti Thomae
+<lb ed="#L" n="89"/>Verit.,, q. xii , quod ad visionem divinae essentiae non
+<lb ed="#L" n="90"/>requiritur, per se loquendo, abstractio animae a corpore
+<lb ed="#L" n="91"/>secundum esse. Immo nec etiam abstractio eius ab operibus
+<lb ed="#L" n="92"/>partis vegetativae: cum operatio intellectus huiusmodi 
+ope<lb ed="#L" break="no" n="93"/>rationibus non admisceatur; et ad ipsas non requiratur
+<lb ed="#L" n="94"/>intentio, ut per earum actus oporteat intentionem ab 
+ope<lb ed="#L" break="no" n="95"/>ratione intellectiva averti. Sed requiritur abstractio ab
+<lb ed="#L" n="96"/>operationibus sensitivis: quia intellectus operationibus 
+sen<lb ed="#L" break="no" n="97"/>sibilibus admiscetur, et ita ex sensibilibus eius puritas
+<lb ed="#L" n="98"/>quodammodo inquinatur; et etiam quia tam operationi
+<lb ed="#L" n="99"/>sensus quam intellectus oportet intentionem adesse, et ita
+<lb ed="#L" n="100"/>intentio ad unam retrahit ab alia. Ideo non dixit Sanctus
+<lb ed="#L" n="101"/>"Thomas quod oporteat animam a corpore separari, aut
+<lb ed="#L" n="102"/>ab omni alia operatione abstrahi, ad hoc ut divinam 
+es<lb ed="#L" break="no" n="103"/>sentiam intueatur: sed quod oportet ipsam totaliter a
+<lb ed="#L" n="104"/>corporeis sensibus esse absolutam, vel per mortem vel
+<lb ed="#L" n="105"/>per aliquem raptum.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Attendendum tamen quod secundum communem 
+qui<lb ed="#L" break="no" n="107"/>dem cursum, et communem divinae gubernationis ordinem,
+<lb ed="#L" n="108"/>non potest quis videre divinam essentiam nisi anima 
+se<lb ed="#L" break="no" n="109"/>paretur a corpore, Per miraculum tamen, ut tenet Sanctus
+<lb ed="#L" n="110"/>'Thomas Prima, q. xit, a. 11, ad 2; et Verit,, q. x, a. 11;
+<lb ed="#L" n="111"/>et IV Sent, d. xri, q. m, a. 7, potest fieri ut quis in
+<lb ed="#L" n="112"/>hac vita existens, a sensibus abstractus, ipsam videat.
+<lb ed="#L" n="113"/>Communem igitur modum tetigit Sanctus Thomas cum
+<lb ed="#L" n="114"/>dixit quod oportet mentem esse totaliter a sensibus cor-
+<pb ed="#L" n="129"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>poreis absolutam per mortem; particularem vero modum
+<lb ed="#L" n="2"/>et miraculosum tetigit dum addidit ve! per raptum; dans
+<lb ed="#L" n="3"/>intelligere quod potest quidem absolute per potentiam
+<lb ed="#L" n="4"/>divinam fieri ut quis in hac vita Dei essentiam videat;
+<lb ed="#L" n="5"/>non tamen est pro statu viae potentia aliqua in anima
+<lb ed="#L" n="6"/>humana, neque per principia naturalia neque per habitus
+<lb ed="#L" n="7"/>viae infusos, per quam possit Dei essentiam intueri,
+</p>
+            <p>
+               <lb ed="#L" n="8"/>3. Quare autem oporteat in tali visione animam 
+tota<lb ed="#L" break="no" n="9"/>liter a sensuum operationibus abstrahi, assignat Sanctus
+<lb ed="#L" n="10"/>Thomas in loco allegato , et II IP^, q. crxxv, a. 4,
+<lb ed="#L" n="11"/>duplicem rationem. Quarum una est, quia anima, in qua
+<lb ed="#L" n="12"/>omnes potentiae cognoscitivae radicantur, non potest simul
+<lb ed="#L" n="13"/>habere intentionem ad actus plurium potentiarum, nisi illi
+<lb ed="#L" n="14"/>actus sint ad invicem tanquam unus actus ordinati. Ideo,
+<lb ed="#L" n="15"/>cum totaliter attendit ad actum unius potentiae, oportet ut
+<lb ed="#L" n="16"/>ab actu alterius potentiae abstrahatur : sicut apparet in illo
+<lb ed="#L" n="17"/>in quo operatio visus fortissime intenditur, non enim 
+per<lb ed="#L" break="no" n="18"/>cipit auditu ea quae dicuntur. In visione autem divinae 
+es<lb ed="#L" break="no" n="19"/>sentiae oportet totam animae intentionem colligi: cum 
+di<lb ed="#L" break="no" n="20"/>vina essentia sit vehementissimum intelligibile, ad quod
+<lb ed="#L" n="21"/>pertingere non potest nisi toto conamine in illud tendat. Ideo
+<lb ed="#L" n="22"/>necesse est ut omnino fiat abstractio a corporeis sensibus,
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Alia est, quia oportet, cum intellectus supra communem
+<lb ed="#L" n="24"/>modum elevatur ad videndum summum  immaterialium
+<lb ed="#L" n="25"/>scilicet divinam essentiam, ut etiam in illo actu [ab usu ]
+<lb ed="#L" n="26"/>virtutum sensitivarum abstrahatur omnino.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>III. Quantum ad secundum , adducit Sanctus Thomas
+<lb ed="#L" n="28"/>duas instantias. Prima est, quia in Sacra Scriptura aliqui 
+vi<lb ed="#L" break="no" n="29"/>disse Deum dicuntur: ut videlicet patet deTIacob, Gez. xxxi ;
+<lb ed="#L" n="30"/>et de Moyse, Num. xu; et de Isaia, Isaiae vi .
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Respondet autem, et est de mente Dionysii, 1v cap.
+<lb ed="#L" n="32"/>Cael. Hier., quod hoc intelligendum est aut secundum
+<lb ed="#L" n="33"/>imaginariam vel corporalem visionem, vel per aliquas 
+cor<lb ed="#L" break="no" n="34"/>poreas species, aut exterius aut interius formatas, in quibus
+<lb ed="#L" n="35"/>divinae virtutis praesentia demonstrabatur; aut etiam 
+se<lb ed="#L" break="no" n="36"/>cundum quod aliquae spirituales substantiae  aliquam de
+<lb ed="#L" n="37"/>Deo intelligibilem cognitionem perceperunt.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>2. Circa hanc secundam partem responsionis, 
+adverten<lb ed="#L" break="no" n="39"/>dum quod Sanctus Thomas tangit responsionem Gregorii,
+<lb ed="#L" n="40"/>quae ponitur in Glossa, Gen. xxxn . Interpretatur enim
+<lb ed="#L" n="41"/>Gregorius huiusmodi visiones de visione spirituali, qua
+<lb ed="#L" n="42"/>sanctorum mentes in via, divino adiutae lumine, Deum
+<lb ed="#L" n="43"/>contemplantur. Qua visione habetur aliqua perfectior 
+co<lb ed="#L" break="no" n="44"/>gnitio de Deo quam per lumen naturale aut per res 
+sen<lb ed="#L" break="no" n="45"/>sibiles: cum illud supernaturale lumen sit expressior Dei
+<lb ed="#L" n="46"/>similitudo quam sit lumen naturale intellectus, et quam
+<lb ed="#L" n="47"/>sint res sensibiles. Et quia divinae revelationes, ut inquit
+<lb ed="#L" n="48"/>Sanctus "Thomas super /saiam vi, et super Matth. n ,
+<lb ed="#L" n="49"/>ad homines non perveniunt nisi mediantibus angelis, ideo
+<lb ed="#L" n="50"/>hic dicitur quod aliquando fiunt tales visiones secundum
+<lb ed="#L" n="51"/>quod spirituales substantiae aliquam de Deo intelligibilem
+<lb ed="#L" n="52"/>veritatem perceperunt, scilicet divinitus instructi, (supple)
+<lb ed="#L" n="53"/>et illam hominibus revelarunt. Et propter hoc dicuntur
+<lb ed="#L" n="54"/>tales vidisse Deum, inquantum ab angelis in persona Dei
+<lb ed="#L" n="55"/>divinam revelationem acceperunt,
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Fortassis autem est corruptus textus, debetque sic 
+ha<lb ed="#L" break="no" n="57"/>bere: vel etiam secundum quod aliqui spirituales aliquam
+<lb ed="#L" n="58"/>cognitionem de Deo intelligibilem perceperunt. Et tunc
+<lb ed="#L" n="59"/>planus est sensus, Aliqui enim res divinas sub figuris
+<lb ed="#L" n="60"/>corporalibus divinae virtutis praesentiam demonstrantibus
+<lb ed="#L" n="61"/>percipiunt: aliqui vero ex intrinseca illuminatione absque
+<lb ed="#L" n="62"/>corporalibus figuris.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Sed attendendum quod, licet hic modus sit communis
+<lb ed="#L" n="64"/>quo aliqui dicuntur vidisse Deum, Paulum tamen et Moysen
+<lb ed="#L" n="65"/>Sanctus Thomas excipit in Qu. de Verit, q. x, a. 11,
+<lb ed="#L" n="66"/>ad 1; et q. xu, a. 2; et Prima, q. xm, a. 11, ad 2; et
+<lb ed="#L" n="67"/>IV Sent., d. xix, q. n, a. 7; et hoc de mente Augustini,
+<lb ed="#L" n="68"/>XII super Gen. ad litt., et in Libro de Videndo Deum
+<lb ed="#L" n="69"/>ad Paulinam . Nam de istis concedit quod divinam 
+es<lb ed="#L" break="no" n="70"/>sentiam in hac vita viderint, sed tamen per omnimodam
+<lb ed="#L" n="71"/>abstractionem. a. sensibus.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>IV. Secunda instantia est, quia Augustinus, in IX et
+<lb ed="#L" n="73"/>in XII de Trin., in XII Confess., in libro de Vera Relig.,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="74"/>et in libro Soliloquiorum, videtur velle quod ipsum Deum,
+<lb ed="#L" n="75"/>qui veritas est, videamus, et per ipsum alia cognoscamus.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>2. Respondet Sanctus Thomas et dicit primo, quod non
+<lb ed="#L" n="77"/>est credendum in illis locis intendere Augustinus quod
+<lb ed="#L" n="78"/>in hac vita divinam essentiam videre possimus: cum 
+con<lb ed="#L" break="no" n="79"/>trarium dicat in Libro de Videndo Deum ad Paulinam .
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Dicit secundo, — quia Augustinus vult [quod] 
+incommu<lb ed="#L" break="no" n="81"/>tabilem veritatem, vel rationes aeternas, idest formas 
+intel<lb ed="#L" break="no" n="82"/>lectas in divino intellectu existentes, in hac vita videamus,
+<lb ed="#L" n="83"/>et secundum eam de aliis iudicemus; — quod, cum veritas,
+<lb ed="#L" n="84"/>scilicet subsistens, sit, secundum etiam Augustinum in libro
+<lb ed="#L" n="85"/>Soliloquiorum, in anima; et non solum sicut Deus in
+<lb ed="#L" n="86"/>omnibus rebus per essentiam invenitur, neque sicut in
+<lb ed="#L" n="87"/>omnibus rebus est per suam similitudinem, quia in hoc
+<lb ed="#L" n="88"/>aliis rebus non praefertur , sed spirituali modo, inquantum
+<lb ed="#L" n="89"/>cognoscitur: sicut omnes res verae dicuntur in suis naturis
+<lb ed="#L" n="90"/>secundum quod similitudinem illius summae naturae quae
+<lb ed="#L" n="91"/>est ipsa veritas, habent; ita id quod per animam est 
+co<lb ed="#L" break="no" n="92"/>gnitum, est verum inquantum illius divinae veritatis quam
+<lb ed="#L" n="93"/>Deus cognoscit, similitudo quaedam existit in anima. Quod
+<lb ed="#L" n="94"/>quidem ostenditur per glossam super illud Psalmi, 
+Dimi<lb ed="#L" break="no" n="95"/>nutae sunt veritates a filiis hominum. Et quia quaedam
+<lb ed="#L" n="96"/>sunt vera in quibus omnes homines concordant, sicut sunt
+<lb ed="#L" n="97"/>prima principia tam practica quam speculativa, secundum
+<lb ed="#L" n="98"/>quod universaliter in mentibus hominum divinae veritatis
+<lb ed="#L" n="99"/>quasi quaedam imago invenitur; inquantum quicquid
+<lb ed="#L" n="100"/>mens per certitudinem cognoscit, in iis principiis intuetur,
+<lb ed="#L" n="101"/>et per ea de omnibus iudicat, dicitur omnia in divina
+<lb ed="#L" n="102"/>veritate, vel in rationibus aeternis videre, et secundum
+<lb ed="#L" n="103"/>eas de omnibus iudicare, Quem sensum etiam Augustinus
+<lb ed="#L" n="104"/>ipse in Soliloquiis confirmat.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Ex iis patet quod ex verbis Augustini superius 
+alle<lb ed="#L" break="no" n="106"/>gatis, non habetur quod Deus videatur in hac vita 
+se<lb ed="#L" break="no" n="107"/>cundum suam substantiam, sed solum sicut in speculo:
+<lb ed="#L" n="108"/>ut etiam dicitur I Cor., xur.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Dicit tertio quod, quamvis hoc speculum quod est
+<lb ed="#L" n="110"/>mens humana, propinquius Dei similitudinem repraesentet,
+<lb ed="#L" n="111"/>idest, sit similitudo Deo propinquior quam res inferiores;
+<lb ed="#L" n="112"/>cognitio tamen Dei quae ex ipsa accipi potest, non excedit
+<lb ed="#L" n="113"/>genus cognitionis quod ex sensibilibus sumitur, cum et
+<lb ed="#L" n="114"/>de seipsa quid sit per naturam sensibilium cognoscat.
+<lb ed="#L" n="115"/>Unde nec altiori modo per hanc viam cognosci Deus
+<lb ed="#L" n="116"/>potest quam sicut cognoscitur causa per effectum.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>3. Circa hoc ultimum dictum, considerandum est quod
+<lb ed="#L" n="118"/>non dixit Sanctus Thomas cognitionem de Deo ex mente,
+<lb ed="#L" n="119"/>in qua sicut in quodam speculo cognoscitur, non esse
+<lb ed="#L" n="120"/>altiorem Dei cognitione quam ex sensibilibus naturis 
+ac<lb ed="#L" break="no" n="121"/>cipimus: sed dixit illam nom excedere hoc genus cogni-
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="122"/>tionis, quasi videlicet ad superius quoddam cognitionis 
+<lb ed="#L" n="123"/>genus pertineat. Quia illa quidem cognitio est altior, eo
+<lb ed="#L" n="124"/>quod, quanto effectus est nobilior et maxime causae 
+ap<lb ed="#L" break="no" n="125"/>propinquat, tanto cognitio causae per illum effectum sit
+<lb ed="#L" n="126"/>altior et perfectior, constat autem mentem humanam esse
+<lb ed="#L" n="127"/>nobiliorem effectum Dei quocumque effectu sensibili: non
+<lb ed="#L" n="128"/>est tamen cognitio superioris generis. Cum enim duplex
+<lb ed="#L" n="129"/>genus cognitionis ex parte rei cognitae superius  sit
+<lb ed="#L" n="130"/>tactum, scilicet cognitio quid est, et cognitio quia; item
+<lb ed="#L" n="131"/>duplex ex parte cognoscentis, scilicet cognitio ex 
+phan<lb ed="#L" break="no" n="132"/>tasmatibus sumpta, et cognitio sumpta ex participatione
+<lb ed="#L" n="133"/>superioris luminis: cognitio sumpta de Deo ex mente
+<lb ed="#L" n="134"/>humana ita est cognitio originata ex phantasmatibus sicut
+<lb ed="#L" n="135"/>et cognitio de ipso immediate ex sensibilibus sumpta;
+<lb ed="#L" n="136"/>quia ipsa cognitio quam habet anima de seipsa quantum
+<lb ed="#L" n="137"/>ad quid est, oritur ex cognitione naturarum sensibilium,
+<lb ed="#L" n="138"/>ut superius  est ostensum; et per consequens cognitio
+<lb ed="#L" n="139"/>Dei ex ipsa mentis cognitione a phantasmatibus originatur.
+<lb ed="#L" n="140"/>— Similiter talis cognitio ita est cognitio causae per 
+ef<lb ed="#L" break="no" n="141"/>fectum inadaequatum, quae dicitur cognitio quia est, sicut
+<lb ed="#L" n="142"/>et cognitio Dei immediate ex sensibilibus sumpta: quia
+<lb ed="#L" n="143"/>nullus effectus est qui sit divinae naturae adaequatus. - Et
+<lb ed="#L" n="144"/>sic patet quod utraque harum cognitionum ad idem genus
+<lb ed="#L" n="145"/>pertineat, licet una sit altior et perfectior altera in illo
+<lb ed="#L" n="146"/>genere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

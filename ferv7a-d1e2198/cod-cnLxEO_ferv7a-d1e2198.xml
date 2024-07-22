@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 60</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 60</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="167"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2198"><!-- ferv7a-l3c60 -->
+            <head>Capitulum 60</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="90" type="fixed=167"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="91"/>TERTIA conclusio est : /ntellectus qui divinam 
+substan<lb ed="#L" break="no" n="92"/>tiam videt, non successive, sed simul omnia 
+contem<lb ed="#L" break="no" n="93"/>platur. :
+</p>
+            <p>
+               <lb ed="#L" n="94"/>I. Probatur primo. Visio principio visionis respondet.
+<lb ed="#L" n="95"/>Ergo quae una specie videntur, oportet una visione videri.
+<lb ed="#L" n="96"/>Sed intellectus videns divinam substantiam omnes rerum
+<lb ed="#L" n="97"/>species in ipsa intelligit. Ergo etc.
+</p>
+            <p>
+               <cb ed="#L" n="h"/>
+               <lb ed="#L" n="98"/>2. Circa istam propositionem, Quaecumque una specie
+<lb ed="#L" n="99"/>videntur, oportet una visione videri, dubitatur. Quia una
+<lb ed="#L" n="100"/>specie potest unus intellectus diversa diversis temporibus
+<lb ed="#L" n="101"/>de repraesentatis per illam speciem considerare: et sic illa
+<lb ed="#L" n="102"/>non simul, sed successive cognoscere. Unde non solum
+<lb ed="#L" n="103"/>hoc experimur in nobis, sed etiam de substantiis separatis
+<lb ed="#L" n="104"/>dictum est superius  quod singularia unius speciei non
+<pb ed="#L" n="168"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cognoscunt nisi quando. sunt in. actu. Successive autem
+<lb ed="#L" n="2"/>sunt in actu. Ideo illa successive cognoscunt. Et tamen
+<lb ed="#L" n="3"/>omnia per unam speciem cognoscunt, quae v naturae
+<lb ed="#L" n="4"/>specificae similitudo. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Respondetur quod illa propositio non intelligitur de
+<lb ed="#L" n="6"/>quacumque specie, sed de ea quae semper actu et distincte
+<lb ed="#L" n="7"/>omnia' sua obiecta repraesentat, quemadmodum divina 
+es<lb ed="#L" break="no" n="8"/>sentia repraesentat intellectui Beati omnia genera et species
+<lb ed="#L" n="9"/>rerum, Species autem intellectus nostri non repraesentat
+<lb ed="#L" n="10"/>semper distincte et in actu omnia quae per ipsam sunt
+<lb ed="#L" n="11"/>cognoscibilia. Et similiter species intellectus separati non
+<lb ed="#L" n="12"/>semper in actu repraesentat omnia singularia unius 
+spe<lb ed="#L" break="no" n="13"/>ciei. Ideo instantiae adductae non sunt contra propositum.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>II. Secundo. Ea omnia quae videntur per visionem 
+di<lb ed="#L" break="no" n="15"/>vinae substantiae, qua beati sumus, secundum actum 
+vi<lb ed="#L" break="no" n="16"/>dentur: quia felicitas consistit in actu, non in habitu. Ergo
+<lb ed="#L" n="17"/>non unum prius altero videtur. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Tertio. Ultimus finis intellectus est visio divinae 
+sub<lb ed="#L" break="no" n="19"/>stantiae. Ergo, cum videt divinam substantiam, non 
+move<lb ed="#L" break="no" n="20"/>tur de uno intelligibili in aliud. Ergo etc. — Probatur prima
+<lb ed="#L" n="21"/>consequentia. Quia unaquaeque res, cum venerit ad suum
+<lb ed="#L" n="22"/>ultimum finem, quiescit.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Quarto. Intellectus in.divina substantia omnes rerum 
+spe<lb ed="#L" break="no" n="24"/>cies cognoscit. Ergo videt infinita, Ergo omnia simul videt.
+<lb ed="#L" n="25"/>— Probatur prima consequentia. Quia quorundam generum,
+<lb ed="#L" n="26"/>ut numeri, figurae, et proportionis, sunt species infinitae, —
+<lb ed="#L" n="27"/>Secunda vero probatur. Quia nisi simul omnia illa videret,
+<lb ed="#L" n="28"/>non videret omnia: cum infinita non sit pertransire.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>III. Contra hanc propositionem, Zntellectus in divina
+<lb ed="#L" n="30"/>substantia videt infinita, Scotus, in III Sent., d. xiv, q. u,
+<lb ed="#L" n="31"/>tenens quod anima Christi non.videat omnia simul in
+<lb ed="#L" n="32"/>Verbo, sed successive quodcumque voluerit intelligat,
+<lb ed="#L" n="33"/>arguit dupliciter.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Primo: quia impossibile est potentiam finitam perfecta
+<lb ed="#L" n="35"/>attentione videre simul infinita: cum attentio ad plura
+<lb ed="#L" n="36"/>obiecta simul sit minus perfecta.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Secundo: quia perfectio illius animae excederet: in 
+in<lb ed="#L" break="no" n="38"/>finitum alias animas.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>Tertio, arguit Adam ., Deus non potest facere infinita
+<lb ed="#L" n="40"/>simul esse. in actu. Ergo nec possunt simul intelligi ab
+<lb ed="#L" n="41"/>intellectu creato : quia non potest intellectus creatus plura
+<lb ed="#L" n="42"/>cognoscere in Verbo quam Deus possit facere.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>IV. Ad primum horum, negatur assumptum, quando |
+<lb ed="#L" n="44"/>illa infinita unica specie, illa distincte repraesentante, co-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="45"/>gnoscuntur. Attentio enim ad plura cognita non diminuit
+<lb ed="#L" n="46"/>perfectionem cognitionis ipsorum nisi quando. per plures
+<lb ed="#L" n="47"/>species cognoscuntur. [n proposito autem illa infinita non
+<lb ed="#L" n="48"/>videntur ab anima Christi per plures species, sed per unam,
+<lb ed="#L" n="49"/>quae est divina. essentia.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>2. Ad secundum dicitur quod non est inconveniens
+<lb ed="#L" n="51"/>animam Christi excedere perfectione infinita secundum
+<lb ed="#L" n="52"/>quid, alias animas: cuiusmodi est perfectio . cognitionis
+<lb ed="#L" n="53"/>infinitorum. Ista enim non est perfectio infinita 
+simpli<lb ed="#L" break="no" n="54"/>citer, cum non cognoscat illa efficacia infinita, et alia
+<lb ed="#L" n="55"/>infinita remaneant cognoscenda praeter illa quae cognoscit:
+<lb ed="#L" n="56"/>sed est infinita tantum materialiter et extrinsece, et 
+infi<lb ed="#L" break="no" n="57"/>nitate secundum quid; sicut et ipsa visa sunt secundum
+<lb ed="#L" n="58"/>quid tantum infinita.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Si autem arguatur, ut arguit Adam : Z7lle actus 
+aequi<lb ed="#L" break="no" n="60"/>polleret infinitis actibus specifice distinctis. Ergo esset 
+sim<lb ed="#L" break="no" n="61"/>pliciter infinitus: — dicitur quod consequentia est falsa.
+<lb ed="#L" n="62"/>Quamvis enim ille actus aequipolleret infinitis actibus
+<lb ed="#L" n="63"/>specifice distinctis, distinctione magis materiali quam 
+for<lb ed="#L" break="no" n="64"/>mali, non tamen esset simpliciter infinitus. Quia sicut 
+in<lb ed="#L" break="no" n="65"/>finitae species numerorum non sunt quoddam simpliciter
+<lb ed="#L" n="66"/>infinitum secundum perfectionem, cum sint ad genus
+<lb ed="#L" n="67"/>numeri determinatae; ita nec cognitiones illae essent 
+infi<lb ed="#L" break="no" n="68"/>nitae secundum perfectionem simpliciter, quia essent 
+de<lb ed="#L" break="no" n="69"/>terminatae ad. numeri cognitionem, ultra quam multae
+<lb ed="#L" n="70"/>aliae cognitiones relinquuntur.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Si ulterius arguatur, quia Beatus tanto plura videt in
+<lb ed="#L" n="72"/>Deo quantum ipsum perfectius cognoscit; et sic videtur,
+<lb ed="#L" n="73"/>si infinita videt in Deo, quod Deum infinite cognoscat ;
+<lb ed="#L" n="74"/>et consequenter quod infinite alios Beatos excedat: - 
+di<lb ed="#L" break="no" n="75"/>citur, iuxta praedicta, quod sicut ea quae videt in Deo,
+<lb ed="#L" n="76"/>sunt infinita tantum secundum quid, ita videt divinam
+<lb ed="#L" n="77"/>essentiam infinite secundum quid. Et sic etiam excedit
+<lb ed="#L" n="78"/>alios Beatos infinite secundum, quid: sicut infiniti dies
+<lb ed="#L" n="79"/>excedunt dies finitos infinite secundum quid, non autem
+<lb ed="#L" n="80"/>simpliciter; quia non sunt simpliciter infiniti, sed tantum
+<lb ed="#L" n="81"/>secundum quid, cum sint ad naturam temporis et dierum
+<lb ed="#L" n="82"/>determinati.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>3. Ad tertium, negatur consequentia. Et ad 
+probatio<lb ed="#L" break="no" n="84"/>nem, negatur assumptum. Actualis enim existentia 
+repu<lb ed="#L" break="no" n="85"/>gnat infinitis: non autem actualis cognitio per unum
+<lb ed="#L" n="86"/>quod infinita simul distincte repraesentat.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>CONFIRMATUR conclusio auctoritate Augustini, XV de
+<lb ed="#L" n="88"/>Trinitate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

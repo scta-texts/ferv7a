@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 72</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 72</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="214"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2296"><!-- ferv7a-l3c72 -->
+            <head>Capitulum 72</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="85" type="fixed=214"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <lb ed="#L" n="86"/>SEcUNDUM dubium est: quia videtur, si ad omnia 
+di<lb ed="#L" break="no" n="87"/>vina providentia se extendit, quod omnia de 
+necessi<lb ed="#L" break="no" n="88"/>tate eveniant.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>I. Ad hoc excludendum ponit Sanctus Thomas hanc
+<lb ed="#L" n="90"/>conclusionem: Divina providentia nec contingentiam nec
+<lb ed="#L" n="91"/>necessitatem a rebus excludit.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Probatur primo. Operatio divinae providentiae non
+<lb ed="#L" n="93"/>excludit causas secundas. Sed ex causis secundis effectus
+<cb ed="#L" n="d"/>
+               <lb ed="#L" n="94"/>aliqui dicuntur contingentes vel necessarii, non autem ex
+<lb ed="#L" n="95"/>causis remotis: ut patet in fructificatione plantae, quae
+<lb ed="#L" n="96"/>est contingens, quamvis sol sit causa ex necessitate agens.
+<lb ed="#L" n="97"/>Ergo non omnes effectus qui providentiae subduntur, erunt
+<lb ed="#L" n="98"/>necessarii.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Adverte, cum dicitur solem esse causam ex necessitate
+<lb ed="#L" n="100"/>agentem, quod dupliciter potest dici aliqua causa 
+neces<lb ed="#L" break="no" n="101"/>sario agens. Uno modo, quia a suo effectu impediri nullo
+<pb ed="#L" n="215"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>modo potest. Et sic non accipitur hic: quia effectus ad
+<lb ed="#L" n="2"/>quos virtus corporum caelestium se extendit, multoties
+<lb ed="#L" n="3"/>impediuntur. — Alio modo, quia necessario ad 
+productio<lb ed="#L" break="no" n="4"/>nem effectus, quantum est ex se, tendit, nisi impediatur.
+<lb ed="#L" n="5"/>Et hoc modo intelligitur solem ex necessitate agere. Sol
+<lb ed="#L" n="6"/>enim a sua naturali dispositione alterari non potest. Et ideo
+<lb ed="#L" n="7"/>motu suo et suo lumine, nisi impediatur per aliquod re- |
+<lb ed="#L" n="8"/>sistens, effectum suum, quantum est ex se, necessario pro- |
+<lb ed="#L" n="9"/>ducit, ut dicitur Verit, q. vr, a. 3, ad 3. Sed de hoc satis
+<lb ed="#L" n="10"/>dictum est in superioribus ; et latius dicetur inferius
+<lb ed="#L" n="11"/>capite LXXXVI.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Secundo. Tunc non omnes gradus entium 
+conserva<lb ed="#L" break="no" n="13"/>rentur. Sed hoc est contra divinam providentiam, ad quam
+<lb ed="#L" n="14"/>pertinet ut gradus entium (scilicet communes, iuxta prius
+<lb ed="#L" n="15"/>dicta) qui possibiles sunt, adimpleantur. Ergo etc. — Pro- |
+<lb ed="#L" n="16"/>batur sequela. Quia ens dividitur per se in necessarium |
+<lb ed="#L" n="17"/>et contingens.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>II. Tertio. Omnia de necessitate evenire. repugnat 
+di<lb ed="#L" break="no" n="19"/>vinae providentiae, Ergo etc. — Probatur antecedens. Quia |
+<lb ed="#L" n="20"/>ad divinam providentiam pertinet ordinem in rebus 
+sta<lb ed="#L" break="no" n="21"/>tuere et conservare. Omnia autem de necessitate evenire
+<lb ed="#L" n="22"/>tollit ordinem rerum secundum propinquitatem et 
+elon<lb ed="#L" break="no" n="23"/>gationem a Deo, in quo ordinis pulcritudo apparet: dum |
+<lb ed="#L" n="24"/>quaedam, scilicet substantiae separatae, tanquam Deo 
+pro<lb ed="#L" break="no" n="25"/>pinquissimae, sunt omnino immobiles; quaedam vero, 
+sci<lb ed="#L" break="no" n="26"/>licet corpora caelestia, aliquam speciem immobilitatis 
+re<lb ed="#L" break="no" n="27"/>cipiunt, in hoc quod semper eodem modo moventur;
+<lb ed="#L" n="28"/>quaedam autem, quae scilicet ad ista consequuntur, longius
+<lb ed="#L" n="29"/>ab immobilitate distant, ut scilicet non semper eodem modo
+<lb ed="#L" n="30"/>moveantur, et per consequens non necessario eveniant,
+</p>
+            <p>
+               <lb ed="#L" n="31"/>2. Circa id quod intenditur in hac ratione, scilicet
+<lb ed="#L" n="32"/>quaedam magis elongari a Deo et quaedam minus, 
+du<lb ed="#L" break="no" n="33"/>bium occurrit. Nam omnes creaturae in infinitum distant
+<lb ed="#L" n="34"/>a Deo: cum ipse sit infinitae perfectionis, creatura vero
+<lb ed="#L" n="35"/>finitae. Ergo unum non magis distat a Deo quam alterum:
+<lb ed="#L" n="36"/>ab infinite enim distanti unum non magis altero distat.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Respondetur negando consequentiam. Licet enim ab eo
+<lb ed="#L" n="38"/>a quo aliqua infinite distarent secundum situalem 
+distan<lb ed="#L" break="no" n="39"/>tiam, unum non posset forte altero magis distare; ab eo
+<lb ed="#L" n="40"/>tamen a quo aliqua distant in infinitum secundum 
+per<lb ed="#L" break="no" n="41"/>fectionem, unum magis altero distare potest. Quanto enim
+<lb ed="#L" n="42"/>aliquid minus habet de perfectione, tanto magis a 
+perfectis<lb ed="#L" break="no" n="43"/>simo distat: et quanto aliquid magis de perfectione habet,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="44"/>tanto magis ipsi perfectissimo appropinquat, licet sua 
+per<lb ed="#L" break="no" n="45"/>fectio ab illa infinita perfectione in infinitum distet. Nam
+<lb ed="#L" n="46"/>talis appropinquatio et elongatio nihil aliud importat quam
+<lb ed="#L" n="47"/>participationem maioris aut minoris perfectionis ab illa 
+in<lb ed="#L" break="no" n="48"/>finita perfectione, sive maiorem aut minorem similitudinem
+<lb ed="#L" n="49"/>cum illa, ut habetur Quolib. Xl, a. 1, ad 5. Non 
+incon<lb ed="#L" break="no" n="50"/>venit autem aliquas esse illius infinitae perfectionis 
+parti<lb ed="#L" break="no" n="51"/>cipationes quarum una sit in se altera perfectior, licet omnes
+<lb ed="#L" n="52"/>a prima in infinitum distent.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>III. Quarto. Si divina providentia requirit ut omnia sint
+<lb ed="#L" n="54"/>necessaria, nihil esset in rebus corruptibile, neque per 
+con<lb ed="#L" break="no" n="55"/>sequens generabile. Et sic subtraheretur a rebus tota pars
+<lb ed="#L" n="56"/>generabilium et corruptibilium. Sed hoc derogat perfectioni
+<lb ed="#L" n="57"/>universi. Ergo etc. - Probatur antecedens. Quia 
+necessa<lb ed="#L" break="no" n="58"/>rium semper est: nullum autem corruptibile semper est.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Quinto: et est confirmatio praecedentis rationis. 
+Sub<lb ed="#L" break="no" n="60"/>traheretur a rebus motus, et omnia mobilia. Quia 
+subtrahe<lb ed="#L" break="no" n="61"/>retur generatio et corruptio, subtracta contingentia rerum
+<lb ed="#L" n="62"/>omnium, In omni autem motu est generatio et corruptio:
+<lb ed="#L" n="63"/>cum in omni eo quod movetur, aliquid incipiat esse et
+<lb ed="#L" n="64"/>aliquid desinat esse.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Sexto. Divina providentia non impedit motum a rebus.
+<lb ed="#L" n="66"/>Ergo neque impeditur debilitatio virtutis ipsarum, aut 
+im<lb ed="#L" break="no" n="67"/>pedimentum ex resistentia alterius. Ergo non omnibus 
+pro<lb ed="#L" break="no" n="68"/>visis imponitur necessitas. — Probatur prima consequehRtia.
+<lb ed="#L" n="69"/>Quia debilitatio virtutis alicuius substantiae, et eius 
+im<lb ed="#L" break="no" n="70"/>pedimentum ex aliquo contrario agente, est ex aliqua eius
+<lb ed="#L" n="71"/>immutatione. — Secunda vero probatur. Quia ex virtutis
+<lb ed="#L" n="72"/>debilitate et eius impedimento contingit quod res 
+natu<lb ed="#L" break="no" n="73"/>ralis quandoque deficiat ab eo quod sibi competit 
+secun<lb ed="#L" break="no" n="74"/>dum naturam, ut sic effectus non ex necessitate proveniant.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Septimo. Manifestum est aliquas causas esse 
+contin<lb ed="#L" break="no" n="76"/>gentes, ex eo quod a suorum effectuum productione
+<lb ed="#L" n="77"/>possunt impediri, Ergo contra rationem providentiae esset
+<lb ed="#L" n="78"/>quod omnia evenirent de necessitate. — Probatur 
+conse<lb ed="#L" break="no" n="79"/>quentia. Quia in iis quae debite providentia reguntur, non
+<lb ed="#L" n="80"/>debet aliquid esse frustra: tales autem causae defectibiles
+<lb ed="#L" n="81"/>frustra essent.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>CiRCA PROBATAM CONCLUSIONEM Occurrit dubium ex <name>
+Au<lb ed="#L" break="no" n="83"/>reolo</name>, apud <ref>
+                  <name>Capreolum</name>, in I Sent., d. xv</ref> : sed quia illud
+<lb ed="#L" n="84"/>solvitur ex iis quae dicet Sanctus Thomas inferius , ubi
+<lb ed="#L" n="85"/>de certitudine divinae providentiae determinabit, non est
+<lb ed="#L" n="86"/>opus circa ipsum hoc loco immorari.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

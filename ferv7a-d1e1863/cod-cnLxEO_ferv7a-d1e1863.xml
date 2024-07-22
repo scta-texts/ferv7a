@@ -1,0 +1,440 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 19</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 19</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="44"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1863"><!-- ferv7a-l3c19 -->
+            <head xml:id="ferv7a-d1e1863-Hd1e101">Capitulum 19</head>
+            <p xml:id="ferv7a-d1e1863-d1e103">
+               <pb ed="#L" n="44"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=44"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e112">
+               <lb ed="#L" n="2"/>Cum sit ostendit Sanctus Thomas Deum esse rerum
+<lb ed="#L" n="3"/>P omnium finem ab unaquaque re obtinendum, - vult -
+<lb ed="#L" n="4"/>nunc ostendere ultimum rerum finem esse Deo assimilari .
+<lb ed="#L" n="5"/>Circa hoc autem duo facit: primo, ostendit propositum ;
+<lb ed="#L" n="6"/>secundo, removet quaedam dubia, cap. xxiv. $
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e125">
+               <lb ed="#L" n="7"/>Circa primum duo facit: primo, ostendit quod omnia
+<lb ed="#L" n="8"/>intendunt Deo assimilari quantum ad bonitatem; secundo,
+<lb ed="#L" n="9"/>quod intendunt sibi assimilari quantum ad causalitatem,
+<lb ed="#L" n="10"/>cap. xxi.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e136">
+               <lb ed="#L" n="11"/>Circa primum duo facit: primo, ostendit quod omnia
+<lb ed="#L" n="12"/>intendunt assimilari Deo quoad bonitatem; secundo, 
+osten<lb ed="#L" break="no" n="13"/>dit quod omnia tamen a divina bonitate deficiunt, capite
+<lb ed="#L" n="14"/>sequenti.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e148">
+               <lb ed="#L" n="15"/>I. Quantum ad primum, ponitur haec conclusio : 
+Ulti<lb ed="#L" break="no" n="16"/>mus finis rerum creatarum est Deo assimilari.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e155">
+               <lb ed="#L" n="17"/>Et arguitur primo sic. Res tendunt in Deum sicut in
+<lb ed="#L" n="18"/>ultimum finem ut ipsius bonitatem consequantur. Ergo
+<lb ed="#L" n="19"/>intendunt tanquam finem ultimum Deo assimilari. — 
+Pro<lb ed="#L" break="no" n="20"/>batur consequentia. Quia res creatae ex hoc quod 
+acqui<lb ed="#L" break="no" n="21"/>runt divinam bonitatem, similes Deo constituuntur.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e168">
+               <lb ed="#L" n="22"/>Adverte quod Sanctus Thomas accipit antecedens ex
+<lb ed="#L" n="23"/>praecedenti capitulo. Cum enim ostensum sit ibidem, in
+<lb ed="#L" n="24"/>ultima ratione, quod res ordinantur in Deum sicut in 
+fi<lb ed="#L" break="no" n="25"/>nem ut ipsum suo modo consequantur; non appetitur
+<lb ed="#L" n="26"/>autem finis nisi inquantum habet rationem boni: sequitur
+<lb ed="#L" n="27"/>quod res tendant in ipsum Deum tanquam in, finem 
+ul<lb ed="#L" break="no" n="28"/>timum ut eius bonitatem consequantur.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e186">
+               <lb ed="#L" n="29"/>Secundo. Deus est ita finis rerum quod est etiam 
+pri<lb ed="#L" break="no" n="30"/>mum agens earum. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="31"/>Quia agens dicitur finis effectus inquantum effectus tendit
+<lb ed="#L" n="32"/>in similitudinem agentis. Cuius signum est, quod forma
+<lb ed="#L" n="33"/>generati est finis generationis .
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e199">
+               <lb ed="#L" n="34"/>Advertendum quod forma generati, cum sit similis 
+for<lb ed="#L" break="no" n="35"/>mae generantis, dupliciter considerari potest: uno modo,
+<lb ed="#L" n="36"/>absolute et secundum se; alio modo, ut similis formae
+<lb ed="#L" n="37"/>generantis. Primo modo non habet quod sit eius finis,
+<lb ed="#L" n="38"/>scilicet principaliter intentus finis generationis ut a 
+gene<lb ed="#L" break="no" n="39"/>rante egreditur, sed secundo modo: ut vult Sanctus 
+Tho<lb ed="#L" break="no" n="40"/>mas Prima, q. xriv, a. 4, ad 2. Ex hoc autem quod forma
+<lb ed="#L" n="41"/>generati, quae est similis formae generantis, ut sic, est
+<lb ed="#L" n="42"/>finis generationis, manifeste arguitur quod generans et
+<lb ed="#L" n="43"/>agens intendit seipsum secundum quandam similitudinem
+<lb ed="#L" n="44"/>communicare. Et consequenter, si agens ponatur finis sui
+<lb ed="#L" n="45"/>effectus, hoc erit inquantum ipse effectus tendit in 
+simi<lb ed="#L" break="no" n="46"/>litudinem agentis per acceptionem formae similis formae
+<lb ed="#L" n="47"/>ipsius. Propterea Sanctus Thomas, ad ostendendum quod
+<lb ed="#L" n="48"/>agens dicitur finis effectus inquantum effectus tendit in
+<lb ed="#L" n="49"/>similitudinem agentis, adduxit pro signo quod forma 
+ge<lb ed="#L" break="no" n="50"/>nerati est finis generationis.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e238">
+               <lb ed="#L" n="51"/>Tertio. Secundum hoc omnia habent esse quod Deo,
+<lb ed="#L" n="52"/>qui est esse subsistens, assimilantur. Ergo omnia appetunt
+<lb ed="#L" n="53"/>quasi ultimum finem Deo assimilari. - Probatur 
+conse<lb ed="#L" break="no" n="54"/>quentia. Quia omnia naturaliter appetunt esse. Quod 
+pa<lb ed="#L" break="no" n="55"/>tet, quia et corrumpentibus naturaliter resistunt; et illuc
+<lb ed="#L" n="56"/>tendunt ubi conserventur.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e255">
+               <lb ed="#L" n="57"/>II. Circa istam propositionem, Omnia naturaliter 
+ap<lb ed="#L" break="no" n="58"/>petunt esse, dubitatur. Nam quidam videntur appetere non
+<lb ed="#L" n="59"/>esse; ut patet in iis qui se voluntarie occidunt. Et in
+<lb ed="#L" n="60"/>damnatis, de quibus dicitur Apoc. 1ix, Desiderabunt 
+ho<lb ed="#L" break="no" n="61"/>mines mori, et fugiet mors ab eis, apparet desiderium
+<lb ed="#L" n="62"/>non essendi. Ergo non videtur verum quod omnia 
+natu<lb ed="#L" break="no" n="63"/>raliter esse appetant: appetitus enim non potest ferri in
+<lb ed="#L" n="64"/>oppositum eius quod naturaliter appetitur.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e275">
+               <lb ed="#L" n="65"/>III. Ad evidentiam huius difficultatis, quae sane non
+<lb ed="#L" n="66"/>parva est, prius declarandum est quomodo non esse 
+ap<lb ed="#L" break="no" n="67"/>peti possit; deinde ad dubium respondendum .
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e284">
+               <lb ed="#L" n="68"/>Sciendum itaque primo quod, cum nihil habeat 
+ratio<lb ed="#L" break="no" n="69"/>nem appetibilis nisi ratione boni, esse non habet quod
+<lb ed="#L" n="70"/>appetatur nisi inquantum habet boni rationem. Ut autem
+<lb ed="#L" n="71"/>dicitur Prima, q. v, a. 1; et Verit., q. xxt, a. 5; et q. xxii,
+<lb ed="#L" n="72"/>8. 1, ad.7, secundum esse substantiale non dicitur aliquid
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="73"/>simpliciter et absolute bonum; sed tantum secundum quid;
+<lb ed="#L" n="74"/>secundum autem perfectiones superadditas dicitur 
+simpli<lb ed="#L" break="no" n="75"/>citer bonum. Ex quo sequitur. quod esse substantiale est
+<lb ed="#L" n="76"/>appetibile simpliciter et absolute si sit debitis perfectionibus
+<lb ed="#L" n="77"/>coniunctum; per se autem sumptum est appetibile tantum
+<lb ed="#L" n="78"/>secundum quid. Sequitur etiam quod ipsum esse humanum,
+<lb ed="#L" n="79"/>coniunctum privationi debitarum perfectionum, quod est
+<lb ed="#L" n="80"/>esse in trisiitiis aut malitia, sive miseria, simpliciter et
+<lb ed="#L" n="81"/>absolute malum est, ut dicitur Verit., q. xxi, loco 
+alle<lb ed="#L" break="no" n="82"/>gato, tanquam oppositum bono simpliciter, licet secundum
+<lb ed="#L" n="83"/>quid sit bonum. Et ideo est simpliciter fugiendum, licet
+<lb ed="#L" n="84"/>sit secundum quid appetibile. Unde inquit Philosophus
+<lb ed="#L" n="85"/>IX Ethic., quod omnibus delectabile est esse, sed non
+<lb ed="#L" n="86"/>oportet accipere malam vitam et corruptam, et eam quae
+<lb ed="#L" n="87"/>est in tristitiis.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e332">
+               <lb ed="#L" n="88"/>2. Secundo attendendum est, ex doctrina Sancti Thomae
+<lb ed="#L" n="89"/>in illa responsione ad 7, quod, cum carere malo bonum
+<lb ed="#L" n="90"/>sit, ut dicitur V Ethicorum , in appetendo eiusdem 
+ra<lb ed="#L" break="no" n="91"/>lionis est esse bonum, et esse ablativum et corruptivum
+<lb ed="#L" n="92"/>mali. Similiter in fugiendo et detestando eiusdem rationis
+<lb ed="#L" n="93"/>est esse malum, et esse corruptivum boni. Sicut enim
+<lb ed="#L" n="94"/>appetitur bonum, ita appetitur ablatio et remotio mali;
+<lb ed="#L" n="95"/>et sicut quis fugit et detestatur malum, ita fugit et 
+dete<lb ed="#L" break="no" n="96"/>statur remotionem aut corruptionem boni. Unde et hic
+<lb ed="#L" n="97"/>dicitur quod corruptibilia naturaliter resistunt 
+corrumpen<lb ed="#L" break="no" n="98"/>tibus. Ex quo infertur quod non esse, inquantum est 
+re<lb ed="#L" break="no" n="99"/>motivum mali, habet rationem boni et est appetibile; 
+in<lb ed="#L" break="no" n="100"/>quantum autem est remotivum boni, non est bonum, sed
+<lb ed="#L" n="101"/>habet rationem mali, et consequenter non est appetibile,
+<lb ed="#L" n="102"/>sed fugiendum et detestandum. Unde, quia esse cum 
+mi<lb ed="#L" break="no" n="103"/>seria et tristitiis, quod est esse coniunctum privationi 
+de<lb ed="#L" break="no" n="104"/>bitarum perfectionum, est simpliciter malum et 
+fugien<lb ed="#L" break="no" n="105"/>dum, licet secundum quid sit bonum, ratione scilicet
+<lb ed="#L" n="106"/>ipsius esse; non esse, inquantum est ablativum et 
+remo<lb ed="#L" break="no" n="107"/>tivum miserae et poenalis vitae, est simpliciter bonum, et,
+<lb ed="#L" n="108"/>simpliciter. ac absolute loquendo, est eligibile; licet sit
+<lb ed="#L" n="109"/>malum secundum quid et secundum quid fugiendum, 
+in<lb ed="#L" break="no" n="110"/>quantum tollit esse substantiale. Quia vero esse, secundum
+<lb ed="#L" n="111"/>se consideratum, bonum quoddam est, non esse, 
+inquan<lb ed="#L" break="no" n="112"/>tum removet esse, malum est et fugiendum.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e389">
+               <lb ed="#L" n="113"/>Ex iis patet intellectus eius quod dicitur Prima Parte,
+<lb ed="#L" n="114"/>q. v, a. 2, ad 3; et IV Sent., d. r, q. n, a. 1, cum 
+di<lb ed="#L" break="no" n="115"/>citur quod zon esse secundum se non est appetibile, sed
+<lb ed="#L" n="116"/>est appetibile per accidens inquantum est ablativum 
+poe<lb ed="#L" break="no" n="117"/>nalis et miserae vitae. Intelligitur enim quod ipsum non
+<lb ed="#L" n="118"/>esse solitarie et secundum propriam rationem consideratum,
+<lb ed="#L" n="119"/>inquantum est pura negatio esse, non est appetibile, cum
+<lb ed="#L" n="120"/>nullam habeat boni rationem, sed sit tantum privatio et
+<lb ed="#L" n="121"/>remotio boni: secundum autem quod habet suae rationi
+<lb ed="#L" n="122"/>hanc rationem adiunctam, quod est esse ablativum miserae
+<lb ed="#L" n="123"/>et poenalis vitae, sic est appetibile, quia sub illa ratione
+<lb ed="#L" n="124"/>habet rationem boni, ut patuit.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e418">
+               <lb ed="#L" n="125"/>3. Tertio attendendum est quod appetere non esse 
+ali<lb ed="#L" break="no" n="126"/>quando. potest esse secundum rectam rationem, aliquando
+<lb ed="#L" n="127"/>vero contra rectam rationem, Si enim malum quod quis
+<lb ed="#L" n="128"/>fugit, et quod per non esse removetur, sit in veritate
+<lb ed="#L" n="129"/>simpliciter malum, et simpliciter ac omnino fugiendum,
+<lb ed="#L" n="130"/>sicut est malum et miseria damnatorum, potest secundum
+<lb ed="#L" n="131"/>rectam rationem appeti non esse, inquantum est huiusmodi
+<lb ed="#L" n="132"/>mali ablativum et remotivum. Et hoc videtur intendere
+<lb ed="#L" n="133"/>Sanctus "Thomas in IV Sent., loco praeallegato. Cum enim
+<lb ed="#L" n="134"/>dicat, respondendo ad quaestionem quam movit, Utrum
+<lb ed="#L" n="135"/>damnati recta ratione et deliberativa possint appetere non
+<lb ed="#L" n="136"/>esse, quod possunt eligere non esse secundum 
+delibera<lb ed="#L" break="no" n="137"/>tivam rationem, quia hoc est eis melius quam esse, patet
+<lb ed="#L" n="138"/>quod loquitur de recta ratione: alioquin non satisfaceret
+<lb ed="#L" n="139"/>quaesito.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e454">
+               <lb ed="#L" n="140"/>Si autem non sit simpliciter et omnino malum, tanquam
+<lb ed="#L" n="141"/>omnino fugiendum, sed tantum secundum falsam 
+existi<lb ed="#L" break="no" n="142"/>mationem alicuius, tunc non potest appeti secundum 
+rec<lb ed="#L" break="no" n="143"/>tam rationem non esse inquantum est remotivum eius-
+<pb ed="#L" n="45"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>modi mali. Qui enim propter pecuniae amissionem se
+<lb ed="#L" n="2"/>suspendit, eligit non esse, sed non secundum rectam 
+ra<lb ed="#L" break="no" n="3"/>tionem: quia iste existimat carentiam pecuniarum esse
+<lb ed="#L" n="4"/>malum simpliciter et summum malum omnino fugiendum,
+<lb ed="#L" n="5"/>eo quod ultimum finem in possessione pecuniae 
+consti<lb ed="#L" break="no" n="6"/>tuit; et tamen in veritate non est sic. Similiter est de aliis
+<lb ed="#L" n="7"/>qui ex falsa existimatione alicuius mali appetunt non esse.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e485">
+               <lb ed="#L" n="8"/>4. Habetur ergo ex praedictis primo, quod non esse,
+<lb ed="#L" n="9"/>per se et solitarie consideratum, non est appetibile: quia
+<lb ed="#L" n="10"/>nullo modo est bonum.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e494">
+               <lb ed="#L" n="11"/>Habetur secundo, quod non esse est per accidens 
+ap<lb ed="#L" break="no" n="12"/>petibile, inquantum est remotivum alicuius mali: quia sic
+<lb ed="#L" n="13"/>est bonum per accidens, id est ratione remotionis mali,
+<lb ed="#L" n="14"/>quae mali remotio bonum quoddam est.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e505">
+               <lb ed="#L" n="15"/>Habetur tertio, quod non esse, inquantum est mali 
+re<lb ed="#L" break="no" n="16"/>motivum, est secundum rectam rationem appetibile si
+<lb ed="#L" n="17"/>malum cuius est remotivum sit simpliciter malum et
+<lb ed="#L" n="18"/>omnino fugiendum, ut est peccatum et poena damnatorum.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e516">
+               <lb ed="#L" n="19"/>Habetur quarto quod, si malum quod per non esse
+<lb ed="#L" n="20"/>aufertur, non sit simpliciter malum nec omnino fugiendum,
+<lb ed="#L" n="21"/>ut est pecuniarum amissio, sic non esse, inquantum talis
+<lb ed="#L" n="22"/>mali r i , non est secundum rectam rationem 
+eli<lb ed="#L" break="no" n="23"/>gibile.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e529">
+               <lb ed="#L" n="24"/>IV. Sed ex dictis resultat unum dubium. Videtur enim
+<lb ed="#L" n="25"/>quod nullo modo non esse possit magis appeti quam esse
+<lb ed="#L" n="26"/>sub quocumque malo. Illud enim est magis appetibile quod
+<lb ed="#L" n="27"/>habet de ratione boni. Esse autem in tristitiis aut
+<lb ed="#L" n="28"/>miseria habet aliquid de ratione boni: hoc enim includit
+<lb ed="#L" n="29"/>ipsum esse substantiale, quod est aliquod bonum. Non
+<lb ed="#L" n="30"/>esse autem omnino, sub quacumque ratione consideretur,
+<lb ed="#L" n="31"/>nullam rationem boni habet, quia nullum esse ponit. Ergo
+<lb ed="#L" n="32"/>magis est eligendum esse sub miseria quam omnino non
+<lb ed="#L" n="33"/>esse. Et per consequens nullo modo appetendum est non
+<lb ed="#L" n="34"/>esse.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e556">
+               <lb ed="#L" n="35"/>Confirmatur etiam auctoritate Augustini, de Libero 
+Ar<lb ed="#L" break="no" n="36"/>bitrio. Inquit enim: Considera quantum bonum est esse,
+<lb ed="#L" n="37"/>quod et beati et miseri volunt. Maius enim est esse et
+<lb ed="#L" n="38"/>esse miserum, quam omnino non esse.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e567">
+               <lb ed="#L" n="39"/>2. Ad hanc difficultatem tollendam, considerandum est
+<lb ed="#L" n="40"/>quod, cum non esse, sub quacumque ratione negativa 
+con<lb ed="#L" break="no" n="41"/>Sideratum, ut sic, non habeat rationem boni aut 
+appeti<lb ed="#L" break="no" n="42"/>bilis, eo quod ratio boni fundetur in esse; oportet, ad hoc
+<lb ed="#L" n="43"/>ut ipsum, sub ratione negativa vodeideratetti, habeat 
+ra<lb ed="#L" break="no" n="44"/>tionem boni, quod ad aliquod esse et bonum, ratione cuius
+<lb ed="#L" n="45"/>ipsum sit bonum et appetibile, resolvatur. Et ideo inquit
+<lb ed="#L" n="46"/>Sanctus Thomas, in Prima Parte, loco praeallegato, quod
+<lb ed="#L" n="47"/>non esse non est bonum et appetibile nisi per accidens,
+<lb ed="#L" n="48"/>inquantum scilicet quoddam esse appetitur quo homo non
+<lb ed="#L" n="49"/>sustinet privari. Quatuor enim concurrunt in ipso 
+appe<lb ed="#L" break="no" n="50"/>titu non esse: primum est aliquod esse et bonum 
+appe<lb ed="#L" break="no" n="51"/>titum, puta felicitas: secundum est malum per quod 
+pri<lb ed="#L" break="no" n="52"/>vatur tale esse, puta miseria; tertium cst remotio talis
+<lb ed="#L" n="53"/>mali, puta miseriae; quartum est non esse, quod 
+appe<lb ed="#L" break="no" n="54"/>titur inquantum cum ipso est remotio talis mali. Ipsum
+<lb ed="#L" n="55"/>ergo non esse, ut remotivum mali, habet rationem boni
+<lb ed="#L" n="56"/>et appetibilis: sed hoc sibi convenit originaliter ratione
+<lb ed="#L" n="57"/>illius esse quod est primo appetitum, quod per se bonum
+<lb ed="#L" n="58"/>est et appetibile. Unde, licet omnino non esse, ut sic, non
+<lb ed="#L" n="59"/>sit bonum et appetibile; esse autem sub miseria aliquid
+<lb ed="#L" n="60"/>habeat bonitati$: non esse tamen, inquantum remotivum
+<lb ed="#L" n="61"/>mali, includit bonum aliquod, ratione cuius remotio mali
+<lb ed="#L" n="62"/>fundamentaliter et originaliter appetitur.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e622">
+               <lb ed="#L" n="63"/>3. Ad dubium ergo, negatur quod esse sub miseria et
+<lb ed="#L" n="64"/>tristitia magis habeat de ratione boni quam non esse ut
+<lb ed="#L" n="65"/>est remotivum miseriae. Ad probationem, negatur quod non
+<lb ed="#L" n="66"/>esse, ut remotivum miseriae, nullam habeat rationem boni
+<lb ed="#L" n="67"/>et nullum esse dicat. Licet enim non esse ratione 
+nega<lb ed="#L" break="no" n="68"/>tionis, inquantum est praecise negatio, nullum esse ponat,
+<lb ed="#L" n="69"/>fundamentaliter tamen et radicaliter ponit aliquod esse,
+<lb ed="#L" n="70"/>puta felicitatem, ratione cuius refellitur esse sub miseria,
+<lb ed="#L" n="71"/>et appetitur non esse tanquam miserae vitae remotivum.
+<lb ed="#L" n="72"/>Propter quod ait Sanctus Thomas in Quarto, ubi supra ,
+<lb ed="#L" n="73"/>quod z;on esse, licet maxime malum. sit inquantum privat
+<lb ed="#L" n="74"/>esse, tamen valde bonum est inquantum privat miseriam,
+<lb ed="#L" n="75"/>quae est maximum malorum, Unde quod dixit Salvator
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>noster, Matth. xxvr, de Iuda, Melius erat ei si natus non
+<lb ed="#L" n="77"/>fuisset homo ille, intelligitur quod ipsum non esse Iudae
+<lb ed="#L" n="78"/>fuisset ei melius per accidens quam esse, ratione scilicet
+<lb ed="#L" n="79"/>mali quod per non esse remotum fuisset.si non fuisset
+<lb ed="#L" n="80"/>natus; cuius quidem mali remotio est maxime appetenda,
+<lb ed="#L" n="81"/>inquantum ipsum malum, scilicet aeterna damnatio, 
+op<lb ed="#L" break="no" n="82"/>ponitur felicitati, quae maxime appetibilis est. — Habet et
+<lb ed="#L" n="83"/>alias expositiones hoc dictum Salvatoris, sed de iis nihil
+<lb ed="#L" n="84"/>ad propositum refert.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e674">
+               <lb ed="#L" n="85"/>Ad Augustinum dicitur primo, ex doctrina Sancti 
+Tho<lb ed="#L" break="no" n="86"/>mae in Quarto, loco allegato , quod intelligit non esse non
+<lb ed="#L" n="87"/>posse eligi per se, sed tantum per accidens modo dicto.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e683">
+               <lb ed="#L" n="88"/>Dicitur secundo, quod maius est esse et miserum esse
+<lb ed="#L" n="89"/>quam omnino non esse, si non esse per se accipiatur, pro
+<lb ed="#L" n="90"/>sola scilicet negatione essendi. Sed si co-intelligatur cum
+<lb ed="#L" n="91"/>tali non esse amotio mali oppositi illi bono quod est origo
+<lb ed="#L" n="92"/>et fundamentum appetendi non esse, sic omnino non esse
+<lb ed="#L" n="93"/>est maius et appetibilius, ratione illius esse quod est radix
+<lb ed="#L" n="94"/>et fundamentum appetitionis huiusmodi.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e701">
+               <lb ed="#L" n="95"/>V. Sed remanet adhuc dubium. Nam secundum hanc
+<lb ed="#L" n="96"/>responsionem, non appetitur remotio mali quae 
+concomi<lb ed="#L" break="no" n="97"/>tatur non esse, nisi quia appetitur bonum quod illi malo
+<lb ed="#L" n="98"/>opponitur. Hoc autem non videtur verum in eo qui 
+ap<lb ed="#L" break="no" n="99"/>petit non esse. Nam omne esse accidentale praesupponit
+<lb ed="#L" n="100"/>esse substantiale; et remoto esse substantiali, omne aliud
+<lb ed="#L" n="101"/>esse removetur. Ergo, si aliquis appetit non esse in rerum
+<lb ed="#L" n="102"/>natura, non appetit aliquod. aliud esse, ratione cuius 
+ap<lb ed="#L" break="no" n="103"/>petat non esse. Ergo falsum est quod non esse omnino
+<lb ed="#L" n="104"/>includat aliquod esse ratione cuius appetitur non esse.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e726">
+               <lb ed="#L" n="105"/>Respondetur quod non sic dicimus non esse appetibile
+<lb ed="#L" n="106"/>esse per accidens ratione alicuius esse appetiti quo homo
+<lb ed="#L" n="107"/>non sustinet privari, ut dicitur Prima Parte , quasi 
+appe<lb ed="#L" break="no" n="108"/>titus in simultatem utriusque feratur, ut scilicet aliquis
+<lb ed="#L" n="109"/>appetat sibi simul convenire et non esse omnino et 
+ali<lb ed="#L" break="no" n="110"/>quod esse, hoc enim esset appetere contradictoria: sed
+<lb ed="#L" n="111"/>intelligitur quod aliquod esse quod est amatum, et quo
+<lb ed="#L" n="112"/>homo non sustinet privari, est radix et fundamentum quare
+<lb ed="#L" n="113"/>non esse sit appetibile. Ex eo enim quod aliquis summe
+<lb ed="#L" n="114"/>amat felicitatem, summe detestatur miseriam, per quam
+<lb ed="#L" n="115"/>felicitate privatur, et non sustinet ut perpetuo sit miser ac
+<lb ed="#L" n="116"/>privatus felicitate; et ideo, cum videt se non posse 
+mi<lb ed="#L" break="no" n="117"/>seriam ac privationem felicitatis effugere nisi per non esse,
+<lb ed="#L" n="118"/>appetit non esse, quo illud malum quod maxime detestatur
+<lb ed="#L" n="119"/>effugiat. Et sic patet quod esse et bonum est ratio et 
+fun<lb ed="#L" break="no" n="120"/>damentum appetitionis non esse: appcetibile est enim non
+<lb ed="#L" n="121"/>esse inquantum est remotivum mali; remotio autem mali
+<lb ed="#L" n="122"/>est appetibilis inquantum ipsum malum habetur odio; 
+ha<lb ed="#L" break="no" n="123"/>betur autem odio malum eo quod bonum oppositum 
+ap<lb ed="#L" break="no" n="124"/>petatur et diligatur. Unde est quidem simultas 
+appetitio<lb ed="#L" break="no" n="125"/>nis non esse et felicitatis, non autem appetitio simultatis
+<lb ed="#L" n="126"/>ipsorum.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e776">
+               <lb ed="#L" n="127"/>VI. Ex istis patet ad dubium principale . Dicitur enim
+<lb ed="#L" n="128"/>quod dictum Sancti Thomae, quod est etiam Aristotelis,
+<lb ed="#L" n="129"/>IX Ethicorum, scilicet quod omnia naturaliter appetunt
+<lb ed="#L" n="130"/>esse, intelligitur de esse completo perfectionibus 
+conve<lb ed="#L" break="no" n="131"/>nientibus et debitis, ut ipse exponit in IV Sent., loco
+<lb ed="#L" n="132"/>praeallegato
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e792">
+               <lb ed="#L" n="133"/>Intelligitur etiam de appetitu per se. Huic autem non
+<lb ed="#L" n="134"/>repugnat quod aliqui appetant non esse per accidens, 
+in<lb ed="#L" break="no" n="135"/>quantum est remotivum mali quod esse naturaliter 
+desi<lb ed="#L" break="no" n="136"/>deratum privat.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e803">
+               <lb ed="#L" n="137"/>VII. Quarto. Omnes creaturae sunt imagines primi
+<lb ed="#L" n="138"/>agentis, scilicet Dei. Ergo sunt propter eius similitudinem
+<lb ed="#L" n="139"/>consequendam sicut propter ultimum finem. — Probatur
+<lb ed="#L" n="140"/>antecedens. Quia omne agens agit sibi simile. — 
+Conse<lb ed="#L" break="no" n="141"/>quentia etiam probatur. Quia ad hoc imago constituitur
+<lb ed="#L" n="142"/>ut repraesentet suum exemplar per similitudinem ad ipsum.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e819">
+               <lb ed="#L" n="143"/>Quinto. In tantum aliquid de bono participat, in 
+quan<lb ed="#L" break="no" n="144"/>tum assimilatur primae bonitati, quae est Deus. Ergo
+<lb ed="#L" n="145"/>omnia per suos motus et actiones tendunt in divinam 
+si<lb ed="#L" break="no" n="146"/>militudinem. — Probatur consequentia, Quia omnis res per
+<lb ed="#L" n="147"/>suum motum vel actionem tendit in aliquod bonum sicut
+<lb ed="#L" n="148"/>in finem.
+</p>
+            <p xml:id="ferv7a-d1e1863-d1e835">
+               <lb ed="#L" n="149"/>Advertendum, ex doctrina Sancti Thomae Prima, q. vr,
+<lb ed="#L" n="150"/>a. 4; et Verit. q. xxt, a 4, quod res non dicuntur hoc modo
+<pb ed="#L" n="46"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>bonae in ordine ad Deum quasi ex solo respectu ad 
+di<lb ed="#L" break="no" n="2"/>vinam bonitatem. denominentur bonae, sicut medicina 
+di<lb ed="#L" break="no" n="3"/>citur sana in ordine ad sanitatem animalis: sed quia 
+ha<lb ed="#L" break="no" n="4"/>bent in.seipsis bonitatem quae est similitudo quaedam 
+<lb ed="#L" n="5"/>divinae bonitatis. Unde, cum dicitur hic quod in tantum  
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="6"/>aliquid de bono participat; in quantum assimilatur primae
+<lb ed="#L" n="7"/>bonitati, intelligitur ad: hunc. sensum, quod unumquodque
+<lb ed="#L" n="8"/>in tantum est bonum, in quantum habet formam et: 
+boni<lb ed="#L" break="no" n="9"/>tatem intrinsecam quae est — quaedam divinae
+<lb ed="#L" n="10"/>bonitatis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

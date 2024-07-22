@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 62</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 62</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="172"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2214"><!-- ferv7a-l3c62 -->
+            <head>Capitulum 62</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="87" type="fixed=172"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="88"/>SECUNDA conclusio est: Illi qui ultimam felicitatem
+<lb ed="#L" n="89"/>consequuntur ex visione divina, nunquam ab illa 
+de<lb ed="#L" break="no" n="90"/>cident.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>I. Probatur primo, Praedicta visio non est in tempore,
+<lb ed="#L" n="92"/>sed in aeternitate. Ergo amitti non potest. — Probatur 
+con<lb ed="#L" break="no" n="93"/>sequentia. Quia quod quandoque. est, quandoque non est
+<lb ed="#L" n="94"/>(scilicet per potentiam intrinsecam), mensuratur tempore,
+<lb ed="#L" n="95"/>ut dicitur <ref>IV. Physicorum.</ref>
+            </p>
+            <p>
+               <lb ed="#L" n="96"/>Secundo. Si non perpetuo felicitas permaneret, non
+<lb ed="#L" n="97"/>quietaretur naturale desiderium in ea. Ergo non esset 
+ul<lb ed="#L" break="no" n="98"/>timus, finis. - Probatur prima consequentia. Quia sicut
+<lb ed="#L" n="99"/>natura intellectualis naturaliter «desiderat felicitatem, ita
+<lb ed="#L" n="100"/>naturaliter desiderat felicitatis perpetuitatem: eo quod ipsa
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="101"/>sit perpetua, et consequenter quod propter se desiderat
+<lb ed="#L" n="102"/>et non propter aliud, desiderat ut semper habendum. —
+<lb ed="#L" n="103"/>Secunda quoque consequentia probatur. Quia non 
+per<lb ed="#L" break="no" n="104"/>venit huiusmodi natura ad ultimum finem nisi quando
+<lb ed="#L" n="105"/>eius naturale desiderium quietatur.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Ad evidentiam huius rationis, considerandum quod aliter
+<lb ed="#L" n="107"/>loquendum est de iis quae propter aliud quaeruntur: et
+<lb ed="#L" n="108"/>aliter de iis quae quaeruntur propter se. ld enim quod
+<lb ed="#L" n="109"/>quaeritur propter aliud, non habet ut quaeratur tanquam
+<lb ed="#L" n="110"/>semper habendum: quia, adveniente eo propter quod
+<lb ed="#L" n="111"/>quaerebatur, cum non quaeratur nisi ad aliud 
+acquiren<lb ed="#L" break="no" n="112"/>dum, non amplius desideratur; sicut medicina, quae 
+pro<lb ed="#L" break="no" n="113"/>pter sanitatem quaeritur, habita sanitate non desideratur
+<pb ed="#L" n="173"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>ulterius. — Sed id quod propter se dumtaxat, et nullo modo
+<lb ed="#L" n="2"/>propter aliud quaeritur, habet ut quaeratur tanquam semper
+<lb ed="#L" n="3"/>habendum, quandiu manet appetens. Quia habet ex se 
+suf<lb ed="#L" break="no" n="4"/>ficientem bonitatem propter quam appetatur: et ideo, cum
+<lb ed="#L" n="5"/>non appetatur nisi quia bonum secundum se, cum semper
+<lb ed="#L" n="6"/>sit bonum, appetitur ut semper habendum; sicut, quia
+<lb ed="#L" n="7"/>sanitas est secundum se quoddam bonum naturae et 
+quae<lb ed="#L" break="no" n="8"/>ritur propter se, naturaliter desideratur ut semper habenda.
+<lb ed="#L" n="9"/>Optime ergo probavit Sanctus Thomas naturam 
+intelle<lb ed="#L" break="no" n="10"/>ctualem naturaliter desiderare felicitatis perpetuitatem, eo
+<lb ed="#L" n="11"/>quod ipsa, existens perpetua, id quod propter se desiderat
+<lb ed="#L" n="12"/>et non propter aliud, quo modo felicitatem desiderat,
+<lb ed="#L" n="13"/>appetit ut semper habendum.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>IL. Zertio. Nisi sic esset, talis visio non adesset sine
+<lb ed="#L" n="15"/>tristitia, et ita non esset vera felicitas. — Probatur sequela.
+<lb ed="#L" n="16"/>Visio haec a possidentibus eam maxime amatur: cum sit
+<lb ed="#L" n="17"/>maxime delectabilis et maxime desiderata. Ergo, si sciatur
+<lb ed="#L" n="18"/>quandoque amittenda, non est sine tristitia: quia quod
+<lb ed="#L" n="19"/>cum amore possidetur, si sciatur quod quandoque 
+amit<lb ed="#L" break="no" n="20"/>tatur, tristitiam infert. Sed, si non sit perpetua, Beati hoc
+<lb ed="#L" n="21"/>sciunt: quia si, videndo essentiam divinam, cognoscunt
+<lb ed="#L" n="22"/>quae sunt in natura, multo magis cognoscunt an illa visio
+<lb ed="#L" n="23"/>sit perpetua necne. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>Quarto. Omnis substantia intellectualis naturali 
+desi<lb ed="#L" break="no" n="25"/>derio tendit ad illam visionem. Ergo ab illa non deficiet
+<lb ed="#L" n="26"/>nisi per violentiam. Ergo in perpetuum durabit. — 
+Pro<lb ed="#L" break="no" n="27"/>batur prima consequentia. Quia quod movetur naturaliter
+<lb ed="#L" n="28"/>ad aliquid sicut ad finem sui motus, non removetur ab
+<lb ed="#L" n="29"/>eo nisi per violentiam: ut patet in gravi. — Secunda vero
+<lb ed="#L" n="30"/>probatur. Quia, cum nihil tollatur per violentiam alicuius
+<lb ed="#L" n="31"/>nisi virtus auferentis sit maior virtute causantis; nulla
+<lb ed="#L" n="32"/>autem virtus sit quae excedat virtutem divinam, quae est
+<lb ed="#L" n="33"/>causa huius visionis: impossibile est quod per violentiam
+<lb ed="#L" n="34"/>tollatur.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Adverte quod ista ratio supponit hanc visionem non
+<lb ed="#L" n="36"/>cessaturam propter voluntariam subtractionem divinae
+<lb ed="#L" n="37"/>actionis, sed divinam essentiam continue ad ipsam in
+<lb ed="#L" n="38"/>Beatis operari, ut patet in sequenti ratione.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>IH. Quinto. Non potest substantia intellectualis videns
+<lb ed="#L" n="40"/>Deum desinere videre ipsum, quia possit sibi deesse 
+fa<lb ed="#L" break="no" n="41"/>cultas videndi, aut per hoc quod ipsa esse desinat, aut
+<lb ed="#L" n="42"/>propter defectum luminis quo videt: cum sit perpetua;
+<lb ed="#L" n="43"/>et lumen illud incorruptibiliter recipiatur, ex conditione
+<lb ed="#L" n="44"/>et recipientis et dantis. Neque quia sibi possit deesse 
+vo<lb ed="#L" break="no" n="45"/>luntas tali visione fruendi: cum percipiat in illa esse suam
+<lb ed="#L" n="46"/>ultimam felicitatem; sicut non potest non velle esse felix.
+<lb ed="#L" n="47"/>Neque per subtractionem obiecti: quia obiectum illud,
+<lb ed="#L" n="48"/>quod est Deus, semper eodem modo se habet, nec 
+elon<lb ed="#L" break="no" n="49"/>gatur a nobis nisi inquantum nos elongamur ab ipso.
+<lb ed="#L" n="50"/>Ergo etc. — Probatur consequentia. Quia non desinit aliquis
+<lb ed="#L" n="51"/>videre quod primo videbat, nisi propter aliquod 
+prae<lb ed="#L" break="no" n="52"/>dictorum.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Circa secundi impedimenti remotionem, scilicet quod
+<lb ed="#L" n="54"/>Beato non potest deesse voluntas tali visione fruendi,
+<lb ed="#L" n="55"/>sicut non potest non velle esse felix, considerandum quod,
+<lb ed="#L" n="56"/>licet in via felicitas, sub communi ratione felicitatis, non
+<lb ed="#L" n="57"/>moveat voluntatem de necessitate quantum ad exercitium
+<lb ed="#L" n="58"/>actus, sed tantum quantum ad actus specificationem, 
+ab<lb ed="#L" break="no" n="59"/>solute loquendo: tamen, ut superius  dictum est, ex hac
+<lb ed="#L" n="60"/>suppositione quod apprehendatur practice et proponatur
+<lb ed="#L" n="61"/>voluntati sub ratione appetendi pro nunc omnibus 
+con<lb ed="#L" break="no" n="62"/>sideratis, non potest voluntas non velle; sicut non potest
+<lb ed="#L" n="63"/>intellectui proponi primum principium quin statim illi
+<lb ed="#L" n="64"/>actualiter assentiat. Cum ergo inquit Sanctus Thomas
+<lb ed="#L" n="65"/>quod videnti Deum non potest deesse voluntas fruendi
+<lb ed="#L" n="66"/>illa visione, sicut non potest non velle esse felix: 
+in<lb ed="#L" break="no" n="67"/>telligendum est, stante illa practica apprehensione 
+feli<lb ed="#L" break="no" n="68"/>citatis. Sic enim proportionaliter sibi respondent divina
+<lb ed="#L" n="69"/>essentia, et felicitas in communi: quia divina essentia clare
+<lb ed="#L" n="70"/>visa necessario movet voluntatem ; et felicitas in 
+com<lb ed="#L" break="no" n="71"/>muni, practice proposita voluntati modo dicto, necessario
+<lb ed="#L" n="72"/>acceptatur.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Circa remotionem tertii impedimenti, scilicet quod non
+<lb ed="#L" n="74"/>potest obiectum beatitudinis subtrahi, advertendum quod
+<lb ed="#L" n="75"/>dupliciter posset subtrahi obiectum visionis: aut scilicet
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>quia ipsum variatur in se, sicut si quod erat album fiat
+<lb ed="#L" n="77"/>nigrum; aut quia, ipso in se non variato, removetur 
+de<lb ed="#L" break="no" n="78"/>bita propinquitas, sicut si longe ponatur album quod prius
+<lb ed="#L" n="79"/>erat visui sufficienter propinquum. Propter utrumque 
+ho<lb ed="#L" break="no" n="80"/>rum removendum, inquit Sanctus Thomas quod obiectum
+<lb ed="#L" n="81"/>divinae visionis non subtrahitur, quia Deus semper eodem
+<lb ed="#L" n="82"/>modo se habet, idest, in se nullam variationem habet; et
+<lb ed="#L" n="83"/>etiam nunquam elongatur a nobis.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>IV. Sexto: et est confirmatio praecedentis, cum duabus
+<lb ed="#L" n="85"/>sequentibus. Probatur enim quod non potest deficere ex
+<lb ed="#L" n="86"/>propria voluntate ipsius Beati. In fruitione illius visionis
+<lb ed="#L" n="87"/>non potest esse aliquod malum: cum sit optimum ad quod
+<lb ed="#L" n="88"/>creatura rationalis pervenire potest. Nec potest esse quod
+<lb ed="#L" n="89"/>ab eo qui tali visione fruitur, aestimetur in ea esse aliquod
+<lb ed="#L" n="90"/>malum, vel aliquid eo melius: cum illa visio omnem 
+fal<lb ed="#L" break="no" n="91"/>sitatem excludat. Ergo impossibile est quod videns Deum
+<lb ed="#L" n="92"/>velit illa visione carere. — Probatur consequentia. Quia
+<lb ed="#L" n="93"/>impossibile est ut aliquis velit a bono quo fruitur 
+disce<lb ed="#L" break="no" n="94"/>dere nisi propter aliquod malum quod in fruitione illius
+<lb ed="#L" n="95"/>boni existimat: saltem propter hoc quod existimatur 
+im<lb ed="#L" break="no" n="96"/>pedimentum maioris boni.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>2. Ad hanc rationem posset dici quod ille qui fruitur
+<lb ed="#L" n="98"/>Deo, posset velle carere illa visione, non propter aliquod
+<lb ed="#L" n="99"/>malum coniunctum ei, neque quia sit impedimentum
+<lb ed="#L" n="100"/>maioris boni: sed ad experiendum propriam libertatem,
+<lb ed="#L" n="101"/>scilicet an posset a tali visione et fruitione ad horam
+<lb ed="#L" n="102"/>desistere.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Sed ista responsio nulla est. ' Tum quia hoc non posset
+<lb ed="#L" n="104"/>esse nisi quia experientiam propriae libertatis existimaret
+<lb ed="#L" n="105"/>maius bonum quam divinam visionem et fruitionem ; et
+<lb ed="#L" n="106"/>sic existimaret continuationem talis visionis esse maioris
+<lb ed="#L" n="107"/>boni impeditivam.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Tum quia videns Deum naturali necessitate iudicat illud
+<lb ed="#L" n="109"/>obiectum, omnibus pensatis, esse pro tunc summe 
+dili<lb ed="#L" break="no" n="110"/>gendum super omnia. Nec est in potestate ipsius tale
+<lb ed="#L" n="111"/>iudicium suspendere: quia illa visio qua clare videt Deum,
+<lb ed="#L" n="112"/>ad quam tale iudicium de necessitate consequitur, non
+<lb ed="#L" n="113"/>est in potestate sua. Stante autem illo iudicio quo, 
+vir<lb ed="#L" break="no" n="114"/>tute visionis divinae, iudicatur Deum esse pro tunc summe
+<lb ed="#L" n="115"/>diligendum, constat quod non potest videns Deum 
+iudi<lb ed="#L" break="no" n="116"/>care pro tunc bonum esse suspendere actum fruitionis ad
+<lb ed="#L" n="117"/>experiendum propriam libertatem : quia hoc iudicium 
+con<lb ed="#L" break="no" n="118"/>trariatur illi alii iudicio.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>Ideo responsio haec efficaciam rationis non tollit.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>V. Septimo. Divina substantia non corrumpit, sed maxime
+<lb ed="#L" n="121"/>perficit intellectum. Neque ad eius visionem concurrit actus
+<lb ed="#L" n="122"/>qui per corporalia organa exerceatur. Ergo non potest illa
+<lb ed="#L" n="123"/>visio aliquem fastidire qui prius ea delectabiliter 
+frueba<lb ed="#L" break="no" n="124"/>tur. — Probatur consequentia. Quia fastidium alicuius quo
+<lb ed="#L" n="125"/>prius aliquis delectabiliter fruebatur, accidit propter hoc
+<lb ed="#L" n="126"/>quod res illa aliquam mutationem facit in re, 
+corrum<lb ed="#L" break="no" n="127"/>pendo vel debilitando virtutem ipsius: ut patet in 
+ope<lb ed="#L" break="no" n="128"/>ratione virium sensitivarum; et in operatione intellectus
+<lb ed="#L" n="129"/>nostri in hac vita, quae sine potentiis organicis compleri
+<lb ed="#L" n="130"/>non potest.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>VI. Octavo. Divina substantia a quolibet intellectu creato
+<lb ed="#L" n="132"/>semper cum admiratione videtur: cum eam non 
+com<lb ed="#L" break="no" n="133"/>prehendat. Ergo non potest illam visionem substantia 
+in<lb ed="#L" break="no" n="134"/>tellectualis fastidire. Ergo neque ab illa potest propria
+<lb ed="#L" n="135"/>voluntate desistere. — Probatur prima consequentia. Quia
+<lb ed="#L" n="136"/>nihil quod cum admiratione consideratur, potest esse 
+fasti<lb ed="#L" break="no" n="137"/>diosum: eo quod semper desiderium maneat,
+</p>
+            <p>
+               <lb ed="#L" n="138"/>2. Circa hanc rationem dubium occurrit. Quia si cum
+<lb ed="#L" n="139"/>admiratione videtur divina substantia a Beatis, videtur quod
+<lb ed="#L" n="140"/>Beati desiderium non impleatur. Tum quia, ut hic dicitur,
+<lb ed="#L" n="141"/>quandiu aliquid est sub admiratione, adhuc desiderium
+<lb ed="#L" n="142"/>manet. — Tum quia admiratio est cum ignorantia: et ex
+<lb ed="#L" n="143"/>admiratione incitatur desiderium cognoscendi causam quae
+<lb ed="#L" n="144"/>ignoratur.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>Ad huius evidentiam, duo sunt consideranda. Unum
+<lb ed="#L" n="146"/>est quod, licet admiratio in nobis proprie importet duo,
+<lb ed="#L" n="147"/>ut ex I Metaph. elici potest, scilicet quod causa illius
+<lb ed="#L" n="148"/>quod admiramur, sit occulta; et in eo appareat aliquid
+<lb ed="#L" n="149"/>per quod videatur contrarium debere esse eius quod 
+mi<lb ed="#L" break="no" n="150"/>ramur; propter quod quoddam sciendi causam desiderium
+<pb ed="#L" n="174"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>excitatur, sicut, cum ferrum videmus ascendere, miramur:
+<lb ed="#L" n="2"/>tamen, largo modo, aliquando admiratio sumitur pro 
+ap<lb ed="#L" break="no" n="3"/>prehensione alicuius ut excedentis omnino, propter sui
+<lb ed="#L" n="4"/>magnitudinem, capacitatem cognoscentis. Cum ergo hic
+<lb ed="#L" n="5"/>dicitar quod divina substantia a quolibet intellectu creato
+<lb ed="#L" n="6"/>semper cum admiratione. videtur, accipitur admiratio 
+se<lb ed="#L" break="no" n="7"/>cundo modo, non autem primo modo. Quia, ut arguebatur,
+<lb ed="#L" n="8"/>Beati non desiderant quidem alicuius rei cognitionem quam
+<lb ed="#L" n="9"/>non habeant, semper tamen vident se magnitudine divinae
+<lb ed="#L" n="10"/>maiestatis superari, et eius-visionem a perfecta Dei 
+com<lb ed="#L" break="no" n="11"/>prehensione deficere.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Alterum est quod desiderium, ut dicitur I I^, q. xxxri,
+<lb ed="#L" n="13"/>a. 2, dupliciter potest accipi: uno modo, proprie, 
+secun<lb ed="#L" break="no" n="14"/>dum quod importat appetitum rei non habitae; alio modo,
+<lb ed="#L" n="15"/>secundum quod importat intensionem affectus, quae 
+fasti<lb ed="#L" break="no" n="16"/>dium tollit. Cum ergo hic dicitur quod, quandiu aliquid
+<lb ed="#L" n="17"/>sub admiratione est, adhuc desiderium manet, accipiendum
+<lb ed="#L" n="18"/>est desiderium secundum proportionem ad admirationem.
+<lb ed="#L" n="19"/>Si enim accipiatur admiratio ut importat cognitionem eius
+<lb ed="#L" n="20"/>quod admiramur cum ignorantia causae et existimatione
+<lb ed="#L" n="21"/>quod aliter esse deberet: sic, quandiu aliquid sub 
+admi<lb ed="#L" break="no" n="22"/>ratione est, desiderium primo modo manet; quia admirans
+<lb ed="#L" n="23"/>appetit cognitionem causae quam non habet. — Si autem
+<lb ed="#L" n="24"/>accipiatur admiratio pro cognitione substantiae alicuius ut
+<lb ed="#L" n="25"/>excedentis in sua intelligibilitate facultatem cognoscentis:
+<lb ed="#L" n="26"/>sic eam  concomitatur desiderium. secundo modo, quod
+<lb ed="#L" n="27"/>importat intensionem affectus fastidium tollentem.. Et sic,
+<lb ed="#L" n="28"/>cum in Beatis sit ista admiratio, eo quod, videntes 
+divi<lb ed="#L" break="no" n="29"/>nam substantiam, eam non comprehendant, 
+cognoscant<lb ed="#L" break="no" n="30"/>que incomprehensibilem esse; atque semper sint in hac
+<lb ed="#L" n="31"/>admiratione; manet in ipsis semper desiderium fruendi
+<lb ed="#L" n="32"/>Deo, idest, intensus affectus ad visionem Dei et 
+delecta<lb ed="#L" break="no" n="33"/>tionem eam consequentem. Propter quod de angelis, qui
+<lb ed="#L" n="34"/>perfecte Deum cognoscunt et delectantur in ipso, dicitur
+<lb ed="#L" n="35"/>I Petri 1 , quod desiderant in eum prospicere. Ad hunc
+<lb ed="#L" n="36"/>itaque sensum procedit ratio Sancti Thomae.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>VII. Nono. Haec visio non potest desinere propter 
+mu<lb ed="#L" break="no" n="38"/>tationem divinae substantiae: cum sit immutabilis. Neque
+<lb ed="#L" n="39"/>propter mutationem intellectus ipsam videntis: cum 
+ele<lb ed="#L" break="no" n="40"/>vetur in hoc supra omnem mutationem. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="41"/>batur consequentia. Quia si aliqua duo prius fuerunt unita
+<lb ed="#L" n="42"/>et postmodum separentur, oportet quod hoc accidat per
+<lb ed="#L" n="43"/>mutationem alicuius eorum : relatio enim non incipit neque
+<lb ed="#L" n="44"/>desinit esse absque mutatione alterius relatorum. Intellectus
+<lb ed="#L" n="45"/>autem creatus 'videt Deum per hoc quod ei quodammodo
+<lb ed="#L" n="46"/>unitur.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Advertendum, circa fundamentum huius rationis, quod
+<lb ed="#L" n="48"/>licet intellectus quilibet creatus sit secundum suam 
+natu<lb ed="#L" break="no" n="49"/>ram aliquo modo mutabilis, secundum tamen quod ad
+<lb ed="#L" n="50"/>visionem divinae substantiae elevatur, fit Dei munere,
+<lb ed="#L" n="51"/>quantum ad ea quae ad talem visionem exiguntur, omnino
+<lb ed="#L" n="52"/>immutabilis. Quia enim, ut dictum est superius , elevatur
+<lb ed="#L" n="53"/>ad hoc ut sit divini ordinis; de ratione autem divini 
+or<lb ed="#L" break="no" n="54"/>dinis est immutabilitas: ideo, ut dicitur IV Sent., d. xrix,
+<lb ed="#L" n="55"/>q. 1 a. 2, qu 3, ad 4, sicut immutabilitas Deo convenit
+<lb ed="#L" n="56"/>per naturam, ita Beati ex divino munere stabilitatem 
+con<lb ed="#L" break="no" n="57"/>sequuntur, ut transmutari non possint, scilicet quantum
+<lb ed="#L" n="58"/>ad beatam visionem. Et sic intelligendum est quod hic
+<lb ed="#L" n="59"/>dicitur: substantiam intellectualem elevari supra omnem
+<lb ed="#L" n="60"/>mutationem cum: Dei substantiam videt.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Decimo. Nulla creatura potest Deo amplius 
+appropin<lb ed="#L" break="no" n="62"/>quare quam. quae eius substantiam videt. Ergo illa 
+sum<lb ed="#L" break="no" n="63"/>mam immutabilitatem consequitur: (supple) quantum ad
+<lb ed="#L" n="64"/>illam. visionem. Ergo etc. — Probatur prima consequentia.
+<lb ed="#L" n="65"/>Quia. quanto aliquid est Deo propinquius, qui est omnino
+<lb ed="#L" n="66"/>immobilis, tanto est minus mutabile et magis perseverans.
+<lb ed="#L" n="67"/>— Declaratur exemplo corporum; et auctoritate Aristotelis,
+<lb ed="#L" n="68"/>IH de Gen., text. 59.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>CowrrRMATUR auctoritate Psalm.; et Jsaiae xxxi; ac
+<lb ed="#L" n="70"/>Apoc. nt.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Per hoc autem. et Platonicorum, et. Origenis in libro
+<lb ed="#L" n="72"/>Periarchon, error excluditur, qui voluerunt animas post
+<lb ed="#L" n="73"/>beatitudinem iterum posse ad miseriam devenire. :
+</p>
+            <p>
+               <lb ed="#L" n="74"/>VIII. Sed contra praedicta, inquantum aliquibus 
+ratio<lb ed="#L" break="no" n="75"/>nibus conclusum est Beatum non posse velle divina vi-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>sione carere; et per consequens voluntatem Beati 
+neces<lb ed="#L" break="no" n="77"/>sario velle et amare divinam essentiam clare visam, arguitur
+<lb ed="#L" n="78"/>ex Scoto, I Sent, d. r q. 1v . ]
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Primo . Quando principium elicitivum non necessario
+<lb ed="#L" n="80"/>elicit, nec habens principium illud necessario agit. Sed
+<lb ed="#L" n="81"/>caritas, quae est principium elicitivum fruitionis, non 
+ne<lb ed="#L" break="no" n="82"/>cessario illam elicit in Patria: quia nec etiam in via 
+ne<lb ed="#L" break="no" n="83"/>cessario eliciebat. Ergo nec voluntas necessario fruitur.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Secundo. Aut finis movet ad istum actum : aut potentia.
+<lb ed="#L" n="85"/>Si finis, patet quod nulla est necessitas: quia ad nullum
+<lb ed="#L" n="86"/>actum creatum necessario movet. — Si voluntas, tunc sic.
+<lb ed="#L" n="87"/>Diversa approximatio passi ad agens non causat 
+neces<lb ed="#L" break="no" n="88"/>sitatem, sed intensiorem actionem: ut patet de calido 
+re<lb ed="#L" break="no" n="89"/>spectu calefactibilium. Sed diversa praesentia obiecti 
+co<lb ed="#L" break="no" n="90"/>gniti, puta visi .et non visi, non videtur esse nisi quaedam.
+<lb ed="#L" n="91"/>diversa approximatio eius ad voluntatem. Ergo istud non
+<lb ed="#L" n="92"/>diversificat necessitatem et non-necessitatem.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>IX. Arguitur etiam ab aliis . Primo sic. Obiectum quod
+<lb ed="#L" n="94"/>non replet totam capacitatem potentiae,-non immutabiliter
+<lb ed="#L" n="95"/>movet voluntatem. Sed tale obiectum est Deus: cum 
+vo<lb ed="#L" break="no" n="96"/>luntas diligens Deum sit in potentia ad multas alias 
+di<lb ed="#L" break="no" n="97"/>lectiones. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Secundo. Non est ponendum id quod libertatem 
+vo<lb ed="#L" break="no" n="99"/>luntatis aufert. Sed haec immutabilitas voluntatis tollit eius
+<lb ed="#L" n="100"/>libertatem. Ergo etc. a |
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Tertio. Ita in via iudicamus Deum esse summe 
+diligi<lb ed="#L" break="no" n="102"/>bilem, sicut in Patria. Et tamen in via non necessitatur
+<lb ed="#L" n="103"/>voluntas circa ipsum Deum. Ergo nec in Patria.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Quarto. Ponuntur quidam casus. Primus est. Si Deus
+<lb ed="#L" n="105"/>det alicui fruitionem sui ad horam, et certificet ipsum
+<lb ed="#L" n="106"/>quod post horam illam non habebit: constat quod talis
+<lb ed="#L" n="107"/>potest velle carere illa visione, cum non sit sibi 
+impos<lb ed="#L" break="no" n="108"/>sibile conformare se Deo in volito. — Secundus est. Si
+<lb ed="#L" n="109"/>Deus praecipiat Beato ut conetur suspendere amorem quo
+<lb ed="#L" n="110"/>amat illum clare visum: constat quod talis poterit illum
+<lb ed="#L" n="111"/>amorem suspendere. — "Tertius est. Si Deus ostenderetur
+<lb ed="#L" n="112"/>videnti se esse futurus eius perpetuus afflictor, vel 
+anni<lb ed="#L" break="no" n="113"/>hilator, et huiusmodi: constat quod apprehenderetur sub
+<lb ed="#L" n="114"/>ratione displicibilis; et per consequens voluntas posset
+<lb ed="#L" n="115"/>eum non velle. — Quartus est. Si aliquis damnandus 
+vi<lb ed="#L" break="no" n="116"/>deret Deum, et cognosceret poenam aliquam sibi futuram :
+<lb ed="#L" n="117"/>constat quod eius gaudium per dolorem diminueretur.
+<lb ed="#L" n="118"/>Et posset Deus facere quod haberet tantum dolorem quod
+<lb ed="#L" n="119"/>excluderet omne gaudium. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>2. Arguitur etiam contra istam determinationem quia 
+vi<lb ed="#L" break="no" n="121"/>detur esse contra mentem Sancti Thomae . Nam Verit.,
+<lb ed="#L" n="122"/>q. xxir, a. 6, vult quod voluntas est libera quoad 
+exer<lb ed="#L" break="no" n="123"/>citium actus, quantum scilicet ad velle et non velle, in
+<lb ed="#L" n="124"/>quolibet statu naturae, et respectu cuiuslibet obiecti. Ergo
+<lb ed="#L" n="125"/>in Patria non necessitatur respectu Dei clare visi quantum
+<lb ed="#L" n="126"/>ad actus exercitium. :
+</p>
+            <p>
+               <lb ed="#L" n="127"/>X. Pro solutione argumentorum Scoti , considerandum
+<lb ed="#L" n="128"/>est quod, licet intellectus creati Deus sit obiectum tam in
+<lb ed="#L" n="129"/>via quam in Patria, inquantum et in via et in Patria cognosci
+<lb ed="#L" n="130"/>potest; sub alia tamen ratione est obiectum in via, et sub
+<lb ed="#L" n="131"/>alia ratione in Patria. In via enim non obiicitur nobis nisi
+<lb ed="#L" n="132"/>ut obscure et in aenigmate cognitus, ac per aliud: in Patria
+<lb ed="#L" n="133"/>vero est obiectum ut clare cognitus et per se. Et quia 
+vo<lb ed="#L" break="no" n="134"/>Iuntas non fertur nisi in bonum cognitum, sicut alio modo
+<lb ed="#L" n="135"/>cognoscitur in via et alio modo in Patria, ita voluntas alio
+<lb ed="#L" n="136"/>modo se habet ad ipsum in via, et alio modo in Patria.
+<lb ed="#L" n="137"/>Quia enim hic videtur in speculo, non autem in seipso et
+<lb ed="#L" n="138"/>in propria ratione; et non videtur clare in ipso rationem
+<lb ed="#L" n="139"/>summi boni et ultimi finis contineri: ideo voluntas, quae
+<lb ed="#L" n="140"/>in ultimum finem sibi sub ratione ultimi finis propositum
+<lb ed="#L" n="141"/>naturaliter fertur, non necessario fertur in Deum, nec in
+<lb ed="#L" n="142"/>ipso immobilitatur, quia ex illa cognitione non sequitur de
+<lb ed="#L" n="143"/>necessitate iudicium illud quo iudicetur esse summe 
+dili<lb ed="#L" break="no" n="144"/>gendus. In Patria vero, quia clarissime videtur in divina
+<lb ed="#L" n="145"/>substantia esse summi boni et ultimi finis rationem, 
+vo<lb ed="#L" break="no" n="146"/>luntas in ipsum necessario fertur, et immobilitatem in ipso
+<lb ed="#L" n="147"/>habet: eo quod illud iudicium quo iudicatur sic visus esse
+<lb ed="#L" n="148"/>summe volendus et diligendus, non est in potestate Beati,
+<lb ed="#L" n="149"/>cum illud necessario sequatur ex clara visione eius quod
+<lb ed="#L" n="150"/>est vere summum bonum et summe diligibile.
+</p>
+            <p>
+               <pb ed="#L" n="175"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>2. Ad primum igitur Scoti dicitur quod minor est falsa. —
+<lb ed="#L" n="2"/>Ad probationem, negatur consequentia. Quia in via non
+<lb ed="#L" n="3"/>proponebatur voluntati obiectum eo modo et sub eadem
+<lb ed="#L" n="4"/>ratione qua sibi proponitur in Patria. In via enim 
+propo<lb ed="#L" break="no" n="5"/>nitur tanquam aliquid in aenigmate et in alio cognitum:
+<lb ed="#L" n="6"/>in Patria autem sibi proponitur tanquam clare et in seipso
+<lb ed="#L" n="7"/>visum, et tanquam manifeste cognitum quod sit prae 
+omni<lb ed="#L" break="no" n="8"/>bus diligendum.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>3. Ad secundum dicitur quod utrumque, scilicet et finis
+<lb ed="#L" n="10"/>et potentia, movent ad istum actum: hoc est, ad hunc
+<lb ed="#L" n="11"/>actum concurrunt. Et ex utroque aliquo modo provenit
+<lb ed="#L" n="12"/>necessitas: ex fine quidem, quia est obiectum 
+convenien<lb ed="#L" break="no" n="13"/>tissimum naturae intellectualis, et est summae bonitatis;
+<lb ed="#L" n="14"/>ex parte autem voluntatis, quia voluntas est talis naturae
+<lb ed="#L" n="15"/>ut, proposito sibi ultimo fine sub ratione summe 
+diligi<lb ed="#L" break="no" n="16"/>bilis clare cogniti, necessario in illud inclinetur, sicut 
+in<lb ed="#L" break="no" n="17"/>tellectus primis principiis necessario assentit. :
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Cum probatur quod non ex fine, quia non necessario
+<lb ed="#L" n="19"/>movet ad aliquod ens creatum: — dicitur quod non sic 
+di<lb ed="#L" break="no" n="20"/>citur ad actum necessarium ipse finis movere quasi 
+ne<lb ed="#L" break="no" n="21"/>cessario per modum efficientis moveat, et non sit in eius
+<lb ed="#L" n="22"/>potestate non agere; sed quia est tantae bonitatis ut, 
+pro<lb ed="#L" break="no" n="23"/>positum voluntati clare ut est in seipso, natum sit 
+incli<lb ed="#L" break="no" n="24"/>nare voluntatem per modum finis ita quod voluntas non
+<lb ed="#L" n="25"/>poterit ipsum non appetere.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Cum vero probatur quod non ex voluntate ista 
+neces<lb ed="#L" break="no" n="27"/>sitas proveniat: — dicitur quod maior appropinquatio passi
+<lb ed="#L" n="28"/>ad agens dupliciter potest intelligi: aut scilicet secundum
+<lb ed="#L" n="29"/>localem distantiam tantum, ut dicantur proximiora illa quae
+<lb ed="#L" n="30"/>in locis sunt minus ab invicem distantibus; aut secundum
+<lb ed="#L" n="31"/>adhaerentiam ad rationem magis propriam agentis, ut illud
+<lb ed="#L" n="32"/>magis dicatur appropinquare alicui quod secundum 
+ratio<lb ed="#L" break="no" n="33"/>nem illi . magis propriam adhaeret. Si primo modo 
+acci<lb ed="#L" break="no" n="34"/>piatur approximatio: sic, admissa maiore, quae tamen
+<lb ed="#L" n="35"/>fortassis non est vera, negatur minor. — Si secundo modo
+<lb ed="#L" n="36"/>accipiatur, sic minor quidem est vera: quia, dum 
+volun<lb ed="#L" break="no" n="37"/>tati proponitur Deus non visus sed in speculo cognitus,
+<lb ed="#L" n="38"/>adhaeret Deus voluntati non per suam essentiam in se, sed
+<lb ed="#L" n="39"/>secundum quandam rationem a creaturis acceptara; cum
+<lb ed="#L" n="40"/>vero proponitur voluntati tanquam clare visus, adhaeret
+<lb ed="#L" n="41"/>sibi secundum ipsam suam essentiam, et propriam suam
+<lb ed="#L" n="42"/>rationem, quae sibi est intima. Sed maior rationis est falsa.
+<lb ed="#L" n="43"/>Quia stat aliquod obiectum, sub propria ratione et essentia
+<lb ed="#L" n="44"/>propositum voluntati, necessitare voluntatem, quod non
+<lb ed="#L" n="45"/>necessitat ipsam sub ratione ab aliis rebus accepta 
+pro<lb ed="#L" break="no" n="46"/>positum: sicut sanitas perfecte cognita necessitat appetitum
+<lb ed="#L" n="47"/>naturalem, quae, non cognita nisi in quadam confusione
+<lb ed="#L" n="48"/>et obscuritate, non necessitat.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>XI. Ad primum aliorum , negatur minor. Dicitur enim
+<lb ed="#L" n="50"/>voluntatis capacitatem obiectum aliquod adimplere, quando
+<lb ed="#L" n="51"/>nihil extra ipsum appetendum relinquitur tanquam suae
+<lb ed="#L" n="52"/>perfectionis complementum, ut dicitur I II, q. r, a 5. Sic
+<lb ed="#L" n="53"/>autem. Deus clare visus se habet ad voluntatem. Nam, cum
+<lb ed="#L" n="54"/>pervenerit substantia intellectualis ad visionem divinae 
+es<lb ed="#L" break="no" n="55"/>sentiae, complementum suae perfectionis habet, et nullam
+<lb ed="#L" n="56"/>aliam perfectionem desiderat. - Cum autem probatur quia
+<lb ed="#L" n="57"/>voluntas diligens Deum est in potentia ad multas alias
+<lb ed="#L" n="58"/>dilectiones: — negatur consequentia subintellecta. Per hoc
+<lb ed="#L" n="59"/>enim quod obiectum aliquod satiat voluntatem, non 
+exclu<lb ed="#L" break="no" n="60"/>ditur quin cum ipso aliquid aliud amare possit: sed 
+exclu<lb ed="#L" break="no" n="61"/>ditur amor alterius rei omnino extraneus ab amore illius
+<lb ed="#L" n="62"/>obiecti, qui scilicet ab illo nullo modo procedit et sit illius
+<lb ed="#L" n="63"/>complementum. Dicitur enim quod Beatus diligens Deum
+<lb ed="#L" n="64"/>non potest habere amorem alicuius alterius rei qui ab
+<lb ed="#L" n="65"/>amore Dei non originetur, sed quicquid amat et vult, amat
+<lb ed="#L" n="66"/>et vult in ordine ad essentiam divinam et ex eius amore.
+<lb ed="#L" n="67"/>Et ex hoc dicitur voluntatis capacitatem adimplere.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>2. Ad secundum, negatur minor. Immutabilitas enim ex
+<lb ed="#L" n="69"/>inclinatione naturali voluntatis proveniens non tollit ipsius
+<lb ed="#L" n="70"/>libertatem, cum necessitas naturalis inclinationis libertati
+<lb ed="#L" n="71"/>non repugnet (qua aliquis a coactione est liber), secundum
+<ref>Augustinum, V de Civ. Dei</ref>, et <ref>Sanctum Thomam, Verit.,
+<lb ed="#L" n="72"/>q. XXIV, a. 1, ad 20</ref>: sed bene necessitas coactionis. Quia
+<lb ed="#L" n="73"/>coactio est tantum ab extrinseco, naturalis autem inclinatio
+<lb ed="#L" n="74"/>est ab intrinseco.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>3. Ad tertium dicitur primo. quod, stante illo iudicio,
+<lb ed="#L" n="76"/>etiam in via, quo iudicamus Deum esse summe diligibile pro
+<lb ed="#L" n="77"/>nunc, omnibus pensatis ; nihilque tale iudicium impediente ;
+<lb ed="#L" n="78"/>voluntas necessario illum diligit, et quandiu manet tale
+<lb ed="#L" n="79"/>iudicium, manet ille voluntatis actus; ut dicebatur superius 
+<lb ed="#L" n="80"/>de beatitudine secundum universalem rationem acceptam.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Dicitur secundo, quod voluntas non immobilitatur iri
+<lb ed="#L" n="82"/>illo actu in via sicut in Patria, quia illud iudicium in via
+<lb ed="#L" n="83"/>est in potestate nostra, propter obscuram et aenigmaticam
+<lb ed="#L" n="84"/>Dei cognitionem. Et potest homo ab illo iudicio, et etiam
+<lb ed="#L" n="85"/>ab actuali consideratione Dei, cessare: aut quia talis 
+con<lb ed="#L" break="no" n="86"/>sideratio iudicatur impeditiva melioris boni; aut quia 
+fa<lb ed="#L" break="no" n="87"/>tigatur homo in tali consideratione, propter fatigationem
+<lb ed="#L" n="88"/>virium sensitivarum; aut ob aliquas alias causas. Quarum
+<lb ed="#L" n="89"/>nulla erit in Patria, ubi clarissime videtur natura divina
+<lb ed="#L" n="90"/>ut in se est; et ubi nulla est deceptio, et nulla fatigatio,
+<lb ed="#L" n="91"/>et non potest iudicari aliquid esse melius illa visione 
+di<lb ed="#L" break="no" n="92"/>vina, Unde non est eadem ratio in via et in Patria.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>4. Ad casus propositos  dicitur: in communi quidem,
+<lb ed="#L" n="94"/>quod mens Sancti Thomae est loqui de voluntate 
+Bea<lb ed="#L" break="no" n="95"/>torum quantum ad id quod sibi convenit secundum se et
+<lb ed="#L" n="96"/>secundum communem legem; non autem quantum ad 
+il<lb ed="#L" break="no" n="97"/>lud quod circa illos Deus disponere potest; quia illud 
+ac<lb ed="#L" break="no" n="98"/>cidit beatitudini, et sibi non convenit per se.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>In particulari autem: ad primum casum dicitur quod
+<lb ed="#L" n="100"/>utique tunc talis vellet carere illa visione post horam,
+<lb ed="#L" n="101"/>quia videns Deum a voluntate divina discordare non 
+po<lb ed="#L" break="no" n="102"/>test. Talis tamen non potest pro illa hora velle carere illa
+<lb ed="#L" n="103"/>visione tanquam ipsam fastidiens.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Ad secundum dicitur quod casus non est admittendus:
+<lb ed="#L" n="105"/>quia Deus non praecipit impossibile. Beatum autem 
+su<lb ed="#L" break="no" n="106"/>spendere amorem illum est sibi omnino impossibile, stante
+<lb ed="#L" n="107"/>illa visione et iudicio quo, ex virtute illius visionis, 
+iu<lb ed="#L" break="no" n="108"/>dicatur Deus pro tunc esse, omnibus pensatis, summe 
+di<lb ed="#L" break="no" n="109"/>ligendus: quia ad illum amorem, illis stantibus, naturaliter
+<lb ed="#L" n="110"/>inclinatur, nec est ille amor in eius potestate.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Ad tertium casum dicitur quod talis non apprehenderet
+<lb ed="#L" n="112"/>Deum sub ratione displicibilis. Quia licet videat ipsum
+<lb ed="#L" n="113"/>futurum esse eius punitorem, non tamen iudicat ipsum
+<lb ed="#L" n="114"/>esse malum: cum videat ipsum esse essentiam bonitatis,
+<lb ed="#L" n="115"/>et nihil posse nisi optime et iustissime facere.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Ad quartum casum dicitur quod gaudium illius de 
+es<lb ed="#L" break="no" n="117"/>sentia divina clare visa ex illo non minueretur. Immo 
+for<lb ed="#L" break="no" n="118"/>tassis nullus esset dolor: quia tale gaudium et illa poena
+<lb ed="#L" n="119"/>non sunt contraria; sicut et in Christo dolor passionis non
+<lb ed="#L" n="120"/>minuebat gaudium fruitionis beatae.
+</p>
+            <p>
+               <lb ed="#L" n="121"/>XII. Ad id quod ultimo inducitur ex verbis Sancti 
+Tho<lb ed="#L" break="no" n="122"/>mae, respondet <ref>
+                  <name>Capreolus</name>, Primo, d. 1, q. m</ref> , mentem
+<lb ed="#L" n="123"/>Sancti Thomae in illo loco esse quod voluntas respectu
+<lb ed="#L" n="124"/>cuiuscumque obiecii potest suspendere actum in 
+quocum<lb ed="#L" break="no" n="125"/>que statu in quo sibi potest proponi sub ratione boni 
+exi<lb ed="#L" break="no" n="126"/>tus in actum vel cessatio ab actu. In Patria autem non
+<lb ed="#L" n="127"/>potest proponi sub ratione boni cessare a dilectione. Dei
+<lb ed="#L" n="128"/>secundum se. Ideo dictum Sancti Thomae non obstat 
+de<lb ed="#L" break="no" n="129"/>terminationi factae.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>2. Sed istud, salvo semper meliori iudicio, non videtur
+<lb ed="#L" n="131"/>mihi esse ad mentem Sancti Thomae. Ex hac enim 
+re<lb ed="#L" break="no" n="132"/>sponsione admittitur absolute quod in Patria voluntas circa
+<lb ed="#L" n="133"/>Deum non est libera quoad exercitium actus: in 
+auctori<lb ed="#L" break="no" n="134"/>tate autem adducta hoc videtur negare Sanctus "Thomas,
+<lb ed="#L" n="135"/>dum, connumerans statum Beatorum inter status naturae,
+<lb ed="#L" n="136"/>dicit voluntatem esse liberam im quolibet statu naturae
+<lb ed="#L" n="137"/>circa quodcumque obiectum, in quo etiam includitur quod
+<lb ed="#L" n="138"/>sit libera erga Deum a Beatis visum.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Ideo posset aliter dici: scilicet quod, cum actus 
+volun<lb ed="#L" break="no" n="140"/>tatis sequatur cognitionem, sicut dupliciter possumus loqui
+<lb ed="#L" n="141"/>de cognitione qua Beati cognoscunt Deum, scilicet de 
+co<lb ed="#L" break="no" n="142"/>gnitione beatifica, et de cognitione non beatifica; ita 
+du<lb ed="#L" break="no" n="143"/>pliciter loqui possumus de actu voluntatis erga Deum. Si
+<lb ed="#L" n="144"/>enim loquamur de illa cognitione Dei in qua essentia 
+bea<lb ed="#L" break="no" n="145"/>titudinis consistit, quae scilicet est cognitio Dei per ipsam
+<lb ed="#L" n="146"/>divinam essentiam clare visi, sic voluntas non potest non
+<lb ed="#L" n="147"/>habere actum dilectionis circa Deum: quia non potest 
+in<lb ed="#L" break="no" n="148"/>tellectus iudicare ipsum pro tunc non esse diligendum,
+<lb ed="#L" n="149"/>et consequenter cessatio a tali dilectione non potest pro-
+<pb ed="#L" n="176"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>poni voluntati sub ratione boni. — Si autem loquamur de
+<lb ed="#L" n="2"/>cognitione quam habent Beati de Deo aut ex habitu hic
+<lb ed="#L" n="3"/>acquisito, aut ex revelatione, aut aliquo alio modo 
+secun<lb ed="#L" break="no" n="4"/>dum quascumque alias particulares rationes, sic non 
+ne<lb ed="#L" break="no" n="5"/>cessario fertur voluntas Beati in Deum sic cognitum: quia
+<lb ed="#L" n="6"/>sicut intellectus potest cessare ab illo iudicio quo iudicat
+<lb ed="#L" n="7"/>Deum, ut sic cognitum, esse diligendum, quia potest a
+<lb ed="#L" n="8"/>tali cognitione et consideratione cessare, et consequenter
+<lb ed="#L" n="9"/>potest proponere voluntati sub specie boni cessationem
+<lb ed="#L" n="10"/>ab illo actu; ita et voluntas potest ab illo actu cessare,
+<lb ed="#L" n="11"/>Et sicut intellectus non necessitatur in illa cognitione ad
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="12"/>iudicandum Deum esse diligibilem sub [illa] ratione cogni--
+<lb ed="#L" n="13"/>tum, ita nec voluntas necessitatur ad illum diligendum.
+<lb ed="#L" n="14"/>Mens ergo Sancti Thomae est quod etiam in statu 
+Bea<lb ed="#L" break="no" n="15"/>torum voluntas circa Deum absolute est libera. quantum
+<lb ed="#L" n="16"/>ad exercitium actus, inquantum potest aliquem actum 
+li<lb ed="#L" break="no" n="17"/>bere elicere circa ipsum aliqua cognitione non beatifica
+<lb ed="#L" n="18"/>cognitum. Huic autem non repugnat quod circa ipsum ut
+<lb ed="#L" n="19"/>visione beatifica cognitum, non sit libera, sed determinata,
+<lb ed="#L" n="20"/>quo modo loquimur hic de voluntate Beatorum circa Deum.
+<lb ed="#L" n="21"/>Et hanc responsionem etiam ipse Capreolus in secunda
+<lb ed="#L" n="22"/>distinctione, q. 1, videtur magis quam aliam acceptare.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

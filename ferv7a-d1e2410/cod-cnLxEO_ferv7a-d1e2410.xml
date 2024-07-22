@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 86</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 86</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="262"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2410"><!-- ferv7a-l3c86 -->
+            <head>Capitulum 86</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="89" type="fixed=262"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="90"/>ULTERIUS, ut magis appareat voluntatem nostram a 
+cor<lb ed="#L" break="no" n="91"/>poribus caelestibus necessitatem non pati, vult 
+San<lb ed="#L" break="no" n="92"/>ctus Thomas ostendere quod non solum humanae electioni
+<lb ed="#L" n="93"/>necessitatem inferre non possunt, verum etiam quod nec
+<lb ed="#L" n="94"/>corporales effectus ab ipsis in istis inferioribus de necessitate
+<lb ed="#L" n="95"/>proveniunt , Circa hoc autem duo facit : primo, ostendit
+<lb ed="#L" n="96"/>propositum; secundo, respondet ad quandam Avicennae
+<lb ed="#L" n="97"/>rationem .
+</p>
+            <p>
+               <lb ed="#L" n="98"/>I. Quantum ad primum, arguit primo sic. Haec 
+infe<lb ed="#L" break="no" n="99"/>riora sunt fluxibilia, et non semper eodem modo se ha-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="100"/>bentia: propter materiam, quae est in potentia ad plures
+<lb ed="#L" n="101"/>formas; et propter contrarietatem formarum et virtutum.
+<lb ed="#L" n="102"/>Ergo impressiones corporum caelestium non recipiuntur
+<lb ed="#L" n="103"/>in istis per modum necessitatis. — Probatur consequentia.
+<lb ed="#L" n="104"/>Quia impressiones causarum naturalium  recipiuntur in
+<lb ed="#L" n="105"/>effectibus secundum recipientium modum.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Secundo. Corpora caelestia sunt causae remotae 
+inferio<lb ed="#L" break="no" n="107"/>rum effectuum : proximae autem causae sunt virtutes activae
+<lb ed="#L" n="108"/>et passivae in istis inferioribus, quae sunt causae. 
+contin<lb ed="#L" break="no" n="109"/>gentes, cum possint deficere ut in paucioribus. Ergo etc.
+<pb ed="#L" n="263"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>— Probatur consequentia. Quia a causa remota non 
+se<lb ed="#L" break="no" n="2"/>quitur effectus de necessitate nisi etiam sit causa media
+<lb ed="#L" n="3"/>necessaria. Declaratur per similitudinem in syllogismis, in
+<lb ed="#L" n="4"/>quibus, minori existente contingente, non sequitur nisi
+<lb ed="#L" n="5"/>conclusio contingens, quamvis maior sit necessaria.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Adverte quod per effectus in istis inferioribus 
+prove<lb ed="#L" break="no" n="7"/>nientes intendit Sanctus Thomas omnes illos effectus 
+par<lb ed="#L" break="no" n="8"/>ticulares qui in sublunari regione fiunt. De quibus omnibus
+<lb ed="#L" n="9"/>prima ratio procedit: sive inquam a caelo immediate 
+pro<lb ed="#L" break="no" n="10"/>venire ponantur, sive mediantibus particularibus causis. Ista
+<lb ed="#L" n="11"/>autem secunda ratio probat de.etfectibus illis tantum qui
+<lb ed="#L" n="12"/>a caelo mediantibus inferioribus virtutibus proveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Tertio. Si sic esset, tunc semper eodem modo se 
+ha<lb ed="#L" break="no" n="14"/>berent quae in inferioribus sunt. Hoc est falsum. Ergo
+<lb ed="#L" n="15"/>etc.— Probatur assumptum. Quia motus caelestium  
+cor<lb ed="#L" break="no" n="16"/>porum semper eodem modo est.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>Adverte quod haec ratio fundatur super hac 
+proposi<lb ed="#L" break="no" n="18"/>tione manifesta: Effectus de necessitate proveniens a causa
+<lb ed="#L" n="19"/>semper eodem modo se habente, eodem modo semper evenit.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>Quarto. Singula quae in istis inferioribus fiunt ex
+<lb ed="#L" n="21"/>impressione corporum caelestium, sunt contingentia: cum
+<lb ed="#L" n="22"/>quodlibet eorum impediri possit. Ergo connexio eorum
+<lb ed="#L" n="23"/>quae in inferioribus ex caelorum impressione contingunt,
+<lb ed="#L" n="24"/>non est necessaria. — Probatur consequentia. Quia ex
+<lb ed="#L" n="25"/>multis contingentibus non potest fieri unum necessarium:
+<lb ed="#L" n="26"/>cum ita omnia simul deficere possint sicut et quodlibet
+<lb ed="#L" n="27"/>contingentium. y
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Adverte quod ista ratio directe concludit contra illos
+<lb ed="#L" n="29"/>qui dicunt connexionem eorum quae hic fiunt 
+impres<lb ed="#L" break="no" n="30"/>sione corporum caelestium, necessariam esse, licet aliqua
+<lb ed="#L" n="31"/>contingenter eveniant.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Quinto. Ex actione corporum caelestium non tollitur
+<lb ed="#L" n="33"/>id quod materia requirit: cum corpora caelestia sint 
+na<lb ed="#L" break="no" n="34"/>turaliter agentia, quae requirunt materiam in quam agant.
+<lb ed="#L" n="35"/>Sed materia in quam corpora caelestia agunt, sunt corpora
+<lb ed="#L" n="36"/>inferiora corruptibilia secundum naturam, quae sicut ab
+<lb ed="#L" n="37"/>esse, ita ab operari deficere possunt: et.per consequens
+<lb ed="#L" n="38"/>non de necessitate producunt effectus. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>II. Adverte quod ista ratio differt a prima et a secunda.
+<lb ed="#L" n="40"/>Quia, cum inferiora corpora ad superiora comparari 
+pos<lb ed="#L" break="no" n="41"/>sint et ut materia tantum, et ut agens secundum et 
+in<lb ed="#L" break="no" n="42"/>strumentale ad principale agens, tripliciter possumus 
+con<lb ed="#L" break="no" n="43"/>siderare corpora inferiora. Primo, ut habent rationem
+<lb ed="#L" n="44"/>materiae tantum, in quam corpora coelestia agant. Et
+<lb ed="#L" n="45"/>secundum hanc considerationem procedit prima ratio. —
+<lb ed="#L" n="46"/>Secundo, ut habent rationem proximi agentis tantum, in
+<lb ed="#L" n="47"/>ordine ad effectus caelestes ipsis mediantibus productos.
+<lb ed="#L" n="48"/>Et iuxta hoc procedit secunda ratio. .— Tertio, ut simul
+<lb ed="#L" n="49"/>habent et rationem materiae, et rationem secundarii et
+<lb ed="#L" n="50"/>instrumentalis agentis in ordine ad ipsum caelum. Et .
+se<lb ed="#L" break="no" n="51"/>cundum hoc haec quinta ratio procedit. Concluditur enim
+<lb ed="#L" n="52"/>effectus caelorum non de necessitate in istis inferioribus
+<lb ed="#L" n="53"/>evenire, quia, cum inferiora deficere possint ab operari
+<lb ed="#L" n="54"/>secundum rationem suae naturae, impressio corporum
+<lb ed="#L" n="55"/>caelestium hoc ab ipsis non removet. Agens enim non
+<lb ed="#L" n="56"/>removet a materia in quam agit, et qua utitur sicut 
+instru<lb ed="#L" break="no" n="57"/>mento, id quod ipsi materiae debetur, et quod in materia
+<lb ed="#L" n="58"/>praesupponitur: sed, supposita conditione ipsius, ea ad
+<lb ed="#L" n="59"/>suum effectum utitur. Licet enim agens aliquando removeat
+<lb ed="#L" n="60"/>a materia qua simpliciter utitur ut materia, dispositiones
+<lb ed="#L" n="61"/>praeexistentes, et novas dispositiones introducat, ut patet
+<lb ed="#L" n="62"/>in generatione, quia videlicet repugnant formae 
+introdu<lb ed="#L" break="no" n="63"/>cendae; a materia tamen in quam agit tanquam in 
+istru<lb ed="#L" break="no" n="64"/>mentum quo ad suum effectum utitur, non removet 
+na<lb ed="#L" break="no" n="65"/>turales ipsius dispositiones, quas ut materiae dispositiones
+<lb ed="#L" n="66"/>praesupponit, non autem sicut terminum a quo suae
+<lb ed="#L" n="67"/>actionis aut motus.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>III. Ad has rationes forte dici posset, ut Albumasar,
+<lb ed="#L" n="69"/>in principio sui Zntroductorii nititur defendere possibile,
+<lb ed="#L" n="70"/>quod necesse est effectus corporum caelestium. compleri,
+<lb ed="#L" n="71"/>non tamen per hoc tollitur possibilitas a corporibus 
+infe<lb ed="#L" break="no" n="72"/>rioribus: quia quilibet effectus est in potentia antequam
+<lb ed="#L" n="73"/>fiat, quando autem iam est in actu, transit in necessitatem ;
+<lb ed="#L" n="74"/>et sic non tollitur quin effectus aliquando sit possibilis,
+<lb ed="#L" n="75"/>licet necesse sit effectum illum :quandoque produci.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Sed non potest, inquit Sanctus Thomas, hoc. modo
+<lb ed="#L" n="77"/>possibile defendi. Quod declaratur. Quia, cum duplex sit
+<lb ed="#L" n="78"/>possibile, quoddam scilicet quod ad necessarium sequitur,
+<lb ed="#L" n="79"/>aliud vero quod zecessario opponitur; primum non oportet
+<lb ed="#L" n="80"/>defendere, quia contra hoc non. dicuntur effectus ex 
+ne<lb ed="#L" break="no" n="81"/>cessitate causari; sed secundum. Non dicitur autem. hoc
+<lb ed="#L" n="82"/>modo aliquid possibile aut contingens ex hoc solum quod
+<lb ed="#L" n="83"/>quandoque sit in potentia, quandoque in actu: quia sic
+<lb ed="#L" n="84"/>etiam in motibus caelestibus inveniretur possibile et 
+con<lb ed="#L" break="no" n="85"/>tingens. Sed possibile hoc modo sumptum hoc habet in
+<lb ed="#L" n="86"/>sua ratione, quod non sit necesse illud fieri quando non
+<lb ed="#L" n="87"/>est: quia videlicet non sequitur de necessitate ex sua
+<lb ed="#L" n="88"/>causa, Declaratur in sessione Sortis contingenti, et in
+<lb ed="#L" n="89"/>morte ipsius necessaria. Ergo, si ex motibus caelestibus
+<lb ed="#L" n="90"/>sequitur de necessitate quod eorum effectus quandoque
+<lb ed="#L" n="91"/>sint futuri, tollitur possibile et contingens quod necessario
+<lb ed="#L" n="92"/>opponitur.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>2. Ad evidentiam huius impugnationis, considerandum
+<lb ed="#L" n="94"/>est quod, iuxta hanc responsionem, possibile dupliciter
+<lb ed="#L" n="95"/>accipitur. Uno modo, ut opponitur impossibili. Et sic 
+di<lb ed="#L" break="no" n="96"/>citur possibile quod non est impossibile esse, sive cui non
+<lb ed="#L" n="97"/>repugnat esse. Et quia non solum contingens, sed etiam
+<lb ed="#L" n="98"/>necessarium non est impossibile esse, — alioquin, ut deducit
+<lb ed="#L" n="99"/>Sanctus Thomas, necesse esse esset necesse non esse, cum
+<lb ed="#L" n="100"/>impossibile esse sit necesse non esse — ideo inquit quod
+<lb ed="#L" n="101"/>tale possibile ad necessarium sequitur; sicut scilicet magis
+<lb ed="#L" n="102"/>universale sequitur ad minus universale, ut animal ad
+<lb ed="#L" n="103"/>hominem. — Alio modo accipitur possibile ut opponitur
+<lb ed="#L" n="104"/>necessario. Et tunc possibile idem est quod contingens,
+<lb ed="#L" n="105"/>quod scilicet potest esse et non esse, sicut necessarium
+<lb ed="#L" n="106"/>non potest non esse.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>Si ergo effectus corporum caelestium de necessitate
+<lb ed="#L" n="108"/>eveniunt, quia videlicet non possunt non evenire, sequitur
+<lb ed="#L" n="109"/>quod non sunt contingentes evenire et non evenire; et
+<lb ed="#L" n="110"/>sic, quod non sint possibiles possibilitate opposita 
+neces<lb ed="#L" break="no" n="111"/>sario. Ideo ponentes effectus caeli necessario evenire, non
+<lb ed="#L" n="112"/>possunt salvare possibile quod opponitur necessario.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>IV. Quantum ad secundum , adducitur ratio 
+Avicen<lb ed="#L" break="no" n="114"/>nae, decimo Metaphysicae suae, cap. 1 ad probandum
+<lb ed="#L" n="115"/>quod ex necessitate corporum caelestium effectus eveniant.
+<lb ed="#L" n="116"/>Arguebat enim. Si effectus caelestium corporum impeditur,
+<lb ed="#L" n="117"/>hoc fit per causam aut naturalem aut voluntariam. Sed
+<lb ed="#L" n="118"/>omnis talis causa ad aliquod caeleste principium reducitur.
+<lb ed="#L" n="119"/>Ergo illud impedimentum procedit ex aliquibus caelestibus
+<lb ed="#L" n="120"/>principiis. Ergo, si totus ordo caelestium corporum simul
+<lb ed="#L" n="121"/>accipiatur, impossibile est quod eius effectus unquam
+<lb ed="#L" n="122"/>cassetur.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Hanc rationem dicit Sanctus Thomas fuisse etiam 
+quo<lb ed="#L" break="no" n="124"/>rundam philosophorum Naturalium gegantium casum et
+<lb ed="#L" n="125"/>fortunam, per hoc quod, secundum ipsos, cuiuslibet 
+ef<lb ed="#L" break="no" n="126"/>fectus est aliqua causa determinata; posita autem causa,
+<lb ed="#L" n="127"/>de necessitate ponitur effectus.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>2. Respondet autem, de mente Aristotelis VI Metaph.,
+<lb ed="#L" n="129"/>text. 7: et dicit primo, quod falsa est ista propositio, Posita
+<lb ed="#L" n="130"/>quacumque causa, necesse est eius effectum poni. Quia
+<lb ed="#L" n="131"/>propria et per se sufficiens causa alicuius effectus potest
+<lb ed="#L" n="132"/>impediri ex concursu alterius causae, ne sequatur effectus.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>Dicit secundo, quod etiam alia propositio est falsa,
+<lb ed="#L" n="134"/>Omne quod est quocumque modo, habet causam per se.
+<lb ed="#L" n="135"/>Non enim est vera de iis quae sunt per accidens, sed
+<lb ed="#L" n="136"/>tantum de iis quae sunt per se. Declarat in albo et
+<lb ed="#L" n="137"/>musico, quae non sunt simul per aliquam causam, cum
+<lb ed="#L" n="138"/>non habeant ordinem ad invicem: quaecumque autem sunt
+<lb ed="#L" n="139"/>simul per aliquam causam, ordinem habeant ex illa causa.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>Dicit tertio, ad rationem Avicennae respondendo, quod,
+<lb ed="#L" n="141"/>proposito aliquo effectu, dicemus quod habuit aliquam
+<lb ed="#L" n="142"/>causam ex qua non de necessitate sequebatur, quia 
+po<lb ed="#L" break="no" n="143"/>terat impediri ex aliqua. causa concurrente per accidens.
+<lb ed="#L" n="144"/>Et licet illam causam concurrentem esset reducere in 
+ali<lb ed="#L" break="no" n="145"/>quam causam altiorem, ipsum tamen concursum qui 
+im<lb ed="#L" break="no" n="146"/>pedit, non est reducere in aliquam causam. Et sic falsum
+<lb ed="#L" n="147"/>est quod impedimentum huius effectus ex aliquo caelesti
+<lb ed="#L" n="148"/>principio proveniat.
+</p>
+            <p>
+               <lb ed="#L" n="149"/>QuaNTUM AD TERTIUM , confirmatur conclusio auctoritate
+<lb ed="#L" n="150"/>Damasceni, in secundo libro; auctoritate Aristotelis, in
+</p>
+            <p>
+               <pb ed="#L" n="264"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>II de Somno et Vigilia; et auctoritate Ptolomaei, in
+<lb ed="#L" n="2"/>Quadripartito et Centiloquio.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>V. Ad evidentiam responsionis ad rationem Avicennae
+<lb ed="#L" n="4"/>et antiquorum philosophorum, considerandum primo, 
+quan<lb ed="#L" break="no" n="5"/>tum ad illam propositionem, Aliqua causa, licet sit per
+<lb ed="#L" n="6"/>se et propria causa sufficiens alicuius effectus, potest tamen
+<lb ed="#L" n="7"/>impediri, quod causa aliqua dicitur sufficiens quando tantam
+<lb ed="#L" n="8"/>virtutem habet ex propria forma ut, nulla alia causa sui
+<lb ed="#L" n="9"/>ordinis concurrente, possit effectum producere: sicut ignis
+<lb ed="#L" n="10"/>est causa sufficiens calefactionis; potest enim se solo, nulla
+<lb ed="#L" n="11"/>alia particulari causa effectiva concurrente, calefacere. Per
+<lb ed="#L" n="12"/>oppositum autem dicitur causa insufficiens quae non habet
+<lb ed="#L" n="13"/>ex propria forma tantam virtutem ut se sola, nulla alia
+<lb ed="#L" n="14"/>causa sui ordinis concurrente, possit effectum producere:
+<lb ed="#L" n="15"/>sicut, cum multi simul trahunt navem, quam nullus eorum
+<lb ed="#L" n="16"/>posset per se trahere, dicitur unusquisque illorum causa
+<lb ed="#L" n="17"/>insufficiens illius tractus. Non inconvenit autem quod aliqua
+<lb ed="#L" n="18"/>causa habeat tantam virtutem quanta requiritur ad 
+pro<lb ed="#L" break="no" n="19"/>ductionem alicuius effectus, et tamen impediatur ab illius
+<lb ed="#L" n="20"/>effectus productione: sicut potest impediri ignis a 
+cale<lb ed="#L" break="no" n="21"/>factione alicuius, puta ligni, ex aliquo vehementer frigido
+<lb ed="#L" n="22"/>aut eius virtutem et calorem remittente, aut aliquam 
+con<lb ed="#L" break="no" n="23"/>trariam dispositionem in lignum introducente. Unde non
+<lb ed="#L" n="24"/>valet ista consequentia, Haec causa, propter aliquod 
+super<lb ed="#L" break="no" n="25"/>veniens impedimentum, non producit hunc effectum, Ergo
+<lb ed="#L" n="26"/>non estcausa sufficiens illius effectus: potest enim 
+impe<lb ed="#L" break="no" n="27"/>diri, et tamen secundum se esse sufficiens. Cuius signum
+<lb ed="#L" n="28"/>est quia, remotis impedimentis, nulla alia coadiuvante
+<lb ed="#L" n="29"/>causa sui ordinis, illum eifectum produceret. Ex hoc enim
+<lb ed="#L" n="30"/>convincitur ipsam tantam habere virtutem quantam illius
+<lb ed="#L" n="31"/>effectus. productio exigit. Unde, cum dicitur quod causa
+<lb ed="#L" n="32"/>est ad quam de necessitate sequitur effectus, intelligitur
+<lb ed="#L" n="33"/>de causa sufficienti non impedita. Optime igitur dictum.
+<lb ed="#L" n="34"/>est ab Aristotele et Divo Thoma non esse verum quod,
+<lb ed="#L" n="35"/>quacumque causa posita, necesse est effectum poni; et
+<lb ed="#L" n="36"/>quod potest esse aliqua causa propria et sufficiens alicuius
+<lb ed="#L" n="37"/>effectus, quae tamen suum, propter aliquod impedimentum
+<lb ed="#L" n="38"/>superveniens, non consequetur effectum.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>2. Considerandum secundo, circa hanc propositionem,
+<lb ed="#L" n="40"/>Effectus per accidens non habet causam per se, quod
+<lb ed="#L" n="41"/>dupliciter potest considerari effectus per accidens: uno
+<lb ed="#L" n="42"/>modo, absolute et secundum se, inquantum est ens ; alio
+<lb ed="#L" n="43"/>modo, inquantum est effectus per accidens. Si 
+conside<lb ed="#L" break="no" n="44"/>retur secundo modo, sic manifestum 'est quod non habet
+<lb ed="#L" n="45"/>causam per se: ad quamcumque enim causam comparetur
+<lb ed="#L" n="46"/>ut effectus per accidens, constat quod illa non est eius
+<lb ed="#L" n="47"/>causa per se, licet alicuius alterius esset causa per se;
+<lb ed="#L" n="48"/>oportet enim causas effectibus proportionaliter respondere,
+<lb ed="#L" n="49"/>ut habetur I| PAys., ut scilicet effectui per se 
+corre<lb ed="#L" break="no" n="50"/>spondeat causa per se, effectui vero per accidens causa
+<lb ed="#L" n="51"/>per accidens respondeat. — Si autem primo modo 
+consi<lb ed="#L" break="no" n="52"/>deretur, sic non inconvenit aliquem effectum per accidens
+<lb ed="#L" n="53"/>habere aliquam causam per se aliquo modo. Cum enim
+<lb ed="#L" n="54"/>effectus per accidens non possit reduci in causam per
+<lb ed="#L" n="55"/>se inquantum huiusmodi, ut dicitur Prima, q. cxv, a 6,
+<lb ed="#L" n="56"/>et in fine primi libri Perihermenias , a Sancto "Thoma,
+<lb ed="#L" n="57"/>quia non est vere ens, cum non sit vere unum; si 
+con<lb ed="#L" break="no" n="58"/>tingat tamen aliquem effectum qui secundum se, et in
+<lb ed="#L" n="59"/>ordine ad causas proximas, non est vere unus, eo quod
+<lb ed="#L" n="60"/>duo includat nullum inter se ex propriis naturis ordinem
+<lb ed="#L" n="61"/>habentia, aliquam unitatem. et aliquem ordinem habere
+<lb ed="#L" n="62"/>per comparationem ad aliquam causam, non inconvenit
+<lb ed="#L" n="63"/>illum effectum habere causam per se; quia talis effectus,
+<lb ed="#L" n="64"/>licet per comparationem ad aliquas causas sit effectus per
+<lb ed="#L" n="65"/>accidens, per. comparationem tamen ad aliam causam erit
+<lb ed="#L" n="66"/>effectus per se. Sicut concursus duorum servorum, 
+se<lb ed="#L" break="no" n="67"/>cundum se, et ad particulares utriusque causas comparatus,
+<lb ed="#L" n="68"/>est ens per accidens: quia motus unius servi ad motum
+<lb ed="#L" n="69"/>alterius secundum se nullum ordinem habet; similiter
+<lb ed="#L" n="70"/>inventio alterius conservi cum ambulatione servi nullam
+<lb ed="#L" n="71"/>ordinem, nullamque unitatem secundum propriam naturam
+<lb ed="#L" n="72"/>habet, neque secundum propriam causam. Ideo huiusmodi
+<lb ed="#L" n="73"/>concursus, si referatur in virtutem motivam utriusque, aut
+<lb ed="#L" n="74"/>in eorum intentionem, non habet causam per se, sed 
+tan<lb ed="#L" break="no" n="75"/>tum causam per accidens: cum virtus motiva aut intentio
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>unius non habeat effucaciam super alterius motum et 
+in<lb ed="#L" break="no" n="77"/>tentionem. Si autem consideretur huiusmodi servorum
+<lb ed="#L" n="78"/>concursus in comparatione ad dominum eos mittentem
+<lb ed="#L" n="79"/>ut concurrerent et sibi obviarent, iam isti motus et inventio
+<lb ed="#L" n="80"/>conservi cum motu habent aliquam unitatem ordinis ex
+<lb ed="#L" n="81"/>intentione domini mittentis et ordinantis unum - motum
+<lb ed="#L" n="82"/>cum alio, et motum unius ad inventionem conservi. Et
+<lb ed="#L" n="83"/>ideo, ut sic, talis concursus est effectus per se, et habet
+<lb ed="#L" n="84"/>causam per se, Cum ergo dicitur quod effectus per 
+acci<lb ed="#L" break="no" n="85"/>dens non habet causam per se, intelligitur de ipso 
+inquan<lb ed="#L" break="no" n="86"/>tum est effectus per accidens et inquantum est ens per
+<lb ed="#L" n="87"/>accidens: non autem inquantum est aliquo modo ens
+<lb ed="#L" n="88"/>per se et effectus per se.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>3. Considerandum tertio quod, licet omnis effectus per
+<lb ed="#L" n="90"/>accidens in istis inferioribus, excepto malo culpae, referatur
+<lb ed="#L" n="91"/>in Deum sicut in causam per se, quia respectu illius sunt
+<lb ed="#L" n="92"/>effectus per se et ordinati et intenti; et aliqui etiam 
+re<lb ed="#L" break="no" n="93"/>ferantur sicut in causam per se in virtutem corporis 
+cae<lb ed="#L" break="no" n="94"/>lestis: non tamen omnes huiusmodi effectus in virtutem
+<lb ed="#L" n="95"/>caelestem. reducuntur sicut in causam per se, immo aliqui
+<lb ed="#L" n="96"/>etiam per accidens inveniuntur ad corpus caeleste 
+com<lb ed="#L" break="no" n="97"/>parati. Nam cum effectus qui evenit praeter intentionem
+<lb ed="#L" n="98"/>alicuius causae, sit ab ipsa per accidens; et intentio causae
+<lb ed="#L" n="99"/>nihil aliud. sit quam inclinatio ipsius ad productionem
+<lb ed="#L" n="100"/>effectus: quicquid. evenit praeter inclinationem | causae,
+<lb ed="#L" n="101"/>sive sit aliquid positivum sive sit aliquod privativum,
+<lb ed="#L" n="102"/>evenit per accidens a tali causa. Quia ergo caelum est
+<lb ed="#L" n="103"/>causa agens in haec inferiora ut in pluribus, et aliquando
+<lb ed="#L" n="104"/>deficiens, scilicet in paucioribus; si inclinetur, verbi gratia,
+<lb ed="#L" n="105"/>ad tempestatem excitandam, et non eveniat tempestas sed
+<lb ed="#L" n="106"/>serenitas, ex concursu alicuius causae impedientis: dicetur
+<lb ed="#L" n="107"/>et ipsa serenitas, et non-eventus tempestatis, per accidens
+<lb ed="#L" n="108"/>esse in-ordine ad caeli influsum, eo quod praeter eius
+<lb ed="#L" n="109"/>intentionem et inclinationem sit. Similiter, si animam 
+ho<lb ed="#L" break="no" n="110"/>minis agendo in corpus ad aliquid inclinet, et. voluntas,
+<lb ed="#L" n="111"/>quae non subditur caelesti corpori directe, «contrarium
+<lb ed="#L" n="112"/>eligat: dicetur in ordine ad caelum fieri per accidens quod
+<lb ed="#L" n="113"/>voluntarie fit, quia praeter eius inclinationem fit et praeter
+<lb ed="#L" n="114"/>eius intentionem.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>4. Ex iis patet verum esse quod inquit Sanctus Thomas
+<lb ed="#L" n="116"/>respondendo ad rationem Avicennae: quod inquam non
+<lb ed="#L" n="117"/>oportet omnes caelestes eifectus de necessitate evenire eo
+<lb ed="#L" n="118"/>quod oporteat omnem effectum reduci in aliquam causam
+<lb ed="#L" n="119"/>per se; quia effectus poterat impediri ex aliqua causa per
+<lb ed="#L" n="120"/>accidens concurrente ne eveniret; et quod, licet contingat
+<lb ed="#L" n="121"/>illam causam impedientem in aliquod caeleste principium
+<lb ed="#L" n="122"/>reducere, ipsa tamen non impedit talem effectum nisi 
+ra<lb ed="#L" break="no" n="123"/>tione concursus cum virtute et inclinatione causae ad talem
+<lb ed="#L" n="124"/>effectum, qui concursus per accidens est; accidit enim huic
+<lb ed="#L" n="125"/>causae, secundum quod hoc tempore est ad productionem
+<lb ed="#L" n="126"/>istius effectus inclinata, ut simul sit alia causa quae illo
+<lb ed="#L" n="127"/>eodem tempore aliquid agat quod sit sui effectus 
+impe<lb ed="#L" break="no" n="128"/>ditivum. Talis autem concursus per accidens non habet
+<lb ed="#L" n="129"/>aliquam causam naturalem per se, sed tantum per accidens:
+<lb ed="#L" n="130"/>licet causa concurrens, quae habet impedire, secundum
+<lb ed="#L" n="131"/>se aliquam habeat causam.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>VI. Sed contra praedicta occurrunt duo dubia. Primum
+<lb ed="#L" n="133"/>est, quia videtur quod talis concursus diversarum causarum
+<lb ed="#L" n="134"/>habeat causam per se: contra id quod hic dicitur. Nam
+<lb ed="#L" n="135"/>causa concurrens quae impedit, non agit nisi virtute caeli :
+<lb ed="#L" n="136"/>cum omnes causae inferiores agant in virtute . superioris,
+<lb ed="#L" n="137"/>Similiter causa quae erat disposita ad productionem sui
+<lb ed="#L" n="138"/>effectus, virtute caeli ad suum effectum inclinabatur. Ergo
+<lb ed="#L" n="139"/>utraque causa particularis simul ab una causa,. scilicet
+<lb ed="#L" n="140"/>virtute caelesti, movebatur ad suum effectum. ot earum
+<lb ed="#L" n="141"/>concursus erat per se intentus a caelo. ;
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Probatur ultima consequentia. Quia inquit Sanctus 
+Tho<lb ed="#L" break="no" n="143"/>mas, VI Metaph., quod floritio huius herbae vel illius,
+<lb ed="#L" n="144"/>si referatur ad particularem virtutem quae est in hac
+<lb ed="#L" n="145"/>planta vel in illa,: nullum ordinem videtur habere ad
+<lb ed="#L" n="146"/>Jloritionem alterius : immo videtur per accidens quod, hac
+<lb ed="#L" n="147"/>herba florente, illa floreat, quia causa jloritionis unius
+<lb ed="#L" n="148"/>non est causa floritionis alterius. Si autem. ad virtutem
+<lb ed="#L" n="149"/>corporis caelestis, quae est causa communis, referatur,
+<lb ed="#L" n="150"/>invenitur concursus harum jfloritionum non esse per ac-
+<pb ed="#L" n="265"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cidens, sed esse ordinatus ab aliqua causa prima, quae
+<lb ed="#L" n="2"/>simul movet utramque herbam ad floritionem. Ex iis enim
+<lb ed="#L" n="3"/>patet quod, ubi causae concurrentes ab eadem causa simul
+<lb ed="#L" n="4"/>moventur, talis concursus non est per accidens. Et per
+<lb ed="#L" n="5"/>consequens, si a caelo diversae causae particulares simul
+<lb ed="#L" n="6"/>ad operationem inclinantur, sequitur quod illarum 
+con<lb ed="#L" break="no" n="7"/>cursus non erit per accidens, sed per se intentus.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Ex hoc ulterius sequitur quod nihil est per accidens in
+<lb ed="#L" n="9"/>istis inferioribus in ordine ad virtutem caeli: cum omnes
+<lb ed="#L" n="10"/>causae concurrentes, quarum una alteram impedit, a 
+vir<lb ed="#L" break="no" n="11"/>tute caeli moveantur. k
+</p>
+            <p>
+               <lb ed="#L" n="12"/>2. Secundum dubium est, quia non videtur hic 
+as<lb ed="#L" break="no" n="13"/>signare Sanctus Thomas aliam rationem quare non oportet
+<lb ed="#L" n="14"/>omnem effectum reducere in causam per se, nisi quia
+<lb ed="#L" n="15"/>effectus per accidens habet causam concursum diversarum
+<lb ed="#L" n="16"/>causarum agentium, quarum una impedit reliquam, cuius
+<lb ed="#L" n="17"/>concursus non est aliqua causa per se. Contra hoc autem
+<lb ed="#L" n="18"/>videtur esse dictum ipsius VI Metaph., ubi ponit quod
+<lb ed="#L" n="19"/>potest per accidens non evenire effectus corporis caelestis
+<lb ed="#L" n="20"/>propter indispositionem materiae. Ergo non omnis eventus
+<lb ed="#L" n="21"/>per accidens habet pro causa concursum diversarum 
+cau<lb ed="#L" break="no" n="22"/>sarum agentium. :
+</p>
+            <p>
+               <lb ed="#L" n="23"/>VII. Ad evidentiam primi dubii, considerandum est quod,
+<lb ed="#L" n="24"/>licet caelum sit universalis causa omnium effectuum 
+natu<lb ed="#L" break="no" n="25"/>ralium in istis inferioribus, sunt tamen in caelo virtutes
+<lb ed="#L" n="26"/>diversae, et diversi influxus diversarum stellarum et 
+di<lb ed="#L" break="no" n="27"/>versarum constellationum, quae quidem virtutes, licet, si
+<lb ed="#L" n="28"/>secundum se considerentur, sint inter se ordinatae, 
+secun<lb ed="#L" break="no" n="29"/>dum tamen quod in operationem exeunt, et ad suos 
+ef<lb ed="#L" break="no" n="30"/>fectus terminantur, nullum per se ordinem videntur habere,
+<lb ed="#L" n="31"/>cum virtus una ad alterius effectum non se extendat. Sicut
+<lb ed="#L" n="32"/>enim omnes potentiae animae secundum se sunt ordinatae,
+<lb ed="#L" n="33"/>inquantum ex intentione et inclinatione animae ab eius
+<lb ed="#L" n="34"/>essentia originantur; ideo illarum concursus in una animae
+<lb ed="#L" n="35"/>essentia est per se, et ab anima intentus, et a Deo creante
+<lb ed="#L" n="36"/>animam; multae tamen ipsarum, quantum ad actualem
+<lb ed="#L" n="37"/>operationem, per se ordinem non habent, sed concursus
+<lb ed="#L" n="38"/>ipsarum operationum per accidens est, sicut quod, visu
+<lb ed="#L" n="39"/>aliquid vidente, gustus aliquod dulce percipiat, per 
+acci<lb ed="#L" break="no" n="40"/>dens est, cum neque actio visus requiratur ad actionem
+<lb ed="#L" n="41"/>gustus, neque e converso: ita omnes virtutes caeli sunt
+<lb ed="#L" n="42"/>quidem ordinatae inquantum illarum ordinem Deus, qui
+<lb ed="#L" n="43"/>est earum immediata causa, statuit, concursus tamen actualis
+<lb ed="#L" n="44"/>operationis unius cum actuali operatione alterius, sive
+<lb ed="#L" n="45"/>etfectus unius cum effectu alterius, potest per accidens
+<lb ed="#L" n="46"/>esse; sicut per accidens est quod, una stella movente
+<lb ed="#L" n="47"/>aliquam materiam ad frigiditatem, alia stella aliam 
+mate<lb ed="#L" break="no" n="48"/>riam aut eandem ad caliditatem tunc moveat, si ad ipsas
+<lb ed="#L" n="49"/>particulares virtutes respiciatur. Quo fit ut, si ab una
+<lb ed="#L" n="50"/>virtute caelesti moveantur diversae causae ad agendum,
+<lb ed="#L" n="51"/>concursus illarum causarum in agendo sit per se in ordine
+<lb ed="#L" n="52"/>ad caelestem virtutem, quia est secundum inclinationem
+<lb ed="#L" n="53"/>et intentionem unius virtutis simul utramque causam ad
+<lb ed="#L" n="54"/>operationem moventis: si autem diversae causae 
+particu<lb ed="#L" break="no" n="55"/>lares a diversis virtutibus caelestibus non subordinatis simul
+<lb ed="#L" n="56"/>ad effectus moveantur, concursus illarum causarum in
+<lb ed="#L" n="57"/>agendo per accidens est, etiam ad virtutes caelestes relatus,
+<lb ed="#L" n="58"/>quia non moventur ad agendum ex intentione unius 
+vir<lb ed="#L" break="no" n="59"/>tutis, sed ex intentione diversarum virtutum non habentium
+<lb ed="#L" n="60"/>inter se ordinem quantum ad suas actuales operationes
+<lb ed="#L" n="61"/>et suos effectus, et per consequens non intendentium 
+ali<lb ed="#L" break="no" n="62"/>quam unitatem inter operationes et effectus.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>2. Dicitur ergo quod mens Sancti Thomae hoc loco
+<lb ed="#L" n="64"/>est quod non semper concursus causarum agentium habet
+<lb ed="#L" n="65"/>causam per se virtutem caelestem, quia non semper .ab
+<lb ed="#L" n="66"/>eadem virtute caelesti moventur ad proprias actiones. In
+<lb ed="#L" n="67"/>sexto autem Metaphysicae vult quod aliquando habeat
+<lb ed="#L" n="68"/>causam per se virtutem caelestem, quia ab una et eadem
+<lb ed="#L" n="69"/>virtute caelesti moventur ad agendum, sicut duae herbae
+<lb ed="#L" n="70"/>moventur quandoque ab una virtute caelesti ad floritionem.
+<lb ed="#L" n="71"/>Quia autem concursus causae dispositae et ordinatae ad
+<lb ed="#L" n="72"/>productionem alicuius effectus cum causa impediente ne ille
+<lb ed="#L" n="73"/>effectus eveniat, non est ex una virtute caelesti utramque
+<lb ed="#L" n="74"/>causam ad operandum movente, sed ex diversis, quarum
+<lb ed="#L" n="75"/>una movet unam ad productionem unius effectus, altera
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>vero movet alteram ad actionem impedientem alterius
+<lb ed="#L" n="77"/>actionem; ideo concursus illarum causarum, quarum una
+<lb ed="#L" n="78"/>impedit alteram, non est per se, etiam ad caelestem 
+vir<lb ed="#L" break="no" n="79"/>tutem relatus. Et quia hic Sanctus Thomas loquitur de tali
+<lb ed="#L" n="80"/>concursu ex quo causa a suo effectu impeditur, ideo 
+abso<lb ed="#L" break="no" n="81"/>lute inquit quod est per accidens, et non habet causam per
+<lb ed="#L" n="82"/>se aliquod caeleste principium. In sexto vero Metaphysicae
+<lb ed="#L" n="83"/>loquitur de concursu causarum universaliter: sive scilicet
+<lb ed="#L" n="84"/>sit concursus causarum se impedientium, sive causarum
+<lb ed="#L" n="85"/>non se impedientium. Ideo non dixit absolute concursum
+<lb ed="#L" n="86"/>ipsarum non habere causam caelestem, sed dixit aliquem
+<lb ed="#L" n="87"/>concursum, scilicet causarum non se. impedientium, posse
+<lb ed="#L" n="88"/>habere causam per se caelestem virtutem.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Ad argumentum ergo, negatur prima consequentia.
+<lb ed="#L" n="90"/>Quia licet in causis sese impedientibus utraque causarum
+<lb ed="#L" n="91"/>ad suas actiones a virtute caelesti inclinetur, non tamen
+<lb ed="#L" n="92"/>ab una virtute caelesti moventur, sed a diversis. Et ideo
+<lb ed="#L" n="93"/>concursus illarum particularium causarum. per accidens
+<lb ed="#L" n="94"/>est, etiam ad virtutem caeli comparatus.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>3. Si autem instaretur quod, licet istae causae, quarum
+<lb ed="#L" n="96"/>una impedit alteram, ad diversas virtutes caelestes referantur,
+<lb ed="#L" n="97"/>oportet tamen illas tandem in primum motum caeli referre,
+<lb ed="#L" n="98"/>qui est unus; et sic concursus ipsarum habebit causam per
+<lb ed="#L" n="99"/>se ipsum caeli motum: — dicitur quod motus caeli non
+<lb ed="#L" n="100"/>agit in haec inferiora per se [sed] mediantibus virtutibus
+<lb ed="#L" n="101"/>caelorum et stellarum. Ideo, ut movet istas causas inferiores,
+<lb ed="#L" n="102"/>non habet rationem unius causae, sed plurium, ratione
+<lb ed="#L" n="103"/>diversarum virtutum quibus movet, licet in se sit unus.
+<lb ed="#L" n="104"/>Propterea non oportet harum causarum concursum, propter
+<lb ed="#L" n="105"/>unitatem motus caelestis, habere causam per se.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>4. Si item instetur quod omnes particulares stellarum
+<lb ed="#L" n="107"/>virtutes ab universali virtute primi orbis in haec inferiora
+<lb ed="#L" n="108"/>influentis dependent, omnis enim causa inferior in virtute
+<lb ed="#L" n="109"/>superioris causae agit; et sic omnis concursus inferiorum
+<lb ed="#L" n="110"/>agentium ab una virtute dependet; et consequenter est per
+<lb ed="#L" n="111"/>se: — respondetur quod dupliciter potest illa universalis
+<lb ed="#L" n="112"/>virtus considerari: uno modo, in sua universalitate 
+abso<lb ed="#L" break="no" n="113"/>lute, ut est in ipso primo orbe; alio modo, ut est in
+<lb ed="#L" n="114"/>aliqua virtute inferiori limitata, ad aliquemque particularem
+<lb ed="#L" n="115"/>effectum determinata. Si concursus inferiorum agentium
+<lb ed="#L" n="116"/>ad ipsam universalem virtutem primo modo sumptam 
+com<lb ed="#L" break="no" n="117"/>paretur, sic utique conceditur quod omnis concursus 
+in<lb ed="#L" break="no" n="118"/>feriorum causarum naturalium est per se, nullusque est
+<lb ed="#L" n="119"/>per accidens: eo quod ab una numero causa omnis inferior
+<lb ed="#L" n="120"/>virtus agens simul ad agendum moveatur. Si autem ad
+<lb ed="#L" n="121"/>ipsam secundo modo sumptam referatur, concursus ad
+<lb ed="#L" n="122"/>aliquam virtutem potest esse per accidens. Sic enim agentia
+<lb ed="#L" n="123"/>aliqua inferiora, sese impedientia, non referuntur in illam
+<lb ed="#L" n="124"/>virtutem ut una est, sed ut in inferioribus est multiplicata
+<lb ed="#L" n="125"/>et multipliciter limitata; acciditque illi sic limitatae ut,
+<lb ed="#L" n="126"/>dum ad hunc particularem effectum aliquam causarum
+<lb ed="#L" n="127"/>particularium movet, ad alium effectum alio modo limitata
+<lb ed="#L" n="128"/>simul moveat; et ideo praeter intentionem eius est quod
+<lb ed="#L" n="129"/>aliqua causa impediens simul agat.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>Dictum ergo Sancti Thomae non intelligitur primo
+<lb ed="#L" n="131"/>modo, sed secundo. Nam et cum dictum est aliquem 
+effe<lb ed="#L" break="no" n="132"/>ctum naturalem in istis inferioribus evenire per accidens
+<lb ed="#L" n="133"/>in ordine ad caelestem virtutem , non est hoc in primo
+<lb ed="#L" n="134"/>sensu accipiendum, quasi videlicet aliquis effectus naturalis
+<lb ed="#L" n="135"/>possit praeter inclinationem omnium virtutum caelestium,
+<lb ed="#L" n="136"/>aut illius primae universalis virtutis in sua universalitate
+<lb ed="#L" n="137"/>sumptae, evenire: sed est accipiendum in secundo sensu.
+<lb ed="#L" n="138"/>Non enim inconvenit quod non eveniat in istis 
+inferio<lb ed="#L" break="no" n="139"/>ribus effectus ad quem haec particularis virtus caelestis,
+<lb ed="#L" n="140"/>aut etiam universalis illa virtus in hac particulari virtute
+<lb ed="#L" n="141"/>limitata, inclinat; sed alius, propter alias causas, praeter
+<lb ed="#L" n="142"/>eius intentionem et inclinationem eveniat.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>VIII. Ad secundum dubium  respondetur: et dicitur
+<lb ed="#L" n="144"/>primo, supposito quod Sanctus Thomas loquatur de 
+con<lb ed="#L" break="no" n="145"/>cursu causae agentis impedientis, quod dupliciter possumus
+<lb ed="#L" n="146"/>loqui de effectu corporis caelestis: scilicet aut de eo quem
+<lb ed="#L" n="147"/>producit mediante aliqua particulari causa potenti deficere;
+<lb ed="#L" n="148"/>aut de eo quem per seipsum immediate producit. Si
+<lb ed="#L" n="149"/>loquamur de illo quem mediante aliqua causa defectibili
+<lb ed="#L" n="150"/>producere potest, sic potest esse quod non sequatur ef-
+<pb ed="#L" n="266"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>fectus, ex aliqua causa efficiente impediente actionem 
+alte<lb ed="#L" break="no" n="2"/>rius, causae ut ab ipsa egreditur. - Si autem, loquamur de
+<lb ed="#L" n="3"/>illo. quem immediate producit, sic non potest impediri per
+<lb ed="#L" n="4"/>actionem alicuius causae agentis quae impediat ipsam
+<lb ed="#L" n="5"/>actionem ut egreditur ab agente: cum. virtus caelestis 
+de<lb ed="#L" break="no" n="6"/>bilitari aut alterari non possit; Sed impediri. potest . ex
+<lb ed="#L" n="7"/>parte materiae. Quia, cum virtus caclestis non agat nisi
+<lb ed="#L" n="8"/>per motum, et sit finita. et limitata; requirit materiam
+<lb ed="#L" n="9"/>dispositam .et determinatam ad susceptionem. influxus
+<lb ed="#L" n="10"/>caelestis. Contingit, autem aliquando ut materia non sit,
+<lb ed="#L" n="11"/>disposita ad susceptionem talis influxus, aut propter.
+gros<lb ed="#L" break="no" n="12"/>sitiem suam, aut. propter frigiditatem vel caliditatem, vel
+<lb ed="#L" n="13"/>aliquid huiusmodi, sive illa indispositio sit.a natura, sive
+<lb ed="#L" n="14"/>sit ab aliquo extrinseco.agente causata, Et tunc; propter
+<lb ed="#L" n="15"/>concursum talis materiae indispositae cum virtute, caeli,
+<lb ed="#L" n="16"/>per accidens evenit.ut non sequatur caelestis.effectus. Non
+<lb ed="#L" n="17"/>ergo id quod dicitur VI Metaphysicae, contradicit ei:quod
+<lb ed="#L" n="18"/>hic dicitur; quia. ibi-loquitur. Sanctus Thomas de effectu
+<lb ed="#L" n="19"/>cuius ipsum tantum caelum est.causa; hic autem loquitur.
+<lb ed="#L" n="20"/>de effectu caeli mediante causa contingente producibili.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Dicitur secundo, quod ex verbis Sancti. "Thomae non
+<lb ed="#L" n="22"/>habetur quod loquatur hic de concursu tantum -causae
+<lb ed="#L" n="23"/>agentis impedientis actionem alterius ut egreditur ab agente:
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="24"/>sed indifferenter loquitur de concursu, sive sit concursus
+<lb ed="#L" n="25"/>pet accidens causae agentis impedientis actionem ut 
+egre<lb ed="#L" break="no" n="26"/>ditur, ab agente; sive sit concursus causae; agentis 
+impe<lb ed="#L" break="no" n="27"/>dientis eo quod. materiam indispositam reddat;. sive sit
+<lb ed="#L" n="28"/>concursus: ipsius.tantum materiae ex.propria natura 
+in<lb ed="#L" break="no" n="29"/>dispositae. In omni enim huiusmodi concursu. verum est
+<lb ed="#L" n="30"/>quod, licet causa impediens secundum se possit in aliquod.
+<lb ed="#L" n="31"/>caeleste principium referri, non. tamen .omnis. concursus
+<lb ed="#L" n="32"/>habet causam per.se caelestem virtutem, sed- est. aliquis
+<lb ed="#L" n="33"/>concursus qui, cum.sit per accidens, non potest in unam.
+<lb ed="#L" n="34"/>caelestem causam referri,
+</p>
+            <p>
+               <lb ed="#L" n="35"/>IX. Advertendum ultimo, quod haec: detemanstie Sancti
+<lb ed="#L" n="36"/>Thomae, scilicet quod corpora caelestia on agunt de ne-.
+<lb ed="#L" n="37"/>cessitate in istis inferioribus, non contradicit.ei quod: 
+su<lb ed="#L" break="no" n="38"/>perius multoties est dictum, 'scilicet.quod motus caeli, aut
+<lb ed="#L" n="39"/>quod caelum es£ causa necessaria,. Illud: enim intelligitur,
+<lb ed="#L" n="40"/>ut inquit. VI Metaph. , quod corpora caelestia, et eorum
+<lb ed="#L" n="41"/>motus et actiones; quantum in ipsis. est, necessitatem '
+ha<lb ed="#L" break="no" n="42"/>bent: quia videlicet neque ipsa: corpora corruptibilia aut
+<lb ed="#L" n="43"/>alterabilia sunt; neque; quantum ex ipsis est, possunt non
+<lb ed="#L" n="44"/>agere. Huic autem :non. repugnat quod effectus eorum,
+<lb ed="#L" n="45"/>possint deficere propter indispositionem materiae, vel pro- .
+<lb ed="#L" n="46"/>pter contingentiam aut libertatem secundarum causarum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

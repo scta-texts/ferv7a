@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 108</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 108</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="342"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2590"><!-- ferv7a-l3c108 -->
+            <head>Capitulum 108</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="51" type="fixed=340"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="52"/>POSTQUAM ostendit Sanctus Thomas quod substantia 
+in<lb ed="#L" break="no" n="53"/>tellectualis non est secundum naturam mala, vult 
+con<lb ed="#L" break="no" n="54"/>sequenter ostendere quod voluntarie mala sit .
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Circa hoc autem tria facit: primo, ponit rationes ad
+<lb ed="#L" n="56"/>oppositum ; secundo, determinat veritatem, capite sequenti;
+<lb ed="#L" n="57"/>tertio, obiectionibus respondet .
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Quantum ad primum, arguitur primo quatuor 
+ratio<lb ed="#L" break="no" n="59"/>nibus, ex hoc quod nullum peccatum voluntatis potest
+<lb ed="#L" n="60"/>esse absque errore, In intellectu autem substantiae 
+sepa<lb ed="#L" break="no" n="61"/>ratae non potuit error peccatum praecedere.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Quinta ratio est, quia omne bonum substantiarum 
+se<lb ed="#L" break="no" n="63"/>paratarum est in intellectu. Impossibile autem videtur ut id
+<lb ed="#L" n="64"/>cuius est unum solum bonum, et in quo non est diver-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="65"/>sorum bonorum compositio, in suo appetitu erret. Propter
+<lb ed="#L" n="66"/>quod videmus quod nunquam in appetitu naturali 
+acci<lb ed="#L" break="no" n="67"/>dit peccatum. In nobis autem accidit peccatum, quia in
+<lb ed="#L" n="68"/>nobis sunt plura bona: scilicet bonum secundum 
+intelle<lb ed="#L" break="no" n="69"/>ctum, et bonum secundum sensum.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Sexta est, quia substantiae separatae non possunt 
+appe<lb ed="#L" break="no" n="71"/>tere nisi bona spiritualia, in quibus non est 
+superabun<lb ed="#L" break="no" n="72"/>dantia neque defectus. In quibus autem haec non sunt,
+<lb ed="#L" n="73"/>sed solum medium, non contingit voluntatem peccare.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Septima est, quia in substantiis corporalibus a 
+contra<lb ed="#L" break="no" n="75"/>rietate remotis, scilicet in corporibus caelestibus, nullus
+<lb ed="#L" n="76"/>defectus accidere potest. Ergo et: multo minus in 
+sub<lb ed="#L" break="no" n="77"/>stantiis separatis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

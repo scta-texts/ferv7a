@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 40</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 40</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="99"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2034"><!-- ferv7a-l3c40 -->
+            <head>Capitulum 40</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="76" type="fixed=99"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="77"/>Tertio ostenditur quod neque in cognitione habita de
+<lb ed="#L" n="78"/>Deo ab omnibus per fidem, (quae excedit 
+cogni<lb ed="#L" break="no" n="79"/>tionem de ipso per demonstrationem habitam, in hoc quod 
+<lb ed="#L" n="80"/>quaedam :per. fidem de:Deo cognoscimus. ad quae, propter  
+<lb ed="#L" n="81"/>sui eminentiam; demonstratio pervenire non potest, ut in  
+<lb ed="#L" n="82"/>Primo dictum est) humana felicitas non. consistit, 
+</p>
+            <p>
+               <lb ed="#L" n="83"/>I. Probatur autem primo sic. In cognitione-fidei invenitur 
+<lb ed="#L" n="84"/>operatio intellectus imperfectissima ex: parte intellectus,  
+<lb ed="#L" n="85"/>(non autem: ex parte obiecti): cum intellectus non capiat 
+<lb ed="#L" n="86"/>illud cui assentit credendo. Ergo.:in :tali cognitione. non 
+<lb ed="#L" n="87"/>consistit felicitas. .— Probatur consequenti; nula: felicitas  
+<lb ed="#L" n="88"/>est perfecta intellectus operatio. 
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Ad evidentiam antecedentis, considerandum quod, cum 
+<lb ed="#L" n="90"/>ipunrtib. intellectus-sit quasi: quoddam -medium- inter 
+in<lb ed="#L" break="no" n="91"/>tellectum 'et obiectum, ex utroque bonitatem aliquam et 
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="92"/>perfectionem accipit: ex obiecto quidem, inquantum tanto
+<lb ed="#L" n="93"/>est operatio intellectus perfectior- secundum  specieiri,
+<lb ed="#L" n="94"/>quanto ad obiectum formale -perfectius terminatur; 'ex
+<lb ed="#L" n="95"/>intellecta vero $urhitur eius perfectio inquantum 
+intel<lb ed="#L" break="no" n="96"/>lectio per quam obiectum. clarius et evidentius cernitur,
+<lb ed="#L" n="97"/>est perfectior, ex' eo quod magis de lumine se tenente
+<lb ed="#L" n="98"/>ex parte intellectus participat. Actus ergo fidei ex parte
+<lb ed="#L" n="99"/>obiecti formalis, ^e maxime perfectus: quia, ut habetur
+<lb ed="#L" n="100"/>Il^ I5; q. r a. 1; et Verit.; q. xiv, a. 8; et III Sent,
+<lb ed="#L" n="101"/>d. xxiv, a. 1, eius obiectum formale est veritas prima,  Qu :.
+<lb ed="#L" n="102"/>quae omnem aliat rationem formalem intelligibilem excedit. -
+<lb ed="#L" n="103"/>Sed ex parte intellectus, est imperfectus: quia neque per
+<lb ed="#L" n="104"/>lumen naturale intellectus, neque per Iumen fidei irifusae,
+<lb ed="#L" n="105"/>videtur: id quod creditur in particulari, ut scilicet 
+intel<lb ed="#L" break="no" n="106"/>lectus videat et clare apprehendat id quod creditur verum
+<pb ed="#L" n="100"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>esse, videndo habitudinem praedicati ad subiectum; licet.
+<lb ed="#L" n="2"/>lumen fidei faciat intellectum videre ea quae fidei subsunt
+<lb ed="#L" n="3"/>esse credenda, ut dicitur I II, q. 1, a. 4, ad 2 et 3; sed
+<lb ed="#L" n="4"/>adhaeret intellectus | particulari credibili ex imperio 
+vo<lb ed="#L" break="no" n="5"/>luntatis. inclinantis intellectum ad eius assensum. Hoc est
+<lb ed="#L" n="6"/>ergo quod dicit Sanctus Thomas: quoniam, inquam, in
+<lb ed="#L" n="7"/>cognitione fidei invenitur operatio intellectus 
+impertectis<lb ed="#L" break="no" n="8"/>sima ex parte intellectus, cum intellectus son capiat, idest
+<lb ed="#L" n="9"/>non comprehendat neque clare et aperte videat, illud
+<lb ed="#L" n="10"/>cui assentit credendo. Prima enim principia ipso suo 
+lu<lb ed="#L" break="no" n="11"/>mine immediate videt intellectus; conclusiones vero scitas
+<lb ed="#L" n="12"/>videt ex principiis, a quibus illas dependere cognoscit ;
+<lb ed="#L" n="13"/>sed propositiones creditas neque immediate in seipsis videt
+<lb ed="#L" n="14"/>ex suo aut ex superaddito lumine fidei, neque per 
+resolu<lb ed="#L" break="no" n="15"/>tionem ad aliquid visum. et apparens intellectui. Et 
+pro<lb ed="#L" break="no" n="16"/>pterea imperfectissima est illarum cognitio ex parte 
+in<lb ed="#L" break="no" n="17"/>tellectus.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>II, Secundo. Voluntas in cognitione fidei principalitatem
+<lb ed="#L" n="19"/>habet: quia intellectus assentit per fidem iis quae sibi
+<lb ed="#L" n="20"/>proponuntur, quia vult, non autem ex ipsa evidentia rei |
+<lb ed="#L" n="21"/>necessario tractus. Ergo: etc. — Probatur consequentia.
+<lb ed="#L" n="22"/>Quia ultima felicitas hominis non consistit principaliter |
+<lb ed="#L" n="23"/>in actu voluntatis.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>Ad evidentiam antecedentis, considerandum, ex doctrina
+<lb ed="#L" n="25"/>Sancti Thomae II II, q. mn, a. 15; III Sent., d. xxu, q. ii,
+<lb ed="#L" n="26"/>a. 2; et Verit., q. xiv., a. 1, quod fides cum intellectu,
+<lb ed="#L" n="27"/>qui est habitus primorum principiorum, et cum scientia, |
+<lb ed="#L" n="28"/>quae est habitus conclusionum demonstratarum, convenit
+<lb ed="#L" n="29"/>in hoc, quod ita per fidem intellectus est determinatus
+<lb ed="#L" n="30"/>totaliter ad'unam partem contradictionis, sicut per habitum
+<lb ed="#L" n="31"/>principiorum et per habitum conclusionum. Sed differunt
+<lb ed="#L" n="32"/>quantum ad causam determinationis. Circa prima enim
+<lb ed="#L" n="33"/>principia determinatur intellectus ex ipsismet principiis et 
+<lb ed="#L" n="34"/>lumine naturali intellectus: quia statim, cognitis terminis,
+<lb ed="#L" n="35"/>ipsorum veritas apparet et manifesta est intellectui. Circa
+<lb ed="#L" n="36"/>conclusiones vero determinatur intellectus virtute 
+primo<lb ed="#L" break="no" n="37"/>rum principiorum: ex ipsa, inquam, ratione. qua 
+osten<lb ed="#L" break="no" n="38"/>ditur conclusio a veritate primorum: principiorum 
+depen<lb ed="#L" break="no" n="39"/>dere, quae ratio cogit intellectum ad assentiendum 
+con<lb ed="#L" break="no" n="40"/>clusioni. Et sic in cognitione tam primorum principiorum,
+<lb ed="#L" n="41"/>quam conclusionum deductarum ex illis, intellectus 
+de<lb ed="#L" break="no" n="42"/>terminatur ex ipsa rei evidentia, et ex ratione quam apud
+<lb ed="#L" n="43"/>seipsum habet.. Circa ea autem quae sunt fidei, 
+determi<lb ed="#L" break="no" n="44"/>natur immediate. intellectus, non ex aliquo existente in
+<lb ed="#L" n="45"/>intellectu, sed ex ipsa voluntate credentis, qui eligit 
+deter<lb ed="#L" break="no" n="46"/>minate adhaerere uni parti, quia est aliqua ratio qua
+<lb ed="#L" n="47"/>iudicatur bonum esse et conveniens assentire et adhaerere
+<lb ed="#L" n="48"/>dicenti et revelanti, utpote quia revelans est dignus fide
+<lb ed="#L" n="49"/>et non falleret. Quae. quidem ratio, inquantum ostendit
+<lb ed="#L" n="50"/>bonum esse.ut rei propositae adhaereatur, sufficit movere
+<lb ed="#L" n="51"/>voluntatem, et ipsam inclinare ad eligendum assentire illi
+<lb ed="#L" n="52"/>determinate: licet non sufficiat per se movere intellectum
+<lb ed="#L" n="53"/>ad assentiendum, cum nullam rei evidentiam faciat. 
+Vo<lb ed="#L" break="no" n="54"/>luntas autem, sic mota ex illa ratione, imperat intellectui
+<lb ed="#L" n="55"/>ut firmiter adhaereat huic parti determinate, puta quod:
+<lb ed="#L" n="56"/>Deus est trinus in personis et unus in essentia. Propterea .
+<lb ed="#L" n="57"/>ergo optime inquit Sanctus Thomas quod in cognitione fidei
+<lb ed="#L" n="58"/>principalitatem habet voluntas. Unde et Augustinus ait 
+<lb ed="#L" n="59"/>quod cetera potest homo nolens, credere: non nisi volens.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Advertendum tamen, cum inquit Sanctus (Thomas, in
+<lb ed="#L" n="61"/>probatione antecedentis, quod intellectus assentit iis quae
+<lb ed="#L" n="62"/>sunt fidei quia vult, quod impropria locutio est, consueta
+<lb ed="#L" n="63"/>tamen. apud philosophos. Non enim, proprie loquendo,
+<lb ed="#L" n="64"/>intellectus vult, cum intellectus et voluntas sint potentiae
+<lb ed="#L" n="65"/>distinctae: sed. dicitur. intellectus credere quia vult, 
+in<lb ed="#L" break="no" n="66"/>quantum ex imperio. voluntatis movetur ad credendum.
+<lb ed="#L" n="67"/>Unde proprie dicetur quod homo: per intellectum credens
+<lb ed="#L" n="68"/>assentit iis quae sunt fidei quia vult: improprie vero 
+in<lb ed="#L" break="no" n="69"/>tellectus, credit quia vult, inquantum homo per intellectum
+<lb ed="#L" n="70"/>motum a voluntate. credit,
+</p>
+            <p>
+               <lb ed="#L" n="71"/>III. Tertio , Est aliqua cognitio hominis de Deo altior
+<lb ed="#L" n="72"/>cognitione fidei:.sive ipse homo proponens fidem 
+im<lb ed="#L" break="no" n="73"/>mediate videat veritatem, ut de  Christo credimus; sive
+<lb ed="#L" n="74"/>immediate a vidente accipiat, sicut credimus Apostolis et
+<lb ed="#L" n="75"/>Prophetis. Ergo etc,
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Patet consequentia. Quia in. summa Dei cognitione
+<lb ed="#L" n="77"/>felicitas hominis consistit.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Probatur antecedens. Credens habet cognitionem 
+simi<lb ed="#L" break="no" n="79"/>lem magis auditui quam visioni: cum praebeat. assensum
+<lb ed="#L" n="80"/>iis quae: sibi ab alio proponuntur; quae ipse non. videt.
+<lb ed="#L" n="81"/>Sed non crederet quis proponenti non visa, nisi existimaret
+<lb ed="#L" n="82"/>eum. de illis. perfectiorem notitiam habere quam ipse
+<lb ed="#L" n="83"/>habeat. Ergo, cum ista existimatio non sit falsa, cum fides
+<lb ed="#L" n="84"/>non possit esse falsa, ita erit quod proponens--habeat
+<lb ed="#L" n="85"/>perfectiorem cognitionem  propositorum. Non .est autem
+<lb ed="#L" n="86"/>processus in infinitum, ut scilicet hic ab alio audiat, et
+<lb ed="#L" n="87"/>ille ab alio, in infinitum: tune enim esset vanus et. absque
+<lb ed="#L" n="88"/>certitudine. fidei assensus, quia non esset devenire. ad
+<lb ed="#L" n="89"/>aliquod primum certum, quod certitudinem fidei eorum
+<lb ed="#L" n="90"/>qui: credunt afferret; quod fidei non convenit. Ergo. est
+<lb ed="#L" n="91"/>devenire ad aliquem videntem ea quae proponit, Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>2. Circa istam propositionem, Fides magis habet 
+cogni<lb ed="#L" break="no" n="93"/>lionem similem auditui quam visioni, advertendum, ex
+<lb ed="#L" n="94"/>doctrina Sancti Thomae ll^ II^, q. r, a. 4; et IIl Selitj
+<lb ed="#L" n="95"/>d. xxiv, a. 2, quod illa videri dicuntur intellectu quorum
+<lb ed="#L" n="96"/>essentia intellectui praesentatur, et quae vel ex seipsis
+<lb ed="#L" n="97"/>intellectum ad sui cognitionem movent, vel per aliud. ex
+<lb ed="#L" n="98"/>se cognitum ab intellectu: ea autem de quibus est fides,
+<lb ed="#L" n="99"/>non sunt intellectui secundum suam essentiam praesentia,
+<lb ed="#L" n="100"/>tanquam per se aut per aliud cognitum moventia 
+intel<lb ed="#L" break="no" n="101"/>lectum. Ideo cognitio. fidei non est visio intellectiva, 
+pro<lb ed="#L" break="no" n="102"/>prie loquendo de visione: quamvis largo modo possit.
+<lb ed="#L" n="103"/>dici visio, inquantum omnis cognitio visio potest dici.
+<lb ed="#L" n="104"/>Et propterea visioni corporali non assimilatur, sed magis
+<lb ed="#L" n="105"/>assimilatur auditui: quia auditu cognoscimus ea quae,
+<lb ed="#L" n="106"/>cum nobis. praesentia non sint, nobis recitantur; et 
+simi<lb ed="#L" break="no" n="107"/>liter per fidem adhaeremus iis quae nostro intellectu non
+<lb ed="#L" n="108"/>videmus.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>IV. Circa processum autem huius rationis statim occurrit
+<lb ed="#L" n="110"/>dubium. Quia posset aliquis dicere quod, licet in 
+cogni<lb ed="#L" break="no" n="111"/>tione eorum quae ab alio proponuntur credenda et non
+<lb ed="#L" n="112"/>videntur, sit devenire ad aliquem habentem claram eorum
+<lb ed="#L" n="113"/>notitiam; non tamen oportet ut illud primum habens
+<lb ed="#L" n="114"/>evidentiam talium .sit aliquis homo, sed est Deus, a quo
+<lb ed="#L" n="115"/>aliquis homo, puta Moyses sive quicumque alius propheta,
+<lb ed="#L" n="116"/>primo et immediate cognitionem fidei accepit, et ille
+<lb ed="#L" n="117"/>aliis proposuit credenda, et illi aliis, quousque ad nos
+<lb ed="#L" n="118"/>pervenit. Et sic ultima consequentia non tenet, scilicet;
+<lb ed="#L" n="119"/>Ergo est aliqua hominis cognitio de Deo altior. 
+cogni<lb ed="#L" break="no" n="120"/>lione fidei: sed quod cognitio Dei de iis quae nobis 
+cre<lb ed="#L" break="no" n="121"/>denda proponuntur, est altior nostra cognitione fidei, ...
+</p>
+            <p>
+               <lb ed="#L" n="122"/>V. Ad evidentiam huius difficultatis, considerandum est,
+<lb ed="#L" n="123"/>ex doctrina Sancti Thomae II II, q. v, a. 1; et Verit.,
+<lb ed="#L" n="124"/>q. xviu, a..3, quod, cum fides sit ex auditu, ut dicitur
+<lb ed="#L" n="125"/>ad Rom. x, sicut duplex est auditus et locutio, scilicet
+<lb ed="#L" n="126"/>exterior sive corporalis, et interior ac spiritualis, ita duplex .
+<lb ed="#L" n="127"/>est fides. Una quae oritur in cordibus fidelium per 
+audi<lb ed="#L" break="no" n="128"/>tum exteriorem: cum scilicet Deus per aliquos homines
+<lb ed="#L" n="129"/>aliis credenda proponit. Et ista est fides quae nobis, sive
+<lb ed="#L" n="130"/>communi statui fidelium convenit, ex eo quod adhaeremus
+<lb ed="#L" n="131"/>revelationibus Prophetis et Apostolis factis, qui suis 
+prae<lb ed="#L" break="no" n="132"/>dicationibus- fideles ad fidem traxerunt. — Alia est quae
+<lb ed="#L" n="133"/>oritur in aliquibus per spiritualem locutionem, qua Deus
+<lb ed="#L" n="134"/>aliquibus per. internam inspirationem credenda revelat,
+<lb ed="#L" n="135"/>nullo hominis ministerio utens: sicut est fides-
+Aposto<lb ed="#L" break="no" n="136"/>lorum et Prophetarum, qui ab ipso Deo per intrinsecam
+<lb ed="#L" n="137"/>illuminationem sunt de credendis instructi, vp alios
+<lb ed="#L" n="138"/>docere debebant.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Conveniunt utraque fides in hoc quod utraque. habet
+<lb ed="#L" n="140"/>pro formali obiecto divinam veritatem: propter quod 
+di<lb ed="#L" break="no" n="141"/>citur esse una fides. modernorum et antiquorum. — 
+Con<lb ed="#L" break="no" n="142"/>veniunt etiam quia utraque est aenigmatica. cognitio:
+<lb ed="#L" n="143"/>inquantum per nullam ipsarum videtur essentia divina,
+<lb ed="#L" n="144"/>sive veritas prima; neque, inquam, per seipsam, neque
+<lb ed="#L" n="145"/>per rationem naturalem,
+</p>
+            <p>
+               <lb ed="#L" n="146"/>Differunt autem, primo, secundum quandam nobilitatem
+<lb ed="#L" n="147"/>ex modo recipiendi. Nobilius est. enim et altius 
+cogni<lb ed="#L" break="no" n="148"/>tionem fidei a Deo per internam illuminationem accipere,
+<lb ed="#L" n="149"/>quam mediantibus hominibus per exteriorem locutionem :
+<lb ed="#L" n="150"/>quia per primum modum Deus est magis praesens homini, et
+<pb ed="#L" n="101"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>homo magis de propinquo ad Deum accedit; et propterea
+<lb ed="#L" n="2"/>habet sub aenigmatica cognitione minus obscuram 
+no<lb ed="#L" break="no" n="3"/>titiam. de iis quae. credit, et magis firmam ac stabilem,
+<lb ed="#L" n="4"/>quam per secundum modum. — Differunt secundo, ut patet
+<lb ed="#L" n="5"/>ex iis quae dicit Sanctus Thomas ibidem in II ll^, quod,
+<lb ed="#L" n="6"/>licet quantum ad id quod est formale in obiecto fidei,
+<lb ed="#L" n="7"/>fides. sit in omnibus fidelibus communiter, inquantum
+<lb ed="#L" n="8"/>videlicet in iis quae fidei sunt omnes inhaerent primae
+<lb ed="#L" n="9"/>veritati, assentiendo ilis eo quod sunt a Deo revelata;
+<lb ed="#L" n="10"/>quantum tamen ad ea quae materialiter credenda 
+propo<lb ed="#L" break="no" n="11"/>nuntur, est differentia: quia primi, qui divinitus per 
+in<lb ed="#L" break="no" n="12"/>trinsecam illuminationem de rebus divinis sunt instructi,
+<lb ed="#L" n="13"/>quaedam de divinis mysteriis manifesta et aperta 
+cogni<lb ed="#L" break="no" n="14"/>tione cognoscere potuerunt quae nos, solo lumine fidei,
+<lb ed="#L" n="15"/>non possumus nisi credendo cognoscere; sicut et in
+<lb ed="#L" n="16"/>praesenti statu quaedam .sunt credita ab uno quae sunt
+<lb ed="#L" n="17"/>manifeste scita ab alio, ut Deum esse unum.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>VI. Ad dubium ergo dicitur quod dupliciter possumus
+<lb ed="#L" n="19"/>interpretari processum Sancti Thomae, Primo, ut velit
+<lb ed="#L" n="20"/>deducere ad hoc quod oportet devenire ad aliquam 
+cogni<lb ed="#L" break="no" n="21"/>tionem hominis de Deo altiorem omni cognitione fidei,
+<lb ed="#L" n="22"/>utpote per quam videantur clare omnia quae sunt per
+<lb ed="#L" n="23"/>fidem tradita. Et sic non videtur intendere. Quia non
+<lb ed="#L" n="24"/>ponit ipse quod primi qui acceperunt fidem per 
+inter<lb ed="#L" break="no" n="25"/>nam illuminationem, sicut Apostoli et Prophetae, sicut
+<lb ed="#L" n="26"/>etiam angeli ante confirmationem, et homo ante peccatum,
+<lb ed="#L" n="27"/>habuerint claram et evidentem notitiam omnium quae
+<lb ed="#L" n="28"/>sub fide nostra cadunt: licet, ut diximus, ponat de Adam
+<lb ed="#L" n="29"/>ante peccatum, et de angelis ante confirmationem, posse
+<lb ed="#L" n="30"/>dici quod quaedam de divinis mysteriis aperte cognoverint
+<lb ed="#L" n="31"/>quae nos per fidem tenemus. Similiter, ab alio homine
+<lb ed="#L" n="32"/>fidem non acceperunt: et per consequens, non oportet
+<lb ed="#L" n="33"/>reducere eorum fidem in aliquam . hominis altiorem 
+co<lb ed="#L" break="no" n="34"/>gnitionem de Deo quam sit cognitio fidei; sed oportet
+<lb ed="#L" n="35"/>omnium fidem ultimo reducere in divinam cognitionem
+<lb ed="#L" n="36"/>et divinam sapientiam, a qua ad nos divina mysteria pe
+<lb ed="#L" n="37"/>venerunt.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>2. Secundo possumus interpretari quod oportet 
+de<lb ed="#L" break="no" n="39"/>venire ad aliquam cognitionem bominis de Deo altiorem
+<lb ed="#L" n="40"/>fide quam pro praesenti statu. communiter omnes fideles
+<lb ed="#L" n="41"/>habent. Et sic videtur intelligere. 'Tum quia in principio
+<lb ed="#L" n="42"/>capituli ostendit. se loqui de cognitione qua Deus ab
+<lb ed="#L" n="43"/>omnibus per fidem cognoscitur. - Tum quia deducit
+<lb ed="#L" n="44"/>quod oportet devenire ad aliquod primum quod ex se,
+<lb ed="#L" n="45"/>idest non ex relatione alterius hominis, certum sit de iis
+<lb ed="#L" n="46"/>quae creduntur, et aliis credentibus certitudinem afferat.
+<lb ed="#L" n="47"/>Sufficit autem ad hoc ut aliquis sit qui a Deo per 
+in<lb ed="#L" break="no" n="48"/>ternam illuminationem cognitionem fidei acceperit. Sicut
+<lb ed="#L" n="49"/>enim is qui ab alio aliquid immediate audit, dicitur ex se
+<lb ed="#L" n="50"/>habere certitudinem quod ille id dixerit, quia non ab' alio
+<lb ed="#L" n="51"/>id accipit, sed per se audivit; ille autem qui non im- |
+<lb ed="#L" n="52"/>mediate ab illo audivit, sed ab alio qui audivit, non dicitur
+<lb ed="#L" n="53"/>ex se certus esse quod primus id dixerit, sed narranti se
+<lb ed="#L" n="54"/>audivisse credit: ita qui ea quae sunt fidei ab aliis 
+homi<lb ed="#L" break="no" n="55"/>nibus dicentibus ea esse a Deo revelata, audiunt, non ex
+<lb ed="#L" n="56"/>seipsis habent de illis certitudinem tanquam de revelatis
+<lb ed="#L" n="57"/>a Deo, sed tantum credunt ea praedicantibus; qui autem
+<lb ed="#L" n="58"/>a Deo acceperunt per internam illuminationem, certo
+<lb ed="#L" n="59"/>sciunt ex seipsis, virtute divini luminis in eis infusi, esse
+<lb ed="#L" n="60"/>sibi illa a Deo revelata; et ex hoc aliorum fides habet
+<lb ed="#L" n="61"/>certitudinem, et non proceditur in infinitum.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Vult ergo. habere Sanctus Thomas quod est aliqua
+<lb ed="#L" n="63"/>hominis cognitio de Deo altior cognitione fidei quam
+<lb ed="#L" n="64"/>communiter fideles. habent, scilicet cognitio. primorum
+<lb ed="#L" n="65"/>quibus facta est a Deo fidei revelatio. Illa enim est 
+per<lb ed="#L" break="no" n="66"/>fectior, quia et abundantiori lumine facta est; et certior,
+<lb ed="#L" n="67"/>in hoc quod cognoscebant manifeste illa quae 
+cognosce<lb ed="#L" break="no" n="68"/>bant et praedicabant, sibi fuisse a Deo revelata; et etiam
+<lb ed="#L" n="69"/>quia de aliquibus claram notitiam habuerunt de quibus
+<lb ed="#L" n="70"/>nos fidem duntaxat habemus; et quoniam poterant, 
+tan<lb ed="#L" break="no" n="71"/>quam magis Deo propinqui, per illam illuminationem
+<lb ed="#L" n="72"/>plura manifeste cognoscere de divinis mysteriis et 
+effecti<lb ed="#L" break="no" n="73"/>bus quam nos possimus.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Unde explicans Sanctus Thomas esse aliquam hominis :
+<lb ed="#L" n="75"/>cognitionem de Deo altiorem fide, declarat per disiun- .
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ctionem: sire, inquiens, ipse homo fidem proponens 
+im<lb ed="#L" break="no" n="77"/>mediate videat veritatem, sicut credimus Christo  : sive a
+<lb ed="#L" n="78"/>vidente immediate . accipiat, sicut. credimus «Apostolis et
+<lb ed="#L" n="79"/>Prophetis. Ac si diceret: Quomodocumque fides ad nos
+<lb ed="#L" n="80"/>ex hominibus perveniat; sive, inquam, immediate ex ipso
+<lb ed="#L" n="81"/>Christo clare. vidente ea quae nobis credenda proponit;
+<lb ed="#L" n="82"/>sive ex hominibus. qui non habent evidentiam. omnium
+<lb ed="#L" n="83"/>quae nobis proponunt, sed eorum cognitionem accipiunt
+<lb ed="#L" n="84"/>ab aliquo habente evidentiam, sicut sunt Apostoli et 
+Pro<lb ed="#L" break="no" n="85"/>phetae: oportet ut sit devenire ad hominem habentem
+<lb ed="#L" n="86"/>perfectiorem notitiam de iis quae nobis credenda 
+propo<lb ed="#L" break="no" n="87"/>nit, quam communis status hominum: per fidem habeat.
+<lb ed="#L" n="88"/>Si enim ipse habeat evidentiam horum quae proponit,
+<lb ed="#L" n="89"/>constat quod eius notitia est altior. Si autem non habeat
+<lb ed="#L" n="90"/>claram notitiam, sed ab eo accipiat immediate per 
+inter<lb ed="#L" break="no" n="91"/>nam iluminationem qui claram notitiam habet: constat
+<lb ed="#L" n="92"/>etiam quod eius notitia est altior nostra, utpote 
+propin<lb ed="#L" break="no" n="93"/>quior clarae notitiae, et per consequens minus aliquo
+<lb ed="#L" n="94"/>modo obscura, et magis firma ac stabilis, magisque a
+<lb ed="#L" n="95"/>dubietatis motibus seiuncta.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>3. Patet igitur quod obiectio non est contra intentionem
+<lb ed="#L" n="97"/>rationis. Quia non intendit Sanctus Thomas deducere, ut
+<lb ed="#L" n="98"/>obiectio supponit, quod oporteat devenire ad cognitionem
+<lb ed="#L" n="99"/>hominis videntis clare et manifeste omnia quae credimus:
+<lb ed="#L" n="100"/>sed absolute, quod est devenire ad aliquam cognitionem
+<lb ed="#L" n="101"/>hominis nostra fide, quae nostro scilicet statui competit,
+<lb ed="#L" n="102"/>perfectiorem; sive illa sit visio clara eorum quae credimus,
+<lb ed="#L" n="103"/>sicut est in Christo; sive sit a clara illorum visione per
+<lb ed="#L" n="104"/>internam inspirationem causata, ut fuit in pid eiim et
+<lb ed="#L" n="105"/>Prophetis.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>VIL. Attendendum autem quod, cum dicitur; sive ipse
+<lb ed="#L" n="107"/>homo proponens fidem immediate videat veritatem, sive -a
+<lb ed="#L" n="108"/>vidente immediate accipiat, quod ly immediate dupliciter
+<lb ed="#L" n="109"/>potest construi. Uno modo, ut in prima determinet illud
+<lb ed="#L" n="110"/>participium proponens, ut sit sensus quod immediate
+<lb ed="#L" n="111"/>proponens, puta Christus, qui immediate Apostolis et
+<lb ed="#L" n="112"/>etiam ludaeis fidem' proposuit, videat, idest, aperte et
+<lb ed="#L" n="113"/>clare cognoscat, veritatem, eorum quae nos credimus: in
+<lb ed="#L" n="114"/>alia vero determinet ly accipiat, ut sit sensus quod 
+pro<lb ed="#L" break="no" n="115"/>ponens fidem accipiat immediate cognitionem ab habente
+<lb ed="#L" n="116"/>claram. notitiam, et non mediantibus hominibus quibus
+<lb ed="#L" n="117"/>fuerit prius facta. de credendis revelatio. — Alio modo,
+<lb ed="#L" n="118"/>quod determinet in utraque propositione videntem: ut sit
+<lb ed="#L" n="119"/>sensus, sive is qui proponit fidem videat immediate 
+veri<lb ed="#L" break="no" n="120"/>tatem, sive accipiat ab eo qui immediate videt. Licet
+<lb ed="#L" n="121"/>autem uterque sensus litterae adaptari possit, secundus
+<lb ed="#L" n="122"/>tamen mihi convenientior videtur: cum secundum ipsum
+<lb ed="#L" n="123"/>in utraque ly immediate referatur ad unam intentionem.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Pro quo sciendum, ex doctrina Sancti Thomae in
+<lb ed="#L" n="125"/>quaestione ,de Veritate adducta, art. 1; ad 1; et art. 3,
+<lb ed="#L" n="126"/>quod cognoscere veritatem de Deo contingit dupliciter.
+<lb ed="#L" n="127"/>Uno modo, per ipsam divinam essentiam unitam 
+intel<lb ed="#L" break="no" n="128"/>lectui: ut est in beatis. Alio modo, per aliquam speciem
+<lb ed="#L" n="129"/>intellectualem: sive sit species a creaturis accepta; sive
+<lb ed="#L" n="130"/>sit a Deo in intellectu causata. Prima dicitur cognitio
+<lb ed="#L" n="131"/>immediata, quia videlicet non est. per aliquam speciem
+<lb ed="#L" n="132"/>quae sit similitudo Dei, tanquam per medium: secunda
+<lb ed="#L" n="133"/>vero dicitur mediata, quia est mediante tali similitudine,
+<lb ed="#L" n="134"/>Prima etiam est clara notitia veritatis, quia per ipsam
+<lb ed="#L" n="135"/>videtur ipsa Dei essentia, de quo veritates cognoscuntur:
+<lb ed="#L" n="136"/>secunda autem est aenigmatica et obscura, quia similitudo
+<lb ed="#L" n="137"/>illa per quam est cognitio, non repraesentat Deum 
+per<lb ed="#L" break="no" n="138"/>fecte, sed imperfecte et deficienter.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Sensus ergo propositionis Sancti Thomae est quod est
+<lb ed="#L" n="140"/>aliqua cognitio hominis de Deo altior cognitione fidei
+<lb ed="#L" n="141"/>quae communiter habetur: sive ipse homo proponens
+<lb ed="#L" n="142"/>credenda cognoscat Veritatem videndo ipsam divinam 
+es<lb ed="#L" break="no" n="143"/>sentiam per ipsammet, et per consequens videndo clare
+<lb ed="#L" n="144"/>et aperte veritatem eorum quae proponit, sicut Christus,
+<lb ed="#L" n="145"/>qui, cum simul esset viator et comprehensor, ipsam 
+di<lb ed="#L" break="no" n="146"/>vinam essentiam videbat; sive cognoscat veritatem, non
+<lb ed="#L" n="147"/>quidem videndo divinam essentiam, et per consequens non
+<lb ed="#L" n="148"/>videndo clare, sed accipiendo cognitionem a vidente ipsam,
+<lb ed="#L" n="149"/>sicut Prophetae et Apostoli, qui per aliquam similitudinem
+<lb ed="#L" n="150"/>spiritualem divinae sapientiae, qua Deus et se et alia
+<pb ed="#L" n="102"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>cognoscit, a Deo in eorum mentibus impressam, veritatem
+<lb ed="#L" n="2"/>eorum quae nobis. proposuerunt credenda,: cognoverunt.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>2. Attendendum. quoque quod Apostoli dupliciter a 
+vi<lb ed="#L" break="no" n="4"/>dente essentiam divinam. cognitionem' fidei susceperunt:
+<lb ed="#L" n="5"/>scilicet a Christo, qui beatus erat, per corporalem- 
+audi<lb ed="#L" break="no" n="6"/>tum; eta Deo per internam illuminationem, quando 
+Spi<lb ed="#L" break="no" n="7"/>ritum Sanctum acceperunt. Videtur autem Sanctus Thomas
+<lb ed="#L" n="8"/>hic loqui de:cognitione Apostolorum secundum quod ipsarn
+<lb ed="#L" n="9"/>a Deo. acceperunt; non autem secundum quod eam 
+acce<lb ed="#L" break="no" n="10"/>perunt a; Christo: quia illa sola cognitio hominis viatoris
+<lb ed="#L" n="11"/>de Deo est altior communi fide, quae pet interiorem 
+inspi<lb ed="#L" break="no" n="12"/>rationem, et per similitudinem divinae sapientiae menti 
+im<lb ed="#L" break="no" n="13"/>pressam;: accipitur, Unde et.ipsos in eodem ordirie cum
+<lb ed="#L" n="14"/>Prophetis ponit, quos constata solo Deo, .non' autem ab
+<lb ed="#L" n="15"/>homine-.talem: bes rar sr accepisse: et in QQ. de 
+Veri<lb ed="#L" break="no" n="16"/>tate, ubi supra , ait quod Zn. Apostolis et Prophetis orta
+<lb ed="#L" n="17"/>est fides per. auditum interiorem.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>VIIL..Sed:occurrit dubium. Nam .etiam fides nostra est
+<lb ed="#L" n="19"/>infusa in mente cuiuscumque fidelis; et est quoddam
+<lb ed="#L" n="20"/>spirituale lumen. Et sic videtur quod fides primorum qui
+<lb ed="#L" n="21"/>tradiderunt fidem nobis,.non sit altior nostra fide quia illam
+<lb ed="#L" n="22"/>habuerint per internam inspirationem, non autem nos.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Respondetur quod duo ad fidem requiruntur: scilicet
+<lb ed="#L" n="24"/>quod "homini: credibilia proponantur quae explicite 
+cre<lb ed="#L" break="no" n="25"/>dere: debet; et assensus credentis ad ea quae proponuntur.
+<lb ed="#L" n="26"/>Quantum ad secundum, fides nostra et fides primorum
+<lb ed="#L" n="27"/>fidelium conveniunt: in utrisque enim: est habitus infusus
+<lb ed="#L" n="28"/>quo iis quae credenda proponuntur, homo firmiter adhaeret
+<lb ed="#L" n="29"/>et assentit, et quo illuminatur intellectus ad cognoscendum
+<lb ed="#L" n="30"/>illa esse credenda. Sed quantum ad primum differunt:
+<lb ed="#L" n="31"/>quia nobis, quibus ab hominibus per auditum corporalem
+<lb ed="#L" n="32"/>credenda proponuntur, voces significativae exhibentur 
+exte<lb ed="#L" break="no" n="33"/>rius, quae surnit signa illarum rerum quae debemus 
+expli<lb ed="#L" break="no" n="34"/>cite credere; illis autem qui a Deo per internam 
+inspira<lb ed="#L" break="no" n="35"/>tionem huiusmodi rerum cognitionem accipiunt, exhibetur
+<lb ed="#L" n="36"/>non. exterior vox, sed aliquod divinae essentiae signum;
+<lb ed="#L" n="37"/>scilicet aliqua spiritualis similitudo divinae sapientiae, qua
+<lb ed="#L" n="38"/>explicite credenda.innotescunt. Unde Sanctus Thomas,
+<lb ed="#L" n="39"/>Verit, q. 12; a. 1, ad ult., ponit differentiam inter 
+pro<lb ed="#L" break="no" n="40"/>phetiam et fidem, quia prophetia perficit intellectum 
+se<lb ed="#L" break="no" n="41"/>cundum. se, et ideo oportet ut ea ad quae propheta est
+<lb ed="#L" n="42"/>instructus, possit distincte inspicere: fides autem perficit
+<lb ed="#L" n="43"/>intellectum in ordine ad affectum, unde nihil habet nisi
+<lb ed="#L" n="44"/>ut per ipsam intellectus. sit paratus ad assentiendum iis
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="45"/>quae Deus credi mandat. Et sic non oportet quod habens
+<lb ed="#L" n="46"/>habitum fidei. distincte cognoscat omnia credibilia.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Ex quibus patet quod, licet tai fides nostra quam 
+aanti<lb ed="#L" break="no" n="48"/>quorum, qua rebus fidei firmiter. adhaeremus, : sita: "Deo
+<lb ed="#L" n="49"/>causata in mente fidelis, et sit quoddam: lumen faciens nos
+<lb ed="#L" n="50"/>cognoscere credibilia in' communi, scilicet quod sint 
+cre<lb ed="#L" break="no" n="51"/>denda; ea tamen quae explicite credere debemus, illis altiori
+<lb ed="#L" n="52"/>modo: et altiori: lumine proposita sunt,' scilicet lumine- 
+di<lb ed="#L" break="no" n="53"/>vinae sapientiae a mentibus ipsorum participato, quod potest
+<lb ed="#L" n="54"/>quoddam propheticum: lumen appellari; nobis autem 
+sen<lb ed="#L" break="no" n="55"/>sibili voce, a nostro intellectu  adinventa, proponuntur.
+<lb ed="#L" n="56"/>Et. proptet hoc illorum. cognitio est altior, utpote firmior
+<lb ed="#L" n="57"/>et'stabilior nostra; ac etiam 'aliqua'ex- parte -manifestior,
+<lb ed="#L" n="58"/>inquantum: per llam internam illumipnationem' ad: plura
+<lb ed="#L" n="59"/>divina mysteria cognoscenda mens eoruni extendebatur,
+<lb ed="#L" n="60"/>et minus obscure et distincte singula credenda hin pir eos
+<lb ed="#L" n="61"/>Unde consequentia adducta: non. tenet. : d
+</p>
+            <p>
+               <lb ed="#L" n="62"/>IX. Quarto ; Cognitio fidei. non-quietat deuidoriuid sed
+<lb ed="#L" n="63"/>magis accendit: quia unusquisque -desiderat videre quod
+<lb ed="#L" n="64"/>credit. Ergo 'etc. — Probatur consequentia: haer " 
+fe<lb ed="#L" break="no" n="65"/>licitatem ' quietatur desiderium.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Ultimo. Per cognitionem fidei non fit res. dem 
+prae<lb ed="#L" break="no" n="67"/>sens intellectui perfecte: cum sit de absentibus, ut patet
+<lb ed="#L" n="68"/>per Apostolum, Il Cor, v. Ergo etc.'— Probatur: 
+conse<lb ed="#L" break="no" n="69"/>quentia. Quia: cognitio de: Deo dicta est finis inquantum
+<lb ed="#L" n="70"/>ultimo fini rerum, scilicet Deo, .coniungit.— Addit 
+San<lb ed="#L" break="no" n="71"/>ctus Thomas quod fit. tamen per fidem" Deus ' praesens
+<lb ed="#L" n="72"/>affectui, cum credens voluntarie Deo teseetuen OT: si
+<lb ed="#L" n="73"/>gnificat Apostolus Ephes. ur ^. 
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Advertendum quod res dicitur praesens datelldeedio pet.
+<lb ed="#L" n="75"/>fecte, quando secundum suam vessentiam- intellectui 
+prae<lb ed="#L" break="no" n="76"/>sentatur aut per seipsam, aut per sui perfectanr et 
+adae<lb ed="#L" break="no" n="77"/>quatam similitudinem. Dicitur autem praesens affectui,
+<lb ed="#L" n="78"/>quando im ipsam per amorem affectus inclinatur; Quia
+<lb ed="#L" n="79"/>ergo Deus, de quo aliqua creduntur, per suam essentiam
+<lb ed="#L" n="80"/>non praesentatur intellectui, sed. bene affectus ipsius im
+<lb ed="#L" n="81"/>illum inclinatur, utpote volens assentire iis quae ab ipso
+<lb ed="#L" n="82"/>dicuntur, quod non esset nisi affectus inclinaretur in Deum ;
+<lb ed="#L" n="83"/>ideo bene hic: dicitur quod per cognitionem fidei non
+<lb ed="#L" n="84"/>fit res credita praesens intellectui perfecte (licet, inquam,
+<lb ed="#L" n="85"/>fiat praesens imperfecte), sed bene per fidem fit Deus
+<lb ed="#L" n="86"/>praesens affectui. — Posset etiam dici quod per fidem fit
+<lb ed="#L" n="87"/>Deus praesens affectui consequenter: inquantum 'ex fide
+<lb ed="#L" n="88"/>quis in Dei amorem accenditur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

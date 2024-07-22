@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 139</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 139</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="420"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2843"><!-- ferv7a-l3c139 -->
+            <head>Capitulum 139</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="9" type="fixed=420"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="10"/>Ex praedictis  infert Sanctus Thomas unum 
+corolla<lb ed="#L" break="no" n="11"/>rium: videlicet, quod neque omnia bona opera, neque
+<lb ed="#L" n="12"/>omnia peccata sunt paria.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Circa hoc autem tria facit: primo, probat conclusionem ;
+<lb ed="#L" n="14"/>secundo, adducit rationes ad oppositum, et solvit ; tertio,
+<lb ed="#L" n="15"/>infert quandam distinctionem de peccato .
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Circa primum duo facit: primo, probat quod »on omnes
+<lb ed="#L" n="17"/>actus virtutum sunt pares; secundo, quod nec omnia 
+pec<lb ed="#L" break="no" n="18"/>cata paria sunt,
+</p>
+            <p>
+               <lb ed="#L" n="19"/>I. Quantum ad primum, arguit primo sic. Dantur 
+con<lb ed="#L" break="no" n="20"/>silia de continentia, paupertate, et huiusmodi. Ergo haec
+<lb ed="#L" n="21"/>meliora bona sunt quam matrimonio uti et temporalia
+<lb ed="#L" n="22"/>possidere, secundum quae contingit virtuose agere, ordine
+<lb ed="#L" n="23"/>rationis servato. Ergo non omnes actus virtutum sunt
+<lb ed="#L" n="24"/>pares. — Probatur prima consequentia. Quia consilium non
+<lb ed="#L" n="25"/>datur nisi de meliori bono.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Ad evidentiam huius rationis, considerandum est, ex
+<lb ed="#L" n="27"/>doctrina Sancti Thomae I II', q. cvi, a. 4; et Quolib. V,
+<lb ed="#L" n="28"/>a. 19 , quod praecepta differunt a consiliis quia, cum
+<lb ed="#L" n="29"/>praeceptum importet rationem debiti, non autem 
+consi<lb ed="#L" break="no" n="30"/>lium, praecepta dantur de iis quae necessaria sunt ad
+<lb ed="#L" n="31"/>consecutionem finis aeternae beatitudinis; consilia autem
+<lb ed="#L" n="32"/>sunt de illis per quae melius et expeditius potest. homo
+<lb ed="#L" n="33"/>consequi finem praedictum, licet absque eis possit quis
+<lb ed="#L" n="34"/>ad finem pervenire. Unde in observatione consiliorum
+<lb ed="#L" n="35"/>includitur praeceptorum observatio, non autem e 
+con<lb ed="#L" break="no" n="36"/>verso: qui enim omnia dimittit, non rapit aliena nec
+<lb ed="#L" n="37"/>furatur; non autem e contrario qui non rapit aliena. omnia
+<lb ed="#L" n="38"/>dimittit. Quia ergo melius bonum est observare praecepta,
+<lb ed="#L" n="39"/>sine quibus ad beatitudinem perveniri non potest, et ultra
+<lb ed="#L" n="40"/>hoc aliquid aliud, per quod ad beatitudinem melius et
+<lb ed="#L" n="41"/>facilius potest perveniri, quam sola observare praecepta;
+<lb ed="#L" n="42"/>ideo bene dicitur, et hic et alibi , a Sancto Thoma quod
+<lb ed="#L" n="43"/>consilium est de meliori bono.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>2. Ex hoc patet male dictum esse a Scoto, in II Sent;,
+<lb ed="#L" n="45"/>d. xx1, distingui peccatum veniale a mortali quia mortale
+<lb ed="#L" n="46"/>est contra praeceptum, veniale vero contra consilium. Patet
+<lb ed="#L" n="47"/>enim quod non tenetur quis servare consilia, cum sine iis
+<lb ed="#L" n="48"/>finem consequi possit; et per consequens quod ea non
+<lb ed="#L" n="49"/>observare nullum est peccatum. Alioquin peccaret qui non
+<lb ed="#L" n="50"/>dat omnia sua pauperibus, et qui castitatem omnimodam
+<lb ed="#L" n="51"/>non servat: haec enim nobis consuluntur.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>IL. Secundo. Quanto obiectum est melius, tanto et actus
+<lb ed="#L" n="53"/>est virtuosior secundum speciem suam: quia actus speciem
+<lb ed="#L" n="54"/>recipiunt ex obiectis. Finis etiam melior est iis quae sunt
+<lb ed="#L" n="55"/>ad finem: et horum tanto aliquid est melius, quanto 
+pro<lb ed="#L" break="no" n="56"/>pinquius est fini. Ergo inter actus humanos ille est optimus
+<lb ed="#L" n="57"/>qui in ultimum finem, scilicet Deum, immediate fertur:
+<lb ed="#L" n="58"/>post quem, tanto actus est melior secundum suam speciem,
+<lb ed="#L" n="59"/>quanto obiectum est Deo propinquius.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Tertio. Contingit aliquos actus magis aliis ad rationem
+<lb ed="#L" n="61"/>accedere. Ergo etc. — Probatur antecedens. Quia. actus
+<lb ed="#L" n="62"/>rationis magis habent de bono rationis quam actus 
+infe<lb ed="#L" break="no" n="63"/>riorum virium, quibus ratio imperat. - Consequens vero
+<lb ed="#L" n="64"/>probatur: quia bonum in actibus humanis est secundum
+<lb ed="#L" n="65"/>quod ratione regulantur.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Adverte quod nomine actus rationis intelliguntur non
+<lb ed="#L" n="67"/>solum actus intellectus ut distinguuntur a voluntate, sed
+<lb ed="#L" n="68"/>omnes actus practici intellectivae partis: secundum quod
+<lb ed="#L" n="69"/>tota mens humana ratio dicitur.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Quarto. Contingit aliquem magis alio ex maiori 
+dile<lb ed="#L" break="no" n="71"/>ctione quod agendum est agere. Ergo etc. — Probatur
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="72"/>consequentia. Quia praecepta legis optime ex dilectione
+<lb ed="#L" n="73"/>implentur.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>III. Quinto. Contingit intentionem , etiam eandem,
+<lb ed="#L" n="75"/>maiorem esse in uno quam in alio, Ergo etc. - Probatur 
+<lb ed="#L" n="76"/>consequentia: — et est manifesta, si ex voluntate actus
+<lb ed="#L" n="77"/>humani boni redduntur.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Adverte, ex doctrina Sancti Thomae I II, q. xir, quod.  Art. 2.
+<lb ed="#L" n="79"/>nomine intentionis intelligitur actus voluntatis circa finem,
+<lb ed="#L" n="80"/>sive ultimum sive proximum, secundum quod est terminus
+<lb ed="#L" n="81"/>alicuius quod in ipsum ordinat: non solum enim ex hoc
+<lb ed="#L" n="82"/>dicimur intendere sanitatem quia ipsam volumus, sed quia
+<lb ed="#L" n="83"/>volumus ad eam per aliquid aliud pervenire. Cum ergo
+<lb ed="#L" n="84"/>inquit Sanctus Thomas quod contingit eandem intentionem
+<lb ed="#L" n="85"/>maiorem esse in uno quam in alio, non intelligit de eodem
+<lb ed="#L" n="86"/>numero actu voluntatis tendentis in finem, sed de eodem
+<lb ed="#L" n="87"/>secundum speciem. Eundem enim finem vult per aliqua
+<lb ed="#L" n="88"/>media assequi unus maiori fervore et intensiori voluntate
+<lb ed="#L" n="89"/>quam alius: et hoc est eandem intentionem esse maiorem
+<lb ed="#L" n="90"/>in uno quam in alio. Et quia, ceteris paribus, maior et
+<lb ed="#L" n="91"/>ferventior intentio voluntatis circa bonum est melior, ideo
+<lb ed="#L" n="92"/>actus humani, quia voluntate boni redduntur, tanto 
+me<lb ed="#L" break="no" n="93"/>liores sunt, ceteris paribus, quanto maiori intentione 
+vo<lb ed="#L" break="no" n="94"/>luntatis fiunt.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Sexto. Contingit unam virtutem altera meliorem esse.
+<lb ed="#L" n="96"/>Ergo etc. - Patet consequentia. Quia, si ex virtutibus actus
+<lb ed="#L" n="97"/>humani boni redduntur, oportet meliorem esse actum qui
+<lb ed="#L" n="98"/>est melioris virtutis.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Advertendum quod in istis duabus rationibus utitur
+<lb ed="#L" n="100"/>Sanctus "Thomas conditionali ad probationem 
+consequen<lb ed="#L" break="no" n="101"/>tiae, ut ex modo loquendi det intelligere rationem esse ex
+<lb ed="#L" n="102"/>se manifestam, Conveniens enim est in his quae certissime
+<lb ed="#L" n="103"/>tenemus, et ab omnibus conceduntur, hoc modo loquendi
+<lb ed="#L" n="104"/>uti. Dicimus enim quandoque, Si est verum quod Deus
+<lb ed="#L" n="105"/>sit iustus, iste non evadet impunitus : ac si diceremus, Quia
+<lb ed="#L" n="106"/>verissimum est Deum esse iustum, iste suorum scelerum
+<lb ed="#L" n="107"/>poenas dabit,
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Confirmatur conclusio auctoritate I Cor. vir.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>IV. Secundo, ostendit Sanctus Thomas quod non omnia
+<lb ed="#L" n="110"/>etiam peccata sunt paria. Et ait quod hoc eisdem 
+ra<lb ed="#L" break="no" n="111"/>tionibus apparet.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>Primo: cum per unum peccatum magis discedatur a
+<lb ed="#L" n="113"/>fine quam per aliud. In quo tangitur ratio secundae rationi
+<lb ed="#L" n="114"/>superius dictae correspondens. Sicut enim bonitas in actibus
+<lb ed="#L" n="115"/>humanis attenditur secundum accessum ad finem, ita 
+ma<lb ed="#L" break="no" n="116"/>litia secundum recessum a fine attendetur.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Secundo: cum magis pervertatur ordo rationis. In quo
+<lb ed="#L" n="118"/>tangitur ratio tertiae rationi correspondens. Sicut enim
+<lb ed="#L" n="119"/>bonum in actibus humanis est secundum rationem esse,
+<lb ed="#L" n="120"/>ita malum est contra rationem esse.
+</p>
+            <p>
+               <lb ed="#L" n="121"/>Tertio: cum maius nocumentum proximo inferatur. In
+<lb ed="#L" n="122"/>quo tangitur ratio quartae rationi correspondens. Sicut
+<lb ed="#L" n="123"/>enim optime praecepta ex dilectione implentur, ita contra
+<lb ed="#L" n="124"/>ipsa fit quando contra dilectionem agitur, aut Dei aut
+<lb ed="#L" n="125"/>proximi, nocumentum proximo inferendo.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Confirmatur auctoritate Ezech. xvi.
+</p>
+            <p>
+               <lb ed="#L" n="127"/>V. Per hoc excluditur error dicentium omnia merita
+<lb ed="#L" n="128"/>et peccata paria esse.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>Advertendum est quod ista opinio, ut recitat 
+San<lb ed="#L" break="no" n="130"/>ctus Thomas I II', q. 1xxir, a. 2; et Il Sent, d. xyu,a. 5;  Qu. n.
+<lb ed="#L" n="131"/>et in QQ. de Malo, q. 1t, a. 9, fuit primo Stoicorum, quam
+<lb ed="#L" n="132"/>imitatus est etiam Cicero in Paradoxis . Putaverunt enim  Parad. w.
+<lb ed="#L" n="133"/>Stoici virtutem omnino in indivisibili consistere; et ideo,
+<pb ed="#L" n="421"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quantumcumque ab hoc indivisibili discedatur, nihil de 
+bo<lb ed="#L" break="no" n="2"/>nitate remanere. Et sic, cum per. quodlibet peccatum. ab
+<lb ed="#L" n="3"/>hoc indivisibili discedatur, existimaverunt omnia peccata
+<lb ed="#L" n="4"/>esse paria.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Hoc autem fundamentum enervat Sanctus Thomas II
+<lb ed="#L" n="6"/>Sent, . Tum quia falsum est virtutem omnino in 
+indivisi<lb ed="#L" break="no" n="7"/>bili consistere: ut patet per Aristotelem, II Ethicorum .
+<lb ed="#L" n="8"/>— Tum quia, licet illud verum esset, non tamen ratio 
+boni<lb ed="#L" break="no" n="9"/>tatis in indivisibili consistit. Quia contingit perfectionem
+<lb ed="#L" n="10"/>perfectioni superaddi, quarum unaquaeque rationem 
+boni<lb ed="#L" break="no" n="11"/>tatis causat. Et ideo, si duae perfectiones subtrahantur,
+<lb ed="#L" n="12"/>minor remanet bonitas quam si subtrahatur una tantum.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Hunc errorem quidam haeretici imitati, dixerunt nullam
+<lb ed="#L" n="14"/>inaequalitatem esse nec inter peccata, nec inter merita,
+<lb ed="#L" n="15"/>nec inter praemia, nec inter supplicia.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>VI. Quantum ad secundum, adducit Sanctus Thomas
+<lb ed="#L" n="17"/>rationes quibus praedictus error confirmari posset.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Quod enim omnes virtuosi actus sint aequales, hac 
+ra<lb ed="#L" break="no" n="19"/>tione videbitur posse confirmari, quod omnium bonorum
+<lb ed="#L" n="20"/>actuum est idem finis boni.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Quod vero omnia peccata sint paria, hac ratione : quia
+<lb ed="#L" n="22"/>peccatum in actibus humanis accidit ex hoc solo quod
+<lb ed="#L" n="23"/>aliquis praeterit regulam rationis. Ita autem praeterit 
+regu<lb ed="#L" break="no" n="24"/>lam rationis qui in modico a ratione recedit, sicut qui in
+<lb ed="#L" n="25"/>magno. Confirmatur. Quia si alicui statuatur limes quem
+<lb ed="#L" n="26"/>non transgrediatur, nihil refert apud iudicem, sive multum
+<lb ed="#L" n="27"/>sive modicum sit transgressus.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>2. Ad primum inquit Sanctus Thomas, negando 
+con<lb ed="#L" break="no" n="29"/>sequentiam, quod, licet sit unus finis ultimus boni, tamen
+<lb ed="#L" n="30"/>actus qui ex illo bonitatem habent, diversum bonitatis 
+gra<lb ed="#L" break="no" n="31"/>dum accipiunt, secundum quod quaedam sunt aliis meliora,
+<lb ed="#L" n="32"/>et fini ultimo propinquiora. Unde et in actibus voluntatis
+<lb ed="#L" n="33"/>gradus bonitatis erit secundum diversitatem bonorum ad
+<lb ed="#L" n="34"/>quae terminatur voluntas et eius actus.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Advertendum, quod finem boni vocat Sanctus Thomas
+<lb ed="#L" n="36"/>hoc loco finem bonitatis quae est in actibus, ex ordine
+<lb ed="#L" n="37"/>Scilicet ad quem actus habet quod sit bonus. Finis autem
+<lb ed="#L" n="38"/>ultimus, a quo omnia habent bonitatem, est unus, scilicet
+<lb ed="#L" n="39"/>Deus. Sed fines proximi sunt multi: qui inter se gradum
+<lb ed="#L" n="40"/>bonitatis habent ex diversa appropinquatione ad ultimum
+<lb ed="#L" n="41"/>finem. Et ideo ex unitate ultimi finis omnium bonorum
+<lb ed="#L" n="42"/>non potest argui quod omnia bona sint aequalia: nec, per
+<lb ed="#L" n="43"/>consequens, quod omnes actus virtuosi qui circa huiusmodi
+<lb ed="#L" n="44"/>bona sunt, aequales sint in bonitate.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>3. Ad secundum dicit quod in omnibus quorum 
+per<lb ed="#L" break="no" n="46"/>fectio et bonum in quadam commensuratione consistit,
+<lb ed="#L" n="47"/>quanto magis a debita commensuratione receditur, tanto
+<lb ed="#L" n="48"/>maius erit malum. Declaratur in sanitate, pulcritudine, et
+<lb ed="#L" n="49"/>veritate. Bonum autem virtutis in quadam 
+commensura<lb ed="#L" break="no" n="50"/>tione consistit: est enim medium, secundum debitam 
+limi<lb ed="#L" break="no" n="51"/>tationem circumstantiarum, inter contraria vitia constitutum.
+<lb ed="#L" n="52"/>Ideo, quanto magis ab hac harmonia receditur, tanto est
+<lb ed="#L" n="53"/>maior malitia.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Ex hac responsione vult Sanctus Thomas negare 
+con<lb ed="#L" break="no" n="55"/>sequentiam, si minor propositio intelligatur, ut videtur
+<lb ed="#L" n="56"/>intelligenda, secundum similitudinem tantum, scilicet quod,
+<lb ed="#L" n="57"/>sicut qui in modico a ratione recedit regulam rationis 
+prae<lb ed="#L" break="no" n="58"/>terit, ita et qui in magno. — Si autem intelligeretur 
+secun<lb ed="#L" break="no" n="59"/>dum aequalitatem, scilicet quod tantum praeterit regulam
+<lb ed="#L" n="60"/>rationis qui in modico a ratione recedit, quantum praeterit
+<lb ed="#L" n="61"/>qui recedit in magno: falsa esset ipsa minor.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>Ad confirmationem, dicit quod non est simile virtutem
+<lb ed="#L" n="63"/>transgredi, et terminos a iudice positos. Quia, cum virtus
+<lb ed="#L" n="64"/>sit secundum se bonum, ipsam transgredi est secundum se
+<lb ed="#L" n="65"/>malum: transgredi vero terminum a iudice positum, non
+<lb ed="#L" n="66"/>est secundum se malum, sed per accidens, inquantum scilicet
+<lb ed="#L" n="67"/>est prohibitum. In his autem quae sunt per se, necesse
+<lb ed="#L" n="68"/>est ut, sicut simpliciter sequitur ad simpliciter, ita magis
+<lb ed="#L" n="69"/>sequatur ad magis: non autem in his quae sunt per
+<lb ed="#L" n="70"/>accidens.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>VII. Quantum ad tertium, ponit Sanctus Thomas unam
+<lb ed="#L" n="72"/>distinctionem de peccatis: scilicet quod quoddam peccatum
+<lb ed="#L" n="73"/>est mortale, quoddam vero est veniale . Peccatum mortale
+<lb ed="#L" n="74"/>est quod animam spirituali vita privat. Et quia spiritualis
+<lb ed="#L" n="75"/>vita animae consistit in hoc quod voluntas per dilectionem
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Deo et proximo inhaereat, ut declaratur ex similitudine
+<lb ed="#L" n="77"/>corporalis vitae, ideo quaecumque peccata intentioni ultimi
+<lb ed="#L" n="78"/>finis et dilectioni opponuntur, mortalia sunt. Si vero, his
+<lb ed="#L" n="79"/>salvis, aliquis in aliquo recto ordine rationis deficiat, 
+ve<lb ed="#L" break="no" n="80"/>niale peccatum erit.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>VII. Ad evidentiam huius distinctionis, advertendum
+<lb ed="#L" n="82"/>primo, ex doctrina Sancti Thomae I II', q. xxn  ; II Sent.,
+<lb ed="#L" n="83"/>d. xui: ; et de Malo, q. vir , quod ista nomina mortale
+<lb ed="#L" n="84"/>et veniale important differentias reatus peccati: dicimus
+<lb ed="#L" n="85"/>enim peccatum veniale quod est dignum venia, idest,
+<lb ed="#L" n="86"/>quod non excludit terminationem poenae; mortale autem
+<lb ed="#L" n="87"/>quod est dignum morte, idest, poenam aeternam meretur,
+<lb ed="#L" n="88"/>et terminationem poenae excludit. Unde, quia reatus non
+<lb ed="#L" n="89"/>est ipsa essentia peccati, sed ipsam consequitur, mortale et
+<lb ed="#L" n="90"/>veniale non sunt differentiae essentiales peccati, sed 
+acci<lb ed="#L" break="no" n="91"/>dentales: prout omnis differentia quae. non est de essentia
+<lb ed="#L" n="92"/>rei, dicitur illi accidentalis. Sed licet istae differentiae sint
+<lb ed="#L" n="93"/>extra essentiam peccati, inter se tamen essentialiter 
+distin<lb ed="#L" break="no" n="94"/>guuntur: sicut albedo et nigredo sunt inter se essentialiter
+<lb ed="#L" n="95"/>distincta, et tamen accidentaliter tantum dividunt animal
+<lb ed="#L" n="96"/>cum per album et nigrum dividitur.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>2. Considerandum secundo, quod istae differentiae 
+mor<lb ed="#L" break="no" n="98"/>talis et venialis aliquando consequuntur ipsam specificam 
+dif<lb ed="#L" break="no" n="99"/>ferentiam peccatorum secundum se: aliquando autem non
+<lb ed="#L" n="100"/>consequuntur differentiam specificam, sed in una et eadem
+<lb ed="#L" n="101"/>specie peccati inveniuntur. Quando differentiam 
+peccato<lb ed="#L" break="no" n="102"/>rum specificam consequuntur, ipsa peccata dicuntur talia
+<lb ed="#L" n="103"/>ex genere. Unde dicitur quod aliquod peccatum ex genere
+<lb ed="#L" n="104"/>est mortale, aliquod vero est ex suo genere veniale: non
+<lb ed="#L" n="105"/>quidem quod ista sit divisio generis in species, sed analogi
+<lb ed="#L" n="106"/>in sua significata. Et quia genus et species peccati sumitur
+<lb ed="#L" n="107"/>ex obiecto, illud dicitur ex suo genere mortale, sive dignum
+<lb ed="#L" n="108"/>morte aeterna, quod est circa materiam repugnantem fini
+<lb ed="#L" n="109"/>humanorum actuum, qui est caritas sive dilectio Dei et
+<lb ed="#L" n="110"/>proximi, quia tollit principium vitae spiritualis, scilicet
+<lb ed="#L" n="111"/>caritatem, quo remoto, non potest anima ex principio 
+in<lb ed="#L" break="no" n="112"/>trinseco sanari. lllud vero dicitur ex genere veniale quod
+<lb ed="#L" n="113"/>est circa materiam quae huic fini non contrariatur, licet
+<lb ed="#L" n="114"/>habeat aliquam deordinationem, dum caret debito ordine
+<lb ed="#L" n="115"/>ad finem: tale enim non removet principium vitae 
+spiri<lb ed="#L" break="no" n="116"/>tualis; ideo, quantum est ex se, sanari potest.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>Quando autem mortale et veniale non consequuntur
+<lb ed="#L" n="118"/>differentiam specificam peccatorum, sed in una et eadem
+<lb ed="#L" n="119"/>specie peccati inveniuntur, non dicitur peccatum utrumque
+<lb ed="#L" n="120"/>horum ex suo genere, sed dicitur esse unum ex suo 
+ge<lb ed="#L" break="no" n="121"/>nere, alterum vero ex parte peccantis, et per accidens.
+<lb ed="#L" n="122"/>Cum enim contingit aliquem peccare circa materiam 
+ca<lb ed="#L" break="no" n="123"/>ritati repugnantem non ex deliberatione, sicut contingit in
+<lb ed="#L" n="124"/>subitis motibus, tunc tale peccatum est veniale ex parte
+<lb ed="#L" n="125"/>agentis: licet aliud peccatum sibi,simile in specie sit 
+pec<lb ed="#L" break="no" n="126"/>catum mortale. Unde tale peccatum, quod in particulari
+<lb ed="#L" n="127"/>consideratum est veniale per accidens propter actus 
+im<lb ed="#L" break="no" n="128"/>perfectionem, dicitur esse de genere peccati mortalis. —
+<lb ed="#L" n="129"/>Similiter, cum accidit aliquem peccare circa materiam non
+<lb ed="#L" n="130"/>repugnantem caritati, constituendo in ipso finem ultimum,
+<lb ed="#L" n="131"/>vel ipsum ordinando ad aliquod peccatum mortale ex suo
+<lb ed="#L" n="132"/>genere, puta cum quis ordinat verbum otiosum ad 
+adul<lb ed="#L" break="no" n="133"/>terium committendum; tunc tale peccatum est quidem de
+<lb ed="#L" n="134"/>genere peccati venialis, sed propter perversam intentionem
+<lb ed="#L" n="135"/>agentis est mortale per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>3. Considerandum tertio quod, cum multa accidant
+<lb ed="#L" n="137"/>peccato substanti huic differentiae accidentali quae est
+<lb ed="#L" n="138"/>mortale, et multa accidant peccato substanti huic accidenti
+<lb ed="#L" n="139"/>quod est veniale; hoc loco investigavit Sanctus Thomas
+<lb ed="#L" n="140"/>solas essentiales rationes peccatorum ad quas originaliter
+<lb ed="#L" n="141"/>mortalis et venialis differentiae consequuntur per se, ut
+<lb ed="#L" n="142"/>possint dici talia ex suo genere, et secundum quas habeant
+<lb ed="#L" n="143"/>distingui essentialiter non solum ipsae differentiae quae
+<lb ed="#L" n="144"/>his nominibus mortale et veniale formaliter importantur,
+<lb ed="#L" n="145"/>sed etiam ipsa peccata quae huiusmodi substant differentiis.
+<lb ed="#L" n="146"/>Et quia istae rationes sunt, esse actum voluntarium circa
+<lb ed="#L" n="147"/>materiam repugnantem caritati, et, esse actum voluntarium
+<lb ed="#L" n="148"/>circa materiam non repugnantem caritati ; ideo hanc solam
+<lb ed="#L" n="149"/>distinctionem mortalis et venialis peccati assignavit, omnibus
+<lb ed="#L" n="150"/>aliis praetermissis. Sic enim constat quod mortale et ve-
+<pb ed="#L" n="422"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>niale, non solum formaliter, sed etiam materialiter sumpta,
+<lb ed="#L" n="2"/>habent oppositionem ad invicem, nec possunt im unam
+<lb ed="#L" n="3"/>speciem peccati convenire: quamvis ex parte agentis, in
+<lb ed="#L" n="4"/>eadem specie aliquid sit mortale, et aliquid veniale. :
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Ex quo patet posse dici ad argumenta Aureoli, recitata
+<ref>Capreolo, xuut dist. II Sent.</ref>, quibus probat peccatum
+<lb ed="#L" n="6"/>essentialiter dividi per mortale et veniale, quod utique
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="7"/>verum concludunt, licet non bene. Est enim verum quod
+<lb ed="#L" n="8"/>istae differentiae mortale et veniale inter se essentialiter
+<lb ed="#L" n="9"/>distinguuntur, Est etiam verum quod illa peccata quae
+<lb ed="#L" n="10"/>per se illis differentiis substant, quae scilicet ex suo genere
+<lb ed="#L" n="11"/>dicuntur talia, essentialiter sunt distincta. Non est autem
+<lb ed="#L" n="12"/>verum de ipsis secundum quod ex parte agentis peccatum
+<lb ed="#L" n="13"/>mortale aut veniale sunt distincta. :
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

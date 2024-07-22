@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 144</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 144</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="430"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2884"><!-- ferv7a-l3c144 -->
+            <head>Capitulum 144</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="97" type="fixed=430"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="98"/>SECUNDO loco, ostendit Sanctus Thomas eam poenam
+<lb ed="#L" n="99"/>qua quis ultimo fine privatur, interminabilem esse.
+<lb ed="#L" n="100"/>Circa hoc autem duo facit: primo, propositum ostendit;
+<lb ed="#L" n="101"/>secundo, quaedam obiecta refellit .
+</p>
+            <p>
+               <lb ed="#L" n="102"/>I. Arguit ergo primo sic. Privatio ultimi finis non est
+<lb ed="#L" n="103"/>poena nisi post hanc vitam. Sed post hanc vitam, non
+<lb ed="#L" n="104"/>remanet homini facultas illius adipiscendi. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Probatur maior. Quia ultimum finem non est homo
+<lb ed="#L" n="106"/>natus consequi in hac vita, ut est superius ostensum. Pri-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="107"/>vatio autem alicuius non est nisi quando natum est haberi. —
+<lb ed="#L" n="108"/>Minor vero probatur: quia anima indiget corpore ad 
+con<lb ed="#L" break="no" n="109"/>secutionem sui finis, inquantum per ipsum perfectionem
+<lb ed="#L" n="110"/>in scientia et virtute acquirit. Postquam autem fuerit 
+se<lb ed="#L" break="no" n="111"/>parata, non redit iterum ad hunc statum quod per corpus
+<lb ed="#L" n="112"/>perfectionem acquirat.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>2. Ad huius rationis evidentiam, considerandum est quod
+<lb ed="#L" n="114"/>in ipsa attendit Sanctus Thomas communem hominis 
+con<lb ed="#L" break="no" n="115"/>ditionem, quae est ut per actus virtutum, qualescumque
+<pb ed="#L" n="431"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>esse possunt in nobis virtutes sine gratia et caritate, homo
+<lb ed="#L" n="2"/>gratia et caritate privatus, et liberi arbitrii usum habens,
+<lb ed="#L" n="3"/>se ad horum susceptionem a Deo praeparet, ipso tamen
+<lb ed="#L" n="4"/>Deo ad hoc animam movente, et sic per opera caritate
+<lb ed="#L" n="5"/>informata ad ultimi finis consecutionem perveniat. Constat
+<lb ed="#L" n="6"/>autem quod hoc absque corpore fieri non potest: cum
+<lb ed="#L" n="7"/>anima non acquirat eiusmodi virtutes, quarum in seipsa
+<lb ed="#L" n="8"/>naturalia habet semina, nisi actibus corporeis multiplicatis ;
+<lb ed="#L" n="9"/>et voluntatis sufficiens motus ad susceptionem gratiae et
+<lb ed="#L" n="10"/>iustificationis, esse non possit nisi viribus animae per
+<lb ed="#L" n="11"/>huiusmodi exercitia debite dispositis et regulatis. Et ideo,
+<lb ed="#L" n="12"/>cum post hanc vitam non sit status acquirendi virtutes
+<lb ed="#L" n="13"/>per corporeos actus, licet quandoque anima sit corpori 
+reu<lb ed="#L" break="no" n="14"/>nienda, cum ille non sit status viae et perfectionis. 
+acqui<lb ed="#L" break="no" n="15"/>rendae, sed termini: optime constat hominem post hanc
+<lb ed="#L" n="16"/>vitam gratiam et caritatem adipisci non posse; et per
+<lb ed="#L" n="17"/>consequens quod in perpetuum ultimo fine privatus 
+ma<lb ed="#L" break="no" n="18"/>nebit. Et hoc est huius rationis fundamentum.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>II. Secundo. In natura animae et angeli est ordo ad 
+ul<lb ed="#L" break="no" n="20"/>timum finem, qui est Deus. Ergo, si ab hoc ordine decidat
+<lb ed="#L" n="21"/>per aliquam poenam, in perpetuum talis poena manebit.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Probatur consequentia. Quia, si quis privatur eo quod est
+<lb ed="#L" n="23"/>in natura eius ut habeatur, impossibile est illud reparari nisi
+<lb ed="#L" n="24"/>prius fiat-resolutio in praeiacentem materiam, ut iterum de
+<lb ed="#L" n="25"/>novo idem specie generetur. Patet in animali amittente 
+vi<lb ed="#L" break="no" n="26"/>sum. Res autem spiritualis, ut anima vel angelus, non potest
+<lb ed="#L" n="27"/>in materiam praeiacentem per aliquam corruptionem resolvi.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>III. Circa istam rationem dubitatur. Cum enim dicitur
+<lb ed="#L" n="29"/>in antecedente quod in natura animae et angeli est ordo
+<lb ed="#L" n="30"/>ad ultimum finem, qui est Deus: aut intelligitur de ordine
+<lb ed="#L" n="31"/>quod est ex gratia et caritate, secundum quae homo ad
+<lb ed="#L" n="32"/>beatitudinem ordinatur; aut de ordine solius naturae, quo
+<lb ed="#L" n="33"/>modo dicimus naturam spiritualem ex se esse beatitudinis
+<lb ed="#L" n="34"/>capacem. Si accipiatur primo modo, tunc falsum est 
+antece<lb ed="#L" break="no" n="35"/>dens: nam caritas et gratia non sunt perfectiones naturales
+<lb ed="#L" n="36"/>hominis, ut ordo ad Deum in ipsis fundatus possit dici a 
+na<lb ed="#L" break="no" n="37"/>tura inesse spirituali substantiae. - Si vero secundo modo
+<lb ed="#L" n="38"/>accipiatur, falsum est quod ratio supponit: scilicet quod
+<lb ed="#L" n="39"/>anima post hanc vitam illo ordine privetur quae cum 
+mor<lb ed="#L" break="no" n="40"/>tali decessit. Nam, cum ille ordo fundetur et radicetur in
+<lb ed="#L" n="41"/>natura animae, manente natura, manet et ipse ordo. In
+<lb ed="#L" n="42"/>damnatis autem constat quod natura animae manet.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>2. Respondetur quod intelligitur de ordine solius 
+na<lb ed="#L" break="no" n="44"/>turae, et non de ordine consequente perfectionem 
+super<lb ed="#L" break="no" n="45"/>additam naturae. Quomodo autem ordo huiusmodi possit
+<lb ed="#L" n="46"/>dici naturalis, ostensum est in superioribus .
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Sed attendendum est quod de tali ordine, qui nihil
+<lb ed="#L" n="48"/>aliud est quam habilitas quaedam animae ad susceptionem
+<lb ed="#L" n="49"/>gratiae, et divinae fruitionis mediante gratia, dupliciter loqui
+<lb ed="#L" n="50"/>possumus: uno modo, quantum ad ipsam habitudinem
+<lb ed="#L" n="51"/>secundum se, et secundum suam radicem; alio modo, 
+quan<lb ed="#L" break="no" n="52"/>tum ad exitum ipsius ad actum.. Primo modo, non potest
+<lb ed="#L" n="53"/>tolli: ut ostendit Sanctus Thomas Prima, q. xrvur, a. 4; et
+<lb ed="#L" n="54"/>I IF, q. xxxv, a. 1 et 2; de Malo, q. 1t, a. 12; et II Sent,
+<lb ed="#L" n="55"/>d. xxxiv . Secundo autem modo, tolli potest.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Attendendum secundo, quod hunc exitum istius ordinis
+<lb ed="#L" n="57"/>ad actum tolli, dupliciter possumus intelligere: uno modo,
+<lb ed="#L" n="58"/>propter defectum ipsius ordinis; alio modo, propter aliquod
+<lb ed="#L" n="59"/>extrinsecum impediens; sicut quod aer non possit 
+illumi<lb ed="#L" break="no" n="60"/>nari, possemus intelligere aut propter defectum potentiae
+<lb ed="#L" n="61"/>sive habilitatis aeris ad lucem; aut propter aliquod 
+obsta<lb ed="#L" break="no" n="62"/>culum impediens, aut propter solis absentiam. Ordo ergo
+<lb ed="#L" n="63"/>animae ad ultimum finem, qui est Deus, non potest tolli
+<lb ed="#L" n="64"/>quantum ad exitum ad actum propter defectum ipsius
+<lb ed="#L" n="65"/>habilitatis animae ad gratiam et beatitudinem, quia ista
+<lb ed="#L" n="66"/>habilitas semper manet in anima quantum ad suam 
+ra<lb ed="#L" break="no" n="67"/>dicem: et sic decedens cum peccato mortali non privatur
+<lb ed="#L" n="68"/>tali ordine. Sed bene potest tolli propter aliquod 
+impedi<lb ed="#L" break="no" n="69"/>mentum: scilicet propter peccatum mortale, inter hominem
+<lb ed="#L" n="70"/>et Deum per modum obstaculi interpositum; et propter
+<lb ed="#L" n="71"/>subtractionem influxus divini. Et quia obstaculum peccati
+<lb ed="#L" n="72"/>in damnatis est perpetuum; et subtractio etiam divini 
+in<lb ed="#L" break="no" n="73"/>fluxus est perpetua: ideo ordo animae ad beatitudinem
+<lb ed="#L" n="74"/>nunquam in damnatis in actum exiet; et sic privatio talis
+<lb ed="#L" n="75"/>ordinis, modo praedicto, in eis erit perpetua.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>3. Quod autem hoc sit de. mente Sancti Thomae, patet,
+<lb ed="#L" n="77"/>quia in Qu. de Malo, loco allegato, ad 6, ait quod 
+impos<lb ed="#L" break="no" n="78"/>sibilitas ad gratiam quae est. in damnatis, non est ex totali
+<lb ed="#L" n="79"/>subtractione habilitatis. naturae ad bonum, sed ex 
+obsti<lb ed="#L" break="no" n="80"/>natione voluntatis in malo, et ex immobilitate | divinae
+<lb ed="#L" n="81"/>sententiae ne eis in perpetuum gratia apponatur. Et Prima
+<lb ed="#L" n="82"/>Secundae, loco praeallegato , ad 3, ait quod £n damnatis
+<lb ed="#L" n="83"/>manet naturalis inclinatio ad virtutem. Quod autem non
+<lb ed="#L" n="84"/>reducatur in actum, contingit quia deest gratia, secundum
+<lb ed="#L" n="85"/>divinam . iustitiam. Et dat exemplum de caeco, im quo
+<lb ed="#L" n="86"/>remanet aptitudo. ad videndum in ipsa radice naturae,
+<lb ed="#L" n="87"/>inquantum est animal naturaliter habens visum: sed non
+<lb ed="#L" n="88"/>reducitur in actum, quia deest causa nte ema reducere
+<lb ed="#L" n="89"/>in actum formando organum.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>4. Sensus ergo rationis est quod, quia is qui cum mortali
+<lb ed="#L" n="91"/>decedit, per poenam, sive per divinam punitionem, privatur
+<lb ed="#L" n="92"/>ordine naturali ad beatitudinem quantum ad exitum ad
+<lb ed="#L" n="93"/>actum, sic exigente divina iustitia, oportet (idest, decens et
+<lb ed="#L" n="94"/>iustum. est) ut tali ordine in perpetuum privetur: propter
+<lb ed="#L" n="95"/>defectum scilicet causae agentis, non quidem quae non
+<lb ed="#L" n="96"/>possit, absolute loquendo, illum ordinem ad actum reducere;
+<lb ed="#L" n="97"/>sed quae immobili voluntate statuit non dare beatitudinem
+<lb ed="#L" n="98"/>decedenti in mortali; sicut non potest habilitas naturae
+<lb ed="#L" n="99"/>hominis caeci ad actum reduci propter defectum causae
+<lb ed="#L" n="100"/>non potentis hoc facere.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Et attendendum quod haec ratio ex quadam similitudine
+<lb ed="#L" n="102"/>et proportione ad ea quae omnino naturalia -sunt, 
+pro<lb ed="#L" break="no" n="103"/>cedit. Sicut enim, quando quis privatur eo quod sibi 
+na<lb ed="#L" break="no" n="104"/>turaliter et per actionem agentis naturalis debet convenire,
+<lb ed="#L" n="105"/>non potest per agens naturale ad illud reparari, sicut
+<lb ed="#L" n="106"/>ostenditur de eo qui amittit visum; ita, quando anima
+<lb ed="#L" n="107"/>privatur per iustam sententiam ordine sibi naturali ex parte
+<lb ed="#L" n="108"/>subiecti, sed supernaturali ex parte obiecti et agentis, qualis
+<lb ed="#L" n="109"/>est ordo ad supernaturalem beatitudinem, conveniens est ut
+<lb ed="#L" n="110"/>talis ordo nunquam reparetur per agens voluntarium cuius
+<lb ed="#L" n="111"/>erat talem ordinem ad actum reducere.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>IV. Sed tunc resultat dubium. Sicut enim in natura
+<lb ed="#L" n="113"/>animae est ut habeat ordinem ad beatitudinem, ita in eius
+<lb ed="#L" n="114"/>natura est ut ordinem habeat ad gratiam: quia sicut est
+<lb ed="#L" n="115"/>susceptiva et capax beatitudinis.a Deo, ita est et gratiae
+<lb ed="#L" n="116"/>capax. Sed constat quod ordo animae ad gratiam 
+repa<lb ed="#L" break="no" n="117"/>ratur in hac vita, quo tamen homo iuste propter peccatum
+<lb ed="#L" n="118"/>mortale privatur. Ergo et ordo ad beatitudinem reparari
+<lb ed="#L" n="119"/>potest. Et sic ratio non concludit.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Ad hoc dicitur primo, quod peccans mortaliter, 
+quan<lb ed="#L" break="no" n="121"/>tum est ex se, privatur etiam gratia irreparabiliter: et per
+<lb ed="#L" n="122"/>consequens ordine ad ipsam quantum ad exitum ad actum.
+<lb ed="#L" n="123"/>Facit'enim se mortaliter peccans indignum et divina gratia,
+<lb ed="#L" n="124"/>et beatitudine, ad quam per ipsam poterat pervenire, 
+po<lb ed="#L" break="no" n="125"/>nendo peccati mortalis obstaculum inter se et Deum, quod
+<lb ed="#L" n="126"/>per se removere non potest.
+</p>
+            <p>
+               <lb ed="#L" n="127"/>Dicitur secundo, quod licet, quantum est ex parte 
+pec<lb ed="#L" break="no" n="128"/>cantis, privatio gratiae perpetua esse debeat; quia tamen
+<lb ed="#L" n="129"/>Deus, quandiu status mortalis vitae durat, voluit ex 
+mise<lb ed="#L" break="no" n="130"/>ricordia ut homo sit viator, possitque ad gratiam redire;
+<lb ed="#L" n="131"/>ideo gratia qua quis per peccatum privatur, reparabilis est
+<lb ed="#L" n="132"/>quantum est ex parte Dei, volentis eam praeparanti se
+<lb ed="#L" n="133"/>dare, et hominem ad huiusmodi praeparationem moventis.
+<lb ed="#L" n="134"/>In statu autem animae post hanc vitam, quia est status
+<lb ed="#L" n="135"/>termini et non viae, non solum ordo ad beatitudinem 
+re<lb ed="#L" break="no" n="136"/>parari non potest, sed nec etiam ordo ad gratiam. Quia
+<lb ed="#L" n="137"/>ergo Sanctus Thomas loquitur de: privatione ultimi finis
+<lb ed="#L" n="138"/>post hanc vitam, quando scilicet est homini in poenam ;
+<lb ed="#L" n="139"/>et in illo statu, ratione ipsius status, non convenit reparatio
+<lb ed="#L" n="140"/>ordinis amissi: idcirco conclusit talem ordinem, qui 
+quan<lb ed="#L" break="no" n="141"/>tum est ex parte peccantis irreparabilis est, absolute 
+re<lb ed="#L" break="no" n="142"/>parari non. posse.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>V. Tertio. Naturalis aequitas habet ut unusquisque
+<lb ed="#L" n="144"/>privetur bono contra quod agit.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>Probatur. Tum quia reddit se tali bono indignum. —
+<lb ed="#L" n="146"/>Tum exemplo agentis contra rempublicam. Ergo qui contra
+<lb ed="#L" n="147"/>ultimum finem peccat, et contra caritatem, per quam est
+<lb ed="#L" n="148"/>societas Beatorum et tendentium ad beatitudinem, in 
+aeter<lb ed="#L" break="no" n="149"/>num debet puniri, quamvis aliqua brevi temporis mora
+<lb ed="#L" n="150"/>peccaverit,
+</p>
+            <p>
+               <pb ed="#L" n="432"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Attendendum quod per ultima verba, et per ea quae | 
+<lb ed="#L" n="2"/>rationi interposita sunt, vult Sanctus Thomas unam obie- | 
+<lb ed="#L" n="3"/>ctionem excludere. Posset enim aliquis arguere quod, licet 
+<lb ed="#L" n="4"/>quis mereatur per peccatum mortale privari beatitudine, | 
+<lb ed="#L" n="5"/>contra quam agit, non tamen debet perpetuo ipsa privari, | 
+<lb ed="#L" n="6"/>sed ad tempus: quia poena debet correspondere peccato; | 
+<lb ed="#L" n="7"/>peccatum autem non est perpetuum, sed quandoque brevi | 
+<lb ed="#L" n="8"/>temporis mora perficitur. 
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Respondet Sanctus Thomas quod poenam non oportet | 
+<lb ed="#L" n="10"/>respondere peccato quantum ad durationem. Quod patet | 
+<lb ed="#L" n="11"/>etiam in humanis legibus. Nam qui contra rempublicam 
+<lb ed="#L" n="12"/>peccat, societate reipublicae per civilem iustitiam privatur | 
+<lb ed="#L" n="13"/>omnino, vel per mortem vel per exilium perpetuum: quia | 
+<lb ed="#L" n="14"/>non consideratur quanta fuerit mora temporis in peccando, | 
+<lb ed="#L" n="15"/>sed quid sit contra quod peccavit. Est autem, ut hic 
+di<lb ed="#L" break="no" n="16"/>citur, eadem comparatio totius vitae praesentis ad 
+rem<lb ed="#L" break="no" n="17"/>publicam terrenam, et totius aeternitatis ad societatem 
+<lb ed="#L" n="18"/>Beatorum. Et ideo, sicut per totam vitam praesentem 
+re<lb ed="#L" break="no" n="19"/>publica privatur qui contra ipsam agit, ita societate 
+Bea<lb ed="#L" break="no" n="20"/>torum privari aeternaliter debet qui contra ipsam peccat.  
+<lb ed="#L" n="21"/>— Quod autem dicitur, poenam debere correspondere 
+pec<lb ed="#L" break="no" n="22"/>cato, intelligitur secundum. acerbitatem : ut dicitur I II, 
+<lb ed="#L" n="23"/>q. nxxxvi, a. 3, ad 1.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>VI. Quarto. Mortaliter peccans ita puniri debet ac si | 
+<lb ed="#L" n="25"/>aeternaliter peccasset. Ergo etc. - Patet consequentia. Quia | 
+<lb ed="#L" n="26"/>nulli dubium est quin pro aeterno peccato poena aeterna | 
+<lb ed="#L" n="27"/>debeatur. — Antecedens vero probatur: quia apud divinum | 
+<lb ed="#L" n="28"/>iudicium voluntas pro facto computatur. Qui autem propter | 
+<lb ed="#L" n="29"/>temporale bonum aversus est ab ultimo fine, qui in aeter- | 
+</p>
+            <p>
+               <lb ed="#L" n="30"/>num possidetur, praeposuit illius fruitionem fruitioni ultimi 
+<lb ed="#L" n="31"/>finis. Et sic patet quod multo magis voluisset in aeternum | 
+<lb ed="#L" n="32"/>illo bono temporali frui. 
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Circa istam propositionem, Apud divinum. iudicium 
+<lb ed="#L" n="34"/>voluntas pro facto computatur, considerandum est, ex 
+<lb ed="#L" n="35"/>doctrina Sancti Thomae I I4, q. xx, a. 4, quod intelligitur  
+<lb ed="#L" n="36"/>quando voluntas perfecta est et completa, et non cessatur  
+<lb ed="#L" n="37"/>ab actu exteriori nisi propter impossibilitatem faciendi.  
+<lb ed="#L" n="38"/>Propter hoc enim quod, voluntate existente perfecta, homo 
+<lb ed="#L" n="39"/>cessat ab actu exteriori propter impotentiam faciendi, nihil  
+<lb ed="#L" n="40"/>diminuitur de merito aut de culpa. Et ideo, quia Deus  
+<lb ed="#L" n="41"/>corda hominum intuetur; et non solum actuum exteriorum  
+<lb ed="#L" n="42"/>remunerator est, sed etiam interiorum: ideo, quantum ad  
+<lb ed="#L" n="43"/>inflictionem poenae aut dationem praemii apud ipsum 
+<lb ed="#L" n="44"/>tantum praemiatur voluntas huiusmodi sine opere, 
+quan<lb ed="#L" break="no" n="45"/>tum praemiaretur etiam si opus adesset, ceteris paribus  
+<lb ed="#L" n="46"/>ex parte voluntatis. Apud humanum autem iudicium non 
+<lb ed="#L" n="47"/>est sic. Quia enim homines ea tantum quae exterius aguntur  
+<lb ed="#L" n="48"/>intuentur, ideo solum de exterioribus actionibus habent 
+<lb ed="#L" n="49"/>iudicare: et per consequens illas tantum praemiare habent  
+<lb ed="#L" n="50"/>vel punire. 
+</p>
+            <p>
+               <lb ed="#L" n="51"/>VII. Quinto. Praemium virtutis, scilicet beatitudo, est 
+<lb ed="#L" n="52"/>aeterna. Ergo et poena qua quis a beatitudine excluditur,  
+<lb ed="#L" n="53"/>debet esse aeterna. — Probatur consequentia. Quia eadem  
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="54"/>iustitiae ratione poena peccatis redditur, et bonis actibus
+<lb ed="#L" n="55"/>praemium,
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Adverte quod ad iustitiam distributivam pertinet mala et
+<lb ed="#L" n="57"/>bona unicuique aequaliter secundum proportionem dare:
+<lb ed="#L" n="58"/>idest, ut quanto quis virtuosius operatur, tanto sibi magis
+<lb ed="#L" n="59"/>de bono tribuatur; et quanto quis magis peccat, tanto
+<lb ed="#L" n="60"/>magis affligatur poena. Propter hoc inquit Sanctus Thomas
+<lb ed="#L" n="61"/>eadem iustitiae ratione poenam peccatis reddi, et bonis
+<lb ed="#L" n="62"/>actibus praemium.
+</p>
+            <p>
+               <lb ed="#L" n="63"/>CowrigMaruR conclusio auctoritate Matthaei xxv. '
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Per hoc excluditur opinio dicentium poenas malorum
+<lb ed="#L" n="65"/>esse quandoque terminandas. Quae opinio processisse 
+vi<lb ed="#L" break="no" n="66"/>detur a quibusdam philosophis dicentibus omnes poenas
+<lb ed="#L" n="67"/>purgatorias esse, et per consequens terminandas.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>VIII. Quantum ad secundum , adducit Sanctus Thomas
+<lb ed="#L" n="69"/>rationes quasdam pro praedicta positione, et eas solvit.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>Prima est, quia poenae humanis legibus inferuntur ad
+<lb ed="#L" n="71"/>emendationem vitiorum.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Secunda est, quia oportet poenam propter aliud inferri :
+<lb ed="#L" n="73"/>alioquin Deus propter se delectaretur in poenis; quod  
+<lb ed="#L" n="74"/>divinae derogat bonitati. Non videtur autem alius 
+conve<lb ed="#L" break="no" n="75"/>nientior finis quam emendatio vitiorum.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>2. Ad secundum horum respondet quod utique poenae
+<lb ed="#L" n="77"/>propter aliud inferuntur: non autem propter 
+emendatio<lb ed="#L" break="no" n="78"/>nem vitiorum, sed propter ordinem imponendum creaturis,
+<lb ed="#L" n="79"/>qui exigit ut proportionaliter ipsis omnia dispensentur, ut
+<lb ed="#L" n="80"/>patet Sap. xi; ut scilicet, sicut praemia proportionaliter
+<lb ed="#L" n="81"/>bonis actibus respondent, ita poena malis respondeat; et
+<lb ed="#L" n="82"/>quibusdam malis poena sempiterna, ut est ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Ad primum vero dicit quod, si quis concedat omnes
+<lb ed="#L" n="84"/>poenas non ad aliud quam ad emendationem vitiorum
+<lb ed="#L" n="85"/>induci, non tamen cogitur ponere omnes poenas 
+purga<lb ed="#L" break="no" n="86"/>tivas esse et terminandas, ut ratio infert. Quod ostenditur
+<lb ed="#L" n="87"/>quia, sicut secundum humanas leges aliqui morte 
+pu<lb ed="#L" break="no" n="88"/>niuntur, non quidem ad emendationem sui, sed aliorum,
+<lb ed="#L" n="89"/>ut etiam patet Prov. xix; aliqui etiam a civitate perpetuo
+<lb ed="#L" n="90"/>ex ilio excluduntur ad maiorem civitatis puritatem, 
+secun<lb ed="#L" break="no" n="91"/>dum consilium Prov. xxi: ita etiam secundum divinum
+<lb ed="#L" n="92"/>iudicium nihil prohibet aliquos a societate bonorum 
+per<lb ed="#L" break="no" n="93"/>petuo separari et in aeternum puniri, ut homines timore
+<lb ed="#L" n="94"/>eiusmodi poenae peccare desistant, et societas bonorum
+<lb ed="#L" n="95"/>purior ex eorum separatione reddatur, ut dicitur Apoc. xx.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>3. Ex hac responsione vult habere Sanctus "Thomas id
+<lb ed="#L" n="97"/>quod I II, q. rxxxvir, a. 2  et 3 , et alibi expresse ponit:
+<lb ed="#L" n="98"/>scilicet quod poena non semper est ad emendationem eius
+<lb ed="#L" n="99"/>qui punitur, nec est semper ei medicinalis; sed bene est
+<lb ed="#L" n="100"/>ad aliorum emendationem, ut saltem metu poenae peccare
+<lb ed="#L" n="101"/>desistant. Et ideo non oportet ponere omnes poenas 
+pur<lb ed="#L" break="no" n="102"/>gatorias esse, tanquam sint medicinae eius qui punitur,
+<lb ed="#L" n="103"/>ad eius salutem ordinatae: sed sunt quaedam poenae quae
+<lb ed="#L" n="104"/>punitiones tantum sunt, et solum rationem poenae habent;
+<lb ed="#L" n="105"/>sicut latro suspenditur, non ad eius emendationem, sed
+<lb ed="#L" n="106"/>ut alii timore poenae desistant a furto.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

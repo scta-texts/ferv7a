@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 121</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 121</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="377"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2696"><!-- ferv7a-l3c121 -->
+            <head>Capitulum 121</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="44" type="fixed=377"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="45"/>POSTQUAM determinavit Sanctus Thomas de divina lege
+<lb ed="#L" n="46"/>P quantum ad praecepta quibus homo ordinatur ad
+<lb ed="#L" n="47"/>Deum, vult de ipsa determinare quantum ad praecepta
+<lb ed="#L" n="48"/>ordinantia hominem in proximum .
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Circa hoc autem duo facit: primo, praemittit quoddam
+<lb ed="#L" n="50"/>necessarium; secundo, prosequitur intentum, cap. cxxvim. 
+<lb ed="#L" n="51"/>— Praemittit autem quod ad legem Dei pertinet ordinare
+<lb ed="#L" n="52"/>hominem circa corporalia et sensibilia.
+<lb ed="#L" n="53"/>Sed circa hoc duo facit: primo, ostendit in generali
+<lb ed="#L" n="54"/>quod ad legem divinam pertinet ordinare hominem circa 
+<lb ed="#L" n="55"/>corporalium et sensibilium affectionem et usum ; secundo,
+<lb ed="#L" n="56"/>quomodo ordinet hominem circa venereorum et ciborum 
+<lb ed="#L" n="57"/>usum particulariter ostendit, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>I. Quantum ad primum, arguit primo sic. Corporalium
+<lb ed="#L" n="59"/>et sensibilium indebitus usus mentem vel a Deo totaliter
+<lb ed="#L" n="60"/>abstrahit, dum in ipsis constituitur voluntatis finis; vel
+<lb ed="#L" n="61"/>mentis intentionem a Deo retardat, dum ultra quam 
+ne<lb ed="#L" break="no" n="62"/>cesse est, ad huiusmodi res afficimur. Ergo ad legem 
+di<lb ed="#L" break="no" n="63"/>vinam pertinet hominem circa rerum huiusmodi 
+affectio<lb ed="#L" break="no" n="64"/>nem et usum ordinare. — Probatur consequentia. Quia
+<lb ed="#L" n="65"/>divina lex ad hoc est principaliter data ut homo 
+adhae<lb ed="#L" break="no" n="66"/>reat Deo.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Advertendum est quod, cum ultimus finis sit tantum 
+<lb ed="#L" n="68"/>unus, quando mens uni rei tanquam ultimo fini adhaeret,
+<lb ed="#L" n="69"/>nihil aliud pro tunc tanquam ultimum finem amare 
+po<lb ed="#L" break="no" n="70"/>test. Propterea bene inquit Sanctus Thomas quod 
+inde<lb ed="#L" break="no" n="71"/>bitus corporalium usus mentem a Deo totaliter abstrahit
+<lb ed="#L" n="72"/>dum in ipsis constituitur voluntatis finis: quia videlicet,
+<lb ed="#L" n="73"/>dum in re corporea finis voluntatis constituitur, ita quod
+<lb ed="#L" n="74"/>nihil ulterius desideratur aut amatur, sed res ipsa corporea
+<lb ed="#L" n="75"/>amatur super omnia, mens omnino Deum deserit, ipsum
+<lb ed="#L" n="76"/>non amando. Quod per mortale peccatum fit. - Quando
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="77"/>vero ad huiusmodi res non tanquam ad ultimum finem
+<lb ed="#L" n="78"/>afficimur, sed est tantum aliqua circa ipsas inordinatio,
+<lb ed="#L" n="79"/>manente habituali ordine ad Deum tanquam ad finem,
+<lb ed="#L" n="80"/>sicut accidit dum quis venialiter peccat, non abstrahitur
+<lb ed="#L" n="81"/>mens a Deo totaliter, cum ipsum tanquam. finem 
+habi<lb ed="#L" break="no" n="82"/>tualiter habeat; sed retardatur a Deo mentis intentio, quia
+<lb ed="#L" n="83"/>per huiusmodi inordinatas affectiones"circa corporalia 
+pro<lb ed="#L" break="no" n="84"/>fectus ille spiritualis impeditur quo homo magis per 
+amo<lb ed="#L" break="no" n="85"/>rem actualem adhaeret Deo; et consecutio gloriae, quae
+<lb ed="#L" n="86"/>in Dei visione consistit, per huiusmodi inordinationem
+<lb ed="#L" n="87"/>retardatur, ut dicitur de Malo, qu. vi, a. 2, ad 14.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>IL. Secundo. Pertinet ad divinam providentiam ut 
+sin<lb ed="#L" break="no" n="89"/>gula suum ordinem teneant, Sed lex divina est ratio 
+pro<lb ed="#L" break="no" n="90"/>videntiae a Deo homini proposita. Ergo ad ipsam pertinet
+<lb ed="#L" n="91"/>ordinare sic hominem ut in eo singula suum ordinem
+<lb ed="#L" n="92"/>teneant, Sed sicut mens hominis ordinatur sub Deo, ita
+<lb ed="#L" n="93"/>corpus sub anima ordinatur, et inferiores vires sub 
+ra<lb ed="#L" break="no" n="94"/>tione. Ergo sic est homo ordinandus divina lege ut 
+infe<lb ed="#L" break="no" n="95"/>riores vires rationi subdantur; et corpus animae; et 
+exte<lb ed="#L" break="no" n="96"/>riores res ad necessitatem homini deserviant. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Avertendum quod, sicut patuit ex praecedentibus ,
+<lb ed="#L" n="98"/>divina providentia est ratio ordinis omnium rerum in finem.
+<lb ed="#L" n="99"/>Et per consequens, cum omnia ad hominem 
+quomodo<lb ed="#L" break="no" n="100"/>cumque pertinentia sub divina providentia cadant, ipsa
+<lb ed="#L" n="101"/>providentia est etiam rerum humanarum ratio. Et quia
+<lb ed="#L" n="102"/>lex nihil aliud est quam ratio et regula qua aliquorum
+<lb ed="#L" n="103"/>actus diriguntur, ideo convenienter dicitur quod lex actuum
+<lb ed="#L" n="104"/>humanorum est ratio divinae providentiae homini a Deo
+<lb ed="#L" n="105"/>proposita et manifestata.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Advertendum etiam, quia in conclusione apponitur una
+<lb ed="#L" n="107"/>particula quae non videtur in praemissis assumpta, scilicet,
+<lb ed="#L" n="108"/>et ut exteriores res ad necessitatem homini deserviant,
+<pb ed="#L" n="378"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod aut in textu deficit scriptorum vitio illa particula in
+<lb ed="#L" n="2"/>praemissis: aut subintelligitur cum dicitur quod corpus
+<lb ed="#L" n="3"/>sub anima ordinatur. Sicut enim 'corpus hominis sub
+<lb ed="#L" n="4"/>anima ordinatur tanquam ipsa imperfectius, ita exteriores
+<lb ed="#L" n="5"/>res corporales sub homine continentur, cuius forma est
+<lb ed="#L" n="6"/>anima intellectiva.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>III. Zertio. Quaelibet lex recte proposita. inducit ad
+<lb ed="#L" n="8"/>virtutem. Ergo etc. — Probatur consequentia. Quia virtus
+<lb ed="#L" n="9"/>in hoc consistit quod tam interiores affectiones, quam 
+cor<lb ed="#L" break="no" n="10"/>poralium rerum usus, ratione regulentur.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Adverte quod ideo dicit Sanctus Thomas legem recte
+<lb ed="#L" n="12"/>propositam inducere ad virtutem, non autem absolute
+<lb ed="#L" n="13"/>legem, quia possunt esse aliquae leges per tyrannos 
+pro<lb ed="#L" break="no" n="14"/>positae quae non inducant ad virtutem, sed ad malum.
+<lb ed="#L" n="15"/>Sed istae non sunt leges recte, immo perverse et male
+<lb ed="#L" n="16"/>institutae.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>IV. Quarto. Cum lex rationi proponatur, homo legem
+<lb ed="#L" n="18"/>non sequeretur nisi alia omnia quae pertinent ad 
+homi<lb ed="#L" break="no" n="19"/>nem, rationi subderentur. Ergo ad legem divinam pertinet
+<lb ed="#L" n="20"/>praecipere ut omnia quae sunt hominis, rationi subdantur.
+<lb ed="#L" n="21"/>— Probatur consequentia. Quia ad unumquemque 
+legisla<lb ed="#L" break="no" n="22"/>torem pertinet ea lege statuere sine quibus lex servari
+<lb ed="#L" n="23"/>non potest.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="24"/>Ad evidentiam huius rationis, considerandum est quod,
+<lb ed="#L" n="25"/>cum gubernare sit superioris respectu inferioris, non datur
+<lb ed="#L" n="26"/>alicui lex secundum quam debet aliud regulare et 
+gu<lb ed="#L" break="no" n="27"/>bernare, nisi illud eius imperio supponatur: -frustra enim
+<lb ed="#L" n="28"/>daretur alicui lex secundum quam aliquod regnum 
+guber<lb ed="#L" break="no" n="29"/>naret, nisi ipsum regnum ei supponeretur. Quia ergo lex
+<lb ed="#L" n="30"/>divina proponitur a Deo et datur humanae rationi ad hoc
+<lb ed="#L" n="31"/>ut omnes actus hominis, inquantum homo est, regulet et
+<lb ed="#L" n="32"/>gubernet, necesse est ut ipse homo quantum ad omnia
+<lb ed="#L" n="33"/>sua rationi subiiciatur, et consequenter quantum ad 
+om<lb ed="#L" break="no" n="34"/>nem affectionem et usum rerum corporalium. Et hoc est
+<lb ed="#L" n="35"/>huius rationis fundamentum.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>V. Confirmatur conclusio auctoritate Apostoli, Rom,
+<lb ed="#L" n="37"/>xm, et I Thess. 1v.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Excluditur vero per hoc error dicentium illa sola esse
+<lb ed="#L" n="39"/>peccata quibus proximus aut offenditur aut scandalizatur..
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Advertendum quod hic error optime ex.dictis 
+exclu<lb ed="#L" break="no" n="41"/>ditur. Cum enim peccatum sit contra divinam legem et
+<lb ed="#L" n="42"/>contra rationem operari; divina autem lex et humana ratio
+<lb ed="#L" n="43"/>modum circa rerum sensibilium affectionem et usum 
+im<lb ed="#L" break="no" n="44"/>ponat: non solum quis peccat si proximum offendat aut
+<lb ed="#L" n="45"/>scandalizet, sed etiam si indebite et contra rationis 
+ordi<lb ed="#L" break="no" n="46"/>nem sensibilibus afficiatur, aut eis utatur indebite.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

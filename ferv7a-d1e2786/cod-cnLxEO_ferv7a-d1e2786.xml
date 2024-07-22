@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 132</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 132</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="401"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2786"><!-- ferv7a-l3c132 -->
+            <head>Capitulum 132</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="103" type="fixed=401"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="104"/>SECUNDO, ponit obiectiones contra particulares modos |
+<lb ed="#L" n="105"/>paupertatis . 
+</p>
+            <p>
+               <lb ed="#L" n="106"/>I. Primus modus est quod possessiones singulorum 
+ven<lb ed="#L" break="no" n="107"/>dantur, et de pretio omnes communiter vivant. Quod ab 
+<lb ed="#L" n="108"/>Apostolis in lerusalem servatum videtur, ut patet Act. iv. 
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="109"/>Contra hunc arguitur. Tum quia qui talem 
+pauperta<lb ed="#L" break="no" n="110"/>tem sectantur, remanebunt absque sustentatione vitae.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Tum quia non est facile ut plures, habentes etiam magnas
+<lb ed="#L" n="112"/>possessiones, hanc vitam assumant. — Et etiam possessionum
+<lb ed="#L" n="113"/>pretium non sufficeret in multum tempus.
+<pb ed="#L" n="402"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Tum quia possibile est, et facile, huiusmodi pretium |
+<lb ed="#L" n="2"/>fraude dispensatorum, vel furto aut rapina deperire.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Tum quia, cum accidat homines locum mutare, non
+<lb ed="#L" n="4"/>erit facile providere de huiusmodi pretio iis quos oportet
+<lb ed="#L" n="5"/>forte per diversa loca dispergi.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>II. Secundus modus est ut possessiones habeant 
+com<lb ed="#L" break="no" n="7"/>munes, quibus singulis provideatur: ut in pluribus 
+mo<lb ed="#L" break="no" n="8"/>nasteriis. 
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Contra hunc instatur, quia videtur impedire finem 
+vo<lb ed="#L" break="no" n="10"/>luntariae paupertatis. 'Tum quia multos oportet circa 
+pro<lb ed="#L" break="no" n="11"/>curandas possessiones esse sollicitos. — Tum quia communis
+<lb ed="#L" n="12"/>possessio solet esset causa discordiae. Discordia autem
+<lb ed="#L" n="13"/>maxime impedit vacationem mentis circa divina.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>III. Tertius modus est ut de laboribus manuum suarum
+<lb ed="#L" n="15"/>vivant. Quem modum Apostolus sequebatur et aliis 
+sua<lb ed="#L" break="no" n="16"/>debat, II Thess. III.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>Contra hunc arguitur primo, quia vanum videtur esse
+<lb ed="#L" n="18"/>quod quis, relinquens id quod est necessarium ad 
+susten<lb ed="#L" break="no" n="19"/>tationem vitae, iterum acquirere laboret. i
+</p>
+            <p>
+               <lb ed="#L" n="20"/>Secundo, quia hoc non videtur conveniens proposito
+<lb ed="#L" n="21"/>assumentium voluntariam paupertatem. Maiorem enim 
+sol<lb ed="#L" break="no" n="22"/>licitudinem requirere videtur quod aliquis proprio labore
+<lb ed="#L" n="23"/>sibi victum quaerat, quam quod iis quae habet utatur:
+<lb ed="#L" n="24"/>praecipue si habeat moderatas divitias.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Tertio, quia Dominus, sub similitudine volucrum et
+<lb ed="#L" n="26"/>liliorum campi, videtur Apostolis laborem interdicere 
+ma<lb ed="#L" break="no" n="27"/>nualem.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Quarto, quia hic modus videtur insufficiens. Tum quia
+<lb ed="#L" n="29"/>iulti sunt qui nulla arte possunt labore manuum vitam
+<lb ed="#L" n="30"/>transigere. Et sic melioris conditionis essent ad 
+perfectio<lb ed="#L" break="no" n="31"/>nem vitae capessendam rustici et artifices quam sapientes
+<lb ed="#L" n="32"/>et divites, Et etiam contingit aliquos paupertatem 
+volun<lb ed="#L" break="no" n="33"/>tariam. assumentes infirmari, aut alias ab opere manuali
+<lb ed="#L" n="34"/>impediri. - Tum quia, cum non modici temporis labor
+<lb ed="#L" n="35"/>sufficiat ad necessaria vitae quaerenda, voluntariam 
+pauper<lb ed="#L" break="no" n="36"/>tatem huiusmodi sectantes circa laborem manuum maius
+<lb ed="#L" n="37"/>tempus suae vitae consumerent, et sic ab aliis spiritualibus
+<lb ed="#L" n="38"/>exercitiis impedirentur. Et per consequens voluntaria 
+pau<lb ed="#L" break="no" n="39"/>pertas magis impediret perfectionem vitae quam ad ipsam
+<lb ed="#L" n="40"/>disponeret.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Si diceretur laborem manuum ad tollendum otium
+<lb ed="#L" n="42"/>necessarium esse: — hoc non sufficit. Tum quia melius
+<lb ed="#L" n="43"/>tolleretur otium per occupationes in virtutibus moralibus,
+<lb ed="#L" n="44"/>quibus divitiae organice deserviunt. - Tum quia vanum
+<lb ed="#L" n="45"/>esset dare consilium de paupertate propter vitandum otium,
+<lb ed="#L" n="46"/>nisi daretur ad hoc ut homines nobilioribus exercitiis 
+va<lb ed="#L" break="no" n="47"/>carent quam illis qui sunt secundum communem vitam
+<lb ed="#L" n="48"/>hominum.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Si etiam diceretur quod talis labor est necessarius ad
+<lb ed="#L" n="50"/>concupiscentias domandas: — hoc non est ad propositum:
+<lb ed="#L" n="51"/>quia quaerimus, utrum sit necessarium quod voluntarie
+<lb ed="#L" n="52"/>pauperes victum labore manuum quaerant. — Et praeterea,
+<lb ed="#L" n="53"/>possibile est multis aliis modis carnis concupiscentias 
+do<lb ed="#L" break="no" n="54"/>mari. Et divites etiam ad hunc finem labore manuum uti
+<lb ed="#L" n="55"/>possent.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>IV. Quartus modus est ut vivant de iis quae ab aliis
+<lb ed="#L" n="57"/>inferuntur. Quem modum videtur Dominus cum suis 
+disci<lb ed="#L" break="no" n="58"/>pulis observasse, ut patet Luc. vir.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="59"/>Contra hunc arguitur primo, quia non. videtur 
+ratio<lb ed="#L" break="no" n="60"/>nabile quod aliquis dimittat sua et vivat de alieno.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Secundo, quia videtur inconveniens quod aliquis ab
+<lb ed="#L" n="62"/>alio recipiat, et nihil ei rependat. Posset enim sustineri
+<lb ed="#L" n="63"/>ut illi vivant hoc Inodo qui aliis serviunt in aliquo officio,
+<lb ed="#L" n="64"/>puta ministrando altari, praedicando, et: similia faciendo,
+<lb ed="#L" n="65"/>ut ostenditur Matth.x et I Cor. 1x: sed quod alii, qui in
+<lb ed="#L" n="66"/>nullo officio populo ministrant, ab ipso necessaria vitae
+<lb ed="#L" n="67"/>recipiant, inconveniens videtur.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Tertio. Ille modus vivendi est aliis damnosus, qui propter
+<lb ed="#L" n="69"/>paupertatem et infirmitatem sibi non possunt sufficere:
+<lb ed="#L" n="70"/>quia ex his deberent sustentari quae voluntariam 
+pauper<lb ed="#L" break="no" n="71"/>tatem eligentibus dantur. Ergo etc. — Probatur consequentia
+<lb ed="#L" n="72"/>ex Apostolo, I 7im. v.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Quarto. Iste modus vivendi impedit perfectionem 
+vir<lb ed="#L" break="no" n="74"/>tutis. Quia impedit animi libertatem: quae maxime ad
+<lb ed="#L" n="75"/>virtutem requiritur, propterea quod, hac sublata, de facili
+<lb ed="#L" n="76"/>homines alienis peccatis communicent, aut consentiendo,
+<lb ed="#L" n="77"/>aut per adulationem leniendo , aut dissimulando. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Quinto. Ex voluntate dantis dependet quod ex propriis
+<lb ed="#L" n="79"/>det. Ergo per hunc modum non sufficienter providetur
+<lb ed="#L" n="80"/>voluntariis pauperibus.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Sexto. Hic modus reddit voluntarios pauperes 
+contem<lb ed="#L" break="no" n="82"/>ptibiles; Quia necesse est ut necessitates suas aliis 
+expo<lb ed="#L" break="no" n="83"/>nant, et necessaria petant. Homines autem superiores se
+<lb ed="#L" n="84"/>existimant illis qui per ipsos sustentari necesse habent:
+<lb ed="#L" n="85"/>et cum difficultate dant plurimi. Hoc autem est 
+incon<lb ed="#L" break="no" n="86"/>veniens: quia oportet eos qui perfectionem vitae assumunt
+<lb ed="#L" n="87"/>in reverentia haberi. Ergo etc. ,
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Septimo. Mendicitas habet speciem mali; cum multi
+<lb ed="#L" n="89"/>propter quaestum mendicent. Ergo est vitanda. — Patet 
+con<lb ed="#L" break="no" n="90"/>sequentia ex Apostolo, Rom. x11; et Aristotelis auctoritate.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Octavo. Hic modus habet plurimum sollicitudinis. Quia
+<lb ed="#L" n="92"/>maioris sollicitudinis videtur esse acquirere aliena quam
+<lb ed="#L" n="93"/>propriis uti. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Si quis autem mendicitatem laudet propter 
+humilita<lb ed="#L" break="no" n="95"/>tem: — videtur irrationabiliter loqui. Quia non laudatur
+<lb ed="#L" n="96"/>humilitas secundum quod contemnitur altitudo virtutis,
+<lb ed="#L" n="97"/>respectu cuius oportet nos magnanimos esse, et illi 
+dero<lb ed="#L" break="no" n="98"/>gatur. Per mendicitatem autem derogatur illi: tum quia
+<lb ed="#L" n="99"/>virtuosius est dare quam accipere; tum quia habet speciem
+<lb ed="#L" n="100"/>turpis lucri . Ergo etc. :
+</p>
+            <p>
+               <lb ed="#L" n="101"/>V. Ultimus modus est aliquorum dicentium perfectionem
+<lb ed="#L" n="102"/>vitae sectantibus nullam habendam esse sollicitudinem,
+<lb ed="#L" n="103"/>sed oportere eos a solo Deo sustentationem vitae expectare ;
+<lb ed="#L" n="104"/>quod videtur dici Matth. vi. iis
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Sed contra hoc arguitur primo, quia ad finem 
+come<lb ed="#L" break="no" n="106"/>stionis ordinatur sollicitudo humana. Stultum est autem
+<lb ed="#L" n="107"/>velle finem, et praetermittere ea quae sunt ad finem ordinata.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Secundo. Sollicitudo non est vitanda nisi quia impedit
+<lb ed="#L" n="109"/>contemplationem aeternorum. Sed non potest homo 
+vi<lb ed="#L" break="no" n="110"/>vere, mortalem carnem gerens, quin multa agat. Ergo neque
+<lb ed="#L" n="111"/>praetermittenda est sollicitudo necessariorum ad vitam
+<lb ed="#L" n="112"/>propter impedimentum contemplationis.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>'Tertio. Pari ratione posset homo dicere quod non
+<lb ed="#L" n="114"/>velit ambulare, aut aperire os ad. edendum, et similia,
+<lb ed="#L" n="115"/>sed expectare quod Deus operetur. Sed hoc est tentare
+<lb ed="#L" n="116"/>Deum. Ergo etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

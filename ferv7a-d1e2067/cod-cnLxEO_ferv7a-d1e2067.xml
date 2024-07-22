@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 44</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 44</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="116"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2067"><!-- ferv7a-l3c44 -->
+            <head>Capitulum 44</head>
+            <p>
+               <pb ed="#L" n="116"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=116"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>POSTQUAM ostendit Sanctus Thomas non posse nos 
+in<lb ed="#L" break="no" n="3"/>P telligere substantias separatas sicut praedicti philosophi
+<lb ed="#L" n="4"/>posuerunt, vult nunc ostendere quod in cognitione 
+huius<lb ed="#L" break="no" n="5"/>modi substantiarum separatarum non consistit humana,
+<lb ed="#L" n="6"/>felicitas.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>I. Et arguit primo sic, Intelligere substantias separatas
+<lb ed="#L" n="8"/>est homini impossibile secundum praedictas positiones,
+<lb ed="#L" n="9"/>ut ex dictis patet. Ergo in tali cognitione ipsarum non
+<lb ed="#L" n="10"/>est felicitas humana constituta. — Probatur consequentia.
+<lb ed="#L" n="11"/>Quia tunc homo esset in vanum; :et naturale eius 
+desi<lb ed="#L" break="no" n="12"/>derium de felicitate, quae est finis hominis, esset inane.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Adverte quod, cum vanum dicatur, ut patet ex 
+Aristo<lb ed="#L" break="no" n="14"/>tele, II Phys,, quod non consequitur finem ad quem est,
+<lb ed="#L" n="15"/>ex eo assumit Sanctus Thomas in vanum fieri quod sit ad
+<lb ed="#L" n="16"/>aliquem finem ad quem pervenire non potest: sic enim
+<lb ed="#L" n="17"/>constat quod tale nunquam finem consequitur. Idcirco,
+<lb ed="#L" n="18"/>si homo ordinatur ad cognoscendas substantias. separatas
+<lb ed="#L" n="19"/>tanquam ad finem; et impossibile est ut illas cognoscat:
+<lb ed="#L" n="20"/>sequitur, ut deducit Sanctus Thomas, quod sit factus in
+<lb ed="#L" n="21"/>vanum. Simili ratione sequitur quod naturale desiderium
+<lb ed="#L" n="22"/>sit inane et frustra: quia videlicet nunquam implebitur.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Attendendum tamen quod, licet non repugnet aliquid
+<lb ed="#L" n="24"/>esse finem naturae, et tamen impediri in aliquibus 
+parti<lb ed="#L" break="no" n="25"/>cularibus naturam ne illum finem assequatur, ut in. 
+ope<lb ed="#L" break="no" n="26"/>ribus naturae videmus; repugnat tamen aliquid esse finem
+<lb ed="#L" n="27"/>naturae et esse impossibile ut ad illud natura perveniat:
+<lb ed="#L" n="28"/>quia natura non inclinat neque movet ad impossibile, ut
+<lb ed="#L" n="29"/>dicitur II. Caeli, text. 51 , Ideo Sanctus Thomas primo
+<lb ed="#L" n="30"/>' proponit quod non potest poni felicitas hominis, quae
+<lb ed="#L" n="31"/>est eius finis, in eo ad quod homo pervenire non potest:
+<lb ed="#L" n="32"/>deinde illud probat, quia, si admitteretur illud esse finem
+<lb ed="#L" n="33"/>et felicitatem, tunc homo in vanum esset. Quod nullus
+<lb ed="#L" n="34"/>sapiens de aliqua tota natura diceret: licet de aliquo 
+in<lb ed="#L" break="no" n="35"/>dividuo naturae non. sit inconveniens quod sit in vanum
+<lb ed="#L" n="36"/>respectu alicuius finis, quando scilicet non pervenit ad 
+ali<lb ed="#L" break="no" n="37"/>quem finem a natura intentum,
+</p>
+            <p>
+               <lb ed="#L" n="38"/>II. Secundo. Ad hoc ut intellectus agens copuletur alicui,
+<lb ed="#L" n="39"/>oportet quod intelligat actu per intellectum speculativum
+<lb ed="#L" n="40"/>omnes naturas rerum sensibilium, et omnes virtutes et
+<lb ed="#L" n="41"/>operationes et motus eorum, Sed hoc est impossibile 
+ali<lb ed="#L" break="no" n="42"/>quem scire per principia scientiarum, per quas, ut ipsi
+<lb ed="#L" n="43"/>dicunt, movemur ad ipsam continuationem. Ergo 
+impos<lb ed="#L" break="no" n="44"/>sibile est quod homo ad illam continuationem perveniat
+<lb ed="#L" n="45"/>per modum ab illis assignatum, Ergo etc. — Maior 
+Pro<lb ed="#L" break="no" n="46"/>batur. Quia tam secundum Alexandrum, quam secundum 
+<lb ed="#L" n="47"/>Averroem, ad hoc ut intellectus agens uniatur nobis ut
+<lb ed="#L" n="48"/>forma, requiritur quod omnia intellecta speculativa sint
+<lb ed="#L" n="49"/>facta in nobis in actu. Omnes autem rerum sensibilium
+<lb ed="#L" n="50"/>species sunt intellectae in potentia. — Minor quoque 
+pro<lb ed="#L" break="no" n="51"/>batur, Quia ex iis quae nostris sensibus subsunt, ex quibus
+<lb ed="#L" n="52"/>praedicta principia sumuntur, non potest pereenirt ad
+<lb ed="#L" n="53"/>omnia praedicta cognoscenda,
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Circa hoc quod dicitur, neminem posse omnium 
+sen<lb ed="#L" break="no" n="55"/>sibilium naturas, et omnes virtutes et operationes et motus
+<lb ed="#L" n="56"/>eorum intelligere, considerandum quod hoc non dicit
+<lb ed="#L" n="57"/>impossibilitatem simpliciter, quae, inquam, est 
+impossibi<lb ed="#L" break="no" n="58"/>litas per implicationem contradictionis; non enim, cum
+<lb ed="#L" n="59"/>dico, Homo omnia huiusmodi cognoscit, praedicatum 
+re<lb ed="#L" break="no" n="60"/>pugnat subiecto: sed dicit impossibilitatem quae est ex 
+<lb ed="#L" n="61"/>defectu aut debilitate potentiae, sicut dicimus hominem
+<lb ed="#L" n="62"/>aegrum non posse ambulare. Sic enim, quia prima 
+prin<lb ed="#L" break="no" n="63"/>cipia, ex quibus in nobis originatur scientia, debilia in 
+<lb ed="#L" n="64"/>nobis sunt; non se extenduntque nisi ad ea quae sensibus 
+<lb ed="#L" n="65"/>subsunt, aut ad quae per huiusmodi sensata manuducimur: 
+<lb ed="#L" n="66"/>nequimus per huiusmodi principia omnia praedicta 
+co<lb ed="#L" break="no" n="67"/>gnoscere, Nam quae unius hominis sensibus subsunt, non:
+<lb ed="#L" n="68"/>valent in omnium .nos rerum sensibilium notitiam ducere,
+<lb ed="#L" n="69"/>neque ratione similitudinis, neque ratione causalitatis :
+<lb ed="#L" n="70"/>multa enim, et quasi infinita sunt quorum, unum neque
+<lb ed="#L" n="71"/>est alteri simile, neque illius est aliquo modo effectus
+<lb ed="#L" n="72"/>aut causa.
+</p>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="73"/>II. Tertio. Data etiam possibilitate nuiusmodi 
+conti<lb ed="#L" break="no" n="74"/>nuationis hominis ad intellectum agentem, constat quod
+<lb ed="#L" n="75"/>talis perfectio paucissimis hominum advenit, nec etiam
+<lb ed="#L" n="76"/>ipsis philosophis, Unde omnes plurima a se asserunt 
+igno<lb ed="#L" break="no" n="77"/>rata: sicut patet de Aristotele circa quadraturam circuli,
+<lb ed="#L" n="78"/>et circa ea'quae ad corpora caelestia pertinent: Ergo etc.
+<lb ed="#L" n="79"/>- Probatur consequentia. Quia felicitas, ut dicitur I 
+Ethi<lb ed="#L" break="no" n="80"/>corum, est quoddam commune bonum, ad quod plures
+<lb ed="#L" n="81"/>pervenire possunt, nisi sint orbati, idest, nisi careant aliquo
+<lb ed="#L" n="82"/>principio ' ad :acquirendam virtutem necessario: 
+quemad<lb ed="#L" break="no" n="83"/>modum amentibus accidit, in. quibus est defectus rationis
+<lb ed="#L" n="84"/>propter aliquam virium sensitivarum indispositionem. 
+Ve<lb ed="#L" break="no" n="85"/>rum etiam est hoc de omni fine naturali alicuius speciei,
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Circa probationem consequentiae, attendendumi est quod
+<lb ed="#L" n="87"/>illud assumptum habet veritatem de felicitate naturali, ad
+<lb ed="#L" n="88"/>quam virtute suae naturae potest pervenire unusquisque.
+<lb ed="#L" n="89"/>Unde et subiunxit Sanctus Thomas quod illud verum est
+<lb ed="#L" n="90"/>de omni fine naturali. Nam, cum natura in paucioribus
+<lb ed="#L" n="91"/>deficiat, ea quae sunt unius speciei, pro maiori parte
+<lb ed="#L" n="92"/>habent principia sufficientia ad acquisitionem finis suae
+<lb ed="#L" n="93"/>speciei; et, dum moventur ad illum, tandem eum 
+asse<lb ed="#L" break="no" n="94"/>quuntur. ldeirco; cum non pluribus, immo forte nullis
+<lb ed="#L" n="95"/>eorum qui studio vacant et acquisitioni scientiarum, 
+con<lb ed="#L" break="no" n="96"/>tingat ut ad illam perfectam continuationem. cum 
+intel<lb ed="#L" break="no" n="97"/>lectu agente per suum studium perveniant; manifeste
+<lb ed="#L" n="98"/>relinquitur felicitatem hominis naturalem, sive ultimum
+<lb ed="#L" n="99"/>eius naturalem finem, in praedicta continuatione non 
+con<lb ed="#L" break="no" n="100"/>sistere.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>IV. Quarto. <ref>Aristoteles, I Ethicorum</ref>, probat felicitatem
+<lb ed="#L" n="102"/>hominis esse operationem ipsius secundum virtutem 
+per<lb ed="#L" break="no" n="103"/>fectam. In X autem ostendit ipsam esse in speculatione;
+<lb ed="#L" n="104"/>et, ut ex ipso ibidem habetur, in actu sapientiae consistit.
+<lb ed="#L" n="105"/>Sapientia autem, apud ipsum, VI Eth. et I Metaph., est
+<lb ed="#L" n="106"/>una de scientiis speculativis, et est caput aliarum 
+scien<lb ed="#L" break="no" n="107"/>tiarum. Ergo opinio Aristotelis, cuius sententiam praedicti
+<lb ed="#L" n="108"/>sequi conantur, fuit quod ultima hominis felicitas quam
+<lb ed="#L" n="109"/>homo in hac vita acquirere potest, sit cognitio de rebus
+<lb ed="#L" n="110"/>divinis qualis per scientias speculativas haberi potest. Ergo
+<lb ed="#L" n="111"/>non consistit, secundum ipsum, in tali continuatione: sed
+<lb ed="#L" n="112"/>iste modus cognoscendi res divinas post adeptionem 
+scien<lb ed="#L" break="no" n="113"/>tiarum speculativarum, est ab ipsius expositoribus, 
+sci<lb ed="#L" break="no" n="114"/>licet Alexandro. et Averroe, confictus. .
+</p>
+            <p>
+               <lb ed="#L" n="115"/>2. Circa Aristotelis opinionem statim occurrit dubium,
+<lb ed="#L" n="116"/>Nam constat quod pauci sunt, in comparatione ad totam
+<lb ed="#L" n="117"/>hominum multitudinem, qui perveniant ad illam 
+cogni<lb ed="#L" break="no" n="118"/>tionem rerum divinarum quae per scientias speculativas
+<lb ed="#L" n="119"/>habetur, Sed de ratione felicitatis, secundum ipsum 
+Aristo<lb ed="#L" break="no" n="120"/>telem, est quod. plures ad eam perveniant, ab ipsaque
+<lb ed="#L" n="121"/>pauciores deficiant. Ergo in tali cognitione non consistit
+<lb ed="#L" n="122"/>humana felicitas. Et sic ex ipsius dicto sequitur 
+opposi<lb ed="#L" break="no" n="123"/>tum suae positionis,
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Respondetur quod non est de ratione felicitatis huius
+<lb ed="#L" n="125"/>vitae, apud Aristotelem, quod maior pars hominum ad
+<lb ed="#L" n="126"/>illam perveniat: sed quod possit sua virtute pervenire,
+<lb ed="#L" n="127"/>et quod, si moveatur ad illam, suo motu eam assequatur;
+<lb ed="#L" n="128"/>quia pauci homines sunt qui sint orbati, et principiis 
+na<lb ed="#L" break="no" n="129"/>turalibus ad acquirendam virtutem careant. Et sic etiam
+<lb ed="#L" n="130"/>pauci sunt qui studio et acquisitioni scientiarum MpeAi 
+<lb ed="#L" n="131"/>lativarum vacent, qui eam cognitionem rerum divinarum
+<lb ed="#L" n="132"/>in qua humana felicitas consistit, non assequantur. Unde .
+<lb ed="#L" n="133"/>non sequitur oppositum positionis ipsius ex suo dicto,
+</p>
+            <p>
+               <lb ed="#L" n="134"/>3. Si autem instetur, ex verbis Sancti Thomae hic et 
+<lb ed="#L" n="135"/>in praecedentibus , quod finem naturalem alicuius speciei
+<lb ed="#L" n="136"/>consequuntur ea quae sunt illius speciei ut in pluribus;
+<lb ed="#L" n="137"/>et sic non sufficit quod possint illum assequi, et quod,
+<lb ed="#L" n="138"/>dum moventur ad illum, eum assequantur: — dicitur, ut
+<lb ed="#L" n="139"/>superius  etiam respondebatur, quod utique finem 
+natu<lb ed="#L" break="no" n="140"/>ralem alicuius speciei maior pars eorum quae sub specie
+<lb ed="#L" n="141"/>continentur, assequitur: non tamen oportet ut in quolibet
+<lb ed="#L" n="142"/>statu illius naturae hoc eveniat, sed suffcit quod in
+<lb ed="#L" n="143"/>aliquo statu contingat, Sic autem verum . est quod finis
+<pb ed="#L" n="117"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>naturalis hominis est rerum divinarum cognitio, ad quam
+<lb ed="#L" n="2"/>homo potest naturaliter pervenire; et quod maior pars
+<lb ed="#L" n="3"/>hominum ad illam perveniet, aut forte omnes, non quidem
+<lb ed="#L" n="4"/>in hac vita, sed post mortem; licet modum quo tunc res
+<lb ed="#L" n="5"/>divinas homo intelliget, ab Aristotele non habeamus. Unde
+<lb ed="#L" n="6"/>et ipse Aristoteles posuit quod homo non consequitur 
+fe<lb ed="#L" break="no" n="7"/>licitatem perfectam in hac vita, sed suo modo : quasi
+<lb ed="#L" n="8"/>vellet dicere quod aliquando, post hanc vitam, perfectam
+<lb ed="#L" n="9"/>beatitudinem assequetur, quae est absolute finis humanae
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="10"/>naturae; in hac autem vita homo quidem consequi potest
+<lb ed="#L" n="11"/>beatitudinem imperfectam. Sed et pauci sunt qui ad eam
+<lb ed="#L" n="12"/>perveniant: quia pauci sunt qui in scientiis speculativis
+<lb ed="#L" n="13"/>se exerceant, propter impedimenta huius vitae, de quibus
+<lb ed="#L" n="14"/>dictum est in praecedentibus . Unde cognitio rerum 
+di<lb ed="#L" break="no" n="15"/>vinarum in hac vita per scientias speculativas acquisita,
+<lb ed="#L" n="16"/>non est simpliciter finis humanae naturae: sed est finis
+<lb ed="#L" n="17"/>ipsius pro isto statu mortali, in quo multa sunt 
+impe<lb ed="#L" break="no" n="18"/>dientia et retrahentia a consecutione talis finis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

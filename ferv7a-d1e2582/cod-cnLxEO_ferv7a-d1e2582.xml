@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 107</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 107</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="337"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2582"><!-- ferv7a-l3c107 -->
+            <head>Capitulum 107</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="17" type="fixed=337"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="18"/>POSTQUAM ostendit Sanctus Thomas quod substantia. 
+in<lb ed="#L" break="no" n="19"/>qnicseecnlitaim cuius auxilio magicae artes utuntur, est
+<lb ed="#L" n="20"/>mala, nunc quomodo mala sit, vult explicare .
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Circa hoc autem duo- facit: primo, ostendit quod non
+<lb ed="#L" n="22"/>est mala secundum suam naturam ; secundo, ostendit quod
+<lb ed="#L" n="23"/>est voluntarie mala, capitibus sequentibus.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>I. Quantum ad primum, ponit hanc conclusionem : Non
+<lb ed="#L" n="25"/>est possibile quod sit naturalis malitia in substantiis 
+in<lb ed="#L" break="no" n="26"/>tellectualibus quarum auxilio magicae artes utuntur.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Pro cuius declaratione, notandum est, ex doctrina Sancti
+<lb ed="#L" n="28"/>Thomae in Qu. de Malo, q. xvi, a. 2, quod, cum 
+dupli<lb ed="#L" break="no" n="29"/>citer possit intelligi malitiam alicui esse naturalem, scilicet
+<lb ed="#L" n="30"/>quia vel malum est eius natura, aut aliquid naturae, aut
+<lb ed="#L" n="31"/>aliquid naturam eius consequens; vel quia est eis naturalis
+<lb ed="#L" n="32"/>inclinatio ad malum: ad utrumque sensum intelligitur haec
+<lb ed="#L" n="33"/>conclusio. Et ideo aliquae rationes probant quod tales
+<lb ed="#L" n="34"/>substantiae non habent naturalem inclinationem ad malum;
+<lb ed="#L" n="35"/>aliquae vero probant quod non sunt in seipsis malae, 
+tan<lb ed="#L" break="no" n="36"/>quam malitia sit ipsorum natura.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>IL. Arguit itaque primo sic. Si naturaliter huiusmodi
+<lb ed="#L" n="38"/>substantiae in malum tendunt, per se tendunt ad malum.
+<lb ed="#L" n="39"/>Hoc est impossibile. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="40"/>Quia quod tendit in aliquid secundum suam naturam, in
+<lb ed="#L" n="41"/>illud tendit per se, non per accidens: sicut grave deorsum.
+<lb ed="#L" n="42"/>— Falsitas vero consequentis probatur. Quia omnia per se
+<lb ed="#L" n="43"/>tendunt ad bonum, ad malum vero nihil tendit nisi per
+<lb ed="#L" n="44"/>accidens.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Ad evidentiam consequentiae, attendendum est, ex 
+do<lb ed="#L" break="no" n="46"/>ctrina Sancti Thomae I Poster. cap. de per se, quod
+<lb ed="#L" n="47"/>ista dictio per se importat in subiecto habitudinem causae
+<lb ed="#L" n="48"/>respectu eius quod sibi dicitur convenire per se, ita quod,
+<lb ed="#L" n="49"/>quando subiectum, vel aliquid eius, est. causa eius quod
+<lb ed="#L" n="50"/>sibi attribuitur, tunc dicitur illud sibi convenire per. se.
+<lb ed="#L" n="51"/>Ex hoc autem constat quod, si aliquid alicui conveniat
+<lb ed="#L" n="52"/>secundum propriam naturam, ita quod natura sit ratio quod
+<lb ed="#L" n="53"/>illud sibi conveniat, oportet illud sibi per se, non autem:
+<lb ed="#L" n="54"/>per accidens convenire. Et sic optime sequitur, si 
+sub<lb ed="#L" break="no" n="55"/>stantia intellectualis mala est secundum naturam, ita quod
+<lb ed="#L" n="56"/>inclinari ad malum inquantum malum sibi ratione propriae
+<lb ed="#L" n="57"/>naturae conveniat, quod per se tendat ad malum, non autem
+<lb ed="#L" n="58"/>per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>IlI. Secundo. Aut huiusmodi substantiae sunt causae,
+<lb ed="#L" n="60"/>aut causata: alioquin ad alia ordinem non haberent. Si
+<lb ed="#L" n="61"/>causae, tunc sic. Malum non est causa alicuius nisi per
+<lb ed="#L" n="62"/>accidens. Sed quod est per accidens, oportet reduci: ad
+<lb ed="#L" n="63"/>perse. Ergo oportet in eis esse aliud prius quam eorum
+<lb ed="#L" n="64"/>malitia, per quod sint causae. Primum autem in unoquoque
+<lb ed="#L" n="65"/>est eius natura et essentia. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Si sunt causata, tunc sic. Malum non potest esse 
+ef<lb ed="#L" break="no" n="67"/>fectus alicuius causae nisi per accidens: cum omne agens
+<lb ed="#L" n="68"/>agendo bonum intendat. Sed quod causatur per accidens
+<lb ed="#L" n="69"/>tantum, non potest esse secundum naturam: cum omnis
+<lb ed="#L" n="70"/>natura determinatum modum habeat quo procedit in esse.
+<lb ed="#L" n="71"/>Ergo etc.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="72"/>2. Circa primam partem huius rationis dubium occurrit.
+<lb ed="#L" n="73"/>Quia licet omne per accidens reducatur iri id quod est per se,
+<lb ed="#L" n="74"/>non oportet tamen ut illud quod est per se coniungatur ei
+<lb ed="#L" n="75"/>quod est per accidens in eodem. Nam quod est causa
+<lb ed="#L" n="76"/>inventionis thesauri per accidens, non est necesse ut sit
+<lb ed="#L" n="77"/>per se illius causa: sed bene reducitur in aliquam 
+supe<lb ed="#L" break="no" n="78"/>riorem causam, quae est eius causa per se. Et sic non est
+<lb ed="#L" n="79"/>necesse, si substantia intellectualis sit alicuius causa per
+<lb ed="#L" n="80"/>accidens, quod in ipsa sit aliquid per quod sit causa per se.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Respondetur quod, licet respectu unius et eiusdem 
+ef<lb ed="#L" break="no" n="82"/>fectus non oporteat idem esse causam per se et per 
+ac<lb ed="#L" break="no" n="83"/>cidens, oportet tamen ut quod est causa per accidens
+<lb ed="#L" n="84"/>coniungatur ei quod est causa per se, vel sit idem cum
+<lb ed="#L" n="85"/>ipso, aut respectu unius aut respectu diversorum. Album
+<lb ed="#L" n="86"/>enim, quod est causa per accidens domus, coniungitur 
+do<lb ed="#L" break="no" n="87"/>mificatori, qui est causa per se domus; et fodiens 
+sepul<lb ed="#L" break="no" n="88"/>crum, qui est causa per accidens inventionis thesauri, est
+<lb ed="#L" n="89"/>causa per se sepulcri. Et ideo, si aliqua substantia aliquid
+<lb ed="#L" n="90"/>habeat in se, puta malitiam, ex quo habeat ut sit tantum
+<lb ed="#L" n="91"/>causa.per accidens et nullo modo per se; necesse est ut
+<lb ed="#L" n="92"/>sit aliquid etiam in ipsa per quod possit esse per se causa
+<lb ed="#L" n="93"/>aut eiusdem aut alterius effectus. Unde non intulit 
+San<lb ed="#L" break="no" n="94"/>ctus Thomas quod oportet in eis esse aliquid prius quam
+<lb ed="#L" n="95"/>eorum malitia per quod sint causae mali, sed absolute,
+<lb ed="#L" n="96"/>per quod sint causae. Obiectio autem procedit de causa
+<lb ed="#L" n="97"/>perse et per accidens respectu unius et eiusdem effectus
+<lb ed="#L" n="98"/>dumtaxat.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Vel potest brevius dici quod non est mens Sancti Thomae,
+<lb ed="#L" n="100"/>ut obiectio supponit, quod est causa per accidens alicuius
+<lb ed="#L" n="101"/>effectus, esse etiam illius causam per se per aliquam naturam
+<lb ed="#L" n="102"/>in ipso existentem: sed quod, si aliquid sit causa per 
+acci<lb ed="#L" break="no" n="103"/>dens alicuius per aliquid in ipso existens, necesse est aliquid
+<lb ed="#L" n="104"/>aliud in ipso esse per quod conveniat sibi esse causam
+<lb ed="#L" n="105"/>per se; quia:causa per accidens, accidentalitate se tenente
+<lb ed="#L" n="106"/>ex parte causae, dicitur quae coniungitur causae per se.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>IV. Tertio. Si huiusmodi substantiae essent malae .
+se<lb ed="#L" break="no" n="108"/>cundum suam naturam, nullum esse haberent. Ergo etc.
+<lb ed="#L" n="109"/>— Probatur consequentia. Quia unumquodque entium habet
+<lb ed="#L" n="110"/>esse secundum modum suae naturae. Esse autem, 
+inquan<lb ed="#L" break="no" n="111"/>tum huiusmodi, est bonum: unde omnia ipsum appetunt.
+<lb ed="#L" n="112"/>— Adverte quod ista consequentia probatur a destructione
+<lb ed="#L" n="113"/>consequentis. Valet enim: — Habent aliquod esse. Ergo
+<lb ed="#L" n="114"/>sunt bonae secundum naturam: quia esse est quoddam
+<lb ed="#L" n="115"/>bonum, et convenit rei secundum modum suae naturae.
+</p>
+            <p>
+               <lb ed="#L" n="116"/>Quarto. Ea quae a primo ente sunt, bona sunt: quia
+<lb ed="#L" n="117"/>omne agens agit sibi simile; primum autem ens est 
+sum<lb ed="#L" break="no" n="118"/>mum bonum. Sed nihil potest esse quin a primo ente
+<lb ed="#L" n="119"/>habeat esse, Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Quinto . Aut talis substantia esset simpliciter mala:
+<lb ed="#L" n="121"/>aut mala huic, et quantum ad hoc; sicut venenum est
+<lb ed="#L" n="122"/>malum huic, cui est nocivum, cum tamen alteri sit cibus.
+<lb ed="#L" n="123"/>Non simpliciter. Quia impossibile est. aliquid. esse quod
+<lb ed="#L" n="124"/>sit universaliter privatum participatione boni. Cum enim
+<lb ed="#L" n="125"/>idem sit appetibile et bonum, tale nihil haberet in se ap-
+<pb ed="#L" n="338"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>petibile, Constat. autem quod unicuique appetibile est suum
+<lb ed="#L" n="2"/>esse. - Non etiam huic. Quia, cum hoc contingat ex eo
+<lb ed="#L" n="3"/>quod bonum particulare quod est proprium huius, 
+con<lb ed="#L" break="no" n="4"/>trarium est/bono particulari quod est bonum alterius, sicut
+<lb ed="#L" n="5"/>calor ignis contrariatur frigori aquae; quod secundum suam
+<lb ed="#L" n="6"/>naturam ordinatur in bonum, non particulare, sed 
+simpli<lb ed="#L" break="no" n="7"/>citer, impossibile est ut. etiam secundum hunc modum,
+<lb ed="#L" n="8"/>possit dici naturaliter malum. Tale autem est omnis 
+in<lb ed="#L" break="no" n="9"/>tellectus: bonum enim cius est in propria operatione, quae
+<lb ed="#L" n="10"/>est universalium, et eorum quae sunt simpliciter.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>V. Ad evidentiam huius rationis, considerandum est
+<lb ed="#L" n="12"/>primo quod, cum simpliciter duo habeat significata, 
+signi<lb ed="#L" break="no" n="13"/>ficat enim idem quod absolute et absque additione ; et
+<lb ed="#L" n="14"/>idem quod universaliter: hoc.loco accipitur in secunda
+<lb ed="#L" n="15"/>significatione, cum dicitur quod mihil est simpliciter 
+ma<lb ed="#L" break="no" n="16"/>lum. Sensus enim est quod nihil existens in natura est
+<lb ed="#L" n="17"/>universaliter et omni ex parte malum. Unde ad hoc 
+insi<lb ed="#L" break="no" n="18"/>nuandum inquit Sanctus Thomas quod impossibile est
+<lb ed="#L" n="19"/>aliquid esse quod sit waiversaliter privatum participatione
+<lb ed="#L" n="20"/>boni. - Similiter sensus est de intellectu, quod non fertur
+<lb ed="#L" n="21"/>in aliquod particulare bonum, sed in bonum simpliciter,
+<lb ed="#L" n="22"/>idest, universaliter sumptum. Unde quod inquit, et eorum
+<lb ed="#L" n="23"/>quae sunt simpliciter, est expositio eius quod dixerat, 
+pro<lb ed="#L" break="no" n="24"/>priam operationem intellectus esse universalium.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>2. Considerandum secundo, ex doctrina Sancti Thomae
+<lb ed="#L" n="26"/>Prima, q. rxur a. 4, quod bonum universale a bono 
+par<lb ed="#L" break="no" n="27"/>ticulari differt, quia bono universali nullum malum 
+con<lb ed="#L" break="no" n="28"/>iunctum esse potest. Cum enim malum dicatur ex 
+pri<lb ed="#L" break="no" n="29"/>vatione alicuius perfectionis, dicere bono universali esse
+<lb ed="#L" n="30"/>coniunctum aliquod. malum, est dicere quod bonum 
+uni<lb ed="#L" break="no" n="31"/>versale aliqua perfectione careat, et sic non: erit bonum
+<lb ed="#L" n="32"/>universale: sive accipiatur bonum universale secundum
+<lb ed="#L" n="33"/>perfectionem, sive secundum praedicationem. Bono autem
+<lb ed="#L" n="34"/>particulari potest aliquod malum coniunctum esse: quia
+<lb ed="#L" n="35"/>non inconvenit aliquam rem. particularem. unam. habere
+<lb ed="#L" n="36"/>perfectionem et alia perfectione carere, sicut igni 
+coniun<lb ed="#L" break="no" n="37"/>gitur hoc malum quod est. esse consumptivum aliorum.
+<lb ed="#L" n="38"/>Ex quo sequitur quod, cum omnis natura in bonum aliquo
+<lb ed="#L" n="39"/>modo tendat, illud. quod in bonum universale secundum
+<lb ed="#L" n="40"/>naturam tendit, nullo modo, nec per se inquam nec per
+<lb ed="#L" n="41"/>accidens, in malum tendit secundum naturam:. cum bono
+<lb ed="#L" n="42"/>universali nullum malum sit coniunctum. Quod vero 
+se<lb ed="#L" break="no" n="43"/>cundum naturam 'tendit in aliquod particulare bonum,
+<lb ed="#L" n="44"/>potest naturaliter tendere in aliquod malum : per accidens
+<lb ed="#L" n="45"/>tamen, inquantum videlicet bono ad quod ordinatur, 
+ali<lb ed="#L" break="no" n="46"/>quod malum coniungitur. Unde, cum natura intellectualis
+<lb ed="#L" n="47"/>non in bonum particulare, sed in bonum universale 
+ten<lb ed="#L" break="no" n="48"/>dat, quod est obiectum suae operationis, sequitur. quod
+<lb ed="#L" n="49"/>nullo modo: naturaliter tendat in malum. Ex quo 
+relin<lb ed="#L" break="no" n="50"/>quitur, ut infert Sanctus Thomas, quod non est possibile
+<lb ed="#L" n="51"/>ut aliquis intellectus secundum suam naturam sit malus:
+<lb ed="#L" n="52"/>non solum simpliciter, tanquam videlicet tendens in 
+uni<lb ed="#L" break="no" n="53"/>versaliter malum, cum nullum existens sit universaliter 
+ma<lb ed="#L" break="no" n="54"/>lum; sed nec etiam secundum quid, tanquam videlicet
+<lb ed="#L" n="55"/>tendens in aliquod bonum cui coniungatur malum alterius,
+<lb ed="#L" n="56"/>cum tendat in bonum universale, cui nullum malum 
+con<lb ed="#L" break="no" n="57"/>iungi potest; universale enim est obiectum intellectus et
+<lb ed="#L" n="58"/>voluntatis.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>VI. Sed occurrit duplex dubium. Primum est, quia
+<lb ed="#L" n="60"/>posset aliquis dicere quod, licet bono universali secundum
+<lb ed="#L" n="61"/>perfectionem, quale est bonum divinum, nullum malum
+<lb ed="#L" n="62"/>coniunctum esse possit; bono tamen universali secundum
+<lb ed="#L" n="63"/>praedicationem non inconvenit aliquod malum coniunctum
+<lb ed="#L" n="64"/>esse, quia huiusmodi universale bonum habet esse in bono
+<lb ed="#L" n="65"/>particulari, cui aliquod malum coniungi potest. Intellectus
+<lb ed="#L" n="66"/>autem et voluntas ordinantur in bonum universale 
+secun<lb ed="#L" break="no" n="67"/>dum praedicationem tanquam in obiectum, non autem in
+<lb ed="#L" n="68"/>bonum universale secundum perfectionem. Unde ex Sancto
+<lb ed="#L" n="69"/>Thoma Prima Parte, loco allegato, habetur quod 
+ordi<lb ed="#L" break="no" n="70"/>natur in aliquod bonum secundum communem rationem
+<lb ed="#L" n="71"/>boni. Ideo non sequitur, si natura intellectualis ordinatur
+<lb ed="#L" n="72"/>in bonum universale secundum naturam, quod non 
+ordi<lb ed="#L" break="no" n="73"/>netur naturaliter ad aliquod malum, saltem per accidens.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>Secundum dubium est, quia dicitur aliquod bonum esse
+<lb ed="#L" n="75"/>malum aliquo modo etiam inquantum est malum alicui,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ut patet hoc loco. Sed Deus est malus damnatis, 
+inquan<lb ed="#L" break="no" n="77"/>tum eos punit. Ergo Deus est aliquo modo malus, Sed
+<lb ed="#L" n="78"/>aliquid naturaliter inclinatur in Deum : scilicet substantia 
+in<lb ed="#L" break="no" n="79"/>tellectualis, quae diligit ipsum naturaliter, ut ostendit 
+San<lb ed="#L" break="no" n="80"/>ctus Thomas Prima, q. 1x, a. 5. Et tamen natura intellectualis
+<lb ed="#L" n="81"/>ordinatur in bonum universaliter. Ergo falsum est quod
+<lb ed="#L" n="82"/>hic dicitur: illud scilicet quod secundum suam naturam
+<lb ed="#L" n="83"/>ordinatur in bonum non particulare, sed simpliciter, non
+<lb ed="#L" n="84"/>posse dici malum etiam secundum quid, inquantum 
+sci<lb ed="#L" break="no" n="85"/>licet est malum alicui.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>VII. Ad primum horum dicitur quod, licet bono 
+uni<lb ed="#L" break="no" n="87"/>versali ut particularizato in bono hoc, aliquod malum adiungi
+<lb ed="#L" n="88"/>possit; ipsi tamen absolute, et secundum: praecisam 
+ratio<lb ed="#L" break="no" n="89"/>nem universalis boni accepto, nullum malum adiungitur.
+<lb ed="#L" n="90"/>Quia sicut ratio universalis boni secundum se abstrahit
+<lb ed="#L" n="91"/>ab omni particulari bono, ita ab omni malo abstrahit quod
+<lb ed="#L" n="92"/>bonum particulare concomitatur: universali enim nihil,
+<lb ed="#L" n="93"/>inquantum huiusmodi, sibi contrarium adiungi potest; sicut
+<lb ed="#L" n="94"/>animali rationali, non potest irrationale coniungi. 
+Intel<lb ed="#L" break="no" n="95"/>lectus autem et voluntas feruntur secundum naturam 
+for<lb ed="#L" break="no" n="96"/>maliter in ipsum bonum secundum universalem boni
+<lb ed="#L" n="97"/>rationem, non secundum aliquam: particularem: rationem.
+<lb ed="#L" n="98"/>Nam intellectus apprehendit bonum simpliciter et absolute:
+<lb ed="#L" n="99"/>et voluntas similiter appetit bonum simpliciter et absolute,
+<lb ed="#L" n="100"/>appetendo naturaliter bonum ut sic, non autem hoc aut
+<lb ed="#L" n="101"/>illud bonum, nisi materialiter, inquantum videlicet in ipso
+<lb ed="#L" n="102"/>salvatur ratio boni. 
+</p>
+            <p>
+               <lb ed="#L" n="103"/>2. Ad secundum dubium dicitur primo, quod loquitur
+<lb ed="#L" n="104"/>Sanctus Thomas de eo quod est malum alicui ex 
+per<lb ed="#L" break="no" n="105"/>fectione suae naturae: quia videlicet eius naturam 
+con<lb ed="#L" break="no" n="106"/>comitatur esse alteri nocivum. Quod enim ordinatur 
+natu<lb ed="#L" break="no" n="107"/>raliter in bonum cui taliter coniungitur malum, naturaliter
+<lb ed="#L" n="108"/>inclinatur in illud malum per accidens, sive in. malum
+<lb ed="#L" n="109"/>secundum quid. Et si aliquid ordinatur in bonum cui non
+<lb ed="#L" n="110"/>conveniat hoc modo ratio mali, non dicitur naturaliter
+<lb ed="#L" n="111"/>inclinari in malum etiam secundum quid. Modo, dicitur
+<lb ed="#L" n="112"/>quod esse nocivum damnatis non concomitatur naturam
+<lb ed="#L" n="113"/>divinam tanquam eius sequens perfectionem, sed Deo 
+con<lb ed="#L" break="no" n="114"/>venit ex libera eius voluntate. [deo ratio non sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>Dicitur secundo, quod loquitur Sanctus "Thomas de
+<lb ed="#L" n="116"/>inclinatione rei in bonum tanquam in per se et proprium
+<lb ed="#L" n="117"/>obiectum. Quia scilicet, si ratio aliqua mali concomitatur
+<lb ed="#L" n="118"/>tale bonum, dicitur res naturaliter inclinari in malum 
+se<lb ed="#L" break="no" n="119"/>cundum quid: si autem nulla ratio mali illi bono iungatur,
+<lb ed="#L" n="120"/>non dicitur etiam secundum quid inclinari naturaliter in
+<lb ed="#L" n="121"/>malum. Modo, licet natura intellectualis naturaliter 
+incli<lb ed="#L" break="no" n="122"/>netur in Deum, non tamen inclinatur in ipsum sicut in
+<lb ed="#L" n="123"/>per se et proprium obiectum, sed in universalem rationem
+<lb ed="#L" n="124"/>boni. Ideo ratio non sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>VIII. Sexto . Naturali ordine substantia intellectualis vult
+<lb ed="#L" n="126"/>bonum. Ergo etc. - Probatur antecedens. Quia in habente
+<lb ed="#L" n="127"/>intellectum, bonum voluntatis est in eo quod sequitur 
+in<lb ed="#L" break="no" n="128"/>tellectum: sicut in nobis bonum est quod est secundum
+<lb ed="#L" n="129"/>rationem; quod autem est praeter hoc, malum est. 
+Natu<lb ed="#L" break="no" n="130"/>rali autem ordine intellectus movet appetitum.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Quomodo voluntas naturaliter et ex necessitate feratur
+<lb ed="#L" n="132"/>in bonum, ostensum est in praecedentibus . Similiter 
+quo<lb ed="#L" break="no" n="133"/>modo intellectus moveat voluntatem .
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Septimo. Nullus intellectus naturaliter errat circa 
+iudi<lb ed="#L" break="no" n="135"/>cium boni. Ergo etc. — Probatur antecedens. Quia, cum
+<lb ed="#L" n="136"/>bonum intellectus, et. eius finis naturalis, sit cognitio 
+ve<lb ed="#L" break="no" n="137"/>ritatis, falsa iudicia in operationibus intellectus sunt sicut
+<lb ed="#L" n="138"/>monstra in rebus naturalibus, quae non sunt secundum
+<lb ed="#L" n="139"/>naturam, sed praeter naturam. — Consequentia vero 
+pro<lb ed="#L" break="no" n="140"/>batur. Quia, cum voluntas tendat naturaliter in bonum
+<lb ed="#L" n="141"/>intellectum sicut in proprium obiectum et finem, 
+impos<lb ed="#L" break="no" n="142"/>sibile est quod aliqua substantia intellectualis naturaliter
+<lb ed="#L" n="143"/>malam habeat voluntatem, nisi naturaliter erret circa 
+iudi<lb ed="#L" break="no" n="144"/>cium boni.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>Confirmatur praedicta ratio. Intellectus circa 
+cogni<lb ed="#L" break="no" n="146"/>tionem veri naturaliter oberrare non potest. Ergo neque
+<lb ed="#L" n="147"/>voluntas naturaliter a bono deficere potest. — Probatur
+<lb ed="#L" n="148"/>antecedens. Quia, cum potentia cognoscitiva secundum
+<lb ed="#L" n="149"/>suam rationem ordinetur ad cognitionem sui obiecti, nulla
+<lb ed="#L" n="150"/>deficit ab eius cognitione nisi propter aliquem defectum
+<pb ed="#L" n="339"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>aut corruptionem. Declaratur in visu. Omnis autem cor- Excluditur per hoc Manichaeorum error; et opinio quam
+<lb ed="#L" n="2"/>ruptio et defectus est praeter naturam (scilicet particula- Porphyrius in Epistola ad Anebriotem narrat. Quae 
+qui<lb ed="#L" break="no" n="3"/>rem): cum natura intendat esse et perfectionem rei. dem malitiam daemonum quorum auxilio artes magicae
+<lb ed="#L" n="4"/>CONFIRMATUR CONCLUSIO auctoritate Apostoli, I Tim., 1v; | utuntur, aperte declarat, sed in hoc reprehensibilis est, quod
+<lb ed="#L" n="5"/>et Gen. r. hanc malitiam eis naturaliter inesse dicit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

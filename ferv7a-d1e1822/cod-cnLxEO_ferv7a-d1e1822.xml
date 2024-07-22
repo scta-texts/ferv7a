@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 14</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 14</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="37"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1822"><!-- ferv7a-l3c14 -->
+            <head xml:id="ferv7a-d1e1822-Hd1e101">Capitulum 14</head>
+            <p xml:id="ferv7a-d1e1822-d1e103">
+               <pb ed="#L" n="37"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=37"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e112">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>POSTQUAM determinavit Sanctus Thomas de causalitate
+<lb ed="#L" n="3"/>mali quantum ad hoc quod causatur, nunc 
+determi<lb ed="#L" break="no" n="4"/>nat de causalitate ipsius quantum ad hoc quod est 
+alio<lb ed="#L" break="no" n="5"/>rum causa.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e125">
+               <lb ed="#L" n="6"/>Et ponit hanc conclusionem: Malum, quamvis non
+<lb ed="#L" n="7"/>sit causa per se, est tamen causa per accidens. —
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e132">
+               <lb ed="#L" n="8"/>I. Probatur primo. Malum est in bono. Ergo est causa
+<lb ed="#L" n="9"/>per accidens. — Probatur consequentia. Quia quod accidit 
+<lb ed="#L" n="10"/>causae per se alicuius, est causa per accidens illius. Omne
+<lb ed="#L" n="11"/>autem bonum est alicuius aliquo modo causa: sicut 
+ma<lb ed="#L" break="no" n="12"/>teria formae quodammodo, et e converso; et similiter est
+<lb ed="#L" n="13"/>de agente et fine. Et ex hoc tollitur processus in 
+infini<lb ed="#L" break="no" n="14"/>tum in causis et causatis, si quodlibet est alicuius causa.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e151">
+               <lb ed="#L" n="15"/>Circa hanc rationem advertendum quod causa per 
+ac<lb ed="#L" break="no" n="16"/>cidens, secundum quod accidentalitas se tenet ex parte
+<lb ed="#L" n="17"/>causae, nihil operatur ad effectum: sicut, cum domificator
+<lb ed="#L" n="18"/>albus aedificat, albedo, quae est causa aedificationis per
+<lb ed="#L" n="19"/>accidens; nihil ad aedificium operatur, sed dicitur causare
+<lb ed="#L" n="20"/>per accidens, quia subiectum cui accidit, et quod per
+<lb ed="#L" n="21"/>ipsam denominatur, causat; verum est enim dicere quod
+<lb ed="#L" n="22"/>album aedificat, quia quod albedini substat, aedificat. 
+Si<lb ed="#L" break="no" n="23"/>militer ergo malum dicitur causa per accidens, non quia
+<lb ed="#L" n="24"/>aliquid circa effectum boni producat, sed quia 
+supposi<lb ed="#L" break="no" n="25"/>tum agens substat malitiae. Unde cum dicitur, malum
+<lb ed="#L" n="26"/>operatur, verum est: quia quod malitiae substat, et 
+dici<lb ed="#L" break="no" n="27"/>tur malum denominative, operatur.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e182">
+               <lb ed="#L" n="28"/>Advertendum etiam quod ideo addidit Sanctus 
+Tho<lb ed="#L" break="no" n="29"/>mas non sequi processum in infinitum in causis et 
+cau<lb ed="#L" break="no" n="30"/>satis; si quodlibet est alicuius causa, ut removeat 
+instan<lb ed="#L" break="no" n="31"/>tiam quae posset fieri contra assumptam hanc 
+proposi<lb ed="#L" break="no" n="32"/>tionem, Bonum omne est alicuius aliquo modo causa.
+<lb ed="#L" n="33"/>Videtur enim sequi processus in infinitum in causis et
+<lb ed="#L" n="34"/>causatis descendendo: uia si non. procedatur in 
+infini<lb ed="#L" break="no" n="35"/>tum, oportet devenire ad aliquod bonum quod sit 
+cau<lb ed="#L" break="no" n="36"/>satum. et nullo modo causa. Respondetur negando 
+con<lb ed="#L" break="no" n="37"/>sequentiam: quia nunquam devenitur ad aliquid quod
+<lb ed="#L" n="38"/>nullo modo sit causa, et tamen non proceditur in 
+infi<lb ed="#L" break="no" n="39"/>nitum, quia quod effectus est unius in uno genere causae,
+<lb ed="#L" n="40"/>potest esse illius causa in alio.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e213">
+               <lb ed="#L" n="41"/>II. Secundo. Privatio est causa per accidens in rebus
+<lb ed="#L" n="42"/>mobilibus. Ergo etc. — Patet consequentia. Quia malum
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="43"/>est privatio quaedam: — (supple) et omnis privatio malum
+<lb ed="#L" n="44"/>quoddam est.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e226">
+               <lb ed="#L" n="45"/>Adverte quod privatio, quae in I Physicorum 
+connu<lb ed="#L" break="no" n="46"/>meratur cum materia et forma in numero principiorum
+<lb ed="#L" n="47"/>naturalium, inquantum coniungitur materiae, non est 
+prin<lb ed="#L" break="no" n="48"/>cipium rerum nisi inquantum transmutabilia sunt. 
+Secun<lb ed="#L" break="no" n="49"/>dui enim quod sunt aliqua transmutabilia, sic privatio
+<lb ed="#L" n="50"/>est eorum principium. Si enim aliqua sunt transmutabilia
+<lb ed="#L" n="51"/>substantialiter, sicut corpora inferiora, sic privatio formae
+<lb ed="#L" n="52"/>substantialis est illius principium per accidens, inquantum
+<lb ed="#L" n="53"/>materiae eius coniungitur privatio alterius formae 
+substan<lb ed="#L" break="no" n="54"/>tialis quam nata est habere: sicut materiae aquae 
+coniun<lb ed="#L" break="no" n="55"/>gitur privatio formae ignis. Si autem aliquid sit 
+acciden<lb ed="#L" break="no" n="56"/>taliter transmutabile, privatio formae accidentalis est illius
+<lb ed="#L" n="57"/>principium per accidens ut.est sic transmutabile, 
+inquan<lb ed="#L" break="no" n="58"/>tum suae substantiae coniungitur privatio alterius formae
+<lb ed="#L" n="59"/>accidentalis: sicut subiecto albo, ad nigredinem 
+transmu<lb ed="#L" break="no" n="60"/>tabili, coniungitur privatio nigredinis. Propter hoc non
+<lb ed="#L" n="61"/>dixit Sanctus Thomas absolute quod privatio sit principium
+<lb ed="#L" n="62"/>per accidens in rebus, sed im rebus mobilibus.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e268">
+               <lb ed="#L" n="63"/>III. Tertio. Defectus causae est causa per accidens
+<lb ed="#L" n="64"/>defectus in effectu. Et est quoddam malum. Ergo etc. —
+<lb ed="#L" n="65"/>Probatur quod sit causa per accidens. Quia res non est
+<lb ed="#L" n="66"/>causa per hoc quod est deficiens, sed per hoc quod est
+<lb ed="#L" n="67"/>ens. Cuius signum est quod, si tota deficeret, nullius esset
+<lb ed="#L" n="68"/>causa.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e284">
+               <lb ed="#L" n="69"/>Adverte quod causa formalis per se est id quo aliquid
+<lb ed="#L" n="70"/>operatur, et quo elicit operationem. Hoc autem non
+<lb ed="#L" n="71"/>potest esse nisi ens: quia nihil operatur nisi inquantum
+<lb ed="#L" n="72"/>est in actu. Et ideo optime probatur quod malum 
+for<lb ed="#L" break="no" n="73"/>maliter sumptum non sit causa per se, quia res non est
+<lb ed="#L" n="74"/>causa per hoc quod est deficiens: idest, defectus et 
+pri<lb ed="#L" break="no" n="75"/>vatio non est id quo operatur et quo elicit operationem.
+</p>
+            <p xml:id="ferv7a-d1e1822-d1e303">
+               <lb ed="#L" n="76"/>IV. Quarto. Propter causae efficientis deficientem 
+vir<lb ed="#L" break="no" n="77"/>tutem sequitur defectus in actione et effectu. Propter 
+in<lb ed="#L" break="no" n="78"/>dispositionem materiae causatur defectus in effectu. Uni
+<lb ed="#L" n="79"/>formae semper adiungitur privatio alterius formae: 
+acci<lb ed="#L" break="no" n="80"/>piendo scilicet large privationem. Indebito fini 
+coniun<lb ed="#L" break="no" n="81"/>gitur semper malum, inquantum per ipsum finis debitus
+<lb ed="#L" n="82"/>impeditur. Ergo secundum omnes species causarum 
+ma<lb ed="#L" break="no" n="83"/>lum est causa per accidens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

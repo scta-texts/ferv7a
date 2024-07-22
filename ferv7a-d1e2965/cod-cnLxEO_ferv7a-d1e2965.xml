@@ -1,0 +1,889 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 154</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 154</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="453"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2965"><!-- ferv7a-l3c154 -->
+            <head>Capitulum 154</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="7" type="fixed=453"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="8"/>POSTQUAM determinavit Sanctus Thomas de effectibus
+<lb ed="#L" n="9"/>ve gratiae gratum facientis, ulterius de effectibus. qui
+<lb ed="#L" n="10"/>gratiae gratis datae nominantur, determinat, et eos 
+enu<lb ed="#L" break="no" n="11"/>merando, eorum rationem reddit .
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Circa hoc autem duo facit: primo, eos enumerat, 
+eorum<lb ed="#L" break="no" n="13"/>que rationem reddit; secundo, ostendit quasdam differentias
+<lb ed="#L" n="14"/>inter effectus huiusmodi, comprehendendo etiam superius
+<lb ed="#L" n="15"/>enumeratos .
+</p>
+            <p>
+               <lb ed="#L" n="16"/>I. Quantum ad primum, considerandum est, ex doctrina
+<lb ed="#L" n="17"/>Sancti Thomae I II, q. cxt, a. 1; et Verit., q. xxvi, a. 5,
+<lb ed="#L" n="18"/>quod gratia, secundum quod nominat donum aliquod quod
+<lb ed="#L" n="19"/>homini a Deo supra conditionem naturae, et supra 
+me<lb ed="#L" break="no" n="20"/>ritum, gratis conceditur, dividitur: quia quaedam est. per
+<lb ed="#L" n="21"/>quam homo illam habens Deo coniungitur, et illi est 
+gra<lb ed="#L" break="no" n="22"/>tus, et haec vocatur gratia gratum faciens; quaedam
+<lb ed="#L" n="23"/>vero est per quam unus homo cooperatur alteri ad hoc
+<lb ed="#L" n="24"/>ut reducatur ad Deum, non autem per ipsam redditur
+<lb ed="#L" n="25"/>gratus, ad beatitudinem scilicet consequendam; et haec
+<lb ed="#L" n="26"/>retinet sibi commune nomen, et vocatur gratia gratis data.
+<lb ed="#L" n="27"/>— Prima gratia non multiplicatur in uno, sed est tantum
+<lb ed="#L" n="28"/>una. Secunda vero multiplicatur: et ideo ponuntur multa
+<lb ed="#L" n="29"/>dona ipsius. Et de iis in praesenti capite determinatur.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>II. Prima ergo gratia gratis data. est sapientia, quae
+<lb ed="#L" n="31"/>est cognitio divinorum, Ad quam dicit Sanctus Thomas
+<lb ed="#L" n="32"/>pertinere invisibilium Dei revelationem: idest, eorum ad
+<lb ed="#L" n="33"/>quae mens humana per lumen. naturale intellectus 
+per<lb ed="#L" break="no" n="34"/>tingere non potest. De qua fit mentio Sap. vri, et Eccli. xv.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Huius autem gratiae necessitatem manifestat notando
+<lb ed="#L" n="36"/>quinque. Primum est, quod ea quae per fidem de Deo
+<lb ed="#L" n="37"/>tenemus, oportet in nos.a Deo pervenire. Quia ea quae
+<lb ed="#L" n="38"/>homo per se non videt, qualia sunt ea quae per fidem
+<lb ed="#L" n="39"/>tenemus, cognoscere non potest nisi ea recipiat ab eo qui
+<lb ed="#L" n="40"/>videt. Hic autem est Deus, qui seipsum comprehendit et
+<lb ed="#L" n="41"/>naturaliter suam essentiam videt, - Secundum est quod, cum
+<lb ed="#L" n="42"/>ea quae a Deo sunt, ordine quodam agantur, in 
+manifesta<lb ed="#L" break="no" n="43"/>tione eorum quae sunt fidei, ordinem quendam observari
+<lb ed="#L" n="44"/>oportuit: ut scilicet quidam immediate a Deo reciperent,
+<lb ed="#L" n="45"/>alii vero. ab iis, et sic per ordinem, usque ad ultimos. —
+<lb ed="#L" n="46"/>Tertium est, quod in quibuscumque est aliquis ordo,
+<lb ed="#L" n="47"/>quanto aliquid est principio primo propinquius, tanto 
+vir<lb ed="#L" break="no" n="48"/>tuosius invenitur. Idcirco in divinae manifestationis ordine,
+<lb ed="#L" n="49"/>invisibilia de quibus est fides, primo a Deo. angelis beatis
+<lb ed="#L" n="50"/>revelantur per apertam visionem. Deinde, interveniente
+<lb ed="#L" n="51"/>angelorum officio, quibusdam hominibus manifestantur,
+<lb ed="#L" n="52"/>non per apertam visionem, sed per quandam certitudinem
+<lb ed="#L" n="53"/>ex divina revelatione, interiori quodam et intelligibili lumine
+<lb ed="#L" n="54"/>mentem :elevante, provenientem: sicut per lumen naturale
+<lb ed="#L" n="55"/>intellectus redditur certus de iis quae illo lumine cognoscit.
+<lb ed="#L" n="56"/>— Quartum est, quod haec certitudo necessaria est ad hoc
+<lb ed="#L" n="57"/>quod aliis proponi possint ea quae divina revelatione 
+per<lb ed="#L" break="no" n="58"/>cipiuntur. Alioquin non proponerentur cum securitate.
+<lb ed="#L" n="59"/>— Quintum est, quod cum praedicto lumine adsunt 
+ali<lb ed="#L" break="no" n="60"/>quando in divina revelatione aliqua. exteriora vel interiora
+<lb ed="#L" n="61"/>cognitionis auxilia, aut audita scilicet aut visa, divina virtute
+<lb ed="#L" n="62"/>formata, quae exteriori sensu vel imaginatione percipiuntur.
+<lb ed="#L" n="63"/>Quae quidem auxilia sine interiori lumine ad cognitionem
+<lb ed="#L" n="64"/>divinorum non sufficiunt: lumen autem interius sufficit
+<lb ed="#L" n="65"/>sine istis.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>2. Circa hoc quintum dictum advertendum est, ut ex
+<lb ed="#L" n="67"/>superioribus  patet, quod, cum duo concurrant ad 
+cogni<lb ed="#L" break="no" n="68"/>tionem humanam, scilicet repraesentatio rerum, et iudicium
+<lb ed="#L" n="69"/>de rebus repraesentatis; repraesentatio fit per specierum
+<lb ed="#L" n="70"/>receptionem, iudicium vero per lumen intelligibile. Et quia
+<lb ed="#L" n="71"/>iudicium est cognitionis completivum, ideo principale in
+<lb ed="#L" n="72"/>cognitione est intellectuale lumen, sine quo iudicium fieri
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="73"/>non potest. Propterea bene dicitur quod praedicta auxilia
+<lb ed="#L" n="74"/>non sufficiunt sine interiori lumine ad divinorum: 
+cogni<lb ed="#L" break="no" n="75"/>tionem, sed bene lumen interius sufficit sine illis. Pharao
+<lb ed="#L" n="76"/>enim per visa in somnis non intellexit quid 
+repraesenta<lb ed="#L" break="no" n="77"/>batur, quia carebat supernaturali lumine: loseph. autem,
+<lb ed="#L" n="78"/>lumine supernaturali illustratus, cognovit quid talia somnia
+<lb ed="#L" n="79"/>praesignarent, cui tamen non fuerant talia immissa somnia .
+</p>
+            <p>
+               <lb ed="#L" n="80"/>3. Advertendum ulterius quod ex hoc discursu vult
+<lb ed="#L" n="81"/>Sanctus Thomas et necessitatem . huius doni habere, et
+<lb ed="#L" n="82"/>modum ipsius. Necessitatem quidem: quia, cum gratia gratis
+<lb ed="#L" n="83"/>data ordinetur ad hoc ut homo alteri cooperetur ad salutem
+<lb ed="#L" n="84"/>exterius docendo vel persuadendo, oportet hominem. de
+<lb ed="#L" n="85"/>rebus divinis. quas alii vult tradere, certitudinem per 
+divi<lb ed="#L" break="no" n="86"/>nam revelationem habere; quod sibi per donum sapientiae
+<lb ed="#L" n="87"/>convenit. Modum autem: quia a Deo in homines ordinate
+<lb ed="#L" n="88"/>per revelationem descendit.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>III. Secunda est scientia, ad quam pertinere videtur 
+di<lb ed="#L" break="no" n="90"/>vina revelatio de rebus creatis: de qua fit mentio Sap. vi,
+<lb ed="#L" n="91"/>et II Paral. 1. Huius necessitatem ostendit Sanctus Thomas,
+<lb ed="#L" n="92"/>quia. invisibilia Dei per ea quae facta sunt conspiciuntur.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Tertia est donum linguarum, de quo fit mentio Zsaiae r,
+<lb ed="#L" n="94"/>et Lucae xxi. Huius necessitas ostenditur, quia ea quae
+<lb ed="#L" n="95"/>homo cognoscit, in notitiam alterius convenienter 
+produ<lb ed="#L" break="no" n="96"/>cere non potest nisi per sermonem. Unde, quando oportuit
+<lb ed="#L" n="97"/>per paucos veritatem fidei in diversis gentibus praedicari,
+<lb ed="#L" n="98"/>instructi sunt quidam divinitus ut variis linguis 
+loque<lb ed="#L" break="no" n="99"/>rentur: ut patet Act, II
+</p>
+            <p>
+               <lb ed="#L" n="100"/>Quarta est gratia miraculorum, de qua fit mentio
+<lb ed="#L" n="101"/>Matth. x, et Marci ult. Necessitas huius ostenditur, quia
+<lb ed="#L" n="102"/>sermo propositus, nisi sit per se manifestus, confirmatione
+<lb ed="#L" n="103"/>indiget. Ea autem quae sunt fidei, sunt humanae rationi
+<lb ed="#L" n="104"/>immanifesta. Unde, cum manifestari non potuerint per
+<lb ed="#L" n="105"/>principia demonstrationis, oportuit aliquibus indiciis, 
+ope<lb ed="#L" break="no" n="106"/>rando scilicet ea quae nullus alius posset facere nisi Deus,
+<lb ed="#L" n="107"/>praedicantium sermonem confirmari, ostendique quod a
+<lb ed="#L" n="108"/>Deo processerit.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>IV. Quinta est prophetiae gratia. Cuius duplicem
+<lb ed="#L" n="110"/>necessitatem ponit .
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Quantum ad primam necessitatem, "dicit primo, quod
+<lb ed="#L" n="112"/>ad hoc ut praedicatoribus vera dicentibus de iis quae sunt
+<lb ed="#L" n="113"/>fidei, crederetur, necessarium fuit donum prophetiae, per
+<lb ed="#L" n="114"/>quod futura, et ea quae communiter homines latent, Deo
+<lb ed="#L" n="115"/>revelante possent cognoscere, et aliis indicare: quia, dum
+<lb ed="#L" n="116"/>invenirentur vera dicere de occultis quae postmodum 
+ma<lb ed="#L" break="no" n="117"/>nifestari possunt, eis crederetur vera dicentibus de iis quae
+<lb ed="#L" n="118"/>homines experiri non possunt. Ad quod facit quod dicitur
+<lb ed="#L" n="119"/>I Cor. xiv: Si autem omnes prophetent etc.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Secundo dicit quod per donum prophetiae non adhibetur
+<lb ed="#L" n="121"/>sufficiens fidei testimonium nisi esset de iis quae a solo Deo
+<lb ed="#L" n="122"/>cognosci possunt: quae sunt occulta cordium , in 
+inferio<lb ed="#L" break="no" n="123"/>ribus, et futura contingentia. '
+</p>
+            <p>
+               <lb ed="#L" n="124"/>2. Sed quia posset aliquis dicere quod prophetica 
+de<lb ed="#L" break="no" n="125"/>nuntiatio de futuris non est sufficiens fidei argumentum,
+<lb ed="#L" n="126"/>quia etiam homines naturaliter aliqua de futuris. 
+praeco<lb ed="#L" break="no" n="127"/>gnoscunt: - subiungit Sanctus Thomas quod differentia est
+<lb ed="#L" n="128"/>inter praecognitionem futurorum ab hominibus naturaliter
+<lb ed="#L" n="129"/>habitam, et eam quae est secundum gratiam prophetalem.
+<lb ed="#L" n="130"/>Quia aliqua quidem futura ab hominibus cognosci possunt,
+<lb ed="#L" n="131"/>etiam contingentia, inquantum in suis causis praeexistunt;
+<lb ed="#L" n="132"/>quibus aut secundum seipsas aut per manifestos effectus
+<lb ed="#L" n="133"/>cognitis, quae sigza dicuntur, de aliquibus effectibus futuris
+<lb ed="#L" n="134"/>potest ab homine praecognitio haberi, sicut medicus 
+praeco<lb ed="#L" break="no" n="135"/>gnoscit mortem aut sanitatem futuram; sed tamen huiusmodi
+<lb ed="#L" n="136"/>futurorum praecognitio infallibiliter certa habetur de 
+ef<lb ed="#L" break="no" n="137"/>fectibus tantum qui ex praeexistentibus causis de necessitate
+<pb ed="#L" n="454"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>consequuntur, non autem de effectibus qui ex suis causis
+<lb ed="#L" n="2"/>non de necessitate, sed ut frequenter eventunt.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Omnis autem cognitio de futuris quae habetur ex 
+reve<lb ed="#L" break="no" n="4"/>latione divina secundum gratiam prophetalem, est omnino
+<lb ed="#L" n="5"/>certa: sicut et divina praecognitio, qua futura Deus 
+infal<lb ed="#L" break="no" n="6"/>libiliter cognoscit secundum quod in seipsis sunt, — Nec
+<lb ed="#L" n="7"/>ista certitudo contingentiae futurorum repugnat: sicut nec
+<lb ed="#L" n="8"/>certitudo divinae scientiae, - Nec etiam ipsam tollit quia
+<lb ed="#L" n="9"/>prophetae aliquando praenuntiant quae non eveniunt: sicut
+<lb ed="#L" n="10"/>[saias de morte Ezechiae prophetavit, et Ionas de 
+subver<lb ed="#L" break="no" n="11"/>sione Ninive, quae tamen non evenerunt. Quia aliquando
+<lb ed="#L" n="12"/>revelantur aliqui futuri effectus prophetis, non secundum
+<lb ed="#L" n="13"/>quod sunt in seipsis, sed secundum quod sunt in causis
+<lb ed="#L" n="14"/>suis. Et tunc nihil prohibet, si causae impediuntur ne
+<lb ed="#L" n="15"/>perveniant ad suos effectus, quod etiam praenuntiatio 
+pro<lb ed="#L" break="no" n="16"/>phetiae immutetur. Et ita fuit in praenuntiatione mortis
+<lb ed="#L" n="17"/>Ezechiae et subversionis Ninive: quorum unum erat 
+se<lb ed="#L" break="no" n="18"/>cundum causarum inferiorum dispositionem ; alterum vero
+<lb ed="#L" n="19"/>secundum meritorum exigentiam. — Addit autem Sanctus
+<lb ed="#L" n="20"/>Thomas quod, licet aliquando ita fiat, simul tamen vel
+<lb ed="#L" n="21"/>postea fit prophetae revelatio de eventu futuri effectus
+<lb ed="#L" n="22"/>qualiter sit immutandus: sicut factum fuit Isaiae et Ionae.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>3. Posset etiam aliquis arguere propheticam 
+denuntiatio<lb ed="#L" break="no" n="24"/>nem non esse sufficiens fidei argumentum, quia daemones
+<lb ed="#L" n="25"/>aliqua vera praenuntiant, — Sed respondet Sanctus Thomas,
+<lb ed="#L" n="26"/>et dicit primo, quod maligni spiritus, sicut operatione 
+mi<lb ed="#L" break="no" n="27"/>raculorum abutuntur ut argumenta fidei debilitent, non
+<lb ed="#L" n="28"/>vere miracula faciando, sed ea quae hominibus miraculosa
+<lb ed="#L" n="29"/>apparent; ita et prophetica abutuntur praenuntiatione, non
+<lb ed="#L" n="30"/>quidem vere prophetando, sed praenuntiando aliqua 
+se<lb ed="#L" break="no" n="31"/>cundum ordinem causarum homini occultarum, inquantum
+<lb ed="#L" n="32"/>haec subtilitate sui intellectus magis possunt quam homines
+<lb ed="#L" n="33"/>cognoscere, quia cognoscunt quando et qualiter effectus
+<lb ed="#L" n="34"/>naturalium causarum impediri possunt; et inquantum vires
+<lb ed="#L" n="35"/>caelestium corporum, a nostra cognitione magis inter causas
+<lb ed="#L" n="36"/>naturales remotas, secundum quas corpora inferior 
+dispo<lb ed="#L" break="no" n="37"/>nuntur, cognoscunt. Propter quod possunt, magis quam
+<lb ed="#L" n="38"/>aliquis astrologus, praenuntiare ventos et alia huiusmodi,
+<lb ed="#L" n="39"/>quae circa mutationes corporum inferiorum ex motu 
+su<lb ed="#L" break="no" n="40"/>periorum corporum accidunt. Et etiam de actibus hominum
+<lb ed="#L" n="41"/>multa vera praedicere possunt, inquantum plurimi impetus
+<lb ed="#L" n="42"/>passionum et inclinationes corporales sequuntur, in quas
+<lb ed="#L" n="43"/>efficaciam habere caelestia corpora manifestum est: licet
+<lb ed="#L" n="44"/>quandoque in praenuntiando deficiant, propter humani
+<lb ed="#L" n="45"/>arbitrii libertatem.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Dicit secundo, quod ea quae praecognoscunt, 
+praenun<lb ed="#L" break="no" n="47"/>tiant, non mentem illustrando, sicut in revelatione divina:
+<lb ed="#L" n="48"/>sed quandoque secundum immutationem imaginationis,
+<lb ed="#L" n="49"/>sicut in dormientibus, in arreptitiis et in phreneticis;
+<lb ed="#L" n="50"/>aliquando vero per aliqua exteriora indicia, ut per motus
+<lb ed="#L" n="51"/>et garritus avium, et per ea quae in extis animalium 
+ap<lb ed="#L" break="no" n="52"/>parent, et in quorundam punctorum descriptione; 
+ali<lb ed="#L" break="no" n="53"/>quando vero visibiliter apparendo, et sermone sensibili
+<lb ed="#L" n="54"/>praenuntiando futura.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Dicit tertio quod, licet hoc ultimum manifeste per 
+ma<lb ed="#L" break="no" n="56"/>lignos spiritus fiat, quando scilicet adveniunt invocati, alia
+<lb ed="#L" n="57"/>tamen quidam reducere conantur in corpora caelestia, 
+di<lb ed="#L" break="no" n="58"/>centes quod motus qui sunt praeter deliberationem, ut
+<lb ed="#L" n="59"/>praenominati, sequuntur impressionem corporis caelestis,
+<lb ed="#L" n="60"/>et ideo possunt esse signa elfectuum futurorum qui ex
+<lb ed="#L" n="61"/>motu caelesti causantur: quia ex eiusdem corporis 
+impres<lb ed="#L" break="no" n="62"/>sione in aliquibus rebus effectus futuri signa quaedam 
+appa<lb ed="#L" break="no" n="63"/>rent. Sed inquit Sanctus Thomas quod, quia hoc modicam
+<lb ed="#L" n="64"/>rationem habet, magis existimandum est haec ab aliqua 
+intel<lb ed="#L" break="no" n="65"/>lectuali substantia habere originem, cuius virtute disponuntur
+<lb ed="#L" n="66"/>motus non deliberati secundum quod congruit observationi
+<lb ed="#L" n="67"/>futurorum. Et licet quandoque haec disponantur, voluntate
+<lb ed="#L" n="68"/>divina, ministerio bonorum spirituum, tamen plerumque
+<lb ed="#L" n="69"/>ex operatione malignorum spirituum accidunt: ut et sancti
+<lb ed="#L" n="70"/>Doctores dicunt; et gentiles, ut Valerius Maximus refert,
+<lb ed="#L" n="71"/>censuerunt, Et ideo haec omnia, Deut. xvi, simul cum
+<lb ed="#L" n="72"/>idololatria. prohibebantur.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>4. Secunda necessitas prophetiae  est quia, cum aliqua
+<lb ed="#L" n="74"/>fide tenenda praedicentur quae temporaliter aguntur, sicut
+<lb ed="#L" n="75"/>Nativitas Christi, et huiusmodi; ne ficta a praedicantibus,
+<lb ed="#L" n="76"/>aut casu evenisse credantur, ostenduntur longe ante per
+<lb ed="#L" n="77"/>prophetas praedicta; ut facit Apostolus, ad Rom. 1.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>V. Circa id quod de occultis cordium, sive de 
+cogita<lb ed="#L" break="no" n="79"/>tionibus, inquit Sanctus Thomas, quoniam ea solus Deus
+<lb ed="#L" n="80"/>cognoscere potest, advertendum, ut dicitur Prima, q. rvir,
+<lb ed="#L" n="81"/>a. 4; de Verit.,, q. vur, a. 13; et Malo q. xvt, quod
+<lb ed="#L" n="82"/>intelligendum est de cognitione cogitationum intellectus et
+<lb ed="#L" n="83"/>affectionum voluntatis in seipsis, ut scilicet cogitatio est in
+<lb ed="#L" n="84"/>intellectu, et affectio in voluntate, solus enim Deus videt
+<lb ed="#L" n="85"/>esse actuale talium quod in ipsis potentiis habent: non
+<lb ed="#L" n="86"/>autem de cognitione ipsorum in suo effectu. Nam admittit
+<lb ed="#L" n="87"/>Sanctus Thomas quod per aliquam corporis 
+transmu<lb ed="#L" break="no" n="88"/>tationem ex cogitatione provenientem, cogitatio cognosci
+<lb ed="#L" n="89"/>potest, non solum ab angelis, sed etiam ab hominibus: sicuti
+<lb ed="#L" n="90"/>cum, ex eo quod aliquis pericula sibi imminentia cogitat,
+<lb ed="#L" n="91"/>excitatur passio timoris, et ex illa pallor subitus apparet
+<lb ed="#L" n="92"/>in facie, et ex hoc subito faciei pallore cognosci potest
+<lb ed="#L" n="93"/>quod cogitat timorosa. Rationem autem assignat Sanctus
+<lb ed="#L" n="94"/>"Thomas quare a solo Deo, inter cognoscentia extrinseca
+<lb ed="#L" n="95"/>a cogitante, in seipsis cognoscuntur: quia videlicet quod
+<lb ed="#L" n="96"/>aliquis actu cogitet, ex sola voluntate dependet, unusquisque
+<lb ed="#L" n="97"/>enim pro suo arbitrio habitibus et speciebus in se 
+existen<lb ed="#L" break="no" n="98"/>tibus utitur; ea autem quae ex sola voluntate dependent,
+<lb ed="#L" n="99"/>aut in sola voluntate sunt, soli Deo sint cognita, cum
+<lb ed="#L" n="100"/>voluntas soli Deo subiaceat, et ipse solus in ea operari
+<lb ed="#L" n="101"/>possit, eo quod sit eius principale obiectum ut ultimus finis.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>VI. Circa autem hanc rationem, ut bene intelligatur, —
+<lb ed="#L" n="103"/>a Durando enim, qui eam impugnat, II libro Sent. , male
+<lb ed="#L" n="104"/>est intellecta - advertendum quod eius fundamentum est
+<lb ed="#L" n="105"/>hoc, ut explicat Sanctus Thomas de Verit.,loco allegato.
+<lb ed="#L" n="106"/>Species enim intellectus angelici, et multo magis intellectus
+<lb ed="#L" n="107"/>humani, habent, loquendo de iis quae ad angelum pertinent,
+<lb ed="#L" n="108"/>solum res in natura existentes, idest naturas creatas, 
+reprae<lb ed="#L" break="no" n="109"/>sentare, et ea quae ad ipsas dependentiam habent aut 
+con<lb ed="#L" break="no" n="110"/>nexionem. Dicuntur autem ad naturam creatam habere
+<lb ed="#L" n="111"/>dependentiam et connexionem ea ad quae aliqua natura
+<lb ed="#L" n="112"/>creata determinationem habet. Ideo ea quae extra hunc
+<lb ed="#L" n="113"/>ordinem sunt, quia videlicet neque inter naturas creatas,
+<lb ed="#L" n="114"/>neque inter ea ad quae natura creata determinationem habet,
+<lb ed="#L" n="115"/>connumerantur, non habent per species angelicas 
+reprae<lb ed="#L" break="no" n="116"/>sentari, et consequenter ab angelo naturaliter cognosci non
+<lb ed="#L" n="117"/>possunt: cum cognitio naturalis angeli ultra 
+repraesentatio<lb ed="#L" break="no" n="118"/>nem suarum specierum non se extendat. Unde et II Sent.,
+<lb ed="#L" n="119"/>d. rit, q. xi, a. 3, ad 4, inquit Sanctus Thomas quod angeli,
+<lb ed="#L" n="120"/>per species sibi a creatione inditas cognoscunt causas 
+ha<lb ed="#L" break="no" n="121"/>bentes ordinem in natura, et omne illud quod in causis
+<lb ed="#L" n="122"/>illis determinatur, vel simpliciter vel ut frequenter. Cum
+<lb ed="#L" n="123"/>igitur ea quae ex sola voluntate procedunt, cuiusmodi sunt
+<lb ed="#L" n="124"/>cogitationes, neque sint in seipsis naturae et quidditates
+<lb ed="#L" n="125"/>subsistentes; neque ad aliquam naturam tanquam ad causam
+<lb ed="#L" n="126"/>ad illa determinatam, dependentiam habeant, alioquin non
+<lb ed="#L" n="127"/>ex sola voluntate, quae causa libera est ad opposita se
+<lb ed="#L" n="128"/>habens, dependerent: sequitur quod huiusmodi sub naturali
+<lb ed="#L" n="129"/>cognitione angeli non cadunt.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>2. Ratio ergo Sancti Thomae sic est explananda. Ea
+<lb ed="#L" n="131"/>quae ex sola voluntate procedunt — idest, ea quae a 
+vo<lb ed="#L" break="no" n="132"/>luntate libere operante proveniunt, et a nulla alia causa
+<lb ed="#L" n="133"/>quae ad ipsa sit determinata dependentiam habent — soli
+<lb ed="#L" n="134"/>Deo sunt cognita: idest, a nullo alio distincto a volente,
+<lb ed="#L" n="135"/>praeterquam a Deo, cognoscuntur. Sed cogitatio actualis
+<lb ed="#L" n="136"/>a sola voluntate dependet: quia, licet cogitatio proveniat
+<lb ed="#L" n="137"/>ab intellectu, non tamen intellectus est ad ipsam 
+cogita<lb ed="#L" break="no" n="138"/>tionem ex se determinatus, sed ad ipsam ex solo imperio
+<lb ed="#L" n="139"/>voluntatis determinatur. Ergo et cogitatio intellectus soli
+<lb ed="#L" n="140"/>Deo est nota.
+</p>
+            <p>
+               <lb ed="#L" n="141"/>Consequentia, cum minori, nota est: eo quod constet
+<lb ed="#L" n="142"/>unicuique quod speciebus et habitibus in se existentibus
+<lb ed="#L" n="143"/>utitur cum voluerit.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>Maior vero, quae duas habet exponentes: — hanc scilicet,
+<lb ed="#L" n="145"/>Ea quae ex sola voluntate operantis dependent, Deo sunt
+<lb ed="#L" n="146"/>cognita; et hanc, Talia nulli alii sunt cognita — per aliam
+<lb ed="#L" n="147"/>exclusivam probatur.
+</p>
+            <p>
+               <lb ed="#L" n="148"/>Quantum quidem ad affirmativam illius exclusivae, 
+pro<lb ed="#L" break="no" n="149"/>batur sic. Deo sunt cognita quaecumque sunt ab eo causata.
+<lb ed="#L" n="150"/>Sed motus voluntatis est a Deo causatus tam effective, quam
+<pb ed="#L" n="455"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>finaliter. Effective quidem, quia voluntas Deo subest 
+quan<lb ed="#L" break="no" n="2"/>tum ad causalitatem ; quod autem est causa effectiva 
+vo<lb ed="#L" break="no" n="3"/>luntatis, est etiam causa operationis ipsius; sicut et quod
+<lb ed="#L" n="4"/>est causa naturae, est etiam causa naturalis ipsius. 
+opera<lb ed="#L" break="no" n="5"/>tionis. Finaliter vero, quia Deus est principale obiectum
+<lb ed="#L" n="6"/>voluntatis, utpote ultimus finis existens; voluntas autem ab
+<lb ed="#L" n="7"/>obiecto per modum finis moveri habet. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Quantum vero ad negativam, probatur per negativam
+<lb ed="#L" n="9"/>illius exclusivae sic. Angelus eos tantum effectus causarum
+<lb ed="#L" n="10"/>creatarum naturaliter cognoscit qui ad aliquam naturalem
+<lb ed="#L" n="11"/>causam, idest ad ipsos determinatam, connexionem habent
+<lb ed="#L" n="12"/>et dependentiam. Sed motus voluntatis ad nullam causam
+<lb ed="#L" n="13"/>naturalem connexionem habet: neque, inquam, tanquam
+<lb ed="#L" n="14"/>ad causam efficientem ; neque tanquam ad causam finalem.
+<lb ed="#L" n="15"/>Ergo etc. - Probatur minor. Quantum quidem ad causam
+<lb ed="#L" n="16"/>efficientem, quia voluntas a nulla causa naturali producitur:
+<lb ed="#L" n="17"/>immo a nulla causa creata. A quocumque autem agente
+<lb ed="#L" n="18"/>extrinseco producitur motus voluntatis, ab ipso producitur
+<lb ed="#L" n="19"/>et voluntas : cum in eandem causam referantur motus qui
+<lb ed="#L" n="20"/>esta principio intrinseco, et ipsum intrinsecum principium,
+<lb ed="#L" n="21"/>iuxta ea quae dicuntur I II, q. 1x, a, 6. — Quantum vero
+<lb ed="#L" n="22"/>ad finalem, probatur quia illud movet naturaliter 
+volun<lb ed="#L" break="no" n="23"/>tatem per modum finis, ad quod voluntas est determinata.
+<lb ed="#L" n="24"/>Ad nullum-autem bonum creatum voluntas determinatur,
+<lb ed="#L" n="25"/>sed tantum ad bonum in communi: et consequenter ad id
+<lb ed="#L" n="26"/>in quo ratio universalis boni invenitur, sicut est Deus, si
+<lb ed="#L" n="27"/>cognoscatur in ipso rationem beatitudinis inveniri. Quia
+<lb ed="#L" n="28"/>solum bonum in communi est primum et per se obiectum
+<lb ed="#L" n="29"/>voluntatis. Potentia autem ad solum primum et per se
+<lb ed="#L" n="30"/>obiectum determinationem et inclinationem habet. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>VII. Secundum hanc itaque huius rationis 
+interpretatio<lb ed="#L" break="no" n="32"/>nem, patet quod obiectiones Durandi vanae sunt. Cum
+<lb ed="#L" n="33"/>enim inquit quod sequeretur omnia a Deo immediate creata
+<lb ed="#L" n="34"/>a solo Deo cognosci, si voluntatis actus a solo Deo 
+co<lb ed="#L" break="no" n="35"/>gnoscitur quia soli Deo voluntas subditur quantum ad
+<lb ed="#L" n="36"/>causalitatem: — patet quod non arguitur ad intentum 
+ra<lb ed="#L" break="no" n="37"/>tionis. Non enim vult Sanctus Thomas hanc universalem
+<lb ed="#L" n="38"/>propositionem assumere, Omne quod a solo Deo producitur,
+<lb ed="#L" n="39"/>soli Deo est cognitum : sed hanc, Omnis operario, et omnis
+<lb ed="#L" n="40"/>effectus creaturae, qui a nulla causa naturaliter agente
+<lb ed="#L" n="41"/>procedit, sed tantum a libera voluntate et a Deo, soli Deo
+<lb ed="#L" n="42"/>(supple: et volenti, et ei cui volens manifestare voluerit)
+<lb ed="#L" n="43"/>est cognitus.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Cum etiam inquit quod tunc motus caeli, quia ex sola
+<lb ed="#L" n="45"/>voluntate angeli procedit, soli Deo esset cognitus, si quae
+<lb ed="#L" n="46"/>ex sola voluntate dependent, soli Deo sunt cognita: patet
+<lb ed="#L" n="47"/>quod falsum assumit. Non enim ex sola voluntate angeli
+<lb ed="#L" n="48"/>motus caeli dependet, sed etiam ex natura caeli, quae ad
+<lb ed="#L" n="49"/>hunc motum recipiendum naturaliter inclinatur.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Si autem instetur, quia saltem sequetur quod motus
+<lb ed="#L" n="51"/>lapidis sursum, a solo angelo causatus, soli Deo erit notus:
+<lb ed="#L" n="52"/>is enim ex sola voluntate angeli producitur, cum lapis ad
+<lb ed="#L" n="53"/>ipsum non habeat inclinationem, immo ad motum 
+oppo<lb ed="#L" break="no" n="54"/>situm inclinetur: — respondetur quod, licet motus violentus
+<lb ed="#L" n="55"/>lapidis non sit secundum lapidis naturam, motus tamen
+<lb ed="#L" n="56"/>sursum, qui est violentus lapidi, est alteri corpori naturalis,
+<lb ed="#L" n="57"/>scilicet igni. Ad hoc autem ut aliquid ad angelum non
+<lb ed="#L" n="58"/>spectans naturaliter cognoscatur ab angelo, non oportet
+<lb ed="#L" n="59"/>ut illud sit naturale ei cui cognoscitur inesse, alioquin 
+nul<lb ed="#L" break="no" n="60"/>lum praedicatum per accidens angelus de re cognosceret:
+<lb ed="#L" n="61"/>sed sufficit quod ad aliquam naturam connexionem habeat
+<lb ed="#L" n="62"/>quae ad ipsum est determinata. Per speciem enim illius
+<lb ed="#L" n="63"/>naturae primo cognoscitur ab angelo ut ad ipsum talis
+<lb ed="#L" n="64"/>natura est determinata: per speciem vero eius cui per 
+ac<lb ed="#L" break="no" n="65"/>cidens inest, cognoscitur ut illi per accidens inhaerens. Nam
+<lb ed="#L" n="66"/>species angelica repraesentat singulare cum omnibus 
+con<lb ed="#L" break="no" n="67"/>ditionibus in ipso existentibus: dummodo sint de iis quae
+<lb ed="#L" n="68"/>ad aliquam causam naturalem ordinem habent,
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Similiter, cum infert Durandus quod tunc a solo Deo
+<lb ed="#L" n="70"/>cognoscerentur opera extrinseca per imperium nostrae 
+vo<lb ed="#L" break="no" n="71"/>luntatis producta: — eodem modo respondetur. Dicitur enim
+<lb ed="#L" n="72"/>quod illa non procedunt ex sola voluntate: sed a voluntate
+<lb ed="#L" n="73"/>mediante aliqua causa naturali et determinata proveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>VIII. Circa autem conclusionem ipsam, advertendum quod
+<lb ed="#L" n="75"/>dupliciter potest intelligi cogitationes cordis esse angelo
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>incognitas et occultas in seipsis. Primo, quod nullo modo
+<lb ed="#L" n="77"/>sunt illi cognitae quantum ad a» est, sive quantum ad
+<lb ed="#L" n="78"/>esse actuale ipsarum. Puta, si ego de lapide cogito, quod
+<lb ed="#L" n="79"/>non cognoscit me de lapide cogitare. — Secundo quod, licet
+<lb ed="#L" n="80"/>cognoscat quid cogito quantum ad id quod primo per
+<lb ed="#L" n="81"/>speciem repraesentatur,non tamen cognoscit determinate
+<lb ed="#L" n="82"/>et in particulari quam conditionem de illo. considerem.
+<lb ed="#L" n="83"/>Puta, quod cognoscit quidem me considerare de lapide,
+<lb ed="#L" n="84"/>sed non cognoscit an considerem de ipsius forma, an de
+<lb ed="#L" n="85"/>eius duritie, et sic de aliis lapidis conditionibus.
+</p>
+            <p>
+               <lb ed="#L" n="86"/>Aliqui Thomistae ad primum sensum conclusionem 
+in<lb ed="#L" break="no" n="87"/>telligunt. Tum quia in Qu. Verit., loco praeallegato , dicitur
+<lb ed="#L" n="88"/>absolute quod motus voluntatis alterius non potest esse
+<lb ed="#L" n="89"/>angelo notus. — Tum quia in Qu..de Malo dicitur, ubi
+<lb ed="#L" n="90"/>supra , quod, licet unus angelus cognoscat species 
+intelli<lb ed="#L" break="no" n="91"/>gibiles quae sunt in intellectu alterius angeli, non potest
+<lb ed="#L" n="92"/>tamen usum specierum cognoscere. — Tum quia Prima Parte,
+<lb ed="#L" n="93"/>loco citato , dicitur quod angeli non cognoscunt 
+cogita<lb ed="#L" break="no" n="94"/>tiones, quia ex sola voluntate dependet quod aliquis actu
+<lb ed="#L" n="95"/>aliqua . consideret.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Alii vero, sicut <ref>Hervaeus in II Sent.</ref>, conclusionem ad
+<lb ed="#L" n="97"/>secundum sensum interpretantur. Et potest habere haec
+<lb ed="#L" n="98"/>positio fundamentum ex verbis Sancti Thomae in QQ.
+<lb ed="#L" n="99"/>de Veritate. lbi enim, in responsionibus ad argumenta ,
+<lb ed="#L" n="100"/>videtur velle, non quod nullo modo cognoscantur ab angelo
+<lb ed="#L" n="101"/>cogitationes cordis, sed quod non cognoscantur 
+deter<lb ed="#L" break="no" n="102"/>minate. Et assignat rationem: quia ex una specie 
+intel<lb ed="#L" break="no" n="103"/>lectus in diversas cogitationes prodit; et ex una habituali
+<lb ed="#L" n="104"/>notitia multae actuales considerationes progrediuntur. Ex
+<lb ed="#L" n="105"/>his enim velle videtur quod, licet angelus possit videre
+<lb ed="#L" n="106"/>quod ego utor hac specie intellectuali, puta specie leonis,
+<lb ed="#L" n="107"/>non tamen potest determinate cognoscere quid ego de leone
+<lb ed="#L" n="108"/>cogitem: cum per speciem leonis multas de ipso possim
+<lb ed="#L" n="109"/>cogitationes habere.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>2. Sed, licet conclusio ad hunc secundum sensum 
+de<lb ed="#L" break="no" n="111"/>fendi aliquo modo possit; et ego, propter verba Sancti
+<lb ed="#L" n="112"/>Thomae allegata in QQ. de Veritate, eam aliquando 
+te<lb ed="#L" break="no" n="113"/>nuerim: tamen, diligentius considerando verba et mentem
+<lb ed="#L" n="114"/>Sancti Thomae, videtur mihi quod primus sensus in 
+do<lb ed="#L" break="no" n="115"/>ctrina eius sit sequendus. Nam manifestum est quod ita
+<lb ed="#L" n="116"/>ex sola voluntate dependet quod ego de homine cogitem,
+<lb ed="#L" n="117"/>sicut quod hoc in particulari de ipso considerem. Et ideo,
+<lb ed="#L" n="118"/>si propter hoc quod ex sola voluntate hoc in particulari
+<lb ed="#L" n="119"/>cogito de homine, cogitatio mea est occulta; eadem ratione
+<lb ed="#L" n="120"/>et cogitatio qua de homine absolute cogito, occulta erit.
+</p>
+            <p>
+               <lb ed="#L" n="121"/>Nec obstat quod intellectus, informatus specie 
+intel<lb ed="#L" break="no" n="122"/>ligibili hominis, videtur ad naturam hominis cognoscendam
+<lb ed="#L" n="123"/>esse determinatus. — Dicitur enim quod, licet per talem
+<lb ed="#L" n="124"/>speciem intellectus sit ad notitiam habitualem hominis 
+deter<lb ed="#L" break="no" n="125"/>minatus, non est tamen determinatus ad notitiam actualem:
+<lb ed="#L" n="126"/>sed ad ipsam est omnino indifferens, et ex sola voluntate
+<lb ed="#L" n="127"/>dependet quod per talem speciem ad actualem 
+conside<lb ed="#L" break="no" n="128"/>rationem exeat.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>3. Propter verba autem adducta ex QQ. de Veritate, 
+con<lb ed="#L" break="no" n="130"/>siderandum est quid importet ista determinatio, ip seipsis,
+<lb ed="#L" n="131"/>et, prout cogitationes sunt in intellectu et affectiones in
+<lb ed="#L" n="132"/>voluntate: cum inquit Sanctus Thomas quod nom 
+cogno<lb ed="#L" break="no" n="133"/>scuntur in seipsis, sive ut cogitationes sunt in intellectu,
+<lb ed="#L" n="134"/>et in voluntate affectiones . Cognoscere enim aliquam
+<lb ed="#L" n="135"/>considerationem in seipsa et prout est in intellectu, est
+<lb ed="#L" n="136"/>videre esse quod habet in intellectu. Videre autem esse
+<lb ed="#L" n="137"/>quod habet aliqua particularis consideratio in intellectu,
+<lb ed="#L" n="138"/>non est videre solum ordinem ipsius ad principale eius
+<lb ed="#L" n="139"/>obiectum per speciem repraesentatum; sed est videre 
+ordi<lb ed="#L" break="no" n="140"/>nem ipsius ad omnia quae actu considerat intellectus per
+<lb ed="#L" n="141"/>ipsam; alioquin non videretur in seipsa secundum quod est.
+<lb ed="#L" n="142"/>Ideo repugnat quod ego considerem .de homine quantum
+<lb ed="#L" n="143"/>ad eius effigiem et figuram, et quod angelus videat ipsam
+<lb ed="#L" n="144"/>considerationem in seipsa et secundum quod est in 
+intel<lb ed="#L" break="no" n="145"/>lectu, et tamen cognoscat tantum me de homine considerare,
+<lb ed="#L" n="146"/>non autem de hominis figura. Esse enim particulare quod
+<lb ed="#L" n="147"/>habet in intellectu, non determinatur tantum per hominem,
+<lb ed="#L" n="148"/>sed etiam per hominis figuram: et per hoc ab omni alia
+<lb ed="#L" n="149"/>consideratione distinguitur. Similiter, si considerem de 
+ho<lb ed="#L" break="no" n="150"/>minis quidditate per abstractionem ab: omnibus conditio-
+<pb ed="#L" n="456"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>nibus individuantibus, non videtur talis cogitatio in seipsa
+<lb ed="#L" n="2"/>et secundum quod est in intellectu, nisi videatur quod ego
+<lb ed="#L" n="3"/>de quidditate hominis cogito et cum tali abstractione. Vult
+<lb ed="#L" n="4"/>ergo Sanctus 'Thomas quod, quia species una intellectualis
+<lb ed="#L" n="5"/>potest esse plurium cogitationum circa principale 
+repraesen<lb ed="#L" break="no" n="6"/>tatum elicitiva, ex hoc quod angelus videt speciem in 
+intel<lb ed="#L" break="no" n="7"/>lectu alterius, non oportet ut videat aliquam cogitationem
+<lb ed="#L" n="8"/>actu existentem in intellectu secundum. quod est in 
+intel<lb ed="#L" break="no" n="9"/>lectu: quia, ut sic, omnis cogitatio est determinata; per
+<lb ed="#L" n="10"/>id autem quod secundum se est ad multa indeterminatum,
+<lb ed="#L" n="11"/>non potest unum illorum in seipso cognosci. Potest quidem
+<lb ed="#L" n="12"/>angelus in communi cognoscere quid sit cogitatio de /
+o<lb ed="#L" break="no" n="13"/>mine ; et similiter in communi potest aliqua signa extrinseca
+<lb ed="#L" n="14"/>cognoscere quod homo de tali re considerat: sed actualem
+<lb ed="#L" n="15"/>considerationem, secundum quod est in. intellectu, sive in
+<lb ed="#L" n="16"/>seipsa, videre non potest, ut explicavimus, propterea quod
+<lb ed="#L" n="17"/>omnino voluntaria sit.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>IX. Circa prophetiam, considerandum primo, ex doctrina
+<lb ed="#L" n="19"/>Sancti Thomae II I, q. crxxr, a. 6, quod, cum cognitio
+<lb ed="#L" n="20"/>addiscentis sit similitudo cognitionis docentis, cognitionis
+<lb ed="#L" n="21"/>veritas eadein est in discipulo et in docente. Unde, cum
+<lb ed="#L" n="22"/>prophetia sit quaedam cognitio ex divina revelatione in
+<lb ed="#L" n="23"/>intellectum prophetae proveniens per modum doctrinae,
+<lb ed="#L" n="24"/>necesse est eandem veritatem esse cognitionis divinae 
+co<lb ed="#L" break="no" n="25"/>gnitionisque propheticae. Propter hoc bene dictum est
+<lb ed="#L" n="26"/>supra quod prophetica cognitio de futuris est omnino
+<lb ed="#L" n="27"/>certa, sicut et divina praecognitio.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Considerandum secundo quod, quamvis divina cognitio
+<lb ed="#L" n="29"/>futura respiciat et secundum quod in seipsis sunt, ea 
+prae<lb ed="#L" break="no" n="30"/>sentialiter intuendo; et secundum quod sunt in suis causis,
+<lb ed="#L" n="31"/>causarum ordinem ad effectus cognoscendo ; semperque ista
+<lb ed="#L" n="32"/>duplex cognitio divino intellectui coniungatur: non tamen
+<lb ed="#L" n="33"/>semper coniungitur in revelatione divina, sed quandoque
+<lb ed="#L" n="34"/>prophetica revelatio est impressa similitudo divinae 
+prae<lb ed="#L" break="no" n="35"/>scientiae ut respicit futura in seipsis, et tunc res eveniunt
+<lb ed="#L" n="36"/>sicut prophetantur; quandoque vero est similitudo divinae
+<lb ed="#L" n="37"/>praescientiae prout ordinem causarum ad effectus novit,
+<lb ed="#L" n="38"/>et tunc. quandoque aliter evenit quam prophetetur, quia
+<lb ed="#L" n="39"/>quandoque impeditur causa contingens, ne effectum 
+pro<lb ed="#L" break="no" n="40"/>ducat ad cuius productionem erat disposita. Et tunc sensus
+<lb ed="#L" n="41"/>prophetiae non est quod ita omnino eveniet: sed quod
+<lb ed="#L" n="42"/>dispositio inferiorum causarum est ad hoc quod eveniat.
+<lb ed="#L" n="43"/>Quod cum verum sit, nihil de certitudine deperit prophetiae,
+<lb ed="#L" n="44"/>etiam si effectus non sequatur. Propterea bene dictum est
+<lb ed="#L" n="45"/>quod, cum revelantur aliquando prophetis effectus futuri
+<lb ed="#L" n="46"/>secundum quod sunt in causis suis, nihil prohibet prophetae
+<lb ed="#L" n="47"/>praenuntiationem immutari.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Considerandum tertio; quod Sanctus Thomas-idcirco ait
+<lb ed="#L" n="49"/>malignos spiritus futurorum praedictione »on vere 
+prophe<lb ed="#L" break="no" n="50"/>tare, quia, ut dicitur II I^, q. crxxrv ; et Verit., q. xir ,
+<lb ed="#L" n="51"/>ad prophetiam proprie pertinet praenuntiatio certa de iis
+<lb ed="#L" n="52"/>quae a solo Deo cognosci possunt, ut superius  est dictum,
+<lb ed="#L" n="53"/>cuiusmodi sunt occulta cordium et futura contingentia,
+<lb ed="#L" n="54"/>quae secundum se procul sunt a cognitione humana, cum
+<lb ed="#L" n="55"/>veritatem determinatam non habeant. De iis enim non 
+prae<lb ed="#L" break="no" n="56"/>nuntiant secundum quod in seipsis sunt, tanquam ab iis
+<lb ed="#L" n="57"/>praesentialiter cognita: sed solum secundum ordinem. 
+cau<lb ed="#L" break="no" n="58"/>sarum ad effectus, quo modo, ut superius  est ostensum,
+<lb ed="#L" n="59"/>futura contingentia certitudinem non habent. Et ideo, licet
+<lb ed="#L" n="60"/>in horum praenuntiatione mirabiliores et veraciores 
+appa<lb ed="#L" break="no" n="61"/>reant quam homines quantumcumque scientes, ut hic dicitur,
+<lb ed="#L" n="62"/>quia subtilitate ingenii perspicacius et causas et ea quae
+<lb ed="#L" n="63"/>possunt impedire cognoscunt: tamen nec eorum cognitio,
+<lb ed="#L" n="64"/>nec eorum praenuntiatio infallibilem continent veritatem.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>2. Circa id quod dicitur, malignos spiritus, praenuntiando
+<lb ed="#L" n="66"/>quae cognoscunt, .humanam mentem non illuminare :
+<lb ed="#L" n="67"/>advertendum quod hoc non dicitur quasi naturali sua 
+vir<lb ed="#L" break="no" n="68"/>tute mentem illuminare non possint: — nam, ut dicitur in
+<lb ed="#L" n="69"/>QQ. de Malo, q. xvi, a. 12, cum lumen naturale intellectus
+<lb ed="#L" n="70"/>humani naturaliter sit infra lumen angelicum, potest per
+<lb ed="#L" n="71"/>ipsum lumen angelicum confortari lumen intellectus 
+hu<lb ed="#L" break="no" n="72"/>mani ad perfectius iudicandum, sicut in rebus corporalibus
+<lb ed="#L" n="73"/>virtus superior inferiorem adiuvat et confortat — sed quia,
+<lb ed="#L" n="74"/>cum naturali sua virtute daemones propter malitiam 
+volun<lb ed="#L" break="no" n="75"/>tatis abutantur, ion intendunt, ut hic etiam dicitur, hominem
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ad veritatis cognitionem iuvare, sed magis ab ipsa abducere.
+<lb ed="#L" n="77"/>Et ideo non praenuntiant illuminando: quia tunc, ex tali
+<lb ed="#L" n="78"/>illuminatione mens confortata, ad veritatem cognoscendam
+<lb ed="#L" n="79"/>perspicacior esset.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>3. Attendendum ultimo, quod Sanctus Thomas non 
+ad<lb ed="#L" break="no" n="81"/>ducit rationem contra opinionem dicentium idcirco motus
+<lb ed="#L" n="82"/>qui praeter deliberationem fiunt, futurorum eventuum signa
+<lb ed="#L" n="83"/>esse , ex eo quod motum corporum caelestium eorumque
+<lb ed="#L" n="84"/>impressionem sequuntur, quia hoc in superioribus est
+<lb ed="#L" n="85"/>improbatum, ubi. ostensum est ad quae virtus caelestis
+<lb ed="#L" n="86"/>corporis se possit extendere: sed hoc tantum dicit modicam,
+<lb ed="#L" n="87"/>idest debilem et nullius valoris rationem habere ; 
+osten<lb ed="#L" break="no" n="88"/>ditque: esse falsum auctoritate Sanctorum et gentilium; et
+<lb ed="#L" n="89"/>ex eo quod in Sacra Scriptura simul cum idololatria omnia
+<lb ed="#L" n="90"/>ista reprobantur; quod non esset, si ex corporum caelestium
+<lb ed="#L" n="91"/>impressione futurorum eventuum signa esse possent.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>X. Sexta est sermonis interpretatio : de quo fit mentio
+<lb ed="#L" n="93"/>Gen. xr. Huius autem necessitas ostenditur quia, cum 
+homi<lb ed="#L" break="no" n="94"/>nes revelationem a Deo accipiant non solum pro praesenti
+<lb ed="#L" n="95"/>tempore, sed etiam ad instructionem futurorum hominum,
+<lb ed="#L" n="96"/>necesse fuit revelata non solum praesentibus sermone 
+nar<lb ed="#L" break="no" n="97"/>rari, sed etiam ad instructionem futurorum scribi. Et ideo,
+<lb ed="#L" n="98"/>sicut ipsa revelatio per gratiam Dei facta fuit, ita oportuit
+<lb ed="#L" n="99"/>et per divinam gratiam aliquibus dari ut huiusmodi scripta
+<lb ed="#L" n="100"/>interpretentur.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>2. Sed occurrit. dubium: cum inquit Sanctus Thomas,
+<lb ed="#L" n="102"/>post gradum illorum qui immediate revelationem a Deo
+<lb ed="#L" n="103"/>suscipiunt, oportere esse alium gratiae gradum. Videtur
+<lb ed="#L" n="104"/>enim velle prophetiae revelationem, de qua superius 
+im<lb ed="#L" break="no" n="105"/>mediate mentionem fecit, immediate a Deo recipi. Huius
+<lb ed="#L" n="106"/>autem oppositum videtur dictum esse in principio capitis
+<lb ed="#L" n="107"/>huius, ubi ostensum est ministerio angelorum interveniente
+<lb ed="#L" n="108"/>revelationem divinam ad homines pervenire. . "m
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Respondetur quod non intendit Sanctus Thomas hoc
+<lb ed="#L" n="110"/>loco divinam revelationem in homines ministerio angelorum
+<lb ed="#L" n="111"/>non fieri: sed quod aliqui homines a Deo huiusmodi 
+reve<lb ed="#L" break="no" n="112"/>lationem recipiunt non mediantibus aliis hominibus. Praeter
+<lb ed="#L" n="113"/>quem gradum oportet alios esse, qui non accipiant 
+huius<lb ed="#L" break="no" n="114"/>modi illuminationem immediate a Deo sive ab angelis, sed
+<lb ed="#L" n="115"/>mediantibus aliis hominibus, quorum revelationes, scriptis
+<lb ed="#L" n="116"/>mandatas, interpretari per divinam gratiam possunt. -
+</p>
+            <p>
+               <lb ed="#L" n="117"/>XI. Septima est fidei gratia. Cuius necessitas in 
+mani<lb ed="#L" break="no" n="118"/>festatione divinorum ostenditur, quia oportet aliquos esse
+<lb ed="#L" n="119"/>qui ea quae sunt aliis revelata, et per alios interpretata,
+<lb ed="#L" n="120"/>fideliter credant. Quod quidem esse donum Dei, superius 
+<lb ed="#L" n="121"/>est ostensum. . Dd fai n virgis
+</p>
+            <p>
+               <lb ed="#L" n="122"/>2. Sed circa hoc donum duplex occurrit dubium. 
+Pri<lb ed="#L" break="no" n="123"/>mum est, quia hic enumerantur dona tantum gratiae gratis
+<lb ed="#L" n="124"/>datae: superius autem  ostensum est fidem esse effectum
+<lb ed="#L" n="125"/>gratiae gratum facientis. :
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Secundum est, quia sapientiae donum est etiam de iis
+<lb ed="#L" n="127"/>quae fidei sunt: cum sit de divinis quae humanam 
+transcen<lb ed="#L" break="no" n="128"/>dunt rationem, et per consequens fide tantum tenentur.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>3. Ad primum. horum dicitur, de mente Sancti Thomae
+<lb ed="#L" n="130"/>loco praeallegato in I IT^ , quod dupliciter accipitur
+<lb ed="#L" n="131"/>fides. Uno modo, prout est virtus hominem in seipso 
+iusti<lb ed="#L" break="no" n="132"/>ficans.. Et sic ad gratiam gratum facientem pertinet. — Alio
+<lb ed="#L" n="133"/>modo, ut importat quandam supereminentem certitudinem
+<lb ed="#L" n="134"/>fidei, ex qua homo fit idoneus ad instruendum alios. de
+<lb ed="#L" n="135"/>iis quae ad fidem pertinent. Et sic inter dona gratiae gratis
+<lb ed="#L" n="136"/>datae, quae ad aliorum utilitatem ordinantur, est 
+connu<lb ed="#L" break="no" n="137"/>merata.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>Potest etiam dici, ut dicitur II I^, q. rv, a. 5, ad 4,
+<lb ed="#L" n="139"/>quod fides quae est gratia gratis data; importat quandam
+<lb ed="#L" n="140"/>fidei excellentiam, sicut constantiam fidei, etc.
+</p>
+            <p>
+               <lb ed="#L" n="141"/>4. Ad secundum dicitur quod dupliciter possumus
+<lb ed="#L" n="142"/>loqui de pertinentibus ad fidem. Uno modo, ut omnia
+<lb ed="#L" n="143"/>quae humanam cognitionem excedunt, dicantur ad fidem
+<lb ed="#L" n="144"/>pertinere. Et sic non est differentia inter donum 
+sapien<lb ed="#L" break="no" n="145"/>tiae et fidem, nisi forte sicut inferius differt a suo 
+supe<lb ed="#L" break="no" n="146"/>riori: cum utraque cognitio sit de divinis quae humanam
+<lb ed="#L" n="147"/>excedunt rationem. Unde Sanctus Thomas, in principio
+<lb ed="#L" n="148"/>capituli, volens determinare de donis quibus divina per
+<lb ed="#L" n="149"/>revelationem cognoscuntur, divinorum cognitionem vocat
+<lb ed="#L" n="150"/>fidei cognitionem. — Alio modo, ut ea dicantur ad fidem
+<pb ed="#L" n="457"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>pertinere quae sunt tantum credita, et sunt tanquam prin- |
+<lb ed="#L" n="2"/>cipia in Catholica doctrina. Et sic fides ponitur donum
+<lb ed="#L" n="3"/>distinctum a sapientiae dono: quia sapientia versatur non
+<lb ed="#L" n="4"/>circa ipsa principia (modo scilicet scientifico), sed circa
+<lb ed="#L" n="5"/>conclusiones quae ex illis principiis deducuntur.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Potest etiam dici quod ad donum sapientiae pertinet
+<lb ed="#L" n="7"/>cognitio divinorum quae fit per divinam revelationem 
+an<lb ed="#L" break="no" n="8"/>gelorum tantum ministerio: quae potest et fidei cognitio
+<lb ed="#L" n="9"/>dici, inquantum est supra facultatem intellectus nostri. Ad
+<lb ed="#L" n="10"/>donum autem fidei pertinet ea cognitio divinorum qua
+<lb ed="#L" n="11"/>fideliter credimus aliis hominibus EN et per alios
+<lb ed="#L" n="12"/>interpretata.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Advertendum autem quod ultimum addis tenere inquit
+<lb ed="#L" n="14"/>Sanctus 'Thomas donum fidei, non quia sit ultimum 
+sim<lb ed="#L" break="no" n="15"/>pliciter inter dona huiusmodi: sed quia est ultimum inter
+<lb ed="#L" n="16"/>dona pertinentia ad cognitionem divinorum prophetica
+<lb ed="#L" n="17"/>revelatione habitam.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>XII Octava est discretio spirituum. Huius necessitas
+<lb ed="#L" n="19"/>ostenditur quia, cum per malignos spiritus aliqua similia
+<lb ed="#L" n="20"/>fiant iis quibus fides confirmatur; ne homines, per 
+huius<lb ed="#L" break="no" n="21"/>modi decepti, credant mendacio, necessarium est ut de
+<lb ed="#L" n="22"/>huiusmodi spiritibus discernendis per divinam gratiam
+<lb ed="#L" n="23"/>instruantur, iuxta monitionem I Ioan. IV.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>CONFIRMATUR istorum. donorum numerus auctoritate
+<lb ed="#L" n="25"/>Apostoli, I Cor. XII
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Advertendum quod Apostolus distinguit gratiam 
+sani<lb ed="#L" break="no" n="27"/>tatum ab operatione virtutum, — quorum unum ad 
+salu<lb ed="#L" break="no" n="28"/>tem corporum pertinet; alterum vero ad solam divinae
+<lb ed="#L" n="29"/>potestatis manifestationem, sicut quod sol stet aut 
+tene<lb ed="#L" break="no" n="30"/>brosus fiat — quia specialem rationem inducendi ad fidem
+<lb ed="#L" n="31"/>habet. Ad hanc enim quis magis promptus redditur dum
+<lb ed="#L" n="32"/>videt se beneficium sanitatis consequi ex fide. — Sanctus
+<lb ed="#L" n="33"/>Thomas autem utramque gratiam superius  sitol posuit,
+<lb ed="#L" n="34"/>cum dixit oportuisse praedicantium sermonem confirmari
+<lb ed="#L" n="35"/>sanando infirmos et alias virtutes operando : quia utraque
+<lb ed="#L" n="36"/>ad miraculorum gratiam pertinet, qua quis divina virtute
+<lb ed="#L" n="37"/>operatur quae solus Deus facere potest. Ideo hic ponuntur
+<lb ed="#L" n="38"/>tantum octo gratiae gratis datae: in Prima Secundae autem 
+<lb ed="#L" n="39"/>ponuntur novem, quia ibi distinguitur gratia miraculorum
+<lb ed="#L" n="40"/>a gratia sanitatum.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Attendendum etiam quod sapientia et scientia 
+enume<lb ed="#L" break="no" n="42"/>rantur inter gratias gratis datas secundum quod important
+<lb ed="#L" n="43"/>quandam scientiae et sapientiae abundantiam, qua homo
+<lb ed="#L" n="44"/>potest non solum in seipso sapere de divinis, sed etiam
+<lb ed="#L" n="45"/>alios instruere, et contradicentes revincere: non autem prout
+<lb ed="#L" n="46"/>per ipsa mens est bene mobilis per Spiritum Sanctum ad
+<lb ed="#L" n="47"/>ed quae sunt sapientiae et scientiae , quia sic sunt Spiritus
+<lb ed="#L" n="48"/>Sancti dona.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Excluditur autem per hoc error quorundam 
+Manichaeo<lb ed="#L" break="no" n="50"/>rum dicentium miracula non esse a Deo facta; et prophetas
+<lb ed="#L" n="51"/>non esse Spiritu Dei locutos.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Excluditur etiam error Priscillae et Montani, dicentium
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="53"/>prophetas, tanquam arreptitios, non intellexisse quae 
+loque<lb ed="#L" break="no" n="54"/>bantur. Quod divinae. illuminationi repugnat. .
+</p>
+            <p>
+               <lb ed="#L" n="55"/>XIII. Quantum ad secundum , Sanctus Thomas, 
+com<lb ed="#L" break="no" n="56"/>plectendo omnes gratiae effectus supra enumeratos , ponit
+<lb ed="#L" n="57"/>inter ipsos duplicem differentiam. Prima est quod, quamvis
+<lb ed="#L" n="58"/>omnibus gratiae nomen conveniat, quia gratis absque 
+prae<lb ed="#L" break="no" n="59"/>cedenti merito conferuntur; solus tamen dilectionis effectus
+<lb ed="#L" n="60"/>etiam propter hoc nomen gratiae meretur quod gratum
+<lb ed="#L" n="61"/>Deo facit, iuxta id quod dicitur Proverb. vi. Unde fides
+<lb ed="#L" n="62"/>et spes etiam in peccatoribus esse possunt; dilectio autem
+<lb ed="#L" n="63"/>in solis iustis, ut habetur I 7oan. tv.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Ád huius differentiae evidentiam, duo sunt consideranda.
+<lb ed="#L" n="65"/>Unum est, quod fides et spes, licet concomitentur gratiam
+<lb ed="#L" n="66"/>gratum facientem in eo qui gratiam habet, quia infunduntur
+<lb ed="#L" n="67"/>simul cum ipsa gratia; tamen possunt sine gratia in aliquo
+<lb ed="#L" n="68"/>inveniri, et tunc dicuntur informes. Caritas autem sic 
+gra<lb ed="#L" break="no" n="69"/>tiam concomitatur quod non solum simul infunditur cum
+<lb ed="#L" n="70"/>alicui infunditur gratia, sed etiam sine gratia esse non potest.
+<lb ed="#L" n="71"/>Gratia autem facit hominem Deo formaliter gratum, ut 
+su<lb ed="#L" break="no" n="72"/>perius  est ostensum. Ideo bene dicitur solam dilectionem
+<lb ed="#L" n="73"/>inter dona gratuita mereri nomen gratiae etiam. ob hoc
+<lb ed="#L" n="74"/>quod gratum Deo facit.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Alterum est, quod non ideo hoc dicitur de dilectione
+<lb ed="#L" n="76"/>et caritate, quasi sit primum per quod honio redditur Deo
+<lb ed="#L" n="77"/>gratus, ostensum est enim hoc gratiae convenire, quae est
+<lb ed="#L" n="78"/>aliquo modo caritatis causa : sed quia secundario reddit
+<lb ed="#L" n="79"/>hominem Deo gratum et. dilectum, utpote quae non possit
+<lb ed="#L" n="80"/>in anima absque gratia gratum faciente esse.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Secunda differentia est quod, quia quidam dictorum
+<lb ed="#L" n="82"/>ellietuad sunt ad totam vitam hominis necessarii, utpote
+<lb ed="#L" n="83"/>sine quibus salus esse non potest, sicut credere, sperare,
+<lb ed="#L" n="84"/>diligere, et praeceptis Dei obedire; ad hos necesse est
+<lb ed="#L" n="85"/>habituales quasdam perfectiones hominibus i inesse, 
+secun<lb ed="#L" break="no" n="86"/>dum quas agere possint cum fuerit tempus. — Ad alios vero,
+<lb ed="#L" n="87"/>quia non sunt necessarii per totam vitam, non dantur 
+habi<lb ed="#L" break="no" n="88"/>tuales perfectiones, sed impressiones quaedam a Deo, quae
+<lb ed="#L" n="89"/>cessant actu cessante, et reiterantur. cum actus fuerit us
+<lb ed="#L" n="90"/>portunus.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Quomodo vero lumen propheticum non adsit homini
+<lb ed="#L" n="92"/>per modum habitus permanentis, ostendit Sanctus 
+Tho<lb ed="#L" break="no" n="93"/>mas II? I5, q. ccxx1; et Verit., q. xii , Similiter quomodo
+<lb ed="#L" n="94"/>virtus miracula faciendi non sit forma permanens in homine,
+<lb ed="#L" n="95"/>ostensum est in praecedentibus ; et ostenditur II IT,
+<lb ed="#L" n="96"/>q.crxxvnur; et de Pot., q. vi. Virtus enim ad miracula 
+<lb ed="#L" n="97"/>facienda, et lumen propheticum, non adsunt homini nisi
+<lb ed="#L" n="98"/>ad praesentiam Dei agentis, sicut nec lumen est in aere
+<lb ed="#L" n="99"/>nisi ad praesentiam solis: et non radicantur in homine, sed
+<lb ed="#L" n="100"/>tunc tantum ipsi adsunt cum opus fuerit. Unde prophetae
+<lb ed="#L" n="101"/>non pro libito futura praenuntiant prophetica 
+praenuntia<lb ed="#L" break="no" n="102"/>tione; nec sancti viri quandocumqye voluerint, miracula
+<lb ed="#L" n="103"/>operantur; sed tunc tantum quando Deo placuerit per
+<lb ed="#L" n="104"/>hominem revelare futura, et divina aut miracula facere.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

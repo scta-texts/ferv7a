@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 17</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 17</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="41"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1847"><!-- ferv7a-l3c17 -->
+            <head xml:id="ferv7a-d1e1847-Hd1e101">Capitulum 17</head>
+            <p xml:id="ferv7a-d1e1847-d1e103">
+               <pb ed="#L" n="41"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=41"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e112">
+               <lb ed="#L" n="2"/>POSTQAUM ostendit Sanctus Thomas cuiuslibet rei finem
+<lb ed="#L" n="3"/>esse bonum, consequenter vult ostendere Deum rerum
+<lb ed="#L" n="4"/>omnium finem esse . Circa hoc autem duo facit: primo,
+<lb ed="#L" n="5"/>ostendit Deum esse omnium finem; secundo, ostendit 
+quo<lb ed="#L" break="no" n="6"/>modo res in hunc finem diversimode ordinentur, capite xxrr.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e125">
+               <lb ed="#L" n="7"/>Circa primum duo facit: primo, ostendit Deum esse
+<lb ed="#L" n="8"/>finem omnium; secundo, qualiter sit finis. ostendit, in
+<lb ed="#L" n="9"/>capite sequenti.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e134">
+               <lb ed="#L" n="10"/>I. Quantum ad primum, ponit hanc conclusionem:
+<lb ed="#L" n="11"/>Omnia ordinantur in unum finem, qui est Deus.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e142">
+               <lb ed="#L" n="12"/>Probatur primo. Bonum, inquantum bonum, est finis.
+<lb ed="#L" n="13"/>Ergo summum bonum est maxime omnium finis. Sed hoc
+<lb ed="#L" n="14"/>est tantum unum, scilicet Deus. Ergo etc. — Probatur 
+an<lb ed="#L" break="no" n="15"/>tecedens. Quia nihil tendit in aliquid sicut in finem. nisi
+<lb ed="#L" n="16"/>inquantum ipsum est bonum.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e155">
+               <lb ed="#L" n="17"/>Circa antecedens et eius probationem, advertendum
+<lb ed="#L" n="18"/>quod ly inquantum specificat rationem formalem 
+funda<lb ed="#L" break="no" n="19"/>menti causae finalis. Nihil enim habet ut sibi conveniat
+<lb ed="#L" n="20"/>ratio finis, ut scilicet sit id propter quod aliquid est aut
+<lb ed="#L" n="21"/>fit, nisi quia est bonum. Et ideo oportet quod bonum,
+<lb ed="#L" n="22"/>inquantum -bonum, idest, absolute secundum rationem
+<lb ed="#L" n="23"/>boni consideratum, sit fundamentum rationis finis.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e173">
+               <lb ed="#L" n="24"/>Circa primam consequentiam, considerandum est quod
+<lb ed="#L" n="25"/>in summo bono salvatur tota ratio bonitatis actualiter, ita
+<lb ed="#L" n="26"/>quod quidquid sub ratione. boni continetur potentialiter,
+<lb ed="#L" n="27"/>illud totum in summo bono continetur actualiter et 
+per<lb ed="#L" break="no" n="28"/>fectionaliter. Si enim aliqua. esset bonitas quae in ipso
+<lb ed="#L" n="29"/>non inveniretur, iam non esset summum bonum. Et ideo
+<lb ed="#L" n="30"/>sicut bonum, secundum communem et absolutam rationem
+<lb ed="#L" n="31"/>boni acceptum, quod vocat. Sanctus Thomas bonum 
+in<lb ed="#L" break="no" n="32"/>quantum bonum, est maxime finis et. omnium finis: ita
+<lb ed="#L" n="33"/>et quod est summum bonum, necesse est ut sit omnium
+<lb ed="#L" n="34"/>finis et maxime finis, hoc est, non per dependentiam ab
+<lb ed="#L" n="35"/>alio fine, sed primo et per se.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e202">
+               <lb ed="#L" n="36"/>II. Secundo. Summum bonum, qui est Deus, est causa
+<lb ed="#L" n="37"/>bonitatis in omnibus bonis. Ergo est causa cuiuslibet finis
+<lb ed="#L" n="38"/>quod sit finis. Ergo est. maxime omnium finis. — 
+Proba<lb ed="#L" break="no" n="39"/>tur antecedens. Quia maximum in unoquoque genere, est.
+<lb ed="#L" n="40"/>causa omnium aliorum illius generis, -- Prima 
+consequen<lb ed="#L" break="no" n="41"/>tia probatur. Quia quidquid est finis; est huiusmodi 
+inquan<lb ed="#L" break="no" n="42"/>tum est bonum. — Secunda etiam consequentia probatur.
+<lb ed="#L" n="43"/>Quia propter quod unumquodque, et illud magis.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e222">
+               <lb ed="#L" n="44"/>Tertio. Deus.est prima causa in ordine causarum 
+fina<lb ed="#L" break="no" n="45"/>lium: cum sit summum in ordine bonorum. Ergo est 
+ma<lb ed="#L" break="no" n="46"/>gis finis uniuscuiusque rei quam aliquis finis proximus. —
+<lb ed="#L" n="47"/>Probatur consequentia, Quia in quolibet genere causarum
+<lb ed="#L" n="48"/>prima causa est magis causa quam secunda.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e235">
+               <lb ed="#L" n="49"/>Quarto. Omnia ordinantur sub Deo sicut fines 
+prae<lb ed="#L" break="no" n="50"/>cedentes sub fine ultimo. Ergo omnium finis est Deus. —
+<lb ed="#L" n="51"/>Probatur antecedens. Quia omnia inveniuntur in diversis
+<lb ed="#L" n="52"/>gradibus bonitatis ordinata sub uno summo bono. Bonum
+<lb ed="#L" n="53"/>autem habet rationem finis. — Consequentia vero probatur.
+<lb ed="#L" n="54"/>Quia in omnibus finibus ordinatis ultimus finis est omnium
+<lb ed="#L" n="55"/>praecedentium finis. Declaratur in ordine sanationis.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e254">
+               <lb ed="#L" n="56"/>Adverte quod, licet de ratione finis sit quod sit 
+ter<lb ed="#L" break="no" n="57"/>minus appetitus, non tamen de ratione ipsius est quod
+<lb ed="#L" n="58"/>sit ultimus terminus simpliciter: sed sufficit quod sit 
+ul<lb ed="#L" break="no" n="59"/>timus aut simpliciter, aut in ordine ad aliquid. Ideo 
+in<lb ed="#L" break="no" n="60"/>venitur finis ultimus, qui scilicet est simpliciter ultimum :
+<lb ed="#L" n="61"/>et finis proximus, qui est ultimum quoddam in 
+compara<lb ed="#L" break="no" n="62"/>tione ad id quod propter ipsum fit. Propterea non 
+in<lb ed="#L" break="no" n="63"/>convenit quod unus finis: ordinetur ad alium, inquantum
+<lb ed="#L" n="64"/>ipse non est ultimum simpliciter quod quaeritur, sed 
+quae<lb ed="#L" break="no" n="65"/>ritur propter aliud. Et sic non inconvenit quod unus finis
+<lb ed="#L" n="66"/>sit finis alterius finis.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e280">
+               <lb ed="#L" n="67"/>III. Quinto. Bonum summum, quod est Deus, est 
+bo<lb ed="#L" break="no" n="68"/>num commune: cum universorum bonum ex ipso 
+depen<lb ed="#L" break="no" n="69"/>deat. Bonum autem quo quaelibet res est bona, scilicet
+<lb ed="#L" n="70"/>intrinsece, est bonum particulare ipsius et aliorum quae ab
+<lb ed="#L" n="71"/>ipso dependent. Ergo etc. — Probatur consequentia. Quia
+<lb ed="#L" n="72"/>bonum particulare ordinatur ad bonum commune sicut ad
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="73"/>finem: sicut bonum partis est propter esse totius. Et ideo
+<lb ed="#L" n="74"/>bonum gentis est divinius quam bonum unius hominis.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e302">
+               <lb ed="#L" n="75"/>2. Ad probationem consequentiae responderi forte 
+pos<lb ed="#L" break="no" n="76"/>Set quod bonum particulare ordinatur quidem sicut ad
+<lb ed="#L" n="77"/>finem ad bonum commune quod.ex particularibus bonis
+<lb ed="#L" n="78"/>constituitur: non autem ad bonum commune communitate
+<lb ed="#L" n="79"/>causalitatis; quo modo Deus est bonum commune; cum
+<lb ed="#L" n="80"/>tale bonum commune non constituatur ex particularibus
+<lb ed="#L" n="81"/>bonis. Et ideo ratio non sequitur.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e320">
+               <lb ed="#L" n="82"/>Sed. responsio haec rationem non tollit. Sive enim 
+bo<lb ed="#L" break="no" n="83"/>num commune constituatur ex. bonis particularibus, sive
+<lb ed="#L" n="84"/>non. constituatur ex illis, semper bonum particulare 
+ordi<lb ed="#L" break="no" n="85"/>natur sicut ad finem ad bonum universale. Quando enim
+<lb ed="#L" n="86"/>constituitur universale bonum ex particularibus bonis, tunc
+<lb ed="#L" n="87"/>esse particularis boni ordinatur ad esse boni universalis.
+<lb ed="#L" n="88"/>Quando autem non constituitur tale bonum universale ex
+<lb ed="#L" n="89"/>particularibus bonis, sed est causa omnium particularium
+<lb ed="#L" n="90"/>bonorum, quodlibet particulare bonum est propter 
+univer<lb ed="#L" break="no" n="91"/>sale bonum participandum. Ad hoc enim ipsum summum
+<lb ed="#L" n="92"/>bonum et universale agens, qui est Deus, particularia bona
+<lb ed="#L" n="93"/>producit, ut seipsum secundum quandam similitudinem et
+<lb ed="#L" n="94"/>participationem diffundat ac ' communicet: non quidem
+<lb ed="#L" n="95"/>quod ipsa communicatio bonitatis divinae sit ultimus finis
+<lb ed="#L" n="96"/>Dei agentis; sed quia bonitas ipsa est finis ex cuius amore
+<lb ed="#L" n="97"/>Deus agit, vultque ipsam: creaturis communicare, ut 
+ha<lb ed="#L" break="no" n="98"/>betur. in <ref xml:id="ferv7a-d1e1847-Rd1e359">QQ. de Potentia Dei, q. um, a. 15, ad 14.</ref>
+            </p>
+            <p xml:id="ferv7a-d1e1847-d1e362">
+               <lb ed="#L" n="99"/>IV. Sexto. Quidquid agit supremum agens, scilicet Deus,
+<lb ed="#L" n="100"/>agit propter finem suum, et ad eius finem omnes fines
+<lb ed="#L" n="101"/>secundorum agentium ordinantur. Ergo quaecumque facta
+<lb ed="#L" n="102"/>ab ipso, mediate vel immediate, ordinantur in Deum sicut
+<lb ed="#L" n="103"/>in finem. Ergo et omnia entia. — Antecedens declaratur
+<lb ed="#L" n="104"/>ex ordine- finium, qui sequitur ordinem agentium. — 
+Pro<lb ed="#L" break="no" n="105"/>batur prima consequentia. Quia finis divinae voluntatis est
+<lb ed="#L" n="106"/>bonitas divina, qui est ipse Deus. - Secunda quoque 
+pro<lb ed="#L" break="no" n="107"/>batur. Quia, ut probatum est in secundo libro, nihil esse
+<lb ed="#L" n="108"/>potest quod ab ipso esse non habeat.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e386">
+               <lb ed="#L" n="109"/>Advertendum quod, sicut causalitas causae efficientis est
+<lb ed="#L" n="110"/>efficere et producere, ita causalitas causae finalis est appeti et
+<lb ed="#L" n="111"/>desiderari, ut dicitur <ref xml:id="ferv7a-d1e1847-Rd1e394">Verit. q. xxir, 2</ref>: tanquam videlicet id
+<lb ed="#L" n="112"/>ad quod aliud ordinatur, et amore cuius ab agente 
+pro<lb ed="#L" break="no" n="113"/>ducitur aliquid aut conservatur. Ideo, sicut ordo in causis
+<lb ed="#L" n="114"/>agentibus attenditur secundum quod unum movet aliud
+<lb ed="#L" n="115"/>effective ad agendum, et illud movet. aliud, et sic de aliis;
+<lb ed="#L" n="116"/>ita ordo in finibus attenditur secundum quod hoc 
+appe<lb ed="#L" break="no" n="117"/>titum et desideratum .est causa quod aliud appetatur et
+<lb ed="#L" n="118"/>desideretur, et illud. est causa quod aliud etiam appetatur.
+<lb ed="#L" n="119"/>Esse autem appetitum et desideratum propter cuius 
+appe<lb ed="#L" break="no" n="120"/>titum aliud appetitur, est esse id in quod aliud ordinatur.
+<lb ed="#L" n="121"/>Et ideo, sicut esse primum agens est esse agens ex cuius
+<lb ed="#L" n="122"/>motione omnia agentia agunt, ita esse ultimum finem est
+<lb ed="#L" n="123"/>esse finem ad quem omnes alii fines ordinantur. Propter
+<lb ed="#L" n="124"/>hoc, volens Sanctus Thomas declarare quomodo ordo 
+fi<lb ed="#L" break="no" n="125"/>nium sequitur ad ordinem agentium, manifestat ex hoc
+<lb ed="#L" n="126"/>quod, sicut supremum agens movet omnia secunda agentia;
+<lb ed="#L" n="127"/>ita ad finem supremi agentis oportet quod ordinentur fines
+<lb ed="#L" n="128"/>secundorum agentium. Primo enim et supremo agenti 
+cor<lb ed="#L" break="no" n="129"/>respondet supremus finis, qui est ultimus finis simpliciter;
+<lb ed="#L" n="130"/>et secundariis agentibus v n fines correspondent.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e439">
+               <lb ed="#L" n="131"/>V. Septimo. Deus est causa factiva rerum omnium. Ergo
+<lb ed="#L" n="132"/>est omnium finis. — Probatur consequentia. Quia ultimus
+<lb ed="#L" n="133"/>finis. cuiuslibet facientis, inquantum faciens, est ipsemet.
+<lb ed="#L" n="134"/>Videmus enim in nobis quod. semper: factum refertur in
+<lb ed="#L" n="135"/>bonum agentis, aut utile aut delectabile aut honestum. .
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e452">
+               <lb ed="#L" n="136"/>Adverte primo, quod haec ratio differt a praecedente,
+<lb ed="#L" n="137"/>quia ibi arguebatur ex ordine finium, hic autem arguitur
+<lb ed="#L" n="138"/>ex conditione agentis inquantum est agens.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e461">
+               <lb ed="#L" n="139"/>Advertendum secundo, quod ideo addidit Sanctus 
+Tho<lb ed="#L" break="no" n="140"/>mas in probatione consequentiae ly inquantum agens, ut
+<lb ed="#L" n="141"/>daret intelligere. agens secundum suam substantiam 
+con<lb ed="#L" break="no" n="142"/>sideratum, non esse finem sui ipsius, sed tantum 
+inquan<lb ed="#L" break="no" n="143"/>tum est agens. Nam Deus secundum suam entitatem, ut
+<pb ed="#L" n="42"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sic, non est finis sui ipsius: cum ipse ad nullum finem
+<lb ed="#L" n="2"/>ordinetur. Similiter agens particulare non est finis sui 
+se<lb ed="#L" break="no" n="3"/>cundum suam substantiam: cum eius substantia sit propter
+<lb ed="#L" n="4"/>aliquid aliud ab aliquo agente producta.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e487">
+               <lb ed="#L" n="5"/>2. Occurrit autem. dubium circa hanc rationem duplex.
+<lb ed="#L" n="6"/>Primum est. Si omne agens agit. propter bonum suum,
+<lb ed="#L" n="7"/>inquantum agens est, sequitur quod aliquid aliud a Deo sit
+<lb ed="#L" n="8"/>bonum ipsius Dei. -Hoc autem est falsum: cum superius 
+<lb ed="#L" n="9"/>ostensum sit Deum esse suam bonitatem. Ergo ratio nulla est.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e500">
+               <lb ed="#L" n="10"/>Secundum dubium est, quia videtur ex illa propositione,
+<lb ed="#L" n="11"/>Finis ultimus cuiuslibet facientis, inquantum est faciens,
+<lb ed="#L" n="12"/>est ipsemet, sequi oppositum eius quod intenditur. Nam si
+<lb ed="#L" n="13"/>quodlibet agens, ut sic, est ultimus finis sui ipsius, sequitur
+<lb ed="#L" n="14"/>quod Deus non sit ultimus finis omnium: quia unius rei
+<lb ed="#L" n="15"/>est tantum unus. ultimus finis.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e516">
+               <lb ed="#L" n="16"/>3.'Ad evidentiam. primi, considerandum, ex doctrina
+<lb ed="#L" n="17"/>Sancti. "Thomae lI Sent. d. rz, q. m, a. 1; et de Potentia
+<lb ed="#L" n="18"/>Dei, loco praeallegato, quod, cum duplex sit finis, scilicet
+<lb ed="#L" n="19"/>operis et operantis, in hoc convenit Deus cum aliis 
+agen<lb ed="#L" break="no" n="20"/>tibus, quod ita ipse operatur propter aliquid aliud a se
+<lb ed="#L" n="21"/>tanquam propter finem operis, sicut et alia agentia, 
+in<lb ed="#L" break="no" n="22"/>quantum. omne opus divinum in aliquid est ordinatum;
+<lb ed="#L" n="23"/>sicut creatio ordinatur ad esse creaturae, si formaliter 
+con<lb ed="#L" break="no" n="24"/>sideretur, scilicet sub ratione actionis. Quantum autem ad
+<lb ed="#L" n="25"/>finem operantis, qui est finis ab agente principaliter 
+in<lb ed="#L" break="no" n="26"/>tentus, in aliquo convenit Deus cum aliis agentibus, et in
+<lb ed="#L" n="27"/>aliquo differt. Convenit quidem in hoc, quod ita operatur
+<lb ed="#L" n="28"/>propter bonum suum sicut et ipsa. Differt autem, quia
+<lb ed="#L" n="29"/>aliis agentibus, eo quod deficientia sint et ideo suae 
+boni<lb ed="#L" break="no" n="30"/>tati aliquid possit addi, convenit agere propter desiderium
+<lb ed="#L" n="31"/>finis, quod est agere ad aliquod bonum sibi acquirendum,
+<lb ed="#L" n="32"/>saltem ad acquirendum similitudinem ad Deum in agendo,
+<lb ed="#L" n="33"/>ut est de mente Commentatoris, XII Metaph., text. 36:
+<lb ed="#L" n="34"/>Deo autem, qui est bonitas infinita, et consequenter cuius
+<lb ed="#L" n="35"/>bonitati nihil potest addi, nunquam convenit agere propter
+<lb ed="#L" n="36"/>desiderium boni, quasi agat ut sibi bonum aliquod acqui-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="37"/>rat, sed sibi convenit agere tantum propter amorem finis
+<lb ed="#L" n="38"/>et propriae bonitatis quam in seipso habet. Ex hoc enim
+<lb ed="#L" n="39"/>quod bonitatem: suam perfectissime amat, vult ut ipsa,
+<lb ed="#L" n="40"/>modo qui possibilis est, communicetur, scilicet secundum
+<lb ed="#L" n="41"/>sui similitudinem. Agit ergo propter bonum suum volitum
+<lb ed="#L" n="42"/>et amatum: non autem propter bonum desideratum et
+<lb ed="#L" n="43"/>acquirendum, sicut creaturae,
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e582">
+               <lb ed="#L" n="44"/>4. Ad secundum dubium dicitur primo; quod agens
+<lb ed="#L" n="45"/>secundum est ultimus finis sui ipsius inquantum est agens,
+<lb ed="#L" n="46"/>non simpliciter, sed in genere. Deus autem est ultimus
+<lb ed="#L" n="47"/>finis omnium agentium simpliciter, ut inferius  ostendetur.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e593">
+               <lb ed="#L" n="48"/>Dicitur secundo, quod secundarium agens est ultimus
+<lb ed="#L" n="49"/>finis suae actionis, non tamquam ultimum et principale
+<lb ed="#L" n="50"/>bonum volitum, sed inter ea quibus vult per suam 
+actio<lb ed="#L" break="no" n="51"/>nem acquirere bonum: quia vult bonum etiam alterius
+<lb ed="#L" n="52"/>inquantum in proprium bonum refertur. Deus autem: est
+<lb ed="#L" n="53"/>ultimus finis tanquam ultimum et principale bonum, ad
+<lb ed="#L" n="54"/>quod consequendum creaturae ordinantur.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e611">
+               <lb ed="#L" n="55"/>VI. Ultimo. Finis ultimus est prima omnium causa.
+<lb ed="#L" n="56"/>Ergo Deus est ultimus omnium finis. — Probatur 
+antece<lb ed="#L" break="no" n="57"/>dens. Quia finis inter alias causas primatum obtinet, et ab
+<lb ed="#L" n="58"/>ipso habent omnes causae quod sint causae in actu: cum
+<lb ed="#L" n="59"/>agens non agat nisi propter finem; ex agente autem 
+ma<lb ed="#L" break="no" n="60"/>teria et forma fiant actu materia et forma huius rei. Finis
+<lb ed="#L" n="61"/>etiam posterior est causa quod praecedens finis intendatur
+<lb ed="#L" n="62"/>ut finis. - Consequentia vero probatur. Quia esse primam
+<lb ed="#L" n="63"/>omnium causam necesse est primo enti convenire.
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e633">
+               <lb ed="#L" n="64"/>Advertendum, cum dicitur finem posteriorem esse 
+cau<lb ed="#L" break="no" n="65"/>sam finis prioris, quod intelligitur de posteriori et priori
+<lb ed="#L" n="66"/>in executione, non autem de posteriori et priori in 
+inten<lb ed="#L" break="no" n="67"/>tione agentis. Posterior enim finis in executione est prior
+<lb ed="#L" n="68"/>in intentione, et ex hoc habet ut sit causa prioris finis:
+<lb ed="#L" n="69"/>non enim, ut hic dicitur, movetur aliquid in finem 
+proxi<lb ed="#L" break="no" n="70"/>mum nisi propter finem postremum, scilicet intentum. -
+</p>
+            <p xml:id="ferv7a-d1e1847-d1e651">
+               <lb ed="#L" n="71"/>CONFIRMATUR conclusio auctoritate Proverb. xvi, Universa
+<lb ed="#L" n="72"/>propter semetipsum etc.; et Apoc. ult., Ego sum Alpha etc.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

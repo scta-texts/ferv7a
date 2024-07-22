@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 115</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 115</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="364"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2647"><!-- ferv7a-l3c115 -->
+            <head>Capitulum 115</head>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="60" type="fixed=364"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="61"/>POSTQAUM ostendit Sanctus Thomas necessarium fuisse
+<lb ed="#L" n="62"/>ut homini a Deo lex daretur, nunc vult ostendere
+<lb ed="#L" n="63"/>quid sit illud quod: divina lex intendat .
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Circa hoc autem duo facit: primo, ostendit quid 
+in<lb ed="#L" break="no" n="65"/>tendat de necessitate praecepti ; secundo, quid intendat de
+<lb ed="#L" n="66"/>utilitate consilii, cap. cxxx.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Circa primum duo facit; primo, determinat de 
+prae<lb ed="#L" break="no" n="68"/>ceptis quae praesupponuntur praeceptis Decalogi, quae
+<lb ed="#L" n="69"/>sunt-praeceptum amoris et praeceptum fidei, ut dicitur
+<lb ed="#L" n="70"/>I IP5, q. e, a. 4, ad 1; secundo, de praeceptis Decalogi
+<lb ed="#L" n="71"/>determinat, cap. cxix.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Circa primum duo facit: primo, ostendit quod homo
+<lb ed="#L" n="73"/>per divinam legem ordinatur ad Deum ; secundo, quomodo
+<lb ed="#L" n="74"/>ad Deum ordinatur, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>I. Quantum ad primum, ponitur baec conclusio: Lex
+<lb ed="#L" n="76"/>divina hominem principaliter in Deum ordinare intendit.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>Probatur. primo. sic. : Finis. quem Deus intendit, est
+<lb ed="#L" n="78"/>ipsemet Deus. Igitur lex divina hominem in Deum 
+prin<lb ed="#L" break="no" n="79"/>cipaliter ordinare intendit, — Probatur consequentia, Quia
+<lb ed="#L" n="80"/>unusquisque legislator ad suum finem- homines per leges
+<lb ed="#L" n="81"/>principaliter inducere intendit: ut patet in duce exercitus
+<lb ed="#L" n="82"/>et rectore civitatis,
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="83"/>II. Secundo. Finis humanae creaturae est adhaerere
+<lb ed="#L" n="84"/>Deo: cum in hoc eius felicitas consistat. Ergo etc, — 
+Pro<lb ed="#L" break="no" n="85"/>batur consequentia, Quia, cum lex sit quaedam ratio 
+di<lb ed="#L" break="no" n="86"/>vinae providentiae gubernantis rationali creaturae 
+propo<lb ed="#L" break="no" n="87"/>sita; et gubernatio Dei providentis singula ad proprios
+<lb ed="#L" n="88"/>fines ducat: per legem divinitus datam homo ad suum
+<lb ed="#L" n="89"/>finem praecipue ordinatur.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Ad horum evidentiam, attendendum primo quod, licet
+<lb ed="#L" n="91"/>divina providentia, quantum ad entitatem quam dicit in
+<lb ed="#L" n="92"/>Deo, sit una simpliciter, et nullam in se pluralitatem 
+ha<lb ed="#L" break="no" n="93"/>beat, sicut et divina scientia; ex parte tamen obiectorum
+<lb ed="#L" n="94"/>ad quae terminatur, multiplicitatem habet, quia multa sunt
+<lb ed="#L" n="95"/>quae sub providentia cadunt, et variis modis ad suos fines
+<lb ed="#L" n="96"/>perducuntur, Et sic possumus dicere in Deo esse plures
+<lb ed="#L" n="97"/>providentias, et plures rationes ordinis rerum in finem:
+<lb ed="#L" n="98"/>verbi gratia, quod ratio ordinis corporum caelestium in
+<lb ed="#L" n="99"/>finem suum est una providentia, sive una ratio 
+providen<lb ed="#L" break="no" n="100"/>tiae divinae; et ratio ordinis rerum corruptibilium in suos
+<lb ed="#L" n="101"/>fines est alia providentia,' et alia ratio providentiae 
+di<lb ed="#L" break="no" n="102"/>vinae; et similiter ratio ordinis humanorum actuum in
+<lb ed="#L" n="103"/>finem, est alia divinae providentiae ratio. Propter hoc ergo
+<lb ed="#L" n="104"/>dixit Sanctus "Thomas quod lex est quaedam ratio divinae
+<pb ed="#L" n="365"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>providentiae, non autem, quod sit absolute ratio divinae
+<lb ed="#L" n="2"/>providentiae: ut, inquam, ostenderet legem divinitus datam
+<lb ed="#L" n="3"/>non esse universaliter divinam providentiam, secundum
+<lb ed="#L" n="4"/>Scilicet quod ad omnia provisa se extendit; sed esse 
+di<lb ed="#L" break="no" n="5"/>vinae providentiae particularem rationem, qua humani
+<lb ed="#L" n="6"/>actus perducuntur ad finem.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Attendendum secundo, ex doctrina Sancti Thomae 
+quae<lb ed="#L" break="no" n="8"/>stione praeallegata, art. 4 , quod ad hoc ut ratio aliqua
+<lb ed="#L" n="9"/>et ordinatio intellectus practici rationem legis habeat 
+re<lb ed="#L" break="no" n="10"/>spectu hominis, requiritur ut promulgetur, et ipsa 
+pro<lb ed="#L" break="no" n="11"/>mulgatione in notitiam hominum quibus talis lex 
+impo<lb ed="#L" break="no" n="12"/>nitur, deveniat: alioquin vim obligandi non haberet. Idcirco,
+<lb ed="#L" n="13"/>legem divinitus datam explicans, ait quod est quaedam
+<lb ed="#L" n="14"/>ratio divinae providentiae gubernantis rationali creaturae
+<lb ed="#L" n="15"/>proposita, id est promulgata, — et in hominum notitiam
+<lb ed="#L" n="16"/>per Moysen et alios, atque per Sacram Scripturam deducta,
+</p>
+            <p>
+               <lb ed="#L" n="17"/>III. Tertio. Illi actus a lege divina praecipue intenduntur
+<lb ed="#L" n="18"/>qui sunt optimi. Sed inter omnes humanos actus illi sunt
+<lb ed="#L" n="19"/>optimi quibus homo adhaeret Deo, utpote fini 
+propin<lb ed="#L" break="no" n="20"/>quiores. Ergo etc. — Probatur maior. Quia intentio 
+cuius<lb ed="#L" break="no" n="21"/>libet legislatoris est eos quibus legem dat, bonos efficere:
+<lb ed="#L" n="22"/>unde et praecepta legis debent esse de actibus virtutum.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>Circa istam propositionem, Zntentio cuiuslibet 
+legisla<lb ed="#L" break="no" n="24"/>toris-est eos quibus legem dat, bonos facere, advertendum,
+<lb ed="#L" n="25"/>ex doctrina Sancti Thomae 1I II, q. xcrm, a. 1, quod
+<lb ed="#L" n="26"/>intelligitur hoc aut simpliciter, aut. secundum quid. Si
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="27"/>enim legislator intendat bonum simpliciter, tunc. intendit
+<lb ed="#L" n="28"/>facere subditos simpliciter bonos. Si autem intendat bonum
+<lb ed="#L" n="29"/>utile vel delectabile sibi, vel divinae iustitiae repugnans,
+<lb ed="#L" n="30"/>tunc intendit facere bonos non simpliciter, sed in ordine ad
+<lb ed="#L" n="31"/>tale regimen: ut scilicet subditi sint bene obedientes suo
+<lb ed="#L" n="32"/>regimini, quod est bonum in ordine ad tale regimen. Bonus
+<lb ed="#L" n="33"/>tamen legislator semper intendit bonos simpliciter facere.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>IV. Quarto. Lex divinitus data ex hoc apud homines
+<lb ed="#L" n="35"/>efficaciam habet, quod homo subditur Deo. Ergo etc. —
+<lb ed="#L" n="36"/>Probatur antecedens. Quia non arctatur lege regis qui ei
+<lb ed="#L" n="37"/>subditus non est. - Consequentia vero probatur: quia illud
+<lb ed="#L" n="38"/>praecipuum debet esse in lege ex quo lex efficaciam habet.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>Sed videtur ista ratio non valere. Propter hoc enim
+<lb ed="#L" n="40"/>quod lex divina efficaciam habet ex eo quod homo 
+sub<lb ed="#L" break="no" n="41"/>ditur Deo, non sequitur nisi quod praecipuum in divina
+<lb ed="#L" n="42"/>lege est ut homo sit subditus Deo. Hoc autem non est
+<lb ed="#L" n="43"/>adhaerere Deo, quod intendebatur: aliud enim est esse
+<lb ed="#L" n="44"/>alicui subditum, et aliud illi adhaerere.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Respondetur quod ratio optime procedit. Adhaerere
+<lb ed="#L" n="46"/>enim hoc loco non sumitur secundum situs 
+propinqui<lb ed="#L" break="no" n="47"/>tatem, sed secundum mentis adhaesionem, Et ideo 
+sub<lb ed="#L" break="no" n="48"/>ditum esse Deo per obedientiam, qua aliquis se divinae
+<lb ed="#L" n="49"/>legi voluntarie subiicit, idem est quod Deo per voluntatem
+<lb ed="#L" n="50"/>adhaerere. Et propterea, dum infertur unum, idem est ac
+<lb ed="#L" n="51"/>si alterum inferretur.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>CowrrRMATUR CONCLUSIO auctoritate Deuteronomii x.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 158</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 158</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="463"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2998"><!-- ferv7a-l3c158 -->
+            <head>Capitulum 158</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="59" type="fixed=463"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="60"/>TERTIO ostendit Sanctus Thomas quid requiratur ex parte
+<lb ed="#L" n="61"/>hominis, praeter gratiam, ad omnimodam liberationem
+<lb ed="#L" n="62"/>a peccato 
+</p>
+            <p>
+               <lb ed="#L" n="63"/>I. Et ponit duas conclusiones . Quarum prima est: 
+Con<lb ed="#L" break="no" n="64"/>veniens est hominem a peccato recedentem per aliquas
+<lb ed="#L" n="65"/>poenas affligi propter peccatum commissum.
+</p>
+            <p>
+               <lb ed="#L" n="66"/>Sed antequam hanc conclusionem probet, praemittit quod
+<lb ed="#L" n="67"/>necesse est ut homo a peccato resurgens et de peccato 
+prae<lb ed="#L" break="no" n="68"/>terito poeniteat, et futura vitare proponat. Quia oportet
+<lb ed="#L" n="69"/>quod voluntate a peccato recedat: cum per voluntatem
+<lb ed="#L" n="70"/>homo avertatur et dirigatur in ultimum finem. Voluntate
+<lb ed="#L" n="71"/>autem homo a peccato recedit dum et de praeterito poenitet,
+<lb ed="#L" n="72"/>et futurum vitare proponit: alioquin peccatum praeteritum,
+<lb ed="#L" n="73"/>et etiam peccatum simpliciter, non esset voluntati 
+con<lb ed="#L" break="no" n="74"/>trarium.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Hoc supposito, arguit primo sic. Necesse est quod homo
+<lb ed="#L" n="76"/>per contraria iis per quae voluntas in peccatum fuit inclinata,
+<lb ed="#L" n="77"/>recedat a peccato. Ergo oportet quod a peccato recedat
+<lb ed="#L" n="78"/>per aliqua poenalia, quibus affligatur propter hoc quod
+<lb ed="#L" n="79"/>peccavit, ut per poenas confirmetur in abominatione 
+pec<lb ed="#L" break="no" n="80"/>cati. — Probatur antecedens. Quia motus quo ab aliquo
+<lb ed="#L" n="81"/>receditur, est contrarius motui quo ad illud pervenitur:
+<lb ed="#L" n="82"/>sicut dealbatio denigrationi. — Consequentia vero probatur:
+<lb ed="#L" n="83"/>quia voluntas fuit inclinata in peccatum. per appetitum et
+<lb ed="#L" n="84"/>delectationem circa res inferiores.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Secundo. Oportet eum qui a peccato resurgit, non solum
+<lb ed="#L" n="86"/>detestari praeteritum peccatum, sed etiam vitare futurum.
+<lb ed="#L" n="87"/>Ergo conveniens est, ad hoc quod magis confirmetur in
+<lb ed="#L" n="88"/>proposito vitandi peccata, ut affligatur pro peccato. — Pro-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="89"/>batur consequentia. Quia videmus etiam bruta animalia per
+<lb ed="#L" n="90"/>dolores verberum a maximis voluptatibus retrahi.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Advertendum. quod, cum duo requirantur ad hoc ut
+<lb ed="#L" n="92"/>homo a peccato recedat, scilicet dettstatio praeteriti 
+pec<lb ed="#L" break="no" n="93"/>cati, et propositum vitandi futura; ex primo procedit
+<lb ed="#L" n="94"/>prima ratio, ad ostendendum conveniens esse ut homo
+<lb ed="#L" n="95"/>pro peccato aliqua poena affligatur; ex secundo vero
+<lb ed="#L" n="96"/>procedit secunda.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Tertio. Homini, resurgenti a peccato hoc maxime. 
+ne<lb ed="#L" break="no" n="98"/>cessarium est, ut statum gratiae et Dei amorem diligenter
+<lb ed="#L" n="99"/>conservet, quem negligenter per peccatum amisit. Ergo etc.
+<lb ed="#L" n="100"/>— Probatur consequentia. Quia quae cum labore et poena
+<lb ed="#L" n="101"/>acquirimus, magis amamus, et cum diligentia conservamus:
+<lb ed="#L" n="102"/>ut patet in pecuniis, labore proprio. acquisitis.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Quarto. Peccator peccando contra ordinem divinitus
+<lb ed="#L" n="104"/>institutum facit. Ergo conveniens est ut hoc recompenset
+<lb ed="#L" n="105"/>in seipso puniendo quod prius peccaverat.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Probatur consequentia. Tum quia sic totaliter extra 
+inor<lb ed="#L" break="no" n="107"/>dinationem constituitur. - Tum quia pertinet ad 
+manife<lb ed="#L" break="no" n="108"/>stationem divinae bonitatis et Dei gloriam quod peccato
+<lb ed="#L" n="109"/>poena reddatur. - Quorum scilicet utrumque decens est
+<lb ed="#L" n="110"/>et conveniens.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Ex hoc infert Sanctus Thomas quod, postquam homo
+<lb ed="#L" n="112"/>consecutus est remissionem peccati et ad statum gratiae
+<lb ed="#L" n="113"/>est reductus, remanet obligatus ex iustitia divina ad aliquam
+<lb ed="#L" n="114"/>poenam. Quam si propria voluntate a se exegerit, per hoc
+<lb ed="#L" n="115"/>Deo satisfacere dicitur: inquantum cum labore et poena
+<lb ed="#L" n="116"/>ordinem divinitus institutum exequitur , pro peccato se
+<lb ed="#L" n="117"/>puniendo. — Si autem non a se hanc poenam exigat, infli-
+<pb ed="#L" n="464"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>getur ei a Deo. Nec satisfactoria dicetur, cum non fuerit ex
+<lb ed="#L" n="2"/>electione patientis, sed dicetur purgatoria : quia, alio 
+pu<lb ed="#L" break="no" n="3"/>niente, quasi purgabitur per reductionem inordinationis ad
+<lb ed="#L" n="4"/>debitum ordinem.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Confirmatur auctoritate Apostoli, I Cor. xr.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>II. Sed circa dicta dubium occurrit. Nam, ut ponit
+<lb ed="#L" n="7"/>Sanctus Thomas, praesertim I I^, q. txxxvir, de ratione
+<lb ed="#L" n="8"/>poenae est quod sit contra voluntatem. Non ergo verum
+<lb ed="#L" n="9"/>videtur quod homo satisfaciat Deo ex eo quod voluntarie
+<lb ed="#L" n="10"/>a se poenam exigat.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Respondetur, ex doctrina ipsius in praeallegata ' 
+quae<lb ed="#L" break="no" n="12"/>stione, et q. vr, et IV Sent., d. xxr, q. 1 a. 1 , quod 
+du<lb ed="#L" break="no" n="13"/>pliciter dicitur aliquid contra voluntatem esse: uno modo,
+<lb ed="#L" n="14"/>quia est contra voluntatem absolute consideratam; alio
+<lb ed="#L" n="15"/>modo, quia est contra voluntatem conditionatam. Contingit
+<lb ed="#L" n="16"/>enim aliquid esse contrarium voluntati absolute, et tamen,
+<lb ed="#L" n="17"/>ut nunc et in casu, sive ex aliqua conditione adiuncta,
+<lb ed="#L" n="18"/>voluntarium esse: sicut.proiectio mercium in mare est
+<lb ed="#L" n="19"/>contraria voluntati absolute, considerato tamen: periculo,
+<lb ed="#L" n="20"/>est voluntaria. Et quia unumquodque dicitur simpliciter
+<lb ed="#L" n="21"/>esse secundum quod est in actu; secundum quid autem,
+<lb ed="#L" n="22"/>secundum quod est in consideratione tantum: ideo quod
+<lb ed="#L" n="23"/>est voluntarium secundum quod est nunc, et secundum
+<lb ed="#L" n="24"/>occurrentes circumstantias, dicitur simpliciter voluntarium ;
+<lb ed="#L" n="25"/>licet, secundum quod est in consideratione qua per se, extra |
+<lb ed="#L" n="26"/>casum et alias occurrentes circumstantias, consideratur, sit
+<lb ed="#L" n="27"/>involuntarium.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Poena ergo, secundum se considerata, contra voluntatem
+<lb ed="#L" n="29"/>absolutam est: potest tamen esse voluntaria ex 
+supposi<lb ed="#L" break="no" n="30"/>tione, inquantum homo qui peccando Deum offendit, vult
+<lb ed="#L" n="31"/>hanc offensam per aliquam poenam recompensare. In tali
+<lb ed="#L" n="32"/>enim casu poena est simpliciter voluntaria, secundum quid
+<lb ed="#L" n="33"/>autem contra voluntatem. Unde, cum dicitur quod de ratione
+<lb ed="#L" n="34"/>poenae est ut sit contra voluntatem, intelligitur de voluntate
+<lb ed="#L" n="35"/>absoluta, non autem de voluntate conditionata. Sic autem
+<lb ed="#L" n="36"/>non tollitur.quin per poenam voluntarie assumptam homo
+<lb ed="#L" n="37"/>satisfaciat Deo.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>2. Advertendum tamen, ex loco praeallegato , quod non
+<lb ed="#L" n="39"/>solum poena quam quis a se spontaneus exigit, satisfactoria
+<lb ed="#L" n="40"/>est: sed etiam poena a Deo illata quam quis patienter suffert.
+<lb ed="#L" n="41"/>Unde quod hic dicitur, eam poenam non esse satisfactoriam
+<lb ed="#L" n="42"/>quae peccatori a Deo infligitur, intelligendum est de ea
+<lb ed="#L" n="43"/>quam quis patienter non sustinet: quia illa nullo modo
+<lb ed="#L" n="44"/>est ex electione patientis; sed bene ista quae patienter
+<lb ed="#L" n="45"/>sustinetur, inquantum quis eligit ipsam patienter ferre ad
+<lb ed="#L" n="46"/>purgationem peccatorum.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>Advertendum etiam quod poena satisfactoria diminuit
+<lb ed="#L" n="48"/>aliquid de ratione poenae. Quia de ratione poenae, 
+in<lb ed="#L" break="no" n="49"/>quantum poena, est quod contrarietur : voluntati: de 
+ra<lb ed="#L" break="no" n="50"/>tione autem satisfactoriae poenae est quod sit voluntarie
+<lb ed="#L" n="51"/>assumpta, non quidem absolute et secundum se, sed 
+con<lb ed="#L" break="no" n="52"/>siderata Dei offensa, quam recompensare per poenam
+<lb ed="#L" n="53"/>oportet. Unde talis poena, inquantum est aliquo modo
+<lb ed="#L" n="54"/>involuntaria, habet aliquid de ratione poenae: inquantum
+<lb ed="#L" n="55"/>vero est voluntaria, habet rationem satisfactoriae poenae.
+<lb ed="#L" n="56"/>Propterea, utrumque complectens Sanctus Thomas, quod
+<lb ed="#L" n="57"/>inquam poena satisfactoria voluntaria sit, et sit aliquo
+<lb ed="#L" n="58"/>modo poena, inquit hominem, voluntarie a se exigendo
+<lb ed="#L" n="59"/>poenam, Deo satisfacere, inquantum cum labore et poena
+<lb ed="#L" n="60"/>ordinem divinitus institutum: exequitur , pro peccato se
+<lb ed="#L" n="61"/>puniendo, scilicet voluntarie.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>3. Quia autem aliquis posset existimare ex dictis quod
+<lb ed="#L" n="63"/>homo sic post remissionem peccati obligaretur ad 
+satisfa<lb ed="#L" break="no" n="64"/>ctoriam aut purgatoriam poenam quod nullo modo possit
+<lb ed="#L" n="65"/>simul et culpa et poena removeri; hoc volens Sanctus 
+Tho<lb ed="#L" break="no" n="66"/>mas excludere, ait quod in aversione mentis a peccato tam
+<lb ed="#L" n="67"/>vehemens potest esse peccati displicentia, et inhaesio mentis
+<lb ed="#L" n="68"/>in Deum, quod non remanet aliqua obligatio ad poenam.
+<lb ed="#L" n="69"/>Quia dilectio ad Deum sufficit firmare. mentem hominis
+<lb ed="#L" n="70"/>in bono, praecipue si vehemens fuerit; displicentia autem
+<lb ed="#L" n="71"/>culpae praeteritae, cum fuerit intensa, magnum affert 
+dolo<lb ed="#L" break="no" n="72"/>rem; propter quae duo ponebatur poena necessaria. Et ideo
+<lb ed="#L" n="73"/>per vehementiam dilectionis Dei et odii peccati praeteriti,
+<lb ed="#L" n="74"/>excluditur necessitas satisfactoriae et purgatoriae poenae.
+<lb ed="#L" n="75"/>Quod si non sit tanta vehementia quod totaliter poenam
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>excludat, tamen, quanto vehementior fuerit, tanto minus de
+<lb ed="#L" n="77"/>poena sufficiet.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>III. Ad evidentiam. eius quod hic dicitur de nbigstion:
+<lb ed="#L" n="79"/>ad poenam post peccati remissionem, considerandum est,
+<lb ed="#L" n="80"/>ex doctrina Sancti Thomae IV Sent., d. xiv, q. n, a. 1 ,
+<lb ed="#L" n="81"/>quod qui aliquem offendit rem eius illi' subtrahendo, et
+<lb ed="#L" n="82"/>contra aequalitatem amicitiae facit; et contra aequalitatem
+<lb ed="#L" n="83"/>iustitiae. Et ideo in reconciliatione oportet. utriusque 
+re<lb ed="#L" break="no" n="84"/>compensationem fieri. Sed sicut quandoque haec duo in
+<lb ed="#L" n="85"/>offensione dividuntur, sicut. cum quis amicitiam violat,
+<lb ed="#L" n="86"/>non autem iustitiam, quia nihil amico praeter debitum
+<lb ed="#L" n="87"/>affectum subtrahit; quandoque vero sunt coniuncta, ut
+<lb ed="#L" n="88"/>dum, violando amicitiam, etiam aliquid subtrahit ab amico:
+<lb ed="#L" n="89"/>ita in recompensatione haec aliquando dividuntur, sicut
+<lb ed="#L" n="90"/>cum quis offensum verbis placat, nondum restituta re
+<lb ed="#L" n="91"/>sublata, in hoc enim est amicitiae aequalitas restituta, non
+<lb ed="#L" n="92"/>autem aequalitas iustitiae; aliquando vero sunt coniuncta,
+<lb ed="#L" n="93"/>sicut quando et reconciliat quis amicum, et ein rem
+<lb ed="#L" n="94"/>sublatam restituit.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Quia ergo peccator per affectum peccati. emigitidto Dei
+<lb ed="#L" n="96"/>violavit, propter quod gratiam amittit, et Dei incurrit 
+offen<lb ed="#L" break="no" n="97"/>sam; et per inobedientiam divinae legis honorem debitum
+<lb ed="#L" n="98"/>Deo subtraxit, ex quo meretur poenam, quod poenae 
+me<lb ed="#L" break="no" n="99"/>ritum dicitur reatus: ideo in aversione hominis a peccato,
+<lb ed="#L" n="100"/>quandoque fit recompensatio aequalitatis amicitiae tantum,
+<lb ed="#L" n="101"/>inquantum remittitur sibi a Deo offensa, gratiaque 
+resti<lb ed="#L" break="no" n="102"/>tuitur, sed non remittitur reatus, quia nondum poena est
+<lb ed="#L" n="103"/>soluta; quandoque vero simul fit recompensatio 
+aequali<lb ed="#L" break="no" n="104"/>tatis tam iustitiae quam amicitiae, inquantum et restituitur
+<lb ed="#L" n="105"/>gratia, remittiturque offensa, et solvitur poena per 
+vehemen<lb ed="#L" break="no" n="106"/>tiam contritionis.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>Volens itaque Sanctus Thomas utrumque horum 
+osten<lb ed="#L" break="no" n="108"/>dere, dixit primo, quod post remissionem peccati et gratiae
+<lb ed="#L" n="109"/>consecutionem, homo remanet obligatus ad poenam ex
+<lb ed="#L" n="110"/>divina iustitia. Et est sensus quod ex sola peccati remissione
+<lb ed="#L" n="111"/>quantum ad offensam, et ex gratiae restitutione, non 
+intel<lb ed="#L" break="no" n="112"/>ligitur esse amota obligatio ad poenae solutionem, sed 
+quan<lb ed="#L" break="no" n="113"/>doque unum est sine alio. - Dixit vero secundo, quod etiam
+<lb ed="#L" n="114"/>quandoque non remanet obligatio ad aliquam poenam: quia
+<lb ed="#L" n="115"/>videlicet, cum gratiae susceptione, ex vehementia 
+contri<lb ed="#L" break="no" n="116"/>tionis simul totius poenae debitae fit solutio.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>2. Advertendum secundo, ex doctrina Sancti Thomae
+<lb ed="#L" n="118"/>Quarto, d. xvrr, q. rt, a. 5 , quod intensio contritionis potest
+<lb ed="#L" n="119"/>attendi et ex. parte caritatis, quae peccati displicentiam
+<lb ed="#L" n="120"/>causat: et ex parte doloris sensibilis, quem voluntas in
+<lb ed="#L" n="121"/>contritione excitat. Quantum ad primum, tantum potest
+<lb ed="#L" n="122"/>intendi caritas in actw quod contritio inde sequens 
+me<lb ed="#L" break="no" n="123"/>retur amotionem culpae et absolutionem ab omni poena.
+<lb ed="#L" n="124"/>Quantum etiam ad secundum, tantum potest ille dolor
+<lb ed="#L" n="125"/>intendi quod, cum ille poena quaedam sit, sufficit ad 
+dele<lb ed="#L" break="no" n="126"/>tionem culpae et poenae. Utrumque istorum modorum dat
+<lb ed="#L" n="127"/>intelligere Sanctus "Thomas cum ait per vehementiam 
+dile<lb ed="#L" break="no" n="128"/>ctionis Dei, et, odii peccati, excludi necessitatem 
+satisfa<lb ed="#L" break="no" n="129"/>ctoriae vel purgatoriae poenae.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>IV. Secunda conclusio est : Unus homo pro alio 
+sa<lb ed="#L" break="no" n="131"/>tisfacere potest, dum uterque in caritate fuerit.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>Probatur. Quod per amicos facimus, per nos ipsos
+<lb ed="#L" n="133"/>facere videmur: cum amicitia ex duobus faciat unum
+<lb ed="#L" n="134"/>per affectum, praecipue dilectio caritatis. Ergo, sicut per
+<lb ed="#L" n="135"/>seipsum, ita et per alium potest aliquis satisfacere Deo :
+<lb ed="#L" n="136"/>praecipue cum necessitas fuerit.
+</p>
+            <p>
+               <lb ed="#L" n="137"/>Confirmatur primo.. Quia peccatori etiam poena non
+<lb ed="#L" n="138"/>deest: dum amico patienti propter ipsum compatitur. -
+</p>
+            <p>
+               <lb ed="#L" n="139"/>Confirmatur secundo. Quia talis satisfactio pro alio est
+<lb ed="#L" n="140"/>Deo magis accepta quam si pro se quis: pateretur: hoc
+<lb ed="#L" n="141"/>enim est. promptae caritatis, illud autem necessitatis. -  .
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Confirmatur tertio, auctoritate Apostoli, ad. Galat. vr.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>Advertendum,. cum inquit Sanctus Thomas unum. 
+ho<lb ed="#L" break="no" n="144"/>minem pro alio satisfacere posse, addendo, praecipue si
+<lb ed="#L" n="145"/>necessitas adsit, quod illud non dicit quasi non valeat 
+sa<lb ed="#L" break="no" n="146"/>tisfactio nisi ille pro quo satisfit, sit impotens ad 
+satisfa<lb ed="#L" break="no" n="147"/>ciendum, et sic sit necessitas: — quia, ut dicitur IV Sent.,
+<lb ed="#L" n="148"/>d. xx , etiam si aliquis esset potens, ipse a debito immunis
+<lb ed="#L" n="149"/>esset, alio satisfaciente pro ipso — sed quia magis est 
+satisfa<lb ed="#L" break="no" n="150"/>ctoria existente necessitate. Et etiam quia, cum poena sa-
+<pb ed="#L" n="465"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tisfactoria sit etiam in remedium sequentis peccati; et
+<lb ed="#L" n="2"/>quantum ad hoc satisfactio unius alteri non prosit: nom
+<lb ed="#L" n="3"/>est permittendum, ut in loco praeallegato dicitur, ut aliquis
+<lb ed="#L" n="4"/>pro alio poenitentiam faciat, nisi appareat in poenitente
+<lb ed="#L" n="5"/>corporalis vel spiritualis defectus, propter quem sit 
+incom<lb ed="#L" break="no" n="6"/>petens ad sustinendum.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="7"/>Advertendum etiam quod de ratione satisfactionis proprie
+<lb ed="#L" n="8"/>dictae est ut sit opus meritorium, ut dicitur Quarto, d. xvir,
+<lb ed="#L" n="9"/>q. m, a. 4. Meritum autem non est sine caritate: cum
+<lb ed="#L" n="10"/>caritas sit principium merendi. Ideo bene dictum est quod
+<lb ed="#L" n="11"/>unus pro alio satisfacere potest, dummodo uterque sit in
+<lb ed="#L" n="12"/>caritate.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

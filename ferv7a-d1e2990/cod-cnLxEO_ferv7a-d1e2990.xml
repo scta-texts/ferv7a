@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 157</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 157</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="462"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2990"><!-- ferv7a-l3c157 -->
+            <head>Capitulum 157</head>
+            <p>
+               <pb ed="#L" n="462"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=462"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>SECUNDO ostendit Sanctus Thomas quod homo a peccato
+<lb ed="#L" n="3"/>mortali resurgere non potest nisi per gratiam .
+</p>
+            <p>
+               <lb ed="#L" n="4"/>I. Et arguit primo sic. In ultimum finem homo non
+<lb ed="#L" n="5"/>ordinatur nisi per gratiam. Ergo per ipsam solam potest
+<lb ed="#L" n="6"/>homo a peccato resurgere. — Patet consequentia. Quia per
+<lb ed="#L" n="7"/>peccatum mortale homo ab ultimo fine avertitur.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Secundo. Per peccatum mortale homo offensam Dei 
+in<lb ed="#L" break="no" n="9"/>currit. Ergo ad resurgendum indiget gratia, per quam fit
+<lb ed="#L" n="10"/>quaedam amicitia inter Deum et hominem. — Probatur 
+con<lb ed="#L" break="no" n="11"/>sequentia. Quia offensa non nisi per dilectionem tollitur.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Ad hoc etiam induci possunt rationes superius inductae
+<lb ed="#L" n="13"/>de necessitate gratiae.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>Confirmatur auctoritate Isaiae xri; et Psalmi.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Per hoc autem excluditur Pelagianorum error, dicentium
+<lb ed="#L" n="16"/>hominem posse per liberum arbitrium a peccato resurgere.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>II. Ad evidentiam eorum quae hic dicuntur, 
+conside<lb ed="#L" break="no" n="18"/>randum est, ex doctrina Sancti Thomae I II^, q. cxur, a. 2;
+<lb ed="#L" n="19"/>et Verit., xxvi, a. 2, quod hominem resurgere a peccato
+<lb ed="#L" n="20"/>non est idem quod ipsum cessare a peccando, sed reparari
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="21"/>ad ea quae per peccatum amisit. Ista autem sunt tria.
+<lb ed="#L" n="22"/>Primum est aversio ab incommutabili bono, quod quis
+<lb ed="#L" n="23"/>poterat habere. Et quantum ad hoc procedit prima ratio,
+<lb ed="#L" n="24"/>— Secundum est offensa, qua homo peccando Deum 
+of<lb ed="#L" break="no" n="25"/>fendit, dum creaturam ipsi praeponit, eam magis diligendo
+<lb ed="#L" n="26"/>quam Deum: et.qua Deus dicitur peccatori infensus, non
+<lb ed="#L" n="27"/>ordinando illum per suam dilectionem ad bona aeterna.
+<lb ed="#L" n="28"/>Tertium est reatus, sive obligatio ad poenam, et praecipue
+<lb ed="#L" n="29"/>ad poenam damni, quae est carentia divinae visionis, sive
+<lb ed="#L" n="30"/>aeternae gloriae. Et secundum haec procedit secunda ratio.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Advertendum autem quod, licet quantum ad verba 
+vi<lb ed="#L" break="no" n="32"/>deatur Scotus in Quarto, d. 1, q. vr , contradicere Sancto
+<lb ed="#L" n="33"/>Thomae, volens quod absque gratia possit peccatum remitti,
+<lb ed="#L" n="34"/>absolute loquendo: quantum tamen ad sensum, non 
+con<lb ed="#L" break="no" n="35"/>tradicit. Quia ipse loquitur de remissione peccati solum
+<lb ed="#L" n="36"/>quantum ad reatum, sive obligationem ad poenam 
+sensibi<lb ed="#L" break="no" n="37"/>lem. Sanctus Thomas autem loquitur de remissione peccati
+<lb ed="#L" n="38"/>secundum quod importat reparationem omnium bonorum
+<lb ed="#L" n="39"/>quae quis peccando amisit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

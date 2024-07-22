@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 146</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 146</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="435"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2900"><!-- ferv7a-l3c146 -->
+            <head>Capitulum 146</head>
+            <p>
+               <pb ed="#L" n="435"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=435"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>Ex praedictis infert Sanctus Thomas hoc corollarium,
+<lb ed="#L" n="3"/>quod iudices puniendo malos non peccant .
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Circa hoc autem duo facit: primo, probat propositum ;
+<lb ed="#L" n="5"/>secundo, quasdam .obiectiones .excludit .
+</p>
+            <p>
+               <lb ed="#L" n="6"/>I. Quantum ad primum, praemittit quod, quia poenas a
+<lb ed="#L" n="7"/>Deo inflictas parvipendunt aliqui, eo quod, dediti 
+sensibi<lb ed="#L" break="no" n="8"/>libus, ea tantum quae vident curant; per divinam 
+pro<lb ed="#L" break="no" n="9"/>videntiam ordinatum est ut sint in terris homines qui per
+<lb ed="#L" n="10"/>poenas sensibiles et praesentes alios  ad observantiam
+<lb ed="#L" n="11"/>iustitiae cogant.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>Tunc arguit primo sic. lustum est malos puniri: quia
+<lb ed="#L" n="13"/>per poenam culpa ordinatur. Ergo iudices non peccant
+<lb ed="#L" n="14"/>dum malos puniunt. — Probatur consequentia. Quia nullus
+<lb ed="#L" n="15"/>peccat per hoc quod iustitiam facit.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Secundo. Homines qui in terris super alios constituuntur,
+<lb ed="#L" n="17"/>sunt quasi divinae providentiae executores. Ergo non 
+pec<lb ed="#L" break="no" n="18"/>cant bonos remunerando et malos puniendo. - Probatur
+<lb ed="#L" n="19"/>consequentia, Quia nullus peccat ex eo quod exequitur
+<lb ed="#L" n="20"/>ordinem divinae providentiae, Habet autem ille ordo ut
+<lb ed="#L" n="21"/>boni praemientur, mali vero puniantur.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Tertio. d conservationem concordiae inter homines
+<lb ed="#L" n="23"/>"necessarium est quod poenae malis infligantur. Ergo illud
+</p>
+            <p>
+               <lb ed="#L" n="24"/>non est secundum se malum. Ergo etc, — Probatur 
+conse<lb ed="#L" break="no" n="25"/>quentia. Quia quod est necessarium ad conservationem
+<lb ed="#L" n="26"/>boni, non potest esse secundum se malum.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Quarto. Vita quorundam impedit commune bonum,
+<lb ed="#L" n="28"/>scilicet societatis humanae concordiam. Ergo subtrahendi
+<lb ed="#L" n="29"/>sunt per mortem ab hominum societate. — Probatur 
+con<lb ed="#L" break="no" n="30"/>sequentia. Quia subtrahendum est bonum particulare ut
+<lb ed="#L" n="31"/>conservetur bonum commune.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Quinto. Medicus abscindit membrum putridum bene et
+<lb ed="#L" n="33"/>utiliter, si per ipsum immineat corruptio corporis. Ergo et
+<lb ed="#L" n="34"/>rector civitatis homines pestiferos iuste et absque peccato 
+oc<lb ed="#L" break="no" n="35"/>cidit, ne pax civitatis turbetur. — Probatur consequentia. Quia
+<lb ed="#L" n="36"/>sicut medicus intendit ordinatam humorum concordiam, ita
+<lb ed="#L" n="37"/>rector civitatis intendit civium ordinatam concordiam.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Advertendum quod quaelibet persona singularis ad totam
+<lb ed="#L" n="39"/>communitatem comparatur sicut pars ad totum. Omnis
+<lb ed="#L" n="40"/>autem pars est propter totum. Ideo, si saluti totius expediat
+<lb ed="#L" n="41"/>partis abscissio, ipsa laudabiliter abscinditur. Et secundum
+<lb ed="#L" n="42"/>hoc fundamentum ratio haec procedit.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>CowriRMATUR auctoritate I Cor. v; Rom. xur; et 1 Pet. ir.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>2. Advertendum, ex doctrina Sancti Thomae IP Il5,
+<lb ed="#L" n="45"/>q. cvirr, a. 1, quod in illatione poenarum cozsiderandus est
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="46"/>punientis animus. Quia si eius intentio principaliter feratur
+<lb ed="#L" n="47"/>in malum eius qui punitur et ibi quiescat, non est omnino
+<lb ed="#L" n="48"/>licitum: quia ad odium pertinet in malo alterius delectari.
+<lb ed="#L" n="49"/>Si vero intentio feratur ad bonum ad quod per poenam
+<lb ed="#L" n="50"/>peccantis pervenitur, potest iusta esse punitio, aliis 
+cir<lb ed="#L" break="no" n="51"/>cumstantiis observatis: ut scilicet puniens auctoritatem
+<lb ed="#L" n="52"/>habeat puniendi, et ut discrete fiat punitio, et huiusmodi.
+<lb ed="#L" n="53"/>Idcirco Sanctus Thomas in omnibus rationibus supra dictis
+<lb ed="#L" n="54"/>aliquid tetigit quod ad rectam iudicis intentionem pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>II. Quantum ad secundum , inquit per hoc excludi 
+erro<lb ed="#L" break="no" n="56"/>rem qfiorundam dicentium vindictas corporales non licere
+<lb ed="#L" n="57"/>inferri. Inducebant autem primo, auctoritatem Exodi xx,
+<lb ed="#L" n="58"/>dicentem: Non occides. - Secundo, auctoritatem Matth. xir,
+<lb ed="#L" n="59"/>ubi Dominus dixit de zizania et tritico: Simite utraque
+<lb ed="#L" n="60"/>crescere usque ad messem. —- 'lertio quia, quandiu homo
+<lb ed="#L" n="61"/>in mundo est, potest in melius transmutari.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>2. Ad primum autem dicit quod per illa verba iniusta
+<lb ed="#L" n="63"/>tantum hominis occisio prohibetur: ut patet ex 
+inferio<lb ed="#L" break="no" n="64"/>ribus verbis; et ex verbis Domini Matth. v.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Ad secundum dicit quod ibi interdicitur malorum occisio
+<lb ed="#L" n="66"/>ubi hoc sine periculo bonorum fieri non potest. Quod
+<lb ed="#L" n="67"/>plerumque fit quando mali nondum discernuntur a bonis
+<lb ed="#L" n="68"/>per manifesta peccata. - Vel quando timetur periculum ne
+<lb ed="#L" n="69"/>mali multos bonos post se trahant. Intellige: quia, si
+<lb ed="#L" n="70"/>multos habeant sequaces, possent boni pro ipsorum 
+defen<lb ed="#L" break="no" n="71"/>sione insurgere, et sic periculo mortis exponi.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Ad tertium dicit primo, quod periculum quod de 
+ma<lb ed="#L" break="no" n="73"/>lorum vita imminet, et maius et certius est quam bonum
+<lb ed="#L" n="74"/>quod de eorum emendatione expectatur. — Dicit secundo,
+<lb ed="#L" n="75"/>quod habent in ipso mortis articulo facultatem 
+conver<lb ed="#L" break="no" n="76"/>tendi se ad Deum per poenitentiam. Quod si non faciant,
+<lb ed="#L" n="77"/>probabile est quod nunquam a malitia resipiscant.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Advertendum quod, ut dicebatur superius, tunc 
+ho<lb ed="#L" break="no" n="79"/>minem occidere licet quando perniciosus est reipublicae,
+<lb ed="#L" n="80"/>'Tunc autem reipublicae perniciosus est quando ipsius vita
+<lb ed="#L" n="81"/>bonum commune impedit, concordiam scilicet et pacem
+<lb ed="#L" n="82"/>societatis, Et quia bonum commune praeponderat bono
+<lb ed="#L" n="83"/>particulari, ideo et malum quod bonum commune privat,
+<lb ed="#L" n="84"/>maius est quam malum quod privat bonum particulare;
+<lb ed="#L" n="85"/>et magis habet de ratione mali, quam bonum unius
+<lb ed="#L" n="86"/>particularis habeat de ratione boni. Propter hoc inquit
+<lb ed="#L" n="87"/>Sanctus Thomas quod periculum quod ex vita hominis
+<lb ed="#L" n="88"/>huiusmodi perniciosi imminet, maius est quam bonum quod
+<lb ed="#L" n="89"/>de eorum emendatione expectatur.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

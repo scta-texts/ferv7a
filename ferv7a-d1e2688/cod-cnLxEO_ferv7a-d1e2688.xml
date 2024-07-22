@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 120</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 120</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="374"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2688"><!-- ferv7a-l3c120 -->
+            <head>Capitulum 120</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="61" type="fixed=374"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="62"/>SECUNDO loco ostendit Sanctus Thomas quod divinus
+<lb ed="#L" n="63"/>S cultus non est alii exhibendus quam primo omnium
+<lb ed="#L" n="64"/>principio ,
+</p>
+            <p>
+               <lb ed="#L" n="65"/>Circa hoc autem duo facit: primo, falsas quasdam 
+opi<lb ed="#L" break="no" n="66"/>niones adducit; secundo eas impugnat .
+</p>
+            <p>
+               <lb ed="#L" n="67"/>I. Quantum ad primum, ait quod fuerunt quidam qui
+<lb ed="#L" n="68"/>latriae cultum non solum primo rerum principio 
+exhiben<lb ed="#L" break="no" n="69"/>dum existimaverunt, sed etiam omnibus creaturis quae
+<lb ed="#L" n="70"/>supra homines sunt. Quidam enim existimaverunt latriam
+<lb ed="#L" n="71"/>exhibendam, post summum Deum, primo, substantiis 
+in<lb ed="#L" break="no" n="72"/>tellectualibus caelestibus, quas deos vocabunt: sive essent
+<lb ed="#L" n="73"/>omnino separatae, sive essent animae orbium aut 
+stel<lb ed="#L" break="no" n="74"/>larum. — Secundo, daemonibus, quos dicebant esse 
+sub<lb ed="#L" break="no" n="75"/>stantias intellectuales corporibus aereis unitas, et deos in
+<lb ed="#L" n="76"/>comparatione ad homines esse ponebant, tanquam 
+vide<lb ed="#L" break="no" n="77"/>licet medios inter homines et deos. — "Tertio, animabus
+<lb ed="#L" n="78"/>bonorum defunctorum, quos Aeroas aut manes dicebant.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>2. Quidam vero dixerunt divinitatis cultum toti mundo
+<lb ed="#L" n="80"/>et singulis eius partibus exhibendum esse, non ratione
+<lb ed="#L" n="81"/>corporis, sed ratione animae. Existimabant enim Deum
+<lb ed="#L" n="82"/>esse animam mundi.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>3. Quidam vero ulterius existimaverunt quibusdam 
+ima<lb ed="#L" break="no" n="84"/>ginibus esse divinum cultum exhibendum: eo quod eas
+<lb ed="#L" n="85"/>sortiri crederent quasdam virtutes supernaturales, vel ex
+<lb ed="#L" n="86"/>influentia caelestium corporum, vel ex praesentia 
+aliquo<lb ed="#L" break="no" n="87"/>rum spirituum. Unde et isti dicti sunt idololatrae: quia
+<lb ed="#L" n="88"/>latriae cultum idolis, idest imaginibus, impendebant,
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="89"/>II. Quantum ad secundum , huiusmodi opiniones 
+im<lb ed="#L" break="no" n="90"/>pugnat Sanctus Thomas. Et primo, primam ; secundo, 
+se<lb ed="#L" break="no" n="91"/>cundam ; tertio, tertiam .
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Circa primam, ostendit quod irrationabile est, 
+ponen<lb ed="#L" break="no" n="93"/>tibus unum tantum principium separatum, cultum 
+divi<lb ed="#L" break="no" n="94"/>num, idest, ilum honorem illamque reverentiam quae
+<lb ed="#L" n="95"/>Deo per sacrificia et huiusmodi res exhibetur, alteri 
+exhi<lb ed="#L" break="no" n="96"/>bere.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Et arguit primo sic. Opinio de hoc quod Deus sit unus,
+<lb ed="#L" n="98"/>supra omnia exaltatus, per sensibilia firmari non potest in
+<lb ed="#L" n="99"/>nobis nisi per hoc quod ei aliquod separatum exhibemus,
+<lb ed="#L" n="100"/>quod dicimus cultum divinum. Ergo etc. — Probatur 
+conse<lb ed="#L" break="no" n="101"/>quentia. Quia cultum Deo exhibemus, ut dictum est , [ut]
+<lb ed="#L" n="102"/>in nobis firmetur etiam per sensibilia vera opinio de Deo.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Secundo. Cultus huiusmodi exterior homini necessarius
+<lb ed="#L" n="104"/>est, ut supra diximus, ad hoc quod anima hominis 
+exci<lb ed="#L" break="no" n="105"/>tetur in spiritualem reverentiam Dei. Hoc autem fit si
+<lb ed="#L" n="106"/>Deo exhibeatur quod nulli alteri exhibetur. Ergo etc.
+<lb ed="#L" n="107"/>— Minor probatur, Quia ad hoc ut animus hominis 
+movea<lb ed="#L" break="no" n="108"/>tur, multum valet consuetudo. Habet autem hoc humana
+<lb ed="#L" n="109"/>consuetudo, quod honor qui exhibetur supremo in 
+repu<lb ed="#L" break="no" n="110"/>blica, puta regi vel imperatori, nulli alii exhibetur.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Tertio. Si cultus latriae alicui deberetur quia est 
+su<lb ed="#L" break="no" n="112"/>perior, non quia summus, sequeretur quod angelus angelo,
+<lb ed="#L" n="113"/>et unus homo alteri, et quod mutuo sibi homines latriam
+<lb ed="#L" n="114"/>exhibere deberent. Hoc est inconveniens. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="115"/>batur sequela. Quia unus angelus altero angelo, et unus
+<pb ed="#L" n="375"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>homo altero superior est; et homo qui superior est 
+quan<lb ed="#L" break="no" n="2"/>tum ad unum, est inferior quantum ad aliud.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Quarto. Est quoddam speciale beneficium. quod a
+<lb ed="#L" n="4"/>summo Deo recipit, scilicet creationis. Ergo debet homo,
+<lb ed="#L" n="5"/>in eius recognitionem, aliquid speciale Deo reddere. Et
+<lb ed="#L" n="6"/>hic est latriae cultus. — Probatur consequentia. Quia, 
+se<lb ed="#L" break="no" n="7"/>cundum hominum consuetudinem, pro speciali beneficio
+<lb ed="#L" n="8"/>specialis retributio debetur.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Quinto. Solus Deus est Dominus omnium. Ergo etc. —
+<lb ed="#L" n="10"/>Probatur consequentia. Quia latria servitium dicitur. 
+Ser<lb ed="#L" break="no" n="11"/>vitium autem domino debetur. - Antecedens vero 
+pro<lb ed="#L" break="no" n="12"/>batur. Quia dominus vere et proprie est qui aliis praecepta
+<lb ed="#L" n="13"/>operandi dispensat, et a nullo regulam operandi sumit:
+<lb ed="#L" n="14"/>alii enim ministri dicuntur. Deus autem, qui est summum
+<lb ed="#L" n="15"/>rerum principium, per suam providentiam omnia ad 
+de<lb ed="#L" break="no" n="16"/>bitas actiones disponit. Unde et in Sacra Scriptura et 
+an<lb ed="#L" break="no" n="17"/>geli et superiora corpora ministrare dicuntur.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Sexto. Sacrificium est solum summo Deo exhibendum:
+<lb ed="#L" n="19"/>licet genuflexiones, prostrationes, et alia huiusmodi honoris
+<lb ed="#L" n="20"/>indicia, hominibus exhiberi possint, alia tamen intentione |
+<lb ed="#L" n="21"/>quam Deo. Ergo et latria.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Probatur consequentia. Quia inter alia quae ad latriam
+<lb ed="#L" n="23"/>pertinent, singulare est sacrificium. — Antecedens vero 
+pro<lb ed="#L" break="no" n="24"/>batur. Sacrificium est Deo offerendum: ut patet ex 
+om<lb ed="#L" break="no" n="25"/>nium opinione. Sed exterius sacrificium est 
+repraesenta<lb ed="#L" break="no" n="26"/>tivum interioris veri sacrificii, secundum quod mens humana
+<lb ed="#L" n="27"/>seipsam Deo offert. Ergo illi soli est exterius sacrificium
+<lb ed="#L" n="28"/>offerendum cui sese mens humana offert sacrificando. Sed
+<lb ed="#L" n="29"/>soli summo Deo sese offert. Ergo etc. — Probatur minor
+<lb ed="#L" n="30"/>subsumpta. Offert se mens nostra Deo quasi suae 
+crea<lb ed="#L" break="no" n="31"/>tionis principio, actionis actori, et beatitudinis fini. Sed
+<lb ed="#L" n="32"/>haec omnia soli summo rerum principio conveniunt: ut
+<lb ed="#L" n="33"/>ex superioribus patet. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>III. Attendendum hoc loco quod Sanctus Thomas 
+ar<lb ed="#L" break="no" n="35"/>gumentatur ex sacrificiis quae vere et iuste Deo exhibentur
+<lb ed="#L" n="36"/>per divinam legem: vultque ista sacrificia soli summo
+<lb ed="#L" n="37"/>Deo esse exhibenda, et non aliis. De iis enim verum est
+<lb ed="#L" n="38"/>quod repraesentant interius sacrificium, quo anima sese
+<lb ed="#L" n="39"/>Deo offert tanquam creationis principio, etc. Si enim de
+<lb ed="#L" n="40"/>sacrificiis per idololatras factis esset sermo, posset aliquis
+<lb ed="#L" n="41"/>dicere quod repraesentant sacrificium quo mens sese ei
+<lb ed="#L" n="42"/>cui sacrificatur offert, non tanquam creationis principio,
+<lb ed="#L" n="43"/>sed tanquam aliquid numinis et divinitatis habenti.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Advertendum secundo, quod ex verbis quibus Sanctus
+<lb ed="#L" n="45"/>Thomas ait prostrationes, et alia huiusmodi quae ad 
+la<lb ed="#L" break="no" n="46"/>triam pertinent, hominibus exhiberi posse, potest haberi
+<lb ed="#L" n="47"/>sensus conclusionis hic probatae. Cum enim dicitur latriae
+<lb ed="#L" n="48"/>cultum nulli alii quam Deo exhiberi debere, intelligendum
+<lb ed="#L" n="49"/>est quantum ad omnia quae ad latriam pertinent: licet
+<lb ed="#L" n="50"/>quantum ad aliqua pertinentia ad latriam possit alicui
+<lb ed="#L" n="51"/>alii exhiberi. - Item, quantum ad ea exteriora quae alteri
+<lb ed="#L" n="52"/>exhiberi possunt, intelligendum est quod non exhibeantur
+<lb ed="#L" n="53"/>alteri ea intentione qua exhibentur Deo: scilicet, ut alteri
+<lb ed="#L" n="54"/>exhibeantur tanquam primae causae, et tanquam bonorum
+<lb ed="#L" n="55"/>omnium auctori. Sic enim proprie ad cultum divinum et
+<lb ed="#L" n="56"/>ad latriam spectant.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>IV. Secundo, impugnat Sanctus Thomas secundam 
+opi<lb ed="#L" break="no" n="58"/>nionem . Et primo, comparat eam ad primam positionem :
+<lb ed="#L" n="59"/>dicens quod, licet magis a veritate recedat ista positio
+<lb ed="#L" n="60"/>quae Deum nihil aliud esse quam animam mundi dicit;
+<lb ed="#L" n="61"/>et ea quae ponit Deum separatum esse, et ab ipso omnes
+<lb ed="#L" n="62"/>substantias intellectuales existere, sit vera: isti tamen 
+ra<lb ed="#L" break="no" n="63"/>tionabilius moventur ad exhibendum latriae cultum 
+di<lb ed="#L" break="no" n="64"/>versis, quia, exhibendo diversis rebus, videntur uni summo
+<lb ed="#L" n="65"/>Deo exhibere, ad quem, secundum eorum positionem,
+<lb ed="#L" n="66"/>diversae partes mundi comparantur sicut ad animam 
+ho<lb ed="#L" break="no" n="67"/>minis diversa corporis membra.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>2. Secundo, contra ipsam positionem arguit primo sic.
+<lb ed="#L" n="69"/>Secundum ipsos, mundo est latriae cultus exhibendus non
+<lb ed="#L" n="70"/>ratione corporis, sed ratione animae, quam Deum esse dicunt.
+<lb ed="#L" n="71"/>Ergo non diversis rebus, sed uni tantum est exhibendus.
+<lb ed="#L" n="72"/>— Probatur consequentia. Quia anima indivisibilis est.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Possent autem ad hanc rationem dicere quod diversis
+<lb ed="#L" n="74"/>quidem rebus est latriae cultus exhibendus, sed tamen
+<lb ed="#L" n="75"/>ratione unius in omnibus existentis.
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>Sed haec responsio nulla est. Quia satis est Sancto
+<lb ed="#L" n="77"/>Thomae habere quod aeri inquantum aer est, non est latriae
+<lb ed="#L" n="78"/>cultus exhibendus; nec igni, nec aliis partibus universi,
+<lb ed="#L" n="79"/>secundum quod una ab altera distinguitur; sed uni tantum,
+<lb ed="#L" n="80"/>quod in omnibus existit. Et per consequens inconvenienter
+<lb ed="#L" n="81"/>dicitur omnibus partibus universi esse divinum cultum
+<lb ed="#L" n="82"/>exhibendum.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>3. Secundo. Cum dicunt Deum esse animam mundi,
+<lb ed="#L" n="84"/>cui debetur latria,; necesse est ut intelligant. de anima
+<lb ed="#L" n="85"/>intellectiva: tum quia operationes sensitivae et vegetativae
+<lb ed="#L" n="86"/>non competunt omnibus partibus universi; tum quia,
+<lb ed="#L" n="87"/>etiam si illas haberent, propter eas non eis deberetur
+<lb ed="#L" n="88"/>latriae cultus, sicut nec brutis nec plantis. Ergo, secundum
+<lb ed="#L" n="89"/>ipsorum radicem, non diversis partibus mundi, sed toti
+<lb ed="#L" n="90"/>mundo esset latriae cultus exhibendus. — Probatur 
+conse<lb ed="#L" break="no" n="91"/>quentia, Quia anima intellectiva non est perfectio 
+determi<lb ed="#L" break="no" n="92"/>natarum partium corporis, sed aliquo modo respicit totum :
+<lb ed="#L" n="93"/>ut patet de. nostra anima.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>4. Tertio. Secundum eorum positionem, aut est 
+tan<lb ed="#L" break="no" n="95"/>tum una anima, quae totum mundum et eius omnes partes
+<lb ed="#L" n="96"/>animat: aut una totius, et diversarum partium diversae.
+<lb ed="#L" n="97"/>Si primum, sequitur quod divinitatis cultus uni tantum
+<lb ed="#L" n="98"/>debeatur: cum mundus non dicatur Deus nisi propter
+<lb ed="#L" n="99"/>animam. — Si secundum, etiam idem sequitur. Quia oportet
+<lb ed="#L" n="100"/>ut animae partium ordinentur sub anima totius: eadem
+<lb ed="#L" n="101"/>enim est proportio perfectionum et perfectibilium. 
+Existen<lb ed="#L" break="no" n="102"/>tibus autem pluribus substantiis intellectualibus ordinatis,
+<lb ed="#L" n="103"/>illi tantum debetur latriae cultus quae summum locum
+<lb ed="#L" n="104"/>in eis tenet, ut ostensum est contra aliam positionem .
+</p>
+            <p>
+               <lb ed="#L" n="105"/>Item, manifestum est quasdam partes non habere 
+ani<lb ed="#L" break="no" n="106"/>mam propriam. Ergo eis non erit latriae cultus exhibendus.
+<lb ed="#L" n="107"/>Et tamen ipsi inanimata corpora colebant.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>Item, homo superior est ordine naturae ad minus 
+om<lb ed="#L" break="no" n="109"/>nibus inferioribus corporibus: cum perfectiorem habeat
+<lb ed="#L" n="110"/>formam. Non ergo illis esset ab homine exhibendus latriae
+<lb ed="#L" n="111"/>cultus, si propter eorum formas eis latriae cultus 
+debe<lb ed="#L" break="no" n="112"/>retur. — Probatur consequentia. Quia superius non debet
+<lb ed="#L" n="113"/>inferiori latriae cultum.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Eadem inconvenientia sequentur, inquit Sanctus Thomas,
+<lb ed="#L" n="115"/>si quis dicat partes singulas mundi habere proprias animas,
+<lb ed="#L" n="116"/>non autem totum aliquam communem.  Oportebit enim
+<lb ed="#L" n="117"/>supremam mundi partem habere animam nobiliorem, cui
+<lb ed="#L" n="118"/>soli, secundum praemissa, debetur latriae cultus,
+</p>
+            <p>
+               <lb ed="#L" n="119"/>V. Tertio, contra tertiam positionem, de imaginibus ,
+<lb ed="#L" n="120"/>quam dicit Sanctus Thomas irrationabiliorem esse, arguit
+<lb ed="#L" n="121"/>primo sic. Corporibus caelestibus non debetur latriae cultus,
+<lb ed="#L" n="122"/>nisi forte propter eorum animas. Ergo neque imaginibus
+<lb ed="#L" n="123"/>quia aliquam virtutem habeant aut dignitatem ex 
+corpo<lb ed="#L" break="no" n="124"/>ribus caelestibus secundum eorum ,Corporalem virtutem,
+<lb ed="#L" n="125"/>ut isti dicebant.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Secundo. Sunt infra gradum cuiuslibet hominis: quia
+<lb ed="#L" n="127"/>non consequuntur ex corporibus caelestibus tam nobilem
+<lb ed="#L" n="128"/>perfectionem sicut est anima rationalis. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>Tertio. Harum imaginum factores sunt homines. Ergo etc.
+<lb ed="#L" n="130"/>- Probatur consequentia. Quia causa potior est effectu.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Si dicatur quod habent aliquam virtutem aut dignitatem
+<lb ed="#L" n="132"/>ex hoc quod eis adhaerent aliquae spirituales substantiae:
+<lb ed="#L" n="133"/>hoc non sufficit, Tum quia nulli spirituali substantiae
+<lb ed="#L" n="134"/>debetur latriae cultus nisi soli summae. — Tum quia 
+no<lb ed="#L" break="no" n="135"/>biliori modo anima rationalis adhaeret corpori hominis
+<lb ed="#L" n="136"/>quam spiritualis substantia imaginibus, Et sic adhuc homo
+<lb ed="#L" n="137"/>remanet in maiori dignitate: scilicet, tanquam nobiliori
+<lb ed="#L" n="138"/>forma constitutus in esse. — Tum quia, cum huiusmodi
+<lb ed="#L" n="139"/>imagines interdum ad aliquos noxios effectus fiant, 
+ma<lb ed="#L" break="no" n="140"/>nifestum est, si per spirituales substantias effectum 
+sor<lb ed="#L" break="no" n="141"/>tiantur, quod illae sunt vitiosae. Et per consequens sunt
+<lb ed="#L" n="142"/>bonis hominibus inferiores.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>2. Advertendum quod, si divinus cultus debetur alicui
+<lb ed="#L" n="144"/>ab hominibus, non debetur illi nisi ratione cuiusdam 
+ex<lb ed="#L" break="no" n="145"/>cellentiae in bonitate supra homines. Ideo, si aliquae 
+sub<lb ed="#L" break="no" n="146"/>stantiae, etiam intellectuales, in bonitate non excellant
+<lb ed="#L" n="147"/>homines, immo sint illis inferiores; sicut substantiae 
+in<lb ed="#L" break="no" n="148"/>tellectuales quibus imagines praedictae suum sortiuntur
+<lb ed="#L" n="149"/>effectum, quae malae sunt et vitiosae, sunt bonis 
+homi<lb ed="#L" break="no" n="150"/>nibus in bonitate inferiores: sequitur quod a bonis ho-
+<pb ed="#L" n="376"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>minibus non est illis substantiis divinus cultus exhibendus.
+<lb ed="#L" n="2"/>Et secundum hoc procedit ultima ratio hic inducta.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>CoNFIRMATUR intentum principale auctoritate Exodi xxi,
+<lb ed="#L" n="4"/>et ad Rom. 1.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>VI. Ex iis infert Sanctus Thomas duo corollaria. Unum
+<lb ed="#L" n="6"/>est, quod ad praedictas indebitas culturas instinctu 
+dae<lb ed="#L" break="no" n="7"/>monum homines provocati fuerunt. Patet: quia ad 
+inde<lb ed="#L" break="no" n="8"/>bita excitare non est nisi rationalis creaturae male 
+dispo<lb ed="#L" break="no" n="9"/>sitae. — Confirmatur auctoritate Psalmi, et I Cor. x.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>Alterum est quod, quia principalis intentio divinae
+<lb ed="#L" n="11"/>legis est ut homo Deo subdatur, et ei singularis reverentia
+<lb ed="#L" n="12"/>exhibeatur non solum corde, sed et ore et opere 
+corpo<lb ed="#L" break="no" n="13"/>rali, ideo primitus interdicitur plurium deorum cultus;
+<lb ed="#L" n="14"/>secundo, indicitur ne irreverenter divinum nomen ore 
+pro<lb ed="#L" break="no" n="15"/>nuntietur, per ipsum falsum confirmando; tertio, ut mens
+<lb ed="#L" n="16"/>divinae contemplationi vacet, indicitur requies per aliquod
+<lb ed="#L" n="17"/>tempus ab exterioribus exercitiis, Exodi xx.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>VII. Circa latriae adorationem soli Deo | exhibendam,
+<lb ed="#L" n="19"/>considerandum est quod ipsam esse soli Deo exhibendam,
+<lb ed="#L" n="20"/>intelligitur primo et per se. Quia secundario, et per aliud,
+<lb ed="#L" n="21"/>non inconvenit ut alicui alii exhibeatur: sicut et honor
+<lb ed="#L" n="22"/>regi exhibendus eius legato exhibetur ratione regis, cuius
+<lb ed="#L" n="23"/>personam repraesentat. Sic enim, inquit Sanctus Thomas,
+<lb ed="#L" n="24"/>Tertia, q. xxv ; et III Sent., d. 1x , est adoranda imago
+<lb ed="#L" n="25"/>Christi et crux adoratione latriae, inquantum Christum
+<lb ed="#L" n="26"/>crucifixum repraesentant: ita quod uno actu adorationis
+<lb ed="#L" n="27"/>adoratur ipse Christus, et crux aut eius imago inquantum
+<lb ed="#L" n="28"/>Christum repraesentant. Sed ille actus primo et per se ad
+<lb ed="#L" n="29"/>Christum terminatur: secundario: autem, et ratione Christi
+<lb ed="#L" n="30"/>repraesentati, terminatur ad crucem aut ad imaginem.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Notat autem Sanctus Thomas in locis praeallegatis quod
+<lb ed="#L" n="32"/>imago dupliciter considerari potest: uno modo, inquantum
+<lb ed="#L" n="33"/>est talis res, puta lignum aut lapis; alio modo, inquantum
+<lb ed="#L" n="34"/>est imago, idest, inquantum stat sub respectu 
+repraesen<lb ed="#L" break="no" n="35"/>tativi. Si consideretur primo modo, non est adoranda 
+ado<lb ed="#L" break="no" n="36"/>ratione latriae: cum sit quid irrationale, cui convenire non
+<lb ed="#L" n="37"/>potest ut per se, et actu separato ab alterius adoratione,
+<lb ed="#L" n="38"/>adoretur; id quod sibi conveniret si, inquantum est talis
+<lb ed="#L" n="39"/>res, adoraretur. — Si vero secundo modo consideretur, sic
+<lb ed="#L" n="40"/>non inconvenit ipsam adorari latria. Quia cum, ut dicitur
+<lb ed="#L" n="41"/>ab Aristotele in libro de Memoria et Reminiscentia , unus
+<lb ed="#L" n="42"/>et idem sit motus in imaginem inquantum est imago, et
+<lb ed="#L" n="43"/>in rem cuius est imago, eadem est adoratio qua adoratur
+<lb ed="#L" n="44"/>imago Christi inquantum est Christi imago, et qua. ipse
+<lb ed="#L" n="45"/>Christus adoratur. Et per consequens, sicut adoratio qua
+<lb ed="#L" n="46"/>Christus adoratur, est latria, ita et adoratio qua adoratur
+<lb ed="#L" n="47"/>eius imago inquantum huiusmodi, latria est.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>VIII. Nec valent argumenta Holcot  arguentis non 
+de<lb ed="#L" break="no" n="49"/>bere adorari Christi imaginem latria. Tum quia latria soli
+<lb ed="#L" n="50"/>Deo debetur: nulla autem imago est Deus - Tum quia
+<lb ed="#L" n="51"/>idem honor deberetur Deo et creaturae — Tum quia 
+ta<lb ed="#L" break="no" n="52"/>liter adorans confiteretur aliud a Deo esse Deum: 
+hono<lb ed="#L" break="no" n="53"/>rans enim aliquid latria, confitetur illud esse Deum.
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Constat enim ex praedictis soli Deo deberi latriam primo
+<lb ed="#L" n="55"/>et per se; alii autem a Deo non inconvenire exhiberi 
+la<lb ed="#L" break="no" n="56"/>triam per aliud, idest inquantum est Dei imago, seu eius
+<lb ed="#L" n="57"/>repraesentativum.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Constat etiam non esse inconveniens eundem honorem
+<lb ed="#L" n="59"/>deberi Deo et creaturae: sed Deo primo et per se, 
+crea<lb ed="#L" break="no" n="60"/>turae inquantum est Dei repraesentativa.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Non sequitur etiam ut adorans imaginem Dei 
+confi<lb ed="#L" break="no" n="62"/>teatur aliquid aliud a Deo esse Deum. Non enim adorans
+<lb ed="#L" n="63"/>aliquid latria confitetur illud esse Deum, nisi ad illud primo
+<lb ed="#L" n="64"/>et per se eius adoratio terminetur.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>IX. Per haec etiam patet responsio ad Durandum,
+<lb ed="#L" n="66"/>arguentem . quod nunquam reverentia exemplaris vel 
+si<lb ed="#L" break="no" n="67"/>gnati debetur signo vel imagini : quia, quantumcumque sit
+<lb ed="#L" n="68"/>idem motus animae in imaginem et in rem significatam,
+<lb ed="#L" n="69"/>nunquam tamen dicit anima imaginem, inquantum 
+ima<lb ed="#L" break="no" n="70"/>ginem, esse idem cum exemplari.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>Patet enim quod non ideo dicimus latriam deberi 
+ima<lb ed="#L" break="no" n="72"/>gini Dei inquantum est eius imago, quia anima dicat unum
+<lb ed="#L" n="73"/>esse alterum: sed quia eodem actu adorationis quo ado-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="74"/>ratur imago Dei inquantum eius imago, adoratur ipse
+<lb ed="#L" n="75"/>Deus, tanquam id quod primo et per se adoratur; ipsa
+<lb ed="#L" n="76"/>vero imago ratione Dei, cuius est repraesentativa, adoratur.
+<lb ed="#L" n="77"/>Non est autem inconveniens imaginem Dei simul cum ipso
+<lb ed="#L" n="78"/>Deo latria adorari: sicut non est inconveniens simul 
+re<lb ed="#L" break="no" n="79"/>gem et eius legatum honorari, dum ipse legatus inquantum
+<lb ed="#L" n="80"/>personam regis repraesentat, honoratur. Esset autem 
+in<lb ed="#L" break="no" n="81"/>conveniens si imago Dei per se adoraretur latria actu quo
+<lb ed="#L" n="82"/>Deus non honoraretur: quia tunc adoraretur ut talis res,
+<lb ed="#L" n="83"/>non autem ut Dei imago.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>X. Ex iis patet etiam responsio ad ea quae obiicit
+<lb ed="#L" n="85"/>Ioannes Mirandula in sua Apologia . Arguit enim primo.
+<lb ed="#L" n="86"/>Imago, ut sic, est distincta ab imaginato. Ergo, si ut sic
+<lb ed="#L" n="87"/>terminat adorationem latriae, sequitur quod aliquid aliud
+<lb ed="#L" n="88"/>a Deo adorabitur latria.
+</p>
+            <p>
+               <lb ed="#L" n="89"/>Secundo. Si imago et imaginatum sunt unum. totale
+<lb ed="#L" n="90"/>obiectum adorationis, aut huius totalis obiecti altera pars
+<lb ed="#L" n="91"/>est ipsa imago, quae est ens creatum respectivum: aut
+<lb ed="#L" n="92"/>non. Si primum, sequitur quod aliqua res creata, de 
+ge<lb ed="#L" break="no" n="93"/>nere relationis, saltem partialiter terminabit adorationem
+<lb ed="#L" n="94"/>latriae : quod videtur male Catholicum. Si secundum, ergo
+<lb ed="#L" n="95"/>non debet dici ex illis duobus fieri unum obiectum totale.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>"Tertio. Auctoritas Philosophi  non iuvat. Quia intendit
+<lb ed="#L" n="97"/>Philosophus quod motus recordativus quo anima  
+recor<lb ed="#L" break="no" n="98"/>datione movetur in imaginem ut imago, terminatur etiam
+<lb ed="#L" n="99"/>ad imaginatum. Et etiam habet veritatem ad hunc sensum:
+<lb ed="#L" n="100"/>quod habens conceptum definitivum unius, intelligit esse
+<lb ed="#L" n="101"/>aliud. Quod autem omnis motus animae, maxime 
+volun<lb ed="#L" break="no" n="102"/>tatis, sit idem in imaginem et in imaginatum, hoc nullo
+<lb ed="#L" n="103"/>modo intendit Philosophus. — Patet a simili. Quia saepe
+<lb ed="#L" n="104"/>dicit Sanctus Thomas quod idem est motus voluntatis quo
+<lb ed="#L" n="105"/>fertur in finem, et in ea quae sunt ad finem, cum vult ea
+<lb ed="#L" n="106"/>propter finem. Et tamen certum est, secundum eum, quod
+<lb ed="#L" n="107"/>ille motus ut attingit finem, est fruitio : ut autem attingit
+<lb ed="#L" n="108"/>ea quae sunt ad finem, est usus, et non fruitio.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>2. Ad primum enim, patet ex dictis quod non est 
+incon<lb ed="#L" break="no" n="110"/>veniens ut aliud a Deo terminet secundario et per aliud
+<lb ed="#L" n="111"/>adorationem latriae: inquantum videlicet illud adoratur ut
+<lb ed="#L" n="112"/>habens ad illud respectum repraesentativi.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>Ad secundum similiter dicitur quod sunt unum bocale
+<lb ed="#L" n="114"/>obiectum adorationis, cuius obiecti una pars est ratio quod
+<lb ed="#L" n="115"/>adoratio simul ad aliam terminetur. Neque est 
+inconve<lb ed="#L" break="no" n="116"/>niens quod res creata respectum includens, et sic aliquo
+<lb ed="#L" n="117"/>modo ad genus relationis spectans, terminet secundario,
+<lb ed="#L" n="118"/>et ratione alterius, latriae adorationem. — Nec hoc est male
+<lb ed="#L" n="119"/>Catholicum. Immo dicere oppositum magis est a Catholica
+<lb ed="#L" n="120"/>fide alienum: cum secundum Catholicae Ecclesiae ritum
+<lb ed="#L" n="121"/>videamus cruci fieri genuflexiones, prostrationes, 
+suppli<lb ed="#L" break="no" n="122"/>cationes, et alia huiusmodi, quae ad latriae adorationem
+<lb ed="#L" n="123"/>pertinent.
+</p>
+            <p>
+               <lb ed="#L" n="124"/>Ad tertium dicitur primo, quod dictum Philosophi 
+ma<lb ed="#L" break="no" n="125"/>xime ad propositum facit. Quia ubi unum propter alterum,
+<lb ed="#L" n="126"/>ibi est unum tantum. Et sic, ubi unum propter alterum
+<lb ed="#L" n="127"/>adoratur, ibi est unum tantum totale quod adoratur; et
+<lb ed="#L" n="128"/>per consequens unus actus adorationis ad utrumque 
+ter<lb ed="#L" break="no" n="129"/>minatur. Et universaliter apud Aristotelem verum est quod
+<lb ed="#L" n="130"/>est unus motus animae in imaginem inquantum imago
+<lb ed="#L" n="131"/>est, et in imaginatum, quicumque motus animae sit ille:
+<lb ed="#L" n="132"/>quia tunc ut unum animae obiectum considerantur, et
+<lb ed="#L" n="133"/>per consequens uno actu anima fertur in utrumque, duin
+<lb ed="#L" n="134"/>actualiter simul in ipsa fertur.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>Dicitur secundo, quod dictum Sancti Thomae non obdub
+<lb ed="#L" n="136"/>immo propositum confirmat. Quia ipse vult eundem esse
+<lb ed="#L" n="137"/>actum voluntatis quo quis vult finem et ea quae sunt ad
+<lb ed="#L" n="138"/>finem, inquantum vult ea propter finem, ut habetur in QQ. de
+<lb ed="#L" n="139"/>Ver., q. xxu, a. 14; et I II^, q. xr, a. 4: licet ille actus, ut
+<lb ed="#L" n="140"/>terminatur ad finem, aliquando habeat nomen fruitionis; ut
+<lb ed="#L" n="141"/>vero terminatur ad ea quae sunt ad finem, habeat nomen
+<lb ed="#L" n="142"/>usus. In proposito vero, actus ille unus adorationis quo
+<lb ed="#L" n="143"/>adoratur Deus et eius imago simul, non potest esse latria
+<lb ed="#L" n="144"/>respectu unius, respectu vero alterius alia adoratio: quia
+<lb ed="#L" n="145"/>ipsi actus in quibus utrumque extrinsecus aut intrinsecus
+<lb ed="#L" n="146"/>adoratur, sunt actus in quibus proprie latria consistit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

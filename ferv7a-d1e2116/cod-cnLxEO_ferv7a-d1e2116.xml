@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 50</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 50</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="138"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2116"><!-- ferv7a-l3c50 -->
+            <head>Capitulum 50</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="91" type="fixed=138"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="92"/>QUANTUM ad tertium , ostendit Sanctus Thomas quod
+<lb ed="#L" n="93"/>in cognitione illa quam habent substantiae separatae
+<lb ed="#L" n="94"/>de Deo per proprias essentias, non quiescit earum 
+matu<lb ed="#L" break="no" n="95"/>rale desiderium.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>1. Et arguit primo sic. Praedicta cognitio de Deo est
+<lb ed="#L" n="97"/>imperfecta cognitionis species: quia non arbitramur nos
+<lb ed="#L" n="98"/>aliquid cognoscere si substantiam eius non cognoscamus;
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="99"/>et praecipuum in rei cognitione est scire de ipsa quid est,
+<lb ed="#L" n="100"/>unam scilicet particularem cognitionem rei ad aliam 
+com<lb ed="#L" break="no" n="101"/>parando. Ergo etc. — Probatur consequentia. Quia omne
+<lb ed="#L" n="102"/>quod est imperfectum in aliqua specie, desiderat consequi
+<lb ed="#L" n="103"/>perfectionem illius speciei: ut patet de habente opinionem
+<lb ed="#L" n="104"/>de aliqua re, qui desiderat de ipsa habere scientiam.
+<lb ed="#L" n="105"/>Secundo. Substantiae separatae cognoscunt omnium
+<pb ed="#L" n="139"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>rerum quarum vident substantias, Deum esse causam.
+<lb ed="#L" n="2"/>Ergo etc, — Probatur consequentia. Quia ex cognitione
+<lb ed="#L" n="3"/>effectuum incitatur desiderium ad cognoscendum causas:
+<lb ed="#L" n="4"/>et non quiescit desiderium sciendi, omnibus substantiis 
+in<lb ed="#L" break="no" n="5"/>tellectualibus naturaliter inditum, nisi, cognitis substantiis
+<lb ed="#L" n="6"/>effectuum, etiam substantiam causae cognoscant.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Tertio. Videntes quia de aliquo, naturaliter scire 
+desi<lb ed="#L" break="no" n="8"/>derant de ipso propter quid est. Ergo videntes an est, 
+de<lb ed="#L" break="no" n="9"/>siderant scire quid est, quod est intelligere rei 
+substan<lb ed="#L" break="no" n="10"/>tiam. Ergo etiam non quietatur naturale desiderium sciendi
+<lb ed="#L" n="11"/>in cognitione Dei qua scitur de ipso solum az est. — 
+Pro<lb ed="#L" break="no" n="12"/>batur prima consequentia. Quia sicut se habet quaestio
+<lb ed="#L" n="13"/>propter quid ad quaestionem quia, ita se habet quaestio
+<lb ed="#L" n="14"/>quid est ad quaestionem an est, ut dicitur II Posteriorum:
+<lb ed="#L" n="15"/>utrobique enim quaeritur de medio demonstrandi. — 
+Quo<lb ed="#L" break="no" n="16"/>modo se habeant istae quaestiones, ostensum est in 
+an<lb ed="#L" break="no" n="17"/>notationibus nostris in II Posteriorum.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Quarto. Altitudo et virtus cuiuslibet substantiae creatae
+<lb ed="#L" n="19"/>est finita. Ergo intellectus substantiae separatae non 
+quie<lb ed="#L" break="no" n="20"/>scit per hoc quod cognoscit substantias creatas 
+quantum<lb ed="#L" break="no" n="21"/>cumque eminentes, sed ad substantiam infinitam 
+cogno<lb ed="#L" break="no" n="22"/>scendam tendit. — Probatur consequentia. Quia nihil finitum
+<lb ed="#L" n="23"/>potest desiderium intellectus quietare: videmus enim quod,
+<lb ed="#L" n="24"/>quolibet finito, puta linea aut numero, dato, aliquid ultra
+<lb ed="#L" n="25"/>molitur apprehender.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Quinto. Substantiae separatae sciunt substantiam 
+divi<lb ed="#L" break="no" n="27"/>nam sibi esse ignotam: cum cognoscant, praedicto 
+cogni<lb ed="#L" break="no" n="28"/>tionis modo, ipsam esse supra se, et supra omne quod ab
+<lb ed="#L" n="29"/>ipis intelligitur. Ergo etc. — Probatur consequentia. Quia
+<lb ed="#L" n="30"/>mnibus naturis intellectualibus inest naturale desiderium
+<lb ed="#L" n="31"/>ignorantiam seu nescientiam pellendi, sicut et naturale 
+de<lb ed="#L" break="no" n="32"/>siderium sciendi.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Sexto. Intellectus substantiarum separatarum 
+propin<lb ed="#L" break="no" n="34"/>quiores sunt divinae cognitioni quam noster intellectus.
+<lb ed="#L" n="35"/>Ergo intensius desiderant divinam cognitionem quam nos.
+<lb ed="#L" n="36"/>Ergo etc. — Probatur prima consequentia. Quia quanto
+<lb ed="#L" n="37"/>aliquid est fini propinquius, ex maiori desiderio tendit in
+<lb ed="#L" n="38"/>finem. Declaratur in motibus rerum naturalium. —- 
+Se<lb ed="#L" break="no" n="39"/>cunda vero consequentia probatur. Quia nos, 
+quantum<lb ed="#L" break="no" n="40"/>cumque de Deo supradicta sciamus, non quiescimus
+<lb ed="#L" n="41"/>desiderio, sed adhuc desideramus Deum per essentiam
+<lb ed="#L" n="42"/>videre.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Adverte, ex doctrina Sancti Thomae I Cael., lect. 17;
+<lb ed="#L" n="44"/>et II Cael., lect. 8, quod motus naturalis est velocior in
+<lb ed="#L" n="45"/>fine quam in principio, quia principium formale quo 
+cor<lb ed="#L" break="no" n="46"/>pus naturale movetur, ex propinquitate ad proprium locum
+<lb ed="#L" n="47"/>d confortatur. Sicut autem ex confortatione principii 
+natu<lb ed="#L" break="no" n="48"/>Do ralis propter appropinquationem ad proprium locum, 
+mo<lb ed="#L" break="no" n="49"/>tus est intensior et velocior; ita possumus dicere quod,
+<lb ed="#L" n="50"/>quanto aliquid a natura est propinquius fini, tanto magis
+<lb ed="#L" n="51"/>inclinatur ad finem. Et sic, quia intellectus substantiae
+<lb ed="#L" n="52"/>separatae secundum suam naturam est propinquior 
+co<lb ed="#L" break="no" n="53"/>gnitioni divinae quam noster intellectus, utpote superioris
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="54"/>ordinis, ideo magis inclinatur in divinam cognitionem
+<lb ed="#L" n="55"/>quam noster intellectus. Et sic possumus hanc rationem
+<lb ed="#L" n="56"/>interpretari, quod fundetur super propinquitate 
+intelle<lb ed="#L" break="no" n="57"/>ctus substantiae separatae absolute considerati ad 
+cogni<lb ed="#L" break="no" n="58"/>tionem Dei.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Possumus etiam interpretari eam ut fundetur super 
+pro<lb ed="#L" break="no" n="60"/>pinquitate intellectus huiusmodi, non absolute considerati,
+<lb ed="#L" n="61"/>sed accepti ut stat sub cognitione, assimilando 
+cognitio<lb ed="#L" break="no" n="62"/>nem naturalem ipsius motui rerum naturalium. Tunc enim
+<lb ed="#L" n="63"/>procedet ratio quod, quia intellectus substantiae separatae,
+<lb ed="#L" n="64"/>ex eo quod cognoscit Deum naturaliter quantum ad 
+ali<lb ed="#L" break="no" n="65"/>qua, propinquior est divinae cognitioni quam intellectus
+<lb ed="#L" n="66"/>noster ex sua naturali cognitione quam habet de Deo,
+<lb ed="#L" n="67"/>quia est clarior et eminentior cognitio substantiae 
+sepa<lb ed="#L" break="no" n="68"/>ratae de Deo, ut in praecedenti capitulo est ostensum,
+<lb ed="#L" n="69"/>quam nostra, ideo maiori desiderio inclinatur ad 
+cogno<lb ed="#L" break="no" n="70"/>scendam divinam substantiam quam noster intellectus.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>II. Quantum ad quartum , infert Sanctus Thomas 
+solu<lb ed="#L" break="no" n="72"/>tionem eius quod in capite xuix proposuerat: scilicet quod
+<lb ed="#L" n="73"/>ultima felicitas substantiae separatae non consistit in illa
+<lb ed="#L" n="74"/>cognitione Dei qua ipsum per suas essentias cognoscunt. —
+<lb ed="#L" n="75"/>Probatur. Quia per ipsam non quietatur earum naturale
+<lb ed="#L" n="76"/>desiderium, sed adhuc fertur usque ad Dei substantiam.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>Concludit ulterius ex praedictis quod im mullo alio
+<lb ed="#L" n="78"/>quaerenda est ultima hominis felicitas quam in operatione
+<lb ed="#L" n="79"/>intellectus. Probat, quia nullum aliud desiderium tam in 
+su<lb ed="#L" break="no" n="80"/>blime fertur quam desiderium cognoscendae veritatis: cum
+<lb ed="#L" n="81"/>omnia alia desideria in aliis rebus quiescere possint; 
+desi<lb ed="#L" break="no" n="82"/>derium autem praedictum non quiescat nisi ad summum
+<lb ed="#L" n="83"/>rerum cardinem et factorem pervenerit. Quod etiam 
+osten<lb ed="#L" break="no" n="84"/>ditur auctoritate Eccli. xxiv, et Proverb. 1x.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Ultimo loco, mundanos homines reprehendit, qui 
+ho<lb ed="#L" break="no" n="86"/>minis felicitatem, tam altissime sitam, in infimis rebus
+<lb ed="#L" n="87"/>quaerunt.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Circa illam propositionem, Omnia alia desideria in
+<lb ed="#L" n="89"/>aliis rebus quiescere possunt, attendendum quod non est
+<lb ed="#L" n="90"/>mens Sancti Thomae dicere quod aliquid aliud a Deo
+<lb ed="#L" n="91"/>possit ita appetitum quietare ut nihil aliud appetatur 
+sim<lb ed="#L" break="no" n="92"/>pliciter, quia, ut patet, hoc repugnaret antedictis: sed quod,
+<lb ed="#L" n="93"/>accepto quocumque desiderio circa aliquod determinatum
+<lb ed="#L" n="94"/>appetibile creatum, potest ita quiescere in illo desiderium
+<lb ed="#L" n="95"/>quod nihil ulterius de illo desiderabit. Puta, desiderans
+<lb ed="#L" n="96"/>dulce potest invenire aliquod ita dulce quod nihil dulcius
+<lb ed="#L" n="97"/>desiderabit, et sic de aliis. Desiderium autem 
+cognoscen<lb ed="#L" break="no" n="98"/>dae veritatis in nullius creati cognitione quietatur,. sed
+<lb ed="#L" n="99"/>tantum in cognitione substantiae divinae.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>III. Advertendum postremo, quod ex istis relinquit 
+San<lb ed="#L" break="no" n="101"/>ctus Thomas manifestum ultimam hominis, sive 
+intelle<lb ed="#L" break="no" n="102"/>ctualis naturae, felicitatem in ea cognitione consistere qua
+<lb ed="#L" n="103"/>ipsa divina substantia videtur: — id quod ex toto 
+prae<lb ed="#L" break="no" n="104"/>cedenti processu principaliter intendebatur - quia nihil
+<lb ed="#L" n="105"/>aliud, ut est ostensum, naturale hominis desiderium 
+po<lb ed="#L" break="no" n="106"/>test quietare.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

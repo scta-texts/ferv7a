@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 88</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 88</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="269"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2426"><!-- ferv7a-l3c88 -->
+            <head>Capitulum 88</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="83" type="fixed=269"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="84"/>POSTQUAM ostendit Sanctus Thomas corpora caelestia non
+<lb ed="#L" n="85"/>P esse directe nostrarum electionum causam, vult 
+con<lb ed="#L" break="no" n="86"/>sequenter ostendere quod nec etiam substantiae separatae
+<lb ed="#L" n="87"/>ipsarum sunt causa, sed solus Deus .
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Circa hoc autem duo facit: primo, ostendit propositum ;
+<lb ed="#L" n="89"/>secundo, ostendit male a quibusdam exponi auctoritates
+<lb ed="#L" n="90"/>Sacrae Scripturae quibus ostenditur Deum esse causam
+<lb ed="#L" n="91"/>nostrarum electionum, capite sequenti.
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="92"/>I. Quantum ad primum, ponitur haec conclusio: Neque
+<lb ed="#L" n="93"/>animae caelorum, si quae sunt, neque aliae substantiae
+<lb ed="#L" n="94"/>intellectuales separatae creatae, possunt directe voluntatem,
+<lb ed="#L" n="95"/>idest actum voluntatis, nobis immittere, aut electionis
+<lb ed="#L" n="96"/>nostrae causa esse.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Probatur primo sic. Providentiae lex est ut 
+unum<lb ed="#L" break="no" n="98"/>quodque immediate a proxima sibi causa moveatur. Ergo
+<lb ed="#L" n="99"/>causa creata superior, tali ordine praetermisso, nec mo-
+<pb ed="#L" n="270"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>vere nec agere potest. Ergo intellectualis substantia non
+<lb ed="#L" n="2"/>potest movere voluntatem nisi mediante bono intellecto.
+<lb ed="#L" n="3"/>Ergo non potest agere in voluntatem nisi per modum
+<lb ed="#L" n="4"/>suadentis .
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Probatur prima consequentia. Quia, cum omnes 
+crea<lb ed="#L" break="no" n="6"/>torum actiones sub ordine, divinae. providentiae 
+conti<lb ed="#L" break="no" n="7"/>neantur, praeter leges ipsius agere non possunt. — Secunda
+<lb ed="#L" n="8"/>vero probatur. Quia proximum motivum voluntatis .est
+<lb ed="#L" n="9"/>bonum intellectum, quod est eius obiectum, et movetur
+<lb ed="#L" n="10"/>ab ipso sicut visus a colore. — Tertia quoque probatur.
+<lb ed="#L" n="11"/>Quia movere voluntatem mediante bono intellecto, est
+<lb ed="#L" n="12"/>manifestare ei aliquid esse bonum ad agendum. Quod est
+<lb ed="#L" n="13"/>persuadere.
+</p>
+            <p>
+               <lb ed="#L" n="14"/>II. Videtur autem haec ratio inefficax esse. Posset enim
+<lb ed="#L" n="15"/>dici quod, cum loquamur hic de motione voluntatis ab
+<lb ed="#L" n="16"/>alio per modum efficientis, non videtur ad propositum
+<lb ed="#L" n="17"/>esse quod bonum intellectum sit proximum motivum 
+vo<lb ed="#L" break="no" n="18"/>luntatis: quia bonum non movet voluntatem per modum.
+<lb ed="#L" n="19"/>efficientis, sed 'per modum finis et obiecti. Unde stant
+<lb ed="#L" n="20"/>simul quod intellectualis substantia moveat effective. et
+<lb ed="#L" n="21"/>proxime voluntatem; et quod voluntatis motivum. 
+pro<lb ed="#L" break="no" n="22"/>ximum per modum obiecti sit bonum intellectum. Et sic
+<lb ed="#L" n="23"/>non removetur ordo divinae providentiae per hoc quod
+<lb ed="#L" n="24"/>intellectualis substantia immediate moveat voluntatem: 
+ne<lb ed="#L" break="no" n="25"/>gatur enim quod bonum cognitum sit proximum motivum
+<lb ed="#L" n="26"/>warnen effective. 
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Ad huius evidentiam; considerandum est, ex dacuipa
+<lb ed="#L" n="28"/>Saoct Thomae in, Qu. Verit., xxtt, a. 9, quod, cum actus
+<lb ed="#L" n="29"/>voluntatis sit quasi medius inter potentiam et obiectum,
+<lb ed="#L" n="30"/>immutatio voluntatis ab aliquo per modum efficientis potest
+<lb ed="#L" n="31"/>considerari vel ex parte voluntatis, vel ex parte obiecti.
+<lb ed="#L" n="32"/>Ex parte voluntatis, illud solum habet effective immutare
+<lb ed="#L" n="33"/>voluntatem, quod intra ipsam operatur ipsum actum 
+vo<lb ed="#L" break="no" n="34"/>luntatis causando, quod scilicet est intra ipsam et eius
+<lb ed="#L" n="35"/>actum operatur. Ex parte vero obiecti, dicitur illud 
+ef<lb ed="#L" break="no" n="36"/>fective immutare voluntatem quod non operatur intrinsece
+<lb ed="#L" n="37"/>in voluntate, sed extrinsece voluntati obiectum proponit:
+<lb ed="#L" n="38"/>Tale. autem dicitur movere voluntatem indirecte: quia
+<lb ed="#L" n="39"/>hoc solum agit, quod facit apparere aliquid esse bonum,
+<lb ed="#L" n="40"/>ex qua apparitione voluntas in illud bonum seipsam movet,
+<lb ed="#L" n="41"/>Et si quidem tale obiectum proponat quod sit natum
+<lb ed="#L" n="42"/>voluntatem necessitare aut ad eliciendum operationem
+<lb ed="#L" n="43"/>circa ipsum, quod pertinet ad exercitium actus; aut, si
+<lb ed="#L" n="44"/>eliciat actum, quod eius actus sit prosecutio aut sit fuga,
+<lb ed="#L" n="45"/>quod .est necessitare quoad specificationem actus: tunc
+<lb ed="#L" n="46"/>dicitur tale sufficienter movere voluntatem ex parte obiecti,
+<lb ed="#L" n="47"/>non quidem causando ipsum voluntatis actum, sed 
+pro<lb ed="#L" break="no" n="48"/>ponendo tale obiectum, et faciendo ut illud taliter bonum
+<lb ed="#L" n="49"/>appareat, quod ad eius praesentiam voluntas necessitetur
+<lb ed="#L" n="50"/>in seipsa talem. producere actum, sive potius omo per
+<lb ed="#L" n="51"/>voluntatem, ut in superioribus  est ostensum. Si autem
+<lb ed="#L" n="52"/>proponat obiectum quod non sit natum necessitare 
+volun<lb ed="#L" break="no" n="53"/>tatem, sicut sunt omnia creata: tunc dicitur movere 
+vo<lb ed="#L" break="no" n="54"/>luntatem ex parte obiecti per modum persuadentis tantum,
+<lb ed="#L" n="55"/>et aliqualiter indirecte inclinantis, non autem per modum
+<lb ed="#L" n="56"/>necessitantis ad actum; suasio enim non cogit invitum, ut
+<lb ed="#L" n="57"/>Augustinus ait in libro Octoginta trium Quaestionum ,
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Ista ergo ratio optime procedit de motione voluntatis
+<lb ed="#L" n="59"/>a substantia intellectuali effective. Quia enim non potest
+<lb ed="#L" n="60"/>aliquid creatum immutare voluntatem. effective. nisi 
+pro<lb ed="#L" break="no" n="61"/>ponendo bonum cognitum. et faciendo illud apparere
+<lb ed="#L" n="62"/>bonum, cum bonum cognitum sit obiectum voluntatis et
+<lb ed="#L" n="63"/>obiectum sit proximum motivum potentiae; ideo .
+conclu<lb ed="#L" break="no" n="64"/>ditur quod substantia intellectualis non potest movere
+<lb ed="#L" n="65"/>voluntatem nisi mediante bono intellecto, et consequenter
+<lb ed="#L" n="66"/>nisi per modum persuadentis et indirecte. voluntatem 
+in<lb ed="#L" break="no" n="67"/>clinantis.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>3. Ad obiectionem ergo dicitur quod, licet quaeramus
+<lb ed="#L" n="69"/>hic de motione per modum efficientis; et bonum 
+intel<lb ed="#L" break="no" n="70"/>lectum non moveat voluntatem nisi per modum finis: non
+<lb ed="#L" n="71"/>propter hoc tollitur efficacia rationis. Quia hoc est 
+uni<lb ed="#L" break="no" n="72"/>versaliter verum in ordine divinae providentiae, quod 
+su<lb ed="#L" break="no" n="73"/>perior creatura non movet nisi mediante proxima causa,
+<lb ed="#L" n="74"/>in quocumque genere causae agat. Ideo, cum immediatum
+<lb ed="#L" n="75"/>et proximum motivum ipsius sit bonum intellectum, quod
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>movet per modum finis et formae, licet non pez modum
+<lb ed="#L" n="77"/>effcientiae, sicut et quaelibet potentia habet proxime a
+<lb ed="#L" n="78"/>suo obiecto moveri ; necesse est, si aliqua substantia 
+intel<lb ed="#L" break="no" n="79"/>lectualis movet voluntatem, ut illam mediante bono 
+intel<lb ed="#L" break="no" n="80"/>lecto moveat; et consequenter moveat, non intrinsece 
+<lb ed="#L" n="81"/>operando in voluntatem, sed tantum indirecte et extrinsece.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Advertendum autem, cum inquit Sanctus Thomas 
+vo<lb ed="#L" break="no" n="83"/>luntatem moveri a bono sicut visum a colore, quod hoc
+<lb ed="#L" n="84"/>intelligendum est absolute, non autem quantum ad eundem
+<lb ed="#L" n="85"/>modum motionis..
+</p>
+            <p>
+               <lb ed="#L" n="86"/>ILL. Secundo . In solo bono divino quietatur desiderii
+<lb ed="#L" n="87"/>voluntatis sicut in ultimo. fine. Ergo solus Deus potest
+<lb ed="#L" n="88"/>movere voluntatem per modum agentis. — Probatur 
+conse<lb ed="#L" break="no" n="89"/>quentia. Quia ab illo agente aliquid natum est moveri et
+<lb ed="#L" n="90"/>pati, per cuius formam reduci potest in actum: cum omue
+<lb ed="#L" n="91"/>agens agat per formam. Voluntas autem reducitur in actum
+<lb ed="#L" n="92"/>per appetibile quod motum desiderii eius. quietat.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>IV. Sed videtur ista ratio non concludere. Primo, quia
+<lb ed="#L" n="94"/>negari potest consequentia. Ad cuius probationem diceretur
+<lb ed="#L" n="95"/>quod, si assumptum intelligatur ad hunc sensum; quod ab
+<lb ed="#L" n="96"/>illo solo agente aliquid natum est moveri et pati per. cuius
+<lb ed="#L" n="97"/>formam reduci potest in actum. secundum .totam suam
+<lb ed="#L" n="98"/>potentialitatem, falsum est: nam materia prima potest
+<lb ed="#L" n="99"/>reduci in actum ab agente aliquo a quo non reducitur
+<lb ed="#L" n="100"/>in actum quoad omnem eius potentialitatem. — Si autem
+<lb ed="#L" n="101"/>intelligatur secundum partem suae potentialitatis, sic falsum
+<lb ed="#L" n="102"/>est ab illo solo appetibili voluntatem reduci in actum quod
+<lb ed="#L" n="103"/>motum desiderii eius quietat: nam et illud appetibile quod
+<lb ed="#L" n="104"/>non quietat motum desiderii, reducit voluntatem ad actum,
+<lb ed="#L" n="105"/>ut patet per experientiam.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Secundo quia, si debeat recte subsumi minor 
+propo<lb ed="#L" break="no" n="107"/>sitio, debet intelligi quod appetibile est forma per quam
+<lb ed="#L" n="108"/>agens movet voluntatem. Hoc autem est falsum: quia
+<lb ed="#L" n="109"/>appetibile nominat terminum motus voluntatis, non autem
+<lb ed="#L" n="110"/>formam qua agens aliquod intrinsece in voluntatem operatur.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>Tertio quia, si quid concludit ista ratio, concludit quod
+<lb ed="#L" n="112"/>solus Deus potest movere voluntatem per modum 
+quie<lb ed="#L" break="no" n="113"/>tantis ipsam, sive eius desiderium, Diceretur autem quod,
+<lb ed="#L" n="114"/>hoc admisso, non sequitur nihil aliud agere in: voluntatem :
+<lb ed="#L" n="115"/>quia, licet alia, non agant in ipsam causando quietem 
+de<lb ed="#L" break="no" n="116"/>siderii, agent tamen causando amorem qui desiderium
+<lb ed="#L" n="117"/>praecedit, et causando ipsum desiderii motum. '
+</p>
+            <p>
+               <lb ed="#L" n="118"/>V. Ad huius evidentiam, considerandum est primo
+<lb ed="#L" n="119"/>quod, cum dupliciter possit intelligi aliquid esse causam
+<lb ed="#L" n="120"/>voluntatis humanae et electionis nostrae per modum agentis
+<lb ed="#L" n="121"/>intrinsece in potentiam voluntatis: scilicet, aut tanquam
+<lb ed="#L" n="122"/>agens sufficiens et adaequatum voluntati, sicut intellectus
+<lb ed="#L" n="123"/>agens est agens sufficiens et adaequatum intellectui 
+pos<lb ed="#L" break="no" n="124"/>sibili; aut tanquam agens insufficiens, potens scilicet 
+incli<lb ed="#L" break="no" n="125"/>nare voluntatem in volitum, sed non potens eam 
+necessi<lb ed="#L" break="no" n="126"/>tare ad eliciendum actum volendi quietantem voluntatem: —
+<lb ed="#L" n="127"/>per primam rationem probavit Sanctus Thomas nullo modo
+<lb ed="#L" n="128"/>posse moveri intrinsece voluntatem a substantia 
+intel<lb ed="#L" break="no" n="129"/>lectuali, sed tantum extrinsece; per hanc autem rationem
+<lb ed="#L" n="130"/>probat particulariter quod solus Deus potest sufficienter,
+<lb ed="#L" n="131"/>et tanquam agens adaequatum, movere intrinsece 
+volunta<lb ed="#L" break="no" n="132"/>tem per modum sufficientis agentis; in tertia vero ratione 
+<lb ed="#L" n="133"/>probat particulariter quod, etiam per modum agentis 
+in<lb ed="#L" break="no" n="134"/>trinsece quomodocumque inclinantis, solus Deus 
+volun<lb ed="#L" break="no" n="135"/>tatem movere potest.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>Considerandum secundo, quod bonum et appetibile,
+<lb ed="#L" n="137"/>quod est obiectum voluntatis, est causa formalis a .qua
+<lb ed="#L" n="138"/>voluntas habet reduci in actum, et a qua eius operatio
+<lb ed="#L" n="139"/>specificatur: sed illud solum appetibile habet suffcienter
+<lb ed="#L" n="140"/>et adaequate reducere voluntatem in actum, tanquam
+<lb ed="#L" n="141"/>scilicet forma extrinseca, quod ipsam natum est quietare
+<lb ed="#L" n="142"/>ne aliud ulterius appetibile desideret. Quia, si aliquod
+<lb ed="#L" n="143"/>appetibile non est natum quietare omnino. voluntatem;
+<lb ed="#L" n="144"/>constat quod illud non sufficienter et adaequate potest
+<lb ed="#L" n="145"/>voluntatem in actum reducere: cum volitione enim illius
+<lb ed="#L" n="146"/>remanere poterit alterius rei desiderium, et sic non erit .
+<lb ed="#L" n="147"/>totaliter voluntas reducta ad actum.
+</p>
+            <p>
+               <lb ed="#L" n="148"/>Considerandum. tertio quod, cum omne agens agat per
+<lb ed="#L" n="149"/>formam per quam mobile reduci habet in actum, necesse
+<lb ed="#L" n="150"/>est, si appetibile est forma a qua in actum reducitur vo-
+<pb ed="#L" n="271"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>luntas, quod appetibile: sit .forma 'agentis intrinsece .in
+<lb ed="#L" n="2"/>voluntatem: agit enim unumquodque formaliter per suam
+<lb ed="#L" n="3"/>formam, qua est in actu. Et si aliquid. debet agere in
+<lb ed="#L" n="4"/>voluntatem tanquam agens sufficiens et adaequatum, oportet
+<lb ed="#L" n="5"/>ut forma eius.qua est in actu, et qua agit in voluntatem,
+<lb ed="#L" n="6"/>sit appetibile et bonum. quod natum est voluntatem 
+quie<lb ed="#L" break="no" n="7"/>tare. omnino, ne aliquid aliud ulterius desideret. Et quia
+<lb ed="#L" n="8"/>solum bonum divinum, quod scilicet est universale bonum
+<lb ed="#L" n="9"/>et ultimus finis, potest^omnino quietare voluntatem, cum
+<lb ed="#L" n="10"/>voluntas in.solo ultimo fine quiectetur; ideo illud 'solum
+<lb ed="#L" n="11"/>erit agens sufficiens et adaequatum: ac proportionatum
+<lb ed="#L" n="12"/>voluntati, cuius propria-forma est.bonum divinum. Et
+<lb ed="#L" n="13"/>quia hoc'est solus: Deus, ideo solus Deus est tale agens,
+<lb ed="#L" n="14"/>Et hoc est huius rationis fundamentum. ,
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Unde sic potest ratio formari. Ab illo agente aliquid
+<lb ed="#L" n="16"/>natum est moveri et pati, scilieet sufficienter et adaequate;
+<lb ed="#L" n="17"/>per cuius formam potest in actum reduci, scilicet omnino.
+<lb ed="#L" n="18"/>Sed a solius Dei formia potest voluntas. reduci omnino in
+<lb ed="#L" n="19"/>actum. Ergo ab ipso solo potest effective, hit et
+<lb ed="#L" n="20"/>addequate moveri et pati.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Maior probatur. Quia omine agens agit per HAM CRN suam.
+<lb ed="#L" n="22"/>- Minor vero probatur sic. Ab illius solius forma voluntas
+<lb ed="#L" n="23"/>potest. omnino 'in actum reduci; cuius forma est appetibile
+<lb ed="#L" n="24"/>quod. motum. desiderii. voluntatis quietat: cum per hoc
+<lb ed="#L" n="25"/>solum omnino reducatur formaliter voluntas in actum.
+<lb ed="#L" n="26"/>Sed solius Dei forma, scilicet bonum ipsum divinum, est
+<lb ed="#L" n="27"/>huiusmodi appetibile: cum ipsum solum bonum divinum
+<lb ed="#L" n="28"/>sit ultimus finis. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Constat igitur quod haec ratio efhicax est,et ex notis
+<lb ed="#L" n="30"/>procedens.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>3.Unde ad primam instantiam  dicitur ione assumptum
+<lb ed="#L" n="32"/>ad probationem consequentiae sic intelligendum est ut
+<lb ed="#L" n="33"/>diximus: — Ab illo solo agente. natum est aliquid moveri
+<lb ed="#L" n="34"/>et pati tanquam ab agente sufficienti, proportionato et
+<lb ed="#L" n="35"/>adaequato, per cuius formam reduci potest in actum
+<lb ed="#L" n="36"/>omnino. Constat autem propositionem hanc, sic 
+intelle<lb ed="#L" break="no" n="37"/>ctam, non habere calumniam: nam materia a nullo agente
+<lb ed="#L" n="38"/>particulari reducitur in actum sufficienter et pensar
+<lb ed="#L" n="39"/>quantum ad totam suam potentialitatem.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Ad secundam dicitur quod optime 'subsumitur minor
+<lb ed="#L" n="41"/>propositio: ut patuit in ultima formatione rationis . Nam
+<lb ed="#L" n="42"/>licet appetibile nominet terminum motus appetitus, est
+<lb ed="#L" n="43"/>tamen causa formalis motus voluntatis. Et ideo, si aliquid
+<lb ed="#L" n="44"/>debet effective operari in voluntatem intrinsece eam 
+re<lb ed="#L" break="no" n="45"/>ducendo ad actum volitionis, oportet ut per ipsum 
+appe<lb ed="#L" break="no" n="46"/>tibile agat tanquam per formam suam, ut sic appetibile
+<lb ed="#L" n="47"/>sit principium et terminus motus voluntatis, Nam et 
+vo<lb ed="#L" break="no" n="48"/>]untas non movet se ad ea quae sunt ad finem, nisi actuata
+<lb ed="#L" n="49"/>aliquo modo fine: inquantum videlicet, ex eo quod in
+<lb ed="#L" n="50"/>actu habet volitionem finis, cansat.in se volitionem eorum
+<lb ed="#L" n="51"/>quae sunt ad finem. Et homo non causat in se volitionem
+<lb ed="#L" n="52"/>finis per voluntatem, nisi ipso fine sit actuatus ex parte
+<lb ed="#L" n="53"/>intellectus: nisi enim cognitionem finis habeat, non potest |
+<lb ed="#L" n="54"/>velle finem, Sicut et agens naturale non potest formam
+<lb ed="#L" n="55"/>in materiam introducere nisi eam in se habeat, aut 
+for<lb ed="#L" break="no" n="56"/>maliter aut virtualiter, ut sic forma sit principium et 
+ter<lb ed="#L" break="no" n="57"/>minus actionis. :
+</p>
+            <p>
+               <lb ed="#L" n="58"/>Ad tertiam, conceditur quod ista ratio solum concludit
+<lb ed="#L" n="59"/>quod solus Deus potest movere voluntatem per modum
+<lb ed="#L" n="60"/>ipsam quietantis, et agentis adaequati. Immo potius, ex eo
+<lb ed="#L" n="61"/>quod solus potest sua forma voluntatem quietare, 
+conclu<lb ed="#L" break="no" n="62"/>ditur quod. ipse solus est qui sufficienter et adaequate
+<lb ed="#L" n="63"/>movere eam potest.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>VI. Tertio . Inclinationes naturales dare non est nisi
+<lb ed="#L" n="65"/>illius qui naturam instituit. Ergo et voluntatem inclinare
+<lb ed="#L" n="66"/>in aliquid non est nisi eius qui naturae intellectualis est
+<lb ed="#L" n="67"/>causa. Hoc autem est solius Dei. Ergo etc. — Probatur
+<lb ed="#L" n="68"/>prima consequentia. Quia sicut in re inanimata se habet
+<lb ed="#L" n="69"/>inclinatio naturalis, quae appetitus naturalis dicitur, ad
+<lb ed="#L" n="70"/>proprium finem; ita se habet in substantia intellectuali
+<lb ed="#L" n="71"/>voluntas, quae dicitur appetitus intellectualis.
+</p>
+            <p>
+               <lb ed="#L" n="72"/>2. Ad evidentiam huius rationis, considerandum est
+<lb ed="#L" n="73"/>quod, cum appetitus non sit nisi quaedam inclinatio con- .
+<lb ed="#L" n="74"/>sequens formam, voluntas, quae nominat appetitum 
+na<lb ed="#L" break="no" n="75"/>turae intellectualis inquantum intellectualis est, nominat
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>inclinationem naturae intellectualis in aliquid: licet istae
+<lb ed="#L" n="77"/>inclinationes sint diversorum generum, et diversorum 
+mo<lb ed="#L" break="no" n="78"/>dorum. Sicut autem in natura intellectuali est: considerare
+<lb ed="#L" n="79"/>et virtutem, qua potest actu intelligere; et actum 
+intel<lb ed="#L" break="no" n="80"/>ligendi ac formam intellectam, secundum quae dicitur actu
+<lb ed="#L" n="81"/>intelligens: ita ex parte inclinationis intellectualis duo sunt
+<lb ed="#L" n="82"/>consideranda, scilicet:virtus, qua'natura' intellectualis potest
+<lb ed="#L" n="83"/>inclinari: actualiter in aliquid; et operatio: talis. virtutis,
+<lb ed="#L" n="84"/>secundum quam dicitur natura intellectualis: actu volens.
+<lb ed="#L" n="85"/>Prima.est virtualis sive habitualis inclinatio;. cui nomen
+<lb ed="#L" n="86"/>voluntatis est impositum: et haec proportionaliter respondet
+<lb ed="#L" n="87"/>naturae intellectuali: potenti actualiter. intelligere. Secunda
+<lb ed="#L" n="88"/>vero est actualis. inclinatio; proportionaliter respondens
+<lb ed="#L" n="89"/>intellectualis naturae operationi. Unde, sicut in rebus 
+ina<lb ed="#L" break="no" n="90"/>nimatis appetitus est inclinatio naturae in aliquid, et: 
+di<lb ed="#L" break="no" n="91"/>citur appetitus naturalis; ita in natura intellectuali appetitus
+<lb ed="#L" n="92"/>est inclinatio: naturae intellectualis inquantum intellectiva
+<lb ed="#L" n="93"/>est. Propterea: omnis actus voluntatis est-inclinatio actualis
+<lb ed="#L" n="94"/>ipsius naturae intellectualis: et dare inclinationem actualem
+<lb ed="#L" n="95"/>tali naturae, et inclinare voluntatem, pro eodem accipiuntur;
+<lb ed="#L" n="96"/>Manifestum est autem quod inclinatio naturae in aliquid
+<lb ed="#L" n="97"/>non. provenit nisi ab ipsa natura'et a dante naturam, 
+tan<lb ed="#L" break="no" n="98"/>quam: scilicet a causante ipsam inclinationem (de tali enim
+<lb ed="#L" n="99"/>motione procedit ratio): sicut. motus: gravis deorsum nor
+<lb ed="#L" n="100"/>est nisi a forma gravis, et a generante dante talem .
+for<lb ed="#L" break="no" n="101"/>mam. Ideo: manifeste relinquitur actum voluntatis a solo
+<lb ed="#L" n="102"/>Deo .causari, qui naturam intellectualem, secundum fidem,
+<lb ed="#L" n="103"/>solus causat; et ab ipsa intellectuali natura volente.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>VII. Quarto ; Si voluntas moveatur ab aliquo exteriori
+<lb ed="#L" n="105"/>principio, per. modum scilicet agentis, nom per modum
+<lb ed="#L" n="106"/>finis, erit: motus violentus. Sed violentum repugnat 
+volun<lb ed="#L" break="no" n="107"/>tario. Ergo non potest motus "voluntatis ab extrinseco
+<lb ed="#L" n="108"/>agente provenire, sed ab interiori. Ergo a solo Deo potest
+<lb ed="#L" n="109"/>causari. — Probatur assumptum per definitionem violenti
+<lb ed="#L" n="110"/>HI Ethicorum, — Probatur vero ultima consequentia. Quia
+<lb ed="#L" n="111"/>nulla substantia creata coniungitur animae intellectuali
+<lb ed="#L" n="112"/>quantum ad sua interiora, sed solus Deus, qui solus est
+<lb ed="#L" n="113"/>causa ipsius, et sustinet ipsam in esse.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Adverte quod dupliciter potest aliquod agens esse 
+intrin<lb ed="#L" break="no" n="115"/>secum. alicui mioventi et operanti. Uno modo, virtualiter
+<lb ed="#L" n="116"/>tantum: quia videlicet forma qua operans operatur, est
+<lb ed="#L" n="117"/>ab ipso causata, licet ipsam non conservetin esse, et per
+<lb ed="#L" n="118"/>consequens in ipso remanet virtus agentis; sicut generans
+<lb ed="#L" n="119"/>gravia dicitur: virtualiter contineri in gravi ratione 
+gravi<lb ed="#L" break="no" n="120"/>tatis sibi datae ab ipso generante. Alio modo, non tantum
+<lb ed="#L" n="121"/>"virtualiter, sed etiam secundum essentiam propriam: sicut
+<lb ed="#L" n="122"/>substantia immaterialis quae non solum dedit operanti
+<lb ed="#L" n="123"/>formam qua operatur, sed etiam ipsam formam sua actione
+<lb ed="#L" n="124"/>conservat in esse; quo modo dictum est superius  Deum
+<lb ed="#L" n="125"/>esse in' omnibus. rebus per essentiam, inquantum omnibus
+<lb ed="#L" n="126"/>dat esse et omnia in esse conservat. Ad hoc ergo quod
+<lb ed="#L" n="127"/>operatio alicuius ab aliquo movente causata non sit 
+vio<lb ed="#L" break="no" n="128"/>lenta, requiritur quod ipsum agens et movens ad talem
+<lb ed="#L" n="129"/>operationem, sit intrinsecum operanti aut secundum 
+es<lb ed="#L" break="no" n="130"/>sentiam et virtutem simul, aut secundum virtutem formae
+<lb ed="#L" n="131"/>"qua operans operatur: si enim movens nullo illorum 
+mo<lb ed="#L" break="no" n="132"/>dorum fuerit intrinsecum, operatio erit violenta, utpote
+<lb ed="#L" n="133"/>penitus$ ab extrinseco proveniens. Substantia autem creata
+<lb ed="#L" n="134"/>nullo istorum modorum est intrinseca naturae intellectuali.
+<lb ed="#L" n="135"/>Quod dedit intelligere Sanctus Thomas dum dixit quod
+<lb ed="#L" n="136"/>solus Deus causat ipsam, per quod excluditur quod 
+sub<lb ed="#L" break="no" n="137"/>stantia creata non est illi intrinseca virtualiter, ratione
+<lb ed="#L" n="138"/>formae qua operatur; et quod sustinet ipsam in esse, per
+<lb ed="#L" n="139"/>quod. excluditur quod substantia creata non est illi 
+intrin<lb ed="#L" break="no" n="140"/>seca per.essentiam. Ideo optime sequitur, si ponatur ipsam
+<lb ed="#L" n="141"/>movere voluntatem directe causando voluntatis actum, quod
+<lb ed="#L" n="142"/>talis motus erit violentus.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>VIII. Sed occurit dubium. Sicut enim dicit Sanctus
+<lb ed="#L" n="144"/>quod motus caelestis est naturalis non
+<lb ed="#L" n="145"/>ratione formae, sed ratione materiae, inquantum caelum
+<lb ed="#L" n="146"/>habet aptitudinem naturalem ad hoc ut moveatur; ita in
+<lb ed="#L" n="147"/>proposito poterit dici quod motus voluntatis, licet sit ab
+<lb ed="#L" n="148"/>intellectuali substantia creata extrinseca, non sequitur quod
+<lb ed="#L" n="149"/>sit violentus, quia voluntas habet aptitudinem naturalem
+<lb ed="#L" n="150"/>ad hoc ut moveatur a tali substantia.
+</p>
+            <p>
+               <pb ed="#L" n="272"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Respondetur quod aliter loquendum est de motu quo
+<lb ed="#L" n="2"/>aliquod passum habet ut moveatur tantum: et aliter de
+<lb ed="#L" n="3"/>motu qui est operatio eius quod dicitur moveri. Quia,
+<lb ed="#L" n="4"/>cum motus sit actus existentis. in potentia , mnaturalitas
+<lb ed="#L" n="5"/>motus considerari potest non tantum ratione formae, sed
+<lb ed="#L" n="6"/>etiam ratione materiae, ex.qua aliquod habet quod sit in
+<lb ed="#L" n="7"/>potentia, Et propter hoc motus caeli dicitur naturalis: quia
+<lb ed="#L" n="8"/>habet potentiam naturalem ad hoc ut tali motu moveatur.
+<lb ed="#L" n="9"/>Operatio autem est. actus existentis in actu per formam.
+<lb ed="#L" n="10"/>Ideo ad hoc ut operatio sit naturalis, ut naturale distinguitur
+<lb ed="#L" n="11"/>contra violentum, requiritur quod principium activum talis
+<lb ed="#L" n="12"/>operationis sit intrinsecum, aut secundum sui essentiam,
+<lb ed="#L" n="13"/>aut secundum virtutem formae qua operans operatur.
+<lb ed="#L" n="14"/>Propter hoc, si. nullo modo ex aliquo intrinseco voluntas
+<lb ed="#L" n="15"/>moveatur ad suam operationem, sed tantum ab agente
+<lb ed="#L" n="16"/>extrinseco, erit eius operatio violenta.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>2. Si. dicatur. quod in tali motione eius operatio erit ab
+<lb ed="#L" n="18"/>intrinseco et ab extrinseco, inquantum erit ab ipsa potentia
+<lb ed="#L" n="19"/>voluntatis et substantia intellectuali, et sic non erit omnino
+<lb ed="#L" n="20"/>ab extrinseco: — hoc non valet. Quia, ut ex praecedenti
+<lb ed="#L" n="21"/>ratione patuit , operatio quae convenit rei per modum
+<lb ed="#L" n="22"/>inclinationis cuiusdam, cuiusmodi est operatio voluntatis,
+<lb ed="#L" n="23"/>non potest provenire a substantia intellectuali creata 
+me<lb ed="#L" break="no" n="24"/>diante aliquo principio interiori: cum non sit causa illius
+<lb ed="#L" n="25"/>principii interioris. Ideo, si substantia intellectualis creata
+<lb ed="#L" n="26"/>moveret effective voluntatem ad actum, ille motus esset
+<lb ed="#L" n="27"/>omnino ab extrinseco, et non mediante voluntate tanquam
+<lb ed="#L" n="28"/>mediante principio intrinseco ad actum inclinante: sicut,
+<lb ed="#L" n="29"/>si grave moveretur ab aliquo quod. naturam gravis non
+<lb ed="#L" n="30"/>causaret, ille motus non esset motus naturalis gravis, ut
+<lb ed="#L" n="31"/>dicitur I II, q. 1x, a. 6, sed esset alius motus violentus,
+<lb ed="#L" n="32"/>puta motus sursum. Motum enim naturalem ex parte
+<lb ed="#L" n="33"/>formae non potest causare quod non est aliqualiter causa
+<lb ed="#L" n="34"/>naturae. Unde ille qui lapidem deorsum proiicit, non movet
+<lb ed="#L" n="35"/>lapidem deorsum causando ipsum. motum, sed applicando
+<lb ed="#L" n="36"/>gravitatem ad .suum opus: generans autem, quod dedit
+<lb ed="#L" n="37"/>sibi gravitatem, dicitur movens.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>3. Circa illam declarationem, Dico autem moveri ab
+<lb ed="#L" n="39"/>extrinseco quod moveat per modum agentis, et non per
+<lb ed="#L" n="40"/>modum. finis, adverte quod ex hoc declaratur definitio
+<lb ed="#L" n="41"/>violenti, qua dicitur quod violentum est cuius principium
+<lb ed="#L" n="42"/>est extra. Intelligitur enim de principio activo, non de
+<lb ed="#L" n="43"/>principio finali, Quia quamvis finis a quo aliquis movetur,
+<lb ed="#L" n="44"/>sit extrinsecus ab eo quod movetur, non tamen talis motus
+<lb ed="#L" n="45"/>dicitur violentus. Immo est motus naturalis, si sit motus
+<lb ed="#L" n="46"/>ab ultimo fine proveniens.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>IX. Quinto illud solum agens potest causare motum
+<lb ed="#L" n="48"/>voluntatis absque violentia, quod causat principium 
+in<lb ed="#L" break="no" n="49"/>trinsecum huius motus quod est voluntas. Sed hic est
+<lb ed="#L" n="50"/>solus Deus, qui solus animam creat, Ergo solus Deus
+<lb ed="#L" n="51"/>voluntatem movere potest per modum agentis absque
+<lb ed="#L" n="52"/>violentia.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Probatur assumptum. Quia violentum opponitur naturali
+<lb ed="#L" n="54"/>et voluntario motui, eo quod utrumque illorum oporteat
+<lb ed="#L" n="55"/>esse a principio intrinseco. Agens autem exterius sic solum
+<lb ed="#L" n="56"/>naturaliter movet, inquantum causat in mobili intrinsecum
+<lb ed="#L" n="57"/>principium motus; nihilque aliud extrinsecum movere
+<lb ed="#L" n="58"/>potest absque violentia corpus naturale; nisi forte per
+<lb ed="#L" n="59"/>accidens, sicut removens prohibens, quod magis utitur
+<lb ed="#L" n="60"/>motu vel actione quam ipsum causet.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Circa hoc. ultimum dictum adverte, ex doctrina Sancti
+<lb ed="#L" n="62"/>Thomae I II, q. xvr, a. 1, quod usus rei alicuius 
+im<lb ed="#L" break="no" n="63"/>portat applicationem eius ad aliquam operationem. Quia
+<lb ed="#L" n="64"/>ergo removens impedimentum quod prohibebat motum
+<lb ed="#L" n="65"/>corporis naturalis, quodammodo applicat naturam ipsius
+<lb ed="#L" n="66"/>corporis ad suum motum, qui est quasi eius operatio, in
+<lb ed="#L" n="67"/>quam naturaliter inclinatur, et in quam tendit ex se nisi
+<lb ed="#L" n="68"/>impediatur; et per consequens applicat ad perveniendum
+<lb ed="#L" n="69"/>ad naturalem et. proprium locum; non autem dat illi
+<lb ed="#L" n="70"/>corpori motum virtute propriae naturae illum causando:
+<lb ed="#L" n="71"/>ideo convenientissime dictum est quod removens 
+prohi<lb ed="#L" break="no" n="72"/>bens magis utitur motu vel actione quam ipsum. causet.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>2. Adverte quod ista ratio differt a praecedenti. Quia 
+prae<lb ed="#L" break="no" n="74"/>cedens procedebat ex eo quod oportet principium motus
+<lb ed="#L" n="75"/>voluntarii esse intrinsecum ; substantia autem creata non
+<lb ed="#L" n="76"/>est intrinseca animae intellectivae. Ista autem procedit ex
+<lb ed="#L" n="77"/>comparatione voluntarii ad naturale: quae, sicut communi
+<lb ed="#L" n="78"/>ratione opponuntur violento, ita in hoc conveniunt quod,
+<lb ed="#L" n="79"/>sicut extrinsecum agens non movet naturaliter et absque
+<lb ed="#L" n="80"/>violentia nisi causet in mobili intrinsecum principium
+<lb ed="#L" n="81"/>motus, ita etiam in movente ad actum voluntarium oportet
+<lb ed="#L" n="82"/>contingere. Quod cum substantia creata non sit causa
+<lb ed="#L" n="83"/>voluntatis, quae est principium intrinsecum actus 
+volun<lb ed="#L" break="no" n="84"/>tarii, sed solus Deus, sequitur ut non possit movere 
+vo<lb ed="#L" break="no" n="85"/>luntatem ad actum voluntarium. — Ista tamen ratio est
+<lb ed="#L" n="86"/>praecedentis quaedam confirmatio.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>CONFIRMATUR conclusio auctoritate Pror. xxr; et ad
+<lb ed="#L" n="88"/>Philip. 11.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

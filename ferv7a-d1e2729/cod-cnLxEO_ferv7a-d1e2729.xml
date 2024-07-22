@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 125</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 125</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="388"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2729"><!-- ferv7a-l3c125 -->
+            <head>Capitulum 125</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="39" type="fixed=388"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="40"/>TERTIA matrimonii conditio  est quod non debet fieri
+<lb ed="#L" n="41"/>inter propinquos. .Et ideo propter causas rationabiles
+<lb ed="#L" n="42"/>ordinatum est legibus quod certae personae a matrimonio
+<lb ed="#L" n="43"/>excludantur, quae secundum originem sunt coniunctae.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Et primo arguitur sic. Id ex quo personae quae
+<lb ed="#L" n="45"/>per eandem originem sunt unum, occasionem habent se
+<lb ed="#L" n="46"/>ferventius diligendi, rationabiliter ordinatur. Sed hoc evenit
+<lb ed="#L" n="47"/>ex eo quod a matrimonio excluduntur. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="48"/>batur minor. Quia, cum in matrimonio sit diversarum
+<lb ed="#L" n="49"/>personarum coniunctio, dum dictae personae excluduntur
+<lb ed="#L" n="50"/>a matrimonio, se non esse diversas omnino, sed esse unum
+<lb ed="#L" n="51"/>recognoscunt. Unitas autem inter aliquos dilectionem causat.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Secundo. Ea quae inter virum et uxorem aguntur, 
+quan<lb ed="#L" break="no" n="53"/>dam naturalem verecundiam habent. Ergo ab iis mutuo
+<lb ed="#L" n="54"/>agendis illas personas prohiberi oportuit quibus, propter
+<lb ed="#L" n="55"/>sanguinis coniunctionem, reverentia debetur. Et haec ratio
+<lb ed="#L" n="56"/>tangitur in veteri lege cum dicitur: Zurpitudinem sororis
+<lb ed="#L" n="57"/>tuae non discooperias. - Consequentiam non probat 
+San<lb ed="#L" break="no" n="58"/>ctus Thomas, sed relinquit manifestam. Quia ea quae 
+ve<lb ed="#L" break="no" n="59"/>recunde fiunt, cavetur ne fiant erga personas quibus 
+re<lb ed="#L" break="no" n="60"/>verentia debetur.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Tertio. Si liceret homini per coitum coniungi personis
+<lb ed="#L" n="62"/>quibus commorandi habet necessitatem, sicut sororibus et
+<lb ed="#L" n="63"/>aliis propinquis, sequeretur nimius voluptatis usus: quia
+<lb ed="#L" n="64"/>talibus occasio coitus subtrahi non posset. Sed ad 
+cor<lb ed="#L" break="no" n="65"/>ruptionem bonorum morum pertinet quod homines sint
+<lb ed="#L" n="66"/>nimis dediti voluptatibus coitus. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Quarto: et est confirmatio praecedentis, Multiplicaretur
+<lb ed="#L" n="68"/>delectatio coitus. Sed haec multiplicatio repugnat bonis
+<lb ed="#L" n="69"/>moribus: cum talis delectatio maxime corrumpat bonum
+<lb ed="#L" n="70"/>prudentiae. Ergo etc. — Probatur sequela. Quia in eis 
+mul<lb ed="#L" break="no" n="71"/>tiplicaretur amor, dum amor qui est ex communione 
+ori<lb ed="#L" break="no" n="72"/>ginis et connutritione, amori concupiscentiae iungeretur.
+<lb ed="#L" n="73"/>Multiplicato autem amore, necesse est magis animam 
+de<lb ed="#L" break="no" n="74"/>lectationibus subdi.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Sed videtur quod ista ratio assumat contrarium eius
+<lb ed="#L" n="76"/>quod dictum est in prima ratione. Ibi enim dicebatur quod
+<lb ed="#L" n="77"/>ex eo quod personae coniunctae repelluntur a matrimonio,
+<lb ed="#L" n="78"/>occasionem habent se ferventius diligendi. Hic autem 
+di<lb ed="#L" break="no" n="79"/>citur quod, si inter illas esset matrimonium, 
+multiplica<lb ed="#L" break="no" n="80"/>retur amor. Quae contrariari videntur.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>Potest dici quod in prima ratione loquitur Sanctus
+<lb ed="#L" n="82"/>Thomas de honesto amore et ordinato. Hic autem de 
+in<lb ed="#L" break="no" n="83"/>honesto et inordinato amore, ex quo nimius et inordinatus
+<lb ed="#L" n="84"/>delectationis usus proveniret, loquitur.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="85"/>Quinto. Multiplicatur amicitia inter homines dum 
+per<lb ed="#L" break="no" n="86"/>sonae extraneae per matrimonia coniunguntur. Ergo 
+con<lb ed="#L" break="no" n="87"/>veniens fuit legibus ordinari ut matrimonia cum extraneis
+<lb ed="#L" n="88"/>contraherentur, et non cum propinquis. - Probatur 
+con<lb ed="#L" break="no" n="89"/>sequentia. Quia in societate humana necessarium est u
+<lb ed="#L" n="90"/>sit amicitia inter multos. :
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Sexto. Naturale est quod aliquis parentibus sit subiectus.
+<lb ed="#L" n="92"/>Ergo inconveniens esset quod cum parentibus quis 
+ma<lb ed="#L" break="no" n="93"/>trimonium contraheret. - Probatur consequentia. Quia in
+<lb ed="#L" n="94"/>matrimonio est quaedam coniunctio socialis.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>CONFIRMATUR conclusio auctoritate Levit. xvin.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Per hoc autem excluditur consuetudo se carnaliter 
+pro<lb ed="#L" break="no" n="97"/>pinquis commiscentium. ,
+</p>
+            <p>
+               <lb ed="#L" n="98"/>II. Advertendum est quod non omnes istae rationes
+<lb ed="#L" n="99"/>ex eodem fundamento procedunt. Cum enim matrimonii
+<lb ed="#L" n="100"/>finis sit triplex: primarius, scilicet bonum prolis; 
+secun<lb ed="#L" break="no" n="101"/>darius, scilicet concupiscentiae repressio; et per accidens,
+<lb ed="#L" n="102"/>scilicet amicitiae multiplicatio et hominum confoederatio,
+<lb ed="#L" n="103"/>ut inquit Sanctus Thomas Quarto, dist, xr, : secunda ratio
+<lb ed="#L" n="104"/>et ultima procedunt ex eo quod matrimonium cum iis
+<lb ed="#L" n="105"/>qui coniunguntur sanguine, aliqualiter impedit matrimonii
+<lb ed="#L" n="106"/>finem primarium, impeditur enim ne convenienti modo
+<lb ed="#L" n="107"/>proli concipiendae vacetur, ob reverentiam aut 
+subiectio<lb ed="#L" break="no" n="108"/>nem unius ad alterum; tertia et quarta procedunt ex eo
+<lb ed="#L" n="109"/>quod impediretur secundarius finis; prima vero et quinta
+<lb ed="#L" n="110"/>procedunt ex eo quod finis per accidens impediretur.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>2. Attendendum ulterius, ut. habetur loco allegato ,
+<lb ed="#L" n="112"/>quod in lege naturali solus pater et mater a matrimonio
+<lb ed="#L" n="113"/>repellebantur: reliqui vero gradus propter humani generis
+<lb ed="#L" n="114"/>propagationem permittebantur. De lege vero divina est ut
+<lb ed="#L" n="115"/>illae personae quas oportet in eadem domo conversari,
+<lb ed="#L" n="116"/>repellantur a matrimonio: quae Levit. xvi enumerantur,
+<lb ed="#L" n="117"/>Sed secundum legem humanam, plures alii consanguinitatis
+<lb ed="#L" n="118"/>gradus sunt prohibiti. Ex quo patet quod consanguinitas,
+<lb ed="#L" n="119"/>quantum ad aliquas personas, impedit matrimonium de
+<lb ed="#L" n="120"/>iure naturali; quantum ad aliquas, de iure divino; quantum
+<lb ed="#L" n="121"/>vero ad aliquas, de iure humano, Propter hoc aliquae
+<lb ed="#L" n="122"/>praedictarum rationum probant de iis tantum qui iure
+<lb ed="#L" n="123"/>naturali prohibentur, ut pater et mater; aliquae vero de
+<lb ed="#L" n="124"/>iis qui iure divino prohibentur, scilicet de iis quos simul
+<lb ed="#L" n="125"/>necesse est commorari; sed aliae etiam de iis qui humanis
+<lb ed="#L" n="126"/>legibus prohibentur, scilicet de omnibus usque ad quartum
+<lb ed="#L" n="127"/>gradum inclusive.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>III. Notat autem Sanctus Thomas primo, quod quia,
+<lb ed="#L" n="129"/>sicut naturalis lex est ad ea quae sunt ut in pluribus, ita
+<pb ed="#L" n="389"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>et lex posita est secundum id quod in pluribus accidit;
+<lb ed="#L" n="2"/>non est praedictis rationibus contrarium si in aliquo aliter
+<lb ed="#L" n="3"/>possit accidere, puta quod minuatur in aliquo 
+concupi<lb ed="#L" break="no" n="4"/>scentia si copuletur sorori: quia propter bonum unius
+<lb ed="#L" n="5"/>non debet multorum bonum praetermitti.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>2. Notat secundo quod, ne defectus qui in aliquo potest
+<lb ed="#L" n="7"/>accidere, absque medela remaneat, residet apud legislatores,
+<lb ed="#L" n="8"/>et eis similes, similem scilicet potestatem habentes, 
+aucto<lb ed="#L" break="no" n="9"/>ritas dispensandi in eo quod communiter est statutum,
+<lb ed="#L" n="10"/>secundum quod in aliquo particulari casu est necessarium :
+<lb ed="#L" n="11"/>apud homines quidem, si lex sit humana; apud Deum
+<lb ed="#L" n="12"/>vero, si lex sit divina, sicut in veteri lege ex dispensatione
+<lb ed="#L" n="13"/>indultum est plures uxores habere et concubinas, et uxoris
+<lb ed="#L" n="14"/>repudium. ,
+</p>
+            <p>
+               <lb ed="#L" n="15"/>Advertendum est quod nomine concubinae non 
+intel<lb ed="#L" break="no" n="16"/>ligitur hic illa quae non est matrimonio iuncta, ut dicitur
+<lb ed="#L" n="17"/>Quarto, d. xxxur, q. r, a. 3: sed quae aliquid habebat
+<lb ed="#L" n="18"/>de ratione uxoris, inquantum videlicet erat matrimonio
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="19"/>iuncta ; et aliquid habebat de ratione concubinae, inquantum
+<lb ed="#L" n="20"/>sibi non dabatur familiae dispensatio, et non erat cum illa
+<lb ed="#L" n="21"/>communicatio operum vitae tanquam cum socia. Quod
+<lb ed="#L" n="22"/>ad secundarium finem matrimonii pertinet, in quo per
+<lb ed="#L" n="23"/>divinam ordinationem cum aliquibus dispensabatur.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>3. Sed occurrit dubium. Nam iis quae ex divina 
+dispen<lb ed="#L" break="no" n="25"/>satione erant indulta, connumeratur hoc loco uxoris 
+re<lb ed="#L" break="no" n="26"/>pudium: cum tamen dictum sit superius  quod Sanctus
+<lb ed="#L" n="27"/>"Thomas ad hanc opinionem declinat quod non poterant
+<lb ed="#L" n="28"/>Iudaei absque peccato uxorem dimittere.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>Potest ad hoc dupliciter dici, Primo, quod dicitur hic
+<lb ed="#L" n="30"/>fuisse indultum uxoris repudium, non quia repudiantes
+<lb ed="#L" n="31"/>uxorem non peccarent, sed quia legis poenam evitabant,
+<lb ed="#L" n="32"/>ut superius  dicebatur. Et sic non contrariatur supra dictis,
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Secundo quod, cum duplex de hoc sit opinio, superius
+<lb ed="#L" n="34"/>Sanctus Thomas locutus est secundum illam opinionem
+<lb ed="#L" n="35"/>quae sibi magis placebat: hic autem exemplificat ad mentem
+<lb ed="#L" n="36"/>etiam alterius opinionis, eo quod etiam ipsa probabilis sit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

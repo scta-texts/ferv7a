@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 97</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 97</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="301"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2500"><!-- ferv7a-l3c97 -->
+            <head>Capitulum 97</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="59" type="fixed=301"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="60"/>POSTAM determinavit Sanctus Thomas de certitudine
+<lb ed="#L" n="61"/>divinae providentiae, nunc de eius rationabilitate 
+de<lb ed="#L" break="no" n="62"/>terminat .
+</p>
+            <p>
+               <lb ed="#L" n="63"/>Circa hoc autem tria facit. Primo, ostendit quod ea
+<lb ed="#L" n="64"/>quae sunt per divinam providentiam ordinata, habent 
+ali<lb ed="#L" break="no" n="65"/>quam rationem ; secundo, excludit quosdam errores, ibi,
+<lb ed="#L" n="66"/>Sic igitur per praemissa ; tertio, infert unum corollarium,
+<lb ed="#L" n="67"/>cum dicit, Sic ergo cum quaeritur .
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Circa primum duo facit: primo, ostendit propositum ;
+<lb ed="#L" n="69"/>secundo, ostendit quod, licet sit aliqua ratio divinae 
+pro<lb ed="#L" break="no" n="70"/>videntiae, est tamen aliquid in creaturis quod ex simplici
+<lb ed="#L" n="71"/>Dei voluntate dependet .
+</p>
+            <p>
+               <lb ed="#L" n="72"/>I. Quantum ad primum, probat propositum tali ratione.
+<lb ed="#L" n="73"/>Ex fine sumitur ratio diversitatis formarum; ex 
+diversi<lb ed="#L" break="no" n="74"/>tate formarum sumitur ratio ordinis rerum, id est diversitas
+<lb ed="#L" n="75"/>graduum in naturis rerum; ex diversitate formarum 
+se<lb ed="#L" break="no" n="76"/>quitur operationum differentia ac finium, et diversa 
+habi<lb ed="#L" break="no" n="77"/>tudo materiae ad res; ex hac diversa materiae habitudine
+<lb ed="#L" n="78"/>sequitur diversitas agentium et patientium; ex diversitate
+<lb ed="#L" n="79"/>formarum et materiarum et agentium sequitur diversitas
+<lb ed="#L" n="80"/>proprietatum et accidentium. Ergo, cum per divinam 
+pro<lb ed="#L" break="no" n="81"/>videntiam diversa accidentia, et actiones et passiones, ct
+<lb ed="#L" n="82"/>collocationes (scilicet secundum superius et inferius) 
+distri<lb ed="#L" break="no" n="83"/>buuntur, non absque ratione accidit.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>2. Prima pars antecedentis probatur. Deus per suam
+<lb ed="#L" n="85"/>providentiam omnia ordinat in bonitatem suam sicut in
+<lb ed="#L" n="86"/>finem, ut similitudo illius, quantum possibile est, 
+impri<lb ed="#L" break="no" n="87"/>matur in rebus. Sed non potest divina bonitas ab uno aliquo
+<lb ed="#L" n="88"/>perfecte repraesentari: cum quaelibet creatura ab eius 
+per<lb ed="#L" break="no" n="89"/>fectione deficiat. Ergo, ad hoc ut perfectiori modo 
+reprae<lb ed="#L" break="no" n="90"/>sentaretur, oportuit esse diversitatem in rebus. Sed res
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="91"/>sunt diversae eo quod diversas formas habent, a quibus
+<lb ed="#L" n="92"/>speciem sortiuntur. Ergo etc. — Probatur prima 
+conse<lb ed="#L" break="no" n="93"/>quentia per simile in explicatione conceptus mentalis per
+<lb ed="#L" n="94"/>verbum vocale. Nam cum homo videt mentis conceptum
+<lb ed="#L" n="95"/>uno vocali verbo sufficienter exprimi non posse, verba ad
+<lb ed="#L" n="96"/>illum exprimendum multiplicat. — Confirmatur quoque:
+<lb ed="#L" n="97"/>quia per diversitatem creaturarum divinae perfectionis 
+emi<lb ed="#L" break="no" n="98"/>nentia considerari potest.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Secunda vero pars antecedentis probatur. In formis 
+dif<lb ed="#L" break="no" n="100"/>ferentia esse non potest nisi per hoc quod una perfectior
+<lb ed="#L" n="101"/>existit quam alia. Ergo et diversitas rerum, quae est per
+<lb ed="#L" n="102"/>formam, exigit quod in ipsis sit ordo et gradus. Ergo etc.
+<lb ed="#L" n="103"/>— Probatur assumptum. Forma nihil aliud est quam 
+si<lb ed="#L" break="no" n="104"/>militudo divina participata in rebus: ut patet ex I 
+PAysi<lb ed="#L" break="no" n="105"/>corum. Et quia secundum ipsam res habet esse; per hoc
+<lb ed="#L" n="106"/>autem quod res habet esse, ad similitudinem Dei accedit;
+<lb ed="#L" n="107"/>similitudo ad unum simplex considerata, diversificari non
+<lb ed="#L" n="108"/>potest nisi secundum quod magis et minus est propinqua
+<lb ed="#L" n="109"/>vel remota; quanto aliquid propinquius ad divinam 
+simi<lb ed="#L" break="no" n="110"/>litudinem accedit, perfectius est: ergo in formis differentia
+<lb ed="#L" n="111"/>esse non potest nisi per hoc quod una est perfectior alia.
+<lb ed="#L" n="112"/>— Confirmatur auctoritate Philosophi in. VIII Metaph., 
+as<lb ed="#L" break="no" n="113"/>similantis formas et naturas rerum numeris. — Ostenditur
+<lb ed="#L" n="114"/>quoque ex ordine inanimatorum, plantarum, irrationalium,
+<lb ed="#L" n="115"/>et rationalium, in quibus videmus diversitatem secundum
+<lb ed="#L" n="116"/>quod quaedam sunt aliis perfectiora: in tantum quod ea
+<lb ed="#L" n="117"/>quae sunt suprema inferioris generis, videntur propinqua
+<lb ed="#L" n="118"/>superiori generi, et e converso; ut etiam Dionysius, vir cap.
+<lb ed="#L" n="119"/>de Div. Nom., ait. — Adverte quod loquitur Sanctus Thomas
+<lb ed="#L" n="120"/>de diversitate quae est in formis, quae dicitur diversitas
+<lb ed="#L" n="121"/>formalis, quae scilicet sumitur ex diversa ratione formae.
+<pb ed="#L" n="302"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Talis enim diversitas exigit ordinem inter illas: scilicet
+<lb ed="#L" n="2"/>quod una sit superior, et altera inferior. !
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Tertia pars antecedentis probatur quoad primam partem,
+<lb ed="#L" n="4"/>sic. Operatio rei consequitur formam eius. Ergo, si sint
+<lb ed="#L" n="5"/>diversae formae, habent diversas operationes. Probatur
+<lb ed="#L" n="6"/>antecedens: quia unumquodque agit secundum quod est
+<lb ed="#L" n="7"/>in actu; est autem in actu per formam, — Quoad secundam
+<lb ed="#L" n="8"/>partem probatur. Quia per propriam actionem res quaelibet
+<lb ed="#L" n="9"/>ad proprium finem pertingit. - Quoad tertiam vero partem,
+<lb ed="#L" n="10"/>probatur sic. Praeter formas per se subsistentes, sunt
+<lb ed="#L" n="11"/>quaedam quae per se subsistere non possunt, sed 
+mate<lb ed="#L" break="no" n="12"/>riam pro fundamento requirunt. Ergo oportet inter materias
+<lb ed="#L" n="13"/>et formas esse proportionem. Ergo necesse est quod 
+di<lb ed="#L" break="no" n="14"/>versis formis diversae materiae respondeant: ut scilicet
+<lb ed="#L" n="15"/>quaedam formae requirant materiam simplicem, quaedam
+<lb ed="#L" n="16"/>vero compositam; et secundum diversas formas, oporteat
+<lb ed="#L" n="17"/>esse diversam partium compositionem. Probatur prima
+<lb ed="#L" n="18"/>consequentia: quia non possent materia et forma ad 
+ali<lb ed="#L" break="no" n="19"/>quid unum componendum convenire nisi esset aliqua 
+pro<lb ed="#L" break="no" n="20"/>portio inter illa. :
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Quarta pars antecedentis probatur. Unumquodque agit
+<lb ed="#L" n="22"/>ratione formae, patitur vero ratione materiae. Ergo quorum
+<lb ed="#L" n="23"/>formae sunt perfectiores et minus materiales, agunt in illa
+<lb ed="#L" n="24"/>quorum formae sunt imperfectiores, et magis sunt 
+ma<lb ed="#L" break="no" n="25"/>terialia.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>Quinta vero pars antecedentis probatur, quoad primam
+<lb ed="#L" n="27"/>quidem et secundam partem, quia, cum substantia sit causa
+<lb ed="#L" n="28"/>accidentis, sicut perfectum imperfecti, oportet quod ex 
+di<lb ed="#L" break="no" n="29"/>versis principiis substantialibus diversa accidentia propria
+<lb ed="#L" n="30"/>consequantur. — Quoad tertiam vero partem, quia ex 
+di<lb ed="#L" break="no" n="31"/>versis agentibus sunt diversae impressiones in patientibus.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Confirmatur conclusio auctoritate Scripturae, rerum
+<lb ed="#L" n="33"/>productionem et gubernationem sapientiae et prudentiae
+<lb ed="#L" n="34"/>attribuentis: ut Prov. rit; Sap. vir et xr, ubi dicitur: Omnia
+<lb ed="#L" n="35"/>in mensura et numero et pondere constituisti.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>3. Ex praedictis infertur rationabiliter esse dictum a
+<lb ed="#L" n="37"/>Boetio, in primo suae Arithmeticae, quod quaecumque a
+<lb ed="#L" n="38"/>primaeva rerum natura constituta sunt, ex numerorum 
+vi<lb ed="#L" break="no" n="39"/>dentur ratione esse formata. In praedicto enim divinae 
+pro<lb ed="#L" break="no" n="40"/>videntiae ordine positum est primam rationem simpliciter
+<lb ed="#L" n="41"/>esse divinam bonitatem: primam vero rationem in 
+crea<lb ed="#L" break="no" n="42"/>turis esse rerum numerositatem, ad quam constituendam
+<lb ed="#L" n="43"/>necesse est gradus diversos in formis, et materiis, et 
+agen<lb ed="#L" break="no" n="44"/>tibus et patientibus, et actionibus, et accidentibus esse,
+</p>
+            <p>
+               <lb ed="#L" n="45"/>II. Circa istas duas propositiones, Per divinam 
+providen<lb ed="#L" break="no" n="46"/>tiam omnia ordinantur in bonitatem divinae, ut similitudo
+<lb ed="#L" n="47"/>eius, quantum possibile est, imprimatur rebus; et, Non
+<lb ed="#L" n="48"/>potest divina bonitas ab uno aliquo perfecte repraesentari,
+<lb ed="#L" n="49"/>adverte quod dupliciter illas possumus interpretari. Primo,
+<lb ed="#L" n="50"/>quod per ipsas non intendit Sanctus Thomas velle Deum
+<lb ed="#L" n="51"/>per multitudinem creaturarum suam bonitatem absolute
+<lb ed="#L" n="52"/>sumptam manifestare et rebus imprimere quantum 
+pos<lb ed="#L" break="no" n="53"/>sibile est, ut ly tantum et quantum importent 
+adaequa<lb ed="#L" break="no" n="54"/>tionem absolute inter bonitatem divinam repraesentabilem
+<lb ed="#L" n="55"/>a creatura, et similitudinem creaturarum repraesentantem;
+<lb ed="#L" n="56"/>neque multitudinem creaturarum perfecte secundum 
+aequa<lb ed="#L" break="no" n="57"/>litatem repraesentare divinam bonitatem absolute, quam una
+<lb ed="#L" n="58"/>creatura perfecte repraesentare non potest; sed loquitur
+<lb ed="#L" n="59"/>de bonitate divina ut manifestanda secundum 
+determina<lb ed="#L" break="no" n="60"/>tionem divinae sapientiae; sicut enim per suam sapientiam
+<lb ed="#L" n="61"/>Deus determinavit suam bonitatem secundum quandam
+<lb ed="#L" n="62"/>similitudinem communicare et manifestare, ita 
+determina<lb ed="#L" break="no" n="63"/>vit ipsam secundum aliquos gradus perfectionis 
+commu<lb ed="#L" break="no" n="64"/>nicare. De ista ergo similitudine divinae bonitatis rebus
+<lb ed="#L" n="65"/>imprimenda, sic per eius sapientiam determinata, loquendo,
+<lb ed="#L" n="66"/>Deus per suam providentiam determinavit ut, quantum 
+pos<lb ed="#L" break="no" n="67"/>sibile est, imprimatur rebus: idest, ut rebus imprimatur 
+per<lb ed="#L" break="no" n="68"/>fectiori modo quo imprimi potest, et tantum quantum
+<lb ed="#L" n="69"/>creaturae patitur natura. Unde, cum creaturae convenire
+<lb ed="#L" n="70"/>non possit ut omnes gradus bonitatis divinae, secundum
+<lb ed="#L" n="71"/>determinationem divinae sapientiae communicandi, in uno
+<lb ed="#L" n="72"/>aliquo manifestentur et imprimantur, oportuit diversitatem
+<lb ed="#L" n="73"/>esse in rebus. Similiter una creatura non potest divinam
+<lb ed="#L" n="74"/>bonitatem repraesentare perfecte, idest secundum omnes
+<lb ed="#L" n="75"/>gradus secundum quos Deus eam manifestare decrevit :
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>sed bene -universitas creaturarum illam repraesentat 
+per<lb ed="#L" break="no" n="77"/>fecte, idest secundum omnes illos gradus; licet non perfecte
+<lb ed="#L" n="78"/>absolute, quia sunt infiniti alii gradus divinae bonitatis 
+se<lb ed="#L" break="no" n="79"/>cundum quos manifestari posset. a;
+</p>
+            <p>
+               <lb ed="#L" n="80"/>2. Sed quia Sanctus Thomas inferius  videtur accipere
+<lb ed="#L" n="81"/>tanquam prius in divina voluntate hoc quod est velle
+<lb ed="#L" n="82"/>communicare bonitatem divinam quantum possibile est,
+<lb ed="#L" n="83"/>quam hoc quod est velle eam. communicare secundum
+<lb ed="#L" n="84"/>istos determinatos gradus perfectionis: ideo secundo 
+pos<lb ed="#L" break="no" n="85"/>sumus interpretari quod ly in quantum non importat 
+adae<lb ed="#L" break="no" n="86"/>quationem commounicationis bonitatis divinae ad 
+possibi<lb ed="#L" break="no" n="87"/>litatem receptionis creaturae absolute, ut sit sensus quod
+<lb ed="#L" n="88"/>Deus vult ut similitudo bonitatis suae imprimatur rebus 
+se<lb ed="#L" break="no" n="89"/>cundum omnem gradum qui non repugnat creaturae: — sunt
+<lb ed="#L" n="90"/>enim multi gradus divinae similitudinis quos non 
+repu<lb ed="#L" break="no" n="91"/>gnat in creaturis esse, et tamen Deus non determinavit
+<lb ed="#L" n="92"/>illos creaturis communicare — sed explicat et specificat
+<lb ed="#L" n="93"/>genus et rationem communicationis et impressionis. Cum
+<lb ed="#L" n="94"/>enim forma alicuius tripliciter possit intelligi alteri 
+commu<lb ed="#L" break="no" n="95"/>nicari, scilicet secundum eandem rationem et eundem 
+mo<lb ed="#L" break="no" n="96"/>dum essendi; secundum eandem rationem tantum ; et solum
+<lb ed="#L" n="97"/>secundum quandam similitudinis participationem: sensus
+<lb ed="#L" n="98"/>est quod per divinam providentiam statuitur ut similitudo
+<lb ed="#L" n="99"/>divinae bonitatis imprimatur rebus, non quidem secundum
+<lb ed="#L" n="100"/>eandem rationem; neque secundum illum modum essendi
+<lb ed="#L" n="101"/>quo bonitas divina est in seipsa, quae scilicet unite et
+<lb ed="#L" n="102"/>indivisibiliter omnem perfectionem continet, quia iste 
+mo<lb ed="#L" break="no" n="103"/>dus non est possibilis creaturae; sed per quandam 
+simi<lb ed="#L" break="no" n="104"/>litudinis diffusionem; per illum enim modum creaturae
+<lb ed="#L" n="105"/>potest divina bonitas communicari. Iste autem modus est
+<lb ed="#L" n="106"/>ut quod unite continetur in divina bonitate, in creaturis
+<lb ed="#L" n="107"/>multipliciter recipiatur. Et per hunc etiam modum dicitur
+<lb ed="#L" n="108"/>tota universitas creaturarum perfectiori modo 
+repraesen<lb ed="#L" break="no" n="109"/>tare divinam bonitatem quam una sola creatura. Unde
+<lb ed="#L" n="110"/>non intendit Sanctus Thomas, in secunda propositione,
+<lb ed="#L" n="111"/>quod in uno non possit perfecte repraesentari absolute,
+<lb ed="#L" n="112"/>in multis autem possit, per acceptionem naturae divinae
+<lb ed="#L" n="113"/>secundum eandem rationem qua in Deo est: sed quod
+<lb ed="#L" n="114"/>non ita perfecto modo in uno manifestari potest sicut
+<lb ed="#L" n="115"/>in multis, secundum acceptionem aliqualis similitudinis
+<lb ed="#L" n="116"/>bonitatis divinae.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>III. Circa illam propositionem, Ex diversitate 
+forma<lb ed="#L" break="no" n="118"/>rum et materiarum sequitur diversitas proprietatum et
+<lb ed="#L" n="119"/>accidentium, advertendum quod ex materia secundum se,
+<lb ed="#L" n="120"/>inquantum huiusmodi, ut a forma praescindit, non 
+se<lb ed="#L" break="no" n="121"/>quuntur aliquae proprietates aut accidentia: cum, ut sic,
+<lb ed="#L" n="122"/>dicat potentiam passivam. Sed dicuntur aliqua huiusmodi
+<lb ed="#L" n="123"/>consequi materiam, quia consequuntur formam ut est in
+<lb ed="#L" n="124"/>materia taliter disposita: secundum enim diversitatem 
+ma<lb ed="#L" break="no" n="125"/>teriae sequuntur ex forma diversa accidentia. Et etiam
+<lb ed="#L" n="126"/>quia ex natura composita ex forma et materia, secundum
+<lb ed="#L" n="127"/>diversam conditionem materiae, sequuntur diversa 
+acci<lb ed="#L" break="no" n="128"/>dentia. Unde quod dicitur hic, ex diversitate formarum et
+<lb ed="#L" n="129"/>materiarum sequi diversa accidentia, intelligendum est de
+<lb ed="#L" n="130"/>forma et materia coniunctim, non divisim.
+</p>
+            <p>
+               <lb ed="#L" n="131"/>2. Circa illam interpretationem quam hic ponit Sanctus
+<lb ed="#L" n="132"/>Thomas mensurae, numeri et ponderis existentium in rebus,
+<lb ed="#L" n="133"/>advertendum quod aliter exponit ea hoc loco: et aliter
+<lb ed="#L" n="134"/>Prima, q. v ; et Ver., q. xxt . Hic enim exponit ea 
+se<lb ed="#L" break="no" n="135"/>cundum quod in universitate rerum inveniuntur: in illis
+<lb ed="#L" n="136"/>vero locis exponit secundum quod inveniuntur in 
+una<lb ed="#L" break="no" n="137"/>quaque re creata. Secundum tamen eadem consideratur in
+<lb ed="#L" n="138"/>rerum universitate, et in unaquaque re: ut patet conferenti
+<lb ed="#L" n="139"/>ea quae hic dicuntur, ad ea quae dicuntur in locis 
+praeal<lb ed="#L" break="no" n="140"/>legatis.
+</p>
+            <p>
+               <lb ed="#L" n="141"/>3. Circa ipsam conclusionem , advertendum quod non
+<lb ed="#L" n="142"/>ideo ponitur divinam providentiam habere rationem, quasi
+<lb ed="#L" n="143"/>aliquid sit causa ipsius ex parte Dei providentis: sed quia
+<lb ed="#L" n="144"/>ex parte particularium effectuum providentiae potest 
+assi<lb ed="#L" break="no" n="145"/>gnari aliqua ratio et aliqua causa, cum interrogatur, Quare
+<lb ed="#L" n="146"/>hoc est? Cum enim quaeritur, Quare est diversitas 
+for<lb ed="#L" break="no" n="147"/>marum in rebus creatis ? respondetur finis pro causa: 
+sci<lb ed="#L" break="no" n="148"/>licet, ut manifestetur divina bomitas in rebus, quae per
+<lb ed="#L" n="149"/>unum manifestari non poterat. Si vero quaeritur, Quare
+<lb ed="#L" n="150"/>in perfectionibus rerum invenitur ordo, ita quod una est
+<pb ed="#L" n="303"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>maior et altera minor? redditur pro causa proxima ipse
+<lb ed="#L" n="2"/>formarum ordo: quia scilicet formarum una est altera 
+per<lb ed="#L" break="no" n="3"/>Jfectior, alia vero imperfectior. Et sic de aliis. Et idcirco
+<lb ed="#L" n="4"/>non potest dici quod Deus absque ratione gubernet 
+crea<lb ed="#L" break="no" n="5"/>turas, licet ipse actus divini intellectus providentis causam
+<lb ed="#L" n="6"/>non habeat.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>IV. Secundo ostendit Sanctus Thomas quod ratio 
+secun<lb ed="#L" break="no" n="8"/>dum quam divina providentia res dispensat, sumitur ex 
+sup<lb ed="#L" break="no" n="9"/>positione divinae voluntatis . Ad huius autem 
+manifesta<lb ed="#L" break="no" n="10"/>tionem, praemittit quod operativa ratio, sive argumentatio
+<lb ed="#L" n="11"/>aut inquisitio operativa, et inquisitio speculativa, 
+conve<lb ed="#L" break="no" n="12"/>niunt quidem in hoc, quod incipiunt ab aliquo principio,
+<lb ed="#L" n="13"/>et per media ad aliquod intentum deveniunt: sed diffe- |
+<lb ed="#L" n="14"/>runt primo, quia in speculativis principium est forma et |
+<lb ed="#L" n="15"/>quod quid est; in operativis vero est finis, qui quandoque
+<lb ed="#L" n="16"/>est forma, quandoque aliquid aliud. - Secundo, quia in es
+<lb ed="#L" n="17"/>culativis principium oportet semper esse necessarium:
+<lb ed="#L" n="18"/>operativis autem quandoque est necessarium, ut bucrieim
+<lb ed="#L" n="19"/>velle felicitatem; quandoque vero non, ut hominem velle
+<lb ed="#L" n="20"/>domus aedificationem. — Tertio, quia in 'speculativis semper
+<lb ed="#L" n="21"/>posteriora ad priora de necessitate sequuntur: non autem
+<lb ed="#L" n="22"/>in operativis, sed tunc tantum quando ad finem non nisi
+<lb ed="#L" n="23"/>per hanc viam: perveniri potest; sicut ei qui vult domum
+<lb ed="#L" n="24"/>aedificare, quamvis velit aedificare: domum ex sua 
+sim<lb ed="#L" break="no" n="25"/>plici voluntate, non autem ex ratione domus, necessarium
+<lb ed="#L" n="26"/>est quod quaerat ligna.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Isto supposito, probatur intentum sic, Quod creaturae
+<lb ed="#L" n="28"/>producantur in esse, quamvis ex ratione divinae bonitatis
+<lb ed="#L" n="29"/>habeat originem, tamen ex simplici Dei voluntate dependet:
+<lb ed="#L" n="30"/>et similiter quod suam bonitatem secundum hanc vel illam
+<lb ed="#L" n="31"/>perfectionis mensuram communicare velit, aut secundum
+<lb ed="#L" n="32"/>hunc vel illum numerum rerum. Supposito tamen quod
+<lb ed="#L" n="33"/>Deus velit bonitatem suam, secundum quod possibile est,
+<lb ed="#L" n="34"/>creaturis communicare, ex hoc rationem accipit quod 
+crea<lb ed="#L" break="no" n="35"/>turae sint diversae. Et supposito quod Deus hunc numerum
+<lb ed="#L" n="36"/>rerum, et hanc unicuique rei perfectionis mensuram 
+sta<lb ed="#L" break="no" n="37"/>tuere velit, ex: hoc rationem accipit quod habeat formam
+<lb ed="#L" n="38"/>talem et materiam talem. Ergo, quamvis providentia divina
+<lb ed="#L" n="39"/>secundum quandam rationem res dispenset, sumitur tamen
+<lb ed="#L" n="40"/>haec ratio ex suppositione divinae voluntatis,
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Probatur antecedens quoad primam partem. Quia quanvis
+<lb ed="#L" n="42"/>Deus suam bonitatem necessario amet, non tamen necessario
+<lb ed="#L" n="43"/>sequitur quod per creaturas repraesentetur: cum sine hoc
+<lb ed="#L" n="44"/>divina bonitas sit perfecta. Similiter, quamvis Deus velit
+<lb ed="#L" n="45"/>bonitatem, secundum quod possibile est, communicare 
+crea<lb ed="#L" break="no" n="46"/>turis, non sequitur tamen necessario quod secundum hanc
+<lb ed="#L" n="47"/>aut illam perfectionis mensuram velit communicare: cum
+<lb ed="#L" n="48"/>videlicet secundum aliam perfectionem manifestari et 
+com<lb ed="#L" break="no" n="49"/>municari possit.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>2. Circa secundam differentiam inter operativam et 
+spe<lb ed="#L" break="no" n="51"/>culativam rationem, advertendum quod principium in 
+ope<lb ed="#L" break="no" n="52"/>rativis esse necessarium, accipitur secundum proportionem
+<lb ed="#L" n="53"/>ad principium necessarium in speculativis. Cum enim 
+in<lb ed="#L" break="no" n="54"/>tellectus respiciat verum tanquam obiectum, voluntas vero
+<lb ed="#L" n="55"/>bonum et appetibile, principium ex quo procedit ratio 
+spe<lb ed="#L" break="no" n="56"/>culativa, scilicet scientifica, quae ad veritatis cognitionem
+<lb ed="#L" n="57"/>tendit, oportet esse necessarium necessitate veritatis; ita
+<lb ed="#L" n="58"/>scilicet quod necessariam veritatem contineat, ct falsum
+<lb ed="#L" n="59"/>esse non possit. Principium vero rationis practicae, quod
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="60"/>non tendit principaliter ad veritatis cognitionem, sed ad
+<lb ed="#L" n="61"/>operationem alicuius appetiti et amati, quando est 
+ne<lb ed="#L" break="no" n="62"/>cessarium, intelligitur habere mecessitatem | appetibilitatis,
+<lb ed="#L" n="63"/>ita scilicet quod non appeti non possit. Hoc modo 
+di<lb ed="#L" break="no" n="64"/>cimus. quod beatitudo, quae est finis hominis, est 
+princi<lb ed="#L" break="no" n="65"/>pium necessarium rationis practicae, quia non potest ipsam
+<lb ed="#L" n="66"/>voluntas non velle, si in actum exeat circa ipsam. 
+Simi<lb ed="#L" break="no" n="67"/>liter, cum in divino intellectu et divina voluntate aliquem
+<lb ed="#L" n="68"/>ordinem ponimus, secundum nostrum modum intelligendi,
+<lb ed="#L" n="69"/>dicimus bonitatem divinam esse principium necessarium:
+<lb ed="#L" n="70"/>quia Deus ipsam necessario amat, et ex ratione suae 
+per<lb ed="#L" break="no" n="71"/>fectionis habet quod ametur, et quod non possit non amari.
+<lb ed="#L" n="72"/>Propter quod dixit Sanctus Thomas quod productio 
+crea<lb ed="#L" break="no" n="73"/>turae habet originem ex ratione divinae bonitatis  : 
+secun<lb ed="#L" break="no" n="74"/>dum quam videlicet convenit sibi quod necessario Deus eam
+<lb ed="#L" n="75"/>amet. E contrario autem dicitur in operativis principium
+<lb ed="#L" n="76"/>non esse necessarium, quando non est necessario appetibile:
+<lb ed="#L" n="77"/>sicut et in speculativis diceretur principium non 
+neces<lb ed="#L" break="no" n="78"/>sarium si non contineret veritatem necessariam, sed posset
+<lb ed="#L" n="79"/>esse falsum. Hoc modo dicimus quod domus aedificanda
+<lb ed="#L" n="80"/>non est principium necessarium : quia non necessario homo
+<lb ed="#L" n="81"/>vult aedificare domum, eo quod non conveniat domui
+<lb ed="#L" n="82"/>aedificandae ex propria ratione ut ametur et desideretur,
+<lb ed="#L" n="83"/>sed ex libera hominis voluntate proveniat.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>3. Circa rationem, advertendum quod hunc ordinem
+<lb ed="#L" n="85"/>in divina voluntate Sanctus Thomas ponit: — ex parte 
+sci<lb ed="#L" break="no" n="86"/>licet volitorum, non ex parte ipsius voluntatis — quod,
+<lb ed="#L" n="87"/>inquam, primo Deus vult bonitatem suam; secundo, vult
+<lb ed="#L" n="88"/>'eam' communicare; tertio, vult diversitatem creaturarum
+<lb ed="#L" n="89"/>esse; quarto, vult ipsam secundum istos determinatos 
+per<lb ed="#L" break="no" n="90"/>fectionis gradus communicare creaturis; quinto, vult huic rei
+<lb ed="#L" n="91"/>dare hanc materiam et hanc formam, ili vero illam. In
+<lb ed="#L" n="92"/>hoc ordine autem primum est necessario volitum absolute ;
+<lb ed="#L" n="93"/>tertium est volitum ex suppositione secundi; ultimum vero
+<lb ed="#L" n="94"/>est volitum ex suppositione tertii; sed alia intermedia ex
+<lb ed="#L" n="95"/>mera libera voluntate divina procedunt ; sicut, cum diversis
+<lb ed="#L" n="96"/>viis potest quis ad aliquem locum tendere, quod istam
+<lb ed="#L" n="97"/>eligat, ex eius libera voluntate provenit.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>V. Quantum ad secundum principale, ex praedictis
+<lb ed="#L" n="99"/>Sanctus Thomas duos excludit errores: scilicet et 
+Lo<lb ed="#L" break="no" n="100"/>quentium in lege Saracenorum, ut Rabbi Moyses ait, 
+di<lb ed="#L" break="no" n="101"/>centium omnia simplicem Dei voluntatem absque ratione
+<lb ed="#L" n="102"/>sequi; et aliorum, dicentium causarum ordinem ex divina
+<lb ed="#L" n="103"/>providentia per modum necessitatis sequi. Et licet, 
+in<lb ed="#L" break="no" n="104"/>quit Sanctus Thomas, quaedam verba Sacrae Scripturae
+<lb ed="#L" n="105"/>videantur omnia simplici Dei voluntati attribuere, ut in
+<lb ed="#L" n="106"/>Psalm., et ob xi et Rom. 1x; et etiam Augustinus, III de
+<lb ed="#L" n="107"/>Trin., videtur dicere: tamen non dicuntur ad hoc ut ratio
+<lb ed="#L" n="108"/>tollatur a providentiae dispensatione, sed ut omnium 
+pri<lb ed="#L" break="no" n="109"/>mum principium Dei,voluntas ostendatur.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>VI. Quantum ad tertium , infertur corollarie quod, cum
+<lb ed="#L" n="111"/>quaeritur propter quid de aliquo effectu naturali, 
+possu<lb ed="#L" break="no" n="112"/>mus reddere rationem ex aliqua causa proxima: dum tamen
+<lb ed="#L" n="113"/>sicut in primam causam, reducamus omnia in 
+volunta<lb ed="#L" break="no" n="114"/>tem divinam. Declaratur exemplariter: cum videlicet 
+quae<lb ed="#L" break="no" n="115"/>ritur, Quare lignum est calefactum ad praesentiam ignis?
+<lb ed="#L" n="116"/>Si enim respondeatur, Quia Deus voluit: convenienter 
+re<lb ed="#L" break="no" n="117"/>spondetur, quia reducatur quaestio in causam primam;
+<lb ed="#L" n="118"/>inconvenienter vero, si aliae excludantur causae.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

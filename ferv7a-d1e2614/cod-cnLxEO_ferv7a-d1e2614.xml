@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 111</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 111</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="357"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2614"><!-- ferv7a-l3c111 -->
+            <head>Capitulum 111</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="38" type="fixed=355"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="39"/>POSTQUAM determinavit Sanctus Thomas de divina 
+pro<lb ed="#L" break="no" n="40"/>videntia secundum quod ad omnia se extendit, vult
+<lb ed="#L" n="41"/>de ipsa secundum quod creaturae rationales sub ipsa 
+par<lb ed="#L" break="no" n="42"/>ticulari modo continentur, determinare .
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Circa hoc autem duo facit. Primo, ostendit rationales
+<lb ed="#L" n="44"/>creaturas aliter per divinam providentiam disponi quam alias
+<lb ed="#L" n="45"/>creaturas, secundum quod in conditione propriae naturae
+<lb ed="#L" n="46"/>ab aliis differunt; secundo, quod etiam aliter disponuntur
+<lb ed="#L" n="47"/>secundum quod ab aliis differunt finis dignitate, cap. cxrvrr.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Circa primum duo facit. Primo, ostendit creaturas 
+ra<lb ed="#L" break="no" n="49"/>tionales speciali quodam modo divinae providentiae subdi;
+<lb ed="#L" n="50"/>secundo, de ipso particulari modo quo divinae 
+providen<lb ed="#L" break="no" n="51"/>tiae subduntur, determinat in capitulis sequentibus.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>I. Quantum ad primum, ponit hanc conclusionem:
+<lb ed="#L" n="53"/>Necesse est aliquam rationem providentiae specialem circa
+<lb ed="#L" n="54"/>intellectuales et rationales creaturas, prae aliis creaturis,
+<lb ed="#L" n="55"/>observari.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Probatur. Creaturae rationales praecellunt alias 
+crea<lb ed="#L" break="no" n="57"/>turas in perfectione naturae, et in dignitate finis. Ergo
+<lb ed="#L" n="58"/>alia est ordinis ratio secundum quam creaturae rationales
+<lb ed="#L" n="59"/>providentiae divinae subduntur; et alia secundum quam
+<lb ed="#L" n="60"/>ordinantur caeterae creaturae.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Probatur antecedens. Quia sola creatura rationalis habet
+<lb ed="#L" n="62"/>dominium sui actus, libere se agens ad operandum: 
+ce<lb ed="#L" break="no" n="63"/>terae vero creaturae magis aguntur quam agant. Et sola
+<lb ed="#L" n="64"/>ad ipsum ultimum finem universi sua operatione pertingit,
+<lb ed="#L" n="65"/>scilicet cognoscendo et amando Deum: aliae vero 
+crea<lb ed="#L" break="no" n="66"/>turae ad ipsum pertingere non possunt nisi per aliquam
+<lb ed="#L" n="67"/>similitudinis ipsius participationem.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Consequentia vero probatur. Quia omnis ratio operis
+<lb ed="#L" n="69"/>variatur secundum diversitatem finis, et eorum quae ope-
+<cb ed="#L" n="f"/>
+               <lb ed="#L" n="70"/>rationi subiiciuntur. Et declaratur et in artibus, et in 
+re<lb ed="#L" break="no" n="71"/>gimine civitatis. Nam aliter operatur medicus ad 
+aegritu<lb ed="#L" break="no" n="72"/>dinem pellendam; et aliter ad sanitatem conservandam ;
+<lb ed="#L" n="73"/>atque aliter in corporibus diversimode complexionatis. In
+<lb ed="#L" n="74"/>regimine etiam civitatis, oportet aliter disponi milites, ut
+<lb ed="#L" n="75"/>sint praeparati ad pugnam;.et aliter artifices, ut bene se
+<lb ed="#L" n="76"/>habeant circa sua opera.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>II. Ad horum evidentiam, duo sunt notanda. Unum
+<lb ed="#L" n="78"/>est, quod nomine rationis hoc loco intelligitur divinae
+<lb ed="#L" n="79"/>providentiae et dispositionis ac gubernationis modus. Ideo
+<lb ed="#L" n="80"/>esse aliquam specialem rationem providentiae circa crea-
+<lb ed="#L" n="81"/>turas rationales, nihil aliud est quam ipsas particulari 
+quo<lb ed="#L" break="no" n="82"/>dam modo ordinari et disponi in mente divina, atque etiam
+<lb ed="#L" n="83"/>particulari modo gubernari.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>Alterum est, quod noh idcirco ponitur hoc loco 
+dif<lb ed="#L" break="no" n="85"/>ferentia finis creaturae rationalis a fine ceterarum 
+creatu<lb ed="#L" break="no" n="86"/>rarum quasi Deus non sit omnium creaturarum finis, huius
+<lb ed="#L" n="87"/>enim oppositum ostensum est supra : sed quia, cum Deus
+<lb ed="#L" n="88"/>sit ultimus omnium creaturarum finis, diversimode tamen
+<lb ed="#L" n="89"/>est finis rationalis creaturae et aliorum, estque creaturae
+<lb ed="#L" n="90"/>rationalis nobiliori modo finis quam ceterarum. Aliae enim
+<lb ed="#L" n="91"/>ad ipsum Deum secundum se sua operatione non 
+per<lb ed="#L" break="no" n="92"/>tingunt, sed tantum ad aliquam ipsius similitudinem: 
+crea<lb ed="#L" break="no" n="93"/>turae vero rationales sua operatione attingunt Deum, dum
+<lb ed="#L" n="94"/>ipsam Dei essentiam secundum seipsam intelligunt et
+<lb ed="#L" n="95"/>contemplantur, ipsumque Deum in seipso amant; quo
+<lb ed="#L" n="96"/>fit ut formalis finis creaturae rationalis, qui nihil aliud
+<lb ed="#L" n="97"/>est quam operatio qua ipsum Deum secundum. se 
+at<lb ed="#L" break="no" n="98"/>tingit, sit perfectior formali fine ceterarum creaturarum,
+<lb ed="#L" n="99"/>qui est operatio aliquam tantum Dei similitudinem 
+par<lb ed="#L" break="no" n="100"/>ticipatam attingens.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

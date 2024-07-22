@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 81</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 81</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="244"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2369"><!-- ferv7a-l3c81 -->
+            <head>Capitulum 81</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="13" type="fixed=242"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <lb ed="#L" n="14"/>POSTQUAM determinavit Sanctus Thomas de ordinatione
+<lb ed="#L" n="15"/>angelorum, vult de hominum ordinatione determinare ,
+<lb ed="#L" n="16"/>Et triplicem ordinem in hominibus ponit: unum, hominum
+<lb ed="#L" n="17"/>ad alias res; alium, eorum quae in homine vs vr da
+<lb ed="#L" n="18"/>tertium, hominum inter se.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>I. Primus ordo est quod animae humanae inter 
+intel<lb ed="#L" break="no" n="20"/>lectuales substantias infimum gradum tenent: quia in sui
+<lb ed="#L" n="21"/>institutione, ut supra dictum est, scilicet in capite 
+prae<lb ed="#L" break="no" n="22"/>cedenti, cognitionem ordinis divinae providentiae in sola
+<lb ed="#L" n="23"/>quadam universali cognitione suscipiunt, ad perfectam vero
+<lb ed="#L" n="24"/>singulorum cognitionem ex ipsis rebus, in quibus talis ordo
+<lb ed="#L" n="25"/>iam particulariter est institutus, perducuntur, propter quod
+<lb ed="#L" n="26"/>data sunt eis organa corporea. Sed tamen ex ipsis rebus
+<lb ed="#L" n="27"/>perfectam cognitionem de iis quae ad. homines spectant,
+<lb ed="#L" n="28"/>adipisci non valent nisi per lumen superioris spiritus 
+adiu<lb ed="#L" break="no" n="29"/>ventur, hoc divina dispositione exigente, ut inferiores per
+<lb ed="#L" n="30"/>superiores spiritus perfectionem acquirant. Bruta vero
+<lb ed="#L" n="31"/>ommia, secundum divinae providentiae ordinem, homini
+<lb ed="#L" n="32"/>subduntur, quia aliquid de lumine intellectuali participant:
+<lb ed="#L" n="33"/>ut patet Gem. r.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Bruta, quia cognitionem aliquam habent, plantis et aliis
+<lb ed="#L" n="35"/>cognitione carentibus praeferuntur: ut etiam Gen. 1 habetur.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Eorum vero quae cognitione carent, unum subiacet alteri
+<lb ed="#L" n="37"/>inquantum unum est potentius altero in agendo: 
+partici<lb ed="#L" break="no" n="38"/>pant enim solum de executione, non autem de 
+disposi<lb ed="#L" break="no" n="39"/>tione providentiae.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>2. Secundus ordo est quod, ad similitudinem ordinis in
+<lb ed="#L" n="41"/>universo, virtus corporea in homine subditur sensitivae et
+<lb ed="#L" n="42"/>intellectivae virtuti, ut exequens earum imperium; 
+sensi<lb ed="#L" break="no" n="43"/>tiva vero potentia intellectivae subditur, et sub eius 
+im<lb ed="#L" break="no" n="44"/>perio continetur.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>3. Tertius ordo est quod inter homines, illi qui intellectu
+<lb ed="#L" n="46"/>praeeminent, naturaliter dominantur: qui vero sunt 
+intel<lb ed="#L" break="no" n="47"/>lectu deficientes, corpore vero robusti, a natura videntur 
+in<lb ed="#L" break="no" n="48"/>stituti ad serviendum, ut ostenditur in Politicis, et Prov. x1,
+<lb ed="#L" n="49"/>et Exod. xvm. j
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Si autem instetur, quoniam invenitur in regimine 
+hu<lb ed="#L" break="no" n="51"/>mano quod aliquis non propter intellectus eminentiam aliis
+<lb ed="#L" n="52"/>praeest, sed vel robore corporali sibi dominium usurpat,
+<lb ed="#L" n="53"/>vel propter sensualem affectionem aliquorum ad regendum
+<lb ed="#L" n="54"/>praeficitur (quod Salomon non tacet, Eccle. x), et sic 
+vi<lb ed="#L" break="no" n="55"/>detur quod ille tertius ordo non sit secundum divinam
+<lb ed="#L" n="56"/>providentiam : — respondet Sanctus Thomas, et dicit duo.
+<lb ed="#L" n="57"/>Primum est, quod ista inordinatio non excludit divinam
+<lb ed="#L" n="58"/>providentiam. Provenit enim ex permissione divina propter
+<lb ed="#L" n="59"/>defectum inferiorum agentium, sicut et de aliis malis 
+su<lb ed="#L" break="no" n="60"/>perius dictum est.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Dicit secundo, quod per huiusmodi inordinationem non
+<lb ed="#L" n="62"/>totaliter naturalis ordo pervertitur. Quia stultorum 
+domi<lb ed="#L" break="no" n="63"/>nium infirmum est nisi sapientum consilio roboretur, ut
+<lb ed="#L" n="64"/>habetur Prov». xx et xxiv: consilians autem regit eum qui
+<lb ed="#L" n="65"/>consilium accipit, et ideo ei quodammodo dominatur, ut
+<lb ed="#L" n="66"/>habetur Prov. xvi.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>Cowcruprr ultimo Sanctus Thomas, ex auctoritate 
+Apo<lb ed="#L" break="no" n="68"/>stoli, Rom. xir, quod divina providentia omnibus rebus 
+or<lb ed="#L" break="no" n="69"/>dinem imponit. .
+</p>
+            <p>
+               <lb ed="#L" n="70"/>IL. Circa primum ordinem, advertendum primo dod,
+<lb ed="#L" n="71"/>sicut multa per inferiores angelos exequenda non 
+cogno<lb ed="#L" break="no" n="72"/>scuntur ab ipsis perfecta cognitione nisi per 
+illuminatio<lb ed="#L" break="no" n="73"/>nem a superioribus factam, ita et secreta divinae 
+provi<lb ed="#L" break="no" n="74"/>dentiae quae. ad homines pertinent, ab ipsis hominibus
+<lb ed="#L" n="75"/>nonnisi per revelationem ab angelis acceptam cognoscuntur
+<lb ed="#L" n="76"/>perfecte: ut sic servetur divinae providentiae ordo, dum
+<lb ed="#L" n="77"/>inferiora per superiora gubernantur et reducuntur in Deum.
+<lb ed="#L" n="78"/>Idcirco, sicut una hierarchia angelorum ponitur sub alia,
+<lb ed="#L" n="79"/>inquantum una ab alia de divinis mysteriis illuminatur;
+<lb ed="#L" n="80"/>ita convenienter ponuntur homines sub caelestibus 
+spiri<lb ed="#L" break="no" n="81"/>tibus, ut ab ipsis de divinis rebus instruantur. Nam, ut
+<lb ed="#L" n="82"/>hic dicitur, propter debilitatem intellectualis luminis in
+<lb ed="#L" n="83"/>hominibus, non possunt homines de iis quae ad ipsum
+<lb ed="#L" n="84"/>hominem spectant, ex solo scilicet ordine solaque divinae
+<lb ed="#L" n="85"/>providentiae dispositione, per res a quibus cognitionem
+<lb ed="#L" n="86"/>capiunt, perfectam notitiam habere.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>2. Considerandum secundo quod, sicut bruta, licet 
+pru<lb ed="#L" break="no" n="88"/>dentiam non habeant, aliquam tamen habent prudentiae
+<lb ed="#L" n="89"/>similitudinem, inquantum in suis operibus ordinate 
+pro<lb ed="#L" break="no" n="90"/>cedunt; ita providentiam quidem non habent, cum 
+ratio<lb ed="#L" break="no" n="91"/>nem finis non cognoscant, ut superius  est ostensum;
+<lb ed="#L" n="92"/>aliqua tamen similitudine providentiae participant, 
+inquan<lb ed="#L" break="no" n="93"/>tum per cognitionem operantur diversa quorum. unum
+<lb ed="#L" n="94"/>est propter aliud, ac si ipsa unum ad aliud tanquam ad
+<lb ed="#L" n="95"/>finem ordinarent, cum tamen agant propter finem, non
+<lb ed="#L" n="96"/>tanquam ordinantia ex seipsis aliquid ad finem, sed 
+tan<lb ed="#L" break="no" n="97"/>quam ab alio directa et mota, sicut sagitta a sagittante.
+<lb ed="#L" n="98"/>Cum ergo videtur ex modo dicendi Sanctus Thomas 
+in<lb ed="#L" break="no" n="99"/>nuere quod bruta aliquid providentiae participent, cum
+<lb ed="#L" n="100"/>de illis dixit quod, quia cognitionem aliquam habent, 
+prae<lb ed="#L" break="no" n="101"/>feruntur cognitione carentibus; de his vero quae 
+cogni<lb ed="#L" break="no" n="102"/>tione carent, dixit quod non participant aliquid de 
+dispo<lb ed="#L" break="no" n="103"/>sitione providentiae, sed tantum de executione: illud dicit
+<lb ed="#L" n="104"/>propter quandam similitudinem providentiae in ipsis 
+exi<lb ed="#L" break="no" n="105"/>stentem, non quia aliquid verae providentiae in sua 
+cogni<lb ed="#L" break="no" n="106"/>tione habeant.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

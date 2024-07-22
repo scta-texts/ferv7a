@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 110</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 110</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="350"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2606"><!-- ferv7a-l3c110 -->
+            <head>Capitulum 110</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="41" type="fixed=350"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="42"/>AD rationes superius adductas, quibus arguebatur 
+sub<lb ed="#L" break="no" n="43"/>stantiam spiritualem . peccare non posse, respondet
+<lb ed="#L" n="44"/>Sanctus Thomas .
+</p>
+            <p>
+               <lb ed="#L" n="45"/>I. Ad primas quidem quatuor, quae procedebant ex
+<lb ed="#L" n="46"/>hoc quod nullum peccatum voluntatis potest esse absque
+<lb ed="#L" n="47"/>errore, in intellectu autem substantiarum separatarum non
+<lb ed="#L" n="48"/>potuit error peccatum praecedere: respondet quod non
+<lb ed="#L" n="49"/>cogimur dicere errorem fuisse in intellectu substantiae
+<lb ed="#L" n="50"/>separatae iudicando aliquod bonum quod non sit bonum;
+<lb ed="#L" n="51"/>sed tantum non considerando bonum superius, ad. quod
+<lb ed="#L" n="52"/>proprium bonum referendum erat; cuius inconsiderationis
+<lb ed="#L" n="53"/>ratio esse potuit voluntas libere. in proprium bonum. 
+in<lb ed="#L" break="no" n="54"/>tense conversa.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>2. Ad evidentiam. huius responsionis, considerandum
+<lb ed="#L" n="56"/>primo, quod non potest esse peccatum in voluntate nisi
+<lb ed="#L" n="57"/>sit aliquo modo defectus in ratione: quia voluntas non
+<lb ed="#L" n="58"/>exit in actum nisi mediante apprehensione intellectus. Sed
+<lb ed="#L" n="59"/>iste defectus potest contingere dupliciter: uno modo, per
+<lb ed="#L" n="60"/>falsum iudicium intellectus, puta dum iudicat aliquod
+<lb ed="#L" n="61"/>bonum esse quod non est bonum; alio modo, per hoc
+<lb ed="#L" n="62"/>quod intellectus non considerat id quod tenetur 
+consi<lb ed="#L" break="no" n="63"/>derare dum voluntas ad electionem exit. Quia ergo 
+sub<lb ed="#L" break="no" n="64"/>stantia separata, volens et desiderans finalem beatitudinem,
+<lb ed="#L" n="65"/>quae in visione Dei consistit, debebat desiderare ex gratia
+<lb ed="#L" n="66"/>divina se illam obtenturam; et amans bonum. proprium,
+<lb ed="#L" n="67"/>debebat illud in Deum ultimate referre: ideo, dum 
+ap<lb ed="#L" break="no" n="68"/>petiit beatitudinem non considerando de gratia. divina qua
+<lb ed="#L" n="69"/>illam obtineret, et dum proprium bonum amavit non co
+n<lb ed="#L" break="no" n="70"/>siderando de ordine ipsius ad divinum bonum, fuit 
+de<lb ed="#L" break="no" n="71"/>fectus in ipsius intellectu, qui inconsideratio dicitur. 
+Pro<lb ed="#L" break="no" n="72"/>pter hoc inquit Sanctus "Thomas quod non fuit error in
+<lb ed="#L" n="73"/>intellectu substantiae separatae iudicando bonum id quod
+<lb ed="#L" n="74"/>non erat bonum, sed non considerando bonum superius.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>3. Considerandum secundo, ex doctrina Sancti Thomae
+<lb ed="#L" n="76"/>in QQ. de Malo, q. 1, a. 3, quod in .omnibus quorum
+<lb ed="#L" n="77"/>unum oportet esse alterius mensuram, malum quidem est
+<lb ed="#L" n="78"/>non regulari et non mensurari sua regula. Veruntamen
+<lb ed="#L" n="79"/>non attendere actu ad regulam et mensuram, secundum
+<lb ed="#L" n="80"/>se malum nOn est: quia non potest anima, nec tenetur
+<lb ed="#L" n="81"/>semper actu ad regulam attendere. Sed malum est in hoc
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="82"/>quod quis, non attendens ad regulam operis, ad opus
+<lb ed="#L" n="83"/>procedit: sicut artifex non peccat ex eo quod non semper
+<lb ed="#L" n="84"/>tenet mensuram, sed ex hoc quod, non tenens mensuram,
+<lb ed="#L" n="85"/>procedit ad incidendum. Simili modo, non fuit peccatum
+<lb ed="#L" n="86"/>in angelo secundum se eo quod de divina regula non
+<lb ed="#L" n="87"/>consideraverit: sed ex eo quod, ad divinam regulam non
+<lb ed="#L" n="88"/>attendens, ad electionem aut naturalis aut supernaturalis
+<lb ed="#L" n="89"/>boni processit. Ideo quod inquit Sanctus Thomas, fuisse
+<lb ed="#L" n="90"/>errorem in intellectu substantiae separatae in non 
+consi<lb ed="#L" break="no" n="91"/>derando superius bonum, non sic intelligendum est quasi
+<lb ed="#L" n="92"/>ipsa inconsideratio fuerit primum peccatum: sed quia 
+pec<lb ed="#L" break="no" n="93"/>cavit appetendo bonum non attendens ad divinam 
+regu<lb ed="#L" break="no" n="94"/>lam, secundum quam ipsa appetitio erat regulanda. ^.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>4. Considerandum tertio quod, licet in eligendo teneatur
+<lb ed="#L" n="96"/>substantia intellectualis uti regula divina tanquam propriae
+<lb ed="#L" n="97"/>electionis mensura, non tamen requiritur quod semper
+<lb ed="#L" n="98"/>actu ad regulam attendat dum ad electionem procedit,
+<lb ed="#L" n="99"/>sed sufficit ut virtute utatur divina regula, ut dicitur 
+Virtuti<lb ed="#L" break="no" n="100"/>bus, q. 1, a. 11 : dum scilicet aliquando ordinat omnia sua
+<lb ed="#L" n="101"/>in Deum, et postmodum contraria intentio non intervenit;
+<lb ed="#L" n="102"/>virtus enim primi propositi in omnibus sequentibus manet.
+<lb ed="#L" n="103"/>Sed licet hoc in posterioribus actibus verum sit, inquantum
+<lb ed="#L" n="104"/>scilicet virtus primi actus salvatur in ipsis, in primo tamen
+<lb ed="#L" n="105"/>actu voluntatis electivo hoc salvari non potest: cum ipsum
+<lb ed="#L" n="106"/>nullus alius electivus actus praecedat, cuius virtus in ipso
+<lb ed="#L" n="107"/>salvetur. Ideo oportet ut ipsa substantia volens, in primo
+<lb ed="#L" n="108"/>actu suo pure et mere electivo, ad divinam regulam actu
+<lb ed="#L" n="109"/>attendat. Quod si non facit, peccat. Ratio ergo quare in
+<lb ed="#L" n="110"/>primo actu pure ac mere electivo substantia intellectualis
+<lb ed="#L" n="111"/>peccavit, est quia habuit electionem non considerando de
+<lb ed="#L" n="112"/>divina regula, ad quam eligendo tenebatur actu attendere.
+<lb ed="#L" n="113"/>Et sic ponitur inconsiderationem fuisse peccati angelici
+<lb ed="#L" n="114"/>qualitatem et conditionem. — '
+</p>
+            <p>
+               <lb ed="#L" n="115"/>5. Considerandum ultimo, quod huius quod est non
+<lb ed="#L" n="116"/>uti regula, non- oportet aliam quidem causam primam et
+<lb ed="#L" n="117"/>radicalem quaerere praeter voluntatis libertatem, ut dicitur
+<lb ed="#L" n="118"/>loco praeallegato : sed tamen aliquam causam proximam,
+<lb ed="#L" n="119"/>a libertate voluntatis provenientem, possumus assignare.
+<lb ed="#L" n="120"/>Quia enim intellectus creatus non. potest plura simul 
+in<lb ed="#L" break="no" n="121"/>telligere inquantum huiusmodi, dum. ad considerationem
+<pb ed="#L" n="351"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>unius intense convertitur, necesse est ut a consideratione
+<lb ed="#L" n="2"/>alterius retrahatur. Et eodem modo dicendum est de 
+vo<lb ed="#L" break="no" n="3"/>luntate: quod scilicet, dum in amorem unius intense 
+con<lb ed="#L" break="no" n="4"/>vertitur, non potest aliud diversum, ut sic, amare. Et ita
+<lb ed="#L" n="5"/>possumus dicere quod libertas voluntatis qua quis vult
+<lb ed="#L" n="6"/>unum intense considerare, est prima causa 
+inconsidera<lb ed="#L" break="no" n="7"/>tionis alterius; proxima autem causa est intensa unius
+<lb ed="#L" n="8"/>consideratio. Propter hoc, volens Sanctus Thomas 
+utram<lb ed="#L" break="no" n="9"/>que causam inconsiderationis divinae regulae substantiae
+<lb ed="#L" n="10"/>separatae assignare, inquit et quod ratio illius 
+inconside<lb ed="#L" break="no" n="11"/>rationis potuit esse voluntas in proprium bonum intense
+<lb ed="#L" n="12"/>conversa (subintellige: et intensa consideratio proprii boni);
+<lb ed="#L" n="13"/>et quod liberum est voluntati in hoc vel in illud magis
+<lb ed="#L" n="14"/>aut minus  converti.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>II. Sed tunc occurrit dubium. Si enim ratio illius 
+in<lb ed="#L" break="no" n="16"/>considerationis fuit voluntas in proprium bonum intense
+<lb ed="#L" n="17"/>conversa, quia voluntas et intellectus non possunt simul
+<lb ed="#L" n="18"/>in diversa ferri: sequitur quod illa opinio quae ponit
+<lb ed="#L" n="19"/>angelum peccasse eo quod supernaturalem beatitudinem
+<lb ed="#L" n="20"/>appetierit et non ex gratia divina , teneri non possit. 
+Vo<lb ed="#L" break="no" n="21"/>luntas enim angeli in proprium bonum intense conversa
+<lb ed="#L" n="22"/>non potuit simul ferri in supernaturale bonum. Et sic non
+<lb ed="#L" n="23"/>peccavit bonum supernaturale appetendo. — Aut, si simul
+<lb ed="#L" n="24"/>potuit im illud ferri, eadem ratione potuit simul velle illud
+<lb ed="#L" n="25"/>bonum ex gratia, et simul de ipsa divina gratia potuit
+<lb ed="#L" n="26"/>intellectus considerare. Et sic intensa conversio voluntatis
+<lb ed="#L" n="27"/>in. proprium bonum non fuit ratio illius inconsiderationis:
+<lb ed="#L" n="28"/>cum talis consideratio posset cum illa intensa conversione
+<lb ed="#L" n="29"/>in proprium bonum. stare.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>2. Respondetur, et dicitur primo, quod Sanctus 
+Tho<lb ed="#L" break="no" n="31"/>mas hoc loco respondet conformiter ad positionem quam
+<lb ed="#L" n="32"/>sequitur: quae, inquam,. ponit angelum peccasse eo quod
+<lb ed="#L" n="33"/>proprium bonum non ordinaverit in ultimum finem, sed
+<lb ed="#L" n="34"/>ilii ut fini inhaeserit . Secundum hanc enim dicitur quod
+<lb ed="#L" n="35"/>ratio quare non consideravit de superiori bono, ad quod
+<lb ed="#L" n="36"/>proprium bonum ordinandum erat, potuit esse intensa
+<lb ed="#L" n="37"/>consideratio et intensa dilectio naturalium bonorum. Et
+<lb ed="#L" n="38"/>advertendum quod non dicitur ita absolute fuisse, sed
+<lb ed="#L" n="39"/>ita potuisse esse: quia per certitudinem et evidentiam ea
+<lb ed="#L" n="40"/>quae ad angelorum: peccatum attinent, attingere non 
+pos<lb ed="#L" break="no" n="41"/>sumus. Ex quo patet quod non oportet responsionem hic
+<lb ed="#L" n="42"/>datam alteri opinioni applicare.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>3. Dicitur secundo, quod etiam alteri opinioni potest
+<lb ed="#L" n="44"/>haec responsio convenienter adaptari. Intellectus enim et
+<lb ed="#L" n="45"/>voluntas, licet in diversa ferri non possint inquantum sunt
+<lb ed="#L" n="46"/>diversa, possunt tamen in diversa ferri inquantum sunt
+<lb ed="#L" n="47"/>aliquo modo unum: sicut voluntas simul vult id quod
+<lb ed="#L" n="48"/>est ad finem inquantum huiusmodi, et ipsum finem. Et
+<lb ed="#L" n="49"/>sic simul voluntas, bonum proprium angeli intense amando,
+<lb ed="#L" n="50"/>potuit simul sibi supernaturale bonum appetere tanquam
+<lb ed="#L" n="51"/>ultimam proprii boni perfectionem.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Cum autem instatur quod, eadem ratione, potuit simul
+<lb ed="#L" n="53"/>supernaturale bonum appetere ex divina gratia: — dicitur
+<lb ed="#L" n="54"/>quod utique potuit simul angelus, appetendo sibi 
+super<lb ed="#L" break="no" n="55"/>naturale bonum, appetere illud ex divina gratia, sicut boni
+<lb ed="#L" n="56"/>angeli fecerunt; sed potuit etiam fieri ut tantus esset amor
+<lb ed="#L" n="57"/>beatitudinis et sui, quo sibi supernaturalem beatitudinem
+<lb ed="#L" n="58"/>appetiit, ut ad divinam gratiam non attenderet, et sic illa
+<lb ed="#L" n="59"/>non apprehenderentur per modum unius. Constat enim
+<lb ed="#L" n="60"/>quempiam aliquando tanto ardore aliquid optare quod
+<lb ed="#L" n="61"/>de modo adipiscendi considerare negligit. Et idcirco dixit
+<lb ed="#L" n="62"/>Sanctus Thomas ita potuisse fieri, non autem absolute
+<lb ed="#L" n="63"/>ita fuisse.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>III. Ad quintam obiectionem respondet quod utique
+<lb ed="#L" n="65"/>non appetiit substantia separata nisi unum bonum, quod
+<lb ed="#L" n="66"/>est sibi proprium: sed. peccavit eo quod praetermiserit
+<lb ed="#L" n="67"/>superius bonum, in. quod debuit ordinari.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Ex hac responsione patet illam propositionem , /d cuius
+<lb ed="#L" n="69"/>est unum solum bonum, et in quo non est diversorum
+<lb ed="#L" n="70"/>bonorum compositio, in suo appetitu errare non potest,
+<lb ed="#L" n="71"/>falsam esse. Etsi enim fortassis peccare non possit, ut
+<lb ed="#L" n="72"/>dicitar in QQ. de Malo, q. xvi, a. 2, ad 9, appetendo
+<lb ed="#L" n="73"/>aliquod malum sibi quasi bonum, quia propter 
+simplici<lb ed="#L" break="no" n="74"/>tatem naturae, non est in ipso dare quod sit aliquid sibi
+<lb ed="#L" n="75"/>bonum secundum unam partem quod nom sit sibi bonum
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>secundum aliam, potest tamen peccare appetendo 
+pro<lb ed="#L" break="no" n="77"/>prium bonum non secundum regulam superioris.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>IV. Ad sextam obiectionem respondet quod substantia
+<lb ed="#L" n="79"/>separata peccando praetermisit medium virtutis inquantum
+<lb ed="#L" n="80"/>se superiori  ordini non subdidit. Sibi enim plus dedit
+<lb ed="#L" n="81"/>quam debuit, Deo autem minus.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Dicit secundo, quod in tali peccato non est 
+praetermis<lb ed="#L" break="no" n="83"/>sum medium propter superabundantiam passionis, sed solum
+<lb ed="#L" n="84"/>per inaequalitatem iustitiae, quae est circa operationes.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>2. Ex hac responsione patet falsum esse quod in rebus
+<lb ed="#L" n="86"/>spiritualibus non sit superabundantia et defectus in ordine
+<lb ed="#L" n="87"/>ad suam regulam . Potest enim in ipsis esse 
+superabun<lb ed="#L" break="no" n="88"/>dantia et defectus inquantum potest quis transgredi 
+re<lb ed="#L" break="no" n="89"/>gulam et mensuram secundum quam appeti debent, 
+se<lb ed="#L" break="no" n="90"/>cundum magis et minus.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Advertendum autem quod duplex est virtutum moralium
+<lb ed="#L" n="92"/>materia, scilicet passio et operatio, circa quae virtus 
+me<lb ed="#L" break="no" n="93"/>dium ponit. Medium rationis circa passiones consistit in
+<lb ed="#L" n="94"/>hoc ut quis secundum quod recta ratio dictat, sese habeat
+<lb ed="#L" n="95"/>circa passiones. Medium vero circa operationes; generaliter
+<lb ed="#L" n="96"/>loquendo, consistit in hoc ut quis in dando et accipiendo
+<lb ed="#L" n="97"/>servet aequalitatem. Contingit ergo peccando transgredi
+<lb ed="#L" n="98"/>medium aut circa passiones, dum scilicet interioribus 
+pas<lb ed="#L" break="no" n="99"/>sionibus non secundum commensurationem :ad regulam
+<lb ed="#L" n="100"/>rationis quis afficitur: aut circa actiones, dum scilicet 
+ali<lb ed="#L" break="no" n="101"/>quis aequalitatem in dando et accipiendo non servat, sed
+<lb ed="#L" n="102"/>sibi plus accipit quam debeat, alteri vero minus dat quam
+<lb ed="#L" n="103"/>conveniat. Quia itaque passiones non sunt in substantiis
+<lb ed="#L" n="104"/>separatis, sed bene operationes, idcirco inquit Sanctus 
+Tho<lb ed="#L" break="no" n="105"/>mas ab ipsis non esse praetermissum medium per 
+super<lb ed="#L" break="no" n="106"/>abundantiam passionis, sed per inaequalitatem iustitiae,
+<lb ed="#L" n="107"/>quae est circa operationes.
+</p>
+            <p>
+               <lb ed="#L" n="108"/>3. Sed tunc occurrit dubium. Videtur enim, secundum
+<lb ed="#L" n="109"/>hanc responsionem, quod primum peccatum angeli non
+<lb ed="#L" n="110"/>fuerit superbia, sed iniustitia. Cuius oppositum ostensum
+<lb ed="#L" n="111"/>est supra .
+</p>
+            <p>
+               <lb ed="#L" n="112"/>Respondetur quod iniustitia dupliciter accipi potest.
+<lb ed="#L" n="113"/>Uno. modo, ut importat inaequalitatem in actionibus 
+exte<lb ed="#L" break="no" n="114"/>rioribus quae sunt unius hominis ad alterum hominem.
+<lb ed="#L" n="115"/>Et sic est vitium speciale: et non fuit in substantia
+<lb ed="#L" n="116"/>separata peccante. — Alio modo, prout importat 
+inaequa<lb ed="#L" break="no" n="117"/>litatem quandam inter Deum et hominem contra 
+regu<lb ed="#L" break="no" n="118"/>lam divinae sapientiae operantem. Et sic concomitatur
+<lb ed="#L" n="119"/>omne peccatum, et fuit in angelo peccante. Cum autem
+<lb ed="#L" n="120"/>infertur, Ergo primum peccatum angeli non fuit superbia:
+<lb ed="#L" n="121"/>negatur consequentia, ad sensum dictorum. Dicitur enim
+<lb ed="#L" n="122"/>quod. primum peccatum speciale fuit superbia, habuit
+<lb ed="#L" n="123"/>tamen generales conditiones quae omne peccatum 
+con<lb ed="#L" break="no" n="124"/>comitantur.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>V. Ad septimam obiectionem respondet non esse 
+ean<lb ed="#L" break="no" n="126"/>dem rationem de substantia separata, et de corporibus
+<lb ed="#L" n="127"/>caelestibus. Corpora enim caelestia, sicut et omnia quae
+<lb ed="#L" n="128"/>ratione carent, aguntur tantum et non seipsa agunt. Et
+<lb ed="#L" n="129"/>ultra hoc, in ipsis materiae indispositio locum non habet.
+<lb ed="#L" n="130"/>Ideo nunquam a rectitudine primae regulae deficere 
+pos<lb ed="#L" break="no" n="131"/>sunt: licet alia corpora, ex indispositione materiae, 
+ali<lb ed="#L" break="no" n="132"/>quando rectitudinem primae regulae sufficienter recipere 
+<lb ed="#L" n="133"/>non possint. Substantiae autem intellectuales non aguntur
+<lb ed="#L" n="134"/>tantum, sed etiam seipsa ad proprios actus agunt: et tanto
+<lb ed="#L" n="135"/>magis quanto perfectior est eorum natura. Ideo naturae
+<lb ed="#L" n="136"/>perfectio non impedit quin in ipsis peccatum accidere
+<lb ed="#L" n="137"/>possit ex hoc quod sibi ipsis inhaerent, ordinem superioris
+<lb ed="#L" n="138"/>agentis non attendentes.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>2. Advertendum, quod per primam regulam possumus
+<lb ed="#L" n="140"/>intelligere eam quae est simpliciter prima respectu 
+om<lb ed="#L" break="no" n="141"/>nium, quae est divinae sapientiae dispositio et ordinatio,
+<lb ed="#L" n="142"/>Possumus etiam primam accipere proportionaliter ad 
+re<lb ed="#L" break="no" n="143"/>gulata: ut prima regula corporum caelestium sit substantia
+<lb ed="#L" n="144"/>movens; prima vero regula substantiae separatae sit divina
+<lb ed="#L" n="145"/>sapientia; et prima regula corporum inferiorum sint 
+cor<lb ed="#L" break="no" n="146"/>pora caelestia.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>Si secundo modo accipiatur: sic, cum ex superioribus 
+<lb ed="#L" n="148"/>constet ex indispositione materiae saepe numero evenire
+<lb ed="#L" n="149"/>ut effectus in istis inferioribus non sequatur secundum
+<lb ed="#L" n="150"/>ordinem corporis caelestis, manifestum est quod corpora
+<pb ed="#L" n="352"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>inferiora quandoque non sufficienter sasipiunh 
+rectitu<lb ed="#L" break="no" n="2"/>dinem primae regulae.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Sed si primo modo. accipiamus, dubium remanet quod
+<lb ed="#L" n="4"/>corpora, propter indispositionem materiae, possint a 
+recti<lb ed="#L" break="no" n="5"/>tudine primae regulae deficere: cum divinae PLE
+<lb ed="#L" n="6"/>omnis materiae dispositio sit subiecta.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Sed dicendum quod regulae divinae sapientiae nibil
+<lb ed="#L" n="8"/>aliud sunt quam ordinationes et dispositiones rerum, quibus .
+<lb ed="#L" n="9"/>a divina sapientia res in suas actiones et in. suos fines
+<lb ed="#L" n="10"/>ordinantur: quae quidem regulae pertinent ad voluntatem
+<lb ed="#L" n="11"/>divinam. antecedentem. Ut autem ex superioribus  patet,
+<lb ed="#L" n="12"/>non inconvenit voluntatem divinam antecedentem. 
+quan<lb ed="#L" break="no" n="13"/>doque non impleri, Et ideo, licet omnis materiae dispositio
+<lb ed="#L" n="14"/>divinae sapientiae subsit, non inconvenit tamen aliquam
+<lb ed="#L" n="15"/>virtutem corpoream esse a divina sapientia ordinatam ad
+<lb ed="#L" n="16"/>productionem alicuius effectus, et tamen effectum illum,
+<lb ed="#L" n="17"/>propter materiae indispositionem, non sequi: sicut virtus
+<lb ed="#L" n="18"/>humani seminis ordinata est ad productionem hominis cum
+<lb ed="#L" n="19"/>duabus manibus, et tamen nascitur homo quandoque cum
+<lb ed="#L" n="20"/>una tantum manu. .
+</p>
+            <p>
+               <lb ed="#L" n="21"/>VI. CiRcA PRAEDICTA, quia ostensum est angelum bebe
+<lb ed="#L" n="22"/>peccare et de facto peccasse, dubium est in doctrina Sancti
+<lb ed="#L" n="23"/>Thomae quot morae ponendae sint in angelis peccantibus.
+<lb ed="#L" n="24"/>Aliqui enim Thomistarum. ponunt. duas tantum: scilicet
+<lb ed="#L" n="25"/>primum instans, in quo omnes angeli fuerunt boni, et 
+beati<lb ed="#L" break="no" n="26"/>tudinem :meruerunt; secundum vero, in quo mali 
+pecca<lb ed="#L" break="no" n="27"/>verunt et fuerunt. miseri, boni vero fuerunt beatificati.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Alii vero ponunt tria instantia: et dicunt quod in primo,
+<lb ed="#L" n="29"/>omnes habuerunt actum mere naturalem ; in secundo, mali
+<lb ed="#L" n="30"/>demeruerunt. et boni meruerunt; in tertio, boni flent
+<lb ed="#L" n="31"/>— mali vero miseri.
+</p>
+            <p>
+               <lb ed="#L" n="32"/>2. Licet autem utraque opinio sustentari aliquo modo
+<lb ed="#L" n="33"/>possit prima tamen videtur expresse esse de mente Sancti
+<lb ed="#L" n="34"/>Thomae Prima, q. Lxtr a. 5, ad 4; et.a. 6, in corp. et
+<lb ed="#L" n="35"/>ad.4. Sed in hac opinione dubiam primo facit, quomodo
+<lb ed="#L" n="36"/>in doctrina Sancti Thomae possit sustineri quod in primo
+<lb ed="#L" n="37"/>instanti omnes habuerint actum liberum, quod requiritur
+<lb ed="#L" n="38"/>ad actum meritorium. Tum quia in QQ. Mali, q. xvr,
+<lb ed="#L" n="39"/>ad 4, 14, 15 et 22, videtur velle primum actum 
+ange<lb ed="#L" break="no" n="40"/>lorum fuisse naturalem. — Tum quia Prima, ubi supra, vt,
+<lb ed="#L" n="41"/>ad 3, inquit quod im primo instanti habuerunt motum
+<lb ed="#L" n="42"/>naturalem in bonum. — 'Tum quia ibidem, ad 4, ait quod
+<lb ed="#L" n="43"/>primum instans respondet operationi angelicae qua se in
+<lb ed="#L" n="44"/>seipsam. convertit per vespertinam cognitionem.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Secundo dubium facit. quomodo: in secundo instanti
+<lb ed="#L" n="46"/>potuerunt peccare, si in primo meruerunt: cum teneat
+<lb ed="#L" n="47"/>Sanctus Thomas Prima Parte, ubi supra, ad. 3, et in aliis
+<lb ed="#L" n="48"/>locis, quod angeli habent liberum arbitrium | inflexibile
+<lb ed="#L" n="49"/>post electionem. — Sed ad hoc dicetur in quarto libro , ubi
+<lb ed="#L" n="50"/>agetur de immutabilitate voluntatis humanae post mortem.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>VII. Ad primum ergo dubium respondens. Capreolus,
+<lb ed="#L" n="52"/>in Secundo, d. rv , ad. hanc opinionem declinans quod
+<lb ed="#L" n="53"/>primus. actus angelorum fuerit naturalis, dupliciter verba
+<lb ed="#L" n="54"/>Sancti Thomae interpretatur ubi inquit, in Prima Parte,
+<lb ed="#L" n="55"/>omnes habuisse actum meritorium in primo instanti. Primo,
+<lb ed="#L" n="56"/>quod meruerunt, nom eliciendo actum. meritorium, sed
+<lb ed="#L" n="57"/>quia, per gratiam quam habebant, digni erant beatitudine.
+<lb ed="#L" n="58"/>— Secundo, quod habuerunt. actum meritorium qui fuit
+<lb ed="#L" n="59"/>dilectio. electiva, non Dei, sed ipsorummet, gratia 
+infor<lb ed="#L" break="no" n="60"/>mata, et debitis circumstantiis vestita.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Sed. nulla istarum expositionum videtur mihi esse ad
+<lb ed="#L" n="62"/>mentem Sancti Thomae. Non quidem prima. Quia. ipse
+<lb ed="#L" n="63"/>in Prima, ubi supra, a. 6, expresse ostendit se loqui de
+<lb ed="#L" n="64"/>merito qui est actus liberi arbitrii gratia informatus. — Non
+<lb ed="#L" n="65"/>etiam secunda. Quia ad actum meritorium non sufficit
+<lb ed="#L" n="66"/>quod sit actus electivus habentis gratiam, sed. requiritur
+<lb ed="#L" n="67"/>quod. eliciatur secundum inclinationem gratiae et caritatis,
+<lb ed="#L" n="68"/>quae sunt principium merendi. Ista. autem , inclinant . ad
+<lb ed="#L" n="69"/>diligendum Deum propter se, et.alia propter Deum ut
+<lb ed="#L" n="70"/>obiectum supernaturalis. beatitudinis: ut ostendit Sanctus
+<lb ed="#L" n="71"/>"Thomas III Sent., et II II , et in plerisque aliis locis.
+<lb ed="#L" n="72"/>Ergo non potest. esse aliquis actus | meritorius. nisi, 
+vir<lb ed="#L" break="no" n="73"/>tualiter saltem et non. tantum habitualiter, includat. 
+dile<lb ed="#L" break="no" n="74"/>ctionem Dei. Dictum est autem superius , quod primus
+<lb ed="#L" n="75"/>actus non potest virtualiter includere dilectionem huius-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>modi: cum ipsum nullus actus decem aut etiam 
+na<lb ed="#L" break="no" n="77"/>turalis, praecedat.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Propterea videtur tenendum, de mente Sancti Thomae,
+<lb ed="#L" n="79"/>quod omnes meruerunt in primo instanti per actum liberi
+<lb ed="#L" n="80"/>arbitrii qui fuit dilectio electiva Dei, vel proprii boni in
+<lb ed="#L" n="81"/>ordine ad Deum, ut est principium supernaturalis 
+beati<lb ed="#L" break="no" n="82"/>tudinis.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>VIII. Ad primum autem in oppositum  responderi 
+po<lb ed="#L" break="no" n="84"/>test quod Sanctus Thomas aliam viam secutus est in QQ.
+<lb ed="#L" n="85"/>de Malo, et aliam in Prima Parte, eo quod utraque salvari
+<lb ed="#L" n="86"/>possit. Nam in QQ. Mali, tenuit illam :viam quae ponit
+<lb ed="#L" n="87"/>angelum peccasse quia indebito modo, idest non ex gratia,
+<lb ed="#L" n="88"/>appetiit beatitudinem supernaturalem, quae in visione Dei
+<lb ed="#L" n="89"/>consistit. In Prima vero Parte tenuit opinionem quae ponit
+<lb ed="#L" n="90"/>quod. peccatum angeli fuit in hoc quod ad seipsum 
+inor<lb ed="#L" break="no" n="91"/>dinate conversus est, absque ordine scilicet ad Deum et
+<lb ed="#L" n="92"/>ad regulam divinae voluntatis, ut'est superius  declaratum.
+<lb ed="#L" n="93"/>Unde, sicut in istis locis secutus est diversas vias circa
+<lb ed="#L" n="94"/>obiectum volitum ab angelo peccante, ita non est 
+incon<lb ed="#L" break="no" n="95"/>veniens dicere quod etiam quantum ad primum actum
+<lb ed="#L" n="96"/>angelorum diversas. opiniones sit secutus: tenens scilicet
+<lb ed="#L" n="97"/>in Prima Parte quod omnes in primo instanti habuerunt
+<lb ed="#L" n="98"/>actum liberi arbitrii et meritorium; in QQ. autem de Malo,
+<lb ed="#L" n="99"/>tenens quod primus eorum actus fuerit . naturalis.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>.Ad secundum dicitur primo quod, licet actus primus
+<lb ed="#L" n="101"/>fuerit electivus, non tamen fuit pure electivus, sed habuit
+<lb ed="#L" n="102"/>aliquid naturalitatis . Fuit enim liber quantum ad 
+exer<lb ed="#L" break="no" n="103"/>citium actus; et quantum ad specificationem ad hanc vel
+<lb ed="#L" n="104"/>illam obiecti conditionem; sed fuit naturalis quantum. ad
+<lb ed="#L" n="105"/>determinationem ad bonum. Erat enim angelus in primo
+<lb ed="#L" n="106"/>instanti ita determinatus ad bonum quod non poterat male
+<lb ed="#L" n="107"/>velle, licet posset diligere se cum ordine ad Deum ut est
+<lb ed="#L" n="108"/>auctor beatitudinis supernaturalis, et sine tali ordine. ln
+<lb ed="#L" n="109"/>quo tamen. non. peccasset si se dilexisset sine tali ordine:
+<lb ed="#L" n="110"/>quia non tenebatur ad hoc in primo instanti. , Motus est
+<lb ed="#L" n="111"/>autem in.seipsum cum tali ordine, divino adiutus. 
+bene<lb ed="#L" break="no" n="112"/>ficio. Intendit ergo Sanctus Thomas loco allegato .quod
+<lb ed="#L" n="113"/>naturalem motum habuit ad bonum in communi, et ad
+<lb ed="#L" n="114"/>suum bonum naturale, nec poterat suam perfectionem
+<lb ed="#L" n="115"/>non velle, supposito quod circa ipsam actum eliceret, non
+<lb ed="#L" n="116"/>enim poterat male velle: non autem quad Mhndiitn actum
+<lb ed="#L" n="117"/>mere naturalem.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>Ad tertium dicitur quod, licet primum instans 
+respon<lb ed="#L" break="no" n="119"/>derit operationi qua angelus in seipsum conversus est
+<lb ed="#L" n="120"/>cognitione vespertina, non tamen sequitur quod talis 
+ope<lb ed="#L" break="no" n="121"/>ratio fuerit mere naturalis: quia etiam cognitio .qua quis
+<lb ed="#L" n="122"/>cognoscit se esse amandum in ordine ad Deum, et quae
+<lb ed="#L" n="123"/>refertur ad laudem Dei, est cognitio vespertina quando
+<lb ed="#L" n="124"/>est per medium creatum. Cognitio vero illa est matutina
+<lb ed="#L" n="125"/>quae refertur in laudem Dei, sed est per medium increatum :
+<lb ed="#L" n="126"/>ut declarat Sanctus Thomas Verit., q. vut, a. penult. et ult.
+</p>
+            <p>
+               <lb ed="#L" n="127"/>2. Advertendum tamen quod aliter convenit angelo
+<lb ed="#L" n="128"/>mereri in primo instanti, et aliter in secundo: ut est de
+<lb ed="#L" n="129"/>mente Sancti Thomae Quolib. IX, a. 8; et Prima, Lxit,
+<lb ed="#L" n="130"/>a..5, ad 4; et a. 6, ad 3. Nam meritum quod in primo
+<lb ed="#L" n="131"/>instanti fuit, potuit mortificari, et impediri ne ad 
+beati<lb ed="#L" break="no" n="132"/>tudinem perduceret: non autem meritum quod fuit in
+<lb ed="#L" n="133"/>secundo instanti in bonis. Cuius ratio est quia, cum in
+<lb ed="#L" n="134"/>primo instanti non fuerit plena libertas extensive, eo quod
+<lb ed="#L" n="135"/>non posset in illo angelus male velle; sed in secundo
+<lb ed="#L" n="136"/>instanti fuerit omnimoda libertas, ad malum videlicet et
+<lb ed="#L" n="137"/>bonum: oportet viam angelorum constare. ex -duobus 
+in<lb ed="#L" break="no" n="138"/>stantibus, in quorum ultimo tenebatur actualiter se referre
+<lb ed="#L" n="139"/>in. Deum tanquam in ultimum finem, utpote in illo 
+ple<lb ed="#L" break="no" n="140"/>num habens liberi arbitrii usum. Unde meritum in primo
+<lb ed="#L" n="141"/>instanti non erat meritum ultimate, sed.sicut in via 
+tan<lb ed="#L" break="no" n="142"/>tum, et impedibiliter: meritum autem in secundo instanti
+<lb ed="#L" n="143"/>erat meritum sicut in termino viae et ultimate, quod 
+im<lb ed="#L" break="no" n="144"/>pediri non poterat quin ad beatitudinem perduceret, utpote
+<lb ed="#L" n="145"/>ultima existens dispositio ad beatitudinem, Unde et quod
+<lb ed="#L" n="146"/>inquit Sanctus Thomas Prima, q. rxu, a. 4 ; et rxur ,
+<lb ed="#L" n="147"/>quod: meritum in angelis praecessit praemium duratione,
+<lb ed="#L" n="148"/>intelligitur de merito quod. fuit in. primo instanti, quod
+<lb ed="#L" n="149"/>scilicet.erat meritum ut in via tantum, et sicut dispositio
+<lb ed="#L" n="150"/>remota ad beatitudinem: non autem de merito quod fuit
+<pb ed="#L" n="353"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in secundo instanti, quod, inquam, fuit meritum ut in
+<lb ed="#L" n="2"/>termino viae et ut ultima dispositio ad beatitudinem. lllud
+<lb ed="#L" n="3"/>enim est meritum. ex gratia imperfecta, istud autem est
+<lb ed="#L" n="4"/>meritum ex gratia consummata: sicut et in Christo, qui
+<lb ed="#L" n="5"/>erat simul viator et comprehensor, gratia perfecta erat
+<lb ed="#L" n="6"/>principium promerendi. Sicut enim in eodem instanti est
+<lb ed="#L" n="7"/>contritio in eo qui iustificatur, et gratiae infusio, secundum
+<lb ed="#L" n="8"/>doctrinam Sancti Thomae IIF^; et in QQ. de Verit. ;
+<lb ed="#L" n="9"/>et.in rebus naturalibus in eodem instanti est ultima 
+dis<lb ed="#L" break="no" n="10"/>positio ad formam, et formae introductio: ita in eodem
+<lb ed="#L" n="11"/>instanti est meritum ultimum et beatitudo in angelis.
+</p>
+            <p>
+               <lb ed="#L" n="12"/>3. Ex iis patet rationem Scoti, dist. quinta Secundi Sent. ,
+<lb ed="#L" n="13"/>qua contra Sanctum Thomam probat non potuisse esse in
+<lb ed="#L" n="14"/>secundo instanti meritum et praemium bonorum angelorum,
+<lb ed="#L" n="15"/>eo quod Sanctus Thomas dicat. meritum praecedere 
+prae<lb ed="#L" break="no" n="16"/>mium duratione, nullam esse. Quia loquitur Sanctus Thomas
+<lb ed="#L" n="17"/>de merito ut in via, non autem de merito ut in termino viae,
+<lb ed="#L" n="18"/>secundum quod ipsemet. exponit Quolib. IX, a. 8.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Patet etiam eam rationem' nullam esse qua probat, si
+<lb ed="#L" n="20"/>omnes angeli in primo instanti meruerunt, nullos potuisse
+<lb ed="#L" n="21"/>ponere obicem in secundo instanti: quia videlicet tunc
+<lb ed="#L" n="22"/>omnes meruerunt usque ad. nunc praemiationis, merentes
+<lb ed="#L" n="23"/>autem usque ad nunc praemiationis, in illo sunt praemiati.
+<lb ed="#L" n="24"/>icitur enim quod mali non meruerunt usque ad nunc
+<lb ed="#L" n="25"/>praemiationis inclusive, immo in illo demeruerunt. Nec est
+<lb ed="#L" n="26"/>verum quod in nunc praemii sint omnino extra viam. Immo
+<lb ed="#L" n="27"/>nunc in quo primo praemium. erant accepturi, erat illis
+<lb ed="#L" n="28"/>terminus viae intrinsecus, in quo ultimate poterant mereri
+<lb ed="#L" n="29"/>aut demereri, et simul accipere.poenam aut praemium. :
+</p>
+            <p>
+               <lb ed="#L" n="30"/>4. Advertendum autem quod, licet Christus per eandem
+<lb ed="#L" n="31"/>gratiam et esset beatus et mereretur, sicut angeli in secundo
+<lb ed="#L" n="32"/>instanti, hoc tamen non fuit eodem modo. Nam angeli in 
+se<lb ed="#L" break="no" n="33"/>cundo instanti meruerunt sibi essentialem beatitudinem: non
+<lb ed="#L" n="34"/>autem Christus, sed sibi animae impassibilitatem et gloriam
+<lb ed="#L" n="35"/>corporis, nobis autem beatitudinem meruit essentialem.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>IX. Haec dicta sint sequendo aliorum opinionem, 
+dicen<lb ed="#L" break="no" n="37"/>tium angelos bonos in secundo instanti et meruisse et 
+acce<lb ed="#L" break="no" n="38"/>pisse beatitudinem. Diligentius tamen considerando, non
+<lb ed="#L" n="39"/>videtur mihi de mente Sancti Thomae esse quod aliqui angeli
+<lb ed="#L" n="40"/>in secundo instanti meruerint. Primo, quia in Prima Parte,
+<lb ed="#L" n="41"/>q. LXIt, a. 4 et 5, tenet non posse angelum simul habere 
+frui<lb ed="#L" break="no" n="42"/>tionem, et suam fruitionem mereri: cum unum.sit gratiae
+<lb ed="#L" n="43"/>imperfectae, alterum vero gratiae perfectae et consummatae.
+<lb ed="#L" n="44"/>- Et etiam quia, ut dicitur Verit., q. ult., a. 6, ad statum
+<lb ed="#L" n="45"/>merendi requiritur ut desit sibi id quod quis mereri dicitur.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>Secundo, quia ipse ibidem , a..5, tenet quod angeli per
+<lb ed="#L" n="47"/>unicum actum meritorium ad beatitudinem pervenerunt.
+<lb ed="#L" n="48"/>Quaestione vero Lxttt, a. 5 et 6, tenet quod omnes in primo
+<lb ed="#L" n="49"/>instanti meruerunt. Ex iis enim duobus expresse sequitur
+<lb ed="#L" n="50"/>quod in secundo, instanti non meruerunt: nam si in 
+se<lb ed="#L" break="no" n="51"/>cundo meruerunt, cum etiam meruerint in primo, sequitur
+<lb ed="#L" n="52"/>quod non per unum actum meritorium, sed per duos ad
+<lb ed="#L" n="53"/>beatitudinem pervenerunt. -
+</p>
+            <p>
+               <lb ed="#L" n="54"/>Si dicatur quod. loquitur Sanctus Thomas in illis locis
+<lb ed="#L" n="55"/>de merito ut in via tantum, non autem .de merito ut in
+<lb ed="#L" n="56"/>termino viae: — hoc non videtur secundum mentem ipsius
+<lb ed="#L" n="57"/>esse. Nam qu. Lxut, a, 5 et 6, vult quod, cum daemones
+<lb ed="#L" n="58"/>meruerint in primo. instanti, fuissent in secundo instanti
+<lb ed="#L" n="59"/>beati nisi posuissent obstaculum peccando. Ergo sola 
+ab<lb ed="#L" break="no" n="60"/>sentia impedimenti sufficiebat, secundum ipsum, ad hoc
+<lb ed="#L" n="61"/>ut beatitudinem acciperent: non autem aliud meritum 
+re<lb ed="#L" break="no" n="62"/>quirebatur. — Praeterea, cum diligentissime in Prima Parte
+<lb ed="#L" n="63"/>de beatificatione et damnatione angelorum. determinaverit,
+<lb ed="#L" n="64"/>si eius intentionis fuisset duplex extitisse meritum in 
+an<lb ed="#L" break="no" n="65"/>gelis; unum ut in. via simpliciter, alium vero ut in termino
+<lb ed="#L" n="66"/>viae, esset profecto reprehendendus quod de ista meritorum
+<lb ed="#L" n="67"/>diversitate nullam prorsus fecerit mentionem. Cum enim
+<lb ed="#L" n="68"/>determinaverit angelum per unum actum meritorium ad
+<lb ed="#L" n="69"/>beatitudinem pervenire, debuisset sane declarare. de quo
+<lb ed="#L" n="70"/>merito illud. esset intelligendum. Nam et in.I I^, q. cxi,
+<lb ed="#L" n="71"/>a. 2, loquens de praeparatione ad gratiam, cum viderit
+<lb ed="#L" n="72"/>quod duplex erat ad gratiam praeparatio, una scilicet quae
+<lb ed="#L" n="73"/>simul est cum gratia, alia quae gratiam praecedit, de utraque
+<lb ed="#L" n="74"/>in responsione ad primum fecit mentionem. Cum ergo de
+<lb ed="#L" n="75"/>uno tantum merito angelorum mentionem fecerit, dicendum
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>est quod in ipsis unum duntaxat fuisse meritum. voluit:
+<lb ed="#L" n="77"/>et illud quidem in primo ipsorum instanti.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>2. Propter quod, sequendo determinationem eius in
+<lb ed="#L" n="79"/>Prima Parte, salvo semper meliori iudicio, dicendum est
+<lb ed="#L" n="80"/>primo, quod in processu angelorum, sive:ad beatitudinem
+<lb ed="#L" n="81"/>sive ad miseriam, duo fuerunt instantia. In quorum primo,
+<lb ed="#L" n="82"/>absolute loquendo, nullo modo demereri et peccare 
+po<lb ed="#L" break="no" n="83"/>tuerunt, sed bene potuerunt non mereri negative, et 
+me<lb ed="#L" break="no" n="84"/>reri:.et de facto omnes meruerunt. [In secundo vero, 
+po<lb ed="#L" break="no" n="85"/>tuerunt absolute et mereri et demereri: et de facto aliqui
+<lb ed="#L" n="86"/>demeruerunt et facti sunt miseri, alii. vero facti quidem
+<lb ed="#L" n="87"/>sunt beati; sed non meruerunt. Quod enim potuerint
+<lb ed="#L" n="88"/>mereri, et non mereri negative, idest, nullum habere 
+me<lb ed="#L" break="no" n="89"/>ritum, patet quia in primo instanti meruerunt per actum
+<lb ed="#L" n="90"/>liberi arbitrii, ut dicitur ibidem, a. 6. Ergo potuerunt non
+<lb ed="#L" n="91"/>elicere ilum actum meritorium: alioquin ille actus non
+<lb ed="#L" n="92"/>fuisset liber, libertas enim. ad opposita se habet, Ergo
+<lb ed="#L" n="93"/>potuerunt carere. merito. — Quod vero in eodem primo
+<lb ed="#L" n="94"/>instanti non: potuerint peccare et demereri, probat Sanctus
+<lb ed="#L" n="95"/>"Thomas qu. praeallegata, a. 5; et de Malo, q. xvi, a. 4,
+<lb ed="#L" n="96"/>ponens quod in primo instanti erant determinati: ad -
+bo<lb ed="#L" break="no" n="97"/>num. — Quod autem in secundo instanti, absolute 
+lo<lb ed="#L" break="no" n="98"/>quendo, potuerint mereri, manifeste ex hoc constat quod,
+<lb ed="#L" n="99"/>cum aliquando mereri potuerint, eo; quod essent ad 
+bea<lb ed="#L" break="no" n="100"/>titudinem ordinati et essent creati in gratia, si. non. 
+me<lb ed="#L" break="no" n="101"/>ruissent in. primo instanti, sicut possibile fuit eos non
+<lb ed="#L" n="102"/>mereri, in secundo instanti meruissent.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Dicendum est secundo quod, hac suppositione fate quod
+<lb ed="#L" n="104"/>in primo instanti omnes meruerunt, omnes quidem peccare
+<lb ed="#L" n="105"/>et demereri potuerunt in secundo instanti, sed in ipso nullus
+<lb ed="#L" n="106"/>mereri potuit. Ratio primi est: quia non repugnat quod
+<lb ed="#L" n="107"/>angelus in termino viae per peccatum gratia privetur, et
+<lb ed="#L" n="108"/>simul sit confirmatus in malo. Ratio vero secundi est: quia
+<lb ed="#L" n="109"/>repugnat meritum et praemium in eodem instanti esse: cum;
+<lb ed="#L" n="110"/>ut dictum. est paulo ante, meritum a gratia imperfecta
+<lb ed="#L" n="111"/>proveniat, praemium vero a gratia consummata.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>X. Sed. contra istam determinationem insurgunt 
+quae<lb ed="#L" break="no" n="113"/>dam dubia, Primum est. Si, posito quod angelus in primo
+<lb ed="#L" n="114"/>instanti. meruerit, in secundo instanti-non potuit mereri,
+<lb ed="#L" n="115"/>sequitur quod in nullo instanti angelus habuerit libertatem
+<lb ed="#L" n="116"/>ad bonum et malum: et per consequens nunquam 
+ha<lb ed="#L" break="no" n="117"/>buerit plenam libertatem. Hoc autem est inconveniens.
+<lb ed="#L" n="118"/>Ergo etc. — Probatur consequentia. Nam in primo instanti,
+<lb ed="#L" n="119"/>secundum hanc opinionem, potuit tantum in bonum: in
+<lb ed="#L" n="120"/>secundo vero, tantum in malum. Sed non dantur plura
+<lb ed="#L" n="121"/>instantia duobus in via angelorum. . Ergo in nullo instanti
+<lb ed="#L" n="122"/>fuerunt liberi ad bonum et malum.
+</p>
+            <p>
+               <lb ed="#L" n="123"/>Secundum dubium est . Si in secundo instanti boni 
+fue<lb ed="#L" break="no" n="124"/>runt beati, et in illo non meruerunt; mali vero demeruerunt:
+<lb ed="#L" n="125"/>sequitur quod via bonorum et malorum angelorum non
+<lb ed="#L" n="126"/>fuerit aequalis. Nam. in secundo instanti. boni fuerunt
+<lb ed="#L" n="127"/>omnino extra viam, cum in ipso nullum habuerint meritum,
+<lb ed="#L" n="128"/>sed tantum praemium: et sic via eorum fuit tantum per
+<lb ed="#L" n="129"/>primum instans. Mali vero adhuc fuerunt in via, quia 
+deme<lb ed="#L" break="no" n="130"/>ruerunt: et ita eorum via per duo instantia duravit. :
+</p>
+            <p>
+               <lb ed="#L" n="131"/>Tertium. dubium est. Sicut se habet operatio meritoria
+<lb ed="#L" n="132"/>ad beatitudinem, ita operatio demeritoria ad miseriam te
+<lb ed="#L" n="133"/>damnationem:. per meritum enim devenitur ad 
+beatitudi<lb ed="#L" break="no" n="134"/>nem, per.demeritum vero ad damnationem. Sed, ut 
+di<lb ed="#L" break="no" n="135"/>citur II Sent., d. x1 , a. 1, quandocumque aliquis ponitur in
+<lb ed="#L" n="136"/>ultima. perfectione, quae est beatitudo, operatio eius non
+<lb ed="#L" n="137"/>est meritoria. Ergo, quando aliquis ponitur in ultima 
+im<lb ed="#L" break="no" n="138"/>perfectione, quae est damnatio, nulla eius operatio est
+<lb ed="#L" n="139"/>demeritoria. Ergo: male ponitur quod in eodem instanti
+<lb ed="#L" n="140"/>secundo angelus peccavit et fuit poena
+</p>
+            <p>
+               <lb ed="#L" n="141"/>Confirmatur. Quia II.Sent., d. vir, q. 1, a. 2, dicilue
+<lb ed="#L" n="142"/>quod angeli confirmantur in bono vel malo pne 
+conver<lb ed="#L" break="no" n="143"/>sionem et aversionem.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>Quartum dubium est ^x quia Sanctus Thomas, Quolis IX,
+<lb ed="#L" n="145"/>a. 8; et II Sent, d. v , a. ult, tenet in eodem instanti
+<lb ed="#L" n="146"/>angelos meruisse ut in termino viae, et fuisse beatos.
+</p>
+            <p>
+               <lb ed="#L" n="147"/>XI. Ad primum dubium dicitur quod angelum habuisse
+<lb ed="#L" n="148"/>libertatem ad bonum et malum in secundo instanti, posito
+<lb ed="#L" n="149"/>quod in primo meruerit, dupliciter intelligi potest: uno
+<lb ed="#L" n="150"/>modo, de libertate ad bonum meritorium, et malum quod
+<pb ed="#L" n="354"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>est peccatum; alio modo, de libertate ab bonum absolute, 
+<lb ed="#L" n="2"/>quodcumque sit illud, et ad peccatum. Si primo modo 
+acci<lb ed="#L" break="no" n="3"/>piatur, negatur falsitas consequentis. Dicitur enim primo,
+<lb ed="#L" n="4"/>quod non derogat liberae naturae secundum se quod, ex
+<lb ed="#L" n="5"/>aliquo sibi voluntarie. addito, toilatur in aliquo instanti
+<lb ed="#L" n="6"/>usus et exercitium libertatis sibi absolute convenientis.
+<lb ed="#L" n="7"/>Sicut enim non derogat absolute libertati Sortis qua potest
+<lb ed="#L" n="8"/>sedere. et non sedere, quod, posita voluntaria sessione eius
+<lb ed="#L" n="9"/>in aliquo tempore, pro illo non habeat libertatem sedendi
+<lb ed="#L" n="10"/>et non sedendi quantum ad exercitium, quia quando sedet,
+<lb ed="#L" n="11"/>pro tunc non potest non sedere: ita non derogat absolute
+<lb ed="#L" n="12"/>libertati angeli, qua absolute potest mereri et demcereri,
+<lb ed="#L" n="13"/>quod ex actu meritorio ab ipso libere et voluntarie in
+<lb ed="#L" n="14"/>primo instanti elicito, tollatur exercitium talis libertatis in
+<lb ed="#L" n="15"/>secundo instanti, inquantum, posito merito in primo 
+in<lb ed="#L" break="no" n="16"/>stanti, sequitur in secundo instanti beatitudo, nisi 
+impe<lb ed="#L" break="no" n="17"/>dimentum aliquod: peccando. opponatur.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Dicitur secundo quod, licet, facta illa suppositione, in
+<lb ed="#L" n="19"/>nullo instanti angelus possit uti libertate ad bonum et
+<lb ed="#L" n="20"/>malum, in secundo tamen instanti est ipsa libertas in actu
+<lb ed="#L" n="21"/>primo et signato: quia est potentia qua poterat absolute
+<lb ed="#L" n="22"/>bene et male velle, nisi in primo instanti meruisset ; sicut
+<lb ed="#L" n="23"/>in tempore quo aliquis sedet, manet potentia libera qua
+<lb ed="#L" n="24"/>posset sedere et non sedere si non sederet in actu.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Dicitur tertio quod, licet in nullo instanti angelus tunc
+<lb ed="#L" n="26"/>habeat libertatem .ad bonum meritorium et malum, in toto
+<lb ed="#L" n="27"/>tamen tempore ex primo et secundo instanti constituto,
+<lb ed="#L" n="28"/>hanc habet libertatem : inquantum in primo instanti potest
+<lb ed="#L" n="29"/>mereri, in secundo vero potest demereri.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>2. Si autem intelligatur secundo modo, de bono scilicet
+<lb ed="#L" n="31"/>in communi et absolute, sive, inquam, sit meritorium sive
+<lb ed="#L" n="32"/>non meritorium, negatur consequentia. Ex eo enim quod
+<lb ed="#L" n="33"/>ponitur in secundo instanti non potuisse mereri, non tol]-
+<lb ed="#L" n="34"/>litur libertas ad bonum et malum simpliciter, sed tantum
+<lb ed="#L" n="35"/>ad. bonum meritorium. Nam in secundo instanti, licet
+<lb ed="#L" n="36"/>angelus non posset mereri, poterat tamen converti ad
+<lb ed="#L" n="37"/>Deum conversione beatifica, quod est quoddam bonum;
+<lb ed="#L" n="38"/>et averti ab eo, quod est malum.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>XII. Ad secundum dubium , negatur consequentia. Nam
+<lb ed="#L" n="40"/>licet bonus angelus non meruerit in secundo instanti, malus
+<lb ed="#L" n="41"/>vero demeruerit; non tollitur tamen quin eodem modo
+<lb ed="#L" n="42"/>secundum instans pertineret ad viam bonorum, sicut ad
+<lb ed="#L" n="43"/>viam malorum. Dicitur enim quod via omnium angelorum
+<lb ed="#L" n="44"/>ex duobus constabat instantibus: inquantum omnes in
+<lb ed="#L" n="45"/>primo potuerunt mereri; in secundo vero, omnes 
+potue<lb ed="#L" break="no" n="46"/>runt mereri et demereri, absolute loquendo; aut saltem
+<lb ed="#L" n="47"/>demereri, supposito quod in primo instanti meruerint.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>2. Cum probatur, quia boni omnino fuerunt extra viam:
+<lb ed="#L" n="49"/>— dicitur primo, quod non magis fuerunt extra viam quam
+<lb ed="#L" n="50"/>mali. Sicut enim mali fuerunt in via, non sicut distantes a
+<lb ed="#L" n="51"/>termino, sed sicut existentes in termino viae, ipsum enim
+<lb ed="#L" n="52"/>secundum instans erat terminus viae ipsorum; ita et boni.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Dicitur secundo, quod ad hoc quod aliquis angelus in
+<lb ed="#L" n="54"/>aliquo instanti sit in via sicut in termino viae, non 
+re<lb ed="#L" break="no" n="55"/>quiritur quod in ipso mereatur actu aut demereatur, sed
+<lb ed="#L" n="56"/>sufficit quod in ipso absolute potuerit et mereri et 
+de<lb ed="#L" break="no" n="57"/>mereri, aut saltem demereri.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>3. Sed non videtur haec responsio difficultatem tollere.
+<lb ed="#L" n="59"/>Si enim secundum instans pertinebat ad viam angelorum,
+<lb ed="#L" n="60"/>sequitur quod angelus in secundo instanti esset viator. Et,
+<lb ed="#L" n="61"/>per te, erat etiam comprehensor: cum in illo esset beatus.
+<lb ed="#L" n="62"/>Ergo simul erat viator et comprehensor. Hoc autem est
+<lb ed="#L" n="63"/>inconveniens: cum hoc soli Christo conveniat . Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Respondetur: et dicitur primo, quod viator proprie 
+di<lb ed="#L" break="no" n="65"/>citur qui est in via sicut distans a termino viae, non autem
+<lb ed="#L" n="66"/>qui est in via uf in termino viae existens: hoc enim 
+vi<lb ed="#L" break="no" n="67"/>detur velle Sanctus Thomas Quolibeto allegato , ad 2.
+<lb ed="#L" n="68"/>Et ideo, quia angelus bonus in secundo instanti non erat
+<lb ed="#L" n="69"/>in via sicut distans a termino, sed sicut existens in 
+ter<lb ed="#L" break="no" n="70"/>mino viae, in quo beatitudinem accepit, ideo proprie non
+<lb ed="#L" n="71"/>erat viator, sed comprehensor tantum,
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Dicitur secundo quod, si accipiatur viator pro eo qui
+<lb ed="#L" n="73"/>quomodocunque est in via, sive sit ibi ut distans a termino
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="74"/>viae, sive ut in termino viae existens, in quo, absolute
+<lb ed="#L" n="75"/>loquendo, poterat mereri et non mereri; non est 
+incon<lb ed="#L" break="no" n="76"/>veniens dicere quod in secundo instanti erat simul viator
+<lb ed="#L" n="77"/>et comprehensor.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Cum autem dicitur hoc esse proprium Christo: - 
+respon<lb ed="#L" break="no" n="79"/>detur quod non est verum nisi accipiendo viatoreem pro eo
+<lb ed="#L" n="80"/>quod est in via ut distans a termino viae. Christus enim
+<lb ed="#L" n="81"/>erat viator inquantum distabat ab impassibilitate animae et
+<lb ed="#L" n="82"/>a gloria corporis, quam suis operibus merebatur: et erat
+<lb ed="#L" n="83"/>comprehensor inquantum simul divina essentia fruebatur.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>XIII. Ad tertium dubium , negatur similitudo in 
+propo<lb ed="#L" break="no" n="85"/>sito. Licet enim in hoc conveniat meritum et demeritum
+<lb ed="#L" n="86"/>quod meritum disponit ad gloriam, sicut demeritum ad
+<lb ed="#L" n="87"/>miseriam; tamen in hoc differunt, quod meritum, . iuxta
+<lb ed="#L" n="88"/>praedicta , aliquid beatitudini repugnans includit, scilicet
+<lb ed="#L" n="89"/>gratiam imperfectam; demeritum autem nihil includit quod
+<lb ed="#L" n="90"/>ad damnationem habeat repugnantiam.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Ad confirmationem potest primo dici quod illud dictum
+<lb ed="#L" n="92"/>Sancti Thomae intelligitur supponendo quod in primo
+<lb ed="#L" n="93"/>instanti non meruerint. Videtur enim in secundo 
+Senten<lb ed="#L" break="no" n="94"/>tiarum sequi illam opinionem quod angelus peccaverit
+<lb ed="#L" n="95"/>appetendo sibi indebite supernaturalem beatitudinem: 
+se<lb ed="#L" break="no" n="96"/>cundum quam opinionem, ut superius  dictum est, ponitur
+<lb ed="#L" n="97"/>quod in primo instanti non meruerunt, sed habuerunt actum
+<lb ed="#L" n="98"/>circa naturalia dumtaxat.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Potest et secundo dici quod non intendit Sanctus Thomas
+<lb ed="#L" n="100"/>ponere aliquod instans post instans aversionis in quo 
+confir<lb ed="#L" break="no" n="101"/>mentur in malo. Sed sensus est quod in ipso actu aversionis
+<lb ed="#L" n="102"/>stabiliuntur in malo, sicut et in ipso actu conversionis, quae
+<lb ed="#L" n="103"/>fuit in secundo instanti, fuerunt in bono confirmati.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>XIV. Ad quartum dubium  dicitur quod in locis 
+alle<lb ed="#L" break="no" n="105"/>gatis, ut expresse ex ipsis verbis apparet, non loquitur
+<lb ed="#L" n="106"/>Sanctus Thomas secundum suam opinionem, sed secundum
+<lb ed="#L" n="107"/>opinionem eorum qui dixerunt angelos post primum 
+in<lb ed="#L" break="no" n="108"/>stans simul accepisse gratiam et gloriam, quam opinionem
+<lb ed="#L" n="109"/>in Il. Sent.  dicit tunc fuisse communiorem. Unde, cum
+<lb ed="#L" n="110"/>multi modi accipiendi beatitudinem assignarentur ab iis
+<lb ed="#L" n="111"/>qui illam opinionem sequebantur, habendo scilicet eam
+<lb ed="#L" n="112"/>cum merito, aut absque merito; ostendit ipse illum 
+mo<lb ed="#L" break="no" n="113"/>dum probabiliorem esse qui ponit angelum simul meruisse
+<lb ed="#L" n="114"/>et fuisse beatum, ponitque modum quo ad dubia 
+insur<lb ed="#L" break="no" n="115"/>gentia, salvando illam opinionem, responderi posset. Sed
+<lb ed="#L" n="116"/>sicut eorum opinionem non tenet, neque ibi neque in
+<lb ed="#L" n="117"/>Prima Parte , sed illam opinionem probabiliorem putat
+<lb ed="#L" n="118"/>quae ponit angelos in gratia fuisse creatos, et prius 
+me<lb ed="#L" break="no" n="119"/>ruisse, deinde fuisse beatos: ita nec illas responsiones 
+ac<lb ed="#L" break="no" n="120"/>ceptat, immo oppositum earum expresse in Prima Parte
+<lb ed="#L" n="121"/>ponit. Quocirca velle determinationem eius in Prima Parte,
+<lb ed="#L" n="122"/>contra verborum sensum, ad intellectum eorum quae in
+<lb ed="#L" n="123"/>illis locis inducit, glossare, est eius opinionem ad aliorum
+<lb ed="#L" n="124"/>opinionem, quam non approbat, velle trahere.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>2. Attendendum autem quod ista instantia quae ponimus
+<lb ed="#L" n="126"/>ad viam angelorum pertinere, non sunt accipienda ad 
+mo<lb ed="#L" break="no" n="127"/>dum instantium temporis continui, quae raptim transeunt:
+<lb ed="#L" n="128"/>sed sunt instantia temporis discreti, quae, ut alias  dictum
+<lb ed="#L" n="129"/>est, alicui parti temporis continui coexistere possunt.
+</p>
+            <p>
+               <lb ed="#L" n="130"/>XV. Secundum istam viam patet rationes Scoti contra
+<lb ed="#L" n="131"/>Sanctum "Thomam  nullas esse. Nam in una supponit
+<lb ed="#L" n="132"/>nos dicere angelum in secundo instanti meruisse. Hoc
+<lb ed="#L" n="133"/>autem non dicimus.
+</p>
+            <p>
+               <lb ed="#L" n="134"/>Cum autem in alia assumit quod merentes usque ad
+<lb ed="#L" n="135"/>nunc praemiationis in ipso nunc praemium accipiunt, 
+con<lb ed="#L" break="no" n="136"/>stat hoc falsum esse, si universaliter in omni natura 
+in<lb ed="#L" break="no" n="137"/>telligatur. Tale enim nunc non est nunc praemiationis
+<lb ed="#L" n="138"/>in angelis nisi sub hac conditione, si nullum apponatur
+<lb ed="#L" n="139"/>in ipso impedimentum.
+</p>
+            <p>
+               <lb ed="#L" n="140"/>Nec est simile de instanti mortis hominis, et de instanti
+<lb ed="#L" n="141"/>praemiationis angelorum, Nam homo in instanti mortis
+<lb ed="#L" n="142"/>non habet esse, sed habet suum primum non-esse: non
+<lb ed="#L" n="143"/>enim datur ultimum esse rei permanentis. Ideo in ipso
+<lb ed="#L" n="144"/>instanti operari non potest. Angelus autem in nunc 
+prae<lb ed="#L" break="no" n="145"/>miationis habet esse. Ideo sibi non repugnat et 
+opera<lb ed="#L" break="no" n="146"/>tionem aliquam in ipso habere, et demeritum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

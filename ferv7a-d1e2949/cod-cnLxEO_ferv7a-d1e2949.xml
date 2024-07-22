@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 152</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 152</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="446"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2949"><!-- ferv7a-l3c152 -->
+            <head>Capitulum 152</head>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="102" type="fixed=446"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="g"/>
+               <lb ed="#L" n="103"/>SECUNDA conclusio. est: Ex hoc quod divina gratia 
+<lb ed="#L" n="104"/>caritatem. in nobis causat, necessarium est. quod etiam | 
+<lb ed="#L" n="105"/>in nobis fides per gratiam causetur. 
+</p>
+            <p>
+               <cb ed="#L" n="h"/>
+               <lb ed="#L" n="106"/>Probatur primo sic. Motus quo per gratiam in ultimum
+<lb ed="#L" n="107"/>finem dirigimur, est voluntarius, non violentus. Ergo oportet
+<lb ed="#L" n="108"/>ut per gratiam in nobis cognitio ultimi finis praestituatur 
+<pb ed="#L" n="447"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Ergo etc. — Probatur prima consequentia. Quia 
+volun<lb ed="#L" break="no" n="2"/>tarius motus in aliquid esse non. potest nisi sit cognitum.
+<lb ed="#L" n="3"/>— Secunda vero: quia illa finis. cognitio non. potest esse
+<lb ed="#L" n="4"/>secundum - apertam visionem in statu isto.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Adverte quod haec ratio ex hoc fundamento procedit,
+<lb ed="#L" n="6"/>quod causa alicuius effectus ab ea naturaliter resultantis,
+<lb ed="#L" n="7"/>est etiam causa effectus ipsum naturaliter antecedentis.
+<lb ed="#L" n="8"/>Sic enim, cum cognitio ultimi finis naturaliter antecedat |
+<lb ed="#L" n="9"/>eius dilectionem, quae gratiam. concomitatur, necesse est
+<lb ed="#L" n="10"/>ut gratia etiam fidei sit causa, sicut est causa caritatis.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Secundo. Homini, ad consequendum ultimum finem,
+<lb ed="#L" n="12"/>additur aliqua perfectio supra propriam naturam, scilicet
+<lb ed="#L" n="13"/>gratia. Ergo oportet ut etiam ei, supra naturalem 
+cogni<lb ed="#L" break="no" n="14"/>tionem, addatur aliqua cognitio quae naturalem rationem 
+<lb ed="#L" n="15"/>excedat. Haec autem est cognitio fidei. Ergo etc. — 
+Pro<lb ed="#L" break="no" n="16"/>batur prima consequentia. Quia in quolibet cognoscente
+<lb ed="#L" n="17"/>modus cognitionis consequitur modum propriae naturae:
+<lb ed="#L" n="18"/>ut apparet in diversitate naturarum.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Adverte quod ista ratio -ostendit concomitantiam neces:
+<lb ed="#L" n="20"/>sariam fidei ad gratiam. Quia sicut modum naturalem rei
+<lb ed="#L" n="21"/>habentis cognitionem. consequitur naturalis cognitio, eo
+<lb ed="#L" n="22"/>quod naturae sit proportionata coghitio, qua res in suas
+<lb ed="#L" n="23"/>operationes dirigitur; ita modum. naturae elevatae per
+<lb ed="#L" n="24"/>gratiam supra naturalem modum, debet consequi cognitio
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="25"/>Tertio. Auxilio divinae. gratiae dirigimur in -ultimum
+<lb ed="#L" n="26"/>finem; qui est. manifesta visio Primae Veritatis in seipsa.
+<lb ed="#L" n="27"/>Ergo oportet quod, antequam ad istum finem .veniatur,
+<lb ed="#L" n="28"/>intellectus hominis Deo subdatur' per modum credulitatis,
+<lb ed="#L" n="29"/>divina gratia hoc faciente. — Probatur consequentia. Quia
+<lb ed="#L" n="30"/>quandocumque ab aliquo agente movetur aliquid-ad id
+<lb ed="#L" n="31"/>quod est proprium illi agenti, oportet quod a:principio
+<lb ed="#L" n="32"/>mobile. :subdatur. impressionibus agentis imperfecte; quasi
+<lb ed="#L" n="33"/>alienis. et non propriis. sibi, quousque. fiant ei propriae in
+<lb ed="#L" n="34"/>termino motus. — Declaratur in calefactione ligni ab igne;
+<lb ed="#L" n="35"/>et in eruditione discipuli a magistro.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Adverte quod ista ratio 'ex hoc fundamento procedit,
+<lb ed="#L" n="37"/>quod actio. agentis: perfecti accipitur in imperfecto, primo
+<lb ed="#L" n="38"/>quidem imperfecte, deinde perfecte, quousque res ad 
+per<lb ed="#L" break="no" n="39"/>fectionem perveniat. Ista enim est naturalis conditio rei
+<lb ed="#L" n="40"/>tendentis de imperfecto ad perfectum: ut et in omnibus
+<lb ed="#L" n="41"/>rebus naturalibus apparet; et in traditione doctrinae.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>Quarto. Idem. concludi potest ex utilitatibus: propter
+<lb ed="#L" n="43"/>quas ostensum est in principio huius Operis necessarium
+<lb ed="#L" n="44"/>fuisse ut divina: veritas per om dredelitas irr
+<lb ed="#L" n="45"/>proponeretur. ^
+</p>
+            <p>
+               <lb ed="#L" n="46"/>CONFIRMATUR auctoritate Apostoli, ad Epis tt, Gratia
+<lb ed="#L" n="47"/>salvati. etc.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Per hoc autem Pelagianorum error: excluditur, 
+dicen<lb ed="#L" break="no" n="49"/>tium initium fidei a nobis esse, non a Deo. :
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

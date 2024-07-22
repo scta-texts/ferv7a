@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 135</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 135</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="409"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2810"><!-- ferv7a-l3c135 -->
+            <head>Capitulum 135</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="91" type="fixed=409"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="92"/>SECUNDO loco, respondet Sanctus Thomas obiectionibus
+<lb ed="#L" n="93"/>factis contra particulares modos vivendi in paupertate .
+</p>
+            <p>
+               <lb ed="#L" n="94"/>I. Ad primum eorum quae obiiciebantur contra primum
+<lb ed="#L" n="95"/>modum, qui est ut vivatur de pretio possessionum 
+vendi<lb ed="#L" break="no" n="96"/>tarum , respondet quod utique ille modus non est 
+suffi<lb ed="#L" break="no" n="97"/>ciens ad longum tempus. Et ideo Apostoli in lerusalem
+<lb ed="#L" n="98"/>tantum hunc modum vivendi fidelibus instituerunt: quia
+<lb ed="#L" n="99"/>praevidebant per Spiritum Sanctum quod non diu simul
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="100"/>in Ierusalem commorari debebant, propter persecutiones,
+<lb ed="#L" n="101"/>et propter civitatis destructionem. Unde ad gentes 
+trans<lb ed="#L" break="no" n="102"/>euntes, in quibus firmanda et perduratura erat Ecclesia,
+<lb ed="#L" n="103"/>hunc modum vivendi non leguntur instituisse.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Ad secundum dicit quod non obstat fraus quae per
+<lb ed="#L" n="105"/>dispensatores committi potest: quia hoc est commune
+<lb ed="#L" n="106"/>omni modo vivendi in quo aliqui ad invicem convivunt.
+<lb ed="#L" n="107"/>Sed difficilius contingere videtur ut perfectionem vitae
+<pb ed="#L" n="410"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>sectantes fraudem committant. - Dicit secundo, quod huic
+<lb ed="#L" n="2"/>remedium adhibetur per providam fidelium dispensatorum
+<lb ed="#L" n="3"/>institutionem.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Adverte quod Sanctus Thomas intendit negare 
+conse<lb ed="#L" break="no" n="5"/>quentiam: et etiam antecedens, in hoc quod dicit facile |
+<lb ed="#L" n="6"/>esse ut in hoc modo vivendi fraus committatur per 
+dis<lb ed="#L" break="no" n="7"/>pensatores.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Tertium non solvit: quia ex responsione ad primum
+<lb ed="#L" n="9"/>patet eius solutio. ;
+</p>
+            <p>
+               <lb ed="#L" n="10"/>II. Ad id quod obiicitur contra secundum modum, qui est
+<lb ed="#L" n="11"/>ut vivatur de communibus possessionibus , negat 
+assum<lb ed="#L" break="no" n="12"/>ptum. Ad.cuius primam probationem dicit primo, quod
+<lb ed="#L" n="13"/>per unius vel paucorum sollicitudinem possunt debito
+<lb ed="#L" n="14"/>modo. possessiones procurari, aliis libere spiritualibus 
+va<lb ed="#L" break="no" n="15"/>cantibus, — Dicit secundo, quod nec assumentibus hanc
+<lb ed="#L" n="16"/>sollicitudinem pro aliis deperit aliquid de perfectione vitae:
+<lb ed="#L" n="17"/>quia quod videntur amittere, recompensatur per obsequium
+<lb ed="#L" n="18"/>caritatis, in quo etiam perfectio vitae consistit.
+</p>
+            <p>
+               <lb ed="#L" n="19"/>Ad secundam probationem, negat assumptum in 
+pro<lb ed="#L" break="no" n="20"/>posito. Quia temporalia contemnentes pro temporalibus
+<lb ed="#L" n="21"/>communibus, ex quibus nihil praeter necessaria vitae debent
+<lb ed="#L" n="22"/>expectare, discordare non possunt. Et praesertim cum 
+dis<lb ed="#L" break="no" n="23"/>pensatores oporteat esse fideles. - Dicit secundo, negando
+<lb ed="#L" n="24"/>consequentiam, quod, cum etiam bonis mali utantur male,
+<lb ed="#L" n="25"/>non potest hic modus improbari ex eo quod aliqui eo
+<lb ed="#L" n="26"/>abutantur.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>III. Ad primum contra tertium vivendi modum, qui est
+<lb ed="#L" n="28"/>ut ex labore manuum vivatur , negatur assumptum. Quia
+<lb ed="#L" n="29"/>divitiarum possessio et sollicitudinera requirebat in 
+procu<lb ed="#L" break="no" n="30"/>rando, vel etiam custodiendo; et affectum hominis ad se
+<lb ed="#L" n="31"/>trahebat. Hoc autem non accidit dum quis labore manuum
+<lb ed="#L" n="32"/>sibi quotidianum victum quaerit.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>2. Ad secundum, negat assumptum. Ad cuius 
+proba<lb ed="#L" break="no" n="34"/>tionem dicit quod ad divitias quidem congregandas, vel
+<lb ed="#L" n="35"/>superfluum "victum, ex labore manuum, oportet multum
+<lb ed="#L" n="36"/>tempus impendere, et magnam sollicitudinem adhibere: non
+<lb ed="#L" n="37"/>autem ad acquirendum quantum sufficit ad vitae. 
+susten<lb ed="#L" break="no" n="38"/>tationem.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>3. Ad auctoritatem Domini in Evangelio, dicit quod per
+<lb ed="#L" n="40"/>illa verba non prohibuit Dominus laborem manuum, sed
+<lb ed="#L" n="41"/>anxiam et afflictivam mentis sollicitudinem pro necessariis
+<lb ed="#L" n="42"/>vitae. Quod ostenditur, quia non dixit, Nolite laborare, sed,
+<lb ed="#L" n="43"/>Nolite solliciti esse. Hoc autem a minori Dominus probat,
+<lb ed="#L" n="44"/>ex providentia divina qua sustentantur aves et lilia, quae
+<lb ed="#L" n="45"/>non possunt laborare illis operibus quibus homines sibi
+<lb ed="#L" n="46"/>necessarium victum acquirunt.
+</p>
+            <p>
+               <lb ed="#L" n="47"/>4. Ad quartum, negat assumptum. Ad cuius primam
+<lb ed="#L" n="48"/>probationem dicit quod in paucioribus accidit quod aliquis
+<lb ed="#L" n="49"/>non possit labore manuum sibi necessarium victum 
+acqui<lb ed="#L" break="no" n="50"/>rere. Non est autem propter defectum qui in paucioribus
+<lb ed="#L" n="51"/>accidit, aliqua ordinatio repudianda: quia hoc et in 
+natu<lb ed="#L" break="no" n="52"/>ralibus, et etiam in voluntariis ordinationibus accidit. Unde
+<lb ed="#L" n="53"/>et divitiae furto aut rapina possunt auferri: sicut qui de
+<lb ed="#L" n="54"/>labore manuum vivit, potest debilitari. — Dicit secundo,
+<lb ed="#L" n="55"/>quod circa hoc remanet aliquod remedium: ut scilicet ei
+<lb ed="#L" n="56"/>qui laborare non potest, provideatur vel per alios eiusdem
+<lb ed="#L" n="57"/>societatis, vel etiam per eos qui divitias possident, 
+secun<lb ed="#L" break="no" n="58"/>dum legem caritatis et amicitiae naturalis. Quod ostenditur
+<lb ed="#L" n="59"/>ex admonitione Apostoli II. Zhess. ir. — Ex iis patet quod
+<lb ed="#L" n="60"/>negatur consequentia.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Ad secundam probationem dicit primo, quod eos qui
+<lb ed="#L" n="62"/>modicis sunt contenti, quae ad victum necessarium 
+suffi<lb ed="#L" break="no" n="63"/>ciunt, non oportet magnum tempus occupare in necessariis
+<lb ed="#L" n="64"/>quaerendis labore manuum. — Dicit secundo, quod non
+<lb ed="#L" n="65"/>multum impediuntur ab aliis operibus spiritualibus : 
+prae<lb ed="#L" break="no" n="66"/>cipue cum, manibus operando, de Deo cogitare possint et
+<lb ed="#L" n="67"/>eum laudare, ac alia huiusmodi facere quae singulariter
+<lb ed="#L" n="68"/>sibi viventes observare oportet. — Dicit tertio, quod ne
+<lb ed="#L" n="69"/>nimium in spiritualibus impediantur, possunt etiam 
+alio<lb ed="#L" break="no" n="70"/>rum fidelium beneficiis adiuvari.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>5. Cum impugnantur responsiones ibi datae , eius 
+im<lb ed="#L" break="no" n="72"/>pugnationes admittit Sanctus Thomas. Addit tamen quod,
+<lb ed="#L" n="73"/>licet voluntaria paupertas propter otium tollendum aut
+<lb ed="#L" n="74"/>concupiscentiam domandam opere manuali non assumatur,
+<lb ed="#L" n="75"/>non est tamen dubium quin labor manualis ad praedicta
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>valeat, etiam sub modica  victus necessitate, idest, etiam
+<lb ed="#L" n="77"/>si non indigeat quis multum laborare propter necessaria
+<lb ed="#L" n="78"/>vitae acquirenda. Sed tamen, cum otium per alias 
+occupa<lb ed="#L" break="no" n="79"/>tiones utiliores possit auferri, et carnis concupiscentia 
+vali<lb ed="#L" break="no" n="80"/>dioribus remediis edomari, propter huiusmodi non imminet
+<lb ed="#L" n="81"/>necessitas laborandi iis qui alias habent, aut habere possunt,
+<lb ed="#L" n="82"/>unde vivant: sed sola victus necessitas cogit manibus
+<lb ed="#L" n="83"/>operari. Quod ostenditur lI ZAess. ur.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>6. Ad horum intelligentiam, duo sunt advertenda, ex
+<lb ed="#L" n="85"/>doctrina Sancti Thomae II II5, q. crxxxvrt, a. 3. Primum
+<lb ed="#L" n="86"/>est quod sub opere manuali intelliguntur omnia mundana
+<lb ed="#L" n="87"/>officia ex quibus homines licite victum lucrantur, sive
+<lb ed="#L" n="88"/>manibus, sive pedibus, sive lingua lucrentur. Quia enim
+<lb ed="#L" n="89"/>manus organum organorum est, per opus manuum
+<lb ed="#L" n="90"/>omnis operatio intelligitur qua victum licite aliquis 
+lu<lb ed="#L" break="no" n="91"/>crari potest.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Secundum est quod, cum operari manibus ordinetur
+<lb ed="#L" n="93"/>ad victum quaerendum; et ad otium tollendum ; ac 
+con<lb ed="#L" break="no" n="94"/>cupiscentiam refrenandam: secundum quod ordinatur ad
+<lb ed="#L" n="95"/>victum quaerendum, cadit sub necessitate praecepti prout
+<lb ed="#L" n="96"/>est necessarium ad talem finem. Quia quod ordinatur ad
+<lb ed="#L" n="97"/>Jinem, a fine necessitatem habet: ut scilicet in tantum sit
+<lb ed="#L" n="98"/>necessarium, in quantum finis sine eo esse non potest. Et
+<lb ed="#L" n="99"/>ideo qui non habet aliunde unde vivere possit, tenetur
+<lb ed="#L" n="100"/>manibus operari: qui autem alias habet unde licite vivere
+<lb ed="#L" n="101"/>possit, non tenetur sub praecepto. — Secundum autem,
+<lb ed="#L" n="102"/>quod ordinatur ad otium tollendum, vel ad corporis 
+ma<lb ed="#L" break="no" n="103"/>cerationem, non cadit sub necessitate praecepti secundum
+<lb ed="#L" n="104"/>se consideratum: quia potest multis aliis modis vel caro
+<lb ed="#L" n="105"/>macerari, vel otium tolli. X
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Primum horum dictorum intellexit Sanctus Thomas
+<lb ed="#L" n="107"/>cum dixit quod sola victus necessitas cogit manibus 
+ope<lb ed="#L" break="no" n="108"/>rari. Alterum vero, cum dixit quod, quia otium per alias
+<lb ed="#L" n="109"/>utiliores occupationes potest auferri, et carnis 
+concupi<lb ed="#L" break="no" n="110"/>scentia validioribus remediis edomari, non imminet 
+neces<lb ed="#L" break="no" n="111"/>sitas operandi iis qui alias habent, aut habere possunt,
+<lb ed="#L" n="112"/>unde vivant.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>IV. Ad primum contra quartum vivendi modum, qui
+<lb ed="#L" n="114"/>est ut vivatur de iis quae ab aliis inferuntur, negat 
+as<lb ed="#L" break="no" n="115"/>sumptum. Quia voluntariam paupertatem assumentes ut
+<lb ed="#L" n="116"/>Christum sequantur, ad hoc omnia dimittunt ut communi
+<lb ed="#L" n="117"/>utilitati deserviant, sapientia, eruditione et exemplo 
+popu<lb ed="#L" break="no" n="118"/>lum illustrantes, vel oratione et intercessione sustentantes.
+<lb ed="#L" n="119"/>Non est autem inconveniens ut qui sua dimisit propter
+<lb ed="#L" n="120"/>aliquid quod in aliorum utilitatem vergit, de iis quae ab
+<lb ed="#L" n="121"/>aliis dantur sustentetur. — Declaratur exemplo militum, et
+<lb ed="#L" n="122"/>rectorum reipublicae. ES
+</p>
+            <p>
+               <lb ed="#L" n="123"/>2. Ad secundum dicit primo, quod isti maiora 
+repen<lb ed="#L" break="no" n="124"/>dunt, scilicet spiritualia pro temporalibus: ut patet ex 
+Apo<lb ed="#L" break="no" n="125"/>stolo, Il. Cor. vir. :
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Dicit secundo, quod voluntariam paupertatem assumentes
+<lb ed="#L" n="127"/>suis exemplis alios ad virtutes provocant, ad contemptum
+<lb ed="#L" n="128"/>scilicet divitiarum. — Advertendum quod per hoc 
+secun<lb ed="#L" break="no" n="129"/>dum dictum vult Sanctus Thomas respondere ei quod in
+<lb ed="#L" n="130"/>obiectione dicebatur, posse scilicet sustineri ut qui populo
+<lb ed="#L" n="131"/>serviunt in aliquo officio, ab aliis necessaria vitae recipiant;
+<lb ed="#L" n="132"/>non autem de aliis, qui in nullo officio ministrant populo.
+<lb ed="#L" n="133"/>Patet enim quod etiam isti sunt aliis sua voluntaria 
+pau<lb ed="#L" break="no" n="134"/>pertate utiles, dum suo exemplo eos ad bonum provocant,
+<lb ed="#L" n="135"/>eosque suis orationibus iuvant: licet in nullo particulari
+<lb ed="#L" n="136"/>officio illis ministrent. Et ideo possunt ab aliis necessaria
+<lb ed="#L" n="137"/>vitae recipere.
+</p>
+            <p>
+               <lb ed="#L" n="138"/>3. Ad tertium dicit quod isti sunt magis utiles aliis 
+pau<lb ed="#L" break="no" n="139"/>peribus quam damnosi: quia alios ad misericordiae opera
+<lb ed="#L" n="140"/>verbis et exemplis provocant, inducendo ad divitiarum
+<lb ed="#L" n="141"/>contemptum. Quanto enim aliquis minus divitias amat, et
+<lb ed="#L" n="142"/>est intentus virtuti, tanto facilius divitias in aliorum 
+ne<lb ed="#L" break="no" n="143"/>cessitates distribuit.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>4. Ad quartum, negat assumptum. Ad cuius probationem,
+<lb ed="#L" n="145"/>negat quod hic vivendi modus libertatem animi impediat.
+<lb ed="#L" n="146"/>Cum enim oporteat voluntarios pauperes in omni virtute
+<lb ed="#L" n="147"/>perfectos esse, propter modica quae ad sustentationem vitae
+<lb ed="#L" n="148"/>ab aliis accipiunt, libertatem animi non perdunt: quia homo
+<lb ed="#L" n="149"/>per ea quae contemnit, si sibi dentur, animi non perdit
+<lb ed="#L" n="150"/>libertatem.
+</p>
+            <p>
+               <pb ed="#L" n="411"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>5. Ad quintum, negat consequentiam. Quia sustentatio
+<lb ed="#L" n="2"/>pauperum non dependet a voluntate unius, sed ex 
+volun<lb ed="#L" break="no" n="3"/>tate multorum.. Non est autem probabile quod in 
+multi<lb ed="#L" break="no" n="4"/>tudine fidelis populi non sint multi qui prompto animo.
+<lb ed="#L" n="5"/>subveniant necessitatibus eorum quos in reverentia habent
+<lb ed="#L" n="6"/>propter perfectionem virtutis.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>6. Ad sextum dicit primo, quod non est inconveniens si
+<lb ed="#L" n="8"/>tales pauperes necessitates suas aliis exponant, et necessaria
+<lb ed="#L" n="9"/>tam pro se quam pro aliis petant. Quia et Apostoli hoc.
+<lb ed="#L" n="10"/>fecisse leguntur: non solum ab iis quibus praedicabant 
+ne<lb ed="#L" break="no" n="11"/>cessaria accipientes, tanquam ex potestate; sed etiam ex
+<lb ed="#L" n="12"/>mendicitate pro pauperibus qui erant in lerusalem 
+acci<lb ed="#L" break="no" n="13"/>pientes, — Dicit secundo, quod haec mendicitas non reddit
+<lb ed="#L" n="14"/>homines contemptibiles, si moderate fiat: scilicet ad. 
+ne<lb ed="#L" break="no" n="15"/>cessitatem, non ad superfluitatem; et sine importunitate,
+<lb ed="#L" n="16"/>considerata conditione personarum a quibus petitur, et loci
+<lb ed="#L" n="17"/>et temporis. Quod observari necesse est ab iis qui 
+perfe<lb ed="#L" break="no" n="18"/>ctionem vitae sectantur. z
+</p>
+            <p>
+               <lb ed="#L" n="19"/>7. Ad septimum, negat antecedens. Mendicitas enim non
+<lb ed="#L" n="20"/>habet aliquam speciem turpis lucri nisi cum importunitate
+<lb ed="#L" n="21"/>et indiscrete fiat, ad superfluitatem vel voluptatem.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>8. Ad octavum  non respondetSanctus Thomas, quia ex
+<lb ed="#L" n="23"/>solutionibus superius datis patet eius solutio. Patet enim
+<lb ed="#L" n="24"/>falsum esse quod maior sollicitudo requiratur ad 
+acqui<lb ed="#L" break="no" n="25"/>"rendum aliena, quantum ad sustentationem vitae sufficit,
+<lb ed="#L" n="26"/>quam ad divitiarum congregationem aut conservationem,
+<lb ed="#L" n="27"/>quae requiritur si quis debeat divitiis longo tempore uti.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>9. Ad impugnationem illius responsionis quae ponit
+<lb ed="#L" n="29"/>laudandam esse mendicitatem propter humilitatem  : dicit
+<lb ed="#L" n="30"/>primo, quod mendicitas cum quadam abiectione fit, quia
+<lb ed="#L" n="31"/>sicut pati ignobilius est quam agere, ita accipere quam
+<lb ed="#L" n="32"/>dare; licet, propter aliquid adiunctum, possit 
+recompen<lb ed="#L" break="no" n="33"/>satio fieri.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Dicit secundo, quod ad humilitatem pertinet ea quae
+<lb ed="#L" n="35"/>abiectionis sunt sponte assumere, non quidem simpliciter, 
+<lb ed="#L" n="36"/>sed secundum quod necessarium est: quia, cum humilitas
+<lb ed="#L" n="37"/>sit virtus, nihil indiscrete operatur.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Dicit tertio, quod humilitatis est si quis id quod 
+neces<lb ed="#L" break="no" n="39"/>sarium est fieri propter virtutem, non recusat propter 
+abie<lb ed="#L" break="no" n="40"/>ctionem: puta si caritas exigat quod proximis aliquod
+<lb ed="#L" n="41"/>abiectum officium impendatur. Ex quo infertur quod, si
+<lb ed="#L" n="42"/>necessarium est ad perfectionem pauperis vitae sectandam,
+<lb ed="#L" n="43"/>quod aliquis mendicet, hanc abiectionem ferre humilitatis est.
+</p>
+            <p>
+               <lb ed="#L" n="44"/>Dicit quarto, quod etiam quandoque abiecta assumere
+<lb ed="#L" n="45"/>virtutis est etiam si nostrum officium hoc non requirat:
+<lb ed="#L" n="46"/>aut ut alios nostro exemplo provocemus quibus incumbit,
+<lb ed="#L" n="47"/>ut id facilius ferant, sicut dux quandoque militis officio
+<lb ed="#L" n="48"/>fungitur; aut propter medicinam, puta, si alicuius animus
+<lb ed="#L" n="49"/>ad immoderatam excellentiam sit pronus, utiliter, debita
+<lb ed="#L" n="50"/>moderatione servata, utitur abiectis, vel sponte vel ab aliis
+<lb ed="#L" n="51"/>impositis, ad elationem animi comprimendam.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>10. Advertendum quod ex dictis vult Sanctus Thomas
+<lb ed="#L" n="53"/>negare illam propositionem, Per mendicitatem vie me
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="54"/>virtuti. Et cum probatur primo, quia virtuosius est dare
+<lb ed="#L" n="55"/>quam accipere: patet ex dictis quod, si sumatur accipere
+<lb ed="#L" n="56"/>absolute, id verum est; sed si sumatur cum aliquo. adiuncto,
+<lb ed="#L" n="57"/>scilicet quod propter virtutem aliquis illa abiectione utatur
+<lb ed="#L" n="58"/>quae coniungitur acceptioni ab alio, non est verum.
+</p>
+            <p>
+               <lb ed="#L" n="59"/>Cum,.etiam, probatur quia habet. speciem turpis lucri:
+<lb ed="#L" n="60"/>patet hoc falsum esse quando mendicitas, quae cum 
+qua<lb ed="#L" break="no" n="61"/>dam. abiectione fit, propter virtutem assumitur.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>V. Ultimo loco, errorem existimantium omnem 
+sollicitu<lb ed="#L" break="no" n="63"/>dinem a Domino interdictam de victu quaerendo  (qui etiam
+<lb ed="#L" n="64"/>superius  est improbatus), dicit Sanctus Thomas omnino
+<lb ed="#L" n="65"/>irrationabilem esse. Primo, quia sequeretur hominem nihil
+<lb ed="#L" n="66"/>temporale  :debere agere: cum omnis actus sollicitudinem
+<lb ed="#L" n="67"/>requirat (scilicet ad hoc ut bene et laudabiliter fiat). Hoc
+<lb ed="#L" n="68"/>autem neque possibile neque rationabile est observari.
+<lb ed="#L" n="69"/>- Tum quia, cum corporales actiones ordinentur ad ea
+<lb ed="#L" n="70"/>quae sunt necessaria ad conservationem vitae, si quis eas
+<lb ed="#L" n="71"/>praetermittit, vitam suam negligit, quam quilibet 
+conser<lb ed="#L" break="no" n="72"/>vare tenetur. - Tum quia expectare a Deo subsidium in
+<lb ed="#L" n="73"/>iis in quibus se aliquis potest per propriam actionem iuvare,
+<lb ed="#L" n="74"/>praetermissa propria operatione, insipientis est, et Deum
+<lb ed="#L" n="75"/>tentantis: divinaeque ordinationi repugnatur, et bonitati
+<lb ed="#L" n="76"/>ipsius, qua rebus Deus providet non. immediate omnia
+<lb ed="#L" n="77"/>agendo, sed alia ad- proprias actiones movendo.
+</p>
+            <p>
+               <lb ed="#L" n="78"/>Quomodo autem intelligenda sint Domini verba, exponit
+<lb ed="#L" n="79"/>inquiens quod, cum in nobis sit agere, non autem in nobis
+<lb ed="#L" n="80"/>sit ut nostrae actiones debitum consequantur effectum,
+<lb ed="#L" n="81"/>propter impedimenta quae possunt contingere; praecipit
+<lb ed="#L" n="82"/>Dominus nos non debere esse sollicitos de eo quod ad
+<lb ed="#L" n="83"/>nos non pertinet, sed ad divinam ordinationem, scilicet de
+<lb ed="#L" n="84"/>eventibus nostrarum actionum. Non autem prohibuit nos
+<lb ed="#L" n="85"/>esse sollicitos de eo quod ad nos pertinet, scilicet de nostro
+<lb ed="#L" n="86"/>opere. Ex quo sequitur eum contra Domini praeceptum
+<lb ed="#L" n="87"/>non agere qui de agendis ab ipso sollicitudinem habet:
+<lb ed="#L" n="88"/>sed eum qui sollicitus est de iis quae possunt emergere
+<lb ed="#L" n="89"/>etiam si ipse proprias operationes exequatur, ita quod ad
+<lb ed="#L" n="90"/>obviandum huiusmodi. eventibus debitas actiones 
+praeter<lb ed="#L" break="no" n="91"/>mittit. Hoc enim ad errorem gentilium pertinere videtur,
+<lb ed="#L" n="92"/>qui divinam negabant providentiam. Propterea Dominus
+<lb ed="#L" n="93"/>concludit quod »onm simus solliciti in crastinum : non ita
+<lb ed="#L" n="94"/>scilicet quod non conservemus ea quae sunt nobis in
+<lb ed="#L" n="95"/>crastinum necessaria; sed ne de futuris eventibus: 
+sollici<lb ed="#L" break="no" n="96"/>temur, cum desperatione divini auxilii; vel ne. praeoccupet
+<lb ed="#L" n="97"/>nos sollicitudo quae erit habenda in crastino. Unde 
+subdi<lb ed="#L" break="no" n="98"/>ur: <quote>Sufficit enim diei malitia sua.</quote>
+            </p>
+            <p>
+               <lb ed="#L" n="99"/>EX OMNIBUS PRAEDICTIS infert Sanctus Thomas quod patet
+<lb ed="#L" n="100"/>diversis modis posse vivere eos qui voluntariam 
+pauper<lb ed="#L" break="no" n="101"/>tatem sectantur: tanto autem aliquem modum 
+laudabilio<lb ed="#L" break="no" n="102"/>rem esse, quanto magis a sollicitudine temporalium, et
+<lb ed="#L" n="103"/>occupatione circa ea, animum hofhinis reddit immunem.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>De hac materia paupertatis voluntariae Sanctus 
+Tho<lb ed="#L" break="no" n="105"/>mas II II, loco praeallegato, et in Tractatu Contra 
+im<lb ed="#L" break="no" n="106"/>pugnantes Religionem , diffuse pertractat.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

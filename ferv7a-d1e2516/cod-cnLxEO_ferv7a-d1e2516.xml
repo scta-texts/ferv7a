@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 99</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 99</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="308"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2516"><!-- ferv7a-l3c99 -->
+            <head>Capitulum 99</head>
+            <p>
+               <pb ed="#L" n="308"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=308"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>CUM ostenderit Sanctus "Thomas quo pacto possit Deus
+<lb ed="#L" n="3"/>E praeter ordinem suae sapientiae  agere, vult ulterius
+<lb ed="#L" n="4"/>ostendere quomodo agere possit praeter ordinem ab ipso
+<lb ed="#L" n="5"/>rebus inditum . Circa hoc autem duo facit: primo, 
+pro<lb ed="#L" break="no" n="6"/>positum ostendit; secundo, de ipsis rebus a Deo praeter
+<lb ed="#L" n="7"/>ordinem naturae factis determinat, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Circa primum tria facit: primo, propositum probat;
+<lb ed="#L" n="9"/>secundo, removet quoddam dubium ; tertio, assignat 
+ra<lb ed="#L" break="no" n="10"/>tionem praetermissionis huius ordinis a Deo .
+</p>
+            <p>
+               <lb ed="#L" n="11"/>I. Quantum ad primum, proponit hanc conclusionem:
+<lb ed="#L" n="12"/>quod praeter ordinem a Deo rebus inditum, qui est ut
+<lb ed="#L" n="13"/>inferiora per superiora moveantur, potest ipse facere:
+<lb ed="#L" n="14"/>effectum scilicet aliquem in inferioribus agendo, nihil ad
+<lb ed="#L" n="15"/>hoc operante superiori agente, qui inquam infra Deum sit.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Et arguit primo sic . Deus operatur per voluptatem,
+<lb ed="#L" n="17"/>et non per necessitatem naturae. Ergo statim sine medio
+<lb ed="#L" n="18"/>potest producere quemcumque effectum qui suam non
+<lb ed="#L" n="19"/>excedat virtutem. Ergo minores effectus, qui fiunt per
+<lb ed="#L" n="20"/>causas inferiores, potest facere immediate, absque causis
+<lb ed="#L" n="21"/>secundis.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Consequentia prima probatur. Tum ex differentia inter
+<lb ed="#L" n="23"/>agens per necessitatem naturae, et agens per voluntatem:
+<lb ed="#L" n="24"/>quia videlicet agens naturale maximae virtutis non potest
+<lb ed="#L" n="25"/>immediate producere aliquem effectum parvum, sed bene
+<lb ed="#L" n="26"/>agens per voluntatem. 'TTum exemplo artificis: 
+perfectis<lb ed="#L" break="no" n="27"/>simus enim artifex potest facere opus quale facit artifex
+<lb ed="#L" n="28"/>imperfectus. — Secunda vero relinquitur pro manifesta.
+</p>
+            <p>
+               <lb ed="#L" n="29"/>2. Circa consequens primae consequentiae, advertendum
+<lb ed="#L" n="30"/>quod ista dictio statim proprie quidem significat sine 
+in<lb ed="#L" break="no" n="31"/>termissione, et tempore immediate sequenti, sive parvo 
+in<lb ed="#L" break="no" n="32"/>teriecto tempore: sed et ab hoc etiam derivatur ad 
+signi<lb ed="#L" break="no" n="33"/>ficandum idem quod immediate immediatione causalitatis
+<lb ed="#L" n="34"/>et efficientiae, quasi dicatur aliquis effectus statim produci
+<lb ed="#L" n="35"/>ab aliqua causa quia inter causam et talem effectum non
+<lb ed="#L" n="36"/>cadit duratio alterius producti a tali causa, aut alia causa
+<lb ed="#L" n="37"/>operans. Cum ergo dicitur quod agens per voluntatem
+<lb ed="#L" n="38"/>statim sine medio potest producere effectum quemcumque
+<lb ed="#L" n="39"/>qui suam non excedat virtutem, non accipitur ly statim
+<lb ed="#L" n="40"/>in propria significatione, quia hic non intendit Sanctus
+<lb ed="#L" n="41"/>"Thomas de immediatione durationis inter causam et 
+ef<lb ed="#L" break="no" n="42"/>fectum tractare: sed accipitur transumptive, ut idem est
+<lb ed="#L" n="43"/>quod nullo mediante effectu, nullaque intercedente alia
+<lb ed="#L" n="44"/>causa. Unde ly sine medio est expositio illius termini statim.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>3. Circa differentiam hic assignatam inter agens per 
+ne<lb ed="#L" break="no" n="46"/>cessitatem naturae et agens per voluntatem, considerandum
+<lb ed="#L" n="47"/>quod agens per necessitatem naturae agit per formam per
+<lb ed="#L" n="48"/>quam est in actu: — unde hic dicitur quod ab ipso non
+<lb ed="#L" n="49"/>potest sequi effectus nisi secundum modum virtutis activae,
+<lb ed="#L" n="50"/>et modo illius formae — agens vero per voluntatem agit per
+<lb ed="#L" n="51"/>formam quam concipit. Idcirco oportet effectum causae
+<lb ed="#L" n="52"/>agentis de necessitate naturae proportionari formae per
+<lb ed="#L" n="53"/>quam agens est in actu: effectum autem agentis per 
+vo<lb ed="#L" break="no" n="54"/>luntatem proportionari conceptioni et ordinationi agentis.
+<lb ed="#L" n="55"/>Ideo bene inquit Sanctus "lThomas quod agens naturale
+<lb ed="#L" n="56"/>quod est maximae virtutis, non potest immediate, hoc est,
+<lb ed="#L" n="57"/>nulla alia concurrente inferiori causa, producere parvum
+<lb ed="#L" n="58"/>effectum, sed producit effectum suae virtuti 
+proportio<lb ed="#L" break="no" n="59"/>natum: agens vero per voluntatem, sicut artifex 
+perfectis<lb ed="#L" break="no" n="60"/>simus, potest facere effectum immediate qualem ipsum
+<lb ed="#L" n="61"/>facit agens imperfectum. Potest enim perfectissimus artifex
+<lb ed="#L" n="62"/>opus tale concipere quale imperfectus artifex facit, et 
+fa<lb ed="#L" break="no" n="63"/>cere opus ad similitudinem illius formae conceptae, nullo
+<lb ed="#L" n="64"/>interveniente imperfecto artifice. Sed agens naturale 
+per<lb ed="#L" break="no" n="65"/>fectissimae virtutis necessario agit effectum suae formae
+<lb ed="#L" n="66"/>naturali similem: et per consequens non potest seipso solo
+<lb ed="#L" n="67"/>parvum, et eius virtuti improportionatum opus efficere.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>II. Occurrit autem in verbis Sancti Thomae dubium.
+<lb ed="#L" n="69"/>Inquit enim agens maximae virtutis producere immediate
+<lb ed="#L" n="70"/>effectum suae virtuti proportionatum : et tamen addit quod
+<lb ed="#L" n="71"/>in tali effectu invenitur quandoque minor virtus quam in
+<lb ed="#L" n="72"/>causa. Videtur enim esse contradictio quod effectus sit
+<lb ed="#L" n="73"/>virtuti causae proportionatus, et tamen quod in ipso sit
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="74"/>minor virtus quam in causa: nam si in eo est minor virtus
+<lb ed="#L" n="75"/>quam in causa, iam non est virtuti causae proportionatus.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>Respondetur quod dupliciter contingit effectum esse
+<lb ed="#L" n="77"/>proportionatum causae. Uno modo, per aequalitatem 
+per<lb ed="#L" break="no" n="78"/>fectionis, ut patet in iis quae a causa univoca producuntur:
+<lb ed="#L" n="79"/>homo enim genitus est aequalis perfectionis essentialis cum
+<lb ed="#L" n="80"/>homine generante. Alio modo, per adaequationem 
+cau<lb ed="#L" break="no" n="81"/>salitatis et dependentiae: quia videlicet causalitas causae
+<lb ed="#L" n="82"/>non potest ad aliquid maius se extendere, et ipse effectus
+<lb ed="#L" n="83"/>est nobilissimum quod ab ipsa dependere potest. Effectum
+<lb ed="#L" n="84"/>primo modo virtuti causae proportionatum, oportet esse
+<lb ed="#L" n="85"/>aequalis virtutis ad agendum cum sua causa. Videmus
+<lb ed="#L" n="86"/>enim quod effectus univocus suae causae, cum ad 
+per<lb ed="#L" break="no" n="87"/>fectum venerit, potest omnem effectum producere quem
+<lb ed="#L" n="88"/>sua causa poterat, quantum est ex conditione formae: licet
+<lb ed="#L" n="89"/>aliquando ex indispositione materiae impediatur. Et tunc
+<lb ed="#L" n="90"/>effectum esse proportionatum virtuti causae, et ipsum esse
+<lb ed="#L" n="91"/>minoris virtutis, contradictionem implicat. — Effectum vero
+<lb ed="#L" n="92"/>secundo modo proportionatum virtuti causae, non oportet
+<lb ed="#L" n="93"/>esse aequalis virtutis cum sua causa, ut patet in effectu
+<lb ed="#L" n="94"/>causae aequivocae: nullus enim solis effectus ab ipso 
+im<lb ed="#L" break="no" n="95"/>mediate productus est aequalis virtutis cum sole; 
+conti<lb ed="#L" break="no" n="96"/>netur enim effectus in sua causa aequivoca secundum
+<lb ed="#L" n="97"/>similitudinem formae excellentioris, ut in plerisque locis
+<lb ed="#L" n="98"/>inquit Sanctus Thomas . Et ideo effectum huiusmodi esse
+<lb ed="#L" n="99"/>proportionatum hoc modo virtuti causae, et ipsum esse
+<lb ed="#L" n="100"/>minoris virtutis quam sit causa, nullam implicat 
+contra<lb ed="#L" break="no" n="101"/>dictionem. Hoc secundo modo accipit Sanctus Thomas
+<lb ed="#L" n="102"/>effectum esse proportionatum virtuti causae, non autem
+<lb ed="#L" n="103"/>primo modo. Ideo obiectio non sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="104"/>Ill. Secundo . Virtus divina comparatur ad omnes 
+vir<lb ed="#L" break="no" n="105"/>tutes activas sicut virtus universalis ad virtutes particulares.
+<lb ed="#L" n="106"/>Estque Deus agens per intellectum, qui est cognoscitivus non
+<lb ed="#L" n="107"/>solum primarum et universalium causarum, sed omnium
+<lb ed="#L" n="108"/>particularium. Ergo potest immediate producere omnem
+<lb ed="#L" n="109"/>effectum quem producit quodcumque particulare agens.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Probatur consequentia. Quia causa universalis ad 
+par<lb ed="#L" break="no" n="111"/>ticularem effectum producendum determinari potest duplici
+<lb ed="#L" n="112"/>modo: scilicet et per causam particularem mediam, ut
+<lb ed="#L" n="113"/>virtus solis ad hominem per virtutem quae est in semine,
+<lb ed="#L" n="114"/>et virtus propositionis universalis per assumptionem 
+par<lb ed="#L" break="no" n="115"/>ticularis propositionis; et per intellectum, qui determinatam
+<lb ed="#L" n="116"/>formam apprehendit, et eam in effectum producit.
+</p>
+            <p>
+               <lb ed="#L" n="117"/>2. Ad evidentiam huius rationis, considerandum quod
+<lb ed="#L" n="118"/>ad hoc ut una causa possit in effectum alterius | causae,
+<lb ed="#L" n="119"/>requiritur et quod habeat virtutem quae ad illum effectum
+<lb ed="#L" n="120"/>se extendat; et quod ad illum effectum sit determinata.
+<lb ed="#L" n="121"/>Quodcumque enim istorum deficeret, non posset ille 
+ef<lb ed="#L" break="no" n="122"/>fectus a tali causa provenire. Ut ergo ostenderet Sanctus
+<lb ed="#L" n="123"/>Thomas. quod Deus habet virtutem se extendentem ^ad
+<lb ed="#L" n="124"/>omnes particulares effectus, assumpsit quod. virtus divina
+<lb ed="#L" n="125"/>comparatur ad omnes virtutes activas sicut virtus 
+univer<lb ed="#L" break="no" n="126"/>salis ad virtutes particulares: virtus enim universalis ad
+<lb ed="#L" n="127"/>omnem effectum causae particularis se extendit, cum causa
+<lb ed="#L" n="128"/>particularis agat virtute causae universalis. Ut autem 
+osten<lb ed="#L" break="no" n="129"/>deret quod virtus divina universalis ad omnem effectum
+<lb ed="#L" n="130"/>particularem determinari potest absque concursu alterius
+<lb ed="#L" n="131"/>causae particularis, assumpsit. quod intellectus divinus est
+<lb ed="#L" n="132"/>cognoscitivus non solum suae essentiae, quae est tanquam.
+<lb ed="#L" n="133"/>universalis virtus activa, et primarum causarum, sed etiam
+<lb ed="#L" n="134"/>omnium particularium. Determinatur enim causa 
+univer<lb ed="#L" break="no" n="135"/>salis agens per intellectum ad particularem effectum, non
+<lb ed="#L" n="136"/>solum per causam particularem mediam, sed etiam 
+quan<lb ed="#L" break="no" n="137"/>doque per solam determinationem intellectus, absque 
+con<lb ed="#L" break="no" n="138"/>cursu alicuius alterius causae particularis.
+</p>
+            <p>
+               <lb ed="#L" n="139"/>IV. Sed videtur ratio haec non valere. Non enim videtur
+<lb ed="#L" n="140"/>sequi: Aedificator habet virtutem ad domum producendam
+<lb ed="#L" n="141"/>se extendentem. Et non solum causas universales domus.
+<lb ed="#L" n="142"/>cognoscit, sed etiam particulares, et particularia 
+instru<lb ed="#L" break="no" n="143"/>menta. Ergo potest immediate domum producere. Indiget
+<lb ed="#L" n="144"/>enim certis et determinatis instrumentis, sine quibus domum
+<lb ed="#L" n="145"/>efficere non potest. - Ergo nec etiam valet: Deus habet vir-
+<pb ed="#L" n="309"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tutem se ad omnem particularem effectum | extendentem.
+<lb ed="#L" n="2"/>Et cognoscit omnium particulares causas. Ergo 
+unum<lb ed="#L" break="no" n="3"/>quemque effectum potest immediate producere.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Dicitur quod ratio optime concludit si bene intelligatur.
+<lb ed="#L" n="5"/>Fit enim comparatio virtutis divinae universalis non ad
+<lb ed="#L" n="6"/>instrumenta aliqua habentia solum rationem instrumenti,
+<lb ed="#L" n="7"/>quae scilicet non per propriam formam, sed tantum ut mota
+<lb ed="#L" n="8"/>a principali agente operantur; sed ad causas particulares
+<lb ed="#L" n="9"/>per proprias formas sibi similes effectus producentes, et
+<lb ed="#L" n="10"/>causae ipsi universali subordinatas. Tunc enim ratio sic
+<lb ed="#L" n="11"/>procedit. In omnem effectum potest divina virtus absque
+<lb ed="#L" n="12"/>propria illius causa, ad quem per suum intellectum 
+de<lb ed="#L" break="no" n="13"/>terminari potest. Sed ad omnem effectum cuiuscumque
+<lb ed="#L" n="14"/>agentis particularis potest determinari per suum intellectum.
+<lb ed="#L" n="15"/>Ergo potest in omnem effectum absque propria causa illius,
+<lb ed="#L" n="16"/>in quod potest quodcumque agens particulare. - Maiorem
+<lb ed="#L" n="17"/>supponit ex praecedentibus , ubi ostensum est divinam
+<lb ed="#L" n="18"/>voluntatem divinamque scientiam efficacissima esse per se
+<lb ed="#L" n="19"/>ad agendum quicquid fuerit divino intellectu conceptum
+<lb ed="#L" n="20"/>tanquam producendum. —- Minorem vero probat, quia 
+intel<lb ed="#L" break="no" n="21"/>lectus divinus intelligit non solum causas universales, sed
+<lb ed="#L" n="22"/>etiam particulares; et per consequens potest virtutem 
+di<lb ed="#L" break="no" n="23"/>vinam determinare ad effectus particularium causarum.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>Ex quo patet instantiam contra rationem  adductam
+<lb ed="#L" n="25"/>nullam esse. Tum quia non fit in hac ratione comparatio
+<lb ed="#L" n="26"/>virtutis divinae ad particulares causas tanquam ad 
+instru<lb ed="#L" break="no" n="27"/>menta praecise, ut fit in instantia adducta. - Tum quia
+<lb ed="#L" n="28"/>aedificatoris scientia et voluntas non sunt per se efficacia
+<lb ed="#L" n="29"/>ad domum producendam, sicut divina scientia et divina
+<lb ed="#L" n="30"/>voluntas.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>V. Tertio. Deus in prima rerum institutione omnes res
+<lb ed="#L" n="32"/>per creationem immediate produxit in esse. Ergo potest
+<lb ed="#L" n="33"/>immediate unamquamque rem producere, sive movere  ad
+<lb ed="#L" n="34"/>aliquem effectum, absque mediis causis. - Probatur 
+conse<lb ed="#L" break="no" n="35"/>quentia. Quia, cum accidentia consequantur principia 
+sub<lb ed="#L" break="no" n="36"/>stantialia rei, ille qui immediate substantiam rei producit,
+<lb ed="#L" n="37"/>potest immediate circa ipsam rem operari quaecumque
+<lb ed="#L" n="38"/>ad substantiam eius consequuntur, ut patet de generante.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>2. Adverte quod vis rationis consistit in hoc quod,
+<lb ed="#L" n="40"/>quamvis inferiores causae habeant essentialem ordinem ad
+<lb ed="#L" n="41"/>superiores, ut sine ipsis in suas actiones naturales et in
+<lb ed="#L" n="42"/>naturales effectus non possint, Deo hunc ipsum ordinem
+<lb ed="#L" n="43"/>statuente, — non enim ignis calefaceret aut generaret alium
+<lb ed="#L" n="44"/>ignem, si motus caeli cessaret — potest tamen Deus, qui
+<lb ed="#L" n="45"/>universa immediate creavit, movere unamquamque rem
+<lb ed="#L" n="46"/>ad suam operationem naturalem, consequentem rei 
+sub<lb ed="#L" break="no" n="47"/>stantiam, absque concursu superioris causae agentis, sicut,
+<lb ed="#L" n="48"/>cessante motu caeli, posset movere ignem ad calefactionem;
+<lb ed="#L" n="49"/>quia, cum immediate produxerit rei substantiam secundum
+<lb ed="#L" n="50"/>suam speciem, potest etiam ipsam rem movere immediate
+<lb ed="#L" n="51"/>ad omnem operationem naturam rei consequentem; sicut
+<lb ed="#L" n="52"/>generans, dans formam, dat etiam omnes proprietates et
+<lb ed="#L" n="53"/>motus consequentes. Similiter, cum immediate omnia per
+<lb ed="#L" n="54"/>creationem produxerit, constat quod etiam nunc potest
+<lb ed="#L" n="55"/>unumquemque effectum immediate producere, absque 
+me<lb ed="#L" break="no" n="56"/>diarum scilicet causarum concursu. Ex quo patet quod
+<lb ed="#L" n="57"/>agere potest praeter ordinem rebus ab ipso inditum.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>VI. Quarto. Ordo rerum profluit a Deo in res secundum
+<lb ed="#L" n="59"/>quod est in intellectu ipsius praemeditatus. Declaratur per
+<lb ed="#L" n="60"/>similitudinem in rebus humanis: princeps enim civitatis
+<lb ed="#L" n="61"/>ordinem apud se praemeditatum cuilibet  imponit. Sed
+<lb ed="#L" n="62"/>intellectus divinus non est ad hunc ordinem de necessitate
+<lb ed="#L" n="63"/>determinatus, ut nullum alium intelligere possit. Ergo 
+po<lb ed="#L" break="no" n="64"/>test, praeter inferiores causas, effectum illis causis proprium
+<lb ed="#L" n="65"/>operari. — Probatur minor. Quia et nos possumus alium
+<lb ed="#L" n="66"/>ordinem rerum intelligere: puta quod Deus hominem ex
+<lb ed="#L" n="67"/>terra absque semine formet.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Quinto. Repraesentatio divinae bonitatis in rebus est
+<lb ed="#L" n="69"/>finis productionis rerum a Deo: - intellige de fine ipsis
+<lb ed="#L" n="70"/>rebus intrinseco. Sed potest divina bonitas, praeter hunc
+<lb ed="#L" n="71"/>ordinem rerum, alio modo repraesentari. Ergo voluntas
+<lb ed="#L" n="72"/>divina non est determinata ad hunc ordinem causarum et
+<lb ed="#L" n="73"/>effectuum, quin alium velle possit. Ergo etc. — Probatur
+<lb ed="#L" n="74"/>minor: quam tamen Sanctus Thomas implicite dumtaxat
+<lb ed="#L" n="75"/>ponit. Quia ordo rebus inditus non repraesentat divinam
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>bonitatem perfecte. Quod autem non repraesentatur 
+per<lb ed="#L" break="no" n="77"/>fecte per aliquod exemplatum, potest iterum alio modo
+<lb ed="#L" n="78"/>repraesentari.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Circa consequens illatum, advertendum quod dupliciter
+<lb ed="#L" n="80"/>potest. intelligi voluntatem divinam non esse ad hunc 
+or<lb ed="#L" break="no" n="81"/>dinem determinatam, et posse alium ordinem velle. Uno
+<lb ed="#L" n="82"/>modo, ut intelligamus divinam voluntatem posse desinere
+<lb ed="#L" n="83"/>velle hunc ordinem rerum quem rebus imposuit, et posse
+<lb ed="#L" n="84"/>aliam volitionem alterius ordinis de novo habere, Et ad
+<lb ed="#L" n="85"/>bunc sensum non intelligitur. Hoc enim esset ponere
+<lb ed="#L" n="86"/>mutabilitatem in divina voluntate. — Alio modo, ut 
+in<lb ed="#L" break="no" n="87"/>telligamus divinam voluntatem non habere necessariam
+<lb ed="#L" n="88"/>babitudinem et inclinationem ad hunc ordinem rebus 
+im<lb ed="#L" break="no" n="89"/>positum, quasi non potuerit alium ordinem velle ab 
+ae<lb ed="#L" break="no" n="90"/>terno, sed necessario hunc ordinem voluerit. Et ad hunc
+<lb ed="#L" n="91"/>sensum intelligitur: et est verum. Ostensum est enim in
+<lb ed="#L" n="92"/>superioribus  voluntatem divinam ad nullam rem creatam
+<lb ed="#L" n="93"/>necessariam habere habitudinem: cum nulla res creata sit
+<lb ed="#L" n="94"/>talis ut sine ipsa divina bonitas esse non possit. Unde sicut
+<lb ed="#L" n="95"/>dicimus Deum ab aeterno hunc ordinem rerum voluisse,
+<lb ed="#L" n="96"/>ita dicimus ipsum potuisse alium ordinem rerum velle;
+<lb ed="#L" n="97"/>et quod de facto alium ordinenr aliquando in aliquibus
+<lb ed="#L" n="98"/>rebus fore praeter ordinem naturae, ab aeterno voluit; ut
+<lb ed="#L" n="99"/>patet in iis quae Deus quandoque miraculose operatur,
+<lb ed="#L" n="100"/>quae non est dicendum non esse a Deo ab aeterno 
+vo<lb ed="#L" break="no" n="101"/>lita et praeordinata, cum divina voluntas sit immutabilis.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>VII. Sexto. Ex hoc quod anima aliquid imaginatur et
+<lb ed="#L" n="103"/>vehementer ad illud afficitur, sequitur aliquando 
+immu<lb ed="#L" break="no" n="104"/>tatio in corpore ad sanitatem vel aegritudinem, absque
+<lb ed="#L" n="105"/>actione principiorum naturalium quae nata sunt sanitatem
+<lb ed="#L" n="106"/>vel aegritudinem causare. Ergo multo magis ex voluntate
+<lb ed="#L" n="107"/>divina potest aliquis effectus in creaturis sequi absque
+<lb ed="#L" n="108"/>causis eius naturalibus. — Probatur consequentia. Quia
+<lb ed="#L" n="109"/>universa creatura magis est Deo subdita quam corpus 
+hu<lb ed="#L" break="no" n="110"/>manum animae eius: cum anima sit corpori 
+proportio<lb ed="#L" break="no" n="111"/>nata ut eius forma, Deus autem omnem proportionem
+<lb ed="#L" n="112"/>creaturae excedat, et per consequens maiorem virtutem
+<lb ed="#L" n="113"/>habeat et ampliorem.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>Ad evidentiam antecedentis, considerandum est quod
+<lb ed="#L" n="115"/>illud non sic est intelligendum quasi imaginatio animae
+<lb ed="#L" n="116"/>per se immediate causet sanitatem vel aegritudinem in 
+cor<lb ed="#L" break="no" n="117"/>pore, hoc enim negat Sanctus "Thomas Tertia, q. xir, a. 3,
+<lb ed="#L" n="118"/>ad 3, et inferius capite cm: sed quia ex imaginatione 
+se<lb ed="#L" break="no" n="119"/>quuntur aliquae passiones appetitus, per quas aliquo modo
+<lb ed="#L" n="120"/>variatur motus cordis et spirituum, ex quibus retractis ad
+<lb ed="#L" n="121"/>cor, vel ad membra diffusis, quandoque sequitur alteratio in
+<lb ed="#L" n="122"/>corpore ad aegritudinem vel sanitatem, praecipue quando
+<lb ed="#L" n="123"/>materia est disposita, Quod vero inquit Sanctus Thomas,
+<lb ed="#L" n="124"/>quod ab imaginatione fit talis immutatio absque actione
+<lb ed="#L" n="125"/>principiorum naturalium quae nata sunt aegritudinem vel
+<lb ed="#L" n="126"/>sanitatem causare, intelligitur quod non fit mediantibus
+<lb ed="#L" n="127"/>ommibus principiis quibus solent huiusmodi alterationes
+<lb ed="#L" n="128"/>naturali ordine provenire, puta mediante putrefactione 
+ali<lb ed="#L" break="no" n="129"/>cujus humoris, aut mediante aliqua cibi indigestione in
+<lb ed="#L" n="130"/>stomacho; sed ex sola causatione passionis ab ipsa 
+ima<lb ed="#L" break="no" n="131"/>ginatione causatae, ex qua passione, variato motu cordis
+<lb ed="#L" n="132"/>et.spirituum, sequuntur huiusmodi alterationes.
+</p>
+            <p>
+               <lb ed="#L" n="133"/>VIII. Septimo. Proprium effectum virtutum 
+elementa<lb ed="#L" break="no" n="134"/>rium interdum virtus caelestis effucit absque actione 
+ele<lb ed="#L" break="no" n="135"/>menti: sicut cum sol calefacit absque ignis actione. Ergo
+<lb ed="#L" n="136"/>multo magis divina virtus, absque actione causarum 
+crea<lb ed="#L" break="no" n="137"/>tarum, potest earum proprios effectus producere. — Patet
+<lb ed="#L" n="138"/>consequentia. Quia naturae ordine virtutes activae 
+elemen<lb ed="#L" break="no" n="139"/>torum sub virtutibus corporum caelestium continentur:
+<lb ed="#L" n="140"/>sicut scilicet omnes aliae virtutes sub divina continentur
+<lb ed="#L" n="141"/>virtute.
+</p>
+            <p>
+               <lb ed="#L" n="142"/>Sed videtur in hac ratione assumere Sanctus Thomas
+<lb ed="#L" n="143"/>oppositum eius quod in prima ratione assumpsit . Ibi
+<lb ed="#L" n="144"/>enim dixit quod ab agente per necessitatem naturae non
+<lb ed="#L" n="145"/>potest sequi effectus nisi secundum modum virtutis activae,
+<lb ed="#L" n="146"/>et ideo agens maximae virtutis non potest immediate 
+pro<lb ed="#L" break="no" n="147"/>ducere parvum effectum: ex quo sequitur caelum, quod
+<lb ed="#L" n="148"/>est agens de necessitate naturae et est maximae virtutis,
+<lb ed="#L" n="149"/>non posse immediate producere calorem qui est ignis 
+ef<lb ed="#L" break="no" n="150"/>fectus, cum parvus effectus sit in comparatione ad virtutem
+<pb ed="#L" n="310"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>caelestem, aut effectum cuiuscumque alterius inferioris.
+<lb ed="#L" n="2"/>Huius autem oppositum in hac ratione dicit. j
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Respondetur quod nulla est contradictio. Non enim
+<lb ed="#L" n="4"/>contradicunt, solem non producere parvum effectum, sive
+<lb ed="#L" n="5"/>effectum elementi, immediate se solo: et, ipsum 
+quan<lb ed="#L" break="no" n="6"/>doque producere effectum elementarem, puta. calorem,
+<lb ed="#L" n="7"/>absque elementi actione. Nam licet absque ignis actione
+<lb ed="#L" n="8"/>sol quandoque calefaciat aquam aut ferrum, non tamen
+<lb ed="#L" n="9"/>hoc se solo agit immediate, sed per multa media hic parvus
+<lb ed="#L" n="10"/>effectus a sole provenit.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Si autem instetur quoniam Sanctus Thomas, in QQ.
+<lb ed="#L" n="12"/>de Malo, q. xvi, a. 9 et 10, inquit debilem effectum ab
+<lb ed="#L" n="13"/>agente remoto provenire, et dat exemplum de sole 
+imme<lb ed="#L" break="no" n="14"/>diate causante generationem imperfectorum animalium: —
+<lb ed="#L" n="15"/>respondetur quod non intendit removere omne medium
+<lb ed="#L" n="16"/>in huiusmodi causis quae naturaliter operantur, sed tantum
+<lb ed="#L" n="17"/>agens univocum cum effectu. Sensus enim est quod 
+de<lb ed="#L" break="no" n="18"/>bilis effectus potest provenire ab agente remotiori, nullo
+<lb ed="#L" n="19"/>agente univoco ad illius productionem concurrente.
+</p>
+            <p>
+               <lb ed="#L" n="20"/>IX. Quantum ad secundum, removet quoddam dubium .
+<lb ed="#L" n="21"/>Posset enim aliquis contra determinationem factam hac
+<lb ed="#L" n="22"/>ratione instare. Deus ordinem istum rebus indidit, Ergo
+<lb ed="#L" n="23"/>non potest esse absque eius mutatione ut praeter hunc
+<lb ed="#L" n="24"/>ordinem operetur. Sed ipse mutari non potest. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Respondet Sanctus Thomas negando consequentiam.
+<lb ed="#L" n="26"/>Quia ordo rebus inditus non est ut ubique vel semper idem
+<lb ed="#L" n="27"/>eveniat: sed ut frequenter, et in paucioribus aliter accidat,
+<lb ed="#L" n="28"/>vel propter defectum virtutis, vel propter materiae 
+indis<lb ed="#L" break="no" n="29"/>positionem, vel propter aliquod fortius agens; sicut cum
+<lb ed="#L" n="30"/>natura generat hominem cum sex digitis in manu. Et
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="31"/>utrumque sub divina providentia cadit. Unde in oppositum
+<lb ed="#L" n="32"/>rationis, arguitur sic. Per aliquam virtutem creatam fieri
+<lb ed="#L" n="33"/>potest ut ordo naturalis mutetur ab eo quod est frequenter,
+<lb ed="#L" n="34"/>in id quod est raro, absque mutatione providentiae. Ergo
+<lb ed="#L" n="35"/>multo magis divina virtus aliquid facere potest sine 
+prae<lb ed="#L" break="no" n="36"/>iudicio providentiae suae, praeter ordinem rebus 
+natura<lb ed="#L" break="no" n="37"/>libus inditum.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>Ad evidentiam huius responsionis, considerandum est
+<lb ed="#L" n="39"/>quod, sicut Deus ab aeterno ordinavit ut aliquae causae
+<lb ed="#L" n="40"/>pro maiori parte suos effectus producerent, ita ordinavit
+<lb ed="#L" n="41"/>ab aeterno ut pro minori parte deficerent. Et ideo absque
+<lb ed="#L" n="42"/>providentiae praeiudicio evenit quod quandoque deficiant.
+<lb ed="#L" n="43"/>Similiter, sicut ab aeterno Deus per suam providentiam
+<lb ed="#L" n="44"/>ordinavit ut talis ordo et talis cursus in rebus naturalibus
+<lb ed="#L" n="45"/>esset, ita ab aeterno ordinavit se quandoque facturum
+<lb ed="#L" n="46"/>praeter hunc ordinem rebus inditum. Et ideo absque 
+mu<lb ed="#L" break="no" n="47"/>tatione suae providentiae est quod quandoque praeter hunc
+<lb ed="#L" n="48"/>ordinem institutum operetur.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>X. Quantum ad tertium, ostendit Sanctus "Thomas
+<lb ed="#L" n="50"/>propter quid Deus quandoque praeter naturae ordinem
+<lb ed="#L" n="51"/>agat . Et dicit ipsum hoc interdum facere ad suae 
+vir<lb ed="#L" break="no" n="52"/>tutis manifestationem: quia nullo modo melius manifestari
+<lb ed="#L" n="53"/>potest quod tota natura divinae subiecta sit voluntati, quam
+<lb ed="#L" n="54"/>per hunc modum, per quem ostenditur quod libera 
+vo<lb ed="#L" break="no" n="55"/>luntate operatus est Deus rerum ordinem. |
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Nec debet frivola haec ratio reputari. Quia, cum omnes
+<lb ed="#L" n="57"/>creaturae corporales ad intellectualem ordinentur; naturae
+<lb ed="#L" n="58"/>autem intellectualis finis sit divina cognitio: non est mirum
+<lb ed="#L" n="59"/>si, ad praebendum rationali creaturae cognitionem de Deo,
+<lb ed="#L" n="60"/>aliqua mutatio in natura corporali fiat.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

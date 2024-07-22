@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 122</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 122</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="379"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2704"><!-- ferv7a-l3c122 -->
+            <head>Capitulum 122</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="105" type="fixed=379"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="106"/>Vno in communi quod per divinam legem ordinatur
+<lb ed="#L" n="107"/>homo secundum rationem circa corporalia . et 
+sensi<lb ed="#L" break="no" n="108"/>bilia, videndum est in particulari quomodo ordinetur circa
+<lb ed="#L" n="109"/>venereorum et ciborum usum, circa quae homo maxime
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="110"/>afficitur . Et primo videndum est de usu venereorum;
+<lb ed="#L" n="111"/>secundo, de ciborum usu, cap. cxxvir.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>Quantum ad primum, duo facit Sanctus Thomas: primo,
+<lb ed="#L" n="113"/>ostendit secundum divinam legem fornicationem esse pec-
+<pb ed="#L" n="380"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>catum, et matrimonium naturale; secundo, matrimonii 
+con<lb ed="#L" break="no" n="2"/>ditiones declarat, capitibus. sequentibus. 
+</p>
+            <p>
+               <lb ed="#L" n="3"/>Quantum ad primum, tria facit: primo, proponit 
+ratio<lb ed="#L" break="no" n="4"/>nem quorundam dicentium fornicationem non esse 
+pec<lb ed="#L" break="no" n="5"/>catum ; secundo, veritatem determinat ; tertio, quandam
+<lb ed="#L" n="6"/>obiectionem excludit .
+</p>
+            <p>
+               <lb ed="#L" n="7"/>1. Primo ergo ait quod quidam arguunt fornicationem
+<lb ed="#L" n="8"/>non esse peccatum, quia, si quis ad mulierem solutam a
+<lb ed="#L" n="9"/>viro et sub nullius potestate existentem, ea volente, 
+ac<lb ed="#L" break="no" n="10"/>cedat, nec illi facit iniuriam, quia sibi placet, et sui corporis
+<lb ed="#L" n="11"/>habet potestatem ; nec alteri, quia sub nullius potestate
+<lb ed="#L" n="12"/>esse ponitur. Ergo non est peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="13"/>Nec sufficit dicere quod Deo iniuriam facit; Quia Deus
+<lb ed="#L" n="14"/>non offenditur a nobis nisi ex eo quod contra bonum
+<lb ed="#L" n="15"/>nostrum agimus. Hoc autem non apparet contra hominis
+<lb ed="#L" n="16"/>bonum. 2s
+</p>
+            <p>
+               <lb ed="#L" n="17"/>Non sufficit etiam dicere quod fiat iniuria proximo, qui
+<lb ed="#L" n="18"/>per hoc scandalizatur. Quia contingit de aliquo quod 
+se<lb ed="#L" break="no" n="19"/>cundum se non est peccatum, aliquem scandalizari, et sic
+<lb ed="#L" n="20"/>per accidens peccatum esse: nunc autem agimus an 
+for<lb ed="#L" break="no" n="21"/>nicatio sit per se peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>II. Secundo, determinat veritatem . Et ponit duas 
+con<lb ed="#L" break="no" n="23"/>clusiones , Prima est: Fornicarius coitus est peccatum. Et
+<lb ed="#L" n="24"/>intelligitur secundum se: et non tantum quia prohibitus.
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Probatur. Contra hominis bonum est omnis emissio 
+se<lb ed="#L" break="no" n="26"/>minis secundum quam generatio sequi non potest secundum
+<lb ed="#L" n="27"/>se: aut, si sequi potest generatio, conveniens prolis 
+edu<lb ed="#L" break="no" n="28"/>catio impediatur. Et si ex proposito agatur, oportet esse
+<lb ed="#L" n="29"/>peccatum, Sed sic accidit in fornicario coitu. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Maior probatur. Bonum uniuscuiusque est ut finem
+<lb ed="#L" n="31"/>suum consequatur: malum vero quod a debito fine 
+di<lb ed="#L" break="no" n="32"/>vertat. Et hoc sicut in toto, ita et in partibus considerari
+<lb ed="#L" n="33"/>oportet. Sed semen est necessarium ad speciei 
+propaga<lb ed="#L" break="no" n="34"/>tionem: cum tamen alia superflua ad nihil necessaria sint,
+<lb ed="#L" n="35"/>ut egestio, urina, sudor, et huiusmodi. Ergo ad bonum
+<lb ed="#L" n="36"/>hominis pertinet ut emittatur ad generationis utilitatem :
+<lb ed="#L" n="37"/>et etiam ut sequi possit conveniens geniti educatio, quia
+<lb ed="#L" n="38"/>generatum non remaneret, debita nutritione subtracta.
+<lb ed="#L" n="39"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Minor vero probatur: scilicet quod per fornicarium
+<lb ed="#L" n="41"/>coitum impediatur conveniens geniti educatio. Conveniens
+<lb ed="#L" n="42"/>est secundum humanam naturam, ad educationem scilicet
+<lb ed="#L" n="43"/>prolis, ut homo post coitum mulieri commaneat, et non
+<lb ed="#L" n="44"/>statim  abscedat, indifferenter ad quamcumque accedens.
+<lb ed="#L" n="45"/>Quia femina minime sufficeret sola ad prolis educationem:
+<lb ed="#L" n="46"/>cum necessitas humanae vitae multa requirat quae per
+<lb ed="#L" n="47"/>unum solum parari non possunt. Videmus autem in 
+ani<lb ed="#L" break="no" n="48"/>malibus in quibus femina non sufficit ad educationem
+<lb ed="#L" n="49"/>prolis, quod mas et femina simul post coitum commanent,
+<lb ed="#L" n="50"/>quousque necessarium est ad prolis educationem et 
+instru<lb ed="#L" break="no" n="51"/>ctionem. Sed fornicator non commanet feminae, sed statim
+<lb ed="#L" n="52"/>abscedit, indifferenter ad quamcumque accedens. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Nec obstat huic probationi quod aliqua mulier suis
+<lb ed="#L" n="54"/>divitiis potens est ut sola nutriat fetum. Quia rectitudo
+<lb ed="#L" n="55"/>naturalis in humanis actibus non est secundum ea quae
+<lb ed="#L" n="56"/>per accidens in uno individuo contingunt, sed secundum
+<lb ed="#L" n="57"/>ea quae totam speciem consequuntur.
+</p>
+            <p>
+               <lb ed="#L" n="58"/>2. Ad evidentiam huius rationis, considerandum est quod
+<lb ed="#L" n="59"/>actui fornicario secundum se convenit ut homo non 
+te<lb ed="#L" break="no" n="60"/>neatur post coitum feminae commanere: cum per ipsum
+<lb ed="#L" n="61"/>nullo vinculo ad hoc arctetur, inquantum fornicator est;
+<lb ed="#L" n="62"/>et quantum est ex ipsa ratione fornicarii actus, non 
+prohi<lb ed="#L" break="no" n="63"/>betur quis ad quamcumque aliam accedere. Ideo, quantum
+<lb ed="#L" n="64"/>est ex se, est impeditivus convenientis educationis prolis,
+<lb ed="#L" n="65"/>quae convenienter non fit nisi post coitum masculus 
+fe<lb ed="#L" break="no" n="66"/>minae commaneat. Et consequenter secundum se est contra
+<lb ed="#L" n="67"/>hominis bonum, et est peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="68"/>Unde quamvis aliquis fornicator diu post coitum 
+com<lb ed="#L" break="no" n="69"/>maneat mulieri, et iuvet ad prolis educationem, hoc ncn
+<lb ed="#L" n="70"/>tollit quin actus fornicarius sit peccatum: quia per 
+acci<lb ed="#L" break="no" n="71"/>dens est ut hic commaneat mulieri. Secundum se autem
+<lb ed="#L" n="72"/>illi actui non convenit ut habeat fornicator feminae 
+com<lb ed="#L" break="no" n="73"/>manere: quia nulla est ipsius ad hoc facta obligatio. Et
+<lb ed="#L" n="74"/>quia, ut hic dicitur, in actibus humanis consideratur 
+recti<lb ed="#L" break="no" n="75"/>tudo aut obliquitas a ratione secundum id quod illis con-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>venit per se, non autem secundum illud quod sibi per
+<lb ed="#L" n="77"/>accidens convenit; ideo absolute dicendum est actum
+<lb ed="#L" n="78"/>omnem fornicarium malum hominis esse, utpote 
+impedi<lb ed="#L" break="no" n="79"/>tivum finis ad quem per se et ex natura sua seminis emissio
+<lb ed="#L" n="80"/>ordinatur, et esse peccatum, non obstantibus iis quae 
+quan<lb ed="#L" break="no" n="81"/>doque hunc actum in aliquo homine per accidens 
+con<lb ed="#L" break="no" n="82"/>comitantur.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Ratio ergo Sancti Thomae procedit ex propositionibus
+<lb ed="#L" n="84"/>quae formaliter et per se sunt verae, ex quibus rationes
+<lb ed="#L" n="85"/>efficaciam habent, licet per accidens aliquando falsae esse
+<lb ed="#L" n="86"/>videantur. Unde ista propositio quam assumit, scilicet, 
+For<lb ed="#L" break="no" n="87"/>nicator statim. abscedit, indifferenter ad quamcumque 
+ac<lb ed="#L" break="no" n="88"/>cedens, vera est per se loquendo de fornicatore, et quantum
+<lb ed="#L" n="89"/>ad id quod convenit fornicatori inquantum fornicator est:
+<lb ed="#L" n="90"/>licet in aliquo fornicatore per accidens possit esse falsa,
+<lb ed="#L" n="91"/>ratione scilicet alicuius adiuncti fornicationi, ex quo 
+for<lb ed="#L" break="no" n="92"/>nicator inducitur ad commanendum feminae post coitum.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>III. Secunda conclusio est : Matrimonium est homini
+<lb ed="#L" n="94"/>naturale. |ntellige, ut dicitur IV Sent., d. xxvi, q. 1, a. 1,
+<lb ed="#L" n="95"/>non quia ex necessitate naturae sequatur, sed quia ad
+<lb ed="#L" n="96"/>ipsum est naturalis inclinatio, quae mediante libero 
+arbi<lb ed="#L" break="no" n="97"/>trio completur.
+</p>
+            <p>
+               <lb ed="#L" n="98"/>Probatur. Naturale est homini quod non ad modicum
+<lb ed="#L" n="99"/>tempus, sed diuturnam societatem habeat vir ad 
+determi<lb ed="#L" break="no" n="100"/>natam mulierem. Ergo matrimonium est homini naturale.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Probatur consequentia. Quia hanc societatem 
+matrimo<lb ed="#L" break="no" n="102"/>nium vocamus. - Antecedens vero probatur. Necessarium
+<lb ed="#L" n="103"/>est marem feminae commanere in omnibus animalibus
+<lb ed="#L" n="104"/>quousque opus patris necessarium est proli. Sed in homine
+<lb ed="#L" n="105"/>opus patris est necessarium proli per magnum spatium
+<lb ed="#L" n="106"/>vitae. Quia filii indigent instructione quantum ad animam,
+<lb ed="#L" n="107"/>cuius non sunt capaces nisi post longum tempus, et 
+prae<lb ed="#L" break="no" n="108"/>cipue cum ad annos discretionis perveniunt, et ad quam
+<lb ed="#L" n="109"/>longum tempus requiritur: indigent etiam, propter impetus
+<lb ed="#L" n="110"/>passionum, quibus corrumpitur aestimatio prudentiae, 
+re<lb ed="#L" break="no" n="111"/>pressione. Ad hoc autem mulier sola non sufficit, sed magis
+<lb ed="#L" n="112"/>requiritur opus patris, in quo est et ratio perfectior ad
+<lb ed="#L" n="113"/>instruendum, et virtus potentior ad castigandum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>2. Advertendum quod Sanctus Thomas, concludere 
+inten<lb ed="#L" break="no" n="115"/>dens matrimonium esse homini naturale, assumpsit quod
+<lb ed="#L" n="116"/>necessarium est marem feminae commanere quoadusque
+<lb ed="#L" n="117"/>opus patris est necessarium proli. Propter quod alicui
+<lb ed="#L" n="118"/>videri posset ipsum non bene argumentari. Sed si 
+dili<lb ed="#L" break="no" n="119"/>genter inspiciatur, optime procedit ratio. Non enim facit
+<lb ed="#L" n="120"/>hoc loco Sanctus Thomas differentiam inter necessarium
+<lb ed="#L" n="121"/>et naturale: quia satis constat, quod in omnibus 
+anima<lb ed="#L" break="no" n="122"/>libus necessarium est, id esse secundum naturae 
+inclina<lb ed="#L" break="no" n="123"/>tionem; unde dicere aliquid esse omnibus animalibus
+<lb ed="#L" n="124"/>necessarium, et illud esse naturale, pro eodem convenienter
+<lb ed="#L" n="125"/>accipi possunt. Brevitati autem studens Sanctus "Thomas
+<lb ed="#L" n="126"/>potius usus est in illa propositione nomine necessarii quam
+<lb ed="#L" n="127"/>nomine za£uralis, quia causa finalis quare alicui data est
+<lb ed="#L" n="128"/>naturalis inclinatio ad aliquid, est quia illud est rei 
+neces<lb ed="#L" break="no" n="129"/>sarium. Ideo, dum dicitur aliquid esse necessarium 
+anima<lb ed="#L" break="no" n="130"/>libus, dicitur implicite et naturalitas eius, et causa 
+natu<lb ed="#L" break="no" n="131"/>ralitatis explicatur.
+</p>
+            <p>
+               <lb ed="#L" n="132"/>3. Circa illam propositionem, Diuturnam societatem viri
+<lb ed="#L" n="133"/>ad mulierem matrimonium vocamus, advertendum quod
+<lb ed="#L" n="134"/>matrimonium potest sumi dupliciter, pro nunc: uno modo,
+<lb ed="#L" n="135"/>ut est in officium naturae, tanquam videlicet ordinatum
+<lb ed="#L" n="136"/>ad prolis generationem et educationem, quod est principale
+<lb ed="#L" n="137"/>in matrimonio; alio modo, ut est Ecclesiae sacramentum.
+<lb ed="#L" n="138"/>Propositio ergo Sancti Thomae intelligenda est de 
+ma<lb ed="#L" break="no" n="139"/>trimonio primo modo sumpto, quod commune est omni
+<lb ed="#L" n="140"/>statui hominum. Isto enim modo matrimonium nihil aliud
+<lb ed="#L" n="141"/>est quam obligatio viri ad commanendum determinatae
+<lb ed="#L" n="142"/>mulieri, propter prolis generationem et educationem. 
+Ma<lb ed="#L" break="no" n="143"/>trimonium autem secundo modo acceptum supra hoc addit
+<lb ed="#L" n="144"/>rationem significativi coniunctionis Christi et Ecclesiae .
+</p>
+            <p>
+               <lb ed="#L" n="145"/>IV. Tertio, removet Sanctus Thomas quandam obiectio- ?
+<lb ed="#L" n="146"/>nem contra primam conclusionem . Posset enim aliquis,
+<lb ed="#L" n="147"/>ex ratione adducta, reputare leve peccatum esse si quis
+<lb ed="#L" n="148"/>seminis emissionem procuret praeter debitum generationis
+<lb ed="#L" n="149"/>et educationis finem. Quia aut leve, aut nullum peccatum
+<lb ed="#L" n="150"/>est, si quis aliqua sui corporis parte ad alium utatur usum
+<pb ed="#L" n="381"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>praeter eum ad quem est ordinata secundum naturam: ut
+<lb ed="#L" n="2"/>si quis manibus ambulet, aut pedibus operetur aliquid
+<lb ed="#L" n="3"/>manibus operandum.
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Respondet autem quod non est simile de istis 
+inordi<lb ed="#L" break="no" n="5"/>natis usibus, et de inordinata seminis emissione. Quia per
+<lb ed="#L" n="6"/>illos hominis bonum non multum impeditur: hoc vero
+<lb ed="#L" n="7"/>repugnat bono naturae, quod est conservatio speciei, — Ex
+<lb ed="#L" n="8"/>quo infertur quod huiusmodi genus peccati, post peccatum
+<lb ed="#L" n="9"/>homicidii, secundum locum tenere videtur.
+</p>
+            <p>
+               <lb ed="#L" n="10"/>2. Ex ista responsione, attendendum est quod non est
+<lb ed="#L" n="11"/>accipiendum pro totali ratione quare fornicatio, aut 
+quae<lb ed="#L" break="no" n="12"/>cumque seminis emissio ex qua generatio prolis aut eius
+<lb ed="#L" n="13"/>educatio conveniens sequi non potest, sit peccatum, quia
+<lb ed="#L" n="14"/>quandocumque alicuius partis corporis usus non est 
+secun<lb ed="#L" break="no" n="15"/>dum naturae ordinem, tunc est peccatum: constat enim
+<lb ed="#L" n="16"/>hoc in usu manuum et pedum non esse universaliter verum.
+<lb ed="#L" n="17"/>Sed oportet addere quod talis inordinatus usus sit talis
+<lb ed="#L" n="18"/>ut ex ipso malum naturae sequatur: quia, videlicet, aut
+<lb ed="#L" n="19"/>totaliter bonum naturae per ipsum tollitur, aut impeditur.
+<lb ed="#L" n="20"/>Tunc enim, quia emissio seminis ex qua aut generari proles
+<lb ed="#L" n="21"/>non potest, aut non convenienter educari, est contra bonum
+<lb ed="#L" n="22"/>prolis generandae, et sic est contra naturae bonum, quae
+<lb ed="#L" n="23"/>ex generatione prolis et educatione conservatur, argui
+<lb ed="#L" n="24"/>potest illam esse peccatum secundum se. Propterea Sanctus
+<lb ed="#L" n="25"/>Thomas II IF, q. criv, a. 2 et 3, nulla alia ratione ostendit
+<lb ed="#L" n="26"/>fornicationem esse peccatum mortale nisi quia 
+inordina<lb ed="#L" break="no" n="27"/>tionem importat quae vergit in nocumentum vitae eius
+<lb ed="#L" n="28"/>qui est ex tali concubitu nasciturus. Quod enim 
+commit<lb ed="#L" break="no" n="29"/>titur directe contra vitam hominis, est peccatum mortale.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>V. Sed non videtur ex hac responsione satisfieri 
+dubi<lb ed="#L" break="no" n="31"/>tationi, propter duo. Primo, quia Sanctus Thomas, in
+<lb ed="#L" n="32"/>principio determinationis suae, assumit hanc propositionem,
+<lb ed="#L" n="33"/>quod bonum uniuscuiusque est, tam in toto quam in 
+par<lb ed="#L" break="no" n="34"/>tibus, ut finem suum consequatur, malum vero quod a fine
+<lb ed="#L" n="35"/>debito divertat. Sed si quis utatur parte corporis ad aliud
+<lb ed="#L" n="36"/>quam sit ordinata, pars a fine debito divertitur. Ergo ita
+<lb ed="#L" n="37"/>fit contra hominis bonum si quis utatur parte aliqua ad
+<lb ed="#L" n="38"/>alium usum quam ad eum ad quem est ordinata, sicut
+<lb ed="#L" n="39"/>si semen emittatur modo quo generatio aut educatio prolis
+<lb ed="#L" n="40"/>sequi non possit: utroque enim modo impeditur hominis
+<lb ed="#L" n="41"/>finis quantum ad partem. Ergo ita unum erit peccatum
+<lb ed="#L" n="42"/>sicut aliud.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>Secundo, si ideo talis seminis emissio peccatum est quia
+<lb ed="#L" n="44"/>est contra bonum prolis procreandae et contra speciei 
+con<lb ed="#L" break="no" n="45"/>servationem, sequitur quod nullus poterit continentiam
+<lb ed="#L" n="46"/>absque peccato servare: quia etiam per continentiam 
+im<lb ed="#L" break="no" n="47"/>peditur speciei conservatio, quantum est ex parte hominis
+<lb ed="#L" n="48"/>continentis.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>2. Ad primum horum dupliciter potest responderi.
+<lb ed="#L" n="50"/>Primo, quod utique, dum parte quacumque quis utitur ad
+<lb ed="#L" n="51"/>alium usum quam est natura institutum, fit aliquo modo
+<lb ed="#L" n="52"/>contra hominis bonum, inquantum a fine debito divertitur:
+<lb ed="#L" n="53"/>non tamen fit contra magnum hominis bonum, ut illud
+<lb ed="#L" n="54"/>sit peccatum. ln inordinata autem seminis emissione fit
+<lb ed="#L" n="55"/>contra magnum hominis bonum: quia fit contra 
+educa<lb ed="#L" break="no" n="56"/>tionem hominis nascituri, et contra speciei conservationem.
+<lb ed="#L" n="57"/>Ideo non est simile de aliis inordinatis usibus, et de 
+inor<lb ed="#L" break="no" n="58"/>dinata seminis emissione. Hoc autem videtur esse de mente
+<lb ed="#L" n="59"/>Sancti Thomae in praedicta responsione: quia non facit
+<lb ed="#L" n="60"/>differentiam inter haec quasi in illis nullo modo fiat contra
+<lb ed="#L" n="61"/>hominis bonum, in isto autem fiat; sed quia per illa non
+<lb ed="#L" n="62"/>multum impeditur hominis bonum, per hoc autem multum
+<lb ed="#L" n="63"/>impeditur.
+</p>
+            <p>
+               <lb ed="#L" n="64"/>Potest secundo responderi quod non est malum hominis
+<lb ed="#L" n="65"/>quod quis, praetermissa operatione et usu partis a natura
+<lb ed="#L" n="66"/>intento, utatur parte ad alium usum: quia omni corporis
+<lb ed="#L" n="67"/>parte potest ratio uti ut instrumento etiam ad alium usum
+<lb ed="#L" n="68"/>quam sit a natura instituta, Sed bene malum hominis est si
+<lb ed="#L" n="69"/>operatio naturalis, et usus proprius partis, taliter fiat quod
+<lb ed="#L" n="70"/>non sit conveniens fini quem natura per talem usum et
+<lb ed="#L" n="71"/>operationem intendit, immo illi contrarietur: sicut accidit
+<lb ed="#L" n="72"/>in inordinata seminis emissione. Unde quod inquit Sanctus
+<lb ed="#L" n="73"/>Thomas, malum uniuscuiusque esse quod a debito fine
+<lb ed="#L" n="74"/>divertat, intelligendum est, non per cessationem propriae
+<lb ed="#L" n="75"/>operationis et usus, ubi res non est ad continuam aliquam
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>operationem instituta: sed per inconvenientiam et 
+impro<lb ed="#L" break="no" n="77"/>portionem propriae operationis et proprii usus ad finem
+<lb ed="#L" n="78"/>a natura intentum.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>3. Ad secundum dicitur quod aliter loquendum est de
+<lb ed="#L" n="80"/>eo qui cessat a speciei propagatione per cessationem ab
+<lb ed="#L" n="81"/>opere ad speciei propagationem ordinato: et aliter de eo
+<lb ed="#L" n="82"/>qui operationem ad speciei propagationem ordinatam 
+ope<lb ed="#L" break="no" n="83"/>ratur modo quo talis propagatio sequi non potest. Quia
+<lb ed="#L" n="84"/>ille non producit actum debito ordine privatum, nec agit
+<lb ed="#L" n="85"/>contra bonum naturae, cum talis propagatio suffucienter per
+<lb ed="#L" n="86"/>alios expleatur: sed iste bene agit contra bonum naturae,
+<lb ed="#L" n="87"/>et illi iniuratur, quia actionem quam agit suo debito fine
+<lb ed="#L" n="88"/>privat in praeiudicium prolis quae inde nasci posset, aut
+<lb ed="#L" n="89"/>quae est nascitura. Nam, ut habetur ex doctrina Sancti
+<lb ed="#L" n="90"/>Thomae II I^, q. crm, a. 2 ; et IV Sent., d. xxvi , a. 2,
+<lb ed="#L" n="91"/>ad id ad quod natura inclinat tanquam ad perfectionem
+<lb ed="#L" n="92"/>multitudinis necessarium, non obligatur quilibet homo per
+<lb ed="#L" n="93"/>modum praecepti, ubi per alios satisfit, alias quilibet ad
+<lb ed="#L" n="94"/>agriculturam obligaretur, quae est communitati necessaria :
+<lb ed="#L" n="95"/>sed sufficit ut aliqui de multitudine illud exequantur. Übi
+<lb ed="#L" n="96"/>autem quis naturae operationem exercet, tenetur illam sic
+<lb ed="#L" n="97"/>exercere ut naturae finis non impediatur, quantum est ex
+<lb ed="#L" n="98"/>ipso modo agendi per se.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>4. Circa id quod infert Sanctus Thomas ex 
+respon<lb ed="#L" break="no" n="100"/>sione , attendendum est quod, cum inordinata seminis
+<lb ed="#L" n="101"/>emissio ideo sit peccatum quia per se actus inordinatus
+<lb ed="#L" n="102"/>est, et est contra bonum speciei humanae, gravitas ipsius,
+<lb ed="#L" n="103"/>inter alia peccata quibus fit contra bonum hominis, 
+atten<lb ed="#L" break="no" n="104"/>denda est secundum malum quod inde sequitur humanae
+<lb ed="#L" n="105"/>speciei. Malum autem quod fit humanae speciei per ipsam,
+<lb ed="#L" n="106"/>ut hic dicitur, est impedimentum generationis aut 
+educa<lb ed="#L" break="no" n="107"/>tionis prolis nasciturae, quae nondum actu speciem 
+par<lb ed="#L" break="no" n="108"/>ticipat. Malum vero quod per homicidium fit, est privatio
+<lb ed="#L" n="109"/>educationis et vitae bominis iam nati, et actu speciem
+<lb ed="#L" n="110"/>participantis. Quia ergo maius malum naturae humanae
+<lb ed="#L" n="111"/>est nocumentum in vita et educatione hominis iam nati
+<lb ed="#L" n="112"/>et actu speciem participantis, quam hominis nascituri et
+<lb ed="#L" n="113"/>in potentia tantum speciem habentis, utpote qui ex multis
+<lb ed="#L" n="114"/>causis impediri potest; et hoc maius malum est quam
+<lb ed="#L" n="115"/>nocumentum in exterioribus rebus: ideo convenienter
+<lb ed="#L" n="116"/>dictum est, post peccatum homicidii, huiusmodi genus
+<lb ed="#L" n="117"/>peccati secundum locum tenere, scilicet inter peccata quae
+<lb ed="#L" n="118"/>sunt contra hominis bonum.
+</p>
+            <p>
+               <lb ed="#L" n="119"/>VI. Confirmatur prima conclusio  auctoritate divina:
+<lb ed="#L" n="120"/>Levit. quidem xvrr, et I Cor. vr, quantum ad hoc quod
+<lb ed="#L" n="121"/>omnis emissio seminis ex qua proles sequi non potest,
+<lb ed="#L" n="122"/>sit illicita; Deut. vero xxmr, et Zobiae 1v, et I Cor. vi,
+<lb ed="#L" n="123"/>quantum ad hoc quod fornicatio, et omnis coitus praeter
+<lb ed="#L" n="124"/>propriam uxorem, sit illicitus.
+</p>
+            <p>
+               <lb ed="#L" n="125"/>Per hoc autem excluditur error dicentium in emissione
+<lb ed="#L" n="126"/>seminis non esse maius peccatum quam in aliarum 
+su<lb ed="#L" break="no" n="127"/>perfluitatum emissione; et dicentium fornicationem. non
+<lb ed="#L" n="128"/>esse peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>Advertendum autem quod Sanctus Thomas ex dictis
+<lb ed="#L" n="130"/>relinquit solutam. adversariorum rationem . Constat enim
+<lb ed="#L" n="131"/>illam consequentiam non valere: Non fit in fornicatione
+<lb ed="#L" n="132"/>iniuria mulieri, nec alicui alii homini in cuius potestate
+<lb ed="#L" n="133"/>sit. Ergo non est peccatum. Nam fit actus ex se 
+inordi<lb ed="#L" break="no" n="134"/>natus, et fit contra hominis bonum, ut est ostensum: et
+<lb ed="#L" n="135"/>ideo est peccatum.
+</p>
+            <p>
+               <lb ed="#L" n="136"/>Advertendum etiam quod per illam propositionem in
+<lb ed="#L" n="137"/>principio determinationis positam , scilicet, Deus 
+unius<lb ed="#L" break="no" n="138"/>cuiusque curam habet secundum id quod est ei bonum,
+<lb ed="#L" n="139"/>vult inferre Sanctus Thomas per divinam legem 
+conve<lb ed="#L" break="no" n="140"/>nienter esse prohibitam fornicationem, et omnem  
+inordi<lb ed="#L" break="no" n="141"/>natam seminis emissionem. Cum enim Deus gubernet
+<lb ed="#L" n="142"/>unumquodque ordinando ipsum ad id quod est ei bonum,
+<lb ed="#L" n="143"/>et per consequens removendo quod est ei malum; et 
+bo<lb ed="#L" break="no" n="144"/>num sit homini ut omnem seminis emissionem taliter
+<lb ed="#L" n="145"/>procuret ut sit generationi et educationi prolis conveniens:
+<lb ed="#L" n="146"/>pertinet ad divinam legem, secundum quam homo 
+guber<lb ed="#L" break="no" n="147"/>natur, ut emissionem seminis illi fini improportionatam
+<lb ed="#L" n="148"/>prohibeat.
+</p>
+            <p>
+               <lb ed="#L" n="149"/>Contra rationem Sancti Thomae qua probat 
+fornica<lb ed="#L" break="no" n="150"/>tionem esse peccatum, instatur a quibusdam multipliciter.
+<pb ed="#L" n="382"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Sed rationes eorum procedunt ex iis quae per accidens
+<lb ed="#L" n="2"/>in fornicario actu possunt inveniri. Ratio autem Sancti
+<lb ed="#L" n="3"/>Thomae fundatur in eo quod per se convenit fornicationi,
+<lb ed="#L" n="4"/>ex quo ratio peccati sumenda est. Ideo rationem Sancti
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="5"/>Thomae non infringunt. Quia autem eas sigillatim 
+Reve<lb ed="#L" break="no" n="6"/>rendus Cardinalis Caietanus, in 1I I^, q. criv,
+<lb ed="#L" n="7"/>cientissime solvit, in eis solvendis nunc nobis elaborandum
+<lb ed="#L" n="8"/>non est.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

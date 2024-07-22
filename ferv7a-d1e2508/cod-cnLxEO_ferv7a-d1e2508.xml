@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 98</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 98</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="305"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2508"><!-- ferv7a-l3c98 -->
+            <head>Capitulum 98</head>
+            <p>
+               <pb ed="#L" n="305"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=305"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>POSTQUAM de divina providentia ostensum est quod ad
+<lb ed="#L" n="3"/>P omnia se extendat , vult Sanctus Thomas ostendere
+<lb ed="#L" n="4"/>quomodo praeter ipsam Deus agere possit.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>Circa hoc autem duo facit: primo, ostendit quod Deus
+<lb ed="#L" n="6"/>aliquo modo potest agere praeter ordinem suae sapientiae ,
+<lb ed="#L" n="7"/>aliquo vero modo non; secundo, ostendit quod potest
+<lb ed="#L" n="8"/>agere praeter ordinem rebus inditum, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Circa primum tria facit: primo, ponit quasdam 
+distin<lb ed="#L" break="no" n="10"/>ctiones; secundo, ostendit propositum ; tertio, quosdam
+<lb ed="#L" n="11"/>errores eliminat .
+</p>
+            <p>
+               <lb ed="#L" n="12"/>I. Quantum ad primum, duas tangit distinctiones. Prima
+<lb ed="#L" n="13"/>est. Duplex est ordo: unus universalis, qui dependet ex
+<lb ed="#L" n="14"/>prima causa, et omnia complectitur; alius particularis, qui
+<lb ed="#L" n="15"/>scilicet ex aliqua causa creata dependet, et continet ea quae
+<lb ed="#L" n="16"/>illi causae subduntur. Talis autem est multiplex, secundum
+<lb ed="#L" n="17"/>causarum diversitatem ; et unus eorum sub altero 
+conti<lb ed="#L" break="no" n="18"/>netur, sicut una causa sub alia; et omnes sub illo 
+uni<lb ed="#L" break="no" n="19"/>versali ordine continentur, et ab illo descendunt, cum
+<lb ed="#L" n="20"/>inveniantur in rebus secundum quod a prima causa 
+de<lb ed="#L" break="no" n="21"/>pendent. Declaratur per exemplum in politicis. Omnes
+<lb ed="#L" n="22"/>enim domestici unius patrisfami ias ordinem quendam 
+ha<lb ed="#L" break="no" n="23"/>bent secundum quod ei subduntur.
+</p>
+            <p>
+               <lb ed="#L" n="24"/>Advertendum quod, cum omnes effectus unius causae
+<lb ed="#L" n="25"/>ordinem quendam habeant secundum quod ab una causa
+<lb ed="#L" n="26"/>dependent, ut dixit Sanctus Thomas superius, cap. xcvr,
+<lb ed="#L" n="27"/>ubi, inquam, plures effectus ab una causa procedunt; 
+se<lb ed="#L" break="no" n="28"/>cundum quod multiplices sunt causae, ita multiplices sunt
+<lb ed="#L" n="29"/>ordines effectuum ab illis causis dependentium. Et sicut
+<lb ed="#L" n="30"/>aliqua est causa universalis, a qua omnia secundum suum
+<lb ed="#L" n="31"/>esse dependent, aliqua vero particularis, a qua 
+determi<lb ed="#L" break="no" n="32"/>nati effectus proveniunt, ita duplex est ordo: scilicet 
+uni<lb ed="#L" break="no" n="33"/>versalis, qui omnia complectitur; et particularis, qui 
+ali<lb ed="#L" break="no" n="34"/>quos tantum complectitur effectus. Ordo autem qui est
+<lb ed="#L" n="35"/>inter effectus unius causae, si comparetur ad principium
+<lb ed="#L" n="36"/>ipsius ordinis, est unus: si autem" comparetur ad ipsos
+<lb ed="#L" n="37"/>effectus sub causa contentos et ab ipsa ordine quodam 
+pro<lb ed="#L" break="no" n="38"/>cedentes, dum unus alium praecedit, alius vero sequitur,
+<lb ed="#L" n="39"/>habet multiplicitatem secundum effectuum ordinatorum
+<lb ed="#L" n="40"/>multitudinem. Est etiam unus per comparationem ad 
+prin<lb ed="#L" break="no" n="41"/>cipalem finem illius causae: inquantum omnia ad unum
+<lb ed="#L" n="42"/>finem, qui est a causa intentus, ordinantur. Quia ergo 
+San<lb ed="#L" break="no" n="43"/>ctus Thomas loquitur de ordine rerum per comparationem
+<lb ed="#L" n="44"/>ad causam et principium ordinis, ideo de ordine 
+conten<lb ed="#L" break="no" n="45"/>torum sub una causa loquitur tanquam de uno ordine; et
+<lb ed="#L" n="46"/>comparat ipsum ad ordinem contentorum sub alia causa,
+<lb ed="#L" n="47"/>tanquam ad aliquod unum.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>2. Secunda distinctio est, quod ordinem universalem,
+<lb ed="#L" n="49"/>secundum quem omnia ex divina providentia ordinantur,
+<lb ed="#L" n="50"/>possumus considerare et quantum ad res quae subduntur
+<lb ed="#L" n="51"/>ordini; et quantum ad ordinis rationem, quae ex principio
+<lb ed="#L" n="52"/>ordinis dependet.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Adverte quod per rationem ordinis intelligit Sanctus
+<lb ed="#L" n="54"/>Thomas speciem et naturam ordinis, quae ex principio
+<lb ed="#L" n="55"/>ordinis sumitur. Cum enim prius et posterius in aliquo
+<lb ed="#L" n="56"/>ordine dicantur per comparationem ad principium ordinis,
+<lb ed="#L" n="57"/>ut dicitur V Metaph., et ponit Sanctus Thomas 
+Quoli<lb ed="#L" break="no" n="58"/>bet V, q. X, a. 1; et I Sent., d. xx, a. 3: ex ipso 
+prin<lb ed="#L" break="no" n="59"/>cipio accipit ordo speciem; sicut aliquis est ordo secundum
+<lb ed="#L" n="60"/>locum, aliquis est ordo secundum tempus, inquantum unus
+<lb ed="#L" n="61"/>accipitur per comparationem ad principium loci, alius vero
+<lb ed="#L" n="62"/>per comparationem ad aliquod principium temporis. Potest
+<lb ed="#L" n="63"/>ergo considerari ordo rebus statutus ex divina providentia,
+<lb ed="#L" n="64"/>aut ex parte rerum quibus imponitur et determinatur ordo;
+<lb ed="#L" n="65"/>aut ex parte sui principii, ex quo ipse ordo habet ut 
+di<lb ed="#L" break="no" n="66"/>catur ordo divinae providentiae, et divinae voluntatis et
+<lb ed="#L" n="67"/>scientiae; sicut si diceremus ordinem aliquorum secundum
+<lb ed="#L" n="68"/>locum posse considerari aut inquantum est ordo talium
+<lb ed="#L" n="69"/>rerum, aut inquantum est ordo secundum locum. Et iste
+<lb ed="#L" n="70"/>est sensus huius distinctionis.
+</p>
+            <p>
+               <lb ed="#L" n="71"/>II Quantum ad secundum , ponuntur duae 
+conclu<lb ed="#L" break="no" n="72"/>siones. Prima est: Deus potest aliqua facere praeter ea
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="73"/>quae sub ordine divinae providentiae cadunt, nec est eius
+<lb ed="#L" n="74"/>virtus ad has vel illas res obligata. Probatur. Res 
+pro<lb ed="#L" break="no" n="75"/>veniunt a Deo non per necessitatem naturae vel 
+cuius<lb ed="#L" break="no" n="76"/>cumque alterius, ut ostensum est in secundo libro, sed
+<lb ed="#L" n="77"/>ex simplici eius voluntate, maxime quantum ad primam
+<lb ed="#L" n="78"/>rerum istitutionem. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>Adverte quod addit Sanctus Thomas, vel cuiuscumque
+<lb ed="#L" n="80"/>alterius, ut ostendat quod Deus neque per necessitatem
+<lb ed="#L" n="81"/>naturae agit, neque per necessitatem voluntatis, neque per
+<lb ed="#L" n="82"/>necessitatem intellectus aut iustitiae: quia, quovis istorum
+<lb ed="#L" n="83"/>modorum de necessitate ageret, sequeretur quod non posset
+<lb ed="#L" n="84"/>Deus aliqua facere praeter ea quae sub ordine divinae 
+pro<lb ed="#L" break="no" n="85"/>videntiae cadunt. Unde quidam eorum qui hoc asserebant,
+<lb ed="#L" n="86"/>movebantur quia dicebant Deum agere de necessitate 
+na<lb ed="#L" break="no" n="87"/>turae, et per consequens eius virtutem esse ad certos
+<lb ed="#L" n="88"/>effectus limitatam ; quidam vero quia dicebant Deum agere
+<lb ed="#L" n="89"/>de necessitate sapientiae et iustitiae suae, Propterea, utroque
+<lb ed="#L" n="90"/>fundamento destructo ex praecedentibus, relinquit Sanctus
+<lb ed="#L" n="91"/>Thomas eorum positionem falsam esse.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>Adverte etiam quod addit, maxime quantum ad primam
+<lb ed="#L" n="93"/>rerum institutionem: quia, ut in Secundo est ostensum ,
+<lb ed="#L" n="94"/>licet primi effectus divini ex simplici voluntate divina 
+de<lb ed="#L" break="no" n="95"/>pendeant, posteriores tamen effectus habent aliquam 
+ne<lb ed="#L" break="no" n="96"/>cessitatem ex suppositione.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>2. Secunda conclusio est: Deus non potest praeter
+<lb ed="#L" n="98"/>dictum ordinem facere, si consideretur quantum ad 
+ra<lb ed="#L" break="no" n="99"/>tionem a principio dependentem. Probatur. Ordo ille 
+pro<lb ed="#L" break="no" n="100"/>cedit ex scientia et voluntate Dei omnia ordinante in suam
+<lb ed="#L" n="101"/>bonitatem sicut in finem. Sed non potest Deus praeter
+<lb ed="#L" n="102"/>haec facere. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Probatur minor discurrendo per singula. Non enim
+<lb ed="#L" n="104"/>potest esse quod fiat aliquid a Deo quod non sit ab eo
+<lb ed="#L" n="105"/>volitum: cum res ab eo per voluntatem procedant, — Neque
+<lb ed="#L" n="106"/>quod eius scientia non comprehendatur: cum voluntas non
+<lb ed="#L" n="107"/>possit esse nisi de aliquo noto. — Neque quod in suam 
+bo<lb ed="#L" break="no" n="108"/>nitatem non sit ordinatum sicut in. finem: cum bonitas
+<lb ed="#L" n="109"/>sua sit proprium obiectum suae voluntatis. — Similiter, cum
+<lb ed="#L" n="110"/>Deus sit omnino immutabilis, non potest esse quod aliquid
+<lb ed="#L" n="111"/>velit quod prius noluerit; aut quod de novo shiguie b 
+in<lb ed="#L" break="no" n="112"/>cipiat scire, vel in suam ordinet bonitatem.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>3. Concluditur ergo, utramque conclusionem 
+compre<lb ed="#L" break="no" n="114"/>hendendo, quod nihil potest Deus facere quin sub ordine
+<lb ed="#L" n="115"/>suae providentiae cadat, sicut non potest aliquid facere
+<lb ed="#L" n="116"/>quod eius operationi non subdatur: licet alia possit facere
+<lb ed="#L" n="117"/>quam ea quae eius providentiae et operationi subduntur,
+<lb ed="#L" n="118"/>si absolute consideretur eius potestas. Nec etiam potest
+<lb ed="#L" n="119"/>facere aliqua quae sub ordine providentiae eius ab aeterno
+<lb ed="#L" n="120"/>non fuerint: cum sit immutabilis.
+</p>
+            <p>
+               <lb ed="#L" n="121"/>III. Ad evidentiam istarum conclusionum, considerandum
+<lb ed="#L" n="122"/>est quod, cum quaeritur utrum Deus possit facere praeter
+<lb ed="#L" n="123"/>ordinem suae providentiae, duplex potest esse quaesitum.
+<lb ed="#L" n="124"/>Primum est, ut fiat comparatio potentiae divinae secundum
+<lb ed="#L" n="125"/>se, ad providentiam quam Deus habet de rebus, in ordine
+<lb ed="#L" n="126"/>ad obiecta utriusque: et est sensus, Utrum potentia divina
+<lb ed="#L" n="127"/>ad alia obiecta se extendat quam ad illa quae sub divina
+<lb ed="#L" n="128"/>providentia cadunt? Et ad hunc sensum posita est prima
+<lb ed="#L" n="129"/>conclusio: quod sic. Idem enim est dicere, Deus potest aliqua
+<lb ed="#L" n="130"/>facere praeter ea quae sub divina providentia cadunt: et
+<lb ed="#L" n="131"/>dicere; Potentia divina ad alia obiecta se extendit quam sint ,
+<lb ed="#L" n="132"/>obiecta quae sub divina providentia cadunt. Quod sane
+<lb ed="#L" n="133"/>verum est: quia, ut dicitur Prima, q. xxv, a. 5 , ipsum posse
+<lb ed="#L" n="134"/>Dei non subiacet praeordinationi divinae, cum sit naturale.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>Secundo potest esse quaesitum ut fiat comparatio ipsius
+<lb ed="#L" n="136"/>actualis productionis rerum ad praeordinationem divinam
+<lb ed="#L" n="137"/>ex scientia et voluntate dependentem : et est sensus, Utrum
+<lb ed="#L" n="138"/>possit esse in actu quod operatio divina ad aliquid se
+<lb ed="#L" n="139"/>extendat ad quod non se extendat divina praeordinatio.
+<lb ed="#L" n="140"/>Et ad hunc sensum posita est secuuda conclusio. Idem
+<lb ed="#L" n="141"/>enim est dicere, Praeter ordinem divinae providentiae, 
+se<lb ed="#L" break="no" n="142"/>cundum suam rationem a principio dependentem 
+consi<lb ed="#L" break="no" n="143"/>deratum, Deus non potest facere: et dicere, Non potest
+<pb ed="#L" n="306"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>esse quod Deus aliquid actualiter faciat, et illud non sit
+<lb ed="#L" n="2"/>praeordinatum. Hoc enim verissimum est: quia, ut dicitur
+<lb ed="#L" n="3"/>loco praeallegato, ipsum facere Dei subiacet divinae 
+prae<lb ed="#L" break="no" n="4"/>ordinationi, licet ipsum posse facere illi non subiaceat.
+</p>
+            <p>
+               <lb ed="#L" n="5"/>9. Considerandum secundo, quod ex duobus contingere
+<lb ed="#L" n="6"/>posset ut aliquid Deus faceret quod non est praeordinatum,
+<lb ed="#L" n="7"/>et sic ageret praeter ordinem providentiae. Aut videlicet
+<lb ed="#L" n="8"/>quia illud faceret absque cognitione et voluntate, quae
+<lb ed="#L" n="9"/>sunt principia illius praeordinationis: sicut dicitur aliquid
+<lb ed="#L" n="10"/>fieri ab homine praeter eius cognitionem, quando illud
+<lb ed="#L" n="11"/>quod facit non cognoscit. Aut quia sua praeordinatio 
+mu<lb ed="#L" break="no" n="12"/>taretur, ordinando videlicet aliquid quod prius non 
+ordi<lb ed="#L" break="no" n="13"/>navit: sicut diceretur hominem posse facere praeter 
+co<lb ed="#L" break="no" n="14"/>gnitionem quam nunc habet, quia potest habere novam
+<lb ed="#L" n="15"/>aliquam cognitionem, et secundum illam operari. Utrumque
+<lb ed="#L" n="16"/>ergo istorum removet Sanctus Thomas a Deo in sua 
+ra<lb ed="#L" break="no" n="17"/>tione. Primum, cum ait non esse possibile ut Deus 
+ali<lb ed="#L" break="no" n="18"/>quid faciat quod non sit volitum, et scientia sua 
+compre<lb ed="#L" break="no" n="19"/>hensum, ac in divinam bonitatem ordinatum. Secundum
+<lb ed="#L" n="20"/>vero, cum ait quod impossibile est ut Deus aliquid velit
+<lb ed="#L" n="21"/>quod prius noluerit; aut quod de novo incipiat scire, vel
+<lb ed="#L" n="22"/>in suam ordinet bonitatem. Patet enim omnia ista sensum
+<lb ed="#L" n="23"/>compositum includere, scilicet quod aliquid prius non sit
+<lb ed="#L" n="24"/>in divina voluntate et scientia, et postea sit in illis: quod
+<lb ed="#L" n="25"/>mutationem in Deo ponit. .
+</p>
+            <p>
+               <lb ed="#L" n="26"/>3. Advertendum quoque, circa id quod addit Sanctus
+<lb ed="#L" n="27"/>Thomas, si absolute consideretur eius potestas, quod dat
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="28"/>intelligere vulgatam illam distinctionem de potentia Dei
+<lb ed="#L" n="29"/>absoluta, et ordinaria . Si enim potentia Dei absolute 
+con<lb ed="#L" break="no" n="30"/>sideretur, nullo scilicet habito respectu ad determinationem
+<lb ed="#L" n="31"/>divinae sapientiae, potest Deus alia facere praeter ea quae
+<lb ed="#L" n="32"/>eius providentiae et operationi subduntur. Si autem 
+con<lb ed="#L" break="no" n="33"/>sideretur ut exequitur imperium sapientiae et voluntatis,
+<lb ed="#L" n="34"/>quibus determinavit Deus hos effectus esse producendos
+<lb ed="#L" n="35"/>et [non] alios, quo modo considerata nominatur a nobis
+<lb ed="#L" n="36"/>potentia ordinaria, sic non potest Deus alia facere quam
+<lb ed="#L" n="37"/>ea quae eius providentiae subiiciuntur.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>IV. Quantum ad tertium , tres excluduntur errores
+<lb ed="#L" n="39"/>ex inconsideratione praedictae distinctionis provenientes.
+<lb ed="#L" n="40"/>Primus est eorum qui dixerunt omnia necesse esse sicut
+<lb ed="#L" n="41"/>sunt; et adhuc amplius, quod Deus non potest alia facere
+<lb ed="#L" n="42"/>quam quae facit; immobilitatem divini ordinis ad res ipsas
+<lb ed="#L" n="43"/>quae ordini subduntur extendentes. Contra quos est 
+aucto<lb ed="#L" break="no" n="44"/>ritas Matth. xxvi, An non putas etc.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Secundus est eorum qui, e contrario, rerum mutabilitatem
+<lb ed="#L" n="46"/>quae subduntur providentiae, in mutabilitatem divinae 
+pro<lb ed="#L" break="no" n="47"/>videntiae transtulerunt, ponentes Deum, ad modum 
+ho<lb ed="#L" break="no" n="48"/>minis, esse in sua voluntate mutabilem. Contra quos est
+<lb ed="#L" n="49"/>auctoritas Num. xxi Non est Deus etc.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Tertius est eorum qui dixerunt divinam providentiam
+<lb ed="#L" n="51"/>ad contingentia non se extendere. Contra quos est 
+aucto<lb ed="#L" break="no" n="52"/>ritas Zhren. nt Quis est iste etc.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Adverte quod primus error et tertius sunt directe contra
+<lb ed="#L" n="54"/>primam conclusionem ; secundus vero est contra secundam.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

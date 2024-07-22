@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 18</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 18</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="43"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1855"><!-- ferv7a-l3c18 -->
+            <head xml:id="ferv7a-d1e1855-Hd1e101">Capitulum 18</head>
+            <p xml:id="ferv7a-d1e1855-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="9" type="fixed=43"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e110">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="10"/>CUM sit ostensum Deum esse omnium finem, restat
+<lb ed="#L" n="11"/>inquirendum quomodo et qualiter sit rerum 
+creata<lb ed="#L" break="no" n="12"/>rum finis, Ad hoc autem ostendendum, duo facit Sanctus
+<lb ed="#L" n="13"/>Thomas: primo, ostendit qualiter sit finis omnium in 
+com<lb ed="#L" break="no" n="14"/>muni; secundo, particulariter, quomodo sit finis 
+substan<lb ed="#L" break="no" n="15"/>tiae intellectualis, capite xxv.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e128">
+               <lb ed="#L" n="16"/>Circa primum duo facit: primo, ostendit Deum esse
+<lb ed="#L" n="17"/>omnium finem sicut ab unaquaque re suo modo 
+obtinen<lb ed="#L" break="no" n="18"/>dum ; secundo, quod hoc de ipso quaerunt omnia obtinere,
+<lb ed="#L" n="19"/>ut illi assimilentur, in capitulo sequenti.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e139">
+               <lb ed="#L" n="20"/>Quantum ad primum, arguit primo sic. Deus sic
+<lb ed="#L" n="21"/>est ultimus finis omnium rerum quod tamen est prius
+<lb ed="#L" n="22"/>omnibus in essendo. Ergo est omium finis tanquam 
+ali<lb ed="#L" break="no" n="23"/>quid ab ipsis obtinendum.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e151">
+               <lb ed="#L" n="24"/>Ad manifestationem antecedentis, ponitur distinctio de
+<lb ed="#L" n="25"/>duplici fine: quoniam, inquam, aliquis est qui primatum
+<lb ed="#L" n="26"/>obtinet in causando secundum quod est in intentione, est
+<lb ed="#L" n="27"/>tamen in essendo posterius, ut sanitas; aliquis vero, sicut
+<lb ed="#L" n="28"/>in causando, ita in essendo praecedit, ut locus sursum,
+<lb ed="#L" n="29"/>quem ignis intendit suo motu acquirere.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e167">
+               <lb ed="#L" n="30"/>Advertendum, cum dicitur finem aliquem tenere 
+prima<lb ed="#L" break="no" n="31"/>tum in agendo, esse tamen posterius in essendo, quod 
+intel<lb ed="#L" break="no" n="32"/>ligitur de primatu in genere, vel respectu huius, sicut sanitas,
+<lb ed="#L" n="33"/>non autem simpliciter. Nam finis qui simpliciter primatum
+<lb ed="#L" n="34"/>in causando tenet, est etiam prius in essendo, scilicet Deus.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e180">
+               <lb ed="#L" n="35"/>II. Secundo. Deus est simul ultimus finis et primum
+<lb ed="#L" n="36"/>agens. Ergo est finis, non constitutus, sed praeexistens
+<lb ed="#L" n="37"/>obtinendus. - Probatur consequentia. Quia finis per 
+actio<lb ed="#L" break="no" n="38"/>nem agentis constitutus non potest esse primum agens,
+<lb ed="#L" n="39"/>sed est magis effectus agentis.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e193">
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="40"/>Tertio. Deus sic est finis quod non solum non 
+consti<lb ed="#L" break="no" n="41"/>tuitur a rebus, sed nec etiam sibi aliquid a rebus 
+acqui<lb ed="#L" break="no" n="42"/>ritur: cum sit sua bonitas omnino perfecta. Ergo hoc solo
+<lb ed="#L" n="43"/>modo est finis rerum, quod ipse rebus acquiritur.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e206">
+               <lb ed="#L" n="44"/>Quarto. Deus, qui est primum agens omnium, non
+<lb ed="#L" n="45"/>sic agit quasi sua actione aliquid acquirat, sed quasi
+<lb ed="#L" n="46"/>aliquid per ipsam largiatur. Ergo res ordinantur in Deum
+<lb ed="#L" n="47"/>sicut in finem non ut ei aliquid acquiratur, sed ut
+<lb ed="#L" n="48"/>ipsum suo modo ab ipso consequantur. — Probatur 
+ante<lb ed="#L" break="no" n="49"/>cedens. Quia Deus non est in potentia, sed in actu 
+per<lb ed="#L" break="no" n="50"/>fecto. - Consequentia quoque probatur. Quia oportet
+<lb ed="#L" n="51"/>quod eodem modo res tendant in finem quo agens
+<lb ed="#L" n="52"/>propter finem agit.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e228">
+               <lb ed="#L" n="53"/>III. Circa antecedens huius rationis, et praecedentis, 
+du<lb ed="#L" break="no" n="54"/>bium occurrit. Licet enim Deus sua actione non acquirat
+<lb ed="#L" n="55"/>aliquid a quo informetur et actuetur intrinsece, acquirit
+<lb ed="#L" n="56"/>tamen aliquid quod possideat. Et sic videtur agere in rerum
+<lb ed="#L" n="57"/>productione ad acquirendum aliquid sibi: sicut et rex 
+acqui<lb ed="#L" break="no" n="58"/>rens sibi ex pugna aliquam civitatem, dicitur agere ad 
+acqui<lb ed="#L" break="no" n="59"/>rendam sibi civitatem.
+</p>
+            <p xml:id="ferv7a-d1e1855-d1e247">
+               <lb ed="#L" n="60"/>Respondetur quod, licet ex creatione rerum sequatur
+<lb ed="#L" n="61"/>subiectio creaturae ad Deum et actualis possessio ipsius,
+<lb ed="#L" n="62"/>hoc tamen non auget Dei bonitatem: cum ipse bonis
+<lb ed="#L" n="63"/>nostris non egeat; et omnia in ipso eminenter praeexistant,
+<lb ed="#L" n="64"/>Ideo non produxit ipsas Deus propter bonum aliquod sibi
+<lb ed="#L" n="65"/>acquirendum, sed propter earum bonum, Unde, ut inquit
+<lb ed="#L" n="66"/>Magister Sententiarum, in secundo libro, dist. r, si 
+quae<lb ed="#L" break="no" n="67"/>ratur ad quid creatura sit creata, dicendum est ipsam
+<lb ed="#L" n="68"/>creatam esse propter bonitatem Dei, scilicet quae est ipse
+<lb ed="#L" n="69"/>Deus, et propter ipsius creaturae utilitatem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

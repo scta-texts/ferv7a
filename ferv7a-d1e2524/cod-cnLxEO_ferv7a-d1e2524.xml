@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 100</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 100</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="311"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2524"><!-- ferv7a-l3c100 -->
+            <head>Capitulum 100</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="21" type="fixed=311"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <lb ed="#L" n="22"/>POSTQUAM ostendit Sanctus Thomas Deum posse praeter
+<lb ed="#L" n="23"/>naturae ordinem operari, vult de iis quae sic praeter
+<lb ed="#L" n="24"/>naturae ordinem a Deo fiunt, determinare .
+</p>
+            <p>
+               <lb ed="#L" n="25"/>Circa hoc autem duo facit: primo, determinat de ipsis
+<lb ed="#L" n="26"/>in ordine ad naturam; secundo, in ordine ad rationem
+<lb ed="#L" n="27"/>miraculi, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>I. Quantum ad primum, ponitur haec conclusio: Licet
+<lb ed="#L" n="29"/>Deus interdum praeter ordinem rebus inditum aliquid
+<lb ed="#L" n="30"/>operetur, nihil tamen facit contra naturam.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Probatur primo. Deus comparatur ad omnia sicut 
+mo<lb ed="#L" break="no" n="32"/>vens ad motum, et sicut activum ad id quod est in 
+po<lb ed="#L" break="no" n="33"/>tentia. Ergo quicquid in rebus creatis a Deo fit, non est
+<lb ed="#L" n="34"/>contra naturam. — Probatur antecedens. Quia Deus est
+<lb ed="#L" n="35"/>actus purus, omnia vero alia habent aliquid de potentia
+<lb ed="#L" n="36"/>admixtum. — Consequentia vero probatur. Quia quod est
+<lb ed="#L" n="37"/>in potentia secundum ordinem naturalem respectu alicuius
+<lb ed="#L" n="38"/>agentis, si aliquid imprimatur in ipsum ab illo, non est
+<lb ed="#L" n="39"/>contra naturam simpliciter, etsi sit aliquando contrarium
+<lb ed="#L" n="40"/>particulari formae quae corrumpitur per actionem 
+huius<lb ed="#L" break="no" n="41"/>modi. Declaratur in generatione ignis, corrupto aere.
+</p>
+            <p>
+               <lb ed="#L" n="42"/>2. Circa probationem antecedentis, advertendum quod,
+<lb ed="#L" n="43"/>cum omne agens agat inquantum est actu, unumquodque
+<lb ed="#L" n="44"/>tantum agit quantum est in actu: videmus enim quod
+<lb ed="#L" n="45"/>ignis, qui est ceteris elementis actualior et formalior, est
+<lb ed="#L" n="46"/>ipsis etiam magis activus. Similiter unumquodque patitur
+<lb ed="#L" n="47"/>inquantum est in potentia: et quanto magis aliquid est
+<lb ed="#L" n="48"/>in potentia, tanto magis est passivum. Ideo quod 
+simpli<lb ed="#L" break="no" n="49"/>citer est actus, omnem prorsus potentiam excludens et
+<lb ed="#L" n="50"/>omnem actualitatem includens, comparatur ad 
+unumquod<lb ed="#L" break="no" n="51"/>que quod aliquid habet potentialitatis, sicut activum ad
+<lb ed="#L" n="52"/>passivum, et sicut motivum ad mobile: tanquam videlicet
+<lb ed="#L" n="53"/>in se continens actum ad quem unumquodque est in
+<lb ed="#L" n="54"/>potentia. Propterea optime probavit Sanctus Thomas Deum
+<lb ed="#L" n="55"/>comparari ad omnia sicut motivum ad mobile, et sicut
+<lb ed="#L" n="56"/>activum ad id quod est in potentia, ex eo quod ipse est
+<lb ed="#L" n="57"/>actus purus, nullo scilicet modo per aliquam potentiam
+<lb ed="#L" n="58"/>contractus aut limitatus, omnia vero alia aliquid habeant
+<lb ed="#L" n="59"/>potentialitatis admixtum.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>3. Circa consequens illatum, considerandum est quod
+<lb ed="#L" n="61"/>aliquid fieri contra naturam nihil aliud est quam ipsum
+<lb ed="#L" n="62"/>fieri contra ordinem et inclinationem alicuius naturae.
+<lb ed="#L" n="63"/>Dicitur ergo aliquid esse simpliciter et universaliter contra
+<lb ed="#L" n="64"/>naturam, quando est contra omnem ordinem et 
+inclina<lb ed="#L" break="no" n="65"/>tionem cuiuscumque naturae. Dicitur vero esse contra
+<lb ed="#L" n="66"/>aliquam naturam particularem, quando est contra illius
+<lb ed="#L" n="67"/>ordinem et inclinationem. Quod ergo Deus facit in rebus,
+<lb ed="#L" n="68"/>potest quidem esse contra aliquam naturam particularem,
+<lb ed="#L" n="69"/>inquantum id quod fit est contra ordinem et 
+inclinatio<lb ed="#L" break="no" n="70"/>nem propriae formae alicuius naturae: non autem potest
+<lb ed="#L" n="71"/>esse contra naturam simpliciter et universaliter, cum illud
+<lb ed="#L" n="72"/>fiat secundum ordinem et dispositionem naturae 
+univer<lb ed="#L" break="no" n="73"/>salissimae, quae est Deus, a quo unumquodque suum
+<lb ed="#L" n="74"/>ordinem proprium habet suamque propriam actionem, Et
+<lb ed="#L" n="75"/>ad hunc sensum intelligitur conclusio illata.
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="76"/>4. Ad evidentiam eius quod assumitur ad probationem
+<lb ed="#L" n="77"/>consequentiae, attendendum est quod dicitur aliquid esse
+<lb ed="#L" n="78"/>in potentia secundum ordinem naturalem respectu 
+ali<lb ed="#L" break="no" n="79"/>cuius agentis, quando ex natura sua habet ut sit 
+susce<lb ed="#L" break="no" n="80"/>ptivum alicuius formae a tali agente, aut alicuius motus.
+<lb ed="#L" n="81"/>Et ideo si aliqua forma aut aliquis motus in ipso a tali
+<lb ed="#L" n="82"/>agente recipiatur, non dicetur illud fieri simpliciter contra
+<lb ed="#L" n="83"/>naturam, cum sit secundum ordinem naturalem patientis
+<lb ed="#L" n="84"/>ad agens: licet possit esse contra naturalem inclinationem
+<lb ed="#L" n="85"/>formae illius. Sicut, in exemplo Sancti Thomae, cum ex
+<lb ed="#L" n="86"/>aere ab igne per ipsius aeris corruptionem generatur ignis,
+<lb ed="#L" n="87"/>non dicitur huiusmodi generatio, neque huiusmodi 
+cor<lb ed="#L" break="no" n="88"/>ruptio, simpliciter contra naturam esse: immo est naturalis,
+<lb ed="#L" n="89"/>eo quod, secundum naturalem ordinem, aer natus sit ab igne
+<lb ed="#L" n="90"/>corrumpi, et natus sit ut ex ipso per actionem ignis possit
+<lb ed="#L" n="91"/>ignis generari. Est tamen talis corruptio aliquo modo contra
+<lb ed="#L" n="92"/>riaturam, inquantum est contra inclinationem formae aeris:
+<lb ed="#L" n="93"/>in quo sensu dicitur II Caeli , quod corruptio, et senium,
+<lb ed="#L" n="94"/>et defectus omnis contra naturam est.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>II. Secundo. Omnia quae sunt post Deum, sunt quasi
+<lb ed="#L" n="96"/>quaedam instrumenta ipsius. Ergo non est contra naturam
+<lb ed="#L" n="97"/>cum res creatae moventur qualitercumque a Deo. — 
+An<lb ed="#L" break="no" n="98"/>tecedens probatur. Quia Deus est primum agens. - 
+Con<lb ed="#L" break="no" n="99"/>sequentia vero: quia, cum instituta sint instrumenta ut
+<lb ed="#L" n="100"/>deserviant actioni principalis agentis, non est contra 
+na<lb ed="#L" break="no" n="101"/>turam instrumenti ut moveatur a principali agente.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>Ad evidentiam huius rationis, considerandum est, ex
+<lb ed="#L" n="103"/>doctrina Sancti Thomae Quarto, d. 1, q. 1, a. 4 ; et d. 1v,
+<lb ed="#L" n="104"/>q. r a. 1, et in plerisque aliis locis, quod de ratione
+<lb ed="#L" n="105"/>agentis instrumentalis est esse movens motum; et omnis
+<lb ed="#L" n="106"/>causa quae non movet nisi mota, habet rationem 
+instru<lb ed="#L" break="no" n="107"/>menti. Ideo, cum causa secunda non moveat nisi mota
+<lb ed="#L" n="108"/>a prima, consequens est quod habeat rationem instrumenti
+<lb ed="#L" n="109"/>respectu primae. Propterea optime probat Sanctus Thomas
+<lb ed="#L" n="110"/>quod omnia quae sunt sub Deo, sunt tanquam ipsius 
+in<lb ed="#L" break="no" n="111"/>strumenta, eo quod est primum agens.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>2. Sed videtur ista ratio non concludere. Posset enim
+<lb ed="#L" n="113"/>aliquis dicere: Licet omnis causa secunda sit instrumentum
+<lb ed="#L" n="114"/>causae primae, non tamen sequitur quod non moveatur
+<lb ed="#L" n="115"/>contra naturam qualitercumque moveatur: quia, cum 
+di<lb ed="#L" break="no" n="116"/>versa instrumenta sint diversis effectibus proportionata, si
+<lb ed="#L" n="117"/>quis utatur instrumento ad aliquid cui non sit 
+propor<lb ed="#L" break="no" n="118"/>tionatum, est contra naturam talis instrumenti quod sic
+<lb ed="#L" n="119"/>moveatur.
+</p>
+            <p>
+               <lb ed="#L" n="120"/>Respondetur quod instrumentum, inquantum est 
+in<lb ed="#L" break="no" n="121"/>strumentum alicuius principalis agentis, semper 
+proportio<lb ed="#L" break="no" n="122"/>natur actioni quam ipsum principale agens intendit: unde
+<lb ed="#L" n="123"/>hic dicit Sanctus Thomas quod materia et forma talis esse
+<lb ed="#L" n="124"/>debet ut sit competens actioni principalis agentis. Unde
+<lb ed="#L" n="125"/>si aliquis vellet uti instrumento alicuius artis ad aliquid cui
+<lb ed="#L" n="126"/>proportionatum non esset, iam non esset instrumentum
+<lb ed="#L" n="127"/>respectu illius agentis, utpote ipsi non deserviens. Omnia
+<lb ed="#L" n="128"/>autem sic Deus creavit ut sint sibi instrumenta, et 
+deser<lb ed="#L" break="no" n="129"/>viant actioni quam in creaturas exercere determinavit, sive
+<pb ed="#L" n="312"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>frequenter sive raro aliquid in ipsis efficere determinaverit.
+<lb ed="#L" n="2"/>Et ideo, qualitercumque a Deo moveantur res creatae, non
+<lb ed="#L" n="3"/>sunt improportionatae illi motioni: cum ad hoc institutae
+<lb ed="#L" n="4"/>a Deo sint ut ab ipso quandoque taliter moveantur, et
+<lb ed="#L" n="5"/>naturam talem sortitae sint a Deo ut taliter ab ipso mo-
+<lb ed="#L" n="6"/>veri possint. Idcirce nihil a Deo in ipsis fit quod sit 
+sim<lb ed="#L" break="no" n="7"/>pliciter contra naturam: licet, ut dicebatur, sit quandoque
+<lb ed="#L" n="8"/>contra propriam inclinationem formae alicuius,
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Unde ad argumentum dicitur quod, licet res diversae,
+<lb ed="#L" n="10"/>quae sunt instrumenta: divinae virtutis, sint diversis 
+actio<lb ed="#L" break="no" n="11"/>nibus et motibus propriis secundum inclinationem propriae
+<lb ed="#L" n="12"/>formae proportionatae, et una res sit improportionata actioni
+<lb ed="#L" n="13"/>alterius; inquantum tamen unaquaeque est instrumentum
+<lb ed="#L" n="14"/>divinae virtutis, nulla est improportionata actioni et 
+mo<lb ed="#L" break="no" n="15"/>tioni quam Deus in ea intendit efficere.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>III. Tertio. Motus qui sunt in inferioribus corporibus
+<lb ed="#L" n="17"/>ex impressione superiorum, non sunt violenti neque contra
+<lb ed="#L" n="18"/>naturam: ut patet in fluxu et refluxu maris. Ergo multo
+<lb ed="#L" n="19"/>magis quod fit a Deo in quacumque creatura, non potest
+<lb ed="#L" n="20"/>dici violentum aut contra naturam.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>2. Advertendum hoc loco quod, sicut omnia creata
+<lb ed="#L" n="22"/>comparantur ad Deum sicut instrumenta, ita et inferiora
+<lb ed="#L" n="23"/>corpora sunt instrumenta superiorum, inquantum non 
+mo<lb ed="#L" break="no" n="24"/>vent neque operantur nisi a superioribus mota. Unde 
+hu<lb ed="#L" break="no" n="25"/>iusmodi inferiora corpora dupliciter considerari possunt:
+<lb ed="#L" n="26"/>uno modo, inquantum sunt talia corpora, habentia talem
+<lb ed="#L" n="27"/>formam et talem naturalem inclinationem; alio modo, 
+in<lb ed="#L" break="no" n="28"/>quantum sunt instrumenta corporum caelestium, nata ab
+<lb ed="#L" n="29"/>ipsis moveri secundum eorum intentionem. Quod ergo fit
+<lb ed="#L" n="30"/>in ipsis a corporibus caelestibus, est naturale ipsis inquantum
+<lb ed="#L" n="31"/>sunt caelestium corporum instrumenta: naturale est enim
+<lb ed="#L" n="32"/>instrumento ut a principali agente moveatur. Potest tamen
+<lb ed="#L" n="33"/>esse innaturale inquantum sunt corpora talia, habentia talem
+<lb ed="#L" n="34"/>formam et talem inclinationem, quae est ad oppositum.
+<lb ed="#L" n="35"/>Sicut dicimus de motu fluxus et refluxus maris: hic enim
+<lb ed="#L" n="36"/>est naturalis aquae maris inquantum est instrumentum a
+<lb ed="#L" n="37"/>corpore caelesti motum; est autem sibi contra naturam
+<lb ed="#L" n="38"/>inquantum est corpus grave naturaliter ad medium tendens.
+</p>
+            <p>
+               <lb ed="#L" n="39"/>3. Attendendum etiam quod Sanctus Thomas fluxus
+<lb ed="#L" n="40"/>et refluxus maris nullam aliam causam assignat nisi 
+im<lb ed="#L" break="no" n="41"/>pressionem corporis caelestis, quia in: hac parte secutus
+<lb ed="#L" n="42"/>est opinionem Albumasar, II libro Maioris Introductorii,
+<lb ed="#L" n="43"/>et Commentatoris in II[. Caeli, qui nullam aliam praeter
+<lb ed="#L" n="44"/>hanc assignant causam. -— Alii tamen alias causas 
+assi<lb ed="#L" break="no" n="45"/>gnant. Nam Adelandus quidam, ut refert Picus, tertio
+<lb ed="#L" n="46"/>adversus Astrologos libro, cap. xv , ex opinione 
+Sarace<lb ed="#L" break="no" n="47"/>norum, dicit huiusce motus causam esse quod, cum ipsa
+<lb ed="#L" n="48"/>sibi maris brachia obviare atque confluere impetu 
+con<lb ed="#L" break="no" n="49"/>cito properent, obiectu montium, aut etiam terrae situ, ab
+<lb ed="#L" n="50"/>ipso naturali motu deficientes, ad superius, unde moveri
+<lb ed="#L" n="51"/>incipiunt, referantur. — Alii  hunc accessum et recessum |
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="52"/>maris in vapores et ventos exsuscitatos in aqua referunt,
+<lb ed="#L" n="53"/>quorum motu atque impulsu tumultuat aqua atque 
+cale<lb ed="#L" break="no" n="54"/>scit, ac idcirco locum quaerit ampliorem quo se diffundat,
+<lb ed="#L" n="55"/>adiuvantibus etiam superioribus ventis, qui aquae summa
+<lb ed="#L" n="56"/>ad infernas partes propellentes, interno statui obviant, atque
+<lb ed="#L" n="57"/>ab ipsis ad superna propelluntur, quo fit ut eructans aqua
+<lb ed="#L" n="58"/>abundet tumescatque. Ubi autem vis illa spirituum 
+disso<lb ed="#L" break="no" n="59"/>lutis vaporibus conflaccescit, subsidunt aquae et, in 
+an<lb ed="#L" break="no" n="60"/>gustiis se contrahentes, ab occupatis locis abscedunt,
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Advertendum quoque inter eos qui hunc maris accessum
+<lb ed="#L" n="62"/>recessumque caelorum impressionibus tribuunt, 
+differen<lb ed="#L" break="no" n="63"/>tiam esse. Sunt enim quibus placeat augmentum et 
+de<lb ed="#L" break="no" n="64"/>crementum luminis in luna esse huiusce rei causam. -
+<lb ed="#L" n="65"/>Aliis vero, et etiam Divo Thomae in Tractatu de Occultis
+<lb ed="#L" n="66"/>Operibus Naturae ; et Potentia, q. vr, a. 1, ad 17, visum
+<lb ed="#L" n="67"/>est hoc ipsum esse in lunae motum referendum: ut 
+sci<lb ed="#L" break="no" n="68"/>licet ipsa ascendente, ascendat et aqua ; descendat autem,
+<lb ed="#L" n="69"/>ipsa descendente.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>4. Circa id quod inquit Sanctus Thomas, motum aquae
+<lb ed="#L" n="71"/>naturalem esse solum ad unam partem, scilicet ad medium,
+<lb ed="#L" n="72"/>occurrit dubium. Videtur enim experientia in oppositum.
+<lb ed="#L" n="73"/>Nam, cum effoditur terra aquae vicina, videmus ipsam
+<lb ed="#L" n="74"/>aquam ascendere, et consequenter a medio recedere. Quod
+<lb ed="#L" n="75"/>quidem videtur naturale esse aquae: sicut et grave 
+na<lb ed="#L" break="no" n="76"/>turaliter, remoto impediente, descendit.
+</p>
+            <p>
+               <lb ed="#L" n="77"/>Respondetur quod ascensus illius aquae non est 
+natu<lb ed="#L" break="no" n="78"/>ralis, sed ab aliquo propellente ipsam fit: sive sit alia aqua,
+<lb ed="#L" n="79"/>sive aliquid aliud, Cuius signum est quod, si a lateribus
+<lb ed="#L" n="80"/>declivior defodiatur locus, statim in illum descendit.
+</p>
+            <p>
+               <lb ed="#L" n="81"/>IV. Quarto. Id est naturale unicuique per quod 
+con<lb ed="#L" break="no" n="82"/>formatur suae mensurae. Sed prima mensura cuiuscumque
+<lb ed="#L" n="83"/>naturae est Deus. Ergo unicuique rei naturale est quod
+<lb ed="#L" n="84"/>est ei a Deo inditum. Ergo etc. — Maior probatur. Quia
+<lb ed="#L" n="85"/>de unaquaque re per suam mensuram sumitur iudicium. —
+<lb ed="#L" n="86"/>Minor vero: quia Deus est primum ens, quod est omnibus
+<lb ed="#L" n="87"/>essendi causa.
+</p>
+            <p>
+               <lb ed="#L" n="88"/>Quinto. Non est contra rationem artificii si artifex aliter
+<lb ed="#L" n="89"/>aliquid' operetur in suo artificio, etiam postquam ei suam
+<lb ed="#L" n="90"/>formam dedit. Ergo neque contra naturam est si aliquid
+<lb ed="#L" n="91"/>Deus aliter in rebus naturalibus operetur quam consuetus
+<lb ed="#L" n="92"/>naturae cursus habeat. — Probatur consequentia. Quia
+<lb ed="#L" n="93"/>omnes creaturae comparantur ad Deum sicut artificiata
+<lb ed="#L" n="94"/>ad artificem.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>Confirmatur conclusio auctoritate Augustini, XXVI 
+con<lb ed="#L" break="no" n="96"/>tra Faustum.
+</p>
+            <p>
+               <lb ed="#L" n="97"/>Advertendum quod istae duae ultimae rationes 
+con<lb ed="#L" break="no" n="98"/>cludunt ad sensum praecedentium: scilicet quod non est
+<lb ed="#L" n="99"/>contra naturam simpliciter et universaliter si aliquid Deus
+<lb ed="#L" n="100"/>in rebus naturalibus aliter operetur quam consuetus cursus
+<lb ed="#L" n="101"/>naturae habeat; non autem quod non sit contra naturam
+<lb ed="#L" n="102"/>alicuius particularis formae, modo prae-exposito .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

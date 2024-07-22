@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 48</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 48</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="132"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2100"><!-- ferv7a-l3c48 -->
+            <head>Capitulum 48</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="13" type="fixed=132"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="14"/>Ex praemissis infert Sanctus Thomas unum corollarium,
+<lb ed="#L" n="15"/>scilicet quod impossibile est in hac vita esse ultimam
+<lb ed="#L" n="16"/>hominis felicitatem.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>I. Et arguit primo, ex praedictis, sic. In aliqua Dei 
+co<lb ed="#L" break="no" n="18"/>gnitione oportet ultimam felicitatem poni, ut superius est
+<lb ed="#L" n="19"/>ostensum. Sed non in aliqua cognitione quae possit in hac
+<lb ed="#L" n="20"/>vita haberi, ut ex praedictis constat. Ergo non potest in hac
+<lb ed="#L" n="21"/>vita esse ultima hominis felicitas.
+</p>
+            <p>
+               <lb ed="#L" n="22"/>Secundo. In. hac vita non potest terminari appetitus
+<lb ed="#L" n="23"/>sciendi, cum quanto plus aliquis intelligit, tanto magis in
+<lb ed="#L" n="24"/>eo desiderium intelligendi augeatur: nisi sit aliquis qui
+<lb ed="#L" n="25"/>omnia intelligat. Quod nulli unquam qui esset solum homo,
+<lb ed="#L" n="26"/>accidit: nec etiam potest accidere, cum substantias 
+sepa<lb ed="#L" break="no" n="27"/>ratas cognoscere non possimus in hac vita. Ergo etc. —
+<lb ed="#L" n="28"/>Probatur consequentia. Quia ultimus finis hominis terminat
+<lb ed="#L" n="29"/>eius naturalem appetitum, ita quod, eo habito, nihil aliud
+<lb ed="#L" n="30"/>quaeritur.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Advertendum quod, cum dicimus ultimam hominis 
+feli<lb ed="#L" break="no" n="32"/>citatem non posse esse in hac vita, intelligimus de homine
+<lb ed="#L" n="33"/>puro: non autem de Christo, qui in hac vita erat 
+com<lb ed="#L" break="no" n="34"/>prehensor, sive beatus, et viator. Propterea dixit Sanctus
+<lb ed="#L" n="35"/>"Thomas quod nulli qui esset solum homo, accidit ut omnia
+<lb ed="#L" n="36"/>intelligeret: ne, inquam, Christum excluderet, qui omnia
+<lb ed="#L" n="37"/>intelligebat. Sed ipse erat non solum homo, sed etiam Deus.
+</p>
+            <p>
+               <lb ed="#L" n="38"/>II. Tertio. In vita ista non est aliqua certa stabilitas:
+<lb ed="#L" n="39"/>quia cuilibet possunt advenire infirmitates et infortunia,
+<lb ed="#L" n="40"/>quibus impeditur ab operatione, quaecumque sit, in qua
+<lb ed="#L" n="41"/>ponitur felicitas, Ergo etc. — Probatur consequentia. Quia
+<lb ed="#L" n="42"/>cum aliquis felicitatem consequitur, pariter consequitur et
+<lb ed="#L" n="43"/>stabilitatem: ut patet ex omni conceptione de felicitate.
+<lb ed="#L" n="44"/>Propter quod inquit Aristoteles, I Ezhic., quod non 
+existi<lb ed="#L" break="no" n="45"/>mamus felicem chamaeleonta: idest, eum qui variatur in
+<lb ed="#L" n="46"/>vita, sicut chamaeleon, animal quod ad praesentiam cuiusque
+<lb ed="#L" n="47"/>coloris (exceptis tamen quibusdam coloribus, ut refert 
+Pli<lb ed="#L" break="no" n="48"/>nius, VIII lib. ) colorem mutat. — Patet etiam ratione. Quia,
+<lb ed="#L" n="49"/>cum naturale desiderium hominis sit ad hoc ut in 
+felici<lb ed="#L" break="no" n="50"/>tate stabiliatur; sicut et omne quod movetur in finem, 
+de<lb ed="#L" break="no" n="51"/>siderat naturaliter stabiliri et quiescere in illo, ut patet ex
+<lb ed="#L" n="52"/>rebus naturalibus, quae non nisi violenter recedunt a loco
+<lb ed="#L" n="53"/>naturali: nisi cum felicitate pariter stabilitatem 
+conseque<lb ed="#L" break="no" n="54"/>retur, non esset eius naturali desiderio satisfactum; et sic
+<lb ed="#L" n="55"/>non esset felix.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>Ad beatitudinem pertinere stabilitatem, probat Sanctus
+<lb ed="#L" n="57"/>Thomas I I, q. v, a. 4, praeter rationem hic adductam,
+<lb ed="#L" n="58"/>etiam ex ipsa visione divina: contra opinionem Origenis,
+<lb ed="#L" n="59"/>qui, aliquorum Platonicorum errorem secutus, posuit quod,
+<lb ed="#L" n="60"/>post ultimam beatitudinem, homo potest fieri miser. 
+Re<lb ed="#L" break="no" n="61"/>quire ibi.
+</p>
+            <p>
+               <lb ed="#L" n="62"/>HII. Quarto. Impossibile est advenire homini perfectam
+<lb ed="#L" n="63"/>operationem secundum virtutem speculativam vel 
+mora<lb ed="#L" break="no" n="64"/>lem, nisi post diuturnum tempus: et maxime speculativam,
+<lb ed="#L" n="65"/>quia vix homo in ultima aetate, et quando, ut plurimum,
+<lb ed="#L" n="66"/>modicum restat humanae vitae, ad perfectam speculationem
+<lb ed="#L" n="67"/>scientiarum pervenire potest. Ergo non potest in hac vita
+<lb ed="#L" n="68"/>ultima hominis felicitas perfecta esse, si felicitas in tali
+<lb ed="#L" n="69"/>operatione consistit. — Probatur consequentia. Quia videtur
+<lb ed="#L" n="70"/>inconveniens et irrationabile quod tempus generationis 
+ali<lb ed="#L" break="no" n="71"/>cuius rei sit magnum, tempus autem durationis eius sit
+<lb ed="#L" n="72"/>parvum. Probatur: et quia natura suo fine maiori 
+tem<lb ed="#L" break="no" n="73"/>pore privaretur; et quia in animalibus videmus oppositum.
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="74"/>Advertendum quod, circa generationem alicuius 
+ani<lb ed="#L" break="no" n="75"/>malis, non est inconveniens quod tempus generationis sit
+<lb ed="#L" n="76"/>maius tempore vitae: cum videamus aliquod animal 
+na<lb ed="#L" break="no" n="77"/>tum statim mori. Sed inconveniens videtur quod talis sit
+<lb ed="#L" n="78"/>ordo naturae alicuius speciei quod, pro maiori parte, tempus
+<lb ed="#L" n="79"/>generationis excedat tempus vitae: videmus enim, ut 
+in<lb ed="#L" break="no" n="80"/>quit Sanctus Thomas, quod quae parvo tempore vivunt,
+<lb ed="#L" n="81"/>parvo tempore perficiuntur.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Quinto. Non est possibile quod homo in statu huius
+<lb ed="#L" n="83"/>vitae omnino sit immunis a malis, non solum corporis,
+<lb ed="#L" n="84"/>sed etiam animae: cum nullus sit qui non aliquando 
+in<lb ed="#L" break="no" n="85"/>ordinatis passionibus inquietetur; non aliquando 
+praeter<lb ed="#L" break="no" n="86"/>eat medium, in quo consistit virtus; non circa 
+cognitio<lb ed="#L" break="no" n="87"/>nem aut modum cognoscendi deficiat. Ergo non potest in
+<lb ed="#L" n="88"/>hac vita esse felix. — Probatur consequentia. Quia 
+per<lb ed="#L" break="no" n="89"/>fectum. bonum est quod omnino caret admixtione mali.
+<lb ed="#L" n="90"/>Felicitatem autem omnes perfectum bonum confitentur
+<lb ed="#L" n="91"/>esse.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>IV. Sexto. Quod non moriatur, non potest assequi homo
+<lb ed="#L" n="93"/>in hac vita. Ergo etc. — Probatur consequentia. Quia homo
+<lb ed="#L" n="94"/>naturaliter refugit mortem, et tristatur de ipsa, etiam dum
+<lb ed="#L" n="95"/>eam recogitat.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Adverte quod huic rationi subintelligenda est alia 
+pro<lb ed="#L" break="no" n="97"/>positio, quam tanquam manifestam Sanctus Thomas 
+prae<lb ed="#L" break="no" n="98"/>termittit: scilicet quod /Atominis felicis appetitus ws
+<lb ed="#L" n="99"/>impletur.
+</p>
+            <p>
+               <lb ed="#L" n="100"/>2. Circa autem ipsam rationem dubitatur. Quia vident
+<lb ed="#L" n="101"/>posse ad oppositum retorqueri, sic arguendo. Homo 
+na<lb ed="#L" break="no" n="102"/>turaliter refugit mortem, et tristatur de i ipsa. Ergo felicitas
+<lb ed="#L" n="103"/>hominis non est post mortem. Ergo est in hac vita. - 
+Pro<lb ed="#L" break="no" n="104"/>batur prima consequentia. Quia ex opposito consequentis
+<lb ed="#L" n="105"/>infertur oppositum antecedentis. Sequitur enim: Felicitas
+<lb ed="#L" n="106"/>hominis est post mortem. Ergo mors ordinatur ad 
+felici<lb ed="#L" break="no" n="107"/>tatem tanquam medium necessarium, Ergo naturaliter
+<lb ed="#L" n="108"/>petitur: quia, si finis naturaliter desideratur, etiam media
+<lb ed="#L" n="109"/>necessaria ad finem naturaliter desiderantur. Ergo non 
+na<lb ed="#L" break="no" n="110"/>turaliter eam homo refugit, neque de ipsa tristatur. ^.
+</p>
+            <p>
+               <lb ed="#L" n="111"/>3. Ad hoc, negatur prima consequentia. Et ad 
+probatio<lb ed="#L" break="no" n="112"/>nem, negatur assumptum. Ad cuius probationem, negatur
+<lb ed="#L" n="113"/>secunda consequentia, Dicitur enim, ex doctrina Sancti
+<lb ed="#L" n="114"/>Thomae IV Sent. d. xix, a. 1, ad ult. , quod quamvis
+<lb ed="#L" n="115"/>homo naturaliter desideret finem, non tamen naturaliter
+<lb ed="#L" n="116"/>desiderat ea quae sunt ad finem: sed ea appetitu 
+ratio<lb ed="#L" break="no" n="117"/>nali desiderat, consiliando de ipsis et eligendo ea. Immo
+<lb ed="#L" n="118"/>stant simul quod aliquid secundum se sit odibile et 
+appe<lb ed="#L" break="no" n="119"/>titui naturali repugnans, et tamen propter finem aliquem
+<lb ed="#L" n="120"/>eligatur: sicut sectio membri appetitur propter sanitatem;
+<lb ed="#L" n="121"/>et tamen sanitas naturaliter desideratur, et sectio habetur
+<lb ed="#L" n="122"/>naturaliter odio. Ita etiam et in proposito finis naturaliter
+<lb ed="#L" n="123"/>appetitur, et mortem naturaliter quilibet refugit: et tamen
+<lb ed="#L" n="124"/>per mortem ad finem pervenitur; et propter ipsum finem
+<lb ed="#L" n="125"/>appetitu rationali mors appetitur et eligitur. Ex quo patet
+<lb ed="#L" n="126"/>illam consequentiam esse nullam, Mors ordinatur ad 
+eli<lb ed="#L" break="no" n="127"/>citatem tanquam medium necessarium. Ergo naturaliter
+<lb ed="#L" n="128"/>appetitur, sicut et ipsa felicitas.
+</p>
+            <p>
+               <lb ed="#L" n="129"/>Ista consequentia forte teneret in rebus carentibus 
+ra<lb ed="#L" break="no" n="130"/>tione, quia in illis est unica dumtaxat natura: non autem
+<lb ed="#L" n="131"/>in homine, in quo sunt duae naturae aliquo modo, 
+sci<lb ed="#L" break="no" n="132"/>licet corruptibilis et incorruptibilis. Voluntas enim bonum
+<lb ed="#L" n="133"/>utriusque naturae naturaliter desiderat: cum utraque sit de
+<pb ed="#L" n="133"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>perfectione suppositi. Ideo malum uniuscuiusque illarum
+<lb ed="#L" n="2"/>naturali appetitui contrariatur.
+</p>
+            <p>
+               <lb ed="#L" n="3"/>V. Septimo. Impossibile est in hac vita agere continue
+<lb ed="#L" n="4"/>quamcumque actionem. Ergo etc. — Probatur consequentia.
+<lb ed="#L" n="5"/>Quia ultima felicitas non in habitu, sed in actione 
+con<lb ed="#L" break="no" n="6"/>sistit: quantum scilicet ad ipsam beatitudinis essentiam.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>Octavo. Felicitas quaecumque ponatur in hac vita, 
+sem<lb ed="#L" break="no" n="8"/>per habet tristitiam naturaliter annexam. Ergo non erit
+<lb ed="#L" n="9"/>perfecta felicitas. - Probatur antecedens. Quia amissio 
+feli<lb ed="#L" break="no" n="10"/>citatis, utpote rei maxime desiderabilis, maxime tristitiam
+<lb ed="#L" n="11"/>habet. Quaecumque autem felicitas in hac vita ponatur,
+<lb ed="#L" n="12"/>certum est quod amittetur, saltem per mortem; et non
+<lb ed="#L" n="13"/>est certum quod durare debeat usque ad mortem, cum
+<lb ed="#L" n="14"/>multa possint accidere in hac vita quibus homo totaliter
+<lb ed="#L" n="15"/>ab operatione virtutis impeditur, puta phrenesis, (supple)
+<lb ed="#L" n="16"/>et ista certitudo amissionis et incertitudo diuturnitatis 
+feli<lb ed="#L" break="no" n="17"/>citatis, non est absque tristitia.
+</p>
+            <p>
+               <lb ed="#L" n="18"/>Adverte quod haec ratio a sexta differt. Quia ibi 
+conside<lb ed="#L" break="no" n="19"/>rabatur quod appetitus hominis non potest in hac vita 
+im<lb ed="#L" break="no" n="20"/>pleri, cum naturaliter appetat non mori, et hoc assequi
+<lb ed="#L" n="21"/>non possit. Hic autem consideratur admixtio tristitiae cum
+<lb ed="#L" n="22"/>bono in quo felicitas poneretur.
+</p>
+            <p>
+               <lb ed="#L" n="23"/>VI. Ad has rationes responderi posset quod probant
+<lb ed="#L" n="24"/>felicitatem perfectam non posse esse in hac vita: quod 
+uti<lb ed="#L" break="no" n="25"/>que conceditur, quia ista convenit tantum substantiis 
+se<lb ed="#L" break="no" n="26"/>paratis, in quibus est perfecta natura intellectualis. Non
+<lb ed="#L" n="27"/>autem probant quod felicitas quae nata est homini 
+con<lb ed="#L" break="no" n="28"/>venire, quae est imperfecta, cum in homine sit natura
+<lb ed="#L" n="29"/>intellectualis imperfecta, non possit in hac vita haberi.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>Confirmatur ista responsio ex Aristotele, I Ethicorum.
+<lb ed="#L" n="31"/>Cum enim ostendisset felicitatem esse in operibus virtutum,
+<lb ed="#L" n="32"/>quae maxime permanentes sunt, dixit eos quibus in hac vita
+<lb ed="#L" n="33"/>talis perfectio adest, esse beatos ut homines: quasi diceret
+<lb ed="#L" n="34"/>illos esse, non simpliciter beatos, sed modo humano.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>VII. Sed haec responsio, inquit Sanctus Thomas, 
+ratio<lb ed="#L" break="no" n="36"/>nes praemissas non evadit.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Et arguitur primo sic. Oportet, cum homo ad ultimum
+<lb ed="#L" n="38"/>suum finem pervenerit, ut naturale eius desiderium 
+quie<lb ed="#L" break="no" n="39"/>tetur:.cum irrationalia, quibus homo naturae ordine 
+su<lb ed="#L" break="no" n="40"/>perior est, sic perfecte finem suum ultimum consequantur
+<lb ed="#L" n="41"/>ut nihil aliud quaerant, ut patet in gravi et in brutis.
+<lb ed="#L" n="42"/>Sed hoc non potest esse in hac vita, Ergo felicitatem,
+<lb ed="#L" n="43"/>prout est finis proprius, homo consequi, non potest in
+<lb ed="#L" n="44"/>hac vita. Ergo post hanc vitam consequetur.
+</p>
+            <p>
+               <lb ed="#L" n="45"/>Secundo. Naturale desiderium hominis est implebile:
+<lb ed="#L" n="46"/>alioquin esset inane. Sed non in hac vita impleri potest, ut
+<lb ed="#L" n="47"/>ostensum est, Ergo implebitur post hanc vitam. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="48"/>Tertio. Homines in hac vita non se habent in 
+cogni<lb ed="#L" break="no" n="49"/>tione veritatis quasi in ultimo fine existentes, sed semper
+<lb ed="#L" n="50"/>se habent ut moti et tendentes ad perfectionem: cum illi
+<lb ed="#L" n="51"/>qui sequuntur, semper inveniant alia ab iis quae priores
+<lb ed="#L" n="52"/>invenerunt, ut dicitur II Metaph. Ergo etc. — Probatur
+<lb ed="#L" n="53"/>consequentia. Quia in speculatione, per quam quaeritur
+<lb ed="#L" n="54"/>cognitio veritatis, ultima videtur felicitas hominis in hac
+<lb ed="#L" n="55"/>vita consistere: ut ipse etiam Aristoteles, X Ethicorum,
+<lb ed="#L" n="56"/>probat.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Adverte quod haec ratio tenet de felicitate naturali,
+<lb ed="#L" n="58"/>quae per studium et exercitium in speculativis scientiis
+<lb ed="#L" n="59"/>quaeritur, de qua philosophi sunt locuti. Oportet enim
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="60"/>talem esse perfectissimam cognitionem quae haberi et 
+ac<lb ed="#L" break="no" n="61"/>quiri per tale exercitium potest. Et ad hanc cognitionem
+<lb ed="#L" n="62"/>nullus in hac vita pervenit. - Non autem procedit de 
+feli<lb ed="#L" break="no" n="63"/>citate supernaturali. Quia secundum hanc rationem 
+pro<lb ed="#L" break="no" n="64"/>baretur quod nec etiam post hanc vitam posset homo
+<lb ed="#L" n="65"/>felicitatem adipisci: cum nullus videntium divinam 
+essen<lb ed="#L" break="no" n="66"/>tiam sit in ultimo fine cognitionis veritatis, eo quod nullus
+<lb ed="#L" n="67"/>divinam essentiam comprehendere possit. — Nisi forte 
+dica<lb ed="#L" break="no" n="68"/>mus quod quilibet videns divinam essentiam est in fine
+<lb ed="#L" n="69"/>cognitionis veritatis quantum ad cognitionem specierum
+<lb ed="#L" n="70"/>creatarum, quia, ut dicetur inferius , quilibet Beatus in
+<lb ed="#L" n="71"/>divina essentia omnes naturas creatas intelligit; et etiam
+<lb ed="#L" n="72"/>quantum ad modum cognoscendi ipsum Deum, nullus
+<lb ed="#L" n="73"/>est enim altior modus cognoscendi Deum quam ipsum
+<lb ed="#L" n="74"/>per essentiam videre. Et sic ratio de omni fine concluderet.
+</p>
+            <p>
+               <lb ed="#L" n="75"/>Quarto. Homo per scientias speculativas, quibus in
+<lb ed="#L" n="76"/>hac vita veritatem cognoscimus, non potest omnia, nec
+<lb ed="#L" n="77"/>etiam materialia, cognoscere. Ergo etc. — Probatur 
+con<lb ed="#L" break="no" n="78"/>sequentia. Quia, cum id quod est in potentia intendat
+<lb ed="#L" n="79"/>exire in actum; et intellectus noster sit in potentia ad
+<lb ed="#L" n="80"/>omnes formas rerum: non erit ex toto in actu, neque in
+<lb ed="#L" n="81"/>ultimo suo fine, nisi quando omnia, saltem ista materialia,
+<lb ed="#L" n="82"/>cognoscit.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Confirmatur auctoritate Alexandri et Averrois.
+</p>
+            <p>
+               <lb ed="#L" n="84"/>2. Ad auctoritatem autem Aristotelis dicitur quod, quia
+<lb ed="#L" n="85"/>vidit non esse aliam cognitionem hominis in hac vita
+<lb ed="#L" n="86"/>quam per scientias speculativas, posuit hominem non 
+con<lb ed="#L" break="no" n="87"/>sequi felicitatem perfectam, sed suo modo. (Supple) Non
+<lb ed="#L" n="88"/>autem posuit quod felicitas quae est proprius finis ultimus
+<lb ed="#L" n="89"/>hominis, non sit perfecta felicitas; et quod in hac vita
+<lb ed="#L" n="90"/>suum proprium ultimum finem assequatur.
+</p>
+            <p>
+               <lb ed="#L" n="91"/>Advertendum, ut inquit Sanctus Thomas in Quarto, dist.
+<lb ed="#L" n="92"/>allegata, eodem art., qu 4 , quod Aristoteles, in libro .
+Ezhi<lb ed="#L" break="no" n="93"/>corum, de hac tantum felicitate hominis locutus est quae
+<lb ed="#L" n="94"/>est quaedam participatio verae beatitudinis, secundum quod
+<lb ed="#L" n="95"/>homo est perfectus in bonis rationis speculativae 
+principa<lb ed="#L" break="no" n="96"/>liter, et practicae secundario. Aliam autem, quae est post
+<lb ed="#L" n="97"/>hanc vitam, nec asseruit nec negavit, Ideo quod hoc loco
+<lb ed="#L" n="98"/>dicitur, ipsum Aristotelem posuisse hominem non 
+con<lb ed="#L" break="no" n="99"/>sequi beatitudinem in hac vita perfectam sed suo modo,
+<lb ed="#L" n="100"/>non est intelligendum quasi posuerit hominem in hac vita
+<lb ed="#L" n="101"/>consequi beatitudinem imperfectam, perfectam autem post
+<lb ed="#L" n="102"/>hanc vitam: sed quia posuit quidem in libro Ethicorum
+<lb ed="#L" n="103"/>hominem consequi posse beatitudinem imperfectam in
+<lb ed="#L" n="104"/>hac vita, qualis, inquam, sibi in hac vita potest evenire;
+<lb ed="#L" n="105"/>an autem post hanc vitam perfectam sit felicitatem 
+habi<lb ed="#L" break="no" n="106"/>turus, non determinat.
+</p>
+            <p>
+               <lb ed="#L" n="107"/>3. Ex praedictis infert Sanctus Thomas quod nos 
+libe<lb ed="#L" break="no" n="108"/>ramur ab angustia quam praeclara ingenia philosophorum
+<lb ed="#L" n="109"/>passa sunt: ponentes, secundum probationes praemissas,
+<lb ed="#L" n="110"/>homines ad veram post hanc vitam felicitatem pervenire
+<lb ed="#L" n="111"/>posse, anima immortali existente, quando intelliget per
+<lb ed="#L" n="112"/>modum substantiarum separatarum, ut in secundo libro est
+<lb ed="#L" n="113"/>ostensum.
+</p>
+            <p>
+               <lb ed="#L" n="114"/>ULTIMO Loco, ex universo superiori processu de 
+felici<lb ed="#L" break="no" n="115"/>tate, infert Sanctus Thomas primam conclusionem 
+prin<lb ed="#L" break="no" n="116"/>cipaliter intentam , hanc scilicet: Ultima hominis felicitas
+<lb ed="#L" n="117"/>erit in cognitione Dei post hanc vitam, quam habebit mens
+<lb ed="#L" n="118"/>humana per modum substantiarum separatarum.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 9</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 9</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="22"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1781"><!-- ferv7a-l3c9 -->
+            <head xml:id="ferv7a-d1e1781-Hd1e101">Capitulum 9</head>
+            <p xml:id="ferv7a-d1e1781-d1e103">
+               <lb ed="#L" n="65"/>I bis. Ad praedictas obiectiones, respondetur a Sancto
+<lb ed="#L" n="66"/>Thoma.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e110">
+               <lb ed="#L" n="67"/>Ad primam quidem dicitur primo, quod malum et 
+bo<lb ed="#L" break="no" n="68"/>num sunt differentiae specificae in moralibus, et primae.
+<lb ed="#L" n="69"/>Quia moralia, cum a voluntate dependeant, accipiunt 
+spe<lb ed="#L" break="no" n="70"/>ciem a fine, quod est obiectum voluntatis: sicut et 
+natu<lb ed="#L" break="no" n="71"/>rales actiones a forma, quae est principium actionis. Bonum
+<lb ed="#L" n="72"/>autem et malum dicuntur secundum ordinem ad finem
+<lb ed="#L" n="73"/>vel privationem ordinis, tanquam a prima mensura.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e128">
+               <lb ed="#L" n="74"/>Dicitur secundo quod, cum a fine rationis dicantur
+<lb ed="#L" n="75"/>in moralibus aliqua bona vel mala tanquam a prima 
+men<lb ed="#L" break="no" n="76"/>sura, quod in illis sumit speciem a fine contrario rationis
+<lb ed="#L" n="77"/>fini, dicitur secundum suam speciem malum.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e139">
+               <lb ed="#L" n="78"/>Dicitur tertio, quod talis finis mali, licet tollat finem
+<lb ed="#L" n="79"/>rationis, est tamen aliquod bonum. Declaratur exemplo
+<lb ed="#L" n="80"/>delectabilis secundum sensum, et similium. Unde malum,
+<lb ed="#L" n="81"/>secundum quod est differentia specifica, non importat 
+ali<lb ed="#L" break="no" n="82"/>quid quod sit secundum essentiam suam malum: sed quod
+<lb ed="#L" n="83"/>secundum se est bonum, malum autem est inquantum
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="84"/>privat ordinem rationis, quod est hominis bonum. Ex hoc
+<lb ed="#L" n="85"/>vult negare Sanctus Thomas quod malum formaliter 
+sum<lb ed="#L" break="no" n="86"/>ptum, de quo intelligitur conclusio, sit differentia specifica:
+<lb ed="#L" n="87"/>licet sit verum de malo per accidens et concretive sumpto.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e166">
+               <lb ed="#L" n="88"/>II. Circa hanc: propositionem, Bonum et malum 
+di<lb ed="#L" break="no" n="89"/>cuntur secundum ordinem ad finem vel privationem 
+or<lb ed="#L" break="no" n="90"/>dinis, considerandum quod hoc potest intelligi aut de bono
+<lb ed="#L" n="91"/>et malo in communi: aut de bono et malo secundum
+<lb ed="#L" n="92"/>quod in actionibus et habitibus invenitur. Si primo modo
+<lb ed="#L" n="93"/>intelligatur, duplicem habere sensum potest. Unus est, quod
+<lb ed="#L" n="94"/>bonum et malum sunt tantum in iis quae propter finem
+<lb ed="#L" n="95"/>nata sunt esse: bonum quidem, si sit ordinabile ad finem
+<lb ed="#L" n="96"/>et fini conveniens; malum autem si non sit ordinabile ad
+<lb ed="#L" n="97"/>finem, sed sit illi improportionatum. Hic sensus non est
+<lb ed="#L" n="98"/>verus. Quia non solum bonum et malum invenitur in iis ,
+<lb ed="#L" n="99"/>quae sunt propter finem, sed etiam in fine. Immo 
+prin<lb ed="#L" break="no" n="100"/>cipalius dicitur bonum de fine: quia ordinatum ad finem
+<lb ed="#L" n="101"/>non habet rationem boni nisi quia ordinatur ad bonum,
+<lb ed="#L" n="102"/>aut caret ordine debito ad illum. — Alius sensus esse 
+pot<lb ed="#L" break="no" n="103"/>est quod bonum et malum dicuntur aut secundum 
+con<lb ed="#L" break="no" n="104"/>comitantiam finis, aut secundum negationem talis 
+conco<lb ed="#L" break="no" n="105"/>mitantiae. Boni enim rationem concomitatur ratio finis,
+<lb ed="#L" n="106"/>si absolute et simpliciter sumatur bonum: mali autem
+<lb ed="#L" n="107"/>rationem. non concomitatur talis ratio, immo ipsam 
+con<lb ed="#L" break="no" n="108"/>comitatur privatio finis; nam sicut malum absolute 
+sum<lb ed="#L" break="no" n="109"/>ptum est privatio boni, ita privatio finis ipsum 
+concomi<lb ed="#L" break="no" n="110"/>tatur. Et hic sensus est verus.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e218">
+               <lb ed="#L" n="111"/>Si autem secundo modo intelligatur, sensus est quod
+<lb ed="#L" n="112"/>bonus actus, et bonus habitus, dicitur secundum quod
+<lb ed="#L" n="113"/>ordinatur ad finem, scilicet debitum: malus autem, 
+secun<lb ed="#L" break="no" n="114"/>dum quod caret ordine ad debitum finem.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e229">
+               <lb ed="#L" n="115"/>Licet autem utroque modo possit intelligi quod hic
+<lb ed="#L" n="116"/>dicitur, videtur tamen intelligendum esse primo modo
+<lb ed="#L" n="117"/>in sensu vero, scilicet de bono et malo in communi.
+<lb ed="#L" n="118"/>Tum quia absolute loquitur Sanctus Thomas de fine, et
+<lb ed="#L" n="119"/>nullam facit mentionem de fine debito. — Tum quia 
+con<lb ed="#L" break="no" n="120"/>venientius adaptatur praemissis. Quia enim dixerat quod
+<lb ed="#L" n="121"/>moralia sortiuntur speciem a fine, concludit, quia finis et
+<lb ed="#L" n="122"/>bonum sese concomitantur, similiter malum et negatio
+<lb ed="#L" n="123"/>finis, Ideo bonum et malum sunt primae differentiae in
+<pb ed="#L" n="23"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>moralibus, scilicet extrinsecae, a quibus sumuntur 
+intrin<lb ed="#L" break="no" n="2"/>secae differentiae.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e260">
+               <lb ed="#L" n="3"/>III. Circa secundum dictum responsionis , advertendum
+<lb ed="#L" n="4"/>quod finis rationis dicitur finis conformis recto iudicio
+<lb ed="#L" n="5"/>rationis, qui scilicet est secundum rectum iudicium 
+ra<lb ed="#L" break="no" n="6"/>tionis appetibilis. Finis autem contrarius fini rationis est
+<lb ed="#L" n="7"/>appetibile quod contrariatur appetibili secundum rectam
+<lb ed="#L" n="8"/>rationem: sicut delectabile secundum sensum, non 
+regu<lb ed="#L" break="no" n="9"/>latum ratione, contrariatur delectabili secundum rationem.
+<lb ed="#L" n="10"/>Et quia homo est homo per rationem, ideo bona moralia,
+<lb ed="#L" n="11"/>quae sunt hominis inquantum est homo, accipiunt 
+boni<lb ed="#L" break="no" n="12"/>tatem et malitiam ex ordine ad bonum rationis aut ad
+<lb ed="#L" n="13"/>contrarium illi bono.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e286">
+               <lb ed="#L" n="14"/>IV. Circa tertium dictum  duo sunt attendenda. 
+Pri<lb ed="#L" break="no" n="15"/>mum est, quod bonum aut malum ex ordine ad alterum,
+<lb ed="#L" n="16"/>ut sic, non habet bonitatem aut malitiam nisi secundum
+<lb ed="#L" n="17"/>bonitatem aut malitiam illius ad quod ordinatur. Et ideo,
+<lb ed="#L" n="18"/>si illud secundum aliquid sit bonum et secundum 
+ali<lb ed="#L" break="no" n="19"/>quid malum, ordinatum ad ipsum secundum aliquid erit
+<lb ed="#L" n="20"/>bonum, et secundum aliquid erit malum. Secundum enim
+<lb ed="#L" n="21"/>quod terminatur ad rem bonam, erit bonum, secundum
+<lb ed="#L" n="22"/>vero quod ad rem habentem aliquid malitiae terminatur,
+<lb ed="#L" n="23"/>erit malum talis ordo: nullam enim habet, inquantum
+<lb ed="#L" n="24"/>huiusmodi, bonitatem aut malitiam, nisi ex bonitate aut
+<lb ed="#L" n="25"/>malitia eius ad quod ordinatur. Ideo, cum. malum quod
+<lb ed="#L" n="26"/>est differentia specifica in genere moralium, sit aliquod
+<lb ed="#L" n="27"/>quod secundum se est bonum et secundum aliquid est
+<lb ed="#L" n="28"/>malum, inquantum videlicet privat ordinem rationis, quod
+<lb ed="#L" n="29"/>est hominis bonum, apparet quod habitus malus est 
+se<lb ed="#L" break="no" n="30"/>cundum aliquid bonus, scilicet inquantum respicit 
+bo<lb ed="#L" break="no" n="31"/>num; et secundum aliquid malus, inquantum videlicet
+<lb ed="#L" n="32"/>respicit privationem ordinis rationis illi bono coniunctam.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e330">
+               <lb ed="#L" n="33"/>Secundum est, quod malum dicitur aliquid dupliciter,
+<lb ed="#L" n="34"/>ut ponit <ref xml:id="ferv7a-d1e1781-Rd1e336">Sanctus Thomas II Sent, d. xxxiv, a. 2</ref>, de
+<lb ed="#L" n="35"/>per accidens. Malum per se est ipsa privatio boni abstracte
+<lb ed="#L" n="36"/>sumpta. Malum per accidens est et ipsum subiectum talis
+<lb ed="#L" n="37"/>privationis; et quod ipsam in altero causat. Malum ergo
+<lb ed="#L" n="38"/>quod ponitur differentia constitutiva in moralibus, non est
+<lb ed="#L" n="39"/>per se et abstracte malum, sed est malum per accidens et
+<lb ed="#L" n="40"/>concretive. Quod est dictu: Non est ipsa privatio boni 
+for<lb ed="#L" break="no" n="41"/>maliter et abstracte sumpta, sed est subiectum et natura
+<lb ed="#L" n="42"/>cui coniungitur boni privatio. Ordo enim positivus ad
+<lb ed="#L" n="43"/>finem malum habet coniunctam privationem ordinis ad
+<lb ed="#L" n="44"/>finem debitum, ut dictum est: sicut et finis indebitus
+<lb ed="#L" n="45"/>habet coniunctam privationem finis debiti. Unde dicitur
+<lb ed="#L" n="46"/>malus per accidens et concretive, sicut et finis ad quem
+<lb ed="#L" n="47"/>terminatur.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e368">
+               <lb ed="#L" n="48"/>2. Sed occurrit dubium. Nam si a fine specificatur 
+ha<lb ed="#L" break="no" n="49"/>bitus et actus moralis, aut specificatur ab illo secundum
+<lb ed="#L" n="50"/>quod habet bonitatem; aut secundum quod habet 
+priva<lb ed="#L" break="no" n="51"/>tionem et malitiam. Si inquantum aliquid bonitatis 
+ha<lb ed="#L" break="no" n="52"/>bet, sequitur quod habitus et actus non sit malus: quod
+<lb ed="#L" n="53"/>enim dicit ordinem ad aliquid inquantum est bonum, non
+<lb ed="#L" n="54"/>habet ex illo ut sit malum. Si inquantum habet privationem
+<lb ed="#L" n="55"/>et malitiam, sequitur quod a malo per se et abstracte 
+con<lb ed="#L" break="no" n="56"/>siderato specificetur. Et sic etiam malum formaliter et per
+<lb ed="#L" n="57"/>se sumptum erit differentia specifica in moralibus. Quod
+<lb ed="#L" n="58"/>negat hic et in aliis plerisque locis Sanctus Thomas.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e394">
+               <lb ed="#L" n="59"/>Respondetur quod divisio est insufficiens, si accipiantur
+<lb ed="#L" n="60"/>bonitas et malitia finis secundum omnimodam 
+praecisio<lb ed="#L" break="no" n="61"/>nem unius ab alio. Neque enim ratione bonitatis praecise
+<lb ed="#L" n="62"/>acceptae per exclusionem malitiae, neque ratione malitiae
+<lb ed="#L" n="63"/>praecise acceptae, specificatur habitus et actus malus, sed
+<lb ed="#L" n="64"/>ratione unius ut alteri coniungitur. Specificatur enim ab
+<lb ed="#L" n="65"/>ipso bono ut est bonum tali privationi et malitiae 
+sub<lb ed="#L" break="no" n="66"/>stans: et similiter potest dici specificari a malitia, non
+<lb ed="#L" n="67"/>absolute, sed inquantum est in tali natura. Ideo inquit
+<lb ed="#L" n="68"/>Sanctus Thomas Prima, q. xrvur, a. 1, ad 2, quod malum,
+<lb ed="#L" n="69"/>inquantum malum, non est differentia constitutiva, sed
+<lb ed="#L" n="70"/>ratione boni adiuncti; et II Sent., d. x1, a. 1, ad 2, quod
+<lb ed="#L" n="71"/>malum est differentia secundum quod fundatur in aliquo
+<lb ed="#L" n="72"/>Jine indebito voluntati, qui tamen non omnino bonitate
+<lb ed="#L" n="73"/>caret. Hic autem dicit quod malum, secundum quod est
+<lb ed="#L" n="74"/>differentia specifica in genere morum, non importat ali-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="75"/>quid quod secundum essentiam suam sit malum, sed quod
+<lb ed="#L" n="76"/>est bonum secundum se, malum autem homini. Ex quibus
+<lb ed="#L" n="77"/>patet quod utrumque dici potest: scilicet et quod finis
+<lb ed="#L" n="78"/>indebitus specificat ratione malitiae secundum quod. in
+<lb ed="#L" n="79"/>bono fundatur, inquantum scilicet bonum non specificat
+<lb ed="#L" n="80"/>nisi ut malitiae substat; et quod specificat ratione 
+boni<lb ed="#L" break="no" n="81"/>tatis, inquantum scilicet malitia non specificat nisi ut in
+<lb ed="#L" n="82"/>bonitate fundatur; ita quod unum sine alio non 
+specifi<lb ed="#L" break="no" n="83"/>caret. Ratione autem cuius principalius habeat specificare,
+<lb ed="#L" n="84"/>videtur ex iis quae dicuntur Prima Parte; et I| Sent.,
+<lb ed="#L" n="85"/>d. xxxiv et xL; et similiter in Qu. de Virtutibus, q. 1, a. 2,
+<lb ed="#L" n="86"/>ad 5, quod hoc habeat ratione bonitatis, licet ratione 
+ma<lb ed="#L" break="no" n="87"/>litiae det malitiam habitui. Nam vult Sanctus Thomas in
+<lb ed="#L" n="88"/>locis praeallegatis quod malum non constituit speciem 
+ra<lb ed="#L" break="no" n="89"/>lione privationis, sed ratione eius quod privationi 
+sub<lb ed="#L" break="no" n="90"/>sternitur ; et hic dicitur quod malum quod est differentia
+<lb ed="#L" n="91"/>specifica, importat aliquod quod est secundum se bonum.
+<lb ed="#L" n="92"/>Hoc etiam rationi consonum est: quia, cum species dicat
+<lb ed="#L" n="93"/>naturam quandam et essentiam, non habet specificari nisi
+<lb ed="#L" n="94"/>per id quod naturam importat.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e477">
+               <lb ed="#L" n="95"/>V. Ad secundam obiectionem  respondetur quod sunt
+<lb ed="#L" n="96"/>contraria secundum quod in genere moralium 
+accipiun<lb ed="#L" break="no" n="97"/>tur. Malum autem, inquantum malum, est privatio boni.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e486">
+               <lb ed="#L" n="98"/>Adverte quod malum, si formaliter et abstractive 
+su<lb ed="#L" break="no" n="99"/>matur, quod vocat Sanctus Thomas malum inquantum
+<lb ed="#L" n="100"/>malum, non potest ad bonum habere contrarii rationem,
+<lb ed="#L" n="101"/>quia est sola privatio, et nullam naturam aut essentiam
+<lb ed="#L" n="102"/>dicit formaliter: sed illi opponitur privative. Si autem 
+su<lb ed="#L" break="no" n="103"/>matur et subiective, scilicet pro subiecto privationis, sic dicit
+<lb ed="#L" n="104"/>essentiam aliquam et naturam privationi subiectam: et sic
+<lb ed="#L" n="105"/>potest habere rationem contrarii. Quia ergo malum in
+<lb ed="#L" n="106"/>moralibus accipitur concretive, pro actu scilicet aut habitu
+<lb ed="#L" n="107"/>debito ordine et debita perfectione carente, ideo dicit 
+San<lb ed="#L" break="no" n="108"/>ctus Thomas quod in moralibus bonum et malum sunt
+<lb ed="#L" n="109"/>contraria.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e515">
+               <lb ed="#L" n="110"/>2. Sed tunc occurrit dubium in QQ. de Malo, q. 1,
+<lb ed="#L" n="111"/>a. 1, tactum. Nam secundum id quod substernitur ipsi
+<lb ed="#L" n="112"/>malo, convenit malum cum bono. Ergo non contrariatur
+<lb ed="#L" n="113"/>bono ratione substrati, sed inquantum malum est.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e526">
+               <lb ed="#L" n="114"/>Respondetur, et dicitur primo, secundum ipsum 
+ibi<lb ed="#L" break="no" n="115"/>dem, et est de mente Simplicii in Praedicamentis, quod
+<lb ed="#L" n="116"/>malum non est privatio quae est in privatum esse, ut mors
+<lb ed="#L" n="117"/>et caecitas; sed est privatio quae est in privari, sicut 
+aegri<lb ed="#L" break="no" n="118"/>tudo et ophthalmia, quorum unum est via in mortem et
+<lb ed="#L" n="119"/>aliud via in caecitatem. Ideo malum dici potest contrarie:
+<lb ed="#L" n="120"/>quia non privat totum bonum, sed aliquid de bono 
+re<lb ed="#L" break="no" n="121"/>linquit, inquantum fundatur in bono. Privationes enim
+<lb ed="#L" n="122"/>huiusmodi contrariae dici possunt, inquantum adhuc 
+re<lb ed="#L" break="no" n="123"/>tinetur de eo quod privatur.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e551">
+               <lb ed="#L" n="124"/>Dicitur secundo quod, /icet non sufficiat ad rationem
+<lb ed="#L" n="125"/>contrarietatis eius ad bonum id in quo convenit cum bono,
+<lb ed="#L" n="126"/>sine hoc tamen contrarietas esse non posset: sicut, licet
+<lb ed="#L" n="127"/>id in quo convenit nigrum cum albo, non sufficiat ad
+<lb ed="#L" n="128"/>eorum contrarietatem, sine hoc tamen contrarietas non
+<lb ed="#L" n="129"/>posset esse. Ideo conceditur quod malum morale non 
+con<lb ed="#L" break="no" n="130"/>trariatur bono solum ex ratione substrati: sed bene verum
+<lb ed="#L" n="131"/>est quod contrariatur ex ipso simul cum privatione. Ita
+<lb ed="#L" n="132"/>quod, si omne bonum substratum removeatur, non 
+ha<lb ed="#L" break="no" n="133"/>bebit rationem contrarii, sed tantum rationem privative
+<lb ed="#L" n="134"/>oppositi, immo oppositi contradictorie.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e577">
+               <lb ed="#L" n="135"/>VI. Ad tertiam obiectionem  dicitur primo, conformiter
+<lb ed="#L" n="136"/>ad praecedentia, quod bonum et malum, prout sunt in 
+mo<lb ed="#L" break="no" n="137"/>ralibus, sunt genera contrariorum: quia in moralibus aut
+<lb ed="#L" n="138"/>utrumque contrarium est malum, sicut prodigalitas et 
+illi<lb ed="#L" break="no" n="139"/>beralitas; vel unum est bonum et alterum est malum, sicut
+<lb ed="#L" n="140"/>liberalitas et illiberalitas.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e593">
+               <lb ed="#L" n="141"/>Dicitur secundo, quod tale malum morale est genus et
+<lb ed="#L" n="142"/>differentia, non secundum quod est privatio boni rationis,
+<lb ed="#L" n="143"/>ex quo dicitur malum: sed ex natura actus vel habitus
+<lb ed="#L" n="144"/>ordinati ad aliquem finem qui repugnat fini rationis. 
+De<lb ed="#L" break="no" n="145"/>claratur exemplo hominis caeci; et differentiae huius quae
+<lb ed="#L" n="146"/>est irrationale.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e609">
+               <lb ed="#L" n="147"/>Adverte quod responsio tendit ad hoc quod 
+argumen<lb ed="#L" break="no" n="148"/>tum non est contra determinationem factam. Quia cum
+<lb ed="#L" n="149"/>dictum est malum nullam essentiam esse, intelligitur de
+<pb ed="#L" n="24"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>malo formaliter et abstracte sumpto : propositio autem 
+Ari<lb ed="#L" break="no" n="2"/>stotelis intelligitur de malo morali, quod est malum 
+con<lb ed="#L" break="no" n="3"/>cretive, est enim habitus aut actus cui aliquod malum 
+con<lb ed="#L" break="no" n="4"/>iungitur. Cum autem dicitur quod malum est genus et
+<lb ed="#L" n="5"/>differentia, genus scilicet malorum, et differentia mali 
+mo<lb ed="#L" break="no" n="6"/>ralis a bono morali, non secundum quod est privatio, sed
+<lb ed="#L" n="7"/>ex natura actionis et habitus: intellige, sicut in 
+praece<lb ed="#L" break="no" n="8"/>denti responsione, quod ipsa privatio non est genus et
+<lb ed="#L" n="9"/>differentia, sed actus et habitus, secundum tamen quod
+<lb ed="#L" n="10"/>tali substernuntur privationi.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e644">
+               <lb ed="#L" n="11"/>Dicitur tertio, quod posset dici Aristotelem illud non
+<lb ed="#L" n="12"/>dixisse secundum propriam opinionem, quemadmodum et
+<lb ed="#L" n="13"/>in pluribus librorum logicalium secundum aliorum 
+opi<lb ed="#L" break="no" n="14"/>nionem utitur exemplis: sed secundum Pythagorae 
+opi<lb ed="#L" break="no" n="15"/>nionem dicentis bonum et malum esse prima genera et
+<lb ed="#L" n="16"/>prima principia, sub quorum utroque posuit decem prima
+<lb ed="#L" n="17"/>contraria.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e662">
+               <lb ed="#L" n="18"/>Dicitur quarto, quod dictum Pythagorae aliquam 
+ve<lb ed="#L" break="no" n="19"/>ritatem habet. Quia omnium contrariorum unum est 
+per<lb ed="#L" break="no" n="20"/>fectum, alterum diminutum, quasi privationem quandam
+<lb ed="#L" n="21"/>habens admixtam. Omnis autem diminutio et privatio ad
+<lb ed="#L" n="22"/>rationem mali pertinet: et omnis perfectio et 
+complemen<lb ed="#L" break="no" n="23"/>tum ad rationem boni. Et secundum hoc, bonum et 
+ma<lb ed="#L" break="no" n="24"/>lum omnium contrariorum genera esse videntur, inquantum
+<lb ed="#L" n="25"/>unum sub ratione boni comprehendi videtur, alterum vero
+<lb ed="#L" n="26"/>ad rationem mali videtur accedere.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e685">
+               <lb ed="#L" n="27"/>2. Advertendum hic primo, quod haec responsio, quod
+<lb ed="#L" n="28"/>inquam Aristoteles exemplificavit in JPraedicamentis de
+<lb ed="#L" n="29"/>bono et malo tanquam de contrariis et generibus 
+contra<lb ed="#L" break="no" n="30"/>riorum, fuit Iamblici, ut recitat Simplicius in 
+Praedica<lb ed="#L" break="no" n="31"/>mentis . Quia enim Pythagoras duas rerum coordinationes
+<lb ed="#L" n="32"/>fecit, scilicet unam bonorum et alteram malorum; et 
+di<lb ed="#L" break="no" n="33"/>cebat bonum et malum esse prima genera et prima 
+prin<lb ed="#L" break="no" n="34"/>cipia illarum contrariarum coordinationum: ideo 
+Aristo<lb ed="#L" break="no" n="35"/>teles, opinionem Pythagorae sectatus, dixit bonum et
+<lb ed="#L" n="36"/>malum esse contraria tanquam genera contrariorum.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e709">
+               <lb ed="#L" n="37"/>Advertendum secundo, ex <ref xml:id="ferv7a-d1e1781-Rd1e713">Sancto Thoma II Sent.
+<lb ed="#L" n="38"/>dist. xxxiv, loco praeallegato</ref>, quod secundum modum
+<lb ed="#L" n="39"/>illum quo dicitur bonum et malum simpliciter et 
+uni<lb ed="#L" break="no" n="40"/>versaliter sumpta posse aliquo modo dici genera 
+contra<lb ed="#L" break="no" n="41"/>riorum (quae videtur fuisse "Theophrasti interpretatio ),
+<lb ed="#L" n="42"/>genus non accipitur secundum propriam significationem,
+<lb ed="#L" n="43"/>pro eo scilicet quod univoce de pluribus differentibus specie
+<lb ed="#L" n="44"/>in eo quod quid est praedicatur: sed improprie, prout omne
+<lb ed="#L" n="45"/>quod sua communitate multa ambit et continet, potest dici
+<lb ed="#L" n="46"/>genus. Et sic acceperunt Porphyriani nomen generis in
+<lb ed="#L" n="47"/>illa propositione, ut Simplicius refert . Unde et 
+Ammo<lb ed="#L" break="no" n="48"/>nius  inquit ista dici genera eo quod in omnibus generibus
+<lb ed="#L" n="49"/>inveniantur, quemadmodum et Plato genera entium posuit
+<lb ed="#L" n="50"/>ens, idem, diversum, motum et stationem: non autem quasi
+<lb ed="#L" n="51"/>sint genera seorsum ab aliis decem generibus distincta.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e747">
+               <lb ed="#L" n="52"/>Advertendum tertio, cum inquit Sanctus Thomas omnem
+<lb ed="#L" n="53"/>diminutionem et privationem ad rationem mali pertinere,
+<lb ed="#L" n="54"/>quod non accipitur ibi malum simpliciter, prout in cap. vt
+<lb ed="#L" n="55"/>declaravit dici simpliciter malum quod est malum 
+subie<lb ed="#L" break="no" n="56"/>cti in quo est, quando scilicet a subiecto privat id quod
+<lb ed="#L" n="57"/>natum est et debet habere: non enim est malum 
+nigre<lb ed="#L" break="no" n="58"/>dini quod careat perfectione albedinis, sicut nec est 
+ma<lb ed="#L" break="no" n="59"/>lum hominis quod non habeat alas. Sed accipitur malum
+<lb ed="#L" n="60"/>universaliter pro carentia perfectionis in aliquo quam
+<lb ed="#L" n="61"/>aliquid sui generis natum est et debet habere.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e771">
+               <lb ed="#L" n="62"/>VIL. Ad quartam obiectionem  dicitur primo, ex 
+sen<lb ed="#L" break="no" n="63"/>tentia Dyonisii, rv cap. de Div. Nom., quod malum non
+<lb ed="#L" n="64"/>agit nisi per accidens, ratione boni cui adiungitur.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e780">
+               <lb ed="#L" n="65"/>Dicitur secundo, quod malum dicitur corrumpere 
+bo<lb ed="#L" break="no" n="66"/>num, non solum agendo virtute boni, sed etiam 
+forma<lb ed="#L" break="no" n="67"/>liter secundum se: sicut caecitas dicitur corrumpere visum
+<lb ed="#L" n="68"/>quia est visus corruptio.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e791">
+               <lb ed="#L" n="69"/>Adverte quod responsio est haec: quod si loquamur
+<lb ed="#L" n="70"/>de corrumpente per modum efficientis, malum non 
+cor<lb ed="#L" break="no" n="71"/>rumpit per se, sed per accidens. Si vero loquamur de 
+cor<lb ed="#L" break="no" n="72"/>rumpente formaliter, malum corrumpit per se. Sed non
+<lb ed="#L" n="73"/>oportet quod sit corrumpens effective per accidens, quia
+<lb ed="#L" n="74"/>videlicet coniungitur virtuti per se corrumpenti; nec quod
+<lb ed="#L" n="75"/>corrumpens formaliter sit aliqua natura.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e810">
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>VIII. Ad quintam obiectionem respondetur quod dicitur
+<lb ed="#L" n="77"/>aliquid altero maius aut minus malum per recessum a
+<lb ed="#L" n="78"/>bono: quia sic intenduntur et remittuntur privationes, ut
+<lb ed="#L" n="79"/>patet in dissimili et inaequali. Non enim intenduntur quasi
+<lb ed="#L" n="80"/>aliquam essentiam habentes, sicut formae: sed per 
+augmen<lb ed="#L" break="no" n="81"/>tum causae privantis, quae facit subiectum magis a forma
+<lb ed="#L" n="82"/>distare. Ostenditur exemplo tenebrae, quae ex 
+interposi<lb ed="#L" break="no" n="83"/>tione obstaculi provenit in aere.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e832">
+               <lb ed="#L" n="84"/>Ex his patet falsam esse illam propositionem, Zn 
+quibus<lb ed="#L" break="no" n="85"/>cumque invenitur magis et minus, oportet quod sint res
+<lb ed="#L" n="86"/>aliquae habentes ordinem. Fallit enim in quibus dicitur
+<lb ed="#L" n="87"/>magis et minus per recessum ab opposito. — De magis
+<lb ed="#L" n="88"/>et minus satis dictum est in praecedentibus, quantum ad
+<lb ed="#L" n="89"/>propositum spectat .
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e848">
+               <lb ed="#L" n="90"/>IX. Ad sextam obiectionem respondetur quod, cum
+<lb ed="#L" n="91"/>ens dupliciter dicatur, ut patet V Metaph., scilicet 
+secun<lb ed="#L" break="no" n="92"/>dum quod significat essentiam rei, et secundum quod
+<lb ed="#L" n="93"/>significat veritatem compositionis; malum et privatio non
+<lb ed="#L" n="94"/>dicitur ens primo modo, sed secundo modo, inquantum
+<lb ed="#L" n="95"/>privatione dicitur aliquid esse privatum, et malo dicitur
+<lb ed="#L" n="96"/>aliqua res mala.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e866">
+               <lb ed="#L" n="97"/>2. Pro declaratione huius responsionis, considerandum,
+<lb ed="#L" n="98"/>ex doctrina Sancti Thomae in locis praeallegatis , et ex
+<ref xml:id="ferv7a-d1e1781-Rd1e872">Commentatore, V Metaph., comment. 14</ref>, quod ens primo a
+<lb ed="#L" n="99"/>modo sumptum, et ems secundo modo dictum, dupliciter
+<lb ed="#L" n="100"/>differunt. Primo, quia ezs quod significat essentiam rei,
+<lb ed="#L" n="101"/>de aliquo praedicatum, est praedicatum substantiale; ens
+<lb ed="#L" n="102"/>vero quod significat compositionem intellectus, est 
+prae<lb ed="#L" break="no" n="103"/>dicatum accidentale.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e886">
+               <lb ed="#L" n="104"/>Secundo, quia primum respondetur ad quaestionem
+<lb ed="#L" n="105"/>quid est; secundum vero respondetur ad quaestionem an
+<lb ed="#L" n="106"/>est. Ubi advertendum quod a est, licet videatur prima
+<lb ed="#L" n="107"/>facie quaerere de esse in rerum natura, non tamen quaerit
+<lb ed="#L" n="108"/>de esse reali eius de quo quaeritur an sit: sed absolute
+<lb ed="#L" n="109"/>quaeritur an vere de ipso affirmari possit quod sit in rerum
+<lb ed="#L" n="110"/>natura, et an fundare possit veram compositionem 
+intel<lb ed="#L" break="no" n="111"/>lectus dicentis ipsum esse, aut de ipso aliquid affirmantis,
+<lb ed="#L" n="112"/>sive sit ut aliquid affirmatum sive ut negatio. Et ideo,
+<lb ed="#L" n="113"/>cum respondetur quod es?, ly est dicit veritatem 
+compo<lb ed="#L" break="no" n="114"/>sitionis intellectus: et est sensus quod vera est compositio
+<lb ed="#L" n="115"/>intellectus dicentis quod est in rerum natura, et quod vere
+<lb ed="#L" n="116"/>affirmatur de aliquo, puta quia verum est aliquid esse 
+pri<lb ed="#L" break="no" n="117"/>vatum, ut hominem esse caecum; ita quod huiusmodi
+<lb ed="#L" n="118"/>compositiones habent in ipsa privatione fundamentum suae
+<lb ed="#L" n="119"/>veritatis. Et licet in huiusmodi locutionibus videatur 
+si<lb ed="#L" break="no" n="120"/>gnificari privationes aliquod esse habere in re, tamen 
+si<lb ed="#L" break="no" n="121"/>gnificatur magis aliquod non esse formae oppositae, quam
+<lb ed="#L" n="122"/>aliquod esse privationis. Unde Augustinus, super illud,
+<lb ed="#L" n="123"/>Tenebrae erant super faciem abyssi, ait quod sic dictum
+<lb ed="#L" n="124"/>est, Tenebrae erant super faciem abyssi, ac si dictum
+<lb ed="#L" n="125"/>esset, Non erat lux super abysso. Et in <ref xml:id="ferv7a-d1e1781-Rd1e935">III libro de Vita
+<lb ed="#L" n="126"/>Beata, cap. i</ref>, ait quod locum aliquem habere tenebras,
+<lb ed="#L" n="127"/>nihil aliud est quam lumen non habere.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e944">
+               <lb ed="#L" n="128"/>X. Sed circa hoc dupliciter dubitatur. Primo, quia 
+com<lb ed="#L" break="no" n="129"/>positio intellectus non est vera nisi sibi aliquid 
+respon<lb ed="#L" break="no" n="130"/>deat in re. Si ergo privatio nullum esse reale actualis 
+exi<lb ed="#L" break="no" n="131"/>stentiae habeat extra intellectum, non erit vera compositio
+<lb ed="#L" n="132"/>intellectus dicentis privationem esse.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e958">
+               <lb ed="#L" n="133"/>Secundo quia, ut <ref xml:id="ferv7a-d1e1781-Rd1e962">VI Metaph.</ref> dicitur, verum et 
+fal<lb ed="#L" break="no" n="134"/>sum distinguuntur a bono et malo, quia verum et falsum
+<lb ed="#L" n="135"/>sunt in intellectu, bonum autem et malum sunt in rebus.
+<lb ed="#L" n="136"/>Ergo malum et privatio aliquod esse ponunt in rebus.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e971">
+               <lb ed="#L" n="137"/>2. Ad primum respondetur, et dicitur primo, quod 
+com<lb ed="#L" break="no" n="138"/>positioni intellectus non oportet aliquid correspondere in
+<lb ed="#L" n="139"/>re quod sit reale, aut esse reale habeat extra animam:
+<lb ed="#L" n="140"/>patet enim quod huic compositioni verae, No« ens est
+<lb ed="#L" n="141"/>non ens, nihil reale ex parte significati aut intellecti 
+cor<lb ed="#L" break="no" n="142"/>respondet. Sed bene oportet rem intellectam aut 
+signifi<lb ed="#L" break="no" n="143"/>catam proportionari et adaequari compositioni intellectus.
+<lb ed="#L" n="144"/>Et hoc significatur cum dicitur intellectum intelligere sicut
+<lb ed="#L" n="145"/>est in re.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e993">
+               <lb ed="#L" n="146"/>Dicitur secundo quod, si intellectus intelligeret 
+priva<lb ed="#L" break="no" n="147"/>tionem habere esse reale positivum in natura, false 
+intel<lb ed="#L" break="no" n="148"/>ligeret: quia intellectum non esset adaequatum et 
+pro<lb ed="#L" break="no" n="149"/>portionatum intelligenti. Sed hoc non intelligit cum dicit
+<pb ed="#L" n="25"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>privationem esse: sed tantum quod privatio habet esse
+<lb ed="#L" n="2"/>quomodocumque sibi conveniat esse; sive, inquam, modo
+<lb ed="#L" n="3"/>habentis naturam aliquam et essentiam; sive modo 
+nega<lb ed="#L" break="no" n="4"/>tionum quae sibi subiectum determinant. Ideo non oportet
+<lb ed="#L" n="5"/>ut isti compositioni correspondeat in re aliquod esse reale
+<lb ed="#L" n="6"/>privationis: sed suffcit quod habeat esse suo modo, 
+sci<lb ed="#L" break="no" n="7"/>licet ut negatio cuius esse consistit ut ipso subiectum sit
+<lb ed="#L" n="8"/>tale ex quo habet ut sit verae propositionis fundamentum,
+<lb ed="#L" n="9"/>et sic adaequetur compositioni de se factae.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e1028">
+               <lb ed="#L" n="10"/>Dicitur tertio, quod etiam tali compositioni respondet
+<lb ed="#L" n="11"/>aliquid reale, scilicet subiectum carens forma, ex quo habet
+<lb ed="#L" n="12"/>compositio ut sit vera. Quia enim est in natura oculus
+<lb ed="#L" n="13"/>carens potentia visiva, ideo vera est ista compositio, 
+Cae<lb ed="#L" break="no" n="14"/>citas est, et ista, Caecitas est in oculo.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e1041">
+               <lb ed="#L" n="15"/>3. Ad secundum dicitur quod, cum bonum et malum
+<lb ed="#L" n="16"/>pertineant ad appetitum, qui ad rem extra terminatur, non
+<lb ed="#L" n="17"/>est bonum et malum primo in intellectu obiective ut 
+co<lb ed="#L" break="no" n="18"/>gnitum, sed in ipsis rebus ut terminans appetitum: bonum
+<lb ed="#L" n="19"/>scilicet per se, malum vero per accidens; item, bonum
+<lb ed="#L" n="20"/>tanquam ponens in re aliquam perfectionem, malum vero
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="21"/>ut remotio et privatio perfectionis. Unde de Malo, q. r,
+<lb ed="#L" n="22"/>a. 1, ad 20, dicit Sanctus Thomas quod malum est quidem
+<lb ed="#L" n="23"/>in rebus, sed ut privatio, non autem aliquid reale. 
+Pro<lb ed="#L" break="no" n="24"/>pterea ista consequentia non valet: Malum non est primo
+<lb ed="#L" n="25"/>in intellectu ut terminus intellectus, sive ut cognitum, sed
+<lb ed="#L" n="26"/>in rebus. Ergo ponit aliquod esse reale in rebus.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e1072">
+               <lb ed="#L" n="27"/>Si autem. probetur consequentia sic: Omne ens aut est
+<lb ed="#L" n="28"/>reale, aut rationis. Malum non est ens rationis: quia non
+<lb ed="#L" n="29"/>convenit rei, per te, ut est obiective in intellectu, quae
+<lb ed="#L" n="30"/>est conditio entis rationis. Ergo est ens reale: — 
+respon<lb ed="#L" break="no" n="31"/>detur quod privatio entis realis est quidem ens reale, non
+<lb ed="#L" n="32"/>ut ponens ens reale in re, sed ut remotio entis realis;
+<lb ed="#L" n="33"/>affirmatio enim et negatio ad idem genus pertinent. Sed
+<lb ed="#L" n="34"/>hoc non est contra responsionem: quia non est negatum
+<lb ed="#L" n="35"/>privationem esse ens reale per modum negationis, sed quod
+<lb ed="#L" n="36"/>ponat formaliter aliquid esse reale in rebus.
+</p>
+            <p xml:id="ferv7a-d1e1781-d1e1097">
+               <lb ed="#L" n="37"/>Vel dicendum quod divisio adducta est insufficiens. Non
+<lb ed="#L" n="38"/>enim unumquodque est aut ens reale aut ens rationis : sed,
+<lb ed="#L" n="39"/>aut ens reale; aut ens rationis: aut negatio entis realis;
+<lb ed="#L" n="40"/>aut negatio entis rationis.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

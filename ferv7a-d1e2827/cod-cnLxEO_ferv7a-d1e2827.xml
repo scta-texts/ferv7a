@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 137</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 137</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="416"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2827"><!-- ferv7a-l3c137 -->
+            <head>Capitulum 137</head>
+            <p>
+               <lb ed="#L" n="13"/>I bis. Secundo loco, impugnat Sanctus Thomas 
+hae<lb ed="#L" break="no" n="14"/>resim Ioviniani, non improbantis quidem perpetuam 
+conti<lb ed="#L" break="no" n="15"/>nentiam, sed ei statum matrimonii aequantis . Contra enim
+<lb ed="#L" n="16"/>ipsum arguit ex praecedentibus sic. Per continentiam homo
+<lb ed="#L" n="17"/>redditur habilior ad mentis elevationem in spiritualia et
+<lb ed="#L" n="18"/>divina; et quodammodo supra statum hominis ponitur, in
+<lb ed="#L" n="19"/>quadam similitudine angelorum. Ergo. status continentiae
+<lb ed="#L" n="20"/>est perfectior statu matrimonii.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Adverte quod fundamentum huius rationis est, quia
+<lb ed="#L" n="22"/>bonum animae praefertur bono corporis; et bonum 
+con<lb ed="#L" break="no" n="23"/>templativae vitae praefertur bono activae; et similiter 
+bo<lb ed="#L" break="no" n="24"/>num divinum est potius bono humano; et haec omnia
+<lb ed="#L" n="25"/>excellentiora bona virginitati conveniunt.
+</p>
+            <p>
+               <lb ed="#L" n="26"/>II bis. Huic autem, inquit Sanctus Thomas, non obstat
+<lb ed="#L" n="27"/>quod aliqui perfectissimae virtutis viri matrimonio usi
+<lb ed="#L" n="28"/>sunt, ut Abraham, Isaac et lacob. Tum quia, quanto
+<lb ed="#L" n="29"/>virtus mentis est fortior, tanto minus potest per 
+quaecum<lb ed="#L" break="no" n="30"/>que a sua altitudine deiici.
+</p>
+            <p>
+               <lb ed="#L" n="31"/>Tum quia non minus contemplationem veritatis et 
+divi<lb ed="#L" break="no" n="32"/>norum amaverunt matrimonio utentes: sed, secundum
+<lb ed="#L" n="33"/>quod conditio temporis requirebat, matrimonio utebantur
+<lb ed="#L" n="34"/>ad multiplicationem populi fidelis.
+</p>
+            <p>
+               <lb ed="#L" n="35"/>Tum quia perfectio alicuius personae non est sufficiens
+<lb ed="#L" n="36"/>argumentum ad perfectionem status: cum aliquis perfectiori
+<lb ed="#L" n="37"/>mente possit uti minori bono, et alius maiori bono 
+imper<lb ed="#L" break="no" n="38"/>fectiori mente 
+</p>
+            <p>
+               <lb ed="#L" n="39"/>2. Ad evidentiam primi dicti istius responsionis, 
+adver<lb ed="#L" break="no" n="40"/>tendum est quod, ut ex superioribus  patet, continentia
+<lb ed="#L" n="41"/>laudabilis est inquantum per ipsam homo ad divinorum
+<lb ed="#L" n="42"/>contemplationem redditur habilior. Potest autem | contin-
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="43"/>gere quod aliquis in matrimonio existens, propter mentis
+<lb ed="#L" n="44"/>virtutem et stabilitatem, ex usu matrimonii non deiiciatur
+<lb ed="#L" n="45"/>a divinorum contemplatione, sed illi; magis vacet quam
+<lb ed="#L" n="46"/>aliquis in. caelibatu vivens. Et tunc iste perfectioris virtutis
+<lb ed="#L" n="47"/>est quam servans continentiam, non quia matrimonium
+<lb ed="#L" n="48"/>perfectius sit continentia, sed quia iste qui matrimonio
+<lb ed="#L" n="49"/>utitur, magis adhaeret Deo per contemplationem quam
+<lb ed="#L" n="50"/>ille qui in caelibatu vivit. Et sic dicuntur Abraham, Isaac
+<lb ed="#L" n="51"/>et Iacob perfectissimae virtutis fuisse, licet matrimonio usi
+<lb ed="#L" n="52"/>fuerint: quia maxime vacationi divinorum intendebant,
+<lb ed="#L" n="53"/>nec propter matrimonii usum ab ea deiiciebantur, eo quod
+<lb ed="#L" n="54"/>mentem stabilem ac firmam in divinis rebus haberent, et
+<lb ed="#L" n="55"/>firmiorem quam multi habeant continentes.
+</p>
+            <p>
+               <lb ed="#L" n="56"/>3. Ad evidentiam secundi dicti, considerandum est, ex
+<lb ed="#L" n="57"/>doctrina Sancti Thomae lI II^, q. cru, a. 4, ad 1, 2,
+<lb ed="#L" n="58"/>quod, /icet virginitas sit melior quam castitas coniugalis,
+<lb ed="#L" n="59"/>potest tamen coniugatus melior esse quam virgo: si ille
+<lb ed="#L" n="60"/>scilicet habeat animum magis paratum ad castitatem 
+ser<lb ed="#L" break="no" n="61"/>vandam. si oporteret, quam is qui est actu virgo. Praedicti
+<lb ed="#L" n="62"/>autem habuerunt animum sic dispositum quod parati erant
+<lb ed="#L" n="63"/>virginitatem servare si fuisset tempori congruum. ldeo
+<lb ed="#L" n="64"/>non fuerunt continentibus inferiores, sed aliquibus etiam
+<lb ed="#L" n="65"/>superiores fuerunt. Unde Augustinus, in libro de Bono
+<lb ed="#L" n="66"/>Coniugali, dicit Ioannis caelibatum, et Abrahae 
+coniu<lb ed="#L" break="no" n="67"/>gium, pro temporum distributione Christo militasse: sed
+<lb ed="#L" n="68"/>continentiam. Ioannem in opere, Abraham vero in solo
+<lb ed="#L" n="69"/>habitu habuisse. Hoc est quod significavit Sanctus Thomas
+<lb ed="#L" n="70"/>cum: ait quod nom minus contemplationem | divinorum
+<lb ed="#L" n="71"/>amaverunt matrimonio utentes, sed secundum temporis
+<lb ed="#L" n="72"/>exigentiam matrimonio utebantur.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>4. Ad evidentiam tertii dicti, advertendum est quod
+<lb ed="#L" n="74"/>stant simul quod aliquis imperfectiorem statum sequatur
+<lb ed="#L" n="75"/>quam alius, et tamen illo perfectior sit: quia potest esse
+<lb ed="#L" n="76"/>quod ille qui est in statu imperfectiori, aliquam aliam
+<lb ed="#L" n="77"/>excellentiorem virtutem habeat quam ille qui est in statu
+<lb ed="#L" n="78"/>perfectiori. Tunc enim ille perfectior dicetur, non ratione
+<lb ed="#L" n="79"/>perfectioris status in quo vivat, sed ratione perfectioris
+<lb ed="#L" n="80"/>virtutis quam habet, licet in statu sit secundum suam 
+na<lb ed="#L" break="no" n="81"/>turam imperfectiori. Hoc voluit significare Sanctus Thomas
+<lb ed="#L" n="82"/>cum inquit quod, cum perfectiori mente aliquis possit uti
+<lb ed="#L" n="83"/>minori bono quam alius maiori, puta ex maiori caritate,
+<lb ed="#L" n="84"/>perfectio alicuius personae non est sufficiens argumentum
+<lb ed="#L" n="85"/>ad perfectionem status.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 75</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 75</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="222"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2320"><!-- ferv7a-l3c75 -->
+            <head>Capitulum 75</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="21" type="fixed=222"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="22"/>POSTQUAM ostendit Sanctus Thomas in communi divinam
+<lb ed="#L" n="23"/>providentiam ad omnium esse, omniumque 
+opera<lb ed="#L" break="no" n="24"/>tiones se extendere, vult particulariter demonstrare quoniam
+<lb ed="#L" n="25"/>etiam ad singularia contingentia se extendit . Circa hoc
+<lb ed="#L" n="26"/>autem duo facit: primo, ostendit quod sub divina 
+provi<lb ed="#L" break="no" n="27"/>dentia haec singularia cadunt; secundo, quod immediate,
+<lb ed="#L" n="28"/>capite sequenti,
+</p>
+            <p>
+               <lb ed="#L" n="29"/>I. Quantum ad primum, ponit hanc conclusionem: 
+Di<lb ed="#L" break="no" n="30"/>vina providentia. pervenit usque ad singularia 
+generabi<lb ed="#L" break="no" n="31"/>lium et corruptibilium. :
+</p>
+            <p>
+               <lb ed="#L" n="32"/>Probatur primo. Providentiae non repugnat neque 
+con<lb ed="#L" break="no" n="33"/>tingentia, neque casus et fortuna, neque voluntarium, ut
+<lb ed="#L" n="34"/>ostensum est. Ergo nihil prohibet horum esse 
+providen<lb ed="#L" break="no" n="35"/>tiam, sicut incorruptibilium et universalium. — Probatur
+<lb ed="#L" n="36"/>consequentia. Quia non videtur horum non esse 
+provi<lb ed="#L" break="no" n="37"/>dentiam nisi propter aliquod illorum, in quibus solum 
+cor<lb ed="#L" break="no" n="38"/>ruptibilia ab incorruptibilibus differunt et universalibus
+<lb ed="#L" n="39"/>corruptibilium, de quibus dicunt providentiam esse: — illi
+<lb ed="#L" n="40"/>videlicet qui negant horum singularium esse providentiam.
+</p>
+            <p>
+               <lb ed="#L" n="41"/>Secundo. Deus horum notitiam habet, ut superius est
+<lb ed="#L" n="42"/>ostensum. — Neque non potest ipsorum curam habere: cum
+<lb ed="#L" n="43"/>eius potentia sit infinita. - Neque haec singularia 
+guberna<lb ed="#L" break="no" n="44"/>tionis capacia non sunt: cum videamus ea et industria 
+ra<lb ed="#L" break="no" n="45"/>tionis gubernari, ut homines; et per industriam naturalem,
+<lb ed="#L" n="46"/>ut apes et bruta. - Neque Deus non vult ipsa gubernare:
+<lb ed="#L" n="47"/>cum voluntas eius universaliter sit omnis boni; bonum
+<lb ed="#L" n="48"/>autem eorum quae gubernantur, in ordine gubernationis
+<lb ed="#L" n="49"/>maxime consistat. — Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="50"/>Probatur consequentia. Quia, si Deus istorum 
+provi<lb ed="#L" break="no" n="51"/>dentiam non haberet, esset propter alterum praedictorum.
+</p>
+            <p>
+               <lb ed="#L" n="52"/>Tertio. Causae secundae, in hoc quod causae existunt,
+<lb ed="#L" n="53"/>divinam similitudinem consequuntur. Sed ipsae eorum quae
+<lb ed="#L" n="54"/>producunt curam habent: ut patetin animalibus. Ergo et
+<lb ed="#L" n="55"/>Deus. Sed Deus est omnium istorum particularium causa.
+<lb ed="#L" n="56"/>Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>Quarto. Deus in rebus creatis non ex naturae 
+neces<lb ed="#L" break="no" n="58"/>sitate agit, sed per voluntatem et intellectum. Ergo suae
+<lb ed="#L" n="59"/>providentiae subduntur omnia quae ab ipso aguntur. Ergo
+<lb ed="#L" n="60"/>et haec singularia, et motus et operationes. — Probatur
+<lb ed="#L" n="61"/>prima consequentia, Quia ea quae per voluntatem et 
+in<lb ed="#L" break="no" n="62"/>tellectum aguntur, curae providentis subduntur, quae in
+<lb ed="#L" n="63"/>hoc consistere videtur quod per intellectum aliqua 
+dispen<lb ed="#L" break="no" n="64"/>sentur. — Secunda vero probatur. Quia Deus in omnibus
+<lb ed="#L" n="65"/>causis secundis operatur, et omnes effectus in ipsum 
+re<lb ed="#L" break="no" n="66"/>ducuntur sicut in causam.
+</p>
+            <p>
+               <lb ed="#L" n="67"/>II. Quinto. Si Deus universalia tantum curat, sequitur
+<lb ed="#L" n="68"/>quod stulta et imperfecta sit eius providentia. Quia stulta
+<lb ed="#L" n="69"/>est providentia alicuius qui non curat ea sine quibus ea
+<lb ed="#L" n="70"/>de quibus curam habet, esse non possunt. Constat autem
+<lb ed="#L" n="71"/>quod, si omnia particularia deficerent, universalia eorum
+<lb ed="#L" n="72"/>remanere non possent.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Si dicatur quod horum singularium Deus curam habet
+<lb ed="#L" n="74"/>usque ad hoc quod conserventur in esse, non autem 
+quan<lb ed="#L" break="no" n="75"/>tum ad alia: — contra arguitur. Quia omnia alia quae circa
+<lb ed="#L" n="76"/>singularia accidunt, ad eorum conservationem vel corru-
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="77"/>ptionem ordinantur. Ergo, si Deus eorum conservationem
+<lb ed="#L" n="78"/>curat, etiam de omnibus circa ipsa contingentibus curam
+<lb ed="#L" n="79"/>habet. ,
+</p>
+            <p>
+               <lb ed="#L" n="80"/>Si dicatur quod sola cura universalium sufficit ad 
+par<lb ed="#L" break="no" n="81"/>ticularium conservationem in esse, quia cuilibet speciei
+<lb ed="#L" n="82"/>provisa sunt ea per quae individuum illius speciei potest
+<lb ed="#L" n="83"/>conservari in esse, ut patet in animalibus; et utilitates
+<lb ed="#L" n="84"/>horum non deficiunt nisi in minori parte; et sic non 
+pos<lb ed="#L" break="no" n="85"/>sunt omnia individua deficere, licet aliquod individuum
+<lb ed="#L" n="86"/>deficere possit: — secundum hanc rationem, omnia quae
+<lb ed="#L" n="87"/>circa individua accidunt, providentiae subiacebunt: quia
+<lb ed="#L" n="88"/>singularibus alicuius speciei nihil potest accidere quod non
+<lb ed="#L" n="89"/>reducatur aliquo modo ad principia illius speciei; vel 
+sci<lb ed="#L" break="no" n="90"/>licet tanquam alicuius illorum conservativum, vel tanquam
+<lb ed="#L" n="91"/>corruptivum. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="92"/>III. Sexto. Ad providentiam pertinent et finis, et ea quae
+<lb ed="#L" n="93"/>sunt ad finem. Ergo et universalia et singularia.
+</p>
+            <p>
+               <lb ed="#L" n="94"/>Probatur antecedens. Quia providentia est ordinativa
+<lb ed="#L" n="95"/>aliquorum in finem.
+</p>
+            <p>
+               <lb ed="#L" n="96"/>Consequentia vero probatur. Quia particularia sunt
+<lb ed="#L" n="97"/>propter naturam universalem. Quod ratione quidem 
+osten<lb ed="#L" break="no" n="98"/>ditur: quia in comparatione rerum ad finem talis ordo
+<lb ed="#L" n="99"/>apparet quod accidentia sunt propter substantiam, ut 
+sci<lb ed="#L" break="no" n="100"/>licet per ea perficiatur; materia vero est propter formam,
+<lb ed="#L" n="101"/>cum per hanc participet divinam bonitatem, propter quam
+<lb ed="#L" n="102"/>omnia sunt facta. — Signo autem ostenditur: quia in quibus
+<lb ed="#L" n="103"/>natura universalis per unum individuum conservari potest,
+<lb ed="#L" n="104"/>non sunt multa individua unius speciei; ut patet in luna
+<lb ed="#L" n="105"/>et sole.
+</p>
+            <p>
+               <lb ed="#L" n="106"/>Adverte quod ex hoc quod accidentia sunt propter 
+sub<lb ed="#L" break="no" n="107"/>stantiam tanquam naturae perfectiva, et materia est propter
+<lb ed="#L" n="108"/>formam, deducit tanquam manifestum singularia propter
+<lb ed="#L" n="109"/>naturam universalem esse. Quia singularitatis principium
+<lb ed="#L" n="110"/>est materia accidentibus individualibus limitata, quae 
+di<lb ed="#L" break="no" n="111"/>citur materia signata. Ex hoc enim optime sequitur proe»
+<lb ed="#L" n="112"/>positum. Nam si individuum non habet individuationem
+<lb ed="#L" n="113"/>suam, qua a natura universali distinguitur, nisi ex 
+mpa<lb ed="#L" break="no" n="114"/>teria et accidentibus; si ipsa accidentia ordinantur ad
+<lb ed="#L" n="115"/>naturam substantiae, et materia ad formam, ex qua sumitur
+<lb ed="#L" n="116"/>ratio speciei, sequitur manifeste ipsa singularia ad speciem
+<lb ed="#L" n="117"/>ordinari.
+</p>
+            <p>
+               <lb ed="#L" n="118"/>IV. Septimo. Providentia ad practicam cognitionem
+<lb ed="#L" n="119"/>pertinet: cum sit ordinativa rerum in finem. Ergo 
+imper<lb ed="#L" break="no" n="120"/>fecta esset Dei providentia si ad. particularia non 
+perveni<lb ed="#L" break="no" n="121"/>ret. — Probatur consequentia. Quia speculativa cognitio, et
+<lb ed="#L" n="122"/>ea quae ad ipsam pertinent, perficiuntur in universali, cum
+<lb ed="#L" n="123"/>finis ipsius sit veritas, quae primo et per se in 
+immate<lb ed="#L" break="no" n="124"/>rialibus consistit et in universalibus: ea vero quae ad 
+co<lb ed="#L" break="no" n="125"/>gnitionem practicam pertinent, perficiuntur in particulari,
+<lb ed="#L" n="126"/>cum finis ipsius sit operatio, quae est circa singularia.
+<lb ed="#L" n="127"/>Declaratur exemplo medici.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>Adverte, cum dicitur quod ea quae pertinent ad 
+co<lb ed="#L" break="no" n="129"/>gnitionem practicam perficiuntur in particulari, ea vero
+<lb ed="#L" n="130"/>quae pertinent ad cognitionem speculativam perficiuntur
+<lb ed="#L" n="131"/>in universali, quod per ea quae pertinent ad istas scien-
+<pb ed="#L" n="223"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>tias non intelligit Sanctus Thomas obiecta circa quae 
+<lb ed="#L" n="2"/>versantur, sed ea quae ex parte ipsius actus cognoscendi
+<lb ed="#L" n="3"/>se tenent. Nam ipsa cognitio practica principalis obiecti
+<lb ed="#L" n="4"/>perfecta erit si in particulari cognoscatur, et secundum 
+<lb ed="#L" n="5"/>particulares conditiones quibus operabilis est. Similiter 
+<lb ed="#L" n="6"/>ad perfectam argumentationem practicam requiritur ut 
+<lb ed="#L" n="7"/>ex aliquo particulari principio procedat, et ut ad 
+particu<lb ed="#L" break="no" n="8"/>larem conclusionem terminetur. Et universaliter loquendo,
+<lb ed="#L" n="9"/>perfectio cognitionis practicae principalis obiecti exigit ut
+<lb ed="#L" n="10"/>omnia quorum cognitio ad illius cognitionem requiritur,
+<lb ed="#L" n="11"/>particulariter considerentur, et non tantum secundum 
+uni<lb ed="#L" break="no" n="12"/>versales rationes. Et hoc est omnia requisita ad practicam
+<lb ed="#L" n="13"/>cognitionem perfici in particulari. — Similiter dicuntur
+<lb ed="#L" n="14"/>omnia requisita ad speculativam cognitionem perfici in
+<lb ed="#L" n="15"/>universali, inquantum cognitio intellectiva omnium quae |
+<lb ed="#L" n="16"/>exiguntur ad cognitionem principalis obiecti, debet circa
+<lb ed="#L" n="17"/>universales rationes versari. Et similiter omnis 
+argu<lb ed="#L" break="no" n="18"/>mentatio tali cognitioni deserviens debet ex universalibus
+<lb ed="#L" n="19"/>procedere. m
+</p>
+            <p>
+               <lb ed="#L" n="20"/>V. Octavo. Cognitio speculativa magis perficitur in 
+uni<lb ed="#L" break="no" n="21"/>versali quam in particulari, cum magis sciantur universalia
+<lb ed="#L" n="22"/>quam particularia: propter quod universalissimorum 
+prin<lb ed="#L" break="no" n="23"/>cipiorum cognitio est communis. Sed ille est perfectior
+<lb ed="#L" n="24"/>in scientia speculativa qui non solum universalem, sed
+<lb ed="#L" n="25"/>propriam cognitionem de rebus babet. Ergo multo magis
+<lb ed="#L" n="26"/>in scientia practica perfectior est qui non solum in 
+uni<lb ed="#L" break="no" n="27"/>versali, sed etiam in particulari res disponit ad actum.
+<lb ed="#L" n="28"/>Ergo divina providentia, quae est perfectissima, usque ad
+<lb ed="#L" n="29"/>singularia se extendit. — Probatur minor. Quia qui 
+cogno<lb ed="#L" break="no" n="30"/>scit in universali, cognoscit rem, scilicet sub ipso 
+con<lb ed="#L" break="no" n="31"/>tentam, tantum in potentia. Declaratur per signum exemplo
+<lb ed="#L" n="32"/>magistri.
+</p>
+            <p>
+               <lb ed="#L" n="33"/>Advertendum quod fundamentum huius rationis est,
+<lb ed="#L" n="34"/>quoniam, si cognitio speculativa, cuius est universalia 
+dum<lb ed="#L" break="no" n="35"/>taxat speculari, est perfectior de aliqua re quando non
+<lb ed="#L" n="36"/>solum cognoscuntur de ipsa rationes communes sibi et
+<lb ed="#L" n="37"/>aliis, sed etiam propria ipsius ratio cognoscitur, qua ab
+<lb ed="#L" n="38"/>aliis distinguitur; multo magis cognitio practica, cuius est
+<lb ed="#L" n="39"/>disponere aliquid ad hoc ut sit in actu, quod primo rebus
+<lb ed="#L" n="40"/>singularibus convenit, perfectior erit si res non solum in
+<lb ed="#L" n="41"/>universali, sed etiam in particulari disponat ad hoc ut in
+<lb ed="#L" n="42"/>actu sint.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>2. Circa istam propositionem, Cognitio speculativa magis
+<lb ed="#L" n="44"/>perficitur in universali quam in particulari, considerandum
+<lb ed="#L" n="45"/>quod, cum cognitionis perfectio ex parte cognoscentis in
+<lb ed="#L" n="46"/>duobus consistat, scilicet in certitudine et evidentia, nihil
+<lb ed="#L" n="47"/>aliud datur intelligi per supra dictam propositionem quam
+<lb ed="#L" n="48"/>quod certior et evidentior intellectui est cognitio 
+specula<lb ed="#L" break="no" n="49"/>tiva universalis obiecti quam rei singularis, quia ipsa 
+uni<lb ed="#L" break="no" n="50"/>versalia certius et evidentius cognoscuntur tali cognitione
+<lb ed="#L" n="51"/>speculativa, qua scilicet rei veritas apprehenditur, quam
+<lb ed="#L" n="52"/>particularia materialia, quae mutabilia sunt et variabilia.
+</p>
+            <p>
+               <lb ed="#L" n="53"/>Et ad hunc sensum procedit signum adductum, quod 
+vi<lb ed="#L" break="no" n="54"/>delicet universalissimorum principiorum cognitio est 
+com<lb ed="#L" break="no" n="55"/>munis. Nam cognitio quae omnibus est communis, est 
+cer<lb ed="#L" break="no" n="56"/>tissima et evidentissima, utpote quae ex ipso solo lumine
+<lb ed="#L" n="57"/>naturali intellectus, quod omnibus commune est, proveniat.
+<lb ed="#L" n="58"/>Hoc enim signum est quod cognitio speculativa universalium
+<lb ed="#L" n="59"/>perfectior est quam singularium; et quod magis sciuntur
+<lb ed="#L" n="60"/>universalia quam particularia, idest, certius et evidentius.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Ut sic arguatur a signo. Quanto magis aliqua principia
+<lb ed="#L" n="62"/>a particularitate recedunt, tanto eorum cognitio perfectior
+<lb ed="#L" n="63"/>est, utpote et evidentior et certior: si videlicet secundum
+<lb ed="#L" n="64"/>seipsa formaliter sumantur, et quantum ad eorum simplicem
+<lb ed="#L" n="65"/>veritatem. Ergo singularia minus sciuntur quam 
+univer<lb ed="#L" break="no" n="66"/>salia. - Patet consequentia. Quia quando aliquid est tale
+<lb ed="#L" n="67"/>per recessum et elongationem ab aliquo, signum est quod
+<lb ed="#L" n="68"/>illud aut non est tale, aut quod minus tale est quam ea
+<lb ed="#L" n="69"/>quae ab ipso distant: sicut, quia tanto aliquid est magis
+<lb ed="#L" n="70"/>intelligibile quanto magis a materia recedit, ideo materiam
+<lb ed="#L" n="71"/>dicimus esse minime intelligibilem, et minus quam ea quae
+<lb ed="#L" n="72"/>a materia sunt separata. — Antecedens vero probatur. 
+Co<lb ed="#L" break="no" n="73"/>gnitio universalissimorum principiorum est perfectissima.
+<lb ed="#L" n="74"/>Ergo etc. Probatur antecedens. Cognitio quae omnibus
+<lb ed="#L" n="75"/>inest, est perfectissima et certissima atque evidentissima,
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>utpote ab ipso communi lumine intellectuali, quod est
+<lb ed="#L" n="77"/>omnis cognitionis fons et origo, proveniens. 
+Universalis<lb ed="#L" break="no" n="78"/>simorum autem principiorum cognitio est omnibus 
+com<lb ed="#L" break="no" n="79"/>munis. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="80"/>3. Circa illam propositionem, Qui cognoscit rem in 
+uni<lb ed="#L" break="no" n="81"/>versali tantum, cognoscit ipsam solum in potentia, 
+adver<lb ed="#L" break="no" n="82"/>tendum quod, sicut non inconvenit aliquid esse unum actu
+<lb ed="#L" n="83"/>et potentia aliud, sicut aqua est actu humida et potentia
+<lb ed="#L" n="84"/>calida; ita non inconvenit aliquid secundum se cognosci
+<lb ed="#L" n="85"/>in actu, et tamen in ipso aliud potentialiter cognosci, 
+in<lb ed="#L" break="no" n="86"/>quantum per ipsum potest intellectus in alterius ignoti
+<lb ed="#L" n="87"/>notitiam devenire, vel inquantum aliud in re cognita 
+po<lb ed="#L" break="no" n="88"/>tentialiter continetur. Quia ergo in universaliori natura
+<lb ed="#L" n="89"/>potentialiter continentur minus universalia, sicut in genere
+<lb ed="#L" n="90"/>potentialiter continentur suae species, et in principiis 
+po<lb ed="#L" break="no" n="91"/>tentialiter continentur conclusiones; ideo, si consideretur
+<lb ed="#L" n="92"/>universalioris cognitio inquantum est cognitio talis naturae
+<lb ed="#L" n="93"/>absolute, sic est ipsius actualis cognitio; si autem 
+consi<lb ed="#L" break="no" n="94"/>deretur inquantum est cognitio eorum quae in ipso 
+po<lb ed="#L" break="no" n="95"/>tentialiter continentur, sic est cognitio potentialis. Propterea
+<lb ed="#L" n="96"/>non dixit Sanctus Thomas quod qui cognoscit universale,
+<lb ed="#L" n="97"/>cognoscit ipsum in potentia: sed quod qui cognoscit rem
+<lb ed="#L" n="98"/>in universali, idest, qui cognoscit aliquam rem  
+cogno<lb ed="#L" break="no" n="99"/>scendo solum universale in quo potentialiter continetur,
+<lb ed="#L" n="100"/>ipsam rem in potentia solum cognoscit. Propter hoc 
+ad<lb ed="#L" break="no" n="101"/>ducit signum de discipulo, qui, cum habeat cognitionem
+<lb ed="#L" n="102"/>universalium principiorum, indiget tamen magistro 
+redu<lb ed="#L" break="no" n="103"/>cente ipsum in actum cognitionis conclusionum, quas 
+po<lb ed="#L" break="no" n="104"/>tentialiter tantum in universalibus principiis cognoscebat.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>VI. Nono. Quicquid est quocumque modo, sub Dei
+<lb ed="#L" n="106"/>providentia cadit. Singularia sunt entia: et magis quam
+<lb ed="#L" n="107"/>universalia, quae non subsistunt per se solum, sed sunt
+<lb ed="#L" n="108"/>in singularibus. Ergo ipsorum est providentia. — Probatur
+<lb ed="#L" n="109"/>maior. Quia, cum Deus sit causa entis inquantum ens,
+<lb ed="#L" n="110"/>est etiam eius provisor: cum rebus provideat inquantum
+<lb ed="#L" n="111"/>est earum causa.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>2. Circa probationem maioris, adverte quod, sicut 
+po<lb ed="#L" break="no" n="113"/>tentia cognoscitiva quae fertur in aliquod obiectum 
+in<lb ed="#L" break="no" n="114"/>quantum tale, fertur in omne in quo illud obiectum 
+in<lb ed="#L" break="no" n="115"/>venitur; visus enim, quia fertur in colorem inquantum
+<lb ed="#L" n="116"/>color est, fertur in omne coloratum: ita causa activa quae
+<lb ed="#L" n="117"/>habet pro obiecto aliquid inquantum tale, est causa omnium
+<lb ed="#L" n="118"/>in quibus illud invenitur inquantum huiusmodi. Ideo, cum
+<lb ed="#L" n="119"/>Deus sit causa entis inquantum ens, erit causa omnis entis
+<lb ed="#L" n="120"/>quomodocumque sit ens, sive quomodocumque habeat
+<lb ed="#L" n="121"/>esse, Et idem dicendum est de provisore: quia provisor
+<lb ed="#L" n="122"/>entis inquantum est ens, est provisor omnium quae 
+quo<lb ed="#L" break="no" n="123"/>cumque modo. habent esse. Et ex hoc fundamento 
+pro<lb ed="#L" break="no" n="124"/>cedit ratio. 
+</p>
+            <p>
+               <lb ed="#L" n="125"/>3. Circa istam propositionem, Singularia sunt magis
+<lb ed="#L" n="126"/>entia quam universalia, attendendum quod dupliciter 
+po<lb ed="#L" break="no" n="127"/>test aliquid dici magis ens altero. Uno modo, quia est
+<lb ed="#L" n="128"/>perfectioris naturae et perfectioris essentiae. Et isto modo
+<lb ed="#L" n="129"/>non intelligitur hic, Non enim aliam essentiam et aliam
+<lb ed="#L" n="130"/>naturam habent singularia quam habeant earum species, ut
+<lb ed="#L" n="131"/>possit dici essentia singularis perfectior esse quam essentia
+<lb ed="#L" n="132"/>speciei: sed ipsa essentia speciei est etiam essentia 
+indi<lb ed="#L" break="no" n="133"/>vidui, in ipso determinatis accidentibus limitata. Immo, si
+<lb ed="#L" n="134"/>per intellectum natura universalis a principiis 
+individuan<lb ed="#L" break="no" n="135"/>tibus secernatur, invenietur perfectior: utpote actualior et
+<lb ed="#L" n="136"/>magis a potentialitate materiae remota. - Alio modo, quia
+<lb ed="#L" n="137"/>magis existit, et sibi per prius convenit esse actualis 
+exi<lb ed="#L" break="no" n="138"/>stentiae tanquam ei quod est, quam alteri. Ec hoc modo
+<lb ed="#L" n="139"/>hic intelligitur. Quod patet ex ratione quam assignat 
+San<lb ed="#L" break="no" n="140"/>ctus Thomas: quia scilicet universalia non subsistunt per
+<lb ed="#L" n="141"/>se, idest, non habent esse a singularibus separata, sed sunt
+<lb ed="#L" n="142"/>solum in singularibus. Ex hoc enim datur intelligi quod
+<lb ed="#L" n="143"/>singularia dicuntur esse magis entia quia per seipsa 
+ha<lb ed="#L" break="no" n="144"/>bent esse, et non in alio, cui per prius esse conveniat.
+</p>
+            <p>
+               <lb ed="#L" n="145"/>VII. Decimo. Bonitatem divinam participant singularia
+<lb ed="#L" n="146"/>contingentia. Ergo etc. — Probatur consequentia. Quia,
+<lb ed="#L" n="147"/>cum. creaturae divinae providentiae subdantur prout ab
+<lb ed="#L" n="148"/>ipso in finem ultimum, qui est bonitas sua, ordinantur,
+<lb ed="#L" n="149"/>participatio divinae bonitatis a rebus creatis est per divinam
+<lb ed="#L" n="150"/>providentiam.
+</p>
+            <p>
+               <pb ed="#L" n="224"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>CONFIRMATUR conclusio auctoritate Matth. x ; Sap. vui; et  
+<lb ed="#L" n="2"/>etiam quia Ezech. 1x, et Job xxi, arguitur opinio 
+dicen<lb ed="#L" break="no" n="3"/>tium quod Deus nostra non considerat. 
+</p>
+            <p>
+               <lb ed="#L" n="4"/>VIII. Per hoc excluditur opinio quorundam dicentium 
+<lb ed="#L" n="5"/>divinam providentiam ad singularia ista non extendi. Quam  
+<lb ed="#L" n="6"/>Aristoteli quidam imponunt, licet ex eius verbis haberi 
+<lb ed="#L" n="7"/>non possit. 
+</p>
+            <p>
+               <lb ed="#L" n="8"/>Adverte quod opinio quae hic tangitur, est <ref target="http://scta.info/resource/xch7dn-d1e143-Dd1e9696"><!--target imprecise -->Averrois, 
+<lb ed="#L" n="9"/>XII Metaph., comment. 37</ref>, et <ref target="http://scta.info/resource/xch7dn-d1e143-Dd1e15069"><!-- target imprecise -->comment. 52.</ref> Ponit enim  
+<lb ed="#L" n="10"/>quod Deus habet providentiam de singularibus tantum  
+<lb ed="#L" n="11"/>inquantum dispositio propria individui invenitur in aliquo  
+<lb ed="#L" n="12"/>modo speciei, et non nisi secundum quod communicant 
+<lb ed="#L" n="13"/>in natura communi ; et quod, si aliqua sunt sine 
+sollici<lb ed="#L" break="no" n="14"/>tudine, proveniunt ex necessitate materiae, non ex 
+dimi<lb ed="#L" break="no" n="15"/>nutione agentis . Et hanc videtur velle. esse Aristotelis  
+<lb ed="#L" n="16"/>opinionem. Sed, ut ait Sanctus Thomas, ex verbis 
+Aristo<lb ed="#L" break="no" n="17"/>telis super quibus se Averroes fundat, hoc haberi non 
+<lb ed="#L" n="18"/>potest: ut patet ipsa eius verba considerantibus. Immo,  
+<lb ed="#L" n="19"/>ut ostendit Sanctus Thomas Verit., q. v, a. 3, ex ipso 
+ha<lb ed="#L" break="no" n="20"/>betur oppositum: in eo quod ponit duplicem ordinem in 
+<lb ed="#L" n="21"/>universo, scilicet ordinem partium universi inter se, et  
+<lb ed="#L" n="22"/>ordinem totius universi ad Deum, atque primum ordinem 
+<lb ed="#L" n="23"/>esse propter secundum. Ex hoc enim patet, cum partes  
+<lb ed="#L" n="24"/>universi corruptibiles et incorruptibiles sint ordinatae ad 
+in<lb ed="#L" break="no" n="25"/>vicem, et ordo ipsarum sit propter ordinem universi ad 
+<lb ed="#L" n="26"/>primum principium, quod in uno ordine providentiae 
+prin<lb ed="#L" break="no" n="27"/>cipii exterioris conveniunt et corruptibilia et incorruptibilia.  
+</p>
+            <p>
+               <lb ed="#L" n="28"/>Advertendum ulterius, -ex doctrina Sancti Thomae loco 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="29"/>allegato, quod opinio Averrois posset habere veritatem si
+<lb ed="#L" n="30"/>intelligeretur quod individua corruptibilia non sunt propter
+<lb ed="#L" n="31"/>se provisa, sed tantum propter aliud. Nam propter se 
+pro<lb ed="#L" break="no" n="32"/>visa sunt ea in quibus essentialis perfectio universi 
+con<lb ed="#L" break="no" n="33"/>sistit, ut sunt omnia individua incorruptibilia, et species
+<lb ed="#L" n="34"/>rerum corruptibilium : individua autem corruptibilia sunt
+<lb ed="#L" n="35"/>provisa propter perpetuum. esse speciei tantum, non autem
+<lb ed="#L" n="36"/>propter se. Dicuntur enim aliquae partes propter se esse
+<lb ed="#L" n="37"/>provisae, quando non sunt principaliter intentae propter
+<lb ed="#L" n="38"/>aliquam aliam partem, licet ex ipsis aliqua utilitas aliis
+<lb ed="#L" n="39"/>partibus proveniat: propter aliud autem dicuntur provisae,
+<lb ed="#L" n="40"/>quando principaliter sunt propter aliam partem. Sic enim
+<lb ed="#L" n="41"/>dicuntur individua corruptibilia esse provisa propter aliud,
+<lb ed="#L" n="42"/>quia propter hoc primo sunt volita ut perpetuum esse
+<lb ed="#L" n="43"/>speciei salvetur: ipsae autem species, et alia incorruptibilia,
+<lb ed="#L" n="44"/>sunt propter se volita, quia principaliter propter ipsum
+<lb ed="#L" n="45"/>universum et propter divinam bonitatem sunt volita. Non
+<lb ed="#L" n="46"/>repugnat enim quod sint propter se volita, et quod sint
+<lb ed="#L" n="47"/>volita propter perfectionem universi: quia in hoc 
+perfe<lb ed="#L" break="no" n="48"/>ctionem universi constituunt, in quantum a Deo habent
+<lb ed="#L" n="49"/>esse et in suis naturis subsistunt. Quo modo inquit 
+San<lb ed="#L" break="no" n="50"/>ctus Thomas Potentia, q. v, a. 4, quod ista duo non 
+re<lb ed="#L" break="no" n="51"/>pugnant: Deum velle universitatem creaturarum propter
+<lb ed="#L" n="52"/>seipsam; et Deum velle illam propter seipsum. Quia vult
+<lb ed="#L" n="53"/>creaturarum universitatem propter bonitatem suam, ut 
+sci<lb ed="#L" break="no" n="54"/>licet eam suo modo imitentur et repraesentent: hoc autem
+<lb ed="#L" n="55"/>faciunt inquantum ab ea habent esse et in suis naturis
+<lb ed="#L" n="56"/>subsistunt.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 78</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 78</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="230"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2345"><!-- ferv7a-l3c78 -->
+            <head>Capitulum 78</head>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="78" type="fixed=230"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="e"/>
+               <lb ed="#L" n="79"/>POSTQUAM ostendit Sanctus Thomas quod Deus ordinem
+<lb ed="#L" n="80"/>suae providentiae per secundas causas exequitur, vult
+<lb ed="#L" n="81"/>in particulari ipsum ordinem divinae executionis 
+manife<lb ed="#L" break="no" n="82"/>stare . Circa hoc autem tria facit: primo, ostendit quod
+<lb ed="#L" n="83"/>per intellectuales substantias alia reguntur a Deo; secundo,
+<lb ed="#L" n="84"/>quomodo substantiae intellectuales ab ipso gubernentur,
+<lb ed="#L" n="85"/>capite sequenti; tertio, quod corpora inferiora per 
+supe<lb ed="#L" break="no" n="86"/>riora reguntur, capite rLxxxrr.
+</p>
+            <p>
+               <cb ed="#L" n="f"/>
+               <lb ed="#L" n="87"/>I. Quantum ad primum, ponit hanc conclusionem :
+<lb ed="#L" n="88"/>Exigit divinae providentiae ordo ut ceterae creaturae per
+<lb ed="#L" n="89"/>creaturas rationales, idest intellectuales, regantur.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Probatur primo. Ad divinam providentiam pertinet ut
+<lb ed="#L" n="91"/>ordo servetur in rebus. Ergo, ut secundum quandam 
+pro<lb ed="#L" break="no" n="92"/>portionem usque ad ultimas res perveniat. Ergo, ut ceterae
+<lb ed="#L" n="93"/>creaturae per rationales gubernentur. — Probatur prima
+<lb ed="#L" n="94"/>consequentia. Quia congruus ordo est ut a supremis ad
+<pb ed="#L" n="231"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>infima proportionaliter descendatur. — Secunda vero 
+pro<lb ed="#L" break="no" n="2"/>batur. Quia haec proportio est ut, sicut supremae 
+crea<lb ed="#L" break="no" n="3"/>turae sub Deo sunt et ab ipso gubernantur, ita inferiores
+<lb ed="#L" n="4"/>sint sub superioribus et ab ipsis regantur. Inter omnes
+<lb ed="#L" n="5"/>autem creaturas sunt supremae intellectuales.
+</p>
+            <p>
+               <lb ed="#L" n="6"/>Secundo. Quaecumque creatura exequitur divinae 
+pro<lb ed="#L" break="no" n="7"/>videntiae ordinem, hoc habet inquantum participat aliquid
+<lb ed="#L" n="8"/>de virtute sibi  providentis. Declaratur exemplo 
+instru<lb ed="#L" break="no" n="9"/>menti. Ergo quae amplius de virtute divinae providentiae
+<lb ed="#L" n="10"/>participant, sunt executiva ipsius in illa quae minus 
+par<lb ed="#L" break="no" n="11"/>ticipant. Creaturae intellectuales plus de illa participant:
+<lb ed="#L" n="12"/>cum ipsae et virtutem cognoscitivam, scilicet intellectualem,
+<lb ed="#L" n="13"/>et virtutem operativam, ad providentiam requisita, 
+parti<lb ed="#L" break="no" n="14"/>cipent; reliquae vero creaturae tantum virtutem participent
+<lb ed="#L" n="15"/>operativam. Ergo etc.
+</p>
+            <p>
+               <lb ed="#L" n="16"/>Tertio. Cuicumque datur aliqua virtus a Deo, datur
+<lb ed="#L" n="17"/>ei in ordine ad eftectum illius virtutis. Sed virtus 
+intelle<lb ed="#L" break="no" n="18"/>ctiva est de se ordinativa et regitiva. Ergo etc. — Probatur
+<lb ed="#L" n="19"/>maior. Quia sic optime omnia disponuntur. - Minor vero
+<lb ed="#L" n="20"/>declaratur. Quia quando coniunguntur in. eodem, virtus
+<lb ed="#L" n="21"/>operativa sequitur regimen virtutis intellectivae: sicut in
+<lb ed="#L" n="22"/>homine membra imperio voluntatis moventur Si etiam in
+<lb ed="#L" n="23"/>diversis existant, idem apparet: nam qui in virtute 
+ope<lb ed="#L" break="no" n="24"/>rativa excedunt, oportet ab illis qui in virtute intellectiva
+<lb ed="#L" n="25"/>excedunt, dirigi; scilicet, secundum debitum et 
+conve<lb ed="#L" break="no" n="26"/>mientem ordinem. Aliquando tamen oppositum videmus:
+<lb ed="#L" n="27"/>sed etiam tunc qui videntur regere alios, magis in 
+veri<lb ed="#L" break="no" n="28"/>tate reguntur ab iis qui ingenio praestant, et a quibus
+<lb ed="#L" n="29"/>consilium capiunt, quam ipsi regant sapientes.
+</p>
+            <p>
+               <lb ed="#L" n="30"/>II. Quarto. Virtus intellectiva est universalior omni alia
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="31"/>virtute operativa, Ergo etc. — Probatur antecedens. Quia
+<lb ed="#L" n="32"/>virtus intellectiva continet formas universales: omnis autem
+<lb ed="#L" n="33"/>virtus operativa est tantum ex aliqua propria forma 
+ope<lb ed="#L" break="no" n="34"/>rantis. — Consequentia vero probatur. Quia virtutes 
+par<lb ed="#L" break="no" n="35"/>ticulares natae sunt moveri a virtutibus universalibus: ut
+<lb ed="#L" n="36"/>patet tam in arte quam in natura.
+</p>
+            <p>
+               <lb ed="#L" n="37"/>Adverte quod differentia ista inter virtutem intellectivam
+<lb ed="#L" n="38"/>€t virtutem operativam sic intelligenda est quod virtus
+<lb ed="#L" n="39"/>operativa est determinata et limitata, inquantum unam 
+de<lb ed="#L" break="no" n="40"/>terminatam formam et singularem consequitur : et ideo ait
+<lb ed="#L" n="41"/>Sanctus "Thomas quod est tantum ex aliqua propria forma
+<lb ed="#L" n="42"/>operantis. Virtus autem intellectiva apprehendit formas
+<lb ed="#L" n="43"/>universales non limitatas per materiam: et ideo potest ad
+<lb ed="#L" n="44"/>plura se extendere, inquantum Íiorma universalis multis
+<lb ed="#L" n="45"/>modis potest determinari et limitari. Hoc autem virtuti
+<lb ed="#L" n="46"/>intellectivae convenit quia substantia intellectualis non
+<lb ed="#L" n="47"/>est limitata per materiam, sicut forma corporalis, sed est
+<lb ed="#L" n="48"/>a materia absoluta.
+</p>
+            <p>
+               <lb ed="#L" n="49"/>Quinto. Solae intellectuales creaturae rationes ordinis
+<lb ed="#L" n="50"/>rerum creaturarum cognoscere possunt. Ergo etc - Probatur
+<lb ed="#L" n="51"/>consequentia. Quia in omnibus potentiis ordinatis illa est
+<lb ed="#L" n="52"/>directiva alterius quae magis cognoscit rationem, propter
+<lb ed="#L" n="53"/>quam scilicet sic est agendum. Declaratur in ordine 
+agen<lb ed="#L" break="no" n="54"/>tium per artem.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Sexto. Solae creaturae intellectuales per seipsas 
+ope<lb ed="#L" break="no" n="56"/>rantur, utpote suarum operationum per liberum arbitrium
+<lb ed="#L" n="57"/>dominae existentes: aliae vero creaturae ex necessitate
+<lb ed="#L" n="58"/>naturae operantur, tanquam ab alio motae. Ergo etc. —
+<lb ed="#L" n="59"/>Probatur consequentia. Quia quod est per se, est causa
+<lb ed="#L" n="60"/>eius quod est per aliud.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

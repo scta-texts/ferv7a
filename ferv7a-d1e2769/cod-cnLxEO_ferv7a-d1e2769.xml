@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 130</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 130</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="397"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2769"><!-- ferv7a-l3c130 -->
+            <head>Capitulum 130</head>
+            <p>
+               <pb ed="#L" n="397"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1" type="fixed=397"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="b"/>
+               <lb ed="#L" n="2"/>POSTQUAM ostendit Sanctus Thomas quid de necessitate
+<lb ed="#L" n="3"/>praecepti divina lex intendat, vult de eius intentione
+<lb ed="#L" n="4"/>quantum ad consilia determinare . Circa hoc autem duo
+<lb ed="#L" n="5"/>facit: primo, convenientiam quorundam consiliorum, ad
+<lb ed="#L" n="6"/>quae omnia alia consilia reduci videntur, ostendit; secundo,
+<lb ed="#L" n="7"/>contra impugnantes observantiam horum consiliorum 
+dis<lb ed="#L" break="no" n="8"/>putat, capitibus sequentibus,
+</p>
+            <p>
+               <lb ed="#L" n="9"/>Circa primum tria facit: primo, adducit ipsa legis consilia
+<lb ed="#L" n="10"/>et eorum convenientiam ; secundo, ostendit quomodo ea
+<lb ed="#L" n="11"/>quae consuluntur, ad perfectionem se habeant; tertio,
+<lb ed="#L" n="12"/>quaedam corollaria infert .
+</p>
+            <p>
+               <lb ed="#L" n="13"/>I. Quantum ad primum, ponitur haec conclusio: 
+Coz<lb ed="#L" break="no" n="14"/>venienter in lege divina datur consilium de paupertate,
+<lb ed="#L" n="15"/>Matth. xix; de castitate, 1 Cor. vu; et de obedientia, ad
+<lb ed="#L" n="16"/>Hebr. ult.
+</p>
+            <p>
+               <lb ed="#L" n="17"/>Probatur sic. Convenienter dantur in divina lege consilia
+<lb ed="#L" n="18"/>quibus homines ab occupationibus praesentis vitae, quantum
+<lb ed="#L" n="19"/>possibile est, retrahantur terrenam vitam agentes . Ergo
+<lb ed="#L" n="20"/>convenienter dantur praedicta consilia.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Probatur antecedens. Convenienter dantur homWhi ea
+<lb ed="#L" n="22"/>consilia-quibus liberius Deo vacet: cum optimum eius sit
+<lb ed="#L" n="23"/>Deo adhaerere et rebus divinis. Ergo et ea convenienter
+<lb ed="#L" n="24"/>dantur quibus ab occupationibus praesentis vitae 
+retrahan<lb ed="#L" break="no" n="25"/>tur: cum impossibile sit ut homo circa diversa intense
+<lb ed="#L" n="26"/>operetur.
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Consequentia vero probatur. Quia occupantur homines,
+<lb ed="#L" n="28"/>secundum communem modum humanae vitae, circa 
+pro<lb ed="#L" break="no" n="29"/>priam personam, quid agant aut ubi conversentur; circa
+<lb ed="#L" n="30"/>personas sibi coniunctas, praecipue circa uxores et filios;
+<lb ed="#L" n="31"/>circa exteriores res procurandas, quibus homo indiget ad
+<lb ed="#L" n="32"/>sustentationem vitae. Huiusmodi autem occupationes per
+<lb ed="#L" n="33"/>tria praedicta amputantur: primum quidem per 
+obedien<lb ed="#L" break="no" n="34"/>tiam, per quam homo dispositionem suorum actuum 
+supe<lb ed="#L" break="no" n="35"/>riori committit; secundum per virginitatem vel 
+continen<lb ed="#L" break="no" n="36"/>tiam, per quam homo, secundum Apostolum, sollicitus est
+<lb ed="#L" n="37"/>quae Domini sunt; tertium vero per paupertatem, per
+<lb ed="#L" n="38"/>quam homo res humanas abiicit, quibus animus 
+sollicitu<lb ed="#L" break="no" n="39"/>dine aliqua implicari solet.
+</p>
+            <p>
+               <lb ed="#L" n="40"/>Notat autem Sanctus Thomas quod haec dicuntur 
+coz<lb ed="#L" break="no" n="41"/>silia et admonitiones, inquantum suadetur homini ut,
+<lb ed="#L" n="42"/>propter meliora, minus bona praetermittat. Non autem
+<lb ed="#L" n="43"/>dicuntur praecepta: quia non ita necessaria est homini
+<lb ed="#L" n="44"/>ad iustitiam. illorum observatio ut sine hoc iustitia esse
+<lb ed="#L" n="45"/>non possit.
+</p>
+            <p>
+               <lb ed="#L" n="46"/>II. Secundo, ostendit quomodo praedicta ad 
+perfectio<lb ed="#L" break="no" n="47"/>nem se habeant . Et ponit duplicem modum. Primus est,
+<lb ed="#L" n="48"/>quod ad perfectionis statum pertinent, non tanquam 
+per<lb ed="#L" break="no" n="49"/>fectiones, sed tanquam dispositiones ad perfectionem. —
+<lb ed="#L" n="50"/>Probatur. Quia summa perfectio humanae vitae in hoc
+<lb ed="#L" n="51"/>consistit quod mens hominis Deo vacet. Ad hoc autem
+<lb ed="#L" n="52"/>praedicta tria maxime videntur disponere. Quod ostenditur
+<lb ed="#L" n="53"/>dum Dominus, paupertatem suadens, ait: Si vis 
+perfe<lb ed="#L" break="no" n="54"/>ctus esse.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Adverte quod Dominus, in illa auctoritate, dum ait, Si
+<lb ed="#L" n="56"/>vis perfectus esse, vade et vende etc., dat intelligere 
+pau<lb ed="#L" break="no" n="57"/>pertatem non esse ipsam perfectionem, sed quandam ad
+<lb ed="#L" n="58"/>ipsam dispositionem. Dum vero ait, Veni et sequere me,
+<lb ed="#L" n="59"/>dat intelligere perfectionem in sequela ipsius, quae scilicet
+<lb ed="#L" n="60"/>est per amorem caritatis, consistere.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>2. Secundus modus est, quod possunt ad perfectionem
+<lb ed="#L" n="62"/>pertinere tanquam effectus et signa. Declaratur. Quia cum
+<cb ed="#L" n="c"/>
+               <lb ed="#L" n="63"/>mens vehementer amore alicuius afficitur, consequens est
+<lb ed="#L" n="64"/>quod alia postponat. Et sic, cum mens hominis amore et
+<lb ed="#L" n="65"/>desiderio ferventer in divina fertur, in quo perfectio 
+con<lb ed="#L" break="no" n="66"/>sistit, sequitur ut omnia quae ipsum retardare possunt
+<lb ed="#L" n="67"/>quo minus feratur in Deum, abiiciat. - Confirmatur hoc
+<lb ed="#L" n="68"/>auctoritate Cantic. viu, Matth. xmi et Philip. ur.
+</p>
+            <p>
+               <lb ed="#L" n="69"/>III. Tertio, infert Sanctus Thomas duo corollaria . Unum
+<lb ed="#L" n="70"/>est, quod qui praedicta tria Deo vovent, convenienter in
+<lb ed="#L" n="71"/>statu perfectionis esse dicuntur. — Probatur. Quia ista tria
+<lb ed="#L" n="72"/>dispositiones ad perfectionem sunt, et effectus, et signa.
+</p>
+            <p>
+               <lb ed="#L" n="73"/>Secundum est, quod praedictorum professores religiosi
+<lb ed="#L" n="74"/>dicuntur convenienter, quasi se Deo et sua in modum
+<lb ed="#L" n="75"/>cuiusdam sacrificii dedicantes. — Probatur. Perfectio, ad
+<lb ed="#L" n="76"/>quam praedicta disponunt, in vacatione mentis circa Deum
+<lb ed="#L" n="77"/>consistit. Ergo etc. - Probatur consequentia. Quia religio
+<lb ed="#L" n="78"/>in divino consistit cultu.
+</p>
+            <p>
+               <lb ed="#L" n="79"/>IV. Circa id quod dicitur , ista non esse perfectiones,
+<lb ed="#L" n="80"/>sed dispositiones ad perfectionem, considerandum est, ex
+<lb ed="#L" n="81"/>doctrina Sancti Thomae II II, q. c.xxxiv , quod perfectio
+<lb ed="#L" n="82"/>rei potest dupliciter accipi: uno modo, simpliciter et primo;
+<lb ed="#L" n="83"/>alio modo, secundum quid et secundario. Perfectio 
+simpli<lb ed="#L" break="no" n="84"/>citer et primo consistit in complemento substantiae et 
+na<lb ed="#L" break="no" n="85"/>turae rei: sicut animal perfectum dicitur cui nihil deficit de
+<lb ed="#L" n="86"/>iis quae ad naturam spectant animalis. Perfectio autem 
+se<lb ed="#L" break="no" n="87"/>cundum quid et secundario in iis quae substantiae adiacent,
+<lb ed="#L" n="88"/>puta in colore aut aliquo huiusmodi, consistit. Quia ergo
+<lb ed="#L" n="89"/>vita Christiana specialiter in caritate consistit, ideo perfectio
+<lb ed="#L" n="90"/>Christianae vitae simpliciter et primo secundum quoddam
+<lb ed="#L" n="91"/>caritatis complementum attenditur. Perfectio autem 
+secun<lb ed="#L" break="no" n="92"/>dum quid et secundario attenditur etiam secundum alias
+<lb ed="#L" n="93"/>virtutes, Tria igitur praedicta dicuntur non esse 
+perfectio<lb ed="#L" break="no" n="94"/>nes, non quia non sint aliquod bonum Christianae vitae:
+<lb ed="#L" n="95"/>sed quia non primo et simpliciter in ipsis Christianae vitae
+<lb ed="#L" n="96"/>perfectio, secundum quam simpliciter dicitur homo 
+per<lb ed="#L" break="no" n="97"/>fectus in vita Christiana, consistit; sed secundum quid
+<lb ed="#L" n="98"/>tantum et secundario, inquantum per ipsa disponitur homo
+<lb ed="#L" n="99"/>ad eam quae est simpliciter Christianae vitae perfectio, 
+sci<lb ed="#L" break="no" n="100"/>licet ad hoc ut mens totaliter feratur in Deum per affectum.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>V. Circa primum corollarium , advertendum est, ex
+<lb ed="#L" n="102"/>doctrina Sancti Thomae loco praeallegato , quod in statu
+<lb ed="#L" n="103"/>perfectionis proprie dicitur aliquis esse, non ex hoc quod
+<lb ed="#L" n="104"/>habet actum dilectionis perfectae, sed ex hoc quod obligat
+<lb ed="#L" n="105"/>se cum quadam solemnitate ad ea quae sunt perfectionis.
+<lb ed="#L" n="106"/>Quia ergo voventes, praesertim solemni voto, obedientiam,
+<lb ed="#L" n="107"/>continentiam et paupertatem, se obligant cum quadam 
+so<lb ed="#L" break="no" n="108"/>lemnitate ad ea quae sunt perfectionis, tanquam videlicet
+<lb ed="#L" n="109"/>ad perfectionem disponentia; idep convenienter illatum
+<lb ed="#L" n="110"/>est, ex eo quod ista dispositiones sunt ad perfectionem,
+<lb ed="#L" n="111"/>ea voventes esse in statu perfectionis.
+</p>
+            <p>
+               <lb ed="#L" n="112"/>2. Circa secundum corollarium, attendendum, ex 
+do<lb ed="#L" break="no" n="113"/>ctrina Sancti Thomae in eodem libro, q. crxxxvr , quod
+<lb ed="#L" n="114"/>religio est, ut superius etiam est dictum , per quam quis
+<lb ed="#L" n="115"/>aliquid ad Dei servitium et cultum exhibet. Ideo per quan-.
+<lb ed="#L" n="116"/>dam excellentiam, qui se totaliter mancipant divino servitio,
+<lb ed="#L" n="117"/>quasi holocaustum Deo offerentes, religiosi dicuntur. 
+Pro<lb ed="#L" break="no" n="118"/>pterea recte infert Sanctus "Thomas illos convenienter
+<lb ed="#L" n="119"/>religiosos dici qui praedicta tria profitentur, ex hoc quod
+<lb ed="#L" n="120"/>illa ad perfectionem disponunt, quae in vacatione mentis
+<lb ed="#L" n="121"/>circa Deum posita est. Ex hoc enim quod illa profitentur,
+<lb ed="#L" n="122"/>constat quod se totos Deo offerunt ut totaliter illi 
+adhae<lb ed="#L" break="no" n="123"/>reant, in quo religio consistit.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

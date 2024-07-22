@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 24</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 24</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="63"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e1904"><!-- ferv7a-l3c24 -->
+            <head xml:id="ferv7a-d1e1904-Hd1e101">Capitulum 24</head>
+            <p xml:id="ferv7a-d1e1904-d1e103">
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="63" type="fixed=63"/>Commentaria Ferrariensis
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e110">
+               <lb ed="#L" n="64"/>POSTQUAM Ostendit Sanctus Thomas omnia divinam
+<lb ed="#L" n="65"/>similitudinem appetere in causando, et omnia agere
+<lb ed="#L" n="66"/>propter finem, vult nunc quaedam dubia circa haec 
+remo<lb ed="#L" break="no" n="67"/>vere. Nam, cum sint dicta duo: unum, quod omnia
+<lb ed="#L" n="68"/>agunt propter finem  ; alterum, quod omnia agentia agunt
+<lb ed="#L" n="69"/>propter assimilationem ad Deum ; circa utrumque vult
+<lb ed="#L" n="70"/>quibusdam rationibus quae adduci contra determinatam
+<lb ed="#L" n="71"/>veritatem possent, satisfacere.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e130">
+               <lb ed="#L" n="72"/>Contra primum enim argui posset sic. Naturalia non
+<lb ed="#L" n="73"/>agunt propter finem. Ergo non omnia propter finem agunt.
+<lb ed="#L" n="74"/>- Probatur antecedens. Quia naturalia cognitione carent.
+<lb ed="#L" n="75"/>Nihil autem intendit sua actione aliquid determinatum
+<lb ed="#L" n="76"/>nisi ab aliqua cognitione dirigatur.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e143">
+               <lb ed="#L" n="77"/>Contra secundum sic posset instari . Omnia agunt 
+na<lb ed="#L" break="no" n="78"/>turali appetitu propter suam perfectionem tanquam propter
+<lb ed="#L" n="79"/>finem. Ergo non propter divinam similitudinem.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e153">
+               <lb ed="#L" n="80"/>I. Ad primum horum respondet quod naturalia tendunt
+<lb ed="#L" n="81"/>in finem sicut directa a substantia intelligente, eo modo
+<lb ed="#L" n="82"/>quo sagitta dirigitur a sagittante: eo quod consequantur
+<lb ed="#L" n="83"/>inclinationem in fines naturales ex moventibus 
+intellectua<lb ed="#L" break="no" n="84"/>libus, ex quibus sortiuntur suas formas et virtutes et motus,
+<lb ed="#L" n="85"/>sicut sagitta ex impulsione sagittantis tendit ad 
+determi<lb ed="#L" break="no" n="86"/>natum signum. — Ex quo sequitur quod quodlibet opus
+<lb ed="#L" n="87"/>naturae est opus substantiae intelligentis: cum 
+principa<lb ed="#L" break="no" n="88"/>lius effectus attribuatur primo moventi dirigenti quam
+<lb ed="#L" n="89"/>instrumentis ab eo directis.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e177">
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="90"/>Ostendit autem propositum dupliciter: primo, ex ordine.
+<lb ed="#L" n="91"/>agentium; secundo, ex ordine operum naturae ,
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e186">
+               <lb ed="#L" n="92"/>Quantum ad primam viam, arguit sic. Corpus caeleste
+<lb ed="#L" n="93"/>a substantia intellectuali movetur, Sed motus caeli 
+ordi<lb ed="#L" break="no" n="94"/>natur ad generationem in istis inferioribus. Ergo 
+genera<lb ed="#L" break="no" n="95"/>tiones et motus horum inferiorum procedunt ex intentione
+<lb ed="#L" n="96"/>substantiae intelligentis, Ergo omnia inferiora corpora a
+<lb ed="#L" n="97"/>substantia intellectuali in proprios fines diriguntur.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e202">
+               <lb ed="#L" n="98"/>Probatur prima consequentia. Quia caelum est sicut
+<lb ed="#L" n="99"/>instrumentum substantiae intellectualis: cum sit causa 
+in<lb ed="#L" break="no" n="100"/>feriorum motuum secundum suum motum, quo a tali
+<lb ed="#L" n="101"/>substantia movetur. In idem autem fertur finis et intentio 
+<lb ed="#L" n="102"/>principalis agentis, et instrumenti,
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e215">
+               <lb ed="#L" n="103"/>Secunda consequentia probatur. Quia quod movetur
+<lb ed="#L" n="104"/>per se ab aliquo, et non secundum accidens, dirigitur ab eo
+<lb ed="#L" n="105"/>in finem sui motus. Caelum autem movetur a substantia 
+in<lb ed="#L" break="no" n="106"/>tellectuali, et causat per sui motum omnes motus in istis
+<lb ed="#L" n="107"/>inferioribus. Ergo per eam dirigitur in finem sui motus.
+<lb ed="#L" n="108"/>Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e231">
+               <lb ed="#L" n="109"/>2. Ex primo consequenti infert Sanctus Thomas 
+verita<lb ed="#L" break="no" n="110"/>tem haberi eius quod dicitur a  Boetio, in lib. I de 7rin.,
+<lb ed="#L" n="111"/>cap. 3, et a Platone, de processu formarum materialium
+<lb ed="#L" n="112"/>a formis immaterialibus. Quia, cum species eorum quae
+<lb ed="#L" n="113"/>causantur et intenduntur ab intellectuali agente, praeexistant
+<lb ed="#L" n="114"/>in intellectu ipsius et ex eis deriventur in effectus, 
+tan<lb ed="#L" break="no" n="115"/>quam scilicet ex exemplaribus, ut patet in artifice; omnes
+<pb ed="#L" n="64"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>formae sensibiles, et eorum motus, determinantur a formis
+<lb ed="#L" n="2"/>intellectualibus quae sunt in intellectu alicuius substantiae
+<lb ed="#L" n="3"/>intellectualis, si scilicet ab una tantum moventur, puta a
+<lb ed="#L" n="4"/>prinia; aut aliquarum, si a pluribus moventur, puta a prima
+<lb ed="#L" n="5"/>mediantibus secundis. Differimus autem in duobus a 
+Pla<lb ed="#L" break="no" n="6"/>tone: quia Plato posuit illas formas esse per se 
+subsisten<lb ed="#L" break="no" n="7"/>tes, et immediate causare formas sensibiles; nos autem
+<lb ed="#L" n="8"/>ponimus eas in intellectu existere, et causare inferiores
+<lb ed="#L" n="9"/>formas per motum caeli,
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e274">
+               <lb ed="#L" n="10"/>II. Circa rationem qua probatur caelum esse 
+instru<lb ed="#L" break="no" n="11"/>mentum substantiae intellectualis, advertendum, ut habetur
+<lb ed="#L" n="12"/>in praecedenti libro a Sancto Thoma ; et de Verit., q. xxvi,
+<lb ed="#L" n="13"/>a. 4; et in plerisque aliis locis, quod ratio instrumenti,
+<lb ed="#L" n="14"/>inquantum instrumentum, est ut moveat inquantum motum
+<lb ed="#L" n="15"/>a principali agente. Et ideo, si caelum habet quod sit
+<lb ed="#L" n="16"/>causa inferiorum motuum per motum quo movetur a
+<lb ed="#L" n="17"/>substantia intellectuali, optime sequitur quod eius sit 
+in<lb ed="#L" break="no" n="18"/>strumentum.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e296">
+               <lb ed="#L" n="19"/>2. Circa illam propositionem, 7n idem fertur finis et
+<lb ed="#L" n="20"/>intentio principalis agentis et instrumenti, advertendum
+<lb ed="#L" n="21"/>quod, licet instrumentum ex propria forma aliquid 
+opere<lb ed="#L" break="no" n="22"/>tur, inquantum tamen instrumentum a principali movente
+<lb ed="#L" n="23"/>motum, ut dicitur Quarto, d. r, a. 4 , semper aliquid
+<lb ed="#L" n="24"/>ultra propriam virtutem operatur. Ideo, licet alia possit
+<lb ed="#L" n="25"/>esse intentio principalis agentis et instrumenti inquantum
+<lb ed="#L" n="26"/>virtute propria praecise operatur, inquantum tamen per
+<lb ed="#L" n="27"/>modum instrumenti operatur, oportet ut tendat in illud
+<lb ed="#L" n="28"/>ad quod per motum principalis agentis ordinatur. Et
+<lb ed="#L" n="29"/>sic oportet eandem intentionem et eundem finem esse
+<lb ed="#L" n="30"/>utriusque inquantum huiusmodi. Loquitur ergo Sanctus
+<lb ed="#L" n="31"/>"Thomas de intentione et fine instrumenti formaliter, 
+in<lb ed="#L" break="no" n="32"/>quantum videlicet est instrumentum. .
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e329">
+               <lb ed="#L" n="33"/>Sed advertendum quod aut corruptus est textus ,: et
+<lb ed="#L" n="34"/>debet sic habere, /n eundem enim fertur finem intentio
+<lb ed="#L" n="35"/>et principalis agentis et instrumenti: aut ly et 
+expo<lb ed="#L" break="no" n="36"/>nendum est pro idest, ut ly intentio sit expositio ly finis,
+<lb ed="#L" n="37"/>sitque sensus: Im idem fertur finis, idest intentio. Nam,
+<lb ed="#L" n="38"/>aliquando nomine finis utimur pro intentione, quia intentio
+<lb ed="#L" n="39"/>est tantum finis: dicimus enim, Finis meus est pervenire
+<lb ed="#L" n="40"/>ad beatitudinem, idest, Intendo ad beatitudinem pervenire.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e349">
+               <lb ed="#L" n="41"/>3. Circa probationem secundae consequentiae , 
+atten<lb ed="#L" break="no" n="42"/>dendum primo quod, cum movens per accidens (quod,
+<lb ed="#L" n="43"/>inquam, moventi per se coniungitur: ut hoc loco .de 
+mo<lb ed="#L" break="no" n="44"/>vente per accidens loquitur Sanctus Thomas) nihil ad
+<lb ed="#L" n="45"/>effectum operetur, non agatque propter finem, non habet
+<lb ed="#L" n="46"/>id quod movetur ut ad aliquid a tali movente dirigatur.
+<lb ed="#L" n="47"/>Dicimus quidem album aedificare per accidens, quia accidit
+<lb ed="#L" n="48"/>aedificatori esse album: domus tamen ad nullum finem
+<lb ed="#L" n="49"/>ab albo, inquantum huiusmodi, dirigitur. Sed movens per
+<lb ed="#L" n="50"/>se, hoc est, ex forma et virtute. propria, habet dirigere
+<lb ed="#L" n="51"/>quod movetur ad finem motus: quia omne agens et 
+mo<lb ed="#L" break="no" n="52"/>vens per se agit et movet propter aliquem finem, ad quem
+<lb ed="#L" n="53"/>intendit per- motum pervenire; sicut -domificator dirigit
+<lb ed="#L" n="54"/>lapides motos et caementum et ligna ad formam domus,
+<lb ed="#L" n="55"/>ad quam per motum istorum pervenitur. Idcirco optime
+<lb ed="#L" n="56"/>assumit Sanctus. Thomas quod omne quod movetur ab
+<lb ed="#L" n="57"/>aliquo per se et non secundum accidens, dirigitur ab eo
+<lb ed="#L" n="58"/>in finem sui motus.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e391">
+               <lb ed="#L" n="59"/>Attendendum secundo, quod idcirco ex eo quod corpus
+<lb ed="#L" n="60"/>caeleste dirigitur in finem sui motus a substantia 
+intel<lb ed="#L" break="no" n="61"/>lectuali, deducit Sanctus Thomas, tanquam manifestum,
+<lb ed="#L" n="62"/>omnia corpora inferiora.a tali substantia in proprios fines.
+<lb ed="#L" n="63"/>dirigi, quia ex eodem fundamento utrumque deducitur: ex
+<lb ed="#L" n="64"/>hoc, inquam, quod omne quod movetur ab aliquo per se,
+<lb ed="#L" n="65"/>dirigitur ab eo in finem motus. Cum enim ita corpora
+<lb ed="#L" n="66"/>inferiora per se moveantur a substantia intellectuali sicut
+<lb ed="#L" n="67"/>superiora, sequitur quod, sicut propter hoc superiora 
+di<lb ed="#L" break="no" n="68"/>riguntur in finem sui motus a substantia intellectuali, ita
+<lb ed="#L" n="69"/>et inferiora in suos fines, ad quos per suos motus 
+per<lb ed="#L" break="no" n="70"/>veniunt, a tali. substantia dirigantur.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e420">
+               <lb ed="#L" n="71"/>III. Secunda ratio est a signo: quia videlicet operationes
+<lb ed="#L" n="72"/>naturae inveniuntur ordinate procedere, sicut operationes
+<lb ed="#L" n="73"/>sapientis . .
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e430">
+               <lb ed="#L" n="74"/>Adverte, ut dicitur Secundo, dist. xr, q. r, a. 1, quod
+<lb ed="#L" n="75"/>ordinare per modum ostendentis finem absolute, est rationis;
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ordinare autem per modum perfecte ostendentis finem, est
+<lb ed="#L" n="77"/>rationis perfectae per habitum, puta sapientiae; et ideo
+<lb ed="#L" n="78"/>I Metaphysicae  dicitur quod sapientis est ordinare. Idcirco,
+<lb ed="#L" n="79"/>ubi in operationibus invenitur ordinatus processus, signum
+<lb ed="#L" n="80"/>est huiusmodi operationes ab aliquo sapiente et per 
+intel<lb ed="#L" break="no" n="81"/>lectum agente, aut immediate aut mediate procedere.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e452">
+               <lb ed="#L" n="82"/>IV. Ad secundum dubium  respondet Sanctus Thomas
+<lb ed="#L" n="83"/>negando consequentiam: quia, inquam, mihil differt sive
+<lb ed="#L" n="84"/>hoc dicatur sive illud: - idest, quodcumque illorum 
+di<lb ed="#L" break="no" n="85"/>catur, habetur quod appetunt divinam similitudinem, et
+<lb ed="#L" n="86"/>unum alterum non excludit, immo unum infert reliquum.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e465">
+               <lb ed="#L" n="87"/>Hoc autem dupliciter declaratur . Primo, sic. Per hoc
+<lb ed="#L" n="88"/>tendunt naturalia in propriam perfectionem, quod tendunt
+<lb ed="#L" n="89"/>ad bonum. Per hoc vero quod tendunt ad bonum, 
+ten<lb ed="#L" break="no" n="90"/>dunt in divinam similitudinem: quia Deo aliquid 
+assimi<lb ed="#L" break="no" n="91"/>latur inquantum est bonum. Ulterius: bonum particulare
+<lb ed="#L" n="92"/>habet quod sit appetibile inquantum est similitudo primae
+<lb ed="#L" n="93"/>bonitatis. Ergo tendit unumquodque in proprium bonum
+<lb ed="#L" n="94"/>quia tendit in divinam similitudinem, et non e converso.
+<lb ed="#L" n="95"/>Ergo omnia appetunt divinam similitudinem tanquam 
+ul<lb ed="#L" break="no" n="96"/>timum finem.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e489">
+               <lb ed="#L" n="97"/>Circa istam propositionem, Bonum particulare habet
+<lb ed="#L" n="98"/>quod sit appetibile inquantum est similitudo primae 
+bo<lb ed="#L" break="no" n="99"/>nitatis, considerandum quod in re quae appetitur, est
+<lb ed="#L" n="100"/>ipsum esse quod appetitur, et ratio. appetibilitatis: sicut
+<lb ed="#L" n="101"/>in. visibili est, id quod videtur, puta Sortes, et ratio 
+vi<lb ed="#L" break="no" n="102"/>dendi, scilicet color. Dicere ergo quod bonum hoc habet
+<lb ed="#L" n="103"/>quod sit appetibile inquantum est similitudo primae 
+bo<lb ed="#L" break="no" n="104"/>nitatis, est dicere quod similitudo: ad divinam bonitatem
+<lb ed="#L" n="105"/>est sibi ratio quare appetatur. Ex quo sequitur quod non.
+<lb ed="#L" n="106"/>potest aliquid tendere in bonum per modum appetibilis,
+<lb ed="#L" n="107"/>quin tendat in divinam similitudinem, sicut non potest
+<lb ed="#L" n="108"/>aliquid videri quin videatur color: idem enim actus, ut
+<lb ed="#L" n="109"/>dicitur I I5, q. xrr, a. 4, cadit super obiectum, et super
+<lb ed="#L" n="110"/>rationem obiecti. Sequitur etiam quod in tali. appetitione
+<lb ed="#L" n="111"/>Primum appetitum est divina similitudo: et per 
+conse<lb ed="#L" break="no" n="112"/>quens ultimus finis, quia quod est ratio appetitionis 
+ali<lb ed="#L" break="no" n="113"/>cuius, est principalius appetitum. Propterea optime deduxit
+<lb ed="#L" n="114"/>Sanctus Thoiias ex illa propositione quod omnia appetunt
+<lb ed="#L" n="115"/>divinam similitudinem tanquam ultimum finem.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e533">
+               <lb ed="#L" n="116"/>V. Secundo declaratur sic . Quanto aliquid est 
+perfec<lb ed="#L" break="no" n="117"/>tioris virtutis et eminentius in gradu, bonitatis, tanto 
+appe<lb ed="#L" break="no" n="118"/>titum boni communiorem habet , et magis in distantibus
+<lb ed="#L" n="119"/>a se bonum quaerit et operatur. Ergo Deus in diffusione
+<lb ed="#L" n="120"/>suae bonitatis est exemplar et mensura omnium bonitatem
+<lb ed="#L" n="121"/>diffundentium. Ergo unumquodque tendens ad hoc quod
+<lb ed="#L" n="122"/>sit aliorum causa, tendit in divinam similitudinem, et 
+ni<lb ed="#L" break="no" n="123"/>hilominus tendit in bonum suum.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e553">
+               <lb ed="#L" n="124"/>Antecedens declaratur ex duobus. Primo, ex diverso
+<lb ed="#L" n="125"/>modo appetendi proprium bonum. Appetit enim aliquid
+<lb ed="#L" n="126"/>bonum suum aliquando secundum quod est eius proprium
+<lb ed="#L" n="127"/>ratione individui. Et sic animal suum bonum appetit cum
+<lb ed="#L" n="128"/>appetit cibum, quo conservatur in esse. - Aliquando 
+secun<lb ed="#L" break="no" n="129"/>dum quod est eius ratione speciei, idest, secundum quod est
+<lb ed="#L" n="130"/>bonum speciei. Sic et animal appetit generationem prolis
+<lb ed="#L" n="131"/>et eius nutritionem, et si qua sunt conservantia et 
+de<lb ed="#L" break="no" n="132"/>fendentia individua suae speciei. — Aliquando secundum
+<lb ed="#L" n="133"/>quod est eius ratione: generis. Et sic agens aequivocum,
+<lb ed="#L" n="134"/>ut caelum, appetit proprium bonum in causando: 
+appe<lb ed="#L" break="no" n="135"/>tendo scilicet bonum sui generis, puta corporis. — 
+Ali<lb ed="#L" break="no" n="136"/>quando secundum quod est eius ratione analogiae 
+princi<lb ed="#L" break="no" n="137"/>piatorum ad suum principium. Et sic Deus propter suum
+<lb ed="#L" n="138"/>bonum dat esse omnibus rebus.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e589">
+               <lb ed="#L" n="139"/>Secundo declaratur antecedens ex eo quod a quibusdari
+<lb ed="#L" n="140"/>dicitur, scilicet quod bonum, inquantum huiusmodi, est
+<lb ed="#L" n="141"/>diffusivum.: Quanto enim aliquid invenitur melius, tanto
+<lb ed="#L" n="142"/>ad remotiora, idest, ad magis distantia secundum pire
+<lb ed="#L" n="143"/>bonitatem suam diffundit.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e602">
+               <lb ed="#L" n="144"/>2. Prima vero consequentia probatur, In quolibet genere
+<lb ed="#L" n="145"/>quod est perfectissimum, est exemplar et mensura omnium
+<lb ed="#L" n="146"/>quae sunt illius generis. Sed Deus est perfectissimus in
+<lb ed="#L" n="147"/>bonitate, et suam bonitatem communissime diffundit: ex
+<lb ed="#L" n="148"/>quo scilicet habet quod sit perfectissimum i in genere causae,
+<lb ed="#L" n="149"/>quia inquantum unumquodque magis bonitatem diffundit
+<lb ed="#L" n="150"/>in alia, fit altior causa . Ergo etc.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e620">
+               <pb ed="#L" n="65"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>Secunda autem consequentia non probatur, sed 
+relin<lb ed="#L" break="no" n="2"/>quitur pro manifesta. Si enim alia agentia exemplantur in
+<lb ed="#L" n="3"/>agendo a Deo et eius bonitate, sequitur quod agendo
+<lb ed="#L" n="4"/>tendant in divinam similitudinem et in suum bonum.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e636">
+               <lb ed="#L" n="5"/>Ex hoc excluditur obiectio quaedam tacta etiam 
+su<lb ed="#L" break="no" n="6"/>perius , qua posset alicui videri quod motus corporum
+<lb ed="#L" n="7"/>caelestium, et actiones motorum eorum, non sint propter
+<lb ed="#L" n="8"/>corpora quae generantur et corrumpuntur: cum sint eis
+<lb ed="#L" n="9"/>indigniora. Dicitur enim quod non est inconveniens ut sint
+<lb ed="#L" n="10"/>aliqualiter propter ipsa: cum non sint propter ipsa 
+tan<lb ed="#L" break="no" n="11"/>quam propter ultimum finem, sed propter bonum suum
+<lb ed="#L" n="12"/>et propter divinam similitudinem.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e656">
+               <lb ed="#L" n="13"/>VI. Circa istam propositionem, Quanto aliquid 
+perfectio<lb ed="#L" break="no" n="14"/>ris virtutis est et eminentius in gradu bonitatis, tanto
+<lb ed="#L" n="15"/>appetitum boni communiorem habet, dubium occurrit. Ex
+<lb ed="#L" n="16"/>hoc enim sequitur quod Deus agat propter appetitum boni
+<lb ed="#L" n="17"/>communissimi: cum ipse perfectissimae bonitatis sit.
+<lb ed="#L" n="18"/>Quod etiam manifeste hic dicitur a Sancto Thoma, ubi
+<lb ed="#L" n="19"/>ait quod Deus dat omnibus esse propter bonum suum
+<lb ed="#L" n="20"/>secundum quod est eius ratione similitudinis analogiae
+<lb ed="#L" n="21"/>principiatorum ad suum principium, — Huius autem 
+oppo<lb ed="#L" break="no" n="22"/>situm videtur haberi Potentia, q. nr, a 15, ad 14, ubi
+<lb ed="#L" n="23"/>dicitur quod Deus agit ax amore finis, non autem ex
+<lb ed="#L" n="24"/>appetitu finis. a
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e685">
+               <lb ed="#L" n="25"/>2. Ad huius evidentiam, considerandum est quod 
+ap<lb ed="#L" break="no" n="26"/>petitus nomine dupliciter utimur pro nunc. Quandoque
+<lb ed="#L" n="27"/>quidem tanquam nomine particularis cuiusdam actus 
+ap<lb ed="#L" break="no" n="28"/>petitus, qui alio nomine vocatur desiderium. Et sic non
+<lb ed="#L" n="29"/>agit Deus propter appetitum finis: quia appetitus hoc modo
+<lb ed="#L" n="30"/>sumptus est rei non habitae; Deo autem nihil deest quod
+<lb ed="#L" n="31"/>sua actione sibi velit acquirere. - Quandoque vero 
+no<lb ed="#L" break="no" n="32"/>mine appetitus utimur tanquam communi nomine ad omnia
+<lb ed="#L" n="33"/>appetitus opera, ut etiam amare sit quoddam appetere.
+<lb ed="#L" n="34"/>Et sic non inconvenit Deum habere appetitum boni 
+com<lb ed="#L" break="no" n="35"/>munissimi, et agere propter appetitum talis boni, 
+inquan<lb ed="#L" break="no" n="36"/>tum operatur et dat esse rebus eo quod vult huiusmodi
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="37"/>bonum. Et hoc modo hic accipitur nomen appetitus. In
+<lb ed="#L" n="38"/>QQ. autem de Potentia Dei accipitur primo modo.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e721">
+               <lb ed="#L" n="39"/>3. Sed advertendum, cum dicimus Deum agere propter
+<lb ed="#L" n="40"/>bonum suum ratione similitudinis analogiae etc., quod
+<lb ed="#L" n="41"/>hoc dupliciter possumus intelligere: uno modo, quod hoc
+<lb ed="#L" n="42"/>bonum suum sit bonitas sua qua in seipso formaliter est
+<lb ed="#L" n="43"/>bonus; alio modo, quod hoc bonum suum sit bonum
+<lb ed="#L" n="44"/>formaliter inhaerens creaturae.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e737">
+               <lb ed="#L" n="45"/>Si primo modo accipiamus, sic sensus est quod propter
+<lb ed="#L" n="46"/>amorem suae bonitatis, ad quam omnia habent quandam
+<lb ed="#L" n="47"/>analogiam et similitudinem (propter quod [dicitur] bonum
+<lb ed="#L" n="48"/>communissimum, tanquam ab omnibus per quandam 
+simi<lb ed="#L" break="no" n="49"/>litudinem participatum), dat omnibus esse. Et tunc bonum
+<lb ed="#L" n="50"/>suum respectu ipsius habet rationem /inis operantis : iuxta
+<lb ed="#L" n="51"/>distinctionem de fine positam a Sancto Thoma II Sent.,
+<lb ed="#L" n="52"/>dist. 1, d. i, a 1.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e757">
+               <lb ed="#L" n="53"/>Si secundo modo intelligamus, sensus est quod Deus
+<lb ed="#L" n="54"/>dat esse omnibus rebus quia vult bonum omnium rerum,
+<lb ed="#L" n="55"/>quod est quaedam participata similitudo divinae bonitatis,
+<lb ed="#L" n="56"/>et sic ad ipsam habet quandam analogiam et 
+proportio<lb ed="#L" break="no" n="57"/>nem; ut etiam ipsum bonum creaturae dicatur bonum Dei
+<lb ed="#L" n="58"/>proportionaliter, inquantum est similitudo suae bonitatis.
+<lb ed="#L" n="59"/>Et tunc bonum suum habet rationem finis operis, non
+<lb ed="#L" n="60"/>autem operantis. Vult enim creaturam omnem ex 
+opera<lb ed="#L" break="no" n="61"/>tione divina consequi similitudinem quandam divinae 
+bo<lb ed="#L" break="no" n="62"/>nitatis: ipsa autem divina bonitas est id ex cuius amore
+<lb ed="#L" n="63"/>vult ut eius similitudo communicetur creaturae.
+</p>
+            <p xml:id="ferv7a-d1e1904-d1e783">
+               <lb ed="#L" n="64"/>Licet aut utroque modo quod hic dicitur possit habere
+<lb ed="#L" n="65"/>veritatem, videtur tamen in secundo sensu accipiendum,
+<lb ed="#L" n="66"/>dum inquit quod bonum suum quod vult Deus, est suum
+<lb ed="#L" n="67"/>ratione similitudinis analogiae principiatorum ad suum
+<lb ed="#L" n="68"/>principium. Ex hoc enim dat intelligere quod bonum ab
+<lb ed="#L" n="69"/>ipso intentum in rerum creatione tanquam finem operis,
+<lb ed="#L" n="70"/>est bonum principiatorum, quod est etiam bonum Dei
+<lb ed="#L" n="71"/>secundum quandam analogiam et proportionem ad ipsius
+<lb ed="#L" n="72"/>essentialem bonitatem.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

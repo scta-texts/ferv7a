@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 151</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 151</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="445"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2941"><!-- ferv7a-l3c151 -->
+            <head>Capitulum 151</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="48" type="fixed=445"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="49"/>POSTQUAM ostendit Sanctus Thomas quid, sit gratia, 
+con<lb ed="#L" break="no" n="50"/>in sequenter vult ostendere qui effectus eam 
+concomi<lb ed="#L" break="no" n="51"/>primo, determinat de
+<lb ed="#L" n="52"/>effectibus gratiae gratum facientis; secundo, de effectibus
+<lb ed="#L" n="53"/>gratuitae voluntatis divinae qui dicuntur ae eg gratis
+<lb ed="#L" n="54"/>datae, cap. criv.
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Quantum ad primum, ponit tres conchiioness primam
+<lb ed="#L" n="56"/>in hoc capite; secundam, cap. seq.; tertiam, cap. cLrur.
+</p>
+            <p>
+               <lb ed="#L" n="57"/>L. Prima est: Per auxilium gratiae gratum facientis
+<lb ed="#L" n="58"/>hoc homo consequitur, quod Deum diligat : intellige, 
+dile<lb ed="#L" break="no" n="59"/>ctione caritatis, qua Deus — ut bbiectum 
+superna<lb ed="#L" break="no" n="60"/>turalis beatitudinis.
+</p>
+            <p>
+               <lb ed="#L" n="61"/>Et arguit primo sic. Proprius divinae dilectionis effectus
+<lb ed="#L" n="62"/>in homine esse videtur quod Deum diligat. Ergo ex gratia
+<lb ed="#L" n="63"/>atum faciente hoc in homine consequitur , quod Deum
+</p>
+            <p>
+               <lb ed="#L" n="64"/>iligat. — Probatur antecedens. Quia hoc est praecipuum
+<lb ed="#L" n="65"/>in intentione diligentis, ut a dilecto reametur: cum ad
+<lb ed="#L" n="66"/>hoc praecipue studium diligentis tendat, ut ad sui amorem
+<lb ed="#L" n="67"/>dilectum trahat. — Consequentia vero probatur: quia gratia
+<lb ed="#L" n="68"/>gratum faciens est in homine divinae dilectionis effectus,
+</p>
+            <p>
+               <lb ed="#L" n="69"/>Advertendum quod, cum tam gratia quam Dei dilectio
+<lb ed="#L" n="70"/>hic dicatur esse divinae dilectionis effectus, proprius tamen
+<lb ed="#L" n="71"/>eius ' effectus dicitur dilectio: quia est primum et principale
+<lb ed="#L" n="72"/>quod Deus per suam dilegtionem intendit. Gratia enim
+<lb ed="#L" n="73"/>est quasi intrinsecus divinae dilectionis effectus, eique 
+im<lb ed="#L" break="no" n="74"/>mediatus: quia nomine divinae dilectionis, qua Deus 
+homi<lb ed="#L" break="no" n="75"/>nem specialiter diligit, importatur tam ipse actus diligendi,
+<lb ed="#L" n="76"/>quam gratia, quae hominem formaliter Deo gratum et
+<lb ed="#L" n="77"/>dilectum facit. Dilectio autem hominis, qua Deum amamus,
+<lb ed="#L" n="78"/>est id propter quod, Deus nobis gratiam impertit: quia
+<lb ed="#L" n="79"/>ad hoc nobis dat gratiam ut in eius amorem. elevemur.
+<lb ed="#L" n="80"/>Et ideo dilectio est principale quod intenditur in hac vita
+<lb ed="#L" n="81"/>per gratiae collationem.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>Secundo. Finis ultimus, ad quem homo per. auxilium
+<lb ed="#L" n="83"/>divinae gratiae perducitur, est visio Dei per essentiam, quae
+<lb ed="#L" n="84"/>est propria ipsius, et communicatur homini a Deo. Ergo
+<lb ed="#L" n="85"/>non potest homo ad hunc finem perduci nisi uniatur Deo
+<lb ed="#L" n="86"/>per conformitatem voluntatis, qui est proprius effectus
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="87"/>dilectionis. Ergo per gratiam gratum facientem homo 
+consti<lb ed="#L" break="no" n="88"/>tuitur. Dei dilector. - Probatur prima consequentia. Quia
+<lb ed="#L" n="89"/>eorum quorum. est unus finis, oportet aliquam unionem
+<lb ed="#L" n="90"/>esse inquantum ordinantur ad finem: ut patet in civibus,
+<lb ed="#L" n="91"/>et in militibus. — Secunda vero: quia per gratiam homo
+<lb ed="#L" n="92"/>dirigitur in finem ei communicatum a Deo.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Attendendum, ex doctrina Sancti Thomae I II5, q. xxvi,
+<lb ed="#L" n="94"/>a. 2, quod in amore amicitiae, amans bona vel. mala. amici
+<lb ed="#L" n="95"/>reputat quasi sua, et voluntatem amici sicut suam; ut
+<lb ed="#L" n="96"/>quasi in suo amico videatur bona vel mala pati. Et propter
+<lb ed="#L" n="97"/>hoc dicitur IX Eth. et Il Rhet., quod amicorum est eadem
+<lb ed="#L" n="98"/>velle, et in eodem tristari et gaudere. Idcirco bene hic
+<lb ed="#L" n="99"/>dicitur quod conformitas voluntatis est proprius effectus
+<lb ed="#L" n="100"/>dilectionis, scilicet eius quae ad amicitiam pertinet.
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Tertio. Principalis perfectio affectus est dilectio. Ergo
+<lb ed="#L" n="102"/>principalis effectus gratiae gratum facientis est ut homo
+<lb ed="#L" n="103"/>Deum diligat. — Probatur antecedens hoc signo, quod
+<lb ed="#L" n="104"/>omnis motus affectus ab amore derivatur: ut patet 
+discur<lb ed="#L" break="no" n="105"/>rendo per omnes. — Consequentia vero probatur: quia,
+<lb ed="#L" n="106"/>cum finis et bonum sit proprium obiectum affectus, oportet
+<lb ed="#L" n="107"/>quod per gratiam gratum facientem, quae hominem dirigit
+<lb ed="#L" n="108"/>in ultimum finem, affectus hominis principaliter perficiatur.
+</p>
+            <p>
+               <lb ed="#L" n="109"/>Advertendum quod non sic intelligendum est oportere
+<lb ed="#L" n="110"/>per gratiam perfici affectum quasi ipsa sit forma et perfectio
+<lb ed="#L" n="111"/>in voluntate existens: sed quia oportet ex ipsa originari
+<lb ed="#L" n="112"/>dilectionem, quae est prima affectus perfectio, tanquam
+<lb ed="#L" n="113"/>ex eo per quod homo dirigitur originaliter et 
+fundamen<lb ed="#L" break="no" n="114"/>taliter in ultimum finem.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>Quarto. Gratia gratum faciens est quaedam forma in
+<lb ed="#L" n="116"/>homine per quam ordinatur ad ultimum finem, qui est
+<lb ed="#L" n="117"/>Deus. Ergo per eam homo Dei similitudinem consequitur.
+<lb ed="#L" n="118"/>Ergo per eam efficitur Dei dilector. — Probatur prima
+<lb ed="#L" n="119"/>consequentia. Quia forma per quam res ordinatur in aliquem
+<lb ed="#L" n="120"/>finem, assimilat quodammodo rem illam fini: ut patet in
+<lb ed="#L" n="121"/>gravitate.
+</p>
+            <p>
+               <lb ed="#L" n="122"/>Advertendum quod non dicit Sanctus Thomas formam
+<lb ed="#L" n="123"/>assimilare simpliciter rem fini, sed quodammodo : quia inter
+<lb ed="#L" n="124"/>illa non est proprie similitudo, quae dicit convenientiam
+<pb ed="#L" n="446"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>in forma; sed est quaedam similitudo proportionis, 
+inquan<lb ed="#L" break="no" n="2"/>tum forma est proportionata ad inducendum finem, et sic 
+<lb ed="#L" n="3"/>finis in ea aliquo modo virtualiter continetur. 
+</p>
+            <p>
+               <lb ed="#L" n="4"/>Quinto. Üt ex dictis patet, oportet ex gratia hominis 
+<lb ed="#L" n="5"/>operationes perfectiores fieri. Ergo necesse est quod per  
+<lb ed="#L" n="6"/>eam. Dei dilectio constituatur in nobis. — Probatur 
+conse<lb ed="#L" break="no" n="7"/>quentia. Quia ad perfectionem operationis requiritur quod  
+<lb ed="#L" n="8"/>aliquis constanter et prompte operetur. Hocautem praecipue 
+<lb ed="#L" n="9"/>facit amor, per quem etiam difficilia et gravia levia videntur, 
+</p>
+            <p>
+               <lb ed="#L" n="10"/>CowriRMATUR auctoritate Apostoli, Rom. v, <quote>Caritas 
+<lb ed="#L" n="11"/>Dei</quote> etc.; et Joan. xiv, <quote>Qui diligit me</quote> etc. 
+</p>
+            <p>
+               <lb ed="#L" n="12"/>II. Ad evidentiam supradictae conclusionis, 
+consideran<lb ed="#L" break="no" n="13"/>dum est quod, cum, per gratiam. dicitur. homo  effici Dei 
+<lb ed="#L" n="14"/>dilector, hoc non est sic intelligendum quasi gratia sit forma  
+<lb ed="#L" n="15"/>dilectionis Dei formaliter causativa, eo modo quo per 
+habi<lb ed="#L" break="no" n="16"/>tum iustitiae elicitur iustitide actus; nec etiam quia sit  
+<lb ed="#L" n="17"/>effective proprie caritatis productiva, qua Deus a nobis 
+<lb ed="#L" n="18"/>diligitur: sed quia. naturaliter praecedit habitum caritatis,   
+<lb ed="#L" n="19"/>ilique praesupponitur; et quia, secundum .divinam ordi- 
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="20"/>nationem, eam. caritas inseparabiliter concomitatur; .et .ad
+<lb ed="#L" n="21"/>eam quasi. naturali quadam concomitantia resultat, sicut
+<lb ed="#L" n="22"/>passio subiectum proprium concomitatur, Unde potest dici
+<lb ed="#L" n="23"/>gratia esse causa caritatis eo rnodo quo, inter effectus 
+essen<lb ed="#L" break="no" n="24"/>tialiter ordinatos, quotum scilicet secundus praesupponit
+<lb ed="#L" n="25"/>primum; effectus primus. dicitur causa secundorum,. per
+<lb ed="#L" n="26"/>modum cuiusdam. naturalis resultantiae ab ipso 
+proceden<lb ed="#L" break="no" n="27"/>tium: — hoc autem non est proprie esse causam effectivam,
+<lb ed="#L" n="28"/>sed improprie. Aut etiam esse instrumentum principalis
+<lb ed="#L" n="29"/>agentis, omnes illos effectus simul producentis secundum
+<lb ed="#L" n="30"/>durationem, sed ordine quodam secundum naturam. Propter
+<lb ed="#L" n="31"/>hoc non proposuit Sanctus Thomas gratiam gratum 
+fa<lb ed="#L" break="no" n="32"/>cientem. esse causam dilectionis qua. Deum diligimus : sed
+<lb ed="#L" n="33"/>quod per. auxilium divinae gratiae hoc homo consequitur,
+<lb ed="#L" n="34"/>quod Deum diligat . Quod idem dictu est ac si diceretur
+<lb ed="#L" n="35"/>quod ad gratiam concomitantia naturali et necessaria, 
+se<lb ed="#L" break="no" n="36"/>cundum ordinem divinae providentiae, caritas consequitur.
+<lb ed="#L" n="37"/>—- Idem dicendum est de fide et ei de. quibus inferius
+<lb ed="#L" n="38"/>est sermo. .
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>

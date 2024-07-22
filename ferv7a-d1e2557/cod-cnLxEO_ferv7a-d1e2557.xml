@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Capitulum 104</title>
+            <author ref="#per-ferq7p">Francesco Silvestri</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Capitulum 104</title>
+               <date when="2024-07-22">July 07, 2024</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0"
+                    url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2024-07-22" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#L" n="326"/>
+            <cb ed="#L" n="a"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="ferv7a-d1e2557"><!-- ferv7a-l3c104 -->
+            <head>Capitulum 104</head>
+            <p>
+               <cb ed="#L" n="c"/>
+               <lb ed="#L" n="67" type="fixed=326"/>Commentaria Ferrariensis
+</p>
+            <p>
+               <cb ed="#L" n="d"/>
+               <lb ed="#L" n="68"/>POSTQUAM ostendit Sanctus Thomas quod spirituales 
+sub<lb ed="#L" break="no" n="69"/>P stantiae quosdam effectus producere possunt qui nobis
+<lb ed="#L" n="70"/>mirabiles sunt, quia maxime in magorum operibus 
+mira<lb ed="#L" break="no" n="71"/>biles effectus apparent, vult de ipsorum causa tractare .
+</p>
+            <p>
+               <lb ed="#L" n="72"/>Circa hoc autem duo facit: primo, ostendit quod 
+huius<lb ed="#L" break="no" n="73"/>modi effectus non proveniunt ex sola virtute caelestium
+<lb ed="#L" n="74"/>corporum; secundo, quod ab aliqua substantia spirituali
+<lb ed="#L" n="75"/>proveniunt, capite sequenti.
+</p>
+            <p>
+               <lb ed="#L" n="76"/>I. Quantum ad primum, dixerunt quidam huiusmodi
+<lb ed="#L" n="77"/>opera non ab aliquibus substantiis spiritualibus fieri, sed
+<lb ed="#L" n="78"/>ex virtute caelestium corporum. Cuius signum videtur quod
+<lb ed="#L" n="79"/>stellarum situs ad huiusmodi opera observatur, et 
+adhi<lb ed="#L" break="no" n="80"/>bentur quaedam herbarum et aliarum rerum corporalium
+<lb ed="#L" n="81"/>auxilia. Sed contra ipsos arguit Sanctus Thomas ex iis
+<lb ed="#L" n="82"/>quae in operibus magorum apparent.
+</p>
+            <p>
+               <lb ed="#L" n="83"/>Primo. In operationibus magorum apparent quaedam
+<lb ed="#L" n="84"/>quae sunt propria rationalis naturae opera: sicut quod 
+red<lb ed="#L" break="no" n="85"/>duntur responsa de furtis sublatis, et aliis huiusmodi. Ergo
+<lb ed="#L" n="86"/>non omnes magorum effectus sola virtute caelestium 
+cor<lb ed="#L" break="no" n="87"/>porum causari possunt. — Probatur consequentia. Quia
+<lb ed="#L" n="88"/>impossibile est quod effectus qui sunt proprii intellectualis
+<lb ed="#L" n="89"/>naturae, ex virtute caelestis corporis causentur.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>Secundo : et est confirmatio praecedentis rationis. 
+Ap<lb ed="#L" break="no" n="91"/>parent aliqui colloquentes hominibus in huiusmodi 
+opera<lb ed="#L" break="no" n="92"/>tionibus, et colloquentes de diversis. Ergo etc. - Probatur
+<cb ed="#L" n="e"/>
+               <lb ed="#L" n="93"/>consequentia. Quia loquela proprius est actus rationalis
+<lb ed="#L" n="94"/>naturae.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>2. Si quis autem dicat huiusmodi apparentias non 
+se<lb ed="#L" break="no" n="96"/>cundum exteriorem sensum, sed secundum imaginationem
+<lb ed="#L" n="97"/>tantum fieri: — contra arguitur. Tum quia huiusmodi 
+ap<lb ed="#L" break="no" n="98"/>paritiones fiunt ad homines qui utuntur libere sensibus.
+<lb ed="#L" n="99"/>Non apparent autem alicui formae imaginatae quasi res
+<lb ed="#L" n="100"/>verae nisi fiat alienatio a sensibus exterioribus: cum non
+<lb ed="#L" n="101"/>possit similitudinibus attendi  tanquam rebus, nisi ligato
+<lb ed="#L" n="102"/>iudicio  sensuum.
+</p>
+            <p>
+               <lb ed="#L" n="103"/>Tum quia plerumque per huiusmodi visa advenit alicui
+<lb ed="#L" n="104"/>intellectualis cognitio aliquorum quae sui intellectus 
+facul<lb ed="#L" break="no" n="105"/>tatem excedunt: ut est revelatio occultorum thesaurorum,
+<lb ed="#L" n="106"/>manifestatio futurorum, et responsio veritatis de documentis
+<lb ed="#L" n="107"/>alicuius scientiae. Ex formis autem imaginatis non potest
+<lb ed="#L" n="108"/>alicui provenire intellectualis cognitio ultra facultatem
+<lb ed="#L" n="109"/>naturalem vel acquisitam sui intellectus. Quod ex somniis
+<lb ed="#L" n="110"/>ostenditur, in quibus, etsi aliqua sit praesignatio 
+futu<lb ed="#L" break="no" n="111"/>rorum, non tamen quicumque videt somnia, eorum 
+signi<lb ed="#L" break="no" n="112"/>ficata intelligit.
+</p>
+            <p>
+               <lb ed="#L" n="113"/>II. Ad evidentiam utriusque rationis, considerandum
+<lb ed="#L" n="114"/>primo, quod ea dicuntur propria opera rationalis naturae
+<lb ed="#L" n="115"/>quae a sola intellectuali natura provenire possunt: sicut
+<lb ed="#L" n="116"/>propria opera animalis dicuntur quae ab animali solo 
+pro<lb ed="#L" break="no" n="117"/>veniunt et a nullo alio, sicut sentire est proprium ani-
+<pb ed="#L" n="327"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>malis opus, quia sola animalia sentiunt. Constat autem
+<lb ed="#L" n="2"/>quod respondere de furtis sublatis, et colloqui hominibus
+<lb ed="#L" n="3"/>atque cum eis de diversis ratiocinari, solum naturae habenti
+<lb ed="#L" n="4"/>intellectum convenit, quae per voces suos conceptus homini
+<lb ed="#L" n="5"/>manifestat. Ideo huiusmodi opera vocat Sanctus '"l'homas
+<lb ed="#L" n="6"/>propria naturae intellectualis opera.
+</p>
+            <p>
+               <lb ed="#L" n="7"/>2. Advertendum secundo, cum inquit ex formis 
+ima<lb ed="#L" break="no" n="8"/>ginatis non posse provenire alicui intellectualem  
+cogni<lb ed="#L" break="no" n="9"/>tionem ultra facultatem naturalem vel acquisitam, quod
+<lb ed="#L" n="10"/>facultas intellectus humani est duplex, ut hic tangitur:
+<lb ed="#L" n="11"/>una scilicet naturalis; altera acquisita. Cum enim, ut 
+di<lb ed="#L" break="no" n="12"/>citur Prima Parte, q. rxxxir, a. 2, ad 2, facultas quandoque
+<lb ed="#L" n="13"/>nominet potestatem expeditam ad operandum, secundum
+<lb ed="#L" n="14"/>quod intellectus habet potestatem expeditam ad 
+cogno<lb ed="#L" break="no" n="15"/>scendum, sic dicitur ad cognitionem habere facultatem,
+<lb ed="#L" n="16"/>Dupliciter autem intellectus habet potestatem aliquid 
+expe<lb ed="#L" break="no" n="17"/>dite cognoscendi. Aut scilicet ex solis principiis 
+natura<lb ed="#L" break="no" n="18"/>libus, cuiusmodi sunt intellectus possibilis, intellectus agens,
+<lb ed="#L" n="19"/>habitus primorum principiorum, et interiorum sensuum
+<lb ed="#L" n="20"/>dispositio: et haec dicitur naturalis. facultas hominis' ad
+<lb ed="#L" n="21"/>intellectionem. Aut non ex solis naturalibus principiis, sed
+<lb ed="#L" n="22"/>ex aliquo habitu acquisito, sicut intellectus geometrae 
+ha<lb ed="#L" break="no" n="23"/>bet potestatem expedite cognoscendi geometricalia' ex 'eo
+<lb ed="#L" n="24"/>quo od habitum habet geometriae: et talis facultas dicitur
+<lb ed="#L" n="25"/>facultas acquisita. Ad hoc autem ut intellectus hominis,
+<lb ed="#L" n="26"/>sive secundum naturalem sive secundum acquisitam 
+facul<lb ed="#L" break="no" n="27"/>tatem, in aliquam cognitionem feratur, requiruntur quidem
+<lb ed="#L" n="28"/>phantasmata, quae hic dicuntur formae imaginatae, sed
+<lb ed="#L" n="29"/>tamen ex sola formatione phantasmatum non potest 
+in<lb ed="#L" break="no" n="30"/>tellectus in aliquam. intellectionem quae naturalem aut
+<lb ed="#L" n="31"/>acquisitam facultatem intellectus excedat: quia ipsa 
+phan<lb ed="#L" break="no" n="32"/>tasmata non concurrunt ad intellectionem nisi aut sicut
+<lb ed="#L" n="33"/>instrumenta intellectus, quibus mediantibus imprimuntur
+<lb ed="#L" n="34"/>species in intellectu possibili ab intellectu agente; aut sicut
+<lb ed="#L" n="35"/>obiecta in quibus homo naturam intelligit per speciem
+<lb ed="#L" n="36"/>intelligibilem existentem in intellectu repraesentatam. 
+Pro<lb ed="#L" break="no" n="37"/>pterea infert Sanctus Thomas oportere ut illi apparentes
+<lb ed="#L" n="38"/>vel colloquentes non videantur secundum imaginationem
+<lb ed="#L" n="39"/>tantum: vel, si talis visio sit secundum imaginationem,
+<lb ed="#L" n="40"/>quod fiat virtute alicuius intellectus superioris adducentis
+<lb ed="#L" n="41"/>hominem per tales imaginationes in cognitionem talium
+<lb ed="#L" n="42"/>quae sunt supra intellectus alicuius hominis facultatem.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>3. Advertendum autem quod non loquitur Sanctus 
+Tho<lb ed="#L" break="no" n="44"/>mas de facultate tantum intellectus ad. intelligendum 
+abso<lb ed="#L" break="no" n="45"/>lute et in communi: sed etiam de facultate huius aut illius
+<lb ed="#L" n="46"/>hominis, secundum quod unus homo est naturaliter 
+inge<lb ed="#L" break="no" n="47"/>niosior alio aut eruditior. Sic enim contingit quod est supra
+<lb ed="#L" n="48"/>facultatem intellectus unius hominis, non esse supra 
+facul<lb ed="#L" break="no" n="49"/>tatem intellectus alterius: sicut cognoscere ordinem motus
+<lb ed="#L" n="50"/>corporum caelestium est supra facultatem rustici et idiotae,
+<lb ed="#L" n="51"/>non autem supra facultatem astrologi. Quando ergo aliquid
+<lb ed="#L" n="52"/>ostenditur alicui per opera magorum quod capacitatem
+<lb ed="#L" n="53"/>sui intellectus excedit, licet forte alterius capacitatem non
+<lb ed="#L" n="54"/>excedat, oportet ut in eam cognitionem, si fiat per 
+immu<lb ed="#L" break="no" n="55"/>tationem phantasiae et imaginationis, virtute alicuius 
+su<lb ed="#L" break="no" n="56"/>perioris intellectus perducatur, et sola virtus caelestis cum
+<lb ed="#L" n="57"/>formis imaginatis non sufficit. Fit autem huiusmodi 
+co<lb ed="#L" break="no" n="58"/>gnitio supra alicuius hominis facultatem, secundum 
+doc<lb ed="#L" break="no" n="59"/>trinam Sancti Thomae II Sent, d. vu, q. 1, a. 2 , 
+in<lb ed="#L" break="no" n="60"/>quantum aut phantasmata praeexistentia in imaginatione
+<lb ed="#L" n="61"/>ipsius hominis illustrantur lumine superioris;intellectus, et
+<lb ed="#L" n="62"/>componuntur aut dividuntur, ut ex ipsis sic illustratis ab
+<lb ed="#L" n="63"/>intellectu aliquae intentiones eliciantur, ex quibus in 
+intel<lb ed="#L" break="no" n="64"/>lectu possibili resultat aliquorum cognitio ad quam 
+eli<lb ed="#L" break="no" n="65"/>ciendam illustratio intellectus agentis non sufficeret : aut
+<lb ed="#L" n="66"/>novae species in imaginatione formantur, secundum 
+ali<lb ed="#L" break="no" n="67"/>quam transmutationem organi corporalis et spirituum, ab
+<lb ed="#L" n="68"/>aliquo intelligente ipsa phantasmata ad aliquorum 
+cogni<lb ed="#L" break="no" n="69"/>tionem ordinante.
+</p>
+            <p>
+               <lb ed="#L" n="70"/>III. Circa id quod inquit Sanctus Thomas, in somnis fieri
+<lb ed="#L" n="71"/>aliquam praesignationem futurorum, et tamen non omnem
+<lb ed="#L" n="72"/>videntem somnia eorum significata intelligere, 
+adverten<lb ed="#L" break="no" n="73"/>dum, secundum eius doctrinam in II Sent., loco 
+praealle<lb ed="#L" break="no" n="74"/>gato, ad 6; et II I^, q. xcv, a. 6, quod in somnis potest
+<lb ed="#L" n="75"/>esse praesignatio futurorum quatuor modis. Primo, quando
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>ab eadem causa naturali intrinseca provenit somnium, et
+<lb ed="#L" n="77"/>futurus eventus: sicut, cum ex pituitae dominio somniat
+<lb ed="#L" n="78"/>quis se dulcia comedere, significatur aut futurus morbus,
+<lb ed="#L" n="79"/>aut futura salus; utriusque enim ipsum pituitae dominium
+<lb ed="#L" n="80"/>quandoque causa est. - Secundo, quando ex virtute corporis
+<lb ed="#L" n="81"/>caelestis relinquuntur in corpore et imaginatione aliquae
+<lb ed="#L" n="82"/>impressiones et aliqui motus, quae sunt signa motuum
+<lb ed="#L" n="83"/>caelestium in corporibus inferioribus; et ex ipsis motibus
+<lb ed="#L" n="84"/>figurantur in imaginatione imagines et similitudines illorum
+<lb ed="#L" n="85"/>effectuum ad quos disponunt motus caelestes; sicut et
+<lb ed="#L" n="86"/>quaedam sunt animalia quae suis motibus futuram 
+tem<lb ed="#L" break="no" n="87"/>pestatem praenuntiant. — Tertio, quando a Deo, ministerio
+<lb ed="#L" n="88"/>angelorum, aliqua in somnis revelantur hominibus: ut patet
+<lb ed="#L" n="89"/>in his quae prophetis quandoque sunt revelata. — Quarto,
+<lb ed="#L" n="90"/>quando operatione daemonum aliqua dormientibus 
+ap<lb ed="#L" break="no" n="91"/>parent ex quibus quandoque ipsis aliqua futura, ab ipsis
+<lb ed="#L" n="92"/>daemonibus cognita, revelantur.
+</p>
+            <p>
+               <lb ed="#L" n="93"/>Quia ergo contingit saepenumero aliqua in somnis 
+ap<lb ed="#L" break="no" n="94"/>parere quae aliquorum futurorum sunt signa, et tamen
+<lb ed="#L" n="95"/>somnians non intelligit quid per illa somnia significetur,
+<lb ed="#L" n="96"/>sicut accidit Pharaoni : ideo inquit Sanctus Thomas in
+<lb ed="#L" n="97"/>somnis quandoque futura praesignari, et tamen 
+somnian<lb ed="#L" break="no" n="98"/>tem non intelligere quae significantur. -
+</p>
+            <p>
+               <lb ed="#L" n="99"/>IV. Tertio arguitur. Per operationes praedictas fiunt
+<lb ed="#L" n="100"/>aliqua quae nulli rei naturalia esse possunt: sicut. quod
+<lb ed="#L" n="101"/>ad praesentiam alicuius quaelibet sera ei pandatur, quod
+<lb ed="#L" n="102"/>aliquis invisibilis reddatur, et huiusmodi. Ergo per has 
+ope<lb ed="#L" break="no" n="103"/>rationes fiunt quae virtute corporum caelestium fieri non
+<lb ed="#L" n="104"/>possunt. - Probatur consequentia. Quod fit virtute 
+caele<lb ed="#L" break="no" n="105"/>stium corporum, est effectus naturalis. Ergo quod nulli
+<lb ed="#L" n="106"/>rei naturale esse potest, non potest fieri virtute caelestium
+<lb ed="#L" n="107"/>corporum. Ergo etc. Probatur antecedens: quia formae
+<lb ed="#L" n="108"/>naturales sunt quae in inferioribus causantur ex virtute
+<lb ed="#L" n="109"/>corporum caelestium.
+</p>
+            <p>
+               <lb ed="#L" n="110"/>Ad evidentiam huius rationis, considerandum est quod
+<lb ed="#L" n="111"/>eam inducit Sanctus Thomas ad ostendendum quod 
+ima<lb ed="#L" break="no" n="112"/>gines quae per magos constituuntur ad hos effectus, ut
+<lb ed="#L" n="113"/>scilicet eas supra se deferens reddatur invisibilis, aut ad
+<lb ed="#L" n="114"/>eius praesentiam quaelibet sera ei pandatur, non faciunt
+<lb ed="#L" n="115"/>hos effectus ex aliqua virtute sibi a corporibus caelestibus
+<lb ed="#L" n="116"/>indita et impressa, ut ipsi magi dicunt. Et fundamentum
+<lb ed="#L" n="117"/>rationis est, quia formae quae a corporibus caelestibus in
+<lb ed="#L" n="118"/>haec inferiora producuntur, non sunt formae artificiales,
+<lb ed="#L" n="119"/>cum haec ab arte fiant: sed sunt formae naturales de 
+po<lb ed="#L" break="no" n="120"/>tentia materiae eductae; solae enim huiusmodi formae in
+<lb ed="#L" n="121"/>virtute corporum caelestium continentur. Ideo, si quae
+<lb ed="#L" n="122"/>actiones proveniant ab huiusmodi imaginibus quae non
+<lb ed="#L" n="123"/>proveniant ab aliqua forma naturali, non provenient ex
+<lb ed="#L" n="124"/>illis virtute corporum caelestium. Constat autem quod 
+red<lb ed="#L" break="no" n="125"/>dere hominem invisibilem, et huiusmodi, non consequitur
+<lb ed="#L" n="126"/>aliquam formam naturalem rei. Ideo non possunt illae
+<lb ed="#L" n="127"/>actiones in virtutem corporis caelestis referri. Unde illa
+<lb ed="#L" n="128"/>propositio quam assumit Sanctus '"l'homas, scilicet, Quod
+<lb ed="#L" n="129"/>fit virtute corporum caelestium, est effectus naturalis, sic
+<lb ed="#L" n="130"/>intelligitur quod virtute caelestis corporis non fit aliquid
+<lb ed="#L" n="131"/>a corporibus inferioribus nisi quod formam naturalem 
+ali<lb ed="#L" break="no" n="132"/>cuius rei consequitur: cum corpora per formas operentur ;
+<lb ed="#L" n="133"/>a corpore autem caelesti sola forma quae alicui rei est
+<lb ed="#L" n="134"/>naturalis proveniat, non autem forma artificialis.
+</p>
+            <p>
+               <lb ed="#L" n="135"/>2. Utrum autem sit aliquod naturale quod hominem
+<lb ed="#L" n="136"/>reddat invisibilem, ut de heliotropia dicitur, si herba sui
+<lb ed="#L" n="137"/>nominis inungatur, quemadmodum refert Albertus, secundo
+<lb ed="#L" n="138"/>libro Mineralium : — videtur dicendum quod non, 
+secun<lb ed="#L" break="no" n="139"/>dum Sanctum Thomam. Nam et de ipso lapide dicit 
+Al<lb ed="#L" break="no" n="140"/>bertus quod oportet ut sit sacratus, et quibusdam 
+cha<lb ed="#L" break="no" n="141"/>racteribus mixtus, quod est signum illam virtutem sibi a
+<lb ed="#L" n="142"/>natura non inesse.
+</p>
+            <p>
+               <lb ed="#L" n="143"/>Si autem esse hoc alicui rei naturale inveniretur: - 
+di<lb ed="#L" break="no" n="144"/>cendum esset quod non utuntur magi ea re cui naturaliter
+<lb ed="#L" n="145"/>convenit, ad huiusmodi effectum, sed imaginibus a se factis
+<lb ed="#L" n="146"/>et consecratis: tanquam huiusmodi virtus imaginibus non
+<lb ed="#L" n="147"/>ratione formae naturalis materiae ex qua fiunt conveniat,
+<lb ed="#L" n="148"/>sed ratione consecrationis et characterum, - Quod autem
+<lb ed="#L" n="149"/>inquit Sanctus Thomas, nulli rei naturale posse esse ut
+<lb ed="#L" n="150"/>per ipsam homo invisibilis reddatur, tunc exponendum erit
+<pb ed="#L" n="328"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>quod non intelligitur simpliciter nulli rei hoc naturaliter
+<lb ed="#L" n="2"/>convenire posse, sed nulli rei qua magi utuntur in 
+con<lb ed="#L" break="no" n="3"/>stitutione suarum imaginum, hoc. esse naturale. Et hoc
+<lb ed="#L" n="4"/>supponitur ex doctrina ipsorum de imaginibus, qua 
+do<lb ed="#L" break="no" n="5"/>cent imagines debere fieri ex auro, argento, cera, et 
+huius<lb ed="#L" break="no" n="6"/>modi, quae constat hanc virtutem a natura non habere: et
+<lb ed="#L" n="7"/>nunquam .heliotropiam lapidem nominant, nisi forte 
+aequi<lb ed="#L" break="no" n="8"/>vocando de nomine heliotropiae, ut decipiant.
+</p>
+            <p>
+               <lb ed="#L" n="9"/>V. Quarto. Fieri non potest virtute caelestium 
+corpo<lb ed="#L" break="no" n="10"/>rum quod aliquod inanimatum per se moveatur. Sed hoc
+<lb ed="#L" n="11"/>dicitur fieri per magicas artes. Ergo etc. - Probatur maior.
+<lb ed="#L" n="12"/>Quia moveri per se consequitur ad habere animam. 
+Cui<lb ed="#L" break="no" n="13"/>cumque autem virtute caelestium corporum confertur quod
+<lb ed="#L" n="14"/>posterius est, confertur et quod prius est.
+</p>
+            <p>
+               <lb ed="#L" n="15"/>VI. Si dicatur quod statua illa. magica sortitur aliquod
+<lb ed="#L" n="16"/>principium vitae virtute corporum caelestium : - contra hoc
+<lb ed="#L" n="17"/>arguitur primo. In fabricatione alicuius statuae non abiicitur
+<lb ed="#L" n="18"/>aliqua forma substantialis: quia manet forma cupri, vel 
+ali<lb ed="#L" break="no" n="19"/>cuius huiusmodi. Ergo statua huiusmodi non sortitur 
+ali<lb ed="#L" break="no" n="20"/>quam formam substantialem. Ergo neque aliquod principium
+<lb ed="#L" n="21"/>vitae. - Probatur prima consequentia. Quia impossibile est
+<lb ed="#L" n="22"/>quod aliquid de novo formam substantialem recipiat nisi
+<lb ed="#L" n="23"/>priorem formam abiiciat: cum generatio unius. sit. alterius
+<lb ed="#L" n="24"/>corruptio, — Secunda vero: quia principium vitae in 
+omni<lb ed="#L" break="no" n="25"/>bus viventibus est forma substantialis; cum vivere viventibus
+<lb ed="#L" n="26"/>sit esse, ut dicitur II de Anima. ,
+</p>
+            <p>
+               <lb ed="#L" n="27"/>Ad hanc rationem posset dici, secundum Hermetis 
+sen<lb ed="#L" break="no" n="28"/>tentiam, cuius est praedicta responsio , quod non oportet
+<lb ed="#L" n="29"/>semper ad generationem formae substantialis priorem 
+for<lb ed="#L" break="no" n="30"/>mam corrumpi: sed tunc tantum quando talis. forma sit
+<lb ed="#L" n="31"/>per extractionem de materia. Forma autem huiusmodi
+<lb ed="#L" n="32"/>statuae non fit per eductionem de materia, sed per 
+in<lb ed="#L" break="no" n="33"/>ductionem eius in.materia. Ideo ratio non sequitur.
+</p>
+            <p>
+               <lb ed="#L" n="34"/>Sed haec responsio. nulla est. Tum quia, cum caelum
+<lb ed="#L" n="35"/>sit agens naturale, non potest formam substantialem 
+in<lb ed="#L" break="no" n="36"/>ducere in materiam quae de potentia materiae non 
+edu<lb ed="#L" break="no" n="37"/>catur. - Tum quia plures formae substantiales non possunt
+<lb ed="#L" n="38"/>esse in eodem: ut superius  est ostensum, et in pluribus
+<lb ed="#L" n="39"/>locis Sanctus Thomas ostendit. T
+</p>
+            <p>
+               <lb ed="#L" n="40"/>2. Secundo contra principalem responsionem  arguitur.
+<lb ed="#L" n="41"/>In huiusmodi statuis per se motis non est. sensus tactus.
+<lb ed="#L" n="42"/>Ergo neque omnino sensus. Ergo neque principium vitae.
+<lb ed="#L" n="43"/>Probatur antecedens. Quia tactus non invenitur sine
+<lb ed="#L" n="44"/>organo medie temperato. Talis autem temperies non 
+in<lb ed="#L" break="no" n="45"/>venitur in lapide, cera aut metallo, ex quo fit statua, — 
+Pro<lb ed="#L" break="no" n="46"/>batur prima consequentia. Quia sensus . non. potest . esse
+<lb ed="#L" n="47"/>ubi non est tactus. — Secunda vero: quia ovens, in his
+<lb ed="#L" n="48"/>scilicet quae localiter ex se moventur, est sensus. vel 
+in<lb ed="#L" break="no" n="49"/>tellectus. Intellectus autem in generabilibus et 
+corrupti<lb ed="#L" break="no" n="50"/>bilibus non est sine sensu.
+</p>
+            <p>
+               <lb ed="#L" n="51"/>Diceretur forte ad hanc rationem, secandum. Hermetis
+<lb ed="#L" n="52"/>sententiam, quod huiusmodi statuae non habent sensum
+<lb ed="#L" n="53"/>univocum cum sensibus animalium generabilium, sed 
+alte<lb ed="#L" break="no" n="54"/>rius rationis. .
+</p>
+            <p>
+               <lb ed="#L" n="55"/>Sed hoc est voluntarie dictum, et absque ratione. Quia,
+<lb ed="#L" n="56"/>cum. huiusmodi statuae sint res corruptibiles, necesse est
+<lb ed="#L" n="57"/>in ipsis ponere principium motus, si ex se moveantur,
+<lb ed="#L" n="58"/>tale quale ponit Aristoteles in omnibus corruptibilibus
+<lb ed="#L" n="59"/>quae seipsa movent, scilicet sensum . Et si sensus eiusdem
+<lb ed="#L" n="60"/>rationis ponitur in hominibus et imperfectissimis 
+anima<lb ed="#L" break="no" n="61"/>libus, multo magis eiusdem rationis erit sensus in huiusmodi
+<lb ed="#L" n="62"/>statuis, si animatae sunt et habent sensum, cum ipsis 
+in<lb ed="#L" break="no" n="63"/>fimis animalibus, puta ostreis et conchylibus, quibus 
+secun<lb ed="#L" break="no" n="64"/>dum. materiae mixtionem videntur esse propinquae.
+</p>
+            <p>
+               <lb ed="#L" n="65"/>3. Tertio, Si huiusmodi statuae per solam virtutem 
+caele<lb ed="#L" break="no" n="66"/>stem sortiuntur principium vitae, per quod moveant seipsa,
+<lb ed="#L" n="67"/>oportet ea esse ignobilissima inter animalia. Hoc autem
+<lb ed="#L" n="68"/>est falsum, si per principium vitae intrinsecum. operentur.
+<lb ed="#L" n="69"/>Ergo etc. — Probatur consequentia. Quia viventia. quae
+<lb ed="#L" n="70"/>ex sola virtute. caelesti generantur, sunt ignobiliora inter
+<lb ed="#L" n="71"/>alia animalia: ut patet in genitis ex putrefactione. — 
+Fal<lb ed="#L" break="no" n="72"/>sitas autem consequentis probatur. Quia in earum actibus
+<lb ed="#L" n="73"/>apparent nobiles operationes: cum respondeant de occultis.
+</p>
+            <p>
+               <lb ed="#L" n="74"/>4. Quarto. Si virtute corporum caelestium. sortiuntur
+<lb ed="#L" n="75"/>principium. vitae per artem necromanticam, erit invenire
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="76"/>talium generationem absque huiusmodi arte. Hoc autem
+<lb ed="#L" n="77"/>non invenitur. Ergo etc. — Probatur consequentia. Quia
+<lb ed="#L" n="78"/>effectum naturalem virtute caelestium corporum productum
+<lb ed="#L" n="79"/>contingit inveniri absque artis operatione: sicut, quamvis
+<lb ed="#L" n="80"/>aliquo artificio quis ad generationem ranarum operetur,
+<lb ed="#L" n="81"/>contingit tamen ranas absque omni artificio generari.
+</p>
+            <p>
+               <lb ed="#L" n="82"/>PER HOC EXCLUDITUR positio Hermetis, ab <ref>Augustino 
+re<lb ed="#L" break="no" n="83"/>citata octavo libro de Civitate Dei</ref>. — Quae etiam auctoritate
+<lb ed="#L" n="84"/>divina .in Psalmis destruitur.
+</p>
+            <p>
+               <lb ed="#L" n="85"/>Notat ultimo Sanctus Thomas non esse omnino 
+ne<lb ed="#L" break="no" n="86"/>gandum quin in praedictis ex virtute corporum caelestium
+<lb ed="#L" n="87"/>aliquid virtutis. esse possit, ad illos solos effectus quos
+<lb ed="#L" n="88"/>virtute corporum caelestium aliqua inferiora corpora 
+pro<lb ed="#L" break="no" n="89"/>ducere possunt.
+</p>
+            <p>
+               <lb ed="#L" n="90"/>VII. Sed circa hoc ultimum dictum dubium occurrit.
+<lb ed="#L" n="91"/>Quia Sanctus Thomas II? IF^, q. xcvr, a. 2 , videtur velle
+<lb ed="#L" n="92"/>huiusmodi imaginibus nullam posse inesse virtutem ex
+<lb ed="#L" n="93"/>corporibus: caelestibus, praeter eam quae materiae naturali
+<lb ed="#L" n="94"/>ex qua fiunt convenit.
+</p>
+            <p>
+               <lb ed="#L" n="95"/>In tractatu etiam de Occultis Operibus Naturae , tenet
+<lb ed="#L" n="96"/>non esse possibile ut aliquod individuum alicuius speciei
+<lb ed="#L" n="97"/>aliquam. virtutem permanentem transcendentem | virtutem
+<lb ed="#L" n="98"/>elementorum obtineat praeter alia individua eiusdem 
+spe<lb ed="#L" break="no" n="99"/>ciei, ex hoc quod est sub determinato situ corporum 
+caele<lb ed="#L" break="no" n="100"/>stium. generatum. "d
+</p>
+            <p>
+               <lb ed="#L" n="101"/>Haec autem contradicere videntur iis quae hic dicuntur.
+</p>
+            <p>
+               <lb ed="#L" n="102"/>VIII. Ad huius evidentiam, considerandum est quod, cum
+<lb ed="#L" n="103"/>in rebus artificiatis duo sint, scilicet materia naturalis ex
+<lb ed="#L" n="104"/>qua fiunt, et forma artificiati, quae est accidens, dupliciter
+<lb ed="#L" n="105"/>imagines huiusmodi necromanticas, aut etiam astrologicas,
+<lb ed="#L" n="106"/>considerare possumus: aut scilicet quantum ad materiam,
+<lb ed="#L" n="107"/>puta auri vel argenti, ex qua constituuntur; aut quantum
+<lb ed="#L" n="108"/>ad formam artificialem, quam sortiuntur per artem. Si
+<lb ed="#L" n="109"/>considerentur quantum.ad formam.aut figuram artificialem,
+<lb ed="#L" n="110"/>sic nullam virtutem ex corporum caelestium impressione
+<lb ed="#L" n="111"/>sortiuntur, ut dicitur in II IP5, loco. praeallegato, et 
+Quo<lb ed="#L" break="no" n="112"/>lib. XII, a 14 : cum forma artificialis nihil aliud sit quam
+<lb ed="#L" n="113"/>compositio, ordo et figura, ut dicitur 1 Physic. , quae 
+nul<lb ed="#L" break="no" n="114"/>lius actionis aut passionis principium esse possunt. — Si
+<lb ed="#L" n="115"/>autem considerentur quantum ad materiam ex qua :
+con<lb ed="#L" break="no" n="116"/>stituuntur, sic virtutem aliquam ad agendum habere 
+pos<lb ed="#L" break="no" n="117"/>sunt. Nec inconvenit aliquam virtutem habere imaginem
+<lb ed="#L" n="118"/>ex hoc quod sub tali siderum positione, per aliquam
+<lb ed="#L" n="119"/>transmutationem et alterationem materiae suae, certo 
+quo<lb ed="#L" break="no" n="120"/>dam et determinato modo facta est, quam non habet aliud
+<lb ed="#L" n="121"/>individuum eiusdem speciei. Licet enim. omnem virtutem
+<lb ed="#L" n="122"/>formam specificam consequentem quam unum individuum
+<lb ed="#L" n="123"/>unius speciei, puta auri, habet, omne aliud individuum
+<lb ed="#L" n="124"/>eiusdem speciei. habeat: non inconvenit tamen unum 
+in<lb ed="#L" break="no" n="125"/>dividuum, ex hoc quod sub certa. constellatione alteratur
+<lb ed="#L" n="126"/>et transmutatur ;per liquefactionem aut per quamcumque
+<lb ed="#L" n="127"/>aliam alterationem, aliquam virtutem ex corporum 
+caele<lb ed="#L" break="no" n="128"/>stium impressione sortiri quam alia individua eiusdem 
+spe<lb ed="#L" break="no" n="129"/>ciei, quae sub tali constellatione non sunt illo modo et
+<lb ed="#L" n="130"/>ordine alterata et transmutata, non habent. Aurum enim
+<lb ed="#L" n="131"/>per fusionem et liquefactionem sub aliqua siderum 
+posi<lb ed="#L" break="no" n="132"/>tione in certam figuram redactum, aliquid virtutis habet
+<lb ed="#L" n="133"/>ad aliquos effectus quam aliud aurum .non habet: non
+<lb ed="#L" n="134"/>quidem quod talis virtus ipsi insit figurae, puta Leonis aut .
+<lb ed="#L" n="135"/>Scorpionis aut cuiuscumque alterius caelestis signi, materiae
+<lb ed="#L" n="136"/>naturali impressae; sed inest ipsi auro aut cerae, aut alteri
+<lb ed="#L" n="137"/>materiae ex qua fit imago, ob alterationem et 
+transmu<lb ed="#L" break="no" n="138"/>tationem sui factam sub tali siderum dispositione, 
+con<lb ed="#L" break="no" n="139"/>currente igne. et aliis agentibus particularibus certo modo
+<lb ed="#L" n="140"/>et ordine per artem ipsi materiae applicatis.. Unde et, si
+<lb ed="#L" n="141"/>aliud, aurum simili. modo, sub eadem siderum positione,
+<lb ed="#L" n="142"/>per ignem alteraretur, etiam si figuram illam. non haberet,
+<lb ed="#L" n="143"/>eandem. virtutem nancisceretur.
+</p>
+            <p>
+               <lb ed="#L" n="144"/>2. Inscribuntur autem huiusmodi figurae auro aut aeri
+<lb ed="#L" n="145"/>aut cerae per magos aut astrologos ex pacto expresse vel
+<lb ed="#L" n="146"/>tacite cum daemonibus inito, ad hominum deceptionem:
+<lb ed="#L" n="147"/>ut est de mente Augustini, X de Civitate Dei . Nam cum
+<lb ed="#L" n="148"/>sciant daemones. materiae sic sub tali constellatione 
+alte<lb ed="#L" break="no" n="149"/>ratae ac transmutatae virtutem ex corporum caelestium
+<lb ed="#L" n="150"/>impressione inesse posse, in hanc vanam et superstitiosam
+<pb ed="#L" n="329"/>
+               <cb ed="#L" n="a"/>
+               <lb ed="#L" n="1"/>opinionem homines induxerunt; ut figuram Leonis, aut
+<lb ed="#L" n="2"/>alterius planetae, in materiam illam imprimerent, quasi in
+<lb ed="#L" n="3"/>ipsa figura, quae similis est caelesti figurae, eiusmodi virtus
+<lb ed="#L" n="4"/>insit, et aliquid numinis sit in stellis. Induxerunt etiam
+<lb ed="#L" n="5"/>homines ad credendum tales imagines ex figura impressa
+<lb ed="#L" n="6"/>habere virtutem ex corpore caelesti ad aliquos effectus ad
+<lb ed="#L" n="7"/>quos nullo modo corpora inanimata, etiam virtute 
+corpo<lb ed="#L" break="no" n="8"/>rum caelestium, se extendere possunt, ut ostensum est
+<lb ed="#L" n="9"/>supra: cum tamen ipsi daemones sint qui eiusmodi 
+ef<lb ed="#L" break="no" n="10"/>fectus operantur.
+</p>
+            <p>
+               <lb ed="#L" n="11"/>Signum autem quod ex aliquo pacto cum daemonibus
+<lb ed="#L" n="12"/>fiant praedictae imagines, est quod litterae quaedam, aut
+<lb ed="#L" n="13"/>characteres quidam, ipsis imprimuntur, sine quibus dicunt
+<lb ed="#L" n="14"/>huiusmodi imagines efficaciam non habere; aut aliquas 
+ob<lb ed="#L" break="no" n="15"/>servationes servant quae nihil ex se ad aliquem effectum
+<lb ed="#L" n="16"/>valent, sicut quod statua fodiatur in terra inverso capite,
+<lb ed="#L" n="17"/>et similia. Manifestum est enim, ut dicitur in sequenti
+<lb ed="#L" n="18"/>capite, quod litterae et characteres nullam habent 
+effica<lb ed="#L" break="no" n="19"/>ciam ad agendum, sed sunt tantum signa ad aliquem 
+in<lb ed="#L" break="no" n="20"/>tellectum, cui aut expresse supplicatur aut tacite.
+</p>
+            <p>
+               <lb ed="#L" n="21"/>Potest etiam. dici quod, cum imagines huiusmodi fiunt
+<lb ed="#L" n="22"/>ab iis qui magi non sunt, scd astrologi; et nihil aliud
+<lb ed="#L" n="23"/>observatur in constitutione huiusmodi imaginum nisi ut sub
+<lb ed="#L" n="24"/>certa fiant constellatione: imprimitur caelestis figura, non
+<lb ed="#L" n="25"/>quasi ipsa figura virtutem habeat caelestem, sed ad 
+signi<lb ed="#L" break="no" n="26"/>ficandum quod virtus aliqua inest illi materiae causata ab
+<lb ed="#L" n="27"/>illo sidere cuius figura imagini est impressa.
+</p>
+            <p>
+               <lb ed="#L" n="28"/>3. Quod ergo hoc loco dicitur, huiusmodi imaginibus
+<lb ed="#L" n="29"/>ex virtute caelestium corporum aliquid virtutis inesse posse,
+<lb ed="#L" n="30"/>intelligitur non ratione figurae et formae artificialis, sed
+<lb ed="#L" n="31"/>ratione materiae naturalis alteratae ex qua huiusmodi 
+ima<lb ed="#L" break="no" n="32"/>gines fiunt. - In Secunda Secundae autem, ubi negat
+<lb ed="#L" n="33"/>Sanctus Thomas ipsis aliquid virtutis inesse posse, loquitur
+<lb ed="#L" n="34"/>de ipsis ratione figurae et formae artificiali. Et sic nulla
+<lb ed="#L" n="35"/>est contradictio.
+</p>
+            <p>
+               <lb ed="#L" n="36"/>Quod. vero secundo loco adducitur ex Tractatu de
+<lb ed="#L" n="37"/>Occultis Operibus Naturae, non. obstat proposito. Quia
+<lb ed="#L" n="38"/>ibi, ut ex processu apparet, loquitur Sanctus Thomas de
+<lb ed="#L" n="39"/>virtute substantialem formam consequente. Hic autem sermo
+<lb ed="#L" n="40"/>est de virtute noviter alicui materiae naturali per 
+altera<lb ed="#L" break="no" n="41"/>tionem certo et determinato ordine factam communicata
+<lb ed="#L" n="42"/>et impressa.
+</p>
+            <p>
+               <lb ed="#L" n="43"/>IX. Advertendum autem quod huiusmodi imagines 
+ha<lb ed="#L" break="no" n="44"/>bere virtutem ad illos solos effectus quos virtute corporum
+<lb ed="#L" n="45"/>caelestium aliqua corpora inferiora producere possunt, 
+du<lb ed="#L" break="no" n="46"/>pliciter possumus intelligere. Primo, quod possunt habere
+<lb ed="#L" n="47"/>aliquid virtutis quae aliquibus aliis corporibus est naturalis,
+<lb ed="#L" n="48"/>et non aliam: puta quod, sicut magnes ex ratione propriae
+<lb ed="#L" n="49"/>formae, virtute caeli co-agente, ferrum ad se trahere potest,
+<lb ed="#L" n="50"/>ita alicui imagini, aut necromanticae aut astrologicae, ex
+<lb ed="#L" n="51"/>impressione corporis caelestis dari potest ut ferrum ad se
+<lb ed="#L" n="52"/>trahat. Et sic de aliis virtutibus quae corporibus mixtis
+<lb ed="#L" n="53"/>virtute caeli naturaliter conveniunt. - Secundo, quod non
+<lb ed="#L" n="54"/>solum possunt habere virtutem quae alicui corpori mixto
+<lb ed="#L" n="55"/>secundum suam speciem est naturalis, sed etiam possunt
+<lb ed="#L" n="56"/>habere aliquam virtutem ex caeli impressione quae nulli
+<lb ed="#L" n="57"/>corpori mixto naturaliter convenit, sed tamen haec virtus
+<lb ed="#L" n="58"/>ad illos tantum effectus se potest extendere qui per corpora
+<lb ed="#L" n="59"/>inferiora virtute caeli fieri possunt, non autem ad alios.
+</p>
+            <p>
+               <lb ed="#L" n="60"/>Videtur autem mihi primum sensum esse ad mentem
+<lb ed="#L" n="61"/>Sancti Thomae, non autem secundum. Tum ex modo
+<lb ed="#L" n="62"/>loquendi. — Tum quia superius in una ratione  dixit, quod
+<lb ed="#L" n="63"/>nulli rei est naturale, non posse fieri virtute caelestium
+<lb ed="#L" n="64"/>corporum. Videtur enim velle quod virtus corporea quae
+<lb ed="#L" n="65"/>alicui corpori est naturalis, possit virtute caeli illis 
+imagi<lb ed="#L" break="no" n="66"/>nibus communicari ad similes effectus, licet materiae ex
+<lb ed="#L" n="67"/>qua fit imago, talis virtus ex ratione propriae speciei non
+<lb ed="#L" n="68"/>conveniat: sicut figurae cerae potest virtute caeli 
+com<lb ed="#L" break="no" n="69"/>municari ut sanguinis fluxum reprimat, quod naturaliter
+<cb ed="#L" n="b"/>
+               <lb ed="#L" n="70"/>convenit sapphiro. Unde et de Potentia, q. 6, art. 10, 
+in<lb ed="#L" break="no" n="71"/>quit quod ad aliqua quae magicis artibus fieri videntur,
+<lb ed="#L" n="72"/>scilicet ad quasdam corporum transmutationes, naturalium
+<lb ed="#L" n="73"/>corporum superiorum et inferiorum vires sufficere 
+pos<lb ed="#L" break="no" n="74"/>sunt. Huius autem rei causam esse puto, quia in virtute
+<lb ed="#L" n="75"/>solis continentur omnes formae, tam substantiales quam
+<lb ed="#L" n="76"/>accidentales, quae in corporibus inferioribus inveniuntur.
+<lb ed="#L" n="77"/>Et ideo, sicuti ferro, virtute formae ignis agentis in ipsum,
+<lb ed="#L" n="78"/>communicatur virtus calefactiva, ita et, virtute caeli, in qua
+<lb ed="#L" n="79"/>forma ignis continetur, potest causari aliqua forma 
+acci<lb ed="#L" break="no" n="80"/>dentalis in aliquo qua poterit calefacere, licet illa virtus
+<lb ed="#L" n="81"/>sibi naturalis non sit. 1
+</p>
+            <p>
+               <lb ed="#L" n="82"/>2. Sed tunc dubium remanet. Quia virtutes et actiones
+<lb ed="#L" n="83"/>talium imaginum sunt diuturnae. Virtutes autem et actiones
+<lb ed="#L" n="84"/>quae non sunt alicui naturales, non sunt diuturnae: ut
+<lb ed="#L" n="85"/>patet in aqua calefacta, quae calefacit, sed non diu remanet
+<lb ed="#L" n="86"/>calefacta, ut possit calefacere.
+</p>
+            <p>
+               <lb ed="#L" n="87"/>Respondetur quod, licet virtutes quae sunt alicui praeter
+<lb ed="#L" n="88"/>naturam, si ab agentibus particularibus quibus tales virtutes
+<lb ed="#L" n="89"/>naturaliter conveniunt, in ipso causentur, non sint diuturriae;
+<lb ed="#L" n="90"/>si tamen ab agente universali, cuiusmodi est caelum, 
+im<lb ed="#L" break="no" n="91"/>primantur, possunt esse diuturnae. Quae enim in 
+inferio<lb ed="#L" break="no" n="92"/>ribus virtute superiorum fiunt, non sunt simpliciter praeter
+<lb ed="#L" n="93"/>naturam, licet aliquando sint praeter hanc naturam 
+par<lb ed="#L" break="no" n="94"/>ticularem talis speciei, utpote eius formam specificam non
+<lb ed="#L" n="95"/>consequentia, ut superius  patuit. Et ideo diuturna esse
+<lb ed="#L" n="96"/>possunt. Et per consequens per huiusmodi virtutes, 
+in<lb ed="#L" break="no" n="97"/>quantum in ipsis virtus caelestis salvatur, ad aliquos effectus
+<lb ed="#L" n="98"/>praedictae imagines efficaciam habent.
+</p>
+            <p>
+               <lb ed="#L" n="99"/>Potest etiam dici quod virtus caelestis quae in istis 
+ima<lb ed="#L" break="no" n="100"/>ginibus continetur, non est perpetuo in hac imaginis 
+ma<lb ed="#L" break="no" n="101"/>teria, sed tantum durat quantum influxus illius caelestis
+<lb ed="#L" n="102"/>dispositionis ex quo causata est, durat: sicut virtus. 
+cale<lb ed="#L" break="no" n="103"/>factiva in aqua tantum durat quantum durat in ipsa. virtus
+<lb ed="#L" n="104"/>ignis calefacientis.
+</p>
+            <p>
+               <lb ed="#L" n="105"/>X. Ex his sequitur quod, si virtute naturali aliquorum
+<lb ed="#L" n="106"/>corporum fieri potest ut aliquis ad amorem, odium, 
+con<lb ed="#L" break="no" n="107"/>cupiscentiam, vel aliquid huiusmodi, ex corporali quapiam
+<lb ed="#L" n="108"/>transmutatione concitetur, aut etiam in amentiam cadat;
+<lb ed="#L" n="109"/>quod non est inconveniens dicere per praedictas imagines
+<lb ed="#L" n="110"/>simile virtute caeli fieri posse. Et eadem ratione, si potest
+<lb ed="#L" n="111"/>homo virtute naturali aliquorum corporum ab huiusmodi
+<lb ed="#L" n="112"/>passionibus per corporis transmutationem liberari, non 
+in<lb ed="#L" break="no" n="113"/>convenit dicere idem per huiusmodi imagines virtute caeli
+<lb ed="#L" n="114"/>posse fieri.
+</p>
+            <p>
+               <lb ed="#L" n="115"/>In hoc tamen advertendum est quod, cum corpus non
+<lb ed="#L" n="116"/>agat nisi per contactum eius in quod immediate agit, 
+fa<lb ed="#L" break="no" n="117"/>tuum est dicere quod ex virtute imaginis ad ignem positae
+<lb ed="#L" n="118"/>possit mulier aliqua in alia domo existens desiccari et 
+tor<lb ed="#L" break="no" n="119"/>queri. Oportet enim, si qua virtus^ad aliquam corporis
+<lb ed="#L" n="120"/>transmutationem virtute caeli imagini adest, ut ipsa imago
+<lb ed="#L" n="121"/>contactu quodam, sive mediato sive immediato, corpus
+<lb ed="#L" n="122"/>alterandum tangat: non enim magnes attrahit ad se 
+fer<lb ed="#L" break="no" n="123"/>rum nisi sit in tanta propinquitate quod ipsum ferrum aut
+<lb ed="#L" n="124"/>per se immediate tangat, aut per aerem in quo eius virtus
+<lb ed="#L" n="125"/>recipiatur.
+</p>
+            <p>
+               <lb ed="#L" n="126"/>Haec autem dixerim de imaginibus, salvo semper 
+me<lb ed="#L" break="no" n="127"/>liori iudicio, cui me et in hoc et in aliis libenter submitto.
+</p>
+            <p>
+               <lb ed="#L" n="128"/>Attendendum autem quod hoc ultimum dictum  apposuit
+<lb ed="#L" n="129"/>Sanctus Thomas pro solutione rationis qua a signo 
+op<lb ed="#L" break="no" n="130"/>posita opinio arguebat . Cum enim arguebatur opera 
+ma<lb ed="#L" break="no" n="131"/>gorum virtute corporum caelestium fieri, hoc videlicet signo,
+<lb ed="#L" n="132"/>quod a magis stellarum certus situs consideratur, et 
+cor<lb ed="#L" break="no" n="133"/>poralium rerum adhibentur auxilia: respondetur quod hoc
+<lb ed="#L" n="134"/>ideo fit quia ad aliquos magorum effectus et corpora
+<lb ed="#L" n="135"/>caelestia et alia corpora operantur. Praeter hos tamen 
+ef<lb ed="#L" break="no" n="136"/>fectus, alia opera per magos fiunt ad quae virtus corporea
+<lb ed="#L" n="137"/>non se extendit, ut in rationibus patuit. Et ideo oportet
+<lb ed="#L" n="138"/>ea in aliquem intellectum referre.
+</p>
+         </div>
+      </body>
+   </text>
+</TEI>
