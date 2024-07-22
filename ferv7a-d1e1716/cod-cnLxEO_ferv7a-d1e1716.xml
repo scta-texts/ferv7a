@@ -1,239 +1,239 @@
 <?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
-   <teiHeader>
-      <fileDesc>
-         <titleStmt>
-            <title>Capitulum 1</title>
-            <author ref="#per-ferq7p">Francesco Silvestri</author>
-            <respStmt>
-               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
-               <resp>Transcription Editor</resp>
-               <resp>TEI Encoder</resp>
-            </respStmt>
-         </titleStmt>
-         <editionStmt>
-            <edition n="0.0.0-dev">
-               <title>Capitulum 1</title>
-               <date when="2024-07-22">July 07, 2024</date>
-            </edition>
-         </editionStmt>
-         <publicationStmt>
-            <authority>SCTA</authority>
-            <availability status="free">
-               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
-               </p>
-            </availability>
-         </publicationStmt>
-         <sourceDesc>
-            <listWit>
-               <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
-            </listWit>
-         </sourceDesc>
-      </fileDesc>
-      <encodingDesc>
-         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
-         <editorialDecl>
-            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
-       guidelines for a diplomatic edition.</p>
-         </editorialDecl>
-      </encodingDesc>
-      <revisionDesc status="draft">
-         <listChange>
-            <change when="2024-07-22" status="draft" n="0.0.0">
-               <p>Created file for the first time.</p>
-            </change>
-         </listChange>
-      </revisionDesc>
-   </teiHeader>
-   <text xml:lang="la">
-      <front>
-         <div xml:id="starts-on">
-            <pb ed="#L" n="4"/>
-            <cb ed="#L" n="a"/>
-         </div>
-      </front>
-      <body>
-         <div xml:id="ferv7a-d1e1716"><!-- ferv7a-l3c1 -->
-            <head xml:id="ferv7a-d1e1716-Hd1e101">Capitulum 1</head>
-            <p xml:id="ferv7a-d1e1716-d1e103">
-               <cb ed="#L" n="c"/>
-               <lb ed="#L" n="39" type="fixed=4"/>Commentaria Ferrariensis
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e110">
-               <cb ed="#L" n="d"/>
-               <lb ed="#L" n="40"/>EXPEDITO SECUNDO LIBRO, in quo Sanctus Thomas de
-<lb ed="#L" n="41"/>processu creaturarum a Deo determinavit, nunc 
-Ter<lb ed="#L" break="no" n="42"/>tius explanandus. est Liber, in quo de ordine creaturarum
-<lb ed="#L" n="43"/>in Deum sicut in finem determinatur.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e123">
-               <lb ed="#L" n="44"/>Circa hoc autem duo facit Sanctus Thomas: primo,
-<lb ed="#L" n="45"/>ponit Prooemium ; secundo, exequitur propositum.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e130">
-               <lb ed="#L" n="46"/>Prooemium in duas dividitur partes : primo enim 
-osten<lb ed="#L" break="no" n="47"/>ditur Deum habere regimen creaturarum ; secundo, divisio
-<lb ed="#L" n="48"/>huius libri concluditur.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e140">
-               <lb ed="#L" n="49"/>I. Quantum ad primum, supposito ex praecedentibus
-<lb ed="#L" n="50"/>Deum esse primum entium, et omnium esse primum 
-princi<lb ed="#L" break="no" n="51"/>pium, duas ponit conclusiones Sanctus Thomas. Prima est :
-<lb ed="#L" n="52"/>Deus habet dominium perfectum super res ab ipso productas.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e151">
-               <lb ed="#L" n="53"/>Probatur quoad primam partem sic. Deus tribuit esse
-<lb ed="#L" n="54"/>alis per arbitrium suae voluntatis, Ergo habet omnium
-<lb ed="#L" n="55"/>factorum suorum dominium. — Probatur consequentia. Quia
-<lb ed="#L" n="56"/>super ea quae nostrae voluntati subduntur, dominamur.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e162">
-               <lb ed="#L" n="57"/>Quoad secundam vero partem probatur, quia non 
-in<lb ed="#L" break="no" n="58"/>diget exterioris agentis adminiculo, nec materiae 
-funda<lb ed="#L" break="no" n="59"/>mento, cum sit totius [esse] universalis effector, idest, 
-pro<lb ed="#L" break="no" n="60"/>ductor omnium quae sunt in re.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e173">
-               <lb ed="#L" n="61"/>2. Circa istam propositionem, Super ea quae nostrae
-<lb ed="#L" n="62"/>voluntati subduntur, dominamur, attendendum quod 
-in<lb ed="#L" break="no" n="63"/>telligitur quantum ad illud secundum quod nostrae 
-vo<lb ed="#L" break="no" n="64"/>luntati subduntur. Contingit enim quod aliqua subduntur
-<lb ed="#L" n="65"/>nostrae voluntati. quantum ad unum, non autem quantum
-<lb ed="#L" n="66"/>ad aliud. Puta, domus aliqua subest voluntati alicuius
-<lb ed="#L" n="67"/>quantum ad usum, non autem quantum ad ipsam 
-sub<lb ed="#L" break="no" n="68"/>stantiam domus : quia in libertate sua est habitare domum
-<lb ed="#L" n="69"/>aut non habitare, et concedere usum alteri aut non 
-con<lb ed="#L" break="no" n="70"/>cedere, unde est dominus domus quantum ad usum, non
-<lb ed="#L" n="71"/>autem quantum ad substantiam. Eodem modo, si. aliquis
-<lb ed="#L" n="72"/>sit voluntati alicuius subditus quantum ad directionem et
-<lb ed="#L" n="73"/>gubernationem ipsius, ille est dominus eius quantum ad
-<lb ed="#L" n="74"/>directionem et gubernationem : non autem quantum ad
-<lb ed="#L" n="75"/>alia, utpote non se extendens universaliter ad omnia quae
-<lb ed="#L" n="76"/>sunt in re. Unde hoc dominium est incompletum et. 
-im<lb ed="#L" break="no" n="77"/>perfectum. Quia autem omnia voluntati divinae subduntur
-<lb ed="#L" n="78"/>universaliter, quantum ad omnia quae sunt in re; et sic
-<lb ed="#L" n="79"/>illi subduntur quod per solam voluntatem, absque alterius
-<lb ed="#L" n="80"/>adminiculo, produci possunt: ideo Deus plenum et per-
-<cb ed="#L" n="e"/>
-               <lb ed="#L" n="81"/>fectum dominium super omnia creata habet, ut videlicet
-<lb ed="#L" n="82"/>omnia secundum ipsius dispositionem in re eveniant.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e225">
-               <lb ed="#L" n="83"/>II. Secunda conclusio est: Deus est omnium 
-creatu<lb ed="#L" break="no" n="84"/>rarum rector perfectus. Hanc conclusionem primo 
-pro<lb ed="#L" break="no" n="85"/>bat; secundo, manifestat diversos modos regiminis Dei.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e234">
-               <lb ed="#L" n="86"/>Probat autem primam partem hac ratione. Deus ordinat
-<lb ed="#L" n="87"/>res in finem, et earum actiones dirigit. Ergo est earum
-<lb ed="#L" n="88"/>rector. - Probatur antecedens quoad res: quia ea quae
-<lb ed="#L" n="89"/>per voluntatem agentis producuntur, unumquodque . ab
-<lb ed="#L" n="90"/>agente in finem aliquem ordinatur; cum bonum et finis
-<lb ed="#L" n="91"/>sit proprium obiectum voluntatis. Quo vero ad actiones:
-<lb ed="#L" n="92"/>quia unumquodque et per suam actionem finem ultimum
-<lb ed="#L" n="93"/>consequitur, et eam oportet dirigi ab eo qui principia
-<lb ed="#L" n="94"/>rebus dedit per quae agunt.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e257">
-               <lb ed="#L" n="95"/>Secundam vero partem probat, Deus est perfectus in
-<lb ed="#L" n="96"/>essendo et causando, Ergo: est et in regendo perfectus.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e264">
-               <lb ed="#L" n="97"/>Ad evidentiam eorum quae circa hanc conclusionem
-<lb ed="#L" n="98"/>dicuntur, advertendum quod supponit Sanctus Thomas
-<lb ed="#L" n="99"/>quod ordinare res in finem dirigendo operationes ad 
-fi<lb ed="#L" break="no" n="100"/>nem et dando eis principia per quae operantur, sit ipsas
-<lb ed="#L" n="101"/>res regere et gubernare. Hoc enim tanquam manifestum
-<lb ed="#L" n="102"/>supponit, et tanquam nominis rationem dicens, ut patet
-<lb ed="#L" n="103"/>Prima, q. cri, a. 1. Unde et ibidem articulo 4, inquit quod
-<lb ed="#L" n="104"/>duo sunt effectus generales gubernationis divinae, scilicet
-<lb ed="#L" n="105"/>conservatio rerum in bono, et motio earum ad bonum.
-<lb ed="#L" n="106"/>Et ideo ex eo quod Deus res a se productas ordinat in
-<lb ed="#L" n="107"/>finem, concludit immediate ipsum esse rectorem omnium,
-<lb ed="#L" n="108"/>suppressa maiore, quam veluti manifestam praetermittit.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e293">
-               <lb ed="#L" n="109"/>III. Secundo loco ostendit quam diversus sit huius 
-re<lb ed="#L" break="no" n="110"/>giminis effectus . Et ponit quod diversimode in diversis
-<lb ed="#L" n="111"/>ostenditur, Quia quaedam non solum diriguntur, sed etiam
-<lb ed="#L" n="112"/>seipsa in finem dirigunt, secundum proprias actiones; et
-<lb ed="#L" n="113"/>ad consecutionem ultimi finis admittuntur si in sua 
-dire<lb ed="#L" break="no" n="114"/>ctione divino regimini subdantur; repelluntur autem si
-<lb ed="#L" n="115"/>secus egerint. - Quaedam vero ab alio tantum diriguntur.
-<lb ed="#L" n="116"/>Sed haec in duplici genere sunt. Nam quaedam, sicut in
-<lb ed="#L" n="117"/>esse naturali defectum pati non possunt, ita in propriis
-<lb ed="#L" n="118"/>actionibus indeficienter regimini primi regentis 
-subiiciun<lb ed="#L" break="no" n="119"/>tur, et a suo ordine nunquam exorbitant: — supple, nisi
-<lb ed="#L" n="120"/>aliquid in. eis praeter naturam aut supra naturam Deus
-<lb ed="#L" n="121"/>operetur. Huiusmodi sunt corpora caelestia, quorum motus
-<pb ed="#L" n="5"/>
-               <cb ed="#L" n="a"/>
-               <lb ed="#L" n="1"/>semper uniformiter procedant. - Quaedam. vero, sicut in
-<lb ed="#L" n="2"/>esse naturae pati possunt defectum, ita et in actibus 
-pro<lb ed="#L" break="no" n="3"/>priis: qui tamen defectus per aliquod bonum inde 
-prove<lb ed="#L" break="no" n="4"/>niens compensatur. Talia autem sunt corpora corruptibilia:
-<lb ed="#L" n="5"/>haec enim, sicut ab ipso Deo condita sunt, ita potestati
-<lb ed="#L" n="6"/>eius perfecte subduntur, quamvis videantur ab ordine etm
-<lb ed="#L" n="7"/>regiminis. exorbitare.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e343">
-               <lb ed="#L" n="8"/>2. Hic duo. sunt attendenda. Primum est, quod res 
-or<lb ed="#L" break="no" n="9"/>dinata in finem ab alio, ex motione ipsius habet consequi
-<lb ed="#L" n="10"/>finem, quandiu sub ordine illius moventis perseverat: sed
-<lb ed="#L" n="11"/>quando ab intentione et motione primi moventis 
-digre<lb ed="#L" break="no" n="12"/>ditur, tunc finem ad quem ab agente movetur, non 
-con<lb ed="#L" break="no" n="13"/>sequitur. Quandiu enim sagitta subditur motioni recte 
-sa<lb ed="#L" break="no" n="14"/>gittantis, finem ad quem a sagittante dirigitur consequitur:
-<lb ed="#L" n="15"/>sed si ex aliquo impellente non substet ordini motionis
-<lb ed="#L" n="16"/>a sagittante, sed alio deflectatur, finem consequi non 
-po<lb ed="#L" break="no" n="17"/>terit. Idemque eveniret.si sagitta esset aliquod movens
-<lb ed="#L" n="18"/>seipsum, et seipsam moveret non secundum impetum et
-<lb ed="#L" n="19"/>motionem sagittantis, sed contra talem motionem, aut 
-ali<lb ed="#L" break="no" n="20"/>quo motu ab illo deviante. Oportet enim quod ad aliquem
-<lb ed="#L" n="21"/>finem ab aliquo dirigitur, subdi motioni dirigentis et illam
-<lb ed="#L" n="22"/>sequi, si finem talem assequi debeat: non enim in finem
-<lb ed="#L" n="23"/>superioris agentis aliquid pervenire potest nisi ex motione
-<lb ed="#L" n="24"/>talis agentis, cum finem et agentem oporteat 
-proportio<lb ed="#L" break="no" n="25"/>nari; nam nunquam puer finem ad quem eum paedagogus
-<lb ed="#L" n="26"/>dirigit, ex tali directione consequitur, nisi directioni tali
-<lb ed="#L" n="27"/>subiiciatur. Propterea bene inquit Sanctus Thomas quod ea
-<cb ed="#L" n="b"/>
-               <lb ed="#L" n="28"/>quae se dirigunt in finem, si in sua directione divino 
-regi<lb ed="#L" break="no" n="29"/>mini subdantur, ad ultimum finem consequendum ex divino
-<lb ed="#L" n="30"/>regimine admittuntur, repelluntur autem si secus egerint.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e398">
-               <lb ed="#L" n="31"/>Secundum est, quod corruptibilia, quamvis ab ordine
-<lb ed="#L" n="32"/>sibi dato a primo regente exorbitent, puta cuin arbor 
-sta<lb ed="#L" break="no" n="33"/>tuto tempore non floret, non tamen. propter hoc a divino
-<lb ed="#L" n="34"/>regimine subtrahuntur. Tum quia sic reguntur ut deficere
-<lb ed="#L" n="35"/>possint. et impediri. Tum quia etiam ex tali exorbitantia
-<lb ed="#L" n="36"/>aliquid a Deo elicitur: et sic, etiam dum talia corpora a
-<lb ed="#L" n="37"/>naturali ordine exorbitant, ipsam exorbitantiam Deus 
-or<lb ed="#L" break="no" n="38"/>dinat, loco illius bonum aliquod substituendo. — Sed de
-<lb ed="#L" n="39"/>iis omnibus inferius, cum de divina agetur providentia,
-<lb ed="#L" n="40"/>amplior sermo erit ,
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e422">
-               <lb ed="#L" n="41"/>Postremo, utramque conclusionem simul auctoritate
-<lb ed="#L" n="42"/>Psalmi, Deus Magnus Dominus etc., quam diligenter . 
-ex<lb ed="#L" break="no" n="43"/>planat, confirmat.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e432">
-               <lb ed="#L" n="44"/>IV. Quantum ad secundum , concludit intentionem
-<lb ed="#L" n="45"/>huius Tertii Libri, eiusque generalem divisionem. Et ait
-<lb ed="#L" n="46"/>quod, cum. in antecedentibus determinatum sit de 
-perfe<lb ed="#L" break="no" n="47"/>ctione divinae naturae ac etiam de perfectione potestatis
-<lb ed="#L" n="48"/>ipsius, in hoc Tertio Libro de perfecta auctoritate sive
-<lb ed="#L" n="49"/>dignitate ipsius, secundum quod est omnium rector et finis;
-<lb ed="#L" n="50"/>agendum est.
-</p>
-            <p xml:id="ferv7a-d1e1716-d1e450">
-               <lb ed="#L" n="51"/>Circa hoc autem, agendum est prinio de Deo secundum
-<lb ed="#L" n="52"/>quod est rerum omnium finis; secundo, de eius regimine,
-<lb ed="#L" n="53"/>cap. Lxiv; tertio, specialiter de eius;regimine circa naturas
-<lb ed="#L" n="54"/>intellectuales.
-</p>
-         </div>
-      </body>
-   </text>
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Capitulum 1</title>
+        <author ref="#per-ferq7p">Francesco Silvestri</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Capitulum 1</title>
+          <date when="2024-07-22">July 07, 2024</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="L" n="cod-cnLxEO">Rome, 1926, Vol. 13</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2024-07-22" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#L" n="4"/>
+        <cb ed="#L" n="a"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ferv7a-d1e1716"><!-- ferv7a-l3c1 -->
+        <head xml:id="ferv7a-d1e1716-Hd1e101">Capitulum 1</head>
+        <p xml:id="ferv7a-d1e1716-d1e103">
+          <cb ed="#L" n="c"/>
+          <lb ed="#L" n="39" type="fixed=4"/>Commentaria Ferrariensis
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e110">
+          <cb ed="#L" n="d"/>
+          <lb ed="#L" n="40"/>EXPEDITO SECUNDO LIBRO, in quo Sanctus Thomas de
+          <lb ed="#L" n="41"/>processu creaturarum a Deo determinavit, nunc 
+          Ter<lb ed="#L" break="no" n="42"/>tius explanandus. est Liber, in quo de ordine creaturarum
+          <lb ed="#L" n="43"/>in Deum sicut in finem determinatur.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e123">
+          <lb ed="#L" n="44"/>Circa hoc autem duo facit Sanctus Thomas: primo,
+          <lb ed="#L" n="45"/>ponit Prooemium ; secundo, exequitur propositum.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e130">
+          <lb ed="#L" n="46"/>Prooemium in duas dividitur partes : primo enim 
+          osten<lb ed="#L" break="no" n="47"/>ditur Deum habere regimen creaturarum ; secundo, divisio
+          <lb ed="#L" n="48"/>huius libri concluditur.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e140">
+          <lb ed="#L" n="49"/>I. Quantum ad primum, supposito ex praecedentibus
+          <lb ed="#L" n="50"/>Deum esse primum entium, et omnium esse primum 
+          princi<lb ed="#L" break="no" n="51"/>pium, duas ponit conclusiones Sanctus Thomas. Prima est :
+          <lb ed="#L" n="52"/>Deus habet dominium perfectum super res ab ipso productas.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e151">
+          <lb ed="#L" n="53"/>Probatur quoad primam partem sic. Deus tribuit esse
+          <lb ed="#L" n="54"/>alis per arbitrium suae voluntatis, Ergo habet omnium
+          <lb ed="#L" n="55"/>factorum suorum dominium. — Probatur consequentia. Quia
+          <lb ed="#L" n="56"/>super ea quae nostrae voluntati subduntur, dominamur.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e162">
+          <lb ed="#L" n="57"/>Quoad secundam vero partem probatur, quia non 
+          in<lb ed="#L" break="no" n="58"/>diget exterioris agentis adminiculo, nec materiae 
+          funda<lb ed="#L" break="no" n="59"/>mento, cum sit totius [esse] universalis effector, idest, 
+          pro<lb ed="#L" break="no" n="60"/>ductor omnium quae sunt in re.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e173">
+          <lb ed="#L" n="61"/>2. Circa istam propositionem, Super ea quae nostrae
+          <lb ed="#L" n="62"/>voluntati subduntur, dominamur, attendendum quod 
+          in<lb ed="#L" break="no" n="63"/>telligitur quantum ad illud secundum quod nostrae 
+          vo<lb ed="#L" break="no" n="64"/>luntati subduntur. Contingit enim quod aliqua subduntur
+          <lb ed="#L" n="65"/>nostrae voluntati. quantum ad unum, non autem quantum
+          <lb ed="#L" n="66"/>ad aliud. Puta, domus aliqua subest voluntati alicuius
+          <lb ed="#L" n="67"/>quantum ad usum, non autem quantum ad ipsam 
+          sub<lb ed="#L" break="no" n="68"/>stantiam domus : quia in libertate sua est habitare domum
+          <lb ed="#L" n="69"/>aut non habitare, et concedere usum alteri aut non 
+          con<lb ed="#L" break="no" n="70"/>cedere, unde est dominus domus quantum ad usum, non
+          <lb ed="#L" n="71"/>autem quantum ad substantiam. Eodem modo, si. aliquis
+          <lb ed="#L" n="72"/>sit voluntati alicuius subditus quantum ad directionem et
+          <lb ed="#L" n="73"/>gubernationem ipsius, ille est dominus eius quantum ad
+          <lb ed="#L" n="74"/>directionem et gubernationem : non autem quantum ad
+          <lb ed="#L" n="75"/>alia, utpote non se extendens universaliter ad omnia quae
+          <lb ed="#L" n="76"/>sunt in re. Unde hoc dominium est incompletum et. 
+          im<lb ed="#L" break="no" n="77"/>perfectum. Quia autem omnia voluntati divinae subduntur
+          <lb ed="#L" n="78"/>universaliter, quantum ad omnia quae sunt in re; et sic
+          <lb ed="#L" n="79"/>illi subduntur quod per solam voluntatem, absque alterius
+          <lb ed="#L" n="80"/>adminiculo, produci possunt: ideo Deus plenum et per-
+          <cb ed="#L" n="e"/>
+          <lb ed="#L" n="81"/>fectum dominium super omnia creata habet, ut videlicet
+          <lb ed="#L" n="82"/>omnia secundum ipsius dispositionem in re eveniant.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e225">
+          <lb ed="#L" n="83"/>II. Secunda conclusio est: Deus est omnium 
+          creatu<lb ed="#L" break="no" n="84"/>rarum rector perfectus. Hanc conclusionem primo 
+          pro<lb ed="#L" break="no" n="85"/>bat; secundo, manifestat diversos modos regiminis Dei.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e234">
+          <lb ed="#L" n="86"/>Probat autem primam partem hac ratione. Deus ordinat
+          <lb ed="#L" n="87"/>res in finem, et earum actiones dirigit. Ergo est earum
+          <lb ed="#L" n="88"/>rector. - Probatur antecedens quoad res: quia ea quae
+          <lb ed="#L" n="89"/>per voluntatem agentis producuntur, unumquodque . ab
+          <lb ed="#L" n="90"/>agente in finem aliquem ordinatur; cum bonum et finis
+          <lb ed="#L" n="91"/>sit proprium obiectum voluntatis. Quo vero ad actiones:
+          <lb ed="#L" n="92"/>quia unumquodque et per suam actionem finem ultimum
+          <lb ed="#L" n="93"/>consequitur, et eam oportet dirigi ab eo qui principia
+          <lb ed="#L" n="94"/>rebus dedit per quae agunt.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e257">
+          <lb ed="#L" n="95"/>Secundam vero partem probat, Deus est perfectus in
+          <lb ed="#L" n="96"/>essendo et causando, Ergo: est et in regendo perfectus.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e264">
+          <lb ed="#L" n="97"/>Ad evidentiam eorum quae circa hanc conclusionem
+          <lb ed="#L" n="98"/>dicuntur, advertendum quod supponit Sanctus Thomas
+          <lb ed="#L" n="99"/>quod ordinare res in finem dirigendo operationes ad 
+          fi<lb ed="#L" break="no" n="100"/>nem et dando eis principia per quae operantur, sit ipsas
+          <lb ed="#L" n="101"/>res regere et gubernare. Hoc enim tanquam manifestum
+          <lb ed="#L" n="102"/>supponit, et tanquam nominis rationem dicens, ut patet
+          <lb ed="#L" n="103"/>Prima, q. cri, a. 1. Unde et ibidem articulo 4, inquit quod
+          <lb ed="#L" n="104"/>duo sunt effectus generales gubernationis divinae, scilicet
+          <lb ed="#L" n="105"/>conservatio rerum in bono, et motio earum ad bonum.
+          <lb ed="#L" n="106"/>Et ideo ex eo quod Deus res a se productas ordinat in
+          <lb ed="#L" n="107"/>finem, concludit immediate ipsum esse rectorem omnium,
+          <lb ed="#L" n="108"/>suppressa maiore, quam veluti manifestam praetermittit.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e293">
+          <lb ed="#L" n="109"/>III. Secundo loco ostendit quam diversus sit huius 
+          re<lb ed="#L" break="no" n="110"/>giminis effectus . Et ponit quod diversimode in diversis
+          <lb ed="#L" n="111"/>ostenditur, Quia quaedam non solum diriguntur, sed etiam
+          <lb ed="#L" n="112"/>seipsa in finem dirigunt, secundum proprias actiones; et
+          <lb ed="#L" n="113"/>ad consecutionem ultimi finis admittuntur si in sua 
+          dire<lb ed="#L" break="no" n="114"/>ctione divino regimini subdantur; repelluntur autem si
+          <lb ed="#L" n="115"/>secus egerint. - Quaedam vero ab alio tantum diriguntur.
+          <lb ed="#L" n="116"/>Sed haec in duplici genere sunt. Nam quaedam, sicut in
+          <lb ed="#L" n="117"/>esse naturali defectum pati non possunt, ita in propriis
+          <lb ed="#L" n="118"/>actionibus indeficienter regimini primi regentis 
+          subiiciun<lb ed="#L" break="no" n="119"/>tur, et a suo ordine nunquam exorbitant: — supple, nisi
+          <lb ed="#L" n="120"/>aliquid in. eis praeter naturam aut supra naturam Deus
+          <lb ed="#L" n="121"/>operetur. Huiusmodi sunt corpora caelestia, quorum motus
+          <pb ed="#L" n="5"/>
+          <cb ed="#L" n="a"/>
+          <lb ed="#L" n="1"/>semper uniformiter procedant. - Quaedam. vero, sicut in
+          <lb ed="#L" n="2"/>esse naturae pati possunt defectum, ita et in actibus 
+          pro<lb ed="#L" break="no" n="3"/>priis: qui tamen defectus per aliquod bonum inde 
+          prove<lb ed="#L" break="no" n="4"/>niens compensatur. Talia autem sunt corpora corruptibilia:
+          <lb ed="#L" n="5"/>haec enim, sicut ab ipso Deo condita sunt, ita potestati
+          <lb ed="#L" n="6"/>eius perfecte subduntur, quamvis videantur ab ordine etm
+          <lb ed="#L" n="7"/>regiminis. exorbitare.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e343">
+          <lb ed="#L" n="8"/>2. Hic duo. sunt attendenda. Primum est, quod res 
+          or<lb ed="#L" break="no" n="9"/>dinata in finem ab alio, ex motione ipsius habet consequi
+          <lb ed="#L" n="10"/>finem, quandiu sub ordine illius moventis perseverat: sed
+          <lb ed="#L" n="11"/>quando ab intentione et motione primi moventis 
+          digre<lb ed="#L" break="no" n="12"/>ditur, tunc finem ad quem ab agente movetur, non 
+          con<lb ed="#L" break="no" n="13"/>sequitur. Quandiu enim sagitta subditur motioni recte 
+          sa<lb ed="#L" break="no" n="14"/>gittantis, finem ad quem a sagittante dirigitur consequitur:
+          <lb ed="#L" n="15"/>sed si ex aliquo impellente non substet ordini motionis
+          <lb ed="#L" n="16"/>a sagittante, sed alio deflectatur, finem consequi non 
+          po<lb ed="#L" break="no" n="17"/>terit. Idemque eveniret.si sagitta esset aliquod movens
+          <lb ed="#L" n="18"/>seipsum, et seipsam moveret non secundum impetum et
+          <lb ed="#L" n="19"/>motionem sagittantis, sed contra talem motionem, aut 
+          ali<lb ed="#L" break="no" n="20"/>quo motu ab illo deviante. Oportet enim quod ad aliquem
+          <lb ed="#L" n="21"/>finem ab aliquo dirigitur, subdi motioni dirigentis et illam
+          <lb ed="#L" n="22"/>sequi, si finem talem assequi debeat: non enim in finem
+          <lb ed="#L" n="23"/>superioris agentis aliquid pervenire potest nisi ex motione
+          <lb ed="#L" n="24"/>talis agentis, cum finem et agentem oporteat 
+          proportio<lb ed="#L" break="no" n="25"/>nari; nam nunquam puer finem ad quem eum paedagogus
+          <lb ed="#L" n="26"/>dirigit, ex tali directione consequitur, nisi directioni tali
+          <lb ed="#L" n="27"/>subiiciatur. Propterea bene inquit Sanctus Thomas quod ea
+          <cb ed="#L" n="b"/>
+          <lb ed="#L" n="28"/>quae se dirigunt in finem, si in sua directione divino 
+          regi<lb ed="#L" break="no" n="29"/>mini subdantur, ad ultimum finem consequendum ex divino
+          <lb ed="#L" n="30"/>regimine admittuntur, repelluntur autem si secus egerint.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e398">
+          <lb ed="#L" n="31"/>Secundum est, quod corruptibilia, quamvis ab ordine
+          <lb ed="#L" n="32"/>sibi dato a primo regente exorbitent, puta cuin arbor 
+          sta<lb ed="#L" break="no" n="33"/>tuto tempore non floret, non tamen. propter hoc a divino
+          <lb ed="#L" n="34"/>regimine subtrahuntur. Tum quia sic reguntur ut deficere
+          <lb ed="#L" n="35"/>possint. et impediri. Tum quia etiam ex tali exorbitantia
+          <lb ed="#L" n="36"/>aliquid a Deo elicitur: et sic, etiam dum talia corpora a
+          <lb ed="#L" n="37"/>naturali ordine exorbitant, ipsam exorbitantiam Deus 
+          or<lb ed="#L" break="no" n="38"/>dinat, loco illius bonum aliquod substituendo. — Sed de
+          <lb ed="#L" n="39"/>iis omnibus inferius, cum de divina agetur providentia,
+          <lb ed="#L" n="40"/>amplior sermo erit ,
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e422">
+          <lb ed="#L" n="41"/>Postremo, utramque conclusionem simul auctoritate
+          <lb ed="#L" n="42"/>Psalmi, Deus Magnus Dominus etc., quam diligenter . 
+          ex<lb ed="#L" break="no" n="43"/>planat, confirmat.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e432">
+          <lb ed="#L" n="44"/>IV. Quantum ad secundum , concludit intentionem
+          <lb ed="#L" n="45"/>huius Tertii Libri, eiusque generalem divisionem. Et ait
+          <lb ed="#L" n="46"/>quod, cum. in antecedentibus determinatum sit de 
+          perfe<lb ed="#L" break="no" n="47"/>ctione divinae naturae ac etiam de perfectione potestatis
+          <lb ed="#L" n="48"/>ipsius, in hoc Tertio Libro de perfecta auctoritate sive
+          <lb ed="#L" n="49"/>dignitate ipsius, secundum quod est omnium rector et finis;
+          <lb ed="#L" n="50"/>agendum est.
+        </p>
+        <p xml:id="ferv7a-d1e1716-d1e450">
+          <lb ed="#L" n="51"/>Circa hoc autem, agendum est prinio de Deo secundum
+          <lb ed="#L" n="52"/>quod est rerum omnium finis; secundo, de eius regimine,
+          <lb ed="#L" n="53"/>cap. Lxiv; tertio, specialiter de eius;regimine circa naturas
+          <lb ed="#L" n="54"/>intellectuales.
+        </p>
+      </div>
+    </body>
+  </text>
 </TEI>
